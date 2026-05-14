@@ -226,7 +226,10 @@ calc resource<levelled_description> lowest_level_description(name = "Lowest leve
 
 calc string first_description_text(name = "First description text") =
   when {
-    isEmpty(descriptions) -> "No description",
+    // PF1e fallback: if the pf2e-style levelled `descriptions` array is empty,
+    // surface the plain `description` string (PF1e feats use a single short
+    // description, not per-level entries).
+    isEmpty(descriptions) -> (if !isEmpty(description) then description else "No description"),
     defined(stat = "$character") -> current_level_levelled_description?.description ?? findFirst(
       map(
         sortBy(descriptions, sort_by_selector = ($sortByValue) => $sortByValue.level),
@@ -277,8 +280,10 @@ calc string[] applicable_description_texts_for_current_level(name = "Applicable 
 
 calc string current_level_description(name = "Current level description") =
   if defined(stat = "$character")
+    // PF1e fallback: empty `descriptions` → fall back to plain `description`
+    // string (the previous "" return rendered an empty feat popup).
     then (if isEmpty(descriptions)
-        then ""
+        then description
         else (if isEmpty(applicable_description_texts_for_current_level)
             then current_level_levelled_description?.description ?? first_description_text
             else joinToString(applicable_description_texts_for_current_level, separator = "\n\n")))

@@ -1,5 +1,8 @@
 // PF1e: 35 base skills. Each row shows total = ranks + ability mod + class skill bonus (if any) + misc.
-// Stage-3 inline: skillListRow expanded per stdlib body. Color args kept at "default".
+// Stage-3 inline: skillListRow expanded per stdlib body. Color args dropped
+// (the previously-inlined `stat_color = "default"` / `name_color = "default"`
+// strings aren't valid RPGColors enum ids; the field is optional and falls
+// back to the user's text color when omitted).
 character_sheet_section skills() =
   section(
     id = "skills_section",
@@ -20,8 +23,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "acrobatics", statName = "Acrobatics")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "acrobatics", statName = "Acrobatics")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -31,8 +32,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "appraise", statName = "Appraise")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "appraise", statName = "Appraise")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -42,8 +41,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "bluff", statName = "Bluff")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "bluff", statName = "Bluff")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -53,8 +50,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "climb", statName = "Climb")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "climb", statName = "Climb")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -64,8 +59,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "craft", statName = "Craft")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "craft", statName = "Craft")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -75,8 +68,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "diplomacy", statName = "Diplomacy")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "diplomacy", statName = "Diplomacy")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -86,8 +77,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "disable_device", statName = "Disable Device")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "disable_device", statName = "Disable Device")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -97,8 +86,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "disguise", statName = "Disguise")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "disguise", statName = "Disguise")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -108,8 +95,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "escape_artist", statName = "Escape Artist")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "escape_artist", statName = "Escape Artist")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -119,8 +104,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "fly", statName = "Fly")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "fly", statName = "Fly")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -130,8 +113,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "handle_animal", statName = "Handle Animal")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "handle_animal", statName = "Handle Animal")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -141,8 +122,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "heal", statName = "Heal")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "heal", statName = "Heal")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -152,8 +131,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "intimidate", statName = "Intimidate")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "intimidate", statName = "Intimidate")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -163,8 +140,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_arcana", statName = "Knowledge (Arcana)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_arcana", statName = "Knowledge (Arcana)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -174,8 +149,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_dungeoneering", statName = "Knowledge (Dungeoneering)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_dungeoneering", statName = "Knowledge (Dungeoneering)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -185,8 +158,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_engineering", statName = "Knowledge (Engineering)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_engineering", statName = "Knowledge (Engineering)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -196,8 +167,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_geography", statName = "Knowledge (Geography)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_geography", statName = "Knowledge (Geography)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -207,8 +176,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_history", statName = "Knowledge (History)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_history", statName = "Knowledge (History)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -218,8 +185,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_local", statName = "Knowledge (Local)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_local", statName = "Knowledge (Local)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -229,8 +194,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_nature", statName = "Knowledge (Nature)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_nature", statName = "Knowledge (Nature)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -240,8 +203,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_nobility", statName = "Knowledge (Nobility)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_nobility", statName = "Knowledge (Nobility)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -251,8 +212,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_planes", statName = "Knowledge (Planes)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_planes", statName = "Knowledge (Planes)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -262,8 +221,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "knowledge_religion", statName = "Knowledge (Religion)")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "knowledge_religion", statName = "Knowledge (Religion)")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -273,8 +230,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "linguistics", statName = "Linguistics")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "linguistics", statName = "Linguistics")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -284,8 +239,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "perception", statName = "Perception")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "perception", statName = "Perception")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -295,8 +248,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "perform", statName = "Perform")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "perform", statName = "Perform")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -306,8 +257,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "profession", statName = "Profession")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "profession", statName = "Profession")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -317,8 +266,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "ride", statName = "Ride")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "ride", statName = "Ride")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -328,8 +275,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "sense_motive", statName = "Sense Motive")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "sense_motive", statName = "Sense Motive")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -339,8 +284,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "sleight_of_hand", statName = "Sleight of Hand")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "sleight_of_hand", statName = "Sleight of Hand")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -350,8 +293,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "spellcraft", statName = "Spellcraft")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "spellcraft", statName = "Spellcraft")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -361,8 +302,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "stealth", statName = "Stealth")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "stealth", statName = "Stealth")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -372,8 +311,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "survival", statName = "Survival")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "survival", statName = "Survival")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -383,8 +320,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "swim", statName = "Swim")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "swim", statName = "Swim")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
       stat(
@@ -394,8 +329,6 @@ character_sheet_section skills() =
         on_tap_event = event(name = "skillTap", payload = payload(stat = "use_magic_device", statName = "Use Magic Device")),
         on_long_tap_event = event(name = "editSkillProficiency", payload = payload(stat = "use_magic_device", statName = "Use Magic Device")),
         style = "list",
-        stat_color = "default",
-        name_color = "default",
         always_show_sign = true,
       ),
     ],

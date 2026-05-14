@@ -116,4 +116,9 @@ character_creation_page edit_details_title() =
         ),
       ],
     ),
+    // Empty no-op so the framework's "save completed" flow fires this
+    // final-page post_edit and triggers post-save navigation to the sheet.
+    // Without ANY post_edit on the chain, Save creates the character but
+    // the modal doesn't close — user has to manually back out.
+    post_edit = sequence(effects = []),
   );
