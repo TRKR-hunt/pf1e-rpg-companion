@@ -385,25 +385,112 @@ def parse_enum_definitions(enum_root: Path) -> Dict[str, set]:
 
 
 # --- formula-reference checker (catches PathNotFoundException-class errors) ---
+#
+# Catches two classes of bug:
+#  (a) $character.X where X isn't declared on the character.
+#  (b) $character.A.B or $character.A?.B?.C where deeper segments don't exist
+#      on the resource type that A resolves to.
+#
+# Sources scanned:
+#  - every *.rpgs under the system tree (calc/base formula bodies)
+#  - system.rpg.json (top-level system definition, hand-written JSON with
+#    "stat": "X" view bindings and effect targets). This is where the
+#    level-up flow lives; we missed P4 originally because we only scanned .rpgs.
 
-# `$character.foo`, `$character?.foo`, `$character.foo.bar` — we capture the
-# first segment after `$character`. (Deeper segments would require knowing
-# the type of `foo`, which is more work; we don't attempt that here.)
-CHARACTER_REF_RE = re.compile(r"\$character\??\.([a-z_][a-z0-9_]*)")
+# Matches $character or $character? followed by `.X` or `?.X` chains of any
+# length. Captures the full chain (without the $character prefix) including
+# `?.` separators and trailing `?` segments.
+CHARACTER_CHAIN_RE = re.compile(
+    r"\$character\??\.([a-z_][a-z0-9_]*(?:\??\.[a-z_][a-z0-9_]*)*\??)"
+)
 
 # Match `^base|calc <type> <name>(` to extract declared stat names.
 # Reuses BASE_STAT_PATTERN-style approach but allows `calc` too.
-DECL_RE = re.compile(r"^(?:base|calc)\s+[^\s]+\s+([a-z_][a-z0-9_]*)\s*\(", re.MULTILINE)
+DECL_RE = re.compile(r"^(?:base|calc)\s+([^\s]+)\s+([a-z_][a-z0-9_]*)\s*\(", re.MULTILINE)
 
 
-def parse_declared_character_stats(character_stats_path: Path) -> set:
-    """Return the set of base/calc stat names declared in character_stats.rpgs."""
+def parse_declared_character_stats(character_stats_path: Path) -> Dict[str, StatType]:
+    """Return name -> StatType for every base/calc declaration in character_stats.rpgs."""
     if not character_stats_path.is_file():
-        return set()
+        return {}
     text = character_stats_path.read_text(encoding="utf-8")
-    # Strip line comments to avoid matching examples in comments
     text = re.sub(r"//[^\n]*", "", text)
-    return set(DECL_RE.findall(text))
+    out: Dict[str, StatType] = {}
+    for type_token, name in DECL_RE.findall(text):
+        out[name] = parse_type(type_token)
+    return out
+
+
+def parse_resource_type_fields(resources_root: Path) -> Dict[str, Dict[str, StatType]]:
+    """Return resource_id -> {field_name: StatType} for every resource type's stats.rpgs.
+
+    This is essentially load_schema() but pre-existing call sites use that for
+    a slightly different purpose; keep both for clarity."""
+    out: Dict[str, Dict[str, StatType]] = {}
+    if not resources_root.is_dir():
+        return out
+    for child in resources_root.iterdir():
+        stats_path = child / "stats.rpgs"
+        if not stats_path.is_file():
+            continue
+        rid = child.name
+        text = re.sub(r"//[^\n]*", "", stats_path.read_text(encoding="utf-8"))
+        fields: Dict[str, StatType] = {}
+        for type_token, name in DECL_RE.findall(text):
+            fields[name] = parse_type(type_token)
+        out[rid] = fields
+    return out
+
+
+# Meta-fields implicitly present on every resource instance (sourced from
+# the file's `id` field or the bundling manifest, not from stats.rpgs).
+RESOURCE_META_FIELDS = {"id", "updated_at"}
+
+
+def _validate_chain(
+    chain: str,
+    declared_character_stats: Dict[str, StatType],
+    resource_type_fields: Dict[str, Dict[str, StatType]],
+) -> Optional[str]:
+    """Walk a `.A.B?.C?` chain starting from $character.
+    Returns None if every segment resolves, else an error explanation."""
+    segments = re.split(r"\??\.", chain)
+    segments = [s.rstrip("?") for s in segments if s]
+    if not segments:
+        return None
+    head = segments[0]
+    head_type = declared_character_stats.get(head)
+    if head_type is None:
+        return f"$character.{head}: not declared in character_stats.rpgs"
+    if len(segments) == 1:
+        return None
+    current_type = head_type
+    walked = ["$character", head]
+    for seg in segments[1:]:
+        if current_type.kind != "resource":
+            return (
+                f"{'.'.join(walked)}.{seg}: parent has type '{current_type.kind}' "
+                f"(no fields can be looked up on a non-resource)"
+            )
+        rid = current_type.resource_type
+        if rid is None:
+            return None  # untyped resource — can't resolve further but valid
+        # `id`/`updated_at` are implicit on every resource instance.
+        if seg in RESOURCE_META_FIELDS:
+            current_type = StatType("string", False, None)
+            walked.append(seg)
+            continue
+        rtype_fields = resource_type_fields.get(rid)
+        if rtype_fields is None:
+            return f"{'.'.join(walked)}.{seg}: resource type '{rid}' has no stats.rpgs"
+        seg_type = rtype_fields.get(seg)
+        if seg_type is None:
+            return (
+                f"{'.'.join(walked)}.{seg}: '{seg}' is not declared on resource type '{rid}'"
+            )
+        current_type = seg_type
+        walked.append(seg)
+    return None
 
 
 def _blank_string_literals(text: str) -> str:
@@ -441,18 +528,18 @@ def _blank_string_literals(text: str) -> str:
 
 def validate_character_refs(
     rpgs_search_roots: List[Path],
-    declared_character_stats: set,
+    declared_character_stats: Dict[str, StatType],
+    resource_type_fields: Dict[str, Dict[str, StatType]],
     errors: List[str],
     repo_root: Path,
 ) -> None:
-    """Scan every .rpgs under the search roots. Report each `$character.X`
-    reference where X isn't declared in character_stats.rpgs.
+    """Scan every .rpgs under the search roots for `$character.A?.B?.C` chains
+    and report any chain segment that doesn't resolve.
 
     Catches the PathNotFoundException family — formulas that compile clean
     but throw at runtime when the path is dereferenced."""
     if not declared_character_stats:
         # No declared stats found — refuse to silently pass.
-        # (We must have read character_stats.rpgs successfully to know what's legal.)
         return
     for root in rpgs_search_roots:
         for rpgs in root.rglob("*.rpgs"):
@@ -462,19 +549,61 @@ def validate_character_refs(
                 continue
             stripped = re.sub(r"//[^\n]*", "", text)
             stripped = _blank_string_literals(stripped)
-            for m in CHARACTER_REF_RE.finditer(stripped):
-                stat = m.group(1)
-                if stat in declared_character_stats:
+            for m in CHARACTER_CHAIN_RE.finditer(stripped):
+                chain = m.group(1)
+                problem = _validate_chain(chain, declared_character_stats, resource_type_fields)
+                if problem is None:
                     continue
-                # Determine line number for human-readable error.
                 line = stripped.count("\n", 0, m.start()) + 1
                 add_error(
                     errors,
                     rpgs,
                     repo_root,
                     [f"line {line}"],
-                    f"$character.{stat}: stat is not declared in character_stats.rpgs (dangling formula reference; will throw PathNotFoundException at load)",
+                    f"{problem} (will throw PathNotFoundException at load)",
                 )
+
+
+def validate_system_json_stat_refs(
+    rpgs_search_roots: List[Path],
+    declared_character_stats: Dict[str, StatType],
+    errors: List[str],
+    repo_root: Path,
+) -> None:
+    """Scan system.rpg.json (top-level system def, hand-written JSON) for
+    bare `"stat": "X"` view bindings and effect targets where X is meant to
+    be a character stat. Report any X that isn't declared.
+
+    Catches the class of bug where a view in system.rpg.json (e.g. the
+    level-up `select` view) binds to a character stat that was never
+    declared on character_stats.rpgs — the runtime throws when constructing
+    the view because the stat doesn't exist."""
+    if not declared_character_stats:
+        return
+    for root in rpgs_search_roots:
+        candidate = root / "system.rpg.json"
+        if not candidate.is_file():
+            continue
+        try:
+            text = candidate.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        # Find every `"stat": "X"` pair. Skip $-prefixed paths (view-local,
+        # lambda, etc.) and dotted paths (those reference fields on resources,
+        # not character stats at the top level).
+        for m in re.finditer(r'"stat"\s*:\s*"([^"$.]+)"', text):
+            stat = m.group(1)
+            if stat in declared_character_stats:
+                continue
+            line = text.count("\n", 0, m.start()) + 1
+            add_error(
+                errors,
+                candidate,
+                repo_root,
+                [f"line {line}"],
+                f"\"stat\": \"{stat}\" — stat is not declared in character_stats.rpgs "
+                f"(will throw at runtime when this view/effect materialises)",
+            )
 
 
 # Curated (resource_id, field_name) → enum_name map. This is more reliable
@@ -686,9 +815,10 @@ def main() -> int:
         enum_defs = parse_enum_definitions(enum_root)
         validate_enum_memberships(instances_root, enum_defs, errors, repo_root)
 
-    # Formula-reference pass: dangling $character.X formula references.
+    # Formula-reference pass: dangling $character.X formula references,
+    # including chained $character.A?.B?.C references that walk into resource
+    # types. Also checks "stat": "X" bindings in system.rpg.json.
     if rpgs_search_roots:
-        # Find character_stats.rpgs (sits in <system>/system/character_stats.rpgs).
         char_stats_path = None
         for r in rpgs_search_roots:
             cand = r / "character_stats.rpgs"
@@ -697,7 +827,13 @@ def main() -> int:
                 break
         if char_stats_path:
             declared = parse_declared_character_stats(char_stats_path)
-            validate_character_refs(rpgs_search_roots, declared, errors, repo_root)
+            resource_type_fields = parse_resource_type_fields(resources_root) if resources_root else {}
+            validate_character_refs(
+                rpgs_search_roots, declared, resource_type_fields, errors, repo_root
+            )
+            validate_system_json_stat_refs(
+                rpgs_search_roots, declared, errors, repo_root
+            )
 
     if errors:
         print("Validation errors:", file=sys.stderr)

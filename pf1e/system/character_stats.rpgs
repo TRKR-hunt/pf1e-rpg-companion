@@ -766,3 +766,51 @@ base bool enable_optional_class_archetypes(name = "Enable optional class archety
 base string temp_spell_cast_rank(name = "Temp spell cast rank (PF2E-STUB)") = "";
 base string temp_spell_cast_spell_id(name = "Temp spell cast spell id (PF2E-STUB)") = "";
 base string temp_last_level_up_class_id(name = "Temp last level-up class id (PF2E-STUB)") = "";
+
+// --- level-up flow (system.rpg.json's level_up_view references these) ---
+// `temp_level_up_class` is the stat written by the level_up_select_class view.
+// The select shows class names (display="name") drawn from $character.classes,
+// and writes the selected class's display name into this base string.
+base string temp_level_up_class(name = "Temp variable for level-up class select") = null;
+
+// Resolves the selected class back to its class_progression by matching
+// $view.level_up_select_class? against $character.classes[*].class.id.
+calc resource<class_progression> level_up_selected_class_progression(name = "Selected existing class when levelling up") =
+  findFirst(
+    classes,
+    filter = ($findFirstValue) => ($findFirstValue.class?.id == $view.level_up_select_class?),
+  );
+
+// --- level-up flow PF2E-STUBS: stats system.rpg.json references but PF1e
+// doesn't yet implement (ASI = pf2e Ability Score Increase mechanic; skill
+// increases = pf2e mechanic; interactive progression grants = pf2e). All
+// stubbed to safe defaults so the level-up view materialises without
+// PathNotFoundException. Re-implement as the PF1e level-up flow comes online.
+base string temp_asi_selection_1(name = "Temp ASI selection 1 (PF2E-STUB)") = null;
+base string temp_asi_selection_2(name = "Temp ASI selection 2 (PF2E-STUB)") = null;
+base string temp_asi_selection_3(name = "Temp ASI selection 3 (PF2E-STUB)") = null;
+base string temp_asi_selection_4(name = "Temp ASI selection 4 (PF2E-STUB)") = null;
+base string temp_skill_increase_skill(name = "Temp skill increase skill (PF2E-STUB)") = "";
+calc string[] temp_skill_increase_skill_options(name = "Temp skill increase skill options (PF2E-STUB)") = [];
+calc string temp_skill_increase_summary_text(name = "Temp skill increase summary text (PF2E-STUB)") = "";
+calc string temp_skill_increase_validation_message(name = "Temp skill increase validation message (PF2E-STUB)") = "";
+calc string asi_selection_help_text(name = "ASI selection help text (PF2E-STUB)") = "";
+calc string level_up_progression_grants_summary_text(name = "Level-up progression grants summary (PF2E-STUB)") = "";
+calc bool should_show_asi(name = "Should show ASI (PF2E-STUB)") = false;
+calc bool should_show_asi_selection_2(name = "Should show ASI selection 2 (PF2E-STUB)") = false;
+calc bool should_show_asi_selection_3(name = "Should show ASI selection 3 (PF2E-STUB)") = false;
+calc bool should_show_asi_selection_4(name = "Should show ASI selection 4 (PF2E-STUB)") = false;
+calc bool should_show_skill_increase(name = "Should show skill increase popup (PF2E-STUB)") = false;
+calc bool should_show_progression_summary_popup(name = "Should show progression summary popup (PF2E-STUB)") = false;
+calc resource<feat>[] features_with_new_descriptions_in_new_level(name = "Features with new descriptions in new level (PF2E-STUB)") = [];
+calc resource<feat>[] selectable_features_with_pending_choices(name = "Selectable features with pending choices (PF2E-STUB)") = [];
+calc resource<levelled_armor_proficiency>[] level_up_armor_proficiency_choices_effective(name = "Level-up armor prof choices effective (PF2E-STUB)") = [];
+calc resource<levelled_weapon_proficiency>[] level_up_weapon_proficiency_choices_effective(name = "Level-up weapon prof choices effective (PF2E-STUB)") = [];
+calc resource<levelled_skill_proficiency>[] level_up_skill_proficiency_choices_effective(name = "Level-up skill prof choices effective (PF2E-STUB)") = [];
+calc resource<progression_grant>[] level_up_interactive_progression_grants_in_new_level(name = "Level-up interactive progression grants (PF2E-STUB)") = [];
+// `level_up_language_proficiency_choices_effective` and `level_up_lore_skill_choices`
+// reference resource types (levelled_choice_text, lore_skill) we do not declare;
+// stubbing as string[] keeps the runtime materialiser happy without having to
+// invent those resource types. The level-up popup just won't show them.
+calc string[] level_up_language_proficiency_choices_effective(name = "Level-up language prof choices effective (PF2E-STUB)") = [];
+calc string[] level_up_lore_skill_choices(name = "Level-up lore skill choices (PF2E-STUB)") = [];

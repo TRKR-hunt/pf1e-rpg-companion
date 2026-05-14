@@ -581,18 +581,14 @@ calc integer weapon_proficiency_rank_from_legacy(name = "Weapon proficiency rank
         else 0)
     else 0;
 
-calc integer weapon_proficiency_rank_from_deity(name = "Weapon proficiency rank from deity favored weapon") =
-  if defined(stat = "$character")
-      && (contains(
-          haystack = ($character.primary_class_progression?.active_selected_deity?.favored_weapons? ?? []),
-          needle = type,
-        )
-        || contains(
-          haystack = ($character.primary_class_progression?.active_selected_deity?.favored_weapon_ids? ?? []),
-          needle = id,
-        ))
-    then 1
-    else 0;
+// PF2E-STUB: deity-favored-weapon proficiency. PF1e DOES grant clerics
+// proficiency with their deity's favored weapon, but we don't have a deity-
+// selection flow yet, no deity instances, and no `selected_deity` materialized
+// on the character. Stub to 0 to keep the dependency chain (weapon_proficiency_rank,
+// is_deadly_simplicity_enabled, etc.) type-correct and non-throwing.
+// Re-implement when deity selection comes online for PF1e.
+calc integer weapon_proficiency_rank_from_deity(name = "Weapon proficiency rank from deity favored weapon (PF2E-STUB)") =
+  0;
 
 calc string[] primary_class_feature_names(name = "Primary class feature names") =
   if !defined(stat = "$character")
@@ -602,27 +598,11 @@ calc string[] primary_class_feature_names(name = "Primary class feature names") 
         mapper = ($mapValue) => $mapValue.name,
       );
 
-calc integer weapon_proficiency_rank_from_cleric_doctrine(name = "Weapon proficiency rank from Cleric doctrine favored-weapon progression") =
-  if !defined(stat = "$character")
-      || isEmpty($character.primary_class_progression?.class?.id ?? "")
-      || ($character.primary_class_progression?.class?.id ?? "") != "cleric__pc1_"
-      || (weapon_proficiency_rank_from_deity <= 0)
-    then 0
-    else when {
-        contains(
-          haystack = primary_class_feature_names,
-          needle = "Warpriest: Final Doctrine",
-        ) -> 3,
-        contains(
-          haystack = primary_class_feature_names,
-          needle = "Warpriest: Third Doctrine",
-        )
-          || contains(
-            haystack = primary_class_feature_names,
-            needle = "Cloistered: Fourth Doctrine",
-          ) -> 2,
-        else -> 0,
-      };
+// PF2E-STUB: pf2e Cloistered/Warpriest doctrine progressions. PF1e clerics
+// don't have these. Stub to 0; the calc remains so downstream consumers
+// (weapon_proficiency_rank's max() chain) stay type-stable.
+calc integer weapon_proficiency_rank_from_cleric_doctrine(name = "Weapon proficiency rank from Cleric doctrine favored-weapon progression (PF2E-STUB)") =
+  0;
 
 calc integer weapon_proficiency_rank(name = "Weapon proficiency rank") =
   max(
