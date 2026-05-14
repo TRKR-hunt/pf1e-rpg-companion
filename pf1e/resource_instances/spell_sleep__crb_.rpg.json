@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sleep__crb_",
+    "name": {
+      "value": "Sleep"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": 1
+    },
+    "school": {
+      "value": "enchantment (compulsion) [mind-affecting]"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard",
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M"
+    },
+    "range": {
+      "value": "medium (100 ft + 10 ft/level)"
+    },
+    "area": {
+      "value": "one or more living creatures within a 10-ft-radius burst"
+    },
+    "duration": {
+      "value": "1 min/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Puts 4 HD of creatures into magical slumber. Creatures with 5+ HD unaffected."
+    }
+  }
+}

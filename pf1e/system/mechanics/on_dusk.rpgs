@@ -1,0 +1,4 @@
+import "../macros/system_common.rpgs";
+
+mechanic on_dusk(event_names = "dusk") =
+  showInfoMessage(message = "The day has faded into dusk...");

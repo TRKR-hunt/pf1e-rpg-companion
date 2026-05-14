@@ -1,0 +1,88 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_combat_expertise__crb_",
+    "name": {
+      "value": "Combat Expertise"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13"
+    },
+    "description": {
+      "value": "Take \u20131 atk for +1 dodge bonus to AC. Penalty and bonus increase by 1 every 4 BAB."
+    },
+    "is_toggleable": {
+      "value": true
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_ce_atk",
+            "name": {
+              "value": "Combat Expertise: atk"
+            },
+            "trigger_type": {
+              "value": "toggleable"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "penalty"
+            },
+            "stat": {
+              "value": "$character.melee_attack_misc"
+            },
+            "constant": {
+              "value": -1
+            }
+          }
+        },
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_ce_ac",
+            "name": {
+              "value": "Combat Expertise: AC"
+            },
+            "trigger_type": {
+              "value": "toggleable"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "dodge"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.dodge_bonus"
+            },
+            "constant": {
+              "value": 1
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

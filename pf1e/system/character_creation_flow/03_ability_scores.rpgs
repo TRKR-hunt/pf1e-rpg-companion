@@ -1,0 +1,140 @@
+import "../macros/system_common.rpgs";
+
+// PF1e creation step 3: Ability scores.
+// PF1e supports multiple generation methods; we don't try to enforce one in
+// the UI because `ability_score_mode` isn't a tracked stat in
+// character_stats.rpgs. Instead, this page lets the user type in their final
+// "base" score (before racial mod) for each ability, and shows the running
+// 15-point-buy cost as advisory help.
+//
+// Cost table for raw scores 7..18:
+//   7=-4  8=-2  9=-1  10=0  11=+1  12=+2  13=+3  14=+5  15=+7
+//   16=+10  17=+13  18=+17
+// Standard fantasy = 15 points. Use rolled (4d6 drop low) or the elite array
+// (15,14,13,12,10,8) and ignore the cost line if your group prefers those.
+character_creation_page edit_ability_scores_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_ability_scores_title", name = "Ability scores"),
+    view = list(
+      id = "edit_character_ability_scores",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_ability_scores_subheader",
+          text = "Set your six ability scores. Default is 15-point buy.",
+          style = "subhead",
+        ),
+        text(
+          id = "edit_character_ability_scores_help_pointbuy",
+          text = "Point buy costs (per ability): 7=-4, 8=-2, 9=-1, 10=0, 11=+1, 12=+2, 13=+3, 14=+5, 15=+7, 16=+10, 17=+13, 18=+17. Standard fantasy = 15 points total.",
+          style = "caption",
+          margin_top = 4,
+        ),
+        text(
+          id = "edit_character_ability_scores_help_rolled",
+          text = "Alternative: roll 4d6, drop lowest, six times; assign as desired. Or use the elite array (15,14,13,12,10,8).",
+          style = "caption",
+          margin_top = 4,
+        ),
+        composite(
+          id = "edit_character_ability_scores_inputs",
+          margin_top = 12,
+          alignment = "center",
+          subviews = [
+            text(
+              id = "edit_character_ability_scores_str",
+              edit_stat = "strength_score_base",
+              style = "text",
+              max_length = 2,
+              margin_right = 4,
+              signed = false,
+              hint = "10",
+              label = "STR",
+            ),
+            text(
+              id = "edit_character_ability_scores_dex",
+              edit_stat = "dexterity_score_base",
+              style = "text",
+              max_length = 2,
+              margin_right = 4,
+              signed = false,
+              hint = "10",
+              label = "DEX",
+            ),
+            text(
+              id = "edit_character_ability_scores_con",
+              edit_stat = "constitution_score_base",
+              style = "text",
+              max_length = 2,
+              margin_right = 4,
+              signed = false,
+              hint = "10",
+              label = "CON",
+            ),
+            text(
+              id = "edit_character_ability_scores_int",
+              edit_stat = "intelligence_score_base",
+              style = "text",
+              max_length = 2,
+              margin_right = 4,
+              signed = false,
+              hint = "10",
+              label = "INT",
+            ),
+            text(
+              id = "edit_character_ability_scores_wis",
+              edit_stat = "wisdom_score_base",
+              style = "text",
+              max_length = 2,
+              margin_right = 4,
+              signed = false,
+              hint = "10",
+              label = "WIS",
+            ),
+            text(
+              id = "edit_character_ability_scores_cha",
+              edit_stat = "charisma_score_base",
+              style = "text",
+              max_length = 2,
+              margin_right = 4,
+              signed = false,
+              hint = "10",
+              label = "CHA",
+            ),
+          ],
+        ),
+        text(
+          id = "edit_character_ability_scores_totals_header",
+          text = "Final scores (after racial mod):",
+          style = "subhead",
+          margin_top = 16,
+        ),
+        text(
+          id = "edit_character_ability_scores_final_scores",
+          text = concat([
+            "STR ", strength_score, " (", strength_modifier, ")  ",
+            "DEX ", dexterity_score, " (", dexterity_modifier, ")  ",
+            "CON ", constitution_score, " (", constitution_modifier, ")",
+          ]),
+          style = "text",
+          bold = true,
+        ),
+        text(
+          id = "edit_character_ability_scores_final_scores_2",
+          text = concat([
+            "INT ", intelligence_score, " (", intelligence_modifier, ")  ",
+            "WIS ", wisdom_score, " (", wisdom_modifier, ")  ",
+            "CHA ", charisma_score, " (", charisma_modifier, ")",
+          ]),
+          style = "text",
+          bold = true,
+        ),
+        text(
+          id = "edit_character_ability_scores_floating_help",
+          text = "If your race grants a floating +2 (e.g. Human, Half-Elf, Half-Orc), bake it into the base score for the chosen ability.",
+          style = "caption",
+          margin_top = 8,
+        ),
+      ],
+    ),
+  );

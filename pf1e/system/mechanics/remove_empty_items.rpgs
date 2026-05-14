@@ -1,0 +1,16 @@
+// PF1e: removes any inventory items whose quantity has dropped to <= 0.
+// The pf2e original also cleaned up weapon/armor `attached_runes` and
+// `attached_talisman` references; PF1e has no runes/talismans so that
+// portion is dropped.
+mechanic remove_empty_items(event_names = "remove_empty_items") =
+  when {
+    !isEmpty(filter(inventory, filter = ($filterValue) => ($filterValue.quantity <= 0))) -> sequence(
+      effects = [
+        setStat(
+          stat = "inventory",
+          new_value = filter(inventory, filter = ($filterValue) => ($filterValue.quantity > 0)),
+          aggregation_type = "set",
+        ),
+      ],
+    ),
+  };

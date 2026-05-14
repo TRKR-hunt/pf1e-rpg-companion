@@ -1,0 +1,129 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "cleric__crb_",
+    "name": {
+      "value": "Cleric"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Starting Wealth\n4d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nwithin one step of deity.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "good"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "appraise",
+        "craft",
+        "diplomacy",
+        "heal",
+        "knowledge_arcana",
+        "knowledge_history",
+        "knowledge_nobility",
+        "knowledge_planes",
+        "knowledge_religion",
+        "linguistics",
+        "profession",
+        "sense_motive",
+        "spellcraft"
+      ]
+    },
+    "starting_wealth": {
+      "value": "4d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "within one step of deity"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "deity's favored weapon"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light",
+        "medium",
+        "heavy"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "buckler",
+        "light",
+        "heavy"
+      ]
+    },
+    "spellcasting": {
+      "value": {
+        "type": "prepared",
+        "tradition": "divine",
+        "ability": "wisdom",
+        "max_spell_level": 9
+      }
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Aura",
+          "description": "Strong aura matching alignment."
+        },
+        {
+          "level": 1,
+          "name": "Channel Energy",
+          "description": "1d6 positive/negative energy (Cleric level rounded up by every 2)."
+        },
+        {
+          "level": 1,
+          "name": "Domains",
+          "description": "Choose 2 domains; gain domain powers and bonus domain spells."
+        },
+        {
+          "level": 1,
+          "name": "Orisons",
+          "description": "Cast 0-level spells at will."
+        },
+        {
+          "level": 1,
+          "name": "Spontaneous Casting",
+          "description": "Convert prepared spells to cure/inflict spells of same level."
+        },
+        {
+          "level": 8,
+          "name": "Channel Energy 4d6",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Channel Energy 10d6",
+          "description": "Max channel energy progression."
+        }
+      ]
+    }
+  }
+}

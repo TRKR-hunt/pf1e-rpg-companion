@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_improved_trip__crb_",
+    "name": {
+      "value": "Improved Trip"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise"
+    },
+    "description": {
+      "value": "+2 on trip; no AoO when tripping; if you trip, you get an immediate attack."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

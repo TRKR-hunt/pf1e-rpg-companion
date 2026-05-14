@@ -1,0 +1,146 @@
+import "../macros/system_common.rpgs";
+
+// PF1e creation step 6: Equipment.
+// Each class has a `starting_wealth` text field on its resource ("5d6 × 10
+// gp" for Fighter, "2d6 × 10 gp" for Wizard, etc.). The user rolls this and
+// enters the resulting gp total below. They then pick weapons, armor, and
+// gear up to that amount (we don't enforce the budget at the schema level
+// because the inventory list is flat).
+character_creation_page edit_equipment_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_equipment_title", name = "Equipment"),
+    view = list(
+      id = "edit_character_equipment",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_equipment_subheader",
+          text = "Roll your starting wealth and outfit your character.",
+          style = "subhead",
+        ),
+        text(
+          id = "edit_character_equipment_wealth_formula",
+          text = concat([
+            "Starting wealth for your class(es): ",
+            joinToString(
+              map(classes, mapper = ($c) => concat([$c.class.name, " — ", ($c.class.starting_wealth ?? "?")])),
+              separator = "; ",
+            ),
+          ]),
+          style = "text",
+          bold = true,
+          is_visible = !isEmpty(classes),
+        ),
+        text(
+          id = "edit_character_equipment_wealth_help",
+          text = "Roll the dice expression above and enter the resulting GP in the Gold field.",
+          style = "caption",
+          margin_top = 4,
+        ),
+        composite(
+          id = "edit_character_equipment_currency",
+          margin_top = 12,
+          alignment = "center",
+          subviews = [
+            text(
+              id = "edit_character_equipment_currency_cp",
+              edit_stat = "copper_pieces",
+              style = "text",
+              max_length = 5,
+              margin_right = 4,
+              signed = false,
+              hint = "0",
+              label = "CP",
+            ),
+            text(
+              id = "edit_character_equipment_currency_sp",
+              edit_stat = "silver_pieces",
+              style = "text",
+              max_length = 5,
+              margin_right = 4,
+              signed = false,
+              hint = "0",
+              label = "SP",
+            ),
+            text(
+              id = "edit_character_equipment_currency_gp",
+              edit_stat = "gold_pieces",
+              style = "text",
+              max_length = 5,
+              margin_right = 4,
+              signed = false,
+              hint = "0",
+              label = "GP",
+            ),
+            text(
+              id = "edit_character_equipment_currency_pp",
+              edit_stat = "platinum_pieces",
+              style = "text",
+              max_length = 5,
+              margin_right = 4,
+              signed = false,
+              hint = "0",
+              label = "PP",
+            ),
+          ],
+        ),
+        text(
+          id = "edit_character_equipment_weapons_header",
+          text = "Weapons",
+          style = "subhead",
+          margin_top = 16,
+        ),
+        selectResources(
+          id = "edit_character_equipment_add_weapon",
+          stat = "weapons",
+          resource_id = "weapon",
+          view_type = "icon",
+          should_append = true,
+          should_save_on_selection = true,
+        ),
+        resourceSection(
+          id = "edit_character_equipment_weapons_list",
+          resource_stat = "weapons",
+          resource_id = "weapon",
+        ),
+        text(
+          id = "edit_character_equipment_armor_header",
+          text = "Armor",
+          style = "subhead",
+          margin_top = 16,
+        ),
+        selectResources(
+          id = "edit_character_equipment_add_armor",
+          stat = "armors",
+          resource_id = "armor",
+          view_type = "icon",
+          should_append = true,
+          should_save_on_selection = true,
+        ),
+        resourceSection(
+          id = "edit_character_equipment_armors_list",
+          resource_stat = "armors",
+          resource_id = "armor",
+        ),
+        text(
+          id = "edit_character_equipment_inventory_header",
+          text = "Other gear",
+          style = "subhead",
+          margin_top = 16,
+        ),
+        selectResources(
+          id = "edit_character_equipment_add_item",
+          stat = "inventory",
+          resource_id = "item",
+          view_type = "icon",
+          should_append = true,
+          should_save_on_selection = true,
+        ),
+        resourceSection(
+          id = "edit_character_equipment_inventory_list",
+          resource_stat = "inventory",
+          resource_id = "item",
+        ),
+      ],
+    ),
+  );

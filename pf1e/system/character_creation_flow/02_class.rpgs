@@ -1,0 +1,82 @@
+import "../macros/system_common.rpgs";
+
+// PF1e creation step 2: Class.
+// PF1e fully supports multiclassing: a character can level into more than one
+// class, with BAB and saves summing across classes. We use a resourceArray
+// of class_progression entries so the user can add additional classes when
+// they're ready (subsequent levels will gate this; for first-level creation
+// you'll usually pick exactly one).
+character_creation_page edit_class_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_class_title", name = "Class"),
+    view = list(
+      id = "edit_character_class",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_class_subheader",
+          text = "Pick your starting class. You can add more classes here later for multiclassing.",
+          style = "subhead",
+        ),
+        resourceArray(
+          id = "edit_character_class_classes",
+          resource_id = "class_progression",
+          stat = "classes",
+          view_type = "edit",
+          auto_add_first = true,
+          allow_adds_and_removes = true,
+          left_view = text(
+            id = "edit_character_class_classes_label",
+            text = "Class: ",
+            style = "text",
+          ),
+          validation_message = when {
+            isEmpty($view.edit_character_class_classes) -> "Please pick at least one class",
+            or(
+              map(
+                $view.edit_character_class_classes,
+                mapper = ($class) => (length(
+                  filter(
+                    $view.edit_character_class_classes,
+                    filter = ($filterValue) => ($class?.$view?.class_progression_edit_class_select.name == $filterValue?.$view?.class_progression_edit_class_select.name),
+                  ),
+                ) != 1),
+              ),
+            ) -> "You have the same class listed twice. Remove the duplicate.",
+            else -> null,
+          },
+        ),
+        text(
+          id = "edit_character_class_total_level_label",
+          text = concat(["Total character level: ", level]),
+          style = "text",
+          bold = true,
+          margin_top = 12,
+          is_visible = !isEmpty(classes),
+        ),
+        text(
+          id = "edit_character_class_bab_preview",
+          text = concat(["Base Attack Bonus: +", base_attack_bonus]),
+          style = "text",
+          is_visible = !isEmpty(classes),
+        ),
+        text(
+          id = "edit_character_class_saves_preview",
+          text = concat([
+            "Save bases — Fort +", fortitude_base,
+            " / Ref +", reflex_base,
+            " / Will +", will_base,
+          ]),
+          style = "text",
+          is_visible = !isEmpty(classes),
+        ),
+        text(
+          id = "edit_character_class_multiclass_help",
+          text = "Multiclassing tip: BAB sums across classes (rounded down per class), and you take the best save category from each class.",
+          style = "caption",
+          margin_top = 8,
+          is_visible = length(classes) > 1,
+        ),
+      ],
+    ),
+  );

@@ -1,0 +1,63 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "id": "half-orc__crb_",
+    "name": {
+      "value": "Half-Orc"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "size": {
+      "value": "medium"
+    },
+    "base_speed": {
+      "value": 30
+    },
+    "type": {
+      "value": "humanoid (human, orc)"
+    },
+    "ability_score_modifiers": {
+      "value": [
+        {
+          "type": "floating",
+          "value": 2,
+          "description": "+2 to one ability score of choice."
+        }
+      ]
+    },
+    "languages_starting": {
+      "value": [
+        "common",
+        "orc"
+      ]
+    },
+    "bonus_languages_note": {
+      "value": "Abyssal, Draconic, Giant, Gnoll, Goblin."
+    },
+    "racial_traits": {
+      "value": [
+        {
+          "name": "Darkvision",
+          "description": "Half-orcs can see in the dark up to 60 ft."
+        },
+        {
+          "name": "Intimidating",
+          "description": "+2 racial bonus on Intimidate."
+        },
+        {
+          "name": "Orc Blood",
+          "description": "Counts as both human and orc for any effect related to race."
+        },
+        {
+          "name": "Orc Ferocity",
+          "description": "Once per day, when brought below 0 HP but not killed, can fight on for one more round as if disabled."
+        },
+        {
+          "name": "Weapon Familiarity",
+          "description": "Proficient with greataxes and falchions; treat any weapon with 'orc' in name as martial."
+        }
+      ]
+    }
+  }
+}

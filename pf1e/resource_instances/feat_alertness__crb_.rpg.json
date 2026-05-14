@@ -1,0 +1,88 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_alertness__crb_",
+    "name": {
+      "value": "Alertness"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "+2 on Perception and Sense Motive (+4 with 10 ranks in each)."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_alertness_perception",
+            "name": {
+              "value": "+2 Perception"
+            },
+            "trigger_type": {
+              "value": "passive"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.perception_misc"
+            },
+            "constant": {
+              "value": 2
+            }
+          }
+        },
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_alertness_sensemotive",
+            "name": {
+              "value": "+2 Sense Motive"
+            },
+            "trigger_type": {
+              "value": "passive"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.sense_motive_misc"
+            },
+            "constant": {
+              "value": 2
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

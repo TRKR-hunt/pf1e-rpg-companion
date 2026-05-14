@@ -1,0 +1,61 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_great_fortitude__crb_",
+    "name": {
+      "value": "Great Fortitude"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "+2 bonus on all Fortitude saving throws."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_great_fortitude",
+            "name": {
+              "value": "+2 Fort"
+            },
+            "trigger_type": {
+              "value": "passive"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.fortitude_misc"
+            },
+            "constant": {
+              "value": 2
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

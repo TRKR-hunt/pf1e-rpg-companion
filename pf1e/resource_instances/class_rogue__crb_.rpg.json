@@ -1,0 +1,137 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "rogue__crb_",
+    "name": {
+      "value": "Rogue"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Starting Wealth\n4d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n8 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 8
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "good"
+    },
+    "will_progression": {
+      "value": "poor"
+    },
+    "class_skills": {
+      "value": [
+        "acrobatics",
+        "appraise",
+        "bluff",
+        "climb",
+        "craft",
+        "diplomacy",
+        "disable_device",
+        "disguise",
+        "escape_artist",
+        "intimidate",
+        "knowledge_dungeoneering",
+        "knowledge_local",
+        "linguistics",
+        "perception",
+        "perform",
+        "profession",
+        "sense_motive",
+        "sleight_of_hand",
+        "stealth",
+        "swim",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "4d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "hand crossbow",
+        "rapier",
+        "sap",
+        "shortbow",
+        "short sword"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Sneak Attack +1d6",
+          "description": "+1d6 dmg vs flat-footed/flanked, +1d6 every 2 levels."
+        },
+        {
+          "level": 1,
+          "name": "Trapfinding",
+          "description": "+1/2 level to Perception/Disable Device for traps."
+        },
+        {
+          "level": 2,
+          "name": "Evasion",
+          "description": ""
+        },
+        {
+          "level": 2,
+          "name": "Rogue Talent",
+          "description": "Every even level."
+        },
+        {
+          "level": 3,
+          "name": "Trap Sense +1",
+          "description": ""
+        },
+        {
+          "level": 4,
+          "name": "Uncanny Dodge",
+          "description": ""
+        },
+        {
+          "level": 8,
+          "name": "Improved Uncanny Dodge",
+          "description": ""
+        },
+        {
+          "level": 10,
+          "name": "Advanced Talents",
+          "description": "Every even level after 10."
+        },
+        {
+          "level": 20,
+          "name": "Master Strike",
+          "description": "Standard-action sneak attack inflicts sleep/paralysis/death."
+        }
+      ]
+    }
+  }
+}

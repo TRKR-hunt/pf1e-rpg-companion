@@ -1,0 +1,61 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_dodge__crb_",
+    "name": {
+      "value": "Dodge"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13"
+    },
+    "description": {
+      "value": "+1 dodge bonus to AC."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_dodge",
+            "name": {
+              "value": "Dodge +1 AC"
+            },
+            "trigger_type": {
+              "value": "passive"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "dodge"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.dodge_bonus"
+            },
+            "constant": {
+              "value": 1
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

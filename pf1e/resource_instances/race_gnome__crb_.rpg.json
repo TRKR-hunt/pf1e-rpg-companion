@@ -1,0 +1,90 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "id": "gnome__crb_",
+    "name": {
+      "value": "Gnome"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "size": {
+      "value": "small"
+    },
+    "base_speed": {
+      "value": 20
+    },
+    "type": {
+      "value": "humanoid (gnome)"
+    },
+    "ability_score_modifiers": {
+      "value": [
+        {
+          "type": "fixed",
+          "ability": "constitution",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "charisma",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "strength",
+          "value": -2
+        }
+      ]
+    },
+    "languages_starting": {
+      "value": [
+        "common",
+        "gnome",
+        "sylvan"
+      ]
+    },
+    "bonus_languages_note": {
+      "value": "Draconic, Dwarven, Elven, Giant, Goblin, Orc."
+    },
+    "racial_traits": {
+      "value": [
+        {
+          "name": "Defensive Training",
+          "description": "+4 dodge bonus to AC vs creatures of the giant subtype."
+        },
+        {
+          "name": "Gnome Magic",
+          "description": "+1 to DC of illusion spells; SLAs (1/day): dancing lights, ghost sound, prestidigitation, speak with animals (Cha 11+)."
+        },
+        {
+          "name": "Hatred",
+          "description": "+1 racial bonus on attack rolls vs humanoid creatures of the reptilian and goblinoid subtypes."
+        },
+        {
+          "name": "Illusion Resistance",
+          "description": "+2 racial saving throw bonus against illusion spells and effects."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "+2 racial bonus on Perception checks."
+        },
+        {
+          "name": "Low-Light Vision",
+          "description": ""
+        },
+        {
+          "name": "Obsessive",
+          "description": "+2 racial bonus on a Craft or Profession skill of their choice."
+        },
+        {
+          "name": "Small",
+          "description": "+1 size to AC and attack; +4 size to Stealth; -1 CMB/CMD; lifting/carrying 3/4 of medium."
+        },
+        {
+          "name": "Weapon Familiarity",
+          "description": "Treat any weapon with 'gnome' in name as martial."
+        }
+      ]
+    }
+  }
+}

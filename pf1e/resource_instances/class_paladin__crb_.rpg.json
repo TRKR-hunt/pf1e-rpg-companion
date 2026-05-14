@@ -1,0 +1,193 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "paladin__crb_",
+    "name": {
+      "value": "Paladin"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd10.\n\n### Starting Wealth\n5d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nlawful good.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d10"
+    },
+    "class_hp_per_level": {
+      "value": 10
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "full"
+    },
+    "fortitude_progression": {
+      "value": "good"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "craft",
+        "diplomacy",
+        "handle_animal",
+        "heal",
+        "knowledge_nobility",
+        "knowledge_religion",
+        "profession",
+        "ride",
+        "sense_motive",
+        "spellcraft"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "lawful good"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "martial"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light",
+        "medium",
+        "heavy"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "buckler",
+        "light",
+        "heavy",
+        "tower"
+      ]
+    },
+    "spellcasting": {
+      "value": {
+        "type": "prepared",
+        "tradition": "divine",
+        "ability": "charisma",
+        "max_spell_level": 4,
+        "begins_at_level": 4
+      }
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Aura of Good",
+          "description": ""
+        },
+        {
+          "level": 1,
+          "name": "Detect Evil",
+          "description": "At will."
+        },
+        {
+          "level": 1,
+          "name": "Smite Evil 1/day",
+          "description": "Add Cha mod to atk, level to damage vs evil."
+        },
+        {
+          "level": 2,
+          "name": "Divine Grace",
+          "description": "Add Cha mod to all saves."
+        },
+        {
+          "level": 2,
+          "name": "Lay on Hands",
+          "description": "Heal (level/2) \u00d7 Cha-mod times per day, 1d6 per 2 levels."
+        },
+        {
+          "level": 3,
+          "name": "Aura of Courage",
+          "description": "+4 vs fear for self & allies in 10 ft."
+        },
+        {
+          "level": 3,
+          "name": "Divine Health",
+          "description": "Immune to disease."
+        },
+        {
+          "level": 3,
+          "name": "Mercy",
+          "description": "Lay on Hands also removes a condition."
+        },
+        {
+          "level": 4,
+          "name": "Channel Positive Energy",
+          "description": ""
+        },
+        {
+          "level": 5,
+          "name": "Divine Bond",
+          "description": "Weapon or mount."
+        },
+        {
+          "level": 5,
+          "name": "Smite Evil 2/day",
+          "description": ""
+        },
+        {
+          "level": 8,
+          "name": "Aura of Resolve",
+          "description": ""
+        },
+        {
+          "level": 8,
+          "name": "Smite Evil 3/day",
+          "description": ""
+        },
+        {
+          "level": 11,
+          "name": "Aura of Justice",
+          "description": ""
+        },
+        {
+          "level": 11,
+          "name": "Smite Evil 4/day",
+          "description": ""
+        },
+        {
+          "level": 14,
+          "name": "Aura of Faith",
+          "description": ""
+        },
+        {
+          "level": 14,
+          "name": "Smite Evil 5/day",
+          "description": ""
+        },
+        {
+          "level": 17,
+          "name": "Aura of Righteousness",
+          "description": ""
+        },
+        {
+          "level": 17,
+          "name": "Smite Evil 6/day",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Holy Champion",
+          "description": "Smite banishes evil outsiders."
+        }
+      ]
+    }
+  }
+}

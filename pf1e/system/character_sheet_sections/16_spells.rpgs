@@ -1,0 +1,107 @@
+// PF1e spells section.
+// PF1e differences vs pf2e:
+//   - Spell levels 0 through 9 (0 = "orisons"/"cantrips"; not a separate rank).
+//   - Two casting paradigms: spontaneous (known list + slots) and prepared
+//     (known list -> prepared list each day). Both are represented at this
+//     level by two arrays: `known_spells` and `prepared_spells` (the latter
+//     is rebuilt each "daily preparations" cycle).
+//   - No traditions; each spell carries a `classes` list naming the casters
+//     that have it on their list. Filtering by class is handled at search
+//     time via the selectResources call.
+//
+// Per-level breakouts are not done here because PF1e level grouping is just
+// visual; a flat list is honest until we author the "prepared today" daily
+// cycle.
+character_sheet_section spells() =
+  section(
+    id = "spells_section",
+    show_divider = true,
+    content_item_min_width = 1,
+    collapsible = true,
+    header = [
+      icon(
+        id = "spells_section_icon",
+        name = "ic_whatshot",
+        color = "#7b1fa2",
+        size = "medium",
+        margin_top = 8,
+        margin_right = 8,
+        margin_left = 16,
+      ),
+      text(
+        id = "spells_section_title",
+        margin_right = 16,
+        margin_left = 16,
+        text = "Spells",
+        style = "title",
+      ),
+      spacer(id = "spells_section_header_spacer"),
+      selectResources(
+        id = "spells_section_add_known",
+        stat = "known_spells",
+        resource_id = "spell",
+        view_type = "icon",
+        should_append = true,
+        should_save_on_selection = true,
+      ),
+    ],
+    content = [
+      section(
+        id = "spells_known_subsection",
+        is_visible = !isEmpty(known_spells),
+        header = [
+          text(
+            id = "spells_known_label",
+            margin_left = 24,
+            text = "Spells known",
+            style = "section",
+          ),
+        ],
+        content = [
+          resourceSection(
+            id = "spells_known_list",
+            resource_stat = "known_spells",
+            resource_id = "spell",
+          ),
+        ],
+        show_divider = false,
+        content_item_min_width = 1,
+        collapsible = true,
+        start_collapsed = false,
+        always_show_collapse_icon = true,
+      ),
+      section(
+        id = "spells_prepared_subsection",
+        is_visible = !isEmpty(prepared_spells),
+        header = [
+          text(
+            id = "spells_prepared_label",
+            margin_left = 24,
+            text = "Prepared today",
+            style = "section",
+          ),
+          spacer(id = "spells_prepared_header_spacer"),
+          selectResources(
+            id = "spells_prepared_add",
+            stat = "prepared_spells",
+            resource_id = "spell",
+            view_type = "icon",
+            should_append = true,
+            should_save_on_selection = true,
+          ),
+        ],
+        content = [
+          resourceSection(
+            id = "spells_prepared_list",
+            resource_stat = "prepared_spells",
+            resource_id = "spell",
+          ),
+        ],
+        show_divider = false,
+        content_item_min_width = 1,
+        collapsible = true,
+        start_collapsed = false,
+        always_show_collapse_icon = true,
+      ),
+    ],
+  );

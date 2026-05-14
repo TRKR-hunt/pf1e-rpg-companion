@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_diehard__crb_",
+    "name": {
+      "value": "Diehard"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Endurance"
+    },
+    "description": {
+      "value": "When between 0 and -CON HP, you act normally; you only die at -CON-1 HP."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

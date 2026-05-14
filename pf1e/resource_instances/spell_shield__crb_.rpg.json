@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shield__crb_",
+    "name": {
+      "value": "Shield"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": 1
+    },
+    "school": {
+      "value": "abjuration [force]"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 min/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "+4 shield bonus to AC; negates magic missile."
+    }
+  }
+}

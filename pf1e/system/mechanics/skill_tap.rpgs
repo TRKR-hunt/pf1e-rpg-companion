@@ -1,0 +1,4 @@
+import "../macros/system_common.rpgs";
+
+mechanic skill_tap(event_names = "skillTap") =
+  skillTapForward(edit_mode = $edit_mode);

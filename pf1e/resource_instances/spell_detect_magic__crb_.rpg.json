@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "detect_magic__crb_",
+    "name": {
+      "value": "Detect Magic"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": 0
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard",
+        "bard",
+        "cleric",
+        "druid"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "60 ft"
+    },
+    "area": {
+      "value": "cone-shaped emanation"
+    },
+    "duration": {
+      "value": "concentration, up to 1 min/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Detect magical auras, learn strength and school over up to 3 rounds of concentration."
+    }
+  }
+}

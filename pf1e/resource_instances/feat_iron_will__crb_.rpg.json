@@ -1,0 +1,61 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_iron_will__crb_",
+    "name": {
+      "value": "Iron Will"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "+2 bonus on all Will saving throws."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_iron_will",
+            "name": {
+              "value": "+2 Will"
+            },
+            "trigger_type": {
+              "value": "passive"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.will_misc"
+            },
+            "constant": {
+              "value": 2
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

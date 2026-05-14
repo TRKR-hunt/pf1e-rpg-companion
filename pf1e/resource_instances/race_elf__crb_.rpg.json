@@ -1,0 +1,73 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "id": "elf__crb_",
+    "name": {
+      "value": "Elf"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "size": {
+      "value": "medium"
+    },
+    "base_speed": {
+      "value": 30
+    },
+    "type": {
+      "value": "humanoid (elf)"
+    },
+    "ability_score_modifiers": {
+      "value": [
+        {
+          "type": "fixed",
+          "ability": "dexterity",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "intelligence",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "constitution",
+          "value": -2
+        }
+      ]
+    },
+    "languages_starting": {
+      "value": [
+        "common",
+        "elven"
+      ]
+    },
+    "bonus_languages_note": {
+      "value": "Celestial, Draconic, Gnoll, Gnome, Goblin, Orc, Sylvan."
+    },
+    "racial_traits": {
+      "value": [
+        {
+          "name": "Low-Light Vision",
+          "description": "Elves can see twice as far as humans in dim light."
+        },
+        {
+          "name": "Elven Immunities",
+          "description": "Immune to magic sleep effects; +2 vs enchantment spells and effects."
+        },
+        {
+          "name": "Elven Magic",
+          "description": "+2 racial bonus on caster level checks to overcome SR; +2 to Spellcraft to identify magic item properties."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "+2 racial bonus on Perception checks."
+        },
+        {
+          "name": "Weapon Familiarity",
+          "description": "Proficient with longbows, longswords, rapiers, and shortbows; treat any weapon with 'elven' in name as martial."
+        }
+      ]
+    }
+  }
+}

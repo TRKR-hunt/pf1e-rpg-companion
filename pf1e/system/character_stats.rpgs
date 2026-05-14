@@ -1,0 +1,647 @@
+import "macros/system_common.rpgs";
+
+// ============================================================================
+// PATHFINDER 1E CHARACTER STATS
+// ============================================================================
+// Key differences from PF2e driving this file:
+//   - Raw ability scores (3-18+); modifiers = floor((score-10)/2)
+//   - BAB is per-class summed; classes have full / 3/4 / 1/2 progression
+//   - 3 saves (Fort/Ref/Will); each class has "good" (2+lvl/2) or "poor" (lvl/3)
+//   - AC = 10 + armor + shield + Dex (capped) + size + dodge + natural + deflection + misc
+//   - Skill ranks: max per skill = char level; class skill = +3 if any rank
+//   - 35 base skills; each keyed to one ability score
+//   - CMB = BAB + STR mod + size; CMD = 10 + BAB + STR + DEX + size + deflection + dodge
+// ============================================================================
+
+// ---------- BASIC IDENTITY ----------
+
+calc string created_at_display(name = "Created at display") =
+  if isNull(created_at)
+    then ""
+    else concat(["Created ", date(created_at)]);
+
+base photo photo(name = "Photo") = null;
+base string name(name = "Name") = "";
+base string alignment(name = "Alignment") = "true_neutral";
+base string deity(name = "Deity") = "";
+base string homeland(name = "Homeland") = "";
+base string gender(name = "Gender") = "";
+base integer age(name = "Age") = 0;
+base string height(name = "Height") = "";
+base string weight_text(name = "Weight") = "";
+base string hair(name = "Hair") = "";
+base string eyes(name = "Eyes") = "";
+base string about(name = "About") = "";
+base resource<note>[] notes(name = "Notes") = [];
+
+// ---------- RACE & CLASSES ----------
+
+base resource<race> race(name = "Race") = null;
+base resource<class_progression>[] classes(name = "Classes") = [];
+
+calc integer level(name = "Character Level") =
+  add(map(classes, mapper = ($c) => $c.class_level));
+
+calc string description(name = "Description") =
+  concat([
+    (race?.name ?? ""),
+    (if isEmpty(classes)
+      then ""
+      else concat([
+        " ",
+        joinToString(
+          map(classes, mapper = ($c) => concat([$c.class.name, " ", $c.class_level])),
+          separator = " / ",
+        ),
+      ])),
+  ]);
+
+// ---------- SIZE ----------
+
+base string size(name = "Size") = "medium";
+
+calc integer size_modifier(name = "Size modifier to attack & AC") =
+  when {
+    size == "fine" -> 8;
+    size == "diminutive" -> 4;
+    size == "tiny" -> 2;
+    size == "small" -> 1;
+    size == "medium" -> 0;
+    size == "large" -> -1;
+    size == "huge" -> -2;
+    size == "gargantuan" -> -4;
+    size == "colossal" -> -8;
+    else -> 0;
+  };
+
+calc integer size_modifier_special(name = "Size modifier to CMB/CMD") =
+  when {
+    size == "fine" -> -8;
+    size == "diminutive" -> -4;
+    size == "tiny" -> -2;
+    size == "small" -> -1;
+    size == "medium" -> 0;
+    size == "large" -> 1;
+    size == "huge" -> 2;
+    size == "gargantuan" -> 4;
+    size == "colossal" -> 8;
+    else -> 0;
+  };
+
+calc integer size_modifier_stealth(name = "Size modifier to Stealth") =
+  when {
+    size == "fine" -> 16;
+    size == "diminutive" -> 12;
+    size == "tiny" -> 8;
+    size == "small" -> 4;
+    size == "medium" -> 0;
+    size == "large" -> -4;
+    size == "huge" -> -8;
+    size == "gargantuan" -> -12;
+    size == "colossal" -> -16;
+    else -> 0;
+  };
+
+// ---------- ABILITY SCORES ----------
+
+base integer strength_score_base(name = "Strength base") = 10;
+base integer dexterity_score_base(name = "Dexterity base") = 10;
+base integer constitution_score_base(name = "Constitution base") = 10;
+base integer intelligence_score_base(name = "Intelligence base") = 10;
+base integer wisdom_score_base(name = "Wisdom base") = 10;
+base integer charisma_score_base(name = "Charisma base") = 10;
+
+base integer strength_race_modifier(name = "STR race mod") = 0;
+base integer dexterity_race_modifier(name = "DEX race mod") = 0;
+base integer constitution_race_modifier(name = "CON race mod") = 0;
+base integer intelligence_race_modifier(name = "INT race mod") = 0;
+base integer wisdom_race_modifier(name = "WIS race mod") = 0;
+base integer charisma_race_modifier(name = "CHA race mod") = 0;
+
+calc integer ability_increase_points(name = "Ability score increases earned (1 per 4 levels)") =
+  divide([level, 4], rounding_method = "down");
+
+base integer strength_level_increase(name = "STR level-up increase") = 0;
+base integer dexterity_level_increase(name = "DEX level-up increase") = 0;
+base integer constitution_level_increase(name = "CON level-up increase") = 0;
+base integer intelligence_level_increase(name = "INT level-up increase") = 0;
+base integer wisdom_level_increase(name = "WIS level-up increase") = 0;
+base integer charisma_level_increase(name = "CHA level-up increase") = 0;
+
+base integer strength_enhancement_bonus(name = "STR enhancement bonus") = 0;
+base integer dexterity_enhancement_bonus(name = "DEX enhancement bonus") = 0;
+base integer constitution_enhancement_bonus(name = "CON enhancement bonus") = 0;
+base integer intelligence_enhancement_bonus(name = "INT enhancement bonus") = 0;
+base integer wisdom_enhancement_bonus(name = "WIS enhancement bonus") = 0;
+base integer charisma_enhancement_bonus(name = "CHA enhancement bonus") = 0;
+
+base integer strength_inherent_bonus(name = "STR inherent bonus") = 0;
+base integer dexterity_inherent_bonus(name = "DEX inherent bonus") = 0;
+base integer constitution_inherent_bonus(name = "CON inherent bonus") = 0;
+base integer intelligence_inherent_bonus(name = "INT inherent bonus") = 0;
+base integer wisdom_inherent_bonus(name = "WIS inherent bonus") = 0;
+base integer charisma_inherent_bonus(name = "CHA inherent bonus") = 0;
+
+base integer strength_misc_modifier(name = "STR misc") = 0;
+base integer dexterity_misc_modifier(name = "DEX misc") = 0;
+base integer constitution_misc_modifier(name = "CON misc") = 0;
+base integer intelligence_misc_modifier(name = "INT misc") = 0;
+base integer wisdom_misc_modifier(name = "WIS misc") = 0;
+base integer charisma_misc_modifier(name = "CHA misc") = 0;
+
+calc integer strength_score(name = "Strength", abbreviation = "STR") =
+  strength_score_base + strength_race_modifier + strength_level_increase
+    + strength_enhancement_bonus + strength_inherent_bonus + strength_misc_modifier;
+
+calc integer dexterity_score(name = "Dexterity", abbreviation = "DEX") =
+  dexterity_score_base + dexterity_race_modifier + dexterity_level_increase
+    + dexterity_enhancement_bonus + dexterity_inherent_bonus + dexterity_misc_modifier;
+
+calc integer constitution_score(name = "Constitution", abbreviation = "CON") =
+  constitution_score_base + constitution_race_modifier + constitution_level_increase
+    + constitution_enhancement_bonus + constitution_inherent_bonus + constitution_misc_modifier;
+
+calc integer intelligence_score(name = "Intelligence", abbreviation = "INT") =
+  intelligence_score_base + intelligence_race_modifier + intelligence_level_increase
+    + intelligence_enhancement_bonus + intelligence_inherent_bonus + intelligence_misc_modifier;
+
+calc integer wisdom_score(name = "Wisdom", abbreviation = "WIS") =
+  wisdom_score_base + wisdom_race_modifier + wisdom_level_increase
+    + wisdom_enhancement_bonus + wisdom_inherent_bonus + wisdom_misc_modifier;
+
+calc integer charisma_score(name = "Charisma", abbreviation = "CHA") =
+  charisma_score_base + charisma_race_modifier + charisma_level_increase
+    + charisma_enhancement_bonus + charisma_inherent_bonus + charisma_misc_modifier;
+
+calc integer strength_modifier(name = "STR mod") = abilityModifier(score = strength_score);
+calc integer dexterity_modifier(name = "DEX mod") = abilityModifier(score = dexterity_score);
+calc integer constitution_modifier(name = "CON mod") = abilityModifier(score = constitution_score);
+calc integer intelligence_modifier(name = "INT mod") = abilityModifier(score = intelligence_score);
+calc integer wisdom_modifier(name = "WIS mod") = abilityModifier(score = wisdom_score);
+calc integer charisma_modifier(name = "CHA mod") = abilityModifier(score = charisma_score);
+
+// ---------- HIT POINTS ----------
+
+base integer hp_rolled_total(name = "Total HP from class HD rolls") = 0;
+base integer hp_favored_class(name = "Favored class HP bonus") = 0;
+base integer hp_misc(name = "Misc HP bonuses (Toughness, etc.)") = 0;
+base integer current_hp(name = "Current HP") = 1;
+base integer temp_hp(name = "Temporary HP") = 0;
+base integer nonlethal_damage(name = "Nonlethal damage") = 0;
+
+calc integer max_hp(name = "Max HP") =
+  hp_rolled_total + (constitution_modifier * level) + hp_favored_class + hp_misc;
+
+// ---------- BASE ATTACK BONUS ----------
+
+calc integer base_attack_bonus(name = "Base Attack Bonus", abbreviation = "BAB") =
+  add(map(classes, mapper = ($c) => when {
+    $c.class.bab_progression == "full" -> $c.class_level;
+    $c.class.bab_progression == "three_quarters" ->
+      divide([($c.class_level * 3), 4], rounding_method = "down");
+    $c.class.bab_progression == "half" ->
+      divide([$c.class_level, 2], rounding_method = "down");
+    else -> 0;
+  }));
+
+// ---------- SAVING THROWS ----------
+
+calc integer fortitude_base(name = "Fort base (class sum)") =
+  add(map(classes, mapper = ($c) => when {
+    $c.class.fortitude_progression == "good" ->
+      2 + divide([$c.class_level, 2], rounding_method = "down");
+    $c.class.fortitude_progression == "poor" ->
+      divide([$c.class_level, 3], rounding_method = "down");
+    else -> 0;
+  }));
+
+calc integer reflex_base(name = "Ref base (class sum)") =
+  add(map(classes, mapper = ($c) => when {
+    $c.class.reflex_progression == "good" ->
+      2 + divide([$c.class_level, 2], rounding_method = "down");
+    $c.class.reflex_progression == "poor" ->
+      divide([$c.class_level, 3], rounding_method = "down");
+    else -> 0;
+  }));
+
+calc integer will_base(name = "Will base (class sum)") =
+  add(map(classes, mapper = ($c) => when {
+    $c.class.will_progression == "good" ->
+      2 + divide([$c.class_level, 2], rounding_method = "down");
+    $c.class.will_progression == "poor" ->
+      divide([$c.class_level, 3], rounding_method = "down");
+    else -> 0;
+  }));
+
+base integer fortitude_resistance_bonus(name = "Fort resistance bonus") = 0;
+base integer fortitude_morale_bonus(name = "Fort morale bonus") = 0;
+base integer fortitude_misc(name = "Fort misc") = 0;
+base integer reflex_resistance_bonus(name = "Ref resistance bonus") = 0;
+base integer reflex_morale_bonus(name = "Ref morale bonus") = 0;
+base integer reflex_misc(name = "Ref misc") = 0;
+base integer will_resistance_bonus(name = "Will resistance bonus") = 0;
+base integer will_morale_bonus(name = "Will morale bonus") = 0;
+base integer will_misc(name = "Will misc") = 0;
+
+calc integer fortitude(name = "Fortitude") =
+  fortitude_base + constitution_modifier + fortitude_resistance_bonus
+    + fortitude_morale_bonus + fortitude_misc;
+
+calc integer reflex(name = "Reflex") =
+  reflex_base + dexterity_modifier + reflex_resistance_bonus
+    + reflex_morale_bonus + reflex_misc;
+
+calc integer will(name = "Will") =
+  will_base + wisdom_modifier + will_resistance_bonus
+    + will_morale_bonus + will_misc;
+
+// ---------- ARMOR CLASS ----------
+
+base resource<armor> equipped_armor(name = "Equipped armor") = null;
+base resource<armor> equipped_shield(name = "Equipped shield") = null;
+
+calc integer armor_bonus(name = "Armor bonus") = (equipped_armor?.armor_bonus ?? 0);
+calc integer shield_bonus(name = "Shield bonus") = (equipped_shield?.armor_bonus ?? 0);
+calc integer max_dex_to_ac(name = "Max DEX to AC") = (equipped_armor?.max_dex_bonus ?? 99);
+calc integer dex_to_ac(name = "Effective DEX to AC") =
+  if dexterity_modifier > max_dex_to_ac then max_dex_to_ac else dexterity_modifier;
+
+base integer natural_armor_bonus(name = "Natural armor bonus") = 0;
+base integer deflection_bonus(name = "Deflection bonus") = 0;
+base integer dodge_bonus(name = "Dodge bonus") = 0;
+base integer ac_misc_bonus(name = "Misc AC bonus") = 0;
+
+calc integer armor_class(name = "Armor Class", abbreviation = "AC") =
+  10 + armor_bonus + shield_bonus + dex_to_ac + size_modifier
+    + natural_armor_bonus + deflection_bonus + dodge_bonus + ac_misc_bonus;
+
+calc integer touch_ac(name = "Touch AC") =
+  10 + dex_to_ac + size_modifier + deflection_bonus + dodge_bonus + ac_misc_bonus;
+
+calc integer flat_footed_ac(name = "Flat-Footed AC") =
+  10 + armor_bonus + shield_bonus + size_modifier
+    + natural_armor_bonus + deflection_bonus + ac_misc_bonus;
+
+// ---------- CMB / CMD ----------
+
+base integer cmb_misc(name = "CMB misc") = 0;
+base integer cmd_misc(name = "CMD misc") = 0;
+
+calc integer cmb(name = "Combat Maneuver Bonus", abbreviation = "CMB") =
+  base_attack_bonus + strength_modifier + size_modifier_special + cmb_misc;
+
+calc integer cmd(name = "Combat Maneuver Defense", abbreviation = "CMD") =
+  10 + base_attack_bonus + strength_modifier + dexterity_modifier
+    + size_modifier_special + deflection_bonus + dodge_bonus + cmd_misc;
+
+// ---------- INITIATIVE / SPEED ----------
+
+base integer initiative_misc(name = "Initiative misc") = 0;
+calc integer initiative(name = "Initiative") = dexterity_modifier + initiative_misc;
+
+calc integer base_speed(name = "Base speed (race)") = (race?.base_speed ?? 30);
+base integer speed_misc(name = "Speed misc") = 0;
+calc integer speed(name = "Speed") = base_speed + speed_misc;
+
+// Alternate movement modes. All default to 0 (i.e. not natively possessed);
+// the player edits these when granted by a spell, item, race, or class.
+base integer burrow_speed(name = "Burrow speed") = 0;
+base integer climb_speed(name = "Climb speed") = 0;
+base integer fly_speed(name = "Fly speed") = 0;
+base integer swim_speed(name = "Swim speed") = 0;
+
+// ---------- CONDITIONS ----------
+// PF1e canonical condition set. Booleans for binary conditions; an integer
+// for negative levels (the only common stacking counter). The fear and
+// fatigue ladders (shaken/frightened/panicked, fatigued/exhausted, and
+// sickened/nauseated) are modeled as separate booleans rather than counters
+// because PF1e doesn't actually scale them numerically — each tier is its
+// own state.
+base bool blinded(name = "Blinded") = false;
+base bool deafened(name = "Deafened") = false;
+base bool dazzled(name = "Dazzled") = false;
+base bool dazed(name = "Dazed") = false;
+base bool fatigued(name = "Fatigued") = false;
+base bool exhausted(name = "Exhausted") = false;
+base bool sickened(name = "Sickened") = false;
+base bool nauseated(name = "Nauseated") = false;
+base bool shaken(name = "Shaken") = false;
+base bool frightened(name = "Frightened") = false;
+base bool panicked(name = "Panicked") = false;
+base bool prone(name = "Prone") = false;
+base bool entangled(name = "Entangled") = false;
+base bool grappled(name = "Grappled") = false;
+base bool pinned(name = "Pinned") = false;
+base bool helpless(name = "Helpless") = false;
+base bool paralyzed(name = "Paralyzed") = false;
+base bool stunned(name = "Stunned") = false;
+base bool staggered(name = "Staggered") = false;
+base bool confused(name = "Confused") = false;
+base bool unconscious(name = "Unconscious") = false;
+base bool dying(name = "Dying") = false;
+base bool stable(name = "Stable") = false;
+base bool dead(name = "Dead") = false;
+base integer negative_levels(name = "Negative levels") = 0;
+
+// ---------- DERIVED ATTACK / DAMAGE BONUSES ----------
+// PF1e weapon attack rolls are: BAB + (STR or DEX for finesse) + size + a
+// running "misc" bucket of typed bonuses + per-weapon enhancement +
+// situational. We model the per-character portion as four calc stats; feats
+// and effects layer their bonuses into the matching `_misc` bucket, never
+// the calc itself.
+//
+//   melee_attack_bonus  = BAB + STR + size + melee_attack_misc
+//   melee_damage_bonus  = STR + melee_damage_misc       (one-handed default;
+//                          two-handed *1.5 and off-hand *0.5 are applied at
+//                          the weapon-strike DSL layer, not here)
+//   ranged_attack_bonus = BAB + DEX + size + ranged_attack_misc
+//   ranged_damage_bonus = ranged_damage_misc             (most ranged
+//                          weapons don't add an ability mod; composite bows
+//                          and thrown weapons that do are handled per-weapon)
+//
+// Note: STR is the default melee ability. Weapon Finesse and similar feats
+// would override to DEX at the weapon level, not here. The base `_misc`
+// stats below are the integration points for typed bonus stacking.
+base integer melee_attack_misc(name = "Melee attack misc") = 0;
+base integer melee_damage_misc(name = "Melee damage misc") = 0;
+base integer ranged_attack_misc(name = "Ranged attack misc") = 0;
+base integer ranged_damage_misc(name = "Ranged damage misc") = 0;
+
+calc integer melee_attack_bonus(name = "Melee attack bonus") =
+  base_attack_bonus + strength_modifier + size_modifier + melee_attack_misc;
+
+calc integer melee_damage_bonus(name = "Melee damage bonus") =
+  strength_modifier + melee_damage_misc;
+
+calc integer ranged_attack_bonus(name = "Ranged attack bonus") =
+  base_attack_bonus + dexterity_modifier + size_modifier + ranged_attack_misc;
+
+calc integer ranged_damage_bonus(name = "Ranged damage bonus") =
+  ranged_damage_misc;
+
+// ---------- SKILLS (35 base skills) ----------
+
+base integer acrobatics_ranks(name = "Acrobatics ranks") = 0;
+base integer acrobatics_misc(name = "Acrobatics misc") = 0;
+calc integer acrobatics(name = "Acrobatics") =
+  acrobatics_ranks + dexterity_modifier
+    + (if (contains(class_skill_list, "acrobatics") && acrobatics_ranks > 0) then 3 else 0)
+    + acrobatics_misc;
+
+base integer appraise_ranks(name = "Appraise ranks") = 0;
+base integer appraise_misc(name = "Appraise misc") = 0;
+calc integer appraise(name = "Appraise") =
+  appraise_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "appraise") && appraise_ranks > 0) then 3 else 0)
+    + appraise_misc;
+
+base integer bluff_ranks(name = "Bluff ranks") = 0;
+base integer bluff_misc(name = "Bluff misc") = 0;
+calc integer bluff(name = "Bluff") =
+  bluff_ranks + charisma_modifier
+    + (if (contains(class_skill_list, "bluff") && bluff_ranks > 0) then 3 else 0)
+    + bluff_misc;
+
+base integer climb_ranks(name = "Climb ranks") = 0;
+base integer climb_misc(name = "Climb misc") = 0;
+calc integer climb(name = "Climb") =
+  climb_ranks + strength_modifier
+    + (if (contains(class_skill_list, "climb") && climb_ranks > 0) then 3 else 0)
+    + climb_misc;
+
+base integer craft_ranks(name = "Craft ranks") = 0;
+base integer craft_misc(name = "Craft misc") = 0;
+calc integer craft(name = "Craft") =
+  craft_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "craft") && craft_ranks > 0) then 3 else 0)
+    + craft_misc;
+
+base integer diplomacy_ranks(name = "Diplomacy ranks") = 0;
+base integer diplomacy_misc(name = "Diplomacy misc") = 0;
+calc integer diplomacy(name = "Diplomacy") =
+  diplomacy_ranks + charisma_modifier
+    + (if (contains(class_skill_list, "diplomacy") && diplomacy_ranks > 0) then 3 else 0)
+    + diplomacy_misc;
+
+base integer disable_device_ranks(name = "Disable Device ranks") = 0;
+base integer disable_device_misc(name = "Disable Device misc") = 0;
+calc integer disable_device(name = "Disable Device") =
+  disable_device_ranks + dexterity_modifier
+    + (if (contains(class_skill_list, "disable_device") && disable_device_ranks > 0) then 3 else 0)
+    + disable_device_misc;
+
+base integer disguise_ranks(name = "Disguise ranks") = 0;
+base integer disguise_misc(name = "Disguise misc") = 0;
+calc integer disguise(name = "Disguise") =
+  disguise_ranks + charisma_modifier
+    + (if (contains(class_skill_list, "disguise") && disguise_ranks > 0) then 3 else 0)
+    + disguise_misc;
+
+base integer escape_artist_ranks(name = "Escape Artist ranks") = 0;
+base integer escape_artist_misc(name = "Escape Artist misc") = 0;
+calc integer escape_artist(name = "Escape Artist") =
+  escape_artist_ranks + dexterity_modifier
+    + (if (contains(class_skill_list, "escape_artist") && escape_artist_ranks > 0) then 3 else 0)
+    + escape_artist_misc;
+
+base integer fly_ranks(name = "Fly ranks") = 0;
+base integer fly_misc(name = "Fly misc") = 0;
+calc integer fly(name = "Fly") =
+  fly_ranks + dexterity_modifier + size_modifier
+    + (if (contains(class_skill_list, "fly") && fly_ranks > 0) then 3 else 0)
+    + fly_misc;
+
+base integer handle_animal_ranks(name = "Handle Animal ranks") = 0;
+base integer handle_animal_misc(name = "Handle Animal misc") = 0;
+calc integer handle_animal(name = "Handle Animal") =
+  handle_animal_ranks + charisma_modifier
+    + (if (contains(class_skill_list, "handle_animal") && handle_animal_ranks > 0) then 3 else 0)
+    + handle_animal_misc;
+
+base integer heal_ranks(name = "Heal ranks") = 0;
+base integer heal_misc(name = "Heal misc") = 0;
+calc integer heal(name = "Heal") =
+  heal_ranks + wisdom_modifier
+    + (if (contains(class_skill_list, "heal") && heal_ranks > 0) then 3 else 0)
+    + heal_misc;
+
+base integer intimidate_ranks(name = "Intimidate ranks") = 0;
+base integer intimidate_misc(name = "Intimidate misc") = 0;
+calc integer intimidate(name = "Intimidate") =
+  intimidate_ranks + charisma_modifier
+    + (if (contains(class_skill_list, "intimidate") && intimidate_ranks > 0) then 3 else 0)
+    + intimidate_misc;
+
+base integer knowledge_arcana_ranks(name = "K. Arcana ranks") = 0;
+base integer knowledge_arcana_misc(name = "K. Arcana misc") = 0;
+calc integer knowledge_arcana(name = "Knowledge (Arcana)") =
+  knowledge_arcana_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_arcana") && knowledge_arcana_ranks > 0) then 3 else 0)
+    + knowledge_arcana_misc;
+
+base integer knowledge_dungeoneering_ranks(name = "K. Dungeoneering ranks") = 0;
+base integer knowledge_dungeoneering_misc(name = "K. Dungeoneering misc") = 0;
+calc integer knowledge_dungeoneering(name = "Knowledge (Dungeoneering)") =
+  knowledge_dungeoneering_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_dungeoneering") && knowledge_dungeoneering_ranks > 0) then 3 else 0)
+    + knowledge_dungeoneering_misc;
+
+base integer knowledge_engineering_ranks(name = "K. Engineering ranks") = 0;
+base integer knowledge_engineering_misc(name = "K. Engineering misc") = 0;
+calc integer knowledge_engineering(name = "Knowledge (Engineering)") =
+  knowledge_engineering_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_engineering") && knowledge_engineering_ranks > 0) then 3 else 0)
+    + knowledge_engineering_misc;
+
+base integer knowledge_geography_ranks(name = "K. Geography ranks") = 0;
+base integer knowledge_geography_misc(name = "K. Geography misc") = 0;
+calc integer knowledge_geography(name = "Knowledge (Geography)") =
+  knowledge_geography_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_geography") && knowledge_geography_ranks > 0) then 3 else 0)
+    + knowledge_geography_misc;
+
+base integer knowledge_history_ranks(name = "K. History ranks") = 0;
+base integer knowledge_history_misc(name = "K. History misc") = 0;
+calc integer knowledge_history(name = "Knowledge (History)") =
+  knowledge_history_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_history") && knowledge_history_ranks > 0) then 3 else 0)
+    + knowledge_history_misc;
+
+base integer knowledge_local_ranks(name = "K. Local ranks") = 0;
+base integer knowledge_local_misc(name = "K. Local misc") = 0;
+calc integer knowledge_local(name = "Knowledge (Local)") =
+  knowledge_local_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_local") && knowledge_local_ranks > 0) then 3 else 0)
+    + knowledge_local_misc;
+
+base integer knowledge_nature_ranks(name = "K. Nature ranks") = 0;
+base integer knowledge_nature_misc(name = "K. Nature misc") = 0;
+calc integer knowledge_nature(name = "Knowledge (Nature)") =
+  knowledge_nature_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_nature") && knowledge_nature_ranks > 0) then 3 else 0)
+    + knowledge_nature_misc;
+
+base integer knowledge_nobility_ranks(name = "K. Nobility ranks") = 0;
+base integer knowledge_nobility_misc(name = "K. Nobility misc") = 0;
+calc integer knowledge_nobility(name = "Knowledge (Nobility)") =
+  knowledge_nobility_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_nobility") && knowledge_nobility_ranks > 0) then 3 else 0)
+    + knowledge_nobility_misc;
+
+base integer knowledge_planes_ranks(name = "K. Planes ranks") = 0;
+base integer knowledge_planes_misc(name = "K. Planes misc") = 0;
+calc integer knowledge_planes(name = "Knowledge (Planes)") =
+  knowledge_planes_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_planes") && knowledge_planes_ranks > 0) then 3 else 0)
+    + knowledge_planes_misc;
+
+base integer knowledge_religion_ranks(name = "K. Religion ranks") = 0;
+base integer knowledge_religion_misc(name = "K. Religion misc") = 0;
+calc integer knowledge_religion(name = "Knowledge (Religion)") =
+  knowledge_religion_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "knowledge_religion") && knowledge_religion_ranks > 0) then 3 else 0)
+    + knowledge_religion_misc;
+
+base integer linguistics_ranks(name = "Linguistics ranks") = 0;
+base integer linguistics_misc(name = "Linguistics misc") = 0;
+calc integer linguistics(name = "Linguistics") =
+  linguistics_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "linguistics") && linguistics_ranks > 0) then 3 else 0)
+    + linguistics_misc;
+
+base integer perception_ranks(name = "Perception ranks") = 0;
+base integer perception_misc(name = "Perception misc") = 0;
+calc integer perception(name = "Perception") =
+  perception_ranks + wisdom_modifier
+    + (if (contains(class_skill_list, "perception") && perception_ranks > 0) then 3 else 0)
+    + perception_misc;
+
+base integer perform_ranks(name = "Perform ranks") = 0;
+base integer perform_misc(name = "Perform misc") = 0;
+calc integer perform(name = "Perform") =
+  perform_ranks + charisma_modifier
+    + (if (contains(class_skill_list, "perform") && perform_ranks > 0) then 3 else 0)
+    + perform_misc;
+
+base integer profession_ranks(name = "Profession ranks") = 0;
+base integer profession_misc(name = "Profession misc") = 0;
+calc integer profession(name = "Profession") =
+  profession_ranks + wisdom_modifier
+    + (if (contains(class_skill_list, "profession") && profession_ranks > 0) then 3 else 0)
+    + profession_misc;
+
+base integer ride_ranks(name = "Ride ranks") = 0;
+base integer ride_misc(name = "Ride misc") = 0;
+calc integer ride(name = "Ride") =
+  ride_ranks + dexterity_modifier
+    + (if (contains(class_skill_list, "ride") && ride_ranks > 0) then 3 else 0)
+    + ride_misc;
+
+base integer sense_motive_ranks(name = "Sense Motive ranks") = 0;
+base integer sense_motive_misc(name = "Sense Motive misc") = 0;
+calc integer sense_motive(name = "Sense Motive") =
+  sense_motive_ranks + wisdom_modifier
+    + (if (contains(class_skill_list, "sense_motive") && sense_motive_ranks > 0) then 3 else 0)
+    + sense_motive_misc;
+
+base integer sleight_of_hand_ranks(name = "Sleight of Hand ranks") = 0;
+base integer sleight_of_hand_misc(name = "Sleight of Hand misc") = 0;
+calc integer sleight_of_hand(name = "Sleight of Hand") =
+  sleight_of_hand_ranks + dexterity_modifier
+    + (if (contains(class_skill_list, "sleight_of_hand") && sleight_of_hand_ranks > 0) then 3 else 0)
+    + sleight_of_hand_misc;
+
+base integer spellcraft_ranks(name = "Spellcraft ranks") = 0;
+base integer spellcraft_misc(name = "Spellcraft misc") = 0;
+calc integer spellcraft(name = "Spellcraft") =
+  spellcraft_ranks + intelligence_modifier
+    + (if (contains(class_skill_list, "spellcraft") && spellcraft_ranks > 0) then 3 else 0)
+    + spellcraft_misc;
+
+base integer stealth_ranks(name = "Stealth ranks") = 0;
+base integer stealth_misc(name = "Stealth misc") = 0;
+calc integer stealth(name = "Stealth") =
+  stealth_ranks + dexterity_modifier + size_modifier_stealth
+    + (if (contains(class_skill_list, "stealth") && stealth_ranks > 0) then 3 else 0)
+    + stealth_misc;
+
+base integer survival_ranks(name = "Survival ranks") = 0;
+base integer survival_misc(name = "Survival misc") = 0;
+calc integer survival(name = "Survival") =
+  survival_ranks + wisdom_modifier
+    + (if (contains(class_skill_list, "survival") && survival_ranks > 0) then 3 else 0)
+    + survival_misc;
+
+base integer swim_ranks(name = "Swim ranks") = 0;
+base integer swim_misc(name = "Swim misc") = 0;
+calc integer swim(name = "Swim") =
+  swim_ranks + strength_modifier
+    + (if (contains(class_skill_list, "swim") && swim_ranks > 0) then 3 else 0)
+    + swim_misc;
+
+base integer use_magic_device_ranks(name = "Use Magic Device ranks") = 0;
+base integer use_magic_device_misc(name = "Use Magic Device misc") = 0;
+calc integer use_magic_device(name = "Use Magic Device") =
+  use_magic_device_ranks + charisma_modifier
+    + (if (contains(class_skill_list, "use_magic_device") && use_magic_device_ranks > 0) then 3 else 0)
+    + use_magic_device_misc;
+
+// Class skill list: union across all classes
+calc string[] class_skill_list(name = "Class skill list") =
+  flatMap(classes, mapper = ($c) => ($c.class.class_skills ?? []));
+
+// ---------- FEATS / SPELLS / EQUIPMENT ----------
+
+base resource<feat>[] selected_feats(name = "Selected feats") = [];
+base resource<spell>[] known_spells(name = "Known spells") = [];
+base resource<spell>[] prepared_spells(name = "Prepared spells today") = [];
+
+base resource<weapon>[] weapons(name = "Weapons") = [];
+base resource<armor>[] armors(name = "All armor") = [];
+base resource<item>[] inventory(name = "Inventory") = [];
+base integer gold_pieces(name = "GP") = 0;
+base integer silver_pieces(name = "SP") = 0;
+base integer copper_pieces(name = "CP") = 0;
+base integer platinum_pieces(name = "PP") = 0;
+
+base integer xp(name = "Experience points") = 0;

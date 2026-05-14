@@ -1,0 +1,119 @@
+// PF1e features section.
+// Sources of features in PF1e:
+//   - Class features (from each entry in `classes` -> class.class_features)
+//   - Racial traits (from race.racial_traits)
+//   - Selected feats (from `selected_feats` array)
+//
+// All three are read out of stats declared in character_stats.rpgs. Anything
+// fancier (granted-by-archetype, conditional traits, etc.) lives in a later
+// pass and would extend this section with extra subsections.
+character_sheet_section features() =
+  section(
+    id = "features_section",
+    show_divider = true,
+    content_item_min_width = 1,
+    collapsible = true,
+    header = [
+      icon(
+        id = "features_section_icon",
+        name = "ic_star",
+        size = "medium",
+        margin_left = 16,
+      ),
+      text(
+        id = "features_section_title",
+        margin_right = 16,
+        margin_left = 16,
+        text = "Features & Feats",
+        style = "title",
+      ),
+      spacer(id = "features_section_header_spacer"),
+      selectResources(
+        id = "features_section_add_feat",
+        stat = "selected_feats",
+        resource_id = "feat",
+        view_type = "icon",
+        should_append = true,
+        should_save_on_selection = true,
+      ),
+    ],
+    content = [
+      section(
+        id = "class_features_subsection",
+        is_visible = !isEmpty(classes),
+        header = [
+          text(
+            id = "class_features_label",
+            margin_left = 24,
+            text = "Class features",
+            style = "section",
+          ),
+        ],
+        content = [
+          resourceArray(
+            id = "class_features_class_progressions",
+            resource_id = "class_progression",
+            stat = "classes",
+            view_type = "display",
+            hide_line = true,
+          ),
+        ],
+        show_divider = false,
+        content_item_min_width = 1,
+        collapsible = true,
+        start_collapsed = false,
+        always_show_collapse_icon = true,
+      ),
+      section(
+        id = "racial_traits_subsection",
+        is_visible = notNull(race),
+        header = [
+          text(
+            id = "racial_traits_label",
+            margin_left = 24,
+            text = "Racial traits",
+            style = "section",
+          ),
+        ],
+        content = [
+          resourceArray(
+            id = "racial_traits_race_display",
+            resource_id = "race",
+            stat = "race",
+            view_type = "display",
+            hide_line = true,
+          ),
+        ],
+        show_divider = false,
+        content_item_min_width = 1,
+        collapsible = true,
+        start_collapsed = true,
+        always_show_collapse_icon = true,
+      ),
+      section(
+        id = "selected_feats_subsection",
+        is_visible = !isEmpty(selected_feats),
+        header = [
+          text(
+            id = "selected_feats_label",
+            margin_left = 24,
+            text = "Feats",
+            style = "section",
+          ),
+        ],
+        content = [
+          resourceSection(
+            id = "selected_feats_list",
+            resource_stat = "selected_feats",
+            read_only = false,
+            resource_id = "feat",
+          ),
+        ],
+        show_divider = false,
+        content_item_min_width = 1,
+        collapsible = true,
+        start_collapsed = false,
+        always_show_collapse_icon = true,
+      ),
+    ],
+  );

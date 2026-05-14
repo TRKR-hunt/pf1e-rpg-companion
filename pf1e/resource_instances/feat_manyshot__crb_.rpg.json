@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_manyshot__crb_",
+    "name": {
+      "value": "Manyshot"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 17, Point-Blank Shot, Rapid Shot, base attack bonus +6"
+    },
+    "description": {
+      "value": "When making first ranged attack on full-attack with bow, fire two arrows. Both deal damage if it hits; only first applies precision/extra dice."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

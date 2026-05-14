@@ -1,0 +1,77 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "id": "halfling__crb_",
+    "name": {
+      "value": "Halfling"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "size": {
+      "value": "small"
+    },
+    "base_speed": {
+      "value": 20
+    },
+    "type": {
+      "value": "humanoid (halfling)"
+    },
+    "ability_score_modifiers": {
+      "value": [
+        {
+          "type": "fixed",
+          "ability": "dexterity",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "charisma",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "strength",
+          "value": -2
+        }
+      ]
+    },
+    "languages_starting": {
+      "value": [
+        "common",
+        "halfling"
+      ]
+    },
+    "bonus_languages_note": {
+      "value": "Dwarven, Elven, Gnome, Goblin."
+    },
+    "racial_traits": {
+      "value": [
+        {
+          "name": "Fearless",
+          "description": "+2 racial bonus on saves vs fear (stacks with Halfling Luck)."
+        },
+        {
+          "name": "Halfling Luck",
+          "description": "+1 racial bonus on all saving throws."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "+2 racial bonus on Perception."
+        },
+        {
+          "name": "Sure-Footed",
+          "description": "+2 racial bonus on Acrobatics and Climb."
+        },
+        {
+          "name": "Weapon Familiarity",
+          "description": "Proficient with slings; treat any weapon with 'halfling' in name as martial."
+        },
+        {
+          "name": "Small",
+          "description": "+1 size to AC and attack; +4 size to Stealth."
+        }
+      ]
+    }
+  }
+}

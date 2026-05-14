@@ -1,0 +1,27 @@
+import "../macros/system_common.rpgs";
+
+// PF1e-specific combat stats section. Shows BAB, CMB, CMD, AC, Touch, Flat-Footed, HP, Initiative, Speed.
+character_sheet_section combat_stats() =
+  section(
+    id = "combat_stats_section",
+    show_divider = true,
+    content_item_min_width = 100,
+    collapsible = false,
+    header = defaultSectionHeader(
+      icon_id = "combat_stats_section_icon",
+      icon_name = "ic_d20",
+      title_id = "combat_stats_section_title",
+      title_text = "Combat",
+    ),
+    content = [
+      rollStatRow(id = "bab",         stat_id = "base_attack_bonus", edit_stat_id = "base_attack_bonus", stat_name = "BAB"),
+      rollStatRow(id = "ac",          stat_id = "armor_class",       edit_stat_id = "ac_misc_bonus",     stat_name = "AC"),
+      rollStatRow(id = "touch_ac",    stat_id = "touch_ac",          edit_stat_id = "ac_misc_bonus",     stat_name = "Touch AC"),
+      rollStatRow(id = "ff_ac",       stat_id = "flat_footed_ac",    edit_stat_id = "ac_misc_bonus",     stat_name = "Flat-Footed AC"),
+      rollStatRow(id = "cmb",         stat_id = "cmb",               edit_stat_id = "cmb_misc",          stat_name = "CMB"),
+      rollStatRow(id = "cmd",         stat_id = "cmd",               edit_stat_id = "cmd_misc",          stat_name = "CMD"),
+      rollStatRow(id = "initiative",  stat_id = "initiative",        edit_stat_id = "initiative_misc",   stat_name = "Initiative"),
+      rollStatRow(id = "speed",       stat_id = "speed",             edit_stat_id = "speed_misc",        stat_name = "Speed"),
+      rollStatRow(id = "max_hp",      stat_id = "max_hp",            edit_stat_id = "current_hp",        stat_name = "HP"),
+    ],
+  );

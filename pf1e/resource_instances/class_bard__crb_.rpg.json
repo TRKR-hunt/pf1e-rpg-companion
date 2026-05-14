@@ -1,0 +1,222 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "bard__crb_",
+    "name": {
+      "value": "Bard"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Starting Wealth\n3d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n6 + Int modifier.\n\n### Alignment\nany non-lawful.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 6
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "good"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "acrobatics",
+        "appraise",
+        "bluff",
+        "climb",
+        "craft",
+        "diplomacy",
+        "disguise",
+        "escape_artist",
+        "intimidate",
+        "knowledge_arcana",
+        "knowledge_dungeoneering",
+        "knowledge_engineering",
+        "knowledge_geography",
+        "knowledge_history",
+        "knowledge_local",
+        "knowledge_nature",
+        "knowledge_nobility",
+        "knowledge_planes",
+        "knowledge_religion",
+        "linguistics",
+        "perception",
+        "perform",
+        "profession",
+        "sense_motive",
+        "sleight_of_hand",
+        "spellcraft",
+        "stealth",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "3d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any non-lawful"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "longsword",
+        "rapier",
+        "sap",
+        "short sword",
+        "shortbow",
+        "whip"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "buckler",
+        "light",
+        "heavy"
+      ]
+    },
+    "spellcasting": {
+      "value": {
+        "type": "spontaneous",
+        "tradition": "arcane",
+        "ability": "charisma",
+        "max_spell_level": 6
+      }
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Bardic Knowledge",
+          "description": "Add half level (min 1) to all Knowledge checks; may make untrained."
+        },
+        {
+          "level": 1,
+          "name": "Bardic Performance",
+          "description": "Rounds/day = 4 + Cha mod (+2/level)."
+        },
+        {
+          "level": 1,
+          "name": "Cantrips",
+          "description": "Knows 0-level spells castable at will."
+        },
+        {
+          "level": 1,
+          "name": "Countersong",
+          "description": ""
+        },
+        {
+          "level": 1,
+          "name": "Distraction",
+          "description": ""
+        },
+        {
+          "level": 1,
+          "name": "Fascinate",
+          "description": ""
+        },
+        {
+          "level": 1,
+          "name": "Inspire Courage +1",
+          "description": "+1 morale to attack/damage and vs fear/charm for allies."
+        },
+        {
+          "level": 2,
+          "name": "Versatile Performance",
+          "description": "Substitute Perform for two other skills."
+        },
+        {
+          "level": 2,
+          "name": "Well-Versed",
+          "description": "+4 vs bardic/sonic effects."
+        },
+        {
+          "level": 3,
+          "name": "Inspire Competence +2",
+          "description": ""
+        },
+        {
+          "level": 5,
+          "name": "Lore Master",
+          "description": "Take 10 on any Knowledge check."
+        },
+        {
+          "level": 5,
+          "name": "Inspire Courage +2",
+          "description": ""
+        },
+        {
+          "level": 6,
+          "name": "Suggestion",
+          "description": ""
+        },
+        {
+          "level": 8,
+          "name": "Dirge of Doom",
+          "description": ""
+        },
+        {
+          "level": 9,
+          "name": "Inspire Greatness",
+          "description": ""
+        },
+        {
+          "level": 11,
+          "name": "Inspire Courage +3",
+          "description": ""
+        },
+        {
+          "level": 12,
+          "name": "Soothing Performance",
+          "description": ""
+        },
+        {
+          "level": 14,
+          "name": "Frightening Tune",
+          "description": ""
+        },
+        {
+          "level": 15,
+          "name": "Inspire Heroics",
+          "description": ""
+        },
+        {
+          "level": 17,
+          "name": "Inspire Courage +4",
+          "description": ""
+        },
+        {
+          "level": 18,
+          "name": "Mass Suggestion",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Deadly Performance",
+          "description": ""
+        }
+      ]
+    }
+  }
+}

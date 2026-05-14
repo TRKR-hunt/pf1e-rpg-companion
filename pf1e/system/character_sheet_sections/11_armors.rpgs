@@ -1,0 +1,84 @@
+// PF1e armor section.
+// PF1e AC depends on the *currently equipped* armor and shield, which are
+// distinct base stats from the full owned-armor list. We expose:
+//   - `equipped_armor` (single armor, drives AC)
+//   - `equipped_shield` (single shield, drives shield bonus)
+//   - `armors` (full owned list)
+character_sheet_section armors() =
+  section(
+    id = "armors_section",
+    show_divider = true,
+    content_item_min_width = 1,
+    collapsible = true,
+    header = [
+      icon(
+        id = "armors_section_icon",
+        name = "ic_armor",
+        size = "medium",
+        margin_left = 16,
+      ),
+      text(
+        id = "armors_section_title",
+        margin_right = 16,
+        margin_left = 16,
+        text = "Armor",
+        style = "title",
+      ),
+      spacer(id = "armors_section_header_spacer"),
+      selectResources(
+        id = "armors_section_add_armor",
+        stat = "armors",
+        resource_id = "armor",
+        view_type = "icon",
+        should_append = true,
+        should_save_on_selection = true,
+      ),
+    ],
+    content = [
+      composite(
+        id = "armors_equipped_composite",
+        margin_left = 16,
+        margin_right = 16,
+        margin_bottom = 4,
+        subviews = [
+          text(
+            id = "armors_equipped_label",
+            text = "Equipped armor:",
+            style = "text",
+            bold = true,
+          ),
+          selectResources(
+            id = "armors_equipped_armor_select",
+            stat = "equipped_armor",
+            resource_id = "armor",
+            margin_left = 8,
+          ),
+        ],
+      ),
+      composite(
+        id = "armors_equipped_shield_composite",
+        margin_left = 16,
+        margin_right = 16,
+        margin_bottom = 4,
+        subviews = [
+          text(
+            id = "armors_equipped_shield_label",
+            text = "Equipped shield:",
+            style = "text",
+            bold = true,
+          ),
+          selectResources(
+            id = "armors_equipped_shield_select",
+            stat = "equipped_shield",
+            resource_id = "armor",
+            margin_left = 8,
+          ),
+        ],
+      ),
+      resourceSection(
+        id = "armors_list",
+        resource_stat = "armors",
+        resource_id = "armor",
+      ),
+    ],
+  );

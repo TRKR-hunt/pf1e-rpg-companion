@@ -1,0 +1,8 @@
+// Stubbed for PF1e: this lifecycle handler is inherited from pf2e and
+// references stats (focus_points / hero_points / actions_remaining / etc.)
+// that do not exist in PF1e character_stats.rpgs. PF1e either has no
+// analogous event, or the event will be re-implemented in a later session.
+// Stubbing to an empty sequence preserves the file's event registration so
+// the system loader does not choke on a missing handler name.
+mechanic sync_dying_with_hp(event_names = "set_current_hp") =
+  sequence(effects = []);

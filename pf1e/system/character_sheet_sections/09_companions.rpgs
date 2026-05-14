@@ -1,0 +1,41 @@
+// TODO: PF1e adaptation needed
+// This section was inherited from pf2e and references stats that do not exist in PF1e:
+//   - `companions` stat (not yet declared in character_stats.rpgs)
+//   - `companion_section_title` (pf2e-specific computed stat)
+//   - resource_id `companion` (the resources/ directory defines this, but no
+//     PF1e content has been authored against it yet)
+//
+// PF1e analogues:
+//   - Animal companions (Druid, Ranger, Cavalier mounts, Paladin mounts)
+//   - Familiars (Wizard, Sorcerer with Arcane Bloodline, Witch, etc.)
+//   - Eidolons (Summoner — out of scope until APG content)
+//
+// To finish this section we need (in order):
+//   1. Add `base resource<companion>[] companions(name = "Companions") = [];` to
+//      character_stats.rpgs.
+//   2. Author the PF1e companion resource type stats schema (HD progression,
+//      natural armor by level, attack/save tables, tricks). The pf2e
+//      `companion` schema is too different to reuse directly.
+//   3. Rewrite this section to mirror PF1e companion stat block.
+//
+// Until then, this file is intentionally a no-op placeholder so the sheet
+// loads without dangling references.
+character_sheet_section companions() =
+  section(
+    id = "companions_section",
+    show_divider = false,
+    content_item_min_width = 1,
+    collapsible = true,
+    start_collapsed = true,
+    is_visible = false,
+    header = [
+      text(
+        id = "companions_section_title",
+        margin_right = 16,
+        margin_left = 16,
+        text = "Companions",
+        style = "title",
+      ),
+    ],
+    content = [],
+  );

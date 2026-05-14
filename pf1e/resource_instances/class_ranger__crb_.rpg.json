@@ -1,0 +1,216 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "ranger__crb_",
+    "name": {
+      "value": "Ranger"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd10.\n\n### Starting Wealth\n5d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n6 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d10"
+    },
+    "class_hp_per_level": {
+      "value": 10
+    },
+    "skill_ranks_per_level": {
+      "value": 6
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "full"
+    },
+    "fortitude_progression": {
+      "value": "good"
+    },
+    "reflex_progression": {
+      "value": "good"
+    },
+    "will_progression": {
+      "value": "poor"
+    },
+    "class_skills": {
+      "value": [
+        "climb",
+        "craft",
+        "handle_animal",
+        "heal",
+        "intimidate",
+        "knowledge_dungeoneering",
+        "knowledge_geography",
+        "knowledge_nature",
+        "perception",
+        "profession",
+        "ride",
+        "spellcraft",
+        "stealth",
+        "survival",
+        "swim"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "martial"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light",
+        "medium"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "buckler",
+        "light",
+        "heavy"
+      ]
+    },
+    "spellcasting": {
+      "value": {
+        "type": "prepared",
+        "tradition": "divine",
+        "ability": "wisdom",
+        "max_spell_level": 4,
+        "begins_at_level": 4
+      }
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "1st Favored Enemy",
+          "description": "+2 atk/dmg/skill vs chosen creature type."
+        },
+        {
+          "level": 1,
+          "name": "Track",
+          "description": "Add half ranger level to Survival to track."
+        },
+        {
+          "level": 1,
+          "name": "Wild Empathy",
+          "description": ""
+        },
+        {
+          "level": 2,
+          "name": "Combat Style Feat",
+          "description": "Bonus feat from chosen archery or two-weapon list."
+        },
+        {
+          "level": 3,
+          "name": "Endurance",
+          "description": "Bonus feat."
+        },
+        {
+          "level": 3,
+          "name": "Favored Terrain",
+          "description": "+2 init/Knowledge geo/Per/Stealth/Survival in terrain."
+        },
+        {
+          "level": 4,
+          "name": "Hunter's Bond",
+          "description": "Animal companion or +half level to allies' atk vs FE."
+        },
+        {
+          "level": 5,
+          "name": "2nd Favored Enemy",
+          "description": ""
+        },
+        {
+          "level": 6,
+          "name": "Combat Style Feat",
+          "description": ""
+        },
+        {
+          "level": 7,
+          "name": "Woodland Stride",
+          "description": ""
+        },
+        {
+          "level": 8,
+          "name": "Swift Tracker",
+          "description": "Track at normal speed."
+        },
+        {
+          "level": 9,
+          "name": "Evasion",
+          "description": ""
+        },
+        {
+          "level": 10,
+          "name": "3rd Favored Enemy",
+          "description": ""
+        },
+        {
+          "level": 10,
+          "name": "Combat Style Feat",
+          "description": ""
+        },
+        {
+          "level": 11,
+          "name": "Quarry",
+          "description": ""
+        },
+        {
+          "level": 12,
+          "name": "Camouflage",
+          "description": ""
+        },
+        {
+          "level": 14,
+          "name": "Combat Style Feat",
+          "description": ""
+        },
+        {
+          "level": 15,
+          "name": "4th Favored Enemy",
+          "description": ""
+        },
+        {
+          "level": 16,
+          "name": "Improved Evasion",
+          "description": ""
+        },
+        {
+          "level": 17,
+          "name": "Hide in Plain Sight",
+          "description": ""
+        },
+        {
+          "level": 18,
+          "name": "Combat Style Feat",
+          "description": ""
+        },
+        {
+          "level": 19,
+          "name": "Improved Quarry",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "5th Favored Enemy",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Master Hunter",
+          "description": "Standard action kill of favored enemy."
+        }
+      ]
+    }
+  }
+}

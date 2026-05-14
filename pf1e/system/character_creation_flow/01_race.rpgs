@@ -1,0 +1,106 @@
+import "../macros/system_common.rpgs";
+
+// PF1e creation step 1: Race.
+// Picking a race sets:
+//   - `race` (drives base_speed, size, and racial ability modifiers).
+// Racial ability modifiers live on the race resource as
+// `ability_score_modifiers` and are summarized for preview. The character's
+// per-ability `*_race_modifier` stats are wired up at save time so the
+// derived `*_score` calcs reflect the racial bonus/penalty.
+character_creation_page edit_race_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_race_title", name = "Race"),
+    view = list(
+      id = "edit_character_race",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_race_subheader",
+          text = "Choose your race. Racial ability modifiers will preview below.",
+          style = "subhead",
+        ),
+        selectorWithDetailsEndComposite(
+          composite_id = "edit_character_race_composite",
+          details_button = resourceDetailsOkPopUpButton(
+            button_id = "edit_character_race_see_details",
+            button_text = "SEE DETAILS",
+            pop_up_view_id = "edit_character_race_bottom_sheet",
+            resource_id = "race",
+            stat = "$view.edit_character_race_select",
+            pop_up_title = $view?.edit_character_race_select?.name ?? "Race",
+            is_visible = $view?.edit_character_race_select? != null,
+          ),
+          selector_view = selectResources(
+            id = "edit_character_race_select",
+            stat = "race",
+            resource_id = "race",
+            validation_message = if !notNull($view.edit_character_race_select)
+              then "Please pick a race"
+              else null,
+          ),
+        ),
+        text(
+          id = "edit_character_race_preview_header",
+          text = "Racial modifiers:",
+          style = "subhead",
+          margin_top = 16,
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_size",
+          text = concat(["Size: ", (race?.size ?? "medium")]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_speed",
+          text = concat(["Base speed: ", (race?.base_speed ?? 30), " ft"]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_str",
+          text = concat(["STR race mod: ", strength_race_modifier]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_dex",
+          text = concat(["DEX race mod: ", dexterity_race_modifier]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_con",
+          text = concat(["CON race mod: ", constitution_race_modifier]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_int",
+          text = concat(["INT race mod: ", intelligence_race_modifier]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_wis",
+          text = concat(["WIS race mod: ", wisdom_race_modifier]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_preview_cha",
+          text = concat(["CHA race mod: ", charisma_race_modifier]),
+          style = "text",
+          is_visible = notNull(race),
+        ),
+        text(
+          id = "edit_character_race_floating_help",
+          text = "If your race has a floating +2, set it in the Manual overrides on the Ability scores page.",
+          style = "caption",
+          margin_top = 8,
+          is_visible = notNull(race),
+        ),
+      ],
+    ),
+  );

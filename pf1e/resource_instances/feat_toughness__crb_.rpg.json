@@ -1,0 +1,61 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_toughness__crb_",
+    "name": {
+      "value": "Toughness"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "Gain +3 HP, plus +1 HP per HD beyond 3rd. HP bonus is permanent."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_toughness",
+            "name": {
+              "value": "+HP from Toughness"
+            },
+            "trigger_type": {
+              "value": "passive"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.hp_misc"
+            },
+            "constant": {
+              "value": 3
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

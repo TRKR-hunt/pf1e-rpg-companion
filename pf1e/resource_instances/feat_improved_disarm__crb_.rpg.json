@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_improved_disarm__crb_",
+    "name": {
+      "value": "Improved Disarm"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise"
+    },
+    "description": {
+      "value": "+2 on disarm; no AoO when disarming."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_cleave__crb_",
+    "name": {
+      "value": "Cleave"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, Power Attack, base attack bonus +1"
+    },
+    "description": {
+      "value": "As a standard action, attack one foe; if you hit, you may make a second attack at the same bonus against an adjacent foe. Take \u20132 AC until your next turn."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

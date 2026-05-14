@@ -1,0 +1,169 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "druid__crb_",
+    "name": {
+      "value": "Druid"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Starting Wealth\n2d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n4 + Int modifier.\n\n### Alignment\nneutral (any neutral).\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 4
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "good"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "climb",
+        "craft",
+        "fly",
+        "handle_animal",
+        "heal",
+        "knowledge_geography",
+        "knowledge_nature",
+        "perception",
+        "profession",
+        "ride",
+        "spellcraft",
+        "survival",
+        "swim"
+      ]
+    },
+    "starting_wealth": {
+      "value": "2d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "neutral (any neutral)"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "club",
+        "dagger",
+        "dart",
+        "quarterstaff",
+        "scimitar",
+        "scythe",
+        "sickle",
+        "shortspear",
+        "sling",
+        "spear"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light",
+        "medium (non-metal)"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "wooden"
+      ]
+    },
+    "spellcasting": {
+      "value": {
+        "type": "prepared",
+        "tradition": "divine",
+        "ability": "wisdom",
+        "max_spell_level": 9
+      }
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Nature Bond",
+          "description": "Animal companion or domain."
+        },
+        {
+          "level": 1,
+          "name": "Nature Sense",
+          "description": "+2 K. Nature & Survival."
+        },
+        {
+          "level": 1,
+          "name": "Orisons",
+          "description": ""
+        },
+        {
+          "level": 1,
+          "name": "Wild Empathy",
+          "description": "Improve attitude of animal."
+        },
+        {
+          "level": 2,
+          "name": "Woodland Stride",
+          "description": "Move through undergrowth at full speed."
+        },
+        {
+          "level": 3,
+          "name": "Trackless Step",
+          "description": "Leave no trail unless desired."
+        },
+        {
+          "level": 4,
+          "name": "Resist Nature's Lure",
+          "description": "+4 save vs fey spell-likes."
+        },
+        {
+          "level": 4,
+          "name": "Wild Shape 1/day",
+          "description": ""
+        },
+        {
+          "level": 6,
+          "name": "Wild Shape 2/day",
+          "description": ""
+        },
+        {
+          "level": 8,
+          "name": "Wild Shape 3/day",
+          "description": ""
+        },
+        {
+          "level": 9,
+          "name": "Venom Immunity",
+          "description": ""
+        },
+        {
+          "level": 13,
+          "name": "A Thousand Faces",
+          "description": ""
+        },
+        {
+          "level": 15,
+          "name": "Timeless Body",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Wild Shape 8/day (incl. elementals huge)",
+          "description": ""
+        }
+      ]
+    }
+  }
+}

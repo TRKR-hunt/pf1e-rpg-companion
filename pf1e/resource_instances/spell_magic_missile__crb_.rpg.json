@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "magic_missile__crb_",
+    "name": {
+      "value": "Magic Missile"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": 1
+    },
+    "school": {
+      "value": "evocation [force]"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft + 10 ft/level)"
+    },
+    "area": {
+      "value": "up to 5 creatures, no two more than 15 ft apart"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "A force missile that hits unerringly for 1d4+1 damage. +1 missile per 2 caster levels above 1st, to a max of 5 missiles at 9th level."
+    }
+  }
+}

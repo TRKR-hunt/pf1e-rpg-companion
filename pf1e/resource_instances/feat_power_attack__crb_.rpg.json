@@ -1,0 +1,88 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_power_attack__crb_",
+    "name": {
+      "value": "Power Attack"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, base attack bonus +1"
+    },
+    "description": {
+      "value": "Trade \u20131 melee atk for +2 melee damage (\u00d71.5 if two-handed, \u00d70.5 if off-hand). Penalty/bonus scale with BAB."
+    },
+    "is_toggleable": {
+      "value": true
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_pa_atk",
+            "name": {
+              "value": "Power Attack: melee atk"
+            },
+            "trigger_type": {
+              "value": "toggleable"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "penalty"
+            },
+            "stat": {
+              "value": "$character.melee_attack_misc"
+            },
+            "constant": {
+              "value": -1
+            }
+          }
+        },
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_pa_dmg",
+            "name": {
+              "value": "Power Attack: melee dmg"
+            },
+            "trigger_type": {
+              "value": "toggleable"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.melee_damage_misc"
+            },
+            "constant": {
+              "value": 2
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

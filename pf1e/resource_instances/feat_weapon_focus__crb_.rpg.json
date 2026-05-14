@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_weapon_focus__crb_",
+    "name": {
+      "value": "Weapon Focus"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Proficiency with chosen weapon, base attack bonus +1"
+    },
+    "description": {
+      "value": "+1 bonus on attack rolls with chosen weapon. (Repeatable; choose different weapon each time.)"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "lightning_bolt__crb_",
+    "name": {
+      "value": "Lightning Bolt"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": 3
+    },
+    "school": {
+      "value": "evocation [electricity]"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M"
+    },
+    "range": {
+      "value": "120 ft"
+    },
+    "area": {
+      "value": "120-ft line"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Reflex half"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "1d6 electricity damage per caster level (max 10d6) in a line."
+    }
+  }
+}

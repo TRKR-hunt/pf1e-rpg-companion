@@ -1,0 +1,89 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "id": "dwarf__crb_",
+    "name": {
+      "value": "Dwarf"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "size": {
+      "value": "medium"
+    },
+    "base_speed": {
+      "value": 20
+    },
+    "type": {
+      "value": "humanoid (dwarf)"
+    },
+    "ability_score_modifiers": {
+      "value": [
+        {
+          "type": "fixed",
+          "ability": "constitution",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "wisdom",
+          "value": 2
+        },
+        {
+          "type": "fixed",
+          "ability": "charisma",
+          "value": -2
+        }
+      ]
+    },
+    "languages_starting": {
+      "value": [
+        "common",
+        "dwarven"
+      ]
+    },
+    "bonus_languages_note": {
+      "value": "Giant, Gnome, Goblin, Orc, Terran, Undercommon."
+    },
+    "racial_traits": {
+      "value": [
+        {
+          "name": "Slow and Steady",
+          "description": "Dwarves have a base speed of 20 ft but their speed is never modified by armor or encumbrance."
+        },
+        {
+          "name": "Darkvision",
+          "description": "Dwarves can see in the dark up to 60 ft."
+        },
+        {
+          "name": "Defensive Training",
+          "description": "+4 dodge bonus to AC vs creatures of the giant subtype."
+        },
+        {
+          "name": "Greed",
+          "description": "+2 racial bonus on Appraise checks to determine the price of nonmagical goods that contain precious metals or gemstones."
+        },
+        {
+          "name": "Hatred",
+          "description": "+1 racial bonus on attack rolls against humanoid creatures of the orc and goblinoid subtypes."
+        },
+        {
+          "name": "Hardy",
+          "description": "+2 racial bonus on saving throws against poison, spells, and spell-like abilities."
+        },
+        {
+          "name": "Stability",
+          "description": "+4 racial bonus on CMD vs bull rush or trip while standing on the ground."
+        },
+        {
+          "name": "Stonecunning",
+          "description": "+2 racial bonus on Perception checks to notice unusual stonework."
+        },
+        {
+          "name": "Weapon Familiarity",
+          "description": "Proficient with battleaxes, heavy picks, and warhammers; treat any weapon with 'dwarven' in name as martial."
+        }
+      ]
+    }
+  }
+}

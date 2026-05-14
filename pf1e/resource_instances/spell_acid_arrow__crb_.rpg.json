@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "acid_arrow__crb_",
+    "name": {
+      "value": "Acid Arrow"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": 2
+    },
+    "school": {
+      "value": "conjuration (creation) [acid]"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F, M"
+    },
+    "range": {
+      "value": "long (400 ft + 40 ft/level)"
+    },
+    "area": {
+      "value": "one arrow of acid"
+    },
+    "duration": {
+      "value": "1 round + 1/3 levels"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Ranged touch; 2d4 acid damage immediately and on subsequent rounds."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "action_types",
+  "name": "Action type",
+  "plural": "Action types",
+  "types": [
+    {
+      "id": "standard",
+      "name": "Standard action",
+      "abbreviation": "Std"
+    },
+    {
+      "id": "move",
+      "name": "Move action",
+      "abbreviation": "Move"
+    },
+    {
+      "id": "swift",
+      "name": "Swift action",
+      "abbreviation": "Swift"
+    },
+    {
+      "id": "immediate",
+      "name": "Immediate action",
+      "abbreviation": "Imm"
+    },
+    {
+      "id": "free",
+      "name": "Free action",
+      "abbreviation": "Free"
+    },
+    {
+      "id": "full_round",
+      "name": "Full-round action",
+      "abbreviation": "Full"
+    }
+  ]
+}

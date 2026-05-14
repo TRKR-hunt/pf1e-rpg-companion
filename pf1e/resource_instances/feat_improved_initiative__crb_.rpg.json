@@ -1,0 +1,61 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_improved_initiative__crb_",
+    "name": {
+      "value": "Improved Initiative"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "+4 bonus on initiative checks."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": [
+        {
+          "resource_id": "effect",
+          "stats": {
+            "id": "eff_imp_init",
+            "name": {
+              "value": "+4 Initiative"
+            },
+            "trigger_type": {
+              "value": "passive"
+            },
+            "type": {
+              "value": "typed_add_to_stat"
+            },
+            "typed_modifier_type": {
+              "value": "untyped"
+            },
+            "typed_modifier_polarity": {
+              "value": "bonus"
+            },
+            "stat": {
+              "value": "$character.initiative_misc"
+            },
+            "constant": {
+              "value": 4
+            }
+          }
+        }
+      ]
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

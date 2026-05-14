@@ -1,0 +1,121 @@
+import "../macros/system_common.rpgs";
+
+// PF1e creation step 7: Character details.
+// All of these map directly to base string/int stats in character_stats.rpgs.
+character_creation_page edit_details_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_details_title", name = "Details"),
+    view = list(
+      id = "edit_character_details",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_details_subheader",
+          text = "Final touches: name, alignment, deity, and physical description.",
+          style = "subhead",
+        ),
+        text(
+          id = "edit_character_details_name",
+          edit_stat = "name",
+          style = "title",
+          max_length = 80,
+          label = "Character name",
+          validation_message = if isEmpty($view.edit_character_details_name)
+            then "Please provide a name for your character."
+            else null,
+        ),
+        composite(
+          id = "edit_character_details_alignment_composite",
+          margin_top = 12,
+          subviews = [
+            text(
+              id = "edit_character_details_alignment_label",
+              text = "Alignment:",
+              style = "text",
+              bold = true,
+              margin_right = 8,
+            ),
+            select(
+              id = "edit_character_details_alignment_select",
+              stat = "alignment",
+              options = "alignments",
+            ),
+          ],
+        ),
+        text(
+          id = "edit_character_details_deity",
+          edit_stat = "deity",
+          style = "text",
+          max_length = 60,
+          margin_top = 8,
+          label = "Deity",
+        ),
+        text(
+          id = "edit_character_details_homeland",
+          edit_stat = "homeland",
+          style = "text",
+          max_length = 60,
+          margin_top = 8,
+          label = "Homeland",
+        ),
+        text(
+          id = "edit_character_details_gender",
+          edit_stat = "gender",
+          style = "text",
+          max_length = 30,
+          margin_top = 8,
+          label = "Gender",
+        ),
+        text(
+          id = "edit_character_details_age",
+          edit_stat = "age",
+          style = "text",
+          max_length = 4,
+          margin_top = 8,
+          signed = false,
+          hint = "0",
+          label = "Age",
+        ),
+        text(
+          id = "edit_character_details_height",
+          edit_stat = "height",
+          style = "text",
+          max_length = 20,
+          margin_top = 8,
+          label = "Height",
+        ),
+        text(
+          id = "edit_character_details_weight",
+          edit_stat = "weight_text",
+          style = "text",
+          max_length = 20,
+          margin_top = 8,
+          label = "Weight",
+        ),
+        text(
+          id = "edit_character_details_hair",
+          edit_stat = "hair",
+          style = "text",
+          max_length = 30,
+          margin_top = 8,
+          label = "Hair",
+        ),
+        text(
+          id = "edit_character_details_eyes",
+          edit_stat = "eyes",
+          style = "text",
+          max_length = 30,
+          margin_top = 8,
+          label = "Eyes",
+        ),
+        text(
+          id = "edit_character_details_about",
+          edit_stat = "about",
+          style = "text",
+          max_length = 4000,
+          margin_top = 12,
+          label = "About / backstory",
+        ),
+      ],
+    ),
+  );

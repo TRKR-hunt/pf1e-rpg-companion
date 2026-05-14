@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_weapon_specialization__crb_",
+    "name": {
+      "value": "Weapon Specialization"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Proficiency with chosen weapon, Weapon Focus with weapon, fighter level 4th"
+    },
+    "description": {
+      "value": "+2 bonus on damage rolls with chosen weapon."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

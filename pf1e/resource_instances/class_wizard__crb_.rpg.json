@@ -1,0 +1,132 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "wizard__crb_",
+    "name": {
+      "value": "Wizard"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd6.\n\n### Starting Wealth\n2d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d6"
+    },
+    "class_hp_per_level": {
+      "value": 6
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "half"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "appraise",
+        "craft",
+        "fly",
+        "knowledge_arcana",
+        "knowledge_dungeoneering",
+        "knowledge_engineering",
+        "knowledge_geography",
+        "knowledge_history",
+        "knowledge_local",
+        "knowledge_nature",
+        "knowledge_nobility",
+        "knowledge_planes",
+        "knowledge_religion",
+        "linguistics",
+        "profession",
+        "spellcraft"
+      ]
+    },
+    "starting_wealth": {
+      "value": "2d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "club",
+        "dagger",
+        "heavy crossbow",
+        "light crossbow",
+        "quarterstaff"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "spellcasting": {
+      "value": {
+        "type": "prepared",
+        "tradition": "arcane",
+        "ability": "intelligence",
+        "max_spell_level": 9
+      }
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Arcane Bond",
+          "description": "Bonded item or familiar."
+        },
+        {
+          "level": 1,
+          "name": "Arcane School",
+          "description": "Choose specialist school or universalist."
+        },
+        {
+          "level": 1,
+          "name": "Cantrips",
+          "description": "0-level spells at will once prepared."
+        },
+        {
+          "level": 1,
+          "name": "Scribe Scroll",
+          "description": "Bonus item creation feat."
+        },
+        {
+          "level": 5,
+          "name": "Bonus Feat",
+          "description": "Item creation or metamagic."
+        },
+        {
+          "level": 10,
+          "name": "Bonus Feat",
+          "description": ""
+        },
+        {
+          "level": 15,
+          "name": "Bonus Feat",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Bonus Feat",
+          "description": ""
+        }
+      ]
+    }
+  }
+}

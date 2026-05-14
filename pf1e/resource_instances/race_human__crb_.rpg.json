@@ -1,0 +1,50 @@
+{
+  "resource_id": "race",
+  "stats": {
+    "id": "human__crb_",
+    "name": {
+      "value": "Human"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "size": {
+      "value": "medium"
+    },
+    "base_speed": {
+      "value": 30
+    },
+    "type": {
+      "value": "humanoid (human)"
+    },
+    "ability_score_modifiers": {
+      "value": [
+        {
+          "type": "floating",
+          "value": 2,
+          "description": "+2 to one ability score of choice."
+        }
+      ]
+    },
+    "languages_starting": {
+      "value": [
+        "common"
+      ]
+    },
+    "bonus_languages_note": {
+      "value": "Any (except secret languages such as Druidic)."
+    },
+    "racial_traits": {
+      "value": [
+        {
+          "name": "Bonus Feat",
+          "description": "Humans select one extra feat at 1st level."
+        },
+        {
+          "name": "Skilled",
+          "description": "Humans gain an additional skill rank at 1st level and one additional rank whenever they gain a level."
+        }
+      ]
+    }
+  }
+}

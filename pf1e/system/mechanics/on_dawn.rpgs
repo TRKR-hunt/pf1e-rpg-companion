@@ -1,0 +1,4 @@
+import "../macros/system_common.rpgs";
+
+mechanic on_dawn(event_names = "dawn") =
+  showInfoMessage(message = "Night yields to the light of day...");

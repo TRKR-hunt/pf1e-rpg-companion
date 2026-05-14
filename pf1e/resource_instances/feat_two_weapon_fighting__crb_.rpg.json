@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_two_weapon_fighting__crb_",
+    "name": {
+      "value": "Two-Weapon Fighting"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 15"
+    },
+    "description": {
+      "value": "Reduce two-weapon penalties: \u20134/\u20134 becomes \u20132/\u20132 (or \u20134/\u20134 if off-hand is non-light)."
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    },
+    "action_cost": {
+      "value": "passive"
+    }
+  }
+}

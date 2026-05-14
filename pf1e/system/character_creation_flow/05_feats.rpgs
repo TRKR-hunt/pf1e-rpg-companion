@@ -1,0 +1,70 @@
+import "../macros/system_common.rpgs";
+
+// PF1e creation step 5: Feats.
+// At 1st level every character gets 1 feat. Additional bonus feats by source:
+//   - Human race: +1 bonus feat (any).
+//   - Fighter class: +1 bonus combat feat at 1st level (and every even level).
+//   - Wizard class: Scribe Scroll (auto-granted, not a free pick).
+//   - Other classes may grant feat-like bonuses at higher levels.
+//
+// This page does not enforce the count; it shows a help line so the player
+// knows how many they should be picking, and lets them add feats to
+// `selected_feats`. Class-/race-bonus feats granted as fixed-name features
+// (e.g. Wizard's Scribe Scroll) are not picked here — they live on the class
+// progression.
+character_creation_page edit_feats_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_feats_title", name = "Feats"),
+    view = list(
+      id = "edit_character_feats",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_feats_subheader",
+          text = "Pick your starting feats.",
+          style = "subhead",
+        ),
+        text(
+          id = "edit_character_feats_base_help",
+          text = "Every character gets 1 feat at 1st level (and 1 more every odd level after).",
+          style = "caption",
+          margin_top = 4,
+        ),
+        text(
+          id = "edit_character_feats_human_help",
+          text = "Human bonus: +1 extra feat at 1st level.",
+          style = "caption",
+          margin_top = 2,
+          is_visible = (race?.id ?? "") == "human__crb_",
+        ),
+        text(
+          id = "edit_character_feats_fighter_help",
+          text = "Fighter bonus: +1 bonus combat feat at 1st level (and at every even level).",
+          style = "caption",
+          margin_top = 2,
+          is_visible = !isEmpty(filter(classes, filter = ($c) => $c.class.id == "fighter__crb_")),
+        ),
+        text(
+          id = "edit_character_feats_count_status",
+          text = concat(["You currently have ", length(selected_feats), " feat(s) selected."]),
+          style = "text",
+          bold = true,
+          margin_top = 12,
+        ),
+        selectResources(
+          id = "edit_character_feats_add",
+          stat = "selected_feats",
+          resource_id = "feat",
+          view_type = "icon",
+          should_append = true,
+          should_save_on_selection = true,
+          margin_top = 8,
+        ),
+        resourceSection(
+          id = "edit_character_feats_selected_list",
+          resource_stat = "selected_feats",
+          resource_id = "feat",
+        ),
+      ],
+    ),
+  );

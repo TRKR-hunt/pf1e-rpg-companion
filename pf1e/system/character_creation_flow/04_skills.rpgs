@@ -1,0 +1,117 @@
+import "../macros/system_common.rpgs";
+
+// PF1e creation step 4: Skill ranks.
+// PF1e rules:
+//   - Skill ranks available per level = class.skill_ranks_per_level
+//     + INT modifier (+1 if human "Skilled").
+//   - Max ranks in any one skill = character level.
+//   - Class skill: gain a flat +3 if at least one rank is invested.
+//
+// This page exposes each of the 35 base skills as a rank slider so the user
+// can allocate their starting pool. Class-skill rows are highlighted in the
+// help text below (we cannot color individual rows reliably without
+// per-skill conditional macros; the +3 indicator is already baked into the
+// derived skill total in character_stats.rpgs).
+character_creation_page edit_skills_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_skills_title", name = "Skill ranks"),
+    view = list(
+      id = "edit_character_skills",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_skills_subheader",
+          text = "Allocate your starting skill ranks. Class skills get +3 once at least 1 rank is invested. Max ranks in any skill = your character level.",
+          style = "subhead",
+        ),
+        text(
+          id = "edit_character_skills_level_cap",
+          text = concat(["Max ranks per skill at this level: ", level]),
+          style = "caption",
+          margin_top = 4,
+          bold = true,
+        ),
+        text(
+          id = "edit_character_skills_class_skills_summary",
+          text = concat([
+            "Your class skills: ",
+            joinToString(class_skill_list, separator = ", "),
+          ]),
+          style = "caption",
+          margin_top = 4,
+          is_visible = !isEmpty(class_skill_list),
+        ),
+        skillCreationRankRow(skill_id = "acrobatics",            label = "Acrobatics"),
+        skillCreationRankRow(skill_id = "appraise",              label = "Appraise"),
+        skillCreationRankRow(skill_id = "bluff",                 label = "Bluff"),
+        skillCreationRankRow(skill_id = "climb",                 label = "Climb"),
+        skillCreationRankRow(skill_id = "craft",                 label = "Craft"),
+        skillCreationRankRow(skill_id = "diplomacy",             label = "Diplomacy"),
+        skillCreationRankRow(skill_id = "disable_device",        label = "Disable Device"),
+        skillCreationRankRow(skill_id = "disguise",              label = "Disguise"),
+        skillCreationRankRow(skill_id = "escape_artist",         label = "Escape Artist"),
+        skillCreationRankRow(skill_id = "fly",                   label = "Fly"),
+        skillCreationRankRow(skill_id = "handle_animal",         label = "Handle Animal"),
+        skillCreationRankRow(skill_id = "heal",                  label = "Heal"),
+        skillCreationRankRow(skill_id = "intimidate",            label = "Intimidate"),
+        skillCreationRankRow(skill_id = "knowledge_arcana",      label = "Knowledge (Arcana)"),
+        skillCreationRankRow(skill_id = "knowledge_dungeoneering", label = "Knowledge (Dungeoneering)"),
+        skillCreationRankRow(skill_id = "knowledge_engineering", label = "Knowledge (Engineering)"),
+        skillCreationRankRow(skill_id = "knowledge_geography",   label = "Knowledge (Geography)"),
+        skillCreationRankRow(skill_id = "knowledge_history",     label = "Knowledge (History)"),
+        skillCreationRankRow(skill_id = "knowledge_local",       label = "Knowledge (Local)"),
+        skillCreationRankRow(skill_id = "knowledge_nature",      label = "Knowledge (Nature)"),
+        skillCreationRankRow(skill_id = "knowledge_nobility",    label = "Knowledge (Nobility)"),
+        skillCreationRankRow(skill_id = "knowledge_planes",      label = "Knowledge (Planes)"),
+        skillCreationRankRow(skill_id = "knowledge_religion",    label = "Knowledge (Religion)"),
+        skillCreationRankRow(skill_id = "linguistics",           label = "Linguistics"),
+        skillCreationRankRow(skill_id = "perception",            label = "Perception"),
+        skillCreationRankRow(skill_id = "perform",               label = "Perform"),
+        skillCreationRankRow(skill_id = "profession",            label = "Profession"),
+        skillCreationRankRow(skill_id = "ride",                  label = "Ride"),
+        skillCreationRankRow(skill_id = "sense_motive",          label = "Sense Motive"),
+        skillCreationRankRow(skill_id = "sleight_of_hand",       label = "Sleight of Hand"),
+        skillCreationRankRow(skill_id = "spellcraft",            label = "Spellcraft"),
+        skillCreationRankRow(skill_id = "stealth",               label = "Stealth"),
+        skillCreationRankRow(skill_id = "survival",              label = "Survival"),
+        skillCreationRankRow(skill_id = "swim",                  label = "Swim"),
+        skillCreationRankRow(skill_id = "use_magic_device",      label = "Use Magic Device"),
+      ],
+    ),
+  );
+
+// Small helper: one rank-input row per skill. The label is suffixed with a
+// "*" when the skill is currently on the class skill list (so the +3
+// indicator stays visually attached to the skill row even though we don't
+// color the row itself).
+define skillCreationRankRow(skill_id, label) =
+  composite(
+    id = concat(["edit_skill_row_", skill_id]),
+    margin_top = 4,
+    subviews = [
+      text(
+        id = concat(["edit_skill_row_label_", skill_id]),
+        text = if contains(class_skill_list, skill_id)
+          then concat([label, "  (class skill, +3)"])
+          else label,
+        style = "text",
+        bold = contains(class_skill_list, skill_id),
+        margin_right = 8,
+      ),
+      text(
+        id = concat(["edit_skill_row_ranks_", skill_id]),
+        edit_meta_stat = concat([skill_id, "_ranks"]),
+        style = "text",
+        max_length = 2,
+        signed = false,
+        hint = "0",
+        label = "Ranks",
+      ),
+      text(
+        id = concat(["edit_skill_row_total_", skill_id]),
+        text = concat(["= ", metaStat(meta_stat = skill_id)]),
+        style = "text",
+        margin_left = 8,
+      ),
+    ],
+  );

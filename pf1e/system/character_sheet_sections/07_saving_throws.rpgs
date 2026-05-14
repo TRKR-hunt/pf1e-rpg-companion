@@ -1,0 +1,22 @@
+import "../macros/system_common.rpgs";
+
+// PF1e: three saves (Fortitude/Reflex/Will) shown as rollable totals.
+// Underlying calc lives in character_stats.rpgs: each save = class base + ability mod + typed bonuses.
+character_sheet_section saving_throws() =
+  section(
+    id = "saving_throws_section",
+    show_divider = true,
+    content_item_min_width = 125,
+    collapsible = false,
+    header = defaultSectionHeader(
+      icon_id = "saving_throws_section_icon",
+      icon_name = "ic_d20",
+      title_id = "saving_throws_section_title",
+      title_text = "Saving Throws",
+    ),
+    content = [
+      rollStatRow(id = "fortitude", stat_id = "fortitude", edit_stat_id = "fortitude_misc", stat_name = "Fortitude"),
+      rollStatRow(id = "reflex",    stat_id = "reflex",    edit_stat_id = "reflex_misc",    stat_name = "Reflex"),
+      rollStatRow(id = "will",      stat_id = "will",      edit_stat_id = "will_misc",      stat_name = "Will"),
+    ],
+  );

@@ -1,0 +1,182 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "barbarian__crb_",
+    "name": {
+      "value": "Barbarian"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd12.\n\n### Starting Wealth\n3d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n4 + Int modifier.\n\n### Alignment\nany non-lawful.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d12"
+    },
+    "class_hp_per_level": {
+      "value": 12
+    },
+    "skill_ranks_per_level": {
+      "value": 4
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "full"
+    },
+    "fortitude_progression": {
+      "value": "good"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "poor"
+    },
+    "class_skills": {
+      "value": [
+        "acrobatics",
+        "climb",
+        "craft",
+        "handle_animal",
+        "intimidate",
+        "knowledge_nature",
+        "perception",
+        "ride",
+        "survival",
+        "swim"
+      ]
+    },
+    "starting_wealth": {
+      "value": "3d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any non-lawful"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "martial"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light",
+        "medium"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "buckler",
+        "light",
+        "heavy"
+      ]
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Fast Movement",
+          "description": "+10 ft to land speed in light/medium armor."
+        },
+        {
+          "level": 1,
+          "name": "Rage",
+          "description": "Enter a rage for rounds/day = 4 + Con mod (+2/level). +4 Str/Con, +2 Will, -2 AC."
+        },
+        {
+          "level": 2,
+          "name": "Rage Power",
+          "description": "Gain a rage power; another every even level."
+        },
+        {
+          "level": 2,
+          "name": "Uncanny Dodge",
+          "description": "Retain Dex bonus when flat-footed."
+        },
+        {
+          "level": 3,
+          "name": "Trap Sense +1",
+          "description": "+1 vs traps."
+        },
+        {
+          "level": 5,
+          "name": "Improved Uncanny Dodge",
+          "description": "Cannot be flanked except by rogue 4 levels higher."
+        },
+        {
+          "level": 6,
+          "name": "Trap Sense +2",
+          "description": ""
+        },
+        {
+          "level": 7,
+          "name": "Damage Reduction 1/\u2014",
+          "description": ""
+        },
+        {
+          "level": 9,
+          "name": "Trap Sense +3",
+          "description": ""
+        },
+        {
+          "level": 10,
+          "name": "Damage Reduction 2/\u2014",
+          "description": ""
+        },
+        {
+          "level": 11,
+          "name": "Greater Rage",
+          "description": "+6 Str/Con, +3 Will while raging."
+        },
+        {
+          "level": 12,
+          "name": "Trap Sense +4",
+          "description": ""
+        },
+        {
+          "level": 13,
+          "name": "Damage Reduction 3/\u2014",
+          "description": ""
+        },
+        {
+          "level": 14,
+          "name": "Indomitable Will",
+          "description": "+4 vs enchantment while raging."
+        },
+        {
+          "level": 15,
+          "name": "Trap Sense +5",
+          "description": ""
+        },
+        {
+          "level": 16,
+          "name": "Damage Reduction 4/\u2014",
+          "description": ""
+        },
+        {
+          "level": 17,
+          "name": "Tireless Rage",
+          "description": "No longer fatigued after raging."
+        },
+        {
+          "level": 18,
+          "name": "Trap Sense +6",
+          "description": ""
+        },
+        {
+          "level": 19,
+          "name": "Damage Reduction 5/\u2014",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Mighty Rage",
+          "description": "+8 Str/Con, +4 Will while raging."
+        }
+      ]
+    }
+  }
+}

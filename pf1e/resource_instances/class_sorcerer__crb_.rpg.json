@@ -1,0 +1,141 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "sorcerer__crb_",
+    "name": {
+      "value": "Sorcerer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd6.\n\n### Starting Wealth\n2d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table below."
+    },
+    "hit_die": {
+      "value": "d6"
+    },
+    "class_hp_per_level": {
+      "value": 6
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "half"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "appraise",
+        "bluff",
+        "craft",
+        "fly",
+        "intimidate",
+        "knowledge_arcana",
+        "profession",
+        "spellcraft",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "2d6 \u00d7 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "spellcasting": {
+      "value": {
+        "type": "spontaneous",
+        "tradition": "arcane",
+        "ability": "charisma",
+        "max_spell_level": 9
+      }
+    },
+    "class_features": {
+      "value": [
+        {
+          "level": 1,
+          "name": "Bloodline",
+          "description": "Choose a bloodline; gain bonus spells, class skills, feats, powers."
+        },
+        {
+          "level": 1,
+          "name": "Bloodline Power",
+          "description": "1st bloodline power."
+        },
+        {
+          "level": 1,
+          "name": "Cantrips",
+          "description": "0-level spells castable at will."
+        },
+        {
+          "level": 1,
+          "name": "Eschew Materials",
+          "description": "Cast without inexpensive material components."
+        },
+        {
+          "level": 3,
+          "name": "Bloodline Power",
+          "description": ""
+        },
+        {
+          "level": 3,
+          "name": "Bloodline Spell (1st)",
+          "description": ""
+        },
+        {
+          "level": 7,
+          "name": "Bloodline Spell (3rd)",
+          "description": ""
+        },
+        {
+          "level": 9,
+          "name": "Bloodline Power",
+          "description": ""
+        },
+        {
+          "level": 11,
+          "name": "Bloodline Spell (5th)",
+          "description": ""
+        },
+        {
+          "level": 15,
+          "name": "Bloodline Power & Spell (7th)",
+          "description": ""
+        },
+        {
+          "level": 19,
+          "name": "Bloodline Spell (9th)",
+          "description": ""
+        },
+        {
+          "level": 20,
+          "name": "Bloodline Power (capstone)",
+          "description": ""
+        }
+      ]
+    }
+  }
+}

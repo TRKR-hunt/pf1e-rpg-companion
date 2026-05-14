@@ -1,0 +1,9 @@
+import "../macros/system_common.rpgs";
+
+mechanic roll_stat(event_names = "rollStat") =
+  rollStatFromEvent(
+    advantages_values = advantages,
+    disadvantages_values = all_disadvantages,
+    stat_meta = $event.stat,
+    stat_name = $event.statName,
+  );
