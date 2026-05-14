@@ -121,16 +121,36 @@ RACES = [
 ]
 
 
-def build_race_json(r: dict) -> dict:
-    mods = r["ability_mods"]
-    ability_mod_list = []
+_ABBREV = {
+    "strength": "STR", "dexterity": "DEX", "constitution": "CON",
+    "intelligence": "INT", "wisdom": "WIS", "charisma": "CHA",
+}
+
+
+def _flatten_ability_mods(mods: dict) -> list:
+    """race.ability_score_modifiers is declared string[] — each entry a
+    short human-readable summary like 'STR +2 (racial)' or 'Floating +2'."""
+    out = []
     floating = mods.pop("floating", None)
     if floating is not None:
-        ability_mod_list.append({"type": "floating", "value": floating,
-                                 "description": f"+{floating} to one ability score of choice."})
+        sign = "+" if floating >= 0 else ""
+        out.append(f"Floating {sign}{floating} (apply to any one ability)")
     for ability, val in mods.items():
-        ability_mod_list.append({"type": "fixed", "ability": ability, "value": val})
+        sign = "+" if val >= 0 else ""
+        out.append(f"{_ABBREV.get(ability, ability.upper()[:3])} {sign}{val} (racial)")
+    return out
 
+
+def _flatten_traits(traits: list) -> list:
+    """race.racial_traits is declared string[] — each entry "Name: description"
+    (or just "Name" when no description)."""
+    out = []
+    for name, desc in traits:
+        out.append(f"{name}: {desc}" if desc else name)
+    return out
+
+
+def build_race_json(r: dict) -> dict:
     return {
         "resource_id": "race",
         "stats": {
@@ -140,12 +160,10 @@ def build_race_json(r: dict) -> dict:
             "size": {"value": r["size"]},
             "base_speed": {"value": r["base_speed"]},
             "type": {"value": r["type"]},
-            "ability_score_modifiers": {"value": ability_mod_list},
+            "ability_score_modifiers": {"value": _flatten_ability_mods(dict(r["ability_mods"]))},
             "languages_starting": {"value": r["starting_languages"]},
             "bonus_languages_note": {"value": r["bonus_languages_note"]},
-            "racial_traits": {"value": [
-                {"name": name, "description": desc} for (name, desc) in r["traits"]
-            ]},
+            "racial_traits": {"value": _flatten_traits(r["traits"])},
         },
     }
 

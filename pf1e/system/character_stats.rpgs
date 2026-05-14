@@ -650,3 +650,119 @@ base integer copper_pieces(name = "CP") = 0;
 base integer platinum_pieces(name = "PP") = 0;
 
 base integer xp(name = "Experience points") = 0;
+
+// ---------- PF2e-INHERITED STUB STATS ----------
+//
+// The pf1e/ system folder was originally bootstrapped from pf2e. Across the
+// resource-type stats.rpgs files there are still ~366 references to character
+// stats that exist in pf2e but were never declared here (e.g. $character.spells,
+// $character.spell_slots_<N>, $character.actions_remaining, pf2e proficiency
+// trackers). The runtime throws `PathNotFoundException` on first deref of any
+// such stat.
+//
+// Stubbed below with sensible PF1e-safe defaults so the runtime can load.
+// The pf2e calcs that consume these will evaluate to zero/empty and silently
+// no-op. Removing the pf2e calcs themselves (proper cleanup) is a bigger
+// follow-up — these stubs unblock loading without changing semantics for
+// features we already use.
+//
+// Each entry is marked PF2E-STUB; grep for that tag to find them all when
+// implementing proper PF1e replacements or removing the underlying pf2e calcs.
+
+// --- aggregates the pf2e infrastructure dereferences ---
+base resource<spell>[] spells(name = "Spells (PF2E-STUB; PF1e uses known_spells / prepared_spells)") = [];
+base resource<spell>[] sorted_spells(name = "Sorted spells (PF2E-STUB)") = [];
+base resource<feat>[] all_feats(name = "All feats (PF2E-STUB)") = [];
+base resource<feat>[] all_features(name = "All features (PF2E-STUB)") = [];
+base resource<weapon>[] all_weapons(name = "All weapons (PF2E-STUB)") = [];
+base resource<class_progression> primary_class_progression(name = "Primary class progression (PF2E-STUB)") = null;
+base resource<feat>[] spellcasting_archetypes(name = "Spellcasting archetypes (PF2E-STUB)") = [];
+base resource<feat> class_archetype(name = "Class archetype (PF2E-STUB)") = null;
+base resource<item>[] equipment(name = "Equipment (PF2E-STUB; PF1e uses inventory)") = [];
+base string equipped_armor_id(name = "Equipped armor id (PF2E-STUB)") = "";
+base string equipped_shield_id(name = "Equipped shield id (PF2E-STUB)") = "";
+base string[] selected_selectable_feature_ids(name = "Selected selectable feature ids (PF2E-STUB)") = [];
+
+// --- pf2e ancestry/heritage/background as character refs (we use race) ---
+base resource<heritage> heritage(name = "Heritage (PF2E-STUB; not used in PF1e)") = null;
+base resource<feat> background(name = "Background (PF2E-STUB; not used in PF1e)") = null;
+calc resource<race> ancestry(name = "Ancestry alias for race (PF2E-STUB)") = race;
+
+// --- pf2e action economy (PF1e uses standard/move/swift not the 3-action model) ---
+base integer actions_remaining(name = "Actions remaining (PF2E-STUB)") = 0;
+base integer max_actions_per_turn(name = "Max actions per turn (PF2E-STUB)") = 3;
+base bool reaction_available(name = "Reaction available (PF2E-STUB)") = true;
+base integer max_reactions_per_round(name = "Max reactions/round (PF2E-STUB)") = 1;
+base bool in_combat(name = "In combat (PF2E-STUB)") = false;
+
+// --- pf2e level / spellcasting bonus tracking ---
+base integer level_bonus(name = "Level bonus (PF2E-STUB)") = 0;
+base integer focus_points(name = "Focus points (PF2E-STUB; PF1e doesn't use focus)") = 0;
+base integer max_focus_points(name = "Max focus points (PF2E-STUB)") = 0;
+base integer hero_points(name = "Hero points (PF2E-STUB; PF1e doesn't use hero points)") = 0;
+
+// --- pf2e proficiency strings (PF1e uses ranks, not proficiency ranks) ---
+base string acrobatics_proficiency(name = "Acrobatics proficiency (PF2E-STUB)") = "untrained";
+base string spellcasting_proficiency(name = "Spellcasting proficiency (PF2E-STUB)") = "untrained";
+base string arcane_spellcasting_proficiency(name = "Arcane spellcasting proficiency (PF2E-STUB)") = "untrained";
+base string divine_spellcasting_proficiency(name = "Divine spellcasting proficiency (PF2E-STUB)") = "untrained";
+base string occult_spellcasting_proficiency(name = "Occult spellcasting proficiency (PF2E-STUB)") = "untrained";
+base string primal_spellcasting_proficiency(name = "Primal spellcasting proficiency (PF2E-STUB)") = "untrained";
+base string[] weapon_proficiencies(name = "Weapon proficiencies (PF2E-STUB; PF1e tracks via class)") = [];
+base string[] armor_proficiencies(name = "Armor proficiencies (PF2E-STUB; PF1e tracks via class)") = [];
+base bool is_not_wearing_inproficient_armor(name = "Is not wearing inproficient armor (PF2E-STUB)") = true;
+
+// --- pf2e condition value trackers ---
+base integer clumsy_value(name = "Clumsy value (PF2E-STUB)") = 0;
+base integer drained_value(name = "Drained value (PF2E-STUB)") = 0;
+base integer enfeebled_value(name = "Enfeebled value (PF2E-STUB)") = 0;
+base integer frightened_value(name = "Frightened value (PF2E-STUB)") = 0;
+base integer sickened_value(name = "Sickened value (PF2E-STUB)") = 0;
+base integer slowed_value(name = "Slowed value (PF2E-STUB)") = 0;
+base integer stunned_value(name = "Stunned value (PF2E-STUB)") = 0;
+base integer stupefied_value(name = "Stupefied value (PF2E-STUB)") = 0;
+
+// --- pf2e strike/spell attack-damage bonus aggregates ---
+base integer spell_attack_extra_bonus(name = "Spell attack extra bonus (PF2E-STUB)") = 0;
+base integer spell_attack_typed_modifier_total(name = "Spell attack typed-mod total (PF2E-STUB)") = 0;
+base integer spell_dc_extra_bonus(name = "Spell DC extra bonus (PF2E-STUB)") = 0;
+base integer spell_dc_typed_modifier_total(name = "Spell DC typed-mod total (PF2E-STUB)") = 0;
+base integer strike_attack_typed_modifier_total(name = "Strike attack typed-mod total (PF2E-STUB)") = 0;
+base integer strike_damage_typed_modifier_total(name = "Strike damage typed-mod total (PF2E-STUB)") = 0;
+
+// --- pf2e spell slot model (10 ranks; PF1e uses 0-9 but the calcs ref both) ---
+base integer spell_slots_0(name = "Spell slots 0 (PF2E-STUB)") = 0;
+base integer spell_slots_1(name = "Spell slots 1 (PF2E-STUB)") = 0;
+base integer spell_slots_2(name = "Spell slots 2 (PF2E-STUB)") = 0;
+base integer spell_slots_3(name = "Spell slots 3 (PF2E-STUB)") = 0;
+base integer spell_slots_4(name = "Spell slots 4 (PF2E-STUB)") = 0;
+base integer spell_slots_5(name = "Spell slots 5 (PF2E-STUB)") = 0;
+base integer spell_slots_6(name = "Spell slots 6 (PF2E-STUB)") = 0;
+base integer spell_slots_7(name = "Spell slots 7 (PF2E-STUB)") = 0;
+base integer spell_slots_8(name = "Spell slots 8 (PF2E-STUB)") = 0;
+base integer spell_slots_9(name = "Spell slots 9 (PF2E-STUB)") = 0;
+base integer spell_slots_10(name = "Spell slots 10 (PF2E-STUB)") = 0;
+base integer max_spell_slots_1_bonus(name = "Max spell slots 1 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_2_bonus(name = "Max spell slots 2 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_3_bonus(name = "Max spell slots 3 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_4_bonus(name = "Max spell slots 4 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_5_bonus(name = "Max spell slots 5 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_6_bonus(name = "Max spell slots 6 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_7_bonus(name = "Max spell slots 7 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_8_bonus(name = "Max spell slots 8 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_9_bonus(name = "Max spell slots 9 bonus (PF2E-STUB)") = 0;
+base integer max_spell_slots_10_bonus(name = "Max spell slots 10 bonus (PF2E-STUB)") = 0;
+
+// --- pf2e UI/mode state ---
+base bool currently_levelling_up(name = "Currently levelling up (PF2E-STUB)") = false;
+base bool daily_preparations_reselection_in_progress(name = "Daily preparations reselection in progress (PF2E-STUB)") = false;
+base bool creation_feats_page_open(name = "Creation feats page open (PF2E-STUB)") = false;
+base bool should_show_controls_for_choices(name = "Should show controls for choices (PF2E-STUB)") = true;
+base bool spells_show_prepared_only(name = "Spells show prepared only (PF2E-STUB)") = false;
+base bool spells_hide_fully_expended_prepared(name = "Spells hide fully expended prepared (PF2E-STUB)") = false;
+base bool enable_optional_class_archetypes(name = "Enable optional class archetypes (PF2E-STUB)") = false;
+
+// --- pf2e temp casting state ---
+base string temp_spell_cast_rank(name = "Temp spell cast rank (PF2E-STUB)") = "";
+base string temp_spell_cast_spell_id(name = "Temp spell cast spell id (PF2E-STUB)") = "";
+base string temp_last_level_up_class_id(name = "Temp last level-up class id (PF2E-STUB)") = "";

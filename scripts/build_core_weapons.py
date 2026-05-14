@@ -8,6 +8,7 @@ Format: (id, name, category, cost_gp, dmg_S, dmg_M, crit, range_ft, weight_lb, t
 - type: B / P / S or combos like "B and P"
 """
 import json
+import re
 from pathlib import Path
 
 OUT_DIR = Path(__file__).parent.parent / "pf1e" / "resource_instances"
@@ -93,6 +94,34 @@ WEAPONS = [
 ]
 
 
+_DAMAGE_TYPE_ABBREV = {"B": "bludgeoning", "P": "piercing", "S": "slashing"}
+
+
+def _normalize_damage_type(dtype: str) -> str:
+    """Return a single canonical `damage_types` enum id. The PF1e table also
+    uses combined values like 'P or S' / 'B and P' for weapons that can deal
+    either of two types — we keep only the primary (first listed) here, since
+    the schema declares `damage_type` as a single string and the runtime does
+    `enumeratedName(damage_types, id = ...)` lookups. Composite-damage support
+    is a future task (would require `damage_type` becoming `string[]` and the
+    display view splitting).
+    Non-damaging weapons (Net's '—') return '' (empty), and the validator
+    skips empty-string enum checks."""
+    if not dtype:
+        return ""
+    raw = dtype.strip()
+    parts = re.split(r"\s*(?:,|/|or|and)\s*", raw, flags=re.IGNORECASE)
+    for p in parts:
+        p = p.strip()
+        if not p:
+            continue
+        # Filter out the em-dash / hyphen sentinels for non-damaging weapons.
+        if p in ("—", "-", "--"):
+            continue
+        return _DAMAGE_TYPE_ABBREV.get(p.upper(), p.lower())
+    return ""
+
+
 def build_weapon_json(w):
     (wid, name, cat, cost, dS, dM, crit, rng, wt, dtype, special) = w
     return {
@@ -108,7 +137,7 @@ def build_weapon_json(w):
             "critical": {"value": crit},
             "range_increment_ft": {"value": rng},
             "weight_lb": {"value": wt},
-            "damage_type": {"value": dtype},
+            "damage_type": {"value": _normalize_damage_type(dtype)},
             "special": {"value": special},
         },
     }

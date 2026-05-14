@@ -135,6 +135,13 @@ SPELLS = [
 ]
 
 
+def _normalize_school(s: str) -> str:
+    # Strip pf2e/PF1e subschool & descriptor metadata like
+    # "conjuration (creation) [acid]" -> "conjuration", so the value is a
+    # valid id in the spell_school enum.
+    return s.split("(", 1)[0].split("[", 1)[0].strip().lower()
+
+
 def build_spell_json(t):
     (id_, name, lvl, school, classes, ct, comps, rng, area, dur, save, sr, desc) = t
     return {
@@ -143,8 +150,8 @@ def build_spell_json(t):
             "id": f"{id_}__crb_",
             "name": {"value": name},
             "source": {"value": "crb"},
-            "level": {"value": lvl},
-            "school": {"value": school},
+            "level": {"value": f"spell_level_{lvl}"},
+            "school": {"value": _normalize_school(school)},
             "classes": {"value": classes},
             "casting_time": {"value": ct},
             "components": {"value": comps},

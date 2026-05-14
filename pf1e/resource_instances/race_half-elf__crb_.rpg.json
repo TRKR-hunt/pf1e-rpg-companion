@@ -19,11 +19,7 @@
     },
     "ability_score_modifiers": {
       "value": [
-        {
-          "type": "floating",
-          "value": 2,
-          "description": "+2 to one ability score of choice."
-        }
+        "Floating +2 (apply to any one ability)"
       ]
     },
     "languages_starting": {
@@ -37,30 +33,12 @@
     },
     "racial_traits": {
       "value": [
-        {
-          "name": "Adaptability",
-          "description": "Half-elves gain Skill Focus as a bonus feat at 1st level."
-        },
-        {
-          "name": "Elf Blood",
-          "description": "Counts as both elf and human for any effect related to race."
-        },
-        {
-          "name": "Elven Immunities",
-          "description": "Immune to magic sleep; +2 vs enchantment."
-        },
-        {
-          "name": "Keen Senses",
-          "description": "+2 racial bonus on Perception."
-        },
-        {
-          "name": "Low-Light Vision",
-          "description": ""
-        },
-        {
-          "name": "Multitalented",
-          "description": "Choose two favored classes; gain +1 hp or +1 skill rank when leveling up either."
-        }
+        "Adaptability: Half-elves gain Skill Focus as a bonus feat at 1st level.",
+        "Elf Blood: Counts as both elf and human for any effect related to race.",
+        "Elven Immunities: Immune to magic sleep; +2 vs enchantment.",
+        "Keen Senses: +2 racial bonus on Perception.",
+        "Low-Light Vision",
+        "Multitalented: Choose two favored classes; gain +1 hp or +1 skill rank when leveling up either."
       ]
     }
   }

@@ -19,11 +19,7 @@
     },
     "ability_score_modifiers": {
       "value": [
-        {
-          "type": "floating",
-          "value": 2,
-          "description": "+2 to one ability score of choice."
-        }
+        "Floating +2 (apply to any one ability)"
       ]
     },
     "languages_starting": {
@@ -36,14 +32,8 @@
     },
     "racial_traits": {
       "value": [
-        {
-          "name": "Bonus Feat",
-          "description": "Humans select one extra feat at 1st level."
-        },
-        {
-          "name": "Skilled",
-          "description": "Humans gain an additional skill rank at 1st level and one additional rank whenever they gain a level."
-        }
+        "Bonus Feat: Humans select one extra feat at 1st level.",
+        "Skilled: Humans gain an additional skill rank at 1st level and one additional rank whenever they gain a level."
       ]
     }
   }

@@ -4,6 +4,20 @@ base string source(name = "Source") = "";
 
 base string description(name = "Description") = "";
 
+// PF1e-flavored race fields. Our instances ship these and the race display_view
+// + creation-flow page read them. They need to be declared so the runtime
+// materialises the value instead of silently dropping it.
+base string size(name = "Size") = "medium";
+base integer base_speed(name = "Base speed (ft)") = 30;
+base string type(name = "Creature type") = "humanoid";
+base string[] languages_starting(name = "Starting languages") = [];
+base string bonus_languages_note(name = "Bonus languages note") = "";
+// Flattened: each entry is a "Trait Name: short description" string. The
+// underlying instances ship structured objects; the generator flattens them
+// at emit time so the schema stays simple and the value renders as-is.
+base string[] racial_traits(name = "Racial traits") = [];
+base string[] ability_score_modifiers(name = "Ability score modifiers") = [];
+
 base integer hit_points(name = "Hit points") = 8;
 
 base bool same_hit_points_as_parent(name = "Same hit points as parent") = true;

@@ -36,22 +36,34 @@ ARMORS = [
 ]
 
 
+# armor_types enum ids: unarmored / light / medium / heavy / shield.
+# Our table uses light_armor / medium_armor / heavy_armor (plus "shield").
+_CATEGORY_NORMALIZE = {
+    "light_armor": "light",
+    "medium_armor": "medium",
+    "heavy_armor": "heavy",
+    "shield": "shield",
+    "unarmored": "unarmored",
+}
+
+
 def build_armor_json(a):
     (aid, name, cat, cost, ab, mxd, acp, asf, sp30, sp20, wt) = a
+    cat_norm = _CATEGORY_NORMALIZE.get(cat, cat)
     return {
         "resource_id": "armor",
         "stats": {
             "id": f"{aid}__crb_",
             "name": {"value": name},
             "source": {"value": "crb"},
-            "category": {"value": cat},
+            "category": {"value": cat_norm},
             "cost_gp": {"value": cost},
             "armor_bonus": {"value": ab},
             "max_dex_bonus": {"value": mxd if mxd is not None else 99},
             "armor_check_penalty": {"value": acp},
             "arcane_spell_failure": {"value": asf},
-            "speed_30_ft_in_armor": {"value": sp30},
-            "speed_20_ft_in_armor": {"value": sp20},
+            "speed_30_ft_in_armor": {"value": sp30 if sp30 is not None else 30},
+            "speed_20_ft_in_armor": {"value": sp20 if sp20 is not None else 20},
             "weight_lb": {"value": wt},
         },
     }

@@ -8,6 +8,15 @@ base string prerequisites(name = "Prerequisites") = "";
 
 base string action_cost(name = "Action cost") = "passive";
 
+// PF1e-flavored: feats have a single short description (not a levelled list).
+// `descriptions` (plural, declared below) stays for any pf2e content; we read
+// from `description` for PF1e content.
+base string description(name = "Description") = "";
+
+// Whether the feat's effects toggle on/off (e.g. Power Attack, Combat
+// Expertise) vs are always-on passives.
+base bool is_toggleable(name = "Is toggleable") = false;
+
 base string trigger(name = "Trigger") = "";
 
 base string requirements(name = "Requirements") = "";
@@ -59,7 +68,10 @@ calc bool is_eligible_for_background_selection(name = "Eligible for background s
 
 base resource<levelled_description>[] descriptions(name = "Descriptions") = [];
 
-base resource<levelled_effect>[] effects(name = "Effects") = [];
+// PF1e feats have plain effects (not levelled — feats apply uniformly when
+// selected; the pf2e level-gated wrapper isn't used). Schema reshaped from
+// resource<levelled_effect>[] to resource<effect>[] to match our instances.
+base resource<effect>[] effects(name = "Effects") = [];
 
 base resource<conditional_linked_feat>[] conditional_linked_feats(name = "Conditional linked feats") =
   [];
@@ -289,18 +301,10 @@ calc integer min_required_level(name = "Minimum required level") =
 
 calc bool can_be_used(name = "Can be_used") = level >= min_required_level;
 
+// PF1e: no level-gating on feat effects. All declared effects apply once the
+// feat is taken. Was pf2e: sort/filter by levelled_effect.level + .effect deref.
 calc resource<effect>[] available_effects_for_current_level(name = "Available effects for current level") =
-  map(
-    filter(
-      sortBy(
-        effects,
-        order = "asc",
-        sort_by_selector = ($sortByValue) => $sortByValue.level,
-      ),
-      filter = ($filterValue) => ($filterValue.level <= level),
-    ),
-    mapper = ($mapValue) => $mapValue.effect,
-  );
+  effects;
 
 calc resource<effect>[] active_or_charge_effects_for_current_level(name = "Active or charge-only effects for current level") =
   filter(
@@ -315,12 +319,10 @@ calc resource<levelled_description>[] sorted_descriptions(name = "Sorted descrip
     sort_by_selector = ($sortByValue) => $sortByValue.level,
   );
 
-calc resource<levelled_effect>[] sorted_effects(name = "Sorted effects") =
-  sortBy(
-    effects,
-    order = "asc",
-    sort_by_selector = ($sortByValue) => $sortByValue.level,
-  );
+// PF1e: effects aren't levelled, so "sorted" is just the underlying list.
+// Kept under the old name so display_view.rpgs doesn't need to change.
+calc resource<effect>[] sorted_effects(name = "Sorted effects") =
+  effects;
 
 calc resource<levelled_amount>[] sorted_selectable_feature_amount_per_level(name = "Sorted selectable feature amount per level") =
   sortBy(

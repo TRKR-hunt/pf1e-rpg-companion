@@ -343,33 +343,59 @@ view class_display() =
         ],
         is_visible = !isEmpty(skill_proficiencies),
       ),
-      collapsible(
-        id = "class_display_armor_proficiencies_collapsible",
-        title = "Armor proficiencies (per lvl)",
-        start_expanded = false,
+      composite(
+        id = "class_display_weapon_proficiencies_composite",
+        margin_top = 8,
         subviews = [
-          resourceArray(
-            id = "class_display_armor_proficiencies",
-            resource_id = "levelled_armor_proficiency",
-            stat = "armor_proficiencies",
-            view_type = "display",
+          text(
+            id = "class_display_weapon_proficiencies_label",
+            text = "Weapon proficiencies: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "class_display_weapon_proficiencies_text",
+            text = joinToString(weapon_proficiencies, separator = ", "),
+            style = "text",
+          ),
+        ],
+        is_visible = !isEmpty(weapon_proficiencies),
+      ),
+      composite(
+        id = "class_display_armor_proficiencies_composite",
+        margin_top = 8,
+        subviews = [
+          text(
+            id = "class_display_armor_proficiencies_label",
+            text = "Armor proficiencies: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "class_display_armor_proficiencies_text",
+            text = joinToString(armor_proficiencies, separator = ", "),
+            style = "text",
           ),
         ],
         is_visible = !isEmpty(armor_proficiencies),
       ),
-      collapsible(
-        id = "class_display_weapon_proficiencies_collapsible",
-        title = "Weapon proficiencies (per lvl)",
-        start_expanded = false,
+      composite(
+        id = "class_display_shield_proficiencies_composite",
+        margin_top = 8,
         subviews = [
-          resourceArray(
-            id = "class_display_weapon_proficiencies",
-            resource_id = "levelled_weapon_proficiency",
-            stat = "weapon_proficiencies",
-            view_type = "display",
+          text(
+            id = "class_display_shield_proficiencies_label",
+            text = "Shield proficiencies: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "class_display_shield_proficiencies_text",
+            text = joinToString(shield_proficiencies, separator = ", "),
+            style = "text",
           ),
         ],
-        is_visible = !isEmpty(weapon_proficiencies),
+        is_visible = !isEmpty(shield_proficiencies),
       ),
       collapsible(
         id = "class_display_lore_skills_collapsible",

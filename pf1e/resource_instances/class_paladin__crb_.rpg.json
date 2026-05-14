@@ -76,118 +76,44 @@
         "tower"
       ]
     },
-    "spellcasting": {
-      "value": {
-        "type": "prepared",
-        "tradition": "divine",
-        "ability": "charisma",
-        "max_spell_level": 4,
-        "begins_at_level": 4
-      }
-    },
     "class_features": {
       "value": [
-        {
-          "level": 1,
-          "name": "Aura of Good",
-          "description": ""
-        },
-        {
-          "level": 1,
-          "name": "Detect Evil",
-          "description": "At will."
-        },
-        {
-          "level": 1,
-          "name": "Smite Evil 1/day",
-          "description": "Add Cha mod to atk, level to damage vs evil."
-        },
-        {
-          "level": 2,
-          "name": "Divine Grace",
-          "description": "Add Cha mod to all saves."
-        },
-        {
-          "level": 2,
-          "name": "Lay on Hands",
-          "description": "Heal (level/2) \u00d7 Cha-mod times per day, 1d6 per 2 levels."
-        },
-        {
-          "level": 3,
-          "name": "Aura of Courage",
-          "description": "+4 vs fear for self & allies in 10 ft."
-        },
-        {
-          "level": 3,
-          "name": "Divine Health",
-          "description": "Immune to disease."
-        },
-        {
-          "level": 3,
-          "name": "Mercy",
-          "description": "Lay on Hands also removes a condition."
-        },
-        {
-          "level": 4,
-          "name": "Channel Positive Energy",
-          "description": ""
-        },
-        {
-          "level": 5,
-          "name": "Divine Bond",
-          "description": "Weapon or mount."
-        },
-        {
-          "level": 5,
-          "name": "Smite Evil 2/day",
-          "description": ""
-        },
-        {
-          "level": 8,
-          "name": "Aura of Resolve",
-          "description": ""
-        },
-        {
-          "level": 8,
-          "name": "Smite Evil 3/day",
-          "description": ""
-        },
-        {
-          "level": 11,
-          "name": "Aura of Justice",
-          "description": ""
-        },
-        {
-          "level": 11,
-          "name": "Smite Evil 4/day",
-          "description": ""
-        },
-        {
-          "level": 14,
-          "name": "Aura of Faith",
-          "description": ""
-        },
-        {
-          "level": 14,
-          "name": "Smite Evil 5/day",
-          "description": ""
-        },
-        {
-          "level": 17,
-          "name": "Aura of Righteousness",
-          "description": ""
-        },
-        {
-          "level": 17,
-          "name": "Smite Evil 6/day",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "Holy Champion",
-          "description": "Smite banishes evil outsiders."
-        }
+        "L1: Aura of Good",
+        "L1: Detect Evil \u2014 At will.",
+        "L1: Smite Evil 1/day \u2014 Add Cha mod to atk, level to damage vs evil.",
+        "L2: Divine Grace \u2014 Add Cha mod to all saves.",
+        "L2: Lay on Hands \u2014 Heal (level/2) \u00d7 Cha-mod times per day, 1d6 per 2 levels.",
+        "L3: Aura of Courage \u2014 +4 vs fear for self & allies in 10 ft.",
+        "L3: Divine Health \u2014 Immune to disease.",
+        "L3: Mercy \u2014 Lay on Hands also removes a condition.",
+        "L4: Channel Positive Energy",
+        "L5: Divine Bond \u2014 Weapon or mount.",
+        "L5: Smite Evil 2/day",
+        "L8: Aura of Resolve",
+        "L8: Smite Evil 3/day",
+        "L11: Aura of Justice",
+        "L11: Smite Evil 4/day",
+        "L14: Aura of Faith",
+        "L14: Smite Evil 5/day",
+        "L17: Aura of Righteousness",
+        "L17: Smite Evil 6/day",
+        "L20: Holy Champion \u2014 Smite banishes evil outsiders."
       ]
+    },
+    "spellcasting_mode": {
+      "value": "prepared"
+    },
+    "spellcasting_tradition": {
+      "value": "divine"
+    },
+    "spellcasting_ability": {
+      "value": "charisma"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 4
+    },
+    "spellcasting_begins_at_level": {
+      "value": 4
     }
   }
 }

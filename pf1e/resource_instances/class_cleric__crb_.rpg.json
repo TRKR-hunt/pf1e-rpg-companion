@@ -78,52 +78,28 @@
         "heavy"
       ]
     },
-    "spellcasting": {
-      "value": {
-        "type": "prepared",
-        "tradition": "divine",
-        "ability": "wisdom",
-        "max_spell_level": 9
-      }
-    },
     "class_features": {
       "value": [
-        {
-          "level": 1,
-          "name": "Aura",
-          "description": "Strong aura matching alignment."
-        },
-        {
-          "level": 1,
-          "name": "Channel Energy",
-          "description": "1d6 positive/negative energy (Cleric level rounded up by every 2)."
-        },
-        {
-          "level": 1,
-          "name": "Domains",
-          "description": "Choose 2 domains; gain domain powers and bonus domain spells."
-        },
-        {
-          "level": 1,
-          "name": "Orisons",
-          "description": "Cast 0-level spells at will."
-        },
-        {
-          "level": 1,
-          "name": "Spontaneous Casting",
-          "description": "Convert prepared spells to cure/inflict spells of same level."
-        },
-        {
-          "level": 8,
-          "name": "Channel Energy 4d6",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "Channel Energy 10d6",
-          "description": "Max channel energy progression."
-        }
+        "L1: Aura \u2014 Strong aura matching alignment.",
+        "L1: Channel Energy \u2014 1d6 positive/negative energy (Cleric level rounded up by every 2).",
+        "L1: Domains \u2014 Choose 2 domains; gain domain powers and bonus domain spells.",
+        "L1: Orisons \u2014 Cast 0-level spells at will.",
+        "L1: Spontaneous Casting \u2014 Convert prepared spells to cure/inflict spells of same level.",
+        "L8: Channel Energy 4d6",
+        "L20: Channel Energy 10d6 \u2014 Max channel energy progression."
       ]
+    },
+    "spellcasting_mode": {
+      "value": "prepared"
+    },
+    "spellcasting_tradition": {
+      "value": "divine"
+    },
+    "spellcasting_ability": {
+      "value": "wisdom"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 9
     }
   }
 }

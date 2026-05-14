@@ -10,6 +10,17 @@ base resource<cost> cost(name = "Cost") = null;
 
 base resource<weight> weight(name = "Weight") = null;
 
+// PF1e-flavored armor fields, declared so the runtime materialises them.
+base string category(name = "Category (PF1e)") = "";
+base integer cost_gp(name = "Cost (gp)") = 0;
+base integer weight_lb(name = "Weight (lb)") = 0;
+base integer armor_bonus(name = "Armor bonus") = 0;
+base integer max_dex_bonus(name = "Max DEX bonus") = 99;
+base integer armor_check_penalty(name = "Armor check penalty") = 0;
+base integer arcane_spell_failure(name = "Arcane spell failure (%)") = 0;
+base integer speed_30_ft_in_armor(name = "Speed in armor (base 30)") = 30;
+base integer speed_20_ft_in_armor(name = "Speed in armor (base 20)") = 20;
+
 base string type(name = "Type") = "light";
 
 base string rarity(name = "Rarity") = "common";

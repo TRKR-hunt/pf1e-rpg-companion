@@ -83,87 +83,35 @@
         "wooden"
       ]
     },
-    "spellcasting": {
-      "value": {
-        "type": "prepared",
-        "tradition": "divine",
-        "ability": "wisdom",
-        "max_spell_level": 9
-      }
-    },
     "class_features": {
       "value": [
-        {
-          "level": 1,
-          "name": "Nature Bond",
-          "description": "Animal companion or domain."
-        },
-        {
-          "level": 1,
-          "name": "Nature Sense",
-          "description": "+2 K. Nature & Survival."
-        },
-        {
-          "level": 1,
-          "name": "Orisons",
-          "description": ""
-        },
-        {
-          "level": 1,
-          "name": "Wild Empathy",
-          "description": "Improve attitude of animal."
-        },
-        {
-          "level": 2,
-          "name": "Woodland Stride",
-          "description": "Move through undergrowth at full speed."
-        },
-        {
-          "level": 3,
-          "name": "Trackless Step",
-          "description": "Leave no trail unless desired."
-        },
-        {
-          "level": 4,
-          "name": "Resist Nature's Lure",
-          "description": "+4 save vs fey spell-likes."
-        },
-        {
-          "level": 4,
-          "name": "Wild Shape 1/day",
-          "description": ""
-        },
-        {
-          "level": 6,
-          "name": "Wild Shape 2/day",
-          "description": ""
-        },
-        {
-          "level": 8,
-          "name": "Wild Shape 3/day",
-          "description": ""
-        },
-        {
-          "level": 9,
-          "name": "Venom Immunity",
-          "description": ""
-        },
-        {
-          "level": 13,
-          "name": "A Thousand Faces",
-          "description": ""
-        },
-        {
-          "level": 15,
-          "name": "Timeless Body",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "Wild Shape 8/day (incl. elementals huge)",
-          "description": ""
-        }
+        "L1: Nature Bond \u2014 Animal companion or domain.",
+        "L1: Nature Sense \u2014 +2 K. Nature & Survival.",
+        "L1: Orisons",
+        "L1: Wild Empathy \u2014 Improve attitude of animal.",
+        "L2: Woodland Stride \u2014 Move through undergrowth at full speed.",
+        "L3: Trackless Step \u2014 Leave no trail unless desired.",
+        "L4: Resist Nature's Lure \u2014 +4 save vs fey spell-likes.",
+        "L4: Wild Shape 1/day",
+        "L6: Wild Shape 2/day",
+        "L8: Wild Shape 3/day",
+        "L9: Venom Immunity",
+        "L13: A Thousand Faces",
+        "L15: Timeless Body",
+        "L20: Wild Shape 8/day (incl. elementals huge)"
       ]
+    },
+    "spellcasting_mode": {
+      "value": "prepared"
+    },
+    "spellcasting_tradition": {
+      "value": "divine"
+    },
+    "spellcasting_ability": {
+      "value": "wisdom"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 9
     }
   }
 }

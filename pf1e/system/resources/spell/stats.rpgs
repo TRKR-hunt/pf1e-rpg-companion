@@ -2,9 +2,15 @@ base string name(name = "Name") = "";
 
 base string source(name = "Source") = "";
 
-base string level(name = "Rank") = "spell_level_0";
+// Spell level is encoded as a `spell_level` enum id ("spell_level_0".."_9").
+// Pre-existing calcs in this file parse it via `toNum(replace(...))`, so we
+// preserve the string encoding for consistency. The generator emits these ids.
+base string level(name = "Level") = "spell_level_0";
 
-base string school(name = "School") = "spell_school_abjuration";
+base string school(name = "School") = "abjuration";
+
+// PF1e-specific: "yes" / "no" / "yes, but harmless" / "yes, object" / etc.
+base string spell_resistance(name = "Spell resistance") = "no";
 
 base string[] traditions(name = "Traditions") = [];
 

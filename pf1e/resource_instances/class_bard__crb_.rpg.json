@@ -96,127 +96,43 @@
         "heavy"
       ]
     },
-    "spellcasting": {
-      "value": {
-        "type": "spontaneous",
-        "tradition": "arcane",
-        "ability": "charisma",
-        "max_spell_level": 6
-      }
-    },
     "class_features": {
       "value": [
-        {
-          "level": 1,
-          "name": "Bardic Knowledge",
-          "description": "Add half level (min 1) to all Knowledge checks; may make untrained."
-        },
-        {
-          "level": 1,
-          "name": "Bardic Performance",
-          "description": "Rounds/day = 4 + Cha mod (+2/level)."
-        },
-        {
-          "level": 1,
-          "name": "Cantrips",
-          "description": "Knows 0-level spells castable at will."
-        },
-        {
-          "level": 1,
-          "name": "Countersong",
-          "description": ""
-        },
-        {
-          "level": 1,
-          "name": "Distraction",
-          "description": ""
-        },
-        {
-          "level": 1,
-          "name": "Fascinate",
-          "description": ""
-        },
-        {
-          "level": 1,
-          "name": "Inspire Courage +1",
-          "description": "+1 morale to attack/damage and vs fear/charm for allies."
-        },
-        {
-          "level": 2,
-          "name": "Versatile Performance",
-          "description": "Substitute Perform for two other skills."
-        },
-        {
-          "level": 2,
-          "name": "Well-Versed",
-          "description": "+4 vs bardic/sonic effects."
-        },
-        {
-          "level": 3,
-          "name": "Inspire Competence +2",
-          "description": ""
-        },
-        {
-          "level": 5,
-          "name": "Lore Master",
-          "description": "Take 10 on any Knowledge check."
-        },
-        {
-          "level": 5,
-          "name": "Inspire Courage +2",
-          "description": ""
-        },
-        {
-          "level": 6,
-          "name": "Suggestion",
-          "description": ""
-        },
-        {
-          "level": 8,
-          "name": "Dirge of Doom",
-          "description": ""
-        },
-        {
-          "level": 9,
-          "name": "Inspire Greatness",
-          "description": ""
-        },
-        {
-          "level": 11,
-          "name": "Inspire Courage +3",
-          "description": ""
-        },
-        {
-          "level": 12,
-          "name": "Soothing Performance",
-          "description": ""
-        },
-        {
-          "level": 14,
-          "name": "Frightening Tune",
-          "description": ""
-        },
-        {
-          "level": 15,
-          "name": "Inspire Heroics",
-          "description": ""
-        },
-        {
-          "level": 17,
-          "name": "Inspire Courage +4",
-          "description": ""
-        },
-        {
-          "level": 18,
-          "name": "Mass Suggestion",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "Deadly Performance",
-          "description": ""
-        }
+        "L1: Bardic Knowledge \u2014 Add half level (min 1) to all Knowledge checks; may make untrained.",
+        "L1: Bardic Performance \u2014 Rounds/day = 4 + Cha mod (+2/level).",
+        "L1: Cantrips \u2014 Knows 0-level spells castable at will.",
+        "L1: Countersong",
+        "L1: Distraction",
+        "L1: Fascinate",
+        "L1: Inspire Courage +1 \u2014 +1 morale to attack/damage and vs fear/charm for allies.",
+        "L2: Versatile Performance \u2014 Substitute Perform for two other skills.",
+        "L2: Well-Versed \u2014 +4 vs bardic/sonic effects.",
+        "L3: Inspire Competence +2",
+        "L5: Lore Master \u2014 Take 10 on any Knowledge check.",
+        "L5: Inspire Courage +2",
+        "L6: Suggestion",
+        "L8: Dirge of Doom",
+        "L9: Inspire Greatness",
+        "L11: Inspire Courage +3",
+        "L12: Soothing Performance",
+        "L14: Frightening Tune",
+        "L15: Inspire Heroics",
+        "L17: Inspire Courage +4",
+        "L18: Mass Suggestion",
+        "L20: Deadly Performance"
       ]
+    },
+    "spellcasting_mode": {
+      "value": "spontaneous"
+    },
+    "spellcasting_tradition": {
+      "value": "arcane"
+    },
+    "spellcasting_ability": {
+      "value": "charisma"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 6
     }
   }
 }

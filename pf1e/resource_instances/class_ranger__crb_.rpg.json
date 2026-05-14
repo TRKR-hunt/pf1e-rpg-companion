@@ -79,138 +79,48 @@
         "heavy"
       ]
     },
-    "spellcasting": {
-      "value": {
-        "type": "prepared",
-        "tradition": "divine",
-        "ability": "wisdom",
-        "max_spell_level": 4,
-        "begins_at_level": 4
-      }
-    },
     "class_features": {
       "value": [
-        {
-          "level": 1,
-          "name": "1st Favored Enemy",
-          "description": "+2 atk/dmg/skill vs chosen creature type."
-        },
-        {
-          "level": 1,
-          "name": "Track",
-          "description": "Add half ranger level to Survival to track."
-        },
-        {
-          "level": 1,
-          "name": "Wild Empathy",
-          "description": ""
-        },
-        {
-          "level": 2,
-          "name": "Combat Style Feat",
-          "description": "Bonus feat from chosen archery or two-weapon list."
-        },
-        {
-          "level": 3,
-          "name": "Endurance",
-          "description": "Bonus feat."
-        },
-        {
-          "level": 3,
-          "name": "Favored Terrain",
-          "description": "+2 init/Knowledge geo/Per/Stealth/Survival in terrain."
-        },
-        {
-          "level": 4,
-          "name": "Hunter's Bond",
-          "description": "Animal companion or +half level to allies' atk vs FE."
-        },
-        {
-          "level": 5,
-          "name": "2nd Favored Enemy",
-          "description": ""
-        },
-        {
-          "level": 6,
-          "name": "Combat Style Feat",
-          "description": ""
-        },
-        {
-          "level": 7,
-          "name": "Woodland Stride",
-          "description": ""
-        },
-        {
-          "level": 8,
-          "name": "Swift Tracker",
-          "description": "Track at normal speed."
-        },
-        {
-          "level": 9,
-          "name": "Evasion",
-          "description": ""
-        },
-        {
-          "level": 10,
-          "name": "3rd Favored Enemy",
-          "description": ""
-        },
-        {
-          "level": 10,
-          "name": "Combat Style Feat",
-          "description": ""
-        },
-        {
-          "level": 11,
-          "name": "Quarry",
-          "description": ""
-        },
-        {
-          "level": 12,
-          "name": "Camouflage",
-          "description": ""
-        },
-        {
-          "level": 14,
-          "name": "Combat Style Feat",
-          "description": ""
-        },
-        {
-          "level": 15,
-          "name": "4th Favored Enemy",
-          "description": ""
-        },
-        {
-          "level": 16,
-          "name": "Improved Evasion",
-          "description": ""
-        },
-        {
-          "level": 17,
-          "name": "Hide in Plain Sight",
-          "description": ""
-        },
-        {
-          "level": 18,
-          "name": "Combat Style Feat",
-          "description": ""
-        },
-        {
-          "level": 19,
-          "name": "Improved Quarry",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "5th Favored Enemy",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "Master Hunter",
-          "description": "Standard action kill of favored enemy."
-        }
+        "L1: 1st Favored Enemy \u2014 +2 atk/dmg/skill vs chosen creature type.",
+        "L1: Track \u2014 Add half ranger level to Survival to track.",
+        "L1: Wild Empathy",
+        "L2: Combat Style Feat \u2014 Bonus feat from chosen archery or two-weapon list.",
+        "L3: Endurance \u2014 Bonus feat.",
+        "L3: Favored Terrain \u2014 +2 init/Knowledge geo/Per/Stealth/Survival in terrain.",
+        "L4: Hunter's Bond \u2014 Animal companion or +half level to allies' atk vs FE.",
+        "L5: 2nd Favored Enemy",
+        "L6: Combat Style Feat",
+        "L7: Woodland Stride",
+        "L8: Swift Tracker \u2014 Track at normal speed.",
+        "L9: Evasion",
+        "L10: 3rd Favored Enemy",
+        "L10: Combat Style Feat",
+        "L11: Quarry",
+        "L12: Camouflage",
+        "L14: Combat Style Feat",
+        "L15: 4th Favored Enemy",
+        "L16: Improved Evasion",
+        "L17: Hide in Plain Sight",
+        "L18: Combat Style Feat",
+        "L19: Improved Quarry",
+        "L20: 5th Favored Enemy",
+        "L20: Master Hunter \u2014 Standard action kill of favored enemy."
       ]
+    },
+    "spellcasting_mode": {
+      "value": "prepared"
+    },
+    "spellcasting_tradition": {
+      "value": "divine"
+    },
+    "spellcasting_ability": {
+      "value": "wisdom"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 4
+    },
+    "spellcasting_begins_at_level": {
+      "value": 4
     }
   }
 }

@@ -155,12 +155,12 @@ view feat_edit() =
       ),
       resourceArray(
         id = "feat_edit_effects",
-        resource_id = "levelled_effect",
+        resource_id = "effect",
         view_type = "edit",
         stat = "effects",
         left_view = text(
           id = "feat_edit_effects_label",
-          text = "Effects (per lvl): ",
+          text = "Effects: ",
           style = "text",
         ),
       ),

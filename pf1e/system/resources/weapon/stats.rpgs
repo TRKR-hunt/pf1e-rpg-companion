@@ -12,6 +12,19 @@ base resource<cost> cost(name = "Cost") = null;
 
 base resource<weight> weight(name = "Weight") = null;
 
+// PF1e-flavored weapon fields. Our instances ship these flat scalar fields
+// instead of the pf2e resource<cost>/<weight>/<damage_dice> nesting. Declared
+// here so the runtime materialises them.
+base string category(name = "Category (PF1e)") = "";
+base integer cost_gp(name = "Cost (gp)") = 0;
+base integer weight_lb(name = "Weight (lb)") = 0;
+base string damage(name = "Damage (medium)") = "";
+base string damage_small(name = "Damage (small)") = "";
+base string damage_type(name = "Damage type") = "";
+base string critical(name = "Critical") = "";
+base integer range_increment_ft(name = "Range increment (ft)") = 0;
+base string special(name = "Special") = "";
+
 base string type(name = "Type") = "club";
 
 base string attack_ability(name = "Attack ability") = "strength";

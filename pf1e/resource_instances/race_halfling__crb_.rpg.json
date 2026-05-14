@@ -19,21 +19,9 @@
     },
     "ability_score_modifiers": {
       "value": [
-        {
-          "type": "fixed",
-          "ability": "dexterity",
-          "value": 2
-        },
-        {
-          "type": "fixed",
-          "ability": "charisma",
-          "value": 2
-        },
-        {
-          "type": "fixed",
-          "ability": "strength",
-          "value": -2
-        }
+        "DEX +2 (racial)",
+        "CHA +2 (racial)",
+        "STR -2 (racial)"
       ]
     },
     "languages_starting": {
@@ -47,30 +35,12 @@
     },
     "racial_traits": {
       "value": [
-        {
-          "name": "Fearless",
-          "description": "+2 racial bonus on saves vs fear (stacks with Halfling Luck)."
-        },
-        {
-          "name": "Halfling Luck",
-          "description": "+1 racial bonus on all saving throws."
-        },
-        {
-          "name": "Keen Senses",
-          "description": "+2 racial bonus on Perception."
-        },
-        {
-          "name": "Sure-Footed",
-          "description": "+2 racial bonus on Acrobatics and Climb."
-        },
-        {
-          "name": "Weapon Familiarity",
-          "description": "Proficient with slings; treat any weapon with 'halfling' in name as martial."
-        },
-        {
-          "name": "Small",
-          "description": "+1 size to AC and attack; +4 size to Stealth."
-        }
+        "Fearless: +2 racial bonus on saves vs fear (stacks with Halfling Luck).",
+        "Halfling Luck: +1 racial bonus on all saving throws.",
+        "Keen Senses: +2 racial bonus on Perception.",
+        "Sure-Footed: +2 racial bonus on Acrobatics and Climb.",
+        "Weapon Familiarity: Proficient with slings; treat any weapon with 'halfling' in name as martial.",
+        "Small: +1 size to AC and attack; +4 size to Stealth."
       ]
     }
   }

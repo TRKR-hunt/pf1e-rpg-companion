@@ -2,29 +2,17 @@
   "id": "feat_types",
   "name": "Feat types",
   "types": [
-    {
-      "id": "ancestry",
-      "name": "Ancestry"
-    },
-    {
-      "id": "class",
-      "name": "Class"
-    },
-    {
-      "id": "skill",
-      "name": "Skill"
-    },
-    {
-      "id": "general",
-      "name": "General"
-    },
-    {
-      "id": "archetype",
-      "name": "Archetype"
-    },
-    {
-      "id": "bonus",
-      "name": "Bonus"
-    }
+    { "id": "combat", "name": "Combat" },
+    { "id": "general", "name": "General" },
+    { "id": "metamagic", "name": "Metamagic" },
+    { "id": "item_creation", "name": "Item creation" },
+    { "id": "teamwork", "name": "Teamwork" },
+    { "id": "style", "name": "Style" },
+    { "id": "racial", "name": "Racial" },
+    { "id": "ancestry", "name": "Ancestry" },
+    { "id": "class", "name": "Class" },
+    { "id": "skill", "name": "Skill" },
+    { "id": "archetype", "name": "Archetype" },
+    { "id": "bonus", "name": "Bonus" }
   ]
 }

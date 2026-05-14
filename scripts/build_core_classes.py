@@ -427,41 +427,70 @@ CLASSES = [
 ]
 
 
+def _flatten_features(features: list) -> list:
+    """class.class_features is declared string[] in stats.rpgs (the schema
+    can't carry an array-of-typed-objects easily). Each entry rendered as
+    "L<n>: <Name> — <desc>" (or "L<n>: <Name>" when desc is empty)."""
+    out = []
+    for lvl, name, desc in features:
+        if desc:
+            out.append(f"L{lvl}: {name} — {desc}")
+        else:
+            out.append(f"L{lvl}: {name}")
+    return out
+
+
+def _spellcasting_fields(sc: dict | None) -> dict:
+    """Decompose the structured spellcasting dict into the scalar fields
+    that the class schema declares (spellcasting_mode / spellcasting_tradition
+    / spellcasting_ability / spellcasting_max_spell_level /
+    spellcasting_begins_at_level). Returns {} for non-casters."""
+    if not sc:
+        return {}
+    out = {}
+    if "type" in sc:
+        out["spellcasting_mode"] = {"value": sc["type"]}
+    if "tradition" in sc:
+        out["spellcasting_tradition"] = {"value": sc["tradition"]}
+    if "ability" in sc:
+        out["spellcasting_ability"] = {"value": sc["ability"]}
+    if "max_spell_level" in sc:
+        out["spellcasting_max_spell_level"] = {"value": sc["max_spell_level"]}
+    if "begins_at_level" in sc:
+        out["spellcasting_begins_at_level"] = {"value": sc["begins_at_level"]}
+    return out
+
+
 def build_class_json(c: dict) -> dict:
-    return {
-        "resource_id": "class",
-        "stats": {
-            "id": f"{c['id']}__crb_",
-            "name": {"value": c["name"]},
-            "source": {"value": "crb"},
-            "description": {"value":
-                f"### Hit Die\n{c['hit_die']}.\n\n"
-                f"### Starting Wealth\n{c['starting_wealth']}\n\n"
-                f"### Skill Ranks per Level\n{c['skill_ranks_per_level']} + Int modifier.\n\n"
-                f"### Alignment\n{c['alignment_restriction']}.\n\n"
-                f"### Class Features\nSee the level table below."
-            },
-            "hit_die": {"value": c["hit_die"]},
-            "class_hp_per_level": {"value": c["hp_per_level"]},
-            "skill_ranks_per_level": {"value": c["skill_ranks_per_level"]},
-            "skill_ranks_ability": {"value": c["skill_ranks_ability"]},
-            "bab_progression": {"value": c["bab"]},
-            "fortitude_progression": {"value": c["fort"]},
-            "reflex_progression": {"value": c["ref"]},
-            "will_progression": {"value": c["will"]},
-            "class_skills": {"value": c["class_skills"]},
-            "starting_wealth": {"value": c["starting_wealth"]},
-            "alignment_restriction": {"value": c["alignment_restriction"]},
-            "weapon_proficiencies": {"value": c["weapons"]},
-            "armor_proficiencies": {"value": c["armor"]},
-            "shield_proficiencies": {"value": c["shields"]},
-            **({"spellcasting": {"value": c["spellcasting"]}} if c.get("spellcasting") else {}),
-            "class_features": {"value": [
-                {"level": lvl, "name": name, "description": desc}
-                for (lvl, name, desc) in c["features"]
-            ]},
+    stats = {
+        "id": f"{c['id']}__crb_",
+        "name": {"value": c["name"]},
+        "source": {"value": "crb"},
+        "description": {"value":
+            f"### Hit Die\n{c['hit_die']}.\n\n"
+            f"### Starting Wealth\n{c['starting_wealth']}\n\n"
+            f"### Skill Ranks per Level\n{c['skill_ranks_per_level']} + Int modifier.\n\n"
+            f"### Alignment\n{c['alignment_restriction']}.\n\n"
+            f"### Class Features\nSee the level table below."
         },
+        "hit_die": {"value": c["hit_die"]},
+        "class_hp_per_level": {"value": c["hp_per_level"]},
+        "skill_ranks_per_level": {"value": c["skill_ranks_per_level"]},
+        "skill_ranks_ability": {"value": c["skill_ranks_ability"]},
+        "bab_progression": {"value": c["bab"]},
+        "fortitude_progression": {"value": c["fort"]},
+        "reflex_progression": {"value": c["ref"]},
+        "will_progression": {"value": c["will"]},
+        "class_skills": {"value": c["class_skills"]},
+        "starting_wealth": {"value": c["starting_wealth"]},
+        "alignment_restriction": {"value": c["alignment_restriction"]},
+        "weapon_proficiencies": {"value": c["weapons"]},
+        "armor_proficiencies": {"value": c["armor"]},
+        "shield_proficiencies": {"value": c["shields"]},
+        "class_features": {"value": _flatten_features(c["features"])},
     }
+    stats.update(_spellcasting_fields(c.get("spellcasting")))
+    return {"resource_id": "class", "stats": stats}
 
 
 def main():

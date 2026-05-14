@@ -19,11 +19,7 @@
     },
     "ability_score_modifiers": {
       "value": [
-        {
-          "type": "floating",
-          "value": 2,
-          "description": "+2 to one ability score of choice."
-        }
+        "Floating +2 (apply to any one ability)"
       ]
     },
     "languages_starting": {
@@ -37,26 +33,11 @@
     },
     "racial_traits": {
       "value": [
-        {
-          "name": "Darkvision",
-          "description": "Half-orcs can see in the dark up to 60 ft."
-        },
-        {
-          "name": "Intimidating",
-          "description": "+2 racial bonus on Intimidate."
-        },
-        {
-          "name": "Orc Blood",
-          "description": "Counts as both human and orc for any effect related to race."
-        },
-        {
-          "name": "Orc Ferocity",
-          "description": "Once per day, when brought below 0 HP but not killed, can fight on for one more round as if disabled."
-        },
-        {
-          "name": "Weapon Familiarity",
-          "description": "Proficient with greataxes and falchions; treat any weapon with 'orc' in name as martial."
-        }
+        "Darkvision: Half-orcs can see in the dark up to 60 ft.",
+        "Intimidating: +2 racial bonus on Intimidate.",
+        "Orc Blood: Counts as both human and orc for any effect related to race.",
+        "Orc Ferocity: Once per day, when brought below 0 HP but not killed, can fight on for one more round as if disabled.",
+        "Weapon Familiarity: Proficient with greataxes and falchions; treat any weapon with 'orc' in name as martial."
       ]
     }
   }

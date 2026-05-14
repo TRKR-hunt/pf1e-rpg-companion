@@ -76,57 +76,29 @@
     "shield_proficiencies": {
       "value": []
     },
-    "spellcasting": {
-      "value": {
-        "type": "prepared",
-        "tradition": "arcane",
-        "ability": "intelligence",
-        "max_spell_level": 9
-      }
-    },
     "class_features": {
       "value": [
-        {
-          "level": 1,
-          "name": "Arcane Bond",
-          "description": "Bonded item or familiar."
-        },
-        {
-          "level": 1,
-          "name": "Arcane School",
-          "description": "Choose specialist school or universalist."
-        },
-        {
-          "level": 1,
-          "name": "Cantrips",
-          "description": "0-level spells at will once prepared."
-        },
-        {
-          "level": 1,
-          "name": "Scribe Scroll",
-          "description": "Bonus item creation feat."
-        },
-        {
-          "level": 5,
-          "name": "Bonus Feat",
-          "description": "Item creation or metamagic."
-        },
-        {
-          "level": 10,
-          "name": "Bonus Feat",
-          "description": ""
-        },
-        {
-          "level": 15,
-          "name": "Bonus Feat",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "Bonus Feat",
-          "description": ""
-        }
+        "L1: Arcane Bond \u2014 Bonded item or familiar.",
+        "L1: Arcane School \u2014 Choose specialist school or universalist.",
+        "L1: Cantrips \u2014 0-level spells at will once prepared.",
+        "L1: Scribe Scroll \u2014 Bonus item creation feat.",
+        "L5: Bonus Feat \u2014 Item creation or metamagic.",
+        "L10: Bonus Feat",
+        "L15: Bonus Feat",
+        "L20: Bonus Feat"
       ]
+    },
+    "spellcasting_mode": {
+      "value": "prepared"
+    },
+    "spellcasting_tradition": {
+      "value": "arcane"
+    },
+    "spellcasting_ability": {
+      "value": "intelligence"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 9
     }
   }
 }

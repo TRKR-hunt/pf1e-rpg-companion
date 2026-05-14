@@ -8,6 +8,29 @@ base integer class_hp_per_level(name = "Class HP per level") = 8;
 
 base string[] hp_modifiers(name = "HP Modifiers") = ["constitution"];
 
+// PF1e-flavored fields. Our class instances ship these, and character_stats.rpgs
+// reads them (e.g. $c.class.bab_progression). They need to be declared so the
+// runtime materialises the value instead of silently dropping it.
+base string hit_die(name = "Hit die") = "d8";
+base string bab_progression(name = "BAB progression") = "half";
+base string fortitude_progression(name = "Fortitude progression") = "poor";
+base string reflex_progression(name = "Reflex progression") = "poor";
+base string will_progression(name = "Will progression") = "poor";
+base string[] class_skills(name = "Class skills") = [];
+base integer skill_ranks_per_level(name = "Skill ranks per level") = 2;
+base string skill_ranks_ability(name = "Skill ranks ability") = "intelligence";
+base string starting_wealth(name = "Starting wealth") = "";
+base string alignment_restriction(name = "Alignment restriction") = "any";
+
+// Flattened: each entry is "L<n>: <Name> — <description>". The generator
+// flattens the structured class-features list at emit time so the schema
+// stays simple and the value renders as-is. Generator splits the data into
+// the existing scalar spellcasting_* fields (mode/tradition/ability) plus
+// the PF1e-specific spellcasting_max_spell_level + spellcasting_begins_at_level.
+base string[] class_features(name = "Class features (per level)") = [];
+base integer spellcasting_max_spell_level(name = "Spellcasting max spell level") = 0;
+base integer spellcasting_begins_at_level(name = "Spellcasting begins at level") = 1;
+
 calc integer actual_class_hp_per_level(name = "Actual class HP per level") =
   class_hp_per_level;
 
@@ -222,11 +245,14 @@ base resource<levelled_choice_text>[] language_proficiencies(name = "Language pr
 base resource<levelled_skill_proficiency>[] skill_proficiencies(name = "Skill proficiencies") =
   [];
 
-base resource<levelled_armor_proficiency>[] armor_proficiencies(name = "Armor proficiencies") =
-  [];
+// PF1e proficiencies: plain category-id string arrays. Schema reshaped from
+// pf2e's resource<levelled_*_proficiency>[] because PF1e doesn't level-gate
+// proficiency — you're proficient with a category from level 1 or not at all.
+base string[] armor_proficiencies(name = "Armor proficiencies") = [];
 
-base resource<levelled_weapon_proficiency>[] weapon_proficiencies(name = "Weapon proficiencies") =
-  [];
+base string[] weapon_proficiencies(name = "Weapon proficiencies") = [];
+
+base string[] shield_proficiencies(name = "Shield proficiencies") = [];
 
 base resource<lore_skill>[] lore_skills(name = "Lore skills") =
   [];
@@ -458,17 +484,14 @@ calc resource<levelled_skill_proficiency>[] skill_proficiencies_for_current_leve
     ],
   );
 
+// Stubbed: armor_proficiencies is now string[] in PF1e, no longer levelled.
+// Returning [] keeps the downstream armor/weapon proficiency-rank pipeline
+// type-correct; PF1e proficiency-check rewrite is a separate task.
 calc resource<levelled_armor_proficiency>[] armor_proficiencies_for_current_level(name = "Armor proficiencies for current level") =
-  filter(
-    armor_proficiencies,
-    filter = ($filterValue) => ($filterValue.level <= level),
-  );
+  [];
 
 calc resource<levelled_weapon_proficiency>[] weapon_proficiencies_for_current_level(name = "Weapon proficiencies for current level") =
-  filter(
-    weapon_proficiencies,
-    filter = ($filterValue) => ($filterValue.level <= level),
-  );
+  [];
 
 calc resource<lore_skill>[] lore_skills_for_current_level(name = "Lore skills for current level") =
   filter(
@@ -507,16 +530,10 @@ calc resource<levelled_skill_proficiency>[] skill_proficiencies_choices_in_curre
   );
 
 calc resource<levelled_armor_proficiency>[] armor_proficiencies_choices_in_current_level(name = "Armor proficiencies choices in current level") =
-  filter(
-    armor_proficiencies,
-    filter = ($filterValue) => ($filterValue.level == level),
-  );
+  [];
 
 calc resource<levelled_weapon_proficiency>[] weapon_proficiencies_choices_in_current_level(name = "Weapon proficiencies choices in current level") =
-  filter(
-    weapon_proficiencies,
-    filter = ($filterValue) => ($filterValue.level == level),
-  );
+  [];
 
 calc resource<lore_skill>[] lore_skills_choices_in_current_level(name = "Lore skills choices in current level") =
   filter(

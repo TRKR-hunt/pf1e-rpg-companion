@@ -65,77 +65,33 @@
     "shield_proficiencies": {
       "value": []
     },
-    "spellcasting": {
-      "value": {
-        "type": "spontaneous",
-        "tradition": "arcane",
-        "ability": "charisma",
-        "max_spell_level": 9
-      }
-    },
     "class_features": {
       "value": [
-        {
-          "level": 1,
-          "name": "Bloodline",
-          "description": "Choose a bloodline; gain bonus spells, class skills, feats, powers."
-        },
-        {
-          "level": 1,
-          "name": "Bloodline Power",
-          "description": "1st bloodline power."
-        },
-        {
-          "level": 1,
-          "name": "Cantrips",
-          "description": "0-level spells castable at will."
-        },
-        {
-          "level": 1,
-          "name": "Eschew Materials",
-          "description": "Cast without inexpensive material components."
-        },
-        {
-          "level": 3,
-          "name": "Bloodline Power",
-          "description": ""
-        },
-        {
-          "level": 3,
-          "name": "Bloodline Spell (1st)",
-          "description": ""
-        },
-        {
-          "level": 7,
-          "name": "Bloodline Spell (3rd)",
-          "description": ""
-        },
-        {
-          "level": 9,
-          "name": "Bloodline Power",
-          "description": ""
-        },
-        {
-          "level": 11,
-          "name": "Bloodline Spell (5th)",
-          "description": ""
-        },
-        {
-          "level": 15,
-          "name": "Bloodline Power & Spell (7th)",
-          "description": ""
-        },
-        {
-          "level": 19,
-          "name": "Bloodline Spell (9th)",
-          "description": ""
-        },
-        {
-          "level": 20,
-          "name": "Bloodline Power (capstone)",
-          "description": ""
-        }
+        "L1: Bloodline \u2014 Choose a bloodline; gain bonus spells, class skills, feats, powers.",
+        "L1: Bloodline Power \u2014 1st bloodline power.",
+        "L1: Cantrips \u2014 0-level spells castable at will.",
+        "L1: Eschew Materials \u2014 Cast without inexpensive material components.",
+        "L3: Bloodline Power",
+        "L3: Bloodline Spell (1st)",
+        "L7: Bloodline Spell (3rd)",
+        "L9: Bloodline Power",
+        "L11: Bloodline Spell (5th)",
+        "L15: Bloodline Power & Spell (7th)",
+        "L19: Bloodline Spell (9th)",
+        "L20: Bloodline Power (capstone)"
       ]
+    },
+    "spellcasting_mode": {
+      "value": "spontaneous"
+    },
+    "spellcasting_tradition": {
+      "value": "arcane"
+    },
+    "spellcasting_ability": {
+      "value": "charisma"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 9
     }
   }
 }
