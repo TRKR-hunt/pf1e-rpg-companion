@@ -116,9 +116,30 @@ character_creation_page edit_details_title() =
         ),
       ],
     ),
-    // Empty no-op so the framework's "save completed" flow fires this
-    // final-page post_edit and triggers post-save navigation to the sheet.
-    // Without ANY post_edit on the chain, Save creates the character but
-    // the modal doesn't close — user has to manually back out.
-    post_edit = sequence(effects = []),
+    // Substantive post_edit. Diagnostic capture of Save (16:40:26 logcat)
+    // showed `[EditCharacter] post_edit start page=6` followed by complete
+    // silence — no dismiss event, no nav. Upstream pf2e proves dismiss-
+    // on-save works WITHOUT a final-page post_edit, IF earlier pages have
+    // substantive post_edits with real setStat/addToStat work. The
+    // previously-tried empty `sequence(effects = [])` was effectively no
+    // work and apparently doesn't satisfy whatever the framework counts.
+    //
+    // This post_edit copies the view-bound typed fields onto the character's
+    // base stats explicitly. The text widgets' `edit_stat = "X"` bindings
+    // already do this during typing, so these setStats are idempotent on
+    // success — but they fire real stat-set events the framework can track.
+    post_edit = sequence(
+      effects = [
+        setStat(
+          stat = "name",
+          new_value = $view.edit_character_details_name,
+          aggregation_type = "set",
+        ),
+        setStat(
+          stat = "about",
+          new_value = $view.edit_character_details_about,
+          aggregation_type = "set",
+        ),
+      ],
+    ),
   );
