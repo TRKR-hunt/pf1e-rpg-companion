@@ -1,9 +1,15 @@
-import "../macros/system_common.rpgs";
-
+// PF1e roll-stat handler.
+// Fires from every `on_tap_event = event(name = "rollStat", ...)` in the
+// inlined character-sheet rows (abilities, saves, combat stats, skills).
+// PF1e doesn't have advantage/disadvantage as a system-level mechanic (those
+// are 5e / pf2e concepts that the upstream stdlib `rollStatFromEvent` macro
+// handles), so this is just the "no modifier-tier" 1d20 + named-stat roll.
 mechanic roll_stat(event_names = "rollStat") =
-  rollStatFromEvent(
-    advantages_values = advantages,
-    disadvantages_values = all_disadvantages,
-    stat_meta = $event.stat,
-    stat_name = $event.statName,
+  roll(
+    rolls = [
+      rollable(
+        formulas = [concat(["1d20 + ", metaStat(meta_stat = $event.stat)])],
+        text = $event.statName,
+      ),
+    ],
   );

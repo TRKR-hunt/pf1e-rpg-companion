@@ -1,5 +1,3 @@
-import "../../macros/system_common.rpgs";
-
 base integer level(name = "Level", abbreviation = "Lvl") = 1;
 
 base string[] options(name = "Options") = [];
@@ -18,7 +16,11 @@ calc string effective_proficiency(name = "Effective proficiency") =
     else (if is_expertise then "expert" else "trained");
 
 calc bool can_be_used(name = "Can be used") =
-  levelGate(required_level = level);
+  when {
+    defined(stat = "$parent.level") -> $parent.level,
+    defined(stat = "$character.level") -> $character.level,
+    else -> 1,
+  } >= level;
 
 calc string description(name = "Display description") =
   concat(

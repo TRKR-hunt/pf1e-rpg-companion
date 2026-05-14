@@ -1,27 +1,118 @@
-import "../macros/system_common.rpgs";
-
 // PF1e-specific combat stats section. Shows BAB, CMB, CMD, AC, Touch, Flat-Footed, HP, Initiative, Speed.
+// Stage-3 inline: defaultSectionHeader and rollStatRow expanded per stdlib bodies.
 character_sheet_section combat_stats() =
   section(
     id = "combat_stats_section",
     show_divider = true,
     content_item_min_width = 100,
     collapsible = false,
-    header = defaultSectionHeader(
-      icon_id = "combat_stats_section_icon",
-      icon_name = "ic_d20",
-      title_id = "combat_stats_section_title",
-      title_text = "Combat",
-    ),
+    header = [
+      icon(
+        id = "combat_stats_section_icon",
+        name = "ic_d20",
+        size = "medium",
+        margin_top = 8,
+        margin_right = 8,
+        margin_left = 16,
+      ),
+      text(
+        id = "combat_stats_section_title",
+        margin_right = 16,
+        margin_left = 16,
+        text = "Combat",
+        style = "title",
+      ),
+    ],
     content = [
-      rollStatRow(id = "bab",         stat_id = "base_attack_bonus", edit_stat_id = "base_attack_bonus", stat_name = "BAB"),
-      rollStatRow(id = "ac",          stat_id = "armor_class",       edit_stat_id = "ac_misc_bonus",     stat_name = "AC"),
-      rollStatRow(id = "touch_ac",    stat_id = "touch_ac",          edit_stat_id = "ac_misc_bonus",     stat_name = "Touch AC"),
-      rollStatRow(id = "ff_ac",       stat_id = "flat_footed_ac",    edit_stat_id = "ac_misc_bonus",     stat_name = "Flat-Footed AC"),
-      rollStatRow(id = "cmb",         stat_id = "cmb",               edit_stat_id = "cmb_misc",          stat_name = "CMB"),
-      rollStatRow(id = "cmd",         stat_id = "cmd",               edit_stat_id = "cmd_misc",          stat_name = "CMD"),
-      rollStatRow(id = "initiative",  stat_id = "initiative",        edit_stat_id = "initiative_misc",   stat_name = "Initiative"),
-      rollStatRow(id = "speed",       stat_id = "speed",             edit_stat_id = "speed_misc",        stat_name = "Speed"),
-      rollStatRow(id = "max_hp",      stat_id = "max_hp",            edit_stat_id = "current_hp",        stat_name = "HP"),
+      stat(
+        id = "bab",
+        stat = "base_attack_bonus",
+        edit_stat = "base_attack_bonus",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "base_attack_bonus", statName = "BAB"),
+        ),
+      ),
+      stat(
+        id = "ac",
+        stat = "armor_class",
+        edit_stat = "ac_misc_bonus",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "armor_class", statName = "AC"),
+        ),
+      ),
+      stat(
+        id = "touch_ac",
+        stat = "touch_ac",
+        edit_stat = "ac_misc_bonus",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "touch_ac", statName = "Touch AC"),
+        ),
+      ),
+      stat(
+        id = "ff_ac",
+        stat = "flat_footed_ac",
+        edit_stat = "ac_misc_bonus",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "flat_footed_ac", statName = "Flat-Footed AC"),
+        ),
+      ),
+      stat(
+        id = "cmb",
+        stat = "cmb",
+        edit_stat = "cmb_misc",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "cmb", statName = "CMB"),
+        ),
+      ),
+      stat(
+        id = "cmd",
+        stat = "cmd",
+        edit_stat = "cmd_misc",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "cmd", statName = "CMD"),
+        ),
+      ),
+      stat(
+        id = "initiative",
+        stat = "initiative",
+        edit_stat = "initiative_misc",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "initiative", statName = "Initiative"),
+        ),
+      ),
+      stat(
+        id = "speed",
+        stat = "speed",
+        edit_stat = "speed_misc",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "speed", statName = "Speed"),
+        ),
+      ),
+      stat(
+        id = "max_hp",
+        stat = "max_hp",
+        edit_stat = "current_hp",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "max_hp", statName = "HP"),
+        ),
+      ),
     ],
   );

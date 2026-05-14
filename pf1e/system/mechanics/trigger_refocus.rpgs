@@ -1,19 +1,6 @@
-import "../macros/system_common.rpgs";
-
+// Stubbed for PF1e: this mechanic referenced macros / stats from the
+// inherited pf2e scaffold that do not exist in PF1e. Stubbing to a
+// no-op sequence preserves the event_names registration so the loader
+// still sees a handler; the event will simply not change state.
 mechanic trigger_refocus(event_names = "trigger_refocus") =
-  bottomSheetActionPopUpEditMode(
-    pop_up_view = list(
-      id = "refocus_content",
-      padding = 16,
-      subviews = [
-        text(
-          id = "refocus_description",
-          text = "Spend 10 minutes to regain 1 Focus Point (up to maximum).",
-          style = "text",
-        ),
-      ],
-    ),
-    pop_up_title = "Refocus",
-    action_text = "REFOCUS",
-    action_event_name = "refocus",
-  );
+  sequence(effects = []);

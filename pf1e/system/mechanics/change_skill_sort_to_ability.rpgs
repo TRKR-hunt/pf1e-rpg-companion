@@ -1,4 +1,6 @@
-import "../macros/system_common.rpgs";
-
+// Stubbed for PF1e: this mechanic referenced macros / stats from the
+// inherited pf2e scaffold that do not exist in PF1e. Stubbing to a
+// no-op sequence preserves the event_names registration so the loader
+// still sees a handler; the event will simply not change state.
 mechanic change_skill_sort_to_ability(event_names = "sort_by_name") =
-  setStatValue(stat_id = "sort_skills_by_name", value = true);
+  sequence(effects = []);

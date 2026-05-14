@@ -1,17 +1,7 @@
-import "../macros/system_common.rpgs";
-
 // PF1e creation step 4: Skill ranks.
-// PF1e rules:
-//   - Skill ranks available per level = class.skill_ranks_per_level
-//     + INT modifier (+1 if human "Skilled").
-//   - Max ranks in any one skill = character level.
-//   - Class skill: gain a flat +3 if at least one rank is invested.
-//
-// This page exposes each of the 35 base skills as a rank slider so the user
-// can allocate their starting pool. Class-skill rows are highlighted in the
-// help text below (we cannot color individual rows reliably without
-// per-skill conditional macros; the +3 indicator is already baked into the
-// derived skill total in character_stats.rpgs).
+// Stage-3 inline: removed local define `skillCreationRankRow` and expanded
+// its 35 call sites inline. The class-skill check now uses
+// contains(haystack=, needle=) per the compiler signature.
 character_creation_page edit_skills_title() =
   characterCreationPage(
     title = displayableData(id = "edit_skills_title", name = "Skill ranks"),
@@ -41,77 +31,1021 @@ character_creation_page edit_skills_title() =
           margin_top = 4,
           is_visible = !isEmpty(class_skill_list),
         ),
-        skillCreationRankRow(skill_id = "acrobatics",            label = "Acrobatics"),
-        skillCreationRankRow(skill_id = "appraise",              label = "Appraise"),
-        skillCreationRankRow(skill_id = "bluff",                 label = "Bluff"),
-        skillCreationRankRow(skill_id = "climb",                 label = "Climb"),
-        skillCreationRankRow(skill_id = "craft",                 label = "Craft"),
-        skillCreationRankRow(skill_id = "diplomacy",             label = "Diplomacy"),
-        skillCreationRankRow(skill_id = "disable_device",        label = "Disable Device"),
-        skillCreationRankRow(skill_id = "disguise",              label = "Disguise"),
-        skillCreationRankRow(skill_id = "escape_artist",         label = "Escape Artist"),
-        skillCreationRankRow(skill_id = "fly",                   label = "Fly"),
-        skillCreationRankRow(skill_id = "handle_animal",         label = "Handle Animal"),
-        skillCreationRankRow(skill_id = "heal",                  label = "Heal"),
-        skillCreationRankRow(skill_id = "intimidate",            label = "Intimidate"),
-        skillCreationRankRow(skill_id = "knowledge_arcana",      label = "Knowledge (Arcana)"),
-        skillCreationRankRow(skill_id = "knowledge_dungeoneering", label = "Knowledge (Dungeoneering)"),
-        skillCreationRankRow(skill_id = "knowledge_engineering", label = "Knowledge (Engineering)"),
-        skillCreationRankRow(skill_id = "knowledge_geography",   label = "Knowledge (Geography)"),
-        skillCreationRankRow(skill_id = "knowledge_history",     label = "Knowledge (History)"),
-        skillCreationRankRow(skill_id = "knowledge_local",       label = "Knowledge (Local)"),
-        skillCreationRankRow(skill_id = "knowledge_nature",      label = "Knowledge (Nature)"),
-        skillCreationRankRow(skill_id = "knowledge_nobility",    label = "Knowledge (Nobility)"),
-        skillCreationRankRow(skill_id = "knowledge_planes",      label = "Knowledge (Planes)"),
-        skillCreationRankRow(skill_id = "knowledge_religion",    label = "Knowledge (Religion)"),
-        skillCreationRankRow(skill_id = "linguistics",           label = "Linguistics"),
-        skillCreationRankRow(skill_id = "perception",            label = "Perception"),
-        skillCreationRankRow(skill_id = "perform",               label = "Perform"),
-        skillCreationRankRow(skill_id = "profession",            label = "Profession"),
-        skillCreationRankRow(skill_id = "ride",                  label = "Ride"),
-        skillCreationRankRow(skill_id = "sense_motive",          label = "Sense Motive"),
-        skillCreationRankRow(skill_id = "sleight_of_hand",       label = "Sleight of Hand"),
-        skillCreationRankRow(skill_id = "spellcraft",            label = "Spellcraft"),
-        skillCreationRankRow(skill_id = "stealth",               label = "Stealth"),
-        skillCreationRankRow(skill_id = "survival",              label = "Survival"),
-        skillCreationRankRow(skill_id = "swim",                  label = "Swim"),
-        skillCreationRankRow(skill_id = "use_magic_device",      label = "Use Magic Device"),
+        composite(
+          id = "edit_skill_row_acrobatics",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_acrobatics",
+              text = if contains(haystack = class_skill_list, needle = "acrobatics")
+                then "Acrobatics  (class skill, +3)"
+                else "Acrobatics",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_acrobatics",
+              edit_stat = "acrobatics_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_acrobatics",
+              text = concat(["= ", acrobatics]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_appraise",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_appraise",
+              text = if contains(haystack = class_skill_list, needle = "appraise")
+                then "Appraise  (class skill, +3)"
+                else "Appraise",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_appraise",
+              edit_stat = "appraise_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_appraise",
+              text = concat(["= ", appraise]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_bluff",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_bluff",
+              text = if contains(haystack = class_skill_list, needle = "bluff")
+                then "Bluff  (class skill, +3)"
+                else "Bluff",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_bluff",
+              edit_stat = "bluff_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_bluff",
+              text = concat(["= ", bluff]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_climb",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_climb",
+              text = if contains(haystack = class_skill_list, needle = "climb")
+                then "Climb  (class skill, +3)"
+                else "Climb",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_climb",
+              edit_stat = "climb_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_climb",
+              text = concat(["= ", climb]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_craft",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_craft",
+              text = if contains(haystack = class_skill_list, needle = "craft")
+                then "Craft  (class skill, +3)"
+                else "Craft",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_craft",
+              edit_stat = "craft_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_craft",
+              text = concat(["= ", craft]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_diplomacy",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_diplomacy",
+              text = if contains(haystack = class_skill_list, needle = "diplomacy")
+                then "Diplomacy  (class skill, +3)"
+                else "Diplomacy",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_diplomacy",
+              edit_stat = "diplomacy_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_diplomacy",
+              text = concat(["= ", diplomacy]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_disable_device",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_disable_device",
+              text = if contains(haystack = class_skill_list, needle = "disable_device")
+                then "Disable Device  (class skill, +3)"
+                else "Disable Device",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_disable_device",
+              edit_stat = "disable_device_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_disable_device",
+              text = concat(["= ", disable_device]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_disguise",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_disguise",
+              text = if contains(haystack = class_skill_list, needle = "disguise")
+                then "Disguise  (class skill, +3)"
+                else "Disguise",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_disguise",
+              edit_stat = "disguise_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_disguise",
+              text = concat(["= ", disguise]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_escape_artist",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_escape_artist",
+              text = if contains(haystack = class_skill_list, needle = "escape_artist")
+                then "Escape Artist  (class skill, +3)"
+                else "Escape Artist",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_escape_artist",
+              edit_stat = "escape_artist_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_escape_artist",
+              text = concat(["= ", escape_artist]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_fly",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_fly",
+              text = if contains(haystack = class_skill_list, needle = "fly")
+                then "Fly  (class skill, +3)"
+                else "Fly",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_fly",
+              edit_stat = "fly_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_fly",
+              text = concat(["= ", fly]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_handle_animal",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_handle_animal",
+              text = if contains(haystack = class_skill_list, needle = "handle_animal")
+                then "Handle Animal  (class skill, +3)"
+                else "Handle Animal",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_handle_animal",
+              edit_stat = "handle_animal_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_handle_animal",
+              text = concat(["= ", handle_animal]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_heal",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_heal",
+              text = if contains(haystack = class_skill_list, needle = "heal")
+                then "Heal  (class skill, +3)"
+                else "Heal",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_heal",
+              edit_stat = "heal_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_heal",
+              text = concat(["= ", heal]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_intimidate",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_intimidate",
+              text = if contains(haystack = class_skill_list, needle = "intimidate")
+                then "Intimidate  (class skill, +3)"
+                else "Intimidate",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_intimidate",
+              edit_stat = "intimidate_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_intimidate",
+              text = concat(["= ", intimidate]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_arcana",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_arcana",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_arcana")
+                then "Knowledge (Arcana)  (class skill, +3)"
+                else "Knowledge (Arcana)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_arcana",
+              edit_stat = "knowledge_arcana_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_arcana",
+              text = concat(["= ", knowledge_arcana]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_dungeoneering",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_dungeoneering",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_dungeoneering")
+                then "Knowledge (Dungeoneering)  (class skill, +3)"
+                else "Knowledge (Dungeoneering)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_dungeoneering",
+              edit_stat = "knowledge_dungeoneering_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_dungeoneering",
+              text = concat(["= ", knowledge_dungeoneering]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_engineering",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_engineering",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_engineering")
+                then "Knowledge (Engineering)  (class skill, +3)"
+                else "Knowledge (Engineering)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_engineering",
+              edit_stat = "knowledge_engineering_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_engineering",
+              text = concat(["= ", knowledge_engineering]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_geography",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_geography",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_geography")
+                then "Knowledge (Geography)  (class skill, +3)"
+                else "Knowledge (Geography)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_geography",
+              edit_stat = "knowledge_geography_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_geography",
+              text = concat(["= ", knowledge_geography]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_history",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_history",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_history")
+                then "Knowledge (History)  (class skill, +3)"
+                else "Knowledge (History)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_history",
+              edit_stat = "knowledge_history_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_history",
+              text = concat(["= ", knowledge_history]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_local",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_local",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_local")
+                then "Knowledge (Local)  (class skill, +3)"
+                else "Knowledge (Local)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_local",
+              edit_stat = "knowledge_local_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_local",
+              text = concat(["= ", knowledge_local]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_nature",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_nature",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_nature")
+                then "Knowledge (Nature)  (class skill, +3)"
+                else "Knowledge (Nature)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_nature",
+              edit_stat = "knowledge_nature_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_nature",
+              text = concat(["= ", knowledge_nature]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_nobility",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_nobility",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_nobility")
+                then "Knowledge (Nobility)  (class skill, +3)"
+                else "Knowledge (Nobility)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_nobility",
+              edit_stat = "knowledge_nobility_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_nobility",
+              text = concat(["= ", knowledge_nobility]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_planes",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_planes",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_planes")
+                then "Knowledge (Planes)  (class skill, +3)"
+                else "Knowledge (Planes)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_planes",
+              edit_stat = "knowledge_planes_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_planes",
+              text = concat(["= ", knowledge_planes]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_knowledge_religion",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_knowledge_religion",
+              text = if contains(haystack = class_skill_list, needle = "knowledge_religion")
+                then "Knowledge (Religion)  (class skill, +3)"
+                else "Knowledge (Religion)",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_knowledge_religion",
+              edit_stat = "knowledge_religion_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_knowledge_religion",
+              text = concat(["= ", knowledge_religion]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_linguistics",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_linguistics",
+              text = if contains(haystack = class_skill_list, needle = "linguistics")
+                then "Linguistics  (class skill, +3)"
+                else "Linguistics",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_linguistics",
+              edit_stat = "linguistics_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_linguistics",
+              text = concat(["= ", linguistics]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_perception",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_perception",
+              text = if contains(haystack = class_skill_list, needle = "perception")
+                then "Perception  (class skill, +3)"
+                else "Perception",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_perception",
+              edit_stat = "perception_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_perception",
+              text = concat(["= ", perception]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_perform",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_perform",
+              text = if contains(haystack = class_skill_list, needle = "perform")
+                then "Perform  (class skill, +3)"
+                else "Perform",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_perform",
+              edit_stat = "perform_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_perform",
+              text = concat(["= ", perform]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_profession",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_profession",
+              text = if contains(haystack = class_skill_list, needle = "profession")
+                then "Profession  (class skill, +3)"
+                else "Profession",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_profession",
+              edit_stat = "profession_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_profession",
+              text = concat(["= ", profession]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_ride",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_ride",
+              text = if contains(haystack = class_skill_list, needle = "ride")
+                then "Ride  (class skill, +3)"
+                else "Ride",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_ride",
+              edit_stat = "ride_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_ride",
+              text = concat(["= ", ride]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_sense_motive",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_sense_motive",
+              text = if contains(haystack = class_skill_list, needle = "sense_motive")
+                then "Sense Motive  (class skill, +3)"
+                else "Sense Motive",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_sense_motive",
+              edit_stat = "sense_motive_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_sense_motive",
+              text = concat(["= ", sense_motive]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_sleight_of_hand",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_sleight_of_hand",
+              text = if contains(haystack = class_skill_list, needle = "sleight_of_hand")
+                then "Sleight of Hand  (class skill, +3)"
+                else "Sleight of Hand",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_sleight_of_hand",
+              edit_stat = "sleight_of_hand_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_sleight_of_hand",
+              text = concat(["= ", sleight_of_hand]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_spellcraft",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_spellcraft",
+              text = if contains(haystack = class_skill_list, needle = "spellcraft")
+                then "Spellcraft  (class skill, +3)"
+                else "Spellcraft",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_spellcraft",
+              edit_stat = "spellcraft_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_spellcraft",
+              text = concat(["= ", spellcraft]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_stealth",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_stealth",
+              text = if contains(haystack = class_skill_list, needle = "stealth")
+                then "Stealth  (class skill, +3)"
+                else "Stealth",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_stealth",
+              edit_stat = "stealth_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_stealth",
+              text = concat(["= ", stealth]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_survival",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_survival",
+              text = if contains(haystack = class_skill_list, needle = "survival")
+                then "Survival  (class skill, +3)"
+                else "Survival",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_survival",
+              edit_stat = "survival_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_survival",
+              text = concat(["= ", survival]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_swim",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_swim",
+              text = if contains(haystack = class_skill_list, needle = "swim")
+                then "Swim  (class skill, +3)"
+                else "Swim",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_swim",
+              edit_stat = "swim_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_swim",
+              text = concat(["= ", swim]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
+        composite(
+          id = "edit_skill_row_use_magic_device",
+          margin_top = 4,
+          subviews = [
+            text(
+              id = "edit_skill_row_label_use_magic_device",
+              text = if contains(haystack = class_skill_list, needle = "use_magic_device")
+                then "Use Magic Device  (class skill, +3)"
+                else "Use Magic Device",
+              style = "text",
+              margin_right = 8,
+            ),
+            text(
+              id = "edit_skill_row_ranks_use_magic_device",
+              edit_stat = "use_magic_device_ranks",
+              style = "text",
+              max_length = 2,
+              signed = false,
+              hint = "0",
+              label = "Ranks",
+            ),
+            text(
+              id = "edit_skill_row_total_use_magic_device",
+              text = concat(["= ", use_magic_device]),
+              style = "text",
+              margin_left = 8,
+            ),
+          ],
+        ),
       ],
     ),
-  );
-
-// Small helper: one rank-input row per skill. The label is suffixed with a
-// "*" when the skill is currently on the class skill list (so the +3
-// indicator stays visually attached to the skill row even though we don't
-// color the row itself).
-define skillCreationRankRow(skill_id, label) =
-  composite(
-    id = concat(["edit_skill_row_", skill_id]),
-    margin_top = 4,
-    subviews = [
-      text(
-        id = concat(["edit_skill_row_label_", skill_id]),
-        text = if contains(class_skill_list, skill_id)
-          then concat([label, "  (class skill, +3)"])
-          else label,
-        style = "text",
-        bold = contains(class_skill_list, skill_id),
-        margin_right = 8,
-      ),
-      text(
-        id = concat(["edit_skill_row_ranks_", skill_id]),
-        edit_meta_stat = concat([skill_id, "_ranks"]),
-        style = "text",
-        max_length = 2,
-        signed = false,
-        hint = "0",
-        label = "Ranks",
-      ),
-      text(
-        id = concat(["edit_skill_row_total_", skill_id]),
-        text = concat(["= ", metaStat(meta_stat = skill_id)]),
-        style = "text",
-        margin_left = 8,
-      ),
-    ],
   );

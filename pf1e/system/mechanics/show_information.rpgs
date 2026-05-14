@@ -1,9 +1,6 @@
-import "../macros/system_common.rpgs";
-
+// Stubbed for PF1e: this mechanic referenced macros / stats from the
+// inherited pf2e scaffold that do not exist in PF1e. Stubbing to a
+// no-op sequence preserves the event_names registration so the loader
+// still sees a handler; the event will simply not change state.
 mechanic show_information(event_names = "show_information") =
-  showCharacterInformationPopUp(
-    extra_label_id = "information_lore_skills_label",
-    extra_label_text = "Lore skills:",
-    extra_value_id = "information_lore_skills",
-    extra_value_text = joinToString(lore_skill_names, separator = ", "),
-  );
+  sequence(effects = []);

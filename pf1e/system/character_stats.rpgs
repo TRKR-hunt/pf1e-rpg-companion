@@ -1,5 +1,3 @@
-import "macros/system_common.rpgs";
-
 // ============================================================================
 // PATHFINDER 1E CHARACTER STATS
 // ============================================================================
@@ -62,44 +60,44 @@ base string size(name = "Size") = "medium";
 
 calc integer size_modifier(name = "Size modifier to attack & AC") =
   when {
-    size == "fine" -> 8;
-    size == "diminutive" -> 4;
-    size == "tiny" -> 2;
-    size == "small" -> 1;
-    size == "medium" -> 0;
-    size == "large" -> -1;
-    size == "huge" -> -2;
-    size == "gargantuan" -> -4;
-    size == "colossal" -> -8;
-    else -> 0;
+    size == "fine" -> 8,
+    size == "diminutive" -> 4,
+    size == "tiny" -> 2,
+    size == "small" -> 1,
+    size == "medium" -> 0,
+    size == "large" -> -1,
+    size == "huge" -> -2,
+    size == "gargantuan" -> -4,
+    size == "colossal" -> -8,
+    else -> 0,
   };
 
 calc integer size_modifier_special(name = "Size modifier to CMB/CMD") =
   when {
-    size == "fine" -> -8;
-    size == "diminutive" -> -4;
-    size == "tiny" -> -2;
-    size == "small" -> -1;
-    size == "medium" -> 0;
-    size == "large" -> 1;
-    size == "huge" -> 2;
-    size == "gargantuan" -> 4;
-    size == "colossal" -> 8;
-    else -> 0;
+    size == "fine" -> -8,
+    size == "diminutive" -> -4,
+    size == "tiny" -> -2,
+    size == "small" -> -1,
+    size == "medium" -> 0,
+    size == "large" -> 1,
+    size == "huge" -> 2,
+    size == "gargantuan" -> 4,
+    size == "colossal" -> 8,
+    else -> 0,
   };
 
 calc integer size_modifier_stealth(name = "Size modifier to Stealth") =
   when {
-    size == "fine" -> 16;
-    size == "diminutive" -> 12;
-    size == "tiny" -> 8;
-    size == "small" -> 4;
-    size == "medium" -> 0;
-    size == "large" -> -4;
-    size == "huge" -> -8;
-    size == "gargantuan" -> -12;
-    size == "colossal" -> -16;
-    else -> 0;
+    size == "fine" -> 16,
+    size == "diminutive" -> 12,
+    size == "tiny" -> 8,
+    size == "small" -> 4,
+    size == "medium" -> 0,
+    size == "large" -> -4,
+    size == "huge" -> -8,
+    size == "gargantuan" -> -12,
+    size == "colossal" -> -16,
+    else -> 0,
   };
 
 // ---------- ABILITY SCORES ----------
@@ -173,12 +171,19 @@ calc integer charisma_score(name = "Charisma", abbreviation = "CHA") =
   charisma_score_base + charisma_race_modifier + charisma_level_increase
     + charisma_enhancement_bonus + charisma_inherent_bonus + charisma_misc_modifier;
 
-calc integer strength_modifier(name = "STR mod") = abilityModifier(score = strength_score);
-calc integer dexterity_modifier(name = "DEX mod") = abilityModifier(score = dexterity_score);
-calc integer constitution_modifier(name = "CON mod") = abilityModifier(score = constitution_score);
-calc integer intelligence_modifier(name = "INT mod") = abilityModifier(score = intelligence_score);
-calc integer wisdom_modifier(name = "WIS mod") = abilityModifier(score = wisdom_score);
-calc integer charisma_modifier(name = "CHA mod") = abilityModifier(score = charisma_score);
+// Inlined abilityModifier(score): divide([(score + -10), 2], rounding_method = "down")
+calc integer strength_modifier(name = "STR mod") =
+  divide([(strength_score + -10), 2], rounding_method = "down");
+calc integer dexterity_modifier(name = "DEX mod") =
+  divide([(dexterity_score + -10), 2], rounding_method = "down");
+calc integer constitution_modifier(name = "CON mod") =
+  divide([(constitution_score + -10), 2], rounding_method = "down");
+calc integer intelligence_modifier(name = "INT mod") =
+  divide([(intelligence_score + -10), 2], rounding_method = "down");
+calc integer wisdom_modifier(name = "WIS mod") =
+  divide([(wisdom_score + -10), 2], rounding_method = "down");
+calc integer charisma_modifier(name = "CHA mod") =
+  divide([(charisma_score + -10), 2], rounding_method = "down");
 
 // ---------- HIT POINTS ----------
 
@@ -196,12 +201,12 @@ calc integer max_hp(name = "Max HP") =
 
 calc integer base_attack_bonus(name = "Base Attack Bonus", abbreviation = "BAB") =
   add(map(classes, mapper = ($c) => when {
-    $c.class.bab_progression == "full" -> $c.class_level;
+    $c.class.bab_progression == "full" -> $c.class_level,
     $c.class.bab_progression == "three_quarters" ->
-      divide([($c.class_level * 3), 4], rounding_method = "down");
+      divide([($c.class_level * 3), 4], rounding_method = "down"),
     $c.class.bab_progression == "half" ->
-      divide([$c.class_level, 2], rounding_method = "down");
-    else -> 0;
+      divide([$c.class_level, 2], rounding_method = "down"),
+    else -> 0,
   }));
 
 // ---------- SAVING THROWS ----------
@@ -209,28 +214,28 @@ calc integer base_attack_bonus(name = "Base Attack Bonus", abbreviation = "BAB")
 calc integer fortitude_base(name = "Fort base (class sum)") =
   add(map(classes, mapper = ($c) => when {
     $c.class.fortitude_progression == "good" ->
-      2 + divide([$c.class_level, 2], rounding_method = "down");
+      2 + divide([$c.class_level, 2], rounding_method = "down"),
     $c.class.fortitude_progression == "poor" ->
-      divide([$c.class_level, 3], rounding_method = "down");
-    else -> 0;
+      divide([$c.class_level, 3], rounding_method = "down"),
+    else -> 0,
   }));
 
 calc integer reflex_base(name = "Ref base (class sum)") =
   add(map(classes, mapper = ($c) => when {
     $c.class.reflex_progression == "good" ->
-      2 + divide([$c.class_level, 2], rounding_method = "down");
+      2 + divide([$c.class_level, 2], rounding_method = "down"),
     $c.class.reflex_progression == "poor" ->
-      divide([$c.class_level, 3], rounding_method = "down");
-    else -> 0;
+      divide([$c.class_level, 3], rounding_method = "down"),
+    else -> 0,
   }));
 
 calc integer will_base(name = "Will base (class sum)") =
   add(map(classes, mapper = ($c) => when {
     $c.class.will_progression == "good" ->
-      2 + divide([$c.class_level, 2], rounding_method = "down");
+      2 + divide([$c.class_level, 2], rounding_method = "down"),
     $c.class.will_progression == "poor" ->
-      divide([$c.class_level, 3], rounding_method = "down");
-    else -> 0;
+      divide([$c.class_level, 3], rounding_method = "down"),
+    else -> 0,
   }));
 
 base integer fortitude_resistance_bonus(name = "Fort resistance bonus") = 0;
@@ -385,245 +390,245 @@ base integer acrobatics_ranks(name = "Acrobatics ranks") = 0;
 base integer acrobatics_misc(name = "Acrobatics misc") = 0;
 calc integer acrobatics(name = "Acrobatics") =
   acrobatics_ranks + dexterity_modifier
-    + (if (contains(class_skill_list, "acrobatics") && acrobatics_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "acrobatics") && acrobatics_ranks > 0) then 3 else 0)
     + acrobatics_misc;
 
 base integer appraise_ranks(name = "Appraise ranks") = 0;
 base integer appraise_misc(name = "Appraise misc") = 0;
 calc integer appraise(name = "Appraise") =
   appraise_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "appraise") && appraise_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "appraise") && appraise_ranks > 0) then 3 else 0)
     + appraise_misc;
 
 base integer bluff_ranks(name = "Bluff ranks") = 0;
 base integer bluff_misc(name = "Bluff misc") = 0;
 calc integer bluff(name = "Bluff") =
   bluff_ranks + charisma_modifier
-    + (if (contains(class_skill_list, "bluff") && bluff_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "bluff") && bluff_ranks > 0) then 3 else 0)
     + bluff_misc;
 
 base integer climb_ranks(name = "Climb ranks") = 0;
 base integer climb_misc(name = "Climb misc") = 0;
 calc integer climb(name = "Climb") =
   climb_ranks + strength_modifier
-    + (if (contains(class_skill_list, "climb") && climb_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "climb") && climb_ranks > 0) then 3 else 0)
     + climb_misc;
 
 base integer craft_ranks(name = "Craft ranks") = 0;
 base integer craft_misc(name = "Craft misc") = 0;
 calc integer craft(name = "Craft") =
   craft_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "craft") && craft_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "craft") && craft_ranks > 0) then 3 else 0)
     + craft_misc;
 
 base integer diplomacy_ranks(name = "Diplomacy ranks") = 0;
 base integer diplomacy_misc(name = "Diplomacy misc") = 0;
 calc integer diplomacy(name = "Diplomacy") =
   diplomacy_ranks + charisma_modifier
-    + (if (contains(class_skill_list, "diplomacy") && diplomacy_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "diplomacy") && diplomacy_ranks > 0) then 3 else 0)
     + diplomacy_misc;
 
 base integer disable_device_ranks(name = "Disable Device ranks") = 0;
 base integer disable_device_misc(name = "Disable Device misc") = 0;
 calc integer disable_device(name = "Disable Device") =
   disable_device_ranks + dexterity_modifier
-    + (if (contains(class_skill_list, "disable_device") && disable_device_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "disable_device") && disable_device_ranks > 0) then 3 else 0)
     + disable_device_misc;
 
 base integer disguise_ranks(name = "Disguise ranks") = 0;
 base integer disguise_misc(name = "Disguise misc") = 0;
 calc integer disguise(name = "Disguise") =
   disguise_ranks + charisma_modifier
-    + (if (contains(class_skill_list, "disguise") && disguise_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "disguise") && disguise_ranks > 0) then 3 else 0)
     + disguise_misc;
 
 base integer escape_artist_ranks(name = "Escape Artist ranks") = 0;
 base integer escape_artist_misc(name = "Escape Artist misc") = 0;
 calc integer escape_artist(name = "Escape Artist") =
   escape_artist_ranks + dexterity_modifier
-    + (if (contains(class_skill_list, "escape_artist") && escape_artist_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "escape_artist") && escape_artist_ranks > 0) then 3 else 0)
     + escape_artist_misc;
 
 base integer fly_ranks(name = "Fly ranks") = 0;
 base integer fly_misc(name = "Fly misc") = 0;
 calc integer fly(name = "Fly") =
   fly_ranks + dexterity_modifier + size_modifier
-    + (if (contains(class_skill_list, "fly") && fly_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "fly") && fly_ranks > 0) then 3 else 0)
     + fly_misc;
 
 base integer handle_animal_ranks(name = "Handle Animal ranks") = 0;
 base integer handle_animal_misc(name = "Handle Animal misc") = 0;
 calc integer handle_animal(name = "Handle Animal") =
   handle_animal_ranks + charisma_modifier
-    + (if (contains(class_skill_list, "handle_animal") && handle_animal_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "handle_animal") && handle_animal_ranks > 0) then 3 else 0)
     + handle_animal_misc;
 
 base integer heal_ranks(name = "Heal ranks") = 0;
 base integer heal_misc(name = "Heal misc") = 0;
 calc integer heal(name = "Heal") =
   heal_ranks + wisdom_modifier
-    + (if (contains(class_skill_list, "heal") && heal_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "heal") && heal_ranks > 0) then 3 else 0)
     + heal_misc;
 
 base integer intimidate_ranks(name = "Intimidate ranks") = 0;
 base integer intimidate_misc(name = "Intimidate misc") = 0;
 calc integer intimidate(name = "Intimidate") =
   intimidate_ranks + charisma_modifier
-    + (if (contains(class_skill_list, "intimidate") && intimidate_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "intimidate") && intimidate_ranks > 0) then 3 else 0)
     + intimidate_misc;
 
 base integer knowledge_arcana_ranks(name = "K. Arcana ranks") = 0;
 base integer knowledge_arcana_misc(name = "K. Arcana misc") = 0;
 calc integer knowledge_arcana(name = "Knowledge (Arcana)") =
   knowledge_arcana_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_arcana") && knowledge_arcana_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_arcana") && knowledge_arcana_ranks > 0) then 3 else 0)
     + knowledge_arcana_misc;
 
 base integer knowledge_dungeoneering_ranks(name = "K. Dungeoneering ranks") = 0;
 base integer knowledge_dungeoneering_misc(name = "K. Dungeoneering misc") = 0;
 calc integer knowledge_dungeoneering(name = "Knowledge (Dungeoneering)") =
   knowledge_dungeoneering_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_dungeoneering") && knowledge_dungeoneering_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_dungeoneering") && knowledge_dungeoneering_ranks > 0) then 3 else 0)
     + knowledge_dungeoneering_misc;
 
 base integer knowledge_engineering_ranks(name = "K. Engineering ranks") = 0;
 base integer knowledge_engineering_misc(name = "K. Engineering misc") = 0;
 calc integer knowledge_engineering(name = "Knowledge (Engineering)") =
   knowledge_engineering_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_engineering") && knowledge_engineering_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_engineering") && knowledge_engineering_ranks > 0) then 3 else 0)
     + knowledge_engineering_misc;
 
 base integer knowledge_geography_ranks(name = "K. Geography ranks") = 0;
 base integer knowledge_geography_misc(name = "K. Geography misc") = 0;
 calc integer knowledge_geography(name = "Knowledge (Geography)") =
   knowledge_geography_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_geography") && knowledge_geography_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_geography") && knowledge_geography_ranks > 0) then 3 else 0)
     + knowledge_geography_misc;
 
 base integer knowledge_history_ranks(name = "K. History ranks") = 0;
 base integer knowledge_history_misc(name = "K. History misc") = 0;
 calc integer knowledge_history(name = "Knowledge (History)") =
   knowledge_history_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_history") && knowledge_history_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_history") && knowledge_history_ranks > 0) then 3 else 0)
     + knowledge_history_misc;
 
 base integer knowledge_local_ranks(name = "K. Local ranks") = 0;
 base integer knowledge_local_misc(name = "K. Local misc") = 0;
 calc integer knowledge_local(name = "Knowledge (Local)") =
   knowledge_local_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_local") && knowledge_local_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_local") && knowledge_local_ranks > 0) then 3 else 0)
     + knowledge_local_misc;
 
 base integer knowledge_nature_ranks(name = "K. Nature ranks") = 0;
 base integer knowledge_nature_misc(name = "K. Nature misc") = 0;
 calc integer knowledge_nature(name = "Knowledge (Nature)") =
   knowledge_nature_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_nature") && knowledge_nature_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_nature") && knowledge_nature_ranks > 0) then 3 else 0)
     + knowledge_nature_misc;
 
 base integer knowledge_nobility_ranks(name = "K. Nobility ranks") = 0;
 base integer knowledge_nobility_misc(name = "K. Nobility misc") = 0;
 calc integer knowledge_nobility(name = "Knowledge (Nobility)") =
   knowledge_nobility_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_nobility") && knowledge_nobility_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_nobility") && knowledge_nobility_ranks > 0) then 3 else 0)
     + knowledge_nobility_misc;
 
 base integer knowledge_planes_ranks(name = "K. Planes ranks") = 0;
 base integer knowledge_planes_misc(name = "K. Planes misc") = 0;
 calc integer knowledge_planes(name = "Knowledge (Planes)") =
   knowledge_planes_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_planes") && knowledge_planes_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_planes") && knowledge_planes_ranks > 0) then 3 else 0)
     + knowledge_planes_misc;
 
 base integer knowledge_religion_ranks(name = "K. Religion ranks") = 0;
 base integer knowledge_religion_misc(name = "K. Religion misc") = 0;
 calc integer knowledge_religion(name = "Knowledge (Religion)") =
   knowledge_religion_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "knowledge_religion") && knowledge_religion_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "knowledge_religion") && knowledge_religion_ranks > 0) then 3 else 0)
     + knowledge_religion_misc;
 
 base integer linguistics_ranks(name = "Linguistics ranks") = 0;
 base integer linguistics_misc(name = "Linguistics misc") = 0;
 calc integer linguistics(name = "Linguistics") =
   linguistics_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "linguistics") && linguistics_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "linguistics") && linguistics_ranks > 0) then 3 else 0)
     + linguistics_misc;
 
 base integer perception_ranks(name = "Perception ranks") = 0;
 base integer perception_misc(name = "Perception misc") = 0;
 calc integer perception(name = "Perception") =
   perception_ranks + wisdom_modifier
-    + (if (contains(class_skill_list, "perception") && perception_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "perception") && perception_ranks > 0) then 3 else 0)
     + perception_misc;
 
 base integer perform_ranks(name = "Perform ranks") = 0;
 base integer perform_misc(name = "Perform misc") = 0;
 calc integer perform(name = "Perform") =
   perform_ranks + charisma_modifier
-    + (if (contains(class_skill_list, "perform") && perform_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "perform") && perform_ranks > 0) then 3 else 0)
     + perform_misc;
 
 base integer profession_ranks(name = "Profession ranks") = 0;
 base integer profession_misc(name = "Profession misc") = 0;
 calc integer profession(name = "Profession") =
   profession_ranks + wisdom_modifier
-    + (if (contains(class_skill_list, "profession") && profession_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "profession") && profession_ranks > 0) then 3 else 0)
     + profession_misc;
 
 base integer ride_ranks(name = "Ride ranks") = 0;
 base integer ride_misc(name = "Ride misc") = 0;
 calc integer ride(name = "Ride") =
   ride_ranks + dexterity_modifier
-    + (if (contains(class_skill_list, "ride") && ride_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "ride") && ride_ranks > 0) then 3 else 0)
     + ride_misc;
 
 base integer sense_motive_ranks(name = "Sense Motive ranks") = 0;
 base integer sense_motive_misc(name = "Sense Motive misc") = 0;
 calc integer sense_motive(name = "Sense Motive") =
   sense_motive_ranks + wisdom_modifier
-    + (if (contains(class_skill_list, "sense_motive") && sense_motive_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "sense_motive") && sense_motive_ranks > 0) then 3 else 0)
     + sense_motive_misc;
 
 base integer sleight_of_hand_ranks(name = "Sleight of Hand ranks") = 0;
 base integer sleight_of_hand_misc(name = "Sleight of Hand misc") = 0;
 calc integer sleight_of_hand(name = "Sleight of Hand") =
   sleight_of_hand_ranks + dexterity_modifier
-    + (if (contains(class_skill_list, "sleight_of_hand") && sleight_of_hand_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "sleight_of_hand") && sleight_of_hand_ranks > 0) then 3 else 0)
     + sleight_of_hand_misc;
 
 base integer spellcraft_ranks(name = "Spellcraft ranks") = 0;
 base integer spellcraft_misc(name = "Spellcraft misc") = 0;
 calc integer spellcraft(name = "Spellcraft") =
   spellcraft_ranks + intelligence_modifier
-    + (if (contains(class_skill_list, "spellcraft") && spellcraft_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "spellcraft") && spellcraft_ranks > 0) then 3 else 0)
     + spellcraft_misc;
 
 base integer stealth_ranks(name = "Stealth ranks") = 0;
 base integer stealth_misc(name = "Stealth misc") = 0;
 calc integer stealth(name = "Stealth") =
   stealth_ranks + dexterity_modifier + size_modifier_stealth
-    + (if (contains(class_skill_list, "stealth") && stealth_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "stealth") && stealth_ranks > 0) then 3 else 0)
     + stealth_misc;
 
 base integer survival_ranks(name = "Survival ranks") = 0;
 base integer survival_misc(name = "Survival misc") = 0;
 calc integer survival(name = "Survival") =
   survival_ranks + wisdom_modifier
-    + (if (contains(class_skill_list, "survival") && survival_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "survival") && survival_ranks > 0) then 3 else 0)
     + survival_misc;
 
 base integer swim_ranks(name = "Swim ranks") = 0;
 base integer swim_misc(name = "Swim misc") = 0;
 calc integer swim(name = "Swim") =
   swim_ranks + strength_modifier
-    + (if (contains(class_skill_list, "swim") && swim_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "swim") && swim_ranks > 0) then 3 else 0)
     + swim_misc;
 
 base integer use_magic_device_ranks(name = "Use Magic Device ranks") = 0;
 base integer use_magic_device_misc(name = "Use Magic Device misc") = 0;
 calc integer use_magic_device(name = "Use Magic Device") =
   use_magic_device_ranks + charisma_modifier
-    + (if (contains(class_skill_list, "use_magic_device") && use_magic_device_ranks > 0) then 3 else 0)
+    + (if (contains(haystack = class_skill_list, needle = "use_magic_device") && use_magic_device_ranks > 0) then 3 else 0)
     + use_magic_device_misc;
 
 // Class skill list: union across all classes

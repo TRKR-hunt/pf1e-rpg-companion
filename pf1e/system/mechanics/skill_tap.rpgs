@@ -1,4 +1,9 @@
-import "../macros/system_common.rpgs";
-
+// PF1e skill-tap handler.
+// Every skill row in 08_skills.rpgs fires
+//   on_tap_event = event(name = "skillTap", payload = payload(stat=..., statName=...))
+// PF1e skills are rank-based with no proficiency tier, so unlike the pf2e
+// `skillTapForward` macro (which branched on edit_mode to either rollStat
+// or editSkillProficiency), we just forward to rollStat unconditionally.
+// The payload (stat + statName) is preserved by forwardEvent.
 mechanic skill_tap(event_names = "skillTap") =
-  skillTapForward(edit_mode = $edit_mode);
+  forwardEvent(new_event_names = ["rollStat"]);

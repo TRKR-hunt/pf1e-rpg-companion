@@ -1,22 +1,59 @@
-import "../macros/system_common.rpgs";
-
 // PF1e: three saves (Fortitude/Reflex/Will) shown as rollable totals.
 // Underlying calc lives in character_stats.rpgs: each save = class base + ability mod + typed bonuses.
+// Stage-3 inline: defaultSectionHeader and rollStatRow expanded per stdlib bodies.
 character_sheet_section saving_throws() =
   section(
     id = "saving_throws_section",
     show_divider = true,
     content_item_min_width = 125,
     collapsible = false,
-    header = defaultSectionHeader(
-      icon_id = "saving_throws_section_icon",
-      icon_name = "ic_d20",
-      title_id = "saving_throws_section_title",
-      title_text = "Saving Throws",
-    ),
+    header = [
+      icon(
+        id = "saving_throws_section_icon",
+        name = "ic_d20",
+        size = "medium",
+        margin_top = 8,
+        margin_right = 8,
+        margin_left = 16,
+      ),
+      text(
+        id = "saving_throws_section_title",
+        margin_right = 16,
+        margin_left = 16,
+        text = "Saving Throws",
+        style = "title",
+      ),
+    ],
     content = [
-      rollStatRow(id = "fortitude", stat_id = "fortitude", edit_stat_id = "fortitude_misc", stat_name = "Fortitude"),
-      rollStatRow(id = "reflex",    stat_id = "reflex",    edit_stat_id = "reflex_misc",    stat_name = "Reflex"),
-      rollStatRow(id = "will",      stat_id = "will",      edit_stat_id = "will_misc",      stat_name = "Will"),
+      stat(
+        id = "fortitude",
+        stat = "fortitude",
+        edit_stat = "fortitude_misc",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "fortitude", statName = "Fortitude"),
+        ),
+      ),
+      stat(
+        id = "reflex",
+        stat = "reflex",
+        edit_stat = "reflex_misc",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "reflex", statName = "Reflex"),
+        ),
+      ),
+      stat(
+        id = "will",
+        stat = "will",
+        edit_stat = "will_misc",
+        change_amount = 1,
+        on_tap_event = event(
+          name = "rollStat",
+          payload = payload(stat = "will", statName = "Will"),
+        ),
+      ),
     ],
   );

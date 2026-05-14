@@ -1,4 +1,6 @@
-import "../macros/system_common.rpgs";
-
+// Stubbed for PF1e: this mechanic referenced macros / stats from the
+// inherited pf2e scaffold that do not exist in PF1e. Stubbing to a
+// no-op sequence preserves the event_names registration so the loader
+// still sees a handler; the event will simply not change state.
 mechanic on_dusk(event_names = "dusk") =
-  showInfoMessage(message = "The day has faded into dusk...");
+  sequence(effects = []);

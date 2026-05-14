@@ -1,12 +1,6 @@
-import "../macros/system_common.rpgs";
-
 // PF1e creation step 1: Race.
-// Picking a race sets:
-//   - `race` (drives base_speed, size, and racial ability modifiers).
-// Racial ability modifiers live on the race resource as
-// `ability_score_modifiers` and are summarized for preview. The character's
-// per-ability `*_race_modifier` stats are wired up at save time so the
-// derived `*_score` calcs reflect the racial bonus/penalty.
+// Stage-3 inline: replaced selectorWithDetailsEndComposite and
+// resourceDetailsOkPopUpButton with their stdlib expansions.
 character_creation_page edit_race_title() =
   characterCreationPage(
     title = displayableData(id = "edit_race_title", name = "Race"),
@@ -19,25 +13,34 @@ character_creation_page edit_race_title() =
           text = "Choose your race. Racial ability modifiers will preview below.",
           style = "subhead",
         ),
-        selectorWithDetailsEndComposite(
-          composite_id = "edit_character_race_composite",
-          details_button = resourceDetailsOkPopUpButton(
-            button_id = "edit_character_race_see_details",
-            button_text = "SEE DETAILS",
-            pop_up_view_id = "edit_character_race_bottom_sheet",
-            resource_id = "race",
-            stat = "$view.edit_character_race_select",
-            pop_up_title = $view?.edit_character_race_select?.name ?? "Race",
-            is_visible = $view?.edit_character_race_select? != null,
-          ),
-          selector_view = selectResources(
-            id = "edit_character_race_select",
-            stat = "race",
-            resource_id = "race",
-            validation_message = if !notNull($view.edit_character_race_select)
-              then "Please pick a race"
-              else null,
-          ),
+        composite(
+          id = "edit_character_race_composite",
+          alignment = "end",
+          margin_bottom = 4,
+          subviews = [
+            popUpButton(
+              id = "edit_character_race_see_details",
+              text = "SEE DETAILS",
+              pop_up_view = resource(
+                id = "edit_character_race_bottom_sheet",
+                view_type = "display",
+                resource_id = "race",
+                stat = "$view.edit_character_race_select",
+              ),
+              pop_up_title = $view?.edit_character_race_select?.name ?? "Race",
+              display_cancel_button = true,
+              cancel_text = "OK",
+              is_visible = $view?.edit_character_race_select? != null,
+            ),
+            selectResources(
+              id = "edit_character_race_select",
+              stat = "race",
+              resource_id = "race",
+              validation_message = if !notNull($view.edit_character_race_select)
+                then "Please pick a race"
+                else null,
+            ),
+          ],
         ),
         text(
           id = "edit_character_race_preview_header",
