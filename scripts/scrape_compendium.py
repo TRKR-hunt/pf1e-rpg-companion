@@ -81,12 +81,18 @@ CATEGORY_CONFIG: dict[str, dict] = {
         "excluded": ("/3rd-party",),
     },
     "deity": {
+        # d20pfsrd has no OGL Golarion-deity catalogue (Product
+        # Identity). The closest OGL content is the cleric Domains /
+        # Subdomains reference, scraped as deity-category entries.
         "compendium_category": "deity",
-        "index_roots": [f"{BASE}/gods-and-magic/"],
-        "path_prefix": "/gods-and-magic/",
-        "detail_depth": 3,
+        "index_roots": [
+            f"{BASE}/classes/core-classes/cleric/domains/paizo-domains/",
+        ],
+        "path_prefix": "/classes/core-classes/cleric/domains/paizo-domains/",
+        "detail_depth": 6,
         "recursive": True,
-        "excluded": ("/3rd-party",),
+        "excluded": ("/3rd-party", "/3rd-party-publishers"),
+        "extra_index_substrings": ("domains",),
     },
     "race_lore": {
         "compendium_category": "race_lore",
