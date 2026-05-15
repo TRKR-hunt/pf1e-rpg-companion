@@ -1,0 +1,46 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hallowed_chalice__crb_",
+    "name": {
+      "value": "Hallowed chalice"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hallowed_chalice",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hallowed_chalice",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goggles_gloom_sight__crb_",
+    "name": {
+      "value": "Goggles, Gloom Sight"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goggles_gloom_sight",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

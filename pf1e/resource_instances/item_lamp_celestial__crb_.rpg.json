@@ -1,0 +1,46 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lamp_celestial__crb_",
+    "name": {
+      "value": "Lamp, celestial"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lamp_celestial",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lamp_celestial",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

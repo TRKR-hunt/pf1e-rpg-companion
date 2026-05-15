@@ -1,0 +1,32 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spirits_keg__crb_",
+    "name": {
+      "value": "Spirits , keg"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spirits_keg",
+          "value": {
+            "value": 90
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

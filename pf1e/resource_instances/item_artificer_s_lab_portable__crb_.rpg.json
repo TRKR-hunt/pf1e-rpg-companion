@@ -1,0 +1,46 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "artificer_s_lab_portable__crb_",
+    "name": {
+      "value": "Artificer\u2019s lab (portable)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_artificer_s_lab_portable",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_artificer_s_lab_portable",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

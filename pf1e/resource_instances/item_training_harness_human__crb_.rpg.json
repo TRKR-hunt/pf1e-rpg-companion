@@ -1,0 +1,46 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "training_harness_human__crb_",
+    "name": {
+      "value": "Training harness (human)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_training_harness_human",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_training_harness_human",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

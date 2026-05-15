@@ -1,0 +1,46 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "animal_repellent_sack__crb_",
+    "name": {
+      "value": "Animal-repellent sack"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_animal_repellent_sack",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_animal_repellent_sack",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

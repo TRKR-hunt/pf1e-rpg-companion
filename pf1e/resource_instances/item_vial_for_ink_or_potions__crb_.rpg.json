@@ -1,0 +1,32 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vial_for_ink_or_potions__crb_",
+    "name": {
+      "value": "Vial (for ink or potions)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vial_for_ink_or_potions",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

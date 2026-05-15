@@ -1,0 +1,32 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "air_crystals__crb_",
+    "name": {
+      "value": "Air crystals"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_air_crystals",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

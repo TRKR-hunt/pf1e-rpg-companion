@@ -1,0 +1,32 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "book_dungeon_guide_observations_of_the_drowned_city__crb_",
+    "name": {
+      "value": "Book, Dungeon Guide (\u201c Observations of the Drowned City \u201c)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_book_dungeon_guide_observations_of_the_drowned_city",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

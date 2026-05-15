@@ -1,0 +1,32 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "potion_sponge__crb_",
+    "name": {
+      "value": "Potion Sponge"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_potion_sponge",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

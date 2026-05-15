@@ -1,0 +1,39 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "id": "whip_scorpion__crb_",
+    "name": {
+      "value": "Whip, scorpion"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "category": {
+      "value": "exotic_light"
+    },
+    "cost_gp": {
+      "value": 5
+    },
+    "damage_small": {
+      "value": "1d3"
+    },
+    "damage": {
+      "value": "1d4"
+    },
+    "critical": {
+      "value": "x2"
+    },
+    "range_increment_ft": {
+      "value": 0
+    },
+    "weight_lb": {
+      "value": 3
+    },
+    "damage_type": {
+      "value": "slashing"
+    },
+    "special": {
+      "value": "disarm , performance , reach , trip"
+    }
+  }
+}

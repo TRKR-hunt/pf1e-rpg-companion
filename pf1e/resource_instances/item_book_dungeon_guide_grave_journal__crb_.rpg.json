@@ -1,0 +1,32 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "book_dungeon_guide_grave_journal__crb_",
+    "name": {
+      "value": "Book, Dungeon Guide (\u201c Grave Journal \u201c)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "adventuring_gear"
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_book_dungeon_guide_grave_journal",
+          "value": {
+            "value": 4600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

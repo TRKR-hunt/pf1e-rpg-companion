@@ -1,0 +1,39 @@
+{
+  "resource_id": "weapon",
+  "stats": {
+    "id": "hook_hand__crb_",
+    "name": {
+      "value": "Hook hand"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "category": {
+      "value": "simple_light"
+    },
+    "cost_gp": {
+      "value": 10
+    },
+    "damage_small": {
+      "value": "1d3"
+    },
+    "damage": {
+      "value": "1d4"
+    },
+    "critical": {
+      "value": "x2"
+    },
+    "range_increment_ft": {
+      "value": 0
+    },
+    "weight_lb": {
+      "value": 1
+    },
+    "damage_type": {
+      "value": "slashing"
+    },
+    "special": {
+      "value": "disarm , attached, see text"
+    }
+  }
+}
