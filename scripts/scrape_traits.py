@@ -256,24 +256,35 @@ def main():
     if args.limit:
         triples = triples[: args.limit]
 
-    # Pre-compute url-slug → list[(name,url,cat)] so we can detect cross-
-    # category collisions (e.g. "Light Sleeper" exists as both a regional
-    # and a religion trait, sharing /<category>/light-sleeper/).
+    # ID-level disambiguation: when two trait detail URLs produce the
+    # same final-segment slug, prefix the id with the category. Same-cat
+    # same-slug is also handled (uses category_slug regardless).
     slug_buckets: dict[str, list] = {}
     for n, u, c in triples:
         slug_buckets.setdefault(_url_slug(u), []).append((n, u, c))
 
+    # NAME-level disambiguation: the bundled compiler derives the per-
+    # resource output filename from the `name` stat. d20pfsrd has 13
+    # trait name collisions (e.g. two regional "Bandit" traits, one
+    # combat & one regional "Demon Slayer"). Without disambiguation the
+    # compiler silently overwrites one .rpg file with the other. Compute
+    # unique display names up-front and use those when emitting.
+    import scrape_lib
+    unique_names = scrape_lib.disambiguate_names(triples)
+
     written = 0
     errors = 0
-    for name, url, category in triples:
+    for (name, url, category), display_name in zip(triples, unique_names):
         try:
             trait = parse_trait_page(name, url, category)
             if not trait:
                 continue
             base_slug = _url_slug(url)
             if len(slug_buckets[base_slug]) > 1:
-                # Disambiguate by prefixing the category. Cheap, deterministic.
+                # ID-level disambiguation.
                 trait["stats"]["id"] = f"{category}_{base_slug}__crb_"
+            # Apply the unique display name (overrides the bare scraped name).
+            trait["stats"]["name"]["value"] = display_name
             out_path = OUT_DIR / f"trait_{trait['stats']['id']}.rpg.json"
             out_path.write_text(json.dumps(trait, indent=2), encoding="utf-8")
             written += 1
@@ -282,6 +293,9 @@ def main():
             print(f"  ! {name} ({url}): {e}")
 
     print(f"\nDone: wrote {written} traits, {errors} errors")
+    # Sanity: count unique compiler slugs of the names we just wrote.
+    slug_count = len({scrape_lib.compiler_slug(dn) for dn in unique_names})
+    print(f"Unique compiler-slug names: {slug_count} (expect == {written})")
 
 
 if __name__ == "__main__":
