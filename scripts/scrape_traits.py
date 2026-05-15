@@ -192,7 +192,12 @@ def _collapse_inline_newlines(text: str) -> str:
 
 
 def parse_trait_page(name: str, url: str, category: str) -> dict | None:
+    import scrape_lib
     html = fetch(url)
+    # Extract source from the Section 15 OGL footer BEFORE stripping it
+    # for body parsing.
+    source_id, _book_raw = scrape_lib.extract_section_15_source(html)
+
     soup = BeautifulSoup(html, "html.parser")
     content = soup.find("div", id="article-content") or soup
     for tag in content.find_all(["script", "style", "nav", "aside"]):
@@ -225,7 +230,7 @@ def parse_trait_page(name: str, url: str, category: str) -> dict | None:
         "stats": {
             "id": inst_id,
             "name": {"value": name},
-            "source": {"value": "crb"},
+            "source": {"value": source_id},
             "trait_category": {"value": category},
             "prerequisites": {"value": prereq[:400]},
             "description": {"value": description},
@@ -242,6 +247,8 @@ def main():
     args = ap.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    import scrape_lib
+    scrape_lib.reset_source_trackers()
     print(f"Indexing traits from {INDEX_URL}")
     triples = find_all_trait_links()
     if args.category:
@@ -296,6 +303,12 @@ def main():
     # Sanity: count unique compiler slugs of the names we just wrote.
     slug_count = len({scrape_lib.compiler_slug(dn) for dn in unique_names})
     print(f"Unique compiler-slug names: {slug_count} (expect == {written})")
+    # Report source extraction results.
+    print(f"\nSource attribution: {len(scrape_lib.seen_sources)} distinct ids")
+    if scrape_lib.unknown_sources:
+        print(f"Unknown / unmapped book strings ({len(scrape_lib.unknown_sources)} distinct):")
+        for raw, n in sorted(scrape_lib.unknown_sources.items(), key=lambda kv: -kv[1])[:30]:
+            print(f"  {n:4} {raw[:120]!r}")
 
 
 if __name__ == "__main__":

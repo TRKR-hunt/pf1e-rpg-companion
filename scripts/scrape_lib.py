@@ -157,6 +157,142 @@ def parallel_map(
     return results
 
 
+# ---------------------------------------------------------------- source attribution
+
+# Canonical source ids + abbreviations for the core PF1e books we hand-curate.
+# Books not in this table get an auto-derived id + acronym abbreviation.
+KNOWN_SOURCES: dict[str, tuple[str, str]] = {
+    # canonical_name → (id, abbreviation)
+    "Pathfinder Roleplaying Game Core Rulebook": ("crb", "CRB"),
+    "Pathfinder Roleplaying Game: Core Rulebook": ("crb", "CRB"),
+    "Pathfinder Roleplaying Game: Advanced Player's Guide": ("apg", "APG"),
+    "Pathfinder Roleplaying Game: Advanced Class Guide": ("acg", "ACG"),
+    "Pathfinder Roleplaying Game: Advanced Race Guide": ("arg", "ARG"),
+    "Pathfinder Roleplaying Game: Ultimate Magic": ("um", "UM"),
+    "Pathfinder Roleplaying Game: Ultimate Combat": ("uc", "UC"),
+    "Pathfinder Roleplaying Game: Ultimate Intrigue": ("ui", "UI"),
+    "Pathfinder Roleplaying Game: Ultimate Wilderness": ("uw", "UW"),
+    "Pathfinder Roleplaying Game: Ultimate Campaign": ("ucamp", "UCamp"),
+    "Ultimate Campaign": ("ucamp", "UCamp"),
+    "Pathfinder Companion: Qadira, Gateway to the East": ("qadira", "Qadira"),
+    "Pathfinder Roleplaying Game: Occult Adventures": ("upsi", "UPsi"),
+    "Pathfinder Campaign Setting: Inner Sea World Guide": ("iswg", "ISWG"),
+    "Pathfinder Campaign Setting: Inner Sea Gods": ("isg", "ISG"),
+    "Pathfinder Campaign Setting: Inner Sea Races": ("isr", "ISR"),
+}
+
+# Unknown books fall back to this id so misattribution is explicit.
+UNKNOWN_SOURCE_ID = "unknown"
+
+# Tracker for unknown / first-seen book strings; caller can inspect after a run.
+seen_sources: dict[str, int] = {}
+unknown_sources: dict[str, int] = {}
+
+
+def _normalize_book_name(raw: str) -> str:
+    """Clean a Section-15-extracted book string into a comparable canonical form.
+
+    Strips encoding artifacts (smart-quote bytes, HTML entities), trailing
+    punctuation, duplicated wrapper phrases, and collapses whitespace."""
+    if not raw:
+        return ""
+    s = raw
+    # Repair common cp1252→utf8 mojibake: \x80\x99 (’), \x80\x9c/\x9d (“ ”), \x80\x93/\x94 (– —)
+    try:
+        s = s.encode("latin-1", errors="ignore").decode("utf-8", errors="ignore")
+    except Exception:
+        pass
+    # HTML entities
+    s = s.replace("&amp;", "&").replace("&#8211;", "-")
+    # Some pages duplicate "Pathfinder Player Companion: <Book> Pathfinder Player Companion: <Book>"
+    # — collapse exact-doubled prefixes.
+    m = re.match(r"^(.+?)\s+\1\s*$", s)
+    if m:
+        s = m.group(1)
+    # Strip Brian Cortijo / author residue tails ("Copyright 2009, Paizo Publishing, LLC; Author: ...")
+    s = re.split(r"\bCopyright\s+\d{4}", s, maxsplit=1)[0]
+    # Strip trailing junk
+    s = re.sub(r"\s+", " ", s).strip(" .,;:")
+    return s
+
+
+def _auto_derive_source(canonical: str) -> tuple[str, str]:
+    """For an unknown book, derive an (id, abbreviation) pair.
+    id = slug of the distinctive portion (after the last ':'); abbreviation =
+    initials of significant words."""
+    # Take the part after the last ':' if present, else the whole name.
+    distinct = canonical.rsplit(":", 1)[-1].strip()
+    # Drop trailing "Handbook"/"Primer"/etc. for tighter slugs? Keep them, simpler.
+    id_slug = re.sub(r"[^a-z0-9]+", "_", distinct.lower()).strip("_")
+    if not id_slug:
+        id_slug = "unknown"
+    # Build acronym from initials, skipping stop-words and 1-letter tokens.
+    stop = {"of", "the", "and", "a", "an", "to", "for", "in", "on", "or", "&"}
+    tokens = [t for t in re.split(r"[\s\-]+", distinct) if t and t.lower() not in stop]
+    abbr = "".join(t[0].upper() for t in tokens if t[0].isalpha())[:6] or "?"
+    return id_slug, abbr
+
+
+def extract_section_15_source(html: str) -> tuple[str, str | None]:
+    """Parse a d20pfsrd page; return (source_id, raw_book_name_or_None).
+
+    Looks for the Section 15 OGL footer's book attribution. Maps known books
+    to their canonical ids. For unknown books, derives an id from the name
+    and records the raw string for later review. Pages without a Section 15
+    footer return (UNKNOWN_SOURCE_ID, None)."""
+    from bs4 import BeautifulSoup  # imported here so HTTP path doesn't need bs4
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text(" ", strip=True)
+    m = re.search(
+        r"Section 15\s*:\s*Copyright Notice\s+(.{10,800}?)\s*©",
+        text,
+        re.IGNORECASE,
+    )
+    if not m:
+        unknown_sources["__no_section_15__"] = unknown_sources.get("__no_section_15__", 0) + 1
+        return (UNKNOWN_SOURCE_ID, None)
+    raw = m.group(1).strip()
+    # Strip lead-in text up to the first known publisher prefix.
+    raw = re.sub(r"^.*?(Pathfinder|Wayfinder|Open Game)", r"\1", raw, count=1)
+    canonical = _normalize_book_name(raw)
+    if not canonical:
+        unknown_sources[raw[:80]] = unknown_sources.get(raw[:80], 0) + 1
+        return (UNKNOWN_SOURCE_ID, raw)
+    if canonical in KNOWN_SOURCES:
+        sid, _ = KNOWN_SOURCES[canonical]
+        seen_sources[sid] = seen_sources.get(sid, 0) + 1
+        return (sid, canonical)
+    # Unknown but parsed — auto-derive an id.
+    sid, _ = _auto_derive_source(canonical)
+    seen_sources[sid] = seen_sources.get(sid, 0) + 1
+    # Stash the canonical name so callers can mint a matching source instance.
+    unknown_sources[canonical] = unknown_sources.get(canonical, 0) + 1
+    return (sid, canonical)
+
+
+def reset_source_trackers() -> None:
+    """Clear the run-level source trackers."""
+    seen_sources.clear()
+    unknown_sources.clear()
+
+
+def auto_derive_abbreviation(canonical: str) -> str:
+    """Public helper: get a derived abbreviation for an unknown book."""
+    _, abbr = _auto_derive_source(canonical)
+    return abbr
+
+
+def source_id_for(canonical: str) -> str:
+    """Look up the source id for a (possibly already-normalized) book name.
+    Honors KNOWN_SOURCES, else auto-derives."""
+    canonical = _normalize_book_name(canonical) if canonical else ""
+    if canonical in KNOWN_SOURCES:
+        return KNOWN_SOURCES[canonical][0]
+    if not canonical:
+        return UNKNOWN_SOURCE_ID
+    return _auto_derive_source(canonical)[0]
+
+
 # ---------------------------------------------------------------- name disambiguation
 
 def compiler_slug(name: str) -> str:
