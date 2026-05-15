@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pallid_chain__crb_",
+    "name": {
+      "value": "Pallid Chain"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Slot armor; Price 3,300 gp; Weight 40 lbs. DESCRIPTION The links of this +1 chainmail are a dull, sickly white color that resembles old bone, and the suit\u2019s gauntlets are tipped with silver-black finger spikes. Once per day as a standard action, the wearer can ask one question of an undead creature or a destroyed undead creature\u2019s corpse, as if using speak with dead, except the target can only answer questions that pertain to events that occurred after it became undead. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells speak with dead; Price 1,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pallid_chain",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pallid_chain",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "avalanche_sling_staff__crb_",
+    "name": {
+      "value": "Avalanche Sling Staff"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 36,320 gp; Slot none; CL 9th; Weight 3 lbs.; Aura moderate conjuration DESCRIPTION Three times per day, the wielder of this +3 halfling sling staff can launch a stone (not a sling bullet) that explodes in mid-flight to create a stone call effect centered on the target square. CONSTRUCTION REQUIREMENTS Cost 18,320 gp; Feats Craft Magic Arms and Armor; Spells stone call"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_avalanche_sling_staff",
+          "value": {
+            "value": 36320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_avalanche_sling_staff",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

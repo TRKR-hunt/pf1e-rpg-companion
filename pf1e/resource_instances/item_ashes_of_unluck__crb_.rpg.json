@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ashes_of_unluck__crb_",
+    "name": {
+      "value": "Ashes of Unluck"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,400 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint necromancy DESCRIPTION These fine, gray ashes usually come in a black leather bag covered in various symbols of bad luck. When the contents of the bag are flung into the air, the ashes coat creatures within a 10-foot radius of the user, causing them to take a \u00e2\u0080\u00934 penalty on attack rolls, saving throws, ability checks, and skill checks for 2d4 rounds. The user is immune to this effect. CONSTRUCTION REQUIREMENTS Cost 1,200 gp; Feats Craft Wondrous Item; Spells bestow curse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ashes_of_unluck",
+          "value": {
+            "value": 2400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_the_tainted_ouroboros__crb_",
+    "name": {
+      "value": "Headband of the Tainted Ouroboros"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,500 gp; Slot headband; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This thin green headband is made entirely out of small metal scales that shimmer in the sunlight, sparkling in turn with flashes of emerald, forest green, and sea-foam depending on the angle from which the wearer is viewed. While the wearer is taking damage or otherwise being negatively affected by a poison, she can touch another creature and duplicate the poison\u00e2\u0080\u0099s effects in that creature. This requires a melee touch attack that provokes attacks of opportunity. When the wearer makes a successful touch attack in this way, the target creature must attempt a Fortitude saving throw against the duplicated poison\u00e2\u0080\u0099s DC as if it were the target of the initial poisoning. Failing this Fortitude saving throw subjects the target to the full duration of the duplicated poison\u00e2\u0080\u0099s effects. The initial poison can be duplicated to only one additional target at a time. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item; Spells touch injection"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_the_tainted_ouroboros",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

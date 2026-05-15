@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_weather__crb_",
+    "name": {
+      "value": "Staff of weather"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varies; CL 13th; Slot none; Price 84,066 gp; Weight 5 lbs. DESCRIPTION The carved surface of this solid oaken beam always depicts a scene with the opposite qualities of the current weather (rainy on dry days, dry on rainy days, and so on). It allows use of the following spells: Fog cloud (1 charge) Gust of wind (1 charge) Wind wall (1 charge) Ice storm (2 charges) Sleet storm (2 charges) Control weather (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells control weather, fog cloud, gust of wind, ice storm, sleet storm, wind wall; Cost 42,033 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_weather",
+          "value": {
+            "value": 84066
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_weather",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

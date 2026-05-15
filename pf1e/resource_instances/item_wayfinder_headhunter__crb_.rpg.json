@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_headhunter__crb_",
+    "name": {
+      "value": "Wayfinder, Headhunter"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 56,000 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate divination DESCRIPTION The forms of numerous animals, magical beasts, and other famous creatures appear in relief on every inch of this iron wayfinder\u2019s surface, creating a maze of lions, hawks, dragons, and elephants. Though a headhunter wayfinder looks like a normal compass, it doesn\u2019t point toward true north as one would expect. Rather, if a piece of hair, a drop of blood, or some other organic matter from an individual creature is placed in the socket normally reserved for an ioun stone, the wayfinder\u2019s needle points out this creature as though it were the subject of a locate creature spell with a radius of 680 feet from the wayfinder\u2019s wielder. This effect has no set duration, and functions as long as a specimen of the target creature is held within the wayfinder and the creature is within range. If the target creature isn\u2019t in range, the headhunter wayfinder\u2019s needle slowly spins clockwise. As with the locate creature spell, running water and spells such as mislead, nondetection, and polymorph fool or otherwise block the effect. A headhunter wayfinder can\u2019t hold an ioun stone and doesn\u2019t provide resonant powers. CONSTRUCTION REQUIREMENTS Cost 28,000 gp; Feats Craft Wondrous Item; Spells light, locate creature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_headhunter",
+          "value": {
+            "value": 56000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_headhunter",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

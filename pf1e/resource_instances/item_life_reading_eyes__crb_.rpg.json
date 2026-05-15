@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "life_reading_eyes__crb_",
+    "name": {
+      "value": "Life-Reading Eyes"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot eyes; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate divination DESCRIPTION These jet-black spectacles fully obscure the eyes of the wearer while granting her the ability to peer at the auras of other creatures. The wearer can read the emotion and health auras of any creature as per analyze aura while the spectacles are worn, but can perceive only those auras. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells analyze aura; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_life_reading_eyes",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_the_faithful_dead__crb_",
+    "name": {
+      "value": "Ring of the Faithful Dead"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1000 gp; Slot ring; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint evocation DESCRIPTION This spiraling silver ring glows briefly when a living creature puts it on. If its wearer of a ring of the faithful dead is slain by a creature with the create spawn ability, the wearer does not rise as an undead creature, even if the ring is later removed. If a corpse is wearing a ring of the faithful dead, any attempts to create an undead creature from the corpse (such as via animate dead ) automatically fail, though simply removing the ring ends this protection. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Forge Ring; Spells sanctify corpse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_the_faithful_dead",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "longarm_bracers__crb_",
+    "name": {
+      "value": "Longarm bracers"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot wrists; Price 7,200 gp; Weight 1 lb. DESCRIPTION These bracers are constructed from woven strands of bamboo. Three times per day, as a swift action, the wearer can stretch her arms beyond their limits, increasing her reach by 5 feet until the start of her next turn. Her weapon attack rolls take a \u00e2\u0080\u00944 penalty, while unarmed strikes and natural weapons using the arms take no penalty. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, alter self; Cost 3,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_longarm_bracers",
+          "value": {
+            "value": 7200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_longarm_bracers",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

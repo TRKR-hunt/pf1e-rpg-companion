@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "agents_clasp__crb_",
+    "name": {
+      "value": "Agent's Clasp"
+    },
+    "source": {
+      "value": "inner_sea_races_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL \u00c2\u00a09th; Slot \u00c2\u00a0wrist; Price 60,000 gp; Weight \u00e2\u0080\u0094 lbs. DESCRIPTION These small, stylish golden clasps come in pairs: one for a handler and one for an agent. The handler\u00e2\u0080\u0099s clasp provides constant information to the wearer as per the spell status\u00c2\u00a0regarding the wearer of the agent\u00e2\u0080\u0099s clasp. At will, the wearer of either clasp can speak a command word to transmit a sending (as per the spell) to the wearer of the other clasp. If the other clasp is not worn, the sending is stored in the recipient clasp until it is next donned, at which time the message is delivered and the recipient has a chance to respond as normal. The price and cost listed are for a matched pair of clasps. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells sending, status;\u00c2 Special creator must be a human; Cost 30,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_agents_clasp",
+          "value": {
+            "value": 60000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

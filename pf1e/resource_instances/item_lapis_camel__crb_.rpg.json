@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lapis_camel__crb_",
+    "name": {
+      "value": "Lapis Camel Figurine of Wondrous Power"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,500 gp DESCRIPTION This palm-sized camel figurine is sculpted of lapis lazuli. When you throw the lapis camel to the ground and speak the command word, it turns into a dromedary camel. The camel acts as a normal camel in all respects, except that it obeys your verbal commands to the best of its animal -level intelligence. At your command, the camel returns to its figurine form. The lapis camel can be used up to 3 times per week for up 8 hours each use. CONSTRUCTION REQUIREMENTS Feats Cost 3,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lapis_camel",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

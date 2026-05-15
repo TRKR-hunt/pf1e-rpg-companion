@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mind_s_eye_blade__crb_",
+    "name": {
+      "value": "Mind's Eye Blade"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 36,302 gp; Slot none; CL 10th; Weight 1 lb.; Aura moderate enchantment DESCRIPTION The hilt of this ornate +2 dagger is engraved with a depiction of a human clutching the sides of her head. When a creature takes damage from the blade, its mind rejects the presence of the wielder. The blade\u2019s wielder gains concealment (20% miss chance) against the damaged creature\u2019s attacks for 1 round. Multiple hits don\u2019t further increase the concealment effect or its duration. This is a mind-affecting effect. Three times per day, when the wielder of a mind\u2019s eye blade performs a coup de grace or sneak attack against an opponent, the wielder immediately receives a piece of information from the target\u2019s mind. The target can attempt a DC 16 Will save to negate this effect. The target can then attempt a DC 21 Bluff check; if it fails, the wielder gains the information she desires. If the target succeeds at its check, the wielder gains no information. If the target succeeds by 5 or more, however, it can choose what answer to provide, and the wielder believes that answer to be true. Subsequent attempts to gain the same piece of information from the same creature yield the same result. If the wielder doesn\u2019t specify the piece of information she wishes to retrieve, the GM determines what information she learns. CONSTRUCTION REQUIREMENTS Cost 18,302 gp; Feats Craft Magic Arms and Armor; Spells mind probe"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mind_s_eye_blade",
+          "value": {
+            "value": 36302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mind_s_eye_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "medallion_of_demonic_disruption__crb_",
+    "name": {
+      "value": "Medallion of Demonic Disruption"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,000 gp; Slot neck; CL 7th; Weight 1 lb.; Aura moderate abjuration DESCRIPTION Meant to be worn around the neck, this medallion made of braided, blue-tinged white gold hangs from a silver chain. EFFECTS When a creature with the demon subtype uses its summoning ability with 100 feet of the medallion\u00e2\u0080\u0099s wearer, it must attempt a concentration check with a DC equal to 15 + double the level of its summon ability. If the summoner fails this concentration check, none of the summoned creatures appear, and the use of the demon\u00e2\u0080\u0099s summon ability is wasted. On a successful concentration check, the number of creatures that the demon summons (if any) is reduced to 1. CONSTRUCTION REQUIREMENTS Cost 16,000 gp; Feats Craft Wondrous Item; Spells dimensional anchor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_medallion_of_demonic_disruption",
+          "value": {
+            "value": 32000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_medallion_of_demonic_disruption",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "broom_of_flying__crb_",
+    "name": {
+      "value": "Broom of flying #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot \u00e2\u0080\u0094; Price 17,000 gp; Weight 3 lbs. DESCRIPTION This broom is able to fly through the air as if affected by an overland flight spell (+4 on Fly skill checks) for up to 9 hours per day (split up as its owner desires). The broom can carry 200 pounds and fly at a speed of 40 feet, or up to 400 pounds at a speed at 30 feet. In addition, the broom can travel alone to any destination named by the owner as long as she has a good idea of the location and layout of that destination. It flies to its owner from as far away as 300 yards when she speaks the command word. The broom of flying has a speed of 40 feet when it has no rider. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, overland flight, permanency; Cost 8,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_broom_of_flying",
+          "value": {
+            "value": 17000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_broom_of_flying",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

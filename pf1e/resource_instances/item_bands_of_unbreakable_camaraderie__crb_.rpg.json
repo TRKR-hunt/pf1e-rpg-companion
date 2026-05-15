@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bands_of_unbreakable_camaraderie__crb_",
+    "name": {
+      "value": "Bands of Unbreakable Camaraderie"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot wrists; CL 11th; Weight 1 lb.; Aura moderate divination DESCRIPTION While worn, this pair of plain steel armbands limits the ability of the wearer to strike out against his comrades with weapon attacks, in the event he is unable to control his own actions (such as if confused or dominated) or unable to distinguish friends from foes (such as if blinded ). The armbands grow heavier and hinder the wearer\u2019s momentum under these circumstances, causing him to take a -4 penalty on attack rolls against creatures he would otherwise consider allies. Alternatively, two creatures can each wear one of the armbands, occupying the wrists slot for both. Under these conditions, the bands apply only half the normal penalty on attack rolls against allies. However, the two wearers ignore each other for any effects that would cause them to attack the closest creature, unless one wearer purposefully attacks the other. Even if the wearers do attack one another, their attacks take the full -4 penalty, always fail to confirm critical hits, and deal nonlethal damage only. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells battlemind link"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bands_of_unbreakable_camaraderie",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bands_of_unbreakable_camaraderie",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

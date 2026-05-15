@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "steelbone_frame__crb_",
+    "name": {
+      "value": "Steelbone Frame"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot armor; CL 5th; Weight 35 lbs.; Aura faint transmutation DESCRIPTION This gear-jointed, metal exoskeleton can be affixed to or removed from a suit of medium or heavy armor in 10 minutes. While attached, the enchanted frame bears some of the armor\u2019s burden, reducing the armor\u2019s check penalty by 2. In addition, three times per day, the wearer of a medium or heavy suit of armor attached to a steelbone frame can ignore the armor\u2019s reduction to his speed for 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bull\u2019s strength, longstrider; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_steelbone_frame",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_steelbone_frame",
+          "value": {
+            "value": 35
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

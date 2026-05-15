@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chaotic_staff__crb_",
+    "name": {
+      "value": "Chaotic staff"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Slot none; Price 29,600 gp; Weight 5 lbs. DESCRIPTION Made up from a number of different materials, including wood, metal, and possibly pieces of flesh, this staff seems to shift in shape and form over time. The staff allows use of the following spells: Align weapon (chaos only, 1 charge) Detect law (1 charge) Chaos hammer (2 charges) Magic circle against law (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells align weapon, chaos hammer, detect evil, magic circle against law; Cost 14,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chaotic_staff",
+          "value": {
+            "value": 29600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chaotic_staff",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

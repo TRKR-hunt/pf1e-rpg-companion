@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sandals_dryad__crb_",
+    "name": {
+      "value": "Dryad sandals"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and transmutation; CL 9th; Slot feet; Price 24,000 gp; Weight 1 lb. DESCRIPTION These sandals are woven from grass, lengths of pliant vine, living leaves, and supple bark. In forest terrain, the wearer leaves no tracks or scent and gains a +2 competence bonus on Stealth checks. The wearer can move through natural undergrowth without impediment or harm as a druid using woodland stride, and once per day she may step inside a tree and remain there for up to 9 hours, or teleport to a similar tree within range, as tree stride but allowing only a single teleport. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, pass without trace, tree stride; Special creator must be a druid; Cost 12,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sandals_dryad",
+          "value": {
+            "value": 24000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sandals_dryad",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scholar_s_ring__crb_",
+    "name": {
+      "value": "Scholar\u2019s ring"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 5th; Slot ring; Price 8,700 gp; Weight \u00e2\u0080\u0094 DESCRIPTION A scholar\u00e2\u0080\u0099s ring grants complete understanding of any written text or spoken language, even one that the wearer has never encountered before (as the comprehend languages spell), as well as a +5 competence bonus on Knowledge (history) checks. In addition, once every 5 days the wearer can invoke a legend lore spell related to a subject that she has been studying in the previous week, if she has attempted a Knowledge (history) check aided by the ring. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells comprehend languages, legend lore; Cost 4,350 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scholar_s_ring",
+          "value": {
+            "value": 8700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

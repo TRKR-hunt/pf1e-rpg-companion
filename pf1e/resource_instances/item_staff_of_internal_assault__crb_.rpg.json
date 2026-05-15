@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_internal_assault__crb_",
+    "name": {
+      "value": "Staff of Internal Assault"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,800 gp; Slot none; CL 8th; Weight 5 lbs.; Aura moderate varies DESCRIPTION Crumbling bark continuously flakes from this solid, aged oak staff without diminishing its size. It allows the use of the following spells: Calcific touch (2 charges) Corrosive touch (1 charge) Touch injection (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells calcific touch, corrosive touch, touch injection; Cost 10,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_internal_assault",
+          "value": {
+            "value": 20800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_internal_assault",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

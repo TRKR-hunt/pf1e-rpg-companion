@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mace_of_smiting__crb_",
+    "name": {
+      "value": "Mace of smiting, lesser"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; Weight 8 lbs.; Price varies; Standard 75,312 gp; Lesser 16,012 gp; CL 11th/7th DESCRIPTION A lesser mace of smiting is a +1 adamantine heavy mace with a +3 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it deals \u00c3\u00974 damage rather than \u00c3\u00972. A critical hit dealt to an outsider deals \u00c3\u00973 damage rather than \u00c3\u00972. A mace of smiting is a +3 adamantine heavy mace has a +5 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it completely destroys the construct (no saving throw). A critical hit dealt to an outsider deals \u00c3\u00974 damage rather than \u00c3\u00972. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells disintegrate; Cost varies; Lesser 9,512 gp, Standard 39,312 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mace_of_smiting",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

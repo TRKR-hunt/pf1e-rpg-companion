@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "conduit_rod__crb_",
+    "name": {
+      "value": "Conduit rod"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 12th; Slot none; Price 12,000 gp; Weight 5 lbs. DESCRIPTION This stout, dense rod is always constructed of highly conductive metal, shot through with web-like veins of white or yellow glass. While a creature holds a conduit rod, she gains electricity resistance 5 as a constant effect as well as a +1 bonus to her effective caster level when casting any spell with the electricity descriptor. Once per day as a free action, when the wielder of a conduit rod casts a spell with the electricity descriptor, she can teleport anywhere that spell\u00e2\u0080\u0099s effect, but is otherwise unaffected by the spell. CONSTRUCTION REQUIREMENTS Feats Craft Rod, dimension door, lightning bolt, resist energy; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_conduit_rod",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_conduit_rod",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

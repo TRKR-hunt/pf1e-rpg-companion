@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crimson_bluff__crb_",
+    "name": {
+      "value": "Crimson Bluff"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 65,575 gp; Slot none; CL 11th; Weight 2 lbs.; Aura moderate illusion DESCRIPTION With a blade crafted entirely out of black metal, this +2 speed sawtooth sabre has only one hint of color: a red hilt. Once per day as a standard action, the wielder of the blade can utter a prayer to the Mantis God to create 1d4+3 illusory Crimson Assassin that last for 1 hour. These illusions confound the wielder\u2019s enemies, allowing the wielder to flank an enemy with an appropriately positioned figment. The wielder can direct the movement of all figments as a single swift action, moving each of them up to 30 feet. Any creature interacting with (or being flanked by) an illusion can attempt a DC 16 Will save to disbelieve the effect. If an illusory assassin is hit by an attack, it disappears. (Use the wielder\u2019s touch AC as an illusion\u2019s AC.) Three times per day as an immediate action, when the wielder of a crimson bluff is the target of an enemy\u2019s melee attack, she can swap places with an illusory assassin that is adjacent to her. CONSTRUCTION REQUIREMENTS Cost 32,955 gp; Feats Craft Magic Arms and Armor; Special creator must be an 11th-level cleric of the Mantis God or be able to cast haste, mirror image, and mislead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crimson_bluff",
+          "value": {
+            "value": 65575
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crimson_bluff",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

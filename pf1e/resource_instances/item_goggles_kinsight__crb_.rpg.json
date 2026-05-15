@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goggles_kinsight__crb_",
+    "name": {
+      "value": "Kinsight goggles"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 2nd; Slot eye; Price 7,500 gp; Weight 1 lb. DESCRIPTION Kinsight goggles are in fact two separate crystal monocles, linked together with a simple silver clasp that allows them to both be worn at once like pince-nez spectacles. The left and right halves may be separated and worn individually, allowing two people to see through one another\u00e2\u0080\u0099s eyes. When separated, the wearer of either half of the goggles may speak a command word to see through the lens of the other half, so long as the halves of the goggles remain within 500 feet of one another. When the two lenses are attached and worn as one item, they offer no magical benefit\u00e2\u0080\u0094just some minor magnification. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, share senses; Cost 3,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goggles_kinsight",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_goggles_kinsight",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

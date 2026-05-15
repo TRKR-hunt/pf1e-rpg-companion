@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "markers_monocle__crb_",
+    "name": {
+      "value": "Marker\u00e2\u0080\u0099s Monocle"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,600 gp; Slot eyes CL 3rd Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION A solid gold band encircles this intricate convex glass lens. EFFECTS Three times per day as a standard action, the wearer can attempt an Appraise check against a creature within 60 feet (DC = 10 + target\u00e2\u0080\u0099s Hit Dice + target\u00e2\u0080\u0099s Wisdom bonus). With a successful check, the wearer knows the amount of currency the creature is carrying, as well as the number of valuable objects (with a price greater than 20 gp) the target carries (though the wearer doesn\u00e2\u0080\u0099t know which items qualify, or the exact value of the objects). In addition, once per day, the wearer of a marker\u00e2\u0080\u0099s monocle can mark one creature with a melee touch attack, allowing up to 3 allies within 30 feet to track the marked creature for 30 minutes, as if the wearer\u00e2\u0080\u0099s allies had the scent ability. CONSTRUCTION REQUIREMENTS Cost 2,800 gp; Feats Craft Wondrous Item; Spells locate object, scent trail"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_markers_monocle",
+          "value": {
+            "value": 5600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "decoy_ring__crb_",
+    "name": {
+      "value": "Decoy ring"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 11th; Slot ring; Price 12,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring is a thick loop of mirrorlike metal. Whenever the wearer of this ring takes the withdraw action or becomes helpless (including falling unconscious ), it instantly makes her invisible for 3 rounds and creates four illusory duplicates that either run off in opposite directions or perform other plausible actions that could draw enemy attention away from her. The duplicates last for 3 rounds before disappearing, but they instantly pop out of existence if struck by an attack (AC 10) and can be disbelieved ( Will DC 19). Allies of the wearer always know her true location and can freely provide aid or assistance to her. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells mislead; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_decoy_ring",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

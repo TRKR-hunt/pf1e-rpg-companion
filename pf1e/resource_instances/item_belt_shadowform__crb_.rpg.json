@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_shadowform__crb_",
+    "name": {
+      "value": "Shadowform belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 17th; Slot belt; Price 110,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION When wrapped around a wearer\u00e2\u0080\u0099s waist, this belt grants a +6 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. Furthermore, as a swift action, its wearer can become incorporeal. While incorporeal, he does not gain a deflection bonus to AC based on his Charisma, but his natural armor bonus is converted to deflection bonus. The wearer can remain incorporeal for up to 10 rounds per day. The rounds need not be consecutive. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u00e2\u0080\u0099s grace, etherealness; Cost 55,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_shadowform",
+          "value": {
+            "value": 110000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

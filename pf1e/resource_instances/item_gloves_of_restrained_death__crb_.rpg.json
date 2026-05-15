@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_restrained_death__crb_",
+    "name": {
+      "value": "Gloves of Restrained Death"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,250 gp; Slot hands; CL 7th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION These supple black leather gloves have dramatic white stitching running along their seams. Four small sapphires, two sewn onto the thumb of each hand, pulse gently when the gloves are worn. The wearer gains a +2 competence bonus on Stealth checks. Anytime the wearer becomes poisoned while wearing the gloves, she can tap on any number of the sapphires to reduce the frequency of the poison by 1 increment per sapphire. The poison\u2019s frequency cannot be reduced to lower than 1 increment. For example, if a poison\u2019s frequency was 1/round for 6 rounds and three sapphires were tapped, the frequency would be reduced to 1/round for 3 rounds. Tapping each sapphire is a free action that causes the touched gem to become inert for 24 hours. CONSTRUCTION REQUIREMENTS Cost 4,625 gp; Feats Craft Wondrous Item; Spells restoration, neutralize poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_restrained_death",
+          "value": {
+            "value": 9250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_of_restrained_death",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

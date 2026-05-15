@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "siege_tower_feather_token__crb_",
+    "name": {
+      "value": "Siege Tower Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1000 gp DESCRIPTION This token creates a Huge siege tower (see Siege Engines ). The tower disappears after 1 hour. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells major creation, telekinetic assembly"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_siege_tower_feather_token",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

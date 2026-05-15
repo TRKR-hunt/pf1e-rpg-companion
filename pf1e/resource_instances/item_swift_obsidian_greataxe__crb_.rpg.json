@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "swift_obsidian_greataxe__crb_",
+    "name": {
+      "value": "Swift obsidian greataxe"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 10th; Weight 12 lbs.; Price 11,320 gp DESCRIPTION The blade of this +1 keen greataxe is carved from jet-black obsidian. When the wielder charges an enemy, he receives a +10 foot enhancement bonus to his speed that round. Once per day, he can command the axe to grant all allies within 30 feet a +10 foot enhancement bonus to base speed for 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells expeditious retreat, keen edge; Cost 5,802 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_swift_obsidian_greataxe",
+          "value": {
+            "value": 11320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_swift_obsidian_greataxe",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

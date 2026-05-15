@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "talisman_of_soul_eating__crb_",
+    "name": {
+      "value": "Talisman of Soul-Eating"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_book_of_the_damned"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,400 gp; Slot neck; CL 5th; Weight 3 lbs.; Aura faint necromancy [evil] DESCRIPTION This carved cacodaemon skull bears dozens of sharp teeth and is strung on a thin iron chain adorned with vertebrae. Once per day as a full-round action, the wearer can use the skull to draw forth the life essence of a dying or recently dead creature to cast create soul gem. The wearer can ingest this soul gem as a standard action. This frees the soul within the gem, which can be raised from the dead normally. The wearer then gains fast healing 2 for a number of rounds equal to the consumed soul\u2019s Hit Dice when it was still living. Draining a soul with the necklace or consuming a soul gem is an evil act. CONSTRUCTION REQUIREMENTS Cost 2,700 gp; Feats Craft Wondrous Item; Spells create soul gem"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_talisman_of_soul_eating",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_talisman_of_soul_eating",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

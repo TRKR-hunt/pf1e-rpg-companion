@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shoes_of_the_firewalker__crb_",
+    "name": {
+      "value": "Shoes of the firewalker #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Slot feet; Price 21,000 gp; Weight 1 lb. DESCRIPTION These low-cut shoes of polished red leather feature golden eyelets and stitching in a fiery pattern. They grant the wearer fire resistance 10 and allow the wearer to walk atop lava and magma as if subject to the water walk spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, resist energy, water walk; Cost 10,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shoes_of_the_firewalker",
+          "value": {
+            "value": 21000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shoes_of_the_firewalker",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_dueling__crb_",
+    "name": {
+      "value": "Gloves of dueling #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot hands; Price 15,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These supple gloves grant the wearer a +4 bonus to her CMD against disarm attacks, attempts to sunder her wielded weapons, and effects that cause her to lose her grip on her weapons (such as grease ). The wearer doesn\u00e2\u0080\u0099t drop held weapons when panicked or stunned. If the wearer has the weapon training class feature and is using an appropriate weapon, her weapon training bonus increases by +2. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, greater magic weapon; Cost 7,500 gp. Editor\u2019s Note If an archetype replaces a class ability with a more specific version of that ability (or one that works similarly to the replaced ability), does the archetype\u2019s ability count as the original ability for the purpose of rules that improve the original ability? It depends on how the archetype\u2019s ability is worded. If the archetype ability says it works like the standard ability, it counts as that ability. If the archetype\u2019s ability requires you to make a specific choice for the standard ability, it counts as that ability. Otherwise, the archetype ability doesn\u2019t count as the standard ability. (It doesn\u2019t matter if the archetype\u2019s ability name is different than the standard class ability it is replacing; it is the description and game mechanics of the archetype ability that matter.) Example: The dragoon (fighter) archetype (Ultimate Combat) has an ability called \u201cspear training,\u201d which requires the dragoon to select \u201cspears\u201d as his weapon training group, and refers to his weapon training bonus (even though this bonus follows a slightly different progression than standard weapon training). Therefore, this ability counts as weapon training for abilities that improve weapon training, such as gloves of dueling (Advanced Player\u2019s Guide), which increase the wearer\u2019s weapon training bonus. Example: The archer (fighter) archetype gets several abilities (such as \u201cexpert archer\u201d) which replace weapon training and do not otherwise refer to the weapon training ability. Therefore, this ability does not count as weapon training for abilities that improve weapon training (such as gloves of dueling). This is the case even for the \u201cexpert archer,\u201d ability which has a bonus that improves every 4 fighter levels, exactly like weapon training. [ Source ]"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_dueling",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

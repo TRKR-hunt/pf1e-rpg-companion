@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_refuge__crb_",
+    "name": {
+      "value": "Boots of Refuge"
+    },
+    "source": {
+      "value": "niobe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; Slot feet; CL 11th; Weight 4 lbs.; Price 18,000 gp DESCRIPTION These simple leather boots are warded with blessings of speed and protection. The wearer can activate these wards as a swift action to gain a unique effect depending on whether she activated the speed or protection wards. Activating the speed ward grants the wearer a +30-foot enhancement to all of her movement speeds. Activating the protection ward allows the wearer to stand up as a swift action without provoking attacks of opportunity. In addition, while the protection ward is active, the wearer does not provoke attacks of opportunity from the first square she leaves when moving, similar to the withdraw action. The wearer can dismiss the effects as a free action, or she can switch from one ward to the other as a swift action. The boots can be used for up to 10 rounds each day. This duration does not need to be consecutive, but it must be spent in 1-round increments. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells blessing of fervor; Cost 9,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_refuge",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_refuge",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

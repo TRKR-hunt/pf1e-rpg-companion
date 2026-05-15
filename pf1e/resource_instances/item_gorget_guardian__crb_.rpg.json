@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gorget_guardian__crb_",
+    "name": {
+      "value": "Guardian gorget"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration and conjuration; CL 13th; Slot neck; Price 12,000 gp; Weight 1 lb. DESCRIPTION This flanged collar of mithral and steel protects the wearer\u00e2\u0080\u0099s neck and shoulders. It provides a +2 armor bonus to AC (this does not stack with other armor bonuses) and grants the light fortification property to the wearer. In addition, the wearer may engrave a glyph of warding directly onto the guardian gorget. When the wearer is struck in melee, she can trigger the glyph as an immediate action, causing the glyph to discharge against the creature making the attack (and other creatures within 5 feet, if a blast glyph was placed, though the wearer is not harmed by the glyph\u00e2\u0080\u0098s effects). The glyph can be triggered even if the attack would normally leave the wearer incapable of taking actions (such as killed, stunned, dazed, or knocked unconscious ). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, glyph of warding, limited wish or miracle, mage armor or magic vestment; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gorget_guardian",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gorget_guardian",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "living_garments__crb_",
+    "name": {
+      "value": "Living Garments"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot body; Price 5,000 gp; Weight 2 lbs. DESCRIPTION These sheer and silky robes, many of which are made of spider silk, are of the finest quality. On command, a living garment can make a number of subtle adjustments to itself, including coloring, fit, and basic design, accommodating and accentuating whatever mood the wearer wishes to convey. It always remains clean, and automatically repairs damage to itself at a rate of 1 hit point per round ( hardness 0, 4 hit points ). It also grants the wearer a +5 competence bonus on Diplomacy checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, eagle\u2019s splendor, mending, prestidigitation; Special creator must be a drow; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_living_garments",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_living_garments",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

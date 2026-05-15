@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "collar_bloodstone__crb_",
+    "name": {
+      "value": "Collar, Bloodstone"
+    },
+    "source": {
+      "value": "blood_of_the_coven"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 900 gp; Slot neck; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint necromancy DESCRIPTION This leather collar is studded with red and black heliotropes and fastened with an iron clasp. It functions only when worn by a spellcaster\u2019s familiar or spirit animal. If a familiar wearing a bloodstone collar is reduced to fewer than 0 hit points, the familiar immediately stabilizes at \u00e2\u0080\u00931 hit points, and any remaining damage is dealt to the familiar\u2019s master. The master can refuse this damage, but the feedback of doing so immediately slays the familiar. Each time a bloodstone collar activates, one of its heliotrope studs cracks; once a third stud cracks, the collar becomes a ordinary non-magical collar. A bloodstone collar is not triggered by death effects or other damaging effects that do not deal hit point damage. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Craft Wondrous Item; Spells life pact"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_collar_bloodstone",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

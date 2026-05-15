@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_revolution__crb_",
+    "name": {
+      "value": "Rod of Revolution"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 82,000 gp; Slot none; CL 20th; Weight 8 lbs.; Aura strong enchantment DESCRIPTION This variant rod of rulership looks like a castoff piece of wood from a lumber mill. A rod of revolution\u2019s wielder can activate the device as a standard action to incite rebellious urges in creatures within 120 feet. The wielder can incite a number of creatures totaling 300 Hit Dice, but creatures with a Wisdom score of 12 or higher can attempt a DC 16 Will save to negate the effect. Incited creatures gain the benefits of the rage spell, but adhere to only the most basic commands issued by the wielder (such as directions about where to move and who to attack). The rod can be used for 500 total minutes before it crumbles to dust. These minutes need not be continuous. CONSTRUCTION REQUIREMENTS Feats Craft Rod; Spells mass charm monster, rage; Cost 41,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_revolution",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_revolution",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

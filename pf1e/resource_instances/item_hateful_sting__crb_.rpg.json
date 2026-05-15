@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hateful_sting__crb_",
+    "name": {
+      "value": "Hateful Sting"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 60,302 gp; Slot none; CL 15th; Weight 1 lb.; Aura strong transmutation DESCRIPTION This +1 dancing dagger can attack foes up to 60 feet from the activating character, and takes the form of a rat-sized metal wasp when the dancing special ability is in use. It can store up to 4 doses of poison in its hilt. While dancing, if it does not currently have poison applied to it, it automatically applies 1 dose of stored poison (if any is currently stored) to itself before the first attack it makes each round. The hateful sting can envenom itself only when dancing. Removing the poison from the hilt to apply to the blade manually takes a full-round action. CONSTRUCTION REQUIREMENTS Cost 30,302 gp; Feats Craft Magic Arms and Armor; Spells animate objects, summon swarm"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hateful_sting",
+          "value": {
+            "value": 60302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hateful_sting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

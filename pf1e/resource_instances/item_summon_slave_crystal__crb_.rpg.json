@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "summon_slave_crystal__crb_",
+    "name": {
+      "value": "Summon-slave crystal #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 9th; Weight \u00e2\u0080\u0094; Slot none; Price 10,000 gp DESCRIPTION This thumb-sized crystalline skull is carved with necromantic runes. Once per day, a spellcaster can grasp the stone while casting a summoning spell. When the spellcasting is finished, the caster may immediately attempt to possess the summoned creature, as if using magic jar, except as a free action. The creature does not get a saving throw to resist, though spell resistance still applies. If successful, the caster possesses the creatures\u2019 body until the duration of the summoning spell ends, at which time his mind returns to his body, the creature\u2019s mind returns to its body, and the creature disappears. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, magic jar; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_summon_slave_crystal",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mi_go_mist_projector__crb_",
+    "name": {
+      "value": "Mist Projector"
+    },
+    "source": {
+      "value": "wake_of_the_watcher"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 22,500 gp; Weight 8 lbs. DESCRIPTION This strange device appears to be a twisted rod crafted of some unknown alloy of metal and crystal. The device requires two hands to use. When activated, the mist projector discharges a 60-foot cone of supercooled mist. This functions as cone of cold, dealing 10d6 points of cold damage to all creatures in the area ( DC 17 Reflex save for half ). Once fired, a cloud of mist persists in the area of effect for 1d10 minutes or until dispersed, functioning as a fog cloud. A mist projector normally contains 27 charges. A mist projector is impossible to recharge without special technology. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cone of cold, fog cloud, 7 ranks in Spellcraft; Cost 11,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mi_go_mist_projector",
+          "value": {
+            "value": 22500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mi_go_mist_projector",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

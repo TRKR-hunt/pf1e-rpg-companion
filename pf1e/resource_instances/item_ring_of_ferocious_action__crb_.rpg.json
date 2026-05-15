@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_ferocious_action__crb_",
+    "name": {
+      "value": "Ring of ferocious action"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot ring; Price 3,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring allows its wearer to persevere through physical or mental trauma that hampers his actions. Once per day, when the wearer gains the staggered condition from an enemy\u00e2\u0080\u0099s attack, she can ignore that condition for up to 5 rounds. This does not prevent her from gaining the staggered condition again, and it doesn\u00e2\u0080\u0099t protect her if she gained the staggered condition multiple times. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells \u00c2 haste, stabilize; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_ferocious_action",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

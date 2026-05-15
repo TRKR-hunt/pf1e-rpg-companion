@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shrivelblade__crb_",
+    "name": {
+      "value": "Shrivelblade"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,810 gp; Slot none; CL 5th; Weight 3 lbs.; Aura faint transmutation DESCRIPTION This +1 adamantine swordbreaker dagger has a jagged ebon blade inscribed with ancient runes that translate to \u00e2\u0080\u009ccut down to size.\u00e2\u0080\u009d Three times per day, when the wielder successfully sunders a weapon using a shrivelblade, he can permanently reduce the size of the sundered weapon by one size category, thus reducing its damage and its intended wielder size by one size category and its weight by half. Using this ability is a swift action. If the sundered weapon is magical, it can attempt a DC 14 Will save to negate this effect. Multiple uses of this ability don\u2019t stack. A make whole spell can return a weapon shrunken by a shrivelblade to its proper size. CONSTRUCTION REQUIREMENTS Cost 5,060 gp; Feats Craft Magic Arms and Armor; Spells shrink item"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shrivelblade",
+          "value": {
+            "value": 9810
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shrivelblade",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

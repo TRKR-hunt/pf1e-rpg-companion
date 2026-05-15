@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_vicious_magic__crb_",
+    "name": {
+      "value": "Elixir of Vicious Magic"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,750 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate evocation DESCRIPTION This pear-shaped flask contains a metallic-green liquid suffused with small pulsing globules. EFFECTS This elixir fuses with the magical essence flowing through the imbiber\u00e2\u0080\u0099s veins, enhancing the potency of spells at the cost of his health. For the next minute, any spells the imbiber casts that deal hit point damage deal an additional amount of damage of the same type equal to the spell level to both the target and the imbiber. CONSTRUCTION REQUIREMENTS Cost 875 gp; Feats Craft Wondrous Item, Furious Spell"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_vicious_magic",
+          "value": {
+            "value": 1750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

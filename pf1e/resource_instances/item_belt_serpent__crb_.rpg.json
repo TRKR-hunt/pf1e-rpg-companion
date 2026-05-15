@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_serpent__crb_",
+    "name": {
+      "value": "Serpent belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot belt; Price 9,000 gp; Weight 1 lb. DESCRIPTION This belt\u00e2\u0080\u0099s wearer gains a +4 bonus on saves against poisons and a +2 bonus on Escape Artist checks. In addition, once per day on command, the belt can be animated as a venomous snake or constrictor snake that obeys the animator\u00e2\u0080\u0099s spoken commands for up to an hour. If the animated snake is slain or moves 100 feet away from the animator, the snake reverts into belt form. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells beast form I, neutralize poison, summon nature\u00e2\u0080\u0099s ally II; Cost 4,500 gp. Serpent Belt, Greater Aura faint transmutation; CL 5th; Slot belt; Price 20,000 gp; Weight 1 lb. DESCRIPTION This belt functions as a serpent belt, except it grants the wearer a +2 enhancement bonus to Strength and Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. When the wearer animates the belt as a venomous or constrictor snake, she may speak a second command word to give the snake the advanced, celestial, entropic, fiendish, or resolute simple template. Adding a planar template changes the snake\u00e2\u0080\u0099s alignment to that of the corresponding planes. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells beast form I, bull\u00e2\u0080\u0099s strength, cat\u00e2\u0080\u0099s grace, neutralize poison, summon monster II or summon nature\u00e2\u0080\u0099s ally II; Cost 10,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_serpent",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_serpent",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

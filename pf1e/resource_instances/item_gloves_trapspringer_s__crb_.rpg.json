@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_trapspringer_s__crb_",
+    "name": {
+      "value": "Trapspringer\u2019s gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Slot hands; Price 4,000 gp; Weight 1 lb. DESCRIPTION These studded leather gloves look similar to workman\u00e2\u0080\u0099s gloves, though they are reinforced with numerous metal strips that the user can extend or retract as she wills, turning the tip of each finger into a customizable tool useful in examining and disarming traps. While worn, these gloves grant a +5 competence bonus on all Disable Device checks made to disarm traps. In addition, the gloves grant the user a +1 luck bonus on all saving throws made against traps. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, find traps; Cost 2,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_trapspringer_s",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_trapspringer_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

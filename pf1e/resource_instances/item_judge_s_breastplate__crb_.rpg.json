@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "judge_s_breastplate__crb_",
+    "name": {
+      "value": "Judge's Breastplate"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration, enchantment, and transmutation; CL 3rd; Slot armor; Price 5,110 gp; Weight 30 lbs. DESCRIPTION This gold-colored +1 breastplate has a large, ornate symbol of a vault key on one side of the chest. The wearer gains a +4 competence bonus on Sense Motive checks. The wearer can use command and peacebond each once per day CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells command, owl\u2019s wisdom, peacebond; Price 2,730 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_judge_s_breastplate",
+          "value": {
+            "value": 5110
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_judge_s_breastplate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

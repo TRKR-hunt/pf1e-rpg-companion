@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_summoning_affinity_psychopomp__crb_",
+    "name": {
+      "value": "Ring of Summoning Affinity (Psychopomp)"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,600 gp; Slot ring; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This silver ring is marked with a skull emblem. If the wearer can cast summon monster spells, the wearer adds nosoi to the 3rd-level list of monsters he can summon with those spells, adds catrina to the 4th-level list, adds vanth to the 6th-level list, and adds morrigna to the 9th-level list. Also, once per day on command the wearer can use this ring to summon a nosoi, as if by the summon monster III spell. CONSTRUCTION REQUIREMENTS Cost 3,800 gp; Feats Forge Ring; Spells planar ally or planar binding; Special creator must be neutral with no other alignment components"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_summoning_affinity_psychopomp",
+          "value": {
+            "value": 7600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_verdant__crb_",
+    "name": {
+      "value": "Verdant boots"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot feet; Price 12,000 gp; Weight 2 lbs. DESCRIPTION The wearer of these boots can, on command three times per day, cause her current square to sprout a thick canopy of fruit-bearing or otherwise edible plants. These plants count as difficult terrain and grant cover to any Medium or smaller creature within the square. They also provide enough food to sustain two Medium creatures for 1 full day. While the plants can grow on surfaces that would not normally support vegetation such as a wooden floor or cave stone, they cannot sprout on surfaces explicitly hostile to vegetation. The plants are usually of a sort common to the terrain or climate of the area in which they were produced. They disappear after 24 hours or when completely harvested, whichever comes first. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, plant growth; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_verdant",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_verdant",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

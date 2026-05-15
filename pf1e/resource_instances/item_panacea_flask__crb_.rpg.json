@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "panacea_flask__crb_",
+    "name": {
+      "value": "Panacea Flask"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot none; Price 6,000 gp; Weight 1/2 lb. DESCRIPTION This unassuming pewter flask is dented and tarnished. When filled with alcohol of any kind, a panacea flask imparts the benefits of remove disease once per day on whoever drinks out of it. Whether or not the remove disease effect is successful, the drinker gains a +1 morale bonus to saving throws for 1 hour, after which he is sickened until he sleeps for 8 hours. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells remove disease, resistance; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_panacea_flask",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

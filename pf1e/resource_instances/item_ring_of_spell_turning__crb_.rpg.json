@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_spell_turning__crb_",
+    "name": {
+      "value": "Ring of spell turning"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 13th; Slot ring; Price 100,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Up to three times per day on command, this simple platinum band automatically reflects the next nine levels of spells cast at the wearer, exactly as if spell turning had been cast upon him. CONSTRUCTION REQUIREMENTS Forge Ring, spell turning; Cost 50,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_spell_turning",
+          "value": {
+            "value": 100000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

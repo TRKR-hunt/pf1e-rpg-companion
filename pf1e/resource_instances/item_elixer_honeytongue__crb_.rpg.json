@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixer_honeytongue__crb_",
+    "name": {
+      "value": "Elixer, Honeytongue"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 750 gp; Slot none; CL 7th; Weight 1/2 lb.; Aura moderate transmutation DESCRIPTION Drinking this elixir grants the imbiber a +10 bonus on Bluff checks made to convince another that her words are the truth. This bonus lasts for 10 minutes, and doesn\u2019t apply to any other use of the Bluff skill, such as feinting in combat, creating a diversion to hide, or communicating a secret message via innuendo. If a magical effect is used against the honeytongue elixir\u2019s imbiber that would detect her lies or force her to speak the truth, the user of the effect must succeed at a DC 16 caster level check to compel the elixir\u2019s imbiber to tell the truth. Failure means the effect doesn\u2019t detect the imbiber\u2019s lies or force her to tell the truth. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells glibness"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixer_honeytongue",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

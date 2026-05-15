@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "caver_s_hammock__crb_",
+    "name": {
+      "value": "Caver's Hammock"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Second Darkness Player\u2019s Guide 28; Aura faint illusion and transmutation; CL 5th; Slot none; Price 1,200 gp; Weight 1 lb. DESCRIPTION This soft, billowy hammock weighs next to nothing and folds up small enough to fit into a pocket. Its magic renders the hammock both lightweight and incredibly strong, able to support up to 500 pounds. With a command word, the hammock affixes to any relatively flat, overhead surface or any two sturdy surfaces up to 10 feet apart. The hammock refuses to adhere to surfaces not strong enough to support the hammock at full capacity. Once affixed, a caver\u00e2\u0080\u0099s hammock takes on a dark gray, pebbly appearance like that of a typical cavern wall. Anyone attempting to spot the hammock in an underground or naturally rocky setting must make a DC 30 Perception check. Creatures with darkvision gain no special bonus to notice a caver\u00e2\u0080\u0099s hammock, but creatures with blindsense or scent have no additional difficulty in noticing an occupant of a caver\u00e2\u0080\u0099s hammock. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, silent image, spider climb; Cost 600 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_caver_s_hammock",
+          "value": {
+            "value": 1200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_caver_s_hammock",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

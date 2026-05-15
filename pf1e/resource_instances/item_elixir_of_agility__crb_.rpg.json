@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_agility__crb_",
+    "name": {
+      "value": "Elixir of Agility"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 450 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation EFFECTS This square flask contains an effervescent green liquid that causes the imbiber to become extremely nimble, albeit a bit jittery, for the next 30 minutes. During this time, the imbiber\u00e2\u0080\u0099s base speed increases by 5 feet and she gains a +2 competence bonus on Acrobatics checks and initiative checks. CONSTRUCTION REQUIREMENTS Cost 225 gp; Feats Craft Wondrous Item; Spells cat\u00e2\u0080\u0099s grace, heightened awareness"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_agility",
+          "value": {
+            "value": 450
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "orb_of_foul_abaddon__crb_",
+    "name": {
+      "value": "Orb of foul Abaddon #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 10th; Weight 1 lb.; Slot none; Price 18,000 gp DESCRIPTION This grapefruit-sized sphere of glossy black stone glows with faint whorls of orange fire deep within its inky substance. When held in hand, it can be commanded to unleash a dread bolt once per day. When used as an additional focus for casting a spell with the evil descriptor, the bearer gains a +1 bonus to her caster level for these spells. It bestows one permanent negative level on any good creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by restoration spells) while the bearer has the orb. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dread bolt; Special creator must be evil; Cost 9,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_orb_of_foul_abaddon",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_orb_of_foul_abaddon",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

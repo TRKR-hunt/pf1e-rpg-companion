@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "torc_of_lionheart_fury__crb_",
+    "name": {
+      "value": "Torc of lionheart fury #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 3rd; Slot neck; Price 8,000 gp; Weight 1 lb. DESCRIPTION Each end of this heavy copper neckwear bears the image of a snarling lion. The wearer gains a +2 morale bonus on saving throws against fear. If the wearer is a barbarian of at least 12th level, she gains the fearless rage rage power. If she already has this power, she also becomes immune to the panicked condition while raging, and any panic-causing attack against her while she rages instead causes her to regain 1 round of rage up to once per round. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, remove fear; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_torc_of_lionheart_fury",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_torc_of_lionheart_fury",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

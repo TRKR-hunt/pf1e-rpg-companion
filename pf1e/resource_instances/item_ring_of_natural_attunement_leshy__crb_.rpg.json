@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_natural_attunement_leshy__crb_",
+    "name": {
+      "value": "Ring of Natural Attunement (Leshy)"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,800 gp; Slot ring; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This ring is made of thin but strong vines braided together in an elegant weave. If the wearer can cast summon nature\u2019s ally spells, the wearer adds leaf leshy to the 1st-level list of monsters he can summon with those spells, adds gourd leshy to the 2nd-level list, adds fungus leshy the 3rd-level list, and adds seaweed leshy to the 4th-level list. Also, once per day on command the wearer can use this ring to summon a leaf leshy, as if by the summon nature\u2019s ally I spell. CONSTRUCTION REQUIREMENTS Cost 1,400 gp; Feats Forge Ring; Spells plant growth, summon nature\u2019s ally I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_natural_attunement_leshy",
+          "value": {
+            "value": 2800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

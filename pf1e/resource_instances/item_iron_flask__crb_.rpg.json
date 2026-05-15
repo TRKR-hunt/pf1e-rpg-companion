@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "iron_flask__crb_",
+    "name": {
+      "value": "Iron flask #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 20th; Slot \u00e2\u0080\u0094; Price 170,000 gp (empty); Weight 1 lb. DESCRIPTION These special containers are typically inlaid with runes of silver and stoppered by a brass plug bearing a seal engraved with sigils, glyphs, and special symbols. When the user speaks the command word, he can force any creature from another plane into the container, provided that creature fails a DC 19 Will save. The range of this effect is 60 feet. Only one creature at a time can be so contained. Loosing the stopper frees the captured creature. The command word can be used only once per day. If the individual freeing the captured creature speaks the command word, the creature can be forced to serve for 1 hour. If freed without the command word, the creature acts according to its natural inclinations. (It usually attacks the user, unless it perceives a good reason not to.) Any attempt to force the same creature into the flask a second time provides it a +2 bonus on its saving throw and makes it hostile. A newly discovered bottle might contain any of the following: d% Contents 01\u00e2\u0080\u009350 Empty 51\u00e2\u0080\u009354 Large air elemental 55\u00e2\u0080\u009358 Invisible stalker 59\u00e2\u0080\u009362 Large earth elemental 63\u00e2\u0080\u009366 Xorn 67\u00e2\u0080\u009370 Large fire elemental 71\u00e2\u0080\u009374 Salamander 75\u00e2\u0080\u009378 Large water elemental 79\u00e2\u0080\u009382 Xill 83\u00e2\u0080\u009385 Yeth hound 86 Demon ( shadow ) 87 Demon ( vrock ) 88 Demon ( hezrou ) 89 Demon ( glabrezu ) 90 Demon ( succubus ) 91 Devil ( osyluth ) 92 Devil ( barbazu ) 93 Devil ( erinyes ) 94 Devil ( cornugon ) 95 Agathion ( avoral ) 96 Azata ( ghaele ) 97 Archon ( trumpet ) 98 Rakshasa 99 Demon ( balor ) 100 Devil ( pit fiend ) CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, trap the soul; Cost 85,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_iron_flask",
+          "value": {
+            "value": 170000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_iron_flask",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bathing_basin__crb_",
+    "name": {
+      "value": "Bathing Basin"
+    },
+    "source": {
+      "value": "inner_sea_monster_codex"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,750 gp; Slot none; CL 5th; Weight 5 lbs.; Aura faint conjuration and transmutation DESCRIPTION This heavy bronze bowl, etched with outlines of waves, feels cool to the touch. Once per day as a standard action, the bowl can be commanded to grow in size and fill with 25 gallons of cool, fresh water. In its enlarged state, the basin can accommodate a Medium or smaller creature. The basin remains enlarged for 1 hour or until the user commands it to shrink. All water in the basin disappears when the item shrinks, and any creatures or objects that don\u2019t fit in the shrunken bowl are expelled into an adjacent square. CONSTRUCTION REQUIREMENTS Cost 3,375 gp; Feats Craft Wondrous Item; Spells create water, shrink item"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bathing_basin",
+          "value": {
+            "value": 6750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bathing_basin",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

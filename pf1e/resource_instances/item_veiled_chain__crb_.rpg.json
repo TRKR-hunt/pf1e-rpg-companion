@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "veiled_chain__crb_",
+    "name": {
+      "value": "Veiled Chain"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 3rd; Slot armor; Price 4,490 gp; Weight 25 lbs. DESCRIPTION Narrow strips of brilliant silk cloth are woven through the rings of this +1 chain shirt that cause the armor\u2019s colors to shift and shimmer as its wearer moves. The wearer can use disguise self and vanish each once per day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells disguise self, vanish; Price 2,370 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_veiled_chain",
+          "value": {
+            "value": 4490
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_veiled_chain",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

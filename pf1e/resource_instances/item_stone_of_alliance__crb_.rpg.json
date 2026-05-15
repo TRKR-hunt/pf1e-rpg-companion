@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_of_alliance__crb_",
+    "name": {
+      "value": "Stone of alliance #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Weight \u00e2\u0080\u0094; Slot none; Price 5,000 gp DESCRIPTION This tiny sphere of marble can be used to strengthen an existing link between the user and a creature bound to him. When activated by a creature and then swallowed by that creature\u2019s animal companion, bonded mount, or familiar, the stone magically remains inside the companion creature. Thereafter, the master is continually aware of the companion\u2019s distance, direction, and general condition as if using the spell status. If the master has line of sight to the companion, he may as an immediate action protect the creature from being harmed by one successful attack, taking the full effect of that attack instead. Once per day the master may spend a standard action to transfer the blinded, dazzled, deafened, fatigued, shaken, or sickened condition from the companion to himself. Alternatively, the master may partially transfer the exhausted, frightened, or nauseated condition from the companion to himself, with he and the companion both suffering the lesser version of that condition ( fatigued for exhausted, and so on). The master must be within 30 feet of the companion for him to use either aspect of this ability. The stone remains harmlessly inside the companion until it dies, the master dies, or the master dismisses the companion, at which point it crumbles into a worthless powder and is digested. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shield other, status; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_of_alliance",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

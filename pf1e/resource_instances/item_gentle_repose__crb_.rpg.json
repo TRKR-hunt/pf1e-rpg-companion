@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gentle_repose__crb_",
+    "name": {
+      "value": "Gentle repose"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "potion"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gentle_repose",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

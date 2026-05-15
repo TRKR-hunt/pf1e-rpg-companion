@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "swan_boat_token__crb_",
+    "name": {
+      "value": "Swan Boat Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 450 gp DESCRIPTION A token that forms a swan-like boat capable of moving on water at a speed of 60 feet. It can carry eight horses and gear, 32 Medium characters, or any equivalent combination. The boat lasts for 1 day. CONSTRUCTION REQUIREMENTS Requirements Craft Wondrous Item, major creation; Cost 225 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_swan_boat_token",
+          "value": {
+            "value": 450
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "thoqqua_snake__crb_",
+    "name": {
+      "value": "Thoqqua Snake"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 750 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION When burned, this firework produces smoke as a smokestick. It also expands into a tube of ash that, after 1 round, takes the form of a thoqqua. The thoqqua attacks the user\u2019s opponents to the best of its ability. If the user speaks Ignan, she can direct the thoqqua to not attack, to attack particular enemies, or to perform other actions. After 5 rounds or when it is reduced to 0 hit points (whichever comes first), the thoqqua collapses into a pile of non-magical ash. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells summon monster III"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_thoqqua_snake",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

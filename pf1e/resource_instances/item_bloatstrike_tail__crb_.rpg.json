@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloatstrike_tail__crb_",
+    "name": {
+      "value": "Bloatstrike Tail"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,901 gp; Slot none; CL 3rd; Weight 4 lbs.; Aura faint transmutation DESCRIPTION Three times per day, the wielder of this +1 pounder tail attachment can force any creature it strikes to increase in size by one size category ( Fort DC 11 negates) for 3 rounds. An enlarged creature takes a \u00e2\u0080\u00932 penalty to Dexterity (to a minimum of 1), a \u00e2\u0080\u00931 penalty on attack rolls, and \u00e2\u0080\u00931 penalty to AC because of its increased size, as the spell enlarge person. However, an enlarged creature doesn\u2019t gain the usual size bonus to Strength. If a creature fails its saving throw but can\u2019t enlarge any more because of the environment, it begins squeezing. A creature stops growing if growing larger would make it so large that it would be unable to squeeze. CONSTRUCTION REQUIREMENTS Cost 3,101 gp; Feats Craft Magic Arms and Armor; Spells enlarge person"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloatstrike_tail",
+          "value": {
+            "value": 5901
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bloatstrike_tail",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

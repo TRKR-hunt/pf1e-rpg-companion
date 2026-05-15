@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cape_of_bravado__crb_",
+    "name": {
+      "value": "Cape of bravado #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 2nd; Weight 1 lb.; Slot none; Price 7,000 gp DESCRIPTION This bright red garment bestows no benefit when worn on the shoulders, but when held in one hand while draped over the arm, the cape obscures its user\u2019s movements in combat. Used this way, the cape bestows a +1 insight bonus to AC and a +5 competence bonus on Bluff checks to feint in combat. Readying the cape in combat is a move action; if the wielder has a base attack bonus of +1 or higher, the wielder can ready the cape as a free action as part of movement. Once per day as an immediate action, a creature brandishing a cape of bravado may attempt to compel an opponent within 30 feet to attack him on its next turn ( Will negates DC 11). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, compel hostility; Special creator must have 5 ranks in the Bluff skill; Cost 3,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cape_of_bravado",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cape_of_bravado",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

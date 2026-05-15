@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "numerology_cylinder__crb_",
+    "name": {
+      "value": "Numerology Cylinder"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none CL 5th; Weight 1 lb.; Aura faint abjuration DESCRIPTION This cylindrical puzzle has eight faces and a dozen rings along its length that can be spun individually, each with different numbers on each face. EFFECTS The user of a numerology cylinder can twist and turn these rings into a multitude of combinations. As a full-round action, the user can try to find a new combination with particular numeric significance by attempting a DC 25 Knowledge (arcana) or DC 20 Intelligence check. If she finds one, she gains a +2 insight bonus on caster level checks (such as to overcome spell resistance ) for 24 hours. On a failed check, the faces lock and the cylinder can\u00e2\u0080\u0099t be used again for 24 hours. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells dispel magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_numerology_cylinder",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_numerology_cylinder",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

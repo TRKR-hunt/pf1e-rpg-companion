@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "quill_of_passage__crb_",
+    "name": {
+      "value": "Quill of Passage"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none; CL 5th Weight \u00e2\u0080\u0094; Aura faint transmutation APPEARANCE This black-feathered quill has a glowing nib with a small amount of glowing ink inside it. EFFECTS Three times per day, the bearer can place the quill\u00e2\u0080\u0099s nib against a wall and say a command word to cause the ink to flow from the pen and draw a doorway onto the wall. The doorway persists for 10 minutes, during which any number of creatures can spend a move action to walk through the door as if it were real. Doorways can be created in this way only on walls that are no more than 6 inches thick. Additionally, a doorway cannot be created if the space on the other side of the targeted wall is blocked (such as by solid stone or dirt, furniture, or another impediment). If the bearer attempts to create a doorway in such an impossible place, the quill\u00e2\u0080\u0099s ink simply doesn\u00e2\u0080\u0099t flow and a daily use of this item is not expended. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells knock, open and shut"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_quill_of_passage",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_of_cutting_flesh__crb_",
+    "name": {
+      "value": "Mask of Cutting Flesh"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot head; CL 3rd; Weight 1 lb.; Aura faint abjuration DESCRIPTION Note This item is associated with a specific deity. This black leather mask is studded with bits of bone and metal, with smooth-sewn holes for the wearer\u2019s eyes, mouth, and nostrils. It laces in the back with long straps and covers the entire face, leaving only the ears and back of the head exposed. The wearer gains a +2 resistance bonus on Fortitude saving throws. If the associated deity is the wearer\u2019s patron, once per day the wearer can whisper a command word to lash out at a target within 100 feet, unerringly slashing the target with an invisible blade of force that deals 2d4+2 points of force damage ( spell resistance applies). As a free action, the wearer can will the mask to unlace and reshape itself into a leather cap on top of the wearer\u2019s head, or hide itself within the wearer\u2019s shirt or helm. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item, animate rope, magic missile, resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_of_cutting_flesh",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_of_cutting_flesh",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

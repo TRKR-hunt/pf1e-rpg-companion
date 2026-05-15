@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_minotaur__crb_",
+    "name": {
+      "value": "Minotaur belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 4th; Slot belt; Price 11,000 gp; Weight 1 lb. DESCRIPTION This belt grants its wearer a +2 enhancement bonus to Strength, and the ability to ignore difficult terrain while charging or making an overrun, bull rush, or trample attempt. Treat the enhancement bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bull\u00e2\u0080\u0099s strength, feather step; Cost 5,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_minotaur",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_minotaur",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

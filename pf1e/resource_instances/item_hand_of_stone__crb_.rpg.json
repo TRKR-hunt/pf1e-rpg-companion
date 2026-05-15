@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hand_of_stone__crb_",
+    "name": {
+      "value": "Hand of stone #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 7th; Slot neck; Price 27,000 gp; Weight 2 lbs. DESCRIPTION This mummified dwarf hand hangs on a steel chain around a character\u00e2\u0080\u0099s neck, bringing the wearer more in tune with the earth beneath her feet. If the wearer spends a standard action concentrating on the hand, she gains tremorsense out to a range of 30 feet until the start of her next turn. This ability only allows her to sense creatures and objects that are in contact with earth or stone. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, clairaudience/clairvoyance; Cost 13,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hand_of_stone",
+          "value": {
+            "value": 27000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hand_of_stone",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

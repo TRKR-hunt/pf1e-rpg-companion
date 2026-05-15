@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_accompaniment__crb_",
+    "name": {
+      "value": "Staff of accompaniment"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation and transmutation; CL 8th; Slot none; Price 14,800 gp; Weight 5 lbs. DESCRIPTION This staff is adorned with musical notes. When held and used with bardic performance, it accompanies the song with the sounds of wind instruments, granting a +2 competence bonus on Perform checks. The staff allows use of the following spells: Chord of shards (1 charge) Saving finale (1 charge) Allegro (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells allegro, chord of shards, saving finale; Cost 7,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_accompaniment",
+          "value": {
+            "value": 14800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_accompaniment",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

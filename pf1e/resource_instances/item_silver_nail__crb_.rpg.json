@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "silver_nail__crb_",
+    "name": {
+      "value": "Silver Nail"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,100 gp; Slot none; CL 7th WEIGHT\u00e2\u0080\u0094 Aura moderate abjuration DESCRIPTION This silver nail is finely engraved with hundreds of tiny runes that flash faintly blue under the light of the moon. The nail can be used to trap evil outsiders and incorporeal undead creatures to prevent their escape. To use a silver nail, the bearer must take a full-round action and succeed at a touch attack against a creature. When used against a helpless or pinned evil outsider, the bearer can prevent that creature from escaping as per dimensional anchor. The bearer can instead trap an incorporeal undead creature. If he succeeds at a touch attack, the nail prevents the incorporeal undead creature from moving into walls or other solid objects. The effects of the silver nail last 1 minute, during which the nail remains inside the creature. When this duration ends, the nail falls out and is forever rendered powerless. If used against a creature that is neither an outsider nor an incorporeal undead creature, the silver nail has no effect, but is still expended. CONSTRUCTION REQUIREMENTS Cost 1,050 gp; Feats Craft Wondrous Item; Spells dimensional anchor, plane shift"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_silver_nail",
+          "value": {
+            "value": 2100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

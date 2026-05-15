@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gorget_of_umbral_hunger__crb_",
+    "name": {
+      "value": "Gorget of Umbral Hunger"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,500 gp; Slot neck; CL 5th Weight \u00e2\u0080\u0094; Aura faint conjuration APPEARANCE This intricately decorated bronze necklace fits tightly across the neck and houses a ruby in its center. EFFECTS Whenever the wearer of the necklace is in an area of dim light or darkness, including magical darkness, the ruby begins to glow and grants the wearer fast healing 1. The necklace can restore up to 20 hit points per day, after which its fast healing effect ends and the gorget becomes inert until its magic resets the next day. This fast healing can restore hit points regardless of the source of the damage, but the wearer detects as an evil creature while the gorget\u00e2\u0080\u0099s fast healing ability is active. This has no long-term effect on the wearer\u00e2\u0080\u0099s alignment. CONSTRUCTION REQUIREMENTS Cost 3,250 gp; Feats Craft Wondrous Item; Spells infernal healing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gorget_of_umbral_hunger",
+          "value": {
+            "value": 6500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

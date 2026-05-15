@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_bogstrider__crb_",
+    "name": {
+      "value": "Boots, Bogstrider"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot feet; CL 7th; Weight 1 lb.; Aura moderate abjuration DESCRIPTION These soft leather boots smell strongly of marsh gas, and leave faint wet prints behind even when they\u2019re dry. Despite these aesthetic flaws, bogstrider boots are of great use in areas of swampy terrain. They provide the wearer the ability to move without penalty in squares of shallow or deep bog, and the DCs of Acrobatics checks attempted by the boots\u2019 wearer are unchanged in squares of shallow bog. In addition, three times per day when the wearer takes a charge or withdraw action, she can increase her speed by 60 feet for 1 round. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells freedom of movement, haste"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_bogstrider",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_bogstrider",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

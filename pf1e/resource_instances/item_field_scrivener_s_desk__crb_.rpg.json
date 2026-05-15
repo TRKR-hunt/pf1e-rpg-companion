@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "field_scrivener_s_desk__crb_",
+    "name": {
+      "value": "Field Scrivener's Desk"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot none; Price 5,400 gp; Weight 2 lbs. DESCRIPTION Pathfinders are often called upon to take notes during their adventures, but sometimes finding a place where one can write in comfort while on a mission can be rather difficult. The field scrivener\u00e2\u0080\u0099s desk attempts to address this need. This magic desk can be folded up into a 3-inch-wide cube of lacquered wood for easy transport. Once per day, a single command causes this block of wood to unfold in the space of 1 round into an exquisite writing desk sized for a Small or Medium author, complete with four vials of ink, two writing quills, and 50 blank sheets of paper. The desk creates new supplies of ink, quills, and paper each time it is unfolded. Once the desk is unfolded, it creates a 20-foot radius hemisphere centered on the desk\u00e2\u0080\u0099s location\u00e2\u0080\u0094this effect is identical to that created by a tiny hut spell. Once activated, the desk\u00e2\u0080\u0099s tiny hut effect lasts for up to 10 hours or until the desk is folded up or moved more than a few inches. Of course, the effect also works to provide an ideal spot for a campsite, and in most parties a field scrivener\u00e2\u0080\u0099s desk is used solely for this effect. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, shrink item, tiny hut; Cost 2,700 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_field_scrivener_s_desk",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_field_scrivener_s_desk",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

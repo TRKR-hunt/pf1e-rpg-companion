@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tablet_of_the_first_law__crb_",
+    "name": {
+      "value": "Tablet of the First Law"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 6th; Weight 5 lbs.; Aura moderate abjuration DESCRIPTION The tablet lists anti-religious teachings along with several related verses that have been transcribed along the edges. When the tablet is read\u00e2\u0080\u0094a process that takes 10 minutes\u00e2\u0080\u0094its text glows with a golden light, providing the illumination of a candle, and the reader gains a +1 bonus on Will saving throws against all effects that come from a divine source for 24 hours. Only one person can benefit from this bonus at a time. A reader who possesses the Godless Healing feat can use the healing granted by that feat while reading the tablet. In this case, at the completion of the reading, the reader rolls twice and chooses the better roll when determining the amount of healing granted by Godless Healing. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item, Godless Healing; Spells dispel magic; Special creator must be an atheist"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tablet_of_the_first_law",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tablet_of_the_first_law",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

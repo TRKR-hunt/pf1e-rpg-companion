@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spell_to__crb_",
+    "name": {
+      "value": "Spell Totem"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot none; CL 13th; Weight \u00e2\u0080\u0094; Aura moderate evocation DESCRIPTION Carved from a piece of bone from the kind of animal it depicts, this primitive charm can hold (but not cast) up to 3 levels of spells as a minor ring of spell storing. When the bearer uses a polymorph effect or other ability to transform into an animal that matches the animal the totem depicts (including dire versions), it can use one of the spells stored within on itself as a swift action. This spell must be able to target the bearer in its animal form. The bearer does not need to be able to cast the spell contained within a spell totem in order to use this item. When the bearer changes shape again\u00e2\u0080\u0094either by taking the form of a different creature or reverting to its natural form\u00e2\u0080\u0094 the spell cast from the totem immediately ends, as though the duration had expired. Spell totems can be crafted in the form of animals or magical beasts. CONSTRUCTION REQUIREMENTS Cost 6,000 gp; Feats Craft Wondrous Item, Quicken Spell; Spells contingency, imbue with spell ability"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spell_to",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

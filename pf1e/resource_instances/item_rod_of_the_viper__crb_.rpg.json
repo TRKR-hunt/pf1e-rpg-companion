@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_the_viper__crb_",
+    "name": {
+      "value": "Rod of the Viper"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 10th; Slot none; Price 19,000 gp; Weight 5 lbs. DESCRIPTION This rod strikes as a +2 heavy mace. Once per day, upon the wielder\u2019s command, the head of the rod becomes that of an actual serpent for 10 minutes. During this period, any successful strike with the rod deals its usual damage and also poisons the creature hit. This poison deals 1d3 points of Constitution damage per round for 6 rounds. Poisoned creatures can make a DC 16 Fortitude save each round to negate the damage and end the affliction. Multiple hits extend the duration by 3 rounds and increase the DC by 2 for each hit. The rod only functions if its possessor is evil. CONSTRUCTION REQUIREMENTS Feats Craft Rod, Craft Magic Arms and Armor; Spells poison; Special creator must be evil; Cost 9,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_the_viper",
+          "value": {
+            "value": 19000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_the_viper",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

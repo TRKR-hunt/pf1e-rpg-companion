@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tamer_s_whip__crb_",
+    "name": {
+      "value": "Tamer's Whip"
+    },
+    "source": {
+      "value": "animal_archive"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and enchantment [ mind-affecting, sonic ]; CL 8th; Slot none; Price 11,901 gp; Weight 2 lbs. DESCRIPTION This leathern lash is dyed with special unguents that give it a disturbing crimson hue. A tamer\u2019s whip is a +1 animal \u2013 bane whip that deals lethal damage to animals and magical beasts regardless of their natural armor bonus. Cracking a tamer\u2019s whip as a move action grants the wielder the following benefits until the end of her turn: a +4 competence bonus on Intimidate checks made against animals and magical beasts, a +4 competence bonus on Handle Animal checks made to push them, and a +2 bonus on any combat maneuvers against animals or magical beasts. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells animal trance, snare, summon nature\u2019s ally I; Cost 6,101 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tamer_s_whip",
+          "value": {
+            "value": 11901
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tamer_s_whip",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

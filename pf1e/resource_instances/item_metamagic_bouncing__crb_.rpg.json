@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "metamagic_bouncing__crb_",
+    "name": {
+      "value": "Bouncing spell"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong (no school); CL 17th; Weight 5 lbs. Price varies by specific type: Lesser bouncing metamagic rod 3,000 gp Bouncing metamagic rod 11,000 gp Greater bouncing metamagic rod 24,500 gp DESCRIPTION The wielder can cast up to three spells per day that bounce as though using the Bouncing Spell feat. CONSTRUCTION REQUIREMENTS Feats Craft Rod, Bouncing Spell Cost varies by specific type: Lesser bouncing metamagic rod 1,500 gp Bouncing metamagic rod 5,500 gp Greater bouncing metamagic rod 12,250 gp FYI: Lesser and Greater Metamagic Rods Normal metamagic rods can be used with spells of 6th level or lower. Lesser rods can be used with spells of 3rd level or lower, while greater rods can be used with spells of 9th level or lower."
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_metamagic_bouncing",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

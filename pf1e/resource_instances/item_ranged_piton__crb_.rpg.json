@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ranged_piton__crb_",
+    "name": {
+      "value": "Ranged Piton"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 800 gp; Slot none; CL 5th; Weight 1 lb.; Aura faint transmutation DESCRIPTION This pointed metallic piton bears a ring the size of a gold piece. A ranged piton is sized and designed so that it can be launched as easily as an arrow. When fired from a bow as a standard action at an object or empty square, the wielder makes a ranged attack against AC 5 to determine whether the piton hits the intended target. Range penalties apply as normal. On a hit, the piton attaches to the point struck, cleaving to vertical and horizontal surfaces alike. An attached ranged piton can be recovered only by speaking a command word while pulling on the piton\u2019s ring. Light rope, such as silk rope, can be threaded through the piton\u2019s ring before it is fired to rapidly place rope lines. CONSTRUCTION REQUIREMENTS Cost 400 gp; Feats Craft Wondrous Item; Spells spider climb"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ranged_piton",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ranged_piton",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

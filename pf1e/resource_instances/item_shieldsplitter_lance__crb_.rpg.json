@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shieldsplitter_lance__crb_",
+    "name": {
+      "value": "Shieldsplitter lance"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Weight 10 lbs.; Price 18,310 gp DESCRIPTION This +1 keen lance has the ability to penetrate and destroy shields. Whenever its wielder uses it to successfully strike an opponent who carries a shield, the opponent\u2019s shield takes the same damage as the opponent. If the wielder uses the lance to make a sunder attack against a shield, it bypasses the shield\u2019s hardness. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells keen edge, shatter; Cost 9,310 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shieldsplitter_lance",
+          "value": {
+            "value": 18310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shieldsplitter_lance",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

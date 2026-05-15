@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "weirding_watch__crb_",
+    "name": {
+      "value": "Weirding Watch"
+    },
+    "source": {
+      "value": "tears_at_bitter_manor"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot none; Price 22,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This gold-plated watch is divided into five pieces. The weirding watch keeps flawless time without ever needing to be wound or repaired. In addition, the bearer of any piece of the watch can activate it to exercise power over time for herself and her allies. Once a watch piece is activated, the bearer gains the benefits of haste and lesser age resistance for 3 rounds. Anyone bearing a piece from the same weirding watch within 30 feet receives the same effect. Each piece of the watch can be activated once per day. The price of a weirding watch includes all five pieces. Pieces are rarely sold separately. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells haste, lesser age resistance; Cost 11,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_weirding_watch",
+          "value": {
+            "value": 22000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

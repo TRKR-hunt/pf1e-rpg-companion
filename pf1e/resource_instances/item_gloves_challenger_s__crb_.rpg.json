@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_challenger_s__crb_",
+    "name": {
+      "value": "Challenger\u2019s gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 1st; Slot hands; Price 2,200 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These supple, velvet gloves are the sort that might be thrown down in challenge for a duel or other single combat. By removing a glove and using it to make a melee or ranged touch attack against an opponent, the wearer of the other glove gains a +1 morale bonus on attack rolls against the target, and the target gains a \u00e2\u0080\u00941 penalty on attack rolls against the wearer. Both of these effects last for 1 minute, but immediately end if anyone but the glove\u00e2\u0080\u0099s wearer attacks the challenged opponent. Both gloves must be worn by the same creature. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bane, bless; Cost 1,100 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_challenger_s",
+          "value": {
+            "value": 2200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

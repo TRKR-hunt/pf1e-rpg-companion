@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_stalker_s__crb_",
+    "name": {
+      "value": "Stalker\u2019s mask"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 5th; Slot head; Price 3,500 gp; Weight 1 lb. DESCRIPTION Preserved sections harvested from several different human faces cover this mask. When worn, the mask desaturates the wearer\u00e2\u0080\u0099s color, making him appear shadowy and granting a +5 competence bonus on Stealth checks. Once per day as a full-round action, the wearer can cause the mask\u00e2\u0080\u0099s features to take on the appearance of any creature of the wearer\u00e2\u0080\u0099s basic size and shape within 60 feet that he observes, allowing the wearer to adopt that creature\u00e2\u0080\u0099s appearance for 1 hour. This grants him a +10 bonus on Disguise checks made to appear as the creature. The mask also grants the wearer a +1 bonus on attack rolls and weapon damage rolls made against the creature he is disguised as, as the mask builds upon the wearer\u00e2\u0080\u0099s rage and jealousy of the target\u00e2\u0080\u0099s appearance. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, disguise self, rage; Cost 1,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_stalker_s",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_stalker_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trapmaker_s_sack__crb_",
+    "name": {
+      "value": "Trapmaker's Sack"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot none; Price 20,000 gp; Weight 2 lbs. DESCRIPTION This heavy leather bag bulges only slightly but upon closer inspection appears to be chocked full of knives, gears, picks, shovels, and arrows. Once per day as a full-round action, the bearer can command the sack to create any mechanical trap of CR 4 or less, which appears at a designated spot within 50 feet. The bearer must make a Craft (traps) check with a DC equal to the normal DC for creating the trap. If successful, the trap instantly merges with the chosen area, exactly as if someone had actually built the trap in that spot. If the check fails, no trap appears. The sack can alter earth, stone, and wood to accommodate the trap without altering nearby terrain (including doors, pits, and so on). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, fabricate; Special creator must have 5 ranks in Craft (traps); Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trapmaker_s_sack",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trapmaker_s_sack",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

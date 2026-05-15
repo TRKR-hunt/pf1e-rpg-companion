@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracers_howling__crb_",
+    "name": {
+      "value": "Bracers, Howling"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,000 gp; Slot wrists; CL 7th; Weight 1 lb.; Aura moderate enchantment DESCRIPTION These bracers are made of heavy iron and have a pattern of howling wolves engraved upon them. Once per day on command, the wearer can clash the bracers together rhythmically. This causes the wolves etched into the bracers to come to life and let out a chorus of howls, with the effect of crushing despair (DC 16). Additionally, for every two creatures under the effect of the wearer\u2019s raging song when this ability is used, the DC increases by 1, up to a maximum increase of 5. CONSTRUCTION REQUIREMENTS Cost 3,500 gp; Feats Craft Wondrous Item; Spells crushing despair; Special creator must have the raging song class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracers_howling",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracers_howling",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_arcane_signets__crb_",
+    "name": {
+      "value": "Ring of arcane signets"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint universal; CL 8th; Slot ring; Price 1,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION The approximately 1-inch-diameter pentagon of emerald green crystal that dominates this otherwise plain silver ring forms itself into a specific rune, sigil, or similar identifying marker each time a person first puts it on. If the wearer expects this to occur, she can cause the crystal to adopt any shape she wishes. If the wearer does not expect this to occur, the crystal instead molds itself into an image that symbolizes the wearer or some dominant facet of her personality. Once the crystal assumes this initial form, it always takes that form whenever the same wearer puts on the ring. The wearer can, as a standard action, embed this image on any object (as if using arcane mark ) simply by pressing the ring against it. The wearer may choose the color and other cosmetic features of the image each time she uses the ring. The brand is otherwise permanent unless removed by dispel magic, erase, or a more powerful spell. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells arcane mark; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_arcane_signets",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

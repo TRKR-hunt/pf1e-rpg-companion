@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_smuggler_s__crb_",
+    "name": {
+      "value": "Wayfinder, Smuggler's"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot none; CL 9th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION This time-weathered wayfinder lacks any notable features. Despite its routine appearance, a smuggler\u2019s wayfinder has an additional ability generally known only to the person using it. When a command word is spoken, the compass\u2019s interior is replaced with a small extradimensional space that can hold up to 10 pounds of material occupying no more than 1 cubic foot of space. This material must be able to fit through the 3-inch diameter opening in the compass\u2019s face (such as a thin glass vial, coins, small jewelry, or a rolled-up piece of paper). While the extradimensional space is accessible, all other properties of the wayfinder cease to function, including any resonant ioun stone powers. While the extradimensional space is hidden, the smuggler\u2019s wayfinder emits an aura of faint evocation, as a standard wayfinder. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells light, magic aura, secret chest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_smuggler_s",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_smuggler_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "veil_of_veils__crb_",
+    "name": {
+      "value": "Veil of Veils"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,300 gp; Slot head; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint illusion DESCRIPTION Note This item is associated with a specific deity. This fine silken veil can change color or alter its appearance to a highwayman\u2019s mask or similar cloth face covering. Once per day, the wearer can use disguise self, though the veil remains visible as some kind of garment on the wearer\u2019s head or face. If the associated deity is the wearer\u2019s patron, once per day the wearer can use blur. In addition, the wearer gains a +2 competence bonus on Bluff checks. CONSTRUCTION REQUIREMENTS Cost 1,650 gp; Feats Craft Wondrous Item, blur, disguise self; Special creator must have 5 ranks in Bluff"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_veil_of_veils",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

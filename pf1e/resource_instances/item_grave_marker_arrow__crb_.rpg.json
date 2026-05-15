@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grave_marker_arrow__crb_",
+    "name": {
+      "value": "Grave Marker Arrow"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 307 gp; Slot none; CL 5th; Weight 1/10 lb.; Aura faint necromancy DESCRIPTION This +1 arrow is crafted from human bone. When it strikes a target, all mindless undead within 300 feet are compelled to attack the creature struck. This effect ignores the immunity to mind-affecting effects normally granted by the undead creature type. Undead under the control of another creature can be forced to ignore this command if their master succeeds at a DC 11 caster level check. Sentient undead are unaffected. The compulsion lasts for 1 minute, after which the undead revert to their normal behavior. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells command undead; Cost 157 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grave_marker_arrow",
+          "value": {
+            "value": 307
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

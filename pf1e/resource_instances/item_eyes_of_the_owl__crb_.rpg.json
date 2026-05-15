@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eyes_of_the_owl__crb_",
+    "name": {
+      "value": "Eyes of the owl #2"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot eyes; Price 4,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These magical goggles are decorated with owl motifs, including clusters of feathers over the eyes. The wearer gains low-light vision. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape I; Cost 2,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eyes_of_the_owl",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "valorous_blade__crb_",
+    "name": {
+      "value": "Valorous Blade"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,315 gp; Slot none; CL 9th; Weight 5 lbs.; Aura moderate enchantment DESCRIPTION Once per day within 1 minute of using this +1 valiant scimitar to kill or knock unconscious a foe, as a standard action, the wielder can inspire all allies within 60 feet who can see her. Those allies gain a +2 morale bonus on attack rolls, skill checks, and saving throws for 10 minutes. CONSTRUCTION REQUIREMENTS Cost 10,315 gp; Feats Craft Magic Arms and Armor; Spells good hope, true strike"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_valorous_blade",
+          "value": {
+            "value": 20315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_valorous_blade",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

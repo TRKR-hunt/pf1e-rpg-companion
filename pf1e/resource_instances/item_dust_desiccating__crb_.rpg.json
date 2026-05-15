@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dust_desiccating__crb_",
+    "name": {
+      "value": "Dust, Desiccating"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 5th; Slot none; Price 1,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This yellowish gray powder is composed of grave dirt and ground snakeskin. The user spreads the dust in two 5-foot squares, typically across doorways frequented by the intended victims\u00e2\u0080\u0094this takes 1d4 rounds to accomplish. A creature stepping into an area warded by desiccating dust must make a DC 19 Fortitude save to avoid suddenly becoming horrifically thirsty and wracked with pain, taking 5d6 points of nonlethal damage, and immediately becoming fatigued. The nonlethal damage caused by this effect cannot be healed until the creature can drink some water. A creature that remains in an area warded by desiccating dust need not make additional saves to avoid the effect, but if it steps out of the area, it must save again as soon as it reenters the warded area. A creature already taking nonlethal damage or fatigue from desiccating dust suffers no additional ill effect from passing through an area protected by this magical dust. Once a dose of desiccating dust is applied to an area, that area remains warded by the effect for 24 hours, or until a creature is affected by the dust, at which point the entire dusted area expends its magic and becomes harmless. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cup of dust; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dust_desiccating",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

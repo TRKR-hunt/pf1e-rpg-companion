@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "star_ring__crb_",
+    "name": {
+      "value": "Star Ring"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot ring; Price 35,000 gp; Aura moderate abjuration and illusion; CL 9th; Weight \u00e2\u0080\u0094 DESCRIPTION This otherwise plain ring is adorned with a tiny star-shaped rune. These rings were given as badges of office and tokens of appreciation\u00e2\u0080\u0094sometimes, they were given as bribes. A star ring grants a +3 deflection bonus to AC, a +3 resistance bonus on all saving throws, and protects the wearer with a constant endure elements effect. At will, as a standard action, the wearer can use the ring to change the appearance of his clothing or armor into any other kind of clothing or armor. The actual clothing and armor worn retain all their properties (including weight) when glamered. Only true seeing or similar magic reveals the true nature of the adornments. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells endure elements, resistance, shield; Cost 17,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_star_ring",
+          "value": {
+            "value": 35000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

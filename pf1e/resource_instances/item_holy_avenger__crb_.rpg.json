@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "holy_avenger__crb_",
+    "name": {
+      "value": "Holy avenger"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 18th; Weight 4 lbs.; Price 120,630 gp DESCRIPTION This +2 cold iron longsword becomes a +5 holy cold iron longsword in the hands of a paladin. When wielded by a paladin, this sacred weapon provides spell resistance of 5 + the paladin\u2019s class level to the wielder and anyone adjacent to her. It also enables the paladin to use greater dispel magic (once per round as a standard action ) at the class level of the paladin. Only the area dispel is possible, not the targeted dispel or counterspell versions of greater dispel magic. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells holy aura; Special creator must be good; Cost 60,630 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_holy_avenger",
+          "value": {
+            "value": 120630
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_holy_avenger",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

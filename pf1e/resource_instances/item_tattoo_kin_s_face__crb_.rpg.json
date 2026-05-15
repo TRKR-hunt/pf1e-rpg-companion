@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_kin_s_face__crb_",
+    "name": {
+      "value": "Tattoo, Kin's Face"
+    },
+    "source": {
+      "value": "bastards_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,600 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint illusion DESCRIPTION This intricate tattoo covers the bearer\u2019s face in thousands of hair-fine lines of ink and carefully incised scars, and even extends to etchings upon the bearer\u2019s tusks, together giving the effect of a topographic map of the bearer\u2019s face. The bearer can activate the tattoo to cause the marked design to shift and the scars to open and pull the bearer\u2019s face into a different shape. The bearer then gains the benefits of disguise self, save that the bearer can take only the form of a specific half-orc, human, or orc, and the disguise lasts up to 5 hours per day. This duration need not be continuous, but it must be used in 1-hour increments. The material components for the kin\u2019s face tattoo include rare pigments that are mixed with the bearer\u2019s blood, then worked into the bearer\u2019s skin. To remove this tattoo, the tattooed portions must be erased and the scars healed. CONSTRUCTION REQUIREMENTS Cost 800 gp; Feats Inscribe Magical Tattoo; Spells disguise self"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_kin_s_face",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

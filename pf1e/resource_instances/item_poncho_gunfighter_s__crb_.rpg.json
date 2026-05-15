@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "poncho_gunfighter_s__crb_",
+    "name": {
+      "value": "Gunfighter\u2019s poncho"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 6th; Slot shoulders; Price 14,000 gp; Weight 1 lb. DESCRIPTION The abjurations woven into this woolen poncho not only defend against gunfire, but also insulate the wearer from dangerous magic. The wearer gains a +2 luck bonus to touch AC. Once per day as an immediate action, the wearer can negate a single ranged touch attack targeted at him, but cannot use this ability if the attack is a confirmed critical hit. When the wearer uses this ability, he must fall prone. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bullet shield; Cost 7,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_poncho_gunfighter_s",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_poncho_gunfighter_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

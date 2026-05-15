@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_caster_s__crb_",
+    "name": {
+      "value": "Tattoo, Caster\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint (lesser), moderate (normal), or strong (greater) evocation; CL 5th (lesser), 11th (normal), or 17th (greater) Slot none; Price 6,000 gp (lesser), 21,000 gp (normal), 48,000 gp (greater) DESCRIPTION A caster\u00e2\u0080\u0099s tattoo is infused with potential magical energy that aids in casting spells that normally utilize verbal and somatic components. Once per day, a spellcaster may activate her caster\u00e2\u0080\u0099s tattoo as a swift action to automatically enhance the next spell she casts in that round with both the Still Spell and Silent Spell feats. When she casts the spell, the caster\u00e2\u0080\u0099s tattoo flares with light for a moment, then grows faint and faded\u00e2\u0080\u0094it replenishes its energy in 24 hours, after which it becomes bold and colorful and can be used again. Required material components or foci must be in the creature\u00e2\u0080\u0099s possession to cast the spell (and are consumed as normal), but need not be held when the spell is cast. Caster\u00e2\u0080\u0099s tattoos are available in lesser, standard, and greater versions, allowing the modified casting of a spell of up to 3rd level, 6th level, or 9th level respectively. CONSTRUCTION REQUIREMENTS Feats Inscribe Magical Tattoo, Silent Spell, Still Spell; Cost 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_caster_s",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

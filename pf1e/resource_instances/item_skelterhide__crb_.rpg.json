@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "skelterhide__crb_",
+    "name": {
+      "value": "Skelterhide"
+    },
+    "source": {
+      "value": "assault_on_longshadow"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,500 gp; Slot shoulders; CL 15th; Weight 5 lbs.; Aura strong enchantment ABOUT Skeltercats are common folklore in taverns that mothers use to frighten their children. The hides of these dual-minded creatures are reputed to be amenable to enhancements, and many shamans use them to craft tribal relics. DESCRIPTION This thick hide cloak grants its wearer the divided mind of a skeltercat. EFFECTS While worn, the cloak imparts a +1 resistance bonus on Fortitude and Reflex saves and a +2 resistance bonus on Will saves. In addition, once per round, the wearer can reroll the percentile dice when determining her actions while confused and choose the desired result. Once the cloak is donned, the wearer cannot speak or write; she can communicate only in unintelligible growls. The wearer still understands language as normal. If the wearer suffers from one or more permanent mental afflictions that alter her behavior, such as insanity or the effects of a helm of opposite alignment, for 15 minutes per day she can function as if unaffected by these conditions. This time does not need to be used all at once, but must be used in 1-minute increments. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item; Spells calm emotions, resistance, blindness/deafness"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_skelterhide",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_skelterhide",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

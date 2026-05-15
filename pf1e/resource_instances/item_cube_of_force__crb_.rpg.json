@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cube_of_force__crb_",
+    "name": {
+      "value": "Cube of force #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot \u00e2\u0080\u0094; Price 62,000 gp; Weight 1/2 lb. DESCRIPTION This device is just under an inch across and can be made of ivory, bone, or any hard mineral. Typically, each of the cube\u2019s faces are polished smooth, but sometimes they are etched with runes. The device enables its possessor to put up a special cube made up of 6 individual wall of force spells, 10 feet on a side around her person. This cubic screen moves with the character and is impervious to the attack forms mentioned on the table below. The cube has 36 charges when fully charged\u00e2\u0080\u0094charges used are automatically renewed each day. The possessor presses one face of the cube to activate a particular type of screen or to deactivate the device. Each effect costs a certain number of charges to maintain for every minute (or portion of a minute) it is in operation. Also, when an effect is active, the possessor\u2019s speed is limited to the maximum value given on the table. When the cube of force is active, attacks dealing more than 30 points of damage drain 1 charge for every 10 points of damage beyond 30 that they deal. The charge cost to maintain each of the cube\u2019s six walls is summarized below. Spells that affect the integrity of the screen also drain extra charges. These spells cannot be cast into or out of the cube. Cube Face Charge Cost per Minute Max. Speed Effect 1 1 30 ft. Keeps out gases, wind, etc. 2 2 20 ft. Keeps out nonliving matter 3 3 15 ft. Keeps out living matter 4 4 10 ft. Keeps out magic 5 6 10 ft. Keeps out all things 6 0 As normal Deactivates Attack Form Extra Charges Disintegrate 6 Horn of blasting 6 Passwall 3 Phase door 5 Prismatic spray 7 Wall of fire 2 CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, wall of force; Cost 31,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cube_of_force",
+          "value": {
+            "value": 62000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

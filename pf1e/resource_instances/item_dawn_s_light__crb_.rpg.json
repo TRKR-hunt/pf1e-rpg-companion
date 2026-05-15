@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dawn_s_light__crb_",
+    "name": {
+      "value": "Dawn's Light"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 40,000 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint divination and evocation DESCRIPTION When lit, this hooded lantern shines brightly in a 60-foot radius, as daylight. Once per day as a swift action, if the owner is a good-aligned divine spellcaster, she can intensify the lantern\u2019s light for 1 hour. This intensified light dazzles evil outsiders and undead in the area, and evil incorporeal creatures take 75% damage from magical attacks instead of 50%. If an illuminated creature or object has a mark indicating evil allegiance\u00e2\u0080\u0094such as a demoniac\u2019s demonic mark\u00e2\u0080\u0094that mark glow brilliantly, shining through anything short of magical concealments. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells daylight, detect evil; Special creator must worship a good god or goddess, usually one that represents light or brilliance; Cost 20,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dawn_s_light",
+          "value": {
+            "value": 40000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dawn_s_light",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

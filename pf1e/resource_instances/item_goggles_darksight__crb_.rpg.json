@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goggles_darksight__crb_",
+    "name": {
+      "value": "Darksight goggles"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 6th; Slot eye; Price 20,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These goggles\u00e2\u0080\u0099 dark lenses are made of round obsidian sheets thin enough to see through. They grant the wearer darkvision 120 ft., as well as a +4 competence bonus on Perception checks and Survival checks made to track while underground. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, darkvision, terrain bond; Cost 10,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goggles_darksight",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_the_woodlands__crb_",
+    "name": {
+      "value": "Staff of the woodlands"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 13th; Slot none; Price 100,400 gp; Weight 5 lbs. DESCRIPTION Appearing to have grown naturally into its shape, this oak, ash, or yew staff allows use of the following spells: Charm animal (1 charge) Speak with animals (1 charge) Barkskin (2 charges) Summon nature\u2019s ally VI (3 charges) Wall of thorns (3 charges) Animate plants (4 charges) The staff may be used as a weapon, functioning as a +2 quarterstaff. The staff of the woodlands also allows its wielder to cast pass without trace at will, with no charge cost. These two attributes continue to function after all the charges are expended. CONSTRUCTION REQUIREMENTS Requirements Craft Magic Arms and Armor, Craft Staff, animate plants, barkskin, charm animal, pass without trace, speak with animals, summon nature\u2019s ally VI, wall of thorns; Cost 50,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_the_woodlands",
+          "value": {
+            "value": 100400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_the_woodlands",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

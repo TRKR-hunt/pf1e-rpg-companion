@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_spell_cunning__crb_",
+    "name": {
+      "value": "Amulet of spell cunning #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot neck; Price 10,000 gp; Weight 1 lb. DESCRIPTION This silver locket only has power when used as a wizard\u2019s bonded object. It allows a wizard to prepare an additional 3 levels of spells per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mnemonic enhancer; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_spell_cunning",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_of_spell_cunning",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

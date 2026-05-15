@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fanged_falchion__crb_",
+    "name": {
+      "value": "Fanged Falchion"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot none; Price 22,375 gp; Aura moderate transmutation [evil]; CL 11th; Weight 8 lbs. DESCRIPTION The blade of this brutal-looking falchion is serrated, forming the fangs of the stylized etching of a jackal\u2019s profile on the shimmering metal. A fanged falchion is a +1 unholy falchion and wounds caused by the weapon\u2019s serrated edge are horrifically ragged and bleed profusely. Whenever a fanged falchion\u2019s wielder scores a successful critical hit with it, the sword\u2019s blade animates and \u00e2\u0080\u009cchews\u00e2\u0080\u009d at its victim. In addition to doing damage for the critical hit, this horrific chewing deals 2 points of Constitution damage and stuns the victim for 1 round ( Fort DC 15 negates). Creatures immune to critical hits are immune to this Constitution damage and the stun effect. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor; Spells harm, unholy blight; Special creator must be evil; Cost 11,375 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fanged_falchion",
+          "value": {
+            "value": 22375
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fanged_falchion",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

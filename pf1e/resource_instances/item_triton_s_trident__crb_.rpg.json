@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "triton_s_trident__crb_",
+    "name": {
+      "value": "Triton\u2019s trident"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Weight 4 lbs.; Price 15,065 gp DESCRIPTION This curve-tined +1 monstrous humanoid bane trident is etched with a pattern of alternating scales and shells. A triton\u2019s trident can unleash a hydraulic push three times per day, once from each tine; alternatively, their power can be combined to release a single hydraulic torrent once per day. The CMB for either effect is +6. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells hydraulic push, hydraulic torrent, summon monster I; Cost 7,690 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_triton_s_trident",
+          "value": {
+            "value": 15065
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_triton_s_trident",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

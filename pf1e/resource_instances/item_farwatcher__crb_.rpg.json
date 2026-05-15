@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "farwatcher__crb_",
+    "name": {
+      "value": "Farwatcher"
+    },
+    "source": {
+      "value": "lost_kingdoms"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 11th; Slot none; Price 120,850 gp; Weight 260 lbs. DESCRIPTION This exquisite telescope is crafted of brass, ivory, wood, and carefully polished crystal lenses and silver mirrors, and is over 10 feet long. Anyone using a farwatcher must possess at least 5 ranks in Profession (astronomy) in order to use it\u00e2\u0080\u0094the device is simply too complex for anyone with less training to use it properly. An observer using this device gains a +20 circumstance bonus on Perception checks to discern celestial bodies, as well as a +20 circumstance bonus on any Profession (astronomer) checks made while using it at night. A farwatcher can be used during either the night or day to look at celestial or terrestrial objects, though any object within 1 mile viewed through the telescope is obscured beyond recognition. A farwatcher allows its user to see things through it as though under the effects of true seeing for up to 1 hour per day. These minutes need not be consecutive, but must be expended in minimum increments of 10 minutes each. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Skills Profession (astronomy) 11 ranks; Spells true seeing; Cost 60,550 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_farwatcher",
+          "value": {
+            "value": 120850
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_farwatcher",
+          "value": {
+            "value": 260
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

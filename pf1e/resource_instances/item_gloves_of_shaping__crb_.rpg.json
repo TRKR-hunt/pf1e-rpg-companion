@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_shaping__crb_",
+    "name": {
+      "value": "Gloves of shaping #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot hands; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These soft leather gloves are constantly encrusted with clay between the fingers and allow the reshaping of otherwise durable materials. The wearer can shape objects with hardness 8 or lower (stone, wood, leather, and so on) as if it were soft clay. While it\u00e2\u0080\u0099s possible to rapidly make crude shapes (shaping roughly 1 cubic foot of material per round), creating fine detail or moving parts requires additional time and an appropriate Craft check, at the GM\u00e2\u0080\u0099s discretion. Materials with more than 8 points of hardness are still affected, though not so dramatically. The wearer may treat these materials as having half as much hardness when attempting to damage or reshape them. For instance, a steel bar normally has 10 points of hardness, but the wearer of the gloves may treat it as having hardness 5, and shape it with woodworking tools. The gloves only affect shaping materials with the wearer\u00e2\u0080\u0099s hands or handheld tools, and only when the wearer desires to do so. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, soften earth and stone, stone shape, transmute rock to mud; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_shaping",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crystal_rhombocrystal__crb_",
+    "name": {
+      "value": "Crystal, Rhombocrystal"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 1st Slot none; Price 2,250 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This jewel-like lens slowly changes colors over time. Most owners set it in a metal fixture on a chain and carry it as a pendant, monocle, or loupe. It acts as a magnifying glass and gives you a +5 competence bonus on Appraise checks involving gems and crystals. If Nivi Rhombodazzle is your patron you gain a +1 luck bonus on Reflex saving throws. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, divine favor; Special creator must have 5 ranks in Appraise; Cost 1,125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crystal_rhombocrystal",
+          "value": {
+            "value": 2250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

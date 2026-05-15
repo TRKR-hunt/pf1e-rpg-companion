@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fiery_nimbus_rod__crb_",
+    "name": {
+      "value": "Fiery nimbus rod"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Slot none; Price 22,305 gp; Weight 3 lbs. DESCRIPTION This rod functions as a +1 flaming burst light mace. Furthermore, when the rod confirms a critical hit, not only does it deal the extra damage from the flaming burst special ability, a nimbus of cold blue flames ignites the target for 1d4 rounds. This illuminates the target as the faerie fire spell. While the nimbus does not burn the target, it responds to melee attacks made against that foe. Each time an ignited foe takes damage from a melee attack, it takes and additional 1d10 fire damage. Furthermore, once per day, as a free action, after hitting a foe with this rod, the wielder can surround the target of that attack with the nimbus, which has the same effect as the nimbus created by a confirmed critical hit. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Rod, flame blade, flame strike, or fireball; Cost 11,305 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fiery_nimbus_rod",
+          "value": {
+            "value": 22305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fiery_nimbus_rod",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

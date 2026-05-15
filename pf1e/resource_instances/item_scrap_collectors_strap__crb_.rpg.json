@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scrap_collectors_strap__crb_",
+    "name": {
+      "value": "Scrap Collector's Strap"
+    },
+    "source": {
+      "value": "adventurer_s_armory_2"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION When this leather strap is tied around the grip of a broken weapon, the user can ignore the effects of the broken condition on that weapon. If the weapon loses its remaining hit points, it is destroyed as normal. Tying or untying the strap is a full-round action. CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Wondrous Item; Spells mending"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scrap_collectors_strap",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

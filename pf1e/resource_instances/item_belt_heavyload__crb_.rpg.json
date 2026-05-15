@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_heavyload__crb_",
+    "name": {
+      "value": "Heavyload belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot belt; Price 2,000 gp; Weight 3 lbs. DESCRIPTION This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt\u00e2\u0080\u0099s wearer is affected as though subject to a permanent ant haul spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, ant haul; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_heavyload",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_heavyload",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

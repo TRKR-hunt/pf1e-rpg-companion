@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_hypnotic__crb_",
+    "name": {
+      "value": "Wayfinder, Hypnotic"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 5th; Weight 1 lb.; Aura faint illusion DESCRIPTION This wayfinder has a mother-of-pearl casing with perfect swirls of pink and green patterns covering the face of the device. It hangs on an 8-inch-long silver fob chain that makes it twirl slightly when held aloft. In addition to the standard functions of a wayfinder (including the ability to create light ), a hypnotic wayfinder can be used once per day to mesmerize weak-minded creatures that can see it. When dangled by its fob and swung gently in a pendulum-like motion, the hypnotic wayfinder seems to change colors as light plays off its pearlescent exterior. This replicates the effects of hypnotic pattern ( Will DC 13 negates), centered on the hypnotic wayfinder, but creates no visible light aside from the illusory color-shifts on the wayfinder itself. The wayfinder\u2019s wielder is immune to this effect, as are sightless creatures. While the effect is active, the wielder must remain stationary or the effect immediately ends. Otherwise, the effect lasts as long as the wielder swings the wayfinder at the end of its fob (a standard action ) and for 2 rounds thereafter. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells hypnotic pattern, light"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_hypnotic",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_hypnotic",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

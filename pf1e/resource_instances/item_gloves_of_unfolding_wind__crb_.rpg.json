@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_unfolding_wind__crb_",
+    "name": {
+      "value": "Gloves of Unfolding Wind"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot hands; CL 3rd; Weight 1 lb.; Aura faint evocation DESCRIPTION These white fingerless gloves are decorated with a spiral on the back of the hand. For the purposes of resolving the effects of high winds, the wearer is treated as one size larger and his thrown weapons are treated as siege weapons. In addition, the wearer can spend 1 ki point to create a gust of wind. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells gust of wind"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_unfolding_wind",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_of_unfolding_wind",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

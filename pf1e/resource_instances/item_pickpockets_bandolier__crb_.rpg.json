@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pickpockets_bandolier__crb_",
+    "name": {
+      "value": "Bandolier, Pickpocket\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,500 gp; Slot chest CL 5th Weight 2 lbs.; Aura faint transmutation DESCRIPTION Carefully embroidered black leather makes up this stylish bandolier, which can hold as many as 12 daggers, vials, or similarly shaped items. EFFECTS The wearer of a pickpocket\u00e2\u0080\u0099s bandolier opposes Sleight of Hand checks attempt against her with her own Sleight of Hand checks (instead of Perception ). Additionally, as a swift action after succeeding at a Sleight of Hand check, the wearer can stuff stolen goods (of size Tiny or smaller) into one of the slots on the pickpocket\u00e2\u0080\u0099s bandolier, making the purloined object appear to be a simple dagger. Only a careful examination of the bandolier reveals the true nature of items concealed in this manner. CONSTRUCTION REQUIREMENTS Cost 6,250 gp; Feats Craft Wondrous Item; Spells shrink item"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pickpockets_bandolier",
+          "value": {
+            "value": 12500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pickpockets_bandolier",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

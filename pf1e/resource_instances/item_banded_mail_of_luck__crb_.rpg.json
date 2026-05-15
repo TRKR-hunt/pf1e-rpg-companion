@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "banded_mail_of_luck__crb_",
+    "name": {
+      "value": "Banded mail of luck"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong enchantment; CL 12th Weight 35 lbs.; Price 18,900 gp DESCRIPTION Ten 100-gp gems adorn this +3 banded mail. Once per week, the armor allows its wearer to require that an attack roll made against him be rerolled. He must take whatever consequences come from the second roll. The wearer\u2019s player must decide whether to have the attack roll rerolled before damage is rolled. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bless; Cost 9,650 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_banded_mail_of_luck",
+          "value": {
+            "value": 18900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_banded_mail_of_luck",
+          "value": {
+            "value": 35
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

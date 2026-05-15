@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vestment_druid_s__crb_",
+    "name": {
+      "value": "Druid\u2019s vestment"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 10th; Slot body; Price 3,750 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This light garment is worn over normal clothing or armor. Most such vestments are green, embroidered with plant or animal motifs. When this item is worn by a character with the wild shape ability, the character can use that ability one additional time each day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, polymorph or wild shape ability; Cost 1,375 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vestment_druid_s",
+          "value": {
+            "value": 3750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

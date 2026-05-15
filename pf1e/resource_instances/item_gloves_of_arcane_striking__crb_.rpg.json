@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_arcane_striking__crb_",
+    "name": {
+      "value": "Gloves of arcane striking #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot hands; Price 5,000 gp; Weight 1 lb. DESCRIPTION These soft leather gloves are decorated with even rows of mithral rivets. Requirement: Only a spellcaster with the Arcane Strike feat can activate the abilities of these gloves. These abilities are as follows: When the wearer uses the aid another action to improve an ally\u00e2\u0080\u0099s attack roll, the ally adds the wearer\u00e2\u0080\u0099s Arcane Strike damage bonus to its damage roll for that attack. When the wearer makes an attack using Arcane Strike and hits, enemies adjacent to the target take damage equal to the wearer\u00e2\u0080\u0099s Arcane Strike damage bonus. This damage is of the same type as the weapon\u00e2\u0080\u0099s damage (bludgeoning, piercing, and so on). When the wearer uses the aid another action to improve an ally\u00e2\u0080\u0099s Armor Class, the ally also adds the wearer\u00e2\u0080\u0099s Arcane Strike damage bonus to his AC against the opponent. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Arcane Strike, magic weapon; Cost 2,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_arcane_striking",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_of_arcane_striking",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

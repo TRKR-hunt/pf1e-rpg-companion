@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crooks_cube__crb_",
+    "name": {
+      "value": "Crook's Cube"
+    },
+    "source": {
+      "value": "antihero_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,000 gp; Slot none; CL 11th; Weight 4 lbs.; Aura moderate divination DESCRIPTION This crystalline cube has a thin plate of soft white stone on one of its faces that\u2019s inscribed with several lines of cryptic runes. When the cube\u2019s bearer speaks a command word, the runes change shape and spell out information regarding nearby secrets such as back alleys and hidden paths. Once per day, the wielder of a crook\u2019s cube can cast find the path. The cube also grants its wielder a +5 insight bonus on checks with the following skills in which the wielder has at least 5 ranks: Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (history), and Knowledge (local). CONSTRUCTION REQUIREMENTS Cost 13,000 gp; Feats Craft Wondrous Item; Spells find the path; Skills at least 5 ranks in Knowledge (dungeoneering), Knowledge (engineering), Knowledge (geography), Knowledge (history), or Knowledge (local)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crooks_cube",
+          "value": {
+            "value": 26000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crooks_cube",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

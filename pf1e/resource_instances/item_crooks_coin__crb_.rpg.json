@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crooks_coin__crb_",
+    "name": {
+      "value": "Crook's Coin"
+    },
+    "source": {
+      "value": "antihero_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint abjuration DESCRIPTION This standard gold coin typically has two blank faces, but its owner can cause a butterfly with the sun, the moon, and stars on its wings\u00e2\u0080\u0094to appear on either face at will. This proves especially useful when performing coin flips, as the owner of a Crook\u2019s coin can essentially guarantee that the result will end up in her favor. In addition, its bearer gains a +2 luck bonus on Reflex saving throws. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells divine favor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crooks_coin",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

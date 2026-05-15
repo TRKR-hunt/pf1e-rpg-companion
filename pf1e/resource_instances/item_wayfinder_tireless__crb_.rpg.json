@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_tireless__crb_",
+    "name": {
+      "value": "Wayfinder, Tireless"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th Slot none; Price 5,000 gp; Weight 1 lb. DESCRIPTION Tireless wayfinders have burnished copper cases and silver inner workings. In addition to the usual functions of a wayfinder (including the ability to create light), the bearer of a tireless wayfinder halves the Strength and Dexterity penalties for being fatigued or exhausted, and gains a +2 resistance bonus on all saving throws made against effects that cause fatigue or exhaustion. The tireless wayfinder must be in a creature\u2019s possession for 1 full week before these benefits apply, and they are lost if it leaves the creature\u2019s possession for more than 1 hour. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, light, lesser restoration; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_tireless",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_tireless",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

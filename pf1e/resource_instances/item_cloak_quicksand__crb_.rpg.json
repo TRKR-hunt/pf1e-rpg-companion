@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_quicksand__crb_",
+    "name": {
+      "value": "Cloak, Quicksand"
+    },
+    "source": {
+      "value": "tears_at_bitter_manor"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot shoulders; Price 15,000 gp; Weight 4 lbs. DESCRIPTION The exterior of the cloak is an extradimensional space filled with water and sand. Each time a creature of the wearer\u2019s size or smaller attempts to grapple the wearer, it must succeed at a DC 15 Reflex save or fail at the attempt and be engulfed by quicksand. Every round it\u2019s trapped in the extradimensional space, the trapped creature must make a Swim check (DC 15) to climb out, landing prone adjacent to the wearer. Crawling out doesn\u2019t provoke an attack of opportunity from the wearer, but does provoke from others. A creature that fails its Swim check by 5 or more submerges and begins to drown. A creature that succeeds at the initial save grapples the wearer normally, and doesn\u2019t need to save again unless the wearer escapes and the creature tries to grapple the wearer again. A quicksand cloak left on the ground behaves as a patch of quicksand filling one 5-foot square, and swimming out works the same. Others may use aid another to help a creature trapped in the cloak, as though the creature were grappled. A quicksand cloak of any size can contain only one creature at a time; a creature attempting to grapple the wearer while the cloak already contains a body is not affected by the cloak. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells create water, shifting sand; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_quicksand",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_quicksand",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

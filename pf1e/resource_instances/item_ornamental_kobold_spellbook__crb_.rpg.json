@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ornamental_kobold_spellbook__crb_",
+    "name": {
+      "value": "Ornamental Kobold Spellbook"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Aura moderate evocation; CL 11th; Weight 2 lbs. DESCRIPTION Each spell inscribed in the book becomes a greater glyph of warding (DC 19, spell glyph) containing the spell recorded. When an unauthorized person reads a spell, the glyph triggers against him. This destroys the pages on which the spell is written, but leaves the rest of the book unharmed. Pages containing harmless spells or spells that can\u2019t be attached to a glyph are unaffected. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells erase, greater glyph of warding; Special creator must be a kobold"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ornamental_kobold_spellbook",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ornamental_kobold_spellbook",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

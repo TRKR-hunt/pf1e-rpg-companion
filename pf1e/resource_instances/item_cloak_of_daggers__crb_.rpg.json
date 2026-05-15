@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_daggers__crb_",
+    "name": {
+      "value": "Cloak of Daggers"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,000 gp; Slot shoulders CL 9th Weight 2 lbs.; Aura moderate abjuration DESCRIPTION This heavy black cloak is trimmed with silver brocade and jingles ever so slightly when disturbed. EFFECTS The wearer of a cloak of daggers can draw daggers as a free action as though she possessed the Quick Draw feat; if she already has the Quick Draw feat, drawing a single hidden dagger becomes a free action. Once per day, the wearer can perform a cartwheel as a standard action at any point during a move action, creating a 15-foot cone of daggers that deals an amount of piercing damage equal to the wearer\u00e2\u0080\u0099s sneak attack damage (minimum 1d6). A successful Reflex save (DC = 10 + the number of the wearer\u00e2\u0080\u0099s sneak attack dice + the wearer\u00e2\u0080\u0099s Intelligence modifier) halves the damage. The daggers disappear immediately. CONSTRUCTION REQUIREMENTS Cost 9,000 gp; Feats Craft Wondrous Item, Quick Draw; Spells wreath of blades, creator must possess the sneak attack class ability"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_daggers",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_daggers",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "healer_s_burning_glass__crb_",
+    "name": {
+      "value": "Healer's Burning Glass"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,400 gp; Slot none; CL 13th; Weight 1/2 lb.; Aura strong conjuration DESCRIPTION The handle of this magnifying glass is shaped like a holy symbol. When used to treat deadly wounds, the glass provides a +4 circumstance bonus on Heal checks. Once per day, it can be used to affect a touched creature with regenerate (as the spell). The user must be in an area of bright light to use either function. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Craft Wondrous Item; Spells regenerate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_healer_s_burning_glass",
+          "value": {
+            "value": 32400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

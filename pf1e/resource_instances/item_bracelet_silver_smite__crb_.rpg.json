@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracelet_silver_smite__crb_",
+    "name": {
+      "value": "Bracelet, Silver Smite"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot wrist; Price 16,000 gp; Weight 1 lb. DESCRIPTION This heavy silver bracelet is etched with icons of purity, fidelity, chastity, and honor, and glows with a soft white light whenever its owner prays. The wearer of this bracelet treats her paladin level as 4 higher than normal for the purpose of her smite evil class feature. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, align weapon; Special creator must be a paladin; Cost 8,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracelet_silver_smite",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracelet_silver_smite",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

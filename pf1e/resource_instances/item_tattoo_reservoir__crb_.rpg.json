@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_reservoir__crb_",
+    "name": {
+      "value": "Tattoo, Reservoir"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th Slot none; Price 10,000 gp DESCRIPTION Once per day as a standard action, the bearer can transfer into the tattoo an ongoing single-target spell (of up to 3rd level). The spell must be one the bearer cast on itself. While stored in the tattoo, the spell\u00e2\u0080\u0099s effects are suppressed, and the spell\u00e2\u0080\u0099s duration is similarly suspended. As a standard action, the bearer can bring the spell back into effect on itself. Spells stored in reservoir tattoos are lost when the bearer next prepares spells. CONSTRUCTION REQUIREMENTS Feats Inscribe Magical Tattoo; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_reservoir",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

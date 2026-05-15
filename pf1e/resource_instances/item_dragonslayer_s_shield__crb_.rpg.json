@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dragonslayer_s_shield__crb_",
+    "name": {
+      "value": "Dragonslayer\u2019s shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Weight 15 lbs.; Price 7,170 gp DESCRIPTION This +2 heavy steel shield has a distinct curve to its shape and often bears the device of a valiant knight. The wearer of this shield gains a +2 bonus on Reflex saves against effects that originate or burst from a point outside his own square, as though he had cover. It does not protect against spread effects. This bonus does not stack with that granted by actual cover or give cover to any creature other than the wearer. In addition, the dragonslayer\u2019s shield grants its wielder a +2 morale bonus on Will saves against the frightful presence ability. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells remove fear, shield of faith; Cost 3,670 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dragonslayer_s_shield",
+          "value": {
+            "value": 7170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dragonslayer_s_shield",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

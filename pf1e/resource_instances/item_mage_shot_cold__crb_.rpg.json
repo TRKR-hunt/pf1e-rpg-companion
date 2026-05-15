@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mage_shot_cold__crb_",
+    "name": {
+      "value": "Mage Shot (Cold)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_villain_codex"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th Slot none; Weight -; Price 178 gp DESCRIPTION When propelled from a firearm, this +1 alchemical paper cartridge changes the damage to cold damage. If the target takes cold damage from the cartridge, it must succeed at a DC 14 Fortitude saving throw or be staggered for 1d4 rounds. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor, cone of cold; Cost 98 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mage_shot_cold",
+          "value": {
+            "value": 178
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

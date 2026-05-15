@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_mighty_hurling__crb_",
+    "name": {
+      "value": "Belt of mighty hurling, lesser"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Belt of Mighty Hurling, Lesser Aura moderate transmutation; CL 8th; Slot belt; Price 14,000 gp; Weight 1 lb. DESCRIPTION This thick leather belt is buckled with a bright bronze clasp in the shape of a fist. When worn, it grants its wearer a +2 enhancement bonus to Strength and allows him to apply his Strength modifier as a bonus on attack rolls instead of his Dexterity modifier when making ranged attacks with thrown weapons. Also, the range increment of any weapon thrown by the wearer gains a +10-foot bonus. Treat this Strength bonus as a temporary ability bonus for the first 24 hours the belt is worn. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bull\u00e2\u0080\u0099s strength, longshot; Cost 7,000 gp. Belt of Mighty Hurling, Greater Aura moderate transmutation; CL 12th; Slot belt; Price 42,000 gp; Weight 1 lb. DESCRIPTION This item functions as the lesser belt of mighty hurling, except it grants a +4 enhancement bonus to Strength and any thrown weapons its wearer hurls are treated as though they had the returning quality. This does not apply to improvised ranged weapons, splash weapons, or weapons the wearer lacks proficiency with. Treat the bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bull\u00e2\u0080\u0099s strength, longshot, returning weapon; Cost 21,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_mighty_hurling",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_mighty_hurling",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

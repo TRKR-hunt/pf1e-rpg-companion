@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_journeys__crb_",
+    "name": {
+      "value": "Staff of journeys"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 8th; Slot none; Price 27,200 gp; Weight 5 lbs. DESCRIPTION This walking stick, which still has dark gray bark along its entire length, branches into an ornate fork at its top, decorated with wildflowers and different kinds of leaves. It allows use of the following spells: Detect snares and pits (1 charge) Endure elements (1 charge) Longstrider (1 charge) Pass without trace (1 charge) Freedom of movement (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells detect snares and pits, endure elements, freedom of movement, longstrider, pass without trace; Cost 13,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_journeys",
+          "value": {
+            "value": 27200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_journeys",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

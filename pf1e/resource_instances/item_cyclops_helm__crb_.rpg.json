@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cyclops_helm__crb_",
+    "name": {
+      "value": "Cyclops Helm"
+    },
+    "source": {
+      "value": "the_emerald_spire_superdungeon"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 1st; Slot head; Price 5,600 gp; Weight 5 lbs. DESCRIPTION This helm is made from the husk of a cyclops\u2019s shrunken head, and grants a limited version of that creature\u00e2\u0080\u0099s flash of insight ability. Once per day as an immediate action, the wearer can choose the result of the die roll instead of rolling her next attack roll, saving throw, skill check, or ability check. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells true strike; Cost 2,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cyclops_helm",
+          "value": {
+            "value": 5600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cyclops_helm",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

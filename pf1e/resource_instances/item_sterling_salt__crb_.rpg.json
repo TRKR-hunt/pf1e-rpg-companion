@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sterling_salt__crb_",
+    "name": {
+      "value": "Sterling Salt"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot none; CL 7th; Weight 1 lb.; Aura faint transmutation DESCRIPTION This coarse-grained salt is flecked with bands of silver running through each crystal. A spellcaster can include this salt as a material component when casting a spell, even if the spell does not normally require material components. Any bludgeoning, slashing, or piercing damage dealt by a spell enhanced by sterling salt is treated as good and silver for the purpose of overcoming damage reduction and suppressing regeneration, in addition to its normal type. If a creature that is adversely affected by silver (such as a devil or lycanthrope ) is affected by a spell augmented by sterling salt, that creature takes a -1 penalty on its saving throw to resist or negate the effects of the spell (if a saving throw is allowed). CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sterling_salt",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sterling_salt",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

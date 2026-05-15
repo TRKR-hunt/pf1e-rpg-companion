@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ghoul_hide__crb_",
+    "name": {
+      "value": "Ghoul Hide"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,865 gp; Slot armor; CL 3rd; Weight 25 lbs.; Aura faint necromancy DESCRIPTION This morbid +1 hide armor is stitched from the flesh torn from the bodies of ghoul servants as a punishment for failing their masters in some manner. The wearer of this armor is immune to the paralytic touch of ghouls, ghasts, and lacedons. If the wearer is the subject of a bite attack or is swallowed whole, the attacker must succeed at a DC 13 Fortitude save or contract ghoul fever. CONSTRUCTION REQUIREMENTS Cost 1,515 gp; Feats Craft Magic Arms and Armor; Spells ghoul touch"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ghoul_hide",
+          "value": {
+            "value": 2865
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ghoul_hide",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

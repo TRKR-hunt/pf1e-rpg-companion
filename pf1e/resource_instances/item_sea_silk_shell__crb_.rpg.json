@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sea_silk_shell__crb_",
+    "name": {
+      "value": "Sea Silk Shell"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,500 gp; Slot none; CL 7th Weight 1/2 lb.; Aura moderate conjuration APPEARANCE This small clamshell magically contains a 300-square-foot sheet of sea silk, which is an extremely fine, valuable, and strong fabric woven from the filaments of pen shells. EFFECTS The sea silk has hardness 10 and 15 hit points, and it cannot be ruined by exposure to water or other mundane means (though spells that target it still work as normal). As a standard action the shell\u00e2\u0080\u0099s user can speak a command word and pull the silk sheet from the shell in one of three different forms chosen at that time. The silk can emerge as 60 squares of sails ready to be installed (enough to propel most Colossal or smaller water vehicles), which can be magically treated as normal. Alternatively, the silk can emerge as up to 15 total noble\u00e2\u0080\u0099s outfits or royal\u00e2\u0080\u0099s outfits in any style and color the user wishes. As a third option, the silk can emerge as an unaltered sheet that can be cut and sewn as normal into any objects that could be made from cloth, except that the silk cannot be used to create weapons or functional armor. Once the silk has been pulled from the shell, the shell remains empty until the silk is returned to it or destroyed. Once adjacent to the shell, the outfits, sheet of silk, or sails can be placed back into the shell with a second command word. (If the sheet was cut into pieces, all pieces must be adjacent to the shell before the silk can be returned.) Any damage to the silk or items made from it are undone by returning the cloth to the shell. If the silk or any items made from it are destroyed, the sea silk shell remains inert for a week as it regenerates the cloth from scratch, after which the shell can be used again as normal. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item; Spells minor creation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sea_silk_shell",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

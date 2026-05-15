@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_stoneskin__crb_",
+    "name": {
+      "value": "Belt of stoneskin #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 10th; Slot belt; Price 60,000 gp; Weight 10 lbs. DESCRIPTION Every 24 hours, this belt\u00e2\u0080\u0099s wearer gains DR 10/ adamantine until the belt absorbs 100 points of damage, at which point the belt becomes useless for the remainder of the 24-hour period. When first worn, or after each time this belt is taken off, it must worn for 24 consecutive hours in order for its magic to take effect again. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, stoneskin; Special creator must be an oread or a creature with the earth subtype; Cost 30,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_stoneskin",
+          "value": {
+            "value": 60000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_stoneskin",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

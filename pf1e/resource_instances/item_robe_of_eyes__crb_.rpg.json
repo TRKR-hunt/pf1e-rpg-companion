@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_of_eyes__crb_",
+    "name": {
+      "value": "Robe of eyes #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 11th; Slot body; Price 120,000 gp; Weight 1 lb. DESCRIPTION This valuable garment appears to be a normal robe until it is put on. Its wearer is able to see in all directions at the same moment due to scores of visible, magical eye-like patterns that adorn the robe. She also gains 120-foot darkvision. The robe of eyes sees all forms of invisible or ethereal creatures or objects within 120 feet. The wearer of a robe of eyes gains a +10 competence bonus on Perception checks. She retains her Dexterity bonus to AC even when flat-footed, and can\u2019t be flanked. She is not able to avert or close her eyes when confronted by a creature with a gaze attack. A light or continual flame spell cast directly on a robe of eyes causes the wearer to be blinded for 1d3 minutes. A daylight spell blinds the wearer for 2d4 minutes. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, true seeing; Cost 60,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_of_eyes",
+          "value": {
+            "value": 120000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_of_eyes",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

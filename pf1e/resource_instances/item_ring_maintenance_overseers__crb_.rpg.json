@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_maintenance_overseers__crb_",
+    "name": {
+      "value": "Ring, Maintenance Overseer\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot ring CL 4th Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This tarnished signet is marked as belonging to a specific city no smaller than a large town, though it functions in any settlement of at least that size. EFFECTS After spending 5 days in a settlement with the maintenance overseer\u00e2\u0080\u0099s ring equipped, its wearer learns a great deal about the schematics of any sewers, tunnels, basements, and passages beneath the settlement. This knowledge is not necessarily absolute, but allows the wearer to act as though trained in Knowledge (dungeoneering) when answering questions about the settlement\u00e2\u0080\u0099s underground with a +5 bonus on all such checks. A maintenance overseer\u00e2\u0080\u0099s ring also grants the wearer an automatic Perception check to notice secret doors within 10 feet in any area beneath street level of a city to which the ring is attuned. A wearer who already receives a Perception check to perceive a secret door (such as a dwarf using stonecunning) rolls her Perception check twice and takes the better result. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Forge Ring; Spells create treasure map"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_maintenance_overseers",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

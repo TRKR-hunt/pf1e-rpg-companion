@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_saboteur_s__crb_",
+    "name": {
+      "value": "Gloves, Saboteur's"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,240 gp; Weight 1/2 lb.; Slot hands; CL 8th; Aura moderate abjuration DESCRIPTION These gloves of thick leather do not impair delicate work and grant a +4 competence bonus on Disable Device checks to disable magic traps. Once per day, a wearer trained in Disable Device can command the gloves to alter an unattended magic item she touches to incorporate a trap. The wearer attempts a caster level check using the higher of her caster level or the gloves\u00e2\u0080\u0099 caster level (DC = 11 + the target item\u00e2\u0080\u0099s caster level ). If the check is successful, the target item is marked with a glyph of warding (blast glyph only) that lasts for up to 1 day. CONSTRUCTION REQUIREMENTS Cost 7,620 gp; Feats Craft Wondrous Item; Spells glyph of warding"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_saboteur_s",
+          "value": {
+            "value": 15240
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

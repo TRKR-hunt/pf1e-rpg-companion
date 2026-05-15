@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_gauntlet__crb_",
+    "name": {
+      "value": "Ioun Gauntlet"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,600 gp; Slot hand; CL 5th; Weight 5 lbs.; Aura faint divination and evocation DESCRIPTION Much like wayfinders, an ioun gauntlet grants enhanced or altogether new abilities depending on the type of ioun stone inserted into its matrix. In its base form, an ioun gauntlet grants its wearer the ability to cast detect magic as a spell-like ability once per day. When the detect magic effect is active, the gauntlet also sheds illumination as light in the 60-foot cone of the detect magic effect. An ioun gauntlet features a single matrix in the back of the hand, suitable for one ioun stone. When an ioun stone is inserted into the matrix as a standard action, the wearer gains the associated bonus from the ioun stone as well an additional effect based on the shape of the ioun stone inserted, as listed below. While a creature can put on two ioun gauntlets, the wearer gains the additional benefit from only one inserted ioun stone. Cabochon: +1 enhancement bonus on Acrobatics checks. Disk: +1 enhancement bonus on Linguistics checks. Ellipsoid: +1 enhancement bonus on Knowledge (arcana) checks. Nodule: +1 enhancement bonus on Knowledge (geography) checks. Pentacle: +1 enhancement bonus on Knowledge (religion) checks. Prism: +1 enhancement bonus on Perception checks. Pyramid: +1 enhancement bonus on Appraise checks. Rhomboid: +1 enhancement bonus on Stealth checks. Sphere: +1 enhancement bonus on Sense Motive checks. Spindle: Bonus language (Aboleth). Star: +1 enhancement bonus on Knowledge (nobility) checks. Trillian: +1 enhancement bonus on Bluff checks. CONSTRUCTION REQUIREMENTS Cost 800 gp; Feats Craft Wondrous Item; Spells detect magic, light"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_gauntlet",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ioun_gauntlet",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

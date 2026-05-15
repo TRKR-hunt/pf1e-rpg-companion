@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rings_of_friend_finding__crb_",
+    "name": {
+      "value": "Rings of Friend-Finding"
+    },
+    "source": {
+      "value": "cohorts_and_companions"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot ring; CL 7th; Weight \u2014; Aura moderate enchantment DESCRIPTION These specialized rings are sold in pairs and help allies find one another. Each of the wearers must wear the rings for 24 hours before they function, after which each wearer can activate her ring of friend-finding as a standard action, enabling her to determine the direction, distance, and general condition of the wearer of the other ring as a status spell. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Forge Ring; Spells detect thoughts, status"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rings_of_friend_finding",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

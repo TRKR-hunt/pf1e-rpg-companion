@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "burglar_s_buckler__crb_",
+    "name": {
+      "value": "Burglar\u2019s Buckler"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 5 lbs.; Price 4,655 gp This unassuming +1 buckler has an array of small tools and implements embedded into the backside of its rim, able to be folded and snapped out for use at a moment\u2019s notice to attack, defend, or accomplish roguish tasks. A burglar\u2019s buckler grants the wielder a +2 competence bonus on Disable Device and Sleight of Hand checks, combat maneuver checks made to perform dirty tricks, and to CMD against dirty tricks. Once per day on command, the wielder may transform a burglar\u2019s buckler into any mundane tool weighing 1 to 5 pounds, such as a crowbar, hammer, saw, small shovel, grappling hook, artisan\u2019s tools, or thieves\u2019 tools. The burglar\u2019s buckler retains its normal hardness and hit points in this form and can be converted back into shield form on command. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells major creation; Cost 2,450 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_burglar_s_buckler",
+          "value": {
+            "value": 4655
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_burglar_s_buckler",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

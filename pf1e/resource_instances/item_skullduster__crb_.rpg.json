@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "skullduster__crb_",
+    "name": {
+      "value": "Skullduster"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 104,508 gp; Slot none; CL 14th; Weight 6 lbs.; Aura strong abjuration and conjuration Alignment neutral; Senses 60 ft., darkvision; Intelligence 12; Wisdom 16; Charisma 14; Ego 13; Communication Speech (Common, Orc, Skald) DESCRIPTION This +2 disruption morningstar\u2019s metal head resembles the face of a half-orc. The weapon can cast remove paralysis three times per day. It rarely speaks, and then usually only to utter grim predictions. The weapon craves the destruction of undead creatures, and it uses death ward at will so long as its owner diligently pursues this goal. If it\u2019s owner ever parleys with an undead creature, the weapon withholds any further aid, grumbles constantly in Orc about treachery, and seeks a new owner. CONSTRUCTION REQUIREMENTS Cost 52,408 gp; Feats Craft Magic Arms and Armor; Spells death ward, heal, remove paralysis"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_skullduster",
+          "value": {
+            "value": 104508
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_skullduster",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

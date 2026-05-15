@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dark_life_ring__crb_",
+    "name": {
+      "value": "Dark Life Ring"
+    },
+    "source": {
+      "value": "champions_of_corruption"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,250 gp; Slot ring; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint necromancy DESCRIPTION A dark life ring grants its wearer a +2 profane bonus on Will saving throws against channeled negative energy and inflict spells (any spell with \u00e2\u0080\u009cinflict\u00e2\u0080\u009d in its name). In addition, anytime the wearer takes damage from channeled negative energy or an inflict spell, she subtracts 5 from the damage taken (calculated after the wearer has rolled her Will save against the effect), to a minimum of 0 points of damage. CONSTRUCTION REQUIREMENTS Cost 625 gp; Feats Forge Ring; Spells death ward"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dark_life_ring",
+          "value": {
+            "value": 1250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_evocation__crb_",
+    "name": {
+      "value": "Staff of evocation"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 13th; Slot none; Price 82,000 gp; Weight 5 lbs. DESCRIPTION This smooth staff carved from hickory or yew allows use of the following spells: Fireball (1 charge) Magic missile (1 charge) Shatter (1 charge) Ice storm (2 charges) Wall of force (2 charges) Chain lightning (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells chain lightning, fireball, ice storm, magic missile, shatter, wall of force; Cost 41,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_evocation",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_evocation",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

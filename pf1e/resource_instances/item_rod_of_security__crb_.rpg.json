@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_security__crb_",
+    "name": {
+      "value": "Rod of security"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 20th; Slot none; Price 61,000 gp; Weight 5 lbs. DESCRIPTION This item creates a nondimensional space, a pocket paradise. There the rod\u2019s possessor and as many as 199 other creatures can stay in complete safety for a period of time\u00e2\u0080\u0094up to 200 days divided by the number of creatures affected. All fractions are rounded down. In this pocket paradise, creatures don\u2019t age, and natural healing takes place at twice the normal rate. Fresh water and food (fruits and vegetables only) are abundant. The climate is comfortable for all creatures present. Activating the rod (a standard action ) causes the wielder and all creatures touching the rod to be transported instantaneously to the paradise. Members of large groups can hold hands or otherwise maintain physical contact, allowing all connected creatures in a circle or a chain to be affected by the rod. Unwilling creatures get a DC 17 Will save to negate the effect. If an unwilling creature succeeds at its save, other creatures beyond that point in a chain can still be affected by the rod. When the rod\u2019s effect expires, is dismissed, or is dispelled, all the affected creatures instantly reappear in the location they occupied when the rod was activated. If something else occupies the space that a traveler would be returning to, then his body is displaced a sufficient distance to provide the space required for reentry. The rod\u2019s possessor can dismiss the effect whenever he wishes before the maximum time period expires, but the rod can only be activated once per week. CONSTRUCTION REQUIREMENTS Feats Craft Rod, gate; Cost 30,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_security",
+          "value": {
+            "value": 61000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_security",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

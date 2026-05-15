@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rhino_hide__crb_",
+    "name": {
+      "value": "Rhino hide"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Weight 25 lbs.; Price 5,165 gp DESCRIPTION This +2 hide armor is made from rhinoceros hide. In addition to granting a +2 enhancement bonus to AC, it has a \u00e2\u0080\u00931 armor check penalty and deals an additional 2d6 points of damage on any successful charge attack made by the wearer, including a mounted charge. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength; Cost 2,665 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rhino_hide",
+          "value": {
+            "value": 5165
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rhino_hide",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

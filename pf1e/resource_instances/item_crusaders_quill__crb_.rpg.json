@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crusaders_quill__crb_",
+    "name": {
+      "value": "Crusader\u00e2\u0080\u0099s Quill"
+    },
+    "source": {
+      "value": "last_watch"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,320 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate necromancy and transmutation DESCRIPTION An artful rapier with a lotus petal guard, this magnificent weapon is useful to warriors and artists alike. The tip of this narrow +3 rapier can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Crusader\u00e2\u0080\u0099s quill, she can inscribe an arcane mark on the creature. Once per month, the wielder can instead inscribe a mark of justice; this mark ends immediately if the wielder inscribes another mark of justice with the Crusader\u00e2\u0080\u0099s quill. CONSTRUCTION REQUIREMENTS Cost 12,820 gp; Feats Craft Magic Arms and Armor; Spells arcane mark, mark of justice; Special creator must worship the associated deity."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crusaders_quill",
+          "value": {
+            "value": 25320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crusaders_quill",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

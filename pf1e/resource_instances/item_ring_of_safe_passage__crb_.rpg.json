@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_safe_passage__crb_",
+    "name": {
+      "value": "Ring of Safe Passage"
+    },
+    "source": {
+      "value": "siege_of_stone"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot ring; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate abjuration DESCRIPTION Rings of safe passage are adamantine bands capped with a stone sigil keyed to interact with devices and traps within storehouses of ancient history and family wealth. EFFECTS The ring grants its wearer acid resistance 10. Three times per day as a swift action, the wearer can make himself undetectable by crafted and magical traps and creatures of the construct type for the following minute. This functions like greater invisibility within these limits and also prevents the character\u00e2\u0080\u0099s weight or presence from triggering traps. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Forge Ring; Spells resist energy, sanctuary"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_safe_passage",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

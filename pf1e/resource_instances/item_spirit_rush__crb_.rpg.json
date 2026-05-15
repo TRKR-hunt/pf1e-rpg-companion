@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spirit_rush__crb_",
+    "name": {
+      "value": "Elixir, Spirit Rush"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,400 gp; Slot none; CL 13th; Weight \u00e2\u0080\u0094; Aura strong transmutation DESCRIPTION Inside this elegantly styled bottle is a purple liquid that sparkles. EFFECTS For 1 hour after the imbiber drinks this elixir, anytime she would be reduced to 0 hit points or below, the elixir immediately restores 3d8 + 5 hit points. Additionally, the imbiber becomes ethereal for 1 round and is immediately shunted 30 feet away from the source of the damage. While ethereal, the imbiber can move through walls, objects, or barriers in her path; this movement does not provoke attacks of opportunity. She must end the bonus movement in an unoccupied square. If no such space is available along the trajectory, the elixir heals the imbiber but does not move her away from the source of the damage. CONSTRUCTION REQUIREMENTS Cost 1,200 gp; Feats Craft Wondrous Item; Spells cure serious wounds, ethereal jaunt"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spirit_rush",
+          "value": {
+            "value": 2400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

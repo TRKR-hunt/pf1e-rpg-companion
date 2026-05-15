@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "serpent_s_fang__crb_",
+    "name": {
+      "value": "Serpent's Fang"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,302 gp; Slot none; CL 9th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION The brass hilt of this curved +1 dagger resembles a snake coiled around a bone. When a new user unsheathes the dagger for the first time, the weapon lets out a long, ominous hiss. When the user places the tip of the dagger in a vial of injury poison, the dagger absorbs the dose of poison and stores it in an extradimensional space. The stored toxin retains its save DC, effects, and all other properties. The dagger can hold a maximum of 5 doses of poison. As a swift action, the user can whisper the name of one of the poisons stored in the dagger, releasing the poison from its extradimensional space onto the blade of the dagger. When poisoning the dagger in this manner, the wielder can\u2019t accidentally poison himself, though he still poisons himself if he rolls a natural 1 on an attack roll. CONSTRUCTION REQUIREMENTS Cost 5,302 gp; Feats Craft Magic Arms and Armor; Spells secret chest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_serpent_s_fang",
+          "value": {
+            "value": 10302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_serpent_s_fang",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

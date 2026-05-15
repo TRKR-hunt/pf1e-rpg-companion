@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_the_soft_step__crb_",
+    "name": {
+      "value": "Boots of the Soft Step"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Legacy of Fire Player\u2019s Guide 26; Aura faint transmutation; CL 7th; Slot feet; Price 1,000 gp; Weight 2 lbs. DESCRIPTION These bronze-riveted boots have thick leather soles that compress and expand as you walk. This reduces the force of your footfalls, making you more difficult to detect with tremorsense. If you are walking at half speed, a creature with tremorsense can only sense you at half the usual distance. If you walk at one-quarter speed or slower, a creature with tremorsense cannot detect you at all. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, feather fall; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_the_soft_step",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_the_soft_step",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

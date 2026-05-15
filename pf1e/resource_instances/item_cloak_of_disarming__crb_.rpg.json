@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_disarming__crb_",
+    "name": {
+      "value": "Cloak of Disarming"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 35,000 gp; Slot shoulders; CL 9th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This cloak is well crafted and stylish. As a swift action, the wearer can direct the cloak to attempt a combat maneuver check to disarm a creature within 5 feet, using the wearer\u2019s CMB. This disarm combat maneuver does not provoke attacks of opportunity. If the attempt fails, the wearer doesn\u2019t risk losing the cloak. The wearer can spend 1 panache point before making the disarm attempt to gain a +5 competence bonus on the combat maneuver check. CONSTRUCTION REQUIREMENTS Cost 17,500 gp; Feats Craft Wondrous Item; Spells Improved Disarm, pilfering hand; Special creator must be a panache user"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_disarming",
+          "value": {
+            "value": 35000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_disarming",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

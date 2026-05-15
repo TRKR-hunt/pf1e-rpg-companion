@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pathfinder_pouch__crb_",
+    "name": {
+      "value": "Pouch, Pathfinder"
+    },
+    "source": {
+      "value": "pathfinder_chronicles_seekers_of_secrets_paizo_publishing_llc"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura none; CL 9th; Slot none; Price 1,000 gp; Weight 1 lb. DESCRIPTION This nondescript belt pouch is quite popular among those who need to smuggle items past snooping guards or government officials. Detect magic does not detect that it is magical (as per the bag of holding (contents limit 10 pounds, volume limit 2 cubic feet). With a command word, the wearer can close or open the extradimensional space within the pouch; when closed, the pouch holds no more than a mundane belt pouch the size of a human fist, though objects within the extradimensional space remain stored, unreachable until the pouch is unsealed again. This allows the user to empty his pockets or even turn the pouch inside-out to prove he carries no contraband, and access the hidden goods later when in a safe place. Because of their nonmagical auras, these pouches sometimes hold secret treasures for generations without their owners realizing their nature. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, magic aura, secret chest; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pathfinder_pouch",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pathfinder_pouch",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

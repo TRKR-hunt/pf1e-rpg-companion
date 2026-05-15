@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sash_scaled__crb_",
+    "name": {
+      "value": "Sash, Scaled"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 73,000 gp; Slot chest; CL 11th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION Glittering with every movement, this sash is associated with a specific type of chromatic dragon. Three times per day, the wearer may convert all the damage dealt by a single attack with a melee, ranged, or natural weapon into the matching dragon\u2019s breath weapon damage type. The amount of damage dealt remains unaffected. The sash may be used after the attack\u2019s results are known, but must be declared before damage has been rolled. Attacks dealing any type of energy damage cannot be converted in this manner unless the energy type of the original damage is the same as that granted by the scaled sash. If the original attack would be affected by damage reduction, the converted damage is reduced as if it did not bypass the damage reduction, even if the target has no special defenses against the converted energy type For example, an archer wearing a black scaled sash makes a successful attack against a target with his longbow. Before rolling damage on the hit, he opts to use his sash to convert the damage dealt to acid damage. Damage is rolled normally, but deals acid damage instead of piercing damage. This includes damage dealt from additional effects such as sneak attack, favored enemy, and the bane special weapon property. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells form of the dragon I; Cost 36,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sash_scaled",
+          "value": {
+            "value": 73000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sash_scaled",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

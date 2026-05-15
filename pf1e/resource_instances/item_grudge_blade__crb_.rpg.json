@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grudge_blade__crb_",
+    "name": {
+      "value": "Grudge Blade"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura minor necromancy; CL 9th; Slot none; Price 10,320 gp; Weight 2 lbs. DESCRIPTION Grudge blades play a role in many of the conflicts driven by the diabolical elite, both petty and epic. The dull, dark-gray steel of the blades almost appears blunt on the edges, but these +1 rapiers are wickedly sharp. Each elegantly carved hilt displays an engraved, glaring eye that appears to wink and flash as you fight. The true power of a grudge blade reveals itself against an opponent you have already injured with the sword. If you hit a creature with the sword on your previous turn, you gain an extra +1 bonus on damage rolls against that creature. As long as you continue to hit that creature at least once per round and attack no other creatures with the grudge blade, this damage bonus continues to build, to a maximum of +5; failing to hit that target or attacking anyone else resets the damage bonus to +0. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor; Spells deathknell, magic weapon; Cost 5,320 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grudge_blade",
+          "value": {
+            "value": 10320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_grudge_blade",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

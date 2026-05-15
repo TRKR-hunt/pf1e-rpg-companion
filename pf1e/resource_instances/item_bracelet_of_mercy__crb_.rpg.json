@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracelet_of_mercy__crb_",
+    "name": {
+      "value": "Bracelet of mercy #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot wrist; Price 15,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This metal bracelet is set with multiple gems blessed by a priest. If the wearer has the lay on hands class feature, she can use it one additional time per day and is always treated as if she has the diseased mercy. If the wearer already has that mercy, her effective caster level for removing diseases increases by +4. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, remove disease; Cost 7,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracelet_of_mercy",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "band_of_triumph__crb_",
+    "name": {
+      "value": "Band of Triumph"
+    },
+    "source": {
+      "value": "the_reaper_s_right_hand"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 50,000 gp; Slot ring; CL 13th; Weight \u00e2\u0080\u0094; Aura strong enchantment and evocation APPEARANCE This white-gold ring bears the relief image of a roaring lion. BENEFITS Once per day on command, the wearer can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as enemies, after which the ring roars triumphantly. Selected targets in the area are affected by shout ( Fortitude DC 20). All other objects in the area are unharmed, and all other creatures in the area receive the benefits of the inspire courage bardic performance as performed by a 7thlevel bard for 3 rounds. When activating the ring, the wearer can expend 1 round of her bardic performance ability to use her own bard level to calculate the performance\u00e2\u0080\u0099s effect. In addition, the ring grants the wearer a +4 enhancement bonus to Charisma; treat this as a temporary ability bonus for the first 24 hours the ring is worn. CONSTRUCTION REQUIREMENTS Cost 25,000 gp; Feats Forge Ring; Spells eagle\u00e2\u0080\u0099s splendor, good hope, shout"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_band_of_triumph",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

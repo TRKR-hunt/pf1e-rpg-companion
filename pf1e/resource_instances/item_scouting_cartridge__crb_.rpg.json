@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scouting_cartridge__crb_",
+    "name": {
+      "value": "Scouting Cartridge"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 566 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This +1 paper alchemical cartridge is contains a bullet and is marked with an open eye. When fired from a firearm, a scouting cartridge allows the wielder to temporarily transfer his sense of sight to the location where the bullet lands. Until he dismisses the effect by rubbing his eyes as a move action, the wielder can see as clairvoyance from the square in which the bullet landed, regardless of whether it hit its mark. CONSTRUCTION REQUIREMENTS Cost 286 gp; Feats Craft Magic Arms and Armor; Spells clairaudience/clairvoyance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scouting_cartridge",
+          "value": {
+            "value": 566
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

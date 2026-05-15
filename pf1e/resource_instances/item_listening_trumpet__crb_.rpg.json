@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "listening_trumpet__crb_",
+    "name": {
+      "value": "Listening Trumpet"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,800 gp; Weight 1 lb.; Slot none; CL 5th; Aura faint divination DESCRIPTION This silver ear trumpet has elaborate spirals carved along its 1-foot length. While held to the ear, the trumpet makes it easier to hear sounds in a 200-foot cone emanating from the trumpet; the user ignores the DC increase for distance applied to sound-based Perception checks. However, this does not negate the DC modifiers for listening through closed doors, walls, or the like. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells clairaudience/clairvoyance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_listening_trumpet",
+          "value": {
+            "value": 10800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_listening_trumpet",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

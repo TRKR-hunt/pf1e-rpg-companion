@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_plague_rat__crb_",
+    "name": {
+      "value": "Plague rat belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Plague Rat Belt Aura moderate transmutation; CL 8th; Slot belt; Price 5,200 gp; Weight 1 lb. DESCRIPTION This belt grants its wearer a +2 enhancement bonus to Constitution. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. Also, as an immediate action three times per day, the wearer can call upon the belt to reroll a saving throw made to resist a disease or poison. The wearer must use the second roll, even if it is worse. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bear\u00e2\u0080\u0099s endurance, neutralize poison, remove disease; Cost 2,600 gp. Plague Rat Belt, Greater Aura moderate transmutation; CL 8th; Slot belt; Price 11,200 gp; Weight 1 lb. DESCRIPTION This belt functions as a plague rat belt, except it grants the wearer a +2 enhancement bonus to Dexterity and Constitution. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bear\u00e2\u0080\u0099s endurance, cat\u00e2\u0080\u0099s grace, neutralize poison, remove disease; Cost 5,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_plague_rat",
+          "value": {
+            "value": 5200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_plague_rat",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

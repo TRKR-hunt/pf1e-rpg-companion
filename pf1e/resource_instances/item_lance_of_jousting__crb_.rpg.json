@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lance_of_jousting__crb_",
+    "name": {
+      "value": "Lance of jousting"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Weight 10 lbs.; Price 4,310 gp DESCRIPTION This ornately designed +1 lance, decorated with ribbons and small favors, allows its wielder to more effectively knock an opponent from his mount. A successful hit with a lance of jousting on a mounted opponent forces the target to make a Ride check (DC 10 + damage dealt) to avoid being knocked from the saddle. Although this lance is used in combat to remove a mounted foe\u2019s advantage, use of one in a tournament or similar contest is generally considered a dishonorable form of cheating. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength; Cost 2,105 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lance_of_jousting",
+          "value": {
+            "value": 4310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lance_of_jousting",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

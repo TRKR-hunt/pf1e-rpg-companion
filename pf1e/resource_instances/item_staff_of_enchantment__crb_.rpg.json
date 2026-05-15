@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_enchantment__crb_",
+    "name": {
+      "value": "Staff of enchantment"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong enchantment; CL 13th; Slot none; Price 82,000 gp; Weight 5 lbs. DESCRIPTION Often made from applewood and topped with a clear crystal, this staff allows use of the following spells: Hideous laughter (1 charge) Sleep (1 charge) Suggestion (1 charge) Crushing despair (2 charges) Mind fog (2 charges) Mass suggestion (3 charges) CONSTRUCTION REQUIREMENTS Craft Staff, crushing despair, hideous laughter, mass suggestion, mind fog, sleep, suggestion; Cost 41,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_enchantment",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_enchantment",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

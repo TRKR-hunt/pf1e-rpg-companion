@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gem_spell_capturing__crb_",
+    "name": {
+      "value": "Gem, Spell-Capturing"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none; CL 13th; Weight \u2014; Aura strong abjuration DESCRIPTION A spell-capturing gem appears as a small chunk of azurite, lapis lazuli, or turquoise. This small blue gem is imbued with the power to capture a spell and make it available for later use. Once activated, a spell-capturing gem waits indefinitely for its owner to successfully counterspell a spell by using either dispel magic or other means. The gem\u2019s owner may then choose to capture the foiled spell in the gem, where it remains for a number of days equal to the owner\u2019s caster level minus the spell\u2019s spell level, minimum 1 day. (For example, if a 10th-level spellcaster successfully dispels and captures a fireball spell with this item, the spell could remain in the gem for up to 7 days.) At any time during that period, the wielder of the gem may use it to cast the captured spell, regardless of whether she would normally be able to do so. A spell cast in this way uses the minimum caster level necessary to determine all level-dependent effects. A spell-capturing gem is a single-use item. Once the captured spell has been released or once the storage duration of the gem is reached, the gem loses its sheen and turns gray, becoming a worthless pebble. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells spell turning"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gem_spell_capturing",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

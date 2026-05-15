@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bead_of_newt_prevention__crb_",
+    "name": {
+      "value": "Bead of newt prevention #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Weight \u00e2\u0080\u0094; Slot none; Price 1,000 gp DESCRIPTION This bead is carved with a tiny pictogram representing a small, harmless animal such as a newt, rabbit, or frog. If the bearer fails a saving throw against a hostile polymorph effect such as baleful polymorph, the bead is destroyed and the effect does not affect the bearer. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dispel magic; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bead_of_newt_prevention",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

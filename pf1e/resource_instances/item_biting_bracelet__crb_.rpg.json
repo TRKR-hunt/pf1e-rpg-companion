@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "biting_bracelet__crb_",
+    "name": {
+      "value": "Biting Bracelet"
+    },
+    "source": {
+      "value": "spymaster_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate illusion DESCRIPTION This +1 heavy wrist launcher appears to be a lavish, gold bracelet. This functions like the glamered weapon special ability, except a biting bracelet is able to only assume this one specific form, and can revert to its innocuous appearance 1 round after being used as a weapon. CONSTRUCTION REQUIREMENTS Cost 2,775 gp; Feats Craft Magic Arms and Armor; Spells disguise (?), magic aura"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_biting_bracelet",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_biting_bracelet",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

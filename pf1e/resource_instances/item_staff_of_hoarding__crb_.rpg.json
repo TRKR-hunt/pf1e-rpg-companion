@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_hoarding__crb_",
+    "name": {
+      "value": "Staff of hoarding"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 11th; Slot none; Price 55,866 gp; Weight 5 lbs. DESCRIPTION This gorgeous teak shaft has many gold and silver coins hammered into it. It allows use of the following spells: Identify (1 charge) Locate object (1 charge) Magic aura (1 charge) Secret chest (2 charges) Legend lore (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells identify, legend lore, locate object, magic aura, secret chest; Cost 30,016 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_hoarding",
+          "value": {
+            "value": 55866
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_hoarding",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

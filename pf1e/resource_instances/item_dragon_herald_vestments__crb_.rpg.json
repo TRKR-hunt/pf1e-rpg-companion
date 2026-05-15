@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dragon_herald_vestments__crb_",
+    "name": {
+      "value": "Dragon Herald Vestments"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot body; CL 3rd; Weight 1 lb.; Aura faint abjuration DESCRIPTION A set of dragon herald vestments is covered in scales of one of five different colors, and grants resist energy 5 of one type (as the resist energy spell) to the wearer: acid for black or green, electricity for blue, fire for red, or cold for white. If the wearer is a kobold with scales matching one of those five colors, she can speak a command word in Draconic to change the vestments\u2019 scales to the same color as her own, or back to the color chosen when the vestments were constructed. Altering the scales\u2019 color is a standard action that provokes attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Craft Magic Arms and Armor; Spells resist energy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dragon_herald_vestments",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dragon_herald_vestments",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

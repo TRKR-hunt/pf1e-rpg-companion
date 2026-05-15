@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "assassin_s_dust__crb_",
+    "name": {
+      "value": "Assassin's Dust"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 750 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This fine dust causes bare skin that it comes in contact with to burn and tingle. When sprinkled on a corpse or an inanimate skeleton, it causes the dead flesh and bones to disintegrate into a fine brown powder similar to that left by a disintegrate spell. Assassin\u2019s dust comes in a small vial suitable for treating eight Small corpses, four Medium corpses, or one Large corpse. A skeletal corpse counts as half a corpse of its size. This dust has no effect on living or undead creatures. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells disintegrate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_assassin_s_dust",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

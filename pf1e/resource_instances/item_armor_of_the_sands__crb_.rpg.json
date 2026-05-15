@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "armor_of_the_sands__crb_",
+    "name": {
+      "value": "Armor of the Sands"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,160 gp; Slot armor; CL 7th; Weight 15 lbs.; Aura moderate transmutation DESCRIPTION This +2 leather armor is made of camel hide and has been worn smooth as if blasted by sand. The wearer is protected from mundane extremes of cold and heat (as the endure elements spell), and can see normally in sandstorms, dust storms, and similar conditions. Once per day as a swift or immediate action, the wearer can briefly turn to sand when hit by an attack but before damage is determined. For the purposes of resolving the damage, the wearer is treated as an incorporeal creature. Only a single attack is affected by each use of this ability. CONSTRUCTION REQUIREMENTS Cost 7,160 gp; Feats Craft Magic Arms and Armor; Spells stoneskin"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_armor_of_the_sands",
+          "value": {
+            "value": 14160
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_armor_of_the_sands",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

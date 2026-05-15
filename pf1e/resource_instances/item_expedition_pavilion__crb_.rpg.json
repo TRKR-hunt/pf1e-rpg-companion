@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "expedition_pavilion__crb_",
+    "name": {
+      "value": "Expedition Pavilion"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot none; Price 6,400 gp; Weight 10 lbs. DESCRIPTION This ordinary-looking, windowless tent appears to cover only a 10-foot-by-10-foot area, but, inside, it measures a full 30 feet by 30 feet, with a large central area and three small \u00e2\u0080\u009cbedrooms\u00e2\u0080\u009d (separated by curtains) along the back wall. The interior can be lit on command, and can be adjusted from normal darkness as per the spell light. Occupants inside the tent cannot be seen, heard, or smelled by creatures outside. The temperature inside the expedition pavilion is 70\u00c2\u00b0 F if the exterior temperature is between 0\u00c2\u00b0 and 100\u00c2\u00b0 F. For every degree the exterior temperature is below 0\u00c2\u00b0 or above 100\u00c2\u00b0, the interior temperature decreases or increases, respectively, by 1\u00c2\u00b0. The pavilion also provides protection against the elements, such as rain, dust, and sandstorms. The pavilion withstands any wind of less than hurricane force, but a hurricane (75+ mph wind speed) or greater force destroys it. The pavilion can only be set up once per day, requiring 10 minutes to erect or dismantle. The tent cannot be dismantled while foreign objects are still inside, though if the pavilion is destroyed, any creatures and objects inside immediately spill out. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, hide from animals, tiny hut; Cost 3,200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_expedition_pavilion",
+          "value": {
+            "value": 6400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_expedition_pavilion",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

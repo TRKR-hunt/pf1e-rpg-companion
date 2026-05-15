@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "one_way_window__crb_",
+    "name": {
+      "value": "One-Way Window"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,500 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint divination DESCRIPTION When not in use, this magical device appears to be a simple wooden picture frame about 3 inches by 5 inches in size. However, when set against a solid surface, it becomes a window, allowing the user to see through to the other side. No visible evidence of the window appears on the opposite side of the wall or door where it is used. No items, light, sound, spells, or spell effects can pass through the window, and divination magic that allows the user to penetrate illusions or spot hidden things (such as true seeing ) does not function. If there is no ambient light in the area being viewed, it appears as complete darkness to the viewer. The one-way window can penetrate up to 1 foot of wood, 6 inches of stone, or 1 inch of metal. If the surface to be looked through is too thick, the frame simply doesn\u2019t function. It can\u2019t be used to peer at mechanical structures behind thin veneers (such as the tumblers of a lock ); it can only show open spaces beyond the barrier it is placed against. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells clairaudience/clairvoyance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_one_way_window",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_one_way_window",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "plume_of_panache__crb_",
+    "name": {
+      "value": "Plume of Panache"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot head; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This plume is over-sized, chic, and extravagant. To gain its effects, the user must affix it to a non-magical hat worth at least 10 gp. Once per day when the wearer performs a deed, the plume provides her with 1 panache point that can be used for that deed. Once used, the plume appears wilted and bedraggled until its magic is replenished. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells heroism"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_plume_of_panache",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

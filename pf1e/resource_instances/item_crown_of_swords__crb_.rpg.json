@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crown_of_swords__crb_",
+    "name": {
+      "value": "Crown of swords #2"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd; Slot head; Price 6,000 gp; Weight 3 lbs. DESCRIPTION This radiant crown of steel is bedecked with miniature mithral swords. A crown of swords can be used up to 10 times per day. When struck in combat, the wearer may spend one use as an immediate action to create a longsword -shaped spiritual weapon that then attacks her attacker. On the wearer\u2019s next turn, she may spend one additional use each round to continue attacking that target with the spiritual weapon; the spiritual weapon cannot be redirected and disappears if the target is killed or moves out of range. Multiple spiritual weapons may be created (even attacking the same target) if the wearer is attacked in subsequent rounds. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, spiritual weapon; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crown_of_swords",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crown_of_swords",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

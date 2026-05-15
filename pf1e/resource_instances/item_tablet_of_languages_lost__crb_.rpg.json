@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tablet_of_languages_lost__crb_",
+    "name": {
+      "value": "Tablet of Languages Lost"
+    },
+    "source": {
+      "value": "the_half_dead_city"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot none; Price 1,980 gp; Weight 30 lbs. DESCRIPTION Fashioned from granite, this stone tablet is approximately 2 feet long, 1 foot wide, and just over an inch thick. The tablet was once part of a larger stone stele that was publicly displayed for all to see. Now known as the tablet of languages lost, the broken slab is inscribed with a vow of fealty to the emperor in three different languages. The characters and hieroglyphs of the three languages correspond to one another and serve as a translation key between the languages. Once per day, upon speaking the command word, the owner of the tablet can read and understand any written texts as if using comprehend languages for a period of 30 minutes. This does not allow the owner to speak or write unknown languages, or read magical writings (though the tablet reveals that such texts are magical). In addition, if the tablet is readily available and at hand, the owner gains a +3 competence bonus on all Linguistics checks. Finally, if the owner knows at least one of the three languages inscribed on the tablet, he can attempt Linguistics checks to translate the other two languages even if untrained in the Linguistics skill. Possession of the tablet of languages lost serves as an acceptable rationale for the owner to learn one of the three languages inscribed upon it (by putting a rank in Linguistics during character advancement) without the need of a teacher or library. Although the tablet of languages lost was created to ease the transition from pharaonic rule to that of a foreign monarch, other tablets could exist bearing different messages in other languages. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells comprehend languages; Special creator must know all three languages displayed on the tablet or have 3 ranks in Linguistics; Cost 990 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tablet_of_languages_lost",
+          "value": {
+            "value": 1980
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tablet_of_languages_lost",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

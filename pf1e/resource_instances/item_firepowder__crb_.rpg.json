@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "firepowder__crb_",
+    "name": {
+      "value": "Firepowder"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation (fire); CL 3rd; Slot none; Price 10 gp; Weight 1/2 lb. DESCRIPTION This chalky yellow powder is usually kept in a finely woven canvas pouch. When you mix firepowder with fine sand, the resultant mixture quickly heats up until it combusts, creating a slow-burning flame that requires no additional fuel. Half a pound of firepowder takes 1 minute to mix, and the fire produced burns for 8 hours, equivalent to a standard campfire. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, continual flame; Cost 5 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_firepowder",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

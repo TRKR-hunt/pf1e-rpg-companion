@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tangle_bolt__crb_",
+    "name": {
+      "value": "Tangle bolt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 12th; Weight \u00e2\u0080\u0094; Price 226 gp DESCRIPTION Often etched with images of spider webs or swampy vines, this sickly green +1 seeking bolt transforms into sticky goo when it hits, entangling its target and becoming tough and resilient upon exposure to air. In addition to the bolt\u2019s damage, the target is entangled as if it had been hit by a tanglefoot bag. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells true seeing, and either web or creator must have 5 ranks in Craft (alchemy); Cost 113 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tangle_bolt",
+          "value": {
+            "value": 226
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rotcarver__crb_",
+    "name": {
+      "value": "Rotblade"
+    },
+    "source": {
+      "value": "lost_kingdoms"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "DESCRIPTION CONSTRUCTION REQUIREMENTS Aura strong conjuration and necromancy; CL 13th; Slot none; Price 52,118 gp; Weight 10 lbs. DESCRIPTION This +3 scythe bears tiny cracks and etchings that, upon close examination, make the weapon appear as if constructed of minute petrified maggots. Once per day, upon scoring a successful critical hit, the wielder can animate part of the blade as a rot grub that immediately attempts to burrow into to the victim struck. The victim must succeed at a DC 15 Reflex save to avoid the grub; otherwise, it is affected as per the description of rot grubs. Additionally, once per week, the wielder can transform it into a swarm of rot grubs. The swarm obeys the wielder\u2019s commands for 13 rounds before turning back into a weapon. If the swarm is destroyed, it immediately reverts back to a weapon, which is undamaged. The wielder takes no ill effects from a swarm under his control. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells contagion, summon monster VII; Cost 26,218 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rotcarver",
+          "value": {
+            "value": 52118
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rotcarver",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

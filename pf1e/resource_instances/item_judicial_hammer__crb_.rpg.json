@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "judicial_hammer__crb_",
+    "name": {
+      "value": "Judicial Hammer"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,220 gp; Slot none; CL 4th; Weight 14 lbs.; Aura faint enchantment DESCRIPTION The head of this +1 earth breaker is shaped like a massive version of the gavel one might see in a court of law\u00e2\u0080\u0094the weapon is nearly 4 feet long from end to end. Once per day, the wielder may speak the judicial hammer\u2019s command word and name a specific crime he believes an individual within 30 feet has committed. Whenever the designated target takes damage from the judicial hammer, the target must succeed at a DC 13 Will save or immediately and truthfully confess its innocence or guilt in the named crime (if the target can speak the same language as the wielder of the judicial hammer, it must confess in this language). This effect lasts for 24 hours or until the creature fails its Will save, whichever comes first. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells confess; Cost 2,780 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_judicial_hammer",
+          "value": {
+            "value": 5220
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_judicial_hammer",
+          "value": {
+            "value": 14
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spider_s_fang__crb_",
+    "name": {
+      "value": "Spider\u2019s Fang"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Weight 1 lb.; Price 79,102 gp DESCRIPTION This punching dagger\u2019s blade is engraved with images of spider webs. Upon close inspection, the images seem to come alive as if spiders were swarming across the webs on the blade. Twice per day as a free action, this +2 keen wounding punching dagger can poison a living creature hit by an attack made by this weapon as the poison spell ( Fortitude DC 20 negates). In addition, the wielder gains a +2 competence bonus on Acrobatics checks made to move through an enemy\u2019s threatened area without provoking an attack of opportunity. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bleed, keen edge, ray of enfeeblement; Cost 39,702 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spider_s_fang",
+          "value": {
+            "value": 79102
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spider_s_fang",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

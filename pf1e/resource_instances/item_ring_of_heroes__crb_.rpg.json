@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_heroes__crb_",
+    "name": {
+      "value": "Ring of Heroes"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate (no school); CL 7th; Slot ring; Price 8,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Sculpted in the shape of two noble looking bronze lions charging toward a centrally placed garnet, this ring grants the wearer the Luck of Heroes feat. The ring must be worn for 24 hours before it takes effect. The wearer can also call upon the ring\u00e2\u0080\u0099s power to gain a hero point that must be used immediately, although this causes the ring to lose its powers permanently. Note: See Hero Points for full details. CONSTRUCTION REQUIREMENTS Feats Forge Ring, Luck of Heroes; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_heroes",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

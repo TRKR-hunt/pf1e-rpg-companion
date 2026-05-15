@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cauldron_of_flying__crb_",
+    "name": {
+      "value": "Cauldron of flying #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 10th; Slot none; Price 40,000 gp; Weight 100 lbs. DESCRIPTION This iron pot is large enough for two Medium humanoids to stand in comfortably. Upon command, the cauldron and up to 500 pounds of additional weight can fly as if using overland flight. The cauldron moves under the direction of the person who spoke the activating command word. It can carry up to double its capacity, but doing so reduces its speed to 30 feet. It can hover in place without the need for a Fly skill check. The cauldron provides partial cover for anyone standing in it. It has a hardness of 10 and 60 hit points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, overland flight; Cost 20,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cauldron_of_flying",
+          "value": {
+            "value": 40000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cauldron_of_flying",
+          "value": {
+            "value": 100
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

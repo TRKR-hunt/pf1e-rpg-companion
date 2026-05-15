@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ram_feather_token__crb_",
+    "name": {
+      "value": "Ram Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp DESCRIPTION This token creates a Huge ram. The ram disappears after 24 hours. CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Wondrous Item; Spells major creation, telekinetic assembly"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ram_feather_token",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

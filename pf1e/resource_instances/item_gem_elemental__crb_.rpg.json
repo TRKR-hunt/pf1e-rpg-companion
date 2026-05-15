@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gem_elemental__crb_",
+    "name": {
+      "value": "Elemental gem"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 11th; Slot \u00e2\u0080\u0094; Price 2,250 gp; Weight \u00e2\u0080\u0094 DESCRIPTION An elemental gem comes in one of four different varieties. Each contains a conjuration spell attuned to a specific elemental plane (Air, Earth, Fire, or Water). When the gem is crushed, smashed, or broken (a standard action ), a Large elemental appears as if summoned by a summon nature\u2019s ally spell. The elemental is under the control of the creature that broke the gem. The coloration of the gem varies with the type of elemental it summons. Air elemental gems are transparent, earth elemental gems are light brown, fire elemental gems are reddish orange, and water elemental gems are blue-green. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, summon monster V or summon nature\u2019s ally V; Cost 1,125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gem_elemental",
+          "value": {
+            "value": 2250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

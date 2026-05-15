@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robes_of_xin_shalast__crb_",
+    "name": {
+      "value": "Robes of the Summit"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot body; Price 198,000 gp; Aura strong abjuration and conjuration; CL 16th; Weight 1 lb. DESCRIPTION Woven of the finest of silks and accented with precious gemstones and gold, the robes are surprisingly light and easy to move in. They grant a +6 armor bonus and spell resistance 24, but also cause the wearer to cast all spells at +1 caster level. Two of the robe\u2019s pockets function as handy haversacks. The wearer of these robes can exist comfortably in all high altitudes, including within the death zone at altitudes of 26,000 feet and higher. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, endure elements, mage armor, protection from spells, secret chest; Cost 99,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robes_of_xin_shalast",
+          "value": {
+            "value": 198000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robes_of_xin_shalast",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "monster_killer_s_folio__crb_",
+    "name": {
+      "value": "Monster Killer's Folio"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint divination and evocation DESCRIPTION This collection of gruesome anatomical diagrams is bound in leather that shifts slightly under the reader\u2019s fingertips. The book\u2019s many illustrations provide information about how to best wound a variety of creature types, and the book emits light equivalent to that of a candle within 5 feet, allowing it to be read in the dark. The owner can use this folio to gain a +5 bonus on Knowledge checks to identify a creature\u2019s special powers or vulnerabilities. A monster killer\u2019s folio has a tendency to quickly open to the appropriate page when consulted, as though eager to provide information that will lead to violence. Additionally, once per day the book can be used to cast discovery torch. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item; Spells discovery torch, know the enemy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_monster_killer_s_folio",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_monster_killer_s_folio",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

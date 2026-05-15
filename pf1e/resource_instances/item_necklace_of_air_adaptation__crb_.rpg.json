@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "necklace_of_air_adaptation__crb_",
+    "name": {
+      "value": "Necklace of Air Adaptation"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot neck; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This necklace grants an aquatic wearer the ability to breathe air, and renders it amphibious as per the universal monster rule, allowing it to survive on land indefinitely. The necklace also gives the wearer a base speed of 30 feet (or a +10 enhancement bonus to its base speed, if the wearer\u00e2\u0080\u0099s speed is already at least 30 feet). CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells air breathing, expeditious retreat"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_necklace_of_air_adaptation",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

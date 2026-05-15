@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "badge_of_last_resort__crb_",
+    "name": {
+      "value": "Badge of Last Resort"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 750 gp; Slot none; CL 3rd Weight -; Aura faint transmutation DESCRIPTION This badge depicts carries an insignia depicting a coiled serpent. By speaking a command word, the wearer can transform the badge into one of five tools, selected from the following: A masterwork light steel shield bearing a coiled serpent insignia A masterwork whip A dagger poisoned with a dose of blue whinnis A 50-foot silk rope with a grappling hook A set of masterwork Thieves\u2019 tools The badge remains in the chosen form for up to 24 hours or until it is commanded to return to its natural shape. Each form retains the badge\u2019s metallic hue, and the badge can transform in this way only five times before it loses its magical properties forever, becoming a mundane badge. Most badges of last resort are bronze, yet some higher-ranking agents commission badges made of silver or gold. Most of these badges also have a unique array of objects they can turn into-including weapons and shields with magical properties. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells fabricate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_badge_of_last_resort",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

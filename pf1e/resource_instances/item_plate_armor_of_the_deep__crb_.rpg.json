@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "plate_armor_of_the_deep__crb_",
+    "name": {
+      "value": "Plate armor of the deep"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 11th Weight 50 lbs.; Price 24,650 gp DESCRIPTION This +1 full plate is decorated with a wave and fish motif and often has tiny fins and scales worked into the design. Although the armor remains as heavy and bulky as normal full plate, the wearer of plate armor of the deep is treated as unarmored for purposes of Swim checks. The wearer can breathe underwater and can converse with any water-breathing creature with a language. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells freedom of movement, tongues, water breathing; Cost 13,150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_plate_armor_of_the_deep",
+          "value": {
+            "value": 24650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_plate_armor_of_the_deep",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

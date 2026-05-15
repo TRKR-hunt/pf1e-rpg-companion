@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "imploding_stone__crb_",
+    "name": {
+      "value": "Imploding Stone"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "DESCRIPTION CONSTRUCTION REQUIREMENTS Price 3,300 gp; Slot none; CL 11th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION When activated, this black pebble acts as a limited gravitational singularity. Once the command word is spoken, the pebble delays for 1 round, then pulls all stone or earth within a 5-foot-diameter sphere toward it with irresistible force. This causes small tunnels to collapse inward, creating localized cave-ins. Imploding stones do not affect living creatures, though any creature in the same square as an activated imploding stone is caught in the bury zone of the collapse. Imploding stones are destroyed when used. Activating an imploding stone is a standard action that doesn\u2019t provoke attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 1,650 gp; Feats Craft Wondrous Item; Spells move earth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_imploding_stone",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bear_pelt_of_the_bonebreaker__crb_",
+    "name": {
+      "value": "Bear Pelt of the Bonebreaker"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,300 gp; Slot shoulders; CL 7th; Weight 10 lbs.; Aura moderate transmutation DESCRIPTION Note This item is associated with a specific deity. This large bearskin cloak is almost too big for a human to wear comfortably. The wearer gains a +2 competence bonus on Intimidate checks. Once per day, the wearer can use bless; using this ability causes the hair on the cloak to bristle menacingly. If the associated deity is the wearer\u2019s patron, the wearer can use beast shape II once per day to transform into a black or brown bear for up to 7 minutes. CONSTRUCTION REQUIREMENTS Cost 1,650 gp; Feats Craft Wondrous Item, beast shape II, bless; Special creator must have 5 ranks in Intimidate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bear_pelt_of_the_bonebreaker",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bear_pelt_of_the_bonebreaker",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

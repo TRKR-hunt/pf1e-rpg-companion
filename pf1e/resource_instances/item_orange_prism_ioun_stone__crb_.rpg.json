@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "orange_prism_ioun_stone__crb_",
+    "name": {
+      "value": "Ioun stone (orange prism)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 12th; Slot \u00e2\u0080\u0094; Price 30,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION +1 caster level. Cracked: Wearer adds one cantrip or orison (determined when the stone is created) to his list of spells known or spells prepared. Price: 1,000 gp. Flawed: This stone grants a +1 caster level and a \u00e2\u0080\u00932 penalty to the wearer\u00e2\u0080\u0099s primary casting ability score ( Wisdom for clerics, Intelligence for wizards, and so on). Price: 25,000 gp. See Inferior Ioun Stones for details on cracked and flawed variant stones. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be 12th level; Cost 15,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_orange_prism_ioun_stone",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

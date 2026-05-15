@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "echo_of_divinitys_promise__crb_",
+    "name": {
+      "value": "Echo of Divinity\u00e2\u0080\u0099s Promise"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,400 gp; Slot none; CL 7th; Weight 8 lbs.; Aura moderate evocation DESCRIPTION This stone tablet bears inscriptions detailing a notable being who fell short of achieving godhood. EFFECTS As a move action, the tablet\u00e2\u0080\u0099s holder can break it to release a remnant of latent divinity. The resultant burst of power imbues the user, granting a +1 morale bonus on attack rolls, weapon damage rolls, ability checks, skill checks, and saving throws for 1 minute. In addition, the user can attempt a new saving throw against one ongoing effect, such as a disease. CONSTRUCTION REQUIREMENTS Cost 700 gp; Feats Craft Wondrous Item; Spells commune, divine favor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_echo_of_divinitys_promise",
+          "value": {
+            "value": 1400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_echo_of_divinitys_promise",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

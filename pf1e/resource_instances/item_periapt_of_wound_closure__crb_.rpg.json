@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "periapt_of_wound_closure__crb_",
+    "name": {
+      "value": "Periapt of wound closure #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 10th; Slot neck; Price 15,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This stone is bright blue and dangles on a silver chain meant to be worn on the neck. The wearer of this periapt automatically becomes stable if his hit points drop below 0 (but not if the damage is enough to kill the wearer). The periapt doubles the wearer\u2019s normal rate of healing or allows normal healing of wounds that would not do so normally. Hit point damage caused by bleeding is negated for the wearer of the periapt, but he is still susceptible to damage from bleeding that causes ability damage or drain. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, heal; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_periapt_of_wound_closure",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

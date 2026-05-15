@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robes_of_the_defender__crb_",
+    "name": {
+      "value": "Robes of the Defender"
+    },
+    "source": {
+      "value": "the_city_outside_of_time"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 164,000 gp; Slot body; CL 16th; Weight 1 lb.; Aura strong abjuration and conjuration DESCRIPTION The robes of the Defender grant a +5 armor bonus to AC and spell resistance 20, and they cause the wearer to cast all abjuration spells at +1 caster level. Two of the robe\u00e2\u0080\u0099s pockets function as handy haversacks. In addition, the robes protect the wearer with energy resistance 10 for an energy type of the wearer\u00e2\u0080\u0099s choice\u00e2\u0080\u0094this energy resistance can be changed once per day as a standard action. CONSTRUCTION REQUIREMENTS Cost 82,000 gp; Feats Craft Wondrous Item; Spells mage armor, protection from spells, resist energy, secret chest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robes_of_the_defender",
+          "value": {
+            "value": 164000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robes_of_the_defender",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

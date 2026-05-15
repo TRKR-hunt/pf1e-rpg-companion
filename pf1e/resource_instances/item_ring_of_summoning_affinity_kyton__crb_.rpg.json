@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_summoning_affinity_kyton__crb_",
+    "name": {
+      "value": "Ring of Summoning Affinity (Kyton)"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,300 gp; Slot ring; CL 5th; Weight \u2014; Aura faint conjuration [evil, law] DESCRIPTION This iron ring has several sharp barbs. If the wearer can cast summon monster spells, the wearer adds augur to the 3rd-level list of monsters he can summon with those spells, adds sacristan to the 7th-level list, and adds interlocutor to the 9th-level list. Also, once per day on command the wearer can use this ring to summon an augur, as if by the summon monster III spell. CONSTRUCTION REQUIREMENTS Cost 3,650 gp; Feats Forge Ring; Spells planar ally or planar binding; Special creator must be lawful evil"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_summoning_affinity_kyton",
+          "value": {
+            "value": 7300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

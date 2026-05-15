@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_charming__crb_",
+    "name": {
+      "value": "Staff of charming"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 8th; Slot none; Price 17,600 gp; Weight 5 lbs. DESCRIPTION Made of twisting wood ornately shaped and carved, this staff allows use of the following spells: Charm person (1 charge) Charm monster (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells charm monster, charm person; Cost 8,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_charming",
+          "value": {
+            "value": 17600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_charming",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

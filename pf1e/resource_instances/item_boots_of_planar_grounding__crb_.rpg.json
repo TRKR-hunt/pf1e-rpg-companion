@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_planar_grounding__crb_",
+    "name": {
+      "value": "Boots of Planar Grounding"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Slot feet; CL 5th; Weight \u00e2\u0080\u0094; Aura faint abjuration DESCRIPTION These heavy, iron-soled boots link the wearer with the plane she is on. The wearer always counts as being on her home plane, regardless of the plane she is on, and she never gains the extraplanar subtype. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Wondrous Item; Spells dimensional anchor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_planar_grounding",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

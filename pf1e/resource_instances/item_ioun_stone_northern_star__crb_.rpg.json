@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_stone_northern_star__crb_",
+    "name": {
+      "value": "Northern Star (Ioun Stone)"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong transmutation DESCRIPTION This pearlescent crystal is perfectly cut in the shape of a five-pointed star. EFFECTS It grants the bearer a +5 competence bonus on Acrobatics and Climb checks. When inserted into a wayfinder, it grants the bearer a +4 bonus on Reflex saves to avoid falling. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells jump; Special creator must be at least 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_stone_northern_star",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

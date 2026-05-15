@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mage_s_crossbow__crb_",
+    "name": {
+      "value": "Mage's Crossbow"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,335 gp; Slot none; CL 8th; Weight 4 lbs.; Aura moderate transmutation DESCRIPTION This +2 light crossbow is made of silver that never needs to be polished. A mage\u2019s crossbow is especially effective against creatures with spell resistance. Against such creatures, the weapon\u2019s effective enhancement bonus increases to +3, and it deals an additional 1d6 points of damage. Whenever the wielder casts a spell that requires him to make a ranged touch attack (such as a ray) while he has the crossbow in hand, he gains a bonus on his ranged attack roll equal to the crossbow\u2019s enhancement bonus against the target creature. If the spell hits, the caster also applies this bonus to the caster level check to overcome the target\u2019s spell resistance (if any) and on the spell\u2019s damage roll (if any). CONSTRUCTION REQUIREMENTS Cost 9,835 gp; Feats Craft Magic Arms and Armor, Spell Penetration; Spells summon monster I, true strike"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mage_s_crossbow",
+          "value": {
+            "value": 18335
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mage_s_crossbow",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

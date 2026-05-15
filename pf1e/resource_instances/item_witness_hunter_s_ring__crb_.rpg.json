@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "witness_hunter_s_ring__crb_",
+    "name": {
+      "value": "Witness Hunter's Ring"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,200 gp; Weight \u2014; Slot ring; CL 7th; Aura moderate divination DESCRIPTION This ring\u2019s deep red stone hides the image of an eye within an eye or the symbol of a secret society, since many secret societies create these rings to protect their most important agents and leaders. By concentrating on the ring as a move action, the wearer learns whether he is being observed and whether it is by one or by more than one creature. Once per day, the wearer can use locate creature on command to target creatures that are currently observing him. In addition, the wearer can cast detect scrying once per day on command. CONSTRUCTION REQUIREMENTS Cost 12,600 gp; Feats Forge Ring; Spells detect scrying, locate creature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_witness_hunter_s_ring",
+          "value": {
+            "value": 25200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

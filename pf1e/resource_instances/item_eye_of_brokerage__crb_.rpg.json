@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eye_of_brokerage__crb_",
+    "name": {
+      "value": "Eye of Brokerage"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,550 gp; Slot neck; CL 9th; Weight 1/2 lb.; Aura moderate divination DESCRIPTION This golden, eye-shaped amulet is relatively unassuming save for the stunning diamond in the center of the piece. An eye of brokerage grants the wearer additional prowess while bartering with merchants and otherwise making deals. The wearer gains a +5 competence bonus on Appraise checks and on Sense Motive checks to avoid being bluffed. In addition, once per day, the wearer can hold the eye of brokerage to one of her eyes for up to 7 rounds to determine whether up to seven creatures within 40 feet are lying ( Will DC 16 negates), as discern lies. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells chaos hammer, order\u2019s wrath; Special creator must be neutral; Cost 8,275 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eye_of_brokerage",
+          "value": {
+            "value": 16550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

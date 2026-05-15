@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "assassin_s_sight__crb_",
+    "name": {
+      "value": "Assassin's Sight"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,250 gp; Slot none; CL 5th; Weight 4 lbs.; Aura faint divination DESCRIPTION This black telescopic sight is made of lusterless metal and features a thick glass lens. It can be mounted on the stock of a light or heavy crossbow, but not a hand crossbow. An assassin\u2019s sight allows the wielder to make ranged sneak attacks from greater distances than normal. This sight has two settings: 0\u00e2\u0080\u009330 feet and 30\u00e2\u0080\u009360 feet. A character using a crossbow equipped with an assassin\u2019s sight can make sneak attacks against foes within the selected range. For example, by setting the range to 30\u00e2\u0080\u009360 feet, a character can make sneak attacks against creatures only if they are between 30 and 60 feet of the wielder; attacks against targets closer than 30 feet or farther than 60 feet would not count as sneak attacks, even if they met all the other requirements for making a sneak attack. Setting the range on an assassin\u2019s sight is a full-round action that provokes attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 2,625 gp; Feats Craft Wondrous Item; Spells locate weakness, true strike"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_assassin_s_sight",
+          "value": {
+            "value": 5250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_assassin_s_sight",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

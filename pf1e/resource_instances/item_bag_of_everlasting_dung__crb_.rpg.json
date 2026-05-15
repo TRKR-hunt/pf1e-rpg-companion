@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bag_of_everlasting_dung__crb_",
+    "name": {
+      "value": "Bag of Everlasting Dung"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration (creation); CL 5th; Slot none; Price 500 gp; Weight 4 lbs. DESCRIPTION This leather bag exudes a pungent scent when opened. Each day it provides enough dried dung to fuel a small fire for 8 hours or fertilize a 20-foot-square patch of land. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, create food and water; Cost 250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bag_of_everlasting_dung",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bag_of_everlasting_dung",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

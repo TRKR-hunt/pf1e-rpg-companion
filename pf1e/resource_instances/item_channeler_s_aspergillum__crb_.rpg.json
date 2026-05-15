@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "channeler_s_aspergillum__crb_",
+    "name": {
+      "value": "Channeler's Aspergillum"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 36,305 gp; Slot none; CL 9th; Weight 4 lbs.; Aura moderate conjuration and necromancy DESCRIPTION This +1 battle aspergillum has additional powers when filled with holy water or unholy water (filling it requires a move action ). By swinging a filled channeler\u2019s aspergillum in an arc, the wielder affects up to nine creatures in a 30-foot cone as with mass cure light wounds (if the aspergillum is filled with holy water ) or mass inflict light wounds (if the aspergillum is filled with unholy water). This action expends the holy or unholy water within. If the wielder has the channel energy ability, she can also use a channeler\u2019s aspergillum to increase her effective cleric level by 2 for the purpose of channeling energy. Each time the wielder uses the channeler\u2019s aspergillum in this way, the holy water (for channeled positive energy) or unholy water (for channeled negative energy) stored in the aspergillum is expended. Regardless of which of these ways the channeler\u2019s aspergillum is used, it can only be filled with holy or unholy water up to three times per day. A channeler\u2019s aspergillum can hold only one flask\u2019s worth of holy or unholy water at a time. CONSTRUCTION REQUIREMENTS Cost 18,305 gp; Feats Craft Magic Arms and Armor; Spells mass cure light wounds, mass inflict light wounds; Special creator must be able to channel energy Image used by permission of Bart R. Voigt."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_channeler_s_aspergillum",
+          "value": {
+            "value": 36305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_channeler_s_aspergillum",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

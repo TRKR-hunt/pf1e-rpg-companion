@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_eldests_blessing__crb_",
+    "name": {
+      "value": "Amulet of Eldest's Blessing"
+    },
+    "source": {
+      "value": "inner_sea_races_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 7th; Slot neck; Price 10,000 gp; Weight 1 lbs. DESCRIPTION This crystalline amulet holds a fragment from the fey world. A gnome wearing the amulet does not count as extraplanar on the fey world. The wearer heals 1 point of lethal damage every minute and an equal amount o nonlethal damage, up to a maximum each day equal to her Hit Dice or character level. Finally, she gains a +4 insight bonus on saving throws against the Bleaching. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be a gnome; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_eldests_blessing",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_of_eldests_blessing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

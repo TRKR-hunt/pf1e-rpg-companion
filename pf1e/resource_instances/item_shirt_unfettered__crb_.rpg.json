@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shirt_unfettered__crb_",
+    "name": {
+      "value": "Unfettered shirt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration and transmutation; CL 7th; Slot chest; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This loose, often ruffled, shirt is cut in a style designed to avoid hindering its wearer\u00e2\u0080\u0099s movement. Once per day on command, the wearer can gain the benefits of freedom of movement for 10 minutes. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u00e2\u0080\u0099s grace, freedom of movement; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shirt_unfettered",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

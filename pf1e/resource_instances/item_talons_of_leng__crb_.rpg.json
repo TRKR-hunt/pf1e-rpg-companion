@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "talons_of_leng__crb_",
+    "name": {
+      "value": "Talons of Leng #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 15th; Slot hands; Price 67,000 gp; Weight 1 lb. DESCRIPTION Finely laid gold filigree lines these ornately worked talons. Once donned, the talons of Leng grant the wearer a natural claw attack with each hand that deal 1d4 points of damage for a Medium wearer, or 1d3 points of damage for a Small wearer. These claw attacks have a +3 enhancement bonus on attack and damage rolls. On a critical hit, the target must succeed at a DC 20 Will save or become permanently confused as per the insanity spell. This is a mind-affecting effect. The wearer of the talons of Leng is immune to effects that grant the confused condition. For as long as she wears the talons, however, her Wisdom is reduced by 2, as alien voices constantly whisper through her head. The talons of Leng do not interfere with spellcasting, the use of handheld items, or wielding weapons. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, greater magic fang, insanity; Cost 33,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_talons_of_leng",
+          "value": {
+            "value": 67000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_talons_of_leng",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

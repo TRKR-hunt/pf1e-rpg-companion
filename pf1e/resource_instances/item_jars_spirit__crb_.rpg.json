@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "jars_spirit__crb_",
+    "name": {
+      "value": "Jars, Spirit"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 7th; Slot none; Price 26,250 gp; Weight 2 lbs. a piece DESCRIPTION Typically found in sets of three, these clay jars are decorated with the heads of animals and monsters. Though they once likely contained the preserved viscera of ancient scholars, nobles, and priests, the jars now hold little more than dust. Their true value lies in the benefits they provide spellcasters seeking to transpose their souls via the spell magic jar. Spirit jars serve as focus items for the spell magic jar, forgoing the spell\u00e2\u0080\u0099s need for another focus. All three jars function in this way, allowing a caster to move his soul or that of a nearby target into any one of the three jars, or his own soul between jars and bodies as he pleases. The jars do not allow him to shuffle souls other than his own into different bodies, though he can shift souls between jars. Spirit jars are permanently affected by magic jar, and can potentially be kept trapped within forever. A caster can only move his soul between bodies while his casting of magic jar is in effect. If his spell expires while he is within a Spirit jar, his soul and those in the other jars are trapped. A soul within a Spirit jar can be freed by opening the jar, allowing the spirit within to try to swap souls with that of the jar\u00e2\u0080\u0099s holder as per the spell magic jar (a DC 17 Will save to resist), or return to its body if it is within range. Alternatively, casting magic jar on an S pirit jar containing a spirit, rather than an individual creature, allows that spirit to swap bodies as if it were the target of the spell. Should a spirit within a Spirit jar no longer have a body or be outside its jar when its magic jar spell ends, it returns to one of the empty Spirit jars if one is in range, or dies if one is not. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, gentle repose, magic jar; Cost 13,125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_jars_spirit",
+          "value": {
+            "value": 26250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_jars_spirit",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

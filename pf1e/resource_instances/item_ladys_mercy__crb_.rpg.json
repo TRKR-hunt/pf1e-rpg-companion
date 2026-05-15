@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ladys_mercy__crb_",
+    "name": {
+      "value": "Lady\u00e2\u0080\u0099s Mercy"
+    },
+    "source": {
+      "value": "the_dead_roads"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 150 gp; Slot none; CL 1st; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This coin-sized black disk is engraved with a spiral on one side and a whippoorwill on the other. When the bearer of the disk succeeds at a Constitution check to stabilize, the disk heals the wearer, restoring her to 1 hit point regardless of her previous hit point total. The disk then crumbles to dust. Should a character have multiple lady\u00e2\u0080\u0099s mercies, only one disk triggers at a time. CONSTRUCTION REQUIREMENTS Cost 75 gp; Feats Craft Wondrous Item, cure light wounds"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ladys_mercy",
+          "value": {
+            "value": 150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

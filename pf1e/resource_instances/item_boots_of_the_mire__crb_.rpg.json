@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_the_mire__crb_",
+    "name": {
+      "value": "Boots of the mire #2"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot feet; Price 3,500 gp; Aura faint abjuration and transmutation; CL 5th; Weight 1 lb. DESCRIPTION These soft leather boots confer several powers upon the wearer. First, he is granted the power to walk on water in swampy environments, provided the water is no deeper than 5 feet\u00e2\u0080\u0094this effectively lets him move through swampy terrain and mud at no cost to his speed. He leaves no tracks or other sign of his passage as long as he\u2019s in swampy terrain, and never becomes uncomfortable or wet from rain, fog, or other forms of non-freezing precipitation. Finally, the boots grant him a +2 resistance bonus on all Fortitude saves made against poison and disease. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, endure elements, pass without trace, resistance, water walk; Cost 1,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_the_mire",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_the_mire",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

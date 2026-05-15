@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_powerful_blood_magic__crb_",
+    "name": {
+      "value": "Ring of Powerful Blood Magic"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot ring; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate evocation DESCRIPTION When the wearer of this ring is bloodraging and casts a spell, as a swift action he can increase the save DC of the spell by 1. The wearer can do this a maximum of three times per day. This has no effect on spells that do not require saving throws. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Forge Ring; Spell Focus Special creator must have the bloodrage class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_powerful_blood_magic",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

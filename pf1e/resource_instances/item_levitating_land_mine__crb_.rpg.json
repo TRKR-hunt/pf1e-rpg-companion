@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "levitating_land_mine__crb_",
+    "name": {
+      "value": "Levitating Land Mine"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "DESCRIPTION CONSTRUCTION REQUIREMENTS Price 750 gp; Slot none; CL 5th; Weight 3 lbs.; Aura faint transmutation DESCRIPTION Once the command word is spoken, this steel disc burrow s 3 inches into the ground. To find it, a character with the trapfinding ability must succeed at a DC 25 Perception check. Planting the mine is a full-round action that provokes attacks of opportunity. Once the mine is set, any creature that steps into its square must succeed at a DC 14 Will save or the mine levitates the creature 5 inches above the ground. A levitated creature can attack but not move, is denied its Dexterity bonus to AC, and takes a \u00e2\u0080\u00934 penalty to CMD against bull rush, drag, and reposition combat maneuvers. Flying creatures are immune. The creature can attempt a new save each round to end the effect. The effect ends after 5 rounds, with a successful DC 25 Disable Device check, or with a successful saving throw. The land mine is destroyed when the effect ends. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells hostile levitation, snare"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_levitating_land_mine",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_levitating_land_mine",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

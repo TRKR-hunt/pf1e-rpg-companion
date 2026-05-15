@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_ki_mastery__crb_",
+    "name": {
+      "value": "Ring of ki mastery"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot ring; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring is half onyx and half clear-white crystal, magically fused together and hardened to the strength of steel. It allows a wearer with a ki pool to store up to 2 ki points in the ring as a swift action. These points remain in the ring until used. The wearer can use the ki points normally, or can gain the following benefits when he has ki points stored in the ring. As long as there is at least one ki point stored in the ring, the wearer gains a +2 bonus to CMD against grapple, reposition, and trip attempts. As long as there are at least 2 ki points stored in the ring, the wearer reduces the number of ki points needed to use a ninja trick or ki ability by 1 (minimum 1 ki point). CONSTRUCTION REQUIREMENTS Forge Ring, ki leech; Special creator must be able to use ki; Cost 3,420 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_ki_mastery",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

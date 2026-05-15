@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_caltrop__crb_",
+    "name": {
+      "value": "Caltrop boots"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot feet; Price 10,000 gp; Weight 2 lbs. DESCRIPTION These knee-high black leather boots have prominent and irregularly shaped heels which seem to bulge from the rest of the shoe. As a swift action, the boots\u00e2\u0080\u0099 wearer can cause the boots to let loose a spray of caltrops through the back of the heels as he moves during the remainder of his round. These caltrops fill each square the wearer moves into during that round. Any creature, including the wearer, occupying or who steps into one of these squares suffers the normal effects of coming into contact with caltrops. Once produced, these caltrops remain in existence until removed from their square, at which point they immediately disappear. The shoes can be used for 10 rounds per day. These rounds need not be consecutive. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, spike growth; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_caltrop",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_caltrop",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_cowardly_crouching__crb_",
+    "name": {
+      "value": "Cowardly crouching cloak"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 1st; Slot shoulders; Price 1,800 gp; Weight 4 lbs. DESCRIPTION This nondescript gray cloak has a hood that can fit over the wearer\u00e2\u0080\u0099s entire face. The wearer can, as a move action, cover his face and drop to a huddling crouch. Any creature seeking to directly attack him while he does this must make a DC 11 Will save to do so (as the sanctuary spell). The wearer cannot see or take any actions while crouching. This makes him effectively blind, with all the normal penalties, but not helpless. The wearer can end his crouch simply by standing up or moving. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, sanctuary; Cost 900 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_cowardly_crouching",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_cowardly_crouching",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

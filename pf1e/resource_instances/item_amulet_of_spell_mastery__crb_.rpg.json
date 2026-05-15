@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_spell_mastery__crb_",
+    "name": {
+      "value": "Amulet of spell mastery #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 11th; Slot neck; Price 22,000 gp; Weight 1 lb. DESCRIPTION This platinum locket only has power when used as a wizard\u00e2\u0080\u0099s bonded object. It allows the wizard to prepare an additional 6 levels of spells per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells mnemonic enhancer; Cost 11,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_spell_mastery",
+          "value": {
+            "value": 22000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_of_spell_mastery",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_continuation__crb_",
+    "name": {
+      "value": "Ring of continuation"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot ring; Price 56,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This band of braided copper wires throbs ever so slightly in harmony with its wearer\u00e2\u0080\u0099s heartbeat. Whenever the wearer of the ring casts a spell with a range of personal and a duration of 10 minutes per level or greater that spell remains in effect for 24 hours or until the wearer casts another spell with a range of personal (whichever comes first). Spells that usually only affect one specific action (such as making a particular attack) are expended after that action. This does not reduce the duration of spells that normally last longer than 24 hours. Casting a new spell does not eliminate a previous spell if its normal duration is such that it would still be in effect. However, attempts to dispel or otherwise eliminate a spell kept active by the ring work normally and, if successful, remove the spell from the ring, causing the wearer to lose all benefits from that spell. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells mnemonic enhancer; Cost 28,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_continuation",
+          "value": {
+            "value": 56000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

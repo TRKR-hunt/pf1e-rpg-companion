@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_the_alicorn__crb_",
+    "name": {
+      "value": "Rod of the Alicorn"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Weight 5 lbs.; Slot none; CL 9th; Aura moderate conjuration DESCRIPTION This twisted wooden rod resembles the horn of a unicorn. Three times per day, the user can touch the rod to a target as a standard action and heal it with cure light wounds. Once per day, the user can heal a creature in this way with cure moderate wounds. Once per day, the user can also cast neutralize poison on a target in this way. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Rod; Spells cure light wounds, cure moderate wounds, neutralize poison; Special creator must be good-aligned"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_the_alicorn",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_the_alicorn",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

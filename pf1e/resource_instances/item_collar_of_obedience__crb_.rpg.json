@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "collar_of_obedience__crb_",
+    "name": {
+      "value": "Collar of Obedience"
+    },
+    "source": {
+      "value": "animal_archive"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 9th; Slot neck; Price 5,000 gp; Weight 3 lbs. DESCRIPTION This collar of bright red leather bears a small golden pendant and makes the wearer much more biddable and compliant. The wearer takes a \u00e2\u0080\u00934 penalty on saving throws against mind-affecting effects used by the creature that placed the collar on it, and that creature gains a +4 bonus on Handle Animal checks to train or push the wearer. Any other creatures take a \u00e2\u0080\u00934 penalty on Handle Animal checks against the wearer, and the wearer gains a +2 resistance bonus on saving throws against their mind-affecting effects. A collar of obedience can be placed on any Small, Medium, or Large creature. Placing a collar of obedience on a creature is a full-round action that requires a successful grapple maneuver. Removing the collar is also a full-round action, and the creature removing it must have precise digits capable of working the locking mechanism. A creature made helpful with wild empathy does not resist having the collar equipped or removed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells charm animal or mind fog; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_collar_of_obedience",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_collar_of_obedience",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hospitality_s_hammock__crb_",
+    "name": {
+      "value": "Hospitality's Hammock"
+    },
+    "source": {
+      "value": "the_wormwood_mutiny"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot none; Price 5,000 gp; Weight 3 lbs. DESCRIPTION A luxurious crimson silk hammock embroidered with gold thread and gold fringed tassels, a hospitality\u2019s hammock is a beauty to behold, but no self-respecting seaman would ever be caught using it. Aside from the hammock\u2019s considerable looks, a single night\u2019s rest in it eliminates any sign of seasickness. Additionally, a hospitality\u2019s hammock is so comfortable that those who sleep in it for a full 8 hours regain hit points as if they had an entire day of bed rest. Climbing into or out of the hammock is a full-round action. A successful DC 5 Dexterity check reduces this to a move action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells cure light wounds, remove disease; Cost 2,500 gp Get this book AND support this site!"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hospitality_s_hammock",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hospitality_s_hammock",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

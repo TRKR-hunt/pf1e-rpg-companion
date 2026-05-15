@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horseshoes_of_a_zephyr__crb_",
+    "name": {
+      "value": "Horseshoes of a zephyr #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot feet; Price 6,000 gp; Weight 4 lbs. DESCRIPTION These shining, silvery horseshoes bear designs of swift-moving clouds and anthropomorphized images of the wind. When affixed to a horse, these horseshoes allow the horse to travel without actually touching the ground. The horse must still run above (always around 4 inches above) a roughly horizontal surface. This means that the horse can cross non-solid or unstable surfaces such as water and that it can move without leaving tracks on any sort of ground. The horse moves at its normal base land speed. All four shoes must be worn by the same animal for the magic to be effective. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, levitate; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horseshoes_of_a_zephyr",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horseshoes_of_a_zephyr",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

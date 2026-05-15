@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "war_commander_s_field_plate__crb_",
+    "name": {
+      "value": "War Commander's Field Plate"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 21,600 gp; Slot armor; CL 6th; Weight 50 lbs.; Aura moderate abjuration and enchantment DESCRIPTION This immaculate +2 champion field plate is commonly used by military commanders. A sturdy metal bracket is built onto the back of the armor, located just under the shoulder blades; if the wielder has personal heraldry, this slot can hold a banner or flag bearing that heraldry (such as a cavalier\u2019s banner ). If the wearer of the war commander\u2019s field plate takes to the battlefield as an army commander, he gains the Hold the Line boon if he prominently displays his heraldry. If the wearer already possesses this boon, he instead gains an additional +1 bonus on Morale checks as army commander. CONSTRUCTION REQUIREMENTS Cost 11,475 gp; Feats Craft Magic Arms and Armor; Spells heroism, protection from evil"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_war_commander_s_field_plate",
+          "value": {
+            "value": 21600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_war_commander_s_field_plate",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

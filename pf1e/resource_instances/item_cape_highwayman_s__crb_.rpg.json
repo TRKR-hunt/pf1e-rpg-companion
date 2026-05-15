@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cape_highwayman_s__crb_",
+    "name": {
+      "value": "Highwayman\u2019s cape"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot shoulders; Price 32,500 gp; Weight 1 lb. DESCRIPTION This reversible multicolored cape marks the wearer\u00e2\u0080\u0099s flamboyant audacity when turned with its bright colors outward, granting a +5 competence bonus on Bluff checks. Reversible as a move action, the dappled camouflage of its other side grants a +5 competence bonus on Stealth checks. Regardless of the cape\u00e2\u0080\u0099s current facing, the wearer can spend an immediate action at will to roll an Escape Artist check against being grappled, bound, or restrained as if the cape targeted her with liberating command.\u00e2\u0080\u009d CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, liberating command; Cost 16,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cape_highwayman_s",
+          "value": {
+            "value": 32500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cape_highwayman_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "soultether_ring__crb_",
+    "name": {
+      "value": "Soultether Ring"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot ring; CL 17th; Weight \u00e2\u0080\u0094; Aura strong necromancy DESCRIPTION When the wearer of this delicate platinum ring dies, his soul does not proceed to its final judgment in Purgatory. Until the soultether ring is removed from the corpse, the time limit for restoring the creature to life via spells such as raise dead or resurrection is suspended. This ring has no effect if it is placed upon a corpse; it must be worn at the time the creature dies to tether its soul. Psychopomps consider soultether rings to be sacrilegious, and the creatures destroy the rings whenever possible. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Forge Ring; soul bind or true resurrection"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_soultether_ring",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

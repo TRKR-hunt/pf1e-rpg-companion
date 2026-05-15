@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "warbringer__crb_",
+    "name": {
+      "value": "Warbringer"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong enchantment; CL 14th; Weight 8 lbs.; Price 61,375 gp DESCRIPTION This massive, wickedly curved red-Bladed sword is a +3 keen vicious falchion that murmurs a low, rumbling battle chant when drawn. Whenever the wielder confirms a critical hit with a warbringer, the wielder gains the benefits of rage for 1 round (if a barbarian, the wielder gains 1 additional round of rage for that day), while the creature struck is compelled to move toward and attack its nearest ally with a melee weapon, natural weapon, or unarmed strike on its next turn (DC 14 Will negates), as the murderous command spell. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells keen edge, murderous command, rage; Cost 30,875 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_warbringer",
+          "value": {
+            "value": 61375
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_warbringer",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

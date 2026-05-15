@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_of_destruction_and_creation__crb_",
+    "name": {
+      "value": "Mask of Destruction and Creation"
+    },
+    "source": {
+      "value": "faiths_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation and illusion; CL 5th; Slot head; Price 5,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This item has an associated deity. This reversible silken mask is flat white on one side and a swirling mass of colors above a black background on the other. When worn with the white side out, it allows the wearer to use detect magic once per day. When worn with the black side out, it allows the wearer to use read magic once per day. If the associated deity is the wearer\u2019s patron, the wearer can use the black side of the mask to cast magic missile as a 3rd-level caster once per day. Likewise, the wearer can use the white side of the mask to cast disguise self once per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, detect magic, disguise self, magic missile, read magic; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_of_destruction_and_creation",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

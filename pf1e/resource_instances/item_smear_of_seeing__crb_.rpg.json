@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "smear_of_seeing__crb_",
+    "name": {
+      "value": "Smear of Seeing"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot none; CL 10th; Weight 1 lb.; Aura moderate divination DESCRIPTION This oily black paste is kept in a glass jar about the size of a human\u2019s fist. When rubbed onto an opaque surface as a standard action, an application of smear of seeing allows others to see through it for 10 minutes or until it is thoroughly diluted with universal solvent, after which the smear loses its potency. Anyone on the side of the surface on which the smear was applied can see through that surface as though it were a clear glass window. This does not enable creatures to hear through the surface. Creatures on the other side of a surface affected with smear of seeing cannot see the effect, but may detect it via detect magic or other effects as normal. Smear of seeing can be used on plaster, stone, wooden, or similar surfaces up to 10 feet thick. Smear of seeing has no effect on metal or harder materials, regardless of thickness. One application of smear of seeing is enough to cover a 1-foot-radius area; multiple applications can be used to increase the affected surface area. One jar of smear of seeing contains enough paste for five applications. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells arcane eye, see through stone; Gold 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_smear_of_seeing",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_smear_of_seeing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

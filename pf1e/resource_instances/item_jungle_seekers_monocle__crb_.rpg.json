@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "jungle_seekers_monocle__crb_",
+    "name": {
+      "value": "Jungle Seeker\u00e2\u0080\u0099s Monocle"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,400 gp; Slot none; CL 3rd Weight \u00e2\u0080\u0094; Aura faint conjuration APPEARANCE The lens of this classical monocle is made of carefully shaped glass. EFFECTS By looking through the lens, a wearer of a jungle seeker\u00e2\u0080\u0099s monocle can find hidden creatures even in the thickest of jungles. The wearer can use Perception to detect the presence of other living creatures up to 3d6 \u00c3\u009710 feet away in any forest, treating it as if it were a sparse forest. The monocle also grants a +2 competence bonus on Perception checks to notice creatures using Stealth, regardless whether the wearer is in a forest or elsewhere. CONSTRUCTION REQUIREMENTS Cost 6,200 gp; Feats Craft Wondrous Item, acute senses"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_jungle_seekers_monocle",
+          "value": {
+            "value": 12400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

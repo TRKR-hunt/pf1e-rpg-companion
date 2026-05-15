@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shillelagh__crb_",
+    "name": {
+      "value": "Shillelagh"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "potion"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shillelagh",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

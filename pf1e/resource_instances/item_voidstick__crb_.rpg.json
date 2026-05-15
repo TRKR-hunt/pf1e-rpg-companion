@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "voidstick__crb_",
+    "name": {
+      "value": "Voidstick"
+    },
+    "source": {
+      "value": "tempest_rising"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "In remote parts of the world, it is not always practical for the faithful to visit holy places with any regularity. In particular, the weak, the sick, and the dying may be in no position to trek across plains or risk dangerous water crossings to see their spiritual leaders. In response to this, the godstick was born\u00e2\u0080\u0094a crafted rod that serves as a portable shrine, carried by shamans and witchdoctors and pushed into the ground to focus devotion at any location. Ingenuity is not just the way of the benign, however, and just as often it is the way of evil. Before long, shamans who worshiped more hateful deities corrupted this notion; they created the voidsticks and drove them into bodies, living or dead, charging those bodies with the power of the endless void and creating rattling, hungry abominations. Aura faint necromancy [evil]; CL 5; Slot special; Price 2,500 gp; Weight 1 lb. DESCRIPTION Each voidstick is 6 to 10 inches long, with a diameter of about an inch. Carved from single pieces of polished darkwood, they often display markings or symbols sacred to the deity of their creator, but can just as easily be plain and smooth. Planting a voidstick into the ground with an appropriate prayer is a full-round action that provokes attacks of opportunity. The device floods the area with negative energy, producing an effect identical to the desecrate spell in a 20-foot radius. In addition, any evil divine caster within 20 feet of the voidstick may cast her spells without the need for any material component with a value of 10 gp or less, or any focus item with a value of 50 gp or less. This ability functions only for the individual planting the voidstick and persists until the stick is uprooted. While this is a useful tool for shamans in locations poorly serviced by trade in magical goods, it pales in comparison to the voidstick\u2019s most potent function: the creation of undead. Creating a voidstick zombie requires an hour-long ritual during which foul symbols are drawn across a corpse\u2019s flesh. At the end of the hour, the creator must make a DC 25 Knowledge (religion) check before driving the first voidstick into the victim\u2019s heart. If this check succeeds, the victim is transformed into a voidstick zombie. To fully animate the creature, one voidstick must be used for each Hit Die the base creature has. In 12 rounds, the creature rises under its own power, eager to spread its negative energy and snuff out life nearby. Undead created using voidsticks are not under the control of their creator but can be commanded using channeled negative energy, spells, or similar effects. Voidsticks can also be driven into a living body to slay the creature and transition it to undeath. If a living body is used, the creature must be pinned or otherwise helpless for the duration of the entire ritual. When the ritual is complete and the first voidstick is inserted, the creature must make a DC 18 Fortitude save. If this save succeeds, the creature is reduced to 0 hit points and is dying, but the magic of the voidstick and the ritual are wasted and the ritual must be performed again, using another voidstick. If the save fails, the creature dies and the ritual is successful, transforming the base creature into a voidstick zombie. Undead that contain such an item benefit from the +2 bonus hit points per Hit Die for having been created in the area of an enhanced desecrate spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, animate dead, desecrate; Creator must have 5 ranks in Knowledge (religion); Cost 1,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_voidstick",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_voidstick",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grease__crb_",
+    "name": {
+      "value": "Grease"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "potion"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grease",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

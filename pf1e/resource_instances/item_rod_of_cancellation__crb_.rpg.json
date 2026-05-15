@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_cancellation__crb_",
+    "name": {
+      "value": "Rod of cancellation"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 17th; Slot none; Price 11,000 gp; Weight 5 lbs. DESCRIPTION This dreaded rod is a bane to magic items, for its touch drains an item of all magical properties. The item touched must make a successful DC 23 Will save to prevent the rod from draining it. If a creature is holding it at the time, then the item can use the holder\u2019s Will save bonus in place of its own if the holder\u2019s is better. In such cases, contact is made by making a melee touch attack roll. Upon draining an item, the rod becomes brittle and cannot be used again. Drained items are only restorable by a wish or miracle spell. If a sphere of annihilation and a rod of cancellation negate each other, nothing can restore either of them. CONSTRUCTION REQUIREMENTS Feats Craft Rod, mage\u2019s disjunction; Cost 5,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_cancellation",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_cancellation",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

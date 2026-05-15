@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lion_s_shield__crb_",
+    "name": {
+      "value": "Lion\u2019s shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 10th Weight 15 lbs.; Price 9,170 gp DESCRIPTION This +2 heavy steel shield is fashioned to appear to be a roaring lion\u2019s head. Three times per day as a free action, the lion\u2019s head can be commanded to attack (independently of the shield wearer), biting with the wielder\u2019s base attack bonus (including multiple attacks, if the wielder has them) and dealing 2d6 points of damage. This attack is in addition to any actions performed by the wielder. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells summon nature\u2019s ally IV; Cost 4,670 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lion_s_shield",
+          "value": {
+            "value": 9170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lion_s_shield",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "frostbite_sling__crb_",
+    "name": {
+      "value": "Frostbite Sling"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Weight \u00e2\u0080\u0094; Price 9,380 gp DESCRIPTION This +1 frost sling is crafted of blue-dyed leather. In lieu of adding cold damage to normal ammunition, three times per day wielder may create and hurl a magical snowball with the sling instead. This ranged touch attack has a maximum range of 40 feet, deals 1d6+6 points of nonlethal cold damage, and leaves the target fatigued. The fatigued condition ends when the target recovers from the nonlethal damage. This effect cannot make the target exhausted even if it is already fatigued. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells frostbite; Cost 4,840 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_frostbite_sling",
+          "value": {
+            "value": 9380
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

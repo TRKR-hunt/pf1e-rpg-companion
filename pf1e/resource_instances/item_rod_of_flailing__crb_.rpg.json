@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_flailing__crb_",
+    "name": {
+      "value": "Rod of flailing"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 9th; Slot none; Price 50,000 gp; Weight 5 lbs. DESCRIPTION Upon the command of its possessor, this rod activates, changing from a normal-seeming rod to a +3/+3 dire flail. The dire flail is a double weapon, which means that each of the weapon\u2019s heads can be used to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a \u00e2\u0080\u00942 penalty (as if she had the Two-Weapon Fighting feat). Once per day, the wielder can use a free action to cause the rod to grant her a +4 deflection bonus to AC and a +4 resistance bonus on saving throws for 10 minutes. The rod need not be in weapon form to grant this benefit. Transforming a rod of flailing into a weapon or back into a rod is a move action. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Rod, bless; Cost 25,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_flailing",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_flailing",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "purging_falcata__crb_",
+    "name": {
+      "value": "Purging Falcata"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 19,318 gp; Slot none; CL 9th; Weight 4 lbs.; Aura moderate evocation DESCRIPTION This +2 falcata is inscribed with various religious slurs. The attuned religion is chosen when the weapon is created, and can\u2019t be changed later. When a purging falcata is used against members of the attuned religion, its enhancement bonus is +4 instead of +2. It also deals an additional 2d6 points of damage to followers of the designated religion. This additional damage is not multiplied on a critical hit. If the wielder of the purging falcata possesses the challenge class feature, when issuing a challenge, he doesn\u2019t take the \u00e2\u0080\u00932 penalty to armor class against attacks made by followers of the deity attuned to the blade. If the target of the challenge follows the faith to which the blade is attuned, the wielder deals an additional 3d6 points of damage instead of the normal 2d6. CONSTRUCTION REQUIREMENTS Cost 9,818 gp; Feats Craft Magic Arms and Armor; Spells weapon of awe; Special creator must use the weapon to slay a member of the attuned religion"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_purging_falcata",
+          "value": {
+            "value": 19318
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_purging_falcata",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eye_patch_mariner_s__crb_",
+    "name": {
+      "value": "Eye Patch, Mariner's"
+    },
+    "source": {
+      "value": "the_price_of_infamy"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation and divination; CL 5th; Slot eyes; Price 12,000 gp; Weight \u2014 DESCRIPTION This pirate\u2019s eye patch typically features at least one jewel set into a leather patch. Upon uttering a command word as a standard action, the eye patch allows the wearer to use the following abilities once per day each: comprehend languages, scorching ray, and see invisibility. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, comprehend languages, scorching ray, see invisibility; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eye_patch_mariner_s",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

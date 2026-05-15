@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "imperial_army_greathelm__crb_",
+    "name": {
+      "value": "Imperial Army Greathelm"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 29,000 gp; Slot head; CL 9th; Weight 6 lbs.; Aura moderate enchantment DESCRIPTION Many seasoned military commanders wear this style of silver helmet adorned with a single over-sized red plume. If the wearer has the Leadership feat, he gains a +3 bonus to his Leadership score, and any of his followers or cohorts gain a +1 bonus on attack rolls and on saving throws against fear effects while they\u2019re within line of sight of him. If the wearer possesses the tactician class feature, the range of that ability increases to 60 feet. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Leadership; Spells eagle\u2019s splendor, greater command; Cost 14,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_imperial_army_greathelm",
+          "value": {
+            "value": 29000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_imperial_army_greathelm",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_climbing__crb_",
+    "name": {
+      "value": "Ring of climbing"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot ring; Price 2,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This magic ring has the deceptively simple appearance of a plain leather cord that wraps securely around a finger. The ring continually grants the wearer a +5 competence bonus on Climb checks. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special creator must have 5 ranks in the Climb skill; Cost 1,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_climbing",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

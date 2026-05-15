@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fan_black_feather__crb_",
+    "name": {
+      "value": "Fan, Black Feather"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot none; Price 10,000 gp; Weight 1 lb. DESCRIPTION This elaborate fan is made with a dozen black feathers set into a metal handle embossed with a stylized crest. The bearer can use it to create a gust of wind, whispering wind, or wind wall. The fan\u2019s effects can be used 3 times per day, in any combination. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, gust of wind, whispering wind, wind wall; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fan_black_feather",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fan_black_feather",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

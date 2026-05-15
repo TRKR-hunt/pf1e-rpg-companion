@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "harbingers_scythe__crb_",
+    "name": {
+      "value": "Harbinger\u00e2\u0080\u0099s Scythe"
+    },
+    "source": {
+      "value": "the_dead_roads"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 19,518 gp; Slot none; CL 7th; Weight 10 lbs.; Aura moderate evocation and necromancy DESCRIPTION This +2 scythe has a handle carved of bone and topped with a single onyx gem. Once per day when the wielder of the weapon confirms a critical hit against a foe, she can command the blade to release a wave of soul-stealing power. All enemies within a 10-foot-radius burst of the wielder must succeed at a DC 16 Will save or gain 1 temporary negative level. After 1 hour, these temporary negative levels disappear automatically without requiring a saving throw. This ability is not triggered by a critical hit against a helpless or unaware creature or a creature that has a number of Hit Dice less than half the wielder\u00e2\u0080\u0099s total Hit Dice. CONSTRUCTION REQUIREMENTS Cost 9,918 gp; Feats Craft Magic Arms and Armor, enervation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_harbingers_scythe",
+          "value": {
+            "value": 19518
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_harbingers_scythe",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

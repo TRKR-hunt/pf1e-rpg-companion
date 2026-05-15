@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "poison_vial_of_distance__crb_",
+    "name": {
+      "value": "Poison Vial of Distance"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint necromancy DESCRIPTION Favored by assassins, this magical vial allows the application of poisons at a range of up to 30 feet. The poison must be supplied, and must be a contact or ingested poison. The user adds the poison to the vial and then shakes it in the direction of the item or creature she wishes to affect, making a ranged touch attack (a poison vial of distance provides a +4 circumstance bonus on this roll). If the attack is successful, the poison is successfully delivered to the object or creature intended. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells mage hand"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_poison_vial_of_distance",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_poison_vial_of_distance",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

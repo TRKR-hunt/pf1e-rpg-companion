@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "collar_of_sacrifice__crb_",
+    "name": {
+      "value": "Collar of Sacrifice"
+    },
+    "source": {
+      "value": "blood_of_the_coven"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot neck; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate necromancy DESCRIPTION This plain black collar is decorated with snowflake obsidian and functions only when worn by a spellcaster\u2019s familiar or spirit animal. If the bonded master of a familiar wearing a collar of sacrifice is slain, the collar drains the familiar\u2019s life force to restore its master; the familiar is killed instantly and the bonded master is returned to life with 1 hit point. This item does not work if worn by familiars who do not have a physical life force, such as undead or construct familiars. A familiar that wears a collar of sacrifice becomes despondent and paranoid. It will do nothing except skulk along in the shadows to follow its master. A master must succeed at a DC 15 Charisma check to compel behavior or obedience from such a familiar. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells death knell"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_collar_of_sacrifice",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

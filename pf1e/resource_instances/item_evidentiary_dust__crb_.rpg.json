@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "evidentiary_dust__crb_",
+    "name": {
+      "value": "Dust, Evidentiary"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 600 gp; Slot none; CL 4th; Weight \u2014; Aura faint divination DESCRIPTION This light, shimmery blue powder is typically kept in a silk satchel with hemp drawstrings. When tossed into the air, the dust can cover a chamber with up to 100 square feet of floor space, and illuminates all footprints made within that space in the last 24 hours. Illuminated footprints glow softly for 1 hour after the dust is sprinkled and grant a +20 circumstance bonus on Survival checks to follow the tracks. A handful of dust sprinkled along a trail or road illuminates footprints in the same way, and can span as much as 250 feet. Evidentiary dust cannot reveal footprints of creatures that hid their trail via effects such as dust of tracelessness or a druid\u2019s trackless step. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells faerie fire, residual tracking; Gold 300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_evidentiary_dust",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

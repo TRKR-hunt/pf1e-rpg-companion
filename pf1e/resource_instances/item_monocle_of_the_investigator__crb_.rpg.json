@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "monocle_of_the_investigator__crb_",
+    "name": {
+      "value": "Monocle of the investigator #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 11th; Slot eye; Price 66,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This crystal lens fits over a single eye but takes up the entire eyes slot. Once per day, the wearer is able to gaze at a 10-foot-by-10-foot area and see exactly what occurred in that area during the past 24 hours. The vision of what occurred in the specified area comes to the user in a single minute of observation; if that minute is interrupted, the wearer must use the monocle again to get the full observation. All the visual details of the observed events are clear and memorable to the user, no matter how obscure. The monocle does not, however, provide any insight into the observed events besides what can be visually seen. Observed conversations cannot be heard, for example. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, legend lore, vision; Cost 33,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_monocle_of_the_investigator",
+          "value": {
+            "value": 66000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

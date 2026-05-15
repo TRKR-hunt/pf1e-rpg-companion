@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vambraces_duelist_s__crb_",
+    "name": {
+      "value": "Duelist\u2019s vambraces"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 8th; Slot wrists; Price 8,000 gp; Weight 2 lbs. DESCRIPTION Made from a mix of sturdy steel and boiled leather, these vambraces grant a +1 deflection bonus to AC while the wearer is wielding a double weapon or two weapons (not including natural weapons or unarmed attacks). In addition, once per round, when attacking with an off-handed weapon, the wearer can reduce any penalties on attack rolls made with that weapon by 2. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u00e2\u0080\u0099s grace, shield; Special creator must have the Two-Weapon Fighting feat; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vambraces_duelist_s",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vambraces_duelist_s",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "escape_dust__crb_",
+    "name": {
+      "value": "Dust, Escape"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 3rd; Slot none; Price 300 gp; Weight \u00e2\u0080\u0094 DESCRIPTION When a handful of this coarse, crystalline powder is thrown at a single creature, it circles around that creature and disrupts its ability to attack and see. Using this dust requires a ranged touch attack by its user (with a range increment of 5 feet), but doing so does not provoke attacks of opportunity. On a hit, the target is dazzled and cannot make attacks of opportunity or immediate actions for 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, glitterdust; Cost 150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_escape_dust",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

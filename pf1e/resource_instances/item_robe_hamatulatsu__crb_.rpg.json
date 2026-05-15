@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_hamatulatsu__crb_",
+    "name": {
+      "value": "Robe, Hamatulatsu"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,000 gp; Slot body; CL 10th; Weight 1 lb.; Aura moderate evocation and transmutation DESCRIPTION Made of exquisite crimson silk, this variant monk\u2019s robe is embroidered with golden pentagrams and other fiendish symbols. If the wearer is evil and has levels in monk, her AC bonus and unarmed damage are treated as if she were a monk of 5 levels higher (maximum 20). If the wearer is evil but does not possess monk class levels, she gains the AC bonus and unarmed damage of a 5th-level monk (although she doesn\u2019t add her Wisdom bonus to her AC). This AC bonus otherwise functions just like the monk\u2019s AC bonus. If the robe is donned by a character with the Hamatulatsu feat, the duration of the sickened effect increases to 2 rounds. If the wearer doesn\u2019t have the Hamatulatsu feat, she gains this feat while wearing the robes, but gains no further benefits to that ability. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Hamatulatsu; Spells righteous might or transformation, unholy blight; Cost 7,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_hamatulatsu",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_hamatulatsu",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

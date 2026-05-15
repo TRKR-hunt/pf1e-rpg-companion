@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "searing_arrow__crb_",
+    "name": {
+      "value": "Searing arrow"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 9th; Weight \u00e2\u0080\u0094; Price 1,516 gp DESCRIPTION This +1 flaming arrow continues to burn its target each round, dealing 1d6 points of fire damage on the attacker\u2019s turn for the next 3 rounds. Removing the arrow requires a successful DC 10 Heal check and prevents any further damage from the arrow (the DC increases to 15 if the target tries to remove the arrow from himself). Removing the arrow destroys it, and it burns up once the 3 rounds pass. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; flame blade, flame strike, or fireball; Cost 758 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_searing_arrow",
+          "value": {
+            "value": 1516
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

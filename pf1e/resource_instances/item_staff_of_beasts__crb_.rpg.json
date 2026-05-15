@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_beasts__crb_",
+    "name": {
+      "value": "Staff of Beasts"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,600 gp; Slot none; CL 8th; Weight 5 lbs.; Aura moderate transmutation DESCRIPTION This stout wooden walking stick is capped with sturdy steel knobs and carved with elongated figures of smiling beasts. This stout staff is made of wood and capped with steel. Elongated carvings of smiling beasts adorn its length. EFFECTS The staff of beasts functions as a +1/+1 quarterstaff and allows the use of the following spells. Charm animal (1 charge) Longstrider (1 charge) Monkey fish (1 charge) Speak with animals (1 charge) Greater longstrider (2 charges) If the staff\u00e2\u0080\u0099s wielder has the Fleet feat, castings of greater longstrider, longstrider, or monkey fish from the staff are automatically extended, as the Extend Spell feat. If the wielder has the Animal Affinity feat, then charm animal or speak with animals spells cast from the staff are automatically extended, as the Extend Spell feat. This does not increase the spells\u00e2\u0080\u0099 level or casting time. CONSTRUCTION REQUIREMENTS Cost 13,600 gp; Feats Craft Magic Arms and Armor, Craft Staff; Spells charm animal, greater longstrider, longstrider, monkey fish, speak with animals"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_beasts",
+          "value": {
+            "value": 26600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_beasts",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

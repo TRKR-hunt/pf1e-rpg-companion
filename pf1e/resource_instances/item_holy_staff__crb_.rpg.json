@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "holy_staff__crb_",
+    "name": {
+      "value": "Holy staff"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Slot none; Price 29,600 gp; Weight 5 lbs. DESCRIPTION This staff is made from polished birch, inlaid with ivory, and topped with a pristine white gemstone. The staff allows use of the following spells: Align weapon (good only, 1 charge) Detect Evil (1 charge) Holy smite (2 charges) Magic circle against evil (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells align weapon, detect evil, holy smite, magic circle against evil; Cost 14,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_holy_staff",
+          "value": {
+            "value": 29600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_holy_staff",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "earthenflail__crb_",
+    "name": {
+      "value": "Earthenflail"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation and transmutation; CL 13th; Weight 10 lbs.; Price 11,315 gp DESCRIPTION This roughly hewn wooden haft is lashed with gut and rope to a hefty boulder. This +1 heavy flail ignores the hardness of any object with hardness less than 20. As a swift action, however, the wielder can suppress this property until the beginning of his next turn, allowing the head to phase through earth and stone. This allows the wielder to ignore cover or partial cover (but not total cover ) provided by objects or structures made of earth or stone; however, while suppressed, an earthenflail cannot harm objects made of these materials. Cover provided by other sources is unaffected. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells phase door, shatter; Cost 5,815 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_earthenflail",
+          "value": {
+            "value": 11315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_earthenflail",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

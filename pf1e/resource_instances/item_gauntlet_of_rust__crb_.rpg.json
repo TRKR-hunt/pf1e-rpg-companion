@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlet_of_rust__crb_",
+    "name": {
+      "value": "Gauntlet of rust #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Gauntlet of Rust Aura moderate transmutation; CL 7th; Slot hands; Price 11,500 gp; Weight 2 lbs. DESCRIPTION This single metal gauntlet looks rusted and pitted but is actually quite powerful. Once per day, it can affect an object as with the rusting grasp spell. It also completely protects the wearer and her gear from rust (magical or otherwise), including the attack of a rust monster. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, rusting grasp; Cost 5,750 gp. Gauntlet of Rust, Greater Aura moderate transmutation; CL 7th; Slot hands; Price 34,500 gp; Weight 1 lb. DESCRIPTION This item is identical to a gauntlet of rust, except the wearer can use rusting grasp 3 times per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, rusting grasp; Cost 17,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlet_of_rust",
+          "value": {
+            "value": 11500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlet_of_rust",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coin_of_the_untrodden_road__crb_",
+    "name": {
+      "value": "Coin of the untrodden road #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 6th; Weight \u00e2\u0080\u0094; Slot none; Price 6,000 gp DESCRIPTION When tossed into the air, this tarnished copper coin brings forth potential lost by life\u2019s decisions. If a human, half-elf, or half-orc flips the coin and catches it, she takes a -2 penalty to the ability score modified by her +2 racial ability score bonus, but gains a +2 inherent bonus to a random other ability score. The bonus and penalty last for 1 hour. Negating the penalty automatically negates the bonus as well. The coin can be used three times per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, alter self; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coin_of_the_untrodden_road",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

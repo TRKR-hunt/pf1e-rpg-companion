@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sea_coat__crb_",
+    "name": {
+      "value": "Sea Coat"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot armor; Price 2,300 gp; Weight 15 lbs. DESCRIPTION This +1 leather armor is made of a linen-like cloth made of a sea plant and resembles a snug light coat with a tattered lower fringe in the shape of trailing seaweed. The wearer of a sea coat gains a +5 bonus on Swim checks. Once per day, the wearer can breathe water (as the water breathing spell) for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells water breathing; Special creator must have 5 ranks in the Swim skill; Price 1,230 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sea_coat",
+          "value": {
+            "value": 2300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sea_coat",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

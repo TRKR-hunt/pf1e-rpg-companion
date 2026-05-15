@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hellscourge__crb_",
+    "name": {
+      "value": "Hellscourge"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 7th; Weight 3 lbs.; Price 39,305 gp DESCRIPTION This +1 unholy scorpion whip is fashioned from skin flayed from a barbed devil\u2019s back. It grants its wielder a +5 competence bonus on Intimidate checks. A shaken creature struck by the hellscourge must succeed at a DC 17 Will save or become frightened for 1 round. A frightened or panicked creature struck must instead save or cower for 1d4 rounds. Both of these are mind-affecting fear effects. If wielded by a person who wears hamatula hide armor, the hellscourge functions as a +1 flaming unholy whip. Such a wielder can lash the whip once per day to hurl flames as a scorching ray (creating two rays); doing so extinguishes the whip\u2019s flames until the next day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, fear, scorching ray, unholy blight; Cost 19,805 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hellscourge",
+          "value": {
+            "value": 39305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hellscourge",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

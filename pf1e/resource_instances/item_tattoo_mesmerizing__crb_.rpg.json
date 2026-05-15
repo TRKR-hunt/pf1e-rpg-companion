@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_mesmerizing__crb_",
+    "name": {
+      "value": "Tattoo, Mesmerizing"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,800 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint enchantment DESCRIPTION This shadowy tattoo is drawn in a spiraling pattern down one of the bearer\u00e2\u0080\u0099s arms. If the tattoo is visible, the wearer gains a +2 circumstance bonus on Diplomacy checks. Whenever the bearer uses the hypnotism occult skill unlock, casts an enchantment spell that targets a single creature, or uses the hypnotic stare class feature, her target takes a \u00e2\u0080\u00931 penalty on Will saving throws for the ability\u00e2\u0080\u0099s duration and the DC to affect the target with the hypnotism occult skill unlock is reduced by 1. This is a mind-affecting effect. CONSTRUCTION REQUIREMENTS Cost 5,400 gp; Feats Inscribe Magical Tattoo; Spells suggestion"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_mesmerizing",
+          "value": {
+            "value": 10800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

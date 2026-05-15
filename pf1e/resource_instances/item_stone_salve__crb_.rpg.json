@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_salve__crb_",
+    "name": {
+      "value": "Stone salve #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration and transmutation; CL 13th; Weight \u00e2\u0080\u0094; Slot none; Price 4,000 gp DESCRIPTION This ointment has two uses. If an ounce of it is applied to the flesh of a petrified creature, it returns the creature to flesh as the stone to flesh spell. If an ounce of it is applied to the flesh of a nonpetrified creature, it protects the creature as a stoneskin spell. The price and creation cost given are per ounce. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, stone to flesh, stoneskin; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_salve",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

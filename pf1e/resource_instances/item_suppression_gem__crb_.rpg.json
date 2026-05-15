@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "suppression_gem__crb_",
+    "name": {
+      "value": "Suppression Gem"
+    },
+    "source": {
+      "value": "construct_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 65,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura moderate enchantment DESCRIPTION This small gem crackles and sparks with arcing electricity. As a standard action, a creature can attempt to place the gem on a construct with a touch attack that provokes an attack of opportunity. Once placed, the creature that placed the gem can issue orders to the construct as if that creature were the original creator until the gem is destroyed. The construct can resist any self-destructive commands with a successful DC 14 Will save. The original owner of the construct can use a standard action to attempt to regain control of the construct with a successful Charisma check, opposed by a Charisma check attempted by the gem\u00e2\u0080\u0099s user. The gem\u00e2\u0080\u0099s user can attempt to regain control in the same fashion. A suppression gem has 30 hit points and hardness 10. CONSTRUCTION REQUIREMENTS Cost 32,500 gp; Feats Craft Wondrous Item; Spells suggestion"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_suppression_gem",
+          "value": {
+            "value": 65000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

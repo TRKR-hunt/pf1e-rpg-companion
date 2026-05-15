@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mage_shot_fire__crb_",
+    "name": {
+      "value": "Mage Shot (Fire)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_villain_codex"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th Slot none; Weight -; Price 178 gp DESCRIPTION When propelled from a firearm, this +1 alchemical paper cartridge changes the damage to fire damage. If the target takes fire damage from the cartridge, it must succeed at a DC 14 Reflex saving throw or catch on fire, taking an additional 1d6 points of fire damage on that round and on subsequent rounds, until the flames are extinguished (Pathfinder RPG Core Rulebook 444). CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor, scorching ray; Cost 98 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mage_shot_fire",
+          "value": {
+            "value": 178
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

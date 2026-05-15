@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "psychic_aurascope__crb_",
+    "name": {
+      "value": "Psychic Aurascope"
+    },
+    "source": {
+      "value": "haunted_heroes_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 7th; Weight 4 lbs.; Aura moderate divination DESCRIPTION A magical version of a haunt detector, a psychic aurascope is filled with a strange, swirling white vapor. A psychic aurascope acts in all ways as a haunt detector, but in addition, while the aurascope\u00e2\u0080\u0099s bulb is touching a creature or object, the user can utter a command word to activate the aurascope, causing the vapor contained within it to rapidly shift between multiple hues for as long as it continues to touch that creature or object. The hues displayed within the aurascope relate to the touched creature or object\u00e2\u0080\u0099s alignment aura, emotion aura, health aura, and magic aura, allowing the user to use the read aura occult skill unlock once per day, even if she has no levels in an occult class or doesn\u00e2\u0080\u0099t have the Psychic Sensitivity feat. If the user has levels in an occult class or the Psychic Sensitivity feat, she can attempt a Perception check with a DC equal to 25 + the creature\u00e2\u0080\u0099s Hit Dice or the item\u00e2\u0080\u0099s caster level and apply the result to all of the target\u00e2\u0080\u0099s auras instead of just one single aura. The user can use this version of the read aura occult skill unlock at will; it doesn\u00e2\u0080\u0099t count as her one daily use of the read aura skill unlock. In addition, if the user attempts to read the auras of an object that is associated with a haunt, the object\u00e2\u0080\u0099s auras twist and writhe in the shape of skulls, anguished faces, and flashes of scenes relating to the haunt\u00e2\u0080\u0099s formation, allowing her to use Knowledge (religion) to attempt to identify the haunt\u00e2\u0080\u0099s elements, such as its area, notice DC, weakness, trigger, destruction requirements, and so on. The DC to identify a haunt\u00e2\u0080\u0099s elements with a psychic aurascope is equal to 20 + the haunt\u00e2\u0080\u0099s CR, which allows the user to determine one of the haunt\u00e2\u0080\u0099s elements, chosen randomly. For every 5 by which the check\u00e2\u0080\u0099s result exceeds this DC, the user randomly determines another one of the haunt\u00e2\u0080\u0099s elements. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells analyze aura, speak with haunt"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_psychic_aurascope",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_psychic_aurascope",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

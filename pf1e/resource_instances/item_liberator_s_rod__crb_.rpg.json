@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "liberator_s_rod__crb_",
+    "name": {
+      "value": "Liberator\u2019s rod"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura abjuration; CL 9th; Slot none; Price 30,000 gp; Weight 5 lbs. DESCRIPTION This bronze rod is capped with a hollow head formed by sweeping aquiline wings shielding a continual flame. A rod of liberty can be used as a +1 merciful light mace, but while its merciful property is suppressed by the wielder so is the continual flame. On command, the wielder of a rod of liberty may touch a creature that has failed a save against a charm, compulsion, or possession effect. Doing so grants that creature a new saving throw to end the effect. If this new save fails, the effect remains and the rod\u00e2\u0080\u0099s touch cannot further affect it. Once per day on command, the wielder can use break enchantment, as the spell. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Rod, break enchantment, cast out, continual flame; Cost 15,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_liberator_s_rod",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_liberator_s_rod",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

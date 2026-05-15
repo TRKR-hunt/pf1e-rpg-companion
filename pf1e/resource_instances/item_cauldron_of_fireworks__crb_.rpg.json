@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cauldron_of_fireworks__crb_",
+    "name": {
+      "value": "Cauldron of Fireworks"
+    },
+    "source": {
+      "value": "blood_of_the_coven"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,500 gp; Slot none; CL 17th; Weight 25 lbs.; Aura strong transmutation DESCRIPTION This heavy cauldron emits colorful smoke whenever a potion is poured into it. Pouring a potion into a cauldron of fireworks is a standard action, and a creature can use the fireworks cauldron to store a number of potions equal to her Intelligence modifier. The wielder can command the cauldron to fire a stored potion at a target within 30 feet as a standard action; the target creature is affected as if it drank the potion. The wielder can target allies automatically, but she must succeed at a ranged touch attack to target unwilling creatures. Only the creature that placed potions in the cauldron of fireworks can command it, and only one creature can store potions within the cauldron at a time. A new creature adding a potion to the cauldron of fireworks immediately destroys any potions currently stored within it. A creature that has the cauldron hex can command a cauldron of fireworks she controls to fire potions stored by another user. CONSTRUCTION REQUIREMENTS Cost 3,750 gp; Brew Potion, Craft Wondrous Item, Reach Spell; Spells cauldron hex"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cauldron_of_fireworks",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cauldron_of_fireworks",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

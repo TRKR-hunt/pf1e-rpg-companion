@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "density_hammer__crb_",
+    "name": {
+      "value": "Density Hammer"
+    },
+    "source": {
+      "value": "elemental_masters_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,340 gp; Slot none; CL 9th; Weight 15 lbs.; Aura moderate abjuration DESCRIPTION This +3 earth breaker is blocky and heavy. Several chrysoberyls adorn the head around its striking surface. The density hammer\u2019s wielder is immune to petrification effects, but each time the wielder would be subject to a petrification effect, the density hammer\u2019s weight doubles and its enhancement bonus decreases by 1 for 24 hours. If the density hammer\u2019s enhancement bonus decreases to 0, the wielder is no longer immune to petrification effects and the density hammer gains the fragile weapon special feature. CONSTRUCTION REQUIREMENTS Cost 13,340 gp; Feats Craft Magic Arms and Armor; Spells stone to flesh"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_density_hammer",
+          "value": {
+            "value": 26340
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_density_hammer",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

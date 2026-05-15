@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "idol_of_the_eye__crb_",
+    "name": {
+      "value": "Idol of the Eye"
+    },
+    "source": {
+      "value": "curse_of_the_riven_sky"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 9th; Slot none; Price 19,000 gp; Weight 5 lbs. DESCRIPTION This squat, golden idol looks like a bald, obese wise man with an extra eye in his forehead. It can be used once per day to gain information as with an augury spell, and once per day as a divination spell. Once per week, a single yes-or-no question can be asked of it (as with a commune spell). The answers do not come from a deity, but instead from insights granted by celestial movements and conjunctions; a sample insight might be, \u00e2\u0080\u009cBecause Aballon and Eox are in conjunction in the House of the Eagle, the answer is yes.\u00e2\u0080\u009d CONSTRUCTION REQUIREMENTS Craft Wondrous Item, augury, commune, divination; Cost 9,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_idol_of_the_eye",
+          "value": {
+            "value": 19000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_idol_of_the_eye",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

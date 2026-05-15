@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_the_battle_herald__crb_",
+    "name": {
+      "value": "Boots of the Battle Herald"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot feet; CL 11th; Weight 2 lbs.; Aura moderate enchantment DESCRIPTION These boots are made of fine white leather tooled with scenes of epic battles. Once per day as a move action, the wearer can affect himself with greater heroism for 11 minutes. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Craft Wondrous Item; Spells greater heroism, remove fear"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_the_battle_herald",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_the_battle_herald",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

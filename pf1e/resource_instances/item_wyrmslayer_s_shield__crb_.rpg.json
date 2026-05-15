@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wyrmslayer_s_shield__crb_",
+    "name": {
+      "value": "Wyrmslayer\u2019s shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 9th; Weight 15 lbs.; Price 20,170 gp DESCRIPTION This +4 heavy steel shield acts in all ways as a dragonslayer\u2019s shield, except it grants a +6 morale bonus on Will saves against the frightful presence ability instead of a +2 morale bonus. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells remove fear, shield of faith; Cost 10,170 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wyrmslayer_s_shield",
+          "value": {
+            "value": 20170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wyrmslayer_s_shield",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "migru__crb_",
+    "name": {
+      "value": "Migrus locker (Migru)"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Weight 20 lbs.; Slot none; Price 10,000 gp DESCRIPTION This small locker is carved from fossilized wood and it is usually found chained and sealed. When the locker is unsealed and opened, the migrus\u00e2\u0080\u0094a desiccated hairless cat with a humanoid face\u00e2\u0080\u0094is found within. After a few moments the migrus animates and begins to clean itself, and its face begins to take the appearance of the creature who opened the migrus locker. The migrus considers the last creature to release it from the locker is its master. The migrus moves in a strange jerky motion. It obeys simple verbal commands from its master. The migrus takes a very literal and brutal approach to problem solving and is fond of taking trophies. If the migrus is slain, it decays messily overnight in a glistening slick of putrid fluid. At the next dawn, the migrus reconstitutes within its locker (if the locker is opened before dawn, the partially-reconstituted migrus is visible inside, consuming the remnants of its former body. The migrus has attributes of a cat familiar except it has the construct type. The migrus always does its best to return to its master and cannot be permanently destroyed by normal means. If the locker is destroyed ( hardness 5, 10 hp), the migrus is destroyed, no matter the distance to the locker. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, reincarnate or stone to flesh; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_migru",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_migru",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

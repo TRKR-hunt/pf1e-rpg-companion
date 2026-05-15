@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_aristocrat_s__crb_",
+    "name": {
+      "value": "Gloves, Aristocrat's"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,600 gp; Slot hands; CL 5th; Weight 1 lb.; Aura faint abjuration and evocation DESCRIPTION Wealthy aristocrats wear these elegant, full-length white gloves. Twice per day as a move action, the wearer of these gloves can repel an unwanted creature for 1 minute or until the wearer touches another creature, whichever comes first. Any creature attempting to attack or touch the wearer during this time must succeed at a DC 11 Will save to do so (as the sanctuary spell). Once per day, the wearer can summon a surge of invisible force to knock back a single target within 40 feet. The wearer attempts a combat maneuver check to bull rush one creature or object with a +5 bonus. This bull rush combat maneuver doesn\u2019t provoke an attack of opportunity. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells hydraulic push, sanctuary; Cost 1,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_aristocrat_s",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_aristocrat_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

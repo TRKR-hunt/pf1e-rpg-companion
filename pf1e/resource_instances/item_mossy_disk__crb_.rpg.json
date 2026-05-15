@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mossy_disk__crb_",
+    "name": {
+      "value": "Mossy Disk (Ioun Stone)"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination and evocation DESCRIPTION This stone grants you a +5 competence bonus on checks with one Knowledge skill (chosen by the stone\u00e2\u0080\u0099s creator). Resonant Power: This stone grants a +1 competence bonus on Appraise checks. Cracked: This stone grants a +1 competence bonus on checks with one Knowledge skill (chosen by the stone\u00e2\u0080\u0099s creator). Price: 200 gp. Flawed: This stone grants a +5 competence bonus on checks with one Knowledge skill (chosen by the stone\u00e2\u0080\u0099s creator) and imparts a \u00e2\u0080\u00932 penalty to Constitution. Price: 1,600 gp. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells fox\u00e2\u0080\u0099s cunning; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mossy_disk",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

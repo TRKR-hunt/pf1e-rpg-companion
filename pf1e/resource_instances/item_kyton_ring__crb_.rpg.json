@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "kyton_ring__crb_",
+    "name": {
+      "value": "Kyton Ring"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot ring; CL 7th; Weight \u00e2\u0080\u0094 Aura moderate conjuration DESCRIPTION This rusty iron ring looks like a twisted chain. On command, the ring can produce a rusty, clanky length of iron chain ( hardness 10, 5 hp, break DC 26). The ring can create no more than 100 feet of chain in this way. This total length can be split among many uses, but must be spent in 10-foot increments. When the ring\u00e2\u0080\u0099s daily allotment of chain is renewed, any previously conjured chain rusts away. Once per day as a standard action, the user can shoot a chain from the ring as though it were a grappling hook, except the range increment is 50 feet. Whatever length of chain she shoots out counts against ring\u00e2\u0080\u0099s daily allotment. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Forge Ring; Spells major creation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_kyton_ring",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

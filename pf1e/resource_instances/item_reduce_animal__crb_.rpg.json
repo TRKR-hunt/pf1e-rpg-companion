@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "reduce_animal__crb_",
+    "name": {
+      "value": "Reduce animal"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "potion"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_reduce_animal",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

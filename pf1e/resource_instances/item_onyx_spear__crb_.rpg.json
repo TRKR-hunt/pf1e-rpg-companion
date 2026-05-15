@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "onyx_spear__crb_",
+    "name": {
+      "value": "Onyx Spear"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,453 gp; Slot none; CL 11th; Weight 3 lbs.; Aura moderate necromancy DESCRIPTION This +1 shortspear is adorned with bone fetishes, feathers, leaves, and gnarled branches. Each onyx spear is created alongside a specially crafted onyx gem. If this gem is within 100 feet of the wielder and the wielder\u2019s hit points are reduced below 0, the gem shatters. When the gem shatters, the wielder of the onyx spear is immediately slain, and animates 1 round later as a juju zombie. If the gem is held by anyone other than the spear\u2019s wielder when the wielder is slain (and the gem shatters), the creature holding the gem gains 1d8 temporary hit points, a +2 enhancement bonus to Strength, and a +1 bonus to its effective caster level. These bonuses last 1 hour. After the onyx shatters, the weapon is treated as a +1 shortspear. CONSTRUCTION REQUIREMENTS Cost 5,877 gp; Feats Craft Magic Arms and Armor; Spells animate dead, death knell, onyx worth at least 1,000 gp; Special creator must be an evil oracle"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_onyx_spear",
+          "value": {
+            "value": 10453
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_onyx_spear",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mirror_of_opposition__crb_",
+    "name": {
+      "value": "Mirror of opposition #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy; CL 15th; Slot \u00e2\u0080\u0094; Price 92,000 gp; Weight 45 lbs. DESCRIPTION This item resembles a normal mirror about 4 feet long and 3 feet wide. It can be hung or placed on a surface and then activated by speaking a command word. The same command word deactivates the mirror. If a creature sees its reflection in the mirror\u2019s surface, an exact duplicate of that creature comes into being. This opposite immediately attacks the original. The duplicate has all the possessions and powers of its original (including magic). Upon the defeat or destruction of either the duplicate or the original, the duplicate and its items disappear completely. The mirror functions up to four times per day. Destroying the mirror ( Hardness 1, 5 hit points ) causes all of the duplicates to immediately vanish. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, clone; Cost 46,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mirror_of_opposition",
+          "value": {
+            "value": 92000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mirror_of_opposition",
+          "value": {
+            "value": 45
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

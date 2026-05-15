@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "armor_dragonform__crb_",
+    "name": {
+      "value": "Dragonform Armor"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,120 gp; Slot armor; CL 11th; Weight 15 lbs.; Aura moderate transmutation DESCRIPTION This +1 leather armor is the same color as the dragon type with which it is associated and has been worked to resemble dragon hide. Once per day the wearer can speak the command word and transform into the associated dragon type as the form of the dragon I spell. This effect lasts 11 minutes. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells form of the dragon I; Cost 12,060 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_armor_dragonform",
+          "value": {
+            "value": 24120
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_armor_dragonform",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

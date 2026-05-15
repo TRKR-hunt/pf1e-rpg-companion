@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_entropy_and_order__crb_",
+    "name": {
+      "value": "Ring of Entropy and Order"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,200 gp; Slot ring; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate abjuration DESCRIPTION This gold ring resembles tiny angel wings folded around a clear crystal. Once per day, the wearer can target herself with a protection from chaos or protection from law effect that lasts for 10 minutes. However, if the wearer uses the ring of entropy and order to gain protection from chaos while on a plane with the mildly chaos-aligned or strongly chaos-aligned trait, or to gain protection from law while on a plane with the mildly law-aligned or strongly law-aligned trait, the effect instead lasts for 1 hour. If the wearer fails a saving throw against a charm or compulsion effect while on a plane with the mildly chaos-aligned, mildly law-aligned, strongly chaos-aligned, or strongly law-aligned traits, she can activate the effect as an immediate action. CONSTRUCTION REQUIREMENTS Cost 8,100 gp; Forge Ring; Spells contingency, protection from chaos, protection from law"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_entropy_and_order",
+          "value": {
+            "value": 16200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

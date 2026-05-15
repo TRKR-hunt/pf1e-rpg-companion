@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tidewater_cutlass__crb_",
+    "name": {
+      "value": "Tidewater Cutlass"
+    },
+    "source": {
+      "value": "the_wormwood_mutiny"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd; Slot none; Price 3,395 gp; Weight 4 lbs. DESCRIPTION The blade of this +1 cutlass is spotted with rust, and its basket hilt is cast in the likeness of a grinning skull. Once per day, a tidewater cutlass can be used to cast hydraulic push. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells hydraulic push; Cost 1,855 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tidewater_cutlass",
+          "value": {
+            "value": 3395
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tidewater_cutlass",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

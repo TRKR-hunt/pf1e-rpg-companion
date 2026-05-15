@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dagons_eye__crb_",
+    "name": {
+      "value": "Dagon\u00e2\u0080\u0099s Eye"
+    },
+    "source": {
+      "value": "city_in_the_deep"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,600 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint divination and evocation DESCRIPTION This chunk of yellow crystal glows like a torch. EFFECTS Dagon\u2019s eye sheds normal light in a 20-foot radius and increasing the light level for an additional 20 feet by one step, up to normal light. The crystal floats in the air 1 foot above any solid surface and can be moved with little effort. Any form of Abyssal writing (books, scrolls, etc.) read by the light of Dagon\u00e2\u0080\u0099s eye can be understood by any creature that perceives it, as if under the effects of a comprehend languages spell. If any form of Celestial writing is placed in the light of Dagon\u00e2\u0080\u0099s eye, the words erupt into a searing fireball that deals 6d6 points of fire damage to all creatures within 20 feet of the writing. Creatures in the area take only half damage with a successful DC 14 Reflex save. This ability functions once every 10 minutes. CONSTRUCTION REQUIREMENTS Cost 6,300 gp; Feats Craft Wondrous Item; Spells comprehend languages, explosive runes; Special creator must worship a demon lord"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dagons_eye",
+          "value": {
+            "value": 12600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dagons_eye",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

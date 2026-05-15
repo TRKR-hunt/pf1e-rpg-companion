@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_animal_totem__crb_",
+    "name": {
+      "value": "Tattoo, Animal Totem"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION An animal totem tattoo is dedicated to a specific animal totem. The bearer gains the totem transformation ability of a 5th-level druid with the corresponding animal shaman archetype (ape, bat, bear, boar, dragon, eagle, lion, saurian, serpent, shark, or wolf ). If the bearer already has the corresponding totem transformation as a class ability, she is instead treated as a druid of 5 levels higher for the purposes of this ability. CONSTRUCTION REQUIREMENTS Cost 6,000 gp; Feats Inscribe Magical Tattoo; Spells beast shape I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_animal_totem",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

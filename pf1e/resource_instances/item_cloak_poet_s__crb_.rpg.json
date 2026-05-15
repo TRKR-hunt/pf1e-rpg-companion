@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_poet_s__crb_",
+    "name": {
+      "value": "Cloak, Poet's"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,750 gp; Slot shoulders; CL 7th; Weight 1 lb.; Aura moderate enchantment DESCRIPTION Even after cleaning and mending, this traveler\u2019s cloak appears worn and weathered. For wearers with the bardic performance class feature, it grants the use of raging song as a 4th-level skald by spending rounds of bardic performance. For wearers with the raging song class feature, it grants the use of inspire courage and inspire competence as a 4th-level bard by spending rounds of raging song. In addition, each poet\u2019s cloak allows its wearer to grant one specific rage power when using raging song in place of his own rage powers (if any). The specific rage power varies by cloak. It must be usable by a 4th-level skald, and can\u2019t have any prerequisites other than level. CONSTRUCTION REQUIREMENTS Cost 4,875 gp; Feats Craft Wondrous Item; Spells good hope, rage; Special creator must have the bardic performance or raging song class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_poet_s",
+          "value": {
+            "value": 9750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_poet_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

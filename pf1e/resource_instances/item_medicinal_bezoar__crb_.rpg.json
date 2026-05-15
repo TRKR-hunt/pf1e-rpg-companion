@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "medicinal_bezoar__crb_",
+    "name": {
+      "value": "Medicinal Bezoar"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,600 gp; Weight 1/2 lb.; Slot none; CL 8th; Aura moderate conjuration DESCRIPTION Anyone who swallows this finger-sized stony mass is subject to neutralize poison and gains a +4 bonus on savings throws against addiction for 24 hours. Once swallowed, the bezoar dissolves and its power is spent. CONSTRUCTION REQUIREMENTS Cost 800 gp; Feats Craft Wondrous Item; Spells neutralize poison Get this book AND Support this site!"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_medicinal_bezoar",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

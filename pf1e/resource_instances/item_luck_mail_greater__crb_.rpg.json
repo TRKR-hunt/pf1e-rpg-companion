@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "luck_mail_greater__crb_",
+    "name": {
+      "value": "Luck Mail, Greater"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment and evocation; CL 3rd; Slot armor; Price 4,840 gp; Weight 40 lbs. DESCRIPTION This +1 chainmail is decorated with a row of small metal disks, each stamped with a tankard symbol. The wearer gains a +1 luck bonus on all saving throws and can use moment of greatness once per day CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells divine favor, moment of greatness; Price 2,570 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_luck_mail_greater",
+          "value": {
+            "value": 4840
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_luck_mail_greater",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

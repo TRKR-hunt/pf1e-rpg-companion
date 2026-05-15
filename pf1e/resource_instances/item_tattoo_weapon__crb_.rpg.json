@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_weapon__crb_",
+    "name": {
+      "value": "Tattoo, Weapon"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This tattoo can store one weapon, sized for the bearer of the tattoo. When no weapon is stored, the tattoo takes the form of an empty sword sheath. When a weapon is stored within the tattoo, it takes the form of the weapon so stored. Storing a weapon in the tattoo is a full-round action, but removing a weapon from the tattoo is only a swift action. This tattoo can only be put on one of the bearer\u2019s arms (preventing the other arm from receiving another tattoo), and the weapon automatically appears in the hand of the arm it is tattooed upon. If that hand is not free, the weapon cannot be summoned. If the bearer is tightly constrained in an area too small for the weapon to appear without damaging something, the weapon cannot be summoned. If the tattoo is destroyed while a weapon is in it, the weapon falls to the ground in a random space adjacent to the bearer of the tattoo. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Inscribe Magical Tattoo; Spells disguise weapon"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_weapon",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

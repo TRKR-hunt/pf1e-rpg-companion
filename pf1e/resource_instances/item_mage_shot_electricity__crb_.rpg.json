@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mage_shot_electricity__crb_",
+    "name": {
+      "value": "Mage Shot (Electricity)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_villain_codex"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th Slot none; Weight -; Price 178 gp DESCRIPTION When propelled from a firearm, this +1 alchemical paper cartridge changes the damage to electricity damage. If the target takes electricity damage from the cartridge, it must succeed at a DC 14 Fortitude saving throw or be dazed for 1 round. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor, lightning bolt; Cost 98 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mage_shot_electricity",
+          "value": {
+            "value": 178
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

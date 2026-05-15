@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_the_hedge_wizard__crb_",
+    "name": {
+      "value": "Cloak of the hedge wizard #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint, school based on cloak type; CL 1st; Slot shoulders; Price 2,500 gp; Weight 1 lb. DESCRIPTION This cloak comes in eight varieties\u00e2\u0080\u0094one for each school of magic. The cloak grants its wearer the ability to use a certain number of spells on command ( caster level 1st) based on its school of magic. It also grants the wearer the ability to use prestidigitation on command and at will. Abjuration: at will\u00e2\u0080\u0094 resistance; 1/day\u00e2\u0080\u0094 endure elements, shield Conjuration: at will\u00e2\u0080\u0094 acid splash; 1/day\u00e2\u0080\u0094 mage armor, unseen servant Divination: at will\u00e2\u0080\u0094 detect magic; 1/day\u00e2\u0080\u0094 detect secret doors, true strike Enchantment: at will\u00e2\u0080\u0094 daze; 1/day\u00e2\u0080\u0094 charm person, sleep Evocation: at will\u00e2\u0080\u0094 light; 1/day\u00e2\u0080\u0094 floating disk, magic missile Illusion: at will\u00e2\u0080\u0094 ghost sound; 1/day\u00e2\u0080\u0094 color spray, silent image Necromancy: at will\u00e2\u0080\u0094 touch of fatigue; 1/day\u00e2\u0080\u0094 cause fear, ray of enfeeblement Transmutation: at will\u00e2\u0080\u0094 mage hand; 1/day\u00e2\u0080\u0094 enlarge person, expeditious retreat CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, prestidigitation and any spell the cloak allows the caster to use; the creator must have Spell Focus in the cloak\u00e2\u0080\u0099s school of magic; Cost 1,125 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_the_hedge_wizard",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_the_hedge_wizard",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

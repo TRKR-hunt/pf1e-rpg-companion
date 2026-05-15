@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rageskin_lupine__crb_",
+    "name": {
+      "value": "Rageskin, Lupine"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,160 gp; Slot armor; CL 5th; Weight 15 lbs.; Aura faint transmutation DESCRIPTION This +1 leather armor consists of wolf skins sewn together with sinew. When the wearer rages, he automatically turns into a Medium wolf, as if using change shape ( beast shape I ). The armor melds with his new form as normal, but the armor\u00e2\u0080\u0099s enhancement bonus changes into a +1 enhancement bonus to her natural armor. When the rage ends, the wearer reverts to his own form. CONSTRUCTION REQUIREMENTS Cost 6,160 gp; Feats Craft Magic Arms and Armor; Spells beast shape I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rageskin_lupine",
+          "value": {
+            "value": 12160
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rageskin_lupine",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

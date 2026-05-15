@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_dunestrider__crb_",
+    "name": {
+      "value": "Boots, Dunestrider"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot feet; Price 3,000 gp; Weight 2 lbs. DESCRIPTION These boots are cracked and weathered from the desert sun. When you wear dunestrider boots, you may walk on sand as if it were hardpacked earth. Overland movement across sandy desert is treated as plains. Even loose sand and quicksand are not difficult terrain for you, allowing you to cross them at normal speed. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, expeditious retreat, longstrider; Cost 1,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_dunestrider",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_dunestrider",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

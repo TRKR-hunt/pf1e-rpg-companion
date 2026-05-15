@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rosy_hauberk__crb_",
+    "name": {
+      "value": "Rosy Hauberk"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and transmutation; CL 3rd; Slot armor; Price 3,035 gp; Weight 25 lbs. DESCRIPTION This metallic +1 chain shirt is woven with the petals, buds, and stalks of numerous kinds of beautiful flowers, and the garment is so finely cut that it makes even unsightly wearers appear to have flattering proportions. The wearer can use aspect of the nightingale and summon instrument each once per day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells aspect of the nightingale, summon instrument; Price 1,965 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rosy_hauberk",
+          "value": {
+            "value": 3035
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rosy_hauberk",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mammoth_lance__crb_",
+    "name": {
+      "value": "Mammoth Lance"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,310 gp; Slot none; CL 9th; Weight 10 lbs.; Aura moderate transmutation DESCRIPTION This +2 lance is made out of white spruce wood with a handle carved from mammoth tusk ivory. Its shaft is decorated with images of charging mammoths or running wolves. Traditionally, the owner of a mammoth lance adorns the weapon with small trophies attached via short leather strips or carves notches in the shaft to represent triumphs. When wielded while mounted on a creature with the animal type, a mammoth lance uses the mount\u2019s Strength modifier on damage rolls rather than the wielder\u2019s Strength modifier. When its wielder is not mounted, or is mounted on a creature without the animal type, a mammoth lance functions as a normal +2 lance. CONSTRUCTION REQUIREMENTS Cost 16,310 gp; Feats Craft Magic Arms and Armor; Spells animal growth, bull\u2019s strength"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mammoth_lance",
+          "value": {
+            "value": 32310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mammoth_lance",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

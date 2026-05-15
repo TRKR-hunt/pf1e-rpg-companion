@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dragoncatch_guisarme__crb_",
+    "name": {
+      "value": "Dragoncatch guisarme"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 8th; Weight 5 lbs.; Price 13,308 gp DESCRIPTION This +1 dragon bane guisarme is has a shaft wound tightly with dragonhide. A dragoncatch guisarme can be used to make a special trip maneuver against creatures using wings to fly. If the maneuver succeeds, the target\u2019s wings are fouled and the creature is knocked off balance, falling to the ground and gaining the entangled condition. A creature tripped in this way can attempt a DC 15 Fly check as a move action to remove the entangled condition. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells black tentacles, summon monster I; Cost 6,808 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dragoncatch_guisarme",
+          "value": {
+            "value": 13308
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dragoncatch_guisarme",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "moon_clock__crb_",
+    "name": {
+      "value": "Moon Clock"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,650 gp; Slot none; CL 13th; Weight \u00e2\u0080\u0094; Aura moderate divination and illusion DESCRIPTION This intricate mechanism opens like a pocket watch to reveal a set of dials indicating the current phase of the moon, as well as the previous and upcoming phases. A moon clock can be destroyed as a standard action to release a powerful blast of lunar energy in a 30-foot-radius burst. Lycanthropes in the area of this blast must succeed at a DC 20 Will save or revert to their humanoid forms. CONSTRUCTION REQUIREMENTS Cost 1,325 gp; Feats Craft Wondrous Item; Spells divination, lunar veil"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_moon_clock",
+          "value": {
+            "value": 2650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

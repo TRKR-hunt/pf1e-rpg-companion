@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "silver_dagger_masterwork__crb_",
+    "name": {
+      "value": "Masterwork silver dagger"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura no aura (non-magical); CL \u00e2\u0080\u0094; Weight 1 lb.; Price 322 gp DESCRIPTION As a masterwork weapon, this alchemical silver dagger has a +1 enhancement bonus on attack rolls (but not on damage rolls)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_silver_dagger_masterwork",
+          "value": {
+            "value": 322
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_silver_dagger_masterwork",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

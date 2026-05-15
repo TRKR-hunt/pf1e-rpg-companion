@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goggles_treasure_hunter_s__crb_",
+    "name": {
+      "value": "Treasure hunter\u2019s goggles"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot eye; Price 6,400 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These sturdy but plain goggles help the wearer locate secret doors and coins and identify treasure. While wearing these goggles, the wearer can use detect secret doors at will. The goggles do not aid in determining how secret doors are opened. Once per day on command, the wearer gains the ability to locate object as per the spell, but only to detect 100 or more coins in a small area, such as a backpack, chest, pouch, or sack. Three times per day, the wearer may use identify. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, detect secret doors, identify, locate object; Cost 3,200 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goggles_treasure_hunter_s",
+          "value": {
+            "value": 6400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

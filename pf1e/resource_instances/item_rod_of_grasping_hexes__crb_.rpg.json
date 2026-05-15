@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_grasping_hexes__crb_",
+    "name": {
+      "value": "Rod of Grasping Hexes"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,000 gp; Slot none; CL 17th; Weight 5 lbs.; Aura strong (no school) DESCRIPTION This rod is crafted from a gnarled branch covered in sharp thorns. Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex), she can use this rod\u2019s power to double the range of the hex, so long as the hex has a range measured in feet. CONSTRUCTION REQUIREMENTS Cost 5,500 gp; Feats Craft Rod, Reach Spell; Special creator must possess the hex class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_grasping_hexes",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_grasping_hexes",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

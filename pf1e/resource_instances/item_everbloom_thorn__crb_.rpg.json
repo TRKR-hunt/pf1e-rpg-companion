@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "everbloom_thorn__crb_",
+    "name": {
+      "value": "Everbloom Thorn"
+    },
+    "source": {
+      "value": "paths_of_the_righteous"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,320 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION When the command word is spoken as a move action, this +1 morningstar transforms into a pendant in the shape of a single red rose that does not radiate magic. Only true seeing or similar magic reveals the true nature of this weapon. Once per day as part of an initiative check, as long as she holds the everbloom thorn in its pendant shape in one hand, the wielder can cause the pendant to instantaneously transform back into its +1 morningstar form. When she does so, the wielder of the everbloom thorn adds her Charisma bonus (minimum of +1) to her initiative check. CONSTRUCTION REQUIREMENTS Cost 3,160 gp; Feats Craft Magic Arms and Armor; Spells magic aura, shrink item"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_everbloom_thorn",
+          "value": {
+            "value": 6320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_everbloom_thorn",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

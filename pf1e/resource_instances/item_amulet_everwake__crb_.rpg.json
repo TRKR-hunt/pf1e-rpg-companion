@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_everwake__crb_",
+    "name": {
+      "value": "Everwake amulet"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 2nd; Slot neck; Price 8,000 gp; Weight 1 lb. DESCRIPTION Cast in the image of the sun and often ornamented with an open eye, this amulet defends the wearer against the need for sleep. The wearer of this amulet does not need sleep, but must remain at ease for the normal amount of time to regain spells and other abilities that require rest (although the wearer could perform light activity, such as reading or keeping watch). Once the wearer has used the power of this amulet for a total of seven nights, the amulet loses its power for one day and the wearer is exhausted for this duration. If the wearer removes the amulet for any reason after having used its ability, she becomes exhausted for four hours for every night of sleep skipped. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells lesser restoration; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_everwake",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_everwake",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

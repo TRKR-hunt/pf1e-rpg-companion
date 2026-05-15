@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "meduseion__crb_",
+    "name": {
+      "value": "Meduseion"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 45,000 gp; Slot none; CL 11th; Weight 10 lbs.; Aura moderate transmutation DESCRIPTION Dried, lacquered, and stuffed with fragrant herbs, this mummified medusa head still contains a measure of the power the medusa possessed in life. While held, a meduseion radiates an unseen aura that causes all living creatures within 100 feet to take a \u20132 penalty on saving throws to resist poison or petrification effects. Three times per day as a standard action, the wielder of a meduseion can cause the eyes of the head to shoot forth a petrifying ray as a ranged touch attack with a maximum range of 100 feet. Creatures struck must succeed a DC 19 Fortitude save or be permanently transformed into stone. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells alarm, flesh to stone; Cost 22,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_meduseion",
+          "value": {
+            "value": 45000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_meduseion",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

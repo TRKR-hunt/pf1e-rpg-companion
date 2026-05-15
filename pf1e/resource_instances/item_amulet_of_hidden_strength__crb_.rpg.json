@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_hidden_strength__crb_",
+    "name": {
+      "value": "Amulet of hidden strength #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot neck; Price 9,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This glass teardrop hangs on a platinum chain and can be used once per day to grant a surge of power. This surge can be used in one of two ways. As a swift action, the wearer of the amulet can make one melee or ranged attack at his highest attack bonus. Alternatively, if the wearer of the amulet has a ki pool, he can instead focus on the power of the amulet as a full-round action and regain two ki points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must have a ki pool; Cost 4,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_hidden_strength",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

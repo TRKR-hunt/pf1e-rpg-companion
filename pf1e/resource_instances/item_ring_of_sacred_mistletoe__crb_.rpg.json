@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_sacred_mistletoe__crb_",
+    "name": {
+      "value": "Ring of sacred mistletoe"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot ring; Price 6,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This tiny ring of living mistletoe coils about the wearer\u00e2\u0080\u0099s finger of its own accord. The wearer gains a +2 competence bonus on Handle Animal, Knowledge (nature), and wild empathy checks, and a wearer with the woodland stride ability can move effortlessly, without harm or impediment, even through magically created or manipulated plants. This does not allow the wearer to move through solid objects or creatures. Furthermore, the wearer can use shillelagh once per day. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells pass without trace, shillelagh; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_sacred_mistletoe",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

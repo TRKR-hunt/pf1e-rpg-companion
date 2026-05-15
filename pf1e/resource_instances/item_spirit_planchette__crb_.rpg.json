@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spirit_planchette__crb_",
+    "name": {
+      "value": "Spirit Planchette"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 9th; Slot none; Price 4,000 gp (brass planchette), 10,000 gp (cold iron planchette), 18,000 gp (silver planchette); Weight 5 lbs. DESCRIPTION A spirit planchette is typically found in a wooden case along with a thin wooden board printed with numerous letters and numbers. Nonmagical versions of these divination tools can be purchased in curiosity shops (typically costing 25 gp); while these items can be used as alternative components for augury spells, only magical spirit planchettes allow users to communicate with the other side. Three types of spirit planchettes exist\u00e2\u0080\u0094brass, cold iron, and silver. Each in turn allows an increasingly potent form of divination effect to be utilized. A spirit planchette requires a board to move upon, but this \u00e2\u0080\u009cboard\u00e2\u0080\u009d can be made up of letters scribed upon any smooth surface\u00e2\u0080\u0094it need not be a prepared board for a spirit planchette to work. To use a spirit planchette, you must rest your fingers lightly upon the planchette\u00e2\u0080\u0099s surface and then concentrate on the planchette (as if maintaining a spell with a duration of concentration ) for 2d6 rounds while the planchette attunes itself to the ambient spirits of the area. After this time, the planchette begins to slowly slide in random patterns across the board\u00e2\u0080\u0094at this point, questions may be asked of the spirits by any of the individuals involved in the s\u00c3\u00a9ance. The consequences of each question asked of the spirits depends upon what type of planchette is used for the divination, as summarized on the table below. The spirits reply in a language understood by the character who asked the question, but resent such contact and give only brief answers to the questions. All questions are answered with \u00e2\u0080\u009cyes,\u00e2\u0080\u009d \u00e2\u0080\u009cno,\u00e2\u0080\u009d or \u00e2\u0080\u009cmaybe,\u00e2\u0080\u009d or by spelling out a single word from the letters arranged on the board. The spirits answer each question either in the same round the question is asked (in the case of a yes, no, or maybe answer) or at a rate of one letter per round (in the case of a single word being spelled out). A spirit planchette may be used once per day\u00e2\u0080\u0094the maximum number of questions you can ask with it depends on the type of planchette being used (as detailed on the table below). Communication with spirits can be a dangerous task, for many spirits are jealous or hateful of the living. Every time a spirit planchette is used, the user must succeed on a Will save to avoid being temporarily possessed and harmed by the angry spirits. In some areas where the spirits are particularly violent or hateful (such as in Harrowstone), this Will save takes a \u00e2\u0080\u00932 penalty. The DC of this save depends on the type of spirit planchette being used. Anyone who fails the Will save becomes confused for a number of rounds (depending on the type of planchette being used), and no answer is received. The spirits in the area are not omniscient\u00e2\u0080\u0094the GM should decide whether or not the spirits would actually know the answer to the question asked, and if they do not, the answer granted is automatically \u00e2\u0080\u009cmaybe.\u00e2\u0080\u009d If the GM determines that the spirits are knowledgeable about the answer, roll d% to determine whether the spirits speak truthfully or whether they lie. Planchette type Questions per Use Will save DC Confusion Duration True Answer Lie Brass 1 11 1 round 01\u00e2\u0080\u009360 61-100 Cold iron 3 15 2 rounds 01\u00e2\u0080\u009375 76-100 Silver 5 19 3 rounds 01\u00e2\u0080\u009390 91-100 CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, contact other plane, Cost 2,000 gp (brass spirit planchette), 5,000 gp (cold iron spirit planchette), 9,000 gp (silver spirit planchette)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spirit_planchette",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spirit_planchette",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

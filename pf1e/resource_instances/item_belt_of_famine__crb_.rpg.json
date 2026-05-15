@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_famine__crb_",
+    "name": {
+      "value": "Belt of Famine"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and necromancy; CL 5th; Slot belt; Price 4,000 gp; Weight 1 lb. DESCRIPTION This dark leather belt has a piece of a cracked soul gem in its plain brass buckle. the wearer doesn\u2019t need to eat and is immune to the effects of starvation, though she begins to take on an emaciated appearance after several days. Three times per day, the wearer can touch a creature (requiring a successful touch melee attack) to affect it with incredibly painful pangs of hunger. If the target fails a DC 15 Fortitude save, it takes 2d6 points of nonlethal damage and is fatigued. Creatures that don\u2019t need to eat or are immune to nonlethal damage are immune to this ability. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells create food and water, touch of fatigue; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_famine",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_famine",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

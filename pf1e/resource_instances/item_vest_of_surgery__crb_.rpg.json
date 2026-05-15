@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vest_of_surgery__crb_",
+    "name": {
+      "value": "Vest of surgery #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot chest; Price 3,000 gp; Weight 4 lbs. DESCRIPTION This emerald vest has four prominent and bulging pockets along its front. The wearer is always treated as if using a healer\u2019s kit when making Heal checks. Once per day, the wearer can make a DC 20 Heal check as if attempting to treat deadly wounds. If the check is successful, it cures 1d4 points of ability damage instead of hit point damage. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, lesser restoration; Special creator must have 5 ranks in Heal; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vest_of_surgery",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vest_of_surgery",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

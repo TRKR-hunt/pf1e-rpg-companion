@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_frost__crb_",
+    "name": {
+      "value": "Staff of frost"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 41,400 gp; Weight 5 lbs. DESCRIPTION Tipped on either end with a glistening diamond, this rune-covered staff allows use of the following spells: Ice storm (1 charge) Wall of ice (2 charges) Cone of cold (3 charges) CONSTRUCTION REQUIREMENTS Craft Staff; Spells cone of cold, ice storm, wall of ice; Cost 20,700 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_frost",
+          "value": {
+            "value": 41400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_frost",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

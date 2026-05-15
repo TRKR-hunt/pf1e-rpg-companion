@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "banner_knight_s__crb_",
+    "name": {
+      "value": "Banner, Knight's"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price Varies: A 7,500 gp, B 15,000 gp, C 125,000 gp; Slot none; CL 10th; Weight 3 lbs.; Aura moderate varies DESCRIPTION A Knight\u2019s banner can be displayed on a lance, polearm, frame, or staff. It has no effect when not mounted properly or when lying on the ground. The banners depict the heraldic symbols of several fortresses, and each provides different benefits, which are described below. A banner can be carried (on foot or mounted) or planted. In the latter case, the banner does not need a bearer, but if it is toppled or touched by an enemy, it loses its effectiveness until reclaimed and replanted by allies of the owner. A ( abjuration aura): Allies of the owner of this banner gain a +4 morale bonus on saving throws against fear effects so long as they can see the banner. B ( abjuration aura): Allies of the owner of this banner gain a +6 morale bonus on saving throws against fear effects so long as they can see the banner. If the mass combat rules are being used, so long as this banner is visible to the majority of an army, the DC of the Morale check to determine whether the enemy routs decreases by 5. C ( transmutation aura): Once per day, while this banner is held aloft or planted by someone with the bravery class feature or the Flagbearer feat, all allies of the banner \u00e2\u0080\u0098s owner gain the benefits of a blessing of fervor spell while the banner is visible. If the banner is defaced or toppled by an enemy force, this effect ends, and the enemy force gains the benefits of this banner for 10 rounds. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells blessing of fervor or remove fear; Cost Varies- A 3,750 gp, B 7,500 gp, C 62,500 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_banner_knight_s",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

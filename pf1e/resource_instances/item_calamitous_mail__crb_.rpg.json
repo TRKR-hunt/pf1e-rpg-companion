@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "calamitous_mail__crb_",
+    "name": {
+      "value": "Luck Mail, Lesser"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd; Slot armor; Price 3,750 gp; Weight 25 lbs. DESCRIPTION This style of +1 chain shirt is decorated with small agates. The wearer gains a +1 luck bonus on all saving throws CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells divine favor; Price 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_calamitous_mail",
+          "value": {
+            "value": 3750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_calamitous_mail",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

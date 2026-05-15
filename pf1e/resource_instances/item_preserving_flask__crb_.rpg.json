@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "preserving_flask__crb_",
+    "name": {
+      "value": "Preserving flask (1st)"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 17th; Weight \u00e2\u0080\u0094; Slot none; Price 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th) DESCRIPTION This small, durable flask is designed to preserve alchemical extracts indefinitely. An extract stored in a preserving flask remains potent until it is consumed or otherwise removed from the flask. Preserved extracts count against an alchemist\u2019s extracts per day on the day they are prepared, but not on subsequent days. Each flask is capable of preserving an extract of a particular level. An extract stored in the flask retains duration, caster level, and other properties it had when it was created. The flask works on extracts and infusions, but not mutagens. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be able to create alchemical extracts of the extract level to be stored; Cost 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 (6th)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_preserving_flask",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

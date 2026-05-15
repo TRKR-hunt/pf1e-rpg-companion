@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lash_of_the_howler__crb_",
+    "name": {
+      "value": "Lash of the Howler"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 9th; Weight 3 lbs.; Price 18,305 gp DESCRIPTION The lash of the howler is a +1 vicious scorpion whip tipped with quills torn from a howler\u2019s mane. Each time a creature takes damage from the lash of the howler, it must succeed at a DC 14 Reflex save or a quill breaks off and lodges in its flesh. The whip instantly sprouts a new quill to replace the one lost. The quill leaves the target sickened until it is removed. Removing a single quill from a creature requires a DC 15 Heal check made as a full-round action. For every 5 by which the check is exceeded, one additional quill can be removed. On a failed check, a quill is still removed but the process deals 1d4+1 points of damage to the victim. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells enervation, ray of sickening; Cost 9,305 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lash_of_the_howler",
+          "value": {
+            "value": 18305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lash_of_the_howler",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

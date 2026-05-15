@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_vision__crb_",
+    "name": {
+      "value": "Staff of vision"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 11th; Slot none; Price 86,666 gp; Weight 5 lbs. DESCRIPTION A clear crystal orb is affixed to the top of this length of brass and scaled skin, and a smaller, crimson orb is set into a spherical ornament near the base of the shaft. The staff allows use of the following spells: Arcane eye (1 charge) Arcane sight (1 charge) See invisibility (1 charge) Prying eyes (2 charges) Scrying (2 charges) True seeing (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells arcane eye, arcane sight, prying eyes, scrying, see invisibility, true seeing; Cost 45,416 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_vision",
+          "value": {
+            "value": 86666
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_vision",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

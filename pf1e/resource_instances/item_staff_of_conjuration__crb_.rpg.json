@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_conjuration__crb_",
+    "name": {
+      "value": "Staff of conjuration"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th; Slot none; Price 82,000 gp; Weight 5 lbs. DESCRIPTION This staff is usually made of ash or walnut and bears ornate carvings of many different kinds of creatures. It allows use of the following spells: Stinking cloud (1 charge) Summon swarm (1 charge) Unseen servant (1 charge) Cloudkill (2 charges) Minor creation (2 charges) Summon monster VI (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells cloudkill, minor creation, stinking cloud, summon monster VI, summon swarm, unseen servant; Cost 41,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_conjuration",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_conjuration",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

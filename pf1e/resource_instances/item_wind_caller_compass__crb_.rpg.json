@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wind_caller_compass__crb_",
+    "name": {
+      "value": "Wind-caller compass #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight \u00e2\u0080\u0094; Slot none; Price 4,400 gp DESCRIPTION This light gray compass made of fine metal, and is engraved with various depictions of the sun, moon, and clouds. It allows a creature to increase or decrease the intensity of the wind four times per day as if using alter winds. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, alter winds; Cost 2,200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wind_caller_compass",
+          "value": {
+            "value": 4400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

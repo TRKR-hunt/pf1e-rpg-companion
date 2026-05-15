@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "preyfinder__crb_",
+    "name": {
+      "value": "Preyfinder"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 85,000 gp; Slot none; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate divination DESCRIPTION These sturdy brass compasses are often painted blood red and etched with images of wolves, lions, crocodiles, or sharks stalking their prey. Though preyfinders function as standard compasses, making them useful tools for navigation, they also have the power to magically identify and track down creatures. To use a preyfinder, its bearer must (as a standard action ) take a drop of blood from a creature, smear it onto the compass\u2019s glass faceplate, and then touch the compass to his head. The blood must be no more than 1 week old, and can come from a living or dead creature, though a living or undead target can attempt a DC 18 Will save to resist the preyfinder\u2019s tracking ability. If the Will save is successful, the preyfinder can\u2019t identify or locate the creature, and none of the preyfinder\u2019s magical powers function for 24 hours. If the creature fails the Will save, the preyfinder telepathically provides its bearer with an image of the creature to which the drop of blood belonged and marks the creature as the preyfinder\u2019s quarry. After a creature is marked as the preyfinder\u2019s quarry, the bearer can spend a standard action to magically divine the creature\u2019s current location. As long as the quarry is no more than 100 miles away, the preyfinder provides a series of telepathic images to the bearer, who is then able to determine the direction toward and exact distance to the quarry. This detection ability can be fooled by mislead, nondetection, and polymorph spells and effects. A preyfinder can have only one creature designated as its quarry at any one time. If the bearer adds a new drop of blood, the old quarry is replaced by the new one. The bearer can also spend a full-round action to remove a quarry designation from the preyfinder. When used by a slayer with the studied target class feature, a preyfinder grants the slayer a +1 insight bonus on all attack and damage rolls made against a creature designated as the preyfinder\u2019s quarry. Additionally, instead of designating another creature as its quarry, a slayer can add a drop of his own blood to the preyfinder (a standard action ) to gain a +2 morale bonus on all attack rolls, saves, and skill checks he attempts for 1 minute. After a slayer adds a drop of his own blood to the preyfinder, none of the preyfinder\u2019s magical powers functions for 24 hours. CONSTRUCTION REQUIREMENTS Cost 42,500 gp; Feats Craft Wondrous Item; Spells blood biography, heroism, locate creature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_preyfinder",
+          "value": {
+            "value": 85000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bestial_rags__crb_",
+    "name": {
+      "value": "Bestial Rags"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot body; CL 10th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION These tattered and ragged garments extend the duration of a shifter\u2019s bestial transformations, allowing her to shift into her aspects\u2019 minor forms for 5 additional minutes per day. Each set of bestial rags is also tied to a specific aspect, typically being made of the hide of that creature and embossed with crude pictograms of it, allowing a shifter to assume that aspect\u2019s minor and major form, as appropriate for her level. If the shifter already has the ability to shift into that form, that aspect\u2019s major form functions as if she were 2 levels higher. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells beast shape II"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bestial_rags",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bestial_rags",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

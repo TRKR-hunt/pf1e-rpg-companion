@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_ebon__crb_",
+    "name": {
+      "value": "Wayfinder, Ebon"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,000 gp; Slot none; CL 5th; Weight 1 lb.; Aura faint evocation and transmutation DESCRIPTION The exterior of this wayfinder is constructed of panels of darkwood with ebony inlays. The panels slide apart to reveal platinum meshwork capable of holding one or two ioun stones. An ebon wayfinder grants the bearer darkvision with a range of 60 feet, and with a command word it can create darkness (as per the spell) once per day, centered on itself. When one ioun stone is slotted into the device, its darkness ability no longer functions. When a second stone is placed in it, the darkvision ability no longer functions. CONSTRUCTION REQUIREMENTS Cost 9,000 gp; Feats Craft Wondrous Item; Spells darkness, darkvision"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_ebon",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_ebon",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

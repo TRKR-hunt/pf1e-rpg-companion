@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coat_of_mist__crb_",
+    "name": {
+      "value": "Coat of Mist"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,400 gp; Slot chest; CL 5th; Weight 3 lbs.; Aura faint transmutation DESCRIPTION This gossamer jacket of gray-and-white silk allows the wearer to blend into mist and become almost invisible. She gains a +5 bonus on Stealth checks in areas of fog, mist, smoke, or even heavy spray (such as from a waterfall or crashing surf). As a standard action, the wearer can gain total concealment in such conditions, regardless of the distance between her and observers. Attacking does not end this total concealment, though the wearer must remain within or adjacent to the misty area to retain total concealment. The wearer can use the total concealment ability for a total of 5 rounds per day; these rounds need not be continuous. Once per day, the wearer of a coat of mist can turn into mist, as per gaseous form, for up to 5 rounds. CONSTRUCTION REQUIREMENTS Cost 4,200 gp; Feats Craft Wondrous Item; Spells gaseous form, obscuring mist"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coat_of_mist",
+          "value": {
+            "value": 8400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coat_of_mist",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_woodland_creatures__crb_",
+    "name": {
+      "value": "Cloak of Woodland Creatures"
+    },
+    "source": {
+      "value": "trail_of_the_hunted"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,500 gp; Slot shoulders; CL 5th; Weight 1 lb.; Aura faint abjuration and conjuration DESCRIPTION This forest-green wool cloak is thick and warm. Its hem and the edge of its hood are embroidered with small figures of forest creatures (rabbits, squirrels, and the like) in white thread. EFFECTS When worn, this cloak bestows a +1 resistance bonus on all saving throws. The wearer can remove the cloak at any time and lay it on the ground outdoors. This ends the resistance bonus but summons a number of animals from the cloak. The animals serve the character who summoned them for 10 minutes (or until slain or returned to the cloak\u00e2\u0080\u0099s folds). A summoned creature can follow any of the commands described in the Handle Animal skill. The cloak summons creatures only when laid down outdoors on naturally occurring ground (not, for example, on a wooden deck or stone pathway). The cloak can be used to summon animals up to three times per day. Use the following tables to determine what animals can be called forth. d% Animal 01\u00e2\u0080\u009330 1 owl 31\u00e2\u0080\u009360 1d3 rats 61\u00e2\u0080\u009375 1 weasel 76\u00e2\u0080\u009390 1d6 squirrels 91\u00e2\u0080\u0093100 1d4 rabbits CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item; Spells resistance, summon nature\u00e2\u0080\u0099s ally I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_woodland_creatures",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_woodland_creatures",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goggles_arachnid__crb_",
+    "name": {
+      "value": "Arachnid goggles"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot eye; Price 15,000 gp; Weight 2 lbs. DESCRIPTION This leather band is studded with dozens of faceted crystals of varying size, two of which fit over the eyes. When wearing these goggles, the wearer uses all the crystals as eyes, gaining all-around vision. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, countless eyes; Cost 7,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goggles_arachnid",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_goggles_arachnid",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

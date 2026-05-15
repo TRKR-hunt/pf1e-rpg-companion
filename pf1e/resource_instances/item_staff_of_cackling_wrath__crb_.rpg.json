@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_cackling_wrath__crb_",
+    "name": {
+      "value": "Staff of cackling wrath"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 8th; Slot none; Price 47,200 gp; Weight 5 lbs. DESCRIPTION The thorns embedded in this gnarled length of wood make it rather tricky for the unwary to grasp. It allows use of the following spells: Blindness/deafness (1 charge) Charm person (1 charge) Hold person (1 charge) Inflict moderate wounds (1 charge) Baleful polymorph (2 charges) Bestow curse (2 charges) Vampiric touch (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells baleful polymorph, bestow curse, blindness/deafness, charm person, hold person, inflict moderate wounds, vampiric touch; Cost 23,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_cackling_wrath",
+          "value": {
+            "value": 47200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_cackling_wrath",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

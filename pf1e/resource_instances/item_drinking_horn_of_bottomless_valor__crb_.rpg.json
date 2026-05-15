@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "drinking_horn_of_bottomless_valor__crb_",
+    "name": {
+      "value": "Drinking horn of bottomless valor #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 10th; Weight 2 lbs. Slot none; Price 24,000 gp DESCRIPTION This horn is bound with fittings of gold and decorated with ornate carvings depicting scenes of glorious battle. A fully charged horn has 3 charges\u00e2\u0080\u0094charges used are automatically renewed each day. So long as the horn has at least one charge remaining, it\u2019s owner can command it to fill with mead or a similar alcoholic drink. A creature can spend one or more charges while drinking from the horn to gain the following benefits: 1 charge: The drinker gains 1d8 temporary hit points (as if from an aid spell), which last for 1 minute. Using 1 charge is similar to drinking a potion \u00e2\u0080\u0094it takes a standard action and provokes an attack of opportunity (though certain abilities can reduce the action required). 2 charges: The drinker gains 1d8+5 temporary hit points and is enlarged, as the spell enlarge person, for 5 minutes. To use 2 charges, the drinker must spend a full round drinking from the horn, which always provokes an attack of opportunity. 3 charges: The drinker gains 1d8+10 temporary hit points, is enlarged for 10 minutes, and gains the benefit of a heroism spell for as long as she is enlarged. To use all 3 charges, the drinker must spend 2 full-round actions drinking from the horn. A creature must drink deeply from the horn to receive its full benefit. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, aid, enlarge person, heroism; Cost 12,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_drinking_horn_of_bottomless_valor",
+          "value": {
+            "value": 24000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_drinking_horn_of_bottomless_valor",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

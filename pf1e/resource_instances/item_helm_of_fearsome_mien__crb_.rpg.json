@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_of_fearsome_mien__crb_",
+    "name": {
+      "value": "Helm of fearsome mien #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 1st; Slot head; Price 5,000 gp; Weight 4 lbs. DESCRIPTION This metal helm is made to look like the wearer has large fangs and other features resembling a fearsome predator. If the wearer is a barbarian, she can use the intimidating glare rage power whenever she rages. The helm has no effect if the wearer is not a barbarian (or another class with the rage class feature). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cause fear; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_of_fearsome_mien",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_of_fearsome_mien",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_dark_flame__crb_",
+    "name": {
+      "value": "Staff of dark flame"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation and necromancy; CL 8th; Slot none; Price 47,000 gp; Weight 4 lbs. DESCRIPTION Made from bleached bones that have been fused together, the head of this staff burns with an unholy fire. This staff can be used as a +1 flaming quarterstaff (only one end of the staff bears magical enhancement), and it retains this property even if all its charges are drained. This staff can cast the following spells: False life (1 charge) Ray of enfeeblement (1 charge) Scorching ray (1 charge) Fireball (2 charges) Animate dead (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Staff; Spells animate dead, false life, fireball, ray of enfeeblement, scorching ray; Cost 27,133 GP \u00c2"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_dark_flame",
+          "value": {
+            "value": 47000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_dark_flame",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "censuring_placard__crb_",
+    "name": {
+      "value": "Censuring Placard"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,300 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate abjuration DESCRIPTION Most often appearing as a simple flattened board inscribed with a holy text, a censuring placard is used to inflict just punishment on offenders of church guidelines or to knock allies roughly back to their senses. A censuring placard functions as a +1 club. As a swift action with a successful melee attack, the wielder can use the placard to cast break enchantment on that target. Whether this effort is successful or not, the break enchantment ability cannot be used again for a week. CONSTRUCTION REQUIREMENTS Cost 7,300 gp; Feats Craft Magic Arms and Armor; Spells break enchantment"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_censuring_placard",
+          "value": {
+            "value": 14300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_censuring_placard",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

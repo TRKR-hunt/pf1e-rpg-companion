@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "knight_captain_s_lance__crb_",
+    "name": {
+      "value": "Knight-Captain's Lance"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; Slot none; Price 22,710 gp; Weight 13 lbs.; CL 6th DESCRIPTION This ornate +2 lance changes in color and style to match the armor of the wielder. A bright pennon flies from the end of the lance, mounted just behind the lance\u2019s point, and if the wielder has personal heraldry, the pennon displays that heraldry. This pennon can serve as a cavalier\u2019s banner. The weapon counts as alchemical silver for purposes of penetrating DR. Three times per day, when the wielder successfully damages a target with the knight-captain\u2019s lance, as a swift action she may grant all allies within 60 feet a +2 morale bonus on the next attack roll they make against the same target. The bonus lasts for 1 round. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor; Spells divine favor; Cost 11,510 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_knight_captain_s_lance",
+          "value": {
+            "value": 22710
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_knight_captain_s_lance",
+          "value": {
+            "value": 13
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

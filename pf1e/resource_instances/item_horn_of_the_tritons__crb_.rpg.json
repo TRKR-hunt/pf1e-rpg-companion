@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horn_of_the_tritons__crb_",
+    "name": {
+      "value": "Horn of the tritons #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Weight 2 lbs.; Slot none; Price 15,000 gp DESCRIPTION This device is a large, intricately inscribed and decorated conch shell that can be blown once per day (except by a triton, who can sound it three times per day). Blowing the horn activates any one of the following functions: Calm rough waters in a 1-mile radius. Alternatively, this functions as a dismissal spell against a targeted water elemental (DC 19 negates). Summon 1d4+1 sharks or 1d3 advanced sharks as if using summon nature\u2019s ally V. Create a fear effect (DC 16 negates) in a 500-foot radius that only affects creatures with the aquatic or amphibious subtype which have Intelligence scores of 1 or 2. Any sounding of a horn of the tritons can be heard by all tritons within a 3-mile radius. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, control water, dismissal, fear, summon nature\u2019s ally V; Special creator must be a triton; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horn_of_the_tritons",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horn_of_the_tritons",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

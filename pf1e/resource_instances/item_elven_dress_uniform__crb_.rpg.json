@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elven_dress_uniform__crb_",
+    "name": {
+      "value": "Elven Dress Uniform"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,625 gp; Slot armor; CL 3rd Weight 5 lbs.; Aura faint transmutation APPEARANCE This finely crafted +1 mithral parade armor is as light and comfortable as regular clothing. EFFECTS An elven dress uniform counts as a courtier\u00e2\u0080\u0099s outfit (including appropriate jewelry ) when the wearer is interacting with nobles or courtiers, in addition to providing a +2 circumstance bonus on Diplomacy and Intimidate checks to influence people from the elven home nation. Further, the wearer also gains a +2 competence bonus on Perception and Sense Motive checks to intuit that a creature is concealing its true beliefs, feelings, or motives. CONSTRUCTION REQUIREMENTS Cost 2,265 gp; Feats Craft Magic Arms and Armor; Spells owl\u00e2\u0080\u0099s wisdom; Special creator must be an elf"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elven_dress_uniform",
+          "value": {
+            "value": 2625
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_elven_dress_uniform",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "book_of_cults__crb_",
+    "name": {
+      "value": "Book of Cults"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot none; CL 5th; Weight 5 lbs.; Aura faint conjuration [evil] DESCRIPTION This strange leather-bound book contains erratic handwriting; the words within it appear to have been translated from Gnome into Common (and perhaps some other language before Gnome). It contains notations of strange cult practices, disturbing rants about ancient godlike beings, and confusing diagrams resembling summoning circles, with many parts crossed out or obliterated with ink or fire. The bearer of the Book of Cults gains a +1 resistance bonus on Will saving throws while carrying the book. If the bearer\u2019s patron is one of the Great Old Ones, the bearer can hold the book in one hand to use it as a lesser extend metamagic rod, but only for conjuration spells that summon or call an evil outsider. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item, Extend Spell; Spells resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_book_of_cults",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_book_of_cults",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "waterblight_scepter__crb_",
+    "name": {
+      "value": "Waterblight Scepter"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,312 gp; Slot none; CL 9th Weight 8 lbs.; Aura moderate transmutation APPEARANCE This gnarled blackwood scepter seeps tar, making it sticky to the touch. EFFECTS This scepter acts as a +1 outsider (water) bane heavy mace. When the scepter is wielded against creatures with the water subtype, damage dealt by the scepter also ignores 10 points of DR. Additionally, the wielder can use water walk once per day for 90 minutes. The duration of this ability need not be used all at once, but it must be used in 10-minute increments. CONSTRUCTION REQUIREMENTS Cost 13,312 gp; Feats Craft Magic Arms and Armor, Craft Rod; Spells water walk"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_waterblight_scepter",
+          "value": {
+            "value": 18312
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_waterblight_scepter",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

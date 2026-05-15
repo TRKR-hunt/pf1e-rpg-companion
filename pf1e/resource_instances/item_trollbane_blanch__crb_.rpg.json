@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trollbane_blanch__crb_",
+    "name": {
+      "value": "Trollbane Blanch"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 200 gp; Slot none; CL 1st; Weight \u2014; Aura faint transmutation DESCRIPTION Originally developed by huldras for hunting trolls, this green-gray paste is stored in a tree bark jar in order to mask its pungent odor, for trolls recognize its scent immediately and often flee from it, or attack the bearer in preference to all other targets. When applied to a weapon as a full-round action, a dose of trollbane blanch causes the weapon to deal 1 additional point of fire damage or acid damage (the type of damage is chosen when the blanch is created) on its next successful attack. Once applied, trollbane blanch lasts for 1 minute or until the wielder makes a successful attack. CONSTRUCTION REQUIREMENTS Cost 100 gp; Feats Craft Wondrous Item; Spells acid splash (acid) or spark (fire)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trollbane_blanch",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

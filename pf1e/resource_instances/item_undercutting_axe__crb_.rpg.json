@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "undercutting_axe__crb_",
+    "name": {
+      "value": "Undercutting Axe"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 9th; Weight 6 lbs.; Price 23,310 gp DESCRIPTION This +1 giant \u2013 bane battleaxe feels unusually heavy, as if it were made from something far heavier than mere wood and steel. Once per day its wearer can, as a swift action after a successful attack roll, invoke a maximized ray of enfeeblement on the creature struck (11 point Strength penalty, 7 rounds, Fortitude DC 16 half). CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Maximize Spell, ray of enfeeblement, summon monster I; Cost 11,810 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_undercutting_axe",
+          "value": {
+            "value": 23310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_undercutting_axe",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

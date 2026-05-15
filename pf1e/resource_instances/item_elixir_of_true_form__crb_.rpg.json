@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_true_form__crb_",
+    "name": {
+      "value": "Elixir of True Form"
+    },
+    "source": {
+      "value": "from_shore_to_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 8th; Slot none; Price 1,600 gp; Weight \u00e2\u0080\u0094. DESCRIPTION This elixir removes all curses and transmutation effects from the imbiber, including the unnatural mutations resulting from the arcane warping of the island of Nal-Kashel or gained through an ancestor\u00e2\u0080\u0099s unspeakable interbreeding with ulat-kini. The elixir stops gillmen from transforming into skum but cannot reverse the transformation if a gillman has already become a skum. Only doses of the elixir manufactured on the island of Nal-Kashel can remove the warping effects of the island\u00e2\u0080\u0099s influence. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, remove curse; Cost 800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_true_form",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

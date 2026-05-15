@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "energizing_salve__crb_",
+    "name": {
+      "value": "Energizing Salve"
+    },
+    "source": {
+      "value": "construct_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint transmutation DESCRIPTION This greasy, foul-smelling paste is used to temporarily improve a construct\u00e2\u0080\u0099s effectiveness in combat. When smeared onto the body of a construct as a standard action, this substance grants the construct a +2 dodge bonus to AC and a +2 insight bonus on attack rolls, saving throws, and skill checks. Additionally, a construct coated with energizing salve can make an additional attack using its full base attack bonus when making a full-attack action. The salve remains effective for 5 minutes. The salve can be wiped off with an alcohol-based solution, such as ale or wine, as a standard action that provokes attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells haste"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_energizing_salve",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

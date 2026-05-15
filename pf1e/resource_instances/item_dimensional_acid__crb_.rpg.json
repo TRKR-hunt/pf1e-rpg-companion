@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dimensional_acid__crb_",
+    "name": {
+      "value": "Dimensional Acid"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies: basic pit 450 gp; corrosive pit 1,750 gp; jagged pit 1,000 gp; living pit 2,700 gp; Slot none; CL varies; Weight 1 lb.; Aura varies DESCRIPTION The acid in this flask burns not through matter, but through space itself, creating a temporary extradimensional pit wherever it touches. A flask of dimensional acid can be thrown as a splash weapon with a range increment of 10 feet. Alternatively, it can be used as a special component when casting the snare spell. Instead of the spell\u2019s usual effect, the creature that triggers the modified snare is treated as if it had taken a direct hit from the dimensional acid. Dimensional acid comes in a number of varieties. Basic Pit: This acid creates a pit, as the create pit spell, where it lands. Aura faint conjuration; CL 3rd; Feats Craft Wondrous Item; Spells create pit. Corrosive Pit: This acid affects matter as well, creating an acid pit where it lands. Aura faint conjuration; CL 7th; Feats Craft Wondrous Item; Spells acid pit. Jagged Pit: This acid creates a spiked pit spell where it lands. Aura moderate conjuration; CL 5th; Feats Craft Wondrous Item; Spells spiked pit. Living Pit: This acid burns into a living dimension, creating a hungry pit where it lands. Aura moderate conjuration; CL 9th; Feats Craft Wondrous Item; Spells hungry pit. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells special; Cost varies Basic pit 225 gp; Corrosive pit 875 gp; Jagged pit 500 gp; Living pit 1,350 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dimensional_acid",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

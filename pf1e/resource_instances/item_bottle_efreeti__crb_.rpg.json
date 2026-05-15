@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bottle_efreeti__crb_",
+    "name": {
+      "value": "Efreeti bottle"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 14th; Slot \u00e2\u0080\u0094; Price 145,000 gp; Weight 1 lb. DESCRIPTION This item is typically fashioned of brass or bronze, with a lead stopper bearing special seals. Periodically, a thin stream of bitter-smelling smoke issues from the bottle\u2019s top. The bottle can be opened once per day. When opened, the efreeti imprisoned within issues from the bottle instantly amid a cloud of noxious smoke. There is a 10% chance (01\u00e2\u0080\u009310 on d%) that the efreeti is insane and attacks immediately upon being released. There is also a 10% chance (91\u00e2\u0080\u0093100) that the efreeti of the bottle grants three wishes. In either case, afterward the efreeti disappears forever, and the bottle becomes nonmagical. The other 80% of the time (11\u00e2\u0080\u009390), the inhabitant of the bottle loyally serves the character for up to 10 minutes per day (or until the efreeti\u2019s death), doing as she commands. Roll each day the bottle is opened for that day\u2019s effect. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, planar binding; Cost 72,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bottle_efreeti",
+          "value": {
+            "value": 145000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bottle_efreeti",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

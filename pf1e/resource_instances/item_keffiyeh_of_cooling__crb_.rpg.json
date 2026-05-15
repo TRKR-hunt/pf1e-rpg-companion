@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "keffiyeh_of_cooling__crb_",
+    "name": {
+      "value": "Keffiyeh of Cooling"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 7th; Slot head; Price 2,100 gp; Weight 2 lbs. DESCRIPTION This keffiyeh remains bright white, no matter how many sandstorms it has been in. It protects you from hot environments as if you had endure elements cast upon you. It provides no magical protection against cold environments. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, endure elements; Cost 1,050 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_keffiyeh_of_cooling",
+          "value": {
+            "value": 2100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_keffiyeh_of_cooling",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

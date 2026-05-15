@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracer_electro_temporal__crb_",
+    "name": {
+      "value": "Bracer, Electro-Temporal"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,000 gp; Slot wrists; CL 17th; Weight 1 lb.; Aura strong transmutation DESCRIPTION Runes cover this thick golden bracelet, which crackles occasionally with flashes of blue energy. This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time through electricity magic. EFFECTS As a swift action, the wearer can activate the bracer, creating a nimbus of crackling blue energy that surrounds the hand wearing the electrotemporal bracer for up to 3 minutes each day. This duration need not be continuous, but it must be used in 1-minute increments. While the nimbus is active, spells with the electricity descriptor cast by the wearer have an additional effect, chosen by the wearer as each spell is cast: the spell dazzles all targets of the spell for 1 round, the spell staggers a single target of the spell for 1 round, or the spell provides a single target of the spell the benefits of haste for 1 round. The staggered and haste effects affect only one target selected by the caster as the spell is cast, even if the spell affects multiple targets. There is no saving throw for these additional effects, but a target that avoids the effects of the electricity spell entirely (such as by negating the effect with a successful save, or by having immunity to the spell\u00e2\u0080\u0099s damage) is not subject to the additional effect. (A target of an additional effect that successfully saves against the electricity spell but still takes partial damage is still subject to the additional effect.) If the wearer takes at least 50 points of electricity damage from a single source (such as a trap or a spell), the wearer immediately benefits from the effects of time stop, and the electro-temporal bracer ceases functioning for 1 month. CONSTRUCTION REQUIREMENTS Cost 16,000 gp; Feats Craft Wondrous Item; Spells haste, slow, time stop"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracer_electro_temporal",
+          "value": {
+            "value": 32000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracer_electro_temporal",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

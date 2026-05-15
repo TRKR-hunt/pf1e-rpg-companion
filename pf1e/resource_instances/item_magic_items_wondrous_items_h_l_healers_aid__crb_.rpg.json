@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "magic_items_wondrous_items_h_l_healers_aid__crb_",
+    "name": {
+      "value": "Healer\u00e2\u0080\u0099s Aid"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 900 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura faint evocation DESCRIPTION This squat glass jar contains a golden liquid that constantly swirls. EFFECTS This elixir causes the next potion or elixir that restores hit points that the imbiber consumes to be treated as if it were empowered. Increase all variable numeric effects of the potion or elixir by 50%. The effects of this elixir last for 5 minutes or until all of the imbiber\u00e2\u0080\u0099s hit points are restored via an affected potion or elixir, whichever comes first. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Craft Wondrous Item; Spells Empower Spell, amplify elixir"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_magic_items_wondrous_items_h_l_healers_aid",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

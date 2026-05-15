@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_hunting__crb_",
+    "name": {
+      "value": "Staff of Hunting"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 51,000 gp; Slot none; CL 13th; Weight 5 lbs.; Aura strong varies DESCRIPTION This length of aged ivory is carved with numerous hunting scenes which seem to animate and tell a story when the staff is rotated. It allows the use of the following spells: Acute senses (1 charge) Bard\u2019s escape (4 charges) Locate creature (2 charges) Unwilling shield (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells acute senses, bard\u2019s escape, locate creature, unwilling shield; Cost 25,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_hunting",
+          "value": {
+            "value": 51000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_hunting",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

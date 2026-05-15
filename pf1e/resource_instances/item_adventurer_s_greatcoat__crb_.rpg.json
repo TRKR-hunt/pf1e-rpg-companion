@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "adventurer_s_greatcoat__crb_",
+    "name": {
+      "value": "Adventurer's Greatcoat"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot body; CL 9th; Weight 4 lbs.; Aura moderate transmutation DESCRIPTION This long, double-breasted jacket is sewn from durable, dun-colored canvas with a removable liner to keep its wearer comfortable in a wide range of temperatures. Anyone wearing the coat notes many small cloth patches of various shapes. Only the wearer of the robe can see these patches, recognize them for the items they become, and detach them. One patch can be detached each round. Detaching a patch causes it to become an actual item, as indicated below. An adventurer\u2019s greatcoat has each of the following patches (unless noted otherwise, the coat has only one of each patch): 10 days of trail rations and five full waterskins A case containing five adamantine bolts, five cold iron bolts, and two silver bolts A large scroll case containing a 2-foot-by-10-foot roll of paper and two sticks of charcoal A quiver containing five adamantine arrows, five cold iron arrows, and two silver arrows A 10-square-yard roll of canvas containing 10 pitons and a small hammer A silver badge and three bronze badges Bullseye lanterns (2; full and lit) Daggers (2) Disguise kit Healer\u2019s kit Hemp ropes (2; 50-foot coil) Light combat-trained horse with a military saddle Mirrors (2; highly polished 2-foot-by-4-foot steel mirrors) Noble\u2019s outfit with jewelry worth 200 gold pieces Oil of bless weapon Oil of daylight Poles (2; 10-foot length) Potion of cure moderate wounds Sacks (2) Universal solvent Wand of prestidigitation (CL 1st, 5 charges) CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells fabricate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_adventurer_s_greatcoat",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_adventurer_s_greatcoat",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

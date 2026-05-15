@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eagle_s_blade__crb_",
+    "name": {
+      "value": "Eagle's Blade"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,350 gp; Slot none; CL 8th; Weight 8 lbs.; Aura moderate conjuration DESCRIPTION This +1 greatsword is made of blackened steel and embodies the ideal that all crimes must be punished twice. Once per day after the wielder slays a creature with the Eagle\u2019s blade, the wielder can empower the weapon to become a +2 bane greatsword as an immediate action; the sword\u2019s bane ability is keyed to the same creature type as the one that the wielder killed to activate the effect. This effect lasts for 8 rounds or until the wielder kills a second creature with the weapon, whichever comes first. CONSTRUCTION REQUIREMENTS Cost 7,350 gp; Feats Craft Magic Arms and Armor; Spells summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eagle_s_blade",
+          "value": {
+            "value": 14350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_eagle_s_blade",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "entwined_syrinx__crb_",
+    "name": {
+      "value": "Entwined Syrinx"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 7th; Slot none; Price 15,300 gp; Weight 2 lbs. DESCRIPTION This complex wind instrument is made of interwoven, gilded pipes. It is considered a masterwork musical instrument, granting a +2 bonus on all Perform (wind instrument) checks. The bonus is also added to the DC of any bardic performances made using the entwined syrinx. Anytime anyone attempts to play the entwined syrinx, however, he must make a DC 15 Will save or be compelled to play a dirge of somber beauty. The dirge acts like the fascinate bardic performance\u00e2\u0080\u0094 even if the character is not a bard or cannot use Perform (wind instrument) \u00e2\u0080\u0094 affecting every creature within 90 feet able to see and hear the character, including the musician playing the entwined syrinx. The DC to resist this effect is 12 + the character\u00e2\u0080\u0099s Charisma modifier (though if it is being played by a bard, the DC increases to include 1/2 the bard\u2019s level; the +2 Perform bonus is included). This effect persists and the musician continues to play for 1 hour, or until the performance is interrupted. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, hypnotic pattern; Cost 7,150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_entwined_syrinx",
+          "value": {
+            "value": 15300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_entwined_syrinx",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

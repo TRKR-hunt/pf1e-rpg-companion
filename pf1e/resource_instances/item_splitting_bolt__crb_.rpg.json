@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "splitting_bolt__crb_",
+    "name": {
+      "value": "Splitting Bolt"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 346 gp; Slot none; CL 5th; Weight 1/10 lb.; Aura faint evocation DESCRIPTION When this +1 bolt hits a foe, it deals damage as normal and then splits in two, creating two smaller bolts. Each of these smaller bolts flies toward another target within 30 feet of the initial enemy struck. A single splitting bolt can thus strike up to three targets. The smaller bolts use the same attack roll result as the original splitting bolt and the same damage dice, though the damage for each bolt is rolled separately. Neither the attack roll nor the damage of the smaller bolts can be affected by any special abilities of the wielder or crossbow. CONSTRUCTION REQUIREMENTS Cost 176 gp; Feats Craft Magic Arms and Armor; Spells chain lightning"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_splitting_bolt",
+          "value": {
+            "value": 346
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

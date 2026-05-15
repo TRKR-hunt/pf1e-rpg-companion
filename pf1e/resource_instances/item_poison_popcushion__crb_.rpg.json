@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "poison_popcushion__crb_",
+    "name": {
+      "value": "Poison Popcushion"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 700 gp; Slot none; CL 3rd; Weight 2 lbs.; Aura faint conjuration ( creation ) DESCRIPTION This squishy, gel-filled sack is the size of a fist, and its exterior is covered with countless tiny metal studs. When set on the ground or somewhere else within line of sight, a poison popcushion can be targeted with a melee or ranged attack ( hardness 0, AC 7). A successful attack causes the poison popcushion to explode, sending a spray of needles everywhere within a 10-foot-radius burst and dealing 1d4+1 points of piercing damage to creatures caught in the area each round for 1d3 rounds. A successful DC 13 Reflex save halves this damage. Additionally, a poison popcushion can be loaded with an injury poison before it is placed. Fully loading a poison popcushion takes 3 doses of poison (not included in the price). In addition to dealing damage, a loaded poison popcushion affects struck creatures with the poison stored within, though the Fortitude save DC to save against this poison is 4 lower than the poison\u2019s usual DC. CONSTRUCTION REQUIREMENTS Cost 350 gp; Feats Craft Wondrous Item; Spells arrow eruption"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_poison_popcushion",
+          "value": {
+            "value": 700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_poison_popcushion",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

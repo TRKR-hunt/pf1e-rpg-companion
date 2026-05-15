@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_swarmform__crb_",
+    "name": {
+      "value": "Elixir, Swarmform"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,300 gp; Slot none; CL 11th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This squarish jar holds dead insects suspended in bright pink liquid. EFFECTS When the imbiber drinks this concoction, his body dissolves into a swarm of stinging wasps, causing his equipment to fall to the ground. During this transformation, the imbiber retains all his mental statistics but gains the physical statistics of a wasp swarm. The imbiber can take only actions to control the movement of the swarm form or purely mental actions. If at any point during the duration the swarm reaches 0 hit points, the effect immediately ends and the imbiber transforms back to his original form. This effect otherwise lasts 1 hour. CONSTRUCTION REQUIREMENTS Cost 1,650 gp; Feats Craft Wondrous Item; Spells summon swarm"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_swarmform",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

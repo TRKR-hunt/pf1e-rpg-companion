@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "clasp_woodsman_s__crb_",
+    "name": {
+      "value": "Clasp, Woodsman's"
+    },
+    "source": {
+      "value": "advanced_class_origins"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,000 gp; Slot neck; CL 5th; Weight 1 lb.; Aura faint illusion DESCRIPTION This forest green clasp is engraved with a stylized version of a tree. If the wearer has the woodland stride ability, she gains the ranger\u2019s camouflage ability in forest terrain. If the wearer has an animal companion that also benefits from her woodland stride ability, the companion gains the camouflage ability as well. CONSTRUCTION REQUIREMENTS Cost 7,000 gp; Feats Craft Wondrous Item; Spells disguise self, invisibility"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_clasp_woodsman_s",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_clasp_woodsman_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

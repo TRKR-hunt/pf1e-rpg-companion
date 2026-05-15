@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "life_link_badge__crb_",
+    "name": {
+      "value": "Life link badge #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th; Weight 1 lb.; Slot none; Price 6,000 gp DESCRIPTION When this plain leather badge is sewn onto a summoner\u2019s armor or clothing, a faded image of his summoner rune appears on its surface. The summoner can add charges to the badge by expending summoner spell slots; the badge gains charges equal to the spell level of the slot expended (maximum 5 charges). Adding charges to the badge is a standard action (regardless of the spell level expended). When the summoner uses his life link ability, instead of sacrificing his own hit points, he may expend charges from the badge to heal the eidolon 1d6 hit points per charge. The summoner does not have to decide how many charges are spent beforehand (he may expend one charge, roll, and decide whether or not to spend more charges for more healing ). All charges in the badge are lost when the summoner readies spells after resting. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, rejuvenate eidolon; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_life_link_badge",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_life_link_badge",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

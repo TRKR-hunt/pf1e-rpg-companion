@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stirge_lancet__crb_",
+    "name": {
+      "value": "Stirge Lancet"
+    },
+    "source": {
+      "value": "spymaster_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,500 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This +1 returning featherweight dart transforms into an insect-sized stirge when fired. As with a normal featherweight dart, a stirge lancet deals no damage; it instead administers 1 dose of an applied poison so long as the target doesn\u00e2\u0080\u0099t have damage reduction, hardness, or similar abilities. If no poison is applied to the stirge lancet, it instead attaches to the target for 1 round and draws 1 ounce of blood or an equivalent fluid (if any) from the target. After applying poison or drawing blood, the dart flies through the air back to the creature that fired it. Unlike other featherweight darts, a stirge lancet is not damaged or destroyed when used, and can be reused indefinitely (though it can store only 1 dose of poison or one blood sample at a time). Although a stirge lancet leaves no evidence, the sound of its buzzing wings may attract attention. A creature hit by a stirge lancet can attempt a Perception check to hear its humming; the DC for this check is equal to 20 + the stirge lancet\u00e2\u0080\u0099s enhancement bonus on attack rolls (DC 21 for a standard stirge lancet ). If the target succeeds at this Perception check, it instinctively attempts to bat the dart out of the air without a second thought, thinking the projectile to be an ordinary insect. There is a 50% chance that a dart so detected is batted from the sky, preventing it from returning to the creature that fired it and allowing it to be detected with a successful DC 15 Perception check, as normal for a featherweight dart. A batted dart is not destroyed, but must be retrieved manually. CONSTRUCTION REQUIREMENTS Cost 4,400 gp; Feats Craft Magic Arms and Armor; Spells animate objects, returning weapon"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stirge_lancet",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

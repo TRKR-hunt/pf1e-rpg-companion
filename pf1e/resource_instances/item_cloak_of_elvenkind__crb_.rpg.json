@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_elvenkind__crb_",
+    "name": {
+      "value": "Cloak of elvenkind #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 3rd; Slot shoulders; Price 2,500 gp; Weight 1 lb. DESCRIPTION These cloaks of famed elven design are enhanced to reflect the wearer\u00e2\u0080\u0099s surroundings, aiding him in blending in with any terrain. When this plain gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on Stealth checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, invisibility; Special creator must be an elf; Cost 1,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_elvenkind",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_elvenkind",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_elusion__crb_",
+    "name": {
+      "value": "Cloak, Elusion"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,600 gp; Slot shoulders; CL 1st; Weight 1 lb.; Aura faint illusion and transmutation EFFECTS The wearer of an elusion cloak gains a +5 competence bonus on Stealth checks against creatures of at least one size category larger than she is. In addition, once per day as a free action when the wearer fails a saving throw against a fear effect, she can gain the benefits of expeditious retreat for 5 rounds or for as long as she is affected by the fear effect, whichever is shorter. CONSTRUCTION REQUIREMENTS Cost 1,800 gp; Feats Craft Wondrous Item; Spells expeditious retreat"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_elusion",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_elusion",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

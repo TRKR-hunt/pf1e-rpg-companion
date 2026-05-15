@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ki_mat__crb_",
+    "name": {
+      "value": "Ki mat #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration (healing); CL 7th; Slot none; Price 10,000 gp; Weight 3 lbs. DESCRIPTION This humble pad of woven river reeds allows its owner to recover his mental fortitude and ki pool by practicing breathing exercises and other forms of meditation. Each hour its owner spends sitting on the mat without taking any other action, he can attempt to center himself by making a Wisdom check with a DC of 10 plus the monk \u2018s current number of ki points (note that ability checks, like skill checks, do not automatically succeed on a 20). If the check is successful, the monk regains 1 ki point. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, lesser restoration; Special creator must be a monk; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ki_mat",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ki_mat",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

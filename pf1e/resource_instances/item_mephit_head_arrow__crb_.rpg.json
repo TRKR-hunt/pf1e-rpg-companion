@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mephit_head_arrow__crb_",
+    "name": {
+      "value": "Mephit-Head Arrow"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 200 gp; Slot weapon; CL 3rd; Weight 4 lbs.; Aura faint evocation DESCRIPTION The steel head of this masterwork arrow is sculpted to look like a leering mephit. If a mephit-head arrow hits, it sprays elemental energy in a 15-foot cone that must originate from the target creature (including the creature struck) and expand in the direction the arrow was fired. The damage dealt depends on the type of mephit-head arrow, as detailed below. A successful DC 13 Reflex save halves the cone\u00e2\u0080\u0099s damage and negates any additional effect. Air Mephit: A blast of wind-borne grit deals 1d8 points of slashing damage. Dust or Salt Mephit: A spray of fine grit or coarse salt crystals deals 1d4 points of slashing damage and sickens targets in the cone for 3 rounds. Earth Mephit: A shower of gravel deals 1d8 points of bludgeoning damage. Fire or Magma Mephit: A cone of flames or spray of magma deals 1d8 points of fire damage. Ice Mephit: Shards of ice deal 1d4 points of cold damage and sicken targets in the cone for 3 rounds. Ooze Mephit: A wave of slime deals 1d4 points of acid damage and sickens targets in the cone for 3 rounds. Steam Mephit: A plume of steam deals 1d4 points of fire damage and sickens targets in the cone for 3 rounds. Water Mephit: A spray of acid deals 1d8 points of acid damage. CONSTRUCTION REQUIREMENTS Cost 100 gp; Feats Craft Magic Arms and Armor; Spells elemental touch"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mephit_head_arrow",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mephit_head_arrow",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

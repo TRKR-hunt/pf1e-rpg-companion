@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crux_devils__crb_",
+    "name": {
+      "value": "Crux, Devil's"
+    },
+    "source": {
+      "value": "the_kintargo_contract"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot none; Price 2,000 gp; Weight 5 lbs. DESCRIPTION A Devil\u2019s Crux is a cunning puzzle box that, when closed, contains an interior space far larger than its exterior would suggest. A Devil\u2019s Crux appears to be a 6-inch-diameter wooden-and-metal dodecahedron (similar in shape to a d12). Each of the crux\u2019s 12 surfaces is carved with a different shape or rune, and when an observer looks at the item, she has the unsettling sensation that too many sides can be seen at once. Shaking or rolling the box reveals that it is hollow, as objects within rattle and shift (though no amount of shaking can damage the objects within). In order to open a Devil\u2019s Crux, a person must trace the outlines of these runes and images with the tip of a finger in the proper order. Each time one is traced in the correct order, it glows with a soft red light, but whenever one is traced out of order, the runes flash brightly; this burns the person attempting to open the crux and causes all faces to deactivate, forcing the opening process to start anew. Failure to open a crux eight times in a row causes the box to randomly establish a new activation order. A character can attempt a DC 35 Disable Device check or a DC 25 Intelligence check to try to open the puzzle box. Each attempt takes 1 minute, and the check can be retried with a cumulative +1 bonus on the roll, to a maximum bonus of +7, after which the crux resets its order (at this point, the bonus reverts to +0 and the character must start anew). Failure on either of these checks causes the crux to flash with fire and deals 2 points of fire damage plus 2 points for each previous failure to the character (Reflex DC 15 half); the amount of damage resets to 2 if the activation order is reset. A Devil\u2019s Crux can be forced open with a successful DC 28 Strength check or destroyed through physical damage (hardness 10, hp 30). If a crux is forced open in either of these ways, it explodes into a 10-foot-radius burst of fire, dealing 3d6+6 points of fire damage (Reflex DC 15 half) to all creatures and objects within the burst, including any objects held within the crux. If forced open or destroyed, the crux crumbles to ashes, and any objects it contained fall to the ground at the site of the fiery burst. When opened properly, the crux unfolds into a 2-foot square flat sheet of metal and wood. Any objects the crux contains sit on the center of the sheet. An unfolded crux automatically folds up again as soon as a character attempts to bend any of the sheet\u2019s four corners (a move action). The crux automatically folds up around any objects that sit upon its face at this time\u2014objects that would exceed the crux\u2019s capacity are pushed gently aside by the refolding action. Once a particular crux\u2019s combination is known, a character can open it automatically with 3 consecutive full-round actions. A Devil\u2019s Crux can hold up to 200 pounds of objects. As an object that creates an extradimensional space, a Devil\u2019s Crux functions as a bag of holding for the purpose of determining how long a living creature within can survive, or what happens when the box is placed in another extradimensional object like a portable hole. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells fire trap, secret chest; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crux_devils",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crux_devils",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

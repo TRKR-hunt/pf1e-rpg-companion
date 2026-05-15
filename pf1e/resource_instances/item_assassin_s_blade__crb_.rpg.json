@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "assassin_s_blade__crb_",
+    "name": {
+      "value": "Assassin's Blade"
+    },
+    "source": {
+      "value": "advanced_class_origins"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,302 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate divination and enchantment DESCRIPTION This +1 dagger is forged for assassins alone. It allows slayers, rogues, and assassins who work for an assassins\u2019 guild the chance to finish the job if their initial strikes prove less than successful. If the wielder of this blade studies his target for 3 rounds (which can be the same 3 rounds of study for a death attack) either unseen or without being recognized as an enemy, he can sneak attack with all attacks he makes with this dagger against that target for the next 3 rounds. If his target has improved uncanny dodge, the wielder of the blade must be 4 levels higher than the target in order to sneak attack. CONSTRUCTION REQUIREMENTS Cost 4,302 gp; Feats Craft Magic Arms and Armor; Spells guidance, instant enemy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_assassin_s_blade",
+          "value": {
+            "value": 8302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_assassin_s_blade",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

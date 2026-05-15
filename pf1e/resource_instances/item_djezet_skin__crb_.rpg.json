@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "djezet_skin__crb_",
+    "name": {
+      "value": "Djezet Skin"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,410 gp; Slot armor; CL 3rd; Weight 7 lbs.; Aura faint enchantment DESCRIPTION When unattended, djezet skin appears as a curiously smooth sphere of rust-red metal. When it\u00e2\u0080\u0099s held and a command word is spoken, the armor oozes across the wearer\u00e2\u0080\u0099s body like a second skin. The armor can be removed as a free action by stepping out of it, causing it to pool on the floor. Djezet skin acts as a suit of +1 leather, except it is made of metal (and thus druids cannot wear it) and has no armor check penalty and a 0% chance of arcane spell failure. Additionally, the wearer of djezet skin gains a +5 circumstance bonus on Diplomacy checks to make requests of creatures with an attitude of friendly or helpful. CONSTRUCTION REQUIREMENTS Cost 1,785 gp; Feats Craft Magic Arms and Armor; Spells charm person"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_djezet_skin",
+          "value": {
+            "value": 3410
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_djezet_skin",
+          "value": {
+            "value": 7
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

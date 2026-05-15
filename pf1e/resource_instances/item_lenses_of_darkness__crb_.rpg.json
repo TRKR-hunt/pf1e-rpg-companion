@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lenses_of_darkness__crb_",
+    "name": {
+      "value": "Lenses of Darkness"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot eyes; Price 12,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Crafted from a dark-colored crystalline material and infused with magical darkness, these lenses fit over the wearer\u2019s eyes. When worn by a creature with light sensitivity or light blindness, these lenses protect the wearer against the effect of sunlight, the daylight spell, or similar light effects. Both lenses must be worn for the magic to be effective. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, darkness; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lenses_of_darkness",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

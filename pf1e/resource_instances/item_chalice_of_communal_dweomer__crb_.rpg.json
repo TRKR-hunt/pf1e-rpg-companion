@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chalice_of_communal_dweomer__crb_",
+    "name": {
+      "value": "Chalice of Communal Dweomer"
+    },
+    "source": {
+      "value": "tears_at_bitter_manor"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot none; Price 3,750 gp; Weight 1 lb. DESCRIPTION Once per day, a creature can pour a potion with a duration longer than instantaneous into the chalice, then drink it as a standard action that provokes attacks of opportunity. The bearer and up to two willing allies within 30 feet gain the benefits as though they had consumed the potion; however, the duration is divided evenly between all recipients (including the bearer), rounded down to the nearest round. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells alchemical allocation, amplify elixir; Cost 1,875 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chalice_of_communal_dweomer",
+          "value": {
+            "value": 3750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chalice_of_communal_dweomer",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

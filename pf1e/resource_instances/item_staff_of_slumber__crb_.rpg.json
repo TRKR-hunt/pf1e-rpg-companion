@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_slumber__crb_",
+    "name": {
+      "value": "Staff of slumber"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 9th; Slot none; Price 81,766 gp; Weight 5 lbs. DESCRIPTION Smoky spirals adorn the length of this staff, and have an almost hypnotic effect. The staff allows use of the following spells: Deep slumber (1 charge) Ray of exhaustion (1 charge) Dream (2 charges) Nightmare (2 charges) Waves of fatigue (2 charges) Symbol of sleep (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells deep slumber, dream, nightmare, symbol of sleep, ray of exhaustion, waves of fatigue; Cost 49,216 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_slumber",
+          "value": {
+            "value": 81766
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_slumber",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

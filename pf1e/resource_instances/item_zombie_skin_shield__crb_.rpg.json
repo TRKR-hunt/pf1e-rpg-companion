@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "zombie_skin_shield__crb_",
+    "name": {
+      "value": "Zombie skin shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 5th; Weight 15 lbs.; Price 2,159 gp DESCRIPTION This +1 light steel shield is wrapped in a layer of gray skin. Once per day, the wearer can animate the skin as a human zombie under her control, as if she had created it with animate dead, for a period of 5 minutes. When the time expires, the zombie returns to the shield. If the zombie is destroyed or cannot reach the shield by the time it expires, placing the shield on a Medium humanoid corpse for 1 hour recreates the shield\u2019s skin. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells animate dead; Cost 1,159 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_zombie_skin_shield",
+          "value": {
+            "value": 2159
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_zombie_skin_shield",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

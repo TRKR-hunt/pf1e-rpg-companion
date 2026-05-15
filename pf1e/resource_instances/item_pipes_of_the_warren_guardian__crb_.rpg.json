@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pipes_of_the_warren_guardian__crb_",
+    "name": {
+      "value": "Pipes of the Warren Guardian"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot none; Price 6,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These finely crafted yellow-ivory pipes are bound in bronze and decorated with bits of amber. If the possessor learns the proper tune, once per day he can use these pipes to summon 1d4+1 dire rats as if using summon monster III. The summoned dire rats also have the swarming racial trait, and count as ratfolk for the purposes of the ratfolk\u2019s swarming racial trait. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, summon monster III; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pipes_of_the_warren_guardian",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

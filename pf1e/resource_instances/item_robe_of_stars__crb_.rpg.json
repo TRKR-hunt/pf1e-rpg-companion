@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_of_stars__crb_",
+    "name": {
+      "value": "Robe of stars #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 15th; Slot body; Price 58,000 gp; Weight 1 lb. DESCRIPTION This garment is typically black or dark blue and embroidered with small white or silver stars. The robe has three magical powers. It enables the wearer to travel physically to the Astral Plane, at will and on command as if using the plane shift spell. Once he has done so, the wearer can also return to his plane of origin on command, also as per the plane shift spell. This robe also grants its wearer a +1 luck bonus on all saving throws. Finally, the wearer can use up to six of the embroidered stars on the chest portion of the robe as +5 shuriken. The robe grants its wearer proficiency with such weapons. Each shuriken disappears after it is used. The stars are replenished once per month. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, magic missile, astral projection or plane shift; Cost 29,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_of_stars",
+          "value": {
+            "value": 58000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_of_stars",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

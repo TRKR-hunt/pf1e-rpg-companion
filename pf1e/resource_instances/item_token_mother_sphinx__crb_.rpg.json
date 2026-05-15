@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "token_mother_sphinx__crb_",
+    "name": {
+      "value": "Token, Mother-Sphinx"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot none; CL 7th Weight \u00e2\u0080\u0094; Aura moderate evocation APPEARANCE This wooden disk bears the image of a mother-sphinx, a symbol that epitomizes knowledge and arcane power. EFFECTS Once per day, the user can designate an enemy within 100 feet and speak a command word. When she does, any spells she casts in the next 2 rounds that target the designated enemy are affected as if she were under the effects of an arcane concordance spell. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Craft Wondrous Item; Spells arcane concordance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_token_mother_sphinx",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

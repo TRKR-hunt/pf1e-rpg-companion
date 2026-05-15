@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "demon_senses__crb_",
+    "name": {
+      "value": "Demon Senses"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration [evil]; CL 15th; Slot none; Price 20,000 gp; Weight 1 lb. DESCRIPTION This implant appears as a demonic eye, tongue, finger, ear, or nose floating in a small jar of transparent fluid. In order to gain the benefit of this implant, the contents of the jar\u00e2\u0080\u0094thick fluid, body part, and all\u00e2\u0080\u0094must be consumed as a full-round action. This immediately grants a permanent +8 racial bonus on all Perception checks (note that as a racial bonus, this does not stack with any other racial bonuses a creature might already possess). After gaining this bonus, the part of the creature\u00e2\u0080\u0099s body corresponding to the body part eaten changes to match the eaten part\u00e2\u0080\u0094eyes might become red, ears might grow long and pointed, a tongue might become forked, and so on. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, limited wish, regenerate; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_demon_senses",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_demon_senses",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

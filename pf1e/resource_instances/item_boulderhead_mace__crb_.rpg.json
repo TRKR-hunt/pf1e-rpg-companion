@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boulderhead_mace__crb_",
+    "name": {
+      "value": "Boulderhead mace"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Weight 8 lbs.; Price 6,812 gp DESCRIPTION The head of this +1 heavy mace is made from a single piece of roughly spherical, polished granite. Once per day, the wielder can command the mace to release this head, which grows to the size of a Large boulder and rolls quickly in a direction the wielder specifies. The boulder rolls in a straight line for up to 60 feet, crushing everything in its path for 3d8+5 points of damage ( Reflex DC 19 half). The boulder collapses into rubble and dust at the end of its path or if it encounters an obstacle it cannot break through or roll over, creating a 10-foot-square area of difficult terrain. A new stone mace-head grows on the weapon\u2019s haft over the next 24 hours, and it is unusable as a weapon until the head regrows. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells wall of stone; Cost 3,652 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boulderhead_mace",
+          "value": {
+            "value": 6812
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boulderhead_mace",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

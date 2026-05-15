@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spiritualist_rings__crb_",
+    "name": {
+      "value": "Spiritualist Rings"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy; CL 12th; Slot ring; Price 70,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These four garish and gaudy rings must be worn on one hand, though they take up only a single ring slot. They grant the wearer the ability to commune with and affect the dead in the following ways. The wearer can use speak with dead, as the spell, three times per day. It takes 10 minutes to use this ability. The wearer can use spectral hand, as the spell, three times per day. The wearer\u00e2\u0080\u0099s weapons gain the ghost touch weapon special ability while the wearer is wielding the weapons. The wearer gains a +4 sacred or profane bonus on saving throws against positive and negative energy effects. The bonus depends on the wearer\u00e2\u0080\u0099s alignment \u00e2\u0080\u0094good-aligned wearers gain a sacred bonus, whereas evil-aligned wearers gain a profane bonus. Neutral-aligned wearers pick either a sacred or profane bonus when the ring is first put on, which cannot be changed later. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells speak with dead, spectral hand, plane shift; Cost 45,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spiritualist_rings",
+          "value": {
+            "value": 70000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

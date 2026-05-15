@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rending_claw_blade__crb_",
+    "name": {
+      "value": "Rending Claw Blade"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 11th; Slot none; Price 10,305 gp; Weight 1 lb. DESCRIPTION This set of +1 keen claw blades is most effective when the wearer has multiple claw attacks per round. When making a full attack with claws, if the wielder hits the same target with this weapon and a different claw attack or set of claw blades, he deals an extra 1d4 damage plus 1-1/2 times his Strength bonus. The wearer can deal this extra damage no more than once per round. This counts as a rend attack and does not stack with other abilities that grant rend attacks. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, keen edge; Cost 5,305 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rending_claw_blade",
+          "value": {
+            "value": 10305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rending_claw_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

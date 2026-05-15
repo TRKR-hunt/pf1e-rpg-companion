@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eldritch_egress__crb_",
+    "name": {
+      "value": "Eldritch Egress"
+    },
+    "source": {
+      "value": "pathfinder_chronicles_seekers_of_secrets_paizo_publishing_llc"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot none; Price 10,000 gp; Weight 4 lbs. DESCRIPTION This cunningly designed bundle of wooden slats unfolds and interlocks to form a 3-foot-by-3-foot frame. Once per day you may place the unfolded frame upon a solid surface to form a passage up to 10 feet deep, as if using a passwall spell. The passageway lasts for 1 hour unless the frame is removed earlier. Folding or unfolding the frame is a full-round action that provokes attacks of opportunity. Using the unfolded frame to create a passage is a standard action. Medium or smaller creatures can easily pass through the tunnel, while Large creatures require an Escape Artist check. The eldritch egress can only be removed from outside the surface it was placed on, so careful planning is required when using it. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, passwall; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eldritch_egress",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_eldritch_egress",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

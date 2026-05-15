@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_the_manta_ray__crb_",
+    "name": {
+      "value": "Cloak of the manta ray #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot shoulders; Price 7,200 gp; Weight 1 lb. DESCRIPTION This cloak appears to be made of leather until the wearer enters salt water. At that time, the cloak of the manta ray adheres to the individual, and he appears nearly identical to a manta ray (as the beast shape II spell, except that it allows only manta ray form). He gains a +3 natural armor bonus, the ability to breathe underwater, and a swim speed of 60 feet, like a real manta ray. The cloak does allow the wearer to attack with a manta ray \u2018s tail spine, dealing 1d6 points of damage. This attack can be used in addition to any other attack the character has, using his highest melee attack bonus. The wearer can release his arms from the cloak without sacrificing underwater movement if so desired. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, beast shape II, water breathing; Cost 3,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_the_manta_ray",
+          "value": {
+            "value": 7200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_the_manta_ray",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

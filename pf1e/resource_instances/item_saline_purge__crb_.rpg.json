@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "saline_purge__crb_",
+    "name": {
+      "value": "Saline Purge"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 900 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint conjuration DESCRIPTION The putrid concoction in this glass bottle smells foul and tastes worse. Anyone who drinks a dose of saline purge must succeed at a DC 14 Fortitude save or become nauseated for 1d4+1 rounds. Whether or not this save is successful, the imbiber is cured of any curses or poisons affecting him as his body purges the ill effects. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Craft Wondrous Item; Spells neutralize poison, remove curse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_saline_purge",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

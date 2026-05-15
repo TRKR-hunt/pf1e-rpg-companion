@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tuned_bowstring__crb_",
+    "name": {
+      "value": "Tuned Bowstring"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,000 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate illusion DESCRIPTION This faintly glowing bowstring is twined from the hair of a lillend. When strung on a bow, a tuned bowstring also functions as a masterwork stringed instrument, granting the wielder an enhancement bonus on Performance ( string ) checks equal to the bow\u2019s enhancement bonus (if any). A tuned bowstring produces a perfect note with every arrow fired by its wielder, allowing a character with the bardic performance class feature to maintain a performance in combat without expending rounds of bardic performance as long as she fires at least one arrow each round. Activating a bardic performance or switching to a different performance still costs a round of bardic performance. CONSTRUCTION REQUIREMENTS Cost 9,000 gp; Feats Craft Wondrous Item; Spells exquisite accompaniment; Special creator must have the bardic performance class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tuned_bowstring",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

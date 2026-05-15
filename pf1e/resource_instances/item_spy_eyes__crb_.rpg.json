@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spy_eyes__crb_",
+    "name": {
+      "value": "Spy Eyes"
+    },
+    "source": {
+      "value": "the_asylum_stone"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 9th; Slot none; Price 15,000 gp; Weight 1 lbs. DESCRIPTION At first glance, spy eyes appear to be cat\u2019s-eye marbles. When activated, each comes to life and blinks, transforming into an eyeball. When pressed against an inanimate surface (such as a wall or article of clothing), the eyeball absorbs into it, leaving a magical sensor of the same size on the surface. Anyone holding an eye from a particular cluster of spy eyes can share the view from any other eye in the cluster as if that eye were her own, provided she is within 10 miles of that sensor. To recover a sensor, she can press a spy eye she holds from the same cluster against the one that\u2019s in sensor form to make the sensor emerge and return to marble form. A single bag of spy eyes contains five marbles (meaning that up to four may be deployed at any given time). Spy eyes in sensor form can be detected via the normal means for detecting scrying. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, clairaudience/clairvoyance; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spy_eyes",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spy_eyes",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

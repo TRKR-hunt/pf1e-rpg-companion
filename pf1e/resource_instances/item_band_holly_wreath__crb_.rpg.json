@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "band_holly_wreath__crb_",
+    "name": {
+      "value": "Hollywreath band"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot headband; Price 5,700 gp; Weight 1 lb. DESCRIPTION This headband is woven of magically preserved holly, its deep green leaves and bright red berries perpetually lustrous. The wearer may create goodberries once per day as the spell, and any effect she creates that affects plants, including the domain powers of the Plant domain, take effect at +1 caster level and gain a +1 bonus to the save DC. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells goodberry, plant growth; Cost 2,580 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_band_holly_wreath",
+          "value": {
+            "value": 5700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_band_holly_wreath",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

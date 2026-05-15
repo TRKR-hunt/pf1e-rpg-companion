@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brastlewark_brew__crb_",
+    "name": {
+      "value": "Brastlewark Brew"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 150 gp; Weight 1 lb.; Slot none; CL 3rd; Aura faint enchantment DESCRIPTION This magical alcoholic beverage was in a contest to produce the most inventive heady ale. It is most often drunk willingly, though some bartenders serve it to unsuspecting patrons as an expensive but ultimately harmless prank. The drinker finds any joke unbearably funny for 1 minute. Any Perform (comedy) check with a result of at least 10 + the drinker\u00e2\u0080\u0099s Will save modifier attempted within 30 feet causes the drinker to collapse in gales of laughter, unable to take any action but attempt suppress the laughter as a full-round action ( Will DC 15). If the drinker succeeds at the save, that laughing fit ends, but this success offers no protection against future jokes. CONSTRUCTION REQUIREMENTS Cost 75 gp; Feats Craft Wondrous Item; Spells hideous laughter"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brastlewark_brew",
+          "value": {
+            "value": 150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_brastlewark_brew",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

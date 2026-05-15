@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vaultbow__crb_",
+    "name": {
+      "value": "Vaultbow"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 28,550 gp; Slot none; CL 13th; Weight 4 lbs.; Aura strong conjuration DESCRIPTION Note This item is associated with a particular deity that can not be named here. This +1 light repeating crossbow of deep mahogany rimmed with gold has an extradimensional space within the crossbow that can hold 20 bolts. Loading new bolts into the extradimensional space requires a move action that provokes an attack of opportunity for each bolt. The crossbow weighs the same no matter how many bolts are placed inside it. A worshiper of the associated deity treats the vaultbow as a light crossbow for purposes of proficiency and applying the benefits of feats relating to a light crossbow. Three times per day, the wielder can choose to have a bolt transform into a length of chain that wraps around its target on a successful attack. This decision must be made before the attack roll is made. A Large or smaller creature struck by this attack becomes entangled (and if dependent on wings to fly, it must succeed at a DC 15 Reflex save or lose the ability to fly while entangled ). An entangled creature can break (and destroy) the chains with a successful DC 30 Strength check or escape them with a successful DC 30 combat maneuver check or Escape Artist check. This chain lasts for 5 rounds before fading from existence. CONSTRUCTION REQUIREMENTS Cost 14,550 gp; Feats Craft Magic Arms and Armor; Spells chain of perdition, secret chest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vaultbow",
+          "value": {
+            "value": 28550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vaultbow",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

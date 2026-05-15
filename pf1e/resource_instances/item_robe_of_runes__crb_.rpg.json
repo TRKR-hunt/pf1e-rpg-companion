@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_of_runes__crb_",
+    "name": {
+      "value": "Robe of Runes"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot body; Price 44,000 gp; Aura strong transmutation; CL 13th; Weight 1 lb. DESCRIPTION This robe is made of crimson silk and emblazoned with dozens of spindly runes, each symbolizing a different type of magical effect or syllable of power. Though favored by wizards, this robe can provide some benefit to any spellcasting creature. While worn, it grants a +4 enhancement bonus to Intelligence and allows the wearer to recall, as a free action, up to four levels of spells per day that he had prepared and then cast. Each time a spell is recalled and prepared again in this manner, the sudden rush of magical energy infuses the wearer with power. For 1 round after recalling a spell, the wearer\u2019s spell save DCs and attack rolls made with spells gain a +2 enhancement bonus. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, fox\u2019s cunning, limited wish; Cost 22,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_of_runes",
+          "value": {
+            "value": 44000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_of_runes",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

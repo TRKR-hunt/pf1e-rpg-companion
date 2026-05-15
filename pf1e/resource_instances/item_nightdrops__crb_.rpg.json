@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "nightdrops__crb_",
+    "name": {
+      "value": "Nightdrops #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight \u00e2\u0080\u0094; Slot none; Price 250 gp DESCRIPTION This narrow vial holds 5 doses of viscous liquid. When dripped onto a willing creature\u2019s eyes, it gives the creature low-light vision for 1 hour. The affected creature takes a -2 penalty on saves against light-based spells and effects and gains the light sensitivity weakness. A dose affects one creature, regardless of how many eyes it has. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape I; Cost 125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_nightdrops",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

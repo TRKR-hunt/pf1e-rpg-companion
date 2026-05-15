@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "phase_arrow__crb_",
+    "name": {
+      "value": "Phase Arrow"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 916 gp; Slot none; CL 5th; Weight 1/20 lb.; Aura faint transmutation DESCRIPTION When this translucent +2 arrow is fired, it becomes ethereal until it enters the target\u2019s space. A phase arrow ignores cover of all kinds, including total cover, and can be fired at a target even if the wielder doesn\u2019t have line of effect. However, if the wielder cannot see or otherwise pinpoint the target, she risks attacking the wrong space, and even if she attacks the right space, the target still has total concealment against the attack (granting a 50% miss chance). CONSTRUCTION REQUIREMENTS Cost 461 gp; Feats Craft Magic Arms and Armor; Spells blink"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_phase_arrow",
+          "value": {
+            "value": 916
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

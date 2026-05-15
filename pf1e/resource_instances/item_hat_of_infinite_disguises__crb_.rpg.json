@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hat_of_infinite_disguises__crb_",
+    "name": {
+      "value": "Hat Of Infinite Disguises"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Weight 1 lb.; Slot head; CL 11th; Aura moderate illusion DESCRIPTION This large, elaborate, and colorful hat is festooned with trinkets from at least a dozen different cultures. The wearer can disguise herself (but not other creatures) at will with a command word, as per veil. A second command word removes the disguise. When part of a disguise, the hat can be changed to appear as any appropriate accessory. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Wondrous Item; Spells veil"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hat_of_infinite_disguises",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hat_of_infinite_disguises",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

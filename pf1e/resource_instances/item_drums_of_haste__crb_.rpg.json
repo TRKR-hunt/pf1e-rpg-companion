@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "drums_of_haste__crb_",
+    "name": {
+      "value": "Drums of haste #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 5 lbs.; Slot none; Price 45,000 gp DESCRIPTION This set of kettle drums is carried on a shoulder strap and played one-handed using a single two-sided mallet. By making a DC 20 Perform (percussion) check, the bearer can grant the effects of a haste spell on up to 5 creatures. The drums can affect up to 25 creatures per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, haste; Cost 22,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_drums_of_haste",
+          "value": {
+            "value": 45000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_drums_of_haste",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

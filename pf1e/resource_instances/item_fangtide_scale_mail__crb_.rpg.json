@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fangtide_scale_mail__crb_",
+    "name": {
+      "value": "Fangtide Scale Mail"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment, evocation, and illusion; CL 10th; Slot armor; Price 4,890 gp; Weight 30 lbs. DESCRIPTION This +1 glamered scale mail is decorated with fangs and is usually made from the hide of a reptilian beast such as a basilisk. The wearer can use burst bonds and wrath each once per day; as a full-round action, the wearer can activate both of these abilities at the same time CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells burst bonds, disguise self, wrath; Price 2,590 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fangtide_scale_mail",
+          "value": {
+            "value": 4890
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fangtide_scale_mail",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

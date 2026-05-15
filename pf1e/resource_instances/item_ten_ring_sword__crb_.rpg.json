@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ten_ring_sword__crb_",
+    "name": {
+      "value": "Ten-ring sword"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Weight 4 lbs.; Price 14,315 gp DESCRIPTION This finely crafted +2 nine-ring broadsword has an extra gap at the base of the blade\u2019s unsharpened edge, closest to the hilt, seemingly to fit an extra ring. The wielder of a ten-ring sword can use a full-round action to place a magic ring into the empty slot, where the ring then rests until removed (another full-round action ). Once a ring is fitted to the tenth slot, the sword\u2019s wielder can employ that ring as if he were wearing it, even if he is currently wearing two magic rings. Alternatively, the sword\u2019s wielder can fit a ring made of a specific metal like adamantine or cold iron into the tenth slot. Doing so allows the sword to penetrate damage reduction as if it were made of the same metal as the ring. Using this property does not grant the weapon any additional properties of that metal (such as bypassing hardness, etc.). Typically, such metal rings cost one-tenth the cost of a nine-ring broadsword made from that material. In the event that a magic ring made from a specific metal, like silver, is affixed to the sword\u2019s tenth slot, the sword\u2019s wielder decides which of the weapon\u2019s two properties will be in effect when the ring is placed. However, the sword\u2019s wielder can use a move action to switch between properties. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells mage hand, versatile weapon; Cost 7,157 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ten_ring_sword",
+          "value": {
+            "value": 14315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ten_ring_sword",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

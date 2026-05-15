@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_protean__crb_",
+    "name": {
+      "value": "Cloak, Protean"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies: +1 bonus 500 gp; +2 bonus 2,000 gp; +3 bonus 4,500 gp; +4 bonus 8,000 gp; +5 bonus 12,500 gp; Slot shoulders; CL 5th; Weight 1 lb.; Aura faint abjuration DESCRIPTION These multihued cloaks are as mutable as the proteans that inspired them. The typical protean cloak appears to be crafted from the hide of a naunet protean, but regardless of their apparent source, all protean cloaks shimmer and flicker with a riot of color. While the material feels scaly and rugose to the touch, a protean cloak flows like silk and does not hinder mobility. A protean cloak provides a +1 to +5 resistance bonus on a single type of saving throw (typically Will saving throws). Once per day as a standard action, the wearer can change the type of saving throw that receives this bonus; the cloak then provides its bonus on the new type of saving throw until its type is changed again. If a protean cloak is unattended for more than 24 hours, the resistance bonus it applies automatically reverts back to Will saves. CONSTRUCTION REQUIREMENTS Cost varies: +1 bonus 250 gp; +2 bonus 1,000 gp; +3 bonus 2,250 gp; +4 bonus 4,000 gp; +5 bonus 6,250 gp; Feats Craft Wondrous Item; Spells entropic shield, resistance; Special creator must be chaotic, creator\u00e2\u0080\u0099s caster level must be at least three times the cloak\u00e2\u0080\u0099s bonus"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_protean",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

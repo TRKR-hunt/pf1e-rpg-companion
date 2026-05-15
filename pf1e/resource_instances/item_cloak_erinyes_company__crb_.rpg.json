@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_erinyes_company__crb_",
+    "name": {
+      "value": "Cloak, Erinyes Company"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 22,000 gp; Slot shoulders; CL 10th; Weight 3 lbs.; Aura moderate transmutation DESCRIPTION This crimson cloak is trimmed with feathers taken from erinyes devils. Three times per day on command, the cloak transforms into a pair of black-feathered wings that grant the wearer a fly speed of 30 feet (average maneuverability) for 10 minutes. If the wearer is wearing Gray Maiden plate, its armor check penalty does not apply to the wearer\u2019s Fly checks. In addition, the wearer gains a +2 resistance bonus on all saving throws. CONSTRUCTION REQUIREMENTS Cost 11,000 gp; Feats Craft Wondrous Item; Spells fly, resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_erinyes_company",
+          "value": {
+            "value": 22000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_erinyes_company",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

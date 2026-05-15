@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "enchanted_eelskin__crb_",
+    "name": {
+      "value": "Enchanted eelskin"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 15 lbs.; Price 11,160 gp DESCRIPTION This +1 slick leather armor is made of shining, slippery eelskin that allows the wearer to move with deadly grace and sudden swiftness, especially underwater. When immersed in water, enchanted eelskin gains the shadow property and grants the wearer a swim speed of 30 feet and the ability to breathe water. In addition, during a surprise round the wearer can act as if she had a full round of actions, rather than a single standard action, as long as those actions do not require leaving the water. If she does leave the water, her surprise round turn immediately ends. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells grease, invisibility, touch of the sea; Cost 5,660 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_enchanted_eelskin",
+          "value": {
+            "value": 11160
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_enchanted_eelskin",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

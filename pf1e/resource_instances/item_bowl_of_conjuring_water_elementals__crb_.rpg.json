@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bowl_of_conjuring_water_elementals__crb_",
+    "name": {
+      "value": "Bowl of conjuring water elementals #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 11th; Weight 3 lbs.; Slot none; Price 90,000 gp DESCRIPTION This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in diameter and half that deep. The bowl must be filled with fresh or salt water to function. On command as a full-round action, the bearer may summon a water elemental. If the bowl is filled with salt water, it conjures a Huge water elemental as if using summon monster VI. If filled with fresh water, it conjures a Large water elemental as if using summon monster V. Conjuring an elemental empties the bowl. The bowl cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, summon monster V, summon monster VI; Cost 45,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bowl_of_conjuring_water_elementals",
+          "value": {
+            "value": 90000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bowl_of_conjuring_water_elementals",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

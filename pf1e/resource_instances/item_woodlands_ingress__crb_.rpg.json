@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "woodlands_ingress__crb_",
+    "name": {
+      "value": "Woodlands\u00e2\u0080\u0099 Ingress"
+    },
+    "source": {
+      "value": "prisoner_of_the_blight"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,000 gp; Slot none; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate conjuration DESCRIPTION This small, smooth stone is made of a delicate, light blue larimar polished to a sheen. It glows very faintly, and its edges are rimmed with delicate Sylvan script of couplets that exalt life in a primeval forest. EFFECTS Once per day, the bearer can say the command word and designate up to 10 creatures (including herself) to be affected by a tree stride spell, allowing each creature affected to enter a tree at some point in the next 10 hours and teleport as per the spell. Each affected creature can teleport only once, after which it no longer gains the benefit of tree stride until targeted by a woodlands\u00e2\u0080\u0099 ingress again. CONSTRUCTION REQUIREMENTS Cost 9,000 gp; Feats Craft Wondrous Item; Spells tree stride"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_woodlands_ingress",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

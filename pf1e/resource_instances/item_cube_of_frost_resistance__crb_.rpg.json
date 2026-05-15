@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cube_of_frost_resistance__crb_",
+    "name": {
+      "value": "Cube of frost resistance #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot \u00e2\u0080\u0094; Price 27,000 gp; Weight 2 lbs. DESCRIPTION This cube is activated or deactivated by pressing one side. When activated, it creates a cube-shaped area 10 feet on a side centered on the possessor (or on the cube itself, if the item is later placed on a surface). The temperature within this area is always at least 65\u00c2\u00b0 F. The field absorbs all cold-based attacks. However, if the field is subjected to more than 50 points of cold damage in 1 round (from one or multiple attacks), it collapses and cannot be reactivated for 1 hour. If the field absorbs more than 100 points of cold damage in a 10-round period, the cube is destroyed. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, protection from energy; Cost 13,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cube_of_frost_resistance",
+          "value": {
+            "value": 27000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cube_of_frost_resistance",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

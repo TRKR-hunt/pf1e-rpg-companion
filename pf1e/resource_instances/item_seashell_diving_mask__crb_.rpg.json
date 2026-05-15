@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "seashell_diving_mask__crb_",
+    "name": {
+      "value": "Mask, Seashell Diving"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot head; CL 3rd; Weight 3 lbs.; Aura faint conjuration DESCRIPTION This striped pink conch shell has thin leathery straps to keep it attached to the wearer\u00e2\u0080\u0099s face, with a clear mask attached to the top that the wearer can see through. Prized by pirates for searching for underwater treasure, these diving masks are popular among many different sailors. EFFECTS The interior of the shell holds enough air to allow the wearer to breathe underwater for 10 minutes, but the mask must then be exposed to air for 20 minutes before it can be used again to breathe underwater. The wearer gains a +4 competence bonus on Perception checks while underwater, and she can detect and attempt to identify magical auras underwater as though she had cast detect magic. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells air bubble, detect magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_seashell_diving_mask",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_seashell_diving_mask",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

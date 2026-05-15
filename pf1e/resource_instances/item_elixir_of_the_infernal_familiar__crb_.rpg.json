@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_the_infernal_familiar__crb_",
+    "name": {
+      "value": "Elixir of the Infernal Familiar"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,400 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This slender tube contains an acrid black sludge that feels warm to the touch. EFFECTS When she consumes this elixir, the imbiber is transformed into a gray cat for 1 hour (as beast shape II ), leaving behind any worn belongings on the ground. While under the effects of the elixir, the imbiber gains darkvision with a range of 30 feet, and her paw prints leave a trail of scorch marks that smell faintly of sulfur. If the imbiber\u00e2\u0080\u0099s original form already has darkvision, the range increases by 30 feet. When the effect ends, the imbiber transforms back into her original form. CONSTRUCTION REQUIREMENTS Cost 700 gp; Feats Craft Wondrous Item; Spells beast shape II, darkvision"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_the_infernal_familiar",
+          "value": {
+            "value": 1400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "school_of_eyes__crb_",
+    "name": {
+      "value": "School of eyes #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 10th; Weight \u00e2\u0080\u0094; Slot none; Price 5,000 gp DESCRIPTION This item is a flask of syrupy fluid with an eyeball floating in it. When a creature drinks the entire flask, 1d4 rounds later he is stunned for 1 round as 1d4+1 floating fish with large eyes for heads crawl out of his flesh. Once these eye-fish free themselves, they hover near the drinker, always staying in the drinker\u2019s square, and otherwise function as the eyes from a prying eyes spell, except they are Tiny rather than Fine. As long as the drinker has at least three of the fish in his square, he gains a +10 competence bonus on sight-based Perception checks. Every 1d6 x 10 minutes, 1d4+1 more eye-fish crawl out of his flesh, stunning him for 1 round each time. Each flask can produce up to 1d4+10 fish total; once this many have appeared, no more are created. The fish remain until they are destroyed or until 10 hours pass from the time the flask was used. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, prying eyes; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_school_of_eyes",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

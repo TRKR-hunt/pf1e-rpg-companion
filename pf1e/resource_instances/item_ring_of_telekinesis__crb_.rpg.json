@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_telekinesis__crb_",
+    "name": {
+      "value": "Ring of telekinesis"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot ring; Price 75,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring, knotted with metallic tendrils encasing a setting of red and amber gemstones, allows the caster to use the spell telekinesis on command, lifting and manipulating objects at a distance using only her mind. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells telekinesis; Cost 37,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_telekinesis",
+          "value": {
+            "value": 75000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

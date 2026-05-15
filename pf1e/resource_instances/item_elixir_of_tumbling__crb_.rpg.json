@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_tumbling__crb_",
+    "name": {
+      "value": "Elixir of tumbling #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot \u00e2\u0080\u0094; Price 250 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This draught of liquid grants the drinker the ability to tumble about, avoiding attacks and moving carefully across nearly any surface, granting a +10 competence bonus on Acrobatics checks for 1 hour. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, cat\u2019s grace; Cost 125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_tumbling",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

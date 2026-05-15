@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bottled_yeti_fur__crb_",
+    "name": {
+      "value": "Bottled yeti fur #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 3rd; Weight \u00e2\u0080\u0094; Slot none; Price 800 gp DESCRIPTION This small opaque flask releases a thick stream of coarse white fur when opened. This fur creeps up the user\u2019s arm and across her entire body until she is completely covered in a tangled pelt. While coated with this fur she gains cold resistance 5, a +2 natural armor bonus to AC, and a +4 competence bonus on Stealth checks in areas of ice and snow. This fur sheds from her body after 24 hours, or can be removed early by soaking it in alcohol. The flask is expended after one use. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, barkskin, resist energy; Cost 400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bottled_yeti_fur",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

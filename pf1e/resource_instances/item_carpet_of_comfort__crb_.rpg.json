@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "carpet_of_comfort__crb_",
+    "name": {
+      "value": "Carpet of Comfort"
+    },
+    "source": {
+      "value": "people_of_the_sands"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 90,000 gp; Slot none; CL 10th; Weight 15 lbs.; Aura moderate transmutation DESCRIPTION This specialized carpet of flying always measures 10 feet by 10 feet. When it\u2019s in flight, its passengers are shielded from wind and extreme temperatures as if inside a tiny hut (though without creating an opaque, immobile sphere). In addition, once per day while the carpet of comfort is on the ground, a command word transforms the carpet into an opulent silk tent that, other than its appearance, is equivalent to a secure shelter. CONSTRUCTION REQUIREMENTS Cost 45,000 gp; Feats Craft Wondrous Item; Spells overland flight, secure shelter, tiny hut"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_carpet_of_comfort",
+          "value": {
+            "value": 90000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_carpet_of_comfort",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

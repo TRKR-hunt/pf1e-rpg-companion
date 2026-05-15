@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "orb_of_the_waybringer__crb_",
+    "name": {
+      "value": "Orb of the Waybringer"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,900 gp; Slot neck; CL 3rd; Weight 1 lb.; Aura faint evocation DESCRIPTION Note This item is associated with a specific deity. This giant pearl is carved with entwined flying dragons and strung on a fine silver chain; the pearl changes size according to the size of the wearer so that its diameter is no greater than the wearer\u2019s thumb. Once per day, the wearer can breathe a cone of searing flame that functions as burning hands, except it deals electricity damage instead of fire. If the associated deity is the wearer\u2019s patron, once per day the wearer can use eagle\u2019s splendor. On command, the orb glows with a light spell or darkens again. CONSTRUCTION REQUIREMENTS Cost 1,950 gp; Feats Craft Wondrous Item, eagle\u2019s splendor, light, shocking grasp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_orb_of_the_waybringer",
+          "value": {
+            "value": 3900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_orb_of_the_waybringer",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shawl_seafoam__crb_",
+    "name": {
+      "value": "Seafoam shawl"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot shoulders; Price 6,000 gp; Weight 1 lb. DESCRIPTION This shawl of delicate lace can be activated once per day to grant the benefits of the fins to feet spell, transforming the wearer\u00e2\u0080\u0099s lower fins or appendages into feet whenever he is on dry land\u00e2\u0080\u0094unless dismissed, this effect lasts for 5 hours. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, fins to feet; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shawl_seafoam",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shawl_seafoam",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

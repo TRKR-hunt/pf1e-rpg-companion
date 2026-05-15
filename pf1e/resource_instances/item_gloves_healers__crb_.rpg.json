@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_healers__crb_",
+    "name": {
+      "value": "Gloves, Healer's (Healers)"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot hands; CL 5th Weight \u00e2\u0080\u0094; Aura faint divination APPEARANCE These gloves grant their wearer powerful skills in the arts of healing\u00e2\u0080\u0094and harming\u00e2\u0080\u0094living beings. EFFECTS The wearer of a pair of healer\u2019s gloves gains a +4 competence bonus on Heal checks to provide first aid, long-term care, and to treat deadly wounds for living, humanoid creatures. In addition, the wearer gains a +2 competence bonus on rolls to confirm critical hits with unarmed strikes or with natural weapons against living humanoid creatures. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells status, true strike; Special creator must have 5 ranks in Heal"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_healers",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

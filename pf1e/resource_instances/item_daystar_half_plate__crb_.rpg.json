@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "daystar_half_plate__crb_",
+    "name": {
+      "value": "Daystar half-plate"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 15th Weight 50 lbs.; Price 81,250 gp DESCRIPTION This glowing +1 half-plate is decorated with various images of the sun and depictions of nature. At will, the wearer can command the armor to shine with a daylight spell for 10 minutes. Once per day, the wearer can command it to shine as per the sunburst spell. The sunburst is centered on the wearer and the wearer is immune to its effects. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells daylight, sunburst; Cost 41,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_daystar_half_plate",
+          "value": {
+            "value": 81250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_daystar_half_plate",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

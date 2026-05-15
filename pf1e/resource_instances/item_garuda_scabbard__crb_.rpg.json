@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "garuda_scabbard__crb_",
+    "name": {
+      "value": "Garuda Scabbard"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot belt; CL 9th Weight 2 lbs.; Aura moderate evocation APPEARANCE This belt-and-scabbard set is decorated with golden depictions of garudas. The scabbard automatically reshapes itself to fit the weapon that the wielder is currently using. EFFECTS If the wielder is not using a weapon that would fit into a scabbard, as a free action the wielder can command the Garuda scabbard to take the shape of any weapon with which she has proficiency. Once per day as a standard action, the wielder can speak the scabbard\u00e2\u0080\u0099s command word to blast nearby creatures with gale-force winds. As part of activating the scabbard, the wielder can attempt a special trip combat maneuver check against all creatures within 10 feet using her normal CMB; this does not provoke attacks of opportunity. Creatures whose CMD is lower than the result are tripped. The wielder is not knocked down if the trip attempt fails by 10 or more. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells gust of wind"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_garuda_scabbard",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_garuda_scabbard",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

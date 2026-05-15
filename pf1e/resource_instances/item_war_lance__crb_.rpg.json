@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "war_lance__crb_",
+    "name": {
+      "value": "War Lance"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; Slot none; Price 10,310 gp; Weight 10 lbs.; CL 8th DESCRIPTION Shorter and thicker than most lances, this +3 lance has a full-sized shield worked into the vamplate, though it is too heavy to count as a shield for shield bash and similar maneuvers, and does not automatically grant the wielder a shield bonus to AC. However, a war lance grants the wielder and her steed a +2 shield bonus to AC when the wielder is mounted. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor; Spells shield; Cost 5,310 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_war_lance",
+          "value": {
+            "value": 10310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_war_lance",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

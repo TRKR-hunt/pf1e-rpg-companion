@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_stone_dark_green_rhomboid__crb_",
+    "name": {
+      "value": "Dark Green Rhomboid (Ioun Stone)"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION This ioun stone is forest green with flecks of yellow. At all times, it allows you to immediately notice any poison within 5 feet of you. This effect is otherwise identical to the detect poison spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells detect poison; Creator Level 12th; Gold 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_stone_dark_green_rhomboid",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

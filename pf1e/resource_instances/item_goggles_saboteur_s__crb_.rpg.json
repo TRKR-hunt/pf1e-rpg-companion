@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goggles_saboteur_s__crb_",
+    "name": {
+      "value": "Goggles, Saboteur's"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot eyes; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate enchantment DESCRIPTION These goggles are fitted with crimson lenses surrounded by thick, round brass frames and secured with a leather strap. Three times per day, the wearer can use murderous command as a gaze attack ( Will DC 16 negates). CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item, Heighten Spell; Spells murderous command"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goggles_saboteur_s",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

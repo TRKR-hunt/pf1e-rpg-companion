@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "copycat_siphon__crb_",
+    "name": {
+      "value": "Copycat Siphon"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,800 gp; Slot none; CL 5th; Weight 1 lb.; Aura faint illusion DESCRIPTION A copycat siphon is a simple-looking metal tube that can be connected to two flasks, bottles, beakers, or vials of standard size. Three times per day while two containers are connected to a copycat siphon, the user can speak the item\u2019s command word while pouring a liquid (including magical liquids like potions or elixirs) into one of the containers. In doing so, the other container attached to the siphon also fills up with an exact replica of the poured liquid, appearing to all normal senses (including touch, smell, taste, and sight) as if it were an exact copy of the original liquid. However, when imbibed, the copy acts only as fresh water, and has none of the other effects of the original liquid. The created liquid registers to detect spells as if it were the original liquid (as the magic aura spell, Will DC 14). CONSTRUCTION REQUIREMENTS Cost 900 gp; Feats Craft Wondrous Item; Spells create water, magic aura, major image"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_copycat_siphon",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_copycat_siphon",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

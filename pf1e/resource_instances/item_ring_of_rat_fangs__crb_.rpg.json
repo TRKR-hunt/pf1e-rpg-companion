@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_rat_fangs__crb_",
+    "name": {
+      "value": "Ring of rat fangs"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot ring; Price 5,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This bone ring is the shape of an elongated rat biting its own tail. The wearer gains a bite attack as a primary natural attack. This attack deals 1d4 points of piercing damage for a Medium wearer or 1d3 points of damage for a Small wearer. After about a week of wearing the ring, the wearer\u00e2\u0080\u0099s appearance becomes more ratlike, though she still looks like a member of her original race (for example, a human might gain prominent teeth). CONSTRUCTION REQUIREMENTS Feats Forge Ring, magic fang, polymorph; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_rat_fangs",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

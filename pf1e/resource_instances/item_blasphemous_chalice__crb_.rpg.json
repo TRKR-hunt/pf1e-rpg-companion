@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blasphemous_chalice__crb_",
+    "name": {
+      "value": "Blasphemous Chalice"
+    },
+    "source": {
+      "value": "the_dead_roads"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot none; CL 7th; Weight 3 lbs.; Aura moderate conjuration DESCRIPTION Contrary to the name, a blasphemous chalice takes the form of an enchanted box, usually sumptuously decorated, with a lump of unidentifiable tissue inside. This tissue seems to somehow be alive and bleeds a watery, greenish-black blood. To benefit from the chalice\u00e2\u0080\u0099s power, a character must bite the tissue and drink the blood as a full-round action. The alien blood twists and rearranges the character\u00e2\u0080\u0099s organs. For the next hour, when the affected creature is hit by a critical hit or a sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. A blasphemous chalice produces enough blood for a single use per day. CONSTRUCTION REQUIREMENTS Cost 6,000 gp; Feats Craft Wondrous Item; Spells shield of fortification"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blasphemous_chalice",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_blasphemous_chalice",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "nimble_whip__crb_",
+    "name": {
+      "value": "Nimble Whip"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,005 gp; Slot none; CL 3rd; Weight 2 lbs.; Aura faint transmutation DESCRIPTION On a successful critical hit with this +1 scorpion whip, the wielder can attempt a steal combat maneuver against the target as a swift action as if she had the Improved Steal feat. CONSTRUCTION REQUIREMENTS Cost 2,655 gp; Feats Craft Magic Arms and Armor; Spells mage hand"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_nimble_whip",
+          "value": {
+            "value": 5005
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_nimble_whip",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

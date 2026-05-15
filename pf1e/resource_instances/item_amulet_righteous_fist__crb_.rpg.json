@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_righteous_fist__crb_",
+    "name": {
+      "value": "Righteous fist amulet"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 4th; Slot neck; Price 4,000 gp; Weight 1/2 lb. DESCRIPTION This golden amulet is used by religious sects as a way to help the faithful capture fugitives or defend themselves without doing undue harm to potential converts. While the wearer is using her divine powers of retribution (such as a cleric\u00e2\u0080\u0099s smite, an inquisitor\u00e2\u0080\u0099s smiting judgment, or a paladin\u00e2\u0080\u0099s smite ), the amulet grants her the ability to make unarmed strikes in melee combat as if she had the Improved Unarmed Strike feat. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Improved Unarmed Strike; Spells stone fist; Cost 2,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_righteous_fist",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

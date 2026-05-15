@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "earth_breaker_of_righted_injustice__crb_",
+    "name": {
+      "value": "Earth Breaker of Righted Injustice"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 61,340 gp; Slot none; CL 10th; Weight 14 lbs.; Aura moderate evocation DESCRIPTION The tribal symbols covering the surface of this +2 anarchic flaming earth breaker radiate a tangible heat. If the wielder possesses the rage class feature, he can choose to add either the devil bane special ability or the orc bane special ability to the weapon at the beginning of his rage. This added weapon special ability lasts only for the duration of the wielder\u2019s rage, and once the special ability has been selected, it cannot be switched until the next time the wielder enters a rage. CONSTRUCTION REQUIREMENTS Cost 30,840 gp; Feats Craft Magic Arms and Armor; Spells chaos hammer; fireball, flame blade, or flame strike; creator must be chaotic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_earth_breaker_of_righted_injustice",
+          "value": {
+            "value": 61340
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_earth_breaker_of_righted_injustice",
+          "value": {
+            "value": 14
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_the_planes__crb_",
+    "name": {
+      "value": "Amulet of the planes #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 15th; Slot neck; Price 120,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This device usually appears to be a black circular amulet, although any character looking closely at it sees a dark, moving swirl of color. The amulet allows its wearer to utilize the spell plane shift. However, this is a difficult item to master. The user must make a DC 15 Intelligence check in order to get the amulet to take her to the plane (and the specific location on that plane) that she wants. If she fails, the amulet transports her and all those traveling with her to a random location on that plane (01\u00e2\u0080\u009360 on d%) or to a random plane (61\u00e2\u0080\u0093100). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells plane shift; Cost 60,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_the_planes",
+          "value": {
+            "value": 120000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

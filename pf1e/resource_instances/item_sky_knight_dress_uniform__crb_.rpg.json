@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sky_knight_dress_uniform__crb_",
+    "name": {
+      "value": "Sky Knight Dress Uniform"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,800 gp; Slot armor; CL 6th; Weight 20 lbs.; Aura moderate enchantment DESCRIPTION If the wearer of this set of fine +2 parade armor is ever grappled or restrained, he can attempt an Escape Artist check to get free as an immediate action. The wearer gains a +2 competence bonus on this check. Once per day as a standard action, the wearer can call forth shimmering plates of golden light to reinforce the armor. This effect increases the armor\u2019s enhancement bonus to AC from +2 to +5 for the next 10 minutes. CONSTRUCTION REQUIREMENTS Cost 5,488 gp; Feats Craft Magic Arms and Armor; Spells liberating command, mage armor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sky_knight_dress_uniform",
+          "value": {
+            "value": 10800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sky_knight_dress_uniform",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

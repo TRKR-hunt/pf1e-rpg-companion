@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wizard_s_mail__crb_",
+    "name": {
+      "value": "Wizard's Mail"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 52,100 gp; Slot armor; CL 15th; Weight 5 lbs.; Aura strong conjuration DESCRIPTION This chain armor is so fine it offers protection only because it\u2019s enchanted and made of mithral. It acts as a suit of +4 greater slick leather armor. It has a maximum Dexterity bonus to AC of +8 and imposes no chance of arcane spell failure. CONSTRUCTION REQUIREMENTS Cost 27,600 gp; Feats Armor Proficiency (light), Craft Magic Arms and Armor; Spells grease, iron body"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wizard_s_mail",
+          "value": {
+            "value": 52100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wizard_s_mail",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

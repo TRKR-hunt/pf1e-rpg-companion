@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_hollow__crb_",
+    "name": {
+      "value": "Mask, Hollow"
+    },
+    "source": {
+      "value": "city_in_the_deep"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot head; CL 5th; Weight 2 lbs.; Aura faint conjuration DESCRIPTION This porous wooden mask fits against the wearer\u00e2\u0080\u0099s face much more tightly than its bulky, abstract design suggests. EFFECTS The mask is capable of storing air; the wearer can breathe normally underwater for 5 minutes before he has to hold his breath. While underwater, so long as there is still air left in the mask, it converts speech into vibrations in the water and vice versa, allowing the wearer to speak normally and hear the speech of other creatures wearing hollow masks within 60 feet as though they were not underwater. After a wearer has used the mask underwater, the mask needs an equal amount of time (maximum 5 minutes) to replenish its air supply. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells air bubble, message"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_hollow",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_hollow",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloodlink__crb_",
+    "name": {
+      "value": "Bloodlink"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,800 gp; Weight \u00e2\u0080\u0094; Slot neck; CL 3rd; Aura faint evocation and illusion DESCRIPTION This amulet allows the wearer to use the same spells many drow can cast innately. The wearer can use each of the following spells once per day as a spell-like ability: dancing lights, darkness, and faerie fire. In addition, while wearing this item, the wearer is granted the ability to speak and understand Undercommon and gains proficiency with the hand crossbow, the rapier, and the short sword. While the target is wearing the amulet, she radiates the aura of a chaotic evil creature for the purposes of spells such as detect chaos and detect evil. A bloodlink can serve as the focus for a recorporeal incarnation spell. CONSTRUCTION REQUIREMENTS Cost 6,075 gp; Feats Craft Wondrous Item; Spells bestow weapon proficiency, comprehend languages, dancing lights, darkness, faerie fire, misdirection"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloodlink",
+          "value": {
+            "value": 4800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

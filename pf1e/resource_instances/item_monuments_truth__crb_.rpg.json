@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "monuments_truth__crb_",
+    "name": {
+      "value": "Monument\u00e2\u0080\u0099s Truth"
+    },
+    "source": {
+      "value": "the_dead_roads"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,600 gp; Slot none; CL 12th; Weight 1/2 lb.; Aura strong divination and necromancy DESCRIPTION After standing above the remains of a creature for many years, a headstone or grave marker often develops a psychic resonance for the spirit of the creature as it was in life. When this aromatic salve is applied to the surface of a gravestone or similar monument, the user can ask six questions of the monument and receive answers as if she had successfully cast speak with dead on the creature that was buried beneath. The user of the monument\u2019s truth need not have shared a language with the creature interred beneath the stone for the item to function, but the monument can speak only about what the creature knew in life. It cannot answer any questions that pertain to events that occurred after the creature\u2019s death. A creature with an Intelligence score of at least 3 while it was alive must have been buried beneath the monument for at least 1 year for monument\u2019s truth to function. If more than one such creature is buried beneath the monument, the effect fails, the psychic impressions having become too tangled to transmit comprehensible information. CONSTRUCTION REQUIREMENTS Cost 1,800 gp; Feats Craft Wondrous Item, speak with dead, stone tell"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_monuments_truth",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

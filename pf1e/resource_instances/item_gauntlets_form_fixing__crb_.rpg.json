@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_form_fixing__crb_",
+    "name": {
+      "value": "Form-fixing gauntlets"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 15th; Slot hands; Price 8,000 gp; Weight 1/2 lb. DESCRIPTION These leather gauntlets grant the wearer a +2 morale bonus on unarmed strike, natural attacks, and combat maneuver checks versus creatures with the change shape special ability or similar abilities that allow it to change shape at will. While the wearer has such a creature grappled or pinned, it cannot use any shape-changing spells or abilities unless it succeeds at a concentration check; the DC of this check is 4 + the DC of casting the spell while grappled. If the wearer has such a creature pinned, a successful grapple check allows him to force the target into a specific shape it can take naturally (without the use of a spell). This involuntary transformation only forces the creature into a shape it is normally capable of and does not cost the creature an action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, polymorph any object; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_form_fixing",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

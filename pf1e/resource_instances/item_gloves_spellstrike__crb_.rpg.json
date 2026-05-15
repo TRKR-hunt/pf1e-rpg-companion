@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_spellstrike__crb_",
+    "name": {
+      "value": "Spellstrike gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong (no school); CL 17th; Slot hands; Price 8,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These black leather gloves are lined with soft black velveteen and have silver buckles that run from the wrist to the elbow. Three times per day, the gloves allow the wearer to treat a ranged magus spell as a spell with a range of \u201c touch,\u201d allowing him to deliver the spell with his spellstrike ability. The glove can only affect spells that normally affect one or more creatures at a range greater than \u201ctouch\u201d (such as slow ), not rays or other created effects. The altered spell only affects the creature attacked (any other targets normally allowed by the spell are lost). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be a magus; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_spellstrike",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

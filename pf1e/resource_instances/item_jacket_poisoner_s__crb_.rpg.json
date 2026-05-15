@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "jacket_poisoner_s__crb_",
+    "name": {
+      "value": "Poisoner\u2019s jacket, lesser"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Poisoner\u00e2\u0080\u0099s Jacket, Lesser Aura faint conjuration and necromancy; CL 5th; Slot chest; Price 12,000 gp; Weight 3 lbs. DESCRIPTION Three times per day, the wearer of this dark jacket can create a vial containing one dose of any poison from the Core Rulebook that costs 300 gp or less. The jacket\u00e2\u0080\u0099s poison always looks like a murky amber fluid. This poison becomes inert after 1 hour. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, minor creation, poison; Cost 6,000 gp. Poisoner\u00e2\u0080\u0099s Jacket, Greater Aura strong conjuration and necromancy; CL 15th; Slot chest; Price 58,000 gp; Weight 4 lbs. DESCRIPTION This jacket has the abilities of a lesser poisoner\u00e2\u0080\u0099s jacket, and once per day the wearer can create a vial that reproduces the effect of any poison in the Core Rulebook that costs 4,000 gp or less. The jacket\u00e2\u0080\u0099s poison always looks like a murky lime fluid. This poison becomes inert after 1 hour. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, major creation, poison; Cost 29,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_jacket_poisoner_s",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_jacket_poisoner_s",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

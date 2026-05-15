@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracers_bonebreaker__crb_",
+    "name": {
+      "value": "Bracers, Bonebreaker"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 5th; Slot hands; Price 6,000 gp; Weight 2 lbs. DESCRIPTION These thick brass and leather bracers allow the wearer to tear through bone and muscle like paper. Once per day, as part of a melee attack, the wearer can activate the bracers to inflict a horrific injury on an opponent. If the attack hits, the target must make a DC 14 Will save. If the save fails, the bracers reduce the target\u2019s Strength, Dexterity, or Constitution (wearer\u00e2\u0080\u0099s choice) by \u00e2\u0080\u00936. This penalty cannot reduce the target\u2019s ability score below 1. The injury heals over time, reducing the penalty by 1 for each day that passes since the time of the injury, and is immediately removed by heal, regenerate, restoration, or any magic that can break a curse. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bestow curse; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracers_bonebreaker",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracers_bonebreaker",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

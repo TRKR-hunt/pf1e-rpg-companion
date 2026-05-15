@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "corpse_puppet__crb_",
+    "name": {
+      "value": "Corpse Puppet"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 250 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint necromancy DESCRIPTION This crudely carved wax doll is roughly humanoid in shape. If the bearer of a corpse puppet dies while in an alternate form (such as that of a shapechanger using her change shape ability, a caster using a polymorph spell, or one obtained through some other effect), the creature automatically retains the shape it had upon dying instead of reverting to its natural form. Creatures with reason to suspect deception can attempt a DC 12 Will save; if successful, they realize the unnatural state of the corpse. A corpse puppet melts into nothingness when activated. CONSTRUCTION REQUIREMENTS Cost 125 gp; Feats Craft Wondrous Item; Spells sculpt corpse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_corpse_puppet",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

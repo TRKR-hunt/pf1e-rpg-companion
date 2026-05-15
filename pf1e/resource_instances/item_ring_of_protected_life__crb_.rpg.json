@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_protected_life__crb_",
+    "name": {
+      "value": "Ring of Protected Life"
+    },
+    "source": {
+      "value": "undead_slayer_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot ring; CL 7th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION This silver ring features arboreal motifs, and is set with a small but brilliant sapphire. If the wearer has the channel energy class feature, the radius of his channeled energy increases by 5 feet. Additionally, when the wearer channels energy, he may choose to exempt one creature from the effects of his channeling. If the wearer has the Selective Channeling feat, the ring of protected life increases the number of creatures he may normally exempt by one. Finally, once per day the wearer may channel energy as a swift action that does not provoke attacks of opportunity; doing so renders the ring of protected life inert for 24 hours, during which time it does not confer any benefits. CONSTRUCTION REQUIREMENTS Feats Forge Ring, Selective Channeling; Special creator must have the channel energy class feature; Cost 4,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_protected_life",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ring_of_protected_life",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

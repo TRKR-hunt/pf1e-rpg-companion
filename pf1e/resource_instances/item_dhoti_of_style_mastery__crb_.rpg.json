@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dhoti_of_style_mastery__crb_",
+    "name": {
+      "value": "Dhoti of Style Mastery"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,400 gp; Slot body; CL 3rd; Weight 1 lb.; Aura faint necromancy DESCRIPTION When the wearer enters a stance from a style feat while wearing a dhoti of style mastery, he gains 1d8+3 temporary hit points plus an additional 1d8 temporary hit points for each feat he has that lists that style feat as a prerequisite (maximum 3d8+3 temporary hit points ). These temporary hit points last as long as the wearer maintains the stance during that combat, but vanish when the combat concludes. The wearer cannot gain temporary hit points in this way more than once per day. CONSTRUCTION REQUIREMENTS Cost 2,700 gp; Feats Craft Wondrous Item, any style feat; Spells false life"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dhoti_of_style_mastery",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dhoti_of_style_mastery",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

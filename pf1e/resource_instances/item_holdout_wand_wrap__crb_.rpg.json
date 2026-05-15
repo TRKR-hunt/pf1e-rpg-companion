@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "holdout_wand_wrap__crb_",
+    "name": {
+      "value": "Holdout Wand Wrap"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Weight \u00e2\u0080\u0094; Slot none; CL 10th; Aura moderate illusion DESCRIPTION Each end of this unassuming, 8-inch leather cord is adorned by a polished silver bead. A wand around which a holdout wand wrap has been wound and tied (a standard action ) can be commanded to change its shape and appearance to assume the form of another object of a similar size and shape (such as a feather, a folded fan, or a spoon). The wand retains all its properties (including its weight) when so disguised but does not radiate magic. Only true seeing or similar magic reveals the true nature of a wand disguised by a holdout wand wrap. Whenever the disguised wand is activated, the holdout wand wrap\u00e2\u0080\u0099s effects are suppressed for 1 minute. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells disguise self, magic aura"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_holdout_wand_wrap",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

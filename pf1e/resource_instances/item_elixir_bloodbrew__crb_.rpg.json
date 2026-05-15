@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_bloodbrew__crb_",
+    "name": {
+      "value": "Elixir, Bloodbrew"
+    },
+    "source": {
+      "value": "ashes_at_dawn"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Slot none; Price 1,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ruby red wine carries an aroma of fresh-spilled blood with a persistent finish tasting of iron and scarberries. Anyone who drinks the concoction gains 1d10+3 temporary hit points for 1 hour. In addition, an enslaved vampire or vampire spawn who drinks the elixir is freed from its creator\u00e2\u0080\u0099s control for 1 hour, becoming a free-willed undead creature for that time. At the end of the hour, the vampire is once again enslaved under its creator\u00e2\u0080\u0099s control. Bloodbrew elixir is highly addictive to vampires, and any vampire who drinks it must make a DC 20 Fortitude save or become addicted to the bloodbrew. Thereafter, the vampire must drink a new dose of bloodbrew every day, or take a \u00e2\u0080\u00932 penalty to Dex, Con, Str, and Wis and lose her fast healing ability, until a new dose is taken. The addiction can only be cured with greater restoration, or the vampire must make three consecutive saves, one per day, against the elixir\u00e2\u0080\u0099s DC, after a day of not taking the drug. Should the vampire take a new dose of the elixir before the addiction is cured, any past successful saves are negated. A living creature who drinks the elixir gains the temporary hit points, but takes a \u00e2\u0080\u00932 penalty on saves against energy drain and negative energy effects, including channeled negative energy, for 1 hour. Bloodbrew elixir is not addictive to living creatures. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Craft (alchemy) DC 25, false life, protection from evil; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_bloodbrew",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_stone_eastern_star__crb_",
+    "name": {
+      "value": "Eastern Star (Ioun Stone) #2"
+    },
+    "source": {
+      "value": "the_emerald_spire_superdungeon"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 1st; Slot none; Price 6,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This red crystal is perfectly cut in the shape of a five-pointed star. Its user understands spoken languages, and reads as if under the effects of comprehend languages. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells comprehend languages; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_stone_eastern_star",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

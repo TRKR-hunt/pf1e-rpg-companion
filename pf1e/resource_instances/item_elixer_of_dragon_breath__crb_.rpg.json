@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixer_of_dragon_breath__crb_",
+    "name": {
+      "value": "Elixir of dragon breath (Elixer)"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Weight \u00e2\u0080\u0094; Slot none; Price 1,400 gp DESCRIPTION This gurgling, luminescent elixir comes in several different varieties, each keyed to a particular type of metallic or chromatic dragon. A creature that drinks the elixir can, as a standard action, breathe out a single blast of energy similar to a dragon\u2019s breath weapon, dealing 7d6 points of energy damage. Creatures in the area may attempt a DC 16 Reflex save for half damage. The magic of the elixir ends after one use of the breath weapon or after 1 hour has passed, whichever comes first. The type of energy produced and the shape of the blast are determined by the elixir\u2019s associated dragon type: Type of Dragon Effect Black or copper dragon 30-foot line of acid Blue or bronze dragon 30-foot line of electricity Brass dragon 30-foot line of fire Green dragon 15-foot cone of acid Gold or red dragon 15-foot cone of fire Silver or white dragon 15-foot cone of cold CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dragon\u2019s breath; Cost 700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixer_of_dragon_breath",
+          "value": {
+            "value": 1400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_the_eternal_rose__crb_",
+    "name": {
+      "value": "Boots of the Eternal Rose"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot feet; CL 3rd; Weight 1 lb.; Aura faint transmutation DESCRIPTION Note This item is associated with a specific deity. These leather boots are found in a variety of styles but always have a prominent engraving of a rose. The wearer gains a +2 competence bonus on Perform (dance) and Stealth checks. The wearer may move through areas of flowers (whether wild-growing or a garden) at normal speed and without suffering any impairment or taking damage from thorns, brambles, or similar hazards; areas of flowers that have been magically manipulated to impede motion still affect the wearer. If the associated deity is the wearer\u2019s patron, the wearer may use daze monster once per day; if the wearer is dancing, singing, or using some other Perform skill as part of a performance lasting at least 1 minute, he may activate daze monster as a free action during his performance. As a free action once per round, the wearer may conjure a beautiful, non-magical, common flower (such as a daisy, pansy, rose, sunflower, or the like) that lasts for 1 day before crumbling into perfume and dust. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item, daze monster, pass without trace; Special creator must have 5 ranks in Perform (dance) and Stealth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_the_eternal_rose",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_the_eternal_rose",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

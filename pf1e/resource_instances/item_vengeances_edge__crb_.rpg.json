@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vengeances_edge__crb_",
+    "name": {
+      "value": "Vengeance's Edge"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 21,820 gp; Slot none; CL 10th; Weight 3 lbs.; Aura moderate evocation and transmutation DESCRIPTION Crafted to defend against enemies seeking to damage it rather than its wielder, this is a +2 countering impervious dueling sword. If the weapon is ever destroyed, it explodes with tremendous force, dealing 10d6 points of fire damage to every creature within a 20-foot-radius spread ( Reflex DC 14 half). CONSTRUCTION REQUIREMENTS Cost 11,070 gp; Feats Combat Reflexes, Craft Magic Arms and Armor; Spells cat\u2019s grace, fabricate, fireball, make whole"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vengeances_edge",
+          "value": {
+            "value": 21820
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vengeances_edge",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

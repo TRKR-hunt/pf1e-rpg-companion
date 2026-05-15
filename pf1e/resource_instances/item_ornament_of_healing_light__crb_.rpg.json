@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ornament_of_healing_light__crb_",
+    "name": {
+      "value": "Ornament of healing light #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Weight 1 lb.; Slot none; Price 10,000 gp DESCRIPTION This palm-sized holy symbol is composed of tiny pieces of stained glass held in a gold frame. The exact symbol is determined upon the item\u2019s creation. As a free action, the creature holding the ornament can project the image of the holy symbol upon any creature or surface within 15 feet, similar to using a shadow puppet and lamp. This light is not bright enough to illuminate an area. If the bearer is a paladin, she may use her lay on hands \u00c2\u00a0ability on a creature touched by the symbol\u2019s light (effectively increasing her lay on hands range from touch to 15 feet). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, sacred bond; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ornament_of_healing_light",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ornament_of_healing_light",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

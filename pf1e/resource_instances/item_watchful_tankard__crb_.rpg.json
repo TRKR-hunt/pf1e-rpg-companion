@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "watchful_tankard__crb_",
+    "name": {
+      "value": "Watchful Tankard"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot none; CL 5th; Weight 10 lbs.; Aura faint divination DESCRIPTION Images of a dwarf and human drinking together decorate the sides of this 1-foot-tall granite stein, which is capped off with a rough-hewn orb of the same material. When the user speaks the command word and places a watchful tankard on a solid surface, such as a cavern ceiling or wooden table, the stein adheres to the surface (with the equivalent of an 18 Strength score). The last creature to drink from the stein can attempt Perception checks from the stein\u2019s location, as well as from its own, as long as it is within 60 feet of the watchful tankard. Any permanent vision-based bonuses (such as darkvision, low-light vision, or permanent arcane sight ) are also usable through the watchful tankard but are limited to a range of 30 feet. It is possible to attempt Perception checks from the stein\u2019s point of view only while it is adhered to a solid surface in this way. Grabbing the handle and repeating the command word frees the watchful tankard from this location. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Alertness, Craft Wondrous Item; Spells alarm"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_watchful_tankard",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_watchful_tankard",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trailblazer_s_spade__crb_",
+    "name": {
+      "value": "Trailblazer's Spade"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,400 gp; Slot none; CL 3rd; Weight 3 lbs.; Aura faint transmutation DESCRIPTION This two-ended tool can be used as +1/+1 monk\u2019s spade. Five times per day as a standard action, the wielder can sweep an adjacent 10-foot square. This action clears the affected area of objects and terrain that hinder movement, such as caltrops, rubble, and undergrowth. The trailblazer\u2019s spade has no effect on features more than 4 feet high or deep. It has no effect on terrain that has been magically manipulated to impede movement. CONSTRUCTION REQUIREMENTS Cost 5,860 gp; Feats Craft Magic Arms and Armor; Spells soften earth and stone"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trailblazer_s_spade",
+          "value": {
+            "value": 11400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trailblazer_s_spade",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "barding_featherleaf__crb_",
+    "name": {
+      "value": "Barding, Featherleaf"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,310 gp; Slot armor; CL 9th; Weight 1 lb.; Aura faint transmutation DESCRIPTION This enchanted sleeve is made of tiny, feather-shaped leaves and is designed to fit birds. Once fitted over the body of a Tiny or smaller avian creature, featherleaf barding automatically shrinks to snugly fit the creature\u2019s torso and neck, serving as +1 leather armor (granting a total bonus to AC of +2). The maximum fly speed of a creature wearing featherleaf barding is 60 feet with average maneuverability. In forests, jungles, and thickly wooded areas, the wearer can fly through branches, brush, and even whole tree trunks as if they weren\u2019t there, though its fly speed and maneuverability remain the same. CONSTRUCTION REQUIREMENTS Cost 3,660 gp; Feats Craft Magic Arms and Armor; Spells fly, tree stride"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_barding_featherleaf",
+          "value": {
+            "value": 7310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_barding_featherleaf",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

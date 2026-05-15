@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_of_auras__crb_",
+    "name": {
+      "value": "Lantern of Auras"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot none; CL 1st; Weight 2 lbs.; Aura faint divination DESCRIPTION A lantern of auras is a bullseye lantern made of cold iron with a series of lenses and colored glass filters that can be flipped down in front of its main aperture. The lantern functions as a bullseye lantern but needs no oil to shed its light. If its command word is spoken, it begins to reveal magic auras as the detect magic spell. It will reveal all auras detect magic reveals over the normal duration of 3 rounds, as long as its light is held on the same area for this duration. Anyone who takes a full-round action to observe the revealed auras during each of these rounds can attempt a Knowledge (arcana) skill check to determine the school of any magic aura revealed, or a Spellcraft check to identify the properties of a magic item within the area. Roughly 45% of these lanterns have the command word etched on the bottom of the lantern. Casting identify on a lantern of auras reveals the command word. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells detect magic, light"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lantern_of_auras",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_of_auras",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "raiment_of_chains__crb_",
+    "name": {
+      "value": "Raiment of Chains"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,250 gp; Slot armor; CL 5th; Weight 25 lbs.; Aura faint transmutation DESCRIPTION While unattended, this +1 chain shirt takes the shape of a heap of rusty chains, but when a creature picks up the armor, the shirt immediately starts to assume its true form. The chains eagerly wrap or willingly loosen around the wearer\u00e2\u0080\u0099s body, allowing the wearer to don or remove the armor as a move action. A raiment of chains can\u00e2\u0080\u0099t be \u00e2\u0080\u009cdonned hastily.\u00e2\u0080\u009d Three times per day as a standard action, the wearer can command chains to shoot out from the raiment of chains and attempt a reposition or trip combat maneuver check against a single target within 20 feet. The wearer is considered proficient with the chains and uses her own CMB with a +1 enhancement bonus on the check. The combat maneuver provokes attacks of opportunity as normal. The chains immediately retract back into the armor once the combat maneuver check has been attempted. CONSTRUCTION REQUIREMENTS Cost 3,250 gp; Feats Craft Magic Arms and Armor; Spells animate objects, chain of perdition"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_raiment_of_chains",
+          "value": {
+            "value": 6250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_raiment_of_chains",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

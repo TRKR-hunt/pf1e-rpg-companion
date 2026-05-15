@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lawful_staff__crb_",
+    "name": {
+      "value": "Lawful staff"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Slot none; Price 29,600 gp; Weight 5 lbs. DESCRIPTION This staff is crafted from a perfectly smooth triangular rod of silver, and its top is crowned with a golden sphere. The staff allows use of the following spells: Align weapon (lawful only, 1 charge) Detect chaos (1 charge) Magic circle against chaos (2 charges) Order\u00e2\u0080\u0099s wrath (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells align weapon, detect chaos, magic circle against chaos, order\u00e2\u0080\u0099s wrath; Cost 14,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lawful_staff",
+          "value": {
+            "value": 29600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lawful_staff",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

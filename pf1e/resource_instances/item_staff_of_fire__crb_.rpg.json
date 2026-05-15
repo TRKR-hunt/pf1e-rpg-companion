@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_fire__crb_",
+    "name": {
+      "value": "Staff of fire"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Slot none; Price 18,950 gp; Weight 5 lbs. DESCRIPTION Crafted from bronzewood with brass bindings, this staff allows use of the following spells: Burning hands (1 charge) Fireball (2 charges) Wall of fire (3 charges) CONSTRUCTION REQUIREMENTS Craft Staff; Spells burning hands, fireball, wall of fire; Cost 9,475 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_fire",
+          "value": {
+            "value": 18950
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_fire",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

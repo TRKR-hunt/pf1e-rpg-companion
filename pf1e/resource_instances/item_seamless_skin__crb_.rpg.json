@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "seamless_skin__crb_",
+    "name": {
+      "value": "Seamless Skin"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 70,000 gp; Weight 8 lbs.; Slot body; CL 14th; Aura strong necromancy DESCRIPTION This skin has been removed from a specific humanoid creature and magically preserved. Any creature no more than one size category different from the skinned creature can don the skin with 1 minute of effort, whereupon the wearer gains the physical appearance and size the skinned creature had while alive, and its abilities as defined in the spell alter self, but not its immunities, weapon proficiencies, weaknesses, or spell resistance. Otherwise, this effect functions like recorporeal incarnation. CONSTRUCTION REQUIREMENTS Cost 35,000 gp; Feats Craft Wondrous Item; Spells recorporeal incarnation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_seamless_skin",
+          "value": {
+            "value": 70000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_seamless_skin",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

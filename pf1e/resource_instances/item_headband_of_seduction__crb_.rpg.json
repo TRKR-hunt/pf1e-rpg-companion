@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_seduction__crb_",
+    "name": {
+      "value": "Headband of seduction #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment and transmutation; CL 5th; Slot headband; Price 40,000 gp; Weight 1 lb. DESCRIPTION This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma -based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell unnatural lust but with a duration of 10 minutes. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, unnatural lust; Cost 20,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_seduction",
+          "value": {
+            "value": 40000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_seduction",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

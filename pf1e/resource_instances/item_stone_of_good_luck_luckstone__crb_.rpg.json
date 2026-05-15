@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_of_good_luck_luckstone__crb_",
+    "name": {
+      "value": "Stone of good luck"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot \u00e2\u0080\u0094; Price 20,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This small bit of agate grants its possessor a +1 luck bonus on saving throws, ability checks, and skill checks. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, divine favor; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_of_good_luck_luckstone",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

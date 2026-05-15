@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_the_wolf__crb_",
+    "name": {
+      "value": "Headband of the Wolf"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot headband; CL 5th; Weight 1/2 lb.; Aura faint transmutation DESCRIPTION This silver band is cast to resemble a pack of hunting wolves. On command, the wearer can gain the scent ability with a range of 10 feet (20 feet upwind, 5 feet downwind) as the wolf aspect of the hunter\u2019s animal focus class feature. If the wearer is a hunter with that aspect, this headband instead increases the wearer\u2019s effective hunter level for the wolf aspect by 8 levels. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells bloodhound; Special creator must have the animal focus class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_the_wolf",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

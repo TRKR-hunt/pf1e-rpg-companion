@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "warlords_scabbard__crb_",
+    "name": {
+      "value": "Warlord's Scabbard"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 6th; Slot none; Price 30,000 gp; Weight 1 lb. DESCRIPTION A single shattered soul gem is located on the tip of this leather-and-ceramic sheath. This scabbard fits only a greatsword, the favored blade the Horseman of War. Any magical greatsword sheathed in the scabbard for 24 hours gains the keen weapon special ability (this doesn\u2019t stack with other methods that increase a weapon\u00e2\u0080\u0099s critical threat range). If another blade gains the benefit of the scabbard, the previous blade loses the keen weapon special ability. In addition, if the greatsword has been sheathed in the scabbard for 1 minute, the wielder can invoke Szuriel\u2019s name as part of the action to draw the sword, affecting the wielder with the rage spell for 1 minute or until she slays a creature, whichever comes first. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells keen edge, rage; Cost 15,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_warlords_scabbard",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_warlords_scabbard",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cube_of_force_independent__crb_",
+    "name": {
+      "value": "Cube of Force, Independent"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 70,000 gp; Weight 1/2 lb. DESCRIPTION The independent cube of force functions exactly like a cube of force except that it remains activated when dropped or set down. Anyone can pick up and deactivate the item or change the active type of wall; otherwise it shuts off when it runs out of charges. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, wall of force; Cost 35,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cube_of_force_independent",
+          "value": {
+            "value": 70000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

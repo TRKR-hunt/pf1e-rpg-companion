@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "prismatic_plate__crb_",
+    "name": {
+      "value": "Prismatic plate"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 13th Weight 50 lbs.; Price 160,650 gp DESCRIPTION This resplendent suit of +3 full plate shimmers and shifts between all the colors of the rainbow. A single color dominates the others at any given time. As a swift action, the wearer can change the dominant color. This color remains dominant until the wearer changes it again. When the wearer of prismatic plate is struck by a prismatic spray, or when he passes through a prismatic sphere or prismatic wall, he ignores the effect that matches the dominant armor color. He receives no special protection against the other colors of those spells. In addition to this benefit, each color provides a unique type of protection. Color Effect Red Resist fire 30 Orange Resist acid 30 Yellow Immunity to poison Green Resist electricity 30 Blue Immunity to petrification Indigo Protected by dimensional anchor, as the spell Violet +8 resistance bonus on saving throws against mind-affecting effects CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells dimensional anchor, mind blank, neutralize poison, resist energy, stone to flesh, and prismatic sphere, prismatic spray, or prismatic wall; Cost 81,150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_prismatic_plate",
+          "value": {
+            "value": 160650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_prismatic_plate",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "closing_offer__crb_",
+    "name": {
+      "value": "Closing Offer"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,310 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate enchantment DESCRIPTION A closing offer is a rusty +2 shortsword with a thin, unblemished section along the center of the blade. Inscribing the surname of a humanoid on that section attunes the sword to its family, causing it to act as a bane weapon against that family line. Anytime a marked target takes damage from this blade, the wielder can ask a single question that must have a yes/no response. If the target succeeds at a DC 14 Will save, she can ignore the question; otherwise, she must answer it truthfully. A closing offer can be re-attuned to a new family name via a ritual that takes 8 hours to complete and requires 200 gp in alchemical reagents. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells confess, heroism; Cost 7,810 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_closing_offer",
+          "value": {
+            "value": 15310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_closing_offer",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

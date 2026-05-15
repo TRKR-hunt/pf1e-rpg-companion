@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_vicious_ghosts__crb_",
+    "name": {
+      "value": "Rod of Vicious Ghosts"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,000 gp; Slot none; CL 13th; Weight 1 lb.; Aura strong evocation DESCRIPTION Foreboding runes flow like shadows across the surface of this mithral rod. Up to three times per day while on the Ethereal Plane, the wielder of this short rod can affect creatures on the Material Plane with spells and spell-like abilities with the force descriptor. After using this ability, the wielder glows faintly and can be seen by creatures on the Material Plane and the Ethereal Plane. This glowing effect lasts for 1 minute and is otherwise identical to faerie fire. CONSTRUCTION REQUIREMENTS Cost 13,000 gp; Feats Craft Rod; Spells ethereal jaunt"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_vicious_ghosts",
+          "value": {
+            "value": 26000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_vicious_ghosts",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

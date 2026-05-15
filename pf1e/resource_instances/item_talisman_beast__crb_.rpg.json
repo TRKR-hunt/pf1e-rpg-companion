@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "talisman_beast__crb_",
+    "name": {
+      "value": "Talisman, Beast"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,900 gp; Slot neck; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION Carved to resemble a predatory animal, this small charm hangs from a leather cord. EFFECTS While assuming the form of an animal (such as when using the wild shape class feature or when under the effects of a beast shape spell), its wearer can expend one prepared spell or spell slot of up to 4th level as a standard action (0-level spells cannot be expended in this way). When the wielder does so, she gains an enhancement bonus on all of her natural weapons equal to twice the level of the spell or spell slot expended. This enhancement bonus applies to attack and damage rolls made with the natural weapons and lasts for 5 minutes. The bonus does not allow the wielder\u00e2\u0080\u0099s natural weapons to bypass damage reduction, except for DR /magic. CONSTRUCTION REQUIREMENTS Cost 9,450 gp; Feats Craft Wondrous Item; Spells greater magic fang"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_talisman_beast",
+          "value": {
+            "value": 18900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

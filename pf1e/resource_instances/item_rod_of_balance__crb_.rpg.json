@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_balance__crb_",
+    "name": {
+      "value": "Rod of balance"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot none; Price 15,000 gp; Weight 5 lbs. DESCRIPTION This short, slender rod appears to be crafted from solid iron, though it is incredibly light. In this shortened form, the rod has no powers. However, when the wielder pushes a small button on one end of the rod (a move action ), the rod springs open to a 5-foot length, and its powers become available for use. Once extended, the rod possesses several powers that add to the wielder\u2019s acrobatic abilities. The wielder of the rod receives a +10 competence bonus on all Acrobatics checks involving long jumps and high jumps; additionally, the wielder covers double the normal distance for a jump when making an Acrobatics check. The individual holding the rod also gain a +4 dodge bonus to AC when fighting defensively instead of the usual +2 bonus. Also, while using this item, the user of the rod cannot be knocked prone, and takes only half damage from falling. A rod of balance emits a faint aura of the abjuration and transmutation schools. CONSTRUCTION REQUIREMENTS Feats Craft Rod, cat\u2019s grace, feather fall, jump; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_balance",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_balance",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

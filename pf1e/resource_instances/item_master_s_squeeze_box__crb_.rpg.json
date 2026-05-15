@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "master_s_squeeze_box__crb_",
+    "name": {
+      "value": "Master's Squeeze-Box"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot none; CL 5th; Weight 5 lbs.; Aura moderate conjuration DESCRIPTION This concertina was created by a notorious bard. It can be used like a masterwork concertina, providing a +2 bonus on Perform (keyboard instruments) checks. At any one time, the squeeze-box is either more compressed than extended or more extended than compressed, and switching between the two is a free action (and in fact, happens regularly when the instrument is played). When the concertina is compressed and held in a hand, the wielder gains the compression ability. When the concertina is extended and held in a hand, the wielder is immune to constriction damage (as from constrict attacks) and damage from being buried, although the wielder gains no protection from suffocation. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells cushioning bands, grease"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_master_s_squeeze_box",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_master_s_squeeze_box",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

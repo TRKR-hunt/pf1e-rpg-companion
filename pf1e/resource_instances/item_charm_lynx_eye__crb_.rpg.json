@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charm_lynx_eye__crb_",
+    "name": {
+      "value": "Charm, Lynx-Eye"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 350 gp; Slot neck or shoulder; see above; CL 3rd Weight \u00e2\u0080\u0094; Aura faint divination and transmutation APPEARANCE This charm is typically spherical in shape and a mottled amber in color. A natural inclusion in this amber charm gives it the appearance of an eye. EFFECTS When activated as a swift action, the lynx-eye charm grants its wearer low-light vision for 3 minutes. If activated as a standard action, the charm instead grants its wearer the benefits of darkvision or see invisibility for 3 rounds. This charm can be used once, after which the charm\u00e2\u0080\u0099s magic is gone forever. A charm occupies the wearer\u00e2\u0080\u0099s shoulders or neck slot, though it can share that slot with one other magic item (as a cloak pin or token hanging from a necklace, for example). A character can never wear more than one charm at a time. CONSTRUCTION REQUIREMENTS Cost 175 gp; Feats Craft Wondrous Item; Spells darkvision, see invisibility"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charm_lynx_eye",
+          "value": {
+            "value": 350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

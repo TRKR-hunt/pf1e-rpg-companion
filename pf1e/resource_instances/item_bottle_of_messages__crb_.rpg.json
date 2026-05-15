@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bottle_of_messages__crb_",
+    "name": {
+      "value": "Bottle of messages #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 3rd; Slot none; Price 300 gp; Weight 1 lb. DESCRIPTION This green glass bottle has a tiny winding key on its elongated stem that, if turned, causes a shadowy cork to slowly become substantial over a 1-round period. Anything the owner of the bottle speaks into the bottle during this time (up to 25 words) gets trapped inside it once the cork fully manifests. As soon as the cork is removed or the bottle is smashed, this message is released exactly as if the owner had spoken the words at that moment. Once the bottle releases its message, it shatters. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, magic mouth; Cost 150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bottle_of_messages",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bottle_of_messages",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

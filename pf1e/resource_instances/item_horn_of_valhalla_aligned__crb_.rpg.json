@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horn_of_valhalla_aligned__crb_",
+    "name": {
+      "value": "Horn of Valhalla, Aligned"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th; Slot none; Price 45,000 gp; Weight 2 lbs. DESCRIPTION This horn of Valhalla is crafted for service to a cause, whether lofty or profane. Though not intelligent, it has an alignment as determined by the Intelligent Item Alignment table, and summons barbarians of that alignment. A character who sounds the horn but is more than one step away from the horn\u00e2\u0080\u0099s alignment is attacked by the summoned barbarians. The horn\u2019s minions also turn against an owner who gives them an order in strong opposition to their ethos, such as ordering lawful good barbarians to attack helpless villagers. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, summon monster VI; Cost 25,000 gp (alignment restriction affects the item\u2019s market price, but not the cost to create the item)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horn_of_valhalla_aligned",
+          "value": {
+            "value": 45000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horn_of_valhalla_aligned",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

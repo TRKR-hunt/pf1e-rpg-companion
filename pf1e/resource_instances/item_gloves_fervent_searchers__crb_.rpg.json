@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_fervent_searchers__crb_",
+    "name": {
+      "value": "Gloves, Fervent Searcher\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,400 gp; Slot hands; CL 5th Weight \u2014; Aura faint transmutation APPEARANCE These dark blue, silken gloves are fingerless. EFFECTS Twice per day as a move action, the wearer can touch the ground or any other solid surface and say the command word to visibly reveal all footprints within 20 feet. When the gloves reveal footprints in this way, the wearer gains a +5 bonus on Survival checks to follow those tracks. CONSTRUCTION REQUIREMENTS Cost 3,700 gp; Feats Craft Wondrous Item; Spells residual tracking"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_fervent_searchers",
+          "value": {
+            "value": 7400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

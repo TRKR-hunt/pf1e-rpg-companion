@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "earth_child_faceguard__crb_",
+    "name": {
+      "value": "Earth Child Faceguard"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot head; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION An earth child faceguard is designed to refine the wearer\u2019s focus when fighting giants. The wearer gains the benefits of Earth Child Style, regardless of whether she meets the prerequisites. If the wearer does not possess the defensive training racial trait, the dodge bonus to AC against giants is reduced to +2. If the wearer already possesses the Earth Child Style feat, she can enter the earth child stance as a free action. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item, Earth Child Style; Spells know the enemy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_earth_child_faceguard",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

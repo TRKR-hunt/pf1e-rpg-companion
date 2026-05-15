@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "costume_bureau__crb_",
+    "name": {
+      "value": "Costume Bureau"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and transmutation; CL 9th; Slot none; Price 7,000 gp; Weight 500 lbs. DESCRIPTION This large oaken bureau has a double-door cabinet that sits atop three horizontal drawers. Once per day, you can concentrate on a set of clothing you would like to wear, then open the cabinet or one of the drawers to retrieve a set of magically fabricated clothing matching what you imagined. While worn, the clothing gives you a +2 enhancement bonus to Charisma. The clothes fade to worthless scraps after 24 hours, as do any pieces separated from the whole (such as buttons, gem adornments, or strips torn off as bandages). CONSTRUCTION REQUIREMENTS Craft Wondrous Item, eagle\u2019s splendor, fabricate, minor creation; Special creator must have at least 2 ranks in Craft (tailoring) or Profession (tailor); Cost 3,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_costume_bureau",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_costume_bureau",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

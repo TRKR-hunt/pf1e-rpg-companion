@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_anaphexis__crb_",
+    "name": {
+      "value": "Robe, Anaphexis"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot body; CL 10th; Weight 1 lb.; Aura moderate divination and necromancy DESCRIPTION Sewn from deep purple fabric, an Anaphexis robe appears to be a plain version of holy vestments. A creature wearing this robe can speak directly into the minds of other creatures wearing Anaphexis robes or carrying an unholy symbol within 100 feet, as long as they share a common language. The robes grant a +10 circumstance bonus on Disguise checks to appear as a monk and a +10 circumstance bonus on Sleight of Hand checks to conceal weapons. Once per day, a wearer with the death attack class ability can reduce the number of rounds required to study a target for a death attack by 1. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells message, slay living; Cost 8,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_anaphexis",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_anaphexis",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

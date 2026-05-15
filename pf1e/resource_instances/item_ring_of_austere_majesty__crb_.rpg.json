@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_austere_majesty__crb_",
+    "name": {
+      "value": "Ring of Austere Majesty"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot ring; CL 5th Weight \u00e2\u0080\u0094; Aura faint enchantment APPEARANCE A dozen tiny gemstones line the outer edges of this golden ring. EFFECTS As long as one or more creatures can see it, the ring grants its wearer a +2 circumstance bonus on Diplomacy and Intimidate checks to influence those creatures. In addition, the wearer can allow a willing creature to inspect the ring as a full-round action. If she does, for the following 3 rounds the creature and the wearer can speak while the ring\u00e2\u0080\u0099s power obfuscates the details of the conversation. To every other creature able to hear the creature and the wearer\u00e2\u0080\u0099s words during this time, the conversation sounds like a continued back-and-forth exchange of exaltations about the ring\u00e2\u0080\u0099s artistry. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Forge Ring; Spells aphasia, eagle\u00e2\u0080\u0099s splendor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_austere_majesty",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

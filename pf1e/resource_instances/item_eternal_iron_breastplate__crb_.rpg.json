@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eternal_iron_breastplate__crb_",
+    "name": {
+      "value": "Eternal Iron Breastplate"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment and conjuration; CL 7th; Slot armor; Price 4,890 gp; Weight 30 lbs. DESCRIPTION This +1 stanching breastplate is battle-scarred but polished with great care, and has a small sword-and-mountain symbol hammered just below the gorget. Once per day, the wearer can use compel hostility; if an adjacent ally is reduced to negative hit points or killed, the wearer may activate this as an immediate action instead of a standard action CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells compel hostility, stabilize, either cure critical wounds or lesser restoration; Price 2,620 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eternal_iron_breastplate",
+          "value": {
+            "value": 4890
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_eternal_iron_breastplate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

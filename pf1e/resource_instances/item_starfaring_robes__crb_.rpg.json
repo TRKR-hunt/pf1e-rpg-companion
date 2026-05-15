@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "starfaring_robes__crb_",
+    "name": {
+      "value": "Starfaring Robes"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 17th; Slot body; Price 82,000 gp; Weight 1 lb. DESCRIPTION This simple blue robe appears plain during the day but sparkles in starlight or moonlight. The wearer is constantly protected as if wearing a necklace of adaptation. On command, the robe sprouts pale moth wings, allowing the wearer to fly as if using wings of flying. In the vacuum of space, the wearer can fly at an incredible speed. Although exact travel times vary, a trip within a single solar system normally takes 3d20 months, while a trip beyond should take 3d20 years (or more, at the GM\u2019s discretion), provided the wearer knows the way to its destination. While flying in this fashion, the wearer can enter a state of hibernation (similar to temporal stasis ), waking instantly if attacked, upon reaching his destination, or after a set time period (such as a month or year) CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells alter self, fly, interplanetary teleport, temporal stasis; Cost 41,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_starfaring_robes",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_starfaring_robes",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

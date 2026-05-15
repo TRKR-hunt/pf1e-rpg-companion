@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "triple_eyes_of_vivid_auras__crb_",
+    "name": {
+      "value": "Triple Eyes Of Vivid Auras"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Weight 1 lb.; Slot eyes; CL 5th; Aura faint divination DESCRIPTION These three-eyed goggles allow the wearer to discern subtler auras that would normally be hidden by more powerful auras when using detect evil, detect magic, identify, and other detection spells, provided the auras are no more than one step different in strength. If the detection would normally be automatically foiled by an illusion or abjuration but arcane sight (or another detection effect of 3rd level or lower) would have a chance of seeing through that effect, the wearer gets a chance to see through it even with lower-level detection effects. Three times per day, the wearer of the triple eyes of vivid auras can use greater detect magic with a command word. CONSTRUCTION REQUIREMENTS Cost 7,500 gp; Feats Craft Wondrous Item; Spells arcane sight, greater detect magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_triple_eyes_of_vivid_auras",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_triple_eyes_of_vivid_auras",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

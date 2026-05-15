@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "planar_strap__crb_",
+    "name": {
+      "value": "Planar Strap"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp; Slot none; CL 3rd; Weight \u2014; Aura faint transmutation DESCRIPTION When this worn leather strap is tied around the grip of a weapon, the weapon becomes immune to the harmful environmental effects of a plane, such as heat or acidity. This does not protect the weapon against non-environmental energy effects; although it would apply to the ambient fire damage caused by being on the Plane of Fire, it would not apply to damage caused by a fireball spell. If the weapon is destroyed, the planar strap is destroyed with it. It is a full-round action to tie or untie a strap. You can only have one planar strap applied to a weapon at a time. CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Wondrous Item; Spells planar adaptation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_planar_strap",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

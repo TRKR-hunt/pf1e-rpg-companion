@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "necklace_fey_child__crb_",
+    "name": {
+      "value": "Feychild necklace"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 8th; Slot neck; Price 6,000 gp; Weight 1/2 lb. DESCRIPTION This necklace is set with a bloodstone sculpted to look like a scintillating green eye. It gives the wearer a +4 competence bonus on Charisma checks and Charisma-based checks made to interact with gnomes, a +2 competence bonus on similar checks when dealing with beings of the fey creature type, and a \u00e2\u0080\u00942 penalty on similar checks when interacting with anyone else. The wearer can read, speak, and understand the Gnome language. If the wearer is not a gnome, she gains low-light vision, and may cast dancing lights, ghost sound, prestidigitation, and speak with animals each once per day as a spell-like ability. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be a gnome; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_necklace_fey_child",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

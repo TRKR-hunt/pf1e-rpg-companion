@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chest_blood_chest__crb_",
+    "name": {
+      "value": "Chest, Blood Chest"
+    },
+    "source": {
+      "value": "lost_treasures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 42,000 gp; Slot none; CL 9th; Weight 50 lbs.; Aura moderate transmutation DESCRIPTION A blood chest is a medium-sized chest of red iron with a volume of 4 cubic feet. The metal sculpture of a monstrous fanged face surrounds the inset superior quality lock, making it impossible to reach the lock without putting a hand in the mouth. The chest is additionally sealed by a permanent arcane lock, and is protected by powerful magic that makes the chest as resilient as a wall of force. The chest is attuned to a particular owner, which can be changed by speaking a command word while the chest is open. Any key can be used in the lock, but whenever a key is inserted, the fanged mouth closes on the hand holding it (or on the device holding it, if some contraption is used to insert the key) and deals 1 point of damage. If the bitten hand is that of the owner attuned to the chest, the chest opens. If the hand belongs to anyone else, or no hand is present to bite, or the hand is not damaged by the bite, the chest doesn\u2019t open. If the lock is picked with a successful DC 50 Disable Device check, the teeth don\u2019t close. CONSTRUCTION REQUIREMENTS Cost 21,000 gp; Feats Craft Wondrous Item; Spells arcane lock, vampiric hunger, wall of force"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chest_blood_chest",
+          "value": {
+            "value": 42000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chest_blood_chest",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

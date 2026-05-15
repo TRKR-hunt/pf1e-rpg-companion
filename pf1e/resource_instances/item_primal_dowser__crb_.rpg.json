@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "primal_dowser__crb_",
+    "name": {
+      "value": "Primal Dowser"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,800 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint divination DESCRIPTION This triangular-shaped rod is made from metal tubes and is small enough to fit into a pocket or a pouch. One tube on the item is inlaid with a line of small emeralds, and the other is inlaid with a line of small sapphires. EFFECTS A primal dowser can be activated as a standard action to detect and identify the presence of variant magic within 60 feet for up to 10 minutes per day. In or near an area of primal or wild magic, the emeralds glow, and in or near magic dead zones, the sapphires glow. This item\u2019s duration need not be used all at once, but it must be used in 1-minute intervals. CONSTRUCTION REQUIREMENTS Cost 900 gp; Feats Craft Wondrous Item; Spells detect magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_primal_dowser",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_primal_dowser",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

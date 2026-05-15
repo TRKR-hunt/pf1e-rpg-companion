@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "clamor_box__crb_",
+    "name": {
+      "value": "Clamor box #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 10th; Slot none; Price 2,000 gp; Weight 2 lbs. DESCRIPTION This delicate tin music box can produce a great volume of noise at a specific time determined by its owner. Four command words determine what sorts of sounds it is to play (battle, fire, massacre, or riot), and a fifth determines the delay (anywhere from 1 round to 20 minutes) until the box begins to produce the desired sound. The noise from the box is as loud as 40 people. The sound persists for 2d6 rounds. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, ghost sound; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_clamor_box",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_clamor_box",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

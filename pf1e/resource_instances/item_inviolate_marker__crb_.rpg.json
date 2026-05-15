@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "inviolate_marker__crb_",
+    "name": {
+      "value": "Inviolate Marker"
+    },
+    "source": {
+      "value": "people_of_the_sands"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot none; CL 10th; Weight 5 lbs.; Aura moderate transmutation DESCRIPTION This unusual type of immovable rod has a button near each end, and it can be activated only by two separate creatures, each one pressing a button while speaking a different command word. Once set in place, it can only be moved by the same method. A creature using a Strength check to move the inviolate marker risks being affected by a bestow curse effect (\u00e2\u0080\u00936 Str; Will DC 16 negates and grants the creature immunity to the curse effect for 24 hours). An inviolate marker projects an illusory banner or crest from each side, each chosen by the creature that activated it, and is used to demarcate territorial boundaries. If an inviolate marker would be buried by a change in the landscape or environment, the marker teleports to the surface of the newly formed terrain in order to maintain its position relative to the new terrain. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Rod; Spells bestow curse, levitate, silent image"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_inviolate_marker",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_inviolate_marker",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

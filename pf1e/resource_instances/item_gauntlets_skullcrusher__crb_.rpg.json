@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_skullcrusher__crb_",
+    "name": {
+      "value": "Gauntlets, Skullcrusher"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,302 gp; Slot hands; CL 10th; Weight 6 lbs.; Aura moderate evocation DESCRIPTION These bloodstained gauntlets are made of a combination of blackened steel and polished white stone. They are slightly over-sized and somewhat bulky, though still suitable for combat. They function as +1 gauntlets. Once per day, the wearer can unleash a devastating attack with the gauntlets that can instantly knock a target unconscious. The wearer must announce her intent before making her attack roll, and creatures immune to critical hits can\u2019t be affected. To make the attack, the wearer makes a single melee attack at her highest base attack bonus as a full-round action. If the strike hits, the target takes 4d6 points of force damage and must succeed at a DC 15 Fortitude save or fall unconscious until the end of its next turn. Even if the target succeeds at the Fortitude save, it is staggered until the end of its next turn. When worn by a brawler with the knockout class feature, the DC to resist the brawler\u2019s knockout increases by 2. CONSTRUCTION REQUIREMENTS Cost 7,802 gp; Feats Craft Wondrous Item; Spells deep slumber, stone fist"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_skullcrusher",
+          "value": {
+            "value": 15302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_skullcrusher",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

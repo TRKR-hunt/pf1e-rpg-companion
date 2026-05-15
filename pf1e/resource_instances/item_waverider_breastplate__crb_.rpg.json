@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "waverider_breastplate__crb_",
+    "name": {
+      "value": "Waverider Breastplate"
+    },
+    "source": {
+      "value": "inner_sea_monster_codex"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot armor; CL 5th; Weight 30 lbs.; Aura faint transmutation DESCRIPTION This flat, gray +1 breastplate is embossed with an iron fin symbol, and is enchanted to make it lighter in water. The armor imposes no armor check penalty on Swim checks, but still contributes to the wearer\u2019s encumbrance and applies all other armor check penalties as normal. Once per day, the wearer can speak a command word even if submerged to cause the armor\u00e2\u0080\u0094and the wearer if the armor is worn\u00e2\u0080\u0094to float as per the buoyancy spell. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Magic Arms and Armor; Spells buoyancy, water walk"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_waverider_breastplate",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_waverider_breastplate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

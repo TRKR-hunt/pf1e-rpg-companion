@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stirge_dart__crb_",
+    "name": {
+      "value": "Stirge Dart"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,501 gp; Slot none; CL 15th; Weight 1/2 lb.; Aura strong necromancy and transmutation DESCRIPTION When thrown, this +1 dart animates and attacks a single target as a dancing weapon for 4 rounds. When a stirge dart hits, instead of dealing normal damage, the dart drains blood from the target, dealing 1 point of Constitution damage. The dart falls to the ground harmlessly once it stops attacking. A stirge dart can be used only once before it loses all of its magical properties. CONSTRUCTION REQUIREMENTS Cost 2,251 gp; Feats Craft Magic Arms and Armor; Spells animate objects, bleed"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stirge_dart",
+          "value": {
+            "value": 4501
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

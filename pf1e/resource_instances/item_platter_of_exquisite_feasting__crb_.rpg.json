@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "platter_of_exquisite_feasting__crb_",
+    "name": {
+      "value": "Platter Of Exquisite Feasting"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 250 gp; Weight 1 lb.; Slot none; CL 1st; Aura faint transmutation DESCRIPTION This silver, oval-shaped platter can hold up to 1 cubic foot worth of food. Once per day, the platter\u00e2\u0080\u0099s user can activate the item to transform its contents into another type or quality of food of the user\u00e2\u0080\u0099s choosing. The transformed food looks and smells just like actual food of its new type, but retains its original texture, taste, nourishment, and level of fulfillment. Spoiled or poisoned food remains so and is detectable as such under magical or supernatural scrutiny. CONSTRUCTION REQUIREMENTS Cost 125 gp; Feats Craft Wondrous Item; Spells purify food and drink"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_platter_of_exquisite_feasting",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_platter_of_exquisite_feasting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

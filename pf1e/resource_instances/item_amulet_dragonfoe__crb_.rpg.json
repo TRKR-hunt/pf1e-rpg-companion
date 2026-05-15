@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_dragonfoe__crb_",
+    "name": {
+      "value": "Dragonfoe amulet"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot neck; Price 20,000 gp; Weight 1 lb. DESCRIPTION This amulet consists of a cracked dragon scale set in a disk of gold. Most are slightly damaged, bearing the scars of draconic breath weapons. The dragonfoe amulet is a powerful, specialized tool for those who oppose dragons, improving the protection and attacks of the wearer in a number of ways. The wearer of a dragonfoe amulet ignores the damage reduction of dragons. This only affects actual dragons, not all creatures of the dragon type. In addition, if the wearer casts a spell against a dragon, she can roll twice to overcome any spell resistance the dragon might possess, taking the higher result. Lastly, the wearer takes no damage instead of half damage on a successful Reflex save against a dragon\u00e2\u0080\u0099s breath weapon (as the evasion ability). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Spell Penetration, magic weapon, jump; Cost 10,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_dragonfoe",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_dragonfoe",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_divination__crb_",
+    "name": {
+      "value": "Staff of divination"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong divination; CL 13th; Slot none; Price 82,000 gp; Weight 5 lbs. DESCRIPTION Made from a supple length of willow carefully selected to have a crooked, forked tip, a staff of divination allows use of the following spells: Detect secret doors (1 charge) Locate object (1 charge) Tongues (1 charge) Locate creature (2 charges) Prying eyes (2 charges) True seeing (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells detect secret doors, locate creature, locate object, prying eyes, tongues, true seeing; Cost 41,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_divination",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_divination",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

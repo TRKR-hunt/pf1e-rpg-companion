@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bow_of_ashes__crb_",
+    "name": {
+      "value": "Bow of Ashes"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,400 gp; Slot none; CL 8th; Weight 3 lbs.; Aura moderate conjuration DESCRIPTION This +1 adaptive flaming composite longbow is made of a single piece of petrified wood that appears to have been burnt black but is magically sturdy. When the wielder pulls the bowstring while within 5 feet of a flame at least as large as a lit torch, the bow generates and nocks an arrow of rock-hard ash. Attacks made with an ash arrow deal damage as a normal bow but ignore concealment miss chances from smoke, ash, dust, fog, and other airborne particles (though the wielder still risks targeting the wrong square when trying to shoot at foes with total concealment ). The ash arrow crumbles to nothing 1 round after leaving the bow. CONSTRUCTION REQUIREMENTS Cost 5,900 gp; Feats Craft Magic Arms and Armor; Spells fireball or flame blade, warp wood"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bow_of_ashes",
+          "value": {
+            "value": 11400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bow_of_ashes",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

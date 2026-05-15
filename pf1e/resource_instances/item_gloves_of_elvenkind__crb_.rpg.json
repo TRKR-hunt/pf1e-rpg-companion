@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_elvenkind__crb_",
+    "name": {
+      "value": "Gloves of Elvenkind"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot hands; Price 7,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These plain gray leather gloves grant a +5 competence bonus on Spellcraft checks and concentration checks made to cast a spell defensively. Both gloves must be worn for the magic to be effective. CONSTRUCTION REQUIREMENTS Combat Casting, Craft Wondrous Item; Special creator must be an elf; Cost 3,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_elvenkind",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

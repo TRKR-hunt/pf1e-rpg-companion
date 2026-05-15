@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_nettles__crb_",
+    "name": {
+      "value": "Rod of nettles"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot none; Price 18,000 gp; Weight 5 lbs. DESCRIPTION This wooden rod is engraved with serrated-edged leaves of stinging nettles. This rod acts as a +1 light mace that deals no damage. Instead, the rod\u2019s venomous touch (melee touch attack ) deals 1d3 points of Dexterity damage and causes the target to become sickened for 1d6 rounds (DC 14 Fortitude negates the sickened effect and halves the Dexterity damage ); on a critical hit, no saving throw is allowed. Once per day on command, the wielder may touch the rod of nettles to ordinary vegetation, causing a 20-foot cube to become tangled with nettle-choked overgrowth as the overgrowth ability of the plant growth spell. Furthermore, creatures entering or within this area are affected as if touched by the rod, though creatures with a natural armor bonus of +3 or greater are immune to this effect. A creature that saves is unaffected by the area\u2019s poison for 24 hours. CONSTRUCTION REQUIREMENTS Feats Craft Rod, plant growth, poison; Cost 9,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_nettles",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_nettles",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

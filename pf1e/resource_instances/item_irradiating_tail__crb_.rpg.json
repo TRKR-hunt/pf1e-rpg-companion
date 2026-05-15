@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "irradiating_tail__crb_",
+    "name": {
+      "value": "Irradiating Tail"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,315 gp; Slot none; CL 5th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION The end of this +1 viridium long lash tail attachment is a shard of toxic green rock. As with any viridium weapon, a successful hit with an irradiating tail causes the target to contract leprosy\u2014and a critical hit can poison the target with greenblood oil. However, unlike with most viridium weapons, the wielder of an irradiating tail is magically immune to the weapon\u2019s toxic effects. The viridium has been strengthened, so the weapon isn\u2019t fragile. CONSTRUCTION REQUIREMENTS Cost 2,815 gp; Feats Craft Magic Arms and Armor; Spells remove disease"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_irradiating_tail",
+          "value": {
+            "value": 5315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_irradiating_tail",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

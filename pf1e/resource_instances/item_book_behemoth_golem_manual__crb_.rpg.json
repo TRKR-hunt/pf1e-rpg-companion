@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "book_behemoth_golem_manual__crb_",
+    "name": {
+      "value": "Book, Behemoth Golem Manual"
+    },
+    "source": {
+      "value": "lost_kingdoms"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration, enchantment, and evocation; CL 18th; Slot none; Price 70,000 gp; Weight 5 lbs. DESCRIPTION This book contains earthquake, geas/quest, mage\u2019s magnificent mansion, and wish. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a behemoth golem. CONSTRUCTION REQUIREMENTS Feats Craft Construct; Caster Level 18; Spells earthquake, geas/quest, mage\u2019s magnificent mansion, wish; Cost 35,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_book_behemoth_golem_manual",
+          "value": {
+            "value": 70000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_book_behemoth_golem_manual",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

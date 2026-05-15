@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dimensional_shackles__crb_",
+    "name": {
+      "value": "Dimensional shackles #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 11th; Slot wrists; Price 28,000 gp; Weight 5 lbs. DESCRIPTION These shackles have magical runes traced across their cold iron links. Any creature bound within them is affected as if a dimensional anchor spell were cast upon it (no save). They fit any Small to Large creature. The DC to break or slip out of the shackles is 30. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dimensional anchor; Cost 14,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dimensional_shackles",
+          "value": {
+            "value": 28000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dimensional_shackles",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

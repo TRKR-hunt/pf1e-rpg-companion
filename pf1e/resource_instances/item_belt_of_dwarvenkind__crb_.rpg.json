@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_dwarvenkind__crb_",
+    "name": {
+      "value": "Belt of dwarvenkind #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong divination; CL 12th; Slot belt; Price 14,900 gp; Weight 1 lb. DESCRIPTION This belt gives the wearer a +4 competence bonus on Charisma checks and Charisma -based skill checks as they relate to dealing with dwarves, a +2 competence bonus on similar checks when dealing with gnomes and halflings, and a \u00e2\u0080\u00932 competence penalty on similar checks when dealing with anyone else. The wearer can understand, speak, and read Dwarven. If the wearer is not a dwarf, he gains 60-foot darkvision, dwarven stonecunning, a +2 enhancement bonus to Constitution, and a +2 resistance bonus on saves against poison, spells, and spell-like effects. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, tongues; Special creator must be a dwarf; Cost 7,450 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_dwarvenkind",
+          "value": {
+            "value": 14900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_dwarvenkind",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

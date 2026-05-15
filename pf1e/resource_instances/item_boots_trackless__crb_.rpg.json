@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_trackless__crb_",
+    "name": {
+      "value": "Boots, Trackless"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Second Darkness Player\u2019s Guide Aura faint transmutation; CL 9th; Slot feet; Price 3,500 gp; Weight 2 lbs. DESCRIPTION Leaving marks of your passage can alert predators that a newcomer has entered their territory. Trackless boots help prevent you from making too much noise as you creep along, and they also mask traces of your passage through underground caverns to prevent your enemies from finding you. These boots are particularly valued by smugglers who work in patrolled areas. Trackless boots are soft, well-worn leather boots with thin soles. The softness of the boots\u00e2\u0080\u0099 soles add a +4 competence bonus on Stealth checks. In addition, the boots conceal your passage much like the pass without trace spell \u00e2\u0080\u0094 you leave no trail underground and cannot be tracked. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, pass without trace; Cost 1,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_trackless",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_trackless",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boneless_leather__crb_",
+    "name": {
+      "value": "Boneless leather"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight 15 lbs.; Price 12,160 gp DESCRIPTION This suit of +1 leather gives its wearer the ability to twist and contort her body in virtually any direction. She gains a +5 bonus on Escape Artist checks, a +5 bonus on Acrobatics checks to reduce damage from falls, a +5 bonus to CMD, and DR 5/piercing or slashing. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells alter self; Special creator must have 5 ranks in Acrobatics and Escape Artist; Cost 6,160 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boneless_leather",
+          "value": {
+            "value": 12160
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boneless_leather",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

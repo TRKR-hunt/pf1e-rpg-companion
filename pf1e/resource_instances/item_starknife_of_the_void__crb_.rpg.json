@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "starknife_of_the_void__crb_",
+    "name": {
+      "value": "Starknife of the Void"
+    },
+    "source": {
+      "value": "chronicle_of_the_righteous"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong illusion and transmutation; CL 5th; Slot none; Price 21,324 gp; Weight 3 lbs. DESCRIPTION The starknife of the void is a +2 returning starknife. If the wielder scores a critical hit against a foe with a starknife of the void, it discharges a blindness/deafness spell affecting the creature struck. The target must succeed at a DC 14 Fortitude save or be struck blind or deaf (as chosen by the wielder of the starknife of the void ). If the starknife of the void deals more than one critical hit to the same target, the target can potentially become both blind and deaf. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells blindness/deafness, telekinesis; Gold 10,824 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_starknife_of_the_void",
+          "value": {
+            "value": 21324
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_starknife_of_the_void",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

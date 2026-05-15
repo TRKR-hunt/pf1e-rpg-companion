@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_of_tomb_warding__crb_",
+    "name": {
+      "value": "Stone of Tomb Warding"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint necromancy DESCRIPTION When hung above a door or other portal, this smooth, scarab-shaped stone prevents undead creatures from entering. An intelligent undead creature attempting to move through the warded portal or touch the stone must attempt a DC 13 Will save. If it fails, the creature cannot make another attempt until 24 hours have passed. If it succeeds, the creature is immune to the stone\u00e2\u0080\u0099s effect for 24 hours. Nonintelligent undead creatures don\u00e2\u0080\u0099t get a saving throw against the effect. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells command undead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_of_tomb_warding",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_stone_of_tomb_warding",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

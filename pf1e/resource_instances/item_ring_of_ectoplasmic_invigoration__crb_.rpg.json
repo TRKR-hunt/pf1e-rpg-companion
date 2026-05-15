@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_ectoplasmic_invigoration__crb_",
+    "name": {
+      "value": "Ring of ectoplasmic invigoration"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 6th; Slot ring; Price 12,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION A summoner wearing a ring of ectoplasmic invigoration can use his maker\u00e2\u0080\u0099s call class feature to absorb his eidolon (dismissing it in the process) instead of bringing it to his side. He gains 2 temporary hit points per Hit Die of the eidolon and the benefits of a lesser restoration spell. The eidolon must still be within range of his maker\u00e2\u0080\u0099s call ability. Any temporary hit points gained fade after 1 hour or when the eidolon is summoned again. A wearer with the transposition ability can transport himself to the eidolon\u00e2\u0080\u0099s square (still absorbing and dismissing it) rather than calling the eidolon to him. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special the creator must be able to summon an eidolon and have the maker\u00e2\u0080\u0099s call class feature; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_ectoplasmic_invigoration",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

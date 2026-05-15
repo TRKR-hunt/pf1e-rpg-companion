@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "handkerchief_of_finding__crb_",
+    "name": {
+      "value": "Handkerchief of Finding"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This elegant, perfumed handkerchief always seems to be a dazzling white. The bearer can attune the handkerchief to himself by keeping it in his possession for 1 week. Once the handkerchief is attuned to its bearer, the bearer can always sense in what direction the handkerchief is, so long as it is on the same plane. A bearer unaware of the handkerchief\u2019s power cannot attune to it. CONSTRUCTION REQUIREMENTS Cost 7,500 gp; Feats Craft Wondrous Item; Spells locate object"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_handkerchief_of_finding",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_waves__crb_",
+    "name": {
+      "value": "Staff of Waves"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy CL 13th; Slot none; Price 90,300 gp; Weight 5 lbs. DESCRIPTION This staff is made of entwined coral and topped with a brilliant sapphire. The staff functions as a +1 quenching quarterstaff above the waves and a +1 impact quarterstaff below, and attacks with the staff of waves take no penalties for being bludgeoning melee attacks underwater. It allows use of the following spells: Hydraulic torrent (1 charge) Slipstream (1 charge) Wave form (2 charges) Ride the waves (2 charges) Vortex (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells hydraulic torrent, ride the waves, slipstream, vortex, wave form; Cost 45,300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_waves",
+          "value": {
+            "value": 90300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_waves",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

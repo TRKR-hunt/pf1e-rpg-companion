@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horseshoes_of_speed__crb_",
+    "name": {
+      "value": "Horseshoes of speed #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot feet; Price 3,000 gp; Weight 12 lbs. DESCRIPTION When affixed to an animal\u00e2\u0080\u0099s hooves, these iron horseshoes increase the animal\u00e2\u0080\u0099s base land speed by 30 feet; this counts as an enhancement bonus. As with other effects that increase speed, jumping distances increase proportionally. All four shoes must be worn by the same animal for the magic to be effective. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, haste; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horseshoes_of_speed",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horseshoes_of_speed",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mammoth_hide_2__crb_",
+    "name": {
+      "value": "Mammoth Hide (2)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,665 gp; Slot armor; CL 11th; Weight 25 lbs.; Aura moderate transmutation DESCRIPTION In addition to granting a +3 enhancement bonus to AC, it has a -1 armor check penalty and grants the wearer 4d6 additional points of damage on the first successful charge attack she makes in a round, including a mounted charge. CONSTRUCTION REQUIREMENTS Cost 7,415 gp; Feats Craft Magic Arms and Armor; Spells bull\u2019s strength"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mammoth_hide_2",
+          "value": {
+            "value": 14665
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mammoth_hide_2",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

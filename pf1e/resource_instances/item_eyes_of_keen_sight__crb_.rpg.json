@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eyes_of_keen_sight__crb_",
+    "name": {
+      "value": "Eyes of keen sight #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot eye; Price 6,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These clear crystals fit over the wearer\u00e2\u0080\u0099s eyes. They grant the wearer a +2 competence bonus on Perception checks, and the wearer gains low-light vision. If the wearer has low-light vision already, these lenses double the distance the wearer can see with this vision. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, keen senses; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eyes_of_keen_sight",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

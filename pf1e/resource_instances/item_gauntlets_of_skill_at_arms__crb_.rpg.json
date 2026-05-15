@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_of_skill_at_arms__crb_",
+    "name": {
+      "value": "Gauntlets of skill at arms #2"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot hands; Price 30,302 gp; Weight 1 lb. DESCRIPTION These finely crafted leather gauntlets have plates of silvered steel covering the back, and silver buckles at the wrist and forearm. The gauntlets enable the wearer to use any traditional elven weapon ( longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and any weapon with the word \u00e2\u0080\u009celven\u00e2\u0080\u009d in its name) as if he were proficient in its use. If he uses such a weapon and is already proficient with it, he gains a +1 competence bonus on attack and damage rolls. Both gauntlets must be worn for the magic to be effective. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Special creator must be an elf; Cost 15,302 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_of_skill_at_arms",
+          "value": {
+            "value": 30302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_of_skill_at_arms",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

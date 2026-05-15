@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wings_of_flying_lesser__crb_",
+    "name": {
+      "value": "Wings of Flying, Lesser"
+    },
+    "source": {
+      "value": "the_asylum_stone"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 10th; Slot shoulders; Price 22,000 gp; Weight 10 lbs. DESCRIPTION This mechanical backpack is a mess of gears and cogs, with two large canvas wings extending out from it to rise over the wearer\u2019s shoulders. When the wearer touches the button on the pack\u2019s chest harness, the wings whir to life and begin flapping rapidly, hauling the wearer awkwardly into the air. Lesser wings of flying grant the wearer a fly speed of 30 feet (poor maneuverability). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, fly; Cost 11,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wings_of_flying_lesser",
+          "value": {
+            "value": 22000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wings_of_flying_lesser",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

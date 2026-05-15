@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "caparison_of_resistance__crb_",
+    "name": {
+      "value": "Caparison of Resistance"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies: +1 bonus 2,700 gp, +2 bonus 10,800 gp, +3 bonus 24,300 gp, +4 bonus 43,200 gp, +5 bonus 67,500 gp; Slot shoulders; CL 5th; Weight 4 lbs.; Aura faint abjuration DESCRIPTION This garment is intended for a horse or similar quadruped, but it can change size and shape to fit any four-legged creature ranging from Small to Huge in size. When worn, a caparison of resistance offers the wearer magic protection in the form of a +1 to +5 resistance bonus on all saving throws ( Fortitude, Reflex, and Will ). This bonus on saving throws also applies to a single rider who is mounted on the creature (in the case of multiple riders, the resistance bonus is not shared at all and applies only to the mount). CONSTRUCTION REQUIREMENTS Cost varies: +1 bonus 1,350 gp; Feats +2 bonus 5,400 gp, +3 bonus 12,150 gp, +4 bonus 21,600 gp, +5 bonus 33,750 gp; Feats Craft Wondrous Item, resistance, creator\u2019s caster level must be at least three times the cloak\u2019s bonus"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_caparison_of_resistance",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lady_s_spiral__crb_",
+    "name": {
+      "value": "Lady's Spiral"
+    },
+    "source": {
+      "value": "undead_slayer_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,621 GP SLOT none; CL 9th; Weight 3 lbs.; Aura moderate conjuration DESCRIPTION This heavy whip is a +1 ghost touch undead \u2013 bane whip that deals lethal damage to undead creatures regardless of their armor bonus or natural armor bonus. In addition, the handle of a Lady\u2019s spiral can be wielded as a +1 silver stake. This stake has the same statistics and properties as a wooden stake, except it is made of silver and thus overcomes DR /silver. Though it\u2019s effectively two weapons in one, a Lady\u2019s spiral is not a double weapon and cannot be wielded as one. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells cure light wounds, plane shift, summon monster I; Special creator must be a worshiper of a god or goddess of fate, death, prophecy, or rebirth; Cost 12,621 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lady_s_spiral",
+          "value": {
+            "value": 24621
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lady_s_spiral",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

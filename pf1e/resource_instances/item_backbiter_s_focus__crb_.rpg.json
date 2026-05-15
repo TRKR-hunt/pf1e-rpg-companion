@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "backbiter_s_focus__crb_",
+    "name": {
+      "value": "Backbiter's Focus"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,800 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate evocation DESCRIPTION This small darkwood rod is adorned with a carving of a figure whose own weapon is curled backward as if to strike the figure. Three times per day, the user can speak the rod\u2019s command word to curse a single manufactured weapon within 30 feet. If the weapon is magical, it can attempt a DC 16 Will save to avoid the curse. Whenever the cursed weapon damages a creature, it deals half as much damage to its wielder as well; only the weapon\u2019s base damage and the wielder\u2019s Strength bonus are factored into this damage\u00e2\u0080\u0094bonus damage from a magic weapon\u2019s special abilities, from its wielder\u2019s class features and feats, or from other effects are not factored into the damage dealt to the wielder. This is a curse effect that lasts for 7 rounds. CONSTRUCTION REQUIREMENTS Cost 4,900 gp; Feats Craft Rod, bestow curse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_backbiter_s_focus",
+          "value": {
+            "value": 7800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_backbiter_s_focus",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

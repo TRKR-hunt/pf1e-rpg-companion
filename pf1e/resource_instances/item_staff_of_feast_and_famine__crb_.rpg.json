@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_feast_and_famine__crb_",
+    "name": {
+      "value": "Staff of feast and famine"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot none; Price 20,800 gp; Weight 5 lbs. DESCRIPTION Leaves sprout from this wooden staff, some green and some black. When the wielder uses the staff, he plucks one of the leaves: a green leaf to provide sustenance or a black leaf to cause hunger or thirst. The staff allows the use of the following spells: Create water (1 charge) Goodberry (1 charge) Purify food and drink (1 charge) Cup of dust (2 charges) Feast of ashes (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells create water, cup of dust, feast of ashes, goodberry, purify food and drink; Cost 10,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_feast_and_famine",
+          "value": {
+            "value": 20800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_feast_and_famine",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wanderlust_map__crb_",
+    "name": {
+      "value": "Wanderlust Map"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 600 gp; Slot \u00e2\u0080\u0094; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination and transmutation DESCRIPTION Often used by halflings looking to escape their homes and satisfy their wanderlust, these maps appear as ordinary parchment. EFFECTS A user of a wanderlust map can spend 1 uninterrupted hour holding the map and thinking about exploring a region within 1,000 miles. After this time has passed, the wanderlust map turns into a detailed map of that area, granting a +5 bonus on exploration checks in that region. A wanderlust map shows only geographical features of a specific area. Once a wanderlust map has turned into a detailed map, it cannot be used to map a different region. CONSTRUCTION REQUIREMENTS Cost 300 gp; Feats Craft Wondrous Item; Spells commune with nature, secret page"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wanderlust_map",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

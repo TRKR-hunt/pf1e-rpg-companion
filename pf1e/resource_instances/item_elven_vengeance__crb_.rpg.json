@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elven_vengeance__crb_",
+    "name": {
+      "value": "Elven Vengeance"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,150 gp; Slot armor; CL 12th; Weight 20 lbs.; Aura strong abjuration DESCRIPTION This set of +2 elven chain grants its wearer a +4 resistance bonus on saving throws against spells, spell-like abilities, and other effects created by worshipers and minions of a specific demon lord, chosen when the armor is created. Against such foes, the armor\u2019s enhancement bonus increases to +4. CONSTRUCTION REQUIREMENTS Cost 10,650 gp; Feats Craft Magic Arms and Armor; Spells detect evil, resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elven_vengeance",
+          "value": {
+            "value": 16150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_elven_vengeance",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

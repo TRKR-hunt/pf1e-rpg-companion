@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "armor_of_the_unquenchable_fire__crb_",
+    "name": {
+      "value": "Armor of the Unquenchable Fire"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and enchantment; CL 8th; Slot armor; Price 4,840 gp; Weight 40 lbs. DESCRIPTION This blue-black +1 defiant chainmail has a metal badge depicting a three-dagger symbol fused to it. Each of these suits of armor is crafted with a particular type of foe in mind for the defiant property, as appropriate for the vengeance the original crafter sought. Once per day, the wearer can use charm person (lasting 1 hour) CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells charm person, summon monster I; Price 2,570 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_armor_of_the_unquenchable_fire",
+          "value": {
+            "value": 4840
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_armor_of_the_unquenchable_fire",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

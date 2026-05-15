@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "drinking_horn_of_the_panacea__crb_",
+    "name": {
+      "value": "Drinking Horn of the Panacea"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION This drinking horn is made from the highly polished tusk of some great beast. Etched around the rim are stylized waves and sea creatures. The horn typically appears empty, but once per day a creature holding it can command it to fill with a liquid that has the effect of one of four spells when consumed: cure serious wounds, neutralize poison, remove disease, or lesser restoration. Consuming a drink from the horn is a standard action that provokes attacks of opportunity. No matter the spell chosen, the drink in the horn has the appearance and honeyed fragrance of summer mead. If the liquid is not consumed within 1 minute or is spilled from the horn, its effects are wasted. CONSTRUCTION REQUIREMENTS Cost 6,000 gp; Feats Craft Wondrous Item; Spells cure serious wounds, neutralize poison, remove disease, lesser restoration"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_drinking_horn_of_the_panacea",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_drinking_horn_of_the_panacea",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blindfold_swordmaster_s__crb_",
+    "name": {
+      "value": "Swordmaster\u2019s blindfold"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot eye; Price 80,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This black band of silk grants its wearer spectacular senses within a limited range. Some believe these items were made to grant lesser swordmasters the illusion of skill. When the wearer places the blindfold over her eyes, she becomes blinded, but gains blindsight within the reach of her melee weapon, or 5 feet if the wearer is not wielding a melee weapon. Furthermore, the wearer is under the effect of a constant locate weakness spell, but only when making melee attacks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells blindness, locate weakness; Cost 40,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blindfold_swordmaster_s",
+          "value": {
+            "value": 80000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

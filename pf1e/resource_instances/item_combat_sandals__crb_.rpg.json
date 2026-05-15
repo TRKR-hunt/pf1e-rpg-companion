@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "combat_sandals__crb_",
+    "name": {
+      "value": "Sandals, Combat"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,000 gp; Slot feet CL 9th Weight 3 lbs.; Aura moderate transmutation DESCRIPTION Worked brown leather straps run up the backs and around the soles of this sturdy set of footwear. EFFECTS The wearer of a pair of combat sandals can charge through allies\u00e2\u0080\u0099 squares without difficulty, and allies adjacent to the wearer don\u00e2\u0080\u0099t provide cover to targets the wearer attacks with reach or ranged weapons. CONSTRUCTION REQUIREMENTS Cost 9,000 gp; Feats Craft Wondrous Item; Spells expeditious retreat, freedom of movement, true strike"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_combat_sandals",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_combat_sandals",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "screaming_blade__crb_",
+    "name": {
+      "value": "Screaming Blade"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,315 gp; Slot none; CL 10th; Weight 4 lbs.; Aura moderate evocation [evil] DESCRIPTION This +2 longsword contains the hideous captured screams of a torture victim. The blade howls these blasphemies and profanities whenever it is drawn. This discordant noise grants the wielder a +5 competence bonus on Intimidate checks, but any creature can hear the howls with a Perception DC of \u00e2\u0080\u009310, regardless of the wielder\u00e2\u0080\u0099s Stealth. The disturbing noise makes it difficult for nearby creatures to concentrate. Any creature other than the wielder within 60 feet attempting to cast a spell must succeed at a concentration check (DC = 15 + spell level) or the spell fails. Creatures within 60 feet take a \u00e2\u0080\u00932 penalty on skill checks that require concentration and are unable to take 10 (unless they have an ability that enables them to take 10 while distracted or threatened ). If the wielder is evil and has the bardic performance ability, she can use the screams as a masterwork instrument for either Perform (sing) or Perform (wind) and the DCs of her bardic performances that are fear effects increase by 1. Silence and similar effects suppress all the blade\u00e2\u0080\u0099s magical abilities except its enhancement bonus. CONSTRUCTION REQUIREMENTS Cost 12,815 gp; Feats Craft Magic Arms and Armor; Spells sound burst; Special creator must be evil and torture a sentient creature during creation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_screaming_blade",
+          "value": {
+            "value": 25315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_screaming_blade",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

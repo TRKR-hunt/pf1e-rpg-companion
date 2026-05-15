@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "laurel_of_command__crb_",
+    "name": {
+      "value": "Laurel of command #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 3rd; Slot head; Price 30,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Laurel leaves crafted from fine gold decorate this circlet that imparts powers of persuasion and leadership. The wearer\u00e2\u0080\u0099s voice carries great authority and can inspire others to victory. As a swift action, the wearer can speak words of encouragement or advice to an ally within 30 feet. That ally gains a +2 morale bonus on attack rolls, saving throws, skill checks, and ability checks until the start of the wearer\u00e2\u0080\u0099s next turn. The wearer can use the laurel to grant this bonus to himself. A creature cannot gain this bonus more than once per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, heroism; Cost 15,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_laurel_of_command",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

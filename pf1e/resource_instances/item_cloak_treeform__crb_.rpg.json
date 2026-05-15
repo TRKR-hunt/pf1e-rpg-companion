@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_treeform__crb_",
+    "name": {
+      "value": "Treeform cloak"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "APPEARANCE FUNCTION Aura moderate transmutation; CL 7th; Slot shoulders; Price 6,000 gp; Weight 1 lb. APPEARANCE This long green cloak\u00e2\u0080\u0099s back features an embroidered image of an ancient oak. FUNCTION Once per day on command, the wearer can assume the shape of a tree, as the tree shape spell, but can only take the form of a living tree. Furthermore, each hour the wearer spends in tree form while in direct sunlight, he heals 1d6 hit points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, goodberry, tree shape; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_treeform",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_treeform",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

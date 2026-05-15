@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pipes_of_shifting_tempo__crb_",
+    "name": {
+      "value": "Pipes of Shifting Tempo"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot none; Price 18,000 gp; Weight 2 lbs. DESCRIPTION In outer construction and manner of play, pipes of shifting tempo resemble a typical set of unremarkable pan pipes, but the complex chambers within the pipes are modeled after difficult-to-duplicate instruments. Music created by these pipes sounds unusually mournful, with a strange, almost warbling subtext to the notes. Up to three times per day, a user can attempt to harness these pipes\u2019 power by making a DC 15 Perform (wind instruments) check as a standard action. With a successful check, the possessor can play a grave melody to cast slow or an allegro melody to cast haste. The resulting spell functions as normal for the item\u2019s caster level, affecting five creatures per casting. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells haste, slow; Skills Perform (wind instrument) 5 ranks; Cost 9,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pipes_of_shifting_tempo",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pipes_of_shifting_tempo",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

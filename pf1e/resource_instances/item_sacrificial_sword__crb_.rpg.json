@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sacrificial_sword__crb_",
+    "name": {
+      "value": "Sacrificial Sword"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,235 gp; Slot none; CL 11th; Weight 4 lbs.; Aura moderate conjuration DESCRIPTION This finely crafted +2 bastard sword has three blood-red gems embedded in its pommel. When the wielder kills a living creature (even herself) with the sacrificial sword, she can transfer the life force of that creature into the body of a dead or dying ally up to 50 feet away as a swift action. The transferred life force acts as a reach breath of life spell. Each time this ability is activated, all color drains from one of the embedded gems. When all three gems are clear, the sacrificial sword can no longer transfer life energy, but it can still be used as a +2 bastard sword. CONSTRUCTION REQUIREMENTS Cost 14,215 gp; Feats Craft Magic Arms and Armor, Reach Spell; Spells breath of life"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sacrificial_sword",
+          "value": {
+            "value": 18235
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sacrificial_sword",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

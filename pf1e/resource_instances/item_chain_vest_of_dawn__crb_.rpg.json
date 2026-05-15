@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chain_vest_of_dawn__crb_",
+    "name": {
+      "value": "Chain Vest of Dawn"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration and evocation; CL 12th; Slot armor; Price 6,950 gp; Weight 25 lbs. DESCRIPTION This red-and-gold +1 spell storing chain shirt is designed to be worn over or between multiple layers of clothing such as garments suited for desert-traveling. At will, the wearer can use light and stabilize. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells light, stabilize; Special creator must be a caster of at least 12th level; Price 3,600 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chain_vest_of_dawn",
+          "value": {
+            "value": 6950
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chain_vest_of_dawn",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

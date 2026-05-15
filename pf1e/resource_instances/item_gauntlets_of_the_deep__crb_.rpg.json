@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_of_the_deep__crb_",
+    "name": {
+      "value": "Gauntlets of the Deep"
+    },
+    "source": {
+      "value": "city_in_the_deep"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot hands; CL 7th; Weight 2 lbs.; Aura moderate abjuration DESCRIPTION These gloves are covered in fish scales and always feel cold and wet to the touch. EFFECTS While wearing these gauntlets, after a 24-hour attunement period, the wearer can throw a weapon that deals piercing damage underwater without penalty, using the weapon\u00e2\u0080\u0099s normal range increment. When the wielder attacks a target in water from land, regardless of the weapon the wielder is using, the target doesn\u00e2\u0080\u0099t benefit from cover or total cover for being in water. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells freedom of movement"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_of_the_deep",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_of_the_deep",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

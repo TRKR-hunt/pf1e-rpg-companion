@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_of_the_mammoth_lord__crb_",
+    "name": {
+      "value": "Helm of the mammoth lord #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot head; Price 8,500 gp; Weight 3 lbs. DESCRIPTION This hide helm is set with plates of ivory carved with primitive runes, with a pair of tusks curving down on either side of the wearer\u00e2\u0080\u0099s face for cheek guards. The tusks of the helm provide a gore attack dealing 1d6 points of damage for a Medium wearers (or 1d4 points of damage for Small wearers) and counts as a magic weapon for the purposes of overcoming damage reduction. The helm of the mammoth lord also protects the wearer from cold environments as the endure elements spell. Furthermore, it provides a +5 competence bonus to Handle Animal, Ride, and wild empathy checks with elephants, mammoths, mastodons, and other similar elephant-like creatures. On command, the wearer may use detect animals or plants, but can only detect elephant-like creatures. On command, the wearer may use speak with animals, but only to communicate with elephant-like creatures. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape I, charm animal, detect animals or plants, speak with animals; Special creator must have 5 ranks in Handle Animal and Ride; Cost 4,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_of_the_mammoth_lord",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_of_the_mammoth_lord",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

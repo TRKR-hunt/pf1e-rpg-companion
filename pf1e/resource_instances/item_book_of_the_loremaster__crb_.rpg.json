@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "book_of_the_loremaster__crb_",
+    "name": {
+      "value": "Book of the loremaster #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 7th; Slot none; Price 15,000 gp; Weight 2 lbs. DESCRIPTION This digest-sized book contains a seemingly random collection of words, phrases, and strange mnemonic aids. Three times each day, a bard can consult it while using the lore master class feature in order to gain a +5 competence bonus when taking 10 or taking 20 on a Knowledge check. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, clairaudience / clairvoyance; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_book_of_the_loremaster",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_book_of_the_loremaster",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

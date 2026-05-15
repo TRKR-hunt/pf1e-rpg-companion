@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_swirling_smoke__crb_",
+    "name": {
+      "value": "Tattoo, Swirling Smoke"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,500 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint enchantment DESCRIPTION This simple tattoo emits a constant haze of odorless, shadowy smoke around the limbs of its bearer that she can animate with a thought, hiding herself behind a screen of smoke. If the tattoo is visible when the bearer is hit by a melee or ranged attack or when the bearer fails a Reflex save, the wearer can activate the tattoo to shroud herself in mist as an immediate action. This imposes a 20% miss chance on attacks made against the bearer. On a failed Reflex save, it grants the ability to reroll the Reflex save and gain a +4 bonus. The bearer can use this ability three times per day. CONSTRUCTION REQUIREMENTS Cost 6,250 gp; Feats Inscribe Magical Tattoo; Spells blur"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_swirling_smoke",
+          "value": {
+            "value": 12500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

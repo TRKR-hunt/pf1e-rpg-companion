@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sword_of_vengeance__crb_",
+    "name": {
+      "value": "Sword of Vengeance"
+    },
+    "source": {
+      "value": "chronicle_of_the_righteous"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation [good]; CL 9th; Slot none; Price 32,350 gp; Weight 8 lbs. DESCRIPTION It is said that divine soldiers wield these golden +1 holy greatswords in their battles against fiends and other evil creatures. Once per day upon successfully striking an evil-aligned creature with a sword of vengeance, the wielder can cause the sword to emit a 20-foot-radius burst of holy energy. This effect is identical to that of a holy smite spell centered on the creature struck, and deals 4d8 points of damage to each evil creature in the area (or 9d6 points of damage to evil outsiders ) and causes each to become blinded for 1 round. A successful DC 16 Will save halves the damage and negates the blinded effect. Neutral creatures in the area only take half damage (reduced to one-quarter on a successful save) and are not blinded. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells holy smite; Special creator must be good; Gold 16,350 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sword_of_vengeance",
+          "value": {
+            "value": 32350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sword_of_vengeance",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

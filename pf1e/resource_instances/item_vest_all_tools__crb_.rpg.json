@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vest_all_tools__crb_",
+    "name": {
+      "value": "All tools vest"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 1st; Slot chest; Price 1,800 gp; Weight 5 lbs. DESCRIPTION This well-made leather vest bears numerous shiny metal buttons, which stud a number of bulging pockets. Once per day, as a standard action, the wearer can speak the vest\u00e2\u0080\u0099s command word and order it to bring forth all the standard tools required to make checks for any one Craft skill. These tools appear in the countless pockets of the vest or, if too heavy, on the floor, on a nearby shelf, on a workbench, or in a toolbox or cupboard that appears nearby. Once summoned, they remain for 24 hours or until another creature touches them, whichever comes first. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, summon instrument; Cost 900 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vest_all_tools",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vest_all_tools",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

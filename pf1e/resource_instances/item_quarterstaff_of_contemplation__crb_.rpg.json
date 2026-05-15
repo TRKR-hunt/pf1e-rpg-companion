@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "quarterstaff_of_contemplation__crb_",
+    "name": {
+      "value": "Quarterstaff of Contemplation"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 34,800 gp; Slot none; CL 12th; Weight 4 lbs.; Aura strong transmutation DESCRIPTION Note This item is associated with a specific deity. This wooden pole is plain, save that green dragon scales adorn to its length. It is treated as a +2 quarterstaff but in the hands of a worshiper the associated deity, it gains the ki intensifying weapon special ability. If the wielder is a follower of the associated deity and possesses the wholeness of body class feature, he can spend a full-round action to meditate using the staff as a focus. Treat this as using wholeness of body at the cost of 1 ki point instead of 2. CONSTRUCTION REQUIREMENTS Cost 17,550 gp; Feats Craft Magic Arms and Armor; Special creator must be a 7th-level monk"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_quarterstaff_of_contemplation",
+          "value": {
+            "value": 34800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_quarterstaff_of_contemplation",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

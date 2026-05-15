@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_of_the_stars__crb_",
+    "name": {
+      "value": "Wayfinder of The Stars"
+    },
+    "source": {
+      "value": "people_of_the_stars"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 70,200 gp; Slot none; CL 17th; Weight 2 lbs.; Aura strong conjuration and divination DESCRIPTION About half again the size of a standard wayfinder, a wayfinder of the stars features an extra outer ring around the normal directional compass in the center. Embedded into this outer ring are 13 semi-precious stones, each representing a major celestial body of the solar system. At will, the owner can speak the item\u2019s command word to cause the wayfinder\u2019s compass needle to stop pointing north and instead indicate the direction of the nearest active interplanetary portal within 500 miles. If no such portal is within range, the compass needle hangs listlessly. A second command word causes the wayfinder of the stars to once again function as a basic wayfinder. Once per day, the owner can touch one of the semi-precious stones on the wayfinder of the stars to teleport her and any willing creatures touching her to a safe location on the indicated planet, as interplanetary teleport. CONSTRUCTION REQUIREMENTS Cost 35,100 gp; Feats Craft Wondrous Item; Spells interplanetary teleport, light, locate object"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_of_the_stars",
+          "value": {
+            "value": 70200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_of_the_stars",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

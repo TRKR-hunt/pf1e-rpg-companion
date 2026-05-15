@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_of_revelation__crb_",
+    "name": {
+      "value": "Wayfinder of Revelation"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination and evocation; CL 6th Slot none; Price 8,000 gp; Weight 1 lb. DESCRIPTION Wayfinders of revelation show a more ornate design than ordinary wayfinders, and are crafted of gold-accented silver. A wayfinder of revelation\u2019s light effect is double the normal effect of a light spell, illuminating an area twice as large. Once per day as a standard action, while a wayfinder of revelation is creating light, you can fill this 40-foot radius of light with an invisibility purge effect (as per the spell). This effect also makes it easier to notice secret doors and hidden compartments\u00e2\u0080\u0094characters who search for such hidden objects and portals inside this area gain a +10 bonus on their Perception checks to do so. Once activated, this effect remains active for 6 rounds."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_of_revelation",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_of_revelation",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

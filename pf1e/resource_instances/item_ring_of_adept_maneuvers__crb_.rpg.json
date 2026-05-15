@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_adept_maneuvers__crb_",
+    "name": {
+      "value": "Ring of Adept Maneuvers"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot ring; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This variant ring of ki mastery is made of a lock of hair held together by small bands to form a ring. The ring allows a wearer with a ki pool to store up to 2 ki points in the ring as a swift action. These points remain in the ring until used. The wearer can use the ki points normally, but gains the following benefits when ki points are stored in the ring. As long as at least 1 ki point is stored in the ring, the wearer gains a +2 bonus on combat maneuver checks to bull rush, disarm, or trip opponents. If at least 2 ki points are stored in the ring, the wearer takes only a \u00e2\u0080\u00931 penalty on attack rolls when making a flurry of blows instead of a \u00e2\u0080\u00932 penalty. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells ki leech; Special the creator must have the ki pool class feature; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_adept_maneuvers",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

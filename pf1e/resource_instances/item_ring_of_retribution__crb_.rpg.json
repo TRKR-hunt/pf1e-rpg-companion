@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_retribution__crb_",
+    "name": {
+      "value": "Ring of retribution"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 13th; Slot ring; Price 15,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Once per day, the wearer of this charred bone ring may, as an immediate action, cause it to detonate in a 30-foot-radius burst that deals 10d6 points of fire damage ( Reflex DC 14 half). If the wearer is killed by the detonation, all magical equipment he carries must also save or take fire damage, and all non-magical equipment takes this damage with no saving throw. This explosion never destroys the ring. CONSTRUCTION REQUIREMENTS Feats Forge Ring, Quicken Spell, fireball; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_retribution",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

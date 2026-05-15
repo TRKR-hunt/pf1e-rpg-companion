@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brilliant_bulwark__crb_",
+    "name": {
+      "value": "Brilliant Bulwark"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,655 gp; Slot none; CL 10th; Weight 4 lbs.; Aura moderate evocation DESCRIPTION This +1 blinding buckler is made from a lustrous glass that is as hard as steel and reflects light like a mirror. The shield glows as a torch, though this light can be suppressed or resumed on command. The shield can be commanded to shine light as per daylight for up to 10 minutes each day. This duration need not be consecutive, but it must be used in 1-minute increments. The wielder can also expend this duration while activating the buckler\u00e2\u0080\u0099s blinding ability to increase the save DC by 1 for every 2 minutes of daylight duration expended. The shield must sit in natural bright light for at least 1 hour after its 10 minutes of daylight is expended before the ability can be used again. CONSTRUCTION REQUIREMENTS Cost 4,975 gp; Feats Craft Magic Arms and Armor; Spells daylight, light"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brilliant_bulwark",
+          "value": {
+            "value": 9655
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_brilliant_bulwark",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

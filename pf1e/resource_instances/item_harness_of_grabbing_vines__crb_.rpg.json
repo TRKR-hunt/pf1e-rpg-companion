@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "harness_of_grabbing_vines__crb_",
+    "name": {
+      "value": "Harness of Grabbing Vines"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 40,000 gp; Slot body; CL 5th; Weight 1/2 lb.; Aura faint transmutation DESCRIPTION This ivy harness allows the wearer\u2019s wings to manipulate objects or grab on to handholds, as if they were extra arms, as long as the wearer isn\u2019t flying. They do not grant additional attacks, but they can be used to hold items or perform combat maneuvers without requiring the wearer\u2019s hands. On command, the harness grows roots that anchor the wearer in place much like anchored step. When thus anchored, the wearer can climb using only legs and wings with a climb speed equal to the wearer\u2019s reduced base speed. The benefits of anchored step apply while the wearer is climbing with the roots. CONSTRUCTION REQUIREMENTS Cost 20,000 gp; Feats Craft Wondrous Item; Spells anchored step, spider climb"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_harness_of_grabbing_vines",
+          "value": {
+            "value": 40000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

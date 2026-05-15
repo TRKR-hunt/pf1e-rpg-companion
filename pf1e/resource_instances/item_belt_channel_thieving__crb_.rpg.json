@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_channel_thieving__crb_",
+    "name": {
+      "value": "Belt, Channel-Thieving"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot belt; CL 3rd; Weight 2 lbs.; Aura faint conjuration and necromancy DESCRIPTION This wide black leather belt is inlaid with spiraling copper runes. If the wearer is a living creature, she heals each time she is within the area of a burst of channeled positive energy used to deal damage to undead creatures. If the wearer is an undead creature, it heals each time it is within the area of a burst of channeled negative energy used to deal damage to living creatures. The wearer regains 1 hit point for each 1d6 points of energy channeled. The belt has no effect if its wearer is the one channeling energy. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells cure light wounds, inflict light wounds"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_channel_thieving",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_channel_thieving",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "medium_s_harrow_mat__crb_",
+    "name": {
+      "value": "Medium's Harrow Mat"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate necromancy DESCRIPTION This harrow mat allows a harrower to tap into the ancestral knowledge of nearby spirits. If a harrower uses this mat as an additional focus component while casting harrowing or greater harrowing, she treats her caster level as 1 higher. When this mat is used to perform a harrowing (magical or not) over a grave or other burial site, the spirit of the interned body influences the harrowing; for each card drawn related to the past, the harrower can draw from the deck twice and choose which card to place. CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item; Spells speak with dead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_medium_s_harrow_mat",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_medium_s_harrow_mat",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

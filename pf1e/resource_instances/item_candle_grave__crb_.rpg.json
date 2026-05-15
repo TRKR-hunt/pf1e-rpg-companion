@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "candle_grave__crb_",
+    "name": {
+      "value": "Candle, Grave"
+    },
+    "source": {
+      "value": "occult_mysteries"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,500 gp; Slot none; CL 10th; Weight 1 lb.; Aura moderate necromancy DESCRIPTION Grave candles are magical candles that draw forth spirits from the mortal remains of long-dead creatures, allowing the living to speak to these spirits for a short period while the candle\u2019s wick burns. In order to function, a grave candle must be placed amid the physical remains of the body whose spirit the user wishes to contact. These remains can be partial, or even just a handful of ash or grave dust, but a totally destroyed body (as results from destruction or disintegrate ) doesn\u2019t leave enough material for a grave candle to function. When the candle is lit, the smoke rising from the candle grows thick, and a ghostly shape similar to the creature\u2019s appearance in life manifests in the smoke. At this point, the manifested spirit (which is as much an echo of the creature as it is the actual departed soul) can speak. A grave candle does not impart any additional understanding of languages to its user. In other respects, the conversation with the dead spirit adheres to the rules for speak with dead, save that the dead spirit takes a \u00e2\u0080\u00934 penalty on its saving throw to resist the spell. Furthermore, a dead body can be subjected to the effects of a grave candle only once\u00e2\u0080\u0094the burning of a grave candle effectively burns out the latent necromantic and spiritual energy left behind by the soul\u2019s departure from the world (this does not harm the actual soul of the dead spirit, however) and destroys the candle. CONSTRUCTION REQUIREMENTS Cost 2,750 gp; Feats Craft Wondrous Item; Spells speak with dead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_candle_grave",
+          "value": {
+            "value": 5500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_candle_grave",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

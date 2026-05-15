@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_scavenger_s__crb_",
+    "name": {
+      "value": "Ring, Scavenger's"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot ring; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate abjuration DESCRIPTION This polished iron band allows the wearer to walk along the ocean floor as easily as on dry land. The wearer of a scavenger\u2019s ring sinks to the bottom of any large body of water at a rate of 30 feet per round. Once on the body of water\u2019s floor, the wearer can move and act as though she were on land, allowing her to jump, roll, attack, and run as normal, although she cannot swim (nor can she control her ascent or descent underwater) as long as she wears the ring. As soon as the wearer removes the ring, she may swim as normal and is subject to all the normal penalties associated with underwater action. A scavenger\u2019s ring does not confer the ability to breathe while underwater. CONSTRUCTION REQUIREMENTS Cost 7,500 gp; Feats Forge Ring; Spells freedom of movement"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_scavenger_s",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shadow_fletching__crb_",
+    "name": {
+      "value": "Shadow Fletching"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot head; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION These small black feathers appear to have been stripped off an arrow and crafted into a token. By braiding a shadow fletching into her hair, a character can imbue herself with the magic of the Shadow Plane. Three times per day by touching the fletching as a swift action in an area of dim light or darkness, the wearer can enshroud her next ranged attack in shadowy extraplanar energy. As long as the wearer makes this attack before the end of her turn, the target of the attack is denied its Dexterity bonus to AC as if the attacker were invisible. This doesn\u2019t affect creatures with low-light vision, darkvision, or any ability that allows them to see invisible creatures. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells gloomblind bolts; Special creator must be a fetchling"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shadow_fletching",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

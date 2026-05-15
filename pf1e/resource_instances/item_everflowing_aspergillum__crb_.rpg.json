@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "everflowing_aspergillum__crb_",
+    "name": {
+      "value": "Everflowing aspergillum"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Weight 4 lbs.; Price 7,805 gp DESCRIPTION The holy water in this +1 battle aspergillum never runs dry. However, the water vanishes 1 round after leaving the aspergillum, so it cannot be collected. As a full-round action, the wielder can swing the weapon to dispense a vial\u2019s worth of holy water as a ranged touch attack with a maximum range of 10 feet and no range penalty. An everflowing aspergillum counts as a good-aligned weapon for purposes of overcoming damage reduction. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bless water, create water; Cost 3,905 gp Image used by permission of Bart R. Voigt."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_everflowing_aspergillum",
+          "value": {
+            "value": 7805
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_everflowing_aspergillum",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

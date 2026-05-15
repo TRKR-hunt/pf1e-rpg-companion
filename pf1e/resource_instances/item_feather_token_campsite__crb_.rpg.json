@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "feather_token_campsite__crb_",
+    "name": {
+      "value": "Campsite Feather Token"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong conjuration DESCRIPTION This feather token can be used only once. It creates a fully functional campsite, including a tent suitable to house six Medium creatures, a campfire with enough dry wood to burn for 24 hours, a modest wooden table with two benches suitable to seat three people each, and a hitching post for up to six steeds. The campsite remains for up to 24 hours before disappearing, leaving no trace except footsteps and refuse left behind by those using the site. CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Wondrous Item; Spells major creation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_feather_token_campsite",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

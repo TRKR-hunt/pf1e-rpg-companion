@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dagger_of_repossession__crb_",
+    "name": {
+      "value": "Dagger of Repossession"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,702 gp; Slot none; CL 9th; Weight 1 lb.; Aura moderate abjuration DESCRIPTION This +1 dagger has a thin crystal tube embedded in its center. Once per day, the wielder of this dagger may slash herself, dealing damage as normal, but also channel some of her own blood into the tube, imprinting her memories onto the dagger. The imprinted blood lasts for a number of days equal to the wielder\u2019s HD plus her Constitution modifier (minimum 1). During this time, the dagger of repossession is typically given to an ally of the creature whose blood is imprinted. If the original wielder becomes possessed (such as by a ghost\u2019s malevolence ability or a magic jar spell) and she\u2019s slashed with the dagger again, the imprinted blood is consumed, the target regains her memories, and any possession effect immediately ends. A dagger of repossession does not end charm or compulsion effects, but the target receives another save against these effects at the original DC. Other mind-affecting effects are unaffected by the dagger. An imprinted dagger of repossession has no unusual effect if used on anyone other than the target whose blood is imprinted. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells break enchantment; Cost 7,502 gp Get this book AND support this site!"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dagger_of_repossession",
+          "value": {
+            "value": 14702
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dagger_of_repossession",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

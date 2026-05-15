@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "choker_of_the_beast__crb_",
+    "name": {
+      "value": "Choker of the Beast"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 100,000 gp; Slot neck; CL 20th; Weight 1 lb.; Aura strong abjuration and conjuration DESCRIPTION This black iron neckpiece grants an evil wearer a +2 profane bonus on all saving throws. A creature with the touch of corruption class ability that wears the choker of the beast increases the damage dice of that ability from 1d6 per 2 antipaladin levels to 1d8 per 2 levels. Good-aligned creatures within 120 feet of the choker of the beast hear distant bellows of unimaginable rage, giving them a \u00e2\u0080\u00932 penalty on all Perception checks as the sounds distract them. Within 30 feet of the necklace, the sound increases, and all good-aligned creatures must succeed at a DC 18 Will save or be shaken while within range. They can attempt another save after 24 hours. If the wearer willingly breaks the choker in half (a full-round action ), the ground under his feet ruptures open and consumes him (as the imprisonment spell). The blood of the beast seeps up from the wound in the earth 1d6 rounds after the wielder is consumed. Treat this as a fiendish carnivorous blob that attacks any living creature within sight. The hole seals immediately after the blood rises. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells imprisonment, summon monster IX; Cost 50,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_choker_of_the_beast",
+          "value": {
+            "value": 100000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_choker_of_the_beast",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

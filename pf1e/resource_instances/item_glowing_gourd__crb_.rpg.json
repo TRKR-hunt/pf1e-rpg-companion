@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "glowing_gourd__crb_",
+    "name": {
+      "value": "Glowing Gourd"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,250 gp; Slot none; CL 9th; Weight 8 lbs.; Aura moderate evocation [good] DESCRIPTION This gourd has been hollowed out and carved with the symbol of a good-aligned deity. It sheds light as a candle. If the gourd is smashed onto the ground, the 40-foot-radius area around the crushed gourd is affected as if by hallow with a remove fear spell fixed to it. This magic item is often crafted from a pumpkin, though other types of gourds, or even large turnips, can be used. CONSTRUCTION REQUIREMENTS Cost 3,125 gp; Feats Craft Wondrous Item; Spells hallow, remove fear"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_glowing_gourd",
+          "value": {
+            "value": 4250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_glowing_gourd",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

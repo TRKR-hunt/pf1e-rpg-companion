@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fox_s_cunning__crb_",
+    "name": {
+      "value": "Fox\u00e2\u0080\u0099s cunning"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "potion"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": ""
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fox_s_cunning",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

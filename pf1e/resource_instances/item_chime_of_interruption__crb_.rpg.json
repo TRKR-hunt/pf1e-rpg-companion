@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chime_of_interruption__crb_",
+    "name": {
+      "value": "Chime of interruption #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Slot \u00e2\u0080\u0094; Price 16,800 gp; Weight 1 lb. DESCRIPTION This instrument can be struck once every 10 minutes, and its resonant tone lasts for 3 full minutes. While the chime is resonating, no spell requiring a verbal component can be cast within a 30-foot radius of it unless the caster can make a concentration check ( DC 15 + the spell\u2019s level). CONSTRUCTION REQUIREMENTS Craft Wondrous Item, shout; Cost 8,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chime_of_interruption",
+          "value": {
+            "value": 16800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chime_of_interruption",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

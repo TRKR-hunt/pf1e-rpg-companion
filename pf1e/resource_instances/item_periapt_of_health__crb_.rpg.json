@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "periapt_of_health__crb_",
+    "name": {
+      "value": "Periapt of health #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot neck; Price 7,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION The simple periapt usually appears as a blue gemstone fastened to a silver chain designed to be worn around the neck. The wearer is immune to all disease, including supernatural diseases. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, remove disease; Cost 3,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_periapt_of_health",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

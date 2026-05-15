@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bottled_sunlight__crb_",
+    "name": {
+      "value": "Bottled Sunlight"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 200 gp; Slot none; CL 1st; Weight \u00e2\u0080\u0094; Aura weak evocation DESCRIPTION This opaque orb contains the distilled essence of sunlight. On command up to once per day, it releases a small vial of sunlight that produces a bright light in its square for 1 hour, during which time it provides enough energy to satisfy a single plant creature\u2019s daily nourishment requirements. The light counts as natural sunlight in the square containing the vial. If the vial enters the square of an undead creature with a weakness to sunlight, the creature can attempt a DC 11 Will save; if it succeeds, the vial is instantly extinguished. The creature can attempt this saving throw each round the vial remains in its square, but the sunlight isn\u2019t strong enough to actually damage creatures susceptible to sunlight. Shattering the vial extinguishes its light. A vial has hardness 2 and 5 hit points. After the orb has released 50 vials of sunlight, it loses its magical properties. CONSTRUCTION REQUIREMENTS Cost 100 gp; Feats Craft Wondrous Item; Spells daylight"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bottled_sunlight",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

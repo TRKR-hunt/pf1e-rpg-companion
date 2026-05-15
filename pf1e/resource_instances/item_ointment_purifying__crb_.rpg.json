@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ointment_purifying__crb_",
+    "name": {
+      "value": "Ointment, Purifying"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint abjuration and conjuration DESCRIPTION Usually stored in a jar shaped like a scarab beetle, this unguent is pale green and smells like thistle with a hint of the scent of embalming fluids. A jar contains five applications, each of which can be applied as a full-round action. When applied to an afflicted area or swallowed, the ointment removes a single curse or restores ability damage caused by an undead\u00e2\u0080\u0099s special attack (such as a shadow\u00e2\u0080\u0099s touch). This ointment otherwise acts as per lesser restoration or remove curse with a +5 bonus on the check. Unlike normal applications of remove curse, purifying ointment can potentially remove an affliction that is both a curse and disease (such as mummy rot), though that requires two successful caster level checks. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells lesser restoration, remove curse, remove disease"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ointment_purifying",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "skyspirit_stone__crb_",
+    "name": {
+      "value": "Skyspirit Stone"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot none; CL 5th Weight 1/2 lb.; Aura faint conjuration APPEARANCE This object was naturally struck by lightning and imbued with a spirit of the sky. Despite the name, this object does not have to be a stone, though small objects made into skyspirit stones are the most common, convenient, and prized. EFFECTS Once per day, the stone can be placed in liquor or milk for 1 minute to infuse the liquid with the spirit\u00e2\u0080\u0099s power. A kineticist with the air elemental focus (aerokineticist) can drink this liquid as a move action to gain assistance from the spirit\u00e2\u0080\u0099s power. For 1 hour after drinking the liquid, the kineticist can negate a single point of burn gained from using her kineticist abilities (this does not heal the associated nonlethal damage from the point of burn). This effect does not stack with itself. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells lesser restoration"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_skyspirit_stone",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

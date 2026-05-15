@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "aegis_of_recovery__crb_",
+    "name": {
+      "value": "Aegis of recovery #2"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot neck; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint abjuration and conjuration DESCRIPTION An aegis of recovery grants its wearer a +2 resistance bonus on all saving throws made to recover from a continuing effect, such as ongoing poison damage, daily saving throws against disease, a hold person spell, or lingering damage from an attack. This bonus does not help against initial saving throws against such effects. Should the wearer ever drop below 0 hit points, the aegis heals the wearer for 2d8+3 points of damage and then crumbles to dust. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item; Spells barkskin, cure moderate wounds Aegis of Recovery, Greater Price 3,750 gp; Slot neck; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate abjuration and conjuration DESCRIPTION This aegis has a thick medallion that is typically carved with the image of bared fangs or a poisoned dagger. It functions as an aegis of recovery, except it grants the wearer a +5 resistance bonus on all saving throws to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a hold person spell, or lingering damage from an attack. Should the wearer drop below 0 hit points, the greater aegis of recovery heals the wearer for 5d8+7 points of damage and then crumbles to dust. CONSTRUCTION REQUIREMENTS Cost 1,875 gp; Feats Craft Wondrous Item; Spells barkskin, breath of life"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_aegis_of_recovery",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

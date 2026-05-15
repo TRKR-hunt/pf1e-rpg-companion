@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "flame_of_rage__crb_",
+    "name": {
+      "value": "Flame of Rage"
+    },
+    "source": {
+      "value": "advanced_class_origins"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot head; CL 3rd; Weight 1 lb.; Aura faint evocation DESCRIPTION This ancient diadem is crafted in the shape of an enraged face with an enormous ruby in the center. The gem allows its wearer to channel her rage into pure flame. While under the effects of rage, as a standard action the wearer can expend 1 round of rage or raging song to cause the ruby to release a beam of fire like a miniature hellfire flume. If the wearer succeeds at a ranged touch attack against a creature or object within 30 feet, the beam deals 2d6 points of fire damage to that target. If the wearer instead expends 3 rounds of rage, bloodrage, or raging song, the beam becomes a 60-foot line instead, dealing 5d6 points of fire damage to all creatures and objects along that line ( Reflex DC 14 negates). CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells scorching ray"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_flame_of_rage",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_flame_of_rage",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

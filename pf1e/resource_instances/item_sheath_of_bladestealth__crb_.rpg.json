@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sheath_of_bladestealth__crb_",
+    "name": {
+      "value": "Sheath of bladestealth #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 5th; Slot belt; Price 5,000 gp; Weight 2 lbs. DESCRIPTION This mundane-looking but serviceable sheath fits any bladed slashing weapon, from a dagger to a greatsword. When a weapon is placed into the sheath of bladestealth, both it and the weapon become invisible (as the invisibility spell) until the weapon is drawn, at which point it and the sheath become visible again. The invisible sheathed weapon can still be detected by touch, but the bearer gains a +5 bonus on Sleight of Hand checks to conceal the weapon, and casual inspection does not reveal it at all. Other effects that detect or reveal invisible things work normally on the sheathed weapon. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, invisibility; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sheath_of_bladestealth",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sheath_of_bladestealth",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

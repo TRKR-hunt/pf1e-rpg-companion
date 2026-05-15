@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vindictive_harpoon__crb_",
+    "name": {
+      "value": "Vindictive Harpoon"
+    },
+    "source": {
+      "value": "the_wormwood_mutiny"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot none; Price 10,305 gp; Weight 16 lbs. DESCRIPTION This +1 returning harpoon is made from the jagged, scrimshaw-carved tusk of a narwhal attached to a 50-foot length of woven sinew. Unlike most thrown weapons, a vindictive harpoon functions as well underwater as on land, and its wielder takes no penalties on attack rolls underwater. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells freedom of movement, telekinesis; Cost 5,305 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vindictive_harpoon",
+          "value": {
+            "value": 10305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vindictive_harpoon",
+          "value": {
+            "value": 16
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

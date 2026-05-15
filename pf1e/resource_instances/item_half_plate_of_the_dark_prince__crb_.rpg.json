@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "half_plate_of_the_dark_prince__crb_",
+    "name": {
+      "value": "Half-Plate of the Dark Prince"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and enchantment; CL 3rd; Slot armor; Price 3,910 gp; Weight 50 lbs. DESCRIPTION This regal-looking +1 half-plate is decorated with red infernal symbols and an inverted pentagram. The wearer can use charm person and infernal healing each once per day CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells charm person, infernal healing; Price 2,330 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_half_plate_of_the_dark_prince",
+          "value": {
+            "value": 3910
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_half_plate_of_the_dark_prince",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

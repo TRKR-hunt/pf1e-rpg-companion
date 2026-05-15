@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horseshoes_of_great_burden__crb_",
+    "name": {
+      "value": "Horseshoes of Great Burden"
+    },
+    "source": {
+      "value": "pathfinder_chronicles_seekers_of_secrets_paizo_publishing_llc"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot feet; Price 2,500 gp; Weight 24 lbs (for four) DESCRIPTION These sturdy iron horseshoes come in sets of four like ordinary horseshoes, but are much heavier. When affixed to an animal\u00e2\u0080\u0099s hooves, they double the animal\u00e2\u0080\u0099s carrying capacity. All four shoes must be worn by the same animal for the magic to be effective. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bear\u00e2\u0080\u0099s endurance, bull\u00e2\u0080\u0099s strength; Cost 1,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horseshoes_of_great_burden",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horseshoes_of_great_burden",
+          "value": {
+            "value": 24
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

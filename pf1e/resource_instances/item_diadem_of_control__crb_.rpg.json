@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "diadem_of_control__crb_",
+    "name": {
+      "value": "Diadem of Control"
+    },
+    "source": {
+      "value": "construct_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 189,000 gp; Slot headband; CL 15th; Weight \u00e2\u0080\u0094; Aura strong enchantment This elegant headband has an intricately carved crystal located in its center. The crystal shimmers with arcane energy. The wearer can remove or replace this crystal as a swift action. As a standard action, the wearer can attempt to force the gem onto a construct\u00e2\u0080\u0099s body with a touch attack that provokes an attack of opportunity. Once the crystal is attached to a construct, the construct must succeed at a DC 23 Will save or become dominated by the crystal and follow the orders of whomever is wearing the headband. The wearer of the headband can assume direct control of the construct as a full-round action, controlling all of the construct\u00e2\u0080\u0099s actions as possession. The wearer can end this control at any time as a free action. The wearer can remove the crystal from a construct as a standard action, allowing the wearer to use the crystal on a different construct and returning control of the construct to its original master. If the construct is destroyed while the crystal is attached, there is a 10% chance that the crystal is destroyed along with the construct. CONSTRUCTION REQUIREMENTS Cost 94,500 gp; Feats Craft Wondrous Item; Spells dominate monster, possession"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_diadem_of_control",
+          "value": {
+            "value": 189000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "talonstrike_sword__crb_",
+    "name": {
+      "value": "Talonstrike Sword"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 33,835 gp; Slot none; CL 8th; Weight 3 lbs.; Aura moderate abjuration DESCRIPTION These mithral +2 defending bastard swords are favored blades of the Eagle Knights. Easily recognized by its eagle\u2019s-head pommel and golden quillons crafted like upswept eagle wings, a talonstrike sword\u2019s defending special ability also protects the wielder\u2019s mount. Once per day when the wielder confirms a critical hit with a talonstrike sword, the wielder can cast dimensional anchor on the target as a free action. CONSTRUCTION REQUIREMENTS Cost 18,435 gp; Feats Craft Magic Arms and Armor; Spells dimensional anchor, shield or shield of faith"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_talonstrike_sword",
+          "value": {
+            "value": 33835
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_talonstrike_sword",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "life_drinker__crb_",
+    "name": {
+      "value": "Life-Drinker"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy; CL 13th; Weight 12 lbs.; Price 40,320 gp DESCRIPTION This +1 greataxe is favored by undead and constructs, who do not suffer its drawbacks. A life-drinker bestows two negative levels on its target whenever it deals damage, just as if its target had been struck by an undead creature. One day after being struck, subjects must succeed at a DC 16 Fortitude save for each negative level or the negative levels become permanent. Each time a life-drinker deals damage to a foe, it also bestows one negative level on the wielder. Any negative levels gained by the wielder in this fashion lasts for 1 hour. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells enervation; Cost 20,320 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_life_drinker",
+          "value": {
+            "value": 40320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_life_drinker",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

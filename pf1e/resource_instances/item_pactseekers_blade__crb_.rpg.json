@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pactseekers_blade__crb_",
+    "name": {
+      "value": "Pactseeker's Blade"
+    },
+    "source": {
+      "value": "blood_of_the_coven"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 55,330 gp; Slot none; CL 9th; Weight 4 lbs.; Aura moderate necromancy DESCRIPTION This +2 cruel longsword features layers of cold iron and steel folded over one another repeatedly. The blade counts as cold iron for the purpose of overcoming a creature\u2019s damage reduction. Whenever a pactseeker\u2019s blade successfully deals at least 1 point of damage (after damage reduction ) to a target, the weapon also deals damage equal to the weapon\u2019s enhancement bonus to each ally that shares an ongoing spell (such as haste ) with or is otherwise magically bound to the target (such as other members of a hag coven). This damage disregards the range between the weapon\u2019s target and such bound creatures, and the damage bypasses damage reduction. CONSTRUCTION REQUIREMENTS Cost 27,830 gp; Feats Craft Magic Arms and Armor; Spells cause fear, death knell, symbol of pain"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pactseekers_blade",
+          "value": {
+            "value": 55330
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pactseekers_blade",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

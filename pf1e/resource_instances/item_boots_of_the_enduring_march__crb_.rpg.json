@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_the_enduring_march__crb_",
+    "name": {
+      "value": "Boots of the enduring march #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 2nd; Slot feet; Price 1,500 gp; Weight 2 lbs. DESCRIPTION These travel-stained boots of stout brown leather enable the wearer to traverse great distances without tiring. When making a forced march, for each hour of marching beyond 8 hours, the wearer needs only to make a Constitution check (DC 10, +1 per extra hour) instead of the normal check. Furthermore, if the wearer fails the check, she only takes 1d4 points of nonlethal damage and does not become fatigued the first time she takes nonlethal damage in this way. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Endurance; Cost 750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_the_enduring_march",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_the_enduring_march",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

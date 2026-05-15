@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_truthseeker__crb_",
+    "name": {
+      "value": "Wayfinder, Truthseeker"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 39,000 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate divination DESCRIPTION This wayfinder is crafted from polished gold and when viewed in bright light is highly reflective\u00e2\u0080\u0094 resembling a mirror more than it does simple metal. A truthseeker wayfinder allows the wielder to cast zone of truth for up to 7 minutes per day ( Will DC 14 negates). This duration doesn\u2019t need to be continuous, but must be used in 1-minute increments. If a creature saves against this effect once, it is immune to the effect for 24 hours. Creatures that fail their saves are granted a new save each time the effect is activated anew. Once per day, the wielder of a truthseeker wayfinder can gain the benefits of discern lies for up to 7 rounds ( Will DC 16 negates). When the truthseeker wayfinder senses the target creature issue an intentional falsehood, it vibrates just enough to be perceptible to the wielder but no one else. CONSTRUCTION REQUIREMENTS Cost 19,500 gp; Feats Craft Wondrous Item; Spells discern lies, light, zone of truth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_truthseeker",
+          "value": {
+            "value": 39000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_truthseeker",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

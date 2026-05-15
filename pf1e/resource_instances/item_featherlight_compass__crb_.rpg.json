@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "featherlight_compass__crb_",
+    "name": {
+      "value": "Compass, Featherlight"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This compass\u00e2\u0080\u0099s components are so fine that it is practically weightless. When held in the hand in an area of subjective directional gravity, the bearer automatically succeeds at Wisdom checks to change direction and can increase or decrease his falling speed by 30 feet during the first round after he changes his subjective gravitational direction. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item; Spells know direction"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_featherlight_compass",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

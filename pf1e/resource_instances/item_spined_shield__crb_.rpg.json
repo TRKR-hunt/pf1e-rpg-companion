@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spined_shield__crb_",
+    "name": {
+      "value": "Spined shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Weight 15 lbs.; Price 5,580 gp DESCRIPTION This +1 heavy steel shield is covered in spines. It acts as a normal spiked shield. On command up to three times per day, the shield\u2019s wearer can fire one of the shield\u2019s spines. A fired spine has a +1 enhancement bonus, a range increment of 120 feet, and deals 1d10 points of damage (19\u00e2\u0080\u009320/\u00c3\u00972). Fired spines regenerate each day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, magic missile; Cost 2,875 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spined_shield",
+          "value": {
+            "value": 5580
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spined_shield",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracers_of_celestial_intervention__crb_",
+    "name": {
+      "value": "Bracers of Celestial Intervention"
+    },
+    "source": {
+      "value": "monster_summoner_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot wrist; CL 13th Weight 1 lb.; Aura strong conjuration DESCRIPTION Prayers and engravings of celestial beings cover these golden bracers. A paladin can expend one or more of her uses of smite evil into these bracers as a standard action to call forth agathions, angels, or archons to aid her. This acts as a summon monster spell of a spell level equal to the number of smite evil uses the paladin expends. Outsiders summoned with the bracers must be from the list detailed in the summon monster spell or from the expanded summon monster list. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item; Spells summon monster VII; Special creator must be lawful good"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracers_of_celestial_intervention",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracers_of_celestial_intervention",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

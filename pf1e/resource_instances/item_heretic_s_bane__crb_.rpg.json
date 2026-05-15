@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "heretic_s_bane__crb_",
+    "name": {
+      "value": "Heretic\u00e2\u0080\u0099s bane"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 8th; Slot none; Price 32,000 gp; Weight 5 lbs. DESCRIPTION This sturdy wooden staff is crowned by a holy symbol, surrounded by wicked barbs of metal. The staff allows use of the following spells: Castigate (1 charge) Command (1 charge) Zone of Truth (1 charge) Denounce (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells castigate, command, denounce, zone of truth; Cost 16,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_heretic_s_bane",
+          "value": {
+            "value": 32000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_heretic_s_bane",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

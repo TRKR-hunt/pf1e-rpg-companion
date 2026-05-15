@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cornerstone_crossbow__crb_",
+    "name": {
+      "value": "Cornerstone Crossbow"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 21,335 gp; Slot none CL 12th Weight 9 lbs.; Aura strong divination EFFECTS As a standard action, this +1 seeking light crossbow can generate bolts of force that briefly harden to anchor on corners and walls of structures, trailing a line of force that connects the bolt to the crossbow. As a move action, the wielder of the weapon can pull the crossbow to the anchor, swiftly carrying the wielder to the anchor point. The bolt of force has a maximum range of 80 feet, and can anchor only to a structure study enough to support the wielder\u00e2\u0080\u0099s weight. If there is not a platform appropriate for the wielder to land on next to the anchor, the wielder must succeed at a Climb check (DC appropriate to climbing the surface the bolt of force is anchored to) or immediately fall. The bolt of force disappears in 1d4 rounds, just after the crossbow is drawn to it (the wielder has time to land), or when the next bolt of force is fired, whichever comes first. The bolts of force deal no damage, and creatures other than the wielder are unaffected by them. CONSTRUCTION REQUIREMENTS Cost 10,835 gp; Feats Craft Magic Arms and Armor; Spells levitate, true seeing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cornerstone_crossbow",
+          "value": {
+            "value": 21335
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cornerstone_crossbow",
+          "value": {
+            "value": 9
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "earring_mutineer_s_bane__crb_",
+    "name": {
+      "value": "Earring, Mutineer's Bane"
+    },
+    "source": {
+      "value": "the_price_of_infamy"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 7th; Slot none; Price 4,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This magic earring grows warm whenever a ship\u2019s crew begins muttering of mutiny, granting the wearer of a mutineer\u2019s bane earring a +5 bonus on all Sense Motive checks made while on a ship under such conditions of poor morale. A mutineer\u2019s bane earring has additional effects if worn by a commodore or admiral. If worn by a commodore, that commodore\u2019s squadron gains a +3 bonus on morale checks in fleet battles. If worn by an admiral, all squadrons in the admiral\u2019s fleet gain a +1 bonus on morale checks in fleet battles. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, detect thoughts; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_earring_mutineer_s_bane",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "triple_stinging_blade__crb_",
+    "name": {
+      "value": "Triple-Stinging Blade"
+    },
+    "source": {
+      "value": "faiths_of_balance"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 7th; Slot none; Price 11,702 gp; Weight 1 lb. DESCRIPTION This highly decorative +1 dagger sports a rose carved onto its pommel and a yellow-and-black-striped hilt. Upon examination, the blade seems to be dented at regular intervals. These dents are actually retractable thorns. If you use a triple-stinging blade to successfully damage a creature, you can make a free combat maneuver against the target. If you fail, nothing happens. If you succeed, you thrust the blade deep enough into the target to cause the thorns to spring forth, dealing an additional 1d4 points of damage. The thorns retract immediately after dealing this damage. This blade carries the symbol of a particular god or goddess. Once per day, as a free action, if you whisper the the god or goddess name, and you are a true worshiper of that god or goddess, you can increase the enhancement bonus of the triple-stinging blade to +2. This bonus lasts for 1 round. If you are not a worshiper of the god or goddess indicated and you speak the name while holding the triple-stinging blade, thorns sprout from the handle instead and inject with you with poison equivalent to Medium spider venom. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells spike growth; Cost 5,851 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_triple_stinging_blade",
+          "value": {
+            "value": 11702
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_triple_stinging_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

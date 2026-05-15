@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hexing_runes__crb_",
+    "name": {
+      "value": "Hexing Runes"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot neck; CL 8th; Weight \u00e2\u0080\u0094; Aura moderate abjuration DESCRIPTION These runes may be carved from wood or cast in silver and are worn on a leather cord. When a witch prepares her spells, she may also choose to use the hexing runes to augment one hex she can use. The save DC of this hex increases by 1 for 24 hours. Additionally, once per day when she speaks the command word, the wearer gains the benefits of the ward hex as if cast by an 8th level witch. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Spell Focus ( abjuration ); Spells resistance; Special creator must be able to use the ward hex; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hexing_runes",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

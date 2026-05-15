@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_fortifying__crb_",
+    "name": {
+      "value": "Stone, Fortifying"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Slot none; Price 1,000 gp; Weight \u2013 DESCRIPTION On command, this semiprecious stone adheres to an object weighing not more than 100 pounds. As long as it is attached, the stone increases the object\u00e2\u0080\u0099s hardness by 5, its break DC by 5, and its hit points by 20. Like temporary hit points, these additional hit points are lost first when the object the stone is protecting is damaged, and once they are exhausted, the fortifying stone is destroyed. However, unlike temporary hit points, they can be completely restored by repairing the fortifying stone via a single casting of a make whole spell. Any effect that breaks or destroys the protected object also destroys any attached fortifying stones. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, stoneskin; Cost 500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_fortifying",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

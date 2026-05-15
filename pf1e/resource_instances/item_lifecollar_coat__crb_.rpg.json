@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lifecollar_coat__crb_",
+    "name": {
+      "value": "Lifecollar Coat"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,200 gp; Slot chest and neck (see text); CL 7th; Weight 10 lbs.; Aura moderate abjuration and necromancy DESCRIPTION The tall, silver collar on this +2 mithral armored coat is attractively set off by the coat\u2019s deep navy hues and ivory silk trim. A lifecollar coat occupies both the chest and the neck magic item slots. The wearer receives a +2 circumstance bonus to AC and CMD against attacks or maneuvers that specifically target the wearer\u2019s neck or throat (such as a vampire\u2019s check to establish or maintain a pin or the roll to confirm a critical hit with a vorpal weapon). Additionally, when struck by an attack that would bestow a negative level, the wearer has a 50% chance of avoiding the negative level. The wearer may not avoid more than 1 negative level per round in this fashion. This effect does not mitigate any other damage or remove negative levels previously gained. The silver collar can be collapsed and lowered as a full-round action. Doing so frees up the wearer\u2019s neck slot for other items, but the wearer loses the circumstance bonus to AC and CMD against attacks and maneuvers targeting the neck or throat. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells death ward, shield of faith; Cost 9,200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lifecollar_coat",
+          "value": {
+            "value": 18200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lifecollar_coat",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

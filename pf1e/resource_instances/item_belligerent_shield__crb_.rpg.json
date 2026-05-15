@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belligerent_shield__crb_",
+    "name": {
+      "value": "Belligerent shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 12th Weight 15 lbs.; Price 36,170 gp DESCRIPTION This +1 animated bashing heavy steel shield rattles in anticipation during battle. When loosed into the air to defend its wearer, the belligerent shield attacks as well as defends. Each round starting the round after animation, the shield makes a single shield bash attack against a foe of its wearer\u2019s choice within the wearer\u2019s reach. This works as a standard shield bash attack using the wearer\u2019s normal attack bonus with the shield, except that the wearer retains the shield bonus to AC, and while the shield\u2019s attack is treated as an off-hand attack, the wearer does not take off-hand penalties on her own attacks unless she is fighting with two weapons herself. If the wearer has any feats or abilities that benefit shield bashing attacks, they apply to attacks made by the belligerent shield. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, animate objects; Cost 18,170 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belligerent_shield",
+          "value": {
+            "value": 36170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belligerent_shield",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pyre_salt__crb_",
+    "name": {
+      "value": "Pyre Salt"
+    },
+    "source": {
+      "value": "path_of_the_hellknight"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 700 gp; Slot none; CL 7th; Weight -; Aura moderate transmutation EFFECTS Said to be crafted from witches\u00e2\u0080\u0099 tears and the ashes of burned heretics, pyre salt is composed of glistening black-and-white granules and smells of smoke. It typically comes in a narrow glass vial containing one use. When pyre salt is cast into any magical or mundane flame whose area is at least 10 feet by 10 feet, the fire in that area deals double the normal amount of damage to any objects or creatures in that space for 1 round. Pyre salt cannot be activated by fire spells or effects cast onto it. Additionally, any objects or creatures destroyed by the affected fire prove exceptionally difficult to restore. Anyone who casts mending, make whole, or a similar spell on an object destroyed by the fire must first succeed at a DC 20 caster level check or the spell fails. By the same token, anyone who casts raise dead, resurrection, or a similar spell on a creature killed by the fire must also succeed at a DC 20 caster level check or the spell fails. CONSTRUCTION REQUIREMENTS Cost 350 gp; Feats Craft Wondrous Item; Spells death knell, pyrotechnics"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pyre_salt",
+          "value": {
+            "value": 700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

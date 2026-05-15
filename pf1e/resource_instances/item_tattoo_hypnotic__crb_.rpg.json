@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_hypnotic__crb_",
+    "name": {
+      "value": "Tattoo, Hypnotic"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 900 gp; Slot none; CL 1st; Weight \u00e2\u0080\u0094; Aura faint enchantment DESCRIPTION This arabesque tattoo accentuates the bearer\u2019s movements. If the tattoo is visible, the bearer gains a +2 circumstance bonus on Perform (dance) checks. When the bearer uses a Perform skill or bardic performance, she can choose a creature within 90 feet that she can see and that can see her hypnotic tattoo. That creature takes a \u00e2\u0080\u00932 penalty on Perception and Sense Motive checks while the bearer performs. This is a mind-affecting effect. The bearer can change the target of this effect as a free action on her turn. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Inscribe Magical Tattoo; Spells hypnotism"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_hypnotic",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

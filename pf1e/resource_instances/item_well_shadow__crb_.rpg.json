@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "well_shadow__crb_",
+    "name": {
+      "value": "Well, Shadow"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 17th; Slot none; Price 82,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Rather than opening to random locations across the planes, the shadow well opens only to random locations on the Shadow Plane (or random locations on the Material Plane when on the Shadow Plane). Regardless of which plane the user opens the well from, there is a 15% chance it randomly diverts the user into the Ethereal Plane, given its nature as a natural buffer between the two realities. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, gate, shadow walk; Cost 41,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_well_shadow",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

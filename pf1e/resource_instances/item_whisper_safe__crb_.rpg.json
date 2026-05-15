@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "whisper_safe__crb_",
+    "name": {
+      "value": "Whisper Safe"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 4th Weight 1/2 lb.; Aura faint conjuration APPEARANCE A mirrored mask emblem adorns this black-lacquered jewelry box. EFFECTS When a user speaks a fact into the open box and closes it (a full-round action that provokes attacks of opportunities), the whisper safe attunes to him. While holding the attuned box, he can spend an immediate action at will to learn how many people know the fact. Furthermore, he can concentrate on the box for 1 minute as if he were concentrating on a spell to learn the general details of each of those people, including alignment, gender, race, character class, and the name by which each person is most commonly known. However, if a person has taken any effort to obscure any of these details from the public eye, the box omits that individual detail or details. Similarly, the box reveals no details about a person who knows the fact and is a vigilante or otherwise has dual identity or a similar class feature. Opening an attuned whisper safe releases the fact in an audible whisper, after which the box can be used to store another fact as described. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells rumormonger"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_whisper_safe",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

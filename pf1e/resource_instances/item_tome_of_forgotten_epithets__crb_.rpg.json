@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tome_of_forgotten_epithets__crb_",
+    "name": {
+      "value": "Tome of Forgotten Epithets"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 108,000 gp; Slot none CL 15th; Weight 2 lbs.; Aura strong abjuration DESCRIPTION The cover of this hefty, leather-bound volume has an ornate spine adorned with a stylized eye worked in metal and jewels hinges and is sealed shut by a strap with a brass scarab fastener. When first created, a tome of forgotten epithets has 50 pages. Each page can hold the name of a creature, along with a short description that distinguishes it from other creatures with the same name. EFFECTS The wielder of a tome of forgotten epithets can speak a command word to cause the burning eye on the cover to close, protecting those named within as per mind blank for 24 hours and sealing the book shut for this duration. Afterward, the eye on the cover reopens, and any pages that held names vanish. CONSTRUCTION REQUIREMENTS Cost 54,000 gp; Feats Craft Wondrous Item; Spells mind blank, secret page"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tome_of_forgotten_epithets",
+          "value": {
+            "value": 108000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tome_of_forgotten_epithets",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

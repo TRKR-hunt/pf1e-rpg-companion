@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coldfire_wrappings__crb_",
+    "name": {
+      "value": "Coldfire Wrappings"
+    },
+    "source": {
+      "value": "shadows_of_gallowspire"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation [cold]; CL 10th; Slot body; Price 2,000 gp; Weight 1 lb. DESCRIPTION When carefully wrapped around the body of a Medium-sized creature (a process that takes 10 minutes), these magical linen wrappings protect the wearer from fire and provide defense against physical attacks. As an immediate action, the wearer can immolate herself in wispy blue flames that protect the wearer as the chill shield version of fire shield and deal 1d6+10 points of cold damage to attackers. This protection lasts for 10 rounds before the wrappings crumble away into fine ash. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, fire shield; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coldfire_wrappings",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coldfire_wrappings",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

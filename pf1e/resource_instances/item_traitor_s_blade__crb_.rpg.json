@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "traitor_s_blade__crb_",
+    "name": {
+      "value": "Traitor's Blade"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 50,302 gp; Slot none; CL 14th; Weight 1 lb.; Aura strong necromancy and enchantment DESCRIPTION This +2 wounding dagger allows the wielder to use charm monster (DC 18) three times per day. When the wielder hits a creature affected by the dagger\u2019s charm effect, the dagger deals an additional 2d6 points of damage to that creature, even if the creature is no longer charmed because of the hostile action. All other creatures charmed by the blade that see this act of betrayal become sickened for 1d4 rounds, but are immediately freed from the charm effect. CONSTRUCTION REQUIREMENTS Cost 25,302 gp; Feats Craft Magic Arms and Armor; Spells bleed, charm monster, inflict moderate wounds"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_traitor_s_blade",
+          "value": {
+            "value": 50302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_traitor_s_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

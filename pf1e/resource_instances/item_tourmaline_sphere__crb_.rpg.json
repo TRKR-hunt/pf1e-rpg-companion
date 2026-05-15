@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tourmaline_sphere__crb_",
+    "name": {
+      "value": "Tourmaline Sphere (Ioun Stone)"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong transmutation DESCRIPTION This stone grants you a benefit when you\u00e2\u0080\u0099re dying. When determining the number of negative hit points you must accrue to die, treat your Constitution score as if it were 2 higher. This doesn\u00e2\u0080\u0099t provide a bonus to Constitution, so it doesn\u00e2\u0080\u0099t grant a bonus on checks to stabilize, but it does provide you 2 additional rounds in which you can attempt such checks. You can benefit from only one tourmaline sphere ioun stone at a time. Resonant Power: This stone grants a +1 bonus on Constitution checks to stabilize when dying. Cracked: This stone grants a +1 insight bonus on saving throws against death effects. Price: 800 gp. Flawed: This stone functions as a normal tourmaline sphere ioun stone, but you take a \u00e2\u0080\u00931 penalty on Constitution checks to stabilize when dying. Price: 600 gp. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells bear\u2019s endurance; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tourmaline_sphere",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

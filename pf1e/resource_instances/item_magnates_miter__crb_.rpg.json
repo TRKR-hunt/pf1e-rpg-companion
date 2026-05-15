@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "magnates_miter__crb_",
+    "name": {
+      "value": "Magnate\u00e2\u0080\u0099s Miter"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 90,000 gp; Slot head; CL 18th Weight 1 lb.; Aura strong enchantment APPEARANCE This alabaster headdress is studded with lines of delicate rubies and represents the height of fashion. These austere headdresses come with an imbued soul. EFFECTS Once per day as an immediate action, the wearer can allow the personality within the miter to rise to the fore of her own consciousness. This effect lasts for 1 minute, during which the wearer can roll twice and use the higher result for all Intelligence -, Wisdom -, and Charisma -based skill checks. The wearer can activate this ability after such a skill check has been rolled but before the result is determined, allowing for a reroll. Additionally, once per day as an immediate action, the wearer can gain the benefits of tower of iron will V, as the possessing spirit rises to block any mental effects against the wearer. This ability can be used regardless of whether the miter\u00e2\u0080\u0099s other ability is active. CONSTRUCTION REQUIREMENTS Cost 45,000 gp; Feats Craft Wondrous Item; Spells divide mind, possession, tower of iron will V"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_magnates_miter",
+          "value": {
+            "value": 90000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_magnates_miter",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

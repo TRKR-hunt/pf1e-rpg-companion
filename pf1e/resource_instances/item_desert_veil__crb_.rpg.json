@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "desert_veil__crb_",
+    "name": {
+      "value": "Desert Veil"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,000 gp; Slot head; CL 7th Weight \u00e2\u0080\u0094; Aura moderate abjuration and conjuration APPEARANCE Small round mirrors adorn the edges of this yellow, silk veil, which covers the wearer\u00e2\u0080\u0099s mouth and nose. EFFECTS The veil protects the wearer against extreme temperatures, as per endure elements. In addition, once per day while in a warm or temperate desert, the wearer can speak a command word to create a 20-foot-radius oasis that functions like a casting of grove of respite. The oasis appears in a spot the wearer designates within 40 feet and disappears after 8 hours. Any creature outside the oasis that sees it must succeed at a DC 16 Will saving throw or dismiss it as a mirage to be ignored. A creature that steps inside the oasis, however, recognizes its substance. CONSTRUCTION REQUIREMENTS Cost 5,500 gp; Feats Craft Wondrous Item; Spells endure elements, grove of respite"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_desert_veil",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

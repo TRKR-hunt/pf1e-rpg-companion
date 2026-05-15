@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_bastion__crb_",
+    "name": {
+      "value": "Boots, Bastion"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,500 gp; Slot feet; CL 10th; Weight 4 lbs.; Aura moderate transmutation DESCRIPTION These metal boots are engraved with the image of a keep. The boots can be used as an immovable rod, even when worn. If the boots are moved, the wearer moves with the boots. Even while not activated, bastion boots grant the wearer a +4 bonus to her CMD against combat maneuvers to move her. CONSTRUCTION REQUIREMENTS Cost 5,250 gp; Feats Craft Wondrous Item; Spells levitate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_bastion",
+          "value": {
+            "value": 10500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_bastion",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

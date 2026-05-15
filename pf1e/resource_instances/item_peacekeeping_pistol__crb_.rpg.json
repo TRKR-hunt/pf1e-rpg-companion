@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "peacekeeping_pistol__crb_",
+    "name": {
+      "value": "Peacekeeping Pistol"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,700 gp; Slot none; CL 5th; Weight 4 lbs.; Aura faint enchantment DESCRIPTION This +1 merciful pistol is ornamented with filigree of angelic creatures along the barrel, and houses intricate brass gears. Whenever the wielder scores a critical hit while using this weapon to deal nonlethal damage, the target must succeed at a DC 12 Will saving throw or be dazed for 1 round. As a swift action, a wielder with the grit class feature can spend 1 grit point to increase the DC of this save by 4. CONSTRUCTION REQUIREMENTS Cost 6,500 gp; Feats Craft Magic Arms and Armor; Spells cure light wounds, daze monster"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_peacekeeping_pistol",
+          "value": {
+            "value": 11700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_peacekeeping_pistol",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

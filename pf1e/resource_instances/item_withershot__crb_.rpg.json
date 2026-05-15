@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "withershot__crb_",
+    "name": {
+      "value": "Withershot"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 34,800 gp; Slot none; CL 9th; Weight 9 lbs.; Aura moderate necromancy DESCRIPTION This +2 shock musket is inscribed with imagery of storms and plagues, glorifying a daemonic harbinger. When a bullet fired from a withershot strikes a good- or neutral-aligned target, it burrow s into the target\u2019s flesh and infects the target with cackle fever. Infected creatures can resist the disease normally, but can\u2019t be cured or recover lost ability damage until the cursed bullet is removed (this requires a successful DC 15 Heal check or a restoration spell). Additional bullet impacts do not increase the effects, but each bullet must be removed before the target can be cured of its disease. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells call lightning, contagion; Cost 17,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_withershot",
+          "value": {
+            "value": 34800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_withershot",
+          "value": {
+            "value": 9
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

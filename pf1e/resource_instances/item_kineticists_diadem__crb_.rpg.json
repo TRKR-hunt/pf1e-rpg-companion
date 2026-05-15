@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "kineticists_diadem__crb_",
+    "name": {
+      "value": "Kineticist's Diadem"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot headband; Price 18,000 gp (lesser), 50,000 gp (standard), 98,000 gp (greater); Weight \u00e2\u0080\u0094 APPEARANCE This metal headband holds a glistening, diamond-shaped gem. BENEFITS A kineticist\u00e2\u0080\u0099s diadem includes one of five colors of gem, each corresponding to a different element: blue (water), clear (aether), green (earth), red (fire), and white (air). The diadem\u00e2\u0080\u0099s gem grants the wearer greater control over its associated element. While worn by a kineticist, this item increases the damage dealt by the kineticist\u00e2\u0080\u0099s simple and composite blasts that match the element of the inlaid gem by 1d6 points (for a lesser kineticist\u00e2\u0080\u0099s diadem ), 2d6 points (for a standard kineticist\u00e2\u0080\u0099s diadem ), or 3d6 points (for a greater kineticist\u00e2\u0080\u0099s diadem ). If the blast is a physical blast, the extra damage dice from the kineticist\u00e2\u0080\u0099s diadem increase to d8s instead of d6s. These extra damage dice do not multiply on a critical hit, and the extra damage dice do not apply to blasts with form infusions that do not apply the extra damage from elemental overflow, like kinetic blade and kinetic whip. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be a 10th-level kineticist with access to the appropriate element; Cost 9,000 gp (lesser), 25,000 gp (standard), 49,000 gp (greater)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_kineticists_diadem",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

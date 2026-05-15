@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pirate_queen_s_tricorne__crb_",
+    "name": {
+      "value": "Pirate Queen's Tricorne"
+    },
+    "source": {
+      "value": "the_wormwood_mutiny"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot head; Price 2,600 gp; Weight 1 lb. DESCRIPTION This black leather tricorne hat is weather-beaten and salt-stained. Note This item has a direct association with a specific deity. It grants its wearer a +2 competence bonus on Profession (sailor) and Swim checks. If the hat\u2019s associated deity is your patron, once per day you can speak a command word to transform the hat into a small ship\u2019s boat such as a cutter, jolly boat, or longboat. The boat is 20 feet long, has two pairs of oars and a single mast with a square sail, and can carry up to 12 passengers and crew. Upon command, or after 8 hours, the boat returns to hat form, dumping out any occupants. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells guidance, shrink item; Special creator must have 5 ranks in Profession (sailor); Cost 1,300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pirate_queen_s_tricorne",
+          "value": {
+            "value": 2600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pirate_queen_s_tricorne",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

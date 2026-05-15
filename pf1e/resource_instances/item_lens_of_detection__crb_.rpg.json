@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lens_of_detection__crb_",
+    "name": {
+      "value": "Lenses of detection"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 9th; Slot eyes; Price 3,500 gp; Weight 1 lb. DESCRIPTION These circular prisms let their wearer detect minute details, gaining a +5 competence bonus on Perception checks. It also aids in tracking, adding a +5 competence bonus on Survival checks when tracking. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, true seeing; Cost 1,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lens_of_detection",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lens_of_detection",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

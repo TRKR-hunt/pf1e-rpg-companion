@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_far_strike__crb_",
+    "name": {
+      "value": "Ring of Far Strike"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot ring; CL 8th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This unassuming black ring changes color to a silver pearlescent sheen when held near a fire. Once per day as a standard action, the wearer can make a melee weapon attack or unarmed strike attack against any opponent within 30 feet. The wearer must be otherwise capable of performing the attack to use this ability. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Forge Ring; Spells mage hand, spectral hand"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_far_strike",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

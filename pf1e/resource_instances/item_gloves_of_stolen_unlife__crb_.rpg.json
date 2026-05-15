@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_stolen_unlife__crb_",
+    "name": {
+      "value": "Gloves of Stolen Unlife"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,040 gp; Slot hands; CL 3rd; Weight 1 lb.; Aura faint necromancy DESCRIPTION These pale gray gauntlets feature cabochons of banded black onyx that slowly shift to white when the gloves are activated. Three times per day, the wearer can activate the gloves as a swift action after successfully affecting an undead creature with an offensive single-target spell. Doing so grants the wearer a number of temporary hit points equal to 10 + the Hit Dice of the affected undead (maximum +10), which last a number of minutes equal to the level of the spell cast. This effect ends immediately if either glove is removed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells false life; Cost 1,520 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_stolen_unlife",
+          "value": {
+            "value": 3040
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_of_stolen_unlife",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

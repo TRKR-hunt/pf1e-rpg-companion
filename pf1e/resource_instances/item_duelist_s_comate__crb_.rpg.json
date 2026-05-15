@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "duelist_s_comate__crb_",
+    "name": {
+      "value": "Duelist's Comate"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 35,320 gp; Slot none; CL 13th; Weight 2 lbs.; Aura strong transmutation DESCRIPTION This +2 countering dueling rapier is particularly well balanced, and features a stout steel ball on the pommel. Three times per day, the wielder can make a surprise melee attack with the pommel as a swift action, as if proficient with the attack and at her normal attack bonus. The attack deals 1d6+2 points of bludgeoning damage, and the critical multiplier is 20/\u00d72. CONSTRUCTION REQUIREMENTS Cost 17,820 gp; Feats Combat Reflexes, Craft Magic Arms and Armor; Spells cat\u2019s grace, daze"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_duelist_s_comate",
+          "value": {
+            "value": 35320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_duelist_s_comate",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

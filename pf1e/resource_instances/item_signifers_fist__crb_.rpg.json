@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "signifers_fist__crb_",
+    "name": {
+      "value": "Signifer's Fist (Signifers)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,305 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint conjuration and transmutation DESCRIPTION This +1 light mace is forged of black iron and topped with what appears to be a clenched fist with spikes protruding from between the fingers. As a move action, the wielder can expend 1 point from his arcane pool (as per a magus ), 1 point from his arcane reservoir (as per an arcanist ), or one use of fervor (as per a warpriest ) to make a single melee attack with the signifer\u2019s fist. Characters without any of these options can instead activate a signifer\u2019s fist in this way as a standard action once per day. If the attack deals damage to a creature, the signifer\u2019s fist gains the bane weapon special ability against that creature\u2019s type (or subtype if the creature is a humanoid or outsider ) for 1 minute. This benefit doesn\u2019t apply if the target is immune to bleed, though the attack still deals damage normally. CONSTRUCTION REQUIREMENTS Cost 5,305 gp; Feats Craft Magic Arms and Armor; Spells haste, summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_signifers_fist",
+          "value": {
+            "value": 10305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_signifers_fist",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

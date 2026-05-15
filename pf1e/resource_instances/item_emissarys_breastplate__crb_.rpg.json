@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "emissarys_breastplate__crb_",
+    "name": {
+      "value": "Emissary\u00e2\u0080\u0099s Breastplate"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,350 gp; Slot armor CL 5th Weight 30 lbs.; Aura faint transmutation DESCRIPTION When not being worn, this simple steel +1 breastplate appears to be typical magic armor. When worn by a cavalier with the banner class feature, an emissary\u00e2\u0080\u0099s breastplate automatically displays the cavalier \u00e2\u0080\u0099s heraldry and counts as his banner. As long as the cavalier is not in disguise, he is considered to be displaying his banner while wearing the armor. Additionally, the wearer can expend a use of his challenge ability to speak on behalf of himself, his lord, or other agent who has given him the authority to do so. This allows him to use tongues (as per the spell) and issue a single command (as per the spell). CONSTRUCTION REQUIREMENTS Cost 5,850 gp; Feats Craft Magic Arms and Armor; Spells arcane mark, command, tongues; Special creator must have 5 ranks in Knowledge (nobility)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_emissarys_breastplate",
+          "value": {
+            "value": 11350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_emissarys_breastplate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "discordant_piccolo__crb_",
+    "name": {
+      "value": "Discordant Piccolo"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot none; CL 6th; Weight 1/2 lb.; Aura moderate enchantment DESCRIPTION This bright silver piccolo produces only disjointed notes when played, no matter how talented the user. In fact, talented performers produce more dissonant notes. If the user succeeds at a DC 15 Perform (wind instruments) check while playing the discordant piccolo, one target creature within 30 feet is sickened for 1 round ( Will DC 14 negates). If the user succeeds at a DC 25 Perform check, the target is instead nauseated for 1 round ( Will DC 16 reduces the effect to sickened ). A creature that successfully saves cannot be affected by the discordant piccolo for 24 hours. This is a mind-affecting effect. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item; Spells cacophonous call"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_discordant_piccolo",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

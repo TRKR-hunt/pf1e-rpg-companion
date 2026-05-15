@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hand_of_the_mage__crb_",
+    "name": {
+      "value": "Hand of the mage #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 2nd; Slot neck; Price 900 gp; Weight 2 lbs. DESCRIPTION This mummified elf hand hangs by a golden chain around a character\u2019s neck (taking up space as a magic necklace would). It allows the wearer to utilize the spell mage hand at will. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, mage hand; Cost 450 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hand_of_the_mage",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hand_of_the_mage",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

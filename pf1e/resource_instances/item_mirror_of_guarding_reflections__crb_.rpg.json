@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mirror_of_guarding_reflections__crb_",
+    "name": {
+      "value": "Mirror of guarding reflections #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 7th; Weight 4 lbs.; Slot none; Price 7,000 gp DESCRIPTION Reflections visible in this palm-sized hand mirror always seem ghostly and insubstantial. When a creature holding the mirror is targeted by an attack, he can spend an immediate action to summon his reflection from the glass to interpose itself between him and the blow. The reflection functions as an image produced by the spell mirror image. If the image is struck by the attack, it shatters with a resounding crash. The creature that destroyed the image is subject to bad luck; the next time it makes an attack roll or saving throw, it must roll twice and take the worse result. If the attack does not strike the image, the image fades away at the start of the mirror bearer\u2019s next turn. The mirror can be used three times per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mirror image; Cost 3,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mirror_of_guarding_reflections",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mirror_of_guarding_reflections",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

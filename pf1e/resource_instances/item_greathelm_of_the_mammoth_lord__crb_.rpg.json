@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "greathelm_of_the_mammoth_lord__crb_",
+    "name": {
+      "value": "Greathelm of The Mammoth Lord"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,700 gp; Slot head; CL 9th; Weight 5 lbs.; Aura moderate transmutation DESCRIPTION This hide helm is a powerful variant of the more common helm of the Mammoth Lord. Like its lesser incarnation, a greathelm of the Mammoth Lord is set with plates of ivory carved with runes, with a pair of tusks curving down either side of the wearer\u2019s face for cheek guards. The helm\u2019s tusks provide a gore attack dealing 1d8 points of damage for a Medium wearer (or 1d6 points of damage for a Small wearer) and count as magic and cold for the purpose of overcoming damage reduction. The greathelm of the Mammoth Lord also protects the wearer from cold environments as per endure elements. Furthermore, it provides a +5 competence bonus on Handle Animal, Ride, and wild empathy checks with elephants, mammoths, mastodons, and other elephant -like creatures. On command, the wearer can use detect animals or plants or speak with animals, but only to detect or communicate with elephant -like creatures. Once per day, the wearer can transform into a mammoth (treat as an mastodon ) as beast shape III. CONSTRUCTION REQUIREMENTS Cost 12,350 gp; Feats Craft Wondrous Item; Spells beast shape III, charm animal, detect animals or plants, endure elements, speak with animals; Special creator must have 5 ranks in Handle Animal and Ride"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_greathelm_of_the_mammoth_lord",
+          "value": {
+            "value": 24700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_greathelm_of_the_mammoth_lord",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

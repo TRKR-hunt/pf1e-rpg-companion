@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "key_cloak__crb_",
+    "name": {
+      "value": "Key Cloak"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,000 gp; Slot shoulders; CL 9th; Weight 2 lbs.; Aura moderate conjuration DESCRIPTION This short cloak is made of gold thread spun into a pattern of interlocking key shapes. The cloak grants the wearer a +1 shield bonus to AC. As a move action, the wearer can activate the cloak, which instantly produces enough keys to wrap the wearer in a dome-shaped shield of hardened metal, protecting the wearer as if he were carrying a tower shield with which he is proficient. While using this ability, the wearer can take no other actions (other than adjusting which direction the effective tower shield is considered to be facing) and is immobile. The wearer can remain in this form indefinitely, but resting in this form is equivalent to resting in heavy armor. The dome of keys can be dismissed as a swift action, and it automatically vanishes if the cloak is removed. Once per day, the cloak can also create a single special skeleton key as a standard action. This skeleton key can be tried on any one lock that uses a key, even if you aren\u00e2\u0080\u0099t trained in the Disable Device skill. You use the key\u00e2\u0080\u0099s Disable Device bonus of +15 rather than your own; you cannot take 10 when using a skeleton key. You can only attempt to open a particular lock with the skeleton key once. If the roll fails, the key is unable to open or close that lock. The key lasts for 1 hour and can be used on only a single lock during that time. CONSTRUCTION REQUIREMENTS Cost 10,000 gp; Feats Craft Wondrous Item; Spells fabricate, knock, stoneskin"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_key_cloak",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_key_cloak",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

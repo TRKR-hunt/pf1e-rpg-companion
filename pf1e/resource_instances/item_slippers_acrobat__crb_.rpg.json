@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "slippers_acrobat__crb_",
+    "name": {
+      "value": "Acrobat slippers"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot feet; Price 3,000 gp; Weight 2 lbs. DESCRIPTION These supple gray leather slippers enable the wearer to keep his balance in precarious positions. The wearer retains his Dexterity bonus to AC when climbing, running, or using the Acrobatics skill to move on narrow surfaces or uneven ground without falling. In addition, the wearer gains a +2 competence bonus to CMD against trip maneuvers and on Reflex saves to avoid falling (including falling prone ). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u00e2\u0080\u0099s grace; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_slippers_acrobat",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_slippers_acrobat",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

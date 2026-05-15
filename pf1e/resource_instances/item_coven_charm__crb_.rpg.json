@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coven_charm__crb_",
+    "name": {
+      "value": "Coven Charm"
+    },
+    "source": {
+      "value": "blood_of_the_coven"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 75,000 gp; Slot belt; CL 15th; Weight 1 lb.; Aura strong evocation and necromancy DESCRIPTION This grisly bag is worn by a member of a coven and binds its sisters together even across vast distances. The coven charm can be charged by placing a sizable chunk of flesh\u2014at least the size of a finger, toe, or tongue\u2014from a member of the coven into the bag as a full-round action. Removing an appropriate offering from her own body deals 1d6 points of damage to the respective coven member, as well as a permanent negative level that cannot be regained until the charge in the bag is expended. Each body part placed within the bag generates 1 charge, and a coven charm can hold up to 3 charges. As a full-round action, the coven charm\u2019s wearer can spend charges from the bag to cast a spell that normally requires the presence or her entire coven to cast. Expending 1 charge allows the wearer to cast a spell of up to 4th level. Expending 2 charges allows the wearer to cast a spell of up to 6th level. Expending 3 charges allows the wearer to cast a spell of up to 8th level. These spells must be selected from those bonus spells normally available to her collected coven. If any member of the coven is slain, the bag loses all remaining charges. Once a coven charm is drained of all charges, it cannot be refilled for 24 hours, and it must be completely drained of all charges before it can be refilled. CONSTRUCTION REQUIREMENTS Cost 37,500 gp; Feats Craft Wondrous Item; Special creator must be a changeling or hag"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coven_charm",
+          "value": {
+            "value": 75000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coven_charm",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

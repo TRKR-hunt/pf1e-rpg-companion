@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charm_saint_s_protection__crb_",
+    "name": {
+      "value": "Charm, Saint's Protection"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot wrist; CL 3rd; Weight \u2014; Aura moderate conjuration DESCRIPTION A copper disc attached to this bracelet bears the image of a figure in religious garb. The wearer gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. These bonuses apply only against attacks made or effects created by extraplanar creatures. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item; protection from chaos, evil, good, or law"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charm_saint_s_protection",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

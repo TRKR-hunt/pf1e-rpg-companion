@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grease_mundanity__crb_",
+    "name": {
+      "value": "Grease, Mundanity"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp; Slot none; CL 11th; Weight 1 lb.; Aura moderate abjuration DESCRIPTION This slippery, jet-black goo has a consistency comparable to warm lard. A bottle of mundanity grease can be thrown as a splash weapon with a range increment of 10 feet. When an animal companion, a familiar, or another bonded creature is struck by mundanity grease, the bond to its master is temporarily suspended. The creature and its master lose any of the following abilities they have from the companion or familiar bond: deliver touch spells, devotion, empathic link, evasion, improved evasion, link, scry on familiar, share spells, speak with animals of its kind, spell resistance, and speak with master. For the duration of the effect, a familiar originally of the animal type is treated as an animal (rather than a magical beast) for the purposes of determining which spells affect it. This effect lasts for 1d4 minutes or until the grease is washed off the affected creature by magical means. CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Wondrous Item; Spells greater dispel magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grease_mundanity",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_grease_mundanity",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

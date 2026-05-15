@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_fiery_maw__crb_",
+    "name": {
+      "value": "Elixir, Fiery Maw"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 800 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint evocation DESCRIPTION Inside this crystalline bottle swirls a smoky orange liquid that hisses when uncorked. EFFECTS As a standard action, a creature that drinks this elixir can breathe out a 15-foot cone of fiery teeth. This blast deals 2d4 points of fire damage, 2d4 points of bludgeoning, piercing, and slashing damage, and 1d4 points of bleed damage. Creatures in the area can each attempt a DC 13 Reflex save for half damage. The magic of the elixir ends after 1 hour or one use, whichever comes first. CONSTRUCTION REQUIREMENTS Cost 400 gp; Feats Craft Wondrous Item; Spells bleed, burning hands"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_fiery_maw",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

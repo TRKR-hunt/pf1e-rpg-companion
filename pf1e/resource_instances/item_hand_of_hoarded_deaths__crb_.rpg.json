@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hand_of_hoarded_deaths__crb_",
+    "name": {
+      "value": "Hand of Hoarded Deaths"
+    },
+    "source": {
+      "value": "champions_of_corruption"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Slot hand; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate necromancy DESCRIPTION The wearer of this single, black silk glove can use death knell on command. The target of death knell dies if it fails a DC 13 Fortitude save as normal, but the glove\u2019s wearer does not immediately benefit from the death; instead the siphoned life energy is stored inside the glove. The glove indefinitely holds a reservoir of up to five deaths. The wearer can tap into these deaths anytime thereafter by touching herself with the glove as a swift action, granting her death knell\u2019s benefits with a duration of 10 minutes. She can spend more than one death at a time, if she wishes. Temporary hit points from multiple deaths stack, but the bonuses to caster level and Strength do not. If multiple deaths are spent at the same time, add their durations together. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Wondrous Item; Spells death knell, false life"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hand_of_hoarded_deaths",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

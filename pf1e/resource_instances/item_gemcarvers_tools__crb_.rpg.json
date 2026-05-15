@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gemcarvers_tools__crb_",
+    "name": {
+      "value": "Gemcarver's Tools"
+    },
+    "source": {
+      "value": "elemental_masters_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot none; CL 11th; Weight 5 lbs.; Aura moderate conjuration and transmutation DESCRIPTION These thin, elegant adamantine tools are inscribed with numerous runes in the four elemental languages (Aquan, Auran, Ignan, and Terran). These tools grant a user the skill to imbue gems with elemental power during the cutting process. In addition, they act as masterwork artisan\u2019s tools for the Craft ( jewelry ) skill. The user of these tools can attempt to craft elemental gems. Creating an elemental gem requires 8 total hours of work and an uncut gem worth 1,000 gp. The user must succeed at a DC 21 Craft ( jewelry ) check or the process fails and the raw materials are ruined. The user must speak the appropriate elemental language to use the elementalist\u2019s tools to craft an elemental gem of a specific element. Although the user doesn\u2019t need to meet any of the prerequisites for crafting elemental gems, this process otherwise follows the normal rules for magic item creation. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Craft Wondrous Item; Spells fabricate, summon monster V or summon nature\u2019s ally V, 5 ranks in Craft ( jewelry )"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gemcarvers_tools",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gemcarvers_tools",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "silent_sentry_crossbow__crb_",
+    "name": {
+      "value": "Silent Sentry Crossbow"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 38,335 gp; Slot none; CL 9th; Weight 2 lbs.; Aura moderate conjuration DESCRIPTION Popular with assassins and vigilantes due to its ease of concealment and lack of need for ammunition, this durable +2 endless ammunition light crossbow is crafted from wood blackened over an alchemically treated fire. When used in conjunction with the Stealth skill, the silent sentry crossbow reduces the penalty imposed by sniping by 5. Three times per day, the wielder can fire two invisible magical bolts that deal no damage. These bolts must each be fired at a solid surface, into which they embed themselves. As long as both bolts have an unobstructed line between them, no longer than 180 feet, they create an invisible 1-inch-wide line between themselves. The wearer is mentally alerted anytime a visible Tiny or larger creature passes through this line, and gains a vision of the creature\u2019s appearance. Creatures that can see invisible objects can see the line, and if they recognize it for what it is, they can duck under it or leap over it, thus avoiding detection. The bolts last for 6 hours before they dissipate. CONSTRUCTION REQUIREMENTS Cost 19,335 gp; Feats Craft Magic Arms and Armor; Spells alarm, minor creation, silence"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_silent_sentry_crossbow",
+          "value": {
+            "value": 38335
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_silent_sentry_crossbow",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

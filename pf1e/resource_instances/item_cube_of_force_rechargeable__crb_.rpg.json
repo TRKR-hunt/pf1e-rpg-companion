@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cube_of_force_rechargeable__crb_",
+    "name": {
+      "value": "Cube of Force, Rechargeable"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 70,000 gp; Weight 1/2 lb. DESCRIPTION This cube functions like a cube of force except that it can be recharged by casting a wall of force spell into it. Each spell cast in this manner adds 2 charges to the cube. The cube cannot hold more than 36 charges. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, wall of force; Cost 35,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cube_of_force_rechargeable",
+          "value": {
+            "value": 70000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

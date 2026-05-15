@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sentinel_scorpion__crb_",
+    "name": {
+      "value": "Sentinel Scorpion"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 1st; Slot none; Price 50 gp; Weight 1/2 lb. DESCRIPTION This crystalline hand-sized scorpion figurine is so full of cracks and occlusions that it looks as if it could fall apart at any minute. As a standard action you may throw the sentinel scorpion to the ground, causing it to explode into crystalline shards that cover the ground in a 10-foot burst. When any creature steps in the area, the shards make popping sounds as loud as the audible version of the alarm spell. A creature moving in the area of the shards has a 10% chance each round of stepping on the stinger. The stinger injects Large scorpion venom and is treated as a trap ( Perception DC 20, Disable Device DC 20). After 2 hours, the shards decay into harmless powder. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, alarm; Cost 25 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sentinel_scorpion",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

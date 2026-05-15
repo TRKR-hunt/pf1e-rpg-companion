@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "figurine_of_wondrous_power_glass_walrus__crb_",
+    "name": {
+      "value": "Glass Walrus Figurine of Wondrous Power"
+    },
+    "source": {
+      "value": "animal_archive"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 11th; Slot none; Price 14,000 gp; Weight 1 lb. DESCRIPTION This figurine of wondrous power is shaped like a walrus and is carved out of a prismatic crystal. It follows all the normal rules for figurines of wondrous power. When animated, a glass walrus acts in all ways like a normal walrus except it can glide along the surface of water as though under the constant effects of water walk. Up to two Medium creatures or four Small creatures can fit on a glass walrus\u2019s back as the creature glides across water (the walrus moves at half speed while carrying creatures), and the walrus can carry up to 600 pounds in this way before it becomes too encumbered to move. A glass walrus can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the glass walrus again becomes a tiny statuette. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells animate objects, water walk; Cost 7,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_figurine_of_wondrous_power_glass_walrus",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_figurine_of_wondrous_power_glass_walrus",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

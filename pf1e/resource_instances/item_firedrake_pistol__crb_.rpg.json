@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "firedrake_pistol__crb_",
+    "name": {
+      "value": "Firedrake Pistol"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Weight 4 lbs.; Price 20,300 gp DESCRIPTION This hefty +1 flaming pistol is elaborately carved with its barrel in the semblance of a roaring dragon and its grip wrapped in polished red dragonhide. When firing ordinary ammunition, the wielder may choose to have the firedrake pistol deal all of its damage as fire damage instead of normal damage. In addition, as a standard action the wielder may expend 1 unit of ammunition and create a cone of fire equivalent to burning hands rather than resolving that shot as a normal attack. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells burning hands, fireball; Cost 10,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_firedrake_pistol",
+          "value": {
+            "value": 20300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_firedrake_pistol",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charm_fortunate__crb_",
+    "name": {
+      "value": "Charm, Fortunate"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot neck; Price 3,000 gp; Weight \u2013 DESCRIPTION Once per day, this good luck charm allows the wearer to reroll a single skill check or concentration check after the success or failure of the original roll is known. The result of the reroll must be kept, even if it is worse than the original roll. The charm may not be used on a skill check that\u2019s already been rerolled by some other means. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, divine favor; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charm_fortunate",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

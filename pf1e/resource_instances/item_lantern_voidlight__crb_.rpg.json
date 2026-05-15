@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_voidlight__crb_",
+    "name": {
+      "value": "Lantern, Voidlight"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint evocation DESCRIPTION This ornately designed lantern is crafted from volcanic glass. When lit, the lantern\u00e2\u0080\u0099s magic creates an area of darkness in a 20-foot radius and lowers the illumination level by one step for an additional 20 feet beyond that area (bright light becomes normal light, normal light becomes dim light, and dim light becomes darkness). If used in an area of darkness, a voidlight lantern creates an area of supernatural darkness (as per deeper darkness ) in a 20-foot radius instead. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Craft Wondrous Item; Spells deeper darkness"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lantern_voidlight",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_voidlight",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

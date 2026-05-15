@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_courage__crb_",
+    "name": {
+      "value": "Amulet of Courage"
+    },
+    "source": {
+      "value": "divine_anthology"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot neck CL 3rd; Weight \u00e2\u0080\u0094; Aura faint abjuration DESCRIPTION These amulets are fashioned of finely worked silver and depict an overflowing tankard. Once per day, when the wearer of an amulet of courage is affected by a magical or supernatural fear effect, the amulet casts remove fear on the wearer. In addition, if the wearer of the amulet has the bravery class feature, she increases the bonus she receives on Will saves against fear by 1. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells remove fear"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_courage",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

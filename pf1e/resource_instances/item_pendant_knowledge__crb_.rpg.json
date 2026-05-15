@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pendant_knowledge__crb_",
+    "name": {
+      "value": "Pendant, Knowledge"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 5th; Slot neck; Price 3,100 gp; Weight 2 lbs. DESCRIPTION This heavy necklace is usually made of gold and looks like a large winged eye. This item is associated with a specific god. You gain a +5 competence bonus on one type of Knowledge checks (each pendant has a different specialty). If you are a worshiper of the associated god, the pendant also counts as a holy symbol. In addition, once per day as a free action, you may add a +10 insight bonus on a single skill check you are about to roll. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, moment of prescience, creator must have 5 ranks in appropriate Knowledge skill; Cost 1,550 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pendant_knowledge",
+          "value": {
+            "value": 3100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pendant_knowledge",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

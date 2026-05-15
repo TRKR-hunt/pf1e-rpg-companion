@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spirit_bolas__crb_",
+    "name": {
+      "value": "Spirit Bolas"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,715 gp; Slot armor; CL 5th; Weight 2 lbs.; Aura faint conjuration DESCRIPTION These +1 bolas are elementally enchanted. Each end of a bolas has its own magical enhancements: one side bears cold magic, and the other bears fire magic. A target damaged by a spirit bolas takes an additional 1d3 points of cold damage and 1d3 points of fire damage, as the two weights damage their target as though the weapon had both the flaming and frost special weapon abilities at half their normal effectiveness. Once per day as a standard action, the wielder of a spirit bola can utter a prayer and throw the bolas, causing both ends to crash together mid-flight. The bolas transforms into a roiling ball of water, as the spell aqueous orb, under the control of the thrower. Once the spell ends, the bolas falls to the ground at the same location the orb ended its movement. CONSTRUCTION REQUIREMENTS Cost 7,015 gp; Feats Craft Magic Arms and Armor; Spells aqueous orb, ray of frost, spark"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spirit_bolas",
+          "value": {
+            "value": 13715
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spirit_bolas",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sash_of_flowing_water__crb_",
+    "name": {
+      "value": "Sash of flowing water #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 10th; Slot belt; Price 25,000 gp; Weight 1 lb. DESCRIPTION If this belt\u00e2\u0080\u0099s wearer has at least one hand free (holding nothing), he can attempt to deflect a successful melee attack with an immediate action. To do so, he rolls an unarmed strike against the opponent, including any applicable modifiers such as a favored enemy bonus or the penalty for Power Attack. If his attack roll is greater than the opponent\u00e2\u0080\u0099s attack roll, the attack is negated without effect. The unarmed strike itself causes no damage and does not count as a successful attack against the opponent. The opponent does not need to be within the wearer\u00e2\u0080\u0099s reach to use this ability. Whether the attack succeeds or not, the wearer takes a \u00e2\u0080\u00944 penalty on attack rolls until the end of his next turn. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Combat Expertise, Improved Unarmed Strike; Cost 12,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sash_of_flowing_water",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sash_of_flowing_water",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

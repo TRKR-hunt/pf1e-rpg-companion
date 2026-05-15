@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_of_conjuring_earth_elementals__crb_",
+    "name": {
+      "value": "Stone of conjuring earth elementals #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 11th; Weight 5 lbs.; Slot none; Price 90,000 gp DESCRIPTION A stone of this nature is typically an oddly shaped bit of roughly polished rock. On command as a full-round action, the bearer may summon an earth elemental. If there is an unbroken piece of unworked stone of at least Huge size nearby, the stone conjures a Huge earth elemental as if using summon monster VI. If there is no such stone available (for example, if there is only sand, earth, worked stone, or smaller pieces of stone), the stone conjures a Large earth elemental as if using summon monster V. The stone cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, summon monster V, summon monster VI; Cost 45,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_of_conjuring_earth_elementals",
+          "value": {
+            "value": 90000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_stone_of_conjuring_earth_elementals",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

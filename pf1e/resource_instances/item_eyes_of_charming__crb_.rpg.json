@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eyes_of_charming__crb_",
+    "name": {
+      "value": "Eyes of charming #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 7th; Slot eyes; Price 56,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These two crystal lenses fit over the user\u00e2\u0080\u0099s eyes. The wearer is able to use charm person (one target per round) merely by meeting a target\u00e2\u0080\u0099s gaze. Those targets failing a DC 16 Will save are charmed as per the spell. Both lenses must be worn for the magic item to take effect. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Heighten Spell, charm person; Cost 28,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eyes_of_charming",
+          "value": {
+            "value": 56000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

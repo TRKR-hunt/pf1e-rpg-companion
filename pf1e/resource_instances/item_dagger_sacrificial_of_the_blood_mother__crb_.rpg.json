@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dagger_sacrificial_of_the_blood_mother__crb_",
+    "name": {
+      "value": "Dagger, Sacrificial Dagger of the Blood Mother"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Slot none; Price 2,700 gp; Weight 1 lb. DESCRIPTION This dagger is usually made of chiseled stone, though some are made of sharpened mammoth bone. It is carved with a symbol of a woman holding meat in one hand and a stone tablet in the other. It is more a symbol than an actual weapon, though the hilt is especially long, as if created for a Large creature. Once per day, you may use detect animals or plants. This item has an associated deity. If you worship the associated deity, once per day you may use death knell if you offer the blood of your target to the goddess; you may do this even if your alignment is good. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, death knell, detect animals or plants; Cost 1,350 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dagger_sacrificial_of_the_blood_mother",
+          "value": {
+            "value": 2700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dagger_sacrificial_of_the_blood_mother",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "clasp_of_the_mind_scream__crb_",
+    "name": {
+      "value": "Clasp of the Mind Scream"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Slot head; Price 12,800 gp; Weight 1 lb. DESCRIPTION This strange device grants the ability to mentally communicate with others, yet proves difficult to control. It generates a constant field of mental static that grants the wearer a +1 bonus on Will saves against mind-affecting effects. The wearer may generate an attack similar to the spell shout, though the sound is mental, and thus does not affect items or creatures immune to mind-affecting effects, and its damage is not affected by sonic vulnerability, resistance, or immunity. In addition, as part of the attack, the wearer may make a DC 20 Charisma check to shape a specific noise or message of five words or fewer. These sounds are purely mental and not heard by any creature outside the area of effect. The wearer may use this effect 1d3 times per day. The GM determines how many times per day the clasp of the mind scream can be used. If the wearer attempts to use the clasp beyond this number of times, he is affected by its effects and the clasp is inert for the next 24 hours. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, detect thoughts, shout; Cost 6,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_clasp_of_the_mind_scream",
+          "value": {
+            "value": 12800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_clasp_of_the_mind_scream",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

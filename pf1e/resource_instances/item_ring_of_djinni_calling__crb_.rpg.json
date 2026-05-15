@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_djinni_calling__crb_",
+    "name": {
+      "value": "Ring of djinni calling"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 17th; Slot ring; Price 125,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This \u00e2\u0080\u009cgenie\u00e2\u0080\u009d ring serves as a special gate by means of which a specific djinni can be called from the Plane of Air. When the ring is rubbed (a standard action ), the call goes out, and the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes non-magical and worthless. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells gate; Cost 62,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_djinni_calling",
+          "value": {
+            "value": 125000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

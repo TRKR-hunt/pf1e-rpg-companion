@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "inheritor_s_breastplate__crb_",
+    "name": {
+      "value": "Inheritor's Breastplate"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration and transmutation; CL 3rd; Slot armor; Price 2,430 gp; Weight 30 lbs. DESCRIPTION This reflective +1 breastplate is decorated with a sword-and-starburst symbol. The armor is normally a golden color, but in battle it becomes silver-gray. The wearer can use bless weapon and remove fear each once per day CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bless weapon, remove fear; Price 1,390 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_inheritor_s_breastplate",
+          "value": {
+            "value": 2430
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_inheritor_s_breastplate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

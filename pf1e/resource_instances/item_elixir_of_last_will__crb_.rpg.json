@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_last_will__crb_",
+    "name": {
+      "value": "Elixir of Last Will"
+    },
+    "source": {
+      "value": "tears_at_bitter_manor"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 1st; Slot none; Price 150 gp; Weight \u00e2\u0080\u0094 DESCRIPTION If a character drinks this gray liquid, the next time (within 24 hours) he falls below 0 hit points, he exhales a sliver of his consciousness\u00e2\u0080\u0094whether he is alive or dead. If a character drinks multiple elixirs in a 24-hour period, only one is effective. As an immediate action, the sliver can guide the action of one ally within 30 feet of the drinker\u2019s body. This guidance gives a +2 luck bonus on that ally\u2019s next attack roll, to the ally\u2019s AC against the next attack made against her, or on the ally\u2019s next skill check. The drinker decides the type of bonus and the ally. The bonus must be used within 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells guidance; Cost 75 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_last_will",
+          "value": {
+            "value": 150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

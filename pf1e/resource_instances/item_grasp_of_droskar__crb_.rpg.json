@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grasp_of_droskar__crb_",
+    "name": {
+      "value": "Grasp of Granite"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation and divination; CL 10th; Slot hands; Price 12,300 gp; Weight 2 lbs. DESCRIPTION This left-handed black iron gauntlet appears little more than a dull soot-stained plated glove at first glance, but in truth it is a powerful boon granted by a god to his most faithful subjects. Placing the glove on your left hand causes excruciating pain as your appendage curls into a tight fist and then slowly transforms to supernaturally hard black stone. You cannot use your left hand for anything beyond smashing it into objects or creatures (you cannot carry a shield or secondary weapon and you take a \u20134 on skill checks that usually require two hands). The gauntlet cannot be removed without a successful casting of remove curse, break enchantment, or a similar spell. The gauntlet grants you a +2 enhancement bonus to Strength and acts as a +1 adamantine gauntlet. The item also grants you the ability to use the gauntlet as a secondary natural attack. In addition, the Grasp of Granite allows its wearer to use stone shape once per day. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, bull\u2019s strength, magic fang, stone shape; Cost 6,150 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grasp_of_droskar",
+          "value": {
+            "value": 12300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_grasp_of_droskar",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

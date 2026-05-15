@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dire_collar__crb_",
+    "name": {
+      "value": "Dire Collar"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot neck; CL 3rd; Weight 2 lbs.; Aura faint transmutation DESCRIPTION This leather collar resizes to fit almost any size of creature. Once per day on command, the creature that fastened the dire collar to the animal can cause that animal to grow larger and more bestial. The collar\u2019s fastener must be within 30 feet of the animal to do so. The animal gains the benefits of an enlarge person spell (despite the normal targeting restrictions of that spell) for 1 minute. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells animal growth Dire Collar, Greater Price 14,000 gp; Slot neck; CL 9th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION This collar functions as a dire collar, except that the animal wearing it gains the benefit of an animal growth spell for 1 minute. CONSTRUCTION REQUIREMENTS Cost 7,000 gp; Feats Craft Wondrous Item; Spells animal growth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dire_collar",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dire_collar",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

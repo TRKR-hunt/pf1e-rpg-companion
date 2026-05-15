@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_proof_against_detection_and_location__crb_",
+    "name": {
+      "value": "Amulet of proof against detection and location #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 8th; Slot neck; Price 35,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This silver amulet protects the wearer from scrying and magical location just as a nondetection spell does. If a divination spell is attempted against the wearer, the caster of the divination must succeed on a caster level check (1d20 + caster level ) against a DC of 19 (as if the wearer had cast nondetection on herself ). CONSTRUCTION REQUIREMENTS Craft Wondrous Item, nondetection; Cost 17,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_proof_against_detection_and_location",
+          "value": {
+            "value": 35000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

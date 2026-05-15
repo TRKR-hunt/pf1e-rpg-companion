@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "apparatus_of_the_octopus__crb_",
+    "name": {
+      "value": "Apparatus of the Octopus"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation and transmutation; CL 19th; Slot none; Price 20,000 gp; Weight 400 lbs. DESCRIPTION An inactive apparatus of the octopus appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Closer examination (and a successful DC 20 Perception check) reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 unlabeled levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus\u00e2\u0080\u0099s movements and actions. Lever (1d10) Lever Function 1 Extend/retract legs and tail 2 Uncover/cover forward porthole 3 Uncover/cover side portholes 4 Extend/retract tentacles 5 Manipulate tentacles 6 Move forward/backward 7 Turn left/right 8 Open/close \u00e2\u0080\u009ceyes\u00e2\u0080\u009d with continual flame inside 9 Rise/sink in water 10 Open/close hatch Operating one of the levers is a full-round action, and no lever may be operated more than once per round. However, since two characters can fit inside, the apparatus can perform up to two of its actions in the same round. The device can function in water up to 5,000 feet deep. It holds enough air for a crew of two to survive for 2d4+2 hours (or twice as long for a single occupant). When activated with the tentacles extended, the apparatus looks something like a giant octopus. Using the fifth lever, the apparatus\u00e2\u0080\u0099s eight tentacles can manipulate objects about as well as hands, though they can\u00e2\u0080\u0099t perform any actions that require fine motor control (such as Sleight of Hand or Disable Device ), nor can they make any attacks, including combat maneuvers (the apparatus\u00e2\u0080\u0099s listed CMB is solely to break free from a grapple ). They can grasp items, and the apparatus can hold up to a maximum of 600 pounds of weight, including the occupants and anything that it grasps. When active, an apparatus of the octopus has the following characteristics: hp 100; hardness 5; Speed 5 ft., swim 40 ft.; AC 16 (+7 natural, \u00e2\u0080\u00931 size ); CMB +10; CMD 20. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells animate objects, continual flame; Special creator must have 8 ranks in Knowledge (engineering); Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_apparatus_of_the_octopus",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_apparatus_of_the_octopus",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

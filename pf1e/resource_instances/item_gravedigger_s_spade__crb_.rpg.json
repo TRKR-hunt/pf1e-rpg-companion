@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gravedigger_s_spade__crb_",
+    "name": {
+      "value": "Gravedigger's Spade"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,150 gp; Slot none; CL 8th; Weight 4 lbs.; Aura moderate conjuration and transmutation DESCRIPTION The sturdy, well-polished oaken shaft and the sharp blade attached to its tip allow this magical staff to be used as a masterwork shovel when not employed in spellcasting. Expeditious excavation (1 charge) Create pit (2 charges) Spiked pit (5 charges) CONSTRUCTION REQUIREMENTS Cost 6,100 gp; Feats Craft Staff; Spells expeditious excavation, create pit, spiked pit"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gravedigger_s_spade",
+          "value": {
+            "value": 12150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gravedigger_s_spade",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

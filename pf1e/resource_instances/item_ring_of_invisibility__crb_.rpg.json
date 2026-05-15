@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_invisibility__crb_",
+    "name": {
+      "value": "Ring of invisibility"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 3rd; Slot ring; Price 20,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION By activating this simple silver ring, the wearer can benefit from invisibility, as the spell. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells invisibility; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_invisibility",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

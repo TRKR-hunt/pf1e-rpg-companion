@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_monkey__crb_",
+    "name": {
+      "value": "Monkey belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Monkey Belt Aura moderate transmutation; CL 8th; Slot belt; Price 9,400 gp; Weight 1 lb. DESCRIPTION This furry brown belt resembles the tail of a monkey. The belt grants the wearer a +2 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. The wearer does not lose his Dexterity bonus to AC while climbing, and does not take a \u00e2\u0080\u00945 penalty on Climb checks when climbing at half his speed. As a swift action the wearer can command the belt to animate, transforming it into a prehensile tail under the wearer\u00e2\u0080\u0099s control. The tail does not grant the wearer any additional attacks or actions per round, nor can it wield weapons, but it can make unarmed attacks and hold or manipulate objects about as well as the wearer\u00e2\u0080\u0099s normal limbs (though any activity requiring fingers is beyond the tail\u00e2\u0080\u0099s capabilities). The belt can function as a tail for 5 minutes per day. These minutes do not need to be consecutive. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape I, cat\u00e2\u0080\u0099s grace; Cost 4,700 gp. Monkey Belt, Greater Aura moderate transmutation; CL 8th; Slot belt; Price 18,000 gp; Weight 1 lb. DESCRIPTION This belt functions as a monkey belt, except it grants the wearer a +2 enhancement bonus to Strength and Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. When the wearer speaks the command word to transform the belt into a prehensile tail, a greater monkey belt also gives the wearer a +5 circumstance bonus on Climb checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape I, bull\u00e2\u0080\u0099s strength, cat\u00e2\u0080\u0099s grace; Cost 9,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_monkey",
+          "value": {
+            "value": 9400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_monkey",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

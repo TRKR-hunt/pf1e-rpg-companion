@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "harp_of_shattering__crb_",
+    "name": {
+      "value": "Harp of shattering #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd; Weight 5 lbs.; Slot none; Price 8,000 gp DESCRIPTION This finely crafted masterwork harp fits comfortably in one hand, but it requires two hands to play. The harp has 10 charges, which refresh each day at daybreak. By making a DC 10 Perform (string) check, the bearer can produce the following effects: break (1 charge) shatter (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, break, shatter; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_harp_of_shattering",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_harp_of_shattering",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "caravan_guardian_statuette__crb_",
+    "name": {
+      "value": "Caravan Guardian Statuette"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot none; CL 3rd Weight 1 lb.; Aura faint abjuration and conjuration ABOUT Traders often carry a small, eagle-shaped caravan guardian with them on their journeys. These wooden statuettes serve as watchful guardians, alerting travelers when there is danger and summoning an eagle ally to fight the threat. EFFECTS Each day, the guardian\u00e2\u0080\u0099s wielder must designate up to five allies, including himself, to be alerted of an intruder\u00e2\u0080\u0099s presence. When a creature approaches within 20 feet of an unattended caravan guardian (or its wielder, if a creature has the guardian on their person), that creature must speak the command word within 1 round or an eagle appears in a space next to the statue and attacks whatever creature triggered it. Additionally, the caravan guardian sends all designated creatures a mental warning, as per the mental alarm use of the alarm spell (if the guardian\u00e2\u0080\u0099s wielder did not designate allies to be alerted that day, the item alerts the most recently designated allies). If there is no appropriate space for the eagle to be summoned into, it does not appear, but the caravan guardian still sends a mental alarm. A caravan guardian can summon only one eagle per day. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item; Spells alarm, summon nature\u00e2\u0080\u0099s ally I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_caravan_guardian_statuette",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_caravan_guardian_statuette",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

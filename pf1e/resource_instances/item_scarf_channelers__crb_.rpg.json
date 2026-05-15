@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scarf_channelers__crb_",
+    "name": {
+      "value": "Scarf, Channeler\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,012 gp; Slot weapon; CL 7th Weight 2 lbs.; Aura moderate evocation APPEARANCE This bladed scarf is made of fine, silvery blue silk. EFFECTS A channeler\u00e2\u0080\u0099s scarf is a +1 mithral bladed scarf. When one is wielded by a spiritualist whose phantom is currently harbored in her consciousness, some of the phantom\u00e2\u0080\u0099s emotional energy is channeled into the scarf. As long as the wielder\u00e2\u0080\u0099s phantom is harbored in her consciousness, once per day she can activate the scarf as a standard action to affect it with a greater magic weapon spell, using the wielder\u00e2\u0080\u0099s spiritualist level as the spell\u00e2\u0080\u0099s caster level. This effect\u00e2\u0080\u0099s duration is equal to 1 minute per the wielder\u00e2\u0080\u0099s spiritualist level. This duration need not be used all at once, but must be used in 1-minute increments. In addition, while the scarf is under this greater magic weapon effect, it gains a single weapon special ability based on the emotional focus of the wielder\u00e2\u0080\u0099s phantom, as though affected by a spirit-bound blade spell. If the phantom\u00e2\u0080\u0099s emotional focus does not have an entry for spirit-bound blade, the weapon gains the heartseeker special ability. This effect does not grant the scarf any other benefits of the spirit-bound blade spell. CONSTRUCTION REQUIREMENTS Cost 8,512 gp; Feats Craft Magic Arms and Armor; Spells greater magic weapon; Class Features spirit-bound blade, phantom class feature; Special creator must worship the associated deity"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scarf_channelers",
+          "value": {
+            "value": 14012
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scarf_channelers",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

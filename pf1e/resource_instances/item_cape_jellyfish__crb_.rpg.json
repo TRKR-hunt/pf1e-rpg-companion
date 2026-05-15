@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cape_jellyfish__crb_",
+    "name": {
+      "value": "Jellyfish cape"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot shoulders; Price 19,200 gp; Weight 1 lb. DESCRIPTION This billowing white cape renders the wearer almost invisible the moment she is submerged in salt water, granting her concealment (20% miss chance) so long as she remains entirely submerged. The wearer can breathe underwater and gains a swim speed of 20 ft. While the wearer is submerged, the cape surrounds her with tiny stinging tentacles. Any creature that ends its turn adjacent to the wearer takes 1 point of electricity damage and must succeed at a DC 16 Fortitude saving throw or be sickened for 1 round. The sickened effect is a poison effect. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape II, water breathing; Cost 9,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cape_jellyfish",
+          "value": {
+            "value": 19200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cape_jellyfish",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

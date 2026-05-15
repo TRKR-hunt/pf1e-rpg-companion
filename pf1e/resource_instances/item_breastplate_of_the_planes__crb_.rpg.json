@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "breastplate_of_the_planes__crb_",
+    "name": {
+      "value": "Breastplate of the planes"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,350 gp; Slot armor; CL 15th; Weight 30 lbs.; Aura strong evocation DESCRIPTION This sturdy, unadorned breastplate has a +1 enhancement bonus on the Material Plane. On any Elemental Planes, or against attacks made by creatures native to any Elemental Planes, its enhancement bonus increases to +2. On the Astral Plane or the Ethereal Plane, or against attacks made by creatures native to either of those planes, its enhancement bonus increases to +3. On any other plane, or against attacks made by any outsider, its enhancement bonus increases to +4. CONSTRUCTION REQUIREMENTS Cost 5,580 gp; Feats Craft Magic Arms and Armor; Spells plane shift"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_breastplate_of_the_planes",
+          "value": {
+            "value": 11350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_breastplate_of_the_planes",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

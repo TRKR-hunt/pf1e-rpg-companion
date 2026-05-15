@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_of_the_mantis_2__crb_",
+    "name": {
+      "value": "Mask of the Mantis"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot head; CL 3rd; Weight 1 lb.; Aura faint divination DESCRIPTION A mask of the mantis is the traditional headgear of the Crimson Assassin -a magical helm that evokes the eerie visage of a praying mantis. Designed both to mask the wearer\u2019s identity while on a job and to enhance the wearer\u2019s ferocious appearance, a mask of the mantis has 3 daily charges that can be used to gain additional bonuses. The wearer can spend a charge to gain darkvision to a range of 60 feet, the effects of see invisibility, the effects of deathwatch, or a +5 competence bonus on Perception checks. Once a charge is spent, the effect granted persists for 30 minutes before fading. Multiple effects can be active simultaneously. Charges expended from the mask replenish automatically in 24 hours. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells darkvision, deathwatch, see invisibility"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_of_the_mantis_2",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_of_the_mantis_2",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

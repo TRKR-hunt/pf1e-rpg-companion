@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "maw_of_the_wyrm__crb_",
+    "name": {
+      "value": "Maw of the wyrm #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Slot head; Price 18,000 gp; Weight 3 lbs. DESCRIPTION This fearsome helm, wrought into the shape of a roaring dragon\u00e2\u0080\u0099s maw, has dozens of glittering dragon scales across its surface. The helm\u00e2\u0080\u0099s wearer gains a +4 competence bonus on Intimidate checks and a +4 insight bonus on saves to resist a dragon\u00e2\u0080\u0099s frightful presence aura. Each helm is modeled after a particular type of chromatic or metallic dragon. Once per day on command, the wearer can breathe out a blast of energy, as the dragon\u00e2\u0080\u0099s breath spell to mimic the breath weapon of the dragon the helm is modeled after (7d6 points of damage, Reflex DC 16 half). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dragon\u00e2\u0080\u0099s breath; Cost 9,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_maw_of_the_wyrm",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_maw_of_the_wyrm",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

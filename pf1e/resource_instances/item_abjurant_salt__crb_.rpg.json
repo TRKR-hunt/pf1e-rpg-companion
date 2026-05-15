@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "abjurant_salt__crb_",
+    "name": {
+      "value": "Abjurant salt #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 9th; Weight 1 lb.; Slot none; Price 600 gp DESCRIPTION Carried in a tube of beaten silver, this rough-ground salt is a powerful defense against evil conjurers. As a full-round action that provokes attacks of opportunity, the salt can be poured in a circle with a diameter of 5 feet or a straight line up to 15 feet long. While the line of salt remains unbroken and undisturbed, evil summoned or called creatures cannot physically cross it or interfere with it. These creatures can continue to make ranged or magical attacks over the line. Any other creature may disturb the line simply by scuffing it. The effects of the salt last as long as the line remains unbroken. Once laid, the salt cannot be recollected. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, magic circle against evil, permanency; Cost 300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_abjurant_salt",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_abjurant_salt",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "needles_of_fleshgraving__crb_",
+    "name": {
+      "value": "Needles of fleshgraving #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 1 lb.; Slot none; Price 8,000 gp DESCRIPTION These tattooing needles can grant a +5 competence bonus on Craft (tattoos) checks. Once per day they can be used to transform an object into a tattoo on a willing creature. This takes 10 minutes. The object may resist with a DC 17 Fortitude saving throw. The transformed object radiates faint transmutation magic and looks like a miniature depiction of itself. The bearer of the tattoo may peel it off as a standard action, transforming it back into its object form. The tattoo automatically reverts back to its object form after 7 days, if dispelled (using the caster level of the needles), or upon the death of the tattooed creature. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shrink item; Special creator must have 5 ranks in Craft (tattoos); Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_needles_of_fleshgraving",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_needles_of_fleshgraving",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

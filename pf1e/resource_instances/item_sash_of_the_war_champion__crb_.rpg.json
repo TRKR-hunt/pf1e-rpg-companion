@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sash_of_the_war_champion__crb_",
+    "name": {
+      "value": "Sash of the war champion #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 9th; Slot chest; Price 4,000 gp; Weight 1 lb. DESCRIPTION This bright red strip of cloth, stitched with images of a cheering crowd throwing garlands toward a chariot, fits across the wearer\u2019s shoulders and then diagonally down his chest to reach his opposite hip. The wearer treats his fighter level as 4 higher than normal for the purpose of the armor training and bravery class features. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u2019s grace, remove fear; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sash_of_the_war_champion",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sash_of_the_war_champion",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

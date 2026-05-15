@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "evergreen_seed_pouch__crb_",
+    "name": {
+      "value": "Evergreen Seed Pouch"
+    },
+    "source": {
+      "value": "daughters_of_fury"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot none; Price 16,000 gp; Weight 1/2 lb. DESCRIPTION This leather pouch is decorated with fresh mistletoe and sprigs of holly that are shaped to resemble the druidic symbol of the Green Faith. The pouch contains seeds of various small plants and grasses. When the pouch is used as a divine focus component for a spell that affects or creates plant matter\u00e2\u0080\u0094such as entangle or spike growth\u00e2\u0080\u0094its magic manifests as the pouch opens and the seeds float out. The seeds plant themselves in the ground and instantly grow to create any vegetation or grass that the spell requires to function inside of the spell\u00e2\u0080\u0099s area of effect. The vegetation created by the pouch grows regardless of the terrain, and lasts the full duration of the spell, allowing the user to cast plant-altering or plant-creating spells in deserts, badlands, and other harsh terrains. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells wall of thorns; Cost 8,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_evergreen_seed_pouch",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pauldrons_of_the_bull__crb_",
+    "name": {
+      "value": "Pauldrons of the bull #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot shoulders; Price 10,000 gp; Weight 3 lbs. DESCRIPTION These steel pauldrons are engraved with images of charging bulls. When the wearer makes a bull rush combat maneuver, she can make the check twice and take the better result. Furthermore, they grant a +2 enhancement bonus to CMD against bull rushes. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bull\u00e2\u0080\u0099s strength; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pauldrons_of_the_bull",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pauldrons_of_the_bull",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

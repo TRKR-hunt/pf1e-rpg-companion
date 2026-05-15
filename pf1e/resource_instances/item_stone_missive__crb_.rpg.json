@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_missive__crb_",
+    "name": {
+      "value": "Stone, Missive"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot neck; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These two small, polished pieces of black rock dangle from simple silver chains and are covered in dozens of tiny arcane symbols etched in red paint. Missive stones are always created in pairs. When you and another person each wear one of the stones, you can send whispered messages to each other as long as you are no more than 3 miles apart. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, whispering wind; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_missive",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

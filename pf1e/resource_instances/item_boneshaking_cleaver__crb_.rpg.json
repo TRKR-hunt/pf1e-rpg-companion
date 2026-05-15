@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boneshaking_cleaver__crb_",
+    "name": {
+      "value": "Boneshaking Cleaver"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 90,320 gp; Slot none; CL 15th; Weight 12 lbs.; Aura strong necromancy [evil] DESCRIPTION This well-balanced, two-handed cleaver is nearly 6 feet in length. Its blade protrudes from a hilt that appears to be the spine of an animal, capped with a skull at its end. A boneshaking cleaver functions as a +3 unholy greataxe. On a critical hit, it also rattles the target\u00e2\u0080\u0099s bones, rending flesh and separating joints. This deals 1 point of Constitution damage and allows the wielder to apply one of the following conditions to the target for 1 round: deafened, shaken, or sickened. CONSTRUCTION REQUIREMENTS Cost 45,320 gp; Feats Craft Magic Arms and Armor; Spells bestow curse, unholy blight"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boneshaking_cleaver",
+          "value": {
+            "value": 90320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boneshaking_cleaver",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

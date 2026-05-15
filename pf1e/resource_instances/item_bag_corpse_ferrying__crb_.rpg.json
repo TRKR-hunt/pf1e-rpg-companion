@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bag_corpse_ferrying__crb_",
+    "name": {
+      "value": "Bag, Corpse-Ferrying"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and necromancy; CL 9th; Slot none; Price 4,000 gp; Weight 20 lbs. DESCRIPTION This large black leather bag has a wide mouth and laces to help keep it shut. It weighs 20 pounds and can carry up to 300 pounds or 10 cubic feet of material (easily able to hold a single Medium corpse or two Small corpses, including their gear). Anything within the bag is protected by a gentle repose spell. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, gentle repose, secret chest; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bag_corpse_ferrying",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bag_corpse_ferrying",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

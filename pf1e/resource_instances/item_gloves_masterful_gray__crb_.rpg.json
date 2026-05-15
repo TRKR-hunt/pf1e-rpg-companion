@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_masterful_gray__crb_",
+    "name": {
+      "value": "Gloves Masterful Gray"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,400 gp; Weight 1/2 lb.; Slot hands; CL 3rd; Aura faint illusion DESCRIPTION These dark-gray leather gloves are extremely supple. They grant a +10 bonus on Sleight of Hands checks to take something from a creature unnoticed. Additionally, three times per day, when a creature notices the wearer\u00e2\u0080\u0099s Sleight of Hand check to take something from it, the wearer can cause the object to become invisible as an immediate action, allowing the wearer to disavow the theft. CONSTRUCTION REQUIREMENTS Cost 2,700 gp; Feats Craft Wondrous Item; Spells invisibility"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_masterful_gray",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

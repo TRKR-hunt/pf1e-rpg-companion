@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "whip_token__crb_",
+    "name": {
+      "value": "Whip Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp DESCRIPTION A token that forms into a huge leather whip and wields itself against any opponent desired just like a dancing weapon. The weapon has a +10 base attack bonus, does 1d6+1 points of nonlethal damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 bonus on its combat maneuver checks) if it hits. The whip lasts no longer than 1 hour. CONSTRUCTION"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_whip_token",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

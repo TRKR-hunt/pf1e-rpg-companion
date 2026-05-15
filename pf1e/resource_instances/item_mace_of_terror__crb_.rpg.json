@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mace_of_terror__crb_",
+    "name": {
+      "value": "Mace of Terror"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy; CL 13th; Weight 8 lbs.; Price 38,552 gp DESCRIPTION This weapon usually appears to be a particularly frightening- looking iron or steel mace. On command, this +2 heavy mace causes the wielder\u2019s clothes and appearance to transform into an illusion of darkest horror, such that living creatures in a 30-foot cone become panicked as if by a fear spell ( Will DC 16 partial). Those who fail this save take a \u00e2\u0080\u00932 morale penalty on saving throws, and they flee from the wielder. The wielder may use this ability up to three times per day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, fear; Cost 19,432 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mace_of_terror",
+          "value": {
+            "value": 38552
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mace_of_terror",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

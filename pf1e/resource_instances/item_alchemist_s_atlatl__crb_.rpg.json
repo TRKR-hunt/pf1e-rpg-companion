@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "alchemist_s_atlatl__crb_",
+    "name": {
+      "value": "Alchemist's Atlatl"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot none; CL 1st; Weight 2 lbs.; Aura faint transmutation DESCRIPTION This wooden atlatl resembles a handheld, lever-controlled catapult. One end sports a shaft covered in carvings of alchemical formulae, and the other is a roughly carved bowl. The user can place an alchemical splash weapon, such as a flask of acid or alchemist\u2019s fire, in the bowl. This is a move action that provokes an attack of opportunity. When the splash weapon is launched from the atlatl, its range is doubled. Magic items (including an alchemist\u2019s bombs) aren\u2019t affected by an alchemist\u2019s atlatl. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item; Spells longshot"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_alchemist_s_atlatl",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_alchemist_s_atlatl",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

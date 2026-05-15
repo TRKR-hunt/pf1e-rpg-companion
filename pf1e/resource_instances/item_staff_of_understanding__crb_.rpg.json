@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_understanding__crb_",
+    "name": {
+      "value": "Staff of understanding"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 8th; Slot none; Price 14,400 gp; Weight 5 lbs. DESCRIPTION This polished maple or oak staff is inlaid with ivory strips along its length, and runes of various languages also formed from inlaid ivory span the shaft. It allows use of the following spells: Comprehend languages (1 charge) Detect thoughts (2 charges) Tongues (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells comprehend languages, detect thoughts, tongues; Cost 7,200 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_understanding",
+          "value": {
+            "value": 14400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_understanding",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "homebound_timepiece__crb_",
+    "name": {
+      "value": "Homebound Timepiece"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint divination DESCRIPTION This complicated brass chronometer can be wound only while on the Material Plane. Attempts to wind a homebound timepiece on any other plane simply fail, with the winding pin spinning and turning without effect. Winding a homebound timepiece is an arduous process that requires 10 minutes, but it thereafter keeps accurate time for the next 10 days, as time passes on the Material Plane. If a homebound timepiece is taken to a plane with the erratic time or flowing time traits, it speeds up or slows down as necessary to accurately measure the passage of relative time on the Material Plane (for example, if it is taken to a plane where 1 day is equal to 1 round on the Material Plane, the timepiece slows down considerably and functions for nearly 40 years). If the homebound timepiece is taken to a plane with the timeless trait, it is immediately but harmlessly unwound. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells divination"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_homebound_timepiece",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

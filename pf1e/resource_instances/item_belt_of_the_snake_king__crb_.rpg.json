@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_the_snake_king__crb_",
+    "name": {
+      "value": "Belt of the Snake King"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,600 gp; Slot belt; CL 5th; Weight 1 lb.; Aura faint transmutation DESCRIPTION Note This item is associated with a specific deity. This belt writhes like a living snake, and even hisses and blinks its red eyes. It clasps by holding its tail in its mouth. The wearer gains a +1 enhancement bonus to natural armor. If the associated deity is the wearer\u2019s patron, once per day, the wearer can use magic fang on one of his own natural weapons. CONSTRUCTION REQUIREMENTS Cost 1,300 gp; Feats Craft Wondrous Item, barkskin, magic fang, summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_the_snake_king",
+          "value": {
+            "value": 2600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_the_snake_king",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

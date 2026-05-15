@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spectacles_of_lip_reading__crb_",
+    "name": {
+      "value": "Spectacles Of Lip Reading"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Weight 1 lb.; Slot eyes; CL 1st; Aura faint divination DESCRIPTION These eyeglasses are engraved with owl\u00e2\u0080\u0099s feathers. The wearer can understand the words of anyone she can see speaking a language she understands if she succeeds at a DC 0 Perception check (modified by distance and conditions as normal). CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells comprehend languages"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spectacles_of_lip_reading",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spectacles_of_lip_reading",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

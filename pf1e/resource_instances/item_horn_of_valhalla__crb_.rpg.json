@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horn_of_valhalla__crb_",
+    "name": {
+      "value": "Horn of Valhalla #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th; Slot \u00e2\u0080\u0094; Price 50,000 gp; Weight 2 lbs. DESCRIPTION This magic instrument comes in four varieties. Each appears to be a normal, scarred old horn used for hunting or signaling during battle. When someone speaks its command word and blows the horn, however, the horn summons a number of human barbarians to fight for the character who summoned them. Each horn can be blown just once every 7 days. Roll d% and refer to the table above to see what type of horn is found. The horn\u2019s type determines what barbarians are summoned and what prerequisite is needed to use the horn. Any character who uses a horn of Valhalla but doesn\u2019t have the prerequisite is attacked by the barbarians she herself summoned. d% Type of Horn Barbarians Summoned Prerequisite 01\u00e2\u0080\u009340 Silver 2d4+2, 2nd-level None 41\u00e2\u0080\u009375 Brass 2d4+1, 3rd-level Spellcaster level 1st 76\u00e2\u0080\u009390 Bronze 2d4, 4th-level Proficiency with all martial weapons or bardic performance ability 91\u00e2\u0080\u0093100 Iron 1d4+1, 5th-level Proficiency with all martial weapons or bardic performance ability Summoned barbarians are constructs, not actual people (though they seem to be); they arrive with the starting equipment for barbarians. They attack anyone the possessor of the horn commands them to fight until they or their opponents are slain or until 1 hour has elapsed, whichever comes first. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, summon monster VI; Cost 25,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horn_of_valhalla",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horn_of_valhalla",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

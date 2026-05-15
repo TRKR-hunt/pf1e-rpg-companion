@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lenses_fogcutting__crb_",
+    "name": {
+      "value": "Lenses, Fogcutting"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot eyes; Price 8,000 gp; Aura faint transmutation; CL 5th; Weight 1 lb. DESCRIPTION These goggles are made of carefully-polished rock crystal, with frames of polished brass and a simple leather strap and buckle sized for a giant\u2019s head (but easily adjustable for smaller wearers). The goggles allow the wearer to see through magical and normal fogs, mists, and similar obscurement. They do not confer darkvision or low-light vision. Further, the goggles distort and skew vision strangely, causing a \u00e2\u0080\u00934 penalty on Perception checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells darkvision, fog cloud; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lenses_fogcutting",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lenses_fogcutting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

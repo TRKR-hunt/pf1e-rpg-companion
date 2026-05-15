@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_the_storm__crb_",
+    "name": {
+      "value": "Amulet of the Storm"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Note: This item is associated with a specific deity. Price 36,000 gp; Slot neck; CL 11th Weight -; Aura moderate abjuration DESCRIPTION Carved from a single piece of reddish coral, this small amulet is shaped into a swirling, counterclockwise spiral centered behind a leaf. When worn, the amulet provides energy resistance 5 against cold and electricity. If the wearer worships the associated deity, the energy resistances both increase to 10. The wearer automatically identifies spells with the air, electricity, or water descriptor that are cast in her presence, as if she had succeeded at a Spellcraft check to do so. Once per day as an immediate action, the wearer of an amulet of the storm can attempt to counterspell any spell containing the air, electricity, or water descriptor as if the wearer were casting dispel magic. If this counterspell attempt is successful, it redirects the magical energy back at the caster in the form of bolts of lightning, dealing 1d6 points of electricity damage per level of the spell that was countered to the spell\u2019s original caster. A successful DC 18 Reflex save halves this damage. CONSTRUCTION REQUIREMENTS Cost 18,000 gp; Feats Craft Wondrous Item; Spells dispel magic, protection from energy; Special creator must be a worshiper of the associated deity"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_the_storm",
+          "value": {
+            "value": 36000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

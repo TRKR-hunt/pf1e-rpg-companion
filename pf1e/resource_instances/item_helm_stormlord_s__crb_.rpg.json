@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_stormlord_s__crb_",
+    "name": {
+      "value": "Stormlord\u2019s helm"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 10th; Slot head; Price 35,000 gp; Weight 3 lbs. DESCRIPTION Two large horns jut from the sides of this iron helm, each of them carved with runes representing storms, thunder, and lightning. The runes give the wearer the ability to control the elements and bring forth a great storm. Once per day, the wearer can call upon the magic of the helm to call a thunderstorm, as if casting the control weather spell. Like that spell, it takes 10 minutes to call the weather and an additional 10 minutes for the thunderstorm to manifest. Once it does, the wearer can call lighting (as the spell ) for 10 minutes or until the wearer dismisses the thunderstorm with a standard action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, call lightning, control weather; Cost 17,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_stormlord_s",
+          "value": {
+            "value": 35000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_stormlord_s",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

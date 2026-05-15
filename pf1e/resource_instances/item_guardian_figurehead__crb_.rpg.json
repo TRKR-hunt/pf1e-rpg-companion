@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "guardian_figurehead__crb_",
+    "name": {
+      "value": "Guardian Figurehead"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,350 gp; Slot none; CL 3rd Weight 50 lbs.; Aura faint abjuration APPEARANCE This elegantly carved figurehead typically depicts a fantastic magical creature, divine figure, or local hero, and it is either attached to the prow of a sailing vessel or carved into the hull of the ship. EFFECTS Once per day, the figurehead can be activated by speaking its command word as a swift action, awakening its protective power for 1 minute. While the figurehead is active, all ranged attacks originating from anywhere other than the ship have a 20% miss chance against the vessel and anyone aboard it. This ability has no effect on melee attacks, rays, or ranged attacks that do not require an attack roll to hit (such as magic missile ). CONSTRUCTION REQUIREMENTS Cost 675 gp; Feats Craft Wondrous Item; Spells entropic shield"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_guardian_figurehead",
+          "value": {
+            "value": 1350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_guardian_figurehead",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

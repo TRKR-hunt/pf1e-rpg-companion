@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_imperious__crb_",
+    "name": {
+      "value": "Headband, Imperious"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot headband; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint enchantment DESCRIPTION Adorned with stylized bronze feathers, these headbands are prized by treacherous nobles who fear an assassin\u2019s dagger in the back. While worn, an imperious headband grants its wearer a +4 deflection bonus to his AC against any attack made by a hireling, a slave, a servant, or any other sentient creature in his employ. In addition, such creatures must succeed at a DC 13 Will save or treat their master as if he were affected by a sanctuary spell. If such creatures are subject to magical compulsion to attack the wearer, they must roll all attack rolls and checks to overcome spell resistance against the wearer twice and take the lower result. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells charm person, sanctuary; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_imperious",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

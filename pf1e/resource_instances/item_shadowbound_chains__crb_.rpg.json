@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shadowbound_chains__crb_",
+    "name": {
+      "value": "Shadowbound Chains"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 19,725 gp; Slot none; CL 9th; Weight 10 lbs.; Aura moderate conjuration DESCRIPTION Jagged and spiked, this +1 vicious spiked chain shifts between hues of muted green and deep violet and is associated with a specific deity. When the wielder reduces a creature\u2019s hit points below 0 using the chain but doesn\u2019t kill it, she can call a shadowy duplicate of the target as a free action. This duplicate is treated as a shadow without the create spawn ability. The duplicate is friendly to the wielder and attacks her enemies, but ignores its host body. The host can\u2019t benefit from any healing that would bring it above \u00e2\u0080\u00931 hit points until the shadow is destroyed or disappears. The shadow fades away when the host body dies or after 10 rounds, whichever comes first. The wielder of the shadowbound chains can summon forth only one shadow at a time. CONSTRUCTION REQUIREMENTS Cost 11,125 gp; Feats Craft Magic Arms and Armor; Spells shadow conjuration"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shadowbound_chains",
+          "value": {
+            "value": 19725
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shadowbound_chains",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "morlock_hide__crb_",
+    "name": {
+      "value": "Morlock hide"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion and transmutation CL 10th Weight 15 lbs.; Price 8,910 gp DESCRIPTION This +1 shadow leather armor causes the wearer\u2019s skin to warp and distort into a welter of horrid scarification. The armor itself disappears from view under this coat of scars and the wearer\u2019s face appears as a loathsome, eyeless veil of flesh. This change is illusory, similar to glamered armor; however, morlock hide does cause the wearer\u2019s arms and legs to extend and her posture to become hunched. She gains a +2 circumstance bonus on Acrobatics, Climb, and Escape Artist checks, and she can move through narrow spaces while squeezing at normal speed and with no penalty to AC or on attack rolls. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells alter self, invisibility; Cost 4,535 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_morlock_hide",
+          "value": {
+            "value": 8910
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_morlock_hide",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

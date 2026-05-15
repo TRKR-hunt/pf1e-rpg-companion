@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "oculus_of_magnetic_fury__crb_",
+    "name": {
+      "value": "Oculus of Magnetic Fury"
+    },
+    "source": {
+      "value": "construct_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 90,000 gp; Slot none; CL 10th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This piece of technology is fashioned from the eye of a robot. Once per hour as a standard action, a creature holding an oculus of magnetic fury can target a single robot within 60 feet with a devastating electromagnetic pulse. The robot takes 10d6 points of electricity damage and becomes helpless for 1 minute. If the target succeeds at a DC 18 Will save, it takes half this damage and negates the helpless effect. A robot rendered helpless by the pulse receives a new Will save each round at the end of its turn to shake off the effect. CONSTRUCTION REQUIREMENTS Cost 45,000 gp; Feats Craft Wondrous Item; Spells disable construct, lightning bolt"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_oculus_of_magnetic_fury",
+          "value": {
+            "value": 90000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_oculus_of_magnetic_fury",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

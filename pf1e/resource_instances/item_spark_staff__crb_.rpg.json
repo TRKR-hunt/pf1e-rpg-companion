@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spark_staff__crb_",
+    "name": {
+      "value": "Spark Staff"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,650 gp; Slot none; CL 8th; Weight 2 lbs.; Aura moderate evocation DESCRIPTION Thin golden strands snake through this transparent shaft, seeming to flow from one brass end-cap to the other. Once per day when the wielder is damaged by an effect that deals at least 10 points of electricity damage, the staff regains 1 charge. This does not reduce the amount of damage the wielder takes from the effect. Shocking grasp (1 charge) Intensified shocking grasp (2 charges) Lightning bolt (5 charges) CONSTRUCTION REQUIREMENTS Cost 6,475 gp; Feats Craft Staff, Intensified Spell; Spells shocking grasp, lightning bolt"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spark_staff",
+          "value": {
+            "value": 12650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spark_staff",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

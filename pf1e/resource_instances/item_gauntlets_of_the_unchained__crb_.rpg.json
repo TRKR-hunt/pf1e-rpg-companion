@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_of_the_unchained__crb_",
+    "name": {
+      "value": "Gauntlets of the Unchained"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,200 gp; Slot hands; CL 7th; Weight 6 lbs.; Aura moderate evocation DESCRIPTION Said to have first been forged centuries ago by a human master blacksmith who escaped from drow slavers, these shimmering silver gauntlets remind the wearer that she is always shackled to the deeds of her past, but remains unfettered with the promise of a freer future. The wearer of a pair of gauntlets of the unchained may only wield weapons two-handed\u2014the magical chain that binds the gauntlets makes it effectively impossible to wield or hold more than one item at a time. By tapping the gauntlets\u2019 manacles together as a swift action, the wearer can cause damage dealt by her wielded weapon to become lawful-aligned and thus overcome the corresponding damage reduction. This effect lasts for up to 7 rounds per day. This duration need not be consecutive, but it must be spent in 1-round increments. By breaking the magical chain that connects the gauntlets as a standard action, the wearer can cause her wielded weapon to gain the anarchic weapon special ability for 7 minutes. Once broken, the chain between the gauntlets is shattered forever, and the gauntlets become non-magical. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells chaos hammer, order\u2019s wrath; Special creator must be neutral; Cost 6,600 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_of_the_unchained",
+          "value": {
+            "value": 13200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_of_the_unchained",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

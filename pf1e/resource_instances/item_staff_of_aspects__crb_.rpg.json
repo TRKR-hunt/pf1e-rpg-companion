@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_aspects__crb_",
+    "name": {
+      "value": "Staff of aspects"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot none; Price 37,600 gp; Weight 5 lbs. DESCRIPTION This stout staff is made of ash. Four faces of animals\u00e2\u0080\u0094a bear, a falcon, a stag, and a wolf\u00e2\u0080\u0094are carved at its top. The aspect staff functions as a +1/+1 quarterstaff and allows the use of the following spells: Aspect of the bear (1 charge) Aspect of the falcon (1 charge) Aspect of the stag (2 charges) Aspect of the wolf (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Staff; Spells aspect of the bear, aspect of the falcon, aspect of the stag, aspect of the wolf; Cost 19,100 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_aspects",
+          "value": {
+            "value": 37600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_aspects",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

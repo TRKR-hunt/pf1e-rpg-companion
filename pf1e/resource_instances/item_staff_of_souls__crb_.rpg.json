@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_souls__crb_",
+    "name": {
+      "value": "Staff of souls"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 8th; Slot none; Price 32,800 gp; Weight 5 lbs. DESCRIPTION This ominous staff is made of twisting wood and topped with a small skull. It allows use of the following spells: Deathwatch (1 charge) Detect undead (1 charge) Gentle repose (1 charge) Death ward (2 charges) Speak with dead (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells death ward, deathwatch, detect undead, gentle repose, speak with dead; Cost 16,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_souls",
+          "value": {
+            "value": 32800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_souls",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wheel_of_survival__crb_",
+    "name": {
+      "value": "Wheel of Survival"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,800 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint divination DESCRIPTION This 4-inch wooden wheel is small enough to fit into a pocket or a pouch. EFFECTS By rolling the wheel on the ground (this requires a standard action to activate the item), the wheel begins rolling toward the nearest body of clean, potable water with enough liquid for the wielder to quench her thirst. Alternatively, the wheel rolls toward the nearest normal magic area if the wielder is in an area of primal magic, a magic dead zone, or another variant type of magic. (If necessary, the wielder must specify whether the wheel should seek water or normal magic when she activates the item.) The wheel can roll for up to 10 minutes per day until it leaves the region of variant magic, it reaches the body of water, or the wielder instructs it to stop (a free action ). This item\u00e2\u0080\u0099s duration need not be used all at once, but it must be used in 1-minute intervals. As part of its movement, the wheel can ascend or jump up to 30 feet. A wheel of survival is unaffected by variant magic regions. CONSTRUCTION REQUIREMENTS Cost 900 gp; Feats Craft Wondrous Item; Spells detect magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wheel_of_survival",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wheel_of_survival",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

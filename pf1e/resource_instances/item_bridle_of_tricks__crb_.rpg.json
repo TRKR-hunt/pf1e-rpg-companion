@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bridle_of_tricks__crb_",
+    "name": {
+      "value": "Bridle of Tricks"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; Slot head; CL 5th; Price 900 gp (3 tricks) 1,600 gp (4 tricks) 2,500 gp (5 tricks); Weight 2 lbs. DESCRIPTION Appearing to be a finely crafted bridle of polished steel and blue-dyed leather, a bridle of tricks can be placed on any animal or magical beast with an appropriate shape to wear a bridle (creatures with unusual anatomies may be affected with GM discretion). While wearing the bridle, a creature is treated as knowing three, four, or five additional tricks, as if it had been taught the tricks with the Handle Animal skill. The tricks granted by a bridle of tricks are set when it is created, and cannot be changed. The most common tricks found in a bridle of tricks are attack, defend, fetch, guard, and heel. See Handle Animal for more information on tricks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, speak with animals, Handle Animal 5 ranks; Cost 450 gp (3 tricks) 800 gp (4 tricks) 1,250 gp (5 tricks)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bridle_of_tricks",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bridle_of_tricks",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

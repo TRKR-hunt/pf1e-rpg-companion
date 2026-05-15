@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_vengeful_blood_magic__crb_",
+    "name": {
+      "value": "Ring of Vengeful Blood Magic"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,400 gp; Slot ring; CL 11th; Weight \u00e2\u0080\u0094; Aura moderate abjuration DESCRIPTION This claw ring is made of red metal tinged with orange, and a long nail made of obsidian extends from the tip. It allows its wearer to cast a spell as an attack of opportunity. Three time per day, if the wearer is bloodraging and a foe provokes an attack of opportunity from him, the wearer can cast a spell with a casting time of 1 standard action or less as the attack of opportunity. The spell must target the creature that provoked the attack or include it in the spell\u2019s area, and must be no higher than 3rd level. This counts as one of the wearer\u2019s attacks of opportunity for the round; casting this spell does not itself provoke an attack of opportunity. CONSTRUCTION REQUIREMENTS Cost 2,700 gp; Feats Combat Reflexes, Forge Ring; Quicken Spell"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_vengeful_blood_magic",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

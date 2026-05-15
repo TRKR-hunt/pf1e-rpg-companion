@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "silver_spindle__crb_",
+    "name": {
+      "value": "Silver Spindle (Ioun Stone)"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong evocation DESCRIPTION This stone grants you the ability to use a 1st level spell from the cleric, druid, or sorcerer / wizard spell list as a spell-like ability three times per day, using your character level as your caster level. The spell keyed to the ioun stone is selected by the stone\u2019s creator. In order for you to use this spell-like ability, you must have a Charisma score of 11 or higher. The save DCs of the chosen spell are Charisma -based, if any. Cracked: This stone functions as a normal silver spindle ioun stone, but instead grants a 0-level spell. Price: 12,000 gp. Flawed: This stone functions as a normal silver spindle ioun stone, but it deals 1d3 Charisma damage to you each time you use the spell-like ability. Price: 16,000 gp. CONSTRUCTION REQUIREMENTS Cost 12,000 gp; Feats Craft Wondrous Item; Spells imbue with spell ability; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_silver_spindle",
+          "value": {
+            "value": 24000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

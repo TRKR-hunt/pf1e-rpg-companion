@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "warding_lips__crb_",
+    "name": {
+      "value": "Warding Lips"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,900 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate conjuration and necromancy DESCRIPTION When placed upon the lips, these thin, translucent sheets of wax melt invisibly onto the user\u2019s mouth. The user is aware of\u00e2\u0080\u0094but unaffected by\u00e2\u0080\u0094any magical attacks or effects that might harm him through the lips or mouth (such as a succubus\u2019s energy drain attack). In addition, the next time he would be exposed to an ingested poison, the warding lips instead absorb the toxin and leave him unharmed. Once exposed to a magical attack or ingested poison, a set of warding lips loses its magic and becomes useless. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells death ward, neutralize poison; Cost 950 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_warding_lips",
+          "value": {
+            "value": 1900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

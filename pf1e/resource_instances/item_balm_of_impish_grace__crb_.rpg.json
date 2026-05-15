@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "balm_of_impish_grace__crb_",
+    "name": {
+      "value": "Balm of impish grace #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Weight \u00e2\u0080\u0094; Slot none; Price 7,500 gp DESCRIPTION When rubbed vigorously into the skin, this potent red liniment enhances a Tiny or smaller creature\u2019s ability to make full use of its size and mobility. Applying a dose of liniment is a standard action that provokes an attack of opportunity (similar to applying an oil). A creature under the effects of the liniment no longer provokes attacks of opportunity for moving through threatened squares or for entering a larger creature\u2019s square. The balm lasts for 5 minutes before its effects wear off. A newly created bottle of balm holds 5 doses. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, grace; Cost 3,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_balm_of_impish_grace",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

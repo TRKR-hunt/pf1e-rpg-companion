@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "impaler_of_thorns__crb_",
+    "name": {
+      "value": "Impaler of Thorns"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot none; Price 9,000 gp; Aura moderate enchantment; CL 7th; Weight 9 lbs. DESCRIPTION Impaler of thorns is made of darkwood, and its head is a thorn-like, wide-bladed barb. When impaler of thorns is used in combat, its successful critical hits are accompanied by an unsettling screech, as of some wild beast in anger. An impaler of thorns is a +1 longspear. Once per day as it strikes a foe, the wielder can cause it (as a free action ) to unleash a 30-foot-radius burst of despair that affects all creatures not wielding an impaler of thorns. Creatures affected must succeed at DC 16 Will saves or become overwhelmed with sadness and despair, taking \u00e2\u0080\u00932 penalties on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls for 6 minutes. The target struck when this effect is triggered must also succeed at a second DC 16 Will save to resist becoming nauseated with despair for 1 round. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor; Spells cat\u2019s grace, crushing despair, delay poison; Cost 4,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_impaler_of_thorns",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_impaler_of_thorns",
+          "value": {
+            "value": 9
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_planar_focus__crb_",
+    "name": {
+      "value": "Ring of Planar Focus"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot ring; CL 15th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION This large silver ring has a massive setting for a cloudy white crystal about an inch in diameter. Once per week as a standard action, the wearer can tap the ring with a forked rod attuned to a specific plane (the focus for a plane shift spell). When tapped, the crystal transforms into a rough topographical map of the plane in question for 1 minute. The wearer can manipulate the crystal to focus on a single specific location within the plane, although the topographical elements remain rough and display only large or well-known features around the desired location. If the wearer has been to that location personally, she can focus the crystal on the location in 1 full round. Otherwise, she can attempt a DC 15 Knowledge (planes) check to focus on a location of her choice as a full-round action. This location must be a public or well-known area, such as a public plaza in the Common Quarter in the City of Brass. Obscure locations or locations controlled by a divinity cannot be focused on\u00e2\u0080\u0094in all cases, the GM has final say on whether a region can be focused upon. If the wearer casts plane shift to travel to the focused location while the map is active, she arrives without error at the site, rather than 5d% miles away. Once a ring of planar focus is used to aid a casting of plane shift, it becomes inactive for 24 hours. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Forge Ring; Spells discern location"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_planar_focus",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

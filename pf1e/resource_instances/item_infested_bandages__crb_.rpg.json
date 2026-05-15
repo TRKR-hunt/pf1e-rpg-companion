@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "infested_bandages__crb_",
+    "name": {
+      "value": "Infested Bandages"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,500 gp; Slot none; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate conjuration DESCRIPTION These pale, worn-looking +1 handwraps have become popular among those interested in gruesome yet versatile weapons. As a swift action, the wielder can summon clouds of vermin to land on her hands, covering her fists in living gauntlets of squirming, chitinous insects. The insects do not harm the wielder and can be dismissed with another swift action. While the wielder\u00e2\u0080\u0099s hands are covered in vermin, she gains a +5 competence bonus on Intimidate checks, and her unarmed strikes with her fists deal full damage to swarms, regardless of the swarms\u00e2\u0080\u0099 immunity to weapon damage (if any, although damage reduction applies as normal). In addition, three times per day as an immediate action upon succeeding at an attack with the infested bandages, the wielder can transfer some of the insects from her hands to the target. The target must succeed at a DC 16 Fortitude saving throw or be nauseated for 1 round. CONSTRUCTION REQUIREMENTS Cost 6,750 gp; Feats Craft Magic Arms and Armor; Spells cause fear, repel vermin, summon swarm"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_infested_bandages",
+          "value": {
+            "value": 13500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

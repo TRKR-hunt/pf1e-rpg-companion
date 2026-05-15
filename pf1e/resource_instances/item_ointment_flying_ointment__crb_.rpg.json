@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ointment_flying_ointment__crb_",
+    "name": {
+      "value": "Flying ointment"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot none; Price 2,250 gp; Weight \u00e2\u0080\u0094 Description This preparation of herbs includes belladonna, mandrake, and foxglove (also known as \u00e2\u0080\u009cwitch\u2019s glove\u00e2\u0080\u009d) in a base of rendered fats. When rubbed over the skin, the ointment grants the subject the ability to fly (as the overland flight spell) for up to 9 hours. Construction Requirements Craft Wondrous Item, overland flight; Cost 1,125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ointment_flying_ointment",
+          "value": {
+            "value": 2250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

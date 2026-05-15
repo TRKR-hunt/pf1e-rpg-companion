@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_howling__crb_",
+    "name": {
+      "value": "Howling helm"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot head; Price 22,600 gp; Weight 2 lbs. DESCRIPTION The wearer of this helm, crafted from a beast\u00e2\u0080\u0099s skull, gains the ability to communicate with dogs, wolves, dire wolves, foxes, jackals, coyotes, and similar canine animals as the speak with animals spell. The wearer gains a +2 competence bonus on Diplomacy checks and Charisma checks to influence wolf-like magical beasts such as blink dogs, winter wolves, and worgs. On command three times per day, the wearer can unleash a terrifying howl. When he does so, he makes a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. At the start of the wearer\u00e2\u0080\u0099s following turn, 1d3 wolves appear as if summoned by the spell summon nature\u00e2\u0080\u0099s ally III. They act on the wearer\u00e2\u0080\u0099s initiative and follow her instructions (or attacking her opponents, if she cannot communicate with them) for 5 rounds before vanishing in a swirl of pine needles and snow. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, speak with animals, summon nature\u00e2\u0080\u0099s ally III; Cost 11,300 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_howling",
+          "value": {
+            "value": 22600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_howling",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

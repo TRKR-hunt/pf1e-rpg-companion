@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_of_teleportation__crb_",
+    "name": {
+      "value": "Helm of teleportation #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot head; Price 73,500 gp; Weight 3 lbs. DESCRIPTION A character wearing this helm may teleport three times per day, instantly transporting himself and objects he might be carrying on his person to a designated destination, exactly as if he had cast the spell of the same name. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, teleport; Cost 36,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_of_teleportation",
+          "value": {
+            "value": 73500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_of_teleportation",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

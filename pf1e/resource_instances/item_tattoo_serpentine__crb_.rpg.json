@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_serpentine__crb_",
+    "name": {
+      "value": "Tattoo, Serpentine"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot none; CL 1st; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This sinuous tattoo appears to move when the bearer flexes his muscles. Three times per day when the bearer makes a successful melee attack with a monk or performance weapon or an unarmed strike, he can cause the tattoo to lunge like a snake at the creature hit. This allows the bearer to perform a dirty trick combat maneuver as an immediate action that does not provoke attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Improved Dirty Trick, Inscribe Magical Tattoo; Spells summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_serpentine",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

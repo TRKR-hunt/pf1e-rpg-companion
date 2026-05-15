@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blouse_of_the_boastful__crb_",
+    "name": {
+      "value": "Blouse of the Boastful"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot chest; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This stylish, purple silk shirt trimmed with designs embroidered in golden thread brings out reckless behavior in even the most conservative swashbucklers. If the wearer has the panache class feature, when she takes damage from a successful critical hit, she regains 1 panache point. This shirt has no effect on someone who is not a panache user. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells guidance, prestidigitation, resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blouse_of_the_boastful",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

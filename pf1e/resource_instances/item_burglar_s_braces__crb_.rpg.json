@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "burglar_s_braces__crb_",
+    "name": {
+      "value": "Burglar\u2019s bracers"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot wrists; Price 1,050 gp; Weight 1 lb. DESCRIPTION On command, these plain leather bracers can transform into a set of masterwork thieves\u00e2\u0080\u0099 tools. They can transform back to their bracer form with another such command. Once per day, while using these thieves\u00e2\u0080\u0099 tools or wearing these bracers, the user can take 10 on a single Disable Device check, even when in immediate danger or distracted. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shrink item; Cost 550 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_burglar_s_braces",
+          "value": {
+            "value": 1050
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_burglar_s_braces",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

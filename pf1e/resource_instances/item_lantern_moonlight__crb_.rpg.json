@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_moonlight__crb_",
+    "name": {
+      "value": "Lantern, Moonlight"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 66,000 gp; Slot none; CL 13th; Weight 3 lbs.; Aura strong transmutation DESCRIPTION This intricate silver bulls-eye lantern filters its light through a stained-glass image of a howling wolf silhouetted by the moon. The pale blue light it casts does little to illuminate the surrounding area, casting dim light in a 60-foot cone directed by the lantern\u00e2\u0080\u0099s bearer. The lantern can remain lit for 30 minutes per day. These minutes don\u00e2\u0080\u0099t need to be used consecutively, but must be spent in 5-minute increments. When the lantern\u00e2\u0080\u0099s light falls on a creature that is not in its true form or that has more than one form\u00e2\u0080\u0094such as a creature that has been polymorphed, a doppelganger, or a lycanthrope \u00e2\u0080\u0094the light shows all of that creature\u00e2\u0080\u0099s forms. Anyone who can see the target perceives any additional forms as semi-transparent illusions superimposed over the creature\u00e2\u0080\u0099s current form. This is a divination effect and otherwise works as per true seeing. Once per day as a standard action, the bearer can force a creature within the lantern\u00e2\u0080\u0099s light to assume another of its forms. If the creature is under the effects of a spell with the polymorph descriptor, the bearer can attempt to dispel the effect (as per dispel magic ) using the lantern\u00e2\u0080\u0099s caster level. If the creature has the shapechanger subtype, it must succeed at a DC 20 Fortitude save to resist this effect. If it fails this saving throw, the bearer of the moonlight lantern can choose another of the target\u00e2\u0080\u0099s forms and force it to transform immediately. The shapechanger doesn\u00e2\u0080\u0099t need to spend an action to do so. The target must remain in the chosen form for at least 1 minute before it can shift again. CONSTRUCTION REQUIREMENTS Cost 33,000 gp; Feats Craft Wondrous Item; Spells dispel magic, greater polymorph, true seeing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lantern_moonlight",
+          "value": {
+            "value": 66000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_moonlight",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_retreat__crb_",
+    "name": {
+      "value": "Ring of Retreat"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot ring; CL 12th Weight -; Aura strong conjuration DESCRIPTION Each of these silver-and-gemstone rings is attuned to a specific elf gate. Its gemstone always matches the gate\u2019s portal-key. On command once per week, the ring teleports its wearer back to that gate, as per word of recall. Theoretically, a ring of retreat could be crafted instead to transport the wearer to a specific site of import, such as a temple or stronghold, but to date, these rings have been crafted only with elf gates in mind. CONSTRUCTION REQUIREMENTS Cost 6,000 gp; Feats Forge Ring; Spells word of recall"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_retreat",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

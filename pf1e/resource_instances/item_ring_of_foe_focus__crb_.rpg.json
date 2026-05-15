@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_foe_focus__crb_",
+    "name": {
+      "value": "Ring of foe focus"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot ring; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring of jagged steel gives the impression that it was salvaged from a suit of armor and then crudely bent into a circle. The wearer of the ring can, at will, designate any one opponent she can see as a particularly dangerous foe. She gains a +2 bonus to her AC and saving throws against attacks made by that opponent until she designates a new enemy. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells shield; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_foe_focus",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

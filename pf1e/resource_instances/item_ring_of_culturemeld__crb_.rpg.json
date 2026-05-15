@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_culturemeld__crb_",
+    "name": {
+      "value": "Ring of Culturemeld"
+    },
+    "source": {
+      "value": "bastards_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,800 gp; Slot ring; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate enchantment DESCRIPTION This ornately carved ironwood ring is sometimes gifted to half-elves leaving their elven communities so as to ease transition into human culture. A ring of culturemeld slightly alters the wearer\u2019s words to be more appropriate to the listener\u2019s culture and expectations, granting the wearer a +5 competence bonus on language-based Diplomacy checks. If worn by a half-elf, a ring of culturemeld grants the wearer the ability to speak and understand an additional language dependent on the local area. If the wearer spends 1 day in a settlement the size of a village or larger, the ring becomes attuned to any dominant language spoken there other than Common. After the ring is attuned, the wearer gains that language as a bonus language (if she didn\u2019t already know it), though she can only speak and understand it. After 4 more days of attunement, the wearer gains the ability to read the language as well, though not the ability to write that language, and gains a +5 competence bonus on opposed Sense Motive checks against speakers of the attuned language. These benefits expire once the wearer has been out of contact with people who speak the attuned language for longer than 1 day or when the ring becomes attuned to a new language. CONSTRUCTION REQUIREMENTS Cost 3,900 gp; Feats Forge Ring; Spells comprehend languages"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_culturemeld",
+          "value": {
+            "value": 7800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

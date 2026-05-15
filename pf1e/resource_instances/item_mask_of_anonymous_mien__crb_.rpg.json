@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_of_anonymous_mien__crb_",
+    "name": {
+      "value": "Mask of Anonymous Mien"
+    },
+    "source": {
+      "value": "spymaster_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Slot head; CL 10th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This featureless mask is little more than a white disk with eyeholes and a pair of short leather straps for tying. After donning the mask, the wearer can meditate for 1 minute in order to assume a faceless identity, becoming an utterly generic and unremarkable member of the wearer\u00e2\u0080\u0099s race and gender. Knowledge checks about the wearer\u00e2\u0080\u0099s faceless identity don\u00e2\u0080\u0099t reveal information about his true identity, unless his true identity is revealed to the world at large. Additionally, attempts to scry or otherwise locate the wearer work only if the creature is attempting to locate the wearer\u00e2\u0080\u0099s faceless identity (or the creature knows the wearer\u00e2\u0080\u0099s faceless identity and the wearer\u00e2\u0080\u0099s true identity are one and the same). Otherwise, the spell has no effect, revealing nothing but darkness, as if the target were invalid or did not exist. In addition, if the wearer owns multiple masks of anonymous mien, the faceless identity he assumes is the same for all such items. A vigilante who wears a mask of anonymous mien treats the faceless identity created by the item as a vigilante identity for the purpose of his class abilities, although this identity is separate from his actual vigilante identity. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Wondrous Item; Spells alter self, nondetection"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_of_anonymous_mien",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_of_anonymous_mien",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

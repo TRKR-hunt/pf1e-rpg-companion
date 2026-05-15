@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "glove_shadow_falconer_s__crb_",
+    "name": {
+      "value": "Shadow falconer\u2019s glove"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 7th; Slot hands; Price 8,000 gp; Weight 1 lb. DESCRIPTION This elbow-length, heavy leather glove\u00e2\u0080\u0099s fine embroidery is marred by dozens of claw marks. Once per day on command, its wearer can gesture toward a creature within 30 feet. When he does, a featureless silhouette of a bird of prey appears, swoops toward the target, and performs a disarm or steal combat maneuver (wearer\u00e2\u0080\u0099s choice, CMB +16). The shadow falcon is a magical effect, not a creature, and this action does not provoke attacks of opportunity. If the hand wearing the glove is empty, the shadow falcon brings the item to the wearer\u00e2\u0080\u0099s hand. If the gloved hand is occupied, the shadow falcon deposits the item on the ground in an unoccupied space adjacent to the wearer. The shadow falcon then disappears. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shadow conjuration; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_glove_shadow_falconer_s",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_glove_shadow_falconer_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

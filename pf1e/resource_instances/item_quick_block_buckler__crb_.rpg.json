@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "quick_block_buckler__crb_",
+    "name": {
+      "value": "Quick block buckler"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 14th; Weight 15 lbs.; Price 36,155 gp DESCRIPTION Once per round as an immediate action, this +3 arrow deflection buckler can be used to block an incoming melee attack. When used in this way, the buckler\u2019s enhancement bonus increases by +2 against that attack. The buckler\u2019s user must decide to use this ability before the attack roll is made. When the shield\u2019s user blocks a melee attack in this way, it cannot use its arrow deflection special ability for 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells shield; Cost 18,155 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_quick_block_buckler",
+          "value": {
+            "value": 36155
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_quick_block_buckler",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

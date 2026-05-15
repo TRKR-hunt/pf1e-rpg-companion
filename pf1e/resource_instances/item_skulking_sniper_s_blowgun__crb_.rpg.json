@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "skulking_sniper_s_blowgun__crb_",
+    "name": {
+      "value": "Skulking Sniper's Blowgun"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 62,302 gp; Slot none; CL 8th; Weight 1 lb.; Aura moderate illusion DESCRIPTION A skulking sniper\u2019s blowgun is crafted of fine hardwood that shifts color between brown and dark green under different lights. The wielder of this +3 distance greater sniping blowgun isn\u2019t automatically detected by tremorsense, blindsense, blindsight, or similar supernatural senses while she\u2019s attempting to move unnoticed. Creatures with these abilities must attempt a Perception check opposed by the wielder\u2019s Stealth check to notice the wielder. Such a creature gains a +10 bonus on this Perception check if the wielder is within half the maximum range of the sense ability. The wielder can still be detected by other senses (such as vision, hearing, or smell) as normal. CONSTRUCTION REQUIREMENTS Cost 31,302 gp; Feats Craft Magic Arms and Armor; Spells clairaudience/clairvoyance, greater invisibility, invisibility, silence"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_skulking_sniper_s_blowgun",
+          "value": {
+            "value": 62302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_skulking_sniper_s_blowgun",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

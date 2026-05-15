@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "raiment_of_the_shining_crusade__crb_",
+    "name": {
+      "value": "Raiment of The Shining Crusade"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,750 gp; Slot armor; CL 7th; Weight 50 lbs.; Aura moderate abjuration and evocation DESCRIPTION This +1 half-plate is emblazoned with holy script and religious iconography. The wearer of raiment of the shining crusade gains a +2 sacred bonus on saving throws against channeled negative energy and to resist negative levels. When worn by a character with the smite evil class feature, the armor sheds light like a torch at all times. A wearer with the smite evil class feature can expend one use of this ability as an immediate action to create a defensive ward around an adjacent creature, granting the target a deflection bonus to AC and a resistance bonus on saves equal to the wearer\u00e2\u0080\u0099s Charisma bonus against attacks and effects originating from creatures with an evil alignment. This effect lasts for 1 round. CONSTRUCTION REQUIREMENTS Cost 10,750 gp; Feats Craft Magic Arms and Armor; Spells holy smite, protection from evil"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_raiment_of_the_shining_crusade",
+          "value": {
+            "value": 20750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_raiment_of_the_shining_crusade",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dweomer_s_essence__crb_",
+    "name": {
+      "value": "Dweomer's Essence"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura Moderate abjuration; CL 9th; Slot none; Price 500 gp; Weight \u2013 DESCRIPTION Derived from the patient distillation of rare magical reagents, a pinch of this fine white powder can be added to the casting of any spell as an additional material component to give the spellcaster a +5 bonus on caster level checks made to overcome spell resistance. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, Spell Penetration; Cost 250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dweomer_s_essence",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

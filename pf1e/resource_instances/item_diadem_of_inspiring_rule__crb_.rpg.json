@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "diadem_of_inspiring_rule__crb_",
+    "name": {
+      "value": "Diadem of Inspiring Rule"
+    },
+    "source": {
+      "value": "quests_campaigns"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot head; Price 4,500 gp; Weight \u00e2\u0080\u0094; DESCRIPTION This ornate, ostentatious diadem grants its wearer a +3 competence bonus to her Leadership score. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, eagle\u2019s splendor; Cost 2,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_diadem_of_inspiring_rule",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_energy_resistance__crb_",
+    "name": {
+      "value": "Ring of energy resistance, minor"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 11th; Slot ring; Price 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); Weight \u00e2\u0080\u0094 DESCRIPTION Rings of this type come in a wide variety of designs and colorations, typically related to the types of energy they defend against. These rings continually protect their wearers from damage from one type of energy\u00e2\u0080\u0094acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring\u00e2\u0080\u0099s resistance value from the damage dealt. A minor ring of energy resistance grants 10 points of resistance. A major ring of energy resistance grants 20 points of resistance. A greater ring of energy resistance grants 30 points of resistance. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells resist energy; Cost 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_energy_resistance",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

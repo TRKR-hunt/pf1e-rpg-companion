@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "liberators_key__crb_",
+    "name": {
+      "value": "Liberator's Key"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot none; CL 5th Weight -; Aura faint transmutation DESCRIPTION This tiny, unremarkable silver key can open nearly any set of shackles. When the key is inserted as a standard action into the keyhole of locked leg irons, manacles, or shackles, the lock unlocks provided that its Disable Device DC is 30 or lower. Shackles whose lock has a Disable Device DC of 15 or lower are instantly and silently broken into fragments. A liberator\u2019s key can be used 10 times, after which it crumbles to dust. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells knock, shatter"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_liberators_key",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

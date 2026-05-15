@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_stone_azure_briolette__crb_",
+    "name": {
+      "value": "Azure Briolette (Ioun Stone)"
+    },
+    "source": {
+      "value": "tower_of_the_drowned_dead"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong enchantment and necromancy DESCRIPTION This brilliant blue ioun stone was invented by psychics to draw mental energy from others to bolster the bearer. This pear-shaped ioun stone sparkles in a brilliant blue color. Whenever a creature fails a saving throw against a mind-affecting spell cast by this ioun stone\u2019s user, the user gains a number of temporary hit points equal to the targeted creature\u00e2\u0080\u0099s Charisma bonus (minimum 0) until the start of the user\u00e2\u0080\u0099s next turn. These temporary hit points do not stack. The user doesn\u00e2\u0080\u0099t gain temporary hit points from a creature that voluntarily fails its saving throw against the spell. Resonance: This stone allows the user to pick up on psychic resonance from corpses. So long as the user has carried the ioun stone continuously for at least 24 hours, the first three corpses touched by the user each day babble residual psychic impressions into the bearer\u00e2\u0080\u0099s mind. This functions as the grave words spell, except that only the user can hear the corpse speak. Cracked: This stone functions as normal, but the number of temporary hit points gained from the azure briolette ioun stone cannot exceed the user\u00e2\u0080\u0099s Charisma bonus (minimum 0). Price: 14,000 gp. Flawed: This stone grants only 1 temporary hit point, even if the target\u00e2\u0080\u0099s Charisma bonus is higher than 1. Price: 8,000 gp. CONSTRUCTION REQUIREMENTS Cost 7,500 gp; Feats Craft Wondrous Item; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_stone_azure_briolette",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

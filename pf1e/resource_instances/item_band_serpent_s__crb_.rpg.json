@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "band_serpent_s__crb_",
+    "name": {
+      "value": "Serpent\u2019s band"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and enchantment; CL 10th; Slot headband; Price 9,000 gp; Weight 1 lb. DESCRIPTION The wearer of this circlet gains a +2 insight bonus on saving throws against effects with the emotion descriptor, including fear effects. The wearer gains fluency in Draconic and may converse with non-sentient ( Int 1 or 2) reptilian animals and magical beasts as if using the speak with animals spell, and gains a +4 competence bonus on Handle Animal and wild empathy checks made when interacting with such creatures. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, animal trance, hypnotism, speak with animals, summon nature\u00e2\u0080\u0099s ally V; Cost 4,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_band_serpent_s",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_band_serpent_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

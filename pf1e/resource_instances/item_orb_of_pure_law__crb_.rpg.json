@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "orb_of_pure_law__crb_",
+    "name": {
+      "value": "Orb of pure law #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 10th; Weight 1 lb.; Slot none; Price 60,000 gp DESCRIPTION This featureless gray stone is perfectly smooth and flawlessly polished. The bearer of an orb of pure law gains a +4 deflection bonus to AC against attacks from chaotic creatures and a +4 resistance bonus on saving throws against polymorph effects, effects with the chaotic descriptor, and effects that inflict the confused condition. When held in hand, the bearer of the orb may use detect chaos and detect law at will. A lawful creature may hold the orb in hand and command it to invoke dispel chaos and arrow of law each once per day. The orb bestows one permanent negative level on any chaotic creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by restoration spells) while the bearer has the orb. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, arrow of law, detect chaos, detect law, dispel chaos; Cost 30,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_orb_of_pure_law",
+          "value": {
+            "value": 60000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_orb_of_pure_law",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

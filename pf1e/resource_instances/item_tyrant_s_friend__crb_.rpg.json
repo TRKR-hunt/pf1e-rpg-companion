@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tyrant_s_friend__crb_",
+    "name": {
+      "value": "Tyrant's Friend"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Slot ring; Price 3,000 gp; Weight \u2013 DESCRIPTION A slender copper band, a tyrant\u00e2\u0080\u0099s friend is thin enough to be hidden beneath another ring (although it still counts against the limit of magic rings a character can wear). The ring grows noticeably warmer whenever the hand wearing it touches a poisoned or poisonous object or creature (including containers holding poison), warning the wearer of potential danger. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells detect poison; Cost 1,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tyrant_s_friend",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

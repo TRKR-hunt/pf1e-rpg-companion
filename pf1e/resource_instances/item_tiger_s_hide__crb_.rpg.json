@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tiger_s_hide__crb_",
+    "name": {
+      "value": "Tiger's Hide"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 54,115 gp; Slot armor; CL 10th; Weight 25 lbs.; Aura moderate abjuration and transmutation DESCRIPTION This +3 hide armor is made from tiger skin. It is magically treated to make it easier to move in, reducing its armor check penalty to 0, reducing its arcane spell failure chance to 10%, and increasing its maximum Dexterity bonus to +6. It grants DR 5/\u00e2\u0080\u0094 against natural weapon attacks. In addition, the wearer can use the pounce special attack, but only during the first round she can act in any combat. CONSTRUCTION REQUIREMENTS Cost 29,115 gp; Feats Craft Magic Arms and Armor; Spells beast shape III"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tiger_s_hide",
+          "value": {
+            "value": 54115
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tiger_s_hide",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

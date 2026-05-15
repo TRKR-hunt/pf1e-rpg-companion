@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "torc_of_innocuous_gems__crb_",
+    "name": {
+      "value": "Torc of Innocuous Gems"
+    },
+    "source": {
+      "value": "spymaster_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,800 gp; Slot neck; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate illusion DESCRIPTION This simple platinum necklace has five sockets for gems. An ioun stone placed in a socket registers as non-magical, as per magic aura, and confers no benefit upon the wearer. With a command word, the wearer can release all ioun stones held within the necklace, sending them into orbit around her head and gaining their full benefits. CONSTRUCTION REQUIREMENTS Cost 900 gp; Feats Craft Wondrous Item; Spells magic aura"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_torc_of_innocuous_gems",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

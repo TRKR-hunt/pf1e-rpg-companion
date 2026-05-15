@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "looters_satchel__crb_",
+    "name": {
+      "value": "Looter\u00e2\u0080\u0099s Satchel"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,200 gp; Slot none; CL 9th Weight 15 lbs.; Aura moderate conjuration APPEARANCE This maroon satchel is embroidered with slightly glowing runes. EFFECTS The satchel functions as a bag of holding (type I). Additionally, as long as the satchel is not overloaded, the bearer can hold it over an adjacent creature that is dead or unconscious and speak a command word. When the command word is spoken, the satchel removes any magic items from the creature\u00e2\u0080\u0099s person (such as magic weapons and armor, potions, scrolls, and wondrous items) and deposits them into the bag. This process takes 1 uninterrupted round. If the bearer moves into a different space while the satchel is gathering items in this way, no items are moved into the satchel and the bearer must start the process over. If the satchel would become overloaded from the creature\u00e2\u0080\u0099s magic items, it transports as many magic items as it can, from smallest to largest, until it would become overloaded, at which point it stops gathering items. CONSTRUCTION REQUIREMENTS Cost 1,600 gp; Feats Craft Wondrous Item; Spells mage hand, secret chest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_looters_satchel",
+          "value": {
+            "value": 3200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_looters_satchel",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

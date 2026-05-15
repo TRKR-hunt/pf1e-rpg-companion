@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "reapers_wisdom__crb_",
+    "name": {
+      "value": "Reaper\u00e2\u0080\u0099s Wisdom"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 21,600 gp; Slot shoulders; CL 11th; Weight 1 lb.; Aura moderate necromancy DESCRIPTION This single, jade-encrusted ironwood pauldron glistens slightly, as if it were the reflective surface of a still pool, even in complete darkness. EFFECTS This pauldron increases the virulence of all poisons used by the wearer. Once per day, when attempting to poison a target, the wearer can speak a command word to magically enhance a single dose of poison, making it immune to the effects of delay poison. The poison\u00e2\u0080\u0099s DC is unaffected and the poison can still be affected by a neutralize poison spell and similar magical effects. CONSTRUCTION REQUIREMENTS Cost 10,800 gp; Feats Craft Wondrous Item; Spells overwhelming poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_reapers_wisdom",
+          "value": {
+            "value": 21600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_reapers_wisdom",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

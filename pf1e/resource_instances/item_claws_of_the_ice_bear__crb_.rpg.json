@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "claws_of_the_ice_bear__crb_",
+    "name": {
+      "value": "Claws of the ice bear #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot hands; Price 1,300 gp; Weight 1 lb. DESCRIPTION Strapped to the hands, these spiked climbing claws grant a +2 competence bonus on Climb checks and Acrobatics checks made when using both hands to aid in movement, and allow the wearer to ignore the normal penalties on those skills for slippery or icy surfaces. In addition, up to 3 times per day, the wearer can activate the claws as a swift action to gain the benefits of spider climb for 1 round. The wearer cannot hold anything else in her hands while using claws of the ice bear. If used as a weapon, claws of the ice bear function as spiked gauntlets. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, spider climb; Cost 750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_claws_of_the_ice_bear",
+          "value": {
+            "value": 1300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_claws_of_the_ice_bear",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

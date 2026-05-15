@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mace_of_keys__crb_",
+    "name": {
+      "value": "Mace of Keys"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 50,312 gp; Slot none; CL 9th; Weight 8 lbs.; Aura moderate transmutation DESCRIPTION The flanges on the head of this +1 axiomatic heavy mace are shaped like skeleton keys. Three times per day as a swift or immediate action when making a melee attack with the mace, the wielder can trigger this mace\u00e2\u0080\u0099s unlocking ability. This ability must be declared before the melee attack is rolled, and if the attack is unsuccessful, the unlocking ability is wasted. Upon a successful melee attack with the mace while using the unlocking ability, the wielder can attempt a combat maneuver check against the target\u00e2\u0080\u0099s CMD. On a success, the mace causes an item on the target in the belt, shoulder, or neck slot to come loose and fall to the ground in the target\u00e2\u0080\u0099s space. In addition, when attempting to destroy a lock, the mace ignores up to 20 points of the lock\u00e2\u0080\u0099s hardness. CONSTRUCTION REQUIREMENTS Cost 25,312 gp; Feats Craft Magic Arms and Armor; Spells knock, passwall"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mace_of_keys",
+          "value": {
+            "value": 50312
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mace_of_keys",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

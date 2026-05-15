@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sandals_sandstorm__crb_",
+    "name": {
+      "value": "Sandals, Sandstorm"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot feet; CL 3rd; Weight 2 lbs.; Aura faint evocation DESCRIPTION These sandals are made of cloth and animal hide stitched to wood blocks that elevate them an inch off the ground. The wearer of sandstorm sandals leaves no trace while traveling in desert environments. If the wearer possesses the flurry of blows class feature, anytime he makes an unarmed flurry of blows while standing on sand or dirt, a minor storm appears around him for 1 round. Any creature that ends its movement within 5 feet of the wearer during this time takes 1 point of nonlethal damage. While the storm is active, the sandals\u2019 wearer gains concealment (20% miss chance). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells gust of wind; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sandals_sandstorm",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sandals_sandstorm",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

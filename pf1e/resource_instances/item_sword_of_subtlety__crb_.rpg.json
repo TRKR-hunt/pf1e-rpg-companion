@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sword_of_subtlety__crb_",
+    "name": {
+      "value": "Sword of subtlety"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 7th; Weight 2 lbs.; Price 22,310 gp DESCRIPTION A +1 short sword with a thin, dull gray blade, this weapon provides a +4 bonus on its wielder\u2019s attack and damage rolls when she makes a sneak attack with it. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells blur; Cost 11,310 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sword_of_subtlety",
+          "value": {
+            "value": 22310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sword_of_subtlety",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

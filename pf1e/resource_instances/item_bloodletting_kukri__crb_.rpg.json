@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloodletting_kukri__crb_",
+    "name": {
+      "value": "Bloodletting kukri"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 5th; Weight 2 lbs.; Price 6,308 gp DESCRIPTION On a successful critical hit, this +1 kukri deals 2 points of bleed damage, which stacks with any bleed damage already caused by the attack. Each time the wielder strikes a blow that deals bleed damage with this weapon, he gains temporary hit points equal to the amount of bleed damage dealt. No temporary hit points are gained if the target was already bleeding, even for a lesser amount. Temporary hit points bestowed by the bloodletting kukri last for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bleed, vampiric touch; Cost 3,308 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloodletting_kukri",
+          "value": {
+            "value": 6308
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bloodletting_kukri",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

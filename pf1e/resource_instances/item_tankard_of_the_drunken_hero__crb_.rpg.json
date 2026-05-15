@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tankard_of_the_drunken_hero__crb_",
+    "name": {
+      "value": "Tankard of the Drunken Hero"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,300 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint transmutation DESCRIPTION Note This item is associated with a specific deity. This simple battered tankard is usually made of copper or tin. Its handle is not attached at the bottom so the bearer can hook it on his belt for easy carrying. The bearer gains a +1 resistance bonus on Fortitude and Will saves. Once per day, the bearer can fill the tankard with wine, ale, or other alcohol and drink from it to gain the benefits of a remove fear spell. If the associated deity is the bearer\u2019s patron, the tankard counts as a holy symbol. Once per day, the bearer can drink an alcoholic beverage from the tankard to gain the benefits of heroism. Once per day, the tankard automatically unties ropes that bind the bearer or unlocks locks that hinder him. This occurs about 5 minutes after the tying or unlocking and affects only bindings directly on the bearer\u2019s person (for example, it won\u2019t unlock a door to the bearer\u2019s prison cell, but will unlock the bearer\u2019s manacles ). This power is subtle enough that it is unnoticeable unless someone checks the bindings to make sure they are secure\u00e2\u0080\u0094ropes loosen but still appear to be tightly bound, manacles unlock and loosen but do not automatically fall off. The tankard can untie or unlock only bindings with an Escape Artist or Disable Device DC of 25 or lower, though more powerful tankards may exist. CONSTRUCTION REQUIREMENTS Cost 2,650 gp; Feats Craft Wondrous Item, animate rope, heroism, knock, remove fear, resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tankard_of_the_drunken_hero",
+          "value": {
+            "value": 5300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tankard_of_the_drunken_hero",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

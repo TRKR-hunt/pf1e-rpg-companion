@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "necromancer_s_athame__crb_",
+    "name": {
+      "value": "Necromancer\u2019s athame #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy; CL 11th; Slot none; Price 20,000 gp; Weight 2 lbs. DESCRIPTION This pallid length of sharpened thighbone is carved into the shape of a dagger, but with tiny holes bored into it at equal intervals, almost like a flute. A necromancer who selects the athame as his bonded object can use it to spontaneously convert any prepared wizard necromancy spell into any other wizard necromancy spell he knows; the desired spell must be of the same level or lower than the prepared spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, create undead; Special creator must be a necromancer; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_necromancer_s_athame",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_necromancer_s_athame",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

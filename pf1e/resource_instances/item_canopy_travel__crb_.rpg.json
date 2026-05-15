@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "canopy_travel__crb_",
+    "name": {
+      "value": "Canopy, Travel"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 7th; Slot none; Price 750 gp; Weight 3 lbs. DESCRIPTION This 5-foot-square cloth canopy is brightly colored with gold fringe around the edges, something a slightly foppish sultan might use while resting on the seashore. When you speak the command word, the canopy unfolds and floats 3 feet above your head, positioning itself to keep you shaded. The travel canopy cannot hold any weight. It reverts to its 1-foot-square folded form at your command, or automatically when it is out of the sun for more than 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells floating disk; Cost 375 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_canopy_travel",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_canopy_travel",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shard_of_cocytus__crb_",
+    "name": {
+      "value": "Shard of Cocytus"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,302 gp; Slot weapon; CL 7th; Weight 1 lb.; Aura moderate evocation DESCRIPTION Appearing as a bloodstained icicle with a worn leather handle, this +1 frost dagger is impervious to both cold and fire. Once per day, the dagger can blast forth a ray of hellfrost at any target within 30 feet as a ranged touch attack, dealing 4d6 points of damage. This hellfrost deals half cold damage and half damage from unholy energy. Evil creatures and creatures with the evil subtype take no damage from this unholy energy; good creatures and those with the good subtype take double the usual damage. Protection from evil and similar effects protect against the damage from the ray\u00e2\u0080\u0099s unholy energy. If the shard of Cocytus is used to deliver a coup de grace against a good creature, it recovers its ray of hellfrost ability for the day. CONSTRUCTION REQUIREMENTS Cost 8,302 gp; Feats Craft Magic Arms and Armor; Spells unholy ice"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shard_of_cocytus",
+          "value": {
+            "value": 16302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shard_of_cocytus",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

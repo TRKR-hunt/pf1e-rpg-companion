@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hunter_s_leather__crb_",
+    "name": {
+      "value": "Hunter's Leather"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination and illusion; CL 5th; Slot armor; Price 5,425 gp; Weight 20 lbs. DESCRIPTION Once per day as a standard action, the wearer of this mottled green-and-brown +1 shadow studded leather can prepare a perfectly aimed shot; as long as the wearer\u2019s next attack roll is made before the end of the next round, this attack ignores the target\u2019s miss chance and AC bonus from cover and concealment (but not total concealment ) CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells invisibility, silence, true strike; Price 2,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hunter_s_leather",
+          "value": {
+            "value": 5425
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hunter_s_leather",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

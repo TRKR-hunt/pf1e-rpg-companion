@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_channeled_life__crb_",
+    "name": {
+      "value": "Amulet of Channeled Life"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 10th; Slot neck; Price 12,000 gp; Weight 1/2 lb. DESCRIPTION This amulet consists of a pale translucent gem in a dull gray metal setting etched with ancient runes. When worn by an individual with the negative energy affinity racial trait, it alters the effects of positive energy on his body. When targeted by positive energy that heals living creatures, the wearer instead gains half the hit points the positive energy heals as temporary hit points. These temporary hit points go away after 10 minutes. This effect does not stack with life channel or other effects that convert healing positive energy to temporary hit points. This item does not actually transpose positive energy into negative energy, it just affects the way the wearer\u2019s body reacts to positive energy. Only a living creature can benefit from this amulet; it provides no benefit to undead. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, life channel; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_channeled_life",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

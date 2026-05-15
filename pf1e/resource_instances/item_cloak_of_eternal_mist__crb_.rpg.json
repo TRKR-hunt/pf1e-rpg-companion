@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_eternal_mist__crb_",
+    "name": {
+      "value": "Cloak of Eternal Mist"
+    },
+    "source": {
+      "value": "blood_of_the_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,600 gp; Slot shoulders; CL 3rd; Weight 1 lb.; Aura faint conjuration DESCRIPTION Cool, damp mist constantly emanates from beneath this billowing, floor-length cloak. The cloak\u2019s wearer gains a +4 bonus on Stealth checks in fog or mist. Furthermore, the cloak\u2019s wearer is treated as being submerged in water for purposes of racial water dependency. If the cloak\u2019s wearer does not move in a given round (and is not otherwise moved, such as when the wearer is on a moving ship or wagon or subject to a successful bull rush combat maneuver ), she gains concealment at the end of her turn. The concealment lasts until the wearer moves from her position. CONSTRUCTION REQUIREMENTS Cost 1,800 gp; Feats Craft Wondrous Item; Spells create water, obscuring mist"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_eternal_mist",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_eternal_mist",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "murderer_s_machete_greater__crb_",
+    "name": {
+      "value": "Murderer\u00e2\u0080\u0099s Machete, Greater"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 78,310 gp; Slot none; CL 13th; Weight 3 lbs.; Aura strong conjuration [evil] DESCRIPTION This item functions like a murderer\u00e2\u0080\u0099s machete, but is a +2 keen wounding short sword. CONSTRUCTION REQUIREMENTS Cost 39,310 gp; Feats Craft Magic Arms and Armor; Spells bleed, cruel jaunt, keen edge; Special creator must sacrifice a sentient living creature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_murderer_s_machete_greater",
+          "value": {
+            "value": 78310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_murderer_s_machete_greater",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "arcane_battery__crb_",
+    "name": {
+      "value": "Arcane Battery"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 22,000 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate evocation DESCRIPTION An arcane battery is a fist-sized lead container\u00e2\u0080\u0094typically a sphere, pyramid, or cylinder\u00e2\u0080\u0094that stores magically treated saltwater. When affixed to the head of a magical staff with the attached lashings, an arcane battery increases the maximum number of charges the staff can hold to 11 (instead of 10). An attached arcane battery also allows the wielder of a staff to imbue a staff with up to two charges per day. In order to do so, the wielder must expend two prepared spells or spell slots that meet the prerequisites for recharging a staff. A staff may only have a single arcane battery attached to it, and an arcane battery must be adjoined to a staff for 24 hours before its powers are attuned to the staff. If an arcane battery is removed from a staff by the staff\u2019s wielder, it must be reattached and remain so for 24 hours before it\u2019s attuned again. CONSTRUCTION REQUIREMENTS Cost 11,000 gp; Feats Craft Wondrous Item; Spells imbue with spell ability"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_arcane_battery",
+          "value": {
+            "value": 22000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

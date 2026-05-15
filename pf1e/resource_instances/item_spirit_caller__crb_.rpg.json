@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spirit_caller__crb_",
+    "name": {
+      "value": "Spirit Caller"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 9th; Weight 2 lbs.; Price 25,302 gp DESCRIPTION The spirit caller is a +1 ghost touch mere club carved of nephrite jade. Incorporeal undead and ghosts struck by the spirit caller must succeed at a DC 16 Will save or be drawn inside the mere and are trapped within it. When holding a spirit inside, the spirit caller glows from within with the brightness of a candle and functions as a +2 ghost touch undead bane mere club. The mere consumes the energy of the spirit inside in 1 hour, destroying it, and can hold but a single spirit at a time. The wielder can release a trapped spirit as a standard action. Ghosts consumed by a spirit caller still rejuvenate as normal. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor, magic jar, plane shift; Cost 12,802 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spirit_caller",
+          "value": {
+            "value": 25302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spirit_caller",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

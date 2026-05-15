@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pauldrons_of_the_watchful_lion__crb_",
+    "name": {
+      "value": "Pauldrons of the watchful lion #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 5th; Slot shoulders; Price 10,800 gp; Weight 3 lbs. DESCRIPTION These steel and brass pauldrons feature two brass lion heads, one on each shoulder. Twice a day as an immediate action when a creature successfully makes an Acrobatics check to move through the wearer\u00e2\u0080\u0099s threatened area or its space without provoking an attack of opportunity, a shadowy lion can animate from one of the pauldrons and attack that creature. The attack uses the wearer\u00e2\u0080\u0099s base attack bonus + Dexterity modifier and attacks the target\u00e2\u0080\u0099s touch AC. On a hit, the lion deals 2d6 points of piercing damage (\u00c3\u00972 critical). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Craft Magic Arms and Armor; Spells spectral hand; Cost 5,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pauldrons_of_the_watchful_lion",
+          "value": {
+            "value": 10800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pauldrons_of_the_watchful_lion",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

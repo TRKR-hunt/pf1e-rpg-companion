@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_electricity__crb_",
+    "name": {
+      "value": "Staff of electricity"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 11th; Slot none; Price 31,900 gp; Weight 5 lbs. DESCRIPTION This staff is made of shining silver, with a tip shaped like a lightning bolt. The staff allows use of the following spells: Shocking grasp (1 charge) Lightning bolt (2 charges) Chain lightning (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells chain lightning, lightning bolt, shocking grasp; Cost 15,950 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_electricity",
+          "value": {
+            "value": 31900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_electricity",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

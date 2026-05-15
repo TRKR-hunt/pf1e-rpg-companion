@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eagle_knight_dress_uniform__crb_",
+    "name": {
+      "value": "Eagle Knight Dress Uniform"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,175 gp; Slot armor; CL 6th; Weight 20 lbs.; Aura moderate enchantment DESCRIPTION This set of fine +2 parade armor matches the dress uniform of Eagle Knights. If the wearer is ever grappled or restrained, she can attempt an Escape Artist check to get free as an immediate action. The wearer gains a +2 competence bonus on this check. Once per day as a standard action, the wearer of an Eagle Knight dress uniform can call forth shimmering plates of golden light to reinforce the armor. This effect increases the armor\u2019s enhancement bonus to AC from +2 to +5 for the next 10 minutes. CONSTRUCTION REQUIREMENTS Cost 9,175 gp; Feats Craft Magic Arms and Armor; Spells liberating command, mage armor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eagle_knight_dress_uniform",
+          "value": {
+            "value": 18175
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_eagle_knight_dress_uniform",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

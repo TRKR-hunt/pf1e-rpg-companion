@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_tangling_ectoplasm__crb_",
+    "name": {
+      "value": "Rod of Tangling Ectoplasm"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,000 gp; Aura faint evocation; CL 5th; Weight 5 lbs. DESCRIPTION This lengthy rod looks like a walking cane with a stylized crystal skull at its top. As a standard action up to three times per day, the wielder can slam the base of the rod into the ground while designating a target within 60 feet. Grasping hands of ectoplasm manifest from the ground surrounding the target in a 5-foot radius. Creatures within the radius must succeed at a DC 14 Reflex save or they are entangled by the grasping hands and unable to move more than 10 feet from the affected area (as if snared by a net with a trailing rope ). Creatures moving through the ectoplasm must also succeed at a Reflex save or be entangled. As a standard action, a creature entangled by the ectoplasm can attempt an additional DC 14 Reflex save to attempt to escape and end the effect. The summoned ectoplasm lasts for 10 rounds before disappearing. CONSTRUCTION REQUIREMENTS Cost 9,000 gp; Feats Craft Rod; Spells ectoplasmic snare"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_tangling_ectoplasm",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_tangling_ectoplasm",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

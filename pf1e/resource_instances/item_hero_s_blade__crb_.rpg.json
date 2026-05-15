@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hero_s_blade__crb_",
+    "name": {
+      "value": "Hero\u00e2\u0080\u0099s Blade"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 9th; Slot none; Price 17,315 gp; Weight 4 lbs. DESCRIPTION Note: This magic item grants characters additional hero points or allows the possibility of recovering points as they are spent. See Hero Points for full details. The pommel of this ornate +2 longsword is made to look like a coiled golden dragon with six small diamond scales running down its back. When made, this sword holds 6 hero points. The wielder can use these points at any time, and they do not count against the wielder\u00e2\u0080\u0099s maximum. As the hero points are used, the small diamonds on the dragon\u00e2\u0080\u0099s back turn into coal. After the last hero point has been used, the hero\u00e2\u0080\u0099s blade remains a +2 longsword. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells heroic fortune; Cost 8,815 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hero_s_blade",
+          "value": {
+            "value": 17315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hero_s_blade",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

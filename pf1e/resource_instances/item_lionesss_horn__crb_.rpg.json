@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lionesss_horn__crb_",
+    "name": {
+      "value": "Lioness\u00e2\u0080\u0099s Horn"
+    },
+    "source": {
+      "value": "the_reaper_s_right_hand"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 55,000 gp; Slot none; CL 15th; Weight 2 lbs.; Aura strong conjuration DESCRIPTION The bell of this slightly curved horn resembles the head of a roaring lioness. The horn functions in many ways like a horn of valhalla, but while held in one hand, the wielder gains the benefits of deathwatch. Once per year when the wielder sounds the horn, she can summon one sleipnir with a saddle for 1 hour in place of summoning the barbarians. The sleipnir willingly serves as a mount or combatant. CONSTRUCTION REQUIREMENTS Cost 27,500 gp; Feats Craft Wondrous Item; Spells deathwatch, summon monster VIII"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lionesss_horn",
+          "value": {
+            "value": 55000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lionesss_horn",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

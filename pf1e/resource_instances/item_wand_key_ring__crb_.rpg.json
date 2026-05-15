@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wand_key_ring__crb_",
+    "name": {
+      "value": "Wand Key Ring"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 5th; Weight 8 lbs.; Aura faint universal DESCRIPTION Each of these rune-carved brass rings is keyed to a specific spell at creation. When using the Use Magic Device skill to activate a scroll or spell trigger item based on that spell, the bearer gains a +10 insight bonus on the skill check. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells guidance; Special creator must have 10 ranks in the Use Magic Device skill"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wand_key_ring",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wand_key_ring",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

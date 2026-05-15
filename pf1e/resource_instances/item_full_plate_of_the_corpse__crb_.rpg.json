@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "full_plate_of_the_corpse__crb_",
+    "name": {
+      "value": "Full Plate of the Corpse"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 35,650 gp; Slot armor; CL 5th; Weight 50 lbs.; Aura faint abjuration DESCRIPTION This suit of +2 full plate has been etched and stained in such a way that it resembles the form and shape of a decomposed body that is encased in a suit of armor. The wearer is effectively hidden from non-intelligent undead, which can\u2019t see, hear, or smell him; even extraordinary or supernatural senses capabilities can\u2019t penetrate the magical shroud. An intelligent undead creature can attempt a single Will saving throw (DC 14) to penetrate the ward. All affected undead behave as if the wearer simply isn\u2019t there. CONSTRUCTION REQUIREMENTS Cost 18,650 gp; Feats Craft Magic Arms and Armor; Spells hide from undead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_full_plate_of_the_corpse",
+          "value": {
+            "value": 35650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_full_plate_of_the_corpse",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_climbing_improved__crb_",
+    "name": {
+      "value": "Ring of climbing, improved"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot ring; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring functions as a ring of climbing, except it grants a +10 competence bonus on its wearer\u00e2\u0080\u0099s Climb checks. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special creator must have 10 ranks in the Climb skill; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_climbing_improved",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "apple_of_eternal_sleep__crb_",
+    "name": {
+      "value": "Apple of eternal sleep #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 10th; Slot none; Price 2,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ripe red apple looks fresh and delicious. Should anyone bite into it (even a small taste), he must make an immediate DC 19 Will saving throw or fall into an eternal slumber as though by the witch\u2019s grand hex of the same name. The victim can only be awakened by a casting of break enchantment, limited wish, wish, or miracle, or by a kiss from someone of royal blood. CONSTRUCTION REQUIREMENTS Feats Brew Potion, Craft Wondrous Item, eternal sleep hex; Cost 1,125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_apple_of_eternal_sleep",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

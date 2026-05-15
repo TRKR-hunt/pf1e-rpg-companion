@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_faithful__crb_",
+    "name": {
+      "value": "Lantern, Faithful"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot none; CL 9th; Weight 2 lbs.; Aura moderate abjuration and conjuration DESCRIPTION This fine, silver bullseye lantern is embossed with the image of a stoic sentinel. It functions as a bullseye lantern that doesn\u00e2\u0080\u0099t require oil to function. On command, the lantern floats alongside its user, shedding its light in whichever direction the user is looking. Once per day on command, the lantern can be designated to stand guard for up to 8 hours. The lantern ceases to shed light and keeps watch over a 30-foot-radius area centered on itself. The lantern acts as the alarm spell, except it is activated only by creatures that are Small or larger, and it cannot see invisible creatures. If the lantern detects a creature, it notifies the user that commanded the lantern with a mental alarm, waking the user if necessary. Once the lantern notifies its user, it shines its light on the intruder until commanded to stop. CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item; Spells alarm, light, mage\u00e2\u0080\u0099s faithful hound, unseen servant"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lantern_faithful",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_faithful",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

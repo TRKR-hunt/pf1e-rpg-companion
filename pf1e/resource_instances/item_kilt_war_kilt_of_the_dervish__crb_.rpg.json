@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "kilt_war_kilt_of_the_dervish__crb_",
+    "name": {
+      "value": "Kilt, War-Kilt of the Dervish"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Qadira: Gateway to the East Aura moderate transmutation; CL 9th; Slot waist (belts?); Price 13,000 gp; Weight 5 lbs. DESCRIPTION A favored item among the dawn dervishes, this skirt of overlapping, brightly colored silk is magically reinforced, granting you increased durability and mobility. You gain a +2 natural armor bonus to AC and a +2 competence bonus on Acrobatics and Perform (dance) checks. Once per day, when an adjacent foe attempts to take a 5-foot step away from you, you may make a 5-foot step as an immediate action so long as you end up adjacent to that foe. If you take this step, you cannot take a 5-foot step during your next turn. If you take an action to move during your next turn, subtract 5 feet from your total movement. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, expeditious retreat, barkskin or stoneskin; Cost 6,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_kilt_war_kilt_of_the_dervish",
+          "value": {
+            "value": 13000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_kilt_war_kilt_of_the_dervish",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

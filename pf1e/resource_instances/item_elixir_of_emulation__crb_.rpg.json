@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_emulation__crb_",
+    "name": {
+      "value": "Elixir of Emulation"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot none; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION A drinker must add hair, skin, fur, blood, or nail clippings of a single creature to this elixir before drinking it, or it is expended uselessly. Once appropriate material has been added, the elixir retains potency for 24 hours, after which it becomes an inert, valueless liquid. If drunk while potent, the elixir functions as alter self, allowing the drinker to assume the shape of the donor creature, which must be a living, corporeal, Small or Medium creature. In addition, the elixir aids the drinker in duplicating the mannerisms of the donor creature, granting her a +20 bonus on Disguise checks to pass herself off as that creature and eliminating the penalty for masquerading as a different gender, race, or age. Once during the elixir\u00e2\u0080\u0099s duration, the drinker can try to learn information known by the donor creature at the time its material was harvested, as if she had cast harvest knowledge (see below). An elixir of emulation lasts 2d6+12 hours. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells detect thoughts, polymorph"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_emulation",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

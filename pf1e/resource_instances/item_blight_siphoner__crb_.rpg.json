@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blight_siphoner__crb_",
+    "name": {
+      "value": "Blight Siphoner"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,200 gp; Slot none; CL 5th Weight \u00e2\u0080\u0094; Aura faint conjuration APPEARANCE This glass needle is surrounded by a floating, spiraling glass tube and can easily hook onto armor, clothing, or jewelry. EFFECTS As an immediate action, as long as the wearer of the blight siphoner has one hand free and has the needle within easy reach, she can stab herself with the needle when she attempts a Fortitude saving throw against a disease she has contracted. This grants the user a +2 competence bonus on that saving throw. In addition, if the user succeeds at the saving throw, it counts as two consecutive saves for the purpose of curing the disease. Once the user has succeeded at a saving throw against a disease using the blight siphoner, the needle shatters and the item is destroyed. CONSTRUCTION REQUIREMENTS Cost 1,100 gp; Feats Forge Ring; Spells remove disease"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blight_siphoner",
+          "value": {
+            "value": 2200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

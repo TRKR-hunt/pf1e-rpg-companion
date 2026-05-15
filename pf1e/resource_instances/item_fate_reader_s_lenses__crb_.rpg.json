@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fate_reader_s_lenses__crb_",
+    "name": {
+      "value": "Fate-Reader's Lenses"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,250 gp; Slot none; CL 5th; Weight \u2014; Aura strong divination DESCRIPTION Fate-reader\u2019s lenses consist of two specially crafted harrow decks. The decks sport a stylized image of an eye on the back of each card\u2014one deck\u2019s eyes are red, and the deck\u2019s eyes are blue. Each card in the red deck is linked to its corresponding card in the blue deck. The owner can peer through the eyes of any card from the red deck to see whatever is in front of the corresponding blue-eyed card, as if using enter image. The owner can peer through any red card at will; drawing a random card and peering through it is a standard action, while going through the deck and selecting a specific card is a full-round action. If the corresponding blue card is still shuffled in with the rest of the blue deck, it is automatically moved to the top of that deck, ready to be drawn by whoever bears it. Once a blue card is drawn, it can be placed on a creature\u2019s person with a successful Sleight of Hand check or stuck to any sturdy flat surface, where it remains until moved again by either you or another creature. Only a single pair of cards can have a visual link between them at any time, and placing a red card at the bottom of its deck causes the eye on the matching blue card to close, ending the visual link until the red card is peered through again. While the blue cards can be meted out and separated however the owner desires, the red cards lose their magic if separated from the red-eyed harrow deck for more than 10 minutes. If a blue card or a red card is destroyed, the matching card of the opposite deck loses its magic. CONSTRUCTION REQUIREMENTS Cost 5,625 gp; Feats Craft Wondrous Item; Spells enter image"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fate_reader_s_lenses",
+          "value": {
+            "value": 11250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

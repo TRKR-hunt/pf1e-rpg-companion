@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "investigator_s_pipe__crb_",
+    "name": {
+      "value": "Investigator's Pipe"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration and divination DESCRIPTION This long-stemmed, wooden pipe can burn any number of substances, but is primarily used for smoking tobacco. The pipe smoker can command a small, smoky servant to emerge from the pipe to do minor tasks. The servant can move or fetch small objects, and in general acts as an unseen servant, except that it is visible as a small, wispy cloud of gray smoke. Additionally, the servant is capable of clearing one 5-foot square of smoke or fog per round. The servant can be used for up to 1 hour per day; this time doesn\u2019t need to be continuous, but must be used in 10-minute increments. An investigator gains some additional benefits while smoking the pipe. He can use inspiration on Survival checks to track or Perception checks to notice fine details without spending a use of inspiration. Additionally, once per day he can attempt a Knowledge check as if he had the eidetic recollection investigator talent. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Craft Wondrous Item; Spells guidance, unseen servant"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_investigator_s_pipe",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

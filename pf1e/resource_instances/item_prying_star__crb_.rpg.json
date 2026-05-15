@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "prying_star__crb_",
+    "name": {
+      "value": "Prying Star"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 646 gp; Slot none; CL 9th; Weight 1/10 lb.; Aura moderate divination and illusion DESCRIPTION Eight sharp points jut from the circumference of this eye-shaped +1 shuriken. Once thrown, as long as the target cannot see the user or detect her through other senses, the weapon is completely imperceptible to the target creature (except via true seeing ). If a prying star strikes a target and would normally deal damage, it instead embeds itself in the target and functions as a magical sensor that can see 30 feet (normal vision only) in all directions. The sensor is invisible and has no discernible magical aura. If the attack misses or the damage is entirely negated by damage reduction, the target becomes aware of the attack as normal. When the character who threw the prying star closes her eyes, she can view what the sensor can see, provided the sensor remains on the same plane of existence. The sensor remains active for 9 minutes, after which the prying star vanishes without a trace. CONSTRUCTION REQUIREMENTS Cost 326 gp; Feats Craft Magic Arms and Armor; Spells invisibility, magic aura, silence, vicarious view"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_prying_star",
+          "value": {
+            "value": 646
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

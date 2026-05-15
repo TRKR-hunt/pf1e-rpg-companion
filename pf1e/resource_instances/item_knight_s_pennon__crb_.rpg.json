@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "knight_s_pennon__crb_",
+    "name": {
+      "value": "Knight\u2019s pennon, honor"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration or transmutation; CL 6th; Slot none; Price 4,500 gp (battle), 2,200 gp (honor), 4,500 (parley); Weight 1 lb. DESCRIPTION This narrow cloth flag is made to attach to the end a knight\u2019s lance, though it can be flown from a spear, polearm, or even a staff. It has no effect if not mounted appropriately. A knight\u2019s pennon grants different benefits depending on its color and design. Battle: The red knight\u2019s pennon of battle allows its bearer to benefit from heroism once per day. Honor: The gold knight\u2019s pennon of honor bestows protection from evil upon the bearer once per day. Parley: The white knight\u2019s pennon of parley, when displayed approaching a negotiation, grants the bearer a +4 enhancement bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks for 1 hour, so long as the bearer does not initiate any hostile action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, heroism (battle), protection from evil (honor), eagle\u2019s splendor (parley); Cost 2,250 gp (battle), 1,100 gp (honor), 2,250 (parley)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_knight_s_pennon",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_knight_s_pennon",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

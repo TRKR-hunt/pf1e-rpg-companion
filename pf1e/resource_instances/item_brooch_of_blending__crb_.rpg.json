@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brooch_of_blending__crb_",
+    "name": {
+      "value": "Brooch of Blending"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot neck; Price 2,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Occasionally, half-elves find it socially advantageous to blend in fully with either elves or humans. As a standard action, the wearer of this brooch can transform his features to appear either entirely elven or entirely human. The magic of this brooch actually changes the wearer\u2019s features physically, granting him a +20 circumstance bonus on Disguise checks to appear as a member of the selected race. The transformation does not otherwise alter the wearer\u2019s features, and those who know him recognize him without a Perception check. This change remains until the brooch is used again or removed. This change does not radiate magic and cannot be seen with detect magic, although true seeing does reveal the alteration. This item only functions for half-elves, but there are versions that exist for half-orcs as well. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, alter self; Special creator must be a half-elf; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brooch_of_blending",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tome_of_dissolution__crb_",
+    "name": {
+      "value": "Tome of Dissolution"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot none; CL 5th; Weight 1 lb.; Aura faint illusion DESCRIPTION This shadowy, waterproof tome is 12 inches tall, 8 inches wide, and 1 inch thick. When viewed in dim, normal, or bright light, the tome\u00e2\u0080\u0099s 1,000 ebon pages are blank and any new writing immediately fades from sight, as if erase had been cast upon the page. When viewed in darkness, however, each page becomes outlined with pale, silvery light and anything then written in the tome is recorded in similar, silvery light. Writings within the tome are protected as per nondetection. A tome of dissolution can be used as a formula book or a spellbook; if so, extracts and spells can only be prepared from the tome when viewed in darkness. Necromancy spells, spells of the shadow subschool, and spells with the darkness or shadow descriptor take half as many pages when copied into a tome of dissolution as they would in a normal spellbook or formula book. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells erase, nondetection, secret page"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tome_of_dissolution",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tome_of_dissolution",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

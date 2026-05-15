@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_heaven_and_earth__crb_",
+    "name": {
+      "value": "Staff of heaven and earth"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot none; Price 54,000 gp; Weight 5 lbs. DESCRIPTION Topped by a swirling cloudy stone and wrapped with black iron filigree, this staff allows use of the following spells: Gust of wind (1 charge) Stone shape (1 charge) Air walk (2 charges) Control winds (2 charges) Spike stones (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft staff, air walk, control winds, gust of wind, spike stones, stone shape; Cost 27,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_heaven_and_earth",
+          "value": {
+            "value": 54000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_heaven_and_earth",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

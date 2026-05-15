@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_eloquence__crb_",
+    "name": {
+      "value": "Ring of Eloquence"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,500 gp; Slot ring; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION Fine etchings spell out the alphabets of four languages around the inside of this finely crafted silver band. The wearer gains the ability to speak and understand the four languages whose alphabets are inscribed on the ring. Normally the languages are Common, Dwarven, Elven, and Gnome. Less often, such rings are attuned to Giant, Goblin, Orc, and Undercommon, and rings with different sets of languages might also exist. The wearer retains the ability to speak in these languages even if she assumes a form normally unable to do so (such as a druid wild shaped into a wolf ). The ring also makes it easier for the wearer to find the correct words to express herself, granting a +2 competence bonus on Bluff, Diplomacy, Intimidate, and Perform (oratory) checks. Also, if the wearer is deafened and attempts to cast a spell with a verbal component, the chance of spell failure is reduced to 10%. CONSTRUCTION REQUIREMENTS Cost 1,750 gp; Feats Forge Ring; Spells comprehend languages"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_eloquence",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

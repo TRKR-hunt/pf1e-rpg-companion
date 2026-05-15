@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horseshoes_of_mist__crb_",
+    "name": {
+      "value": "Horseshoes of the mist"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot feet; Price 27,000 gp; Weight 12 lbs. DESCRIPTION When a horse is shod with these horseshoes, they give off a puff of mist each time a hoof strikes the earth. On the rider\u00e2\u0080\u0099s command, the mount and the rider are both affected as if subject to a gaseous form spell. If for some reason the rider and the mount become separated from one another while in gaseous form, the effect automatically ends for both. The horseshoes can be used for 10 minutes per day. The duration need not be consecutive, but it must be spent in 1-minute increments. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, gaseous form; Cost 13,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horseshoes_of_mist",
+          "value": {
+            "value": 27000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horseshoes_of_mist",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

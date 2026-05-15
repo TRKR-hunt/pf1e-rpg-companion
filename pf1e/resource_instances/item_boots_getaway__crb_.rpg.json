@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_getaway__crb_",
+    "name": {
+      "value": "Getaway boots"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 11th; Slot feet; Price 30,000 gp; Weight 1 lb. DESCRIPTION These rather nondescript boots can, once per day, be attuned to a location their wearer is standing upon. Once the boots are attuned to a location, once per day as a full-round action, the wearer, along with anything she is wearing or carrying, teleports back to the attuned location as the getaway spell, except that no allies are teleported when the boots are activated even if they were in the area when the boots were attuned to their location. Once the boots are attuned to a location, they continue to be attuned to the same location until they are attuned to a new location. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, getaway; Cost 15,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_getaway",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_getaway",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_grappling__crb_",
+    "name": {
+      "value": "Amulet of Grappling"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 9th; Slot neck; Price 20,258 gp; Weight 2 lbs. DESCRIPTION This nearly perfect pearl replica of a hand is attached to a gold chain and can be worn as an amulet. Once per day, the wearer can animate the hand as an immediate action. The hand attempts to grapple an adjacent foe of Medium size or smaller, using the wearer\u00e2\u0080\u0099s CMB. If it succeeds, the hand deals 1d4 non-lethal damage every round it maintains a grapple. If the grapple attempt fails or the victim escapes the grapple, the hand ceases its activity. If any creature within reach of the amulet (including the wearer) attempts to steal anything, the hand activates and attempts to choke the creature. If the amulet is not currently worn, it uses the victim\u00e2\u0080\u0099s own CMB and Strength to determine the attack bonus and damage. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, interposing hand; Cost 10,129 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_grappling",
+          "value": {
+            "value": 20258
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_of_grappling",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

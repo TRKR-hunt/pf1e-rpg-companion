@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cap_steel_mind__crb_",
+    "name": {
+      "value": "Steel-mind cap"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 9th; Slot head; Price 33,600 gp; Weight 3 lbs. DESCRIPTION Ruined scraps of various constructs were repurposed and combined to form this ornate iron helmet. Though the helmet is not intelligent, it has a brute mechanical cunning that allows it to assert control whenever the wearer\u00e2\u0080\u0099s mind is overwhelmed. The helmet takes control of the wearer\u00e2\u0080\u0099s body anytime he is dazed or stunned. Whenever the wearer would be dazed, he is instead confused. Whenever the wearer would be stunned, he is instead confused and staggered. Time spent under the cap\u00e2\u0080\u0099s influence counts against the duration of the daze or stun effect. The cap functions for up to 5 rounds per day. These rounds do not need to be consecutive. The cap stops asserting control over its wearer when the duration of the daze or stun effect ends, or when the cap\u00e2\u0080\u0099s 5 rounds of duration are expended. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, surmount affliction; Cost 16,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cap_steel_mind",
+          "value": {
+            "value": 33600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cap_steel_mind",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

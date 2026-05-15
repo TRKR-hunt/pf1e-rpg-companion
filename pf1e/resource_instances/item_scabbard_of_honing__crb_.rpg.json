@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scabbard_of_honing__crb_",
+    "name": {
+      "value": "Scabbard of honing #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight 1 lb.; Slot none; Price 500 gp DESCRIPTION This leather scabbard resizes itself to fit any axe, sword, dagger, or similar item normally stored in a scabbard. Sheathing a nonmagical weapon in the scabbard for 1 minute hones its edge as if it had been sharpened with a whetstone. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mending; Cost 250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scabbard_of_honing",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scabbard_of_honing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wizard_hook__crb_",
+    "name": {
+      "value": "Wizard Hook"
+    },
+    "source": {
+      "value": "the_price_of_infamy"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 6th; Slot none; Price 4,310 gp; Weight 1 lb. DESCRIPTION A wizard hook is a +1 hook hand and a useful item for any arcane spellcaster. Although a wizard hook does not allow for fine manipulation, it is infused with magic that bolsters somatic components \u00e2\u0080\u0094you can use a hand stump outfitted with a wizard hook to fulfill any somatic components for casting arcane spells. A wizard hook also grants proficiency in its use as a weapon. You can make touch attacks with spells using a wizard hook, either by making a normal attack with the hook (in which case it deals normal hook hand damage plus the spell effect), or by making a touch attack with the hook (in which case you gain a +4 bonus on the attack roll and the save DC of the spell increases by +1, but you do not do hook hand damage). CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells spectral hand; Cost 2,310 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wizard_hook",
+          "value": {
+            "value": 4310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wizard_hook",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

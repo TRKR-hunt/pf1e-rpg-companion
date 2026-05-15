@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "broom_of_flying_racing__crb_",
+    "name": {
+      "value": "Racing broom of flying"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 3 lbs.; Slot none; Price 30,000 gp DESCRIPTION A racing broom of flying functions like a broom of flying, except for 9 minutes per day it can fly faster than its standard counterpart. Activating this increased speed is a swift action. The broom\u2019s increased fly speed is 60 feet with a load up to 200 pounds, or at a speed of 40 feet carrying up to 400 pounds. Each minute at this faster speed uses 1 hour of the broom\u2019s daily flight time. As a swift action, the rider may expend 5 hours of flight time to increase the broom\u2019s speed to 120 feet with a load up to 200 pounds, or at a speed of 80 feet carrying up to 400 pounds. This speed boost lasts for 1 round, but when it ends there is a 50% chance that the broom gains the broken condition and is powerless until repaired. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, haste, overland flight, permanency; Cost 15,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_broom_of_flying_racing",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_broom_of_flying_racing",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "colossus_draught__crb_",
+    "name": {
+      "value": "Colossus Draught"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 28,800 gp; Slot none; CL 16th; Weight 1 lb.; Aura strong transmutation DESCRIPTION This potent elixir is capped with an incredibly tight lid; a successful DC 22 Strength check is needed to open and allow access to the bubbling jade liquid within. Once the vial is opened, the contents must be imbibed within the next minute, or they spoil and have no effect. Drinking the colossus draught imparts a temporary +4 enhancement bonus to Constitution and Strength, and increases the imbiber\u2019s size to the next larger category (as enlarge person, with all the resulting bonuses and penalties) for the next 24 hours. While under the effects of the elixir, the imbiber takes a \u00e2\u0080\u00934 penalty on all Will saves as the fluid addles her mind. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells giant form I; Special creator must be a 16th-level alchemist; Cost 14,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_colossus_draught",
+          "value": {
+            "value": 28800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_colossus_draught",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

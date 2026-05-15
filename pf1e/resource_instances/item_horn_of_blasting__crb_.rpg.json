@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horn_of_blasting__crb_",
+    "name": {
+      "value": "Horn of blasting #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Horn of Blasting Aura moderate evocation; CL 7th; Slot \u00e2\u0080\u0094; Price 20,000 gp; Weight 1 lb. DESCRIPTION This spiraling animal horn can be sounded as a normal horn, but if the command word is spoken and the instrument is then played, it deals 5d6 points of sonic damage to creatures within a 40-foot cone and causes them to be deafened for 2d6 rounds (a DC 16 Fortitude save reduces the damage by half and negates the deafening). Crystalline objects and creatures take 7d6 points of sonic damage, with no save unless they\u2019re held, worn, or carried by creatures ( Fortitude DC 16 negates). If a horn of blasting is used magically more than once in a given day, there is a 20% cumulative chance with each extra use that it explodes and deals 10d6 points of sonic damage to the person sounding it. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shout; Cost 10,000 gp Horn of Blasting, Greater Aura strong evocation; CL 16th; Slot \u00e2\u0080\u0094; Price 70,000 gp; Weight 1 lb. DESCRIPTION This horn functions as a horn of blasting, except that it deals 10d6 points of sonic damage, stuns creatures for 1 round, and deafens them for 4d6 rounds (a DC 19 Fortitude save reduces the damage by half and negates the stunning and deafening). Crystalline objects take 16d6 points of sonic damage as described for the horn of blasting. A greater horn of blasting also has a 20% cumulative chance of exploding for each usage beyond the first each day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, greater shout; Cost 35,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horn_of_blasting",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horn_of_blasting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

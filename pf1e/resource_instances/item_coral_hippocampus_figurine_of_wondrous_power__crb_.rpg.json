@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coral_hippocampus_figurine_of_wondrous_power__crb_",
+    "name": {
+      "value": "Coral Hippocampus Figurine of Wondrous Power"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "FAQ So what kind of coral is the CORAL HIPPOCAMPUS FIGURINE OF WONDROUS POWER made of if, as a tiny statuette, it weighs 400 lbs!?!?!? Unobtainium coral! But really, should probably be 1 lb. like other figurines. That might be the weight of the full size hippocampus in there, though I remember them weighing more in the normal gear section. [ Source ] Aura strong evocation and transmutation; CL 19th; Slot none; Price 6,000 gp; Weight 400 lbs. DESCRIPTION When animated, this figurine of wondrous power acts in all ways like a normal combat-trained hippocampus. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the coral hippocampus again becomes a tiny statuette. CONSTRUCTION Requirements Craft Wondrous Item animate objects; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coral_hippocampus_figurine_of_wondrous_power",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coral_hippocampus_figurine_of_wondrous_power",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

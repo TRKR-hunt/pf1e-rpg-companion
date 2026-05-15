@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bottled_scream__crb_",
+    "name": {
+      "value": "Bottled Scream"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 900 gp; Slot none; CL 7th; Weight 1/2 lb.; Aura moderate evocation DESCRIPTION Wax and resin seal this smoked glass bottle. When the bottle is opened or shattered, a shrill scream erupts in a 20-foot-radius burst. Any bardic performances with audible components immediately end. Any spellcaster concentrating on or casting a spell must succeed at a concentration check (DC 15 + spell level) or lose the spell. In addition, the scream dispels any silence spells that overlap its area. The bottle can be thrown as a splash weapon or opened by hand. If the bottle is opened, its burst is centered on the opener\u2019s space. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Craft Wondrous Item; Spells shout"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bottled_scream",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

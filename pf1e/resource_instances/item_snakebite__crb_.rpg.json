@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "snakebite__crb_",
+    "name": {
+      "value": "Snakebite #2"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 57,320 gp; Slot none; CL 9th; Weight 2 lbs.; Aura moderate necromancy and transmutation DESCRIPTION Note This item is associated with a specific deity. If the wielder worships the associated deity it gains additional abilities. This +2 injecting wounding rapier increases the save DC of any poison applied to its blade by 1. If the wielder worships the associated deity, she can utter a silent prayer as a swift action up to three times per day. Each prayer creates 1 dose of purple worm poison in the sword\u2019s pommel reservoir. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bleed, pernicious poison; Cost 28,660 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_snakebite",
+          "value": {
+            "value": 57320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_snakebite",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

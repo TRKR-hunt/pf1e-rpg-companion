@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "backbreaker_mail__crb_",
+    "name": {
+      "value": "Backbreaker Mail"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 17,650 gp; Slot armor; CL 10th; Weight 45 lbs.; Aura moderate illusion and transmutation DESCRIPTION This +2 spiked splint mail is fashioned from hacked-off chunks of tanned hide and held together by humanoid spines. Used by orcs, these sets of armor are seen as a status symbol, and are adorned with trophies from slain foes, such as wayfinders. This armor grants its wearer the constrict ability, dealing an amount of damage equal to 1d6 + the wearer\u2019s Strength modifier. The vertebrae of the spines adorning the backbreaker mail are sharpened, acting as +1 human bane armor spikes. CONSTRUCTION REQUIREMENTS Cost 9,025 gp; Feats Craft Magic Arms and Armor; Spells beast shape I, disguise self, summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_backbreaker_mail",
+          "value": {
+            "value": 17650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_backbreaker_mail",
+          "value": {
+            "value": 45
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

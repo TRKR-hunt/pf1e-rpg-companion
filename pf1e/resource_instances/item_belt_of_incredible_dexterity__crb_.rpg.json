@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_incredible_dexterity__crb_",
+    "name": {
+      "value": "Belt of incredible dexterity #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot belt; Weight 1 lb.; Price 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6) DESCRIPTION This belt has a large silver buckle, usually depicting the image of a tiger. The belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, cat\u2019s grace; Cost 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_incredible_dexterity",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_incredible_dexterity",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

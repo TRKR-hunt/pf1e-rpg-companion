@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "armor_of_fragmenting_stone__crb_",
+    "name": {
+      "value": "Armor of Fragmenting Stone"
+    },
+    "source": {
+      "value": "monster_summoner_s_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 21,650 gp; Slot armor; CL 7th Weight 60 lbs.; Aura moderate conjuration DESCRIPTION This imposing suit of armor, first forged by elemental binders, is covered in large, jagged stones and functions as +2 full plate. Once per day as an immediate action, when a bludgeoning or slashing attack strikes the wearer, the wearer can will a chunk of the stone to break off, summoning a Medium earth elemental as summon monster IV. The elemental fights as the wearer directs (and understands the wearer, even if the two do not share a language) for 7 rounds, or until it is destroyed. CONSTRUCTION REQUIREMENTS Cost 11,650 gp; Feats Craft Magic Arms and Armor; Spells summon monster IV or summon nature\u2019s ally IV; Special creator must have visited the Elemental Planes of Earth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_armor_of_fragmenting_stone",
+          "value": {
+            "value": 21650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_armor_of_fragmenting_stone",
+          "value": {
+            "value": 60
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

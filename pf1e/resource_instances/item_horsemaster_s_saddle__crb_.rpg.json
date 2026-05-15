@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horsemaster_s_saddle__crb_",
+    "name": {
+      "value": "Horsemaster\u2019s saddle #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 5 lbs.; Slot none; Price 12,000 gp DESCRIPTION This ornate military saddle, tooled with an elaborate equine motif, grants the mount a +5 competence bonus on Acrobatics checks and the mount\u2019s rider a +5 competence bonus on Ride checks. In addition, the mount gains the benefits of any teamwork feats possessed by the rider. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mount; Special creator must have 5 ranks in Ride; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horsemaster_s_saddle",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horsemaster_s_saddle",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

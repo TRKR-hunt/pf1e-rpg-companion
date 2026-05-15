@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eye_of_crystallized_venom__crb_",
+    "name": {
+      "value": "Eye of Crystallized Venom"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,250 gp; Slot neck; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This thick, smooth leather collar is made from delicate but sturdy panels of calfskin and has a dainty green gem dangling from its center in an elaborate golden setting. The gem glows when poisons or toxins are within 10 feet of the wearer. Additionally, as a swift action after failing a saving throw against a poison, the wearer can pull the gem from the collar and crush it, which allows her to reroll the saving throw against the poison with a +2 competence bonus. The wearer must take the second roll, even if it is worse. Activating this ability destroys the collar. CONSTRUCTION REQUIREMENTS Cost 1,125 gp; Feats Craft Wondrous Item; Spells detect poison, delay poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eye_of_crystallized_venom",
+          "value": {
+            "value": 2250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

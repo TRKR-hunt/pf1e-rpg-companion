@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_cocoon__crb_",
+    "name": {
+      "value": "Cocoon cloak"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "APPEARANCE FUNCTION Aura moderate transmutation; CL 7th; Slot shoulders; Price 10,000 gp; Weight 1 lb. APPEARANCE This ruffled silk cloak is incredibly durable despite its soft, delicate construction. FUNCTION Anytime the wearer falls asleep (whether the sleep is natural or brought on by a magical effect), the cloak immediately transforms into sticky strands that envelop the wearer\u00e2\u0080\u0099s body, hardening into a solid silk cocoon. While wrapped in the cocoon the wearer gains a +4 enhancement bonus to natural armor and is protected from critical hits and sneak attacks as if subject to the light fortification armor ability (25% chance for normal damage on a critical hit ). The cocoon opens and transforms back into a cloak once the wearer awakens. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, vermin shape I; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_cocoon",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_cocoon",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

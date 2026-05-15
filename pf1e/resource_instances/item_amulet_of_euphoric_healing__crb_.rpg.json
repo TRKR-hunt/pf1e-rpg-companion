@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_euphoric_healing__crb_",
+    "name": {
+      "value": "Amulet of Euphoric Healing"
+    },
+    "source": {
+      "value": "champions_of_corruption"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot neck; CL 3rd; Weight 1 lb.; Aura faint enchantment DESCRIPTION These glass amulets hold a bubbling red magical liquid called \u201c euphorica \u201d and often feature a religion\u2019s or deity\u2019s holy symbol. EFFECT While worn, the magical liquid within the amulet tinges the user\u2019s healing magic with a wash of ecstasy that acts as a magical drug, making the recipient of the healing more susceptible to mental manipulation by the wearer of the amulet. Anytime the wearer casts a healing spell or uses a spell-like ability on a single target, the recipient of the magical healing additionally must succeed at a DC 13 Fortitude save or become addicted to the wearer\u2019s healing spells. The wearer can suppress this effect by shielding the amulet from view with a hand or held item as a free action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells cure light wounds, enthrall; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_euphoric_healing",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_of_euphoric_healing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

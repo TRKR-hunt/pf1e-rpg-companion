@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dwarf_smasher__crb_",
+    "name": {
+      "value": "Dwarf Smasher"
+    },
+    "source": {
+      "value": "dungeons_of_golarion"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "LE +2 dwarf bane warhammer; Aura strong evocation; CL 15th; Slot \u00e2\u0080\u0094; Price 91,712 gp; Weight 5 lbs. STATISTICS Int 12; Wis 5 (originally 14); Cha 16; Ego 13 (17 with restored Wisdom ) Senses 60 ft., darkvision 60 ft.; Communication speech Languages Dwarven, Undercommon Powers Knowledge (dungeoneering) +14 (10 ranks), dispel magic 1/day, invisibility purge 1/day Purpose defeat dwarves (can detect dwarves within 60 feet, and can cast earthquake once per day in any area that includes structures built by dwarves ) DESCRIPTION Dwarf Smasher is an intelligent +2 dwarf bane warhammer. It has spent the past several generations in the possession of the same enemies it was once crafted to defeat. In that time, the weapon has gone somewhat insane, warped to thirst for the death of non- duergar dwarves and eager to please the line of duergar rulers. Restoring it to its original purpose is possible only by seeking out a living descendant and securing an atonement spell from that dwarf to absolve the magic warhammer of its madness. Doing so re-aligns its special purpose to oppose duergar, changes its alignment to lawful good, and raises its Wisdom score up to 14. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells dispel magic, earthquake, invisibility purge, summon monster I; Cost 46,012 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dwarf_smasher",
+          "value": {
+            "value": 91712
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dwarf_smasher",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

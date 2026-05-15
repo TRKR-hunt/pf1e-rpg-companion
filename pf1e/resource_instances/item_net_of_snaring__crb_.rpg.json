@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "net_of_snaring__crb_",
+    "name": {
+      "value": "Net of Snaring"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 28,940 gp; Slot none; CL 11th; Weight 6 lbs.; Aura moderate conjuration and transmutation DESCRIPTION This +1 distance net seems lighter than expected and is slightly sticky to the touch. Three times per day, the wielder may speak the command word and throw the net of snaring at a target. This is a ranged touch attack with a range of 40 feet. The net immediately grows by two size categories. If the attack hits, the target must succeed at a DC 25 Reflex save or become entangled. So long as the wielder retains control of the trailing rope, he may attempt or otherwise act on a grapple as a free action that does not provoke an attack of opportunity. Speaking the command word again shrinks the item to normal size so long as no creature is confined within it. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, levitate, permanency, shrink item, web; Cost 14,470 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_net_of_snaring",
+          "value": {
+            "value": 28940
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_net_of_snaring",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "metamagic_disruptive__crb_",
+    "name": {
+      "value": "Disruptive spell"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong (no school); CL 17th; Slot none; Price 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); Weight 5 lbs. DESCRIPTION The wielder can cast up to three spells per day that are disruptive as though using the Disruptive Spell feat. CONSTRUCTION REQUIREMENTS Feats Craft Rod, Disruptive Spell; Cost 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_metamagic_disruptive",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_metamagic_disruptive",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

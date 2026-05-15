@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dwarfbond_hammer__crb_",
+    "name": {
+      "value": "Dwarfbond Hammer"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Weight 5 lbs.; Price 25,312 gp DESCRIPTION In the hands of a dwarf, this +1 warhammer functions as a +2 returning warhammer. It can be hurled with a 20-foot range increment. When hurled, a dwarfbond hammer deals an extra 1d8 points of damage against creatures of the giant subtype. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Special creator must be a dwarf of at least 7th level; Cost 12,812 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dwarfbond_hammer",
+          "value": {
+            "value": 25312
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dwarfbond_hammer",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

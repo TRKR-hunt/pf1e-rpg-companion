@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "orb_of_arcane_research__crb_",
+    "name": {
+      "value": "Orb of Arcane Research"
+    },
+    "source": {
+      "value": "quests_campaigns"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 5th; Slot none; Price 7,000 gp; Weight 6 lbs. DESCRIPTION Made of a glassy, translucent substance, this orb swirls with the eldritch energy of spellcasters long departed. When the bearer researches a spell to create a new spell or learn an existing one from another source, this orb provides a +2 competence bonus on Spellcraft checks. Additionally, when the command word is spoken, an orb of arcane research allows its bearer to gain a +5 insight bonus on a Craft (alchemy), Knowledge (arcana), Knowledge (nature), or Spellcraft check made to research a spell or extract formula. The orb can be used five times in this way before the item cracks, losing all of its magical properties and reverting to a piece of mundane glass. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Scribe Scroll, read magic; Cost 3,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_orb_of_arcane_research",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_orb_of_arcane_research",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

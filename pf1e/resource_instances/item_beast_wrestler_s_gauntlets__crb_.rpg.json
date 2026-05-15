@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "beast_wrestler_s_gauntlets__crb_",
+    "name": {
+      "value": "Beast Wrestler's Gauntlets"
+    },
+    "source": {
+      "value": "advanced_class_origins"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,500 gp; Slot hands; CL 5th; Weight 1 lb.; Aura faint conjuration DESCRIPTION These gauntlets grant a +1 enhancement bonus on grapple checks. Each pair of gauntlets is created to fight a specific type or subtype of creature from the list of creature types in the bane weapon special ability. While the wearer is grappling a creature of the designated type, the gauntlets\u2019 enhancement bonus increases by 2 and the wearer deals an additional 2d6 points of nonlethal damage when dealing damage as part of a successful grapple check. CONSTRUCTION REQUIREMENTS Cost 3,750 gp; Feats Craft Wondrous Item; Spells summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_beast_wrestler_s_gauntlets",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_beast_wrestler_s_gauntlets",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

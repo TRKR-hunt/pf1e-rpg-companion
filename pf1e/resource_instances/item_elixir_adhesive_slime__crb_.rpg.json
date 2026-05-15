@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_adhesive_slime__crb_",
+    "name": {
+      "value": "Elixir, Adhesive Slime"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Fleshcraft Elixirs Fleshcrafting, the cousin of true fleshwarping, focuses on modifying only a portion of the subject for a particular task. While fleshcrafting normally involves changing the subject\u00e2\u0080\u0099s body permanently with a graft, fleshcraft elixirs can enact a similar temporary monstrous change. The following fleshcraft is available only in elixir form and cannot be created as a graft. Price 500 gp; Duration 1 hour; Saving Throw DC 14 EFFECTS The subject\u00e2\u0080\u0099s skin secretes a transparent, sticky substance, granting the creature a 15-foot climb speed. Penalty: The subject takes a \u00e2\u0080\u00934 penalty to CMD against grapple checks and must use a move action (instead of a free action ) to drop a held object. CREATION REQUIREMENTS Cost 250 gp; Feats Fleshwarper; Skills Craft (alchemy) 8 ranks; Heal DC 18"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_adhesive_slime",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

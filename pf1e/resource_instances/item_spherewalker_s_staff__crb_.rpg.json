@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spherewalker_s_staff__crb_",
+    "name": {
+      "value": "Spherewalker's Staff"
+    },
+    "source": {
+      "value": "demon_s_heresy"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot none; Price 43,400 gp; Weight 3 lbs. DESCRIPTION This slender darkwood staff is topped either with a star-shaped crystal or a butterfly-like silver head. A spherewalker\u2019s staff allows use of the following spells: ant haul (1 charge) water walk (1 charge) air walk (2 charges) dimension door (2 charges) freedom of movement (2 charges) plane shift (3 charges) When carried (even when stowed), a spherewalker\u2019s staff increases the wielder\u2019s base land speed by 10 feet. CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells air walk, ant haul, dimension door, freedom of movement, plane shift, water walk; Special creator must worship associated deity; Cost 21,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spherewalker_s_staff",
+          "value": {
+            "value": 43400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spherewalker_s_staff",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

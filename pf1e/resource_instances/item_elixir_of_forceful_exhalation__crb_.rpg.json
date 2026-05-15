@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_forceful_exhalation__crb_",
+    "name": {
+      "value": "Elixir of Forceful Exhalation"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd; Slot none; Price 900 gp; Weight 1 lb. DESCRIPTION This fizzy, sky-blue liquid leaves its drinker feeling buoyant, yet bloated. The drinker gains a +4 competence bonus on Acrobatics checks made to make high or long jumps and on Swim checks for up to 1 hour after consuming the elixir. As a standard action, the drinker can exhale a 15-foot-long gust of wind. The drinker can exhale up to three gusts, after which the elixir\u2019s effect is discharged and the skill bonuses end. Unused gusts dissipate after 1 hour. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, gust of wind; Cost 450 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_forceful_exhalation",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_elixir_of_forceful_exhalation",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mountainshapers_girdle__crb_",
+    "name": {
+      "value": "Mountainshaper's Girdle"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Slot belt; CL 8th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This wide belt grants the wearer a +4 enhancement bonus to Strength. In addition, the wearer can spend 1 ki point to use stone shape. When he uses this ability, he can instead choose to shape metal, but he can affect only one-tenth as much material. To shape a usable weapon out of metal or stone, the wearer must succeed at a Craft (weapons) check. Items created in this way can never be of masterwork quality. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Wondrous Item; Spells bear\u2019s endurance, stone shape"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mountainshapers_girdle",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mountainshapers_girdle",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

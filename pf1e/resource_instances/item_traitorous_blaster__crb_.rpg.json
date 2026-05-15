@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "traitorous_blaster__crb_",
+    "name": {
+      "value": "Traitorous Blaster"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,050 gp; Slot none; CL 3rd; Weight 5 lbs.; Aura faint transmutation DESCRIPTION This +1 double-barreled pistol has an over-sized stock to compensate for the massive recoil the weapon produces, though even with this attachment the kickback is strong enough to throw the pistol completely backward after firing. When both barrels of a traitorous blaster are loaded and the wielder is being flanked, the wielder can fire both barrels as a single action, with each shot targeting one of the enemies flanking the wielder. The wielder takes only a \u00e2\u0080\u00932 penalty on these attack rolls (rather than the \u00e2\u0080\u00934 penalty normally associated with firing both barrels of a double-barreled pistol as a single action). CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells mirror strike; Cost 4,550 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_traitorous_blaster",
+          "value": {
+            "value": 7050
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_traitorous_blaster",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

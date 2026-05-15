@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bird_token__crb_",
+    "name": {
+      "value": "Bird Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 300 gp DESCRIPTION A token that creates a small bird that can be used to deliver a small written message unerringly to a designated target. The token lasts as long as it takes to carry the message. CONSTRUCTION REQUIREMENTS Requirements Craft Wondrous Item, major creation; Cost 150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bird_token",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "protective_ruff__crb_",
+    "name": {
+      "value": "Protective Ruff"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot neck; CL 3rd Weight 1/2 lb.; Aura faint transmutation APPEARANCE This lace collar fits snugly around the wearer\u00e2\u0080\u0099s neck. EFFECTS When an effect would damage an item worn in any of the wearer\u00e2\u0080\u0099s item slots, up to 10 points of damage are redirected to the ruff. (Damaging effects that do not involve hit points, such as rusting grasp, are not affected.) A protective ruff has 10 hit points and hardness 5. When the ruff is reduced to 0 hit points, it stops functioning; if reduced to less than 0 hit points, it is destroyed as normal. While worn, a protective ruff with 1 or more hit points regenerates at the rate of 1 hit point per hour. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells mending"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_protective_ruff",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

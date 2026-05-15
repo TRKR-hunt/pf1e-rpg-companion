@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_webbed_appendages__crb_",
+    "name": {
+      "value": "Elixir, Webbed Appendages"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Fleshcraft Elixirs Fleshcrafting, the cousin of true fleshwarping, focuses on modifying only a portion of the subject for a particular task. While fleshcrafting normally involves changing the subject\u00e2\u0080\u0099s body permanently with a graft, fleshcraft elixirs can enact a similar temporary monstrous change. The following fleshcraft is available only in elixir form and cannot be created as a graft. Price 300 gp; Duration 1 hour; Saving Throw DC 12 EFFECTS Membranes of skin grow between the subject\u00e2\u0080\u0099s fingers and toes and stretch between its appendages and body, granting the creature a 20-foot swim speed. Penalty: The subject has difficulty holding items and takes a \u00e2\u0080\u00932 penalty on attack rolls with held weapons. CREATION REQUIREMENTS Cost 150 gp; Feats Fleshwarper; Skills Craft (alchemy) 8 ranks; Heal DC 16"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_webbed_appendages",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

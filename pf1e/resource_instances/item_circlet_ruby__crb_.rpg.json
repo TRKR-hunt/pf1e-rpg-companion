@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "circlet_ruby__crb_",
+    "name": {
+      "value": "Circlet, Ruby"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Osirion: Land of Pharaohs Aura moderate conjuration and transmutation; CL 11th; Slot hand; Price 94,000 gp; Weight 5 lbs. DESCRIPTION This golden circlet is set with rubies and is small enough to fit under the standard head regalia of a reigning pharaoh. It functions as a +6 headband of Wisdom and a circlet of persuasion. If you are the rightful ruler of Osirion, you can use the Ruby Circlet to telepathically communicate with Janhelia, agent of the elemental lords of the desert; this ability functions as long as you and she are on the same plane. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, eagle\u2019s splendor, owl\u2019s wisdom, planar ally, telepathic bond; Cost 47,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_circlet_ruby",
+          "value": {
+            "value": 94000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_circlet_ruby",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

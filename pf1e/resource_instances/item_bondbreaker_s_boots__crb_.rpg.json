@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bondbreaker_s_boots__crb_",
+    "name": {
+      "value": "Bondbreaker's Boots"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; Slot feet; CL 1st; Weight 1 lb.; Price 1,600 gp DESCRIPTION These leather boots bear a knife motif worked into their durable blue leather. Three times per day, the wearer can speak a command word as a swift action, causing a serrated knife to fly from the boots and instantly slice through any non-magical bond currently restraining the wearer. The knife conjured from bondbreaker\u2019s boots can cut through brambles, ropes, tanglefoot bags, vines, webs, or any other similar non-magical item restraining the wearer, but cannot help when the owner is actively restrained by a creature. Bondbreaker\u2019s boots also cannot free the wearer if manacles or chains restrain her. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells unseen servant; Cost 800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bondbreaker_s_boots",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bondbreaker_s_boots",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

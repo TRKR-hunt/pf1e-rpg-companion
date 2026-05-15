@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "summoner_s_sorrow__crb_",
+    "name": {
+      "value": "Summoner\u2019s Sorrow"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 9th; Weight 10 lbs.; Price 42,816 gp DESCRIPTION The summoner\u2019s sorrow is a +2 cold iron glaive that deals an extra 2d6 points of damage against summoned creatures, including eidolons. Once each round when the summoner\u2019s sorrow damages a summoned or illusory creature, the wielder can make a dispel check as a free action to send away or destroy the creature. This is treated as a dispel magic spell targeted against the spell that created the creature, except that the wielder\u2019s base attack bonus is used in place of the wielder\u2019s or item\u2019s caster level. This ability has no effect on creatures that are called rather than summoned, or on summoned creatures that cannot be dispelled, such as a summoner\u2019s eidolon. Once per day as a free action, the wielder can attempt a dismissal against a creature damaged by the weapon instead of dispelling it. This ability functions only against extraplanar creatures (whether summoned or not), and works as the spell of the same name with a Will save DC of 17. The wielder cannot both dispel and dismiss in the same round. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells dismissal, dispel magic; Cost 21,566 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_summoner_s_sorrow",
+          "value": {
+            "value": 42816
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_summoner_s_sorrow",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

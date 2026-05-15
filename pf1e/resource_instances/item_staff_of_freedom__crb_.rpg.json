@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_freedom__crb_",
+    "name": {
+      "value": "Staff of the Freed Man"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; Slot none; CL 17th; Weight 5 lbs.; Price 51,688 gp DESCRIPTION Just over 7 feet tall and topped with what looks like a large iron skeleton key, this unassuming oaken staff appears to be nothing but a common walking stick. It allows use of the following spells: Detect secret doors (2 charges) Knock (2 charges) Passwall (3 charges) Freedom (5 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells detect secret doors, freedom, knock, passwall; Cost 25,840 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_freedom",
+          "value": {
+            "value": 51688
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_freedom",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

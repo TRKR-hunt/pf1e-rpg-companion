@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_toxins__crb_",
+    "name": {
+      "value": "Staff of toxins"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 9th; Slot none; Price 34,200 gp; Weight 5 lbs. DESCRIPTION This length of hemlock-shrouded oak gives off the faintest whiff of rot and corruption. It allows use of the following spells: Stinking cloud (1 charge) Cloudkill (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells cloudkill, stinking cloud; Cost 17,100 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_toxins",
+          "value": {
+            "value": 34200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_toxins",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

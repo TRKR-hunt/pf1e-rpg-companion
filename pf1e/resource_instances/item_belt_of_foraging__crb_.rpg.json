@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_foraging__crb_",
+    "name": {
+      "value": "Belt of foraging #2"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot belt; Price 6,000 gp; Weight 1 lb. DESCRIPTION This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this belt has at least 1 rank in Survival, he need not make a check to get along in the wild; he always succeeds at that Survival check as long as he moves at half his overland speed. He can still choose to make that check to provide food and water for one other creature for every 2 points by which his result exceeds DC 10. Furthermore, he can instead make a DC 20 Survival check to get along in the wild while moving at full speed instead of half speed. While doing so, he can provide food and water for one other creature for every 2 points by which his check result exceeds 20. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, detect animals or plants; Special creator must have at least 1 rank in Survival; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_foraging",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_foraging",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "flashguard_plate__crb_",
+    "name": {
+      "value": "Flashguard Plate"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,350 gp; Slot armor; CL 6th; Weight 30 lbs.; Aura moderate abjuration DESCRIPTION This +2 breastplate is made of scrap metal from remnants of a crashed spaceship. Specifically designed to provide additional defense against beam weapons, it grants its wearer a +4 bonus to touch AC against ray attacks. Three times per day, when a ray attack targeting the plate\u2019s wearer misses by 4 or less, the wearer can deflect the ray back at its source as an immediate action. The ray uses the original attack roll to determine whether it hits its new target. CONSTRUCTION REQUIREMENTS Cost 8,700 gp; Feats Craft Magic Arms and Armor; Spells deflection, shield"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_flashguard_plate",
+          "value": {
+            "value": 16350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_flashguard_plate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

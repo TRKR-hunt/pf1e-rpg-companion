@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracers_of_steadiness__crb_",
+    "name": {
+      "value": "Bracers of steadiness #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 1st; Slot wrists; Price 2,000 gp; Weight 2 lbs. DESCRIPTION These tortoiseshell bracers fit so snuggly against their wearer\u00e2\u0080\u0099s skin that they almost seem part of him. The wearer of these bracers becomes exceptionally calm and composed if she takes her time to accomplish particular tasks. Whenever she takes 20 on a skill check for a skill that primarily depends on her arms and hands, she gains a +5 competence bonus on the check. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, aid; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracers_of_steadiness",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracers_of_steadiness",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

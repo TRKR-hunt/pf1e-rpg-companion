@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crown_of_conquest__crb_",
+    "name": {
+      "value": "Crown of conquest #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 7th Slot head; Price 24,600 gp; Weight 3 lbs. DESCRIPTION This crown of steel and gold projects an aura of menacing power. The wearer gains a +4 competence bonus on Intimidate checks, and whenever he confirms a critical hit, the crown creates a prayer effect centered on the crown\u2019s wearer ( caster level 5th). If the wearer of the crown has the Leadership feat, he gains a +1 bonus to his Leadership score and any follower or cohort of the wearer gains a +1 bonus on attack rolls and saving throws against fear effects while within line of sight of the wearer. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bless, eagle\u2019s splendor, prayer; Cost 12,300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crown_of_conquest",
+          "value": {
+            "value": 24600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crown_of_conquest",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

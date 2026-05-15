@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pauldrons_demonspike__crb_",
+    "name": {
+      "value": "Demonspike pauldrons"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 7th; Slot shoulders; Price 14,350 gp; Weight 8 lbs. DESCRIPTION These black iron pauldrons are studded with jagged spikes of various lengths. Demonspike pauldrons act as +2 armor spikes and also deal 1d2 bleed damage on a successful grapple attack or melee attack made with the pauldrons. If these pauldrons are worn with normal armor spikes, increase the damage done by the armor spikes to 1d6 (Small) or 1d8 (Medium), and use the greater of the two enhancement bonuses to attack and damage\u00e2\u0080\u0094either from the armor spikes (if any) or the demonspike pauldrons. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Craft Magic Arms and Armor, bleed; Cost 7,175 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pauldrons_demonspike",
+          "value": {
+            "value": 14350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pauldrons_demonspike",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

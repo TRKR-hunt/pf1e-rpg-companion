@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spiral_tiles__crb_",
+    "name": {
+      "value": "Spiral Tiles"
+    },
+    "source": {
+      "value": "faiths_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Slot none; Price 6,000 gp; Weight 1 lb. DESCRIPTION This item is associated with a specific deity. These 10 ebony, pearl, and ivory tiles, when arranged in a spiral pattern on the ground, provide you with the effects of a guidance spell once per day. The spell\u2019s effect lasts until discharged. If you worship the associated god you can toss the spiral tiles upon the ground once per day as a standard action and interpret the patterns they lie in as if you had cast augury. If you do not worship the associated god and you attempt to use spiral tiles in this manner, the result is either random or purposefully misleading. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, augury, guidance; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spiral_tiles",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spiral_tiles",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "talisman_of_beast_training__crb_",
+    "name": {
+      "value": "Talisman of Beast Training"
+    },
+    "source": {
+      "value": "quests_campaigns"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 1st; Slot neck; Price 4,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This talisman is worn lashed around the neck and is made of flexible bark woven into a mesmerizing pattern. While wearing a talisman of beast training, a wearer finds that animals become much more patient with her and amenable to training. As such, failed Handle Animal checks made during downtime periods \u00e2\u0080\u0094including those made to rear animals and teach them new tricks\u00e2\u0080\u0094may be treated as if they were successful. The talisman can turn 10 failed checks into successes this way. Once the tenth failed check has been converted to a success, the talisman falls apart and becomes useless. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, charm animal; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_talisman_of_beast_training",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

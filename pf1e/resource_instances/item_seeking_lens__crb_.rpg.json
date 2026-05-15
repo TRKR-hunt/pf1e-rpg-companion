@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "seeking_lens__crb_",
+    "name": {
+      "value": "Seeking Lens"
+    },
+    "source": {
+      "value": "the_reaper_s_right_hand"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,000 gp; Slot eyes or none; CL 11th; Weight 1 lb.; Aura moderate divination BENEFITS This telescope is adjustable as a full-round action, allowing magnifications anywhere from \u00c3\u00972 to \u00c3\u0097250. The user gains a +5 competence bonus on Knowledge (geography) and Perception checks when using the device to study planets, stars, and other celestial bodies. As a full-round action, the user can press the two lenses together, compressing the device to a small assayer\u00e2\u0080\u0099s lens small enough to occupy the eyes slot. In this form, the lens grants a +5 competence bonus on Appraise checks, Perception checks, and Survival checks to follow tracks. Once per week, after studying the possessions or tracks of a creature, the wearer may designate that creature as his quarry. This functions as the ranger \u00e2\u0080\u0099s quarry ability. If the wearer already has the quarry ability, the lens instead allows him to designate a creature as his quarry even if it is not one of his favored enemies. CONSTRUCTION REQUIREMENTS Cost 10,000 gp; Feats Craft Wondrous Item; Spells clairaudience/clairvoyance, true seeing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_seeking_lens",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_seeking_lens",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

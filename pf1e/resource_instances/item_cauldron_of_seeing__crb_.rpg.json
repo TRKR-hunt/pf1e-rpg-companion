@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cauldron_of_seeing__crb_",
+    "name": {
+      "value": "Cauldron of seeing #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 10th; Slot none; Price 42,000 gp; Weight 5 lbs. DESCRIPTION When filled with liquid, this small cauldron allows the user to see over virtually any distance as if using the scrying spell. It may have additional powers like those of a crystal ball for the same prices. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, scrying; Cost 21,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cauldron_of_seeing",
+          "value": {
+            "value": 42000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cauldron_of_seeing",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

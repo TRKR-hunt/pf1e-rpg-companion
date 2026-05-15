@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "altar_crimson__crb_",
+    "name": {
+      "value": "Altar, Crimson"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 17,500 gp; Slot none; CL 8th; Weight 28 lbs.; Aura moderate necromancy DESCRIPTION This red marble altar is carved in the shape of two legless humans conjoined at the waist, their heads facing opposite directions. The figure\u2019s four arms are bent at the elbow, supporting the altar like the legs of a table would. Each face is featureless save for a gaping maw, and hollow moans occasionally escape from their taut, perpetually blood-stained marble lips. Whenever a creature within 40 feet of the altar takes piercing or slashing damage, the altar\u2019s foul magic invades the wound and forces it to stay open, automatically dealing 1d4 points of bleed damage. This bleed damage doesn\u2019t stack with any bleed damage the attack would normally deal, nor does it stack with itself. Unholy magic beckons spilled blood to crawl toward the altar. There is a shallow, round indentation on the altar; if a silver cup worth 25 gp is placed within, crimson nectar trickles into the cup each time a creature within 40 feet takes bleed damage. The cup is filled to the brim once 30 points of bleed damage have been dealt within 40 feet of the altar. As a standard action, a creature can drink the nectar to regain 5d6 hit points. The nectar heals both living and undead creatures. The nectar loses its potency and turns into clotted blood if it is not consumed within 1 round of the cup being removed from the altar. The altar can produce 3 full cups of healing nectar per day. CONSTRUCTION REQUIREMENTS Cost 8,750 gp; Feats Craft Wondrous Item; Spells bleed, death knell"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_altar_crimson",
+          "value": {
+            "value": 17500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_altar_crimson",
+          "value": {
+            "value": 28
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shockwave_blunderbuss__crb_",
+    "name": {
+      "value": "Shockwave Blunderbuss"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 87,300 gp; Slot none; CL 18th; Weight 8 lbs.; Aura strong evocation DESCRIPTION Whenever the wielder fires pellets from this +2 sonic boom blunderbuss, she attempts a free combat maneuver check to trip each creature struck by the pellets. The wielder uses the shockwave blunderbuss\u2019s Combat Maneuver Bonus of +20 for these trip attempts. The wielder doesn\u2019t provoke attacks of opportunity for these trip attempts and doesn\u2019t risk knocking herself prone. CONSTRUCTION REQUIREMENTS Cost 44,800 gp; Feats Craft Magic Arms and Armor; Spells reverse gravity, shout"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shockwave_blunderbuss",
+          "value": {
+            "value": 87300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shockwave_blunderbuss",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

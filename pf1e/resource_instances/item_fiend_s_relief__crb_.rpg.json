@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fiend_s_relief__crb_",
+    "name": {
+      "value": "Fiend's Relief"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,305 gp; Slot none; CL 7th; Weight 9 lbs.; Aura moderate divination DESCRIPTION A creature wielding one of these +1 longspears gains a +3 bonus on attack rolls when flanking with an evil-aligned outsider, instead of +2. A creature using the longspear\u2019s reach to attack through a square occupied by an allied evil-aligned outsider ignores any cover bonus the fiend would grant to the target. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells command, detect evil; Cost 1,805 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fiend_s_relief",
+          "value": {
+            "value": 3305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fiend_s_relief",
+          "value": {
+            "value": 9
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

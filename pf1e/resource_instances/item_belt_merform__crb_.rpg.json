@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_merform__crb_",
+    "name": {
+      "value": "Merform belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot belt; Price 32,000 gp; Weight 2 lbs. DESCRIPTION Once per day, the wearer of this belt can command it to transform her into the form of a merfolk. While in this form, the wearer can breathe water and transform her lower body into a merfolk fishtail. Her new form provides a +2 natural armor bonus and a swim speed of 30 feet, though while the wearer is in this form her land speed is reduced to 5 feet. The wearer can take this form for up to 12 hours, and can end the effect at any time with a command. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, alter self, water breathing; Cost 16,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_merform",
+          "value": {
+            "value": 32000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_merform",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

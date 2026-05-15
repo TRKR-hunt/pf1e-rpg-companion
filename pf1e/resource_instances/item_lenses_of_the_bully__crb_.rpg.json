@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lenses_of_the_bully__crb_",
+    "name": {
+      "value": "Lenses of the Bully"
+    },
+    "source": {
+      "value": "antiheros_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,500 gp; Slot eyes; CL 3rd; Weight \u2014; Aura faint abjuration DESCRIPTION Commonly used by thugs, these dark-tinted lenses make the wearer appear threatening. The wearer gains a +2 competence bonus on Intimidate checks. Intelligent creatures find the wearer hard to read; the wearer is treated as if affected by a constant undetectable alignment spell, making her true motives difficult to ascertain. CONSTRUCTION REQUIREMENTS Cost 6,250 gp; Feats Craft Wondrous Item; Spells undetectable alignment"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lenses_of_the_bully",
+          "value": {
+            "value": 12500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ointment_of_void_sealing__crb_",
+    "name": {
+      "value": "Ointment of Void Sealing"
+    },
+    "source": {
+      "value": "people_of_the_stars"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 9th; Weight 25 lbs.; Aura faint abjuration DESCRIPTION Ointment of void sealing comes in a 4-gallon tub, typically made out of brass or some other durable metal. When a Medium or smaller character dunks his head into the tub of sticky, viscous goo as a standard action, the ointment flows over and around him with surprising alacrity until it has coated him in a thin but flexible layer that looks like translucent amber. Ointment of void sealing creates a perfect seal around the user, protecting him from the extreme cold and vacuum of outer space, and provides breathable air for the user, as planetary adaptation. After 3 hours, a coating of ointment of void sealing deteriorates and its effects end. A newly created tub of ointment of void sealing contains enough ointment to cover four Medium creatures. Large creatures require 2 doses to gain the benefits of the ointment, while two Small creatures can share a single dose between them. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells planetary adaptation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ointment_of_void_sealing",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ointment_of_void_sealing",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

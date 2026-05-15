@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_of_the_resplendent_thespian__crb_",
+    "name": {
+      "value": "Resplendent robe of the thespian"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 16th; Slot body; Price 75,000 gp; Weight 1 lb. DESCRIPTION These magnificent vestments disguise the presence of armor as normal clothing (as the glamered armor property ). When worn by a bard, the robe grants the wearer the following powers: Spell resistance 18 +4 resistance bonus on all saving throws +2 enhancement bonus on caster level checks made to overcome spell resistance Bards and those who fancy themselves actors or performers commission versions of these robes using only the finest fabric. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, antimagic field, break enchantment, greater heroism, veil; Cost 37,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_of_the_resplendent_thespian",
+          "value": {
+            "value": 75000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_of_the_resplendent_thespian",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

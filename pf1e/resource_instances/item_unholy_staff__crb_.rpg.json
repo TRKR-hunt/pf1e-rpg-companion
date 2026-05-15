@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "unholy_staff__crb_",
+    "name": {
+      "value": "Unholy staff"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Slot none; Price 29,600 gp; Weight 5 lbs. DESCRIPTION This twisted iron staff bears ominous stains along its length, and ends in a black skull with red gemstone eyes. The staff allows use of the following spells: Align weapon (evil only, 1 charge) Detect good (1 charge) Magic circle against good (2 charges) Unholy blight (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells align weapon, detect good, magic circle against good, unholy blight; Cost 14,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_unholy_staff",
+          "value": {
+            "value": 29600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_unholy_staff",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

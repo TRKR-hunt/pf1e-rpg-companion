@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "axe_of_felling__crb_",
+    "name": {
+      "value": "Axe of Felling"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,330 gp; Slot none; CL 10th; Weight 8 lbs.; Aura moderate transmutation DESCRIPTION Born from dwarven forges, these +1 giant \u2013 bane dwarven waraxes are crafted in the likeness of a famous dwarven king. An axe of felling possesses the trip weapon feature and can be used to trip opponents up to two size categories larger than its wielder. CONSTRUCTION REQUIREMENTS Cost 5,830 gp; Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_axe_of_felling",
+          "value": {
+            "value": 11330
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_axe_of_felling",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

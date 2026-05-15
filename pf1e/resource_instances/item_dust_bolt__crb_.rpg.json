@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dust_bolt__crb_",
+    "name": {
+      "value": "Dust bolt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th Weight 1/10 lb.; Price 1,730 gp DESCRIPTION This barbed +1 outsider (water) bane bolt is etched with runes of thirst and desiccation. Any living creature struck by a dust bolt begins dying of thirst, as the spell cup of dust (DC 14 Fort negates). Creatures with the aquatic or water subtype save with a \u00e2\u0080\u00934 penalty, and on a failed save they are also sickened and staggered for 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells cup of dust, summon monster I; Cost 880 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dust_bolt",
+          "value": {
+            "value": 1730
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "silverfang__crb_",
+    "name": {
+      "value": "Silverfang"
+    },
+    "source": {
+      "value": "curse_of_the_ladys_light"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 8th; Slot none; Weight 2 lbs.; Price 9,320 gp DESCRIPTION Silverfang is a +1 undead bane mithral rapier originally forged by a cabal of vampire hunters in as a weapon against their hated foes. Ironically, the rapier was claimed by a powerful vampire as a trophy after he single-handedly slew the entire cabal during their foolish attempt to destroy him. Since then, the weapon has been bequeathed as a token of his favor to no fewer than a dozen vampiric thralls and five of his dhampir children. As long as Silverfang is carried, the user gains a +2 resistance bonus on all saving throws against negative energy and level drain, and whenever he makes a Fortitude save to recover from a negative level, he may roll the save twice, taking the better of the two results as the actual result. Once per day, Silverfang can target an undead creature it just successfully critically hit with a halt undead effect ( Will DC 14 negates) as a swift action. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells death ward, halt undead; Cost 8,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_silverfang",
+          "value": {
+            "value": 9320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_silverfang",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

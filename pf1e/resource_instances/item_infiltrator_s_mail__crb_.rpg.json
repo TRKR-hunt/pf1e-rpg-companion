@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "infiltrator_s_mail__crb_",
+    "name": {
+      "value": "Infiltrator's Mail"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 19,650 gp; Slot armor; CL 7th; Weight 30 lbs.; Aura moderate transmutation (see text) DESCRIPTION This dull black suit of +2 scale mail does not impose an armor check penalty on the wearer\u2019s Stealth checks, though other armor check penalties apply as normal. Additionally, infiltrator\u2019s mail reacts to detect magic as though it were non-magical and, when worn, extends this effect to all other magic items worn or held by the wearer unless the viewer uses identify or a similar effect while examining the items. CONSTRUCTION REQUIREMENTS Cost 13,650 gp; Feats Craft Magic Arms and Armor; Spells cat\u2019s grace, magic aura"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_infiltrator_s_mail",
+          "value": {
+            "value": 19650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_infiltrator_s_mail",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

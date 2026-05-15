@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_summoning_affinity_angel__crb_",
+    "name": {
+      "value": "Ring of Summoning Affinity (Angel)"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,200 gp; Slot ring; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration [good] DESCRIPTION This ring is cut from transparent crystal. If the wearer can cast summon monster spells, the wearer adds cassisian to the 3rd-level list of monsters she can summon with those spells, adds movanic deva to the 7th-level list, and adds monadic deva to the 8th-level list. Also, once per day on command the wearer can use this ring to summon a cassisian, as if by the summon monster III spell. CONSTRUCTION REQUIREMENTS Cost 3,600 gp; Feats Forge Ring; Spells planar ally or planar binding; Special creator must be good"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_summoning_affinity_angel",
+          "value": {
+            "value": 7200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

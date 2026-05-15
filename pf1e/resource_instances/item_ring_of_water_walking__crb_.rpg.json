@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_water_walking__crb_",
+    "name": {
+      "value": "Ring of water walking"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot ring; Price 15,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring is often made of coral or bluish metal decorated with motifs depicting rolling waves of water. The ring allows the wearer to continually utilize the effects of the spell water walk. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells water walk; Cost 7,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_water_walking",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

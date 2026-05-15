@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chain_broken_chain_of_the_beast__crb_",
+    "name": {
+      "value": "Chain, Broken Chain of the Beast"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,500 gp; Slot belt; CL 5th; Weight 5 lbs.; Aura faint conjuration DESCRIPTION Note This item is associated with a specific deity. This 8-foot length of corroded, broken chain is threaded with a leather strap to hold it together; it is worn like a belt and must be tied in place, as it lacks a buckle. Once per day, the wearer can call upon its power to summon an evil creature from the summon monster I list; the creature attacks the wearer\u2019s enemies if any are present, but it is not under the wearer\u2019s control and attacks the wearer or the wearer\u2019s allies if there are no more enemies to kill. If the associated deity is the wearer\u2019s patron, the wearer can gain the benefits of a rage spell once per day by speaking the god\u2019s name. If the wearer is ever bound, shackled, or otherwise rendered helpless while still conscious, this rage ability automatically activates if the wearer hasn\u2019t already used it that day. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item, rage, summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chain_broken_chain_of_the_beast",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chain_broken_chain_of_the_beast",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

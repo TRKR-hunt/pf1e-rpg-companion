@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vest_of_resonating_fortitude__crb_",
+    "name": {
+      "value": "Vest of Resonating Fortitude"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,000 gp; Slot chest; CL 7th; Weight 2 lbs.; Aura moderate abjuration DESCRIPTION This magical cloth vest is made from rich green cloth that is typically a blend of silk and cotton. It has a high collar that is stitched with gold thread forming elaborate, overlapping geometric patterns. This vest reduces the potency of poisons that affect the wearer. As a swift action when the wearer is exposed to a poison, she can tap the vest, expending 1 charge, to gain a +2 bonus on her next Fortitude saving throw against the poison. Additionally, if the wearer is affected with a poison that requires two saves to cure, she can tap the vest a second time, expending another charge, to use her next successful saving throw result as the result for the second save as well. The vest contains 5 charges that recharge daily. CONSTRUCTION REQUIREMENTS Cost 3,500 gp; Feats Craft Wondrous Item; Spells delay poison, neutralize poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vest_of_resonating_fortitude",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vest_of_resonating_fortitude",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

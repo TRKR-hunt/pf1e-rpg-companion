@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mantis_embrace__crb_",
+    "name": {
+      "value": "Mantis Embrace"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 50,000 gp; Slot hands; CL 13th; Weight 1 lb.; Aura strong evocation and necromancy DESCRIPTION These stylized red gloves are often employed for stealthy assassinations. If the wearer successfully pins an opponent with a grapple combat maneuver, she can perform a special coup de grace attack the next round with the gloves, treating them as if they were sawtooth sabres (1d8 points of slashing damage, critical threat range of 19-20) for the purpose of this attack. Should the wearer of these gloves slay her opponent with this attack, the target\u2019s head erupts in a geyser of blood, preventing life-restoring spells that require an intact body. A creature that survives this coup de grace attack is immune to subsequent attempts from any mantis embrace for 24 hours. CONSTRUCTION REQUIREMENTS Cost 25,000 gp; Feats Craft Wondrous Item; Spells explode head, suffocation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mantis_embrace",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mantis_embrace",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

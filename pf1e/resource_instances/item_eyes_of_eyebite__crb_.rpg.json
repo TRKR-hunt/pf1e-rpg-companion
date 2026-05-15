@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eyes_of_eyebite__crb_",
+    "name": {
+      "value": "Eyes of eyebite #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 11th; Slot eye; Price 30,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These glasses look like golden teeth holding a pair of green-tinted lenses. The wearer may use eyebite 11 times per day on command, affecting one target for each use of the spell. The wearer does not need to use these rounds consecutively, but each activation is a standard action (unlike the spell, in which targeting a new foe is a swift action ). If the wearer removes the glasses, the eyebite effects immediately end. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, eyebite; Cost 15,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eyes_of_eyebite",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

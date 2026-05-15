@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "purgatorys_cowl__crb_",
+    "name": {
+      "value": "Purgatory\u00e2\u0080\u0099s cowl"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,175 gp; Slot armor; CL 11th; Weight 30 lbs.; Aura moderate abjuration and necromancy DESCRIPTION This tattered suit of +1 deathless studded leather has a black leather hood attached to the neck. Although the face of the hood is open and doesn\u00e2\u0080\u0099t impair the wearer\u00e2\u0080\u0099s senses, the wearer\u00e2\u0080\u0099s face is always hidden in deep shadow regardless of the ambient light level. Once per day as an immediate action, when the wearer reduces an undead creature to 0 or fewer hit points, the wearer can draw upon the departed creature\u00e2\u0080\u0099s essence to gain treat her level as 2 higher spells and spell-like abilities with the death descriptor and spells and spell-like abilities from the Death and Repose domains. This effect lasts for 1 hour. CONSTRUCTION REQUIREMENTS Cost 12,175 gp; Feats Craft Magic Arms and Armor; Spells death ward, undeath to death"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_purgatorys_cowl",
+          "value": {
+            "value": 24175
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_purgatorys_cowl",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

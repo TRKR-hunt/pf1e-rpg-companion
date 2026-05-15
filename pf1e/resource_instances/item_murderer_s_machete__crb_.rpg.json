@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "murderer_s_machete__crb_",
+    "name": {
+      "value": "Murderer\u00e2\u0080\u0099s Machete"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,870 gp; Slot none; CL 11th; Weight 3 lbs.; Aura moderate conjuration [evil] DESCRIPTION This wide machete is darkly stained with blood. It is treated as a +1 keen short sword that also has a vicious cutting edge, allowing it to deal slashing damage in addition to piercing damage. The murderer\u00e2\u0080\u0099s machete grants its wielder the ability to move with unnatural grace and speed while stalking potential victims. The wielder gains a +2 competence bonus on Stealth checks and Survival checks to track. In addition, once per day, the wielder can lick the bloodstains on the blade as a standard action to gain the benefits of cruel jaunt. CONSTRUCTION REQUIREMENTS Cost 16,590 gp; Feats Craft Magic Arms and Armor; Spells cruel jaunt, keen edge; Special creator must sacrifice a sentient living creature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_murderer_s_machete",
+          "value": {
+            "value": 32870
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_murderer_s_machete",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

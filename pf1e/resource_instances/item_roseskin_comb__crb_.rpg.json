@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "roseskin_comb__crb_",
+    "name": {
+      "value": "Roseskin Comb"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 37,000 gp; Slot head; CL 7th Weight 1/2 lb.; Aura moderate transmutation APPEARANCE A green copper comb holds this pink-hued alabaster headpiece in its wearer\u2019s hair, subtly infusing her skin with strength. EFFECTS In addition to providing an air of loveliness to its wearer, a roseskin comb grants a +2 enhancement bonus to its wearer\u2019s natural armor. In addition, three times per day as a standard action, the wearer of a roseskin comb can command barbs to protrude from her skin, as per thorn body, for 7 rounds. CONSTRUCTION REQUIREMENTS Cost 18,500 gp; Feats Craft Wondrous Item; Spells barkskin, thorn body"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_roseskin_comb",
+          "value": {
+            "value": 37000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

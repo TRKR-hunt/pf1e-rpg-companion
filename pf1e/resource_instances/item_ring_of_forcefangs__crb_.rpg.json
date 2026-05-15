@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_forcefangs__crb_",
+    "name": {
+      "value": "Ring of forcefangs"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 9th; Slot ring; Price 8,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This band negates any force spell or force spell-like ability targeted at the wearer. Doing so gives the ring a number of charges equal to the spell level of the incoming force effect. The ring can hold a maximum of 9 charges. If an incoming force attack would charge the ring beyond this limit, the ring does not negate the attack or gain charges, and the attack affects the wearer normally. On command, the wearer can use the ring\u00e2\u0080\u0099s charges to cast magic missile, unleashing one missile (1d4+1 force damage) per charge but no more than five missiles per round. CONSTRUCTION REQUIREMENTS Feats Forge Ring, Heighten Spell, magic missile; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_forcefangs",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

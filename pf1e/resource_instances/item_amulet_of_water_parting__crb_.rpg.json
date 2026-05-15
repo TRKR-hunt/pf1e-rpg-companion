@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_water_parting__crb_",
+    "name": {
+      "value": "Amulet of Water Parting"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot neck; CL 11th Weight \u00e2\u0080\u0094; Aura moderate transmutation APPEARANCE This amulet is carved from blackwood and incorporates motifs of waves or moving water. EFFECTS When worn, this amulet of natural armor +2 confers additional protection from damaging water effects, providing a +2 resistance bonus on saving throws against spells or effects with the water descriptor as well as a +2 deflection bonus to AC against any such spells or effects that require an attack roll. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells barkskin, control water"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_water_parting",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "runestone_of_power__crb_",
+    "name": {
+      "value": "Runestone of Power #2"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 17th; Slot none; Price 2,000 gp (1st), 8,000 gp (2nd), 18,000 gp (3rd), 32,000 gp (4th), 50,000 gp (5th), 72,000 gp (6th), 98,000 gp (7th), 128,000 gp (8th), 162,000 gp (9th); Weight \u2013 DESCRIPTION A runestone of power is a small chip of polished stone etched with a rune. Traditionally, this rune is one of many runes for magic, but more recently created runestones of power often substitute runes from other cultures\u00e2\u0080\u0094the nature of the rune itself has no effect on the runestone\u00e2\u0080\u0099s actual powers. These objects are potent aids to all spellcasters who cast spells spontaneously (bards, inquisitors, oracles, sorcerers, and summoners, but not to spellcasters like clerics who have the option to spontaneously cast certain spells). Once per day, a spontaneous caster can draw upon a runestone of power to cast a spell\u00e2\u0080\u0094doing so is part of the spellcasting action, and expends that runestone\u00e2\u0080\u0099s power for the day rather than one of the spellcaster\u00e2\u0080\u0099s actual spell slots for the day. An expended runestone of power recharges its capacity after 24 hours. The spell must be of a particular level, depending on the runestone. CONSTRUCTION REQUIREMENTS Craft Wondrous Item; Special creator must be able to spontaneously cast spells of the appropriate spell level; Cost 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_runestone_of_power",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

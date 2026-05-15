@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ghoul_s_lament__crb_",
+    "name": {
+      "value": "Ghoul\u2019s Lament"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 11th; Weight 5 lbs.; Price 35,312 gp DESCRIPTION This massive +1 ghost touch disrupting warhammer is crafted from a single piece of metal. It surface has no blemishes or distinguishing marks, and its haft is wrapped in dry, leathery, ancient skin. Three times per day as a free action, when used to strike an undead creature, that creature must succeed at a DC 20 Fortitude save or be knocked prone. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells heal, plane shift; Cost 17,812 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ghoul_s_lament",
+          "value": {
+            "value": 35312
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ghoul_s_lament",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

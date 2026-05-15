@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charm_of_aluum_control__crb_",
+    "name": {
+      "value": "Charm of Aluum Control"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 20th; Slot neck; Price 20,000 gp; Weight \u2014 DESCRIPTION This pendant holds a glowing crystal exactly like that of an aluum. If you are attuned to the charm, when you wear it you may give orders to any generic aluum within 100 feet; the construct obeys you as if you were using dominate person on a humanoid creature. If multiple aluum are within range, they all obey unless you specify which construct you are commanding. The aluum cannot resist your commands, though they will not harm other aluum, the pactmasters, or an attuned person wearing a charm. Unlike dominate person, you cannot use an aluum\u2019s senses. If multiple people give orders to the same aluum, you make opposed Will saves to control the golem. Only the pactmasters can re-attune a charm. CONSTRUCTION REQUIREMENTS Craft Construct, Craft Wondrous Item, soul bind; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charm_of_aluum_control",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

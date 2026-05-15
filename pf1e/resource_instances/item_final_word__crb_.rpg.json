@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "final_word__crb_",
+    "name": {
+      "value": "Final Word"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,308 gp; Slot none; CL 5th; Weight 1 lb.; Aura faint necromancy DESCRIPTION This +1 war razor is commonly used by members of thieves\u2019 guilds. When delivering a coup de grace with a final word, the wielder gains a +4 bonus to the DC of the Fortitude saving throw to determine whether the target of the coup de grace dies from the attack. This bonus is not added to the weapon damage of the coup de grace attack. Any target slain by a coup de grace made with a final word has its spirit wrenched out of its body. The spirit is then forced to answer four questions of the wielder\u2019s choosing as though under the effects of a speak with dead spell. The target can\u2019t attempt a Will save to ignore this effect, and takes a \u00e2\u0080\u00934 penalty on all Bluff checks to deceive the wielder. After a target answers the wielder\u2019s questions, it can\u2019t be the target of any further speak with dead spells. CONSTRUCTION REQUIREMENTS Cost 4,808 gp; Feats Craft Magic Arms and Armor; Spells speak with dead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_final_word",
+          "value": {
+            "value": 9308
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_final_word",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

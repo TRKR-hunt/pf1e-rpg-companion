@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crusader_s_scabbard__crb_",
+    "name": {
+      "value": "Crusader's Scabbard"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Crusader\u2019s Scabbard Price 8,500 gp Slot belt CL 7th Weight 3 lbs. Aura Moderate Transmutation Alignment Lawful Good Senses 60 ft. Intelligence 10 Wisdom 12 Charisma 14 Ego 6 Communication Speech (Common) Three times per day, this scabbard can cast bless weapon on any weapon sheathed within, but does so reluctantly on any weapon other than a longsword. While the user is in combat, the scabbard hurls threats of righteous retribution in a loud, clear voice as it attempts to demoralize opponents ( Intimidate bonus of +7). The consciousness within the crusader\u2019s scabbard is valorous and stridently condemns displays of cowardice or dishonesty. CONSTRUCTION REQUIREMENTS Cost 4,250 gp Feats Craft Wondrous Item Spells bless weapon, greater magic weapon"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crusader_s_scabbard",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crusader_s_scabbard",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

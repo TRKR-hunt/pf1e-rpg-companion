@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "reaver_s_scythe__crb_",
+    "name": {
+      "value": "Reaver\u00e2\u0080\u0099s Scythe"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 12th; Slot none; Price 80,318 gp; Weight 10 lbs. DESCRIPTION Note: This magic item grants characters additional hero points or allows the possibility of recovering points as they are spent. See Hero Points for full details. The black blade of this +2 keen unholy scythe reflects faint images of the souls of those it has claimed. Whenever the scythe is used to drop a creature to \u00e2\u0080\u00931 hit points or less, the creature must immediately make a DC 14 Will save or be instantly slain. If the reaver\u00e2\u0080\u0099s scythe kills a creature, either through damage or because the creature failed its Will save, the wielder immediately receives 1 hero point. This hero point must be used within 1 hour or it is lost. The wielder cannot gain another hero point from the scythe until the first is used or lost. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells keen edge, malediction, unholy blight; Cost 40,318 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_reaver_s_scythe",
+          "value": {
+            "value": 80318
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_reaver_s_scythe",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pauldrons_iron_guard__crb_",
+    "name": {
+      "value": "Pauldrons, Iron Guard"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,750 gp; Slot shoulders; CL 3rd; Weight 6 lbs.; Aura faint abjuration DESCRIPTION These simple, leather-strapped iron pauldrons are engraved with intricate images of icy winds and howling winter wolves. Iron guard pauldrons grant their wearer a +4 resistance bonus on saving throws against fire effects. If the wearer succeeds at a saving throw against an enemy\u2019s fire effect, the pauldrons shimmer with blue light for 5 rounds. The wearer also gains a +2 competence bonus on Intimidate checks. This bonus increases to +5 while the pauldrons cast blue light. The wearer of iron guard pauldrons gains the benefits of endure elements, but only for cold temperatures. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells endure elements, resistance; Cost 2,875 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pauldrons_iron_guard",
+          "value": {
+            "value": 5750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pauldrons_iron_guard",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_quick_change__crb_",
+    "name": {
+      "value": "Quickchange cloak"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot shoulders; Price 1,500 gp; Weight 1 lb. DESCRIPTION One side of this reversible gray hooded cape is exquisitely embroidered and richly decorated, while the other appears shabby and worn. On command, by passing the edge of the cloak over her face, the wearer may remove a mundane disguise (one applied with the Disguise skill) and store it in the cloak. This does not change the cloak\u00e2\u0080\u0099s appearance in any way. Once a disguise is stored in the cloak, it can be reapplied to the wearer who placed it within the cloak on command, using the original result of the Disguise check. The cloak can store up to three disguises at once, and any wearer of the cloak can discard any number of disguises within the cloak as a free action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, prestidigitation; Special creator must have at least 5 ranks in Disguise; Cost 750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_quick_change",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_quick_change",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

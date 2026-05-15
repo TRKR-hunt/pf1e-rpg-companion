@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tree_token__crb_",
+    "name": {
+      "value": "Tree Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 400 gp DESCRIPTION A token that causes a great oak to spring into being (5-foot-diameter trunk, 60-foot height, 40-foot top diameter). This is an instantaneous effect. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, major creation; Cost 200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tree_token",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

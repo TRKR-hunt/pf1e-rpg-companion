@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "snakebite_dagger__crb_",
+    "name": {
+      "value": "Snakebite Dagger"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,760 gp; Slot none; CL 10th; Weight 1 lb.; Aura moderate enchantment DESCRIPTION The blade of this +1 living steel dagger is always slightly damp to the touch. The save DC of any injury poison coating this blade increases by 2. Once per day, the wielder of a snakebite dagger can speak the weapon\u2019s command word to cause the dagger to seep a bright green neurotoxin. For 1 hour, the next time the wielder damages a creature with the dagger, the creature must succeed at a DC 16 Will save or be affected by modify memory as if the wielder had spent 5 minutes modifying the target\u2019s memory. CONSTRUCTION REQUIREMENTS Cost 4,880 gp; Feats Craft Magical Arms and Armor; Spells modify memory"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_snakebite_dagger",
+          "value": {
+            "value": 9760
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_snakebite_dagger",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

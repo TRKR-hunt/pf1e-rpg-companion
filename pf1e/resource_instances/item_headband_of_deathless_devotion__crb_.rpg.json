@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_deathless_devotion__crb_",
+    "name": {
+      "value": "Headband of deathless devotion #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 1st; Slot headband; Price 6,400 gp; Weight 1 lb. DESCRIPTION This white headband, often painted or embroidered with calligraphy or a stylized pictogram such as a sunburst, helps focus the wearer\u00e2\u0080\u0099s resolve and absolute determination to survive and succeed. The wearer gains a +2 morale bonus on stabilization checks and on saving throws against ongoing effects with recurring saves, such as diseases, poisons, or compulsions such as dominate person or hold person. If the wearer is a samurai, he treats his resolve ability as if he were two class levels higher. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, heroism, stabilize; Cost 3,200 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_deathless_devotion",
+          "value": {
+            "value": 6400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_deathless_devotion",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shifter_s_sorrow__crb_",
+    "name": {
+      "value": "Shifter\u2019s sorrow"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 15th; Weight 10 lbs.; Price 12,780 gp DESCRIPTION This +1/+1 two-bladed sword has blades of alchemical silver. The weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape ) is struck by the weapon, it must make a successful DC 15 Will save or return to its natural form. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells baleful polymorph; Cost 6,780 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shifter_s_sorrow",
+          "value": {
+            "value": 12780
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shifter_s_sorrow",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

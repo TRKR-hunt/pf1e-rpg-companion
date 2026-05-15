@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "godstar__crb_",
+    "name": {
+      "value": "Godstar"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot none; CL 3rd; Weight 5 lbs.; Aura faint transmutation DESCRIPTION This small star is made of a brittle metal alloy and attaches easily to armor or a gauntlet. EFFECTS Each of the star\u00e2\u0080\u0099s points is keyed to a specific god and can serve as a holy symbol for that god. As a standard action, the wearer can break off one of the star\u00e2\u0080\u0099s points to activate an effect unique to that point. Once a point has been broken off, it can\u00e2\u0080\u0099t be activated again and can no longer be used as a holy symbol for the deity to which it is keyed. When broken off, each of the godstar\u00e2\u0080\u0099s points provide effects as follows. The point emanates truth-telling magic in a 5-foot radius, as per zone of truth, for 10 minutes. Any creature that succeeds at a DC 13 Will save ignores this effect. The wearer gains fire resistance 5 and her weapon attacks gain the flaming weapon special ability for 1 minute. If the wearer is under the effects of a fear effect, she can attempt a new saving throw against it with a +4 sacred bonus. The wearer can use this ability even if a fear effect would normally prevent her from doing so. The wearer can attempt a Knowledge check to identify a creature, even if she is untrained in the relevant Knowledge skill. She gains a +8 bonus on this check. The point transforms into a +1 warhammer when wielded by the owner of the godstar until it leaves her possession or after 1 minute. The wielder is considered proficient with this weapon for the duration of this effect, after which the weapon becomes a non-magical masterwork warhammer. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item, burst of insight, magic weapon, remove fear, resist energy, zone of truth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_godstar",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_godstar",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

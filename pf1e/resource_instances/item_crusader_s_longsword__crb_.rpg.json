@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crusader_s_longsword__crb_",
+    "name": {
+      "value": "Crusader's Longsword"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 47,315 gp; Slot none; CL 10th; Weight 4 lbs.; Aura moderate evocation DESCRIPTION This is a +1 cold iron holy demon \u2013 bane longsword. Whenever the wielder uses the divine bond ability or sacred weapon ability to enhance it, a crusader\u2019s longsword increases the points of enhancement bonus she has to spend on its abilities by 1. CONSTRUCTION REQUIREMENTS Cost 23,815 gp; Feats Craft Magic Arms and Armor; Spells holy smite, summon monster I; Special creator must worship a good deity; Special creator must be a paladin or a warpriest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crusader_s_longsword",
+          "value": {
+            "value": 47315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crusader_s_longsword",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

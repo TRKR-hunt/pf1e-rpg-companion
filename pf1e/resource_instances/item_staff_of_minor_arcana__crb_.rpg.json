@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_minor_arcana__crb_",
+    "name": {
+      "value": "Staff of minor arcana"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration and evocation; CL 8th; Slot none; Price 8,000 gp; Weight 5 lbs. DESCRIPTION This gleaming staff is made of polished silver and capped with a simple gemstone. It is frequently given as a gift to apprentice spellcasters upon completing their tutelage. The staff allows use of the following spells: Shield (1 charge) Magic missile (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff, magic missile, shield; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_minor_arcana",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_minor_arcana",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

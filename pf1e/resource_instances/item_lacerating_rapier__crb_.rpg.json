@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lacerating_rapier__crb_",
+    "name": {
+      "value": "Lacerating Rapier"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,302 gp; Slot none; CL 5th; Weight 4 lbs.; Aura faint transmutation DESCRIPTION The blade of this +1 rapier is imbued with the ability to change form slightly when used to sneak attack foes, allowing the wielder to hit multiple targets. Three times per day when the wielder makes a sneak attack against a foe that is adjacent to another creature, she may choose to attack both opponents with a single strike as the blade unwinds, lengthens, and bends to meet their flesh. The wielder uses the same attack roll result to hit both creatures. If successful, the attack deals weapon damage to any creature it hits, though only the first creature takes sneak attack damage. CONSTRUCTION REQUIREMENTS Cost 5,302 gp; Feats Craft Wondrous Item; Spells greater magic weapon, mirror strike"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lacerating_rapier",
+          "value": {
+            "value": 10302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lacerating_rapier",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

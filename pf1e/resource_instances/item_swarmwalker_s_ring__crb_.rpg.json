@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "swarmwalker_s_ring__crb_",
+    "name": {
+      "value": "Swarmwalker's Ring"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,000 gp; Slot ring; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate conjuration DESCRIPTION This shining, ash-white ring of bone is crafted to look like countless interlocking rat fangs, set with a dozen dark, garnet eyes like those of albino sewer-hunters. The wearer of this ring can utter a command word to call forth 1d3 rat swarms within 40 feet. These swarms each act immediately and vanish after 7 rounds. They are independent and not under the wearer\u2019s control, though the wearer is immune to the effects and attacks of any swarm created through use of this ring. Alternatively, upon command, the ring\u2019s wearer can use dimension door. This magical transportation must begin and end in a square that includes a swarm summoned by use of this ring. This ring\u2019s abilities can be used a total of three times per day, in any combination. An urban druid wearing this ring can gain one additional use per day by expending three daily uses of her wild shape ability. CONSTRUCTION REQUIREMENTS Cost 13,000 gp; Feats Forge Ring; Spells dimension door, summon swarm"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_swarmwalker_s_ring",
+          "value": {
+            "value": 26000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

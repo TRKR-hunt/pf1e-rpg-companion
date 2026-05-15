@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "longsword_cold_iron_masterwork__crb_",
+    "name": {
+      "value": "Cold iron masterwork longsword"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura no aura (nonmagical); CL \u00e2\u0080\u0094 Slot none; Price 330 gp; Weight 4 lbs. DESCRIPTION This non-magical longsword is crafted out of cold iron. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_longsword_cold_iron_masterwork",
+          "value": {
+            "value": 330
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_longsword_cold_iron_masterwork",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

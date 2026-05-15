@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_subtle_menace__crb_",
+    "name": {
+      "value": "Rod of Subtle Menace"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,305 gp; Slot none; CL 5th; Weight 5 lbs.; Aura faint enchantment and transmutation DESCRIPTION This crude shaft of blackened steel functions as a +1 light mace. Those who can see the wielder of the rod feel a vague sense of being in danger. This ominous aura is faint but encourages others to avoid angering the wielder, although they may not realize why. When holding the rod in her hand, the wielder can attempt an Intimidate check in place of a Diplomacy check when trying to gather information and always counts as larger than its target for the purpose of Intimidate checks. CONSTRUCTION REQUIREMENTS Cost 6,152 gp; Feats Craft Magic Arms and Armor, Craft Rod; Spells bane"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_subtle_menace",
+          "value": {
+            "value": 12305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_subtle_menace",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

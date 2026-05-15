@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cap_of_light__crb_",
+    "name": {
+      "value": "Cap of light #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 1st; Slot head; Price 900 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This small cloth skullcap resembles those some priests wear, but is topped with a small silver statue in the shape of a lit candle. The wearer can command the statue to radiate light (as light ). The light can also be turned off on command. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, light; Cost 450 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cap_of_light",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blight_kickers__crb_",
+    "name": {
+      "value": "Blight Kickers"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,500 gp; Slot feet; CL 7th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION These leather combat boots have brown or black laces and several rows of pouches near their tops. EFFECTS These magical boots can hide up to 5 doses of poison in the attached pouches. These boots grant a cumulative +1 competence bonus on Sleight of Hand and Stealth checks for each dose of poison hidden in the boots, to a maximum of +5. Once per day, when drawing a poison from the blight kickers, the wearer can speak the command word to augment a single dose of poison in order to hasten the onset of the poison, causing its effects to begin immediately. CONSTRUCTION REQUIREMENTS Cost 6,750 gp; Feats Craft Wondrous Item; Spells accelerate poison, cat\u00e2\u0080\u0099s grace"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blight_kickers",
+          "value": {
+            "value": 13500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_blight_kickers",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

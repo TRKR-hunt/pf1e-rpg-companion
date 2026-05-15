@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_defense__crb_",
+    "name": {
+      "value": "Staff of defense"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 15th; Slot none; Price 62,000 gp; Weight 5 lbs. DESCRIPTION The staff of defense is a simple-looking polished wooden staff that throbs with power when held defensively. It allows use of the following spells: Shield (1 charge) Shield of Faith (1 charge) Shield other (1 charge) Shield of law (3 charges) CONSTRUCTION REQUIREMENTS Requirements Craft Staff; Spells shield, shield of faith, shield of law, shield other; Special creator must be lawful; Cost 31,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_defense",
+          "value": {
+            "value": 62000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_defense",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

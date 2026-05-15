@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "werewhistle__crb_",
+    "name": {
+      "value": "Werewhistle #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Weight \u00e2\u0080\u0094; Slot none; Price 8,000 gp DESCRIPTION This whistle is shaped like a wolf\u2019s head and is crafted out of silver. Once per day the bearer may blow the whistle to cause one lycanthrope within 30 feet to make a DC 17 Will save or be forced back into its humanoid form for the next 24 hours. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, baleful polymorph; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_werewhistle",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

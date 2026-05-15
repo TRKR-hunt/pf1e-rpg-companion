@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "insistent_doorknocker__crb_",
+    "name": {
+      "value": "Insistent doorknocker #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Weight 2 lbs.; Slot none; Price 5,000 gp DESCRIPTION This iron gargoyle face holds an iron ring in its mouth. Once per day, when the flat back of the gargoyle face is placed against a wall, floor, or ceiling, it fuses into place, creating a usable door and penetrating the space beyond up to 1 foot as if using passwall. Speaking the command word again ends the passwall effect, returns the surface to its previous doorless shape, and releases the doorknocker from the surface. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, passwall; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_insistent_doorknocker",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_insistent_doorknocker",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

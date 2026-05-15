@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_of_electric_radiance__crb_",
+    "name": {
+      "value": "Helm of electric radiance #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 13th; Slot head; Price 125,000 gp; Weight 3 lbs. DESCRIPTION The helm of electric radiance is similar to a helm of brilliance, except its spells focus on electricity rather than fire. Other aspects of the helm, such as detecting and damaging undead, remain unchanged. The helm has 10 sapphires that can be used for chain lightning, 20 pieces of amber that can be used for lightning bolt, 30 pieces of petrified wood that can be used for shocking sphere (as flaming sphere but dealing electricity damage), and 40 opals that can be used for daylight. In addition, the wearer gains resistance to electricity 30 and his weapons become shocking weapons instead of flaming weapons. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, chain lightning, daylight, detect undead, flaming sphere, lightning bolt, protection from energy, shocking grasp; Cost 62,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_of_electric_radiance",
+          "value": {
+            "value": 125000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_of_electric_radiance",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

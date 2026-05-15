@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_physical_might__crb_",
+    "name": {
+      "value": "Belt of physical might #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 12th; Slot belt; Price 10,000 gp (+2), 40,000 gp (+4), 90,000 gp (+6); Weight 1 lb. DESCRIPTION This belt grants the wearer an enhancement bonus to two physical ability scores ( Strength, Dexterity, or Constitution ) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. These bonuses are chosen when the belt is created and cannot be changed. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, bear\u00e2\u0080\u0099s endurance, bull\u00e2\u0080\u0099s strength, and/or cat\u00e2\u0080\u0099s grace; Cost 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_physical_might",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_physical_might",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

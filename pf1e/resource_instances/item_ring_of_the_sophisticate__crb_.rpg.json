@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_the_sophisticate__crb_",
+    "name": {
+      "value": "Ring of the sophisticate"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation and divination; CL 8th; Slot ring; Price 11,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Often worn on the little finger, this ring grants its wearer a +4 competence bonus on Sense Motive and Knowledge (local) checks. Also, once per day on command, the wearer can use the ring to cast either locate creature or locate object (the wearer\u00e2\u0080\u0099s choice). Furthermore, on command and at will, the wearer can instantly know the direction from herself to the nearest tavern, pub, or similar watering hole as long as that establishment is in a settlement whose population is equivalent to that of a village or greater and that is within 20 miles of the wearer. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells know direction, locate creature, locate object; Special creator must have at least 4 ranks in both Sense Motive and Knowledge (local); Cost 5,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_the_sophisticate",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

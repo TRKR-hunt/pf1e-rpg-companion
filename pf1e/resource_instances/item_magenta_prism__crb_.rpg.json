@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "magenta_prism__crb_",
+    "name": {
+      "value": "Magenta Prism (Ioun Stone)"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong transmutation DESCRIPTION This stone grants you a +2 enhancement bonus to any one ability score of your choosing. The selected ability score can be changed only once per day at a time unique to each stone (typically sunrise or sunset). A stone attuned to a specific ability score maintains that attunement until changed at the specified time of day, regardless of how long it has remained unused or how many times it changes hands. Cracked: This stone grants you a +2 competence bonus on checks with any one skill you choose, and you can change the skill modified once per day, as a normal magenta prism ioun stone. Price: 800 gp. Flawed: This stone functions as a normal magenta prism ioun stone that has 4 charges. Changing the ability score modified uses 1 charge, and the stone loses the ability to change when reduced to 0 charges, though it still grants a bonus to the ability score to which it was last changed. Price: 12,000 gp. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item; Spells bear\u2019s endurance, bull\u2019s strength, cat\u2019s grace, eagle\u2019s splendor, fox\u2019s cunning, owl\u2019s wisdom; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_magenta_prism",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

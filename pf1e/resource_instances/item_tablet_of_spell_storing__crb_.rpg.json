@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tablet_of_spell_storing__crb_",
+    "name": {
+      "value": "Tablet of Spell Storing"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 11th; Slot none; Price 25,000 gp; Weight 3 lbs. DESCRIPTION This ornate stone tablet measures 10 inches on each side and is approximately 1 inch thick. It can store up to 3 levels of spells, per a minor ring of spell storing, except each spell retains the caster level at which it is cast into the tablet. When a spell is stored in the tablet, writing appears on the stone as if carved onto the surface. While holding the tablet, a user can decipher and activate spells from it exactly as though it were a scroll \u00e2\u0080\u0094the user must meet the requirements for activating a spell from a scroll, and a scroll mishap might occur if her caster level is lower than that of the spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells imbue with spell ability; Cost 12,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tablet_of_spell_storing",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tablet_of_spell_storing",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

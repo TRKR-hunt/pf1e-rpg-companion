@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dignitys_barb__crb_",
+    "name": {
+      "value": "Dignity\u00e2\u0080\u0099s Barb"
+    },
+    "source": {
+      "value": "crownfall"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot none; CL 12th; Weight 2 lbs.; Aura strong divination DESCRIPTION Brass inlay and military symbols adorn this masterwork darkwood light crossbow. An inscription bears the name of a famous general. EFFECTS Dignity\u00e2\u0080\u0099s Barb is a relic: a special magic item empowered by the zeitgeist and legend behind it. These once-grand items were powerful at the height of their legend, but time and ignorance have sapped the collective knowledge that charged them. Dignity\u00e2\u0080\u0099s Barb counts as a masterwork crossbow that reduces the miss chance from concealment by 5%, but once the PCs complete this adventure, their growing legends can grant it the powers listed under its First Triumph entry. First Triumph: Dignity\u00e2\u0080\u0099s Barb is a +1 darkwood light crossbow and reduces miss chances from concealment by 10%. In addition, once per day when the weapon threatens a critical hit, the wielder can roll twice to confirm the critical hit and take the better result."
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dignitys_barb",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

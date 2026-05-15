@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "displacing_stone__crb_",
+    "name": {
+      "value": "Displacing Stone"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 430 gp; Slot none; CL 11th; Weight -; Aura moderate transmutation DESCRIPTION Upon activation, this pulsing white pebble creates an instantaneous burst of reverse gravity, which clears a 5-foot-diameter sphere of any loose stone or earth. The displacing stone then holds the affected stone or earth in place, keeping a collapsed tunnel clear for 1 minute. Once the duration ends, the loose earth collapses if it\u00e2\u0080\u0099s not supported. Displacing stones are destroyed when used, and don\u00e2\u0080\u0099t affect living creatures. Activating a displacing stone is a standard action that doesn\u00e2\u0080\u0099t provoke attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 215 gp; Feats Craft Wondrous Item; Spells move earth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_displacing_stone",
+          "value": {
+            "value": 430
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

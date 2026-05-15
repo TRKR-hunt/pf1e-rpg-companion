@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_stone_deep_brown_sphere__crb_",
+    "name": {
+      "value": "Deep Brown Sphere (Ioun Stone)"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION This deep brown ioun stone is streaked with amber and looks much like a tiger\u2019s eye gem save for its perfectly spherical shape. While using this stone, you know at all times exactly how many feet you are under or above sea level. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells discern location; Creator Level 12th; Gold 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_stone_deep_brown_sphere",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

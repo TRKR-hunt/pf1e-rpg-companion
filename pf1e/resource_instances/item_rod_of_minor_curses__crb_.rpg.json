@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_minor_curses__crb_",
+    "name": {
+      "value": "Rod of Minor Curses"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,000 gp; Aura faint necromancy; CL 5th; Weight 4 lbs. DESCRIPTION This rod functions as a +1 light mace and resembles the distorted femur of some monstrous creature. Up to three times per day when the wielder damages a creature with the rod, as a free action, the wielder can force the target to attempt a DC 14 Will save. On a failure, the creature suffers a minor curse. The wielder selects which of the following curses affects the target: \u00e2\u0080\u00932 penalty to Strength (target\u2019s Strength cannot be reduced below 1); \u00e2\u0080\u00931 penalty on attack rolls, saves, ability checks, and skill checks; or target has a 20% chance to begin each round with the staggered condition. On a successful critical hit, the wielder can inflict two distinct curses if the target fails its save. Otherwise, a target can be subject to only one curse at a time. Curses inflicted from the rod of minor curses last for 5 minutes. They can also be removed with any spell that can remove the effects of bestow curse. CONSTRUCTION REQUIREMENTS Cost 10,000 gp; Feats Craft Magic Arms and Armor, Craft Rod; Spells bestow curse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_minor_curses",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_minor_curses",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "efreeti_horns__crb_",
+    "name": {
+      "value": "Efreeti Horns"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,000 gp; Slot headband; CL 8th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION The wearer of efreeti horns gains a +4 enhancement bonus to Wisdom. In addition, the wearer can spend 1 ki point as a full-round action to gain the effects of enlarge person (self only) or reduce person (self only) for 1 minute. These effects apply to the wearer regardless of her actual creature type. CONSTRUCTION REQUIREMENTS Cost 12,000 gp; Feats Craft Wondrous Item; Spells enlarge person, owl\u2019s wisdom, reduce person"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_efreeti_horns",
+          "value": {
+            "value": 24000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_efreeti_horns",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_shark_tooth__crb_",
+    "name": {
+      "value": "Amulet, Shark Tooth"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot neck; Price 9,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This amulet is crafted of a single massive petrified shark tooth suspended on kelp twine and grants its wearer combat potency while underwater. While wearing this amulet, its wearer can use melee weapons normally, taking no penalty to attack and dealing full damage with such attacks. This amulet also allows the wearer to make thrown range weapon attacks underwater, though such attacks take a \u00e2\u0080\u00932 penalty on attack rolls and their range increment is halved. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, touch of the sea, the crafter must be an undine or have the water subtype; Cost 4,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_shark_tooth",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

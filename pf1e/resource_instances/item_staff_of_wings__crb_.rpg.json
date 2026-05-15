@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_wings__crb_",
+    "name": {
+      "value": "Staff of Wings"
+    },
+    "source": {
+      "value": "chronicle_of_the_righteous"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong illusion and transmutation; CL 13th; Slot none; Price 59,400 gp; Weight 5 lbs. DESCRIPTION Angels crafted the first staff of wings to assist their mortal allies during a fiendish invasion onto the Material Plane. Copies have since been made by secular crafters. A staff of wings is made of light birch and topped with a carved pair of angelic wings made out of precious stone. This staff produces flight effects, and the wielder gains translucent, illusory wings upon casting them. Depending on the alignment and chosen patron of the creator, these wings may appear draconic, feathery, or prismatic, or may have other celestial features. The staff allows the use of the following spells: Fly (1 charge) Overland flight (2 charges) Mass fly (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells fly, mass fly, overland flight, silent image; Gold 29,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_wings",
+          "value": {
+            "value": 59400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_wings",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

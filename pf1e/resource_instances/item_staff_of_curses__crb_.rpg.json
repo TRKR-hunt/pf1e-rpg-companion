@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_curses__crb_",
+    "name": {
+      "value": "Staff of curses"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot none; Price 43,500 gp; Weight 5 lbs. DESCRIPTION This gnarled wooden staff is bedecked with broken charms and burnt fetishes that were once used to ward against bad luck, but now are in shambles. The staff allows use of the following spells: Blindness/deafness (1 charge) Ill omen (1 charge) Baleful polymorph (2 charges) Bestow curse (2 charges) In addition, the staff of curses is a +1/+1 quarterstaff, and whenever the wielder strikes a creature with the staff, he can expend one charge to cause the creature to become cursed for a number of rounds equal to the number of charges remaining in the staff. While this curse persists, the creature takes a \u00e2\u0080\u00942 penalty on saving throws from spells cast from the staff and a \u00e2\u0080\u00942 penalty to AC against any attacks made by the staff. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Staff; Spells baleful polymorph, bestow curse, blindness/deafness, ill omen; Cost 22,050 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_curses",
+          "value": {
+            "value": 43500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_curses",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mantle_of_spell_resistance__crb_",
+    "name": {
+      "value": "Mantle of spell resistance #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 9th; Slot chest; Price 90,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This light mantle bears a variety of mysterious symbols. When worn over normal clothing or armor, this magical garment grants the wearer spell resistance 21. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, spell resistance; Cost 45,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mantle_of_spell_resistance",
+          "value": {
+            "value": 90000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "banshees_howl__crb_",
+    "name": {
+      "value": "Banshee's Howl"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 38,480 gp; Slot none; CL 17th; Weight 2 lbs.; Aura strong necromancy DESCRIPTION This jet-black +3 rapier weeps quietly when wielded in combat. A creature critically hit by banshee\u2019s howl must succeed at a DC 16 Will save or be affected by crushing despair for 1 minute. Each time an affected creature fails this save, the effect\u2019s duration increases by 1 minute. As a free action upon confirming a critical hit with a banshee\u2019s howl, the wielder can twist the blade in the wound. Doing so causes the weapon\u2019s blade to release a ghostly female elven form that rises up to unleash a devastating cry, functioning as a wail of the banshee ( Fort DC 23 negates). The wielder and her allies gain no special protection against this effect, and the creature struck by the critical hit takes a -4 penalty on its saving throw against it. Once a banshee\u2019s howl has used this ability, it can never do so again, but it does retain its other abilities. A banshee\u2019s howl whose wail of the banshee ability has been expended is still worth 32,320 gp. CONSTRUCTION REQUIREMENTS Cost 19,400 gp; Feats Craft Magic Arms and Armor; Spells crushing despair, wail of the banshee"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_banshees_howl",
+          "value": {
+            "value": 38480
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_banshees_howl",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_fortune__crb_",
+    "name": {
+      "value": "Staff of Fortune"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura evocation (moderate); CL 9th; Slot none; Price 44,400 gp; Weight 3 lbs. DESCRIPTION Note: This item grants characters additional hero points or allows the possibility of recovering points as they are spent. See Hero Points for full details. This staff is made of ivory and gold and is topped by a large, flawless piece of quartz. It allows the use of the following spells. Heroic fortune (1 charge) Mass heroic fortune (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells heroic fortune, mass heroic fortune; Cost 37,200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_fortune",
+          "value": {
+            "value": 44400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_fortune",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

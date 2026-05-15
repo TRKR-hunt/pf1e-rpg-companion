@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shade_bow__crb_",
+    "name": {
+      "value": "Shade Bow"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 41,535 gp; Slot none; CL 6th; Weight 4 lbs.; Aura moderate illusion DESCRIPTION This +2 distance light crossbow shrouds its wielder in shadows, granting her a +4 competence bonus on Stealth checks. Three times per day, the wielder can also become invisible, as per the invisibility spell, for up to 6 minutes. CONSTRUCTION REQUIREMENTS Cost 20,935 gp; Feats Craft Magic Arms and Armor; Spells invisibility; Special creator must have 4 ranks in Stealth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shade_bow",
+          "value": {
+            "value": 41535
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shade_bow",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

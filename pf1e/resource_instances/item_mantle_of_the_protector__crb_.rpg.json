@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mantle_of_the_protector__crb_",
+    "name": {
+      "value": "Mantle of the Protector"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration and conjuration; Slot shoulders; CL 7th; Weight 10 lbs.; Price 12,200 gp DESCRIPTION This silvery cloak has steel pauldrons built into it, and always seems to fit a little too loosely, no matter who happens to be wearing it. At the start of each day, the owner of a mantle of the protector may spend 10 minutes attuning the mantle to his armor and shield. He may then lend his attuned mantle to an ally, who can activate it as an immediate action at any time to gain the owner\u2019s armor and shield bonus as well as any other special properties the armor may have for 10 minutes. When the mantle is activated this way, the owner\u2019s armor and shield go dormant, and he loses any benefits they may provide for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells shield other; Cost 6,100 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mantle_of_the_protector",
+          "value": {
+            "value": 12200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mantle_of_the_protector",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trident_of_stability__crb_",
+    "name": {
+      "value": "Trident of stability"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight 4 lbs.; Price 9,815 gp DESCRIPTION The base of this sturdy but tarnished +1 trident has a wide metal bar at the bottom, perfectly situated to serve as a solid footrest or other sort of step. The bar acts as an immovable rod, except instead of an activation button, the immobility power triggers whenever the wielder places one or both feet on the bar, and ends whenever the wielder is no longer touching the bar with at least one foot. If the wielder remains in place and steps on the bar, he gains a +10 bonus to his CMD when trying to resist efforts to move him. The wielder is always considered braced against oncoming charge attacks. If the wielder is falling, he may step on the bar as an immediate action to halt his fall, though the sudden jolt means he takes falling damage for the current distance fallen. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells levitate; Cost 5,065 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trident_of_stability",
+          "value": {
+            "value": 9815
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trident_of_stability",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

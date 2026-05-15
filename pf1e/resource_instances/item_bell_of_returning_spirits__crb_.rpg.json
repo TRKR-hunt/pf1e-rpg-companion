@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bell_of_returning_spirits__crb_",
+    "name": {
+      "value": "Bell of Returning Spirits"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION This ancient bronze hand bell has an ivory handle, and simple pictograms of animals are etched onto its exterior. Once per day on command, the user can ring the bell to summon his familiar to his side, as long as the familiar is within 100 feet of the user. This ability is the equivalent of a spell of a level equal to one-third the user\u2019s level. The familiar immediately appears in a space of the user\u2019s choice adjacent to him. If the user\u2019s familiar is dead, this ability can be used summon its spirit back from beyond the grave. This functions as a raise dead spell, but can target only the user\u2019s familiar. The familiar doesn\u2019t need to be touched to accomplish this, though it must be within 100 feet. Any negative levels the familiar gains as a result of being raised are automatically removed at the rate of 1 per day, and any lost Constitution is automatically restored at the rate of 1 point per day. Once the bell has been used to raise a familiar, it transforms into inert clay and loses all of its magic abilities. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells raise dead, summon nature\u2019s ally"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bell_of_returning_spirits",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bell_of_returning_spirits",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

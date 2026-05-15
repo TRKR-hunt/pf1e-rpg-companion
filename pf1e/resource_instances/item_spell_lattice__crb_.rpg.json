@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spell_lattice__crb_",
+    "name": {
+      "value": "Spell Lattice"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies; 1st-level 1,000 gp; 2nd-level 4,000 gp; 3rd-level 9,000 gp; 4th-level 16,000 gp; 5th-level 25,000 gp; 6th-level 36,000 gp; 7th-level 49,000 gp; 8th-level 64,000 gp; 9th-level 81,000 gp; Slot none; CL 17th; Weight 1 lb.; Aura varies (see text) DESCRIPTION A spell lattice is a block of transparent crystal, internally etched with a three-dimensional representation of a spell. This spell is chosen when the item is created (the contained spell determines the school of the lattice\u2019s aura). When a spell lattice is wielded by a spontaneous spellcaster who has the spell contained within it on her class spell list, she can use her spell slots to cast that spell as if it were one of her spells known. When an arcanist holds a spell lattice, as long as she has the contained spell on her class spell list, she can use her spell slots to cast that spell as if it were one of her spells currently prepared. A spellcaster who uses a spellbook or formula book can copy the spell from a spell lattice as if it were a scroll. Doing so expends the spell from the spell lattice. CONSTRUCTION REQUIREMENTS Cost varies; 1st-level 500 gp; 2nd-level 2,000 gp; 3rd-level 4,500 gp; 4th-level 8,000 gp; 5th-level 12,500 gp; 6th-level 18,000 gp; 7th-level 24,500 gp; 8th-level 32,000 gp; 9th-level 40,500 gp; Feats Craft Wondrous Item; Spells Scribe Scroll; Special creator must be able to cast the spell placed in the spell lattice"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spell_lattice",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

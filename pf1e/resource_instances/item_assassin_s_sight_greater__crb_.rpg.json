@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "assassin_s_sight_greater__crb_",
+    "name": {
+      "value": "Assassin's Sight, Greater"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,250 gp; Slot none; CL 9th; Weight 2 lbs.; Aura moderate divination DESCRIPTION A greater assassin\u2019s sight is similar to the standard assassin\u2019s sight, but it has a noticeably sleeker design and provides its wielder greater range. It has three settings: 0\u00e2\u0080\u009330 feet, 30\u00e2\u0080\u009360 feet, and 60\u00e2\u0080\u009390 feet. In addition, setting the range on a greater assassin\u2019s sight is a standard action (though it still provokes attacks of opportunity ). Finally, a greater assassin\u2019s sight grants a +4 competence bonus on attack rolls to confirm critical hits within the set range. CONSTRUCTION REQUIREMENTS Cost 6,125 gp; Feats Craft Wondrous Item; Spells locate weakness, true strike"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_assassin_s_sight_greater",
+          "value": {
+            "value": 12250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_assassin_s_sight_greater",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

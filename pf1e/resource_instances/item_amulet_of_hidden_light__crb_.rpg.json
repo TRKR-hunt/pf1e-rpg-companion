@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_hidden_light__crb_",
+    "name": {
+      "value": "Amulet of Hidden Light"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 3rd; Slot neck; Price 9,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This large amulet crafted of rough-cut glass can, on command, shed light as a sunrod. Unlike a normal light source, creatures outside this area* cannot see the amulet\u2019s light. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, light, invisibility; Cost 4,500 gp Editor\u2019s Note A sunrod \u2018s affected area is a total of 60 ft radius, 30 feet of bright light and 30 feet beyond that raising the light level by one. Based on this, creatures farther than 60 ft away from the bearer of an amulet of hidden light would not be able to see the amulet\u2019s light when active."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_hidden_light",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

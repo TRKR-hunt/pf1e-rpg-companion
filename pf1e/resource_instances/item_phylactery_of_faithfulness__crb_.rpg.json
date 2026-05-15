@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "phylactery_of_faithfulness__crb_",
+    "name": {
+      "value": "Phylactery of faithfulness #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 1st; Slot headband; Price 1,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This item is a tiny box containing religious scripture. The box is affixed to a leather cord and tied around the forehead, worn so that the box sits upon the wearer\u2019s brow. There is no mundane way to determine what function this religious item performs until it is worn. The wearer of a phylactery of faithfulness is aware of any action or item that could adversely affect his alignment and his standing with his deity, including magical effects. He acquires this information prior to performing such an action or becoming associated with such an item if he takes a moment to contemplate the act. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, detect chaos, detect evil, detect good, detect law; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_phylactery_of_faithfulness",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

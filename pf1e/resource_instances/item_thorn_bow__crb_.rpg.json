@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "thorn_bow__crb_",
+    "name": {
+      "value": "Thorn Bow"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 59,700 gp; Slot none; CL 9th; Weight 8 lbs.; Aura moderate conjuration DESCRIPTION This +2 lesser designating composite longbow (+3 Str ) has a bowstring that resembles a thorny vine. Once per day as a standard action, the wielder can prick her finger on the vine and fire an arrow at a creature or square to cause the arrow to become a wall of thorns centered on the struck creature or object. When the wielder is targeting a square, treat that as a ranged attack against AC 5. The wielder can choose how the wall of thorns is oriented. CONSTRUCTION REQUIREMENTS Cost 30,200 gp; Feats Craft Magic Arms and Armor; Spells instant enemy, wall of thorns"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_thorn_bow",
+          "value": {
+            "value": 59700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_thorn_bow",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trident_of_the_storm_captain__crb_",
+    "name": {
+      "value": "Trident of the Storm Captain"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 109,665 gp; Slot none; CL 13th; Weight 4 lbs.; Aura strong evocation and transmutation DESCRIPTION This +4 shock trident is carved from fish-bone and its points are shark teeth. The wielder gains a +4 competence bonus on Profession (sailor) and Swim checks as long as it is held in hand. Once per day, the wielder can utter a command word to create one of the following effects: vortex or control weather. If the wielder uses a polymorph or supernatural effect to take the shape of a creature with a natural bite attack, the trident of the storm captain vanishes and the wielder\u2019s bite attack gains a +4 enhancement bonus until the shapechanging effect ends and the trident reappears. The wielder cannot use the trident\u2019s other abilities while shapechanged. CONSTRUCTION REQUIREMENTS Cost 54,990 gp; Feats Craft Magic Arms and Armor; Spells call lightning, control weather, greater magic fang, vortex"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trident_of_the_storm_captain",
+          "value": {
+            "value": 109665
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trident_of_the_storm_captain",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

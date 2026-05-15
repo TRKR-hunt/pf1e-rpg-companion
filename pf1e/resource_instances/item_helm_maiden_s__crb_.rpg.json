@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_maiden_s__crb_",
+    "name": {
+      "value": "Helm, Maiden's"
+    },
+    "source": {
+      "value": "curse_of_the_ladys_light"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 6th; Slot head; Weight 3 lbs.; Price 3,500 gp DESCRIPTION A maiden\u2019s helm appears as a distinctive plate and plumed helm. The helm imparts enhanced power and gravitas to the wearer\u2019s voice, granting a +5 competence bonus on Intimidate checks. The wearer of a maiden\u2019s helm can use command three times per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cause fear, command; Cost 1,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_maiden_s",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_maiden_s",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

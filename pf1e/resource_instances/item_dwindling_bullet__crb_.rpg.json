@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dwindling_bullet__crb_",
+    "name": {
+      "value": "Bullet, Dwindling"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 166 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This +1 sling bullet is slightly smaller than an average steel bullet, but incredibly dense. It\u2019s usually used by kobolds to shrink down foes or prey, weakening them and making them more vulnerable to combat maneuvers. The target must succeed at a DC 11 Fortitude save or decrease in size by one size category for 1d4 rounds, as the spell reduce person. CONSTRUCTION REQUIREMENTS Cost 86 gp; Feats Craft Magic Arms and Armor; Spells reduce person"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dwindling_bullet",
+          "value": {
+            "value": 166
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bag_of_shadow_clouds__crb_",
+    "name": {
+      "value": "Bag of Shadow Clouds"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 7th; Slot none; Price 30,240 gp; Weight 1 lb. DESCRIPTION Anyone peering into this bag of deep gray cloth sees nothing but empty blackness. Within the bag exists an extradimensional space linked to the Plane of Shadow. Three times per day, as a move action, the bearer can reach within the bag and pull out 1d4 semisolid shards of shadow. The bag\u2019s bearer can use each shard of shadow as a thrown weapon targeting a single 5-foot square. When it hits, it acts as a darkness spell, but only affecting one 5-foot square. As a move action, the bearer of the bag can move a shadow cloud up to 10 feet in any direction. Whether or not they are thrown, the shards of shadow and shadow clouds last 10 minutes before dissipating. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, darkness, shadow conjuration; Cost 15,120 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bag_of_shadow_clouds",
+          "value": {
+            "value": 30240
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bag_of_shadow_clouds",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

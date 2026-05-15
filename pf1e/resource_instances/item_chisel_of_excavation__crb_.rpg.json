@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chisel_of_excavation__crb_",
+    "name": {
+      "value": "Chisel of Excavation"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot none; Price 34,000 gp; Weight 3 lbs. DESCRIPTION This chisel, made from the tooth of a purple worm, functions as a masterwork tool for Craft and Profession checks related to working stone. Beyond that, it grants its owner a burrow speed of 20 feet for up to 5 minutes per day. These minutes need not be consecutive, but they must be spent in 1-minute increments. When a creature holds a chisel of excavation and casts a spontaneous spell with both the earth descriptor and one or more metamagic feats applied, the total level adjustment to the spell is reduced by 1 (to a minimum adjustment of 0). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells stone shape; Cost 17,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chisel_of_excavation",
+          "value": {
+            "value": 34000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chisel_of_excavation",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

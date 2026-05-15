@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brass_spider__crb_",
+    "name": {
+      "value": "Brass Spider"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION This diminutive, shiny brass construct looks like a spider made of gears and cogs. It\u2019s roughly the size of an adult human\u2019s hand, and its legs are all picks, chisels, pliers, and other tools of fine manipulation. Its body contains reservoirs of powders and oils it can spray 2 inches out of its nozzle-spinnerets. A fine chain can be played out of a winch on the brass spider\u2019s back, connecting it to a small disk with studs and levers that control the construct\u2019s actions, enabling it to walk and crawl like a spider. It has no autonomous motivation. Once per day, a character holding the brass spider\u2019s chain can use the Disable Device skill from 15 feet away without penalty, though he must have line of sight to the device he is attempting to disable. In most cases, this means any mishap caused by the skill affects the brass spider (which has hardness 5 and 25 hit points ) rather than the spider\u2019s controller. Additionally, the brass spider can be used without limit as masterwork thieves\u2019 tools, without the advantage of any additional range. CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item; Spells animate object, cat\u2019s grace"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brass_spider",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_brass_spider",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

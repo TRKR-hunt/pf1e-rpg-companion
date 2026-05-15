@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scabbard_of_the_lost_kiss__crb_",
+    "name": {
+      "value": "Scabbard of the Lost Kiss"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,600 gp; Slot none; CL 4th; Weight 1 lb.; Aura faint evocation DESCRIPTION Note This item is associated with a particular deity that can not be named here. This aged and worn scabbard is believed to have once held one of a dozen legendary scimitar relics. From its prolonged proximity to such a divine blade, the scabbard has acquired its own unique magical abilities. Twice per day on command, the wearer can draw forth a blazing beam of red-hot fire from the scabbard that can be wielded as if it were a scimitar, as per flame blade. If the associated deity is the wearer\u00e2\u0080\u0099s patron, half of the flame blade\u00e2\u0080\u0099s damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire. CONSTRUCTION REQUIREMENTS Cost 4,300 gp; Feats Craft Wondrous Item; Spells flame blade, flame strike"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scabbard_of_the_lost_kiss",
+          "value": {
+            "value": 8600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scabbard_of_the_lost_kiss",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

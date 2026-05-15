@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "circlet_of_speaking__crb_",
+    "name": {
+      "value": "Circlet of Speaking"
+    },
+    "source": {
+      "value": "animal_archive"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 4th; Price 4,800 gp; Slot headband; Weight 1 lb. DESCRIPTION This thin, silver circlet allows an animal wearing it to speak, even if it is not normally capable of doing so because of its low Intelligence score or lack of known languages. The creator of the item decides what language the circlet\u2019s wearer can speak when she crafts the item (typically Common); once crafting is complete, this cannot be changed. A circlet of speaking does not grant an animal a bonus to Intelligence, and the wearer\u2019s general behavior remains largely the same while it wears a circlet of speaking, though it can communicate its desires and rudimentary knowledge as though being spoken to via speak with animals. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells speak with animals; Cost 2,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_circlet_of_speaking",
+          "value": {
+            "value": 4800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_circlet_of_speaking",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

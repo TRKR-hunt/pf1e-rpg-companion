@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "banner_of_piracy__crb_",
+    "name": {
+      "value": "Banner of Piracy"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot none; CL 3rd Weight 10 lbs.; Aura faint transmutation APPEARANCE Three small metal rings adorn one side of this long, rectangular piece of black fabric, which shimmers with magic. EFFECTS Once per day, if the banner is attached to the mast of a ship or other water-faring vessel, a passenger on board who has line of sight to the banner can say its command word and the name of a port of her choice to transform the banner into one of that port for the next 24 hours, complete with the correct colors and heraldry, as appropriate. When the banner transforms, it also transforms all flags and labels identifying the ship or vessel, including any on the ship\u00e2\u0080\u0099s cargo if that cargo is labeled with a place of origin or destination. If the banner is removed from the mast of the ship at any time while it is obscuring its port of call, the banner and all identifying flags and labels on the ship revert to their original state. Flags and labels affected in this way all radiate a faint aura of transmutation magic, and if the magic affecting one flag or label (or the banner of piracy itself) is suppressed, such as with dispel magic, all of the banner\u00e2\u0080\u0099s magic is suppressed. Creatures that interact with banners, cargo, flags, or similar labels affected by this banner (such as by examining them very closely or touching them) can see through the banner\u00e2\u0080\u0099s magic with a successful DC 14 Will saving throw. CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item; Spells prestidigitation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_banner_of_piracy",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_banner_of_piracy",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

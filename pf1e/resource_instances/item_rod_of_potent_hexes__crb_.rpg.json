@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_potent_hexes__crb_",
+    "name": {
+      "value": "Rod of Potent Hexes"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 54,000 gp; Slot none; CL 17th; Weight 5 lbs.; Aura strong (no school) DESCRIPTION Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex), she can use this rod\u2019s power to double the damage dealt or healed by the hex. To be augmented in this way, a hex must directly heal damage, directly deal damage, or grant a creature some form of attack or aura that deals damage. CONSTRUCTION REQUIREMENTS Cost 27,000 gp; Feats Craft Rod, Maximize Spell; Special creator must possess the hex class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_potent_hexes",
+          "value": {
+            "value": 54000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_potent_hexes",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

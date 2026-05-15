@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pipes_of_sounding__crb_",
+    "name": {
+      "value": "Pipes of sounding #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 2nd; Slot \u00e2\u0080\u0094; Price 1,800 gp; Weight 3 lbs. DESCRIPTION When played by a character who has the Perform (wind instruments) skill, these shiny metallic pan pipes create a variety of sounds. The figment sounds are the equivalent of ghost sound. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, ghost sound; Cost 900 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pipes_of_sounding",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pipes_of_sounding",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

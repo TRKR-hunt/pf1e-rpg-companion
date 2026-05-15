@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ghost_mask__crb_",
+    "name": {
+      "value": "Ghost Mask"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot head; CL 8th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION The masks are often defaced, with their original appearance twisted into monstrous or demonic visages. Their new owners refer to them as ghost masks. A ghost mask allows the wearer to see through fog, smoke, and other obscuring vapors as if they did not exist. This ability functions underwater as well, allowing the wearer to see through thick silt and other aquatic precipitates. Additionally, the wearer is treated as one size category larger and gains a +4 bonus on all saving throws made to resist the effects of wind. A ghost mask allows its wearer to breathe water for 60 minutes per day-these minutes need not be consecutive, but must be expended in 10-minute increments. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells control winds, water breathing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ghost_mask",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ghost_mask",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

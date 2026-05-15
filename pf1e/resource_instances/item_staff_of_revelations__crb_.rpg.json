@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_revelations__crb_",
+    "name": {
+      "value": "Staff of revelations"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 9th; Slot none; Price 51,008; Weight 5 lbs. DESCRIPTION The forked top of this walnut shaft resembles a combination of a dowsing rod and the curled horns of a beast, and a delicate gemstone hovers between its enfolding arms. The staff allows use of the following spells: Augury (1 charge) Speak with dead (1 charge) Divination (2 charges) Commune (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells augury, commune, divination, speak with dead; Cost 30,608 gp."
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_revelations",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

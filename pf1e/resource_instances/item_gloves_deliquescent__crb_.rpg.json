@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_deliquescent__crb_",
+    "name": {
+      "value": "Deliquescent gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 7th; Slot hands; Price 8,000 gp; Weight 1 lb. DESCRIPTION These heavy leather gloves ripple and flows at the wearer\u00e2\u0080\u0099s command, reshaping to fit any hand, claw, tentacle, or alien limb. The wearer\u00e2\u0080\u0099s melee touch attacks with that hand deal 1d6 points of acid damage. If the wearer uses that hand to wield a weapon or make an attack with an unarmed strike or natural weapon, that attack gains the corrosive weapon special ability. The wearer\u00e2\u0080\u0099s gloved hand is protected from the acid ability of oozes, allowing him to use that hand to attack oozes with unarmed strike or natural attack without risk of harm from contact with the ooze. These unarmed strikes and natural attacks never cause an ooze to split. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, acid arrow, summon monster V; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_deliquescent",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_deliquescent",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "valor_s_minion__crb_",
+    "name": {
+      "value": "Valor\u2019s Minion"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 15th; Weight 6 lbs.; Price 41,335 gp DESCRIPTION The Blade of this +2 holy bastard sword always appears lustrous and polished, with a hilt wrapped in alternating colors of deep black and royal purple. Effective on its own, a valor\u2019s minion is even more potent in the hands of those who dedicate their efforts to vanquishing a single foe. Whenever a wielder uses either the challenge or smite evil class feature, she can sacrifice one additional use of that class feature to treat the smite or challenge as if she were three class levels higher. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells holy smite; Cost 20,168 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_valor_s_minion",
+          "value": {
+            "value": 41335
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_valor_s_minion",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

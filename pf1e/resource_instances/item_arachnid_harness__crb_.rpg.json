@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "arachnid_harness__crb_",
+    "name": {
+      "value": "Arachnid Harness"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,160 gp; Slot armor; CL 4th; Weight 15 lbs.; Aura faint transmutation DESCRIPTION This formfitting black +1 leather features eight ridged support ribs along the back. On command, the arachnid harness sprouts eight enormous spidery legs from these ribs. These legs allow the armor\u00e2\u0080\u0099s wearer to attempt Climb checks at full speed without needing to use her hands or feet. Additionally, while the legs are deployed, the armor\u00e2\u0080\u0099s wearer doesn\u00e2\u0080\u0099t lose her Dexterity bonus to AC while climbing, and need not succeed at a Climb check to avoid falling if she takes damage while climbing. CONSTRUCTION REQUIREMENTS Cost 3,160 gp; Feats Craft Magic Arms and Armor; Spells spider climb"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_arachnid_harness",
+          "value": {
+            "value": 6160
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_arachnid_harness",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

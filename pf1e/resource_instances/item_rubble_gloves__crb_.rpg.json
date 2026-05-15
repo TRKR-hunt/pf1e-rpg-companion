@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rubble_gloves__crb_",
+    "name": {
+      "value": "Gloves, Rubble"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot hands; Price 8,000 gp; Weight 1 lb. DESCRIPTION These gloves are made of a fine metal mesh. If a creature wearing rubble gloves touches a 5-foot square of stone or earth floor, rubble roils to the surface, making the square difficult terrain. Using the gloves is a standard action that does not provoke attacks of opportunity. The wearer can use the gloves to create up to 20 squares of difficult terrain per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, expeditious excavation; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rubble_gloves",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rubble_gloves",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

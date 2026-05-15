@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_thunderous_charging__crb_",
+    "name": {
+      "value": "Belt of thunderous charging #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot belt; Price 10,000 gp; Weight 1 lb. DESCRIPTION An engraving of a charging rhinoceros decorates this thick leather belt. The belt grants its wearer a +2 enhancement bonus to Strength. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. The belt magnifies the wearer\u00e2\u0080\u0099s momentum whenever she charges, granting her a +2 bonus on bull rush and overrun maneuvers. Furthermore, when the wearer makes a charge attack, her melee weapons and natural weapons deal damage as if they were one size category larger than they actually are. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bull\u00e2\u0080\u0099s strength, lead blades; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_thunderous_charging",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_thunderous_charging",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

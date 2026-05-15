@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crystal_pallid__crb_",
+    "name": {
+      "value": "Crystal, Pallid"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Gods and Magic Aura faint necromancy; CL 3rd; Slot neck; Price 3,300 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This finger-length crystal is a pale opaque pink color when worn by a living creature, but slowly changes to a translucent deep violet when carried by the undead. You can eat spoiled food and drink spoiled liquid as if it were fresh and wholesome, tasting as good as it did before it spoiled. Any person with the Profession (cook) skill can use the crystal to season a meal with the flavor of salt, sugar, cinnamon, ginger, or pepper (or the equivalent spices for the undead palate \u00e2\u0080\u0094 fear\u00e2\u0080\u0099s breath, nightfog, bloodroot, thileu bark, or hatefinger). This item is associated with a specific deity. If you worship the associated deity, once per day you may use death knell. Both cure and inflict spells heal you, whether you are living or undead; the crystal flares with black or white energy when it converts this energy into a form that does not harm you. The crystal does not affect any other uses of positive or negative energy, just cure and inflict spells (or effects that duplicate these spells). CONSTRUCTION REQUIREMENTS Craft Wondrous Item, cure light wounds, death knell, inflict light wounds, purify food and drink; Cost 1,650 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crystal_pallid",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

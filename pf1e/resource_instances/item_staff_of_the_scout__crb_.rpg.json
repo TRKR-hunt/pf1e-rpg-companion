@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_the_scout__crb_",
+    "name": {
+      "value": "Staff of the scout"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 8th; Slot none; Price 9,600 gp; Weight 4 lbs. DESCRIPTION This staff is carefully crafted from the branches of a tree, still intertwined as they grew and crowned with living leaves. The staff allows use of the following spells: Know direction (1 charge) Pass without trace (1 charge) Summon nature\u00e2\u0080\u0099s ally I (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells know direction, pass without trace, summon nature\u00e2\u0080\u0099s ally I; Cost 4,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_the_scout",
+          "value": {
+            "value": 9600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_the_scout",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

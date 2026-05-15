@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gods_needle__crb_",
+    "name": {
+      "value": "God\u00e2\u0080\u0099s Needle"
+    },
+    "source": {
+      "value": "last_watch"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "DESCRIPTION Price 8,016 gp; Slot weapon; CL 18th; Weight 10 lbs.; Aura strong divination and necromancy This brilliant mithral ballista bolt radiates a blinding sheen. Its fletching is made of white and gold feathers. This +1 light ballista bolt functions as a greater undead slaying arrow, except its enchantment is so potent that it deals 50 points of damage even if the saving throw is successful. If the wielder utters the name of his target as the bolt is fired, he gains the benefits of true strike on the attack roll. CONSTRUCTION REQUIREMENTS Cost 4,016 gp; Feats Craft Magic Arms and Armor; Spells true strike, undeath to death"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gods_needle",
+          "value": {
+            "value": 8016
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gods_needle",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

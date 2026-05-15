@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_perilous_pits__crb_",
+    "name": {
+      "value": "Rod of Perilous Pits"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Aura faint enchantment; CL 5th; Weight 4 lbs. DESCRIPTION This rod roughly resembles a torch with a small brass cage at the end. The wielder can cast any spell of 3rd level or lower into the rod. The rod can contain one spell at a time; casting a new spell into it replaces the older one. As long as a spell is contained within the rod, the brass cage glows as brightly as a candle. The wielder of a rod of perilous pits can use the rod when casting a pit spell ( create pit, hungry pit, and similar spells with \u2018pit\u2019 in their names). Doing so changes that spell\u2019s casting time to a full-round action (or adds 1 round, if the casting time is already at least 1 full round). After successfully casting the pit spell, the rod\u2019s wielder can choose to manifest the contained spell inside the summoned pit. The contained spell manifests at the bottom of the pit, but does so after creatures have attempted their initial saves to avoid falling in. This allows the caster to center spells with a duration of instantaneous (such as fireball ) or spells with longer durations (such as stinking cloud ) within the pit. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Rod; Spells create pit; Special creator must be a caster of at least 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_perilous_pits",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_perilous_pits",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

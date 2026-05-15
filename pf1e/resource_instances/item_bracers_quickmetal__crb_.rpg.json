@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracers_quickmetal__crb_",
+    "name": {
+      "value": "Bracers, Quickmetal"
+    },
+    "source": {
+      "value": "adventurer_s_armory_2"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies: Adamantine 5,000 gp, cold iron 2,000 gp, silver 1,000 gp; Slot wrists; CL 9th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION Once per day when a user wearing both these bracers speaks a command word, the metal turns entirely liquid and swims over the wearer\u2019s hands to cover her weapons. The user can cover a two-handed melee weapon or up to two one-handed or light melee weapons. For the next 10 rounds, the affected weapons can overcome damage reduction as though the weapons were made of adamantine, cold iron, or silver (as determined by the quickmetal bracers\u2019 type). The heavy, shifting metal coating affects the balance of manufactured weapons, imposing a \u00e2\u0080\u00932 penalty on attack rolls. Improvised weapons, however, are already unwieldy, and the metal coating doesn\u2019t significantly affect their balance. If the wielder lets go of a weapon affected by the bracers, the liquid metal immediately turns back into a solid metal bracer\u00e2\u0080\u0094or bracers, in the case of a two-handed weapon\u00e2\u0080\u0094reappearing on the user\u2019s wrists. The bracers cannot therefore affect thrown weapons or ranged weapon ammunition. CONSTRUCTION REQUIREMENTS Cost varies: Adamantine 2,500 gp, cold iron 1,000 gp, silver 500 gp; Feats Craft Wondrous Item; Spells major creation"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracers_quickmetal",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

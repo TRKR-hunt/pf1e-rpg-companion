@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "battleaxe_adamantine__crb_",
+    "name": {
+      "value": "Adamantine battleaxe"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura no aura (non-magical); CL \u00e2\u0080\u0094; Weight 6 lbs.; Price 3,010 gp DESCRIPTION This non-magical axe is made of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls. Image via \u201cStandard Stock Art\u201d created by Rick Hershey, Empty Room Studios"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_battleaxe_adamantine",
+          "value": {
+            "value": 3010
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_battleaxe_adamantine",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

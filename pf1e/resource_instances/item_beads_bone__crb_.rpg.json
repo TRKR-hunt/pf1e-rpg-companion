@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "beads_bone__crb_",
+    "name": {
+      "value": "Beads, Bone"
+    },
+    "source": {
+      "value": "shadows_of_gallowspire"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd Slot wrist; Price 6,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This bracelet of tiny carved skulls allows its wearer to command up to 8 HD worth of mindless undead creatures as the command undead spell. It is a standard action to establish control over an undead creature, and a free action to relinquish control. If the wearer attempts to control more than 8 HD of undead, the new creatures fall under the wearer\u00e2\u0080\u0099s control, and any previously controlled undead in excess of this amount become uncontrolled. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, command undead; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_beads_bone",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

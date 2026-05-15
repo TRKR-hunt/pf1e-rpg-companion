@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloodthirst_dagger__crb_",
+    "name": {
+      "value": "Bloodthirst dagger"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Weight 1 lb.; Price 60,802 gp DESCRIPTION The blade of this +2 wounding dagger is brightly polished. Even when drenched in a victim\u2019s blood, it appears clean and dry moments later, as though it has been newly cleaned. A bloodthirst dagger rewards its wielder most when used relentlessly against a single target. When attacking a creature that is still bleeding from the bloodthirst dagger\u2019s wounding property, the dagger deals an additional +1 point of damage against the target for each bleeding wound the creature possesses (maximum +10). Whenever the wielder of bloodthirst confirms a critical hit with the weapon, she can choose to deal 1d6 points of additional damage for each still-bleeding wound the target possesses (maximum +5d6 damage). This additional damage is not multiplied by the critical hit, but is in addition to the damage normally added for bleeding wounds. Dealing this damage immediately heals all bleeding wounds possessed by the wielder. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bleed, inflict serious wounds; Cost 30,552 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloodthirst_dagger",
+          "value": {
+            "value": 60802
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bloodthirst_dagger",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

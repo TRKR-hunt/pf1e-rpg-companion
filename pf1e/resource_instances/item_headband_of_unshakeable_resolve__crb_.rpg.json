@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_unshakeable_resolve__crb_",
+    "name": {
+      "value": "Headband of unshakeable resolve #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration and transmutation; CL 8th; Slot headband; Price 5,600 gp; Weight 1 lb. DESCRIPTION This simple white cotton headband is decorated with a stylized imperial dragon coiled above the wearer\u00e2\u0080\u0099s forehead. The headband grants the wearer a +2 enhancement bonus to her Wisdom score. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. Whenever the wearer suffers a fear effect, she may spend an immediate action to reduce the severity of the fear effect by one step. If the wearer would become panicked, she is instead frightened. If she would become frightened, she is instead shaken. If the wearer would become shaken, the effect is negated entirely. The wearer can use this ability up to three times per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, owl\u00e2\u0080\u0099s wisdom, remove fear; Cost 2,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_unshakeable_resolve",
+          "value": {
+            "value": 5600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_unshakeable_resolve",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

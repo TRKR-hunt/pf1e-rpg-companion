@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_jumping__crb_",
+    "name": {
+      "value": "Ring of jumping"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 2nd; Slot ring; Price 2,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring continually allows the wearer to leap about, providing a +5 competence bonus on all his Acrobatics checks made to make high or long jumps. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special creator must have 5 ranks in the Acrobatics skill; Cost 1,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_jumping",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "manteau_of_the_mouse__crb_",
+    "name": {
+      "value": "Manteau of the Mouse"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,500 gp; Slot chest; CL 10th; Weight 5 lbs.; Aura strong transmutation DESCRIPTION This soft fur vest comes in a variety of shades of brown, black, and white. Any creature larger than the wearer takes a \u00e2\u0080\u00931, \u00e2\u0080\u00932, \u00e2\u0080\u00934, or \u00e2\u0080\u00938 penalty on Perception checks to notice the wearer, depending on whether it is one, two, three, or four or more size categories larger than the wearer, respectively. In addition, the wearer can use beast shape III once per day to transform into a mouse. CONSTRUCTION REQUIREMENTS Cost 6,250 gp; Feats Craft Wondrous Item; Spells beast shape III"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_manteau_of_the_mouse",
+          "value": {
+            "value": 12500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_manteau_of_the_mouse",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

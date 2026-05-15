@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eyes_deathwatch__crb_",
+    "name": {
+      "value": "Deathwatch eyes"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 1st; Slot eye; Price 2,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These blood red crystal lenses fit snugly over the wearer\u00e2\u0080\u0099s eyes. The wearer gains the constant effects of the deathwatch spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, deathwatch; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eyes_deathwatch",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

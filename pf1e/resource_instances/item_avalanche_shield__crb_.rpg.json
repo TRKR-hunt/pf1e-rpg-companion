@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "avalanche_shield__crb_",
+    "name": {
+      "value": "Avalanche shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 12th; Weight 10 lbs.; Price 19,170 gp DESCRIPTION The front of this +1 bashing heavy steel shield looks as though it is crafted from hundreds of bits of rubble and larger stones. When used to make a shield bash attack, stones fall from shield and cling to the target of the shield bash. The target must succeed at a DC 14 Fortitude saving throw or be entangled for 1d4 rounds. Once per day on command, the target\u2019s wielder can choose to petrify the target of a shield bash instead. The target must succeed at a DC 16 Fortitude saving throw or become petrified for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, shape stone, flesh to stone; Cost 9,670 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_avalanche_shield",
+          "value": {
+            "value": 19170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_avalanche_shield",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

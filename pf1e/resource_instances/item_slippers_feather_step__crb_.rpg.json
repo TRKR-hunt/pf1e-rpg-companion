@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "slippers_feather_step__crb_",
+    "name": {
+      "value": "Feather step slippers"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot feet; Price 2,000 gp; Weight 1 lb. DESCRIPTION Once per day for 10 minutes, these fine silken slippers allow their wearer to ignore the adverse movement effects of difficult terrain as if subject to the feather step spell, including granting the ability to take 5-foot steps in difficult terrain. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, feather step; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_slippers_feather_step",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_slippers_feather_step",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "starsong_mail__crb_",
+    "name": {
+      "value": "Starsong Mail"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and transmutation; CL 3rd; Slot armor; Price 3,460 gp; Weight 40 lbs. DESCRIPTION This +1 chainmail is usually a metallic midnight blue and may sport a badge in the shape of a butterfly, moth, or starknife. Once per day, the wearer can use expeditious retreat. If the armor\u2019s wearer sleeps in or next to the armor, the armor automatically casts dream feast once per night on the wearer or the last creature who wore it. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells dream feast, expeditious retreat; Price 1,880 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_starsong_mail",
+          "value": {
+            "value": 3460
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_starsong_mail",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

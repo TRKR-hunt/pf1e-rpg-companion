@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_great_barghest_hero__crb_",
+    "name": {
+      "value": "Cloak, Great Barghest Hero"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 7th; Slot shoulders; Price 2,800 gp; Weight 5 lbs. DESCRIPTION This cloak looks like a gray wolf\u00e2\u0080\u0099s pelt, including legs and tail; the clasp is a wolf\u00e2\u0080\u0099s tooth. You gain a +2 competence bonus on Intimidate checks. This item has an associated deity. If you worship the associated deity or a goblin barghest hero once per day you can polymorph into a wolf or a wolf-goblin hybrid for up to 7 minutes (the hybrid form resembles a barghest\u00e2\u0080\u0099s natural form but has the same statistics as a wolf). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, polymorph; Special creator must have at least 5 ranks in Intimidate; Cost 1,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_great_barghest_hero",
+          "value": {
+            "value": 2800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_great_barghest_hero",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

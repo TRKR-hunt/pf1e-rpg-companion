@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wine_of_concordance__crb_",
+    "name": {
+      "value": "Wine of Concordance"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,200 gp; Slot none; CL 3rd Weight 2 lbs.; Aura faint abjuration and divination APPEARANCE This sweet white wine contains notes of apple, lemon, and peach and is among the most citrus-flavored wine produced. EFFECTS According to traditional legends, drinking glasses of wine of concordance together can forge strong bonds between those individuals who share it, both emotionally and magically. Drinking a glass of wine of concordance takes at least 1 round, though many imbibers take longer to savor the wine\u00e2\u0080\u0099s fruity flavor. Creatures that each finish at least one glass of the wine while within 10 feet of each other become aware of each other, as per status (each drinker is aware of the direction and distance to each other and any conditions affecting the others). In addition, while they\u00e2\u0080\u0099re within 100 feet of each other, the drinkers share equally in any wounds they take, as per shield other. If a drinker moves more than 100 feet from any other drinker, the shield other effect is suppressed, but it resumes functioning once the drinker moves within range again. These effects last for 3 hours. A bottle of wine of concordance contains six glasses\u00e2\u0080\u0099 worth of wine. CONSTRUCTION REQUIREMENTS Cost 600 gp; Feats Craft Wondrous Item; Spells shield other, status; Special creator must have at least 4 ranks in Craft (alchemy)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wine_of_concordance",
+          "value": {
+            "value": 1200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wine_of_concordance",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

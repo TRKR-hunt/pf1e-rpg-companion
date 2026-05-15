@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_displacement__crb_",
+    "name": {
+      "value": "Cloak of displacement, minor"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Cloak of Displacement, Major Cloak of Displacement, Minor Cloak of Displacement, Major Aura moderate illusion; CL 7th; Slot shoulders; Price 50,000 gp; Weight 1 lb. DESCRIPTION Embroidered with images of falling stars and pale moons, this item appears to be a normal cloak. EFFECTS On command its magical properties distort and warp light waves. This displacement works just like the displacement spell and lasts for a total of 15 rounds per day, which the wearer can divide up as she sees fit. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Extend Spell, displacement; Cost 25,000 gp. Cloak of Displacement, Minor Aura faint illusion; CL 3rd; Slot shoulders; Price 24,000 gp; Weight 1 lb. DESCRIPTION This item appears to be a normal cloak, with a pattern very similar to a major cloak of displacement\u00e2\u0080\u0099s nocturnal designs, but when worn its magical properties distort and warp light waves. EFFECTS This displacement works similar to the blur spell, granting a 20% miss chance on attacks against the wearer. It functions continually. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, blur; Cost 12,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_displacement",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_displacement",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

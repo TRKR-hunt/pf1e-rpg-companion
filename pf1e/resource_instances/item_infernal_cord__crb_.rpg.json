@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "infernal_cord__crb_",
+    "name": {
+      "value": "Infernal Cord"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot belt; CL 8th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION The entirety of this thick hide belt is scarred with impressions of fiendish visages, each shifting between a scowl and a smile. This belt grants its wearer a +2 enhancement bonus to Constitution. Treat this Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn. Whenever an enemy scores a critical hit against the wearer, the wearer gains fast healing 1 for 1 minute. This ability doesn\u2019t trigger if the critical hit deals only nonlethal damage. Damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor doesn\u2019t trigger the fast healing, and suppresses the fast healing for 1 round if it\u2019s already active. The wearer of an infernal cord can be detected as though she were an evil creature, and can sense the item\u2019s evil while wearing it. This belt imparts 1 negative level to any non-evil creature that wears it until the belt is removed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bear\u2019s endurance, infernal healing; Cost 2,500 gp Infernal Cord, Greater Price 31,000 gp; Slot belt; CL 8th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This item functions as an infernal cord, but it grants a +4 enhancement bonus to Constitution, and the fast healing effect increases to fast healing 4. Treat the Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn. The wearer can be detected as though she were an evil cleric, not just an evil creature. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bear\u2019s endurance, greater infernal healing; Cost 15,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_infernal_cord",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_infernal_cord",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

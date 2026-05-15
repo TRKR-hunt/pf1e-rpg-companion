@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "canard_raucous__crb_",
+    "name": {
+      "value": "Canard, Raucous"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 1st; Slot none; Price 100 gp; Weight \u00e2\u0080\u0094 DESCRIPTION The raucous canard appears to be a small, nondescript piece of rolled-up parchment. Unrolling the parchment, however, allows you to record up to a 25-word message. Once you record a message, you may throw it into the air, causing it to animate, sprout small feathery wings, and circle overhead for 10 minutes while loudly repeating the message over and over in a bland, genderless voice. Alternatively, you may close the scroll, and the next person to open it triggers this animation. After 10 minutes, the raucous canard disappears in a small shower of sparks. Scheming nobles like to use these to spread gossip about their enemies. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells animate objects, magic mouth; Cost 50 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_canard_raucous",
+          "value": {
+            "value": 100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

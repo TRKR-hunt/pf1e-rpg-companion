@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wings_of_the_gargoyle__crb_",
+    "name": {
+      "value": "Wings of the gargoyle #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot shoulders; Price 72,000 gp; Weight 3 lbs. DESCRIPTION These cloth shoulder straps have many pebbles stitched into them. The wearer of the straps can command them to unfurl a pair of wings made from a hard gray stone. These wings grant her a fly speed of 60 feet and average maneuverability. When these wings are present her skin also takes on a noticeable stone-like appearance and she gains DR 10/ adamantine. The wearer can furl and unfurl these wings as a swift action. The wings can be used for up to 5 minutes each day. The duration need not be continuous, but it must be used in 1-minute increments. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, fly, stoneskin; Cost 36,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wings_of_the_gargoyle",
+          "value": {
+            "value": 72000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wings_of_the_gargoyle",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

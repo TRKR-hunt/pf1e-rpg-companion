@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spirit_blade__crb_",
+    "name": {
+      "value": "Spirit blade"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 10th; Weight 1 lb.; Price 48,502 gp DESCRIPTION This wavy blade is almost transparently thin, and glows with ethereal energy upon being grasped. In addition to being a +3 ghost touch dagger, it can cast dispel magic once per day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells dispel magic, plane shift; Special creator must be 9th level; Cost 24,402 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spirit_blade",
+          "value": {
+            "value": 48502
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spirit_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

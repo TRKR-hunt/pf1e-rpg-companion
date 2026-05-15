@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_the_abyss__crb_",
+    "name": {
+      "value": "Amulet of the Abyss"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_book_of_the_damned"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot neck; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration [ chaotic, evil] DESCRIPTION Each amulet of the Abyss bears a demon lord\u2019s rune on its face, indicating the entity to which the amulet is attuned. An amulet of the Abyss functions as an unholy symbol of the demon lord. For a worshiper of that demon lord, an amulet of the Abyss also functions as a phylactery of faithfulness. An amulet of the Abyss grants its wearer the ability to cast each of the three spell-like abilities granted by the associated demon lord\u2019s first exalted demonic boon once per day. See the individual demon lords for lists of the spells each demon lord grants as an exalted boon. Any lawful or good character who wears this amulet gains 2 negative levels. These negative levels remain as long as the amulet is worn and cannot be overcome in any way as long as the amulet is worn (though they never result in actual level loss). CONSTRUCTION REQUIREMENTS Cost 7,500 gp; Feats Craft Wondrous Item; Special creator must worship a demon lord"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_the_abyss",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

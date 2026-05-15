@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "flask_of_ebon_flame__crb_",
+    "name": {
+      "value": "Flask of Ebon Flame"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot none; Price 1,500 gp; Weight 1 lb. DESCRIPTION This small flask smokes with an odorless black mist when opened. Each flask contains a single use of ebon flame, a strange sort of fire that is hostile to normal fire. Cool to the touch even in hot environs, when poured out, a flask creates a 20-foot-radius burst of black fire centered on the user. This burst of ebon flame extinguishes all natural fires and dispels magical fire (dispel check 1d20+5) in the area, including magic items that have fire effects (such as a flametongue sword or a necklace of fireballs ), although items dispelled merely cease to function for 1d4 rounds. The ebon flame can cure damage caused by fire\u00e2\u0080\u0094 each creature in the burst is healed 5d6 points of damage caused by fire effects. A creature with the fire subtype inside the area of the burst takes 5d6 points of damage and is stunned for 1 round \u00e2\u0080\u0094 a successful DC 15 Fortitude save halves the damage and negates the stun effect. Ebon flame is unstable, and when combined in doses larger than a single use, or when not stored in a specially prepared flask, it dissipates harmlessly in a cloud of faint black smoke. Overlapping areas of ebon flame do not stack their effects. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, false life or cure moderate wounds, resist energy or quench; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_flask_of_ebon_flame",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_flask_of_ebon_flame",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

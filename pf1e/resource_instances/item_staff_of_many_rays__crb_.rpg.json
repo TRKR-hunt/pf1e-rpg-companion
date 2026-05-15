@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_many_rays__crb_",
+    "name": {
+      "value": "Staff of many rays"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation and necromancy; CL 11th; Slot none; Price 57,200 gp; Weight 5 lbs. DESCRIPTION The elaborate swirls and delicate flecks of shining metal adorning the head of this pale wooden shaft make it seem almost as much a long mace as a staff. It allows use of the following spells: Ray of enfeeblement (1 charge) Ray of exhaustion (1 charge) Scorching ray (1 charge) Enervation (2 charges) Disintegrate (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells disintegrate, enervation, ray of enfeeblement, ray of exhaustion, scorching ray; Cost 28,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_many_rays",
+          "value": {
+            "value": 57200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_many_rays",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

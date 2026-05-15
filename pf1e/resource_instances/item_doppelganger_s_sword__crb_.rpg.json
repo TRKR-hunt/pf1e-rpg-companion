@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "doppelganger_s_sword__crb_",
+    "name": {
+      "value": "Doppelganger's Sword"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,310 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate illusion DESCRIPTION Once per day as a standard action, the wielder of this +1 short sword can appear as a specific humanoid enemy the blade has injured within the previous 7 minutes. The target must be within one size category of the wielder. The wielder can appear as that humanoid for up to 7 minutes and can dismiss the effect as a free action. Anyone interacting with the wielder of a doppelganger\u2019s sword who is familiar with the impersonated humanoid can attempt a DC 14 Will saving throw to disbelieve the illusion. CONSTRUCTION REQUIREMENTS Cost 9,310 gp; Feats Craft Magic Arms and Armor; Spells alter self, major image"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_doppelganger_s_sword",
+          "value": {
+            "value": 18310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_doppelganger_s_sword",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

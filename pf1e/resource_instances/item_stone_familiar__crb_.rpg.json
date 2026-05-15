@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_familiar__crb_",
+    "name": {
+      "value": "Stone familiar #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 3rd; Weight 2 lbs.; Slot none; Price 6,000 gp DESCRIPTION This life-sized carving of a Tiny animal is crafted from dark, rough stone. It has a hardness of 8 and 20 hit points. A witch can use the stone familiar to store up to 500 levels of spells (cantrips count as 1/2 level for this purpose). A witch can use the stone familiar to teach her living familiar any spells stored in it, and vice versa. A witch who identifies a stone familiar immediately knows what spells are stored inside it. A stone familiar is never found as randomly generated treasure with spells already stored in it. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, share memory; Special creator must be a witch; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_familiar",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_stone_familiar",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

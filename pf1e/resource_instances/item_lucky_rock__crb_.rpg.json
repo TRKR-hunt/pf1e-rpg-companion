@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lucky_rock__crb_",
+    "name": {
+      "value": "Lucky Rock"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Lucky Rock Price 35,000 gp Slot none CL 11th Weight \u00e2\u0080\u0094 Aura moderate enchantment and evocation Alignment neutral good Senses 120 ft. Intelligence 10 Wisdom 16 Charisma 14 Ego 10 Communication Speech (Common, Halfling) This stone of good luck is weathered and resembles nothing so much as a hard piece of shale. The stone can cast good hope once per day, and its bearer gains a +2 insight bonus on saving throws against fear effects and effects with the emotion descriptor. The stone is very chatty, making friendly observations about its bearer and offering unsolicited advice about the bearer\u2019s current situation. The stone speaks with a slight drawl and uses simple words, but its advice is usually quite sound. Around obvious followers of evil gods, the stone is instead silent and shudders slightly. CONSTRUCTION REQUIREMENTS Cost 17,500 gp Feats Craft Wondrous Item Spells divine favor, good hope"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lucky_rock",
+          "value": {
+            "value": 35000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

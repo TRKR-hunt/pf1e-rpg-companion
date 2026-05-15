@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "apron_of_the_careful_chemist__crb_",
+    "name": {
+      "value": "Apron of the Careful Chemist"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,200 gp; Slot chest; CL 8th; Weight 3 lbs.; Aura moderate transmutation DESCRIPTION This leather apron is made from several layers of thick hide from common beasts of burden and is reinforced with steel rivets. The apron grants its wearer a +2 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the apron is worn. In addition, the wearer gains a +2 competence bonus on Craft (alchemy) checks. When the wearer uses an item on himself or another character that grants an alchemical bonus on saving throws, that bonus increases by 1. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item; Spells cat\u00e2\u0080\u0099s grace; Special creator must have 2 ranks in Craft (alchemy)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_apron_of_the_careful_chemist",
+          "value": {
+            "value": 5200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_apron_of_the_careful_chemist",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

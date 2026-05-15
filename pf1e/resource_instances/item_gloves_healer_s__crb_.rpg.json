@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_healer_s__crb_",
+    "name": {
+      "value": "Healer\u2019s gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot hands; Price 2,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These pure-white leather gloves bear symbols of healing and faith on the back of the hands. The wearer gains a +5 competence bonus on Heal checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must have 5 ranks in Heal; Cost 1,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_healer_s",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

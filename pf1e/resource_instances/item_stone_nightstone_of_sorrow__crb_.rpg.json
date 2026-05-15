@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_nightstone_of_sorrow__crb_",
+    "name": {
+      "value": "Stone, Nightstone of Sorrow"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,300 gp; Slot neck; CL 3rd; Weight 2 lbs.; Aura faint abjuration [evil] DESCRIPTION Note This item is associated with a specific deity. This black rock, usually worn on a heavy chain, looks pitted and partially charred and melted. It gives the impression of reckless evil\u00e2\u0080\u0094more a dangerous scent than any other kind of feeling. The wearer gains fire resistance 1 and a +1 resistance bonus on Will saves against fear. If the wearer takes 10 or more points of fire damage in a single round, a claw-shaped pattern glows faintly on the surface of the stone, similar to an arcane mark. If the associated deity is the wearer\u2019s patron, the wearer can use shatter once per day. At will, the wearer can cause the claw-symbol on the rock to glow; true dragons immediately recognize the symbol as an icon of a dragon god. CONSTRUCTION REQUIREMENTS Cost 1,650 gp; Feats Craft Wondrous Item, arcane mark, remove fear, resist energy, shatter"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_nightstone_of_sorrow",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_stone_nightstone_of_sorrow",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "paradox_box__crb_",
+    "name": {
+      "value": "Paradox Box"
+    },
+    "source": {
+      "value": "shards_of_sin"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration and conjuration; CL 9th; Slot none; Price 5,000 gp; Weight 30 lbs. DESCRIPTION A paradox box resembles a small stone chest of ornate design that measures approximately 1-1/2 feet by 1-1/2 feet by 1 foot. Closer inspection reveals the paradox box to be a solid piece of stone that\u2019s been carved to resemble a box\u00e2\u0080\u0094it has no seam for a lid or hinges to allow opening. It is a secure storage device that can be accessed only by use of the proper command word or combination. Until the command word is intoned or the combination is correctly entered (the box\u2019s creator decides which method of opening works for the box\u00e2\u0080\u0094most boxes have combination locks that function similarly to the one detailed on page 9), the box is effectively a solid piece of stone with no lid or aperture or even an interior, and as such, attempts to open the box by bypassing a lock (with Disable Device or knock ) do not work. Some creators also build magical traps into paradox boxes ( summon monster traps are particularly popular), but these traps are not included in the standard model. Once the proper command is given, a seam appears around the chest, and nested hinges within allow this lid to open, revealing an extradimensional space 1 cubic foot in size. Anything that will fit completely within that space (regardless of weight) can be successfully stored within, and the chest can be sealed again simply by closing it. The contents of the storage space do not change the weight of the chest, since they actually stay in an otherwise inaccessible extradimensional space. If the chest is destroyed ( hardness 8, hp 90), the extradimensional space collapses and any contents are jettisoned randomly into the Ethereal Plane. Paradox boxes were especially popular for their relative inexpensiveness as well as their superior security and durability. Many creators, burdened with arrogance and hubris, constructed their paradox boxes such that their surfaces were decorated with elaborate and carefully constructed riddles or wordplays that gave clues to their command words. These items are prize finds because a particularly clever person can often still open them, revealing their time-lost secrets even though the command word might have been lost millennia ago. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, arcane lock, secret chest; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_paradox_box",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_paradox_box",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

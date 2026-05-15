@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "farspear__crb_",
+    "name": {
+      "value": "Farspear"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 53,801 gp; Slot none; CL 7th; Weight 3 lbs.; Aura moderate conjuration EFFECTS This +2 elysian bronze spear is capable of warping space to strike faraway targets as if they stood within arm\u00e2\u0080\u0099s reach. As a standard action, the farspear\u00e2\u0080\u0099s wielder can make a single melee attack against a creature within 60 feet as though it were within his melee reach. Cover and concealment apply as if making a ranged attack. The wielder can use any Vital Strike feat he has as part of this melee attack. CONSTRUCTION REQUIREMENTS Cost 27,551 gp; Feats Craft Magic Arms and Armor; Spells dimension door"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_farspear",
+          "value": {
+            "value": 53801
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_farspear",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

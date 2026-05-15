@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_bladed__crb_",
+    "name": {
+      "value": "Bladed belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot belt; Price 2,000 gp; Weight 3 lbs. DESCRIPTION Rather than being made of one continuous line of material, this belt consists of many bits of tanned leather joined together by thick metal studs. On command, the belt\u00e2\u0080\u0099s wearer can transform the belt into a single masterwork slashing and/or piercing melee weapon of her choice. As long as she is holding the weapon, she can also revert it back to belt form with a command. Furthermore, the belt can be enchanted like a piercing and slashing melee weapon, using the cost of the belt as the cost of the masterwork item. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, magic weapon; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_bladed",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_bladed",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

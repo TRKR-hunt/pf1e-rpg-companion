@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bag_of_tricks__crb_",
+    "name": {
+      "value": "Bag of tricks, gray"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint (gray or rust) or moderate (tan) conjuration; CL 3rd (gray), 5th (rust), 9th (tan) Slot \u00e2\u0080\u0094; Price 3,400 gp (gray); 8,500 gp (rust); 16,000 gp (tan) DESCRIPTION This small sack appears empty. Anyone reaching into the bag feels a small, fuzzy ball. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the Handle Animal skill. Each of the three kinds of bags of tricks produces a different set of animals. Use the following table to determine what animals can be drawn out of each. Gray Bag Rust Bag Tan Bag Aquamarine Bag d% Animal d% Animal d% Animal d% Animal 01\u00e2\u0080\u009330 Bat 01\u00e2\u0080\u009330 Wolverine 01\u00e2\u0080\u009330 Grizzly bear 1-30 King crab 31\u00e2\u0080\u009360 Rat 31\u00e2\u0080\u009360 Wolf 31\u00e2\u0080\u009360 Lion 31-60 Seal 61\u00e2\u0080\u009375 Cat 61\u00e2\u0080\u009385 Boar 61\u00e2\u0080\u009380 Heavy horse 61-80 Dolphin 76\u00e2\u0080\u009390 Weasel 86\u00e2\u0080\u0093100 Leopard 81\u00e2\u0080\u009390 Tiger 81-90 Octopus 91\u00e2\u0080\u0093100 Riding dog \u00e2\u0080\u0094 \u00e2\u0080\u0094 91\u00e2\u0080\u0093100 Rhinoceros 91-100 Squid The heavy horse appears with harness and tack and accepts the character who drew it from the bag as a rider. Animals produced are always random, and only one may exist at a time. Up to 10 Animals can be drawn from the bag each week, but no more than two per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells summon nature\u2019s ally II (gray and aquamarine), summon nature\u2019s ally III (rust), or summon nature\u2019s ally V (tan); Cost 1,700 gp (gray), 2,250 gp (Aquamarine), 4,250 gp (rust), 8,000 gp (tan)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bag_of_tricks",
+          "value": {
+            "value": 3400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

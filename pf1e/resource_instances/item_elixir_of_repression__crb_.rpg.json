@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_repression__crb_",
+    "name": {
+      "value": "Elixir of Repression"
+    },
+    "source": {
+      "value": "champions_of_corruption"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 150 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint enchantment DESCRIPTION A draught of this pale blue liquid imposes a dull placidity upon the imbiber, making him less quick to anger while not significantly impairing his mental functions. A drinker with homicidal or other antisocial tendencies can dull his more extreme urges with regular doses of this elixir, allowing him to blend into society without resorting to murder, assault, or other actions that might make day-to-day life difficult. Additionally, the elixir gives the imbiber a +2 insight bonus on saving throws against any mind-affecting spell or effect. As a side effect, the imbiber must succeed at a DC 13 Will save to benefit from spells and effects that grant a morale bonus. An imbiber who is afflicted with any form of madness receives a +4 insight bonus on any saving throws made to resist the effects of that madness during the elixir\u2019s duration. A dose of elixir of repression lasts for 12 hours. CONSTRUCTION REQUIREMENTS Cost 75 gp; Feats Craft Wondrous Item; Spells calm emotions"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_repression",
+          "value": {
+            "value": 150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "token_shield__crb_",
+    "name": {
+      "value": "Token, Shield"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 22,000 gp; Slot none; CL 9th Weight \u2014; Aura moderate enchantment APPEARANCE This small bronze token is shaped like a heavy shield. Emblazoned clearly on the token is an image of a snake eating its own tail encircling seven eggs. EFFECTS Once per day, the wielder of this item can touch the token as a standard action. When she does so, she chooses an ally within 30 feet whom she can see. The wielder and her ally then both gain either a +2 competence bonus on attack rolls or a +2 deflection bonus to AC for the next 10 rounds (chosen when the wielder touches the token; once a benefit is chosen, it can\u2019t be changed during the effect\u2019s duration). The wielder can dismiss this benefit early as a free action, but the item\u2019s use is still expended as normal. CONSTRUCTION REQUIREMENTS Cost 11,000 gp; Feats Craft Wondrous Item; Spells battlemind link, bless"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_token_shield",
+          "value": {
+            "value": 22000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

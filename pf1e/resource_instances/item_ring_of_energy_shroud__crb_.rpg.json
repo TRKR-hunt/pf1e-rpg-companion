@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_energy_shroud__crb_",
+    "name": {
+      "value": "Ring of energy shroud"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 13; Slot ring; Price 19,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION A ring of energy shroud always appears to be glass or crystal in construction, tinted in a red, green, blue, or yellow hue. Closer inspection reveals a small band of metal within the glass or crystal. Treasured by frontline fighters and anyone with a trusted evoker ally, rings of energy shroud normally function as a minor ring of energy resistance. However, once per day as an immediate action, the ring\u00e2\u0080\u0099s wearer can negate the damage of an incoming acid, cold, electricity, or fire energy effect for himself (but not for other creatures affected by the spell or effect), transforming that damage into a shroud of energy that wreathes the wearer\u00e2\u0080\u0099s body acting as if under the effects of the elemental aura spell. The elemental aura effect has the same energy type of the damage negated. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells elemental aura, resist energy; Cost 9,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_energy_shroud",
+          "value": {
+            "value": 19500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

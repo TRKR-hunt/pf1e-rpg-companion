@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_wary__crb_",
+    "name": {
+      "value": "Ring, Wary"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot ring; CL 9th; Weight \u00e2\u0080\u0094; Aura lawful neutral; Price 14,600 gp Alignment lawful good; Senses 60 ft. Intelligence 12 Wisdom 15 Charisma 12; Ego 7; Communication empathy DESCRIPTION This relatively plain brass ring of mind shielding can read script in any language. The personality within the ring is distrustful of everyone, and it pesters its wearer with increasingly elaborate conspiracy theories. Because of its unrelenting paranoia, the ring provides its wearer with occasional well-timed guidance and can use timely inspiration up to three times per day on the wearer. CONSTRUCTION REQUIREMENTS Feats Forge Ring Spells nondetection, read magic, timely inspiration; Cost 7,300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_wary",
+          "value": {
+            "value": 14600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

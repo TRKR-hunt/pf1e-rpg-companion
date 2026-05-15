@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "demon_talon__crb_",
+    "name": {
+      "value": "Demon Talon"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration [evil]; CL 15th; Slot none; Price 20,000 gp; Weight 3 lbs. DESCRIPTION A demon talon must be held against the raw flesh of a fresh stump\u00e2\u0080\u0094preparing a creature by severing an existing hand causes 1d6 points of Constitution damage, but preparing a preexisting stump by cutting the flesh free at the end causes no significant damage. Once attached, the demon talon fuses with the stump, granting the creature a claw attack as appropriate for a creature one size category larger than the target\u00e2\u0080\u0099s actual size. The claw is shaped like a human hand (fingers and a thumb), but looks obviously demonic (scales, strange coloration, long nails, and so on), and is fully capable of wielding weapons or performing any other feat a human hand can perform. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, limited wish, regenerate; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_demon_talon",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_demon_talon",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

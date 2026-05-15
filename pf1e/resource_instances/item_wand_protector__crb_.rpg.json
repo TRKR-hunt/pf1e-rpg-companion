@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wand_protector__crb_",
+    "name": {
+      "value": "Wand Protector"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,500 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint abjuration DESCRIPTION This lacquered wooden tube is designed to protect a wand during transportation. EFFECTS When held in an off-hand, the wielder can safely cast spells from her wand without chance of incurring a primal magic event. A wand protector can be used only in conjunction with wands casting spells that require a standard action or shorter. Once the wand protector has prevented 10 primal magic events, it crumbles into dust. CONSTRUCTION REQUIREMENTS Cost 9,250 gp; Feats Craft Wondrous Item; Spells dispel magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wand_protector",
+          "value": {
+            "value": 18500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

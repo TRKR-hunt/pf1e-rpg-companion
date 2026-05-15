@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "oath_breaker_s_brand__crb_",
+    "name": {
+      "value": "Oath Breaker's Brand #2"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate necromancy DESCRIPTION When this iron medallion is placed between the palms of two persons willingly entering into an agreement via handshake, the accord is enforced by the brand\u2019s enchantment. If either person breaks the word of the agreement, a hideous mark appears on the top of the unfaithful creature\u2019s hand. The brand marks her as an oath breaker, imposing upon her a \u00e2\u0080\u00938 penalty on Diplomacy and Bluff checks attempted as long as the brand is visible. This mark lasts for 1 year or until it is removed by break enchantment, limited wish, miracle, remove curse, or wish, whichever comes first. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells mark of justice; Cost 1,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_oath_breaker_s_brand",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_oath_breaker_s_brand",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

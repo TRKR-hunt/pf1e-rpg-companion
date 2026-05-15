@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "steelhand_circle__crb_",
+    "name": {
+      "value": "Steelhand circle"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot ring; Price 12,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION When this ring is worn, the wielder\u00e2\u0080\u0099s skin attains a barely perceptible sheen. In practical terms, the wearer ignores the first 5 points of an object\u00e2\u0080\u0099s hardness when performing a sunder combat maneuver or when smashing an object. She also does not take the standard \u00e2\u0080\u00944 penalty for making a combat maneuver check to disarm while unarmed. Additionally, the ring\u00e2\u0080\u0099s wearer can focus all of the ring\u00e2\u0080\u0099s power, possibly repelling a devastating blow. Once per day, when a critical hit or sneak attack is scored on the wearer, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. Using this ability is an immediate action, and the wearer must decide to use it before the critical hit or sneak attack damage is rolled. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells stone fist, stoneskin; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_steelhand_circle",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

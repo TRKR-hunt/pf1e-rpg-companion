@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bookplate_of_recall__crb_",
+    "name": {
+      "value": "Bookplate of recall #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th; Weight \u00e2\u0080\u0094; Slot none; Price 1,000 gp DESCRIPTION This metal bookplate is inscribed with mystical words in Draconic, leaving space for a single written name. When the bookplate is glued to the inside cover of a book, the named individual may speak the title of the book to summon it as if using instant summons. This ability functions once per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, instant summons; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bookplate_of_recall",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

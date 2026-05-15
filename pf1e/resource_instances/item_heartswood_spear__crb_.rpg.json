@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "heartswood_spear__crb_",
+    "name": {
+      "value": "Heartswood Spear"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 14th; Weight 6 lbs.; Price 50,302 gp DESCRIPTION This humble weapon appears to be little more than a crudely sharpened stake or makeshift spear, but in truth it is a far more formidable weapon. In addition to being a +2 undead bane spear, a heartswood spear deals bludgeoning damage when it is swung as a staff. When employed in such a manner, it also possesses the disruption property. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells heal, summon monster; Cost 25,302 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_heartswood_spear",
+          "value": {
+            "value": 50302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_heartswood_spear",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

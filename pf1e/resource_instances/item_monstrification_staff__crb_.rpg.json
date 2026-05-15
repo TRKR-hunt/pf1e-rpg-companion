@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "monstrification_staff__crb_",
+    "name": {
+      "value": "Monstrification Staff"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot none; CL 8th; Weight 4 lbs.; Aura faint transmutation ( polymorph ) DESCRIPTION The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff\u2019s surface. An alchemist or other character capable of creating extracts can pour an extract of enlarge person over this staff to restore 1 charge to the staff or pour an extract of monstrous physique I over it to restore 3 charges. Enlarge person (1 charge) Monstrous physique I (3 charges) CONSTRUCTION REQUIREMENTS Cost 6,150 gp; Feats Craft Staff; Spells enlarge person, monstrous physique I; Special creator must be an alchemist"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_monstrification_staff",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_monstrification_staff",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

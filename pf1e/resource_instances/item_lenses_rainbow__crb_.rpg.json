@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lenses_rainbow__crb_",
+    "name": {
+      "value": "Rainbow lenses"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong enchantment; CL 15th; Slot eye; Price 21,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These lenses interfere with the wearer\u00e2\u0080\u0099s ability to see color, and everything appears in shades of black and white, as if the wearer were using darkvision. Once per day the wearer can use color spray, hypnotic pattern, and rainbow pattern. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, color spray, hypnotic pattern, rainbow pattern; Cost 10,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lenses_rainbow",
+          "value": {
+            "value": 21000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

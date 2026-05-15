@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "summoner_slayer_eyes__crb_",
+    "name": {
+      "value": "Summoner Slayer Eyes"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,000 gp; Slot eyes; CL 7th; Weight 1 lb.; Aura moderate abjuration DESCRIPTION These golden-white lenses rest in crystal frames that fit comfortably over the eyes. Any creatures conjured by summon monster or a similar spell in the wearer\u2019s field of vision appear to the wearer as though they were surrounded by a shimmering, purple glow. The wearer sees non-native creatures that have been called by other forms of magic (such as planar ally or gate ) outlined in a blue glow. This affects only creatures of which the wearer is already aware. It doesn\u2019t bypass concealment or stealth, nor does it work if the target is under the effect of an illusion spell that the wearer hasn\u2019t seen through. Once per day when the wearer hits a summoned or called creature with a weapon, the wearer can concentrate on that target, attempting to banish it back to its place of origin. This is treated as a dismissal spell targeting the creature, which must succeed at a DC 16 Will save or be sent back to its home plane. CONSTRUCTION REQUIREMENTS Cost 5,500 gp; Feats Craft Wondrous Item; Spells dismissal, summon monster I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_summoner_slayer_eyes",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_summoner_slayer_eyes",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

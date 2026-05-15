@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "murderer_s_blackcloth__crb_",
+    "name": {
+      "value": "Murderer\u2019s blackcloth"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 9th; Weight 10 lbs.; Price 12,405 gp DESCRIPTION This silk +1 shadow padded armor is as dark as night and stitched with thread the color of dried blood. When worn by a rogue with the bleed talent, it increases the bleed damage of the rogue\u2019s sneak attacks by +1. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bleed, invisibility, silence; Cost 6,280 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_murderer_s_blackcloth",
+          "value": {
+            "value": 12405
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_murderer_s_blackcloth",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

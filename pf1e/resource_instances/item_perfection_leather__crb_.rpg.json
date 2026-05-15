@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "perfection_leather__crb_",
+    "name": {
+      "value": "Perfection Leather"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination, necromancy, and transmutation; CL 3rd; Slot armor; Price 3,860 gp; Weight 15 lbs. DESCRIPTION This +1 leather armor is usually inscribed with a open-hand symbol at the neck, and with meditative mantras along the sleeves. The wearer can use guidance, stone fist, and touch of fatigue each once per day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells guidance, stone fist, touch of fatigue; Price 2,010 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_perfection_leather",
+          "value": {
+            "value": 3860
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_perfection_leather",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

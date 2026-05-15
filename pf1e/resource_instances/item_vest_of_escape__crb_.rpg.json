@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vest_of_escape__crb_",
+    "name": {
+      "value": "Vest of escape #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and transmutation; CL 4th; Slot chest; Price 5,200 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This simple silk vest looks nondescript, but is actually studded with numerous secret pockets sewn into its lining. Hidden inside these are magic lockpicks that provide a +4 competence bonus on Disable Device checks. The vest also grants its wearer a +6 competence bonus on Escape Artist checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, knock, grease; Cost 2,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vest_of_escape",
+          "value": {
+            "value": 5200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

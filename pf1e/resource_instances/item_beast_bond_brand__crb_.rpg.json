@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "beast_bond_brand__crb_",
+    "name": {
+      "value": "Beast-bond brand #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Weight \u00e2\u0080\u0094; Slot none; Price 1,000 gp DESCRIPTION This sticky henna paste is used to stamp a rust-colored handprint onto the body of a familiar or animal companion, and a hoof, claw, or paw print from that creature onto its master. These brands demonstrate a bond of friendship and balance, not ownership and subservience. Applying the brand requires a full-round action each for master and companion. The brand enhances the share spells ability of druids, wizards, and other classes with animal companions or familiars, allowing these characters to cast spells with a range of personal or touch on the marked companion at a range of 30 feet, provided the character has line of effect to the creature. Each spell cast at range in this way drains one charge from the beast-bond brand for each spell level of the spell cast. A newly applied beast-bond brand has 10 charges. When all charges are consumed, the brand vanishes. For the purposes of teleportation spells and effects, the master may treat a marked companion as an object or a creature, whichever is more favorable (weight restrictions still apply). A character may have only one creature marked in this way at any time. The brand lasts until all charges are expended or the master marks another companion in this way. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Reach Spell; Special creator must have an animal companion or familiar; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_beast_bond_brand",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

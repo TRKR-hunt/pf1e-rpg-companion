@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "silver_raven_figurine_of_wondrous_power__crb_",
+    "name": {
+      "value": "Figurine of wondrous power (silver raven)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,800 gp DESCRIPTION This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an animal messenger spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic Abilities. It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous. CONSTRUCTION REQUIREMENTS Cost 1,900 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_silver_raven_figurine_of_wondrous_power",
+          "value": {
+            "value": 3800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

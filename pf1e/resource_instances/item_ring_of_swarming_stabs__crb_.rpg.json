@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_swarming_stabs__crb_",
+    "name": {
+      "value": "Ring of swarming stabs"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot ring; Price 6,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring is crafted of hardened leather strips, into which bits of fur, feathers, bone, and ivory have been woven. Twice per day, when the wearer is flanking an opponent, he can as a swift action deal an additional 1d6 points of damage on a successful melee attack against that opponent. This is a sneak attack for any effects that reduce or negate such damage. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells guidance; Special creator must be able to sneak attack; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_swarming_stabs",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

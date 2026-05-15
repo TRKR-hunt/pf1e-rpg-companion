@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "armguards_of_waning_hope__crb_",
+    "name": {
+      "value": "Armguards of Waning Hope"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Slot hands; CL 9th Weight 1 lb.; Aura moderate enchantment APPEARANCE Runes spiral and skitter across these leather bracers, which are adorned with small spikes. EFFECTS Twice per day, as a swift action after making a successful attack against a creature, the wearer can say the command word to steal all morale bonuses from which the creature is benefiting (this includes morale bonuses on attack rolls, on checks, to AC, or to any other statistics). These bonuses affect the wearer instead of the creature for 9 rounds. After this duration, if the morale bonuses\u00e2\u0080\u0099 durations haven\u00e2\u0080\u0099t elapsed, the bonuses cease affecting the wearer and resume affecting the original creature as normal. If the wearer attempts to activate this effect against a creature not benefiting from any morale bonuses, a daily use of the item is wasted. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Wondrous Item; Spells siphon magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_armguards_of_waning_hope",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_armguards_of_waning_hope",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

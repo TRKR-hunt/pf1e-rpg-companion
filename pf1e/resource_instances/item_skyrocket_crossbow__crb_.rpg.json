@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "skyrocket_crossbow__crb_",
+    "name": {
+      "value": "Skyrocket Crossbow"
+    },
+    "source": {
+      "value": "the_price_of_infamy"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination and evocation; CL 6th; Slot none; Price 10,400 gp; Weight 2 lbs. DESCRIPTION The stock and bow of this +1 distance hand crossbow are decorated with the golden head of an osprey, sea eagle, or other avian creature. Three times per day, a skyrocket crossbow can imbue one of two special abilities on its ammunition. The first causes a bolt fired from the crossbow to explode in a dazzling burst of colored light when it hits a creature or object, or if it reaches its maximum range increment (600 feet). Creatures within a 10-foot radius of the target point are blinded for 1d4+1 rounds. A successful DC 13 Will save means a creature is dazzled for 1 minute instead. Sightless creatures, or those without line of sight to the target point, are unaffected. The second ability causes a bolt fired from the crossbow to function as a screaming bolt. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, clairaudience/clairvoyance, doom, flare burst; Cost 5,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_skyrocket_crossbow",
+          "value": {
+            "value": 10400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_skyrocket_crossbow",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blackfingers_apron__crb_",
+    "name": {
+      "value": "Blackfingers Apron"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and transmutation; CL 5th; Slot armor; Price 5,240 gp; Weight 15 lbs. DESCRIPTION This +1 bitter leather armor looks much like a blacksmith\u2019s apron or an alchemist\u2019s smock, and has many small pockets suitable for holding extracts, potions, or poisons. Once per day, the wearer can use negate aroma (lasting 1 hour). This effect suspends the armor\u2019s bitter special ability if used on the wearer. Once per day, the wearer can pull a tanglefoot bag from one of the apron\u2019s pockets, although the bag crumbles into dust if it is not used within 1 minute CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells negate aroma, stinking cloud, web; Price 2,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blackfingers_apron",
+          "value": {
+            "value": 5240
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_blackfingers_apron",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

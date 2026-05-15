@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "flask_of_the_reaper__crb_",
+    "name": {
+      "value": "Flask of the Reaper"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,800 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION Note This item is associated with a specific deity. This metal container looks like a hip flask for carrying alcoholic drinks except it is barely larger than a potion vial. The side of the flask may be blank or have a personalized decoration, but the screw-on stopper usually bears a mark like a shield or perhaps a featureless mask. Once per day, the bearer can drink from the flask to gain a +5 alchemical bonus on Fortitude saving throws against poison and a +5 competence bonus on Stealth checks for 1 hour. If The Reaper of Reputation is the bearer\u2019s patron, once per day the bearer can drink from the flask to gain a +5 competence bonus on Perception, Sleight of Hand, or Stealth checks (drinker\u2019s choice) for 1 hour. In addition, the bearer can pour acid from the flask (equivalent in volume to a standard acid flask ) once per day. CONSTRUCTION REQUIREMENTS Cost 1,900 gp; Feats Craft Wondrous Item, acid splash, resistance; Special creator must have 5 ranks in Perception, Sleight of Hand, and Stealth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_flask_of_the_reaper",
+          "value": {
+            "value": 3800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

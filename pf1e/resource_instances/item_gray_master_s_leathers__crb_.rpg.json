@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gray_master_s_leathers__crb_",
+    "name": {
+      "value": "Gray Master's Leathers"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration, evocation, illusion, and transmutation; CL 5th; Slot armor; Price 5,720 gp; Weight 15 lbs. DESCRIPTION This +1 shadow leather armor is usually a neutral brown or gray color and is tight-fitting so it can be worn under bulky clothing or a disguise. The wearer can use acid splash, dancing lights, and mage hand each once per day CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells acid splash, dancing lights, invisibility, mage hand, silence; Price 2,940 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gray_master_s_leathers",
+          "value": {
+            "value": 5720
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gray_master_s_leathers",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

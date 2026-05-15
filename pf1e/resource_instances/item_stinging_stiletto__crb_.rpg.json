@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stinging_stiletto__crb_",
+    "name": {
+      "value": "Stinging Stiletto"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,500 gp; Slot neck, ring, or none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION Note This item is associated with a specific deity. This tiny dagger has a black leather hilt and a gold-inlaid pattern of stripes and sharp angles on its steel blade. It can transform into a delicate necklace or ornate finger-ring at the wearer\u2019s command. The wearer gains a +3 competence bonus on Perception checks while the item is carried or worn. The wearer can also use it to cast ghost sound once per day. If the associated deity is the wearer\u2019s patron, once per day the wearer may speak a command word to use fox\u2019s cunning. As a standard action, the wearer can prick her finger with the dagger and swear an oath on her own blood to avenge herself against a particular named creature; the wearer gains a +1 competence bonus on her next attack roll within 1 minute against that creature. Speaking a new vengeance-oath removes the old one, whether or not the wearer has achieved her vengeance. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item, fox\u2019s cunning, ghost sound, guidance; Special creator must have 5 ranks in Perception"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stinging_stiletto",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

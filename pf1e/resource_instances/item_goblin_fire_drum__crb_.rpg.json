@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goblin_fire_drum__crb_",
+    "name": {
+      "value": "Goblin fire drum #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight 1 lb.; Slot none; Price 2,000 gp (standard), 4,500 gp (greater) DESCRIPTION This small crude-looking drum is attached to a strap long enough to loop around the wearer\u2019s neck. A successful DC 12 Perform (percussion) check activates the drum, which enhances any nearby natural or magical fire as long as the bearer spends a move action each round to continue playing. All fires (including fire spells and effects) within 30 feet of the player deal an additional 1 point of fire damage (or 2 points for the greater version). All unattended flammable alchemical objects such as tindertwigs, flasks of oil or alchemist\u2019s fire, and fireworks within this range have a 10% chance of spontaneously igniting or exploding (as appropriate to the item) when the drum activates. This chance increases by 5% each round and is checked at the start of the performer\u2019s turn as long as the playing continues. A greater goblin fire drum has all the above abilities and can create pyrotechnics once per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, pyrotechnics, spark; Cost 1,000 gp (standard), 2,250 gp (greater)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goblin_fire_drum",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_goblin_fire_drum",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cutthroat_s_apprentice__crb_",
+    "name": {
+      "value": "Cutthroat\u2019s Apprentice"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 15th; Weight 2 lbs.; Price 33,910 gp DESCRIPTION This simply made +1 dancing shortsword leaps to hand at the slightest touch. It can be drawn as a free action as though using the Quick Draw feat. The cutthroat\u2019s apprentice dances for 8 rounds instead of 4 when activated, but can only dance twice per day. When dancing and attacking a creature, it moves into the target\u2019s space and provides the person who activated it (but no other creatures) with flanking during his turn if he attacks the same target in melee. Once the sword\u2019s activator completes his turn, the sword moves back to her space. If directed to attack multiple creatures in the same turn, the cutthroat\u2019s apprentice provides a flank against only the last creature attacked. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells animate objects, unwitting ally; Cost 17,110 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cutthroat_s_apprentice",
+          "value": {
+            "value": 33910
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cutthroat_s_apprentice",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

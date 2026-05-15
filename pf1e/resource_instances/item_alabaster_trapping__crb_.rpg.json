@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "alabaster_trapping__crb_",
+    "name": {
+      "value": "Alabaster Trapping"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,500 gp; Slot body; CL 5th Weight 1 lb.; Aura faint evocation APPEARANCE Sewn in a traditional style, this white robe bears several golden embellishments. EFFECTS The robe is under a constant prestidigitation spell that removes any dirt or stains while preventing wrinkles. Once per day as an immediate action, the wearer can repel one creature physically touching her (such as a creature targeting her with a touch spell or a combat maneuver ). The target of this effect takes 5d4 points of force damage and is pushed 10 feet in a direction specified by the wearer. CONSTRUCTION REQUIREMENTS Cost 1,750 gp; Feats Craft Wondrous Item; Spells force punch, prestidigitation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_alabaster_trapping",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_alabaster_trapping",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

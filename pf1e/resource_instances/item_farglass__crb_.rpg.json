@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "farglass__crb_",
+    "name": {
+      "value": "Farglass"
+    },
+    "source": {
+      "value": "raiders_of_the_fever_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Slot none; Price 6,400 gp; Weight 1 lb. DESCRIPTION This telescoping brass spyglass functions as a normal spyglass and allows clear vision to the horizon 3 miles away at sea level. From atop a typical crow\u2019s nest or 70-foot-tall tower like Tidewater Rock, this vision extends to over 10 miles. Once per day, the user of a farglass can activate a clairaudience/clairvoyance effect upon any location seen through the farglass\u2019s lens. As long as the location is kept in sight through the lens, the clairaudience/clairvoyance sensor can move with the location. This effect lasts for up to 5 minutes.. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells clairaudience/clairvoyance; Cost 3,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_farglass",
+          "value": {
+            "value": 6400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_farglass",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

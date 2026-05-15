@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coat_of_pockets__crb_",
+    "name": {
+      "value": "Coat of Pockets"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot body; CL 9th; Weight 7 lbs.; Aura moderate conjuration This black-and-gray wool coat sports over a dozen pockets on its front alone and even more line the insides. Interdimensional magic causes anything placed in one pocket to immediately appear in another randomly determined pocket. A character wearing this coat gains a +5 circumstance bonus on Sleight of Hand checks made to hide a small object on her body. However, if a character wearing a coat of pockets places anything in one of the coat\u2019s pockets, she must spend a standard action to retrieve it (rather than a move action ). CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item; Spells secret chest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coat_of_pockets",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coat_of_pockets",
+          "value": {
+            "value": 7
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

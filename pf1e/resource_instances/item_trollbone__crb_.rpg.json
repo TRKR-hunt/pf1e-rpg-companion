@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trollbone__crb_",
+    "name": {
+      "value": "Trollbone"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,400 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION Runic engravings adorn this charred rib bone pulled from a slain troll. When the bone is tossed up to 20 feet away, it can grow into a full-sized troll under the user\u2019s control on command. The troll normally remains for 2d4 rounds, but if the user is maintaining a bardic performance when the item is activated, the duration is extended until the end of the performance. When the troll is slain or the duration ends, it turns back into a bone that then crumbles into dust. CONSTRUCTION REQUIREMENTS Cost 1,200 gp; Feats Craft Wondrous Item; Spells summon monster IV"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trollbone",
+          "value": {
+            "value": 2400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trollbone",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

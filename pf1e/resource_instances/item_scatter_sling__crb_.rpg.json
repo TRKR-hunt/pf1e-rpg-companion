@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scatter_sling__crb_",
+    "name": {
+      "value": "Scatter Sling"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,300 gp; Slot \u00e2\u0080\u0094; CL 4th; Weight \u00e2\u0080\u0094; Aura faint evocation DESCRIPTION This +1 sling looks mundane, but its true ability is revealed when its wielder hurls a bullet with it. Halflings often use these slings to hunt hard-to-hit game. EFFECTS When the wielder of a scatter sling makes a ranged attack with the weapon using a non-magical bullet as ammunition, she can have the bullet fragment into sharp pieces, dealing 1d3 points of piercing damage to each target in a 15-foot cone. She rolls the attack once and compares the result against the AC of each creature in the area of effect. CONSTRUCTION REQUIREMENTS Cost 1,650 gp; Feats Craft Magic Arms and Armor; Spells shatter"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scatter_sling",
+          "value": {
+            "value": 3300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

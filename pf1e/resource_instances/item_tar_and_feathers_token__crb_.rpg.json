@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tar_and_feathers_token__crb_",
+    "name": {
+      "value": "Tar and Feathers Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 600 gp DESCRIPTION This token can be directed to float to any point within 60 feet and then burst into a mass of sticky white feathers that adheres to all creatures in a 10-foot radius. The clinging feathers affect creatures in the area as a glitterdust spell. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, major creation; Cost 300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tar_and_feathers_token",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

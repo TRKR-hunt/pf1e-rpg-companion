@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "teleporting_climbing_rig__crb_",
+    "name": {
+      "value": "Teleporting Climbing Rig"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,600 gp; Slot none; CL 7th; Weight 7 lbs.; Aura moderate conjuration ( teleportation ) DESCRIPTION This mithral grappling hook is decorated with runic engravings and attached to 50 feet of silk rope, with the other end of the rope tied around a thick iron ring. Three times per day, the wielder of this item may speak the item\u2019s command word while holding the iron ring. The grappling hook then teleports to any designated location within 50 feet to which the user has both line of sight and line of effect. The grappling hook does not teleport if the silk rope is held at any point other than the iron ring. If the designated location does not possess a means for the rig\u2019s hook to attach, the grappling hook falls to the ground after teleporting. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells dimension door; Gold 3,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_teleporting_climbing_rig",
+          "value": {
+            "value": 7600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_teleporting_climbing_rig",
+          "value": {
+            "value": 7
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

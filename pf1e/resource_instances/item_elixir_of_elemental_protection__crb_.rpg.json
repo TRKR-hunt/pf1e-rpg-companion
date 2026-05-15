@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_elemental_protection__crb_",
+    "name": {
+      "value": "Elixir of Elemental Protection"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,800 gp; Slot none; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate abjuration DESCRIPTION Scintillating colors swirl through this liquid. The elixir grants the drinker 100 points of protection from the first type of elemental damage he takes after drinking it. Unused points of protection dissipate 1 hour after the liquid is consumed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells protection from energy; Cost 900 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_elemental_protection",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

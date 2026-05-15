@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_countless_eyes__crb_",
+    "name": {
+      "value": "Elixir of Countless Eyes"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,200 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This bubbling green liquid causes eyes to sprout all over the imbiber\u00e2\u0080\u0099s body. EFFECTS These vigilant eyes prevent the imbiber from being flanked. In addition, the imbiber has a greater awareness of her surroundings, which grants a +2 competence bonus on initiative checks for 1 hour. CONSTRUCTION REQUIREMENTS Cost 600 gp; Feats Craft Wondrous Item; Spells countless eyes"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_countless_eyes",
+          "value": {
+            "value": 1200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

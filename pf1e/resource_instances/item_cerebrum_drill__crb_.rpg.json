@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cerebrum_drill__crb_",
+    "name": {
+      "value": "Cerebrum Drill"
+    },
+    "source": {
+      "value": "beyond_the_veiled_past"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 82,000 gp; Slot none; CL 15th; Weight 8 lbs.; Aura strong abjuration and enchantment DESCRIPTION This impressive crossbow grants a creature a chance to escape an alghollthu\u00e2\u0080\u0099s domination, assuming the target survives the brain-boring bolt. EFFECTS This +3 aberration \u2013 bane conserving heavy crossbow is crafted with a darkwood body and embedded with brass, gold, and silver inlays. A creature struck by a bolt from this crossbow is affected by calm emotions ( Will DC 16). On a confirmed critical hit, the save DC for this effect increases by 4. Up to three times per day as a swift action, the wielder can modify a loaded bolt into a brain-boring shot. These shots are not replenished by the conserving property of the weapon and are destroyed on impact or miss. Brain-Boring Shot: The bolt is magically capped with a reinforced metal head. When the bolt hits, it automatically strikes somewhere near the target\u00e2\u0080\u0099s brain (this attack has no effect against a target without a brain). The bolt head detaches and bores into the target\u00e2\u0080\u0099s flesh, dealing an additional 6d6 points of damage before dissolving. This damage is not multiplied on a critical hit. If the target is affected by an ongoing mind-affecting effect, it can immediately attempt a new Will save to remove the effect. If the brain-boring shot was a confirmed critical hit, the target gains a +4 circumstance bonus on its Will save. CONSTRUCTION REQUIREMENTS Cost 41,175 gp; Feats Craft Magic Arms and Armor; Spells break enchantment, calm emotions, mind fog"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cerebrum_drill",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cerebrum_drill",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

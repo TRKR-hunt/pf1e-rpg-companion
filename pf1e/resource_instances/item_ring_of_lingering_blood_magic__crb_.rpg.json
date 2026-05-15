@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_lingering_blood_magic__crb_",
+    "name": {
+      "value": "Ring of Lingering Blood Magic"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot ring; CL 11th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION When the wearer of this ring is bloodraging, he can expend 1 round of bloodrage to extend the duration of a beneficial spell affecting him with a duration of 1 round per level or greater by 2 rounds. This is a free action the wearer can take once per round. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Endurance, Extend Spell, Forge Ring; Special creator must have the bloodrage class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_lingering_blood_magic",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

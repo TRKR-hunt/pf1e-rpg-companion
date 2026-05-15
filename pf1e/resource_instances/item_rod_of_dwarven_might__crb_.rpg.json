@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_dwarven_might__crb_",
+    "name": {
+      "value": "Rod of dwarven might"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 19th; Slot none; Price 80,000 gp; Weight 10 lbs. DESCRIPTION This dwarven version of the more famous rod of lordly might has no spell-like powers; however, when wielded by a dwarf, it increases all AC, attack roll, CMD, CMB, and saving throw bonuses from a dwarf\u2019s racial traits by +1. The rod shares the mundane powers of a rod of lordly might, but its magical weapon forms are tailored to dwarven preferences. In its normal form, the rod can be used as a +1 returning light hammer. When button 1 is pushed, the rod becomes a +3 dwarven longhammer. When button 2 is pushed, the rod becomes a +4 dwarven waraxe. When button 3 is pushed, the rod becomes a +2 light crossbow or +2 heavy crossbow. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Rod, bull\u2019s strength, telekinesis; Special creator must be a dwarf; Cost 40,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_dwarven_might",
+          "value": {
+            "value": 80000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_dwarven_might",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

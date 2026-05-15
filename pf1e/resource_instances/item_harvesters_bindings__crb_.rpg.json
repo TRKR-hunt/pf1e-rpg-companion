@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "harvesters_bindings__crb_",
+    "name": {
+      "value": "Harvester\u00e2\u0080\u0099s Bindings"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,500 gp; Slot wrists; CL 5th; Weight \u00e2\u0080\u0094; Aura faint abjuration and transmutation DESCRIPTION These bronze bracers are etched with an elaborate crisscross pattern on their exterior and are lined with a set of six small barbs that are anchored into the interior. When worn, the bracers provide the wearer with a +2 circumstance bonus on Fortitude saves against poisons from venomous creatures. Anytime the wearer fails a saving throw against a poison from a venomous creature, he can say the bindings\u00e2\u0080\u0099 command word as a standard action and cause the barbs in the bindings to pierce his skin and begin siphoning the poison from his body, preventing the poison from taking effect. After the poison has been siphoned off, the bracers glow faintly for 1 minute. While the bracers are glowing, the wearer can touch an empty vial to the bracers to deposit the stored venom into the vial. This extracted venom lasts up to 1 hour before becoming inert. The bindings cannot hold more than 1 dose of a poison from a venomous creature at a time. If the wearer attempts to siphon poison from himself while the bindings already hold a dose of poison, the stored poison immediately affects him and the other poison is instead siphoned and stored in the bindings. CONSTRUCTION REQUIREMENTS Cost 4,250 gp; Feats Craft Wondrous Item; Spells drain poison, neutralize poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_harvesters_bindings",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

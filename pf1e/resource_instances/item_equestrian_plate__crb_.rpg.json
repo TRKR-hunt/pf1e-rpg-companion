@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "equestrian_plate__crb_",
+    "name": {
+      "value": "Equestrian plate"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Weight varies; Full plate 50 lbs., Banded mail 35 lbs., Barding 70 lbs.; Price 10,650 gp DESCRIPTION Shined to a mirror finish, this suit of +2 full plate is decorated with gold inlay. As a move action when the wearer is mounted, the plates of the armor expand and reposition to protect the wearer\u2019s mount. In this form, the armor becomes a suit of +2 banded mail for the wearer and a suit of +1 banded mail barding worn by the mount. A second move action merges it back into +2 full plate. Equestrian plate cannot transform and protect a mount more than one size larger than its wearer or a creature that cannot wear barding. It can create exotic barding, however, such as for a griffon or dragon. If extra enhancements or spells are placed upon equestrian plate in full plate form, they affect only the wearer\u2019s armor when the suit is split. Effects on the barding are suppressed when it is merged into the armor. If either suit of armor is broken while separated, the other half immediately gains the broken condition as well. Destroying one suit destroys the other as well. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells fabricate; Cost 6,150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_equestrian_plate",
+          "value": {
+            "value": 10650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

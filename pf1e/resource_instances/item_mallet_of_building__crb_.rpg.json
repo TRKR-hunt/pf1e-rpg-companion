@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mallet_of_building__crb_",
+    "name": {
+      "value": "Mallet of building #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Weight 2 lbs.; Slot none; Price 5,000 gp DESCRIPTION This heavy builder\u2019s mallet has a wooden shaft and a head made from shiny black iron that turns slightly red when held close to metal. The wielder of the mallet can, as a full-round action, swing the hammer to create and immediately hammer into place a copper nail, iron spike, iron piton, or 4-foot wooden fence post. A created fence post can penetrate earth, and the other materials can penetrate earth, wood, or stone. Removing the created item from the surface destroys it, but otherwise the item lasts as long as a normal object of its sort. The mallet can create up to 100 items per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, minor creation; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mallet_of_building",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mallet_of_building",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

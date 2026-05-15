@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tabard_crusader_s__crb_",
+    "name": {
+      "value": "Tabard, Crusader's"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; Slot body; CL 5th; Price 6,000 gp; Weight 2 lbs. DESCRIPTION A crusader\u2019s tabard is a sturdy cloth vestment worn over armor and other clothing. It is normally decorated with the symbol or heraldic device of the owner, and may be trimmed with expensive and delicate materials (such as silk, fur, or cloth of gold). Once per day, the wearer of the tabard may say its command word (often a family motto); thereafter, the wearer can spend a standard action (instead of a full-round action ) to move up to his speed and make a single charge attack. This ability lasts until used or for 1 minute, whichever duration is shorter. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, haste; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tabard_crusader_s",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tabard_crusader_s",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

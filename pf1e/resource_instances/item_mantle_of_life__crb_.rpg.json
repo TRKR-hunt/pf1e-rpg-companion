@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mantle_of_life__crb_",
+    "name": {
+      "value": "Mantle of Life"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 48,000 gp; Slot shoulders; CL 10th; Weight 4 lbs.; Aura moderate necromancy DESCRIPTION This short cape shimmers faintly under light. The wearer is immune to the energy drain attacks made by undead creatures. She still suffers any other effects of the attack, but ignores the energy drain. If a corpse is wearing the mantle, it can\u00e2\u0080\u0099t rise as an undead creature for any reason. This doesn\u00e2\u0080\u0099t prevent creatures that were already undead from using abilities like rejuvenation to return to unlife. CONSTRUCTION REQUIREMENTS Cost 24,000 gp; Feats Craft Wondrous Item; Spells death ward"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mantle_of_life",
+          "value": {
+            "value": 48000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mantle_of_life",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "powder_firefoot__crb_",
+    "name": {
+      "value": "Powder, Firefoot"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 5th; Slot none; Price 1,000 gp; Weight \u2014 DESCRIPTION This bright red powder contains a mixture of rare herbs and black salt. One dose of fire foot powder is enough powder to spread over two 5-foot squares, usually around doorways. The first creature to enter a powdered square must succeed on a DC 14 Fortitude save or immediately become overwhelmed by waves of fiery pain as if its legs and feet were being burned to ashes. The victim takes 1d6 points of nonlethal damage per round for 5 rounds, during which time it is also sickened. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, pain strike; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_powder_firefoot",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

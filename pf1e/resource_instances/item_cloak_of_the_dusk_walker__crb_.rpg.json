@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_the_dusk_walker__crb_",
+    "name": {
+      "value": "Cloak of the duskwalker"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "APPEARANCE FUNCTION Aura faint illusion; CL 3rd; Slot shoulders; Price 10,000 gp; Weight 1 lb. APPEARANCE This dark, velvety cloak billows with a dramatic flourish in its wearer\u00e2\u0080\u0099s wake. FUNCTION The cloak grants its wearer low-light vision. In addition, once per day, on command, the wearer can surround herself with darkness, as the darkness spell. While this darkness is active, the cloak also grants the wearer darkvision 60 feet as well as low-light vision. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, darkness, darkvision; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_the_dusk_walker",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_the_dusk_walker",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

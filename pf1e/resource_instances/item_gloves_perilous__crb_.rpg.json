@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_perilous__crb_",
+    "name": {
+      "value": "Gloves, Perilous"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot hands; CL 1st; Weight 1 lb.; Aura faint transmutation and necromancy DESCRIPTION These black gloves glow slightly during combat. Once per day, if the wearer\u2019s unarmed attack threatens a critical hit, the critical confirmation roll gains a +2 bonus. Regardless of whether the critical is confirmed, the attack does an additional 1d8 points of damage. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells inflict light wounds, unerring weapon; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_perilous",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_perilous",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

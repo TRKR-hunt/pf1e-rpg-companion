@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "forger_s_friend__crb_",
+    "name": {
+      "value": "Forger's Friend"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,200 gp; Weight 5 lbs.; Slot none; CL 7th; Aura moderate divination DESCRIPTION This leather satchel contains a forger\u00e2\u0080\u0099s kit\u00e2\u0080\u0094quills, ink, parchment, and sealing wax \u00e2\u0080\u0094as well as personal oddments ranging from braids of hair to heirloom brooches. When attempting to create a forgery, the user can place within the forger\u00e2\u0080\u0099s friend a personal possession or other item connected to the person whose handwriting the user wants to forge. After 24 hours, any forgery made with paper or parchment also kept within the satchel for that duration is supernaturally convincing beyond the +2 circumstance bonus granted by the forger\u00e2\u0080\u0099s kit itself. A creature attempting to detect the forgery takes a penalty on its Linguistics check equal to the penalty a target of a scrying spell would take based on the contents of the forger\u00e2\u0080\u0099s friend. The forger\u00e2\u0080\u0099s friend can acclimate the forging gear within to only one creature at a time. CONSTRUCTION REQUIREMENTS Cost 5,600 gp; Feats Craft Wondrous Item; Spells scrying"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_forger_s_friend",
+          "value": {
+            "value": 11200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_forger_s_friend",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

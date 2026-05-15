@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "seraphic_pistol__crb_",
+    "name": {
+      "value": "Seraphic Pistol"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; Slot none; CL 6th; Weight 5 lbs.; Price 37,550 gp DESCRIPTION The gold-washed barrel of this elegant double-barreled pistol always catches the light, and its maple grip feels pleasantly warm to the touch. When the wielder of this +2 double-barreled pistol successfully bypasses an evil creature\u2019s damage reduction with a single attack, the creature\u2019s skin cracks into fissures of golden light. This light negates the creature\u2019s DR for the gunslinger and her allies, fading away after 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells versatile weapon; Cost 19,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_seraphic_pistol",
+          "value": {
+            "value": 37550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_seraphic_pistol",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

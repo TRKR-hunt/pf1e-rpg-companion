@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "arrow_of_charming__crb_",
+    "name": {
+      "value": "Arrow of Charming"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,886 gp; Slot none; CL 8th; Weight 1/20 lb.; Aura moderate enchantment DESCRIPTION When this +3 arrow strikes a creature, it explodes in a small cloud of red dust and deals nonlethal damage. The creature struck must succeed at a DC 16 Will save or be charmed by the wielder as charm monster. Alternatively, the user can inscribe the name of another creature into the arrow shaft; in this case, the arrow\u2019s victim instead becomes charmed by the named creature on a failed save. Inscribing the arrow takes 10 minutes. CONSTRUCTION REQUIREMENTS Cost 1,446 gp; Feats Craft Magic Arms and Armor; Spells charm monster"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_arrow_of_charming",
+          "value": {
+            "value": 2886
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

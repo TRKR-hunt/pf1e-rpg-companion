@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sparkwake_starknife__crb_",
+    "name": {
+      "value": "Sparkwake starknife"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Weight 3 lbs.; Price 21,324 gp DESCRIPTION A faint trail of sparks marks the passage of this +1 shock starknife whenever it is thrown. Once per day, its wielder may throw it so it transforms into an 8d6 lightning bolt ( Reflex DC 14 half), returning to its physical form at the end of the bolt\u2019s path. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells lightning bolt; Cost 10,824 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sparkwake_starknife",
+          "value": {
+            "value": 21324
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sparkwake_starknife",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "guiding_scarab__crb_",
+    "name": {
+      "value": "Guiding Scarab"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,000 gp; Slot neck; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION This golden scarab beetle is a boon to wilderness travelers and those seeking long-lost places. The wearer gains a +5 competence bonus on Knowledge (geography) checks and on Survival checks to avoid getting lost, and she can always correctly read the labels and legend of any map she examines, as well as signposts and similar way markers, as if using comprehend languages. Once per week, the wearer can concentrate for 10 minutes to gain insight about her overland travels to come within the next week, as if casting divination. As a full-round action, the wearer can visualize or name a specific location and release the guiding scarab to fly ahead of her like a glowing golden beacon, showing its owner the direction to the destination as if she had cast find the path. While following the guiding scarab, its owner (and any mount she rides) and up to four other allies she designates when releasing the scarab gain the benefits of tireless pursuit. When the find the path effect ends, the guiding scarab crumbles to dust. CONSTRUCTION REQUIREMENTS Cost 6,500 gp; Feats Craft Wondrous Item; Skills creator must have 5 ranks in Knowledge (geography); Spells find the path, know direction, tireless pursuers"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_guiding_scarab",
+          "value": {
+            "value": 13000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

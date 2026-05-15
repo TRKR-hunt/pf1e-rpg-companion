@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lenses_of_situational_sight__crb_",
+    "name": {
+      "value": "Lenses of Situational Sight"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot eyes; CL 10th; Weight 1 lb.; Aura moderate divination and transmutation DESCRIPTION These wire spectacles are fitted with several ground crystal filters on hinged arms, any combination of which can be moved in front of or away from the lenses as a standard action (one, two, or all three lenses may be positioned at the same time with one action). Each filter grants a specific sense to the wearer when it is placed before one of the lenses. Each set of filters can be used for 10 minutes in 1-minute increments before losing its magical properties. The three sets of lenses are as follows. Green Lenses: Grant the wearer the benefits of detect magic. The wearer doesn\u2019t need to concentrate to gain the benefits of the spell as long as a source of magic remains in her line of sight for the appropriate number of rounds. Pink Lenses: Grant the wearer the benefits of see invisibility. Purple Lenses: Grant the wearer darkvision out to a distance of 60 feet. If the wearer already has darkvision, the range of her darkvision increases by 60 feet while she uses these filters. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells arcane sight, darkvision, see invisibility"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lenses_of_situational_sight",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lenses_of_situational_sight",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

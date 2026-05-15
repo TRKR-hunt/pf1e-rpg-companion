@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dart_of_recovery__crb_",
+    "name": {
+      "value": "Dart of Recovery"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 206 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This +1 featherweight dart is designed to be fired from a small wrist launcher. As with a normal featherweight dart, it deals no damage; it instead administers 1 dose of an applied poison as long as the target doesn\u2019t have damage reduction, hardness, or the like. Once the dart has been launched, whether it hits or misses, the creature that fired it can use a swift action to recall the dart to a convenient location, such as the palm of a hand or a pocket, removing the dart from the scene of the attack. The magical recovery of the dart does not prevent it from being damaged, so as with other magical ammunition, it can\u2019t be reused. CONSTRUCTION REQUIREMENTS Cost 106 gp; Feats Craft Magic Arms and Armor; Spells apport object"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dart_of_recovery",
+          "value": {
+            "value": 206
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

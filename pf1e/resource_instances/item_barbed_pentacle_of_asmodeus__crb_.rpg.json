@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "barbed_pentacle_of_asmodeus__crb_",
+    "name": {
+      "value": "Barbed Pentacle of Asmodeus"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 1st; Slot neck; Price 3,000 gp; Weight 1 lb. DESCRIPTION This iron disk is inscribed with an inverted pentagram, decorated around its outer edge with tiny metal barbs (facing slightly forward so as to not snag if worn outside clothing), and hangs from an iron chain. When worn visibly, it provides a +1 deflection bonus on AC. If Asmodeus is your patron, the pentacle counts as a holy symbol. By holding it and speaking a command word, you may use charm person once per day. If you squeeze the pentacle so its barbs draw your blood (1 point of damage), you may use that blood as ink, writing with a quill or even your finger for up to 1 hour; the blood-ink dries instantly on the writing surface so it never smudges, and if used as part of a magical spell you cast which requires or is augmented by writing (such as magic circle against evil or sepia snake sigil ), the DC of that spell increases by +1. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, bleed, charm person, shield of faith; Cost 1,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_barbed_pentacle_of_asmodeus",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_barbed_pentacle_of_asmodeus",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

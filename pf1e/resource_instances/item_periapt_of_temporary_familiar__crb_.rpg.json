@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "periapt_of_temporary_familiar__crb_",
+    "name": {
+      "value": "Periapt of Temporary Familiar"
+    },
+    "source": {
+      "value": "monster_summoner_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot neck; CL 9th Weight 1 lb.; Aura moderate conjuration DESCRIPTION This clear blue crystal amulet contains a pearl figurine depicting a miniature animal on the familiar list, such as a bat, monkey, or raven. Three times per day, the wearer can call forth the animal depicted in the amulet to serve as her familiar. This temporary familiar has all of the familiar abilities as if the wearer was a 5th-level wizard, and remains for 5 minutes or until it is reduced to 0 hit points. If the temporary familiar is reduced to 0 hit points, it cannot be summoned again for 24 hours. The familiar retains memories from past summonings. Only those without familiars of their own can activate a periapt of temporary familiar. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells summon monster V; Special creator must have a familiar"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_periapt_of_temporary_familiar",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_periapt_of_temporary_familiar",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

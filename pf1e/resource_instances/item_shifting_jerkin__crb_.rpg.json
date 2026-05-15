@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shifting_jerkin__crb_",
+    "name": {
+      "value": "Shifting Jerkin"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,965 gp; Slot armor; CL 3rd; Weight 8 lbs.; Aura faint illusion and transmutation DESCRIPTION This +1 lamellar cuirass grants its wearer shapeshifting. On command, the wearer of a shifting jerkin can change her appearance at will as per disguise self. If the wearer has a talents class feature ( investigator talents, ninja tricks, rogue talents, or slayer talents), once per day she can spend 1 hour to swap out one talent for another for which she qualifies. She can\u00e2\u0080\u0099t swap a talent that is a prerequisites for other talents or feats she has. CONSTRUCTION REQUIREMENTS Cost 3,065 gp; Feats Craft Magic Arms and Armor; Spells disguise self, fox\u00e2\u0080\u0099s cunning"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shifting_jerkin",
+          "value": {
+            "value": 5965
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shifting_jerkin",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

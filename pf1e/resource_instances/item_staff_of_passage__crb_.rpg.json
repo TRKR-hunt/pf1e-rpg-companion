@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_passage__crb_",
+    "name": {
+      "value": "Staff of passage"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 17th; Slot none; Price 206,900 gp; Weight 5 lbs. DESCRIPTION This potent item allows use of the following spells: Dimension door (1 charge) Passwall (1 charge) Astral projection (2 charges) Greater teleport (2 charges) Phase door (2 charges) CONSTRUCTION REQUIREMENTS Requirements Craft Staff, astral projection, dimension door, greater teleport, passwall, phase door; Cost 115,950 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_passage",
+          "value": {
+            "value": 206900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_passage",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_the_planes__crb_",
+    "name": {
+      "value": "Staff of the planes"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th; Slot none; Price 63,960 gp; Weight 5 lbs. DESCRIPTION This obsidian staff twinkles as if reflecting the star-filled sky at night. The staff allows use of the following spells: Planar adaptation (1 charge) Planar binding (2 charges) Plane shift (5 charges) If the staff of the planes is fully charged, the wielder can deliberately snap the staff, causing it do shatter into thousands of pieces but opening a gate to a plane of the wielder\u00e2\u0080\u0099s choice. This can only be used for planar travel, and the connection lasts for 1 minute, without requiring the wielder\u00e2\u0080\u0099s concentration. If used in this way, the staff cannot be repaired or restored. CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells planar adaptation, planar binding, plane shift; Cost 31,980 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_the_planes",
+          "value": {
+            "value": 63960
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_the_planes",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

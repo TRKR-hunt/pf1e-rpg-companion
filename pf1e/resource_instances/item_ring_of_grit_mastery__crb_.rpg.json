@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_grit_mastery__crb_",
+    "name": {
+      "value": "Ring of grit mastery"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration and evocation; CL 3rd; Slot ring; Price 6,840 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring is made out of fused firearm bullets, making it a chunky but overall impressive ring. Twice per day, as a free action, when the wearer regains grit, she can choose to store it in the ring of grit mastery instead of regaining the grit point. She can store up to 2 grit points within the ring in this way. She can spend the grit points stored in the ring either of the following ways. Once per day, without the need to take an action to do so, the wearer can spend 1 grit point stored in the ring to grant herself a +2 insight bonus to initiative. Once per day, as a standard action, the wearer of the ring can spend 2 grit points stored within the ring to activate a bullet shield as the spell. Any grit points stored in the ring disappear at the start of each day. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells anticipate peril, bullet shield; Special creator must have the grit class feature; Cost 3,420 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_grit_mastery",
+          "value": {
+            "value": 6840
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

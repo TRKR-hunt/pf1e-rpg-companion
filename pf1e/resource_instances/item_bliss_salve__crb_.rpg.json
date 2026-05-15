@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bliss_salve__crb_",
+    "name": {
+      "value": "Bliss Salve"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,800 gp; Weight 1/2 lb.; Slot none; CL 3rd; Aura faint enchantment DESCRIPTION This minty-smelling salve is commonly used by elves to render unsuspecting victims more susceptible to magical manipulation, typically to glean information from them in intricate revenge plots. When applied to the skin as a standard action \u00e2\u0080\u0094usually incorporated into a massage or cosmetic procedure\u00e2\u0080\u0094bliss salve creates a sense of mild euphoria that lasts for 10 minutes ( Will DC 14 negates). The salve can be applied to an unwilling creature as a melee touch attack. A creature affected by bliss salve must attempt a concentration check to cast spells (DC = 15 + the spell\u00e2\u0080\u0099s level). Additionally, the victim rolls twice and takes the lower result on saving throws against divinations, enchantments, and illusions. This is a mind-affecting poison effect. CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Wondrous Item; Spells touch of idiocy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bliss_salve",
+          "value": {
+            "value": 4800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

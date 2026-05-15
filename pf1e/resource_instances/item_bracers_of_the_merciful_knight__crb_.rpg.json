@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracers_of_the_merciful_knight__crb_",
+    "name": {
+      "value": "Bracers of the merciful knight #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot wrists; Price 15,600 gp; Weight 1 lb. DESCRIPTION These golden bracers are engraved with images of celestial creatures. When worn by a paladin, he is considered four levels higher for the purposes of determining the uses per day and healing provided by his lay on hands class feature. Additionally, once per day, the wearer can infuse a use of lay on hands with additional power, providing relief as a lesser restoration spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cure serious wounds, lesser restoration; Cost 7,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracers_of_the_merciful_knight",
+          "value": {
+            "value": 15600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracers_of_the_merciful_knight",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

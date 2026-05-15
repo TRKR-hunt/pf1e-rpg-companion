@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "javelin_of_lightning__crb_",
+    "name": {
+      "value": "Javelin of lightning"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Weight 2 lbs.; Price 1,500 gp DESCRIPTION This javelin becomes a 5d6 lightning bolt when thrown ( Reflex DC 14 half). It is consumed in the attack. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells lightning bolt; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_javelin_of_lightning",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_javelin_of_lightning",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

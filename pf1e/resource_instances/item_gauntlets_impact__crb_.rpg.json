@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_impact__crb_",
+    "name": {
+      "value": "Gauntlets, Impact"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,500 gp; Slot hands; CL 5th; Weight 1 lb.; Aura faint transmutation DESCRIPTION These gauntlets are made of worn leather; the palms are smooth, but the wrists and backs of the gauntlets are covered in rough pebbles of various shapes and colors. The wearer can catch Small, Medium, or Large rocks and similar projectiles as if she possessed the rock catching monster ability, as long as she has at least one hand free. A rock caught by the wearer shrinks and is permanently absorbed into the gauntlets. A wearer who also possesses the rock catching ability can catch rocks twice per round instead of once. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item; Spells shrink item"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_impact",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_impact",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

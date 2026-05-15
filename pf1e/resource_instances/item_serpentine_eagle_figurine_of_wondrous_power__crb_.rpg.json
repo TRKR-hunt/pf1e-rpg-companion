@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "serpentine_eagle_figurine_of_wondrous_power__crb_",
+    "name": {
+      "value": "Serpentine Eagle Figurine of Wondrous Power"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,100 gp DESCRIPTION This variant of the serpentine owl can be transformed into an eagle or giant eagle but is otherwise identical to the owl figurine. Serpentine eagles are popular for scouting and emergency transportation. CONSTRUCTION REQUIREMENTS Feats Cost 4,550 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_serpentine_eagle_figurine_of_wondrous_power",
+          "value": {
+            "value": 9100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

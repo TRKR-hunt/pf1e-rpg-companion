@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_apprentice_s_cheating__crb_",
+    "name": {
+      "value": "Apprentice\u2019s cheating gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot hands; Price 2,200 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These nondescript white gloves are a boon to minor spellcasters and fakes who are limited or lacking in magical ability or versatility. The wearer of these gloves can employ mage hand and prestidigitation at will. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mage hand, prestidigitation; Cost 1,100 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_apprentice_s_cheating",
+          "value": {
+            "value": 2200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

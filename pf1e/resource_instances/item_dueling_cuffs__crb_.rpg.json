@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dueling_cuffs__crb_",
+    "name": {
+      "value": "Dueling Cuffs"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot wrists; CL 3rd; Weight 1 lb.; Aura faint abjuration DESCRIPTION These tight-fitting mithral bracers grant the wearer a +1 deflection bonus to AC. This bonus increases to +2 if the wearer is wielding one or more weapons that benefit from the Weapon Finesse feat. In a duel, the wielder doesn\u2019t take the normal \u20135 penalty when using the dueling parry action. In addition, the wielder can attempt to deflect ranged attacks from firearms with a dueling parry, but takes a \u20135 penalty on such attempts. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bullet shield, cat\u2019s grace; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dueling_cuffs",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dueling_cuffs",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

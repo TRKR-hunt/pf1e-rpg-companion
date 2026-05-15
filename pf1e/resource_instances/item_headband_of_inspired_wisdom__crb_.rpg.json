@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_inspired_wisdom__crb_",
+    "name": {
+      "value": "Headband of inspired wisdom #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot headband; Price 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); Weight 1 lb. DESCRIPTION This simple bronze headband is decorated with an intricate pattern of fine green etchings. The headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, owl\u2019s wisdom; Cost 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6) Editor\u00e2\u0080\u0099s Note The original entry for the Headband of Inspired Wisdom in the Pathfinder Core Rulebook described it as \u00e2\u0080\u009cdecorated with an intricate pattern of small green gemstones\u00e2\u0080\u009d. Ultimate Equipment changed this detail of the headband\u00e2\u0080\u0099s decoration."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_inspired_wisdom",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_inspired_wisdom",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

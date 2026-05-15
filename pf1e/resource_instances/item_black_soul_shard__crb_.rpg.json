@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "black_soul_shard__crb_",
+    "name": {
+      "value": "Black soul shard #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 7th; Weight \u00e2\u0080\u0094; Slot none; Price 12,000 gp DESCRIPTION This dark gem attunes itself to the soul of its bearer. When carried close to the body of a creature continuously for 1 week, the gem harmlessly absorbs a portion of that creature\u2019s life essence. If separated from its bearer for at least 1 day, the gem loses this attunement. If the bearer gains one or more negative levels, the black soul shard absorbs one of these negative levels into itself, negating the effect. The black soul shard can only absorb a negative level if carried by the person it is attuned to. If an attuned black soul shard is used as an additional focus component for raising the attuned creature from the dead, the negative level cost of being raised is one less than normal (minimum 1), but only if the spell is cast within 24 hours of the creature\u2019s death. Absorbing a negative level (whether from an attack or raising the attuned creature from the dead ) destroys the portion of the soul within a black soul shard. This does not harm the creature, but requires re-attuning the gem for another week for it to function again. A creature can only have one black soul shard attuned to it at a time. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, death ward, restoration; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_black_soul_shard",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

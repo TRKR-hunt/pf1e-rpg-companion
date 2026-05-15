@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bag_of_rust__crb_",
+    "name": {
+      "value": "Bag of Rust"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,400 gp; Slot none; CL 7th; Weight 1/2 lb.; Aura moderate transmutation DESCRIPTION This dull-red cloth pouch is magically sealed and contains fine grains of a powdery substance. As a ranged touch attack, the user can throw the pouch at a creature or object within 30 feet. On a hit, the bag breaks open and showers the target with the powder. If the target is wearing metal armor, the bag of rust rapidly corrodes the armor, lowering its armor bonus by 1d6 (to a minimum bonus of 0). If the target is a ferrous creature or a metal object, the bag deals 3d6+7 points of damage. The user can target a creature\u2019s metal weapon with the thrown bag, but the user takes a \u00e2\u0080\u009310 penalty on such ranged touch attacks, as weapons are more difficult to hit. Metal weapons struck by the bag are destroyed. Magic items made of metal are immune to this effect. If the bag misses its target, use the rules for when splash weapons miss to determine where it lands. If it lands on a metal surface, the bag damages that surface as described above, but it deals no splash damage\u201d to adjacent creatures. CONSTRUCTION REQUIREMENTS Cost 700 gp; Feats Craft Wondrous Item; Spells rusting grasp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bag_of_rust",
+          "value": {
+            "value": 1400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

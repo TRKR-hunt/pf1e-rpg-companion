@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_of_twisting_vines__crb_",
+    "name": {
+      "value": "Gauntlets of Twisting Vines"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot hands; CL 3rd; Weight 2 lbs.; Aura faint transmutation DESCRIPTION These wrist wraps are actually dark, thorny vines that constantly move and twist around the wearer\u2019s hands of their own accord. The wearer gains a +2 circumstance bonus on combat maneuver checks to disarm, grapple, and steal. Once per day when the wearer successfully pins a foe with a grapple check, the vines can move off the wearer (ending the circumstance bonus on combat maneuver checks), envelop the target, and tie it up. A tied-up victim can escape the vines by succeeding at a combat maneuver or Escape Artist check with a DC equal to the result of the combat maneuver check that pinned the victim. The character who was wearing the gauntlets when they were used to envelop a target can remove them from the target as a move action. Any other creature must succeed at a combat maneuver or Strength check at the same DC to pry the gauntlets loose of an enveloped target. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item, Improved Grapple; Spells entangle"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_of_twisting_vines",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_of_twisting_vines",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

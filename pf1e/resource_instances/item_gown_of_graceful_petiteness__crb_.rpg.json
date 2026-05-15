@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gown_of_graceful_petiteness__crb_",
+    "name": {
+      "value": "Gown of Graceful Petiteness"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,500 gp; Slot body; CL 1st Weight 1 lb.; Aura faint transmutation APPEARANCE These fine dresses are delicately woven with magically preserved and layered leaves. EFFECTS A Medium humanoid who takes 1 interrupted minute to don a gown of graceful petiteness is, at the end of that time, immediately reduced to Small size. This acts as reduce person, except that it does not grant a size bonus to Dexterity or resize items on the wearer\u00e2\u0080\u0099s person other than the gown itself. Taking off the gown also requires 1 interrupted minute and returns the gown and its wearer to their original sizes. CONSTRUCTION REQUIREMENTS Cost 1,750 gp; Feats Craft Wondrous Item; Spells reduce person; Special creator must be an elf"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gown_of_graceful_petiteness",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gown_of_graceful_petiteness",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

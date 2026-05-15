@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "agile_alpenstock__crb_",
+    "name": {
+      "value": "Agile alpenstock #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight 1 lb.; Slot none; Price 2,000 gp DESCRIPTION This gnarled wooden walking stick aids a creature\u2019s travel, granting a +5 foot enhancement bonus to speed and a +2 enhancement bonus to CMD against trip attempts and on saving throws to avoid being tripped. These bonuses apply as long as the agile alpenstock is held in hand. It can be wielded in combat as a quarterstaff. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, longstrider; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_agile_alpenstock",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_agile_alpenstock",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

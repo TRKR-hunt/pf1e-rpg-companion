@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "soothing_stole__crb_",
+    "name": {
+      "value": "Soothing Stole"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,500 gp; Slot shoulders; CL 3rd; Weight 2 lbs.; Aura faint enchantment EFFECTS While wearing this stole, the wearer gains a +2 competence bonus on Diplomacy checks to improve someone\u00e2\u0080\u0099s attitude and on wild empathy checks to improve an animal\u00e2\u0080\u0099s attitude. Three times per day on command, the wearer can activate the stole to gain a 20-foot radius aura of either calm animals or calm emotions for 1 minute ( Will DC 13 negates). The stole also functions as cold weather clothing. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells calm animals, calm emotions"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_soothing_stole",
+          "value": {
+            "value": 6500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_soothing_stole",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

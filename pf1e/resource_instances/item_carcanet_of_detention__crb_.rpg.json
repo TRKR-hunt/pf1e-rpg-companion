@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "carcanet_of_detention__crb_",
+    "name": {
+      "value": "Carcanet of detention #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 4th; Slot neck; Price 7,200 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Comprised of thick iron links, the carcanet of detention is commonly worn by prison guards and elite members of the city watch. Once per day, the wearer of the carcanet may command it to animate and attempt to wrap around one Medium or smaller creature within 15 feet. The target receives a DC 15 Reflex saving throw to avoid the chain. If the saving throw fails, the target is entangled and cannot move from its current location. As a full-round action, the target can attempt a new saving throw to end the effect; otherwise it persists for 10 minutes or until ended by the wearer as a swift action, at which point it returns to its carcanet form. The chain has a hardness of 10 and 15 hit points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, animate rope; Cost 3,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_carcanet_of_detention",
+          "value": {
+            "value": 7200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

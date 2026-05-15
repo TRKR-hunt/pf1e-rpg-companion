@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "monocle_eldritch_scholar_s__crb_",
+    "name": {
+      "value": "Monocle, Eldritch Scholar\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot eyes; CL 3rd; Weight \u00e2\u0080\u0094 Aura faint divination DESCRIPTION This lens, mounted in a round electrum frame, fits snugly over the wearer\u00e2\u0080\u0099s eye. Upon donning the monocle, the user sees a swirl of arcane sigils through the lens, but the sensation quickly fades. The monocle allows the user to decipher magical inscriptions, as per read magic. Once worn for 24 consecutive hours, an eldritch scholar\u00e2\u0080\u0099s monocle also protects the user from anything dangerous to read or view. While wearing the monocle, whenever the user triggers a curse effect, an effect that causes sanity loss, or a magic trap (such as explosive runes or sepia snake sigil ) simply by reading or viewing an object, the monocle\u00e2\u0080\u0099s glass starts shaking, pulling the wearer\u00e2\u0080\u0099s attention away from the dangerous details in the object. This allows the wearer to roll any saving throw against such an effect twice and take the better result. This effect functions only once per day. For the remainder of the day, everything viewed through the lens appears blurred and distorted, and the read magic effect no longer functions. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells augury, read magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_monocle_eldritch_scholar_s",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_performance__crb_",
+    "name": {
+      "value": "Staff of performance"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 8th; Slot none; Price 48,800 gp; Weight 5 lbs. DESCRIPTION Soon after falling into the hands of a new owner, this piece of finely varnished cedar develops ornamental brass keys, strings, or other decorations that make it look like a stylized version of its owner\u00e2\u0080\u0099s favorite type of musical instrument. It allows use of the following spells: Calm emotions (1 charge) Glibness (1 charge) Hypnotic pattern (1 charge) Pyrotechnics (1 charge) Enthrall (2 charges) Major image (2 charges) Sculpt sound (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells calm emotions, enthrall, glibness, hypnotic pattern, major image, pyrotechnics, sculpt sound; Cost 24,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_performance",
+          "value": {
+            "value": 48800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_performance",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

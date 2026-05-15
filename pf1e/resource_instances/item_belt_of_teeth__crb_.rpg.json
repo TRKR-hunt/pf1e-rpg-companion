@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_teeth__crb_",
+    "name": {
+      "value": "Belt of teeth #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot belt; Price 4,000 gp; Weight 3 lbs. DESCRIPTION The brass buckle on this stout leather belt is fashioned to resemble three demonic faces. Once each round, this belt\u00e2\u0080\u0099s buckle can animate, lashing out at a creature that provokes an attack of opportunity within 5 feet. This attack uses its wearer\u00e2\u0080\u0099s base attack bonus and Strength modifier, with a +4 competence bonus. It deals damage as a bite attack made by a creature of its wearer\u00e2\u0080\u0099s size (1d6 for a Medium wearer; see Table: Natural Attacks by Size ) plus the wearer\u00e2\u0080\u0099s Strength modifier. This belt does not add to the normal number of attacks the wearer can make in a round; it offers another way in which to make attacks of opportunity. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, magic fang; Cost 2,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_teeth",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_teeth",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

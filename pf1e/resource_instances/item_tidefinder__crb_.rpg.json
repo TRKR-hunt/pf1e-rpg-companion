@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tidefinder__crb_",
+    "name": {
+      "value": "Tidefinder"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Slot none; Price 2,000 gp; Weight 1/2 lb. DESCRIPTION This delicate spherical blood coral compass has a longer outer needle and a shorter inner needle. When the holder activates it, the outer needle points in the direction of the nearest tide or current within 1 mile, changing color from red to violet to indicate the relative distance (red meaning within 30 feet and violet meaning almost 1 mile away) and the inner needle points in the direction of the tide or current, changing color from red to violet based on the relative speed (red meaning extremely turbulent, up to 200 feet per round, and violet meaning less than 5 feet per round). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells locate object, slipstream; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tidefinder",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "maidens_promise__crb_",
+    "name": {
+      "value": "Maiden's Promise"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp (pair); Slot neck; CL 3rd Weight -; Aura faint divination DESCRIPTION Each pair of these lockets is made from a piece of jewelry that was split into two parts, each of which was fashioned into a necklace. When worn by two individuals, the lockets\u2019 magic enhances their devotion to each other. When the wearers of linked maiden\u2019s promise lockets are within 30 feet of each other, each gains a +1 morale bonus on Will saves against any effect that would compromise her loyalty to the other. If one wearer becomes helpless, the other gains a +1 morale bonus on attack rolls against any creature threatening the helpless wearer. If one wearer dies, the other must succeed at a DC 16 Will save or suffer the effects of crushing despair for 1 minute. CONSTRUCTION REQUIREMENTS Cost 250 gp (pair); Feats Craft Wondrous Item; Spells resistance, status"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_maidens_promise",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

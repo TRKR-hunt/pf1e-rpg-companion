@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_shield__crb_",
+    "name": {
+      "value": "Shield cloak"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 4th; Slot shoulders; Price 1,000 gp; Weight 1 lb. DESCRIPTION The wearer of this rough, gray cloak can, as a move action, grasp the garment\u00e2\u0080\u0099s edge and cause it to harden. The wearer can use the hardened edge it as if it were a masterwork light wooden shield. Using the cloak in this fashion imposes no armor check penalty, but does impose a 5% arcane spell failure chance. The edge of the cloak can be dropped and made pliant again as a free action. Shield enhancement bonuses and special abilities can be added to the cloak as if it were a masterwork shield. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Craft Magic Arms and Armor; Spells shield; Cost 500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_shield",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_shield",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

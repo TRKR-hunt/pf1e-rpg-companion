@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "captains_eye_patch__crb_",
+    "name": {
+      "value": "Captain\u00e2\u0080\u0099s Eye Patch"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 46,000 gp; Slot eyes; CL 11th Weight \u00e2\u0080\u0094; Aura moderate divination APPEARANCE This black velvet eye patch is attached to an onyx chain that is worn around the head. EFFECTS The eye patch grants its wearer darkvision with a range of 60 feet. Additionally, as a standard action, the wearer can speak the eye patch\u00e2\u0080\u0099s command word to see through powerful magical darkness, such as an area of deeper darkness, for up to 11 minutes per day. This duration need not be used all at once, but it must be used in 1-minute increments. Ending this effect is a free action. CONSTRUCTION REQUIREMENTS Cost 23,000 gp; Feats Craft Wondrous Item; Spells darkvision, true seeing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_captains_eye_patch",
+          "value": {
+            "value": 46000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

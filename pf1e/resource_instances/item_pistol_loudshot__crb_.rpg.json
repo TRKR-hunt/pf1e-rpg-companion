@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pistol_loudshot__crb_",
+    "name": {
+      "value": "Pistol, Loudshot"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,530 gp; Slot none; CL 3rd; Weight 4 lbs.; Aura faint necromancy DESCRIPTION This brass-colored +1 double-barreled pistol has a dark oaken grip and ornate musical motifs etched into the entire surface. Three times per day, when the wielder fires a loudshot pistol at a creature within 20 feet, she can command the pistol to emit a sonic boom at the creature, permanently deafening it if it fails a DC 13 Fortitude save. If the wielder fires both barrels of this pistol in the same round she commands it to deafen a creature, the DC of the Fortitude save increases to 15. If the wielder is a gunslinger with the pistol-whip deed, she can also command a loudshot pistol to deafen the creature she is pistol-whipping. This counts toward the total number of times per day she can use this ability with the pistol. CONSTRUCTION REQUIREMENTS Cost 6,290 gp; Feats Craft Magic Arms and Armor; Spells blindness/deafness; Special crafter must be a gunslinger with the pistol-whip deed"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pistol_loudshot",
+          "value": {
+            "value": 10530
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pistol_loudshot",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

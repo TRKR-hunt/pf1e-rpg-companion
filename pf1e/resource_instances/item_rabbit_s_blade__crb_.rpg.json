@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rabbit_s_blade__crb_",
+    "name": {
+      "value": "Rabbit's Blade"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 22,307 gp; Slot none; CL 7th; Weight 1 lb.; Aura moderate evocation DESCRIPTION The blade of this unassuming longsword is permanently broken, snapped at an angle halfway along the blade. In spite of this, the sword can be wielded as a +2 short sword without penalty. As long as the wielder of a rabbit\u2019s blade is threatening two or more foes and he has no allies within 15 feet, he gains the use of the Cleave feat. If he is threatening three or more foes and has no allies within 30 feet, the wielder gains the use of the Great Cleave feat instead. Each threatened foe must have Hit Dice equal to or greater than 1/2 the wielder\u2019s character level in order to count toward this weapon\u2019s ability. CONSTRUCTION REQUIREMENTS Cost 11,307 gp; Feats Cleave, Craft Magical Arms and Armor, Great Cleave; Spells divine power"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rabbit_s_blade",
+          "value": {
+            "value": 22307
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rabbit_s_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grim_helm__crb_",
+    "name": {
+      "value": "Helm, Grim"
+    },
+    "source": {
+      "value": "the_dead_roads"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 48,000 gp; Slot head; CL 3rd; Weight 4 lbs.; Aura faint enchantment DESCRIPTION The matte surface of this pitted gray helm seems to absorb light, rather than reflect it. The skull mask that serves as its visor is a constant reminder of the fate that awaits all mortals. The wearer of the helm is immune to fear effects but cannot gain the benefit of any morale bonuses. A creature that comes within 20 feet of the wearer must succeed at a Will save (DC 14) or lose the benefit of morale bonuses while it remains in that area. A creature that succeeds at this saving throw is immune to this ability for 24 hours. CONSTRUCTION REQUIREMENTS Cost 24,000 gp; Feats Craft Wondrous Item, calm emotions"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grim_helm",
+          "value": {
+            "value": 48000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_grim_helm",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

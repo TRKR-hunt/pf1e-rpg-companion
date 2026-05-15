@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "noble_s_vigilant_pillbox__crb_",
+    "name": {
+      "value": "Noble\u2019s vigilant pillbox #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Weight \u00e2\u0080\u0094; Slot none; Price 3,600 gp DESCRIPTION This heart-shaped charm is set with three pearls: one white, one silver, and one black. Inside, a tiny compartment usually contains smelling salts or alchemist\u2019s kindness. Each pearl has a primary, passive ability and a secondary, active ability that activates if it is removed from the setting and swallowed (a standard action, as if drinking a potion ). Swallowing a pearl destroys it. A command word activates the primary abilities of all three pearls for 1 round. When activated, the white pearl detects poison in a 10-foot radius around the wearer, dulling to a dark gray if poison is within range. If swallowed, it grants the benefit of a delay poison spell. The silver pearl detects diseases in a 10-foot radius, turning bright blue on discovery. If swallowed, it grants the benefit of a remove disease spell. The black pearl turns white if any invisible creature is within 10 feet of the wearer. If swallowed, it grants the benefits of see invisibility for 1 minute. A pillbox found with missing pearls has its price reduced appropriately; a white pearl is worth 750 gp, a silver pearl is worth 1,150 gp, and a black pearl is worth 1,700 gp. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, delay poison, detect poison, remove disease, see invisibility; Cost 1,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_noble_s_vigilant_pillbox",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

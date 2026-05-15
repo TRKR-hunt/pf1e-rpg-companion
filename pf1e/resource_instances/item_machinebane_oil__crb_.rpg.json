@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "machinebane_oil__crb_",
+    "name": {
+      "value": "Oil, Machinebane"
+    },
+    "source": {
+      "value": "construct_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 750 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint transmutation DESCRIPTION This vial of shimmering violet unguent is an effective weapon against constructs crafted from metal. A creature can throw the vial at a construct as a ranged touch attack with a range of 20 feet. On a hit, the oil immediately penetrates the metal construct and wreaks havoc on its inner workings. The construct must succeed at a DC 15 Reflex save or become staggered for the next 5 rounds. If the construct fails the initial save, it must attempt an additional save at the beginning of its turn for the next 5 rounds, taking 2 points of Dexterity damage on each failure. A construct struck by machinebane oil immediately loses the benefits of energizing salve. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item; Spells disable construct"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_machinebane_oil",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

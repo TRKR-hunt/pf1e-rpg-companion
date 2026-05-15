@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shrinking_berries__crb_",
+    "name": {
+      "value": "Shrinking Berries"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 300 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura weak transmutation DESCRIPTION These berries cause animals that eat them to transform into smaller and far less dangerous versions of themselves, as per the spell pup shape ( Fortitude DC 14 negates), except other creatures do not need to attempt Will saves to attack the transformed animal and the effect lasts for 24 hours. These berries can be concealed in meat or other typical foods of an animal\u2019s diet. CONSTRUCTION REQUIREMENTS Cost 150 gp; Feats Craft Wondrous Item; Spells pup shape"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shrinking_berries",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

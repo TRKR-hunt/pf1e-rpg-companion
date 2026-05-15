@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bookmark_of_deception__crb_",
+    "name": {
+      "value": "Bookmark of deception #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 5th; Weight \u00e2\u0080\u0094; Slot none; Price 1,500 gp DESCRIPTION This bookmark alters the book that holds it so that it appears to be another book entirely, even upon a thorough reading. The apparent book is determined when the bookmark is crafted, and is usually an especially boring or commonplace book such as a legal or religious text. The bookmark also protects itself and the book with nondetection. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, nondetection, secret page; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bookmark_of_deception",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

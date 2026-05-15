@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tunic_of_careful_casting__crb_",
+    "name": {
+      "value": "Tunic of careful casting #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 3rd; Slot chest; Price 5,000 gp; Weight 1 lb. DESCRIPTION This woolen garment is decorated with a pattern of linked chains embroidered in silver and black thread. It assists the wearer with maintaining focus during spellcasting, granting a +2 bonus on Concentration checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Combat Casting; Cost 2,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tunic_of_careful_casting",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tunic_of_careful_casting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

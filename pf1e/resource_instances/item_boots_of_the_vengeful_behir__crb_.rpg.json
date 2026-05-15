@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_the_vengeful_behir__crb_",
+    "name": {
+      "value": "Boots of the Vengeful Behir"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,400; Slot feet; CL 5th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION These heavy boots are made of blue leather. Three times per day, when the wearer speaks the command word, he can attempt a bull rush the following round as if one size category larger than normal. If the target of the bull rush is a dragon, the wearer is treated as if two size categories larger than normal. This bull rush attempt does not provoke attacks of opportunity. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells enlarge person; Cost 2,700 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_the_vengeful_behir",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

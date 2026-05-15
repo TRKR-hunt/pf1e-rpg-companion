@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_luck__crb_",
+    "name": {
+      "value": "Elixir of Luck"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Slot none; Price 3,600 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Note: This magic item grants characters additional hero points or allows the possibility of recovering points as they are spent. See Hero Points for full details. This golden elixir grants good luck to the imbiber. After drinking the elixir, the character gains 3 hero points that must be used within 1 hour. These hero points do not count against the imbiber\u00e2\u0080\u0099s limit. They can only be used to aid the imbiber. They cannot be used to aid the rolls of others. A character cannot benefit from more than one elixir of luck in a 1-month period. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, heroic fortune; Cost 1,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_luck",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

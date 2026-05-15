@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_rootsense__crb_",
+    "name": {
+      "value": "Boots, Rootsense"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot feet; CL 5th; Weight 1 lb.; Aura faint transmutation DESCRIPTION Twigs sprout from these tall brown boots. On command, while the wearer is on the ground, ghostly roots grow from the boots\u2019 soles into the ground, granting their wearer tremorsense 30 feet for as long the wearer remains on the ground in the same space. While the roots are active, the boots provide two additional benefits. When the wearer is the target of a bull rush or trip attempt, living roots momentarily sprout from the boots into the earth, granting the wearer a +4 bonus to CMD to resist the attempt. The wearer also benefits from the flexibility of a living willow branch, gaining a +4 circumstance bonus on combat maneuver or Escape Artist checks to escape a grapple or slip bonds. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Craft Wondrous Item; Spells entangle"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_rootsense",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_rootsense",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

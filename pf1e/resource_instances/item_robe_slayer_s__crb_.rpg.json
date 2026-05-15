@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_slayer_s__crb_",
+    "name": {
+      "value": "Robe, Slayer's"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot body; CL 9th; Weight 5 lbs.; Aura moderate divination DESCRIPTION This ragged, brown robe could be mistaken for a monk\u2019s cassock, but the devotees who wear it are dedicated only to the art of killing. This robe grants the wearer a +5 competence bonus on Stealth checks and Sleight of Hand checks to conceal a weapon, and a +1 resistance bonus on all saving throws. If worn by a slayer, the resistance bonus on saving throws increases to match the slayer\u2019s studied target bonus when he is facing a studied target. On command, the robe\u2019s wearer is able to turn into a brown mist (as the gaseous form spell) for up to 5 minutes per day. This duration doesn\u2019t need to be continuous, but must be used in 1-minute increments. While the wearer is in this form, the bonus on Stealth checks increases to +10. The wearer can end this effect as a standard action. CONSTRUCTION REQUIREMENTS Cost 7,500 gp; Feats Craft Wondrous Item; Spells gaseous form, guidance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_slayer_s",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_slayer_s",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

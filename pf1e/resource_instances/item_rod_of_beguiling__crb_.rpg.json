@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_beguiling__crb_",
+    "name": {
+      "value": "Rod of beguiling"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot none; Price 18,000 gp; Weight 5 lbs. DESCRIPTION This eye-catching rod is bedecked with glittering spangles. The wielder gains a +5 competence bonus on Bluff and Sleight of Hand checks, as well as on opposed Charisma checks to give commands to charmed creatures.. A rod of beguiling allows a bard\u2019s fascinate, suggestion, and mass suggestion bardic performance to take effect as if she were 5 levels higher, and grants a +5 bonus on a bard\u2019s Perform checks when using distraction. CONSTRUCTION REQUIREMENTS Craft Rod, hypnotism; Cost 9,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_beguiling",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_beguiling",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

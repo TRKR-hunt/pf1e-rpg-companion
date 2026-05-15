@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "doll_hexing__crb_",
+    "name": {
+      "value": "Hexing doll"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 5th; Weight 1 lb.; Slot none; Price 2,500 gp DESCRIPTION This malevolent-looking doll is made out of cheap rags and embroidery thread and is stuffed with straw or sawdust. A creature holding or carrying the doll takes a \u00e2\u0080\u00944 penalty on saving throws against witch hexes. Alternatively, if the doll is stuffed with the hair of a creature, any witch holding the doll increases the DC of her hexes by +2 when using the hexes against that creature. A doll used in this way does not cause the witch to take a penalty on her saving throws. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bestow curse; Cost 1,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_doll_hexing",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_doll_hexing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

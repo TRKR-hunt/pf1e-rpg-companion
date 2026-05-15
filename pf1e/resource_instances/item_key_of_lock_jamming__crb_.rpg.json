@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "key_of_lock_jamming__crb_",
+    "name": {
+      "value": "Key of lock jamming #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 1st; Slot none; Price 400 gp; Weight 1/2 lb. DESCRIPTION This ornate brass key automatically reshapes itself to fit any standard keyhole (generally those in doors scaled for use by Small or Medium creatures, not deliberately oversized locks like the main door to a dwarven fortress). Once placed inside a lock, the key merges with the lock and fills up all open spaces within it, creating a solid piece of metal and making it impossible to unlock it, even with magic. While securing the lock, the key strengthens its materials, adding +2 to the lock\u2019s hardness, 8 to its hit points, and +5 to its Break DC. Touching the key and speaking the command word causes the key to disintegrate, leaving the lock intact and rendering the mechanism operable again. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, hold portal; Cost 200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_key_of_lock_jamming",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

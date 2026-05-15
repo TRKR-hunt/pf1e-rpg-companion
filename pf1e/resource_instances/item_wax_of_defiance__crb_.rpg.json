@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wax_of_defiance__crb_",
+    "name": {
+      "value": "Wax of Defiance"
+    },
+    "source": {
+      "value": "curse_of_the_ladys_light"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot none; Weight \u00e2\u0080\u0094; Price 1,200 gp DESCRIPTION This waxy amber substance is typically stored in a lidded container that holds 10 applications. One application is enough to plug both of a creature\u2019s ears\u00e2\u0080\u0094applying the wax is a standard action. Once applied, the wax imparts a \u00e2\u0080\u00932 penalty on Perception checks, but imparts a +4 resistance bonus on all saving throws against charm or language-dependent compulsion effects, like charm monster, command, and suggestion. If placed in the ears of a willing or helpless creature currently under a charm or language-dependent compulsion effect, the dose immediately allows the creature to make a new saving throw against the original effect to throw off the charm or compulsion effect (although without the normal +4 bonus granted by the wax if used when a creature is first targeted by such an effect). A single dose of wax of defiance lasts for 1 hour once applied. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, break enchantment, silence; Cost 600 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wax_of_defiance",
+          "value": {
+            "value": 1200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

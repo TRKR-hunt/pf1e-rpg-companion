@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "traveling_masters_turban__crb_",
+    "name": {
+      "value": "Traveling Master's Turban"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot head; CL 3rd; Weight 1 lb.; Aura faint transmutation DESCRIPTION This turban consists of 30 feet of cloth held in place by a brooch. The owner can command the turban to tie or untie itself as a move action. When the turban is tied on the wearer\u2019s head, the wearer gains the benefits of endure elements. Once per day when the turban is untied, the owner can use the fabric to perform a rope trick (as per the spell rope trick ). In addition, the owner can spend 1 ki point as a swift action to cast animate rope. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells animate rope, endure elements, rope trick"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_traveling_masters_turban",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_traveling_masters_turban",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "forbearers_grace__crb_",
+    "name": {
+      "value": "Forbearer\u00e2\u0080\u0099s Grace"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,400 gp; Slot neck; CL 7th; Weight \u2014; Aura moderate transmutation DESCRIPTION This circular amulet is formed from three elegantly curved golden rods and has a deep yellow topaz in its center. When worn, the amulet provides a +2 resistance bonus on Fortitude saves against poisons and ongoing effects from poisons. If at any point any of the wearer\u2019s ability scores would be reduced to 1 due to ability score damage from poison, the amulet immediately shatters and the wearer benefits from a casting of restoration. This effect does not cure any poisons still affecting the wearer, but it destroys the amulet. CONSTRUCTION REQUIREMENTS Cost 2,700 gp; Feats Craft Wondrous Item; Spells restoration, neutralize poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_forbearers_grace",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

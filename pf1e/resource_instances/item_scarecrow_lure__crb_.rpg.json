@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scarecrow_lure__crb_",
+    "name": {
+      "value": "Scarecrow Lure"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "DESCRIPTION CONSTRUCTION REQUIREMENTS Price 850 gp; Slot none; CL 1st; Weight 40 lbs.; Aura faint illusion and transmutation DESCRIPTION This life-sized scarecrow is garbed in old clothing and armor. At its center is the real skeleton of a former adventurer. A scarecrow lure is enchanted to writhe and cry out for help as if wounded. The lure\u2019s voice is usually that of the adventurer whose remains are inside, though the creator may choose any voice when creating the item. Anyone who hears or sees a scarecrow lure can attempt a DC 11 Will save to disbelieve the effect. Activating a scarecrow lure is a standard action that doesn\u2019t provoke attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Craft Wondrous Item; Spells mage hand, ventriloquism"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scarecrow_lure",
+          "value": {
+            "value": 850
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scarecrow_lure",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

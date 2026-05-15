@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "burrower_s_bridle__crb_",
+    "name": {
+      "value": "Burrower's Bridle"
+    },
+    "source": {
+      "value": "people_of_the_sands"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot neck; CL 9th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION This metal-studded bridle can be attached to any creature with a burrow ing speed that is made friendly or helpless. The bridle grants anyone who mounts the bridled creature a +4 competence bonus on Ride, Handle Animal, and wild empathy checks to control the bridled creature. An equipped burrow er\u2019s bridle allows the user to calm and train (with Handle Animal or wild empathy ) any creatures with a burrow speed and an Intelligence score of less than 3\u00e2\u0080\u0094not just animals or magical beasts. The bridle also allows a creature riding a burrow ing creature to accompany it underground while it burrow s, but does not grant the ability to breathe underground. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells charm monster, passwall"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_burrower_s_bridle",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_burrower_s_bridle",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

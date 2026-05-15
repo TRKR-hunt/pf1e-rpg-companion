@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_the_commanding_conjurer__crb_",
+    "name": {
+      "value": "Gloves of the commanding conjurer #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 7th; Slot hands; Price 30,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These gloves grant the wearer greater control over his summoned creatures. As long as he wears the gloves, creatures conjured by the wearer can understand him as if they shared a common language. This communication is not two-way and does not grant the wearer the ability to understand the creature. Three times per day, the wearer can attempt to take control of a summoned creature within 50 feet as if using control summoned creature ( Will DC 16). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, comprehend languages, control summoned creature; Cost 15,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_the_commanding_conjurer",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

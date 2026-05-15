@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gravewatcher_chainmail__crb_",
+    "name": {
+      "value": "Gravewatcher Chainmail"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination, evocation, and necromancy; CL 7th; Slot armor; Price 5,380 gp; Weight 40 lbs. DESCRIPTION This blue-white +1 deathless chainmail is made of an intricate pattern of light and dark links that form a spiral-shaped design on the armor\u2019s chest. The wearer can use detect undead, disrupt undead, and light each once per day CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells death ward, detect undead, disrupt undead, light; Price 2,840 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gravewatcher_chainmail",
+          "value": {
+            "value": 5380
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gravewatcher_chainmail",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

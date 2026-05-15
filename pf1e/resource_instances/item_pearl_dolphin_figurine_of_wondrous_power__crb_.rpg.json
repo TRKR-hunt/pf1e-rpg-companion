@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pearl_dolphin_figurine_of_wondrous_power__crb_",
+    "name": {
+      "value": "Pearl Dolphin Figurine of Wondrous Power"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,600 gp; Slot none; CL 11th; Weight 5 lbs.; Aura moderate enchantment and transmutation DESCRIPTION This 2-inch-long pearl figurine turns into a dolphin on command (but it retains its composition, which gives it hardness 10). The dolphin follows the verbal commands of the creature who spoke the command word and will follow commands as a summoned creature. With a second command word, the dolphin will swim to an indicated location at double its swim speed, bearing a message just like a creature affected by an animal messenger spell. The pearl dolphin can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments. CONSTRUCTION REQUIREMENTS Cost 3,800 gp; Feats Craft Wondrous Item; Spells animal messenger, animate objects"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pearl_dolphin_figurine_of_wondrous_power",
+          "value": {
+            "value": 7600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pearl_dolphin_figurine_of_wondrous_power",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

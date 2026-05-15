@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_vaulting__crb_",
+    "name": {
+      "value": "Boots of Vaulting"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,500 gp; Slot feet; CL 3rd; Weight 1 lb.; Aura faint transmutation DESCRIPTION The wearer of these suede boots ignores an additional 10 feet of falling distance when she successfully uses Acrobatics to soften a fall. Once per round as a free action, the wearer can use the boots to gain a +10 competence bonus on an Acrobatics check to jump, treating such jump as though she had a running start. The wearer also receives this +10 competence bonus on Acrobatics checks to avoid attacks of opportunity during the jump or to balance after landing. Using the boots in this fashion strains the lower body. If the wearer attempts a second such jump before at least 1 minute has passed, she must succeed at a Fortitude save with a DC equal to the DC of her second jump attempt or injure her legs. This injury reduces her speed by half for 24 hours, or until she is successfully treated with a DC 15 Heal check or at least 1 point of magical healing. The DC of the Fortitude save increases by 5 for each additional jump attempted until at least 1 minute passes between jumps. CONSTRUCTION REQUIREMENTS Cost 1,750 gp; Feats Craft Wondrous Item; Spells cat\u2019s grace, jump"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_vaulting",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_vaulting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

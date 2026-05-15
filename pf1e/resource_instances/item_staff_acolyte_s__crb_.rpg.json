@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_acolyte_s__crb_",
+    "name": {
+      "value": "Staff, Acolyte's"
+    },
+    "source": {
+      "value": "advanced_class_origins"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 21,600 gp; Slot none; CL 8th; Weight 1 lb.; Aura moderate varies DESCRIPTION These slender crystal shafts span 4 to 5 feet in length, with facets covered in deeply etched white runes of unknown make. The staff\u2019s holder is protected by a continuous feather fall effect. Additionally, the staff contains the following spells: Shocking grasp (1 charge) Levitate (2 charges) Fly (4 charges) CONSTRUCTION REQUIREMENTS Cost 10,800 gp; Feats Craft Staff; Spells fly, levitate, shocking grasp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_acolyte_s",
+          "value": {
+            "value": 21600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_acolyte_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

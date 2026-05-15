@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "devil_s_key__crb_",
+    "name": {
+      "value": "Devil's Key"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration, conjuration, and evocation; Slot none; CL 17th; Weight 5 lbs.; Price 66,750 gp DESCRIPTION Forged with a wicked barbed end that resembles a key, this +2 redeemed longsword was once the unholy sword of a diabolist \u00e2\u0080\u0094before a party of adventurers retrieved it from his corpse and repurposed the weapon for good. The devil\u2019s key is designed to permanently slay evil outsiders by bringing the fight to their plane of origin so they can be killed outright. Once per day as a swift action after a successful attack against an evil outsider, the wielder can activate the sword to plane shift the wielder and the target of the attack to the creature\u2019s home plane. The targeted outsider can resist this effect with a successful DC 20 Will save. Once the target of this ability is slain by the wielder, the sword activates another plane shift as an immediate action that brings the wielder back to the exact spot it previously left. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells consecrate, holy smite, plane shift; Special creator must be good; Cost 33,533 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_devil_s_key",
+          "value": {
+            "value": 66750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_devil_s_key",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

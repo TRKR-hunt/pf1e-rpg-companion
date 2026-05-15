@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_balanced_grip__crb_",
+    "name": {
+      "value": "Ring of Balanced Grip"
+    },
+    "source": {
+      "value": "adventurer_s_armory_2"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,600 gp; Slot ring; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This sturdy ring allows the user to ignore the nonproficiency penalty for using a particular type of improvised weapon, such as a crowbar or pitchfork, and grants a +1 enhancement bonus on attack rolls with that item as though it were a masterwork weapon. CONSTRUCTION REQUIREMENTS Cost 800 gp; Feats Forge Ring; Spells masterwork transformation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_balanced_grip",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

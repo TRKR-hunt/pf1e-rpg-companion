@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "resilient_ore__crb_",
+    "name": {
+      "value": "Resilient Ore"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 3rd Slot neck; Price 4,200 gp; Weight 5 lbs. DESCRIPTION This lumpy piece of unforged iron originates from metal that remained cool after smelting, resisting all attempts to forge it into another shape. It is sometimes used as a mace head or as a counterweight to a greatsword or other large weapon. This item is associated with a specific god or goddess. When worn, you gain fire resistance 1 and +1 resistance bonus on Will saving throws. If you are a worshiper of the associated god or goddess, once per day you may use this to cast chill metal. At will, you may use it to mend small metallic items as if using a mending spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, chill metal, mending, resistance, resist energy; Cost 2,100 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_resilient_ore",
+          "value": {
+            "value": 4200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_resilient_ore",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

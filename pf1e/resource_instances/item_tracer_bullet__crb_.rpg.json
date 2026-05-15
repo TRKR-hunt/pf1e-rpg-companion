@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tracer_bullet__crb_",
+    "name": {
+      "value": "Tracer bullet"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 2nd; Weight \u00e2\u0080\u0094; Price 100 gp DESCRIPTION These +1 firearm bullets deal no damage, but instead cause a pale glow to outline the target, granting the effect of a faerie fire spell and causing the target to take a \u00e2\u0080\u00932 penalty to AC against ranged attacks. These effects last for 1d4 rounds. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells faerie fire; Cost 50 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tracer_bullet",
+          "value": {
+            "value": 100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

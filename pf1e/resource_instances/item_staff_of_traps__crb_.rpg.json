@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_traps__crb_",
+    "name": {
+      "value": "Staff of traps"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 8th; Slot none; Price 56,925; Weight 5 lbs. DESCRIPTION The tip of this dark wooden shaft holds a piece of hard, chalk-like stone between black, clawlike protrusions. The staff allows use of the following spells: Alarm (1 charge) Magic mouth (1 charge) Phantom trap (1 charge) Explosive runes (2 charges) Fire trap (2 charges) Sepia snake sigil (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells alarm, explosive runes, fire trap, magic mouth, phantomn trap, sepia snake sigil; Cost 36,525 gp."
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_traps",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

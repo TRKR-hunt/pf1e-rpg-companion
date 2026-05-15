@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mammoth_hide_1__crb_",
+    "name": {
+      "value": "Mammoth Hide"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,165 gp; Slot armor; CL 6th; Weight 30 lbs.; Aura moderate abjuration and transmutation DESCRIPTION This +2 hide armor is made from woolly mammoth hide. It seems to move with and bolster the wearer, and has only a \u00e2\u0080\u00931 armor check penalty. Once per round, when the wearer makes a successful charge attack, the mammoth hide deals an additional 3d6 points of damage to the target. This damage isn\u2019t multiplied on a critical hit or by effects that multiply the damage of a charge, such as Spirited Charge. Mammoth hide also protects the wearer from cold environments as the endure elements spell. CONSTRUCTION REQUIREMENTS Cost 4,165 gp; Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, endure elements"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mammoth_hide_1",
+          "value": {
+            "value": 8165
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mammoth_hide_1",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

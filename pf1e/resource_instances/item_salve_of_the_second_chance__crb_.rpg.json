@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "salve_of_the_second_chance__crb_",
+    "name": {
+      "value": "Salve of the Second Chance"
+    },
+    "source": {
+      "value": "guide_to_the_river_kingdoms"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot none; Price 1,600 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Under tutelage from Embeth Forest sprites, Mother Nightmoss developed this potent salve from the distillation of nightmoss. When smeared on a body or body part from a recently deceased creature, the salve mimics the effects of a reincarnate spell. If this salve is used on a creature during the night of a new moon, roll twice on the reincarnate table and have the recipient player or NPC choose his preferred result. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, reincarnate; Cost 800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_salve_of_the_second_chance",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

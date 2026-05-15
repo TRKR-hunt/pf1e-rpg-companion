@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "transport_token__crb_",
+    "name": {
+      "value": "Transport Token"
+    },
+    "source": {
+      "value": "the_emerald_spire_superdungeon"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 7th; Slot none; Price 600 gp; Weight \u2014 DESCRIPTION This small token is a thumb-sized cylinder of unbreakable greenish glass. A transport token allows the bearer to use the transport function of a local dungeon. The bearer can teleport to a level only if she knows and speaks its identifying rune. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells dimension door; Special a small shard chipped from the associated dungeon; Cost 300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_transport_token",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

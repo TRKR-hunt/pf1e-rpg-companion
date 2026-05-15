@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boarding_pike_of_repelling__crb_",
+    "name": {
+      "value": "Boarding Pike of Repelling"
+    },
+    "source": {
+      "value": "the_wormwood_mutiny"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot none; Price 4,308 gp; Weight 9 lbs. DESCRIPTION This +1 boarding pike is an 8-foot-long pole topped with a tapered metal spear -point and a backward-facing hook, used to draw vessels closer together or repel boarders. A metal skull caps the butt of the pike. On command, a boarding pike of repelling can be extended as a swift action, giving its wielder a reach of 20 feet for 1 round. While the pike is extended, the wielder does not threaten adjacent creatures or creatures up to 15 feet away. A boarding pike of repelling can also be extended in this way to draw vessels closer together for boarding. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells wood shape; Cost 2,308 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boarding_pike_of_repelling",
+          "value": {
+            "value": 4308
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boarding_pike_of_repelling",
+          "value": {
+            "value": 9
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

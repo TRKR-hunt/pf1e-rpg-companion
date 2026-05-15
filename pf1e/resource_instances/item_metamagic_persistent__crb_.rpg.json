@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "metamagic_persistent__crb_",
+    "name": {
+      "value": "Persistent spell"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong (no school); CL 17th; Slot none; Price 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); Weight 5 lbs. DESCRIPTION The wielder can cast up to three spells per day as though using the Persistent Spell feat. CONSTRUCTION REQUIREMENTS Feats Craft Rod, Persistent Spell; Cost 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater) FYI: Lesser and Greater Metamagic Rods Normal metamagic rods can be used with spells of 6th level or lower. Lesser rods can be used with spells of 3rd level or lower, while greater rods can be used with spells of 9th level or lower."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_metamagic_persistent",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_metamagic_persistent",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

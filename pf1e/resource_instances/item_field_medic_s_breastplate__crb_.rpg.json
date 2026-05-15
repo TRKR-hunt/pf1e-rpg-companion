@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "field_medic_s_breastplate__crb_",
+    "name": {
+      "value": "Field Medic's Breastplate"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration, faint conjuration; Slot armor; CL 7th; Weight 30 lbs.; Price 52,900 gp DESCRIPTION This battered yet lovingly polished breastplate is marked by three chipped glass circles set over the heart, each of a different color. Three times per day, the wearer of this +1 breastplate may tap one of the three chipped glass circles to activate it, enveloping her in a shimmering aura that protects her from harm. The wearer gains DR 10/\u00e2\u0080\u0094 and is protected if she were under the effects of a globe of invulnerability spell. The effect ends as soon as the wearer makes an offensive action or casts an offensive spell, or after 1 minute. In addition, whenever the wearer casts a cure spell or administers a cure potion while under this effect, she may add one additional die to the total amount of damage healed. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells cure light wounds, sanctuary; Cost 26,450 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_field_medic_s_breastplate",
+          "value": {
+            "value": 52900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_field_medic_s_breastplate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

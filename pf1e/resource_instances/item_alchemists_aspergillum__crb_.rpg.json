@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "alchemists_aspergillum__crb_",
+    "name": {
+      "value": "Alchemist\u00e2\u0080\u0099s Aspergillum"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,805 gp; Slot none; CL 3rd; Weight 4 lbs.; Aura faint abjuration DESCRIPTION This +1 battle aspergillum has a dappled surface and a hollow interior, and it\u00e2\u0080\u0099s made from a corrosion-resistant alloy that allows it to contain certain alchemical weapons. If the aspergillum is filled with one of these alchemical weapons, treat the contents as holy water, except that it deals the corresponding energy damage: acid (acid or alkali flask ), cold (liquid ice), electricity (bottled lightning), fire ( alchemist\u00e2\u0080\u0099s fire), or sonic (burst jar). If the wielder is an alchemist, the aspergillum can function in this way an additional number of attacks equal to his Intelligence bonus before it needs to be refilled. CONSTRUCTION REQUIREMENTS Cost 1,402 gp; Feats Craft Magic Arms and Armor; Spells resist energy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_alchemists_aspergillum",
+          "value": {
+            "value": 2805
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_alchemists_aspergillum",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

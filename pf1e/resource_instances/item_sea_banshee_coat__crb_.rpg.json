@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sea_banshee_coat__crb_",
+    "name": {
+      "value": "Sea Banshee Coat"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and transmutation; CL 3rd; Slot armor; Price 3,605 gp; Weight 20 lbs. DESCRIPTION This +1 studded leather is styled like a captain\u2019s jacket with long, sturdy leather tails that cover the wearer\u2019s thighs, and it is festooned with steel studs crafted to look like gold coins. The wearer can use abundant ammunition and purify food and drink each once per day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells abundant ammunition, purify food and drink; Price 1,890 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sea_banshee_coat",
+          "value": {
+            "value": 3605
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sea_banshee_coat",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charmer_s_kiss__crb_",
+    "name": {
+      "value": "Charmer's Kiss"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 750 gp; Weight \u00e2\u0080\u0094; Slot none; CL 7th Aura moderate enchantment DESCRIPTION This small stick of colored wax is encased in a wooden cylinder to allow for easier application to the lips. As a standard action, a dose of charmer\u00e2\u0080\u0099s kiss can be applied to the user\u00e2\u0080\u0099s lips; this dose lasts for 4 hours or until discharged. During that time, the user can deliver the lipstick to one target creature as a standard action (for willing targets) or a melee touch attack. The target of this attack must succeed at a DC 16 Will saving throw or be affected by charm monster for 7 minutes. A target of a creature type different from the wearer receives a +2 bonus on this saving throw. One stick of charmer\u00e2\u0080\u0099s kiss has enough wax for 3 doses. This is a mind-affecting charm and poison effect. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells charm monster"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charmer_s_kiss",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

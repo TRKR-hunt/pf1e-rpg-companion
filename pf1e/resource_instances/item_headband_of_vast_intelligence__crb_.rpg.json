@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_vast_intelligence__crb_",
+    "name": {
+      "value": "Headband of vast intelligence #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot headband; Price 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); Weight 1 lb. DESCRIPTION This intricate gold headband is decorated with several small blue and deep purple gemstones. The headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer\u2019s total Hit Dice. These ranks do not stack with the ranks a creature already possesses. These skills are chosen when the headband is created. If no skill is listed, the headband is assumed to grant skill ranks in randomly determined Knowledge skills. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, fox\u2019s cunning; Cost 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6) \u00c2 FAQ/Errata If I wear a headband of vast intelligence, do I get retroactive skill ranks for my Int increase in addition to the skill ranks associated with the item? No. The skill associated with the magic item represents the \u201cretroactive\u201d skill ranks you\u2019d get from the item increasing your Intelligence. You don\u2019t get the item\u2019s built-in skill ranks and another set to assign however you want. [ Source ]"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_vast_intelligence",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_vast_intelligence",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

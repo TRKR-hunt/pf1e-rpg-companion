@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "catskin_leather__crb_",
+    "name": {
+      "value": "Catskin leather"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 13th Weight 15 lbs.; Price 18,910 gp DESCRIPTION Rather than the hide of a cat, this extremely supple suit of jet-black +1 shadow leather armor grants a portion of the grace and fortune of a feline. It has no armor check penalty or maximum Dexterity bonus. The wearer receives a +5 competence bonus on Acrobatics checks and takes only half normal damage from falling. When the wearer\u2019s hit points would be reduced to a negative amount equal to her Constitution score from an attack or spell, the armor falls to pieces and is destroyed, and the wearer takes only half damage from the attack or spell. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells cat\u2019s grace, feather fall, and limited wish, wish, or miracle; Cost 9,535 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_catskin_leather",
+          "value": {
+            "value": 18910
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_catskin_leather",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

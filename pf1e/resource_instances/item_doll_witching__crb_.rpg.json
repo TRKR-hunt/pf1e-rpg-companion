@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "doll_witching__crb_",
+    "name": {
+      "value": "Doll, Witching"
+    },
+    "source": {
+      "value": "blood_of_the_coven"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot none; CL 5th; Weight 1 lb.; Aura moderate abjuration DESCRIPTION A spellcaster binds herself to a witching doll through an hour-long ritual in which the owner stitches some of her hair and fingernails into the rag doll\u2019s mouth. Thereafter, the owner can concentrate to see and hear as if she were the doll for up to 1 hour at a time; doing so leaves the owner blind and deaf to her body\u2019s immediate surroundings. While concentrating, the spellcaster imparts a modicum of animation to the doll, allowing it to turn its head, gesture, and speak in hushed whispers. Extraordinary senses such as darkvision function through this link, but magical senses such as arcane eye and detect magic do not. Once per day, the owner can cast a single spell with a range of touch or greater from the witching doll instead of herself. Many hags use this ability to make a witching doll seem mundane by casting magic aura, or they transform it into a distant minion with animate object. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Craft Wondrous Item, enter image or scare hex"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_doll_witching",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_doll_witching",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pestilence_clasp__crb_",
+    "name": {
+      "value": "Pestilence Clasp"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 8th; Slot neck; Price 8,000 gp; Weight \u2014 DESCRIPTION This dark iron pin used to fasten a cloak or cape is the shape of a fly with glittering fragments of soul gems for eyes and is usually crafted by those who venerate the Horseman of Pestilence. Once per day as a standard action, the wearer can exhale a cloud of black flies in a 15-foot cone. Any creature caught in the cone takes 8d6 points of slashing damage as the flies bite its flesh. A successful DC 18 Reflex save halves this damage. If a living creature takes damage from these flies, it must also succeed at a DC 18 Fortitude save or be sickened for 1 minute. Daemons are immune to these effects CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells vomit swarm; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pestilence_clasp",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

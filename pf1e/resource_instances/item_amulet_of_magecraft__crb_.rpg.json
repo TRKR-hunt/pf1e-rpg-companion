@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_magecraft__crb_",
+    "name": {
+      "value": "Amulet of magecraft #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate universal; CL 9th; Slot neck; Price 20,000 gp; Weight 2 lbs. DESCRIPTION Each silver link that makes up this heavy necklace represents a well-known concept of arcane theory. EFFECT A universalist wizard who selects the amulet as his bonded object may choose one school of spells each day when he prepares spells. He then can use the necklace to spontaneously convert any prepared wizard spell of that school into any other wizard spell of that school he knows; the desired spell must be of the same level or lower than the prepared spell. For example, if the wizard chose \u00e2\u0080\u009c evocation \u00e2\u0080\u009d when he prepared his spells that morning, until the next time he prepares spells, he can spontaneously convert a prepared fireball into any other evocation wizard spell of 3rd level or lower that he knows. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, permanency; Special creator must be a universalist; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_magecraft",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_of_magecraft",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

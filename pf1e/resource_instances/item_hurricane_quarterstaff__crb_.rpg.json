@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hurricane_quarterstaff__crb_",
+    "name": {
+      "value": "Hurricane quarterstaff"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd; Weight 4 lbs.; Price 7,840 gp DESCRIPTION This +1/+1 quarterstaff is hollow, drilled through with numerous tiny holes, and whistles when swung and spun. Once per day as a standard action, the wielder may spin the hurricane quarterstaff and create a gust of wind (DC 13 Fort negates). A monk or ninja wielding a hurricane quarterstaff can also spend 1 ki point to activate the staff\u2019s gust of wind power; the save DC when activating this power with ki is equal to 12 + the wielder\u2019s Wisdom modifier. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells gust of wind; Cost 4,220 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hurricane_quarterstaff",
+          "value": {
+            "value": 7840
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hurricane_quarterstaff",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

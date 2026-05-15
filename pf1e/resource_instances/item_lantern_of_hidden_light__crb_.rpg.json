@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_of_hidden_light__crb_",
+    "name": {
+      "value": "Lantern of Hidden Light"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint evocation DESCRIPTION A lantern of hidden light can be an invaluable tool for one who wishes to see in darkened areas without being revealed to those accustomed to the darkness. This magical lantern can be activated with a touch to one of its crystal panes, and functions as a hooded lantern, save that this light (and what it illuminates) is visible only to the character who holds the lantern in one hand. To other observers, the lantern always appears unlit, and does not appear to be shedding any light at all. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells light"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lantern_of_hidden_light",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_of_hidden_light",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

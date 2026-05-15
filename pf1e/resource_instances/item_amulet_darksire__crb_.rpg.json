@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_darksire__crb_",
+    "name": {
+      "value": "Amulet, Darksire"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 3rd; Slot neck; Price 9,000 gp; Weight 1 lb. DESCRIPTION This small iron locket contains some token\u00e2\u0080\u0094a scale, a shaving of a horn or claw, or lock of burning hair\u00e2\u0080\u0094from a fiend. When worn by a tiefling, if he has cold, electricity, or fire resistance, this amulet increases that resistance by 5. Furthermore, it provides a +4 insight bonus on Diplomacy skill checks made to influence evil outsiders. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, resist energy; Special creator must be a tiefling, half-fiend, or true fiend; Cost 4,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_darksire",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_amulet_darksire",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_physical_perfection__crb_",
+    "name": {
+      "value": "Belt of physical perfection #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 16th; Slot belt; Price 16,000 gp (+2), 64,000 gp (+4), 144,000 gp (+6); Weight 1 lb. DESCRIPTION This belt has a large platinum buckle and grants the wearer an enhancement bonus to all physical ability scores ( Strength, Dexterity, and Constitution ) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bear\u00e2\u0080\u0099s endurance, bull\u00e2\u0080\u0099s strength, cat\u00e2\u0080\u0099s grace; Cost 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_physical_perfection",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_physical_perfection",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

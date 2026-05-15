@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_of_the_shining_truth__crb_",
+    "name": {
+      "value": "Lantern of the Shining Truth"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,400 gp; Slot none; CL 3rd Weight 2 lbs.; Aura faint conjuration and evocation APPEARANCE This lightweight iron lantern houses a citrine gemstone that shines brightly with arcane energy. EFFECTS The light is as a permanent light spell. The bearer can suppress the light or cause it to resume with a command word. Additionally, once per day by saying a different command word, the bearer can use the lantern to cast glitterdust in a 10-foot-radius spread. Any creature caught in the effect must succeed at a DC 15 Will saving throw or be blinded for 3 rounds. CONSTRUCTION REQUIREMENTS Cost 2,700 gp; Feats Craft Wondrous Item; Spells glitterdust, light"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lantern_of_the_shining_truth",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_of_the_shining_truth",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

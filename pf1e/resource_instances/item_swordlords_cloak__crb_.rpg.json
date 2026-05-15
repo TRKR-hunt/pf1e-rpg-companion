@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "swordlords_cloak__crb_",
+    "name": {
+      "value": "Swordlord's Cloak"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies: +1 bonus 4,000 gp, +2 bonus 16,000 gp, +3 bonus 37,000 gp, +4 bonus 64,000 gp, +5 bonus 100,000 gp; Slot shoulders; CL 5th; Weight 1 lb.; Aura faint abjuration and divination DESCRIPTION This exotic, fur-trimmed cloak is decorated with golden filigree. In addition to offering magical protection, the cloak guides a skilled wearer\u2019s blade to block attacks. A swordlord\u2019s cloak acts as a cloak of resistance. In addition, whenever the wearer is benefiting from the defensive parry class feature, he receives an insight bonus to his AC equal to the cloak\u2019s resistance bonus. CONSTRUCTION REQUIREMENTS Cost varies: +1 bonus 2,000 gp, +2 bonus 8,000 gp, +3 bonus 18,500 gp, +4 bonus 32,000 gp, +5 bonus 50,000 gp; Feats Craft Wondrous Item; Spells anticipate peril, resistance"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_swordlords_cloak",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

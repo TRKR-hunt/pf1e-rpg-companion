@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stormlure__crb_",
+    "name": {
+      "value": "Stormlure #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot neck; Price 5,400 gp; Weight \u00e2\u0080\u0094 DESCRIPTION A stormlure is usually fashioned from pieces of creatures known for their affinity to air\u00e2\u0080\u0094the feathers of birds, the shells of flying insects, and the scales of a dragon. When activated, stormlures call to the wind, causing a tempestuous gale. Once per day on command, the wearer of a stormlure is surrounding by swirling winds for 1 minute, granting a 50% miss chance against all ranged attacks, including rays and other ranged spells that require a roll to hit. This wind does not hinder the wearer of the stormlure in any way. At any one time during this duration, as a swift action, the wearer can cause the air around her to fill with crackling lightning, dealing 4d6 points of electricity damage to all creatures adjacent to her. A DC 14 Reflex save halves this damage. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, lightning bolt, wind wall; Cost 2,700 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stormlure",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

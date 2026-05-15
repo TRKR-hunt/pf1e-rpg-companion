@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "volcanic_shield__crb_",
+    "name": {
+      "value": "Volcanic shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Weight 10 lbs.; Price 14,170 gp DESCRIPTION This +1 bashing heavy steel shield burns with an internal fire upon its boss, gaining the flaming weapon special ability when used to make shield bash attacks. On command, the wielder can make the shield belch forth smoke as a smokestick, but this smoke does not impair the shield user\u2019s vision. Once per day, the wielder may cause the volcanic shield to erupt in a cascade of brimstone as the flaming hands spell. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, burning hands, pyrotechnics; Cost 7,170 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_volcanic_shield",
+          "value": {
+            "value": 14170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_volcanic_shield",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

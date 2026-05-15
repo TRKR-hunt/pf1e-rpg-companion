@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pain_ward_of_the_ostiarius__crb_",
+    "name": {
+      "value": "Pain Ward of the Ostiarius"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot neck; CL 5th; Weight 1/2 lb.; Aura faint necromancy DESCRIPTION This twisted and charred hunk of metal resembles a blacksmith apprentice\u00e2\u0080\u0099s failed work. It bears numerous sharp hooks and barbs. Rather than being suspended from a cord or chain, it grips directly onto the wearer\u00e2\u0080\u0099s chest with a life of its own. When the item attaches, the user permanently loses 1 hit point and gains a +10 circumstance bonus to resist any attempts to steal the pain ward of the ostiarius and to the DC of other attempts to remove it (such as with Sleight of Hand ). Once attached, this item can act as an unholy symbol for any evil deity and reshapes itself to match the symbol of an evil deity the wearer worships. If the unholy symbol is removed from the wearer, he takes 1d8 points of damage and 1 point of Constitution damage. The pain ward of the ostiarius grants an evil wearer a +4 profane bonus on any saving throws against spells and abilities with the pain descriptor. Once per day, the wearer can channel his pain into negative energy and inflict it on an unwilling victim. This is a touch attack that deals 1d8+5 points of negative energy damage and sickens the victim for 1d4 rounds. A successful DC 11 Fortitude saving throw halves the damage and negates the sicken effect. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells inflict light wounds, resistance; Special creator must be an evil worshiper of an evil deity"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pain_ward_of_the_ostiarius",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

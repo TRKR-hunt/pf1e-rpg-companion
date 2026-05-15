@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_of_the_four_elements__crb_",
+    "name": {
+      "value": "Lantern of the Four Elements"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies: standard 1,500 gp, greater 6,500 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint transmutation DESCRIPTION This bronze lantern has a square base and four glass panels, each of which represents one of the fundamental elements in the color, shape, and quality of the light that passes through it. EFFECTS The lantern shines light as per the light spell, and as long as the bearer carries it the lantern protects her from heat and cold as per endure elements. (The bearer can turn the lantern\u00e2\u0080\u0099s light off or on as a standard action.) In addition, while carrying the lantern, the bearer gains a +2 competence bonus on Spellcraft checks to identify spells with the air, earth, fire, or water descriptor and a +2 competence bonus on Knowledge (planes) checks to identify creatures that are native to the Elemental Planes. The greater version of this item also allows the bearer to use certain spell-like abilities. As a standard action, the bearer of a greater lantern of the four elements can press one of the lantern\u00e2\u0080\u0099s four panels to produce an effect: levitate for the air panel, resist energy (fire only) for the fire panel, air bubble for the water panel, and spider climb for the earth panel. Each panel can grant its effect only once per day. CONSTRUCTION REQUIREMENTS Cost varies: standard 750 gp, greater 3,250 gp; Feats Craft Wondrous Item; Spells endure elements, light ( standard lantern of the four elements ); Craft Wondrous Item; Spells endure elements, light, air bubble, levitate, resist energy, spider climb ( greater lantern of the four elements )"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_of_the_four_elements",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

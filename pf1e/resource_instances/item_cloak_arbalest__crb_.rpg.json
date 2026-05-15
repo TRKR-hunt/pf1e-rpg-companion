@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_arbalest__crb_",
+    "name": {
+      "value": "Cloak, Arbalest"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot shoulders; CL 9th; Weight 8 lbs.; Aura moderate transmutation DESCRIPTION Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky clothing. EFFECTS The wearer can activate this cloak as a swift action, causing the garment to splay outward for 1 round, its jagged hem protruding around the wearer in stiff, sharp points. While the cloak is active, the wearer counts as wearing masterwork armor spikes with which she is proficient, and she can walk on air (as though using the air walk spell). If she\u00e2\u0080\u0099s riding a mount, the air walk effect instead affects the mount while the cloak is active, and the mount can move with the item\u00e2\u0080\u0099s help even if it\u00e2\u0080\u0099s not specially trained to move with the aid of air walk. If the wearer (or her mount) isn\u00e2\u0080\u0099t standing on a solid surface by the end of the round, she immediately falls, taking any applicable falling damage. In addition, on her first successful charge attack during the round the cloak is active, the wearer deals an additional 1d6 points of piercing damage (1d4 if she is Small), plus another 1d6 (or 1d4 if she is Small) for every 20 feet the wearer traveled in a straight line during the charge (maximum 3d6). This cloak can be activated up to three times per day, but not more often than once per minute. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Craft Wondrous Item; Spells air walk, bull\u00e2\u0080\u0099s strength"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_arbalest",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_arbalest",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

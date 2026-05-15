@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_batrachian__crb_",
+    "name": {
+      "value": "Batrachian helm"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 10th; Slot head; Price 26,000 gp; Weight 3 lbs. DESCRIPTION This oily bronze helm is fashioned in the shape of a frog\u00e2\u0080\u0099s head. Three times per day as a swift action, the helm fires an unerring tongue of force at a visible target within 20 feet. If the target is an unattended object weighing 250 pounds or less, it is pulled 20 feet toward the wearer. If the target is a creature of the wearer\u00e2\u0080\u0099s size or smaller, the wearer may make a combat maneuver check as a free action to pull the target 20 feet toward him. If the target is a creature larger than the wearer, an unattended object weighing more than 250 pounds, or an immobile structure such as a wall, the wearer is pulled 20 feet toward the target. This movement does not provoke attacks of opportunity, and the object or creature stops if the movement would move it into a solid object or creature. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, telekinesis; Cost 13,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_batrachian",
+          "value": {
+            "value": 26000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_batrachian",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dragon_s_tail__crb_",
+    "name": {
+      "value": "Dragon's Tail"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,310 gp; Slot none; CL 13th; Weight 12 lbs.; Aura strong conjuration and transmutation DESCRIPTION This +2 dragonbane guisarme seems to vibrate with a low hum. On a successful hit, the target must succeed at a DC 20 Fortitude save or become staggered for 1 round. If the target is of the dragon type and the dragon fails its save, the creature is stunned for 1 round and staggered for 2 rounds thereafter. It is staggered for 1 round even on a successful save. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells resonating word, summon monster I; Cost 16,155 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dragon_s_tail",
+          "value": {
+            "value": 32310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dragon_s_tail",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

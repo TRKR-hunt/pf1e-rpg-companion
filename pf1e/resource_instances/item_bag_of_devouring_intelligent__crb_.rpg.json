@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bag_of_devouring_intelligent__crb_",
+    "name": {
+      "value": "Bag of Devouring, Intelligent"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 17th Slot none; Weight 15 lbs. STATISTICS Alignment chaotic evil Int 10, Wis 14, Cha 13, Ego 13 (17 against any non-demon) Senses 30 ft., blindsense Languages speech (Abyssal) DESCRIPTION Most bags of devouring appear as normal sacks, but this one is unlike most bags of devouring. Sporting rows of vicious teeth, a bad attitude, and a thirst to devour all things, this intelligent cursed item believes it is the favored maw and most important appendage of a fabled creature it refers to as the Eater of All. The bag hates all creatures except for demons, whom it considers kindred spirits of destruction. It has all of the magical abilities of a regular bag of devouring, along with the following additional powers. Bite: As a standard action, it\u00e2\u0080\u0099s possessor can swing the bag by its straps in an attempt to strike any target within a 5-foot radius. The possessor targets a single creature or unattended item with this attack. The bag (not the wielder) makes a single bite attack against the creature or item targeted: bite +14 (1d10+5 and bleed 2). This action does not provoke attacks of opportunity, despite it\u00e2\u0080\u0099s Tiny size. Attacks made in this way are never modified by the wielder\u00e2\u0080\u0099s abilities. Hateful Curse: When a non-demon is in possession of the bag, the bag\u00e2\u0080\u0099s cursed aura imparts a \u00e2\u0080\u00931 penalty on all of its wielder\u00e2\u0080\u0099s attack rolls, saving throws, skill checks, and ability checks. If the bag manages to seize control of a non-demon host through personality conflict, it directs its host to seek out victims to feed to it. CONSTRUCTION REQUIREMENTS bag of holding type III"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bag_of_devouring_intelligent",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

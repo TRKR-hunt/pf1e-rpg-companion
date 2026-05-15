@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "deaths_will__crb_",
+    "name": {
+      "value": "Death\u00e2\u0080\u0099s Will"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,600 gp; Slot hands; CL 7th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This black leather fingerless glove is etched with delicate patterns and extends up to the wearer\u2019s midforearm, fitting snugly without being so tight as to keep the skin from breathing. Situated subtly in the underside of the glove is a hidden needle. EFFECTS Wearing this glove grants the wearer a +4 competence bonus on Sleight of Hand checks to conceal poisons or toxins on her body. As a swift action, the wearer can fire poison from the needle in the glove, delivering a stream of poison to a target within 30 feet as a ranged touch attack. The needle can hold a single dose of poison at any time. Refilling the glove requires a full-round action that provokes attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 1,800 gp; Feats Craft Wondrous Item; Spells cat\u2019s grace, spit venom"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_deaths_will",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_deaths_will",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

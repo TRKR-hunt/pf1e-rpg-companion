@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "aspect_mask__crb_",
+    "name": {
+      "value": "Aspect Mask"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,500 gp; Slot head; CL 3rd; Weight 2 lbs.; Aura faint transmutation DESCRIPTION This leather mask is vaguely animalistic, and is inlaid with various primitive designs. Three times per day on command, the wearer gains the benefit of a single aspect of an animal attuned to the mask, as if by the hunter\u2019s animal focus class feature. Each mask is attuned to one type of animal from the animal focus list, chosen when the mask is created. CONSTRUCTION REQUIREMENTS Cost 3,250 gp; Feats Craft Wondrous Item; Special creator must have animal focus or wild shape class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_aspect_mask",
+          "value": {
+            "value": 6500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_aspect_mask",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

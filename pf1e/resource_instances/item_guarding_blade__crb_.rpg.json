@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "guarding_blade__crb_",
+    "name": {
+      "value": "Guarding blade"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 15th; Weight 2 lbs.; Price 65,310 gp DESCRIPTION This +1 dancing short sword automatically rises up to defend a fallen or sleeping wielder. To activate the sword, the wielder must fall unconscious or die while wielding the weapon or holding it in her hand. Thereafter, should any creature other than an ally of the wielder attempt to touch or strike him with a melee attack, the sword attacks that creature for up to 4 rounds. After 4 rounds, the weapon drops in the wielder\u2019s square. Unless the guarding blade is an intelligent item, it lacks the wits to make decisions about which is the best opponent to attack, and when confronted by multiple opponents attacking the wielder, it tends to select a random target each round. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells animate objects, mage\u2019s faithful hound; Cost 32,810 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_guarding_blade",
+          "value": {
+            "value": 65310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_guarding_blade",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

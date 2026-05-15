@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "oil_of_attraction__crb_",
+    "name": {
+      "value": "Oil of Attraction"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,700 gp; Slot none; CL 3rd; Weight 1/2 lb.; Aura faint necromancy DESCRIPTION This vial of foul-smelling unguent is a great boon for trackers and hunters. Each vial of oil is keyed to a particular kind of creature and functions only against such creatures. The kind of creature is fairly narrow. The most common kinds are demons, devils, dragons, hags, lycanthropes, and vampires, but others might have corresponding oils of attraction at the GM\u2019s discretion. Whenever a creature throws a vial at a target (treat this as a touch attack, like throwing a splash weapon without a splash radius), the vial shatters, coating the target on a direct hit. The foul slime drips off the coated creature, granting anyone trying to track it a +10 circumstance bonus on Survival checks. The scent of the oil grants anyone who can smell it a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against that creature, as well as a +1 bonus on attack and damage rolls against it. These bonuses stack with the favored enemy class feature. The oil lasts for 1 hour, during which no amount of washing with ordinary cleaning supplies can remove the slime from a creature. Only universal solvent denatures the oil. Bonuses from multiple oils of attraction don\u2019t stack. CONSTRUCTION REQUIREMENTS Cost 850 gp; Feats Craft Wondrous Item; Spells bestow curse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_oil_of_attraction",
+          "value": {
+            "value": 1700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

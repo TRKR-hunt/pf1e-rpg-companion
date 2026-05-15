@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "runechill_hatchet_1__crb_",
+    "name": {
+      "value": "Runefrost Hatchet"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot none; Price 5,312 gp; Aura moderate necromancy; CL 5th; Weight 6 lbs. DESCRIPTION Runefrost hatchets are sized for Large creatures, but resizes so it can be wielded by Medium creatures as battleaxes or Small creatures as greataxes. Their blades are jagged and carved with ancient runes, and the weapons always feel cold to the touch. A runefrost hatchet otherwise functions as a +1 battleaxe, but once per day as a free action, its wielder can cause the runes on the blade to flare up with flickering cold blue light. For the next 5 rounds, the axe deals an additional +1d6 points of negative energy damage on a hit. Any creature that takes any amount of this additional negative energy damage must also succeed at a DC 12 Fortitude save or take 1 point of Strength damage. An undead creature struck by a runefrost hatchet does not gain this negative energy as healing, but instead must make a DC 12 Will saving throw or flee as if panicked for 1d4+5 rounds. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor; Spells chill touch; Cost 2,812 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_runechill_hatchet_1",
+          "value": {
+            "value": 5312
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_runechill_hatchet_1",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

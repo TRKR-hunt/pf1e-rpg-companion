@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wasp_nest_of_swarming__crb_",
+    "name": {
+      "value": "Wasp nest of swarming #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Weight 4 lbs.; Slot none; Price 1,000 gp DESCRIPTION This is a hand-sized replica of a wasp\u2019s nest, crafted out of paper. It is extremely fragile and comes in a snug rigid case. If the nest is placed on the floor or ground, each time a creature passes through that square there is a 50% chance that it kicks or steps on the nest, triggering it. The nest may instead be thrown (range increment 10 feet), triggering when it strikes a hard surface or a creature. When triggered, the nest creates a wasp swarm that attacks the nearest creature and follows it until it is dead, the swarm is killed, or the swarm is unable to reach the target, at which point the swarm attacks the next nearest creature. If the swarm can\u2019t find any targets, it waits in place until another creature appears. The swarm dissipates 9 minutes after being released. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, insect plague; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wasp_nest_of_swarming",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wasp_nest_of_swarming",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

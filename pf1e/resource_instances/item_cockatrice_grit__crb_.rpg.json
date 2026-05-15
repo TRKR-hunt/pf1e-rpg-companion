@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cockatrice_grit__crb_",
+    "name": {
+      "value": "Cockatrice Grit"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 11th Slot none; Price 2,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This magical grit is used by flinging a dose at a creature within 15 feet by as a ranged touch attack. If the grit hits, the target takes 1d4 points of Dexterity damage and is slowed (as the spell) for 1 round as its body starts slowly turning to stone. Each round that follows, the victim can attempt a DC 17 Fortitude save at the start of its turn as a free action to end the effect; otherwise, it takes an additional 1d4 points of Dexterity damage and is slowed for 1 more round. This effect can last for a maximum of 11 rounds. If this Dexterity damage ever meets or exceeds the victim\u00e2\u0080\u0099s actual Dexterity score, the creature becomes petrified permanently, as if by flesh to stone. A dose of cockatrice grit is consumed when it is used, and doesn\u00e2\u0080\u0099t activate until it has been thrown\u00e2\u0080\u0094the grit can be handled safely. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, calcific touch or flesh to stone; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cockatrice_grit",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

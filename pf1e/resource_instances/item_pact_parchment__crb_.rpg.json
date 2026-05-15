@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pact_parchment__crb_",
+    "name": {
+      "value": "Pact Parchment"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 11th; Slot \u00e2\u0080\u0094; Price 3,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Written and signed in blood, a pact parchment ensures the utter and undeniable fulfillment of the actions stated within. Upon a pact parchment, you can inscribe a contract, defining a certain service or course of action by one or more creatures. If all listed creatures willingly (without magical influence, threats, and so on) sign this pact in blood, they are bound to fulfill this agreement. Henceforth everyone breaking the pact suffers a -4 penalty on attack rolls, saves, ability checks, and skill checks, until they either satisfy the pact\u2019s conditions (if still possible) or the parchment is destroyed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, geas/quest; Cost 1,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pact_parchment",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

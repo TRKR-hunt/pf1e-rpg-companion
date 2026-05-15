@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lock_of_formbinding__crb_",
+    "name": {
+      "value": "Lock of Formbinding"
+    },
+    "source": {
+      "value": "blood_of_the_coven"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 50,000 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate abjuration DESCRIPTION Forged from adamantine and silver, this heavy lock\u2019s shank is large enough to wrap around a humanoid ankle, magically resizing itself to fit any wearer. When the lock is placed on a creature, it immediately suppresses all magical polymorph effects or supernatural shapechanging effects (such as a lycanthrope\u2019s change shape ability) affecting the wearer, returning her to her true form. The lock of formbinding does not negate these effects, and creatures return to their altered form if the lock is removed before the effect\u2019s duration expires. Creatures targeted by a polymorph effect while wearing a lock of formbinding are affected for only a single round before the lock returns them to their true form. A creature wearing a lock of formbinding can likewise change its own shape, but it must succeed at a DC 16 Will saving throw at the end of each round or revert to its true form; the lock resizes to accommodate whatever new forms its wearer might temporarily assume. Attaching the lock of formbinding is a full-round action that provokes an attack of opportunity. Unwilling creatures must be unconscious, pinned, or helpless before the lock can be attached. The lock has hardness 20 and 20 hit points, and without the key, it can be removed only with a successful DC 30 Strength check, a DC 37 Escape Artist check, or DC 30 Disable Device check. CONSTRUCTION REQUIREMENTS Cost 25,000 gp; Feats Craft Wondrous Item, true form"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lock_of_formbinding",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lock_of_formbinding",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horn_wolf_caller_s__crb_",
+    "name": {
+      "value": "Horn, Wolf Caller\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot none; CL 11th; Weight 1 lb.; Aura moderate enchantment DESCRIPTION The user can sound this ornate silver horn as a normal signal horn. Once per day as a standard action, the user can make the horn emit an eerie, canine howl. The sound entices up to four wolves within 200 feet to answer the howl. This includes dire wolves, winter wolves, wolves, worgs, and dogs, as well as any creatures capable of turning into wolves with the change shape ability (such as barghests, vampires, or werewolves ). If there are more than four such creatures within the area, those that are closest to the user are affected first. The subjects can\u00e2\u0080\u0099t take any actions other than to howl, making them effectively dazed for 1 round. A successful DC 17 Will save negates this effect. The horn affects werewolves in any form, though werewolves who are aware of their condition receive a +5 bonus on the saving throw while in humanoid form. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells mass daze, mass suggestion"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horn_wolf_caller_s",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horn_wolf_caller_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

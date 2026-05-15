@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rose_knights_blade__crb_",
+    "name": {
+      "value": "Rose Knight's Blade"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 28,015 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate abjuration DESCRIPTION This elegant mithral sword bears a blooming rose on the crossguard, with vines winding around the hilt. A rose knight\u2019s blade is a +1 benevolent mithral longsword. Along with its benevolence special ability, this sword can also provide aid by metaphorically cutting through certain debilitating effects. Three times per day, the wielder of a rose knight\u2019s blade can attempt a new saving throw against one of the following conditions affecting her: dazed, frightened, nauseated, panicked, paralyzed, shaken, staggered, or stunned -but only if the condition was caused by a mind-affecting effect. Alternatively, the wielder can expend one daily use and touch the blade to an adjacent creature as a standard action to remove one of these mind-affecting conditions from the ally. CONSTRUCTION REQUIREMENTS Cost 15,015 gp; Feats Craft Magic Arms and Armor; Spells aid, break enchantment"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rose_knights_blade",
+          "value": {
+            "value": 28015
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rose_knights_blade",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sandals_of_interception__crb_",
+    "name": {
+      "value": "Sandals of Interception"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot feet; CL 13th; Weight 1 lb.; Aura strong abjuration DESCRIPTION These simple wooden sandals allow their wearer to step in the way of danger to protect her allies. Three times per day as an immediate action, the wearer can take a 5-foot step to move into the path of a ranged attack and treat herself as the target of the ranged attack that passes through her square for the purposes of Deflect Arrows, Snatch Arrows, Missile Shield, and other feats and abilities that allow her to deflect ranged attacks. If she lacks a feat or ability that would allow her to deflect the ranged attack, the wearer is instead simply struck by the attack regardless of the attack roll\u2019s result or her AC. The wearer can\u2019t take a 5-foot step during the turn after using this ability. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item, Deflect Arrows; Spells deflection"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sandals_of_interception",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sandals_of_interception",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

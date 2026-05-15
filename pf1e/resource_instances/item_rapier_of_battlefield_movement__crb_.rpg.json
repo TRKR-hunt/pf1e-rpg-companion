@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rapier_of_battlefield_movement__crb_",
+    "name": {
+      "value": "Rapier of Battlefield Movement"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,320 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION This +2 rapier has elegant lines and a stylish basket hilt. The wielder of this weapon gains a +5 competence bonus on Acrobatics checks made to move through an enemy\u2019s threatened area or through its space. As a swift action after hitting with a melee attack using this weapon, the wielder can spend 1 panache point to move 10 feet without provoking attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 15,350 gp; Feats Craft Magic Arms and Armor; Spells freedom of movement; Special creator must have 10 ranks in Craft (weapons)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rapier_of_battlefield_movement",
+          "value": {
+            "value": 30320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rapier_of_battlefield_movement",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

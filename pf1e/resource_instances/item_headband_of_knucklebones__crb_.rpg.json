@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_knucklebones__crb_",
+    "name": {
+      "value": "Headband of knucklebones #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 9th; Slot headband; Price 27,500 gp; Weight 1 lb. DESCRIPTION This headband is made of interlocked finger bones woven together by leathery tendons and gristle. The wearer may use command undead up to three times per day, but only affecting zombies. Once per day, the wearer may use the headband to animate one Medium zombie as if using animate dead. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, animate dead, command undead; Cost 13,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_knucklebones",
+          "value": {
+            "value": 27500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_knucklebones",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

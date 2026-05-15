@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "medallion_drowning__crb_",
+    "name": {
+      "value": "Medallion, Drowning"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot neck; CL 10th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION Often sold to traveling river-goers, this small stone disk is etched with the symbol of waves and affixed to a silver chain. If the wearer falls unconscious from drowning while wearing a drowning medallion, she can remain unconscious for up to 10 minutes before she must start attempting Constitution checks to avoid asphyxiation. One round after emerging from the substance that caused the wearer to drown (usually water), the wearer regains consciousness at 0 hit points and the medallion crumbles to dust. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells air bubble; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_medallion_drowning",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_medallion_drowning",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

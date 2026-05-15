@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "resin_sandsculpt__crb_",
+    "name": {
+      "value": "Resin, Sandsculpt"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Legacy of Fire Player\u2019s Guide Aura faint transmutation; CL 5th; Slot none; Price 500 gp per sheet; Weight 1 lb. per sheet DESCRIPTION This sticky, amber-colored resin comes sandwiched between two sheets of vellum. When you coat your hands with the resin, you gain the ability to sculpt sand as per the stone shape spell, but you cannot create items with moving parts and must sculpt the shape by hand. One use of resin allows you to shape up to 15 cubic feet of sand, requiring 1 minute per cubic foot sculpted. Sand shapes that cannot support themselves naturally (such as arches or overhangs) collapse after 1 hour, but stable shapes like thick walls or mounds persist indefinitely, barring vandalism or erosion. Once applied to your hands, the resin\u00e2\u0080\u0099s power lasts until you have sculpted 15 cubic feet of sand or 1 hour has passed. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, stone shape; Cost 250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_resin_sandsculpt",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_resin_sandsculpt",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "metamagic_rod_concussive__crb_",
+    "name": {
+      "value": "Concussive spell"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong (no school); CL 17th; Weight 5 lbs. Price varies by specific type: Lesser concussive metamagic rod 9,000 gp Concussive metamagic rod 32,500 gp Greater concussive metamagic rod 73,000 DESCRIPTION Up to three times per day the wielder can cast a spell with the sonic descriptor that causes those who take damage from that spell to take a \u00e2\u0080\u00942 penalty on attack rolls, saving throws, skill checks, and ability checks for a number of rounds equal to the actual spell level of the spell cast as though using the Concussive Spell feat. CONSTRUCTION REQUIREMENTS Feats Craft Rod, Concussive Spell Cost varies by specific type: Lesser concussive metamagic rod 4,500 gp Concussive metamagic rod 16,250 gp Greater concussive metamagic rod 36,500 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_metamagic_rod_concussive",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

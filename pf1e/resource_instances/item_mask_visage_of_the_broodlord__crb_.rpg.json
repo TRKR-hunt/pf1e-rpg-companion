@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_visage_of_the_broodlord__crb_",
+    "name": {
+      "value": "Mask, Visage of the Broodlord"
+    },
+    "source": {
+      "value": "lost_kingdoms"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 6th; Slot head; Price 9,600 gp; Weight 1 lb. DESCRIPTION Made of interwoven wicker strands and insect-excreted resin, these horrific masks have the appearance of demonic insects. The mask\u2019s wearer is rendered immune to swarms \u2018 distraction special attack. Additionally, once per day the wearer can transform into an insect as per the spell vermin shape I. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells vermin shape I; Cost 4,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_visage_of_the_broodlord",
+          "value": {
+            "value": 9600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_visage_of_the_broodlord",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

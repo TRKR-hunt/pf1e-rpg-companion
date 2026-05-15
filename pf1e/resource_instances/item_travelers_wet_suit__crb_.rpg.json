@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "travelers_wet_suit__crb_",
+    "name": {
+      "value": "Traveler's Wet Suit"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot body; Price 2,750 gp; Weight 3 lbs. DESCRIPTION This wet suit protects against environmental cold damage and hypothermia. Anything stored in its waterproof pockets is kept magically separate from any surrounding water, even if the wearer opens the pocket underwater. Finally, the wearer gains a +2 competence bonus on Swim checks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells endure elements; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_travelers_wet_suit",
+          "value": {
+            "value": 2750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_travelers_wet_suit",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

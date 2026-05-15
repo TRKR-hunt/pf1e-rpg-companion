@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_necromancy__crb_",
+    "name": {
+      "value": "Staff of necromancy"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy; CL 13th; Slot none; Price 82,000 gp; Weight 5 lbs. DESCRIPTION This staff is made from ebony or other dark wood and carved with images of bones and skulls mingled with strange spidery runes. It allows use of the following spells: Cause fear (1 charge) Ghoul touch (1 charge) Halt undead (1 charge) Enervation (2 charges) Waves of fatigue (2 charges) Circle of death (3 charges) CONSTRUCTION REQUIREMENTS Requirements Craft Staff, cause fear, circle of death, enervation, ghoul touch, halt undead, waves of fatigue; Cost 41,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_necromancy",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_necromancy",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

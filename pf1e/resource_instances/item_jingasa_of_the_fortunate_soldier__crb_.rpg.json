@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "jingasa_of_the_fortunate_soldier__crb_",
+    "name": {
+      "value": "Jingasa of the fortunate soldier #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong divination; CL 15th; Slot head; Price 5,000 gp; Weight 3 lbs. DESCRIPTION This conical iron jingasa, or war hat, grants the wearer a +1 deflection bonus to AC. When struck by a critical hit or sneak attack, the wearer can spend an immediate action to negate the critical hit or sneak attack (similar to the fortification armor special ability, but without requiring a roll). The damage is instead rolled normally. This ability functions only once, though the jingasa continues to grant its deflection bonus even after the other ability is expended. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, divine favor, moment of prescience; Cost 2,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_jingasa_of_the_fortunate_soldier",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_jingasa_of_the_fortunate_soldier",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

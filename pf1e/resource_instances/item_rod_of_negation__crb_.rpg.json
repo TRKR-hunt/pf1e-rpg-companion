@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_negation__crb_",
+    "name": {
+      "value": "Rod of negation"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varies; CL 15th; Slot none; Price 37,000 gp; Weight 5 lbs. DESCRIPTION This device negates the spell or spell-like function or functions of magic items. The wielder points the rod at the magic item, and a pale gray beam shoots forth to touch the target device, attacking as a ray (a ranged touch attack ). The ray functions as a greater dispel magic spell, except it only affects magic items. To negate instantaneous effects from an item, the rod\u2019s wielder needs to have a readied action. The dispel check uses the rod\u2019s caster level (15th). The target item gets no saving throw, although the rod can\u2019t negate artifacts (even minor artifacts). A rod of negation can function three times per day. CONSTRUCTION REQUIREMENTS Feats Craft Rod, dispel magic, limited wish or miracle; Cost 18,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_negation",
+          "value": {
+            "value": 37000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_negation",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

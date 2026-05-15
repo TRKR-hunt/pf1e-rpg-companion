@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coin_pathfinder_s__crb_",
+    "name": {
+      "value": "Coin, Pathfinder's"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot none; Price 1,500 gp; Weight \u2013 DESCRIPTION This apparently simple coin, usually styled to resemble ancient currency, hides intricate gold and platinum wires within. This matrix causes the Pathfinder\u00e2\u0080\u0099s coin to rise an inch into the air and slowly spin in place if placed atop a wayfinder. In addition, when levitating above a wayfinder, the coin can be given a message of 25 words or fewer. This message repeats in the speaker\u00e2\u0080\u0099s voice the next time the coin is floated above a wayfinder. Only one message may be stored at a time, and once it is triggered, the message is expended and a new one may be recorded. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, identify, levitate, magic mouth; Cost 750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coin_pathfinder_s",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

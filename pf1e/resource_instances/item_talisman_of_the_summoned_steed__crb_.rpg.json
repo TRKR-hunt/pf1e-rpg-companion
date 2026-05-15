@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "talisman_of_the_summoned_steed__crb_",
+    "name": {
+      "value": "Talisman of the Summoned Steed"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 1st; Slot none; Price 3,600 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This onyx talisman resembles a majestic black stallion covered in carved wavy lines and bearing a tiny twine bridle. When the command word is spoken, it transforms into a saddled and thoroughbred light horse that serves you willingly. The command word also returns it to talisman form. If slain, the horse reverts to talisman form and cannot be activated again for 24 hours. Each talisman\u00e2\u0080\u0099s horse form has a specific color (black, brown, gray, pinto, and so on) and markings (blazes, stars, stockings, etc.), chosen by the creator when the item is crafted. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mount; Special creator must have at least 2 ranks in Ride; Cost 1,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_talisman_of_the_summoned_steed",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

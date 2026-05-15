@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "nagaji_scale_polish__crb_",
+    "name": {
+      "value": "Nagaji Scale Polish"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Slot none; Price 1,400 gp; Weight 1/2 lb. DESCRIPTION This small clay urn contains a scintillating paste which works like imbue with spell ability, except the spell effect is not limited to cleric spells. Any caster may cast spells into the jar. The creature that applies the paste to its scales (a standard action ) gains the ability to cast the imbued spells (assuming it has enough Hit Dice and the requisite ability scores). Only a reptilian creature (such as a dragon or a humanoid with the reptilian subtype such as a nagaji ) can use the polish to cast spells. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, imbue with spell ability or mnemonic enhancer; Cost 700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_nagaji_scale_polish",
+          "value": {
+            "value": 1400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

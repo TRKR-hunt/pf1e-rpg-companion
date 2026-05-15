@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hooked_massacre__crb_",
+    "name": {
+      "value": "Hooked Massacre"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 22,325 gp; Slot none; CL 13th; Weight 10 lbs.; Aura strong transmutation DESCRIPTION This viciously barbed +1 spiked chain consists of a jagged hook at the end of a length of rusty chain. It twitches of its own accord, as if it had some semblance of cruel intelligence. As the wielder swings it, the chain contracts and expands with a seemingly endless supply of new links. As a free action, the wielder can cause the chain to expand, giving the weapon reach for 1 round. The weapon doesn\u00e2\u0080\u0099t threaten adjacent squares when it\u00e2\u0080\u0099s expanded. The wielder can\u00e2\u0080\u0099t reverse this change manually; he must wait for it to expire. If the wielder of a hooked massacre uses it for a drag or reposition combat maneuver that brings the target adjacent to him, he can make an attack against the target at his highest base attack bonus as an immediate action. CONSTRUCTION REQUIREMENTS Cost 11,325 gp; Feats Craft Magic Arms and Armor, Combat Expertise, Improved Drag, Improved Reposition; Spells haste"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hooked_massacre",
+          "value": {
+            "value": 22325
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hooked_massacre",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

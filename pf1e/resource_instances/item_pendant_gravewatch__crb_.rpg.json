@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pendant_gravewatch__crb_",
+    "name": {
+      "value": "Gravewatch pendant"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 3rd; Slot neck; Price 8,000 gp; Weight 1 lb. DESCRIPTION Favored by the grave-wardens of sites known to be infested with the spirits of the dead, this pendant is an iron ring strung on a necklace made from polished and discolored bones, nails, and teeth. A faint blue light limns the wearer, protecting him from attack. Undead creatures are repulsed by this light and take a \u00e2\u0080\u00942 penalty on all attack rolls against the wearer of a gravewatch pendant. Incorporeal undead creatures are further repulsed and instead take a \u00e2\u0080\u00944 penalty on all attack rolls against the wearer. Undead creatures can sense this light easily, however, and receive a +4 circumstance bonus on Perception checks to detect a creature wearing this pendant. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, protection from evil; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pendant_gravewatch",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pendant_gravewatch",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

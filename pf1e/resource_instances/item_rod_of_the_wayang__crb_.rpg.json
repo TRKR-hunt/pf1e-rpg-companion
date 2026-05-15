@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_the_wayang__crb_",
+    "name": {
+      "value": "Rod of the wayang"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 8th; Slot none; Price 12,000 gp; Weight 5 lbs. DESCRIPTION This rod is lacquered jet black, covered with bright white runes, and capped with crown of jagged smoky quartz. When the rod\u2019s wielder casts a spell of the shadow subschool, she increases the DC of that spell\u2019s saving throw by 1. Furthermore, once per day on command, wielder can treat positive and negative energy effects as if she were an undead creature, taking damage from positive energy and healing damage from negative energy. This ability lasts for 1 minute unless dismissed as a free action. CONSTRUCTION REQUIREMENTS Feats Craft Rod, shadow conjuration, greater, shadow evocation, greater; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_the_wayang",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_the_wayang",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

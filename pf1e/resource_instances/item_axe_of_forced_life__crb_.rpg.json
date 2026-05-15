@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "axe_of_forced_life__crb_",
+    "name": {
+      "value": "Axe of Forced Life"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 45,310 gp; Slot none; CL 9th; Weight 6 lbs.; Aura moderate conjuration DESCRIPTION This +3 battleaxe has a well-worn haft and a blackened blade etched with an ouroboros. An axe of forced life briefly disrupts the damage reduction of undead creatures. Once per round when the wielder strikes an undead creature that has DR /bludgeoning, DR /good, DR /magic, or DR /piercing, the wielder can reduce the target\u2019s damage reduction by 5 points (to a minimum of 0). This effect lasts for 1 round, and reduces only the types of damage reduction listed. On a confirmed critical hit, the wielder may reduce the target\u2019s damage reduction by up to 15 points. The effects of multiple axes of forced life don\u2019t stack, and the effects of an axe of forced life do not stack with the effects of a negating weapon. Once per day as a move action, the wielder of an axe of forced life may cause life energy to course through the weapon for 1 minute. Doing so causes the axe\u2019s ouroboros to shed light as a candle. Thereafter, the first undead creature struck by the axe must succeed at a DC 17 Will save or lose the benefits of all forms of damage reduction it possesses except DR /epic for 1 round. CONSTRUCTION REQUIREMENTS Cost 22,810 gp; Feats Craft Magic Arms and Armor; Spells breath of life, dispel evil"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_axe_of_forced_life",
+          "value": {
+            "value": 45310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_axe_of_forced_life",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

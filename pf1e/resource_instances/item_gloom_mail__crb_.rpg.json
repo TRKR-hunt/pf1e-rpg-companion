@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloom_mail__crb_",
+    "name": {
+      "value": "Gloom Mail"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration and necromancy; CL 3rd; Slot armor; Price 2,380 gp; Weight 40 lbs. DESCRIPTION This ugly +1 chainmail resists polishing and easily acquires bent links and other cosmetic damage from everyday use, though such blemishes never impair its function as armor. Once per day as a standard action, the wearer can afflict one target within 30 feet with bad luck, giving it a \u00e2\u0080\u00932 penalty to Armor Class, on attack rolls, or on saving throws (wearer\u2019s choice) for 1 minute. In addition, once per day, the wearer can use protection from good CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bestow curse, protection from good, Curse subdomain or evil eye hex; Price 1,340 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloom_mail",
+          "value": {
+            "value": 2380
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloom_mail",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

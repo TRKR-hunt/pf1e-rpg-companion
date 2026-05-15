@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cavalryman_s_bow__crb_",
+    "name": {
+      "value": "Cavalryman's Bow"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,330 gp; Slot none; CL 8th; Weight 2 lbs.; Aura moderate conjuration DESCRIPTION This +2 shortbow is etched with equine imagery. Whenever the bow is fired from a mount, the wielder\u2019s mount gains a +2 deflection bonus to its AC until the start of the wielder\u2019s next turn. CONSTRUCTION REQUIREMENTS Cost 5,330 gp; Feats Craft Magic Arms and Armor; Spells shield of faith, warp wood"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cavalryman_s_bow",
+          "value": {
+            "value": 10330
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cavalryman_s_bow",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

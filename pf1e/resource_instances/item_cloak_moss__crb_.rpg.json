@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_moss__crb_",
+    "name": {
+      "value": "Cloak, Moss"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,700 gp; Slot shoulders; CL 7th; Weight 5 lbs.; Aura moderate conjuration DESCRIPTION A layer of green moss growing on a thin, damp sheet of sod, this heavy cloak can be wrapped around the wearer to provide a measure of camouflage. When donned in forest or jungle terrain, a moss cloak gives the wearer a +10 competence bonus on Stealth checks. In any terrain, the wearer can remove a single poison currently affecting him once per day as a standard action. This causes the moss to turn a sickly shade of brown as it draws the toxins from the wearer\u2019s body, negating the Stealth bonus until the cloak heals itself 24 hours later. CONSTRUCTION REQUIREMENTS Cost 9,350 gp; Feats Craft Wondrous Item; Spells invisibility, neutralize poison, restoration"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_moss",
+          "value": {
+            "value": 18700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_moss",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

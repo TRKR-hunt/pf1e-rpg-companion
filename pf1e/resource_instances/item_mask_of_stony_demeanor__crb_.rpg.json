@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_of_stony_demeanor__crb_",
+    "name": {
+      "value": "Mask of stony demeanor #2"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 6th; Slot head; Price 8,000 gp; Weight 4 lbs. DESCRIPTION When worn, this mask transforms the wearer\u2019s face into a stone statue and its voice into an emotionless monotone. Though it allows the wearer to speak, its facial expressions and voice betray little emotion, granting a +10 competence bonus on Bluff checks made to lie and a +5 competence bonus on Bluff checks made to feint, but also imposes a \u00e2\u0080\u00935 penalty on Bluff checks made to pass a hidden message. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, innocence, stone shape; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_of_stony_demeanor",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_of_stony_demeanor",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

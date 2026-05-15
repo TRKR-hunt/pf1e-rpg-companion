@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "manacles_thorned__crb_",
+    "name": {
+      "value": "Manacles, Thorned"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 35,600 gp; Slot wrist; CL 7th; Weight 2 lbs.; Aura moderate abjuration and transmutation DESCRIPTION When placed on a helpless, two-armed creature of size Tiny to Huge, these barbed manacles transform to match the creature\u2019s size and prevent the captive from utilizing any extradimensional magic, as dimensional anchor (no save). Removing the manacles\u00e2\u0080\u0094whether as an escape attempt or by the owner\u00e2\u0080\u0094 requires a successful DC 30 Strength check or a successful DC 37 Escape Artist check; regardless of whether such an attempt succeeds, the manacles deal 2d6+7 points of piercing damage to the victim. The manacles have hardness 12 and 20 hit points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells dimensional anchor, thorn body; Cost 17,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_manacles_thorned",
+          "value": {
+            "value": 35600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_manacles_thorned",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

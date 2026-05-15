@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tireless_tracking_hide__crb_",
+    "name": {
+      "value": "Tireless Tracking Hide"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,165 gp; Slot armor; CL 5th; Weight 25 lbs.; Aura faint transmutation DESCRIPTION This +1 hide armor is always made from the pelt of a migratory herd animal. Anyone wearing this armor can maintain a hustle for a full 8 hours without growing fatigued, doubling her normal daily overland movement rate. After that, the wearer begins to take nonlethal damage each hour, per the hustle rules. This armor does not increase tactical movement during combat. The benefits of this armor aren\u2019t replenished until the character has had a full night\u2019s rest. CONSTRUCTION REQUIREMENTS Cost 5,665 gp; Feats Craft Magic Arms and Armor; Spells bear\u2019s endurance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tireless_tracking_hide",
+          "value": {
+            "value": 11165
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tireless_tracking_hide",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

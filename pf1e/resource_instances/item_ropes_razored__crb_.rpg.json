@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ropes_razored__crb_",
+    "name": {
+      "value": "Ropes, Razored"
+    },
+    "source": {
+      "value": "faiths_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura medium transmutation; CL 3rd; Slot none; Price 8,301 gp; Weight 3 lbs. DESCRIPTION A razored rope is a + 1 lasso made out of tightly braided lengths of fine chain, used to help restrain cowards attempting to flee a battle. It can be used to entangle an opponent as normal, but deals 1d4 points of damage to a creature that attempts to slip free and fails. The razored rope is also more difficult to escape from, requiring a DC 18 Escape Artist check to slip free from and a DC 28 Strength check to break. If your patron is a god of battle, as a standard action you can cause the lasso to constrict around a creature already entangled by the rope, dealing 1d4 points of damage. If your patron is not a god of battle and you attempt to make the lasso constrict, it lashes up and strikes you for 1d4 points of damage. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, animate rope; Cost 4,150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ropes_razored",
+          "value": {
+            "value": 8301
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ropes_razored",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

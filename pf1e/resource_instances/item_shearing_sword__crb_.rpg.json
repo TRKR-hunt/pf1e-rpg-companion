@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shearing_sword__crb_",
+    "name": {
+      "value": "Shearing Sword"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,350 gp; Slot none; CL 9th; Weight 8 lbs.; Aura moderate evocation DESCRIPTION Three times per day as a standard action, the wielder of this +1 greatsword can envelop the blade with a razor-edged field of force for 1 minute. Thanks to this field, the sword ignores the damage reduction of creatures with DR 5 or less (other than DR /epic), and when it\u2019s used to attack an object or sunder a weapon, the sword treats the item as having a hardness of 5 less than the item\u2019s actual hardness. CONSTRUCTION REQUIREMENTS Cost 4,350; Feats Craft Magic Arms and Armor; Spells wall of force"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shearing_sword",
+          "value": {
+            "value": 8350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shearing_sword",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

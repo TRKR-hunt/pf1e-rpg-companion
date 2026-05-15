@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lamp_salt__crb_",
+    "name": {
+      "value": "Lamp, Salt"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Second Darkness Player\u2019s Guide Aura faint conjuration; CL 5th; Slot \u00e2\u0080\u0094; Price 350 gp; Weight 2 lbs. DESCRIPTION A salt lamp appears as nothing more than a fist-sized chunk of pink, white, or green quartz-like rock. In reality, the \u00e2\u0080\u009crock\u00e2\u0080\u009d is compressed salt mined from areas infused with strange magical radiations. When you speak the command word, the salt lamp lights up with a glow equivalent to a torch. The salt lamp becomes warm, though never uncomfortably hot, to the touch. The salt lamp glows for 1d4+1 hours before its light fades out and it becomes ordinary salt. At any time while the salt lamp glows, you can hurl it at the floor, causing it to explode into a cloud of glimmering salt crystals that form a 10-foot radius cloud. The cloud continues to shed light as a torch, as well as visibly outlining invisible objects within the cloud. Shining salt particles cover anyone within the area and adhere and glow for the remainder of the lamp\u00e2\u0080\u0099s duration. The salt particles cannot be removed by normal means, but they can be dispelled. Any creature within the cloud, or covered with the salt particles, takes a \u00e2\u0080\u009340 penalty on Stealth checks. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, glitterdust, light; Cost 175 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lamp_salt",
+          "value": {
+            "value": 350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lamp_salt",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

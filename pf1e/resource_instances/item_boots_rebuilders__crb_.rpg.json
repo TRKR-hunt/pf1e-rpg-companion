@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_rebuilders__crb_",
+    "name": {
+      "value": "Boots, Rebuilder\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,500 gp; Slot feet; CL 4th Weight 2 lbs.; Aura faint transmutation APPEARANCE The wearer of these boots gains a +5 competence bonus on Craft checks to repair items. Additionally, as a move action, the wearer of a pair of rebuilder\u2019s boots can activate them to move up to her land speed and ignore any adverse movement effects of difficult terrain, as per the effects of the feather step spell. This effect lasts for 40 minutes per day or until the wearer ends it as a free action. The wearer need not spend this duration all at once, but she must spend it in 1-minute increments. CONSTRUCTION REQUIREMENTS Cost 7,250 gp; Feats Craft Wondrous Item; Spells crafter\u2019s fortune, feather step"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_rebuilders",
+          "value": {
+            "value": 14500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_rebuilders",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

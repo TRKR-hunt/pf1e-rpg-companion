@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_plaguebringer_s__crb_",
+    "name": {
+      "value": "Mask, Plaguebringer's"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot head; Price 2,000 gp; Weight 2 lbs. DESCRIPTION Resembling the more common nonmagical doctor\u00e2\u0080\u0099s mask, a plaguebringer\u00e2\u0080\u0099s mask grants a +2 resistance bonus on saving throws against nauseating scents and immunity to one specific disease (the disease must be chosen at the time of the mask\u00e2\u0080\u0099s creation\u00e2\u0080\u0094the ones in this adventure grant immunity to blood veil). The mask veils the wearer\u00e2\u0080\u0099s alignment, making him register as neutral to alignment -detecting effects. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, misdirection, remove disease; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_plaguebringer_s",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_plaguebringer_s",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "toastmaster_s_teacup__crb_",
+    "name": {
+      "value": "Toastmaster S Teacup"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Weight 1/4 lb.; Slot none; CL 5th; Aura faint abjuration DESCRIPTION This porcelain teacup is used by poisoners to administer lethal doses to even the most suspicious of victims. When a dose of ingested poison is placed in the toastmaster\u00e2\u0080\u0099s teacup and a command word is spoken, the cup absorbs the poison so it cannot be detected. When the teacup\u00e2\u0080\u0099s user speaks a second command word (it need not be the same user), the poison reappears and taints any liquid within the cup. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells nondetection, poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_toastmaster_s_teacup",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

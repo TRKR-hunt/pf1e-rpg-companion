@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_nightmare__crb_",
+    "name": {
+      "value": "Nightmare boots"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation and transmutation; CL 6th; Slot feet; Price 8,500 gp; Weight 3 lbs. DESCRIPTION Prized by evil warriors, these boots are made of inky black leather trimmed with a crimson mane of fiendish horsehair. Some bear the hair of actual nightmares along their rims, causing them to occasionally flare and crackle with flames reminiscent of the foul equines. When the wearer runs or charges, smoke issues up from the boots, acting as concealment (20% miss chance) when the wearer provokes attacks of opportunity while making those actions. Secondly, three times per day, as a swift action, the wearer can make the boots smoke, which grants her concealment until the end of her turn. Lastly, once per day, when the wearer hits a creature with a melee attack, she can command the boots to ignite. When the boots ignite, all creatures within a 5-foot radius take 2d6 points of fire damage. A DC 13 Reflex saving throw halves the damage. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, burning hands, pyrotechnics; Cost 3,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_nightmare",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_nightmare",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

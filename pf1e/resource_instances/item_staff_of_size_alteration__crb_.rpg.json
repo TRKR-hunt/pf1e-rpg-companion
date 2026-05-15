@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_size_alteration__crb_",
+    "name": {
+      "value": "Staff of size alteration"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot none; Price 26,150 gp; Weight 5 lbs. DESCRIPTION This staff of dark wood is stouter and sturdier than most magical staves, with a gnarled and twisted knot of wood at the top end. It allows use of the following spells: Enlarge person (1 charge) Reduce person (1 charge) Shrink item (2 charges) Mass enlarge person (3 charges) Mass reduce person (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells enlarge person, mass enlarge person, mass reduce person, reduce person, shrink item; Cost 13,075 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_size_alteration",
+          "value": {
+            "value": 26150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_size_alteration",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

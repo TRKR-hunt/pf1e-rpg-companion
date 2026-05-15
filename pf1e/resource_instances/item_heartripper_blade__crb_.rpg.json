@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "heartripper_blade__crb_",
+    "name": {
+      "value": "Heartripper Blade"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration, divination, and evocation; CL 10th; Slot none; Price 11,302 gp; Weight 1 lb. DESCRIPTION This +1 dagger is granted baleful powers when used in bloody sacrifice. Whenever used to deliver a coup de grace, the Heartripper Blade pulls the victim\u00e2\u0080\u0099s still-beating heart free from his body. You may then consume the heart to gain any of the following abilities. You may eat the heart to gain a simultaneous remove disease, restoration, and cure serious wounds effect. This consumes the heart. You may utter a command word and cause the heart to burst into flames, after which the Blade becomes a +2 flaming burst dagger for 1 hour. This consumes the heart. You may speak a blasphemous second command word to cause the heart to boil and smoke. Breathing in the smoke gives you glimpses of the future or far off places and objects, granting you the ability to use divination or scrying. This consumes the heart. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; flame blade, keen edge, restoration, scrying; Cost 5,802 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_heartripper_blade",
+          "value": {
+            "value": 11302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_heartripper_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

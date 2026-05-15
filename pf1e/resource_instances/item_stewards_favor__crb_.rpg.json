@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stewards_favor__crb_",
+    "name": {
+      "value": "Stewards' Favor"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,550 gp; Slot neck; CL 11th; Weight \u2014; Aura moderate conjuration DESCRIPTION This palm-sized wooden badge is covered in intricate Druidic script. Occasionally given as a gift to those who aid the druids, a stewards\u2019 favor gives the wearer a +4 competence bonus on Handle Animal checks and increases the DC of any enchantment spells the wearer casts against animals by 2. If the token of favor is broken apart and added to boiling water, it becomes a nourishing porridge that feeds up to eight Medium creatures. This meal cures all ongoing sickness and nausea effects, and provides the benefits of neutralize poison and remove disease. In addition, for 24 hours after eating the porridge, subjects gain a +2 luck bonus on Will saves against fear. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells charm animal, heroes\u2019 feast, neutralize poison, remove disease; Cost 3,275 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stewards_favor",
+          "value": {
+            "value": 6550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "holdout_ring__crb_",
+    "name": {
+      "value": "Holdout Ring"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,000 gp; Slot ring; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION Made of aged bronze and steel, this ring looks like it should have a gem set in it, but instead has an empty circular hole. The hole in the ring holds a single firearm bullet; if one is placed inside (as a full-round action ), it merges seamlessly into the ring. While a bullet is merged into the ring, the wielder can fire the bullet as though she were using a +1 pistol that can\u2019t misfire. Once the bullet has been fired from the ring, a new bullet can\u2019t be placed inside for 24 hours. Each holdout ring is created with two +1 ammunition special abilities and one +2 ammunition special ability. If the wearer has the grit class feature, she can expend grit (maximum 4 grit points) to imbue bullets merged with the gun with one or more of these abilities. Imbuing a bullet with a +1 special ability costs 1 grit point; imbuing one with a +2 special ability costs 2 grit points. Each ring\u2019s special abilities are established upon the item\u2019s creation and can\u2019t be changed. If a special ability has multiple versions, as does bane, the specific version must be set at that time (e.g., dragon bane ). A typical holdout ring has the flaming, seeking, and shocking burst special abilities. CONSTRUCTION REQUIREMENTS Cost 5,500 gp; Feats Forge Ring, magic weapon, telekinesis; Special creator must meet the requirements for the ammunition special abilities that can be imbued by the ring"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_holdout_ring",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

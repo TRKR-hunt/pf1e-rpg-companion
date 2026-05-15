@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spear_of_the_honored_ancestors__crb_",
+    "name": {
+      "value": "Spear of the Honored Ancestors"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,302 gp; Slot none; CL 9th; Weight 6 lbs.; Aura moderate conjuration DESCRIPTION When the wielder of this glimmering +1 ghost touch spear enters a rage, she can drum the spear against a shield or the ground as a swift action. If she does, colorful lights dance around the spear and the wielder can choose to gain the benefit of guidance, grant the touched shield the ghost touch special ability, or grant the spear the returning special ability. The chosen benefit lasts for the duration of the rage. CONSTRUCTION REQUIREMENTS Cost 7,802 gp; Feats Craft Magic Arms and Armor; Spells guidance, faerie fire, plane shift"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spear_of_the_honored_ancestors",
+          "value": {
+            "value": 15302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_spear_of_the_honored_ancestors",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

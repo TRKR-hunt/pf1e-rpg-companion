@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sword_of_tempests__crb_",
+    "name": {
+      "value": "Sword of Tempests"
+    },
+    "source": {
+      "value": "monster_summoner_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 23,315 gp; Slot none; CL 7th Weight 6 lbs.; Aura moderate conjuration DESCRIPTION This translucent longsword was first forged by elemental binders. It appears to have a blade crafted from solid wind, similar in appearance to the matter that makes up an air elemental \u2018s body. It functions as a +2 longsword. Three times per day, when the wielder confirms a critical hit with a sword of tempests, as an immediate action he can will a fraction of the blade to break off and transform into a Medium air elemental (this does not affect the sword itself). The elemental fights as the wielder directs for 7 rounds, or until it is destroyed. At the GM\u2019s discretion, similar weapons may exist that summon elementals from different planes. CONSTRUCTION REQUIREMENTS Cost 11,815 gp; Feats Craft Magic Arms and Armor; Spells summon monster IV or summon nature\u2019s ally IV"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sword_of_tempests",
+          "value": {
+            "value": 23315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sword_of_tempests",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crown_of_the_kobold_king__crb_",
+    "name": {
+      "value": "Crown of the Kobold King"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 12th; Slot head; Price 15,000 gp; Weight 1 lb. DESCRIPTION This ancient burnished bronze heirloom has passed from king to king for centuries. Rumors abound of secret blood rites that grant the wearer additional abilities, but even without this ceremony the crown invests its wearer with power. EFFECTS Wearing the crown grants a +2 enhancement bonus to Charisma and a +2 natural armor bonus. You are immune to the frightful presence ability of all dragons. If you are a sorcerer you cast spells at +1 caster level. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells barkskin, eagle\u00e2\u0080\u0099s splendor; Cost 7,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crown_of_the_kobold_king",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crown_of_the_kobold_king",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

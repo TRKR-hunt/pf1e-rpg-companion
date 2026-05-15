@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_whispering__crb_",
+    "name": {
+      "value": "Gloves, Whispering"
+    },
+    "source": {
+      "value": "tears_at_bitter_manor"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion and transmutation; CL 5th; Slot hands; Price 15,400 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These gloves constantly project a very short-range silence spell, so that anything touched or held by the wearer\u2019s hands makes no sound. Thus picking a locked door wouldn\u2019t make a clicking noise audible to those on the other side, and holding a hand over a victim\u2019s mouth would silence his scream. The silence extends only a few inches, so knocking on a door produces no sound but hammering it down still does. If the wearer presses a finger to her lips and speaks, no sound comes out, but the words are audible to anyone she chooses in her line of sight (as the message spell). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells message, silence; Cost 7,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_whispering",
+          "value": {
+            "value": 15400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

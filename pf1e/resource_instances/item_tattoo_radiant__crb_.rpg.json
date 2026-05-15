@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_radiant__crb_",
+    "name": {
+      "value": "Tattoo, Radiant"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint evocation DESCRIPTION This tattoo typically takes the form of a colorful sunburst. The bearer can activate the tattoo with a command word, causing it to flare brilliantly. A single, adjacent foe is blinded for 1d4 rounds. If it succeeds at a DC 15 Reflex save, it is dazzled for 1d4 rounds instead. If the target has light blindness, light sensitivity, or is otherwise vulnerable to bright light, it is instead blinded for 2d4 rounds or dazzled for 2d4 rounds on a successful save. If the bearer activates the tattoo while more than one foe is adjacent, she may choose which foe is affected. The tattoo vanishes once it has been activated. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Inscribe Magical Tattoo; Spells daylight"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_radiant",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "slippers_of_the_primordial_wilds__crb_",
+    "name": {
+      "value": "Slippers of the Primordial Wilds"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,000 gp; Slot feet; CL 9th; Weight 1/2 lb.; Aura moderate conjuration DESCRIPTION These fine, supple slippers are made from giant cowslip petals. The wearer cannot be tracked or otherwise detected by scent. When standing with one foot in one terrain and the other in another terrain (such as at a cave mouth, a shore, or a forest\u2019s edge), a gathlain wearer can speak a command word to move to either the Material Plane or the Fey World, as per plane shift, twice per day. CONSTRUCTION REQUIREMENTS Cost 12,000 gp; Feats Craft Wondrous Item; Spells plane shift"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_slippers_of_the_primordial_wilds",
+          "value": {
+            "value": 24000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_spell_storing_minor__crb_",
+    "name": {
+      "value": "Ring of spell storing, minor"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot ring; Price 18,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION As the ring of spell storing, except it holds up to 3 levels of spells. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells imbue with spell ability; Cost 9,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_spell_storing_minor",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

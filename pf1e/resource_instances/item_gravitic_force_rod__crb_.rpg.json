@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gravitic_force_rod__crb_",
+    "name": {
+      "value": "Gravitic Force Rod"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 60,000 gp; Aura strong transmutation; CL 15th; Weight 4 lbs. DESCRIPTION This heavy leaden rod is carved with a series of glyphs that resemble Terran writing. It has a single activation stud at its base. A creature can activate the rod by pressing the stud or by placing the rod on the ground. Once activated, the rod creates a field of intensified gravity within a 100-foot radius. Creatures within the area weigh twice as much as normal, can move only at half speed, can jump only half as far as normal, and can lift and carry only half as much as normal. Any flying target has its maneuverability worsened by two steps (from good to poor, for example; minimum clumsy) and plummets to the ground unless it succeeds at a DC 25 Fly check. CONSTRUCTION REQUIREMENTS Cost 30,000 gp; Feats Craft Rod; Spells reverse gravity"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gravitic_force_rod",
+          "value": {
+            "value": 60000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gravitic_force_rod",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

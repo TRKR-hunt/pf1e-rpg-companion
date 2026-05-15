@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_blink_back__crb_",
+    "name": {
+      "value": "Blinkback belt"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 7th; Slot belt; Price 5,000 gp; Weight 2 lbs. DESCRIPTION A set of clips is attached to this segmented belt constructed of metallic links. Up to two one-handed melee weapons or up to four light melee weapons can be hung from the belt in straps or sheaths. When the wearer draws a weapon attached to this belt and throws it before the end of her next turn, the weapon teleports back to its strap or sheath immediately after the attack is resolved. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, teleport object; Cost 2,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_blink_back",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_blink_back",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

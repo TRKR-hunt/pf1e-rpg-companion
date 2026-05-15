@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stone_scavenger_s__crb_",
+    "name": {
+      "value": "Stone, Scavenger's"
+    },
+    "source": {
+      "value": "goblins_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot none; Price 2,000 gp; Weight 1 lb. DESCRIPTION This jagged, egg-shaped stone emits a faint red glow when not in direct sunlight. By rubbing a scavenger\u00e2\u0080\u0099s stone against a damaged (but not destroyed) construct or object as a full-round action, you repair 1d6 points of damage to the object or construct. If this brings a broken object\u00e2\u0080\u0099s hit points above half its maximum hit points, it loses the broken condition. As a standard action, you can smash a scavenger\u00e2\u0080\u0099s stone against a destroyed object or damaged construct. Doing so immediately repairs the object to full functionality or heals a damaged construct of 10d6 points of damage. Destroyed magic items can be repaired in this manner if their caster level is no higher than 3rd\u00e2\u0080\u0094more powerful destroyed magical items cannot be repaired by a scavenger\u00e2\u0080\u0099s stone. A newly-created scavenger\u00e2\u0080\u0099s stone has 50 charges\u00e2\u0080\u0094smashing a stone against an object uses up 10 charges. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, make whole; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stone_scavenger_s",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_stone_scavenger_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

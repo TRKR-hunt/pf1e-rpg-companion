@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trident_of_warning__crb_",
+    "name": {
+      "value": "Trident of warning"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 7th; Weight 4 lbs.; Price 10,115 gp DESCRIPTION A weapon of this type enables its wielder to determine the location, depth, kind, and number of aquatic predators within 680 feet. A trident of warning must be grasped and pointed in order for the character using it to gain such information, and scanning a hemisphere with a radius of 680 feet takes 1 round. The weapon is otherwise a +2 trident. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells locate creature; Cost 5,215 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trident_of_warning",
+          "value": {
+            "value": 10115
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trident_of_warning",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

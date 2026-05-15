@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "origami_swarm__crb_",
+    "name": {
+      "value": "Origami swarm #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight \u00e2\u0080\u0094; Slot none; Price 300 gp DESCRIPTION This stiff folded paper vaguely resembles a hand-sized pest such as a beetle, spider, or cockroach. Completing two key folds in the paper causes it to multiply into hundreds of similar-sized duplicates of itself. These duplicates fill a 10-foot space and act as a rat swarm, except they have fire vulnerability, the construct type, and do not have the disease special ability. The paper beetles do not attack their creator, but are otherwise uncontrolled and attack anything nearby. After 5 rounds, the beetles crumple and fall inert. Once activated, an origami swarm loses all magic. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, animate objects; Cost 150 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_origami_swarm",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

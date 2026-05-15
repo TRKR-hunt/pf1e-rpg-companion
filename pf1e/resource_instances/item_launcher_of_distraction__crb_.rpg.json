@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "launcher_of_distraction__crb_",
+    "name": {
+      "value": "Launcher of Distraction"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,550 gp; Slot none; CL 6th; Weight 2 lbs.; Aura moderate illusion DESCRIPTION Twice per day, as a swift action when the wielder of this +1 heavy wrist launcher makes an attack with the weapon, he can have the launcher make no sound, and can instead create a false sound of a crossbow being fired from another location within 40 feet of him. In addition, for 6 rounds, any auras upon the wielder that would normally be revealed by divination spells, such as detect spells, are redirected to the same location as the crossbow sound. CONSTRUCTION REQUIREMENTS Cost 5,550 gp; Feats Craft Magic Arms and Armor; Spells ghost sound, misdirection"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_launcher_of_distraction",
+          "value": {
+            "value": 10550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_launcher_of_distraction",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

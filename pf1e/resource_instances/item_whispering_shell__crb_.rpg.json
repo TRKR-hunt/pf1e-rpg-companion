@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "whispering_shell__crb_",
+    "name": {
+      "value": "Whispering Shell"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurer_s_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 3rd Weight -; Aura faint illusion DESCRIPTION This striped conch shell appears to be nothing more than a piece of flotsam idly picked up by a beachcomber. Once per day when held to the lips, the conch shell absorbs a whispered message of 25 words or fewer and stores the spoken words indefinitely. When pressed to the ear and prompted by the command word, the shell repeats its message as a whisper that cannot be heard by anyone except the creature holding the conch shell. A whispering shell can only hold one such message at a time, but can replay its message as often as a creature issues the command to do so. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells whispering wind"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_whispering_shell",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

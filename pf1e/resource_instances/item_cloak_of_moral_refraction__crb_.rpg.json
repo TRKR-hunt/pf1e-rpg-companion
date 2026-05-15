@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_moral_refraction__crb_",
+    "name": {
+      "value": "Cloak of Moral Refraction"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 54,200 gp; Slot shoulders; CL 13th; Weight 1 lb.; Aura strong abjuration DESCRIPTION The cloak of moral refraction has long been a tool of mystics who charge themselves with maintaining cosmic balance and closing extraplanar portals throughout the multiverse. The shimmering fabric of this light silver-and-red cloak never dirties or wrinkles, and when laid out flat, the cloak reflects light nearly as well as a mirror. A fully charged cloak of moral refraction has 3 charges\u2014 charges used are automatically renewed at a rate of 1 charge per day at dawn. The wearer may use the cloak to expend these charges and create the following effects. 1 charge: Dispel an ongoing spell with an alignment descriptor, as the third function of dispel chaos /evil/ good/law. 2 charges: Ready an action to counter a spell or spell-like ability with an alignment descriptor. The effect is automatically countered, and no caster level check is required. The charges are expended only after countering a spell or spell-like ability. If you ready this action but it is not triggered, the charges are not expended. 3 charges: As an immediate action, counter a spell or spell-like ability cast by an outsider with an alignment subtype. The effect is automatically countered, and no caster level check is required. In addition, the outsider must succeed at a DC 20 Will save or be banished back to its home plane, as banishment. An outsider with more than 26 Hit Dice is unaffected by the banishment effect. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells banishment; dispel chaos, evil, good, and law; dispel magic; Special creator must be neutral; Cost 27,100 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_moral_refraction",
+          "value": {
+            "value": 54200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_moral_refraction",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

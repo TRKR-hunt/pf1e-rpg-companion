@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_bolstering__crb_",
+    "name": {
+      "value": "Staff of bolstering"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot none; Price 41,600 gp; Weight 5 lbs. DESCRIPTION The top of this rosewood shaft narrows and then expands again, bound by a number of metal rings. It allows use of the following spells: Bear\u00e2\u0080\u0099s endurance (1 charge) Bull\u00e2\u0080\u0099s strength (1 charge) Cat\u00e2\u0080\u0099s grace (1 charge) Greater magic weapon (1 charge) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells bear\u00e2\u0080\u0099s endurance, bull\u00e2\u0080\u0099s strength, cat\u00e2\u0080\u0099s grace, greater magic weapon; Cost 20,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_bolstering",
+          "value": {
+            "value": 41600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_bolstering",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

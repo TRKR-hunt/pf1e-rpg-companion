@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sky_hook_token__crb_",
+    "name": {
+      "value": "Sky Hook Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 200 gp DESCRIPTION This token transforms into a huge disembodied eagle\u00e2\u0080\u0099s talon (hardness 5, hp 25) anchored wherever you activate it. The talon can support up to 1,000 pounds and persists for 1 day. The talon can be moved up to 10 feet with a DC 20 Strength check. CONSTRUCTION REQUIREMENTS Requirements Craft Wondrous Item, major creation; Cost 100 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sky_hook_token",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

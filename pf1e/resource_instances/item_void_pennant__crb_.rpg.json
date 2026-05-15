@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "void_pennant__crb_",
+    "name": {
+      "value": "Void pennant #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 10th; Weight 1 lb.; Slot none; Price 14,000 gp DESCRIPTION This long tapering pennant resembles a stylized serpentine figure wearing a shimmering crown. The figure\u2019s claws function as clasps, attaching it to a lance, polearm, frame, or staff. The pennant has no effect when not mounted properly, or when activated by a lawfully aligned creature. Planting the pennant in the ground generates an area of twisted space around the flag out to a range of 30 feet. Any creature that teleports into or out of this area is nauseated for 1 round (a DC 18 Fortitude save reduces this penalty to sickened ). Any creature may end the effect by uprooting the pennant as a standard action. The pennant functions for 10 rounds per day. These rounds do not need to be consecutive. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dimensional anchor; Cost 7,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_void_pennant",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_void_pennant",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

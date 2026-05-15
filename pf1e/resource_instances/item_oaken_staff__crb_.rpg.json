@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "oaken_staff__crb_",
+    "name": {
+      "value": "Oaken Staff"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 31,800 gp; Slot none; CL 10th; Weight 4 lbs.; Aura moderate evocation DESCRIPTION This thick, 5-foot-long wooden staff is made of rough oak and has two branches growing from the top. The branches twist together and bend back toward the body of the staff, and their leaves often rustle as if blown by a light breeze even when the surrounding air is still. An oaken staff functions as a +1 called spell storing quarterstaff, but can\u2019t be used as a double weapon (only one end of the staff is usable in combat). The staff allows use of the following spells. Barkskin (1 charge) Plant growth (2 charges) Speak with plants (2 charges) The wielder is immune to the terrain effects of the plant growth spell cast from the staff. In addition, shillelagh can be cast on an oaken staff despite it being a magic quarterstaff, increasing its enhancement bonus by 1. The staff retains the effects of the shillelagh spell even if wielded by someone other than the spell\u2019s caster. Once per day, a character wielding an oaken staff who has either barkskin or plant growth on her class spell list can cast speak with plants from the staff without attempting a Use Magic Device check (this expends 3 charges instead of 2). CONSTRUCTION REQUIREMENTS Cost 16,050 gp; Feats Craft Magic Arms and Armor, Craft Staff; Spells barkskin, plant growth, speak with plants, teleport; Special creator must be a caster of at least 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_oaken_staff",
+          "value": {
+            "value": 31800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_oaken_staff",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

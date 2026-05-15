@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_speaking__crb_",
+    "name": {
+      "value": "Staff of speaking"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong enchantment; CL 13th; Slot none; Price 57,200 gp; Weight 5 lbs. DESCRIPTION When the wielder of this hollow wooden staff speaks or shouts, it reverberates with the sound of her voice, lending a booming insistence to her words. It allows the use of the following spells: Suggestion (1 charge) Tongues (1 charge) Denounce (2 charges) Glibness (2 charges) Mass suggestion (4 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells denounce, glibness, mass suggestion, suggestion, tongues; Cost 28,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_speaking",
+          "value": {
+            "value": 57200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_speaking",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

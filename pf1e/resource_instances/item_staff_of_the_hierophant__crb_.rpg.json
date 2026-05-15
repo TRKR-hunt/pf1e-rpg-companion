@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_the_hierophant__crb_",
+    "name": {
+      "value": "Staff of the hierophant"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varies; CL 15th; Slot none; Price 220,000 gp; Weight 5 lbs. DESCRIPTION The staff of the hierophant is a powerful magic item with the ability to both heal and harm, which also gives its wielder a number of protections. The staff is crafted from platinum and topped with a glowing blue diamond. The staff allows the use of the following spells: Bless (1 charge) Cure moderate wounds (1 charge) Freedom of movement (1 charge) Hold person ( heightened to 5th level, 1 charge) Prayer (1 charge) Searing light (1 charge) Cure critical wounds (2 charges) Flame strike (2 charges) Righteous might (2 charges) True seeing (2 charges) The wielder of a staff of the hierophant gains a +2 luck bonus to AC and on saving throws. The staff is also a +2/+2 quarterstaff, and its wielder may use it to smite opponents. If 1 charge is expended (as a free action ), the staff deals double damage (x3 on a critical hit ) for 1 round. A staff of the hierophant can be used to restore the life of a dead creature by calling upon the wielder\u00e2\u0080\u0099s deity to take the staff as a blessing. This causes the staff to vanish, but restores life to any one dead creature as if casting true resurrection. In addition, after using this effect, the wielder who triggered it receives a +2 luck bonus on all ability checks, attack rolls, saving throws, and skill checks for 1 day. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor, Craft Staff, bless, cure critical wounds, cure moderate wounds, flame strike, freedom of movement, heightened hold person, prayer, righteous might, searing light, true resurrection, true seeing; Cost 110,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_the_hierophant",
+          "value": {
+            "value": 220000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_the_hierophant",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

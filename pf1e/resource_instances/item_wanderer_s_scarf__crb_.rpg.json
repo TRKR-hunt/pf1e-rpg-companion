@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wanderer_s_scarf__crb_",
+    "name": {
+      "value": "Wanderer's Scarf"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,812 gp; Slot none; CL 1st; Weight 2 lbs.; Aura faint necromancy DESCRIPTION This +1 bladed scarf is dyed in somber shades of gray and tipped with treated shards of bone instead of blade-tips. The wielder of a wanderer\u2019s scarf is affected by a continual hide from undead spell as long as he carries or wears it. In circumstances where the spell effect would normally end (such as when channeling positive energy), this effect is suspended for 24 hours. Intelligent undead can perceive the wielder by succeeding at a DC 10 Will saving throw. When used in combat, this weapon deals an additional 1d6 points of positive energy damage to any undead creature it strikes. CONSTRUCTION REQUIREMENTS Cost 4,062 gp; Feats Craft Magic Arms and Armor; Spells disrupt undead, hide from undead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wanderer_s_scarf",
+          "value": {
+            "value": 7812
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wanderer_s_scarf",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

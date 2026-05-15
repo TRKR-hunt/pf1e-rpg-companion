@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cautionary_creance__crb_",
+    "name": {
+      "value": "Cautionary creance #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Weight 2 lbs.; Slot none; Price 4,000 gp DESCRIPTION This slim leather leash is just over 100 feet long, incredibly light, and uncannily strong, making it an excellent tool for training birds of prey and other flying predators. It grants a +4 circumstance bonus on any Handle Animal check made to train such animals. When used to bind a flying animal companion or familiar to its master, the leash allows the master to cast feather fall on the creature at will. If the master has the share touch spells class ability, once per day he can use that ability on the leashed creature, even if they are not touching. The delivered spell can be no higher than 3rd level. The creance attaches to the master\u2019s forearm; attack rolls and skill checks made with that arm take a \u00e2\u0080\u00941 penalty. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Reach Spell, feather fall; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cautionary_creance",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cautionary_creance",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

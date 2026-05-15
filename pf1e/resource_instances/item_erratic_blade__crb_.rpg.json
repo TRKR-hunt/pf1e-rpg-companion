@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "erratic_blade__crb_",
+    "name": {
+      "value": "Erratic Blade"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 22,315 gp; Slot weapon; CL 11th; Weight 4 lbs.; Aura moderate abjuration and transmutation DESCRIPTION The blade of this +1 transformative scimitar is adorned with gemstones that shift in size and coloration. An erratic blade provides the wielder with some control over the fickle nature of wild magic. While the scimitar is held in the hand, the wielder gains a +2 bonus on caster level checks to prevent a spell or spell-like ability from going awry because of a plane\u00e2\u0080\u0099s wild magic trait. If the wielder\u00e2\u0080\u0099s spell or spell-like ability goes awry anyway, he rolls twice on Table 2\u00e2\u0080\u00931: Wild Magic Effects and chooses which result occurs. Also, when an erratic blade damages a creature, that creature takes a \u00e2\u0080\u00934 penalty for 1 round on caster level checks to prevent a spell or spell-like ability from going awry because of a plane\u00e2\u0080\u0099s wild magic trait. The effects of multiple hits from an erratic blade don\u00e2\u0080\u0099t stack. CONSTRUCTION REQUIREMENTS Cost 11,315 gp; Feats Craft Magic Arms and Armor; Spells antimagic field, major creation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_erratic_blade",
+          "value": {
+            "value": 22315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_erratic_blade",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

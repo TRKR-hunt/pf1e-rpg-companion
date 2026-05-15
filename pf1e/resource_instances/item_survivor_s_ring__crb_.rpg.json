@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "survivor_s_ring__crb_",
+    "name": {
+      "value": "Survivor's Ring"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 56,160 gp; Weight \u00e2\u0080\u0094; Slot ring; CL 18th; Aura strong illusion DESCRIPTION This ring is shaped like a silver snake with an onyx in its mouth. Once per day, if the wearer would be reduced to 0 or fewer hit points but not be dead, she is instead reduced to 0 hit points and subject to an effect similar to mislead. Her illusory double appears to die or to take on the dying condition in her place, as appropriate for the negated effect. The wearer cannot control the double. In addition, the wearer can touch the ring\u00e2\u0080\u0099s stone as a standard action once per day to use dimension door but only while the ring\u00e2\u0080\u0099s mislead effect is active. CONSTRUCTION REQUIREMENTS Cost 25,080 gp; Feats Forge Ring; Spells death ward, dimension door, mislead"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_survivor_s_ring",
+          "value": {
+            "value": 56160
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

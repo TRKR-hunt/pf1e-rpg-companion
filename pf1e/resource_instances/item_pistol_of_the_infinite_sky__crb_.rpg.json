@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pistol_of_the_infinite_sky__crb_",
+    "name": {
+      "value": "Pistol of the Infinite Sky"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 15th; Weight 4 lbs.; Price 73,300 gp DESCRIPTION An infinity symbol is engraved on both sides of this +5 pistol\u2019s mother of pearl grip, and the barrel is adorned with gold depicting the moon, planets, and stars against a night sky of the pistol\u2019s cold black steel. This pistol never needs to be reloaded. After one shot is fired, a bullet and powder magically appear in the chamber. This ammunition never suffers a misfire. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells reloading hands; Cost 37,300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pistol_of_the_infinite_sky",
+          "value": {
+            "value": 73300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pistol_of_the_infinite_sky",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

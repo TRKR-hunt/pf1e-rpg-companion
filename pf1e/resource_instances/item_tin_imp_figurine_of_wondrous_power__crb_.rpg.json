@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tin_imp_figurine_of_wondrous_power__crb_",
+    "name": {
+      "value": "Tin Imp Figurine of Wondrous Power"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,000 gp; Slot none; CL 11th; Weight 1 lb.; Aura moderate enchantment and transmutation DESCRIPTION These fat, smirking imp figurines are made of solid tin. A tin imp turns into an imp on command, though it retains its metallic consistency, which gives it a +4 armor bonus to AC. In imp form, a tin imp can turn invisible at will as a swift action, though it retains none of an imp\u2019s other spell-like abilities and lacks a poisoned sting. Tin imps generally avoid combat, but make excellent spies and trackers. The tin imp\u2019s owner can, as a move action, designate a single creature in his line of sight as the tin imp\u2019s quarry. The tin imp then follows its quarry clandestinely, and sends a whispered message to its owner once each hour detailing the quarry\u2019s location and activities. The message is similar to the whispering wind spell, though the message unerringly locates the tin imp\u2019s owner instead of moving to a predetermined location. A tin imp can maintain its animate status for up to 48 hours per week. This duration doesn\u2019t need to be continuous, but must be used in 1-hour increments. If slain in combat, a tin imp is destroyed. Additionally, a creature with the track class feature can command a tin imp he owns to study a set of footprints (a standard action ) and designate the creature that made the footprints as its quarry. The tin imp can then attempt to track the creature as if its owner was tracking it, using the owner\u2019s Perception and Survival skill (and any tracking bonuses). CONSTRUCTION REQUIREMENTS Cost 6,500 gp; Feats Craft Wondrous Item; Spells animate objects, invisibility, whispering wind"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tin_imp_figurine_of_wondrous_power",
+          "value": {
+            "value": 13000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tin_imp_figurine_of_wondrous_power",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

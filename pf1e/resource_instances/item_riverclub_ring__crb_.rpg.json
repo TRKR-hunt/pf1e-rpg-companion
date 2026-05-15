@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "riverclub_ring__crb_",
+    "name": {
+      "value": "Riverclub Ring"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot ring; CL 1st; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This simple bronze band can transform into a handy weapon in a pinch. When the wearer of a riverclub ring plunges her hand into at least 1 gallon of water as a move action, she can pull forth a club made of animated water. The weapon maintains the shape, solidity, and statistics of a masterwork club of the wielder\u2019s size so long as she holds it, dealing damage as normal, except that it deals 1 additional point of damage against creatures with the fire subtype. The club turns back into a puddle of water again as soon as the wielder loosens her grip around it. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Forge Ring; Spells icicle dagger"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_riverclub_ring",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

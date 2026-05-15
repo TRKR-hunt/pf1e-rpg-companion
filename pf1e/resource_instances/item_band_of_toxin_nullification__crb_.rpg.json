@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "band_of_toxin_nullification__crb_",
+    "name": {
+      "value": "Band of Toxin Nullification"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,500 gp; Slot ring; CL 9th; Weight \u2014; Aura moderate necromancy DESCRIPTION This platinum band has a smoky quartz set neatly into it. Once per day, the wearer can speak a command word and place the quartz on her skin as a full-round action to siphon a single dose of poison from her body and into the quartz, rendering the poison inert. This effect can be used only after the wearer has been poisoned. CONSTRUCTION REQUIREMENTS Cost 4,250 gp; Feats Craft Wondrous Item; Spells absorb toxicity"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_band_of_toxin_nullification",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

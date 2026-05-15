@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "quickfingers_gloves__crb_",
+    "name": {
+      "value": "Gloves, Quickfingers"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot hands; Price 2,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These dark-colored, skin-tight gloves are typically made of either supple calfskin or silk. A wearer of these gloves with at least 1 rank in Sleight of Hand can perform such a check as a move action by taking a \u00e2\u0080\u009310 penalty on the check rather than the normal \u00e2\u0080\u009320. Both gloves must be worn for the magic to be effective. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u2019s grace, haste; Cost 1,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_quickfingers_gloves",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

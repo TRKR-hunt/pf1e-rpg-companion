@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shawl_of_the_crone__crb_",
+    "name": {
+      "value": "Shawl of the crone #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot shoulders; Price 16,000 gp; Weight 1 lb. DESCRIPTION The yarn making up this knitted gray wrap is frayed and tattered. As soon as a creature puts on the shawl, she immediately takes the form of a venerable female of her race (regardless of the wearer\u00e2\u0080\u0099s actual gender) and remains so until the shawl is removed. Though this is an actual physical transformation, the wearer does not experience any infirmities due to advanced age, including penalties to her physical attributes, nor does she gain any bonuses to her mental attributes. The wearer also gains a +4 circumstance bonus on any Charisma -based check intended to make her appear friendly, harmless, helpless, or otherwise in need of assistance or deserving of proper respect for someone of her apparent age. This bonus increases to +8 when directed against children. The wearer also counts as a hag for the purposes of forming a coven, but this coven must always include at least one actual hag. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, alter self; Cost 8,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shawl_of_the_crone",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shawl_of_the_crone",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

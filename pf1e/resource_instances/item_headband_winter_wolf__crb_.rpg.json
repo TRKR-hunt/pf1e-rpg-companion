@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_winter_wolf__crb_",
+    "name": {
+      "value": "Winter wolf headband"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot headband; Price 32,000 gp; Weight 1 lb. DESCRIPTION Crafted of pale bone or silver, this headband features a snarling wolf\u00e2\u0080\u0099s head centered on the wearer\u00e2\u0080\u0099s forehead. The wearer gains cold resistance 10. Once per day, the wearer may transform into a Large white-furred wolf for 11 minutes. In addition, once per day the wearer may breathe a 30-foot cone of cold that deals 7d6 points of cold damage ( Reflex DC 16 for half). The wearer may use this breath weapon even when transformed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape II, dragon\u00e2\u0080\u0099s breath, resist energy; Cost 16,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_winter_wolf",
+          "value": {
+            "value": 32000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_winter_wolf",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brilliant_flash_symbol__crb_",
+    "name": {
+      "value": "Brilliant Flash Symbol"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,600 gp; Slot none; CL 3rd; Weight 1/2 lb.; Aura faint evocation DESCRIPTION This holy (or unholy) symbol is crafted from brilliantly polished clear quartz with a facet that contains a small sapphire. When brandished, the symbol catches and amplifies the surrounding light into a blinding flare. This has several effects. When the bearer uses the holy symbol to channel energy (whether she channels positive or negative energy), any creature that takes damage must succeed at a DC 10 Fortitude save or be dazzled for 1 round. If the bearer casts a spell using a brilliant flash symbol as a divine focus, she can force up to three creatures affected by the spell to attempt a DC 10 Fortitude save; any who fail are dazzled for 1 round in addition to any of the spell\u00e2\u0080\u0099s other effects. The bearer can permanently expend the magic inside the small sapphire to cause the creatures to instead be blinded if they fail the save or dazzled if they succeed at it. This causes the sapphire to crumble into fine powder. A brilliant flash symbol functions only in areas with some kind of ambient light. It loses all of its powers in areas of total darkness. CONSTRUCTION REQUIREMENTS Cost 800 gp; Feats Craft Wondrous Item; Spells flare; Special channel energy class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brilliant_flash_symbol",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vest_of_stable_mutation__crb_",
+    "name": {
+      "value": "Vest of stable mutation #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 8th; Slot chest; Price 20,000 gp; Weight 2 lbs. DESCRIPTION This leather vest is fitted with a number of pockets that are useful for storing the ingredients necessary for alchemical tinkering. The main ability of this vest, however, is to lessen the debilitating effects of an alchemist\u00e2\u0080\u0099s mutagen. While under the effect of any type of mutagen, the wearer takes no penalty to mental ability scores from that mutagen. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, eagle\u00e2\u0080\u0099s splendor, fox\u00e2\u0080\u0099s cunning, owl\u00e2\u0080\u0099s wisdom; Special creator must be an alchemist; Cost 10,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vest_of_stable_mutation",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vest_of_stable_mutation",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

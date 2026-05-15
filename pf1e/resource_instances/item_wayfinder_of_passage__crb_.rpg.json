@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wayfinder_of_passage__crb_",
+    "name": {
+      "value": "Wayfinder of Passage"
+    },
+    "source": {
+      "value": "pathfinder_chronicles_seekers_of_secrets_paizo_publishing_llc"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varied; CL 10th; Slot none; Price 136,000 gp; Weight 1 lb. DESCRIPTION This wayfinder is an artistic treasure, crafted in gold and set with tiny opals, rubies, diamonds, and sapphires. Three slots on the inner side of the lid can each hold one ioun stone. It sheds light equivalent to the daylight spell on your command. It has the following abilities, each activated by a different command word: dimension door (once per day) feather fall (at will) knock (at will) resist energy> (once per day, energy resistance 20, lasts 24 hours) When the first ioun stone slot is used, the dimension door ability no longer functions. When the second slot is used, feather fall and resist energy are unavailable. When the third slot is used, daylight and knock no longer function. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells daylight, dimension door, feather fall, knock, resist energy; Cost 68,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wayfinder_of_passage",
+          "value": {
+            "value": 136000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wayfinder_of_passage",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

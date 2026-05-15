@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scabbard_of_vigor__crb_",
+    "name": {
+      "value": "Scabbard of vigor #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Price 1,800 gp; Weight 3 lbs. DESCRIPTION Once per day, as part of the action of drawing forth the weapon held by the scabbard, the wearer can order it to endow the weapon with an enhancement bonus on attack and damage rolls. The duration of the effect depends on the desired enhancement bonus for the weapon. Bonus Duration +4 1 round +3 3 rounds +2 5 rounds +1 10 rounds CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells greater magic weapon; Cost 900 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scabbard_of_vigor",
+          "value": {
+            "value": 1800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scabbard_of_vigor",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tempest_shield__crb_",
+    "name": {
+      "value": "Tempest shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Weight 10 lbs.; Price 15,170 gp DESCRIPTION The face of this +1 bashing heavy steel shield swirls with the image of swirling clouds, driving rain, or falling snow. When used to make a shield bash attack, the shield\u2019s wielder can make a bull rush maneuver as a free action against her target without provoking an attack of opportunity from the creature being bull rushed. Once per day on command, the wielder can cause the tempest shield to emit a stream of high-powered air as the gust of wind spell. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, gust of wind; Cost 8,170 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tempest_shield",
+          "value": {
+            "value": 15170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_tempest_shield",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

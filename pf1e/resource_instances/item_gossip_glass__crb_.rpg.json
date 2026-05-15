@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gossip_glass__crb_",
+    "name": {
+      "value": "Gossip Glass"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 1st; Slot eyes; Price 3,600 gp; Weight 1 lb. DESCRIPTION This silver, bejeweled set of opera glasses is indistinguishable from a regular set, save that when you look through the lenses you gain a +4 competence bonus to Perception checks. When reading lips, you can understand any spoken language as the comprehend languages spell. You can only use a gossip glass to spy on conversations within line of sight and must be able to see people speak in order to read their lips. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, comprehend languages; Cost 1,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gossip_glass",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gossip_glass",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shieldmarshal_s_pistol__crb_",
+    "name": {
+      "value": "Shieldmarshal's Pistol"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,050 gp; Slot none; CL 9th; Weight 5 lbs.; Aura moderate divination DESCRIPTION This +1 double-barreled pistol contains a single grit feat from the following list: Deft Shootist Deed, Fabulist, Gun Twirling, Leaping Shot Deed, No Name, and Ricochet Shot Deed. Anyone who wields or carries the shieldmarshal\u2019s pistol and meets the feat\u2019s prerequisites gains the feat\u2019s benefit. The wielder can\u2019t use the pistol\u2019s feat to meet prerequisites. CONSTRUCTION REQUIREMENTS Cost 11,050 gp; Feats Craft Magic Arms and Armor, chosen grit feat; Spells share memory"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shieldmarshal_s_pistol",
+          "value": {
+            "value": 20050
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shieldmarshal_s_pistol",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

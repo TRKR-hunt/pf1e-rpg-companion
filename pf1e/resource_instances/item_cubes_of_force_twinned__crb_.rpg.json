@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cubes_of_force_twinned__crb_",
+    "name": {
+      "value": "Cubes of Force, Twinned"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 66,000 gp; Weight 1/2 lb. DESCRIPTION These cubes function as two cubes of force, except that when a face on one cube is pressed, its counterpart creates the appropriate wall instead as long as the distance between the cubes does not exceed 100 feet. Both cubes can remain active even after being set down on the ground and abandoned. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, wall of force; Cost 33,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cubes_of_force_twinned",
+          "value": {
+            "value": 66000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_the_master__crb_",
+    "name": {
+      "value": "Staff of the master (necromancy)"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 8th; Slot none; Price 30,000 gp; Weight 5 lbs. DESCRIPTION Often given as gifts to apprentices upon reaching the rank of master, these staves come in eight different varieties, one for each school of magic. This particular staff is for the school of necromancy. Aside from acting as a +1/+1 quarterstaff, this staff allows use of the following spells: Ray of enfeeblement (1 charge) Spectral hand (1 charge) Vampiric touch (2 charges) Additionally, the wielder can apply any metamagic feats she knows when she casts the spells above from the staff. This consumes a number of charges equal to the number of spell levels increased by the feat. She can apply no more than one metamagic feats to a spell cast from the staff in this way. Using the staff for this purpose does not increase the casting time of the spell. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Staff; Spells ray of enfeeblement, spectral hand, vampiric touch; Cost 15,300 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_the_master",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_the_master",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

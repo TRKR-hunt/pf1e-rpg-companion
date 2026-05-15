@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blood_reservoir_of_physical_prowess__crb_",
+    "name": {
+      "value": "Blood reservoir of physical prowess #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Weight \u00e2\u0080\u0094; Slot none; Price 2,000 gp DESCRIPTION This blown-glass vial has a chain for attaching it to the handle of a weapon. When filled with the wearer\u2019s blood, it gains powerful magic. Filling the reservoir takes a full minute, deals 4 points of Constitution damage (which can be healed normally), and imbues the reservoir with 4 charges. Charging the reservoir changes the blood to magical fluid, which does not clot or decay with time. The wearer can speak the first command word to draw 1 or more charges from the reservoir, curing 1 point of physical ability score damage per charge used. The wearer can speak the second command word to imbue herself with a great burst of physical prowess, depleting all remaining charges and gaining an inherent bonus to one physical ability score equal to twice the number of charges used. This bonus lasts until the end of the wearer\u2019s next turn. The bearer can only use the reservoir if it is held in hand or attached to a held or wielded weapon. A bearer can safely carry only one charged reservoir at a time; any others spontaneously drain their charges in 1d10 rounds, leaving only the highest-charged reservoir intact. A reservoir has no effect if not charged with the wearer\u2019s blood, and cannot be charged by bloodless creatures or those that cannot take Constitution damage. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells death knell; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blood_reservoir_of_physical_prowess",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

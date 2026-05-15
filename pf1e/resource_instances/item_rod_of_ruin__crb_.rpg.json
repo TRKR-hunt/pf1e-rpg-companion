@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_ruin__crb_",
+    "name": {
+      "value": "Rod of ruin"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot none; Price 16,000 gp; Weight 5 lbs. DESCRIPTION This magical item appears to be an old and decaying scepter, with empty sockets for gemstones and rusted iron bands holding its rotting wooden shaft together. Three times per day on command, when the wielder touches the rod to a non-magical, inanimate object, that object decays, cracks, and withers. The object, which can be no larger than a door or must take up no more than a 5-foot-by-5-foot area, gains the broken condition. CONSTRUCTION REQUIREMENTS Feats Craft Rod, disintegrate; Cost 8,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_ruin",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_ruin",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_illumination__crb_",
+    "name": {
+      "value": "Staff of illumination"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 15th; Slot none; Price 51,500 gp; Weight 5 lbs. DESCRIPTION This staff is usually sheathed in a layer of silver and decorated with gold and amber sunbursts. A staff of illumination allows use of the following spells: Dancing lights (1 charge) Flare (1 charge) Daylight (2 charges) Sunburst (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells dancing lights, daylight, flare, sunburst; Cost 25,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_illumination",
+          "value": {
+            "value": 51500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_illumination",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

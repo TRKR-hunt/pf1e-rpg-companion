@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fighter_s_fork__crb_",
+    "name": {
+      "value": "Fighter\u2019s fork"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,315 gp; Aura faint transmutation; CL 3rd; Weight 4 lbs. DESCRIPTION This steel-tined +1 trident can be commanded to lengthen or shorten its haft (or return to its normal length) as a swift action. It is a two-handed reach weapon when extended but cannot be thrown. If shortened, it can be wielded as a light weapon or hurled as a javelin. Feats or class abilities that apply to tridents apply to a fighter\u2019s fork in any form. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells shrink item; Cost 3,815 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fighter_s_fork",
+          "value": {
+            "value": 7315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fighter_s_fork",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

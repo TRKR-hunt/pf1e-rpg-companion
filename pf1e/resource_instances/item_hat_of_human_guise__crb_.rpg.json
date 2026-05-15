@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hat_of_human_guise__crb_",
+    "name": {
+      "value": "Hat of Human Guise"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 3rd; Slot head; Price 800 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This threadbare hat allows its wearer to alter her appearance as with a disguise self spell, except she can only appear as a plainly dressed Small human child, adult halfling, or adult gnome, such as a peasant, blacksmith, or shopkeeper. The wearer can slightly alter the cap\u2019s appearance as part of the disguise, but otherwise must match the overall unremarkable look of the illusory form. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, disguise self; Cost 400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hat_of_human_guise",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

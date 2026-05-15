@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "seafarers_waders__crb_",
+    "name": {
+      "value": "Seafarer\u00e2\u0080\u0099s Waders"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "<span data-mce-type=\u201dbookmark\u201d style=\u201ddisplay: inline-block; width: 0px; overflow: hidden; line-height: 0;\u201d class=\u201dmce_SELRES_start\u201d>\ufeff</span> Price 3,350 gp; Slot feet; CL 3rd Weight 1 lb.; Aura faint transmutation APPEARANCE These slightly discolored leather boots come up to the wearer\u2019s knees and are covered with small barnacles. EFFECTS When they are worn, the boots grant their wearer a +2 competence bonus on Acrobatics, Climb, and Swim checks. In addition, once per day, the wearer can say a command word to gain the effects of spider climb for up to 30 minutes. This effect can be dismissed as a free action. CONSTRUCTION REQUIREMENTS Cost 1,675 gp; Feats Craft Wondrous Item; Spells jump, spider climb"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_seafarers_waders",
+          "value": {
+            "value": 3350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_seafarers_waders",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

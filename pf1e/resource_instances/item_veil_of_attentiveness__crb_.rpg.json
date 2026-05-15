@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "veil_of_attentiveness__crb_",
+    "name": {
+      "value": "Veil of Attentiveness"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 750 gp; Slot head; CL 1st Weight \u00e2\u0080\u0094; Aura faint transmutation APPEARANCE This gauzy veil sharpens the wearer\u00e2\u0080\u0099s hearing, enhances her ability to interpret others\u00e2\u0080\u0099 words, and improves her ability to perceive multiple conversations simultaneously. Veils of attentiveness have historically been popular among diplomats or savvy elven political players in densely populated places. They are still especially prized in crowded areas where nobles gather, such as royal courts or upscale dining and lounging establishments. EFFECTS The wearer of a veil of attentiveness gains a +2 competence bonus on hearing-based Perception checks and on Sense Motive checks to interpret others\u00e2\u0080\u0099 meaning or to detect possible deception. In addition, when listening to multiple speakers\u00e2\u0080\u0099 voices, the wearer of a veil of attentiveness can understand each speaker as though she were listening only to that voice. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells keen senses"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_veil_of_attentiveness",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

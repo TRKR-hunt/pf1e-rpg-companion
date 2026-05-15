@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "medallion_mind_sentinel__crb_",
+    "name": {
+      "value": "Mind sentinel medallion"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 1st; Slot neck; Price 3,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION The surface of this silver medallion is covered in angular geometric shapes that refract light randomly. The medallion grants a continuous +2 resistance bonus on saves versus mind-affecting spells, spell-like abilities, and supernatural abilities. If the wearer fails a save to avoid becoming dominated or confused, the amulet immediately grants the wearer a second saving throw to resist the effect. If this second save is successful, the medallion\u00e2\u0080\u0099s power fades away entirely and it becomes a simple piece of silver jewelry. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, protection from evil; Cost 1,750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_medallion_mind_sentinel",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

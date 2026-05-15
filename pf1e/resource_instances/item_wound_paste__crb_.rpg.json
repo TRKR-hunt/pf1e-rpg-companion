@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wound_paste__crb_",
+    "name": {
+      "value": "Wound Paste"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 1st; Slot none; Price 50 gp; Weight 1/2 lb. DESCRIPTION Prized by slavers as an affordable way to stop a captive from bleeding to death, a dose of wound paste acts as a stabilize spell when slathered on a dying creature. Applying wound paste is a standard action that provokes an attack of opportunity. A pot of wound paste contains 5 doses. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, stabilize; Cost 25 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wound_paste",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

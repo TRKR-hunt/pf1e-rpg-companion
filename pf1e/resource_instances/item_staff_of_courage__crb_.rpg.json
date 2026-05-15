@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_courage__crb_",
+    "name": {
+      "value": "Staff of courage"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 8th; Slot none; Price 20,800 gp; Weight 5 lbs. DESCRIPTION This sturdy-looking hickory staff is capped with a figurine of an angelor other benevolent spirit, wings and arms outstretched as if in welcome. This staff allows use of the following spells: Bless (1 charge) Remove fear (1 charge) Prayer (2 charges) Remove paralysis (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells bless, prayer, remove fear, remove paralysis; Cost 10,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_courage",
+          "value": {
+            "value": 20800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_courage",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

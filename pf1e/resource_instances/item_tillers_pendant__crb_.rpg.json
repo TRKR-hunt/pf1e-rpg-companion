@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tillers_pendant__crb_",
+    "name": {
+      "value": "Tiller's Pendant"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,400 gp; Slot none; CL 3rd Weight -; Aura faint illusion and transmutation DESCRIPTION This cluster of emeralds attached to a delicate golden clasp is arranged in the likeness of a five-petaled blossom. Regardless of how it is worn, it does not take up an item slot. As long as the pendant is visible on the wearer\u2019s person, it grants a +4 competence bonus on Disguise and Stealth checks to the wearer. In addition, once per day when the command word is spoken, the emeralds take on the appearance of a living flower, gaining the ability to magically imbue 2d4 freshly picked berries so that each can provide a meal and cure 1 point of damage when eaten, as per goodberry. CONSTRUCTION REQUIREMENTS Cost 3,200 gp; Feats Craft Wondrous Item; Spells disguise self, goodberry"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tillers_pendant",
+          "value": {
+            "value": 6400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

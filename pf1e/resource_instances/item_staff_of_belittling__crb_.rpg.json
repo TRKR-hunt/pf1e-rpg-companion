@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_belittling__crb_",
+    "name": {
+      "value": "Staff of belittling"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot none; Price 20,000 gp; Weight 5 lbs. DESCRIPTION Someone who carries this blue-and-white staff need never feel small nor weak, as the staff brings everybody and everything down to size. This staff allows the use of the following spells: Reduce person (1 charge) Reduce animal (2 charges) Shrink item (2 charges) Mass reduce person (4 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells mass reduce person, reduce animal, reduce person, shrink item; Cost 10,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_belittling",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_belittling",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

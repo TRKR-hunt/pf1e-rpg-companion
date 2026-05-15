@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scarves_of_the_stinging_dancer__crb_",
+    "name": {
+      "value": "Scarves of the Stinging Dancer"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot chest; CL 3rd Weight \u00e2\u0080\u0094; Aura faint evocation APPEARANCE Note This item is associated with a specific deity. Made to enhance the most seductive dances, this collection of silken scarves is patterned in yellow and black. Worshipers of the associated deity draw upon ancient evocation magic to imbue the silk with vengeful energies. EFFECTS Scarves of the stinging dancer grant a +2 circumstance bonus on Perform (dance) checks, similar to that granted by masterwork musical instruments; this effect is non-magical and cannot be dispelled. To activate the scarves\u00e2\u0080\u0099 magic, the wearer must succeed at a DC 20 Perform (dance) check. This check can be attempted as part of a move action in which the wearer moves no more than half his speed (including when he uses the Acrobatics skill to avoid enemies) or as part of an attack action or full attack in which the wearer uses only a bladed scarf to attack. Once activated, the scarves\u00e2\u0080\u0099 magic lasts until the beginning of the wearer\u00e2\u0080\u0099s next turn. While the scarves\u00e2\u0080\u0099 magic is active, whenever the wearer is successfully targeted by a harmful spell, hit by a melee or ranged attack, or touched against his will, the scarves lash out at the source of the attack (a creature if it\u00e2\u0080\u0099s a spellcaster or an individual holding a magic item, or an object if the source is a trap or otherwise unattended) with a magic missile (CL 3rd). This missile takes the form of an angrily buzzing wasp. The scarves can be deactivated as a free action. The scarves of the stinging dancer can create 50 missiles before losing their magic. At this point, the scarves can no longer cast magic missile, but they still provide the +2 bonus on Perform (dance) checks. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Craft Wondrous Item; Spells magic missile; Special creator must worship the associated deity"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scarves_of_the_stinging_dancer",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

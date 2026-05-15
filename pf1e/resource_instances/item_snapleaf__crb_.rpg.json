@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "snapleaf__crb_",
+    "name": {
+      "value": "Snapleaf #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight \u00e2\u0080\u0094; Slot none; Price 750 gp DESCRIPTION This crystalline carving looks like a hand-sized tree leaf. It is usually worn around the neck on a strap so it is within easy reach, but can be affixed to a belt or clothing just like a badge. While falling, the bearer can snap and destroy the snapleaf as an immediate action to gain the benefits of feather fall and invisibility. The duration of the two effects work independently; ending one early does not affect the other. The item cannot be activated to provide just one of these two effects; they are always activated simultaneously. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, feather fall, invisibility; Cost 375 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_snapleaf",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bag_of_concealment__crb_",
+    "name": {
+      "value": "Bag of Concealment"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot none; Price 5,000 gp (type I), 10,000 gp (type II), 14,800 gp (type III), 20,000 gp (type IV); Weight 15 lbs. (type I), 25 lbs. (type II), 35 lbs. (type III), 60 lbs. (type IV) DESCRIPTION A bag of concealment appears to be a common leather sack with a shoulder strap, about 2 feet by 4 feet in size. The bag behaves as a bag of holding, with all the same carrying capacities according to size, except for a few key points. Each bag of concealment is keyed to a specific owner upon creation (and can only be keyed to one person at a time)\u00e2\u0080\u0094should the bag\u00e2\u0080\u0099s owner be killed, it becomes keyed to the next person to open it (the currently keyed person can also relinquish this status as a standard action, allowing another creature to become keyed to the bag by opening it). Only the person a bag of concealment is keyed to may access its contents. Any others who look in the bag see only the inside of an empty sack, with dimensions matching the bag\u00e2\u0080\u0099s outside measurements, as the true contents are kept separate and undetectable in the bag\u00e2\u0080\u0099s magical pocket dimension. Should anything be placed in the empty bag by someone other than the owner, the goods that have been shunted to the pocket dimension cannot be accessed unless the new item is removed. A bag of concealment registers as non-magical unless successfully identified, as per a permanent version of the spell magic aura. The mouth of a bag of concealment can be stretched to up to four times its normal width, so larger goods may be hidden inside. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Spells fabricate, secret chest; Cost 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bag_of_concealment",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bag_of_concealment",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hammer_of_seismic_assault__crb_",
+    "name": {
+      "value": "Hammer of Seismic Assault"
+    },
+    "source": {
+      "value": "vault_of_the_onyx_citadel"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 80,000 gp; Slot none; CL 15th; Weight 5 lbs.; Aura strong evocation DESCRIPTION The head of this warhammer is a solid chunk of rough crystal that hums constantly. EFFECTS This +3 impact warhammer deals 2d6 points of bludgeoning damage when it hits. As a swift action, the wielder can will the hammer\u00e2\u0080\u0099s crystalline head to grow jagged spikes, switching its damage type to piercing for a single blow. When the bearer confirms a critical hit with the hammer of seismic assault, a concussive blast emits from the hammer in a 10-foot-radius spread, causing a tremor to rip through the ground. Any creatures standing on the ground in this area with a CMD equal to or lower than the result of the confirmation roll are knocked prone. This damaged area is considered rough terrain for 10 minutes. CONSTRUCTION REQUIREMENTS Cost 40,000 gp; Feats Craft Magic Arms and Armor; Spells earthquake, lead blades"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hammer_of_seismic_assault",
+          "value": {
+            "value": 80000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hammer_of_seismic_assault",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

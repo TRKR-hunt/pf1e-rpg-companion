@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dryload_powder_horn__crb_",
+    "name": {
+      "value": "Dryload Powder Horn"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 3rd; Weight 1 lb.; Slot none; Price 2,000 gp DESCRIPTION This horn holds 20 doses of black powder for firearms. When a firearm is loaded with black powder directly from this horn, the horn creates a small pocket of air that envelops the gun and allows that shot to be fired underwater or in an area lacking air, such as a vacuum. Once the gun is loaded with powder from the dry load powder horn, it retains the pocket of air for 10 minutes or until the firearm is fired, whichever comes first. Firing a firearm that has been loaded from this horn underwater still incurs the \u00e2\u0080\u00942 penalty on attack rolls for every 5 feet of water the bullet passes through, in addition to the normal penalties to range. When a shot loaded from a dry load powder horn results in a firearm explosion while underwater or in an airless environment, that explosion occurs normally. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, air bubble; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dryload_powder_horn",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dryload_powder_horn",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

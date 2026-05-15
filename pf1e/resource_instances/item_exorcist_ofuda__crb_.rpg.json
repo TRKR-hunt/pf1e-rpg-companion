@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "exorcist_ofuda__crb_",
+    "name": {
+      "value": "Exorcist Ofuda"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 650 gp; Slot none; CL 3rd Weight \u00e2\u0080\u0094; Aura faint abjuration APPEARANCE This paper slip covered with holy writings can be used to protect against lingering evil. EFFECTS A creature holding an exorcist ofuda gains a +3 bonus on Perception checks to notice a haunt when the haunt\u00e2\u0080\u0099s effects manifest. Additionally, as a standard action the exorcist ofuda can be triggered to grant all allies within 30 feet a +2 sacred bonus on saving throws and a +2 deflection bonus to AC against a haunt\u00e2\u0080\u0099s effects for 1 round. Triggering the ofuda this way destroys it in a gout of flame. CONSTRUCTION REQUIREMENTS Cost 325 gp; Feats Craft Wondrous Item; Spells protection from evil"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_exorcist_ofuda",
+          "value": {
+            "value": 650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

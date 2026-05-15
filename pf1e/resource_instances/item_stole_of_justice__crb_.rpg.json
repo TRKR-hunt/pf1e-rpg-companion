@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stole_of_justice__crb_",
+    "name": {
+      "value": "Stole of justice #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Slot shoulders; Price 18,000 gp; Weight 1 lb. DESCRIPTION This long stole of unrelenting black is marked on one end with golden scales and the other with the embroidered image of hooded justice. The wearer gains a +5 competence bonus on Sense Motive checks and can create a zone of truth for up to 5 minutes per day; these rounds need not be consecutive. When the wearer uses detect chaos, detect evil, detect good, or detect law, at the beginning of her next turn after casting she gains information as if she had concentrated for 3 full rounds. Finally, if the wearer is an inquisitor, when using her judgment she receives a bonus on Perception checks and her combat maneuver defense as if she were wielding a jurist weapon. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, zone of truth; Special creator must have 5 ranks of Sense Motive; Cost 9,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stole_of_justice",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_stole_of_justice",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

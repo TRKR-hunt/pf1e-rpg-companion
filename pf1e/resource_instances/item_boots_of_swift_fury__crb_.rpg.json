@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_swift_fury__crb_",
+    "name": {
+      "value": "Boots of Swift Fury"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,500 gp; Slot feet; CL 11th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION These boots of heavy, furred hide rise to the wearer\u2019s calf, and are held in place with rough hide straps secured by thick iron buckles. They increase the wearer\u2019s base land speed by 10 feet (considered an enhancement bonus ). When the wearer is in a rage, the boots also grant him a +4 deflection bonus to AC against attacks of opportunity provoked by moving through or out of a threatened area or by casting a spell. CONSTRUCTION REQUIREMENTS Cost 3,750 gp; Feats Craft Wondrous Item; Spells expeditious retreat, rage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_swift_fury",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_swift_fury",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gold_nodule__crb_",
+    "name": {
+      "value": "Gold Nodule (Ioun Stone)"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION This stone grants you the ability to comprehend, speak, read, and write a single language (chosen by the ioun stone\u2019s creator). Cracked: This stone grants a +1 competence bonus on Linguistics checks. Price: 150 gp. Flawed: This stone grants you the ability to comprehend and read, but not speak or write, a single language (chosen by the ioun stone\u2019s creator). Price: 1,000 gp. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells tongues; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gold_nodule",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

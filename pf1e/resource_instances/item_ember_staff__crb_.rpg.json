@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ember_staff__crb_",
+    "name": {
+      "value": "Ember Staff"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,100 gp; Slot none; CL 8th; Weight 3 lbs.; Aura moderate evocation DESCRIPTION The reddish brown bark of this charred manzanita branch shows only in patches. The staff is a mere 3 feet long and balanced for use as a masterwork club. When casting produce flame from the staff, its wielder can choose to set the end of the staff alight instead of producing the flame in her hand. This does not damage the staff, and the spell\u2019s damage is added to any melee attacks made with the staff. Produce flame (1 charge) Scorching ray (2 charges) Fireball (4 charges) CONSTRUCTION REQUIREMENTS Cost 6,700 gp; Feats Craft Staff; Spells fireball, produce flame, scorching ray"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ember_staff",
+          "value": {
+            "value": 13100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ember_staff",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

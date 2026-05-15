@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "azata_s_whimsy__crb_",
+    "name": {
+      "value": "Azata's Whimsy"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot neck; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate enchantment DESCRIPTION Any time the wearer of an azata\u2019s whimsy would become confused, her random actions are modified as follows: Act normally: No changes. Babble: The wearer\u2019s babbling is beautiful and inspiring, functioning as a 7th-level bard\u2019s inspire courage bardic performance during each round this result is rolled. Damage self: The damage is nonlethal. Attack nearest creature: The wearer gains a +1 insight bonus on attack rolls against enemies and takes a \u00e2\u0080\u00934 penalty against allies. Additionally, the wearer of an azata\u2019s whimsy may choose to voluntarily enter a state of confusion (as the spell) as a free action for up to 7 rounds per day. These rounds need not be consecutive. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells confusion; Special creator must be a chaotic good bard; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_azata_s_whimsy",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

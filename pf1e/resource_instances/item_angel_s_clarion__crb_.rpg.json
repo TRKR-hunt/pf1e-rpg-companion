@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "angel_s_clarion__crb_",
+    "name": {
+      "value": "Angel's Clarion"
+    },
+    "source": {
+      "value": "chronicle_of_the_righteous"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration and transmutation; CL 5th; Slot none; Price 23,400 gp; Weight 1 lb. DESCRIPTION An angel\u2019s clarion is a graceful trumpet whose bell unfolds like the petals of a flower. These trumpets are usually platinum or silver near the mouthpiece, transforming to a rose gold at the bell. Three times per day when an angel\u2019s clarion is sounded, it releases a blast that sounds like the chiming, resonant voices of an angelic choir. Any good-aligned creatures in a 30-foot cone emanating from the trumpet are washed in positive energy and healed for 3d8+5 points of damage. This energy only affects good-aligned creatures; neutral and evil creatures receive no benefit and undead creatures are not harmed. A carpet of flowers springs up beneath the 30-foot cone, growing and blooming in seconds. Any evil-aligned creatures within the area of effect must succeed at a DC 13 Reflex save or be treated as if in the area of an entangle spell. The entangling flowers persist for 5 minutes. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells cure serious wounds, entangle; Special creator must worship an empyreal lord; Gold 11,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_angel_s_clarion",
+          "value": {
+            "value": 23400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_angel_s_clarion",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

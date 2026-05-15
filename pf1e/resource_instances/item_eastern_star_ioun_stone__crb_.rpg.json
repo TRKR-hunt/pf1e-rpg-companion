@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "eastern_star_ioun_stone__crb_",
+    "name": {
+      "value": "Eastern Star (Ioun Stone)"
+    },
+    "source": {
+      "value": "occult_mysteries"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION This red crystal is cut in the shape of a five-pointed star. Its user understands spoken and written languages as if under the effects of comprehend languages. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells tongues"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_eastern_star_ioun_stone",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

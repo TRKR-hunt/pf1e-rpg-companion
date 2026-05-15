@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mantle_of_immortality__crb_",
+    "name": {
+      "value": "Mantle of immortality #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 17th; Slot chest; Price 50,000 gp; Weight 1 lb. DESCRIPTION This elegant cape, trimmed in gold in a pattern resembling an ancient maze, forestalls the negative effects of aging. The wearer no longer suffers penalties to Strength, Dexterity, and Constitution from being of middle age or older. The penalties return if the robe is removed (or its powers suppressed), and the sudden weight of years is so traumatic that the wearer must make a DC 20 Fortitude save or be exhausted for 24 hours. Donning the robe again removes the age penalties, but does not remove this exhaustion, which must pass on its own or be remedied with magic. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, greater age resistance; Cost 25,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mantle_of_immortality",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mantle_of_immortality",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

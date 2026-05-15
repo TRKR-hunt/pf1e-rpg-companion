@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_whispering_first_world__crb_",
+    "name": {
+      "value": "Gloves, Whispering (First World)"
+    },
+    "source": {
+      "value": "legacy_of_the_first_world"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot hands; Price 1,000 gp; Weight 1 lb. DESCRIPTION These supple silk gloves are skintight. As a standard action, the wearer can deliver a complex secret message to a single target that can see the wearer as if she had succeeded at a DC 20 Bluff check. This message is conveyed in a series of rapid, complicated hand gestures that the target automatically understands. Creatures that see the wearer send a message can attempt a DC 20 Sense Motive check to notice that the wearer is delivering a secret message and decipher it. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells message; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_whispering_first_world",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_whispering_first_world",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

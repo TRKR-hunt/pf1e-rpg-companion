@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gossamer_shrouds_of_the_clairvoyant__crb_",
+    "name": {
+      "value": "Gossamer Shrouds of the Clairvoyant"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,150 gp; Slot armor; CL 9th; Weight 25 lbs.; Aura moderate conjuration and illusion; Alignment chaotic neutral; Senses 120 ft.; Intelligence 14; Wisdom 10; Charisma 14; Ego 7; Communication Speech (Auran, Celestial, Common) DESCRIPTION This sky-blue suit of mistmail has the glamered armor special ability, and can once per day create a dramatic spectacle of twinkling lights, as the rainbow pattern spell. The armor is prone to dramatic soliloquies about its \u201cprophetic visions\u201d and \u201csight beyond the mystical veils\u201d; however, it lacks actual divinatory powers. CONSTRUCTION REQUIREMENTS Cost 10,075 gp; Feats Craft Magic Arms and Armor; Spells disguise self, obscuring mist, rainbow pattern"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gossamer_shrouds_of_the_clairvoyant",
+          "value": {
+            "value": 20150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gossamer_shrouds_of_the_clairvoyant",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

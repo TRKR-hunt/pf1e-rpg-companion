@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "thundering_collar__crb_",
+    "name": {
+      "value": "Thundering Collar"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,800 gp; Slot neck; CL 1st; Weight 1 lb.; Aura minor abjuration DESCRIPTION Made of twisted copper wire braided into a torc with red-stained dog paws at its ends, a thundering collar allows the wearer to issue a rumbling growl that sounds like rolling thunder three times per day. Creatures within 15 feet must succeed at a DC 12 Will save to attack (as if affected by sanctuary ). The wielder can bestow the effect on one adjacent ally as well. This effect lasts for 3 rounds or until the wearer or its ally attacks. CONSTRUCTION REQUIREMENTS Cost 2,400 gp; Feats Craft Wondrous Item; Spells ghost sound, sanctuary"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_thundering_collar",
+          "value": {
+            "value": 4800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_thundering_collar",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

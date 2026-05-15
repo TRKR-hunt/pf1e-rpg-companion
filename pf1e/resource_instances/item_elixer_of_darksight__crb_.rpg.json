@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixer_of_darksight__crb_",
+    "name": {
+      "value": "Elixir of Darksight"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 6th; Slot none; Price 1,200 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This dark, syrupy draught doubles the range of the drinker\u2019s darkvision and also enables her to see through deeper darkness when using darkvision. The effects last for 1 hour. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, darkvision, deeper darkness; Cost 600 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixer_of_darksight",
+          "value": {
+            "value": 1200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

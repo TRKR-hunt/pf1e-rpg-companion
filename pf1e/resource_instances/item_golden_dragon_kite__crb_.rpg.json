@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "golden_dragon_kite__crb_",
+    "name": {
+      "value": "Golden Dragon Kite"
+    },
+    "source": {
+      "value": "what_lies_in_dust"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd Slot none; Price 3,600 gp; Weight 2 lbs. DESCRIPTION This painted silk kite depicts a shining golden dragon. In an area with 40 feet or more of vertical space and in conditions of light to moderate wind, a golden dragon kite can be unfolded and raised into the air as a full-round action. The user can direct the kite to move up to 100 feet from him in a single turn (but no farther). Three times per day, the kite can cast burning hands. The spell originates from the kite but acts as normal in all other ways. This spell can only be reproduced while the kite is flying, a process that takes 1 minute to achieve. Rumors say that in Minkai, versions of these kites exist that deliver other spells at great range. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, burning hands; Cost 1,800 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_golden_dragon_kite",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_golden_dragon_kite",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

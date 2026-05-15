@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_mithral_might__crb_",
+    "name": {
+      "value": "Staff of mithral might"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 11th; Slot none; Price 58,000 gp; Weight 7 lbs. DESCRIPTION This staff is made of silver, with a shimmering sphere of mithral at either end. One end features a golden snake wrapped around the staff and cradling the larger of these two mithral spheres. The staff may be used as a weapon, functioning as a +2/+2 quarterstaff. It also grants a +2 enhancement bonus to Intelligence to whoever possesses it. These two attributes continue to function after all the charges are expended. It allows the use of the following spells: Bull\u00e2\u0080\u0099s strength (1 charge) Enlarge person (1 charge) Telekinesis (3 charges) Flesh to stone (4 charges) CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Staff; Spells bull\u00e2\u0080\u0099s strength, enlarge person, flesh to stone, fox\u00e2\u0080\u0099s cunning, telekinesis; Cost 29,300 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_mithral_might",
+          "value": {
+            "value": 58000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_mithral_might",
+          "value": {
+            "value": 7
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

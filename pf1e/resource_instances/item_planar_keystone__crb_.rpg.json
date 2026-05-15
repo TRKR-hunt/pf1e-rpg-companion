@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "planar_keystone__crb_",
+    "name": {
+      "value": "Planar Keystone"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,200 gp; Slot none; CL 17th; Weight 2 lbs.; Aura strong conjuration DESCRIPTION A planar keystone is a small cube etched with runes. Each planar keystone is attuned to a specific site on a particular plane\u2014this site must be determined when the planar keystone is created and cannot be changed at a later date. Anyone examining the etched patterns can determine the plane and location with a successful DC 20 Knowledge (planes) check. Once per day, up to eight intelligent creatures within 20 feet of the planar keystone can concentrate upon its etched patterns for 1 minute. This concentration is tenuous; if any of the creatures are attacked or pause to take other actions during this time, the concentration of all participants is broken and the planar keystone\u2019s use for that day is lost. At the end of this time, all creatures concentrating on the planar keystone are transported to the planar keystone\u2019s site as if via plane shift, but arriving precisely on target. The planar keystone travels with the creatures\u2014it is not left behind in the process. CONSTRUCTION REQUIREMENTS Cost 8,100 gp; Feats Craft Wondrous Item; Spells gate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_planar_keystone",
+          "value": {
+            "value": 16200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_planar_keystone",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

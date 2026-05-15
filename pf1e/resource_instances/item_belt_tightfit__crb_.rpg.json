@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_tightfit__crb_",
+    "name": {
+      "value": "Belt, Tightfit"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot belt; CL 3rd; Weight 1 lb.; Aura faint transmutation As a free action, the wearer of this brown leather belt can compress himself to fit through tight spaces as though affected by a squeeze spell for up to 10 rounds per day. When using the belt\u2019s squeezing ability, the wearer gains a +5 circumstance bonus on Escape Artist checks. Once per day as a move action, the wearer can reduce his size by one step, as the reduce person spell, for 1 round. These effects can be used simultaneously. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells grease, reduce person, squeeze"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_tightfit",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_tightfit",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

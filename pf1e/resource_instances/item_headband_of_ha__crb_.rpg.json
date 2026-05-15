@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_ha__crb_",
+    "name": {
+      "value": "Headband of havoc (Ha)"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 5th; Slot headband; Price 8,000 gp; Weight 1 lb. DESCRIPTION This band of raggedly stitched animal skins and teeth focuses a barbarian wearer\u00e2\u0080\u0099s bloodlust. When the wearer enters a rage, she selects one of her rage powers. For the duration of the rage, that power functions as if the wearer\u00e2\u0080\u0099s barbarian level were four levels higher. Once per day when the wearer is attacked or has to make a saving throw against a hostile effect, she may spend 2 rounds of rage to begin a rage as an immediate action. This rage becomes active prior to resolving the attack that triggered it and lasts until the start of her next turn (at which time she may continue to rage as if she had begun the rage in the normal manner). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, rage; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_ha",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_ha",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

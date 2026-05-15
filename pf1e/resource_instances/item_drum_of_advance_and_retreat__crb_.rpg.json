@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "drum_of_advance_and_retreat__crb_",
+    "name": {
+      "value": "Drum of advance and retreat #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Weight 5 lbs.; Slot none; Price 10,000 gp DESCRIPTION When played, this sturdy snare drum increases the run speed of allied creatures within 120 feet as if they had the Run feat. Activating the drum is a standard action that requires a DC 20 Perform (percussion) check; maintaining the playing is a free action if the player is running. If the bearer stops playing the drum, the enhanced running speed ends. The drum may be used for up to 1 hour per day. This duration does not need to be consecutive, but must be used in 10-minute increments. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, expeditious retreat; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_drum_of_advance_and_retreat",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_drum_of_advance_and_retreat",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

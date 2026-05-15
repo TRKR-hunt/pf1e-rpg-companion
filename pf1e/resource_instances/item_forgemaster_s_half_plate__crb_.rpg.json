@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "forgemaster_s_half_plate__crb_",
+    "name": {
+      "value": "Forgemaster's Half-Plate"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration, divination, evocation, and transmutation; CL 3rd; Slot armor; Price 4,180 gp; Weight 50 lbs. DESCRIPTION This +1 half-plate is usually sized for a dwarf and decorated with one or more hammer-shaped symbols. Once per day, the wearer may use mending, protection from evil, and spark. Once per day as a full-round action, the wearer can attempt a Knowledge check (with a +10 bonus) to identify a creature he is currently in combat with, even if he possesses no ranks in the appropriate Knowledge skill CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells know the enemy, mending, protection from evil, spark; Price 2,465 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_forgemaster_s_half_plate",
+          "value": {
+            "value": 4180
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_forgemaster_s_half_plate",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

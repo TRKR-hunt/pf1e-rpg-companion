@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mistmail__crb_",
+    "name": {
+      "value": "Mistmail"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 3rd; Weight 25 lbs.; Price 2,250 gp DESCRIPTION The fine links of this +1 chain shirt form a pattern of roiling clouds. On command once per day, the wearer can transform it into thick fog that fills his space and provides concealment (20% miss chance) for 3 minutes. This mist moves with the character. Effects that disperse the mist or destroy it cause the armor to reform into its solid shape on the character\u2019s body, as does speaking the command word or entering a place where the fog-magic doesn\u2019t function (such as underwater). If the character tries to don another suit of armor while the mistmail is in fog form, it reforms at the character\u2019s feet. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells obscuring mist; Cost 1,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mistmail",
+          "value": {
+            "value": 2250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mistmail",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

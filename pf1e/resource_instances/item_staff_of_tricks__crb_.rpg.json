@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_tricks__crb_",
+    "name": {
+      "value": "Staff of tricks"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 8th; Slot none; Price 8,800 gp; Weight 3 lbs. DESCRIPTION This thin staff is made of stiff wood that has been wrapped in colorful bands of cloth and topped with a number of feathers, bells, and other decorative baubles. The staff allows use of the following spells: Ghost sound (1 charge) Mage hand (1 charge) Prestidigitation (1 charge) Silent image (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells ghost sound, mage hand, prestidigitation, silent image; Cost 4,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_tricks",
+          "value": {
+            "value": 8800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_tricks",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_ponderous_recollection__crb_",
+    "name": {
+      "value": "Headband of ponderous recollection #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination and transmutation; CL 8th; Slot headband; Price 5,100 gp; Weight 1 lb. DESCRIPTION This black leather headband has two small amber gemstones set so they rest on the wearer\u00e2\u0080\u0099s forehead. The headband grants the wearer a +2 enhancement bonus to Intelligence. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. It also grants skill ranks as a headband of vast intelligence, but always grants ranks in a Knowledge skill. As a swift action three times per day, the wearer can call upon the headband to reveal the abilities and weaknesses of a creature within line of sight. The headband fills the wearer\u00e2\u0080\u0099s mind with information as though the wearer had made a Knowledge check with a natural roll of a 5, adding her bonuses to the check as normal. At the start of her next turn, the wearer receives additional information as though she had made the check with a natural roll of 10. At the start of her turn after that, the wearer receives a final piece of information, treating her natural roll as 15. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, know the enemy; Cost 2,550 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_ponderous_recollection",
+          "value": {
+            "value": 5100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_ponderous_recollection",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

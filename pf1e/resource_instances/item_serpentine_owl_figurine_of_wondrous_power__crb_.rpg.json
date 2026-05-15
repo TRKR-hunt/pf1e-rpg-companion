@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "serpentine_owl_figurine_of_wondrous_power__crb_",
+    "name": {
+      "value": "Figurine of wondrous power (serpentine owl)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,100 gp DESCRIPTION This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle ) according to the command word used. The owl communicates with its owner by telepathic means, informing her of all it sees and hears. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. CONSTRUCTION REQUIREMENTS Cost 4,550 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_serpentine_owl_figurine_of_wondrous_power",
+          "value": {
+            "value": 9100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

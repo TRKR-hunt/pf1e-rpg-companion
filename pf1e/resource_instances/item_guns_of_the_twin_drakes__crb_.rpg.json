@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "guns_of_the_twin_drakes__crb_",
+    "name": {
+      "value": "Guns of the Twin Drakes"
+    },
+    "source": {
+      "value": "antihero_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,600 gp; Slot none; CL 15th; Weight 8 lbs.; Aura strong transmutation DESCRIPTION These paired firearms\u00e2\u0080\u0094a +1 flaming dragon pistol and a +1 frost dragon pistol \u00e2\u0080\u0094are ornately inscribed and carefully carved to resemble fire and ice drakes as a tribute to an infamous pair of quarreling drake siblings (though the names of the drakes have been lost to time). As a swift action, the guns of the twin drakes can be joined together to function as a double-barreled weapon. As a standard action, the joined weapons can be fired at the same time; in this case they must be fired at the same target, and each shot uses a separate attack roll and takes a \u00e2\u0080\u00934 penalty. When fired this way, the first shot deals 1d4 additional points of fire damage and the second deals 1d4 additional points of cold damage; this damage is instead of the extra damage normally granted by the flaming and frost weapon special abilities. CONSTRUCTION REQUIREMENTS Cost 10,600 gp; Feats Craft Magic Arms and Armor; Spells haste, fireball, ray of frost"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_guns_of_the_twin_drakes",
+          "value": {
+            "value": 18600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_guns_of_the_twin_drakes",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

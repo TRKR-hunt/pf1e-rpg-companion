@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_of_needles__crb_",
+    "name": {
+      "value": "Robe of needles #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot body; Price 1,000 gp; Weight 4 lbs. DESCRIPTION This dark, hooded robe has six long, silvery, razor-sharp needles protruding from the bottom of its loose sleeves, three on each side. The wearer can launch one needle as a ranged touch attack. The needle counts as a thrown weapon with a range increment of 10 feet. If the needle hits, it embeds itself in the target\u00e2\u0080\u0099s flesh, dealing 1 point of piercing damage and 1 point of bleed damage. A creature can pull out the needle as a full-round action, which ends the bleed effect. The needle is destroyed if an attack with it misses or when it is removed from a creature it was embedded in. The robe regrows all spent needles each morning. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bleed; Cost 500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_of_needles",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_of_needles",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "slaver_s_cane__crb_",
+    "name": {
+      "value": "Slaver's Cane"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,305 gp; Slot none; CL 10th; Weight 4 lbs.; Aura moderate evocation DESCRIPTION Slave masters and enforcers sometimes use slaver\u2019s canes to put down insubordinates or recapture escaped property. The head of the studded black +1 adamantine light mace sports numerous cruel spikes, and a series of chains around the grip of the mace make it difficult to wrench from the wielder\u2019s hands (granting the wielder a +4 bonus to CMD versus attempts to disarm the weapon). In addition, the command word of the slaver\u2019s cane can be spoken once per day to create a 10-foot-radius resilient sphere around a target within 90 feet ( Reflex DC 16 negates) that lasts for 10 minutes. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Enlarge Spell; Spells resilient sphere; Cost 12,805 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_slaver_s_cane",
+          "value": {
+            "value": 25305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_slaver_s_cane",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

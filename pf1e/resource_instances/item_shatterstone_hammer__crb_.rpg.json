@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shatterstone_hammer__crb_",
+    "name": {
+      "value": "Shatterstone Hammer"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,712 gp; Slot none; CL 7th; Weight 15 lbs.; Aura strong transmutation DESCRIPTION The head of this +1 warhammer is made from magically treated stone that is as hard as metal. A shatterstone hammer deals double damage against unattended earthen and stone objects, and gains the benefit of being a bane weapon when used against creatures of the earth subtype and constructs made of clay or stone. Once per day on a successful attack made with the hammer, the wielder can cause the target to be slowed (as the slow spell). A DC 14 Will save negates this effect. CONSTRUCTION REQUIREMENTS Cost 13,512 gp; Feats Craft Magic Arms and Armor; Spells shatter, slow"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shatterstone_hammer",
+          "value": {
+            "value": 26712
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shatterstone_hammer",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

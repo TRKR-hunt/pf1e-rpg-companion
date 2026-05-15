@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_of_the_valkyrie__crb_",
+    "name": {
+      "value": "Helm of the Valkyrie"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot head; CL 14th; Weight 3 lbs.; Aura strong conjuration DESCRIPTION This shining helm glints with the multicolored hues of the aurora, and features wings carved of fine whalebone that sweep back from the temples. While it is in good shape, it shows signs of having seen battle. Once per day the wearer can summon a giant spectral wolf. Treat this as phantom steed cast by a 14th-level caster, but with an AC of 24 (\u00e2\u0080\u00931 size, +8 natural armor, +7 Dexterity ) and 100 hit points. The wolf can persist for up to 24 hours, as long as the creature that summoned it is still wearing the helm of the valkyrie. Even though it takes the form of a fierce predator and is more powerful than other phantom steeds, the mount is nothing more than mist and can\u2019t attack. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item; Spells phantom steed"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_of_the_valkyrie",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_of_the_valkyrie",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

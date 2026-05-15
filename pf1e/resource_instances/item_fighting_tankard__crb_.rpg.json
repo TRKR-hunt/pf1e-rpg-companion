@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fighting_tankard__crb_",
+    "name": {
+      "value": "Fighting Tankard"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,301 gp; Slot none; CL 10th; Weight 2 lbs.; Aura moderate conjuration DESCRIPTION This steel tankard functions as a +1 light hammer. Worshipers of a god of drinking or luck are automatically proficient with it. The interior of the tankard contains six identical extradimensional spaces. Each space can hold 1 dose of a different potable liquid of up to 1/2 cubic foot in volume (including potions, but not poisons). Liquid never sloshes out of the these spaces accidentally (though it often appears ready to do so), and when the wielder drinks from the tankard, it provides the drink from the desired extradimensional pocket (or a random pocket, if the wielder has no preference). CONSTRUCTION REQUIREMENTS Cost 5,301 gp; Feats Craft Magic Arms and Armor, Craft Wondrous Item; Spells secret chest"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fighting_tankard",
+          "value": {
+            "value": 10301
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fighting_tankard",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_spell_knowledge__crb_",
+    "name": {
+      "value": "Ring of spell knowledge I"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate or strong (no school); CL 7th; Slot ring; Price 1,500 gp (Type I), 6,000 gp (Type II), 13,500 gp (Type III), 24,000 gp (Type IV); Weight \u00e2\u0080\u0094 DESCRIPTION This ring comes in four types: ring of spell knowledge I, ring of spell knowledge II, ring of spell knowledge III, and ring of spell knowledge IV. All of them are useful only to spontaneous arcane spellcasters. Through study, the wearer can gain the knowledge of a single spell in addition to those allotted by her class and level. A ring of spell knowledge I can hold 1st-level spells only, a ring of spell knowledge II 1st- or 2nd-level spells, a ring of spell knowledge III spells of 3rd level or lower, and a ring of spell knowledge IV up to 4th-level spells. A ring of spell knowledge is only a storage space; the wearer must still encounter a written, active, or cast version of the spell and succeed at a DC 20 Spellcraft check to teach the spell to the ring. Thereafter, the arcane spellcaster may cast the spell as though she knew the spell and it appeared on her class\u00e2\u0080\u0099 spell list. Arcane spells that do not appear on the wearer\u00e2\u0080\u0099s class list are treated as one level higher for all purposes (storage and casting). CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special creator must be able to cast spells of the spell level to be granted; Cost 750 gp (Type I), 3,000 gp (Type II), 6,750 (Type III), 12,000 gp (Type IV)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_spell_knowledge",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

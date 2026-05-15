@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spectacles_of_comprehension__crb_",
+    "name": {
+      "value": "Spectacles of Comprehension"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot eyes CL 3rd; Weight \u00e2\u0080\u0094; Aura faint enchantment DESCRIPTION These spectacles bear no markings or decoration, but they are obviously sturdy and of high quality. EFFECTS The wearer of these spectacles gains the ability to better understand written material and unravel the language of contracts. The wearer gains a +5 bonus on Linguistics checks to decipher writing, detect forgeries, research in a library, research an infernal contract, or attempt similar types of examinations. Additionally, he is automatically aware if a contract he\u00e2\u0080\u0099s examining has any deliberate obfuscations or loopholes, though he might not know exactly what they are. CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item, investigative mind"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spectacles_of_comprehension",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

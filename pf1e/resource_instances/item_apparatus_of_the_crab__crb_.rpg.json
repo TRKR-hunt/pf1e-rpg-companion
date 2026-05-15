@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "apparatus_of_the_crab__crb_",
+    "name": {
+      "value": "Apparatus of the crab #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation and transmutation; CL 19th; Slot \u00e2\u0080\u0094; Price 90,000 gp; Weight 500 lbs. DESCRIPTION An apparatus of the crab is a metallic magical vehicle. When unoccupied, it appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20 Perception check, reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 (unlabeled) levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus\u2019s movements and actions. Lever (1d10) Lever Function 1 Extend/retract legs and tail 2 Uncover/cover forward porthole 3 Uncover/cover side portholes 4 Extend/retract pincers and feelers 5 Snap pincers 6 Move forward/backward 7 Turn left/right 8 Open/close \u00e2\u0080\u009ceyes\u00e2\u0080\u009d with continual flame inside 9 Rise/sink in water 10 Open/close hatch Operating a lever is a full-round action, and no lever may be operated more than once per round. However, since two characters can fit inside, the apparatus can move and attack in the same round. The device can function in water up to 900 feet deep. It holds enough air for a crew of two to survive 1d4+1 hours (twice as long for a single occupant). When active, an apparatus of the crab has the following characteristics: hp 200; hardness 15; speed 20 ft., swim 20 ft.; AC 20 (\u00e2\u0080\u00941 size, +11 natural ); melee 2 pincers +12 (2d8); CMB +14; CMD 24. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells animate objects, continual flame; Special creator must have 8 ranks in Knowledge (engineering); Cost 45,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_apparatus_of_the_crab",
+          "value": {
+            "value": 90000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_apparatus_of_the_crab",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

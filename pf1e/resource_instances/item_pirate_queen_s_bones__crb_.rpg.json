@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pirate_queen_s_bones__crb_",
+    "name": {
+      "value": "Pirate Queen's Bones"
+    },
+    "source": {
+      "value": "raiders_of_the_fever_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 5th; Slot see text; Price 10,800 gp; Weight 300 lbs. DESCRIPTION Named for the goddess of piracy, strife, and sea monsters, this figurehead must be mounted on the prow of a ship function. Once per day, a ship carrying the Pirate Queen\u2019s Bones can inflict a curse on an enemy ship struck with a successful ramming attack. The target ship must succeed at a DC 14 Will save or its pilot takes a \u00e2\u0080\u00934 penalty on Profession (sailor) checks to control the ship. In addition, the cursed ship can never gain the upper hand in ship-to-ship combat. The curse inflicted by the figurehead cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell. In addition, once per day, Pirate Queen\u2019s Bones can be used to cast false life (CL 5th) on the captain of the ship carrying the figurehead. A ship may not have more than one figurehead, magical or otherwise, mounted on it at one time.. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bestow curse, false life; Cost 5,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pirate_queen_s_bones",
+          "value": {
+            "value": 10800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pirate_queen_s_bones",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

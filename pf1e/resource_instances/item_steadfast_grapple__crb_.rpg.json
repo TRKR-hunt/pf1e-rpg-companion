@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "steadfast_grapple__crb_",
+    "name": {
+      "value": "Steadfast Grapple"
+    },
+    "source": {
+      "value": "the_wormwood_mutiny"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot none; Price 5,000 gp; Weight 9 lbs. DESCRIPTION This iron grappling hook is attached to a 50-foot length of silk rope. When a steadfast grapple is thrown, it automatically hits and attaches to any targeted object or structure within range of its rope. Against creatures, the wielder must make attack rolls as normal. Once attached, a steadfast grapple can only be removed with a DC 30 Strength check, the command word, or magic such as dispel magic. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells animate rope, true strike; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_steadfast_grapple",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_steadfast_grapple",
+          "value": {
+            "value": 9
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

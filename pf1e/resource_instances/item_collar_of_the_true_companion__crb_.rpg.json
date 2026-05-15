@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "collar_of_the_true_companion__crb_",
+    "name": {
+      "value": "Collar of the true companion #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot neck; Price 10,000 gp; Weight 1 lb. DESCRIPTION Although it appears to be a simple thong of leather, this collar was initially conceived by druids who believed that there were animals who possessed spirits worthy of elevation to true sentience. If worn by a creature of the animal type with an Intelligence less than 3, a collar of the true companion grants a +2 enhancement bonus to Intelligence. This does not give the animal the ability to speak, but it does allow it to understand one spoken language (chosen by the item\u00e2\u0080\u0099s creator). If the collar is worn for at least 1 week by a creature of the animal type, the creature is raised to humanlike sentience, as though by the awaken spell. Once this occurs, the collar loses its magical properties. If a collar of the true companion is worn for more than 1 week by a creature not of the animal type, the wearer is feebleminded until the collar is removed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, awaken, fox\u00e2\u0080\u0099s cunning; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_collar_of_the_true_companion",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_collar_of_the_true_companion",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

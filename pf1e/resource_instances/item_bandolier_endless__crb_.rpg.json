@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bandolier_endless__crb_",
+    "name": {
+      "value": "Endless bandolier"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot chest; Price 1,500 gp; Weight 2 lbs. DESCRIPTION Small loops sewn into this bandolier look like they can hold twenty alchemical cartridges (ammunition for a firearm ), but due to a subtle bending of space can actually hold up to 60 cartridges. Additionally, the six thin pockets on the bandolier are extradimensional spaces meant to hold extra guns and gear. The four small pockets can each hold a one-handed firearm, 1 pound of ammunition, a powder horn, or a similarly sized object. The two large pockets are large enough to hold a two-handed firearm or a similarly sized object. The wearer can draw an item stored in the bandolier as easily as if from an ordinary ammunition pouch or holster. The bandolier weighs the same no matter what is placed inside it. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, secret chest; Cost 750 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bandolier_endless",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bandolier_endless",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

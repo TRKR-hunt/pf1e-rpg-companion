@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brass_chatterbox__crb_",
+    "name": {
+      "value": "Brass Chatterbox"
+    },
+    "source": {
+      "value": "crownfall"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 300 gp; Slot none; CL 9th; Weight \u00e2\u0080\u0094 Aura moderate divination DESCRIPTION This elegant clockwork cricket, molded from brass and darkwood with a key in its back, is a clever invention designed to deter eavesdropping. EFFECTS If wound as a full-round action, this elegant clockwork cricket clicks and chirps softly for 2 minutes. Though it\u00e2\u0080\u0099s generally too subtle to be noticed, this noise obscures speech and similar sounds nearby; speakers within 5 feet of the brass chatterbox can hear one another without difficulty, but anyone beyond this space takes a \u00e2\u0080\u00935 penalty on Perception checks to overhear details of the conversation. If attached to a door, the brass chatterbox instead imposes this penalty on Perception checks to hear noises through the door."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brass_chatterbox",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

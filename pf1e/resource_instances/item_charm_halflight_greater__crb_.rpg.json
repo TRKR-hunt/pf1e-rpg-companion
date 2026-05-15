@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charm_halflight_greater__crb_",
+    "name": {
+      "value": "Charm, Halflight Greater"
+    },
+    "source": {
+      "value": "the_asylum_stone"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot neck; Price 20,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This item is associated with a particular group. While regular halflight charms are temporarily issued to anyone traversing under the guidance of the associated group, greater halflight charms are given to those who have saved the life of a representative of the associated group or who has performed a great service for the organization. They thus carry great social cachet with members of the associated group, who consider selling or purchasing one to be a grave insult. A greater halflight charm is a dark blue crystal amulet embossed with a golden arch and suspended from a black cord. When worn, it grants the wearer darkvision 60 feet. It also grants a +2 bonus on all initiative checks made while in underground areas. In addition, once per year, the wearer can call on the amulet to summon the specific representative on whom the charm was imprinted at its creation, who is instantly teleported to an adjacent square along with his standard adventuring gear, provided the wearer is on the same plane. The summoned individual is not bound to the caster\u2019s will in any way however. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, darkvision, teleport; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charm_halflight_greater",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

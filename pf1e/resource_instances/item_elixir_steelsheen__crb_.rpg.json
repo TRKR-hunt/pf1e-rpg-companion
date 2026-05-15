@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_steelsheen__crb_",
+    "name": {
+      "value": "Elixir, Steelsheen"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 900 gp; Slot none; CL 6th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This round-bellied bottle contains a deep indigo liquid. EFFECTS Drinking this liquid causes the imbiber\u00e2\u0080\u0099s skin and organs to harden as a metallic sheen encases her body. This imparts a +2 competence bonus to her natural armor and 5 temporary hit points. This effect lasts 10 minutes. The first time the imbiber is in melee combat during the duration, he can increase the competence bonus to +4 and gain an additional 5 temporary hit points, but all of her movement speeds are halved for the remainder of the duration. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Craft Wondrous Item; Spells barkskin, false life"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_steelsheen",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

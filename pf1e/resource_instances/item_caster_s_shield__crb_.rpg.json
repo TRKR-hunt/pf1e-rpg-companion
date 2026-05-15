@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "caster_s_shield__crb_",
+    "name": {
+      "value": "Caster\u2019s shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 6th; Weight 5 lbs.; Price 3,153 gp DESCRIPTION This +1 light wooden shield has a leather strip on the back on which a spellcaster can scribe a single spell as on a scroll. A spell so scribed requires half the normal cost in raw materials. The strip cannot accommodate spells of higher than 3rd level. The strip is reusable. A random caster\u2019s shield has a 50% chance of having a single medium scroll spell on it. The spell is divine (01\u00e2\u0080\u009380 on d%) or arcane (81\u00e2\u0080\u0093100). A caster\u2019s shield has a 5% arcane spell failure chance. The price of the shield is modified by the value of the scroll spell if one is currently scribed. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Scribe Scroll; Special creator must be at least 6th level; Cost 1,653 gp Caster\u2019s Shield, Greater Aura moderate abjuration; CL 11th; Weight 5 lbs.; Price 10,153 gp DESCRIPTION This +3 light wooden shield acts in all ways like a caster\u2019s shield, but the strip can accommodate spells of up to 5th level. CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor, Scribe Scroll; Cost 5,153 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_caster_s_shield",
+          "value": {
+            "value": 3153
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_caster_s_shield",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

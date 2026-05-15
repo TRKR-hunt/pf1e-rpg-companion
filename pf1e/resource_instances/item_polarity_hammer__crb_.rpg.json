@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "polarity_hammer__crb_",
+    "name": {
+      "value": "Polarity hammer"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Weight 10 lbs.; Price 12,310 gp DESCRIPTION This +1/+1 meteor hammer is always made of ferrous metals, and has weighted spheres on either end of its sturdy dark chain. A wielder can use the magic within a polarity hammer to attract or repel metal objects. In meteor mode, a wielder gains a +2 bonus on all drag and reposition combat maneuvers against any opponent wearing metal armor, carrying a metal shield, or made of metal (like an iron golem ). In addition, if the wielder makes a successful trip attempt against such an opponent, she can push her enemy 5 feet away rather than pulling it forward. In fortress mode, the wielder can use a move action to pick up any unattended metal object within her reach and deposit the item in any other square within her reach. Items so affected cannot exceed the size of a one-handed weapon equal to the wielder\u2019s size category. In this mode, the +1 shield bonus to Armor Class normally granted from wielding a meteor hammer increases to +3, but only against opponents wearing metal armor, carrying metal shields, or made of metal (as above). CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells force punch, shield; Cost 6,155 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_polarity_hammer",
+          "value": {
+            "value": 12310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_polarity_hammer",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

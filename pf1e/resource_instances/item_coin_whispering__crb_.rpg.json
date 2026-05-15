@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coin_whispering__crb_",
+    "name": {
+      "value": "Coin, Whispering"
+    },
+    "source": {
+      "value": "curse_of_the_ladys_light"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 9th; Slot none; Weight \u00e2\u0080\u0094; Price 3,000 gp DESCRIPTION This ancient gold coin measures an inch in diameter and a quarter of an inch thick. One face bears one of the seven ancient runes representing magic and sin, while the opposite side bears the image of a broken column. When carried, a whispering coin periodically haunts its carrier with soft whispers that seem to be in an ancient language, but which are never loud enough to understand. These whispers are only slightly distracting, and in fact offer a boon to the carrier of the coin\u00e2\u0080\u0094 they grant a +1 resistance bonus on saving throws against spells of the school of magic associated with the coin\u2019s rune (the coin found in this adventure bears the rune of lust, and thus grants a +1 resistance bonus against enchantment spells). Once per day, when the bearer flips the whispering coin and asks a question in the same ancient language while the coin is in the air, the coin provides an answer to the question as it lands, either \u00e2\u0080\u009cyes\u00e2\u0080\u009d (the rune) or \u00e2\u0080\u009cno\u00e2\u0080\u009d (the broken column); the word \u00e2\u0080\u009cyes\u00e2\u0080\u009d or \u00e2\u0080\u009cno\u00e2\u0080\u009d is also whispered into the user\u2019s ear as the answer is determined. A whispering coin\u2019s knowledge is limited to events that have a significant chance to affect the coin\u2019s carrier in the immediate future (no further out than a few minutes), and is further limited to facts, not conjecture. You could ask a whispering coin whether a door you were about to open is trapped, but not \u00e2\u0080\u009cIs the king the mastermind of the conspiracy we just learned about?\u00e2\u0080\u009d The GM, in other words, can determine whether or not a whispering coin can answer or not\u00e2\u0080\u0094if the coin can\u2019t answer, it spins on its edge upon landing for several seconds before flopping over to a random side and does not whisper a \u00e2\u0080\u009cyes\u00e2\u0080\u009d or \u00e2\u0080\u009cno\u00e2\u0080\u009d into the user\u2019s ear. The coin\u2019s one use for the day is still consumed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, augury, resistance; Cost 1,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coin_whispering",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "heirloom_seal__crb_",
+    "name": {
+      "value": "Heirloom Seal"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint universal; CL 1st; Slot none; Price 5,000 gp; Weight 1/2 lb. DESCRIPTION This carved stone seal can be dipped into red ink and used to stamp a letter, proclamation, or other written document. Once a document has been sealed in this way, the writing upon it cannot be altered by either mundane or magical means. Spells that ruin text, change text, or render text unreadable cannot affect writing that has been sealed with an heirloom seal unless the caster succeeds at a caster level check (DC = 15 + the heirloom seal\u00e2\u0080\u0099s owner\u00e2\u0080\u0099s Hit Dice ), nor can additional text be added with spells such as explosive runes or illusory script. Attempts at mundane forgery also slide off the sealed document in 2d4 rounds, reverting the writing to its original state. An heirloom seal cannot be used on runes or any form of magical writing. Each seal has its own unique mark to indicate its owner, which can be magically verified with either detect magic or read magic. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells arcane mark; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_heirloom_seal",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "necklace_of_construct_aversion__crb_",
+    "name": {
+      "value": "Necklace of Construct Aversion"
+    },
+    "source": {
+      "value": "construct_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 132,000 gp; Slot neck; CL 11th; Weight 1 lb.; Aura moderate divination and enchantment DESCRIPTION A creature wearing this thick necklace is automatically aware of all constructs within 60 feet as per the lifesense ability but only sensing constructs. Constructs can\u00e2\u0080\u0099t see, hear, or otherwise detect the presence of the wearer, even when using extraordinary or supernatural sensory capabilities such as blindsense, blindsight, scent, or tremorsense. If the wearer touches a construct or attacks any creature, this concealing ability ceases to function for 1 minute. Constructs with an Intelligence score of 3 or greater can attempt a DC 18 Will save to detect the wearer. CONSTRUCTION REQUIREMENTS Cost 66,000 gp; Feats Craft Wondrous Item; Spells invisibility, locate object"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_necklace_of_construct_aversion",
+          "value": {
+            "value": 132000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_necklace_of_construct_aversion",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

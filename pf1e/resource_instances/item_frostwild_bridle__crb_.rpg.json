@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "frostwild_bridle__crb_",
+    "name": {
+      "value": "Frostwild Bridle"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 48,000 gp; Slot head; CL 9th; Weight 2 lbs.; Aura moderate evocation DESCRIPTION When this bridle of crystal-studded white leather is placed on a horse or similar mount, the animal\u2019s eyes emit a bright azure glow and its hair glistens with magical frost. A frostwild bridle provides cold resistance 20 to its wearer. Also, three times per day on the rider\u2019s command, the animal wearing a frostwild bridle can breathe a 60-foot cone of frost that deals 9d6 points of cold damage to all creatures in the area. A successful DC 17 Reflex save halves the damage. CONSTRUCTION REQUIREMENTS Cost 24,000 gp; Feats Craft Wondrous Item; Spells cone of cold, resist energy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_frostwild_bridle",
+          "value": {
+            "value": 48000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_frostwild_bridle",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

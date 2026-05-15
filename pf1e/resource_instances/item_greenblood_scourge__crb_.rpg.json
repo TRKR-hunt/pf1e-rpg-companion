@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "greenblood_scourge__crb_",
+    "name": {
+      "value": "Greenblood Scourge"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,801 gp; Slot none; CL 12th; Weight 2 lbs.; Aura moderate evocation DESCRIPTION Unless this +2 corrosive whip is damaged by fire, it regenerates hit points at a rate of 1 hit point per minute. In performance combat, the wielder of a greenblood scourge can spend a victory point as a swift action to give the weapon the corrosive burst special ability. Also, the wielder no longer needs to attempt a performance combat check when using the withdraw action during performance combat, as the weapon\u2019s blasts of acid prevent the enemy from approaching. CONSTRUCTION REQUIREMENTS Cost 7,051 gp; Feats Craft Magic Arms and Armor; Spells acid arrow, adoration"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_greenblood_scourge",
+          "value": {
+            "value": 13801
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_greenblood_scourge",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sylvan_scimitar__crb_",
+    "name": {
+      "value": "Sylvan scimitar"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 11th; Weight 4 lbs.; Price 47,315 gp DESCRIPTION When used outdoors in a temperate climate, this +3 scimitar grants its wielder the use of the Cleave feat and deals an extra 1d6 points of damage. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells divine power or creator must be a 7th-level druid; Cost 23,815 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sylvan_scimitar",
+          "value": {
+            "value": 47315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sylvan_scimitar",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

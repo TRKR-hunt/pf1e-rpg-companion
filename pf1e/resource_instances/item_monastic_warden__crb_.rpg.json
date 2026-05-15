@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "monastic_warden__crb_",
+    "name": {
+      "value": "Monastic Warden"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 23,530 gp; Slot none; CL 8th; Weight 3 lbs.; Aura moderate evocation and transmutation DESCRIPTION This +1 ki focus temple sword is often gifted to select students. A character making an attack with this blade can spend 1 ki point as a swift action to ignore any shield bonus to AC her target has for that attack. Three times per day, the wielder of the monastic warden can slash the air in her target\u2019s direction, causing a shimmering copy of the sword formed of white light to streak toward the target. The wielder must make a ranged touch attack against the target. A creature struck by the shimmering blade takes 4d8 points of force damage. If the target is struck while on the grounds of a site sacred to the wielder, the target instead takes 8d6 points of force damage and is dazed for 1 round. A successful DC 14 Will saving throw reduces the damage by half and negates the daze effect. CONSTRUCTION REQUIREMENTS Cost 11,930 gp; Feats Craft Magic Arms and Armor; Spells arrow of law"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_monastic_warden",
+          "value": {
+            "value": 23530
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_monastic_warden",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

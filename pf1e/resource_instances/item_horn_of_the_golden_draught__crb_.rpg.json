@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horn_of_the_golden_draught__crb_",
+    "name": {
+      "value": "Horn of the Golden Draught"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 10th; Slot none; Price 7,000 gp; Weight 5 lbs. DESCRIPTION As a standard action, this gold-plated drinking horn can produce a golden draught. A creature that imbibes or is anointed with this liquid is freed from enchantments, transmutations, and curses as if subjected to a break enchantment spell. If the user suffers from no such conditions, her skin instead takes on a golden hue and becomes almost impervious to blows, as per stoneskin. A horn of the golden draught can produce up to five draughts of each version of the draught before it turns to brass and becomes nonmagical. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, break enchantment, stoneskin; Cost 3,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horn_of_the_golden_draught",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horn_of_the_golden_draught",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_channel_thieving_greater__crb_",
+    "name": {
+      "value": "Belt, Channel-Thieving, Greater"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,200 gp; Slot belt; CL 7th; Weight 2 lbs.; Aura moderate conjuration and necromancy DESCRIPTION This belt functions as a normal channel-thieving belt, except the amount of healing is equal to 1/2 the amount of damage healed or dealt by the creature channeling energy. CONSTRUCTION REQUIREMENTS Cost 4,600 gp; Feats Craft Wondrous Item; Spells cure serious wounds, inflict serious wounds"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_channel_thieving_greater",
+          "value": {
+            "value": 9200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_channel_thieving_greater",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

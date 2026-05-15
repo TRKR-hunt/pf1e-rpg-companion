@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dizzying_bullet__crb_",
+    "name": {
+      "value": "Bullet, Dizzying"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 496 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint evocation DESCRIPTION This +1 sling bullet makes a faint rattling noise when shaken. When it strikes a creature, the creature must succeed at a DC 13 Fortitude save or become stunned for 1 round. CONSTRUCTION REQUIREMENTS Cost 251 gp; Feats Craft Magic Arms and Armor; Spells sound burst"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dizzying_bullet",
+          "value": {
+            "value": 496
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

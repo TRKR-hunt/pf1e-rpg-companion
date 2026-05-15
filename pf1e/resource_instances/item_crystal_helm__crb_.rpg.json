@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crystal_helm__crb_",
+    "name": {
+      "value": "Crystal Helm"
+    },
+    "source": {
+      "value": "blood_of_the_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,000 gp; Slot head; CL 5th; Weight 3 lbs.; Aura faint transmutation DESCRIPTION This clear, spherical helm resembles a giant bowl the wearer inverts over his head. Donning or removing the crystal helm requires a standard action, as an invisible magical film stretches across the opening of the bowl. If a creature dons a crystal helm on land, it immediately fills with salt water. If a creature dons a crystal helm underwater, it immediately fills with air. So long as the bearer can breathe water or air, respectively, the crystal helm allows the wearer to breathe normally. The contents of a crystal helm constantly replenish and do not leak out of the bowl. CONSTRUCTION REQUIREMENTS Cost 12,000 gp; Feats Craft Wondrous Item; Spells air breathing, water breathing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crystal_helm",
+          "value": {
+            "value": 24000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crystal_helm",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

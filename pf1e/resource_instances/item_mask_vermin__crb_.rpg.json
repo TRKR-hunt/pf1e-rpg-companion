@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_vermin__crb_",
+    "name": {
+      "value": "Mask, Vermin"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,080 gp; Slot head; CL 7th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION These stylized wooden masks are carved to resemble a common type of vermin, such as a giant ant, scorpion, or spider. EFFECTS While using wild shape or a vermin shape spell to assume the form of a vermin that corresponds with the mask\u00e2\u0080\u0099s design, the wearer gains the following benefits. First, the wearer can speak normally despite the limitations of the form\u00e2\u0080\u0099s anatomy. Furthermore, the effect of the wearer\u00e2\u0080\u0099s wild shape ability (if any) lasts for 3 additional hours, and when the wearer is under the effects of a vermin shape spell, the spell lasts for 7 additional minutes. CONSTRUCTION REQUIREMENTS Cost 5,040 gp; Feats Craft Wondrous Item; Special wild shape class feature; Spells vermin shape I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_vermin",
+          "value": {
+            "value": 10080
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_vermin",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

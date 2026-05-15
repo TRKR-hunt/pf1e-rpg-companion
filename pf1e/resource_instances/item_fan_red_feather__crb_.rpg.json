@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fan_red_feather__crb_",
+    "name": {
+      "value": "Fan, Red Feather"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 6th; Slot none; Price 5,000 gp; Weight 1 lb. DESCRIPTION This fan is made of copper fashioned into a dozen small feathers mounted on a ring-shaped bone handle. Once per day, the bearer can hold it and speak a command word to counterspell a darkness effect (as if using daylight ) or counterspell a light effect (as if using deeper darkness ). If activated in an area of overlapping light and darkness effects, the fan randomly counterspells one of them, leaving the other intact. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, daylight, deeper darkness; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fan_red_feather",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fan_red_feather",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

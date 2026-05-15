@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brine_s_sting__crb_",
+    "name": {
+      "value": "Brine's Sting"
+    },
+    "source": {
+      "value": "raiders_of_the_fever_sea"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 8th; Slot none; Price 10,320 gp; Weight 2 lbs. DESCRIPTION Brine\u2019s Sting is a slim +1 rapier with a hilt guard in the shape of a writhing purple sea snake. On a successful hit that deals damage, the target must succeed at a DC 14 Fortitude save or take a \u00e2\u0080\u00931 penalty on attack and damage rolls for 1 round as salty brine drips painfully onto the wound. A new saving throw must be made each time the weapon deals damage. On a successful critical hit against a creature with the aquatic or water subtype, the target takes an additional 3d6 points of damage as its flesh cracks and withers from dehydration as salt crystals form around the wound.. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells horrid wilting; Cost 5,320 gp Get this book AND support this site!"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brine_s_sting",
+          "value": {
+            "value": 10320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_brine_s_sting",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

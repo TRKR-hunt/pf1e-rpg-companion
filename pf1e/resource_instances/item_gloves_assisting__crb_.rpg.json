@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_assisting__crb_",
+    "name": {
+      "value": "Assisting gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot hands; Price 180 gp; Weight 1 lb. DESCRIPTION The wearer of these simple gloves can speak a command word create a glowing disembodied hand. As a swift action, the wearer can have the hand assist him with a task as if using the aid another action. The hand uses the wearer\u00e2\u0080\u0099s base attack bonus or skill ranks when making the check to see if aid another is successful (it does not gain the benefit of the wearer\u00e2\u0080\u0099s ability scores or other bonuses). The hand remains until it has attempted one action or until 1 minute passes, whichever comes first, at which time the gloves become non-magical. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mage hand, unseen servant; Cost 90 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_assisting",
+          "value": {
+            "value": 180
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_assisting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

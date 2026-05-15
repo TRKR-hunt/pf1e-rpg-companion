@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_harborwing__crb_",
+    "name": {
+      "value": "Cloak, Harborwing"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,200 gp; Slot shoulders; CL 3rd Weight 1 lb.; Aura faint transmutation APPEARANCE This white-hooded cloak is trimmed with seagull feathers. The cloak billows in the slightest breeze, and when the hood is drawn over the wearer\u00e2\u0080\u0099s head, the cloak repels rainwater and seaspray, keeping the wearer dry. EFFECTS Three times per day, whenever the wearer of this cloak falls more than 5 feet, she can spend an immediate action to gain the benefits of feather fall. In addition, once per day, the wearer can command the cloak as a standard action to become a sheet of rippling, flowing water, causing attacks against her to take a 20% miss chance. While the cloak is in this liquid-like state, the wearer can use the Stealth skill to hide in rainy conditions (or similar areas, such as the spray of a waterfall) even if she is being observed, and she gains a +5 circumstance bonus on Stealth checks in such conditions. This effect lasts for 3 minutes, and the duration need not be used all at once, but it must be used in 1-minute increments. CONSTRUCTION REQUIREMENTS Cost 2,600 gp; Feats Craft Wondrous Item; Spells create water, feather fall, invisibility; Special creator must worship the associated deity"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_harborwing",
+          "value": {
+            "value": 5200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_harborwing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

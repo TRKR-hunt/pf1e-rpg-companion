@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_grappler_s__crb_",
+    "name": {
+      "value": "Grappler\u2019s mask"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot head; Price 5,000 gp; Weight 2 lbs. DESCRIPTION This mask is fashioned from dark leather decorated with geometrical patterns that emphasize the wearer\u00e2\u0080\u0099s fearsomeness. It covers the wearer\u00e2\u0080\u0099s face, but leaves his mouth and eyes uncovered. The wearer may attempt to bull rush and grapple without provoking attacks of opportunity. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, bull\u00e2\u0080\u0099s strength, cat\u00e2\u0080\u0099s grace, expeditious retreat; Cost 2,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_grappler_s",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_grappler_s",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

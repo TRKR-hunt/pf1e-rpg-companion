@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_stealth__crb_",
+    "name": {
+      "value": "Staff of stealth"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate illusion; CL 8th; Slot none; Price 39,300 gp; Weight 5 lbs. DESCRIPTION This twisted, dark gray staff allows use of the following spells: Disguise self (1 charge) Invisibility (1 charge) Nondetection (1 charge) Greater invisibility (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells disguise self, greater invisibility, invisibility, nondetection; Cost 20,900 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_stealth",
+          "value": {
+            "value": 39300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_stealth",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

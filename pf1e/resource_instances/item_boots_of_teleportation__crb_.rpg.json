@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_teleportation__crb_",
+    "name": {
+      "value": "Boots of teleportation #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot feet; Price 49,000 gp; Weight 3 lbs. DESCRIPTION When scrutinized closely, parts of these light gray boots appear to fade in and out of existence. Any character wearing this footwear may teleport three times per day, exactly as if she had cast the teleport spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, teleport; Cost 24,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_teleportation",
+          "value": {
+            "value": 49000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_teleportation",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

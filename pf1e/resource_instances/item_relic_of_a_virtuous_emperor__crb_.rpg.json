@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "relic_of_a_virtuous_emperor__crb_",
+    "name": {
+      "value": "Relic of a Virtuous Emperor"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong divination; CL 17th; Slot none; Price 87,000 gp; Weight 1 lb. DESCRIPTION While most objects\u00e2\u0080\u0094such as ancient trinkets and jewelry\u00e2\u0080\u0094 sold as purported belongings of a Lung Wa emperor have no actual magical value, some do have magical properties. Such items all function much the same way, despite taking a variety of shapes and being attributed to different emperors. Whatever its origin and form, a relic of a virtuous emperor can be used to cast augury three times per day. It can also be used to summon one kodama or 1d4+1 shikigami as if they had been summoned by summon nature\u00e2\u0080\u0099s ally V, once per day. Additionally, anyone in possession of a relic of a virtuous emperor gains a +1 insight bonus to AC. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells augury, foresight, summon nature\u00e2\u0080\u0099s ally V; Cost 43,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_relic_of_a_virtuous_emperor",
+          "value": {
+            "value": 87000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_relic_of_a_virtuous_emperor",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

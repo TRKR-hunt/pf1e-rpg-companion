@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "toothpick_of_pyrotechnics__crb_",
+    "name": {
+      "value": "Toothpick of Pyrotechnics"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 400 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint evocation DESCRIPTION This simple wooden toothpick is useful for creating flashy diversions on stage or in a fight. Breaking the toothpick causes a blinding flash and a dark cloud of smoke to appear. Creatures other than the user within 20 feet must succeed at a DC 13 Fortitude save or be blinded for 1d4+1 rounds. The cloud of smoke spreads 20 feet in all directions, obscures all sight (including darkvision ), and lasts for 3 rounds. CONSTRUCTION REQUIREMENTS Cost 200 gp; Feats Craft Wondrous Item; Spells pyrotechnics"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_toothpick_of_pyrotechnics",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

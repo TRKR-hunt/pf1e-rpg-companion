@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_counterspells__crb_",
+    "name": {
+      "value": "Ring of counterspells"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 11th; Slot ring; Price 4,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Upon first examination, this ring seems to be a ring of spell storing. However, while it allows a single spell of 1st through 6th level to be cast into it, that spell cannot be cast out of the ring again. Instead, should that spell ever be cast upon the wearer, the spell is immediately countered, as a counterspell action, requiring no action (or even knowledge) on the wearer\u00e2\u0080\u0099s part. Once so used, the spell cast within the ring is gone. A new spell (or the same one as before) may be placed into it again. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells imbue with spell ability; Cost 2,000 gp. FAQ Does a ring of counterspells counter area of effect spells such as fireball? The ring only affects spells that target you, not spells that include you in the area. One possible interpretation is that the ring would make you immune to that casting of the spell (and the rest of the area would be affected normally), but that would require additional explanatory language and create strange situations where you\u2019d be immune to control water or guards and wards and able to wander freely through such effects. Instead, it is clearer to adjudicate if the ring only affects spells targeting you. [ Source ]"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_counterspells",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

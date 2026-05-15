@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trapped_beverage__crb_",
+    "name": {
+      "value": "Trapped Beverage"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "DESCRIPTION CONSTRUCTION REQUIREMENTS Price 300 gp; Slot none; CL 3rd; Weight 2 lbs.; Aura faint conjuration DESCRIPTION This brightly labeled bottle or waterskin could appear to contain any number of different beverages, from absinthe to wine. However, it\u2019s actually a magical trap, and when the bottle is opened, a spider swarm pours out. The swarm stays in the area for 3 rounds, then disappears. Detecting that the bottle is trapped requires a successful DC 25 Perception check made by a character with the trapfinding ability, and disabling it requires a successful DC 25 Disable Device check. After being triggered, the trapped beverage remains a mundane bottle or wineskin. CONSTRUCTION REQUIREMENTS Cost 150 gp; Feats Craft Wondrous Item; Spells summon swarm"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trapped_beverage",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trapped_beverage",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

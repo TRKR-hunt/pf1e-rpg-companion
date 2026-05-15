@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_rat_tread__crb_",
+    "name": {
+      "value": "Boots, Rat-Tread"
+    },
+    "source": {
+      "value": "tears_at_bitter_manor"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 3rd; Slot feet; Price 8,500 gp; Weight 1 lb. DESCRIPTION On command, these rat-fur boots summon a rat swarm underneath the wearer that moves with her and acts as a living carpet. As a move action, the wearer can travel on the backs of the rats as they swim, moving up to 15 feet across the surface of calm waters. If surface conditions become worse than calm, the rats disperse and the wearer falls. On land, the swarm allows the wearer to ignore difficult terrain\u2019s effects on her movement for up to 15 feet of movement per round. The swarm can be used for up to 10 minutes per day. This duration doesn\u2019t need to be continuous, but must be used in 1-minute increments. If the wearer falls unconscious while rat-tread boots are active, on the wearer\u2019s next turn the swarm tries to move her away from the nearest foe, moving 5 feet before dispersing. This movement doesn\u2019t provoke attacks of opportunity. If such movement is impossible, the swarm disperses. The swarm is a normal rat swarm, except its area doesn\u2019t exceed that of the wearer and it can\u2019t move out of the wearer\u2019s space. The swarm disperses when the effect\u2019s duration ends or when the swarm is reduced to 0 hit points or fewer. Rat-tread boots grant the wearer immunity from the attacks of rat swarms, including their special attacks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells charm animal, summon swarm; Cost 4,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_rat_tread",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_rat_tread",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

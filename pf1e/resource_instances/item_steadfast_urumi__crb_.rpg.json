@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "steadfast_urumi__crb_",
+    "name": {
+      "value": "Steadfast Urumi"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,830 gp; Slot none; CL 8th; Weight 6 lbs.; Aura moderate abjuration and evocation DESCRIPTION This weapon consists of a flexible blade attached to a handle by a fine coil of steel. This +1 mighty cleaving urumi grants its wielder a deflection bonus to AC equal to the number of enemies within her reach with the urumi (maximum +4). The wielder also gains a +5 competence bonus on Acrobatics checks to move through a threatened area. CONSTRUCTION REQUIREMENTS Cost 9,580 gp; Feats Craft Magic Arms and Armor; Spells shield of faith"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_steadfast_urumi",
+          "value": {
+            "value": 18830
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_steadfast_urumi",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

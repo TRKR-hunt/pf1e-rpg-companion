@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_the_avenger__crb_",
+    "name": {
+      "value": "Staff of the avenger"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 37,310 gp; Weight 5 lbs. DESCRIPTION This shining golden staff is topped with a radiant gemstone that emits light like a torch. As a swift action, the wielder of the staff can cause it to change into a +2 lance, although it retains its other abilities. It can be made to revert to its staff form as a free action. The staff allows use of the following spells: Bless weapon (1 charge, cast on the staff only) Shield other (1 charge) Discern lies (2 charges) Holy sword (4 charges, cast on the staff only) CONSTRUCTION REQUIREMENTS Craft Magic Arms and Armor, Craft Staff, bless weapon, discern lies, holy sword, shield other; Cost 18,810 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_the_avenger",
+          "value": {
+            "value": 37310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_the_avenger",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

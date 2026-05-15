@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "burdenstone__crb_",
+    "name": {
+      "value": "Burdenstone"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot none; CL 5th; Weight \u2014; Aura faint enchantment DESCRIPTION This smooth lodestone is gray and streaked with veins of glossy obsidian. As a ranged touch attack, the bearer can throw it at an opponent within 30 feet. If it strikes a target in metal armor, the burdenstone attaches itself to the target for 2d6 rounds. An attached burdenstone increases the target\u2019s load by one step. If a target\u2019s load is already heavy, the target is knocked prone, its movement is reduced to 10 feet, and it cannot run. An attached burdenstone also prevents the target from flying. A target may not be affected by more than one burdenstone at a time. A successful DC 20 Strength check made as a full-round action can remove the stone from a target before the duration elapses. Once a burdenstone has been removed or the duration expires, it becomes an ordinary magnetic stone. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells burdened thoughts"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_burdenstone",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

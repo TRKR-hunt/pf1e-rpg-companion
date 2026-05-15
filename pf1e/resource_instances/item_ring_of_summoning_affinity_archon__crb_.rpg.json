@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_summoning_affinity_archon__crb_",
+    "name": {
+      "value": "Ring of Summoning Affinity (Archon)"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,000 gp; Slot ring; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration [good, law] DESCRIPTION This ring is made of hammered steel. If the wearer can cast summon monster spells, the wearer adds harbingers to the 3rd-level list of monsters he can summon with those spells, adds legion archon to the 6th-level list, and adds shield archon to the 7th-level list. Also, once per day on command the wearer can use this ring to summon a harbinger, as if by the summon monster III spell. CONSTRUCTION REQUIREMENTS Cost 3,500 gp; Feats Forge Ring; Spells planar ally or planar binding; Special creator must be neutral good"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_summoning_affinity_archon",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

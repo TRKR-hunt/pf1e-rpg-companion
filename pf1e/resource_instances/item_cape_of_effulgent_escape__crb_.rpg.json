@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cape_of_effulgent_escape__crb_",
+    "name": {
+      "value": "Cape of effulgent escape #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation and illusion; CL 3rd; Slot shoulders; Price 14,000 gp; Weight 1 lb. DESCRIPTION This shining white cloak is trimmed with golden sunbursts and continuously radiates light (as per the light spell, but only in a 10-foot radius). Twice per day, the wearer can command the cape to erupt in a burst of light, blinding all creatures other than the wearer within 20 feet for 1d4 rounds ( Reflex DC 14 negates). After triggering this burst, the wearer becomes invisible (as the invisibility spell, with a duration of 1 minute) and the cape\u00e2\u0080\u0099s light is extinguished as long as the wearer is invisible. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, daylight, invisibility; Cost 7,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cape_of_effulgent_escape",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cape_of_effulgent_escape",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

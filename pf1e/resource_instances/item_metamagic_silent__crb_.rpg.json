@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "metamagic_silent__crb_",
+    "name": {
+      "value": "Silent spell"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong (no school); CL 17th; Weight 5 lbs. Price varies by specific type: Lesser silent metamagic rod 3,000 gp Silent metamagic rod 11,000 gp Greater silent metamagic rod 24,500 gp DESCRIPTION The wielder can cast up to three spells per day without verbal components as though using the Silent Spell feat. CONSTRUCTION REQUIREMENTS Feats Craft Rod, Silent Spell Cost varies by specific type: Lesser silent metamagic rod 1,500 gp Silent metamagic rod 5,500 gp Greater silent metamagic rod 12,250 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_metamagic_silent",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_fortune_s_favor__crb_",
+    "name": {
+      "value": "Headband of fortune\u2019s favor #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment and evocation; CL 5th; Slot headband; Price 7,700 gp; Weight 1 lb. DESCRIPTION This multicolored headband with beaded tassels tips luck in the wearer\u00e2\u0080\u0099s favor. The wearer gains a +1 luck bonus on saving throws. Any effect that gives the wearer a luck bonus (such as a divine favor or prayer spell) or explicitly increases the wearer\u00e2\u0080\u0099s good luck (such as a witch\u00e2\u0080\u0099s fortune hex, the Luck domain\u00e2\u0080\u0099s bit of luck domain power, and so on) lasts for 1 round longer than normal on the wearer. Abilities without a time-based duration (such as carrying a stone of good luck ) are unaffected by the headband. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, ill omen or prayer; Cost 3,850 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_fortune_s_favor",
+          "value": {
+            "value": 7700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_fortune_s_favor",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

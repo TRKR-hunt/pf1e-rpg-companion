@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_concordance__crb_",
+    "name": {
+      "value": "Elixir of Concordance"
+    },
+    "source": {
+      "value": "tower_of_the_drowned_dead"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,100 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate evocation DESCRIPTION This effervescent elixir, composed of equal parts alchemical ingenuity and erratic inspiration, enhances the imbiber\u00e2\u0080\u0099s spellcasting. It is barely an ounce of blue-gold bubbling liquid. EFFECTS For 1 minute after drinking this elixir, a blue-gold aura surrounds the imbiber, shining light as per a candle. Each arcane spell cast by the imbiber during this time gains a +1 enhancement bonus to the DC of saving throws against the spell, and the spell can be cast as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. The imbiber can choose which metamagic feat to apply each time she casts a spell and can use different metamagic feats throughout the duration of the elixir\u00e2\u0080\u0099s effects. CONSTRUCTION REQUIREMENTS Cost 650 gp; Feats Craft Wondrous Item; Spells arcane concordance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_concordance",
+          "value": {
+            "value": 1100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "infiltrator_s_onyx__crb_",
+    "name": {
+      "value": "Infiltrator's Onyx"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 800 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint divination and none (see text) DESCRIPTION These gems always come in pairs\u00e2\u0080\u0094one white onyx and one black onyx. The white onyx has an aura of faint divination, while the black onyx is non-magical. The black onyx gem on its own is worth 50 gp as a spell component for animate dead and similar spells. If the black onyx is used as a material component in a necromancy spell, the bearer of the white onyx receives a mental alarm. This alarm reveals the direction of the paired black onyx gem as long as it is within 1,000 feet, as locate object. This effect lasts for 5 minutes. If the owner of the white onyx gem is within 1 mile of the black onyx at the time the necromancy spell is cast, the owner may destroy the white onyx as a standard action. Doing so also destroys the black onyx, making it unsuitable for use as a spell component and ruining the necromancy spell. The destruction of either onyx gem immediately ends the alarm and locate object effects. The white onyx turns gray and crumbles to dust after the locate object effect ends. More expensive sets of these gems exist; black onyx gems in such variant sets are worth up to 1,000 gp or more. The value of the black onyx gem is added to the item\u2019s construction cost. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells alarm, locate object, magic aura; Cost 425 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_infiltrator_s_onyx",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

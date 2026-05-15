@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "alluring_golden_apple__crb_",
+    "name": {
+      "value": "Alluring golden apple #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 4th; Slot none; Price 400 gp; Weight 1 lb. DESCRIPTION This enchanted apple appears to be made of solid gold. When dropped or thrown, it draws the attention of the nearest hostile creature within 20 feet. The creature must make a DC 13 Will save or be paralyzed as if by hold person as it focuses its undivided attention on the golden apple. If the creature makes its save on a later round, it realizes it has been affected by magic and the apple is not actually gold. While focusing on the apple, the target takes a \u00e2\u0080\u00942 penalty on Perception checks. The apple is consumed upon being dropped or thrown. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beguiling gift, hold person Cost 200 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_alluring_golden_apple",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_alluring_golden_apple",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

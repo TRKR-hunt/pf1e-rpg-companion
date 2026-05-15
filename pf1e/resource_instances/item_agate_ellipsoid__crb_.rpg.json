@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "agate_ellipsoid__crb_",
+    "name": {
+      "value": "Agate Ellipsoid (Ioun Stone)"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION This stone grants you a single use of the augury spell with a 100% success rate. The stone must have been orbiting your head for at least 24 hours before it can be activated in such a way, which you can do with a thought as a free action. The stone instantly returns an answer of \u00e2\u0080\u009cweal,\u00e2\u0080\u009d \u00e2\u0080\u009cwoe,\u00e2\u0080\u009d \u00e2\u0080\u009cweal and woe,\u00e2\u0080\u009d or \u00e2\u0080\u009cnothing.\u00e2\u0080\u009d After being used in this manner, the stone loses all magical power and becomes a dull gray ioun stone. Cracked: This stone grants you a single use of augury with an 80% success rate. It otherwise functions as a normal agate ellipsoid ioun stone. Price: 500 gp. Flawed: This stone functions as a normal agate ellipsoid ioun stone, but you lose any abilities to reroll ability checks, skill checks, or saving throws for 24 hours after equipping it. Price: 800 gp. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells augury; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_agate_ellipsoid",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_one_hundred_hands__crb_",
+    "name": {
+      "value": "Staff of one hundred hands"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 17th; Slot none; Price 180,200 gp; Weight 5 lbs. DESCRIPTION Sculpted into the shape of dozens of grasping, distorted hands, this staff appears to be carved entirely from one piece of clear crystal. When held, the hands that form the staff distort to resemble the gloves or hands of the person holding it. It allows the use of the following spells: Forceful hand (1 charge) Interposing hand (1 charge) Clenched fist (2 charges) Grasping hand (2 charges) Crushing hand (3 charges) This staff also allows the wielder to use mage hand at will. CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells clenched fist, crushing hand, forceful hand, grasping hand, interposing hand, mage hand; Cost 90,100 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_one_hundred_hands",
+          "value": {
+            "value": 180200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_one_hundred_hands",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

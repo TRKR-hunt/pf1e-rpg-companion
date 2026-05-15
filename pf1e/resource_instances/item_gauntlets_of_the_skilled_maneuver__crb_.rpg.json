@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_of_the_skilled_maneuver__crb_",
+    "name": {
+      "value": "Gauntlets of the skilled maneuver #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot hands; Price 4,000 gp; Weight 1 lb. DESCRIPTION The wearer of these gauntlets gains a +2 bonus on one type of combat maneuver check (such as bull rush, disarm, or steal ) chosen by the creator when the item is created. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must have the appropriate Improved combat maneuver feat ( Improved Bull Rush, Improved Dirty Trick, Improved Disarm, Improved Drag, Improved Grapple, Improved Overrun, Improved Reposition, Improved Steal, Improved Sunder, or Improved Trip ); Cost 2,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_of_the_skilled_maneuver",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_of_the_skilled_maneuver",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

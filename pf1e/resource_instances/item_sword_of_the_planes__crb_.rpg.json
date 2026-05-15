@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sword_of_the_planes__crb_",
+    "name": {
+      "value": "Sword of the planes"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 15th; Weight 4 lbs.; Price 22,315 gp DESCRIPTION This longsword has an enhancement bonus of +1 on the Material Plane, but on any elemental planes its enhancement bonus increases to +2. The +2 enhancement bonus also applies whenever the weapon is used against creatures native to the elemental planes. It operates as a +3 longsword on the Astral Plane and the Ethereal Plane, or when used against opponents native to either of those planes. On any other plane, or against any outsider, it functions as a +4 longsword. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells plane shift; Cost 11,315 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sword_of_the_planes",
+          "value": {
+            "value": 22315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sword_of_the_planes",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

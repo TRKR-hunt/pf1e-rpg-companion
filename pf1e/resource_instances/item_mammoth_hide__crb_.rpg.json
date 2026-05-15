@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mammoth_hide__crb_",
+    "name": {
+      "value": "Mammoth Hide #3"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,665 gp; Slot armor; CL 11th; Weight 25 lbs.; Aura moderate transmutation DESCRIPTION Made of tattered mammoth hide and bone, this +3 hide armor is similar to rhino hide, but is fashioned in the harsh lands of the mammoth lords using beasts common to that region. In addition to granting a +3 enhancement bonus to AC, it has a \u00e2\u0080\u00931 armor check penalty and grants the wearer an additional 4d6 points of damage on any successful charge attack she makes, including a mounted charge. CONSTRUCTION REQUIREMENTS Cost 5,915 gp; Feats Craft Magic Arms and Armor; Spells bull\u2019s strength"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mammoth_hide",
+          "value": {
+            "value": 11665
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mammoth_hide",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

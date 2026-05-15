@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "polymorphic_pouch__crb_",
+    "name": {
+      "value": "Polymorphic pouch #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Weight 1 lb.; Slot none; Price 5,000 gp DESCRIPTION This leather pouch is usually decorated with a druidic motif. Within is an extradimensional space that can hold 4 cubic feet or 40 pounds worth of items and otherwise functions as a small bag of holding. If the bearer uses a polymorph effect or wild shape to transform into an animal, dragon, elemental, magical beast, plant, or vermin, the pouch never merges with her body. It automatically relocates to an easily-accessible place on her body (such as on a belt or a cord around her neck), allowing her to access the pouch and items within it while she is transformed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, polymorph, secret chest; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_polymorphic_pouch",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_polymorphic_pouch",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

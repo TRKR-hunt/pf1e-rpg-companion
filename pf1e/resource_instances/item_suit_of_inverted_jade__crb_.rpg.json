@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "suit_of_inverted_jade__crb_",
+    "name": {
+      "value": "Suit of Inverted Jade"
+    },
+    "source": {
+      "value": "the_dead_roads"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 25,000 gp; Slot armor; CL 14th; Weight 50 lbs.; Aura strong necromancy DESCRIPTION A typical jade burial suit consists of several hundred jade plaques joined with gold wire, carefully inscribed with prayers to the god of the moon, spirits, and preservation. Jade is believed to have preservative properties, and many ancient royals were buried in jade suits. A character wearing a suit of inverted jade gains a +3 profane bonus on saving throws against disease, mind-affecting effects, poison, sleep, and stunning. The wearer has the aura of an undead for the purposes of divination spells and effects, and unintelligent undead perceive the wearer as a fellow undead. The wearer, however, becomes vulnerable to effects that target or deal additional damage to undead (such as searing light ). A suit of inverted jade otherwise functions as +3 stone lamellar. CONSTRUCTION REQUIREMENTS Cost 12,500 gp; Feats Craft Magic Arms and Armor; Spells undead anatomy II"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_suit_of_inverted_jade",
+          "value": {
+            "value": 25000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_suit_of_inverted_jade",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

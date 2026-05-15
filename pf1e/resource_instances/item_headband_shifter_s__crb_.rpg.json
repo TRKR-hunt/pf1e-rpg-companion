@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_shifter_s__crb_",
+    "name": {
+      "value": "Shifter\u2019s headband"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot headband; Price 4,500 gp (+2), 17,500 gp (+4), 39,000 gp (+6); Weight \u00e2\u0080\u0094 DESCRIPTION This band of reddish fox fur is marked on the front with a distinctive symbol that constantly shifts into a different character. The headband grants the wearer an enhancement bonus to one mental ability score ( Intelligence, Wisdom, or Charisma ) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. This bonus is chosen when the headband is created and cannot be changed. If the headband grants a bonus to Intelligence, it also grants skill ranks as a headband of vast intelligence. If the wearer is a creature who uses magic to change form, she gains the following additional benefits. Shifter\u00e2\u0080\u0099s headband +2: The wearer treats her caster level as if it were one level higher when casting spells or creating extracts of the polymorph subschool. Shifter\u00e2\u0080\u0099s headband +4: Once per day while under the effect of a polymorph spell or extract, the wearer can assume another form allowed by that effect. This is a standard action. Shifter\u00e2\u0080\u0099s headband +6: Whenever the wearer changes her shape with a polymorph effect, she gains DR 5/silver for 1 minute (this ends if she returns to her natural form). These additional shapeshifter abilities are cumulative. For example, a creature wearing a shifter\u00e2\u0080\u0099s headband +4 gains the extra transformation ability and treats her caster level as 1 higher than normal for polymorph spells and extracts. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, polymorph self; Cost 2,250 gp (+2), 8,750 gp (+4), 19,500 gp (+6)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_shifter_s",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

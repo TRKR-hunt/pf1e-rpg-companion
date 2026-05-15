@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cap_of_the_free_thinker__crb_",
+    "name": {
+      "value": "Cap of the free thinker #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 10th; Slot head; Price 12,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This soft cap helps the wearer free herself from outside influences. Once per day, when the wearer fails a saving throw against a mind-affecting effect, she can reroll the save and take the second result. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mind blank; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cap_of_the_free_thinker",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

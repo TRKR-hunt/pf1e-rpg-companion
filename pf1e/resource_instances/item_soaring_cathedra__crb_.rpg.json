@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "soaring_cathedra__crb_",
+    "name": {
+      "value": "Soaring Cathedra"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot none; Price 5,000 gp; Weight 250 lbs. DESCRIPTION This large sedan chair is made of light but sturdy blackwood and is draped with white silk coverings. Inside, there is room for two medium-sized occupants on a bed of silken pillows and thick padding. Its movement is controlled by one of the occupants. It always floats a few feet above the ground and moves horizontally with a speed of 10 feet, though the occupants can make it land or float again as a free action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, levitate; Special creator must have at least 2 ranks in Craft (woodworking); Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_soaring_cathedra",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_soaring_cathedra",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

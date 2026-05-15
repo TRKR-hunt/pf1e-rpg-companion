@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gauntlets_giant_fist__crb_",
+    "name": {
+      "value": "Giant fist gauntlets"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot hands; Price 20,000 gp; Weight 5 lbs. DESCRIPTION As a swift action, the wearer of these rough leather gauntlets can expand her hands to twice normal size and harden to the consistency of hardwood. This transformation lasts for up to 20 rounds per day, though they need not be consecutive rounds. If the wearer hits with an unarmed strike or natural attack using her enlarged hands, she may attempt to bull rush her opponent as a free action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, enlarge person; Cost 10,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gauntlets_giant_fist",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gauntlets_giant_fist",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

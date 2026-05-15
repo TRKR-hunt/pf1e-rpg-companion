@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "false_face__crb_",
+    "name": {
+      "value": "False Face"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,600 gp; Slot head; CL 3rd; Weight 1/2 lb.; Aura none (see text) DESCRIPTION This simple, hand-painted party mask emanates no magical aura. Its true usefulness is revealed only when it\u2019s worn. When a person dons the mask, she instantly assumes the appearance of single specific Small or Medium humanoid creature. Each mask has a single \u201cface\u201d that can\u2019t be changed once the item is created. This effect otherwise works as disguise self. CONSTRUCTION REQUIREMENTS Cost 800 gp; Feats Craft Wondrous Item; Spells disguise self, magic aura"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_false_face",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

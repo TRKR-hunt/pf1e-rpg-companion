@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_plagues__crb_",
+    "name": {
+      "value": "Ring of Plagues"
+    },
+    "source": {
+      "value": "champions_of_corruption"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,000 gp; Slot ring; CL 11th; Weight \u00e2\u0080\u0094; Aura moderate necromancy DESCRIPTION This silver ring is set with a black opal. Once per day, when the wearer is reduced to half or fewer of her maximum hit point total, whoever dealt the activating blow to the wearer is immediately subjected to a major curse with unlimited range. A successful DC 19 Will saving throw is needed to negate the spell. Rather than one of the listed curse effects, the curse imposes a \u00e2\u0080\u00934 penalty on the victim\u2019s saving throws and causes the victim to contract a disease chosen by the wearer from the contagion list without a save. The cursed disease has no onset time, but the attacker is allowed the normal saving throw to avoid its effects. It can be cured only by successfully casting both remove curse and remove disease within 1 minute of each other. Those exposed to the cursed attacker thereafter must save against the mundane version of the disease or become infected (though they are not cursed). Once per day, if the wearer is killed or reduced to negative hit points, a plague of curses is unleashed. The attacker and the attacker\u2019s five nearest allies or immediate blood relatives become the targets of the curse described above. If the wearer is restored to at least 1 hit point, these curses end, allowing surviving victims to recover naturally. CONSTRUCTION REQUIREMENTS Cost 10,000 gp; Feats Forge Ring; Spells contagion, major curse, spite"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_plagues",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

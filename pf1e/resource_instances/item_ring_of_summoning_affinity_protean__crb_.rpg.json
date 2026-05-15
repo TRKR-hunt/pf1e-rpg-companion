@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_summoning_affinity_protean__crb_",
+    "name": {
+      "value": "Ring of Summoning Affinity (Protean)"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,200 gp; Slot ring; CL 5th; Weight \u2014; Aura faint conjuration [chaos] DESCRIPTION This ring is made from an opalescent material that is never the same color twice. If the wearer can cast summon monster spells, the wearer adds voidworm to the 3rd-level list of monsters she can summon with those spells, adds naunet to the 6th-level list, and adds imentesh to the 9th-level list. Also, once per day on command the wearer can use this ring to summon a voidworm, as if by the summon monster III spell. CONSTRUCTION REQUIREMENTS Cost 3,600 gp; Feats Forge Ring; Spells planar ally or planar binding; Special creator must be chaotic neutral"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_summoning_affinity_protean",
+          "value": {
+            "value": 7200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

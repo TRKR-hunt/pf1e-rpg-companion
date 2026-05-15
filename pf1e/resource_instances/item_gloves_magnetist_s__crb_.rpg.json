@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_magnetist_s__crb_",
+    "name": {
+      "value": "Magnetist\u2019s gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 3rd; Slot hands; Price 6,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These thin leather gloves have delicate steel wires running through them. Three times per day as a standard action, the wearer of these gloves may attempt a disarm combat maneuver on a target within 30 feet. The target\u00e2\u0080\u0099s item must be mostly made of metal. If the combat maneuver check is successful, the target is disarmed and the item falls to the ground in the target\u00e2\u0080\u0099s square. For every 5 by which the check exceeds the DC, the item lands 1 square closer to the wearer. If this would place the item in the wearer\u00e2\u0080\u0099s square, the wearer may attempt to catch the item with a DC 10 Dexterity check; otherwise it lands in the wearer\u00e2\u0080\u0099s square. The wearer can only use this ability if she has at least one hand free. If the wearer fails the combat maneuver check, she is not disarmed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, telekinesis; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_magnetist_s",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

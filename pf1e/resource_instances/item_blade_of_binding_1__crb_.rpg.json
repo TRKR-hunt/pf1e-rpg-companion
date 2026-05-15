@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "blade_of_binding_1__crb_",
+    "name": {
+      "value": "Blade of binding"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 3rd; Weight 8 lbs.; Price 12,350 gp DESCRIPTION This +1 greatsword is decorated with a lock motif. On a successful hit with the sword against a creature that is the wielder\u2019s size or smaller, the wielder can attempt to start a grapple as a free action that doesn\u2019t provoke an attack of opportunity. If the wielder succeeds at the grapple, the sword\u2019s blade transforms into a metal chain and wraps around the target, giving the wielder a +5 bonus on further grapple checks against the target. If the target escapes the grapple or the wielder decides to release the target from the grapple, the chain reverts to sword form (with the wielder holding the handle). The wielder can also let go of the chain\u2019s handle while grappling or pinning the target; if he does so, the chain remains in place and the target gains the entangled condition ( Escape Artist DC 20 to slip free, break DC 28, hardness 10, 10 hit points, concentration DC 17 to cast spells while entangled ). Another creature can grab the chain\u2019s handle as a standard action and will it to revert to sword form as a swift action, which releases the bound creature. If the chain is destroyed, it reverts to sword form and the weapon gains the broken condition. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells animate rope; Cost 6,350 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_blade_of_binding_1",
+          "value": {
+            "value": 12350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_blade_of_binding_1",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

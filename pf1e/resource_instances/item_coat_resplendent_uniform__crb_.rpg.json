@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coat_resplendent_uniform__crb_",
+    "name": {
+      "value": "Resplendent uniform"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 5th; Slot chest; Price 7,000 gp; Weight 5 lbs. DESCRIPTION This woolen long coat is typically worn over light armor by military commanders. A cavalier with the tactician ability may use that ability one additional time per day, and his tactician ability affects allies within 60 feet instead of 30 feet. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, heroism; Cost 3,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coat_resplendent_uniform",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coat_resplendent_uniform",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

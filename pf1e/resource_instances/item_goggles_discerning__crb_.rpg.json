@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goggles_discerning__crb_",
+    "name": {
+      "value": "Goggles, Discerning"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,500 gp; Slot eyes; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This eyewear consists of two thick, gold-rimmed glass lenses encased in a leather band. When worn over the eyes, a pair of discerning goggles allows you to determine creatures\u2019 alignments with a single look. Good creatures appear to faintly glow blue and evil creatures to faintly glow red. Neutral-aligned creatures appear normal, as do creatures under the effect of an undetectable alignment spell or similar effect. These goggles function only during times when you normally would possess sight; for example, they do not work in darkness unless you possess darkvision. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells detect good, detect evil; Gold 6,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goggles_discerning",
+          "value": {
+            "value": 13500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

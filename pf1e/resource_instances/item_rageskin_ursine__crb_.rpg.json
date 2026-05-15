@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rageskin_ursine__crb_",
+    "name": {
+      "value": "Rageskin, Ursine"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,165 gp; Slot armor; CL 7th; Weight 25 lbs.; Aura moderate transmutation DESCRIPTION This +1 hide armor is stitched together from grizzly bear hides. When the wearer rages, she automatically turns into a Large brown bear, as if using change shape ( beast shape II). The armor melds with her new form as normal, but the armor\u00e2\u0080\u0099s enhancement bonus changes into a +1 enhancement bonus to her natural armor. When the rage ends, the wearer reverts to her own form. CONSTRUCTION REQUIREMENTS Cost 10,165 gp; Feats Craft Magic Arms and Armor; Spells beast shape II"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rageskin_ursine",
+          "value": {
+            "value": 20165
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rageskin_ursine",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

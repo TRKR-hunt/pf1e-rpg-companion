@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "kyton_scourge__crb_",
+    "name": {
+      "value": "Kyton Scourge"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration and evocation; Slot none; CL 12th; Weight 2 lbs.; Price 53,000 gp DESCRIPTION Once possessed by a brijidine azata dedicated to ending the depredations of kytons, this weapon now holds a portion of her essence. This +1 shock whip is woven from green leather and crackles with electricity, seemingly writhing of its own volition. Three times per day, when the wielder uses it to successfully trip a creature, the target of the trip attack is subject to a dimensional anchor effect. The wielder can choose to suppress this ability as a swift action. Furthermore, in the hands of a wielder with a good alignment, the weapon becomes a +1 kyton bane shock whip. It is infused with good, and as a result it bestows 1 negative level on any nongood creature wielding it. This negative level persists as long as the weapon is wielded and disappears when the item is put away. The negative level cannot be overcome in any way (including by means of restoration spells) while it is wielded. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells dimensional anchor, holy smite; Special creator must be good; Cost 26,650 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_kyton_scourge",
+          "value": {
+            "value": 53000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_kyton_scourge",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

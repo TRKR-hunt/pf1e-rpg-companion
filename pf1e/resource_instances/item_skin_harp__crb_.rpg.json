@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "skin_harp__crb_",
+    "name": {
+      "value": "Skin Harp"
+    },
+    "source": {
+      "value": "the_asylum_stone"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment and necromancy; CL 9th; Slot none; Price 16,500 gp; Weight 5 lbs. DESCRIPTION This small harp is made from a sprite\u2019s twisted, leathery corpse, its arms and legs arching up to hold the crossbar along the instrument\u2019s top. The strings are made from thin strips of twisted flesh flayed from the fey \u2018s torso and strung between their anchor points on the corpse and the crossbar. Though the corpse\u2019s chest cavity is clearly visible, all viscera have been removed. A skin harp functions as a masterwork harp. In addition, once per day, it can be activated to cast either command undead or dominate person ( Will DC 19 negates). With a successful DC 20 Perform (string instruments) check, the save DC for this effect increases by +2. When used in this manner, the harp animates and plays itself, the corpse freeing one hand from the crossbar in order to strum its flesh strings. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, command undead, dominate person; Cost 8,550 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_skin_harp",
+          "value": {
+            "value": 16500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_skin_harp",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

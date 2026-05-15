@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "badge_of_veiled_authority__crb_",
+    "name": {
+      "value": "Badge of Veiled Authority"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,500 gp; Slot none; CL 3rd Weight \u00e2\u0080\u0094; Aura faint illusion APPEARANCE This golden badge has a snake etched onto it that shimmers slightly in the sunlight. EFFECTS Twice per day as a standard action, the wearer can tap the badge. When she does, the badge transforms into one identical to those worn by the local law enforcement of the city or town in which the wearer is located. This effect lasts for 3 hours each time it is activated, though the wearer can dismiss the effect as a free action. Additionally, while this badge\u00e2\u0080\u0099s magic is active, it provides the wearer with a +5 competence bonus on Bluff checks. Once the badge\u00e2\u0080\u0099s magic has been activated, any creature can wear it in its transformed form and receive the bonus on Bluff checks, though only the original wearer can end the effect before its duration has elapsed. If members of the town or city\u00e2\u0080\u0099s law enforcement do not wear badges, activating this item has no physical effect, but the wearer still receives the bonus on Bluff checks while the effect lasts. A creature that interacts with the badge while its magic is active (such as by examining it closely or touching it) can recognize that the badge is fake with a successful DC 14 Will saving throw. CONSTRUCTION REQUIREMENTS Cost 1,750 gp; Feats Craft Wondrous Item; Spells disguise self"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_badge_of_veiled_authority",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

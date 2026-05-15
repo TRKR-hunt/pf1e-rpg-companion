@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_the_peaks__crb_",
+    "name": {
+      "value": "Elixir of the Peaks"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot none; Price 2,450 gp; Aura moderate transmutation,; CL 7th; Weight \u00e2\u0080\u0094 DESCRIPTION When imbibed, an elixir of the peaks gives the user the ability to scale and survive in mountainous terrain with great skill. The imbiber is treated as if acclimated to all high altitudes lower than a death zone, and gains a +2 competence bonus on all Survival checks made at elevations of above 5,000 feet. She also gains a +10 competence bonus on Climb checks and Survival checks in mountainous terrain (these bonuses stack with the altitude-based bonus above). Finally, the imbiber gains the benefits of an endure elements spell. The effects of this elixir wear off after 8 hours. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, endure elements, spider climb; Cost 1,225 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_the_peaks",
+          "value": {
+            "value": 2450
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

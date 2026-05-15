@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scouting_leather__crb_",
+    "name": {
+      "value": "Scouting Leather"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,750 gp; Slot armor; CL 10th; Weight 15 lbs.; Aura moderate illusion and transmutation DESCRIPTION This +1 expeditious glamered leather armor is colored a deep brown and painted with jungle camouflage. Scouts transform the armor to match the armor style and symbology of communities they visit, and use the expeditious special ability if they find they\u2019re unwelcome. In its true form, the armor grants a +3 competence bonus on Stealth checks. When transformed to fit a specific culture\u2019s style of dress, it instead grants a +3 competence bonus on Diplomacy checks against people of that culture. CONSTRUCTION REQUIREMENTS Cost 4,450 gp; Feats Craft Magic Arms and Armor; Spells disguise self, expeditious retreat"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scouting_leather",
+          "value": {
+            "value": 8750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scouting_leather",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

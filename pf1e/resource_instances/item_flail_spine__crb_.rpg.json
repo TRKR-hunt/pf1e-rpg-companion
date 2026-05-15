@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "flail_spine__crb_",
+    "name": {
+      "value": "Flail, Spine"
+    },
+    "source": {
+      "value": "the_asylum_stone"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 4th; Slot none; Price 13,308 gp; Weight 10 lbs. DESCRIPTION This weapon looks like the barbed spine of a humanoid. A spine flail functions as a +2 flail that deals slashing damage and has reach. Unlike most weapons with reach, a spine flail can be used against adjacent foes. On a critical hit from a spine flail, the victim must succeed at a DC 15 Fortitude save to resist being permanently blinded by the blow. Spine flails are favored by powerful dullahans, who harvest the spines from their first victims. The undead riders have a particular affinity for their personal spine flails, and often maintain a supernatural control over their weapons, causing them to appear or disappear at will. CONSTRUCTION REQUIREMENTS Craft Magical Arms and Armor, blindness/deafness; Cost 6,808 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_flail_spine",
+          "value": {
+            "value": 13308
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_flail_spine",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_friend_shield__crb_",
+    "name": {
+      "value": "Ring of friend shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 10th; Slot ring; Price 50,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These curious rings always come in pairs. A ring of friend shield without its mate is useless. Either wearer of one of a pair of the rings can, at any time, command his ring to cast a shield other spell with the wearer of the mated ring as the recipient. This effect has no range limitation. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells shield other; Cost 25,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_friend_shield",
+          "value": {
+            "value": 50000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

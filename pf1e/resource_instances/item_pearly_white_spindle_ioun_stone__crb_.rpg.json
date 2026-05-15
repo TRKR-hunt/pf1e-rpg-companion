@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pearly_white_spindle_ioun_stone__crb_",
+    "name": {
+      "value": "pearly white spindle"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 12th; Slot \u00e2\u0080\u0094; Price 20,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This stone grants the wearer the ability to regenerate 1 point of damage per 10 minutes. This regeneration works like a ring of regeneration. It only cures damage taken while the character is using the stone. Cracked: Regenerate 1 hit point of damage per hour. Price: 3,400 gp. Flawed: Regenerate 4 hit points of damage per hour. Price: 18,000 gp. See Inferior Ioun Stones for details on cracked and flawed variant stones. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be 12th level; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pearly_white_spindle_ioun_stone",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

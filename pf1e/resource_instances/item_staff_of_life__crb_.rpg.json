@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_life__crb_",
+    "name": {
+      "value": "Staff of life"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 11th; Slot none; Price 109,400 gp; Weight 5 lbs. DESCRIPTION A staff of life is made of thick polished oak shod in gold and decorated with sinuous runes of silver or ivory, which depict various cycles of life and death according to different cultures. This staff allows use of the following spells: Heal (1 charge) Raise dead (5 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells heal, raise dead; Cost 79,700 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_life",
+          "value": {
+            "value": 109400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_life",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

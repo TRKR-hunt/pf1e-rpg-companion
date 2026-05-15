@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fortifying_leeches__crb_",
+    "name": {
+      "value": "Fortifying Leeches"
+    },
+    "source": {
+      "value": "the_asylum_stone"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot none; Price 6,000 gp; Weight 2 lbs. DESCRIPTION This ornate glass jar is filled with greenish fluid and the slick, writhing forms of many large black leeches. Though bloodmages often use leeches to help them regulate their overloaded circulatory systems, this particular batch adds additional benefits usable by anyone. To attach this jar\u2019s leeches, the user merely needs to open the jar and upend the contents over his head and torso as a standard action \u2014the leeches do the rest, attaching to the user\u2019s body almost instantaneously. These leeches impart a +2 enhancement bonus to Constitution, but also a \u20134 penalty on Diplomacy checks against creatures that might find such a practice grotesque (such as most civilized races). Once applied, the leeches persist for 8 hours before they die. The leeches are immediately destroyed if the wearer takes more than 20 points of damage from any area-effect energy damage. The jar automatically refills with a new batch of fortifying leeches after 24 hours. While the fortifying leeches are applied, a bloodmage immediately regains 2 bonus points to her blood pool\u2014this cannot increase her blood points to higher than her normal maximum. In addition, whenever the bloodmage uses her bleed ability to gain extra blood points, she may roll her bleed dice twice and take the more favorable result. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bear\u2019s endurance; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fortifying_leeches",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fortifying_leeches",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

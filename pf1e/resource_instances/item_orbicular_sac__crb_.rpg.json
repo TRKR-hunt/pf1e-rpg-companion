@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "orbicular_sac__crb_",
+    "name": {
+      "value": "Orbicular Sac"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION Breaking open this magically enhanced spider egg sac (a standard action ) conjures a massive spider web in a square adjacent to the user. The web is 5 feet thick and up to 20 feet wide and high. The spider web is nearly invisible; spotting it requires a successful DC 20 Perception check in bright light. This DC increases by 4 for every step below bright light in which the spider web is placed. This effect otherwise acts as the web spell (DC 13). Alternatively, the user can enhance a web created by another orbicular sac. Each additional sac increases the duration of the web by 30 minutes and the Reflex and grapple DCs by 2 (maximum increase of +10). CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Wondrous Item; Spells invisibility, web"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_orbicular_sac",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

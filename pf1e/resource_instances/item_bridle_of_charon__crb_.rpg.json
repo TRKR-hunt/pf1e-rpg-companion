@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bridle_of_charon__crb_",
+    "name": {
+      "value": "Bridle of Charon"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 14th; Slot head; Price 40,000 gp; Weight 2 lbs. DESCRIPTION Studded with shards of inert soul gems, this bridle imbues its wearer with a fraction of the power of the the Horseman of Death\u2019s steed. Once per day as an immediate action, the rider of a creature wearing this item can activate it as part of the mount\u00e2\u0080\u0099s movement. It becomes incorporeal during its movement, though it must stop in an unoccupied space. Any object the creature passes through during its incorporeal movement begins to crumble, having its hit points reduced by half (ignoring hardness ). Any living creatures\u00e2\u0080\u0099 spaces the mount passes through during its incorporeal movement feel the cold wind of death and must succeed at a DC 20 Fortitude save or take a -4 penalty to its Strength, Dexterity, and Constitution scores that lasts for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bestow curse, ethereal jaunt; Cost 20,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bridle_of_charon",
+          "value": {
+            "value": 40000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bridle_of_charon",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

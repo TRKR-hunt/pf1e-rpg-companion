@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "starfall_spade__crb_",
+    "name": {
+      "value": "Starfall Spade"
+    },
+    "source": {
+      "value": "palace_of_fallen_stars"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,620 gp; Slot \u2014; CL 7th; Weight 12 lbs.; Aura moderate evocation DESCRIPTION The Technic League produces these unusual weapons as signature tools for the guards of Starfall and the Palace of Fallen Stars. A Starfall spade is a +1/+1 monk\u2019s spade and has a capacity of 10 charges. When the weapon strikes a foe, it automatically consumes a charge and deals an additional 2 points of plasma damage (1 electricity, 1 fire) on that hit. Attack that miss don\u2019t consume charges. A crystal button on the shaft allows for a secondary attack: a beam of plasma that fires from the forked tip of the spade. This beam is a ranged touch attack that deals 4d6 points of plasma damage (half electricity, half fire) on a hit\u2014it has a maximum range of 40 feet with no range increment. Firing this plasma beam consumes 10 charges. CONSTRUCTION REQUIREMENTS Skill Check(s) Craft DC 26; Cost 4,620 gp; Craft Magic Arms and Armor, Craft Technological Arms and Armor; Equipment military lab; Spells scorching ray, shocking grasp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_starfall_spade",
+          "value": {
+            "value": 8620
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_starfall_spade",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "traveler_s_translator__crb_",
+    "name": {
+      "value": "Traveler's Translator"
+    },
+    "source": {
+      "value": "people_of_the_stars"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,550 gp; Slot none; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This single earring consists of a prismatic crystal set into a platinum bezel. A traveler\u2019s translator provides its owner a basic and limited ability to communicate with intelligent creatures that speak unfamiliar languages. When created, a traveler\u2019s translator is imprinted with a single base language chosen by its creator (typically Common), and is capable of learning one additional language. When its owner speaks the command word, the traveler\u2019s translator begins listening to all spoken conversations and speech within 30 feet. After 1 minute of exposure to a language other than its base language, the translator learns the new language. Thereafter, the item automatically translates speech of the newly learned language into the translator\u2019s base language, telepathically imparting the translated words to its owner. A traveler\u2019s translator can store only one learned language at a time and can learn only one language per day\u00e2\u0080\u0094speaking the command word again after at least 24 hours causes the translator to erase the previously learned language (but not its base language) to make room for a new language. As a standard action, the owner of the stone can designate a single creature within 30 feet. When the owner speaks aloud to that creature in the translator\u2019s base language, the traveler\u2019s translator telepathically transmits the owner\u2019s meaning to the target, using the learned language. A traveler\u2019s translator does not grant its owner the ability to read or write in either the base or the learned language. CONSTRUCTION REQUIREMENTS Cost 775 gp; Feats Craft Wondrous Item; Spells share language"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_traveler_s_translator",
+          "value": {
+            "value": 1550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

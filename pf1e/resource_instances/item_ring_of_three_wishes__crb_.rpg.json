@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_three_wishes__crb_",
+    "name": {
+      "value": "Ring of three wishes"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong universal; CL 20th; Slot ring; Price 120,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring is set with three rubies. Each ruby stores a wish spell, activated by the ring. When a wish is used, that ruby disappears. For a randomly generated ring, roll 1d3 to determine the remaining number of rubies. When all the wishes are used, the ring becomes a non-magical item. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells miracle or wish; Cost 97,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_three_wishes",
+          "value": {
+            "value": 120000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

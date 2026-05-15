@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "celestial_shield__crb_",
+    "name": {
+      "value": "Celestial shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 7th; Weight 7 lbs.; Price 13,170 gp DESCRIPTION This gold-edged +2 blinding heavy steel shield is impossibly light and handy despite its size. It has no armor check penalty or arcane spell failure chance, and it allows the wielder to use feather fall on himself once per day. A creature wearing celestial armor while wielding a celestial shield may command the armor to provide overland flight rather than fly once per day. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells feather fall, overland flight; Cost 6,670 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_celestial_shield",
+          "value": {
+            "value": 13170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_celestial_shield",
+          "value": {
+            "value": 7
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

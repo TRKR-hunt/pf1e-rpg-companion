@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shawl_of_shadowy_disguise__crb_",
+    "name": {
+      "value": "Shawl of Shadowy Disguise"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,350 gp; Slot head; CL 5th; Weight 1 lb.; Aura faint illusion DESCRIPTION This violet shawl twists and melds with the darkness, becoming as black as coal in even the faintest shadow. While worn, the wearer can hide her appearance as if with a penumbral disguise spell. Onlookers never discern that the wearer was wearing a shawl of shadowy disguise. CONSTRUCTION REQUIREMENTS Cost 675 gp; Feats Craft Wondrous Item; Spells penumbral disguise"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shawl_of_shadowy_disguise",
+          "value": {
+            "value": 1350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shawl_of_shadowy_disguise",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "kapre_cigars__crb_",
+    "name": {
+      "value": "Kapre Cigars"
+    },
+    "source": {
+      "value": "island_of_empty_eyes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation and necromancy; CL 7; Slot none; Price 2,250 gp; Weight 4 lbs. DESCRIPTION These 2-foot-long cigars never go out. They burn with a glow that sheds light like a candle, but does not burn other organic material. Smoking the cigar is dangerous for any but a kapre \u00e2\u0080\u0094and not just because of its size. Only a Medium or larger creature can attempt to smoke the cigar. Creatures doing so must succeed at a DC 16 Fortitude save or become nauseated for 1 hour. Each time a creature attempts to inhale, he or she must make another save, but receives a cumulative +1 bonus for each successful inhalation in the past 24 hours. Once inhaled, the smoke can be exhaled to the detriment of nearby foes. The smoking creature must exhale within 1 round of inhaling or be nauseated for 1 round, coughing up the potent smoke into its own square. A Medium creature can blow the smoke as a standard action at one adjacent enemy. A Large or larger creature can blow the smoke in a 15-foot cone, also as a standard action. Creatures caught in the smoky cloud must succeed at a DC 16 Fortitude save or be nauseated for 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be a kapre or creation must be completed under the supervision of a kapre; Cost 1,125 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_kapre_cigars",
+          "value": {
+            "value": 2250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_kapre_cigars",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

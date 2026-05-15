@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "whistle_of_calling__crb_",
+    "name": {
+      "value": "Whistle of Calling"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,300 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate conjuration DESCRIPTION This whistle emits a loud, shrill note. Once per day when the user blows this whistle his mount or animal companion is instantly teleported to a safe space of the user\u2019s choice that\u2019s within 30 feet of him. The creature must be within 1 mile, and any effect that bars or hampers teleportation also impedes this effect. The whistle is useless unless attuned to a specific mount or animal companion; attuning the whistle is a special ritual that takes 10 minutes. The whistle can be attuned to a new mount or animal companion at will. CONSTRUCTION REQUIREMENTS Cost 3,150 gp; Feats Craft Wondrous Item; Spells teleport"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_whistle_of_calling",
+          "value": {
+            "value": 6300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

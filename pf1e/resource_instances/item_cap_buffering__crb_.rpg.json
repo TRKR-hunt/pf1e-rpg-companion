@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cap_buffering__crb_",
+    "name": {
+      "value": "Buffering cap"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 1st; Slot head; Price 2,000 gp; Weight 1 lb. DESCRIPTION This cloth hat is floppy and shapeless. It offers its wearer an unusual amount of protection against particularly devastating blows. Once per day when struck by a critical hit, the wearer can spend an immediate action to convert the bonus damage of the critical hit into nonlethal damage. The cap has no effect if the wearer is immune to nonlethal damage. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shield; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cap_buffering",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cap_buffering",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

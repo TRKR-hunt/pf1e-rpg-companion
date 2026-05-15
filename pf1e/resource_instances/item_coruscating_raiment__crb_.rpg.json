@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coruscating_raiment__crb_",
+    "name": {
+      "value": "Coruscating raiment"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 63,150 gp; Slot armor; CL 13th; Weight 50 lbs.; Aura strong transmutation DESCRIPTION Originally crafted by jyoti armorsmiths of the Positive Energy Plane, this gleaming suit of +1 radiant full plate has a mirror-like sheen that reflects even tiny sparks of light into brilliant ribbons of blazing color. Its ability to shine as brightly as a torch cannot be suppressed unless the wearer is in magical darkness. Once per day as an immediate action while charging, the wearer can transform her body into brilliant light. The wearer becomes incorporeal until she arrives at the end of her charge and makes her physical attacks, and she can charge through any creatures and obstacles that do not hinder incorporeal creatures (although she must have line of sight to her target when she begins her charge, as normal). CONSTRUCTION REQUIREMENTS Cost 32,400 gp; Feats Craft Magic Arms and Armor; Spells sunburst"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coruscating_raiment",
+          "value": {
+            "value": 63150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coruscating_raiment",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

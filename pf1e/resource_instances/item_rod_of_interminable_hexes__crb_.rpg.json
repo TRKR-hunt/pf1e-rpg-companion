@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_interminable_hexes__crb_",
+    "name": {
+      "value": "Rod of Interminable Hexes"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,000 gp; Slot none; CL 17th; Weight 5 lbs.; Aura strong (no school) DESCRIPTION Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex), she can use this rod\u2019s power to double the duration of the hex, so long as the hex\u2019s normal duration is longer than 1 round. When augmented with this rod, a hex that might have a longer duration if a target fails its save but only a 1-round duration if the target succeeds at its save (such as evil eye ) still has only a 1-round duration against a target that succeeds at its save. CONSTRUCTION REQUIREMENTS Cost 5,500 gp; Feats Craft Rod, Extend Spell; Special creator must possess the hex class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_interminable_hexes",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_interminable_hexes",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

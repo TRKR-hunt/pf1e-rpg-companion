@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "whispering_shrike__crb_",
+    "name": {
+      "value": "Whispering Shrike"
+    },
+    "source": {
+      "value": "the_brinewall_legacy"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot none; Price 5,940 gp; Weight 2 lbs. DESCRIPTION Whispering Shrike is a +1 wakizashi of incredibly beautiful design. The sword is etched with images of seven shrikes perched on a coiling branch that runs the length of the blade. Once per day, Whispering Shrike can be used to cast shield other on any creature touched by the blade while you wield it. The blade\u00e2\u0080\u0099s tsuka (hilt) has not weathered the passage of time as well as the blade itself, and until the pommel is repaired (a process requiring 600 gp, a day\u00e2\u0080\u0099s work, and a DC 20 Craft [weapons] check), attacks with the weapon take a \u00e2\u0080\u00932 penalty due to the loose grip. A DC 20 Perception check (an automatic success once repair is underway) reveals a secret compartment in the hilt just large enough to hold a small item such as a flask or rolled piece of paper. This compartment currently holds an important letter. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells shield other; Cost 3,140 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_whispering_shrike",
+          "value": {
+            "value": 5940
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_whispering_shrike",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robe_liar_s__crb_",
+    "name": {
+      "value": "Robe, Liar's"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,180 gp; Slot body; CL 5th; Weight 6 lbs.; Aura faint transmutation DESCRIPTION This hole-ridden burlap robe would appear completely worthless if not for the immaculate red velvet lining its interior. When worn inside out, a liar\u2019s robe enshrouds the wearer in a continually shifting array of colors, features, and faces that obscure his entire appearance and make physical recognition all but impossible. This effect lasts for 1 hour, during which time the wearer can go back and forth between wearing the robe inside out (disguising himself) and right side out (revealing his true form) any number of times. Witnesses to a creature wearing a liar\u2019s robe must use true seeing or a similar effect in order to pierce through this disguise; otherwise, they see the wearer only as a continually shifting humanoid form. The wearer\u2019s voice, scent, and other tangible cues are also continually altered and distorted, though indirect magical means of identification (such as detect thoughts or locate creature ) may still be used to recognize the individual. Since even the most magically disinclined individuals can clearly tell that the wearer is enshrouded in an illusion, a liar\u2019s robe is typically used in circumstances when it\u2019s appropriate to protect the wearer\u2019s anonymity without the wearer feigning another identity or hiding her presence. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells alter self; Cost 2,090 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robe_liar_s",
+          "value": {
+            "value": 4180
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robe_liar_s",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

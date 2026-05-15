@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_blessed_relief__crb_",
+    "name": {
+      "value": "Staff of blessed relief"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 8th; Slot none; Price 7,200 gp; Weight 5 lbs. DESCRIPTION This simple wooden staff is given to young clergy when they first set out into the world to spread the charity of their faith. The staff allows use of the following spells: Create water (1 charge) Stabilize (1 charge) Bless (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells bless, create water, stabilize; Cost 3,600 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_blessed_relief",
+          "value": {
+            "value": 7200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_blessed_relief",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

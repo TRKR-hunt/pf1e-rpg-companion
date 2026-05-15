@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pearl_of_power__crb_",
+    "name": {
+      "value": "Pearl of power (1st)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 17th ( see FAQ below ); Slot \u00e2\u0080\u0094; Price 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th), 70,000 gp (two spells); Weight \u00e2\u0080\u0094 DESCRIPTION This seemingly normal pearl of average size and luster is a potent aid to all spellcasters who prepare spells ( clerics, druids, rangers, paladins, and wizards ). Once per day on command, a pearl of power enables the possessor to recall any one spell that she had prepared and then cast that day. The spell is then prepared again, just as if it had not been cast. The spell must be of a particular level, depending on the pearl. Different pearls exist for recalling one spell per day of each level from 1st through 9th and for the recall of two spells per day (each of a different level, 6th or lower). CONSTRUCTION REQUIREMENTS Craft Wondrous Item; Special creator must be able to cast spells of the spell level to be recalled; Cost 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th), 35,000 gp (two spells) FAQ I looked over the magic item crafting rules and was unable to find an explicit statement on this question: Does creating a magic item require the creator to be of the same or higher caster level of the item itself? This doesn\u2019t seem to square with the CLs listed for specific magic items; for instance, a Belt of Giant Strength +2 has CL 8th, but the only spell required in its creation, bull\u2019s strength, has a minimum caster level of 3. Am I missing anything here? Though the listed Caster Level for a pearl of power is 17th, that caster level is not part of the Requirements listing for that item. Therefore, the only caster level requirement for a pearl of power is the character has to be able to cast spells of the desired level. However, it makes sense that the minimum caster level of the pearl is the minimum caster level necessary to cast spells of that level\u2013it would be strange for a 2nd-level pearl to be CL 1st. For example, a 3rd-level wizard with Craft Wondrous Item can create a 1st-level pearl, with a minimum caster level of 1. He can set the caster level to whatever he wants (assuming he can meet the crafting DC), though the pearl\u2019s caster level has no effect on its powers (other than its ability to resist dispel magic). If he wants to make a 2nd-level pearl, the caster level has to be at least 3, as wizards can\u2019t cast 2nd-level spells until they reach character level 3. He can even try to make a 3rd-level pearl, though the minimum caster level is 5, and he adds +5 to the DC because he doesn\u2019t meet the \u201cable to cast 3rd-level spells\u201d requirement. [ Source ]"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pearl_of_power",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

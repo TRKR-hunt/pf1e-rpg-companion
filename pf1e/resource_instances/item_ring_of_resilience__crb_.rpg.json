@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_resilience__crb_",
+    "name": {
+      "value": "Ring of Resilience"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,000 gp; Slot ring; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate conjuration DESCRIPTION This tarnished copper band sheds its patina when worn by anyone with panache or grit. Whenever the wearer regains a panache or grit point through her actions (not just a daily refresh), she can try to end a single ongoing condition affecting her, attempting a new saving throw against the original DC. The effect must be one that allowed a saving throw, can be removed by either dispel magic or heal, and be an effect against which the wearer failed her initial saving throw. If the wearer succeeds at the new save, the effect is removed even if succeeding at the save would normally have other consequences, and even if the effect normally requires multiple saves to remove. If the effect allowed more than one type of saving throw, use the type and DC for the first saving throw the wearer failed for the effect. The wearer can use the ring only once for each ongoing condition. As the wearer must regain a panache or grit point to reroll a save, the ring provides no benefit if she hasn\u2019t used any grit or panache. CONSTRUCTION REQUIREMENTS Cost 7,500 gp; Feats Forge Ring; Spells restoration; Special creator must be a grit or panache user"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_resilience",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

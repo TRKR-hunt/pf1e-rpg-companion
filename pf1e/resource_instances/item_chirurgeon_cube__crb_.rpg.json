@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chirurgeon_cube__crb_",
+    "name": {
+      "value": "Chirurgeon Cube"
+    },
+    "source": {
+      "value": "construct_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,800 gp; Slot none; CL 11th; Weight \u00e2\u0080\u0094; Aura moderate transmutation APPEARANCE This 1-inch steel cube bears a variety of unique, intricate carvings upon each face. EFFECTS On command, the cube sprouts wings and arms and becomes a Diminutive-sized, cube-shaped mechanical construct (treat as a thrush with hardness 10). The creature obeys and serves whoever activated the cube. It understands Common but cannot speak. The chirurgeon cube is skilled at healing constructs. As a standard action, the cube can use the magnets and small hooks embedded on its underside to attach itself to a construct and quickly stitch together any torn and broken pieces. This provides the construct with fast healing 2 for as long as the chirurgeon cube remains in contact with it. A chirurgeon cube can be activated for up to 10 minutes each day, spent in 1-minute increments. If the chirurgeon cube is broken or destroyed in either form, it is forever ruined. CONSTRUCTION REQUIREMENTS Cost 4,900 gp; Feats Craft Wondrous Item; Spells animate objects, fly, make whole"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chirurgeon_cube",
+          "value": {
+            "value": 9800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

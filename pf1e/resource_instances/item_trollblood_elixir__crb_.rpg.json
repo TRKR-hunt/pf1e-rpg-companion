@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trollblood_elixir__crb_",
+    "name": {
+      "value": "Trollblood Elixir"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,550 gp; Slot none; CL 13th; Weight \u00e2\u0080\u0094; Aura strong conjuration DESCRIPTION This rancid, bubbling tonic is mud-colored and reeks of sweat, gore, and decay. Upon drinking a dose of trollblood elixir, the imbiber gains fast healing 5. This fast healing is even capable of reattaching a severed limb that is pressed against its stump for 1 round, as long as the limb has been severed for no more than 1 hour and is essentially intact. The effects of trollblood elixir last 1 minute; during this time, the imbiber is nauseated. Each round, the imbiber can choose to prematurely end the elixir\u2019s effects by succeeding at a DC 10 Fortitude save as a full-round action. Trollblood elixir does not affect objects or nonliving creatures such as constructs and undead. CONSTRUCTION REQUIREMENTS Cost 5,060 gp; Feats Craft Wondrous Item; Spells regenerate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trollblood_elixir",
+          "value": {
+            "value": 4550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

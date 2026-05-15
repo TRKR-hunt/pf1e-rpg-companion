@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "necklace_of_bloody_incisors__crb_",
+    "name": {
+      "value": "Necklace of Bloody Incisors"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,850 gp; Slot neck; CL 3rd Weight \u2014; Aura faint transmutation APPEARANCE This thin iron chain holds up to 10 extracted teeth of common predatory animals strung along it. EFFECTS As a move action, the wearer can place up to three teeth into a thrown splash weapon or an alchemist\u2019s bomb. When such a splash weapon or bomb hits a target, it deals an additional 1d4 points of slashing damage per tooth used. Each tooth used in such a splash weapon or bomb also increases its splash damage by 2 points of slashing damage per tooth. Once all of the necklace\u2019s teeth are used in this way, the necklace\u2019s magic is expended. A newly purchased necklace of bloody incisors contains 10 extracted teeth. CONSTRUCTION REQUIREMENTS Cost 925 gp; Feats Craft Wondrous Item; Spells greater magic fang"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_necklace_of_bloody_incisors",
+          "value": {
+            "value": 1850
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tattoo_runeward__crb_",
+    "name": {
+      "value": "Tattoo, Runeward"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot none; CL 1st; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION Each of these tattoos is keyed to a single school of magic. The bearer can use detect magic at will, but only to sense auras of that school. The bearer gains a +1 insight bonus on saving throws against spells and spell-like abilities of the keyed school and knows when such a spell or spell-like ability has been cast within 60 feet. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Inscribe Magical Tattoo; Spells detect magic, guidance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tattoo_runeward",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

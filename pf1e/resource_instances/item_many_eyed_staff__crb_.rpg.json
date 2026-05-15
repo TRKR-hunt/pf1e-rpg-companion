@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "many_eyed_staff__crb_",
+    "name": {
+      "value": "Many-Eyed Staff"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,000 gp; Slot none; CL 9th; Weight 5 lbs.; Aura moderate divination DESCRIPTION Whenever the user is holding this wooden staff, 10 bulging eyes carved along the length of the staff animate, granting the user a +5 competence bonus on Perception checks as long as he is grasping the staff. As a move action, the wielder can select a creature within 100 feet and see through its eyes with no saving throw. The creature selected must be either a spider summoned with the staff or a creature blinded by a blindness/deafness spell cast from the staff (the wielder ignores the blindness/deafness effect). The connection lasts as long as the wielder and the target creature remain within 100 feet of each other, though the wielder can end it as a free action. The effect also ends if the target was a blinded creature and regains the ability to see. The wielder is blinded while maintaining this connection. The staff allows the use of the following spells. Blindness/deafness (blindness only; 1 charge) Summon monster II ( giant spider only; 1 charge) Prying eyes (3 charges) CONSTRUCTION REQUIREMENTS Cost 16,000 gp; Feats Craft Staff; Spells blindness/deafness, prying eyes, summon monster II"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_many_eyed_staff",
+          "value": {
+            "value": 32000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_many_eyed_staff",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

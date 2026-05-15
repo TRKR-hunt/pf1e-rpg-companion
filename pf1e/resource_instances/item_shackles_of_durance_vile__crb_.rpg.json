@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shackles_of_durance_vile__crb_",
+    "name": {
+      "value": "Shackles of durance vile #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment; CL 9th; Slot wrists; Price 16,200 gp; Weight 2 lbs. DESCRIPTION These masterwork iron manacles sap the will of their wearer. When they are attached to a humanoid creature as their command word is spoken, they affect their prisoner with a dominate person spell, except that if the prisoner fails its saving throw, the effect lasts for as long as the shackles are attached. Removing or destroying the shackles immediately breaks the enchantment. The shackles can be so used once per day. Shackles of durance vile can only be activated against a helpless, restrained, or willing creature; if attached to a creature still able to resist they function only as manacles, albeit superior ones. Shackles of durance vile have hardness 15, 20 hit points, and a superior lock. They have a break DC of 30 and an Escape Artist DC of 35. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dominate person; Cost 8,200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shackles_of_durance_vile",
+          "value": {
+            "value": 16200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shackles_of_durance_vile",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

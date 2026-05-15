@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dustburst_bullet__crb_",
+    "name": {
+      "value": "Dustburst bullet"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Weight 1/2 lb.; Price 196 gp DESCRIPTION This gritty and irregular +1 sling bullet explodes into a cloud of choking dust when it successfully strikes its target. This cloud fills a 5-foot cube and follows the target for 1d6 rounds before dispersing. Any creature ending its turn in the cloud must make a successful DC 13 Fortitude save or be sickened and blinded for 1 round. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells stinking cloud; Cost 98 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dustburst_bullet",
+          "value": {
+            "value": 196
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

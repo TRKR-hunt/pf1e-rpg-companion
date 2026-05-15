@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_swimming_improved__crb_",
+    "name": {
+      "value": "Ring of swimming, improved"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot ring; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION As a ring of swimming, except it grants a +10 competence bonus on its wearer\u00e2\u0080\u0099s Swim checks. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special creator must have 10 ranks in Swim; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_swimming_improved",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

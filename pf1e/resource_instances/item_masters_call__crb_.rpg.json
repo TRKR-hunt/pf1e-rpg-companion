@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "masters_call__crb_",
+    "name": {
+      "value": "Masters' Call"
+    },
+    "source": {
+      "value": "inner_sea_monster_codex"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 34,000 gp; Slot neck; CL 10th; Weight \u00e2\u0080\u0094; Aura moderate enchantment DESCRIPTION Platinum filigree wraps around this small, spiral-shell amulet, which hangs on an ornate chain that resembles entwined tentacles. Enchantment spells and effects created by the wearer of a masters\u2019 call are treated as though they came from an aboleth source, so gillman targets take their racial \u00e2\u0080\u00932 penalty on Will saves to resist the amulet\u2019s effects. Once per day, the wearer can speak a trigger phrase in the Aboleth language to cast dominate person on a single target ( Will DC 18 negates). Regardless of whether the dominate person spell succeeds, the wearer can then attempt to cast modify memory on the same target to change its memory of either the actions the target performed while dominated or the attempted domination ( Will DC 17 negates). CONSTRUCTION REQUIREMENTS Cost 17,000 gp; Feats Craft Wondrous Item; Spells dominate person, modify memory"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_masters_call",
+          "value": {
+            "value": 34000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

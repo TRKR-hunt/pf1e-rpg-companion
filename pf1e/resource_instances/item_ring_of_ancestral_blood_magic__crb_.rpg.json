@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_ancestral_blood_magic__crb_",
+    "name": {
+      "value": "Ring of Ancestral Blood Magic"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot ring; CL 10th; Weight \u2014; Aura moderate transmutation DESCRIPTION While the wearer is bloodraging, he can cast a bonus spell gained from his bloodrager bloodline without expending a spell slot. He can do this three times per day, and must expend a number of rounds of bloodrage equal to the level of the spell to be cast. The wearer must meet all the other requirements for spellcasting. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Endurance, Extend Spell, Forge Ring; Special creator must have the bloodrage class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_ancestral_blood_magic",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

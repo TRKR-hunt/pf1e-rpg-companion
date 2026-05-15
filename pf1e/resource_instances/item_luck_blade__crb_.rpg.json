@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "luck_blade__crb_",
+    "name": {
+      "value": "Luck blade"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation; CL 17th; Weight 2 lbs.; Price varies; 0 wishes 22,060 gp, 1 wish 62,360 gp, 2 wishes 102,660 gp, 3 wishes 142,960 gp DESCRIPTION This +2 short sword gives its possessor a +1 luck bonus on all saving throws. Its possessor also gains the power of good fortune, usable once per day. This extraordinary ability allows its possessor to reroll one roll that she just made, before the results are revealed. She must take the result of the reroll, even if it\u2019s worse than the original roll. In addition, a luck blade may contain up to three wishes (when randomly rolled, a luck blade holds 1d4\u00e2\u0080\u00931 wishes, minimum 0). When the last wish is used, the sword remains a +2 short sword, still grants the +1 luck bonus, and still grants its reroll power. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells miracle or wish; Cost varies; 0 wishes 11,185 gp, 1 wish 43,835 gp, 2 wishes 76,485 gp, 3 wishes 109,135 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_luck_blade",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

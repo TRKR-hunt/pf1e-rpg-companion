@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "glove_glowing__crb_",
+    "name": {
+      "value": "Glowing glove"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint universal; CL 1st; Slot hands; Price 2,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION The wearer of this slender white leather glove may, as a standard action, press it against any surface or object and cause a luminous handprint to appear. This print glows any color the wearer wishes, sheds light as a candle, and is easily visible from a distance of up to 60 feet. Such handprints last for 1 day before fading away. The glowing handprint matches the wearer\u00e2\u0080\u0099s hand in terms of size, position of fingers, and so on. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, arcane mark; Cost 1,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_glove_glowing",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

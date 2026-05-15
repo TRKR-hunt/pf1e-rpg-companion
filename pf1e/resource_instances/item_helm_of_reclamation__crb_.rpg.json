@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "helm_of_reclamation__crb_",
+    "name": {
+      "value": "Helm of Reclamation"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varied; CL 15th; Slot head; Price 80,000 gp; Weight 3 lbs. DESCRIPTION The helm of reclamation is designed to destroy large groups of undead or powerful individual undead creatures, and is often used by undead -hating clerics with a flair for the dramatic. The gems of this helm produce sunburst (10 yellow diamonds), searing light (30 bloodstones), and daylight (40 opals). Like a standard helm of brilliance, it glows near and harms undead, and has the flaming weapon ability, but does not protect against fire or risk detonation. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, daylight, detect undead, flame blade, searing light, sunburst; Cost 40,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_helm_of_reclamation",
+          "value": {
+            "value": 80000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_helm_of_reclamation",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

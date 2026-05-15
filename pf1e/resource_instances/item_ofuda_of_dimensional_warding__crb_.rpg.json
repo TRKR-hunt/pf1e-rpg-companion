@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ofuda_of_dimensional_warding__crb_",
+    "name": {
+      "value": "Ofuda of Dimensional Warding"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 15th; Slot none; Price 80,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These talismans are 6-inch-long strips of paper bearing mystic words of sealing written in traditional calligraphy. If an ofuda of dimensional warding is placed on a prominent structure (such as a large tree, a statue, or a gate), and a special 24-hour ritual is performed, it creates a dimensional lock effect in a 240-foot-radius area which lasts until the ofuda of dimensional warding is removed. Any effect that moves the object that the ofuda of dimensional warding is attached to ends the effect until the ritual is performed again. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells dimensional lock; Cost 40,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ofuda_of_dimensional_warding",
+          "value": {
+            "value": 80000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

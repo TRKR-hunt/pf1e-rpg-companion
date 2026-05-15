@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dagger_of_black_sands__crb_",
+    "name": {
+      "value": "Dagger of Black Sands"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,302 gp; Slot none; CL 7th Weight 1 lb.; Aura moderate transmutation APPEARANCE This jet black dagger appears to drip grains of sand from its blade. EFFECTS This is a +1 dagger. Additionally, once per day as an immediate action when the wielder unsuccessfully attacks, he can activate the dagger to disappear in a whirlwind of black sand. The wielder teleports as per dimension door to any unoccupied square within 30 feet and can attempt a Stealth check to hide as if he were not being observed. The wielder cannot take any other creatures with him when he activates the dagger. Activating the dagger does not provoke attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 9,302 gp; Feats Craft Wondrous Item?; Spells dimension door, shifting sand"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dagger_of_black_sands",
+          "value": {
+            "value": 16302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dagger_of_black_sands",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

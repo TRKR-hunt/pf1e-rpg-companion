@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "arrow_slicer__crb_",
+    "name": {
+      "value": "Arrow Slicer"
+    },
+    "source": {
+      "value": "antihero_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 21,310 gp; Slot none; CL 6th; Weight 2 lbs.; Aura moderate evocation DESCRIPTION The blade of this +1 limning short sword pulsates with a faint blue glow when wielded. When its wielder is targeted by ranged attacks, an arrow slicer shines even brighter, alerting its user of the incoming danger and granting a +2 bonus on Perception checks to act in the surprise round. Once per round when the wielder is targeted by an attack from a ranged weapon that uses nonfirearm ammunition, he can attempt a DC 20 Reflex saving throw as an immediate action to deflect the projectile. If he exceeds the DC by more than 5, he not only deflects the projectile but also slices it in half, and all foes within 30 feet that can see the wielder do so become shaken for 1d4 rounds; this is a fear effect and can affect a given creature only once per day. Large projectiles, such as boulders hurled by giants and ballista bolts, can\u2019t be deflected or cut in half. CONSTRUCTION REQUIREMENTS Cost 10,810 gp; Feats Craft Magic Arms and Armor; Spells faerie fire, wind wall"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_arrow_slicer",
+          "value": {
+            "value": 21310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_arrow_slicer",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

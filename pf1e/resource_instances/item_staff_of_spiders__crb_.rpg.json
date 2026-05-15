@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_spiders__crb_",
+    "name": {
+      "value": "Staff of spiders"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and transmutation; CL 8th; Slot none; Price 30,200 gp; Weight 5 lbs. DESCRIPTION This staff is constructed from thousands of carefully prepared spiderwebs packed around a base and layered to make a shaft just as hard as oak, if not harder. A staff of spiders functions as a +1/+1 quarterstaff. It allows the use of the following spells: Spider climb (1 charge) Web (1 charge) Summon spider (as summon monster III, but only summons 1d3 giant spiders; 2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Craft Staff; Spells spider climb, summon monster III, web; Cost 15,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_spiders",
+          "value": {
+            "value": 30200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_spiders",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

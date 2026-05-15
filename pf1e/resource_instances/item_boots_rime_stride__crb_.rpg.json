@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_rime_stride__crb_",
+    "name": {
+      "value": "Boots, Rime-Stride"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 27,000 gp; Slot feet; CL 10th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION These fur-lined boots grant the wearer the ability to glide easily across icy surfaces. While doing so, the wearer adds 15 feet to her speed, and she does not need to make Acrobatics checks to run or charge on ice. While fighting on ice, the wearer gains a +2 circumstance bonus on combat maneuver checks and to CMD. Once per day, the wearer may cause all surfaces within a 30-foot radius of himself to become covered in a thin sheet of ice for 10 rounds. A creature can walk within or through this icy area at half normal speed with a successful DC 10 Acrobatics check. Failure means it can\u2019t move in that round, while failure by 5 or more means it falls. A creature using Acrobatics in this way is considered flat-footed and loses its Dexterity bonus to AC. CONSTRUCTION REQUIREMENTS Cost 13,500 gp; Feats Craft Wondrous Item; Spells pass without trace, sleet storm"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_rime_stride",
+          "value": {
+            "value": 27000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_rime_stride",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

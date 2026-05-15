@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cord_of_stubborn_resolve__crb_",
+    "name": {
+      "value": "Cord of stubborn resolve #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot belt; Price 15,000 gp; Weight 1 lb. DESCRIPTION When fastened about the waist, this stout length of rope grants a +2 enhancement bonus to Constitution along with prodigious stamina. Treat the enhancement bonus to Constitution as a temporary ability bonus for the first 24 hours the belt is worn. Any effect which would cause the wearer to become fatigued deals an additional 1d6 points of nonlethal damage instead. Any effect that would cause exhaustion likewise causes 1d6 points of nonlethal damage and leaves the wearer fatigued instead of exhausted. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bear\u00e2\u0080\u0099s endurance, lesser restoration; Cost 7,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cord_of_stubborn_resolve",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cord_of_stubborn_resolve",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

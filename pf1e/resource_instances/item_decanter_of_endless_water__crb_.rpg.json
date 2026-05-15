@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "decanter_of_endless_water__crb_",
+    "name": {
+      "value": "Decanter of endless water #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Slot \u00e2\u0080\u0094; Price 9,000 gp; Weight 2 lbs. DESCRIPTION If the stopper is removed from this ordinary-looking flask and a command word spoken, an amount of fresh or salt water pours out. Separate command words determine the type of water as well as the volume and velocity. \u00e2\u0080\u009cStream\u00e2\u0080\u009d pours out 1 gallon per round. \u00e2\u0080\u009cFountain\u00e2\u0080\u009d produces a 5-foot-long stream at 5 gallons per round. \u00e2\u0080\u009cGeyser\u00e2\u0080\u009d produces a 20-foot-long, 1-foot-wide stream at 30 gallons per round. The geyser effect exerts considerable pressure, requiring the holder to make a DC 12 Strength check to avoid being knocked down each round the effect is maintained. In addition, the powerful force of the geyser deals 1d4 points of damage per round to a creature that is subjected to it. The geyser can only affect one target per round, but the user can direct the beam of water without needing to make an attack roll to strike the target since the geyser\u2019s constant flow allows for ample opportunity to aim. Creatures with the fire subtype take 2d4 points of damage per round from the geyser rather than 1d4. The command word must be spoken to stop it. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, control water; Cost 4,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_decanter_of_endless_water",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_decanter_of_endless_water",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

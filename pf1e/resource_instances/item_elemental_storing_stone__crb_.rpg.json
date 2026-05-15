@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elemental_storing_stone__crb_",
+    "name": {
+      "value": "Elemental Storing Stone"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 900 gp; Slot none; CL 3rd; Weight 1/2 lb.; Aura faint evocation DESCRIPTION This small stone appears to be a normal river rock shot through with veins of white marble. At the beginning of each day, an elemental storing stone activates and can begin storing elemental energy. If the wielder of the stone takes 10 or more points of a single type of energy damage (acid, cold, electricity, fire, or sonic), the stone becomes charged with that energy. A charged elemental storing stone can be used to launch a single ray attack of the energy type stored within. The ray is a ranged touch attack with a range of 60 feet that deals 2d6 points of damage on a successful hit. An elemental storing stone may be used once per day. If the stone is charged and not used by the beginning of the next day, the charge is wasted and the stone must be charged again to function. CONSTRUCTION REQUIREMENTS Cost 450 gp; Feats Craft Wondrous Item; Spells elemental touch"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elemental_storing_stone",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

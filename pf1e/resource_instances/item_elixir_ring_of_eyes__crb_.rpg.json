@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_ring_of_eyes__crb_",
+    "name": {
+      "value": "Elixir, Ring of Eyes"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Fleshcraft Elixirs Fleshcrafting, the cousin of true fleshwarping, focuses on modifying only a portion of the subject for a particular task. While fleshcrafting normally involves changing the subject\u00e2\u0080\u0099s body permanently with a graft, fleshcraft elixirs can enact a similar temporary monstrous change. The following fleshcraft is available only in elixir form and cannot be created as a graft. Price 1,400 gp; Duration 10 minutes; Saving Throw DC 20 DESCRIPTION Numerous malformed eyes grow on the subject\u00e2\u0080\u0099s head. EFFECTS The creature gains all-around vision and can\u00e2\u0080\u0099t be flanked. Penalty: The subject is overwhelmed by sensory information, leaving it dazzled for the duration. CREATION REQUIREMENTS Cost 700 gp; Feats Fleshwarper; Skills Craft (alchemy) 13 ranks; Heal DC 24"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_ring_of_eyes",
+          "value": {
+            "value": 1400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

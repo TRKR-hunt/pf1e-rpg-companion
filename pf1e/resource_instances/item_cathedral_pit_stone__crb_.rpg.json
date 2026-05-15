@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cathedral_pit_stone__crb_",
+    "name": {
+      "value": "Cathedral Pit Stone"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 600 gp; Slot none; CL 5th Weight \u2014; Aura faint conjuration APPEARANCE A golden ribbon winds around this smooth, ring-shaped piece of basalt. EFFECTS The stone can be thrown as a ranged attack with a range increment of 20 feet. When the stone strikes a target, it creates a 10-foot-wide, 20-foot-deep moat, as per create pit, leaving the target on a stone pillar equal in size to its space. Alternatively, the user can target a specific grid intersection (or merely drop the stone, which requires no attack roll ) to create a 10-foot-wide, 20-foot-deep moat around the 5-foot square onto which it was thrown or dropped. (If the wielder throws the stone at a target and misses, treat the stone as a splash weapon to determine where it lands.) Each creature that is not the target in the area where a pit is created in this way must succeed at a DC 13 Reflex saving throw to jump to safety in the nearest open space. The pit disappears after 6 rounds. The stone is consumed upon being thrown or dropped. CONSTRUCTION REQUIREMENTS Cost 300 gp; Feats Craft Wondrous Item; Spells create pit"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cathedral_pit_stone",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

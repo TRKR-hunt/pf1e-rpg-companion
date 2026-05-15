@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_curing__crb_",
+    "name": {
+      "value": "Ring of curing"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot ring; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This simple copper ring is a boon to those who spend their lives healing others. Whenever the wearer of a ring of curing casts a conjuration spell of the healing subschool, all maximums to the level-dependent healing provided by that spell increase by 2. For example, cure light wounds would provide a maximum healing of 1d8 + 7 (at 7th caster level ), while heal would cure a maximum of 170 points of damage. This ring does not increase the wearer\u00e2\u0080\u0099s actual caster level, nor the amount of level-dependent healing provided by any such spell. CONSTRUCTION REQUIREMENTS Feats Forge Ring, Heighten Spell; Spells \u00c2 consecrate; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_curing",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

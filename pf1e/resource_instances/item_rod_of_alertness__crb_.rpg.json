@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_alertness__crb_",
+    "name": {
+      "value": "Rod of alertness"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 11th; Slot none; Price 85,000 gp; Weight 4 lbs. DESCRIPTION This rod is indistinguishable from a +1 light mace. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, it enables the wielder to use detect chaos, detect evil, detect good, detect law, detect magic, discern lies, light, or see invisibility. Each different use is a standard action. If the head of a rod of alertness is planted in the ground and the possessor wills it to alertness (a standard action ), the rod senses any creatures within 120 feet that intend to harm the possessor. At the same time, the rod creates the effect of a prayer spell upon all creatures friendly to the possessor in a 20-foot radius. Immediately thereafter, the rod sends forth a mental alert to these friendly creatures, warning them of any unfriendly creatures within the 120-foot radius. These effects last for 10 minutes, and the rod can perform this function once per day. Last, the rod can be used to simulate the casting of an animate objects spell, utilizing any 11 (or fewer) Small objects located roughly around the perimeter of a 5-foot-radius circle centered on the rod when planted in the ground. Objects remain animated for 11 rounds. The rod can perform this function once per day. CONSTRUCTION REQUIREMENTS Feats Craft Rod, alarm, animate objects, detect chaos, detect evil, detect good, detect law, detect magic, discern lies, light, prayer, see invisibility; Cost 42,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_alertness",
+          "value": {
+            "value": 85000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_alertness",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

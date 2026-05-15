@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "festival_garment__crb_",
+    "name": {
+      "value": "Festival Garment"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot body; CL 1st; Weight 1 lb.; Aura faint enchantment EFFECTS When a wearer of a festival garment dances, he can get onlookers into a festive, celebratory mood. A wearer of a festival garment can attempt a Perform (dance) check instead of a Diplomacy check to influence the attitude of a humanoid creature, but only if the creature\u00e2\u0080\u0099s initial attitude is unfriendly or better. In addition, if the wearer is at a festival or celebration, he gains a +5 competence bonus on Perform (dance) checks. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells charm person"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_festival_garment",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_festival_garment",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

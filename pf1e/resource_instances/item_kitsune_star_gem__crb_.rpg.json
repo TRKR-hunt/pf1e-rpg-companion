@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "kitsune_star_gem__crb_",
+    "name": {
+      "value": "Gem, Kitsune Star"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st (1st), 3rd (2nd), or 5th (3rd) Slot none; Price 750 gp (1st), 3,000 gp (2nd), 6,750 gp (3rd); Weight \u00e2\u0080\u0094 DESCRIPTION This magical jewel glows like faerie fire, shedding light as a candle. It acts as a pearl of power, except it only allows a kitsune to recover a spent use of a spell-like ability of the appropriate spell level. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must be a kitsune; Cost 365 gp (1st), 1,500 gp (2nd), or 3,375 gp (3rd)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_kitsune_star_gem",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

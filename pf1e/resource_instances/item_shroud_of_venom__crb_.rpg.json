@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shroud_of_venom__crb_",
+    "name": {
+      "value": "Shroud of Venom"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,500 gp; Slot shoulders; CL 5th; Weight 3 lbs.; Aura faint abjuration and transmutation DESCRIPTION This green leather cloak has blue hues and flows gently in the wind when worn, giving the wearer the appearance of donning a cresting wave on her shoulders. EFFECTS This cloak causes any liquid poisons poured onto it to immediately crystallize and blend into the leather, providing the wearer a +5 competence bonus on Sleight of Hand checks to conceal poisons on her person. In addition, as a full-round action, the wearer can pour up to 3 doses of poison onto the cloak, which requires a successful DC 15 Craft (alchemy) check. A natural 1 on this check exposes the wearer to the poison. Any poisons poured onto the cloak last for 1 hour before becoming inert. As a standard action that provokes attacks of opportunity, the wearer can scrape off the crystallized poison onto her weapon and use it as if she had applied the poison to it normally. Doing this does not put the wearer at risk for being poisoned. CONSTRUCTION REQUIREMENTS Cost 2,250 gp; Feats Craft Wondrous Item; Spells delay poison, obscure poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shroud_of_venom",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_shroud_of_venom",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

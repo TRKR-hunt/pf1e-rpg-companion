@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_of_the_skull__crb_",
+    "name": {
+      "value": "Mask of the skull #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy and transmutation; CL 13th; Slot head; Price 22,000 gp; Weight 3 lbs. DESCRIPTION This fearsome-looking mask of ivory, beaten copper, or pale wood is typically fashioned into the likeness of a human skull with a missing lower jaw, allowing the bottom half of the wearer\u2019s face to remain visible when the mask is worn. Once per day, after it has been worn for at least 1 hour, the mask can be loosed to fly from the wearer\u2019s face. It travels up to 50 feet away from the wearer and attacks a target assigned to it. The grinning skull mask makes a touch attack against the target based on the wearer\u2019s base attack bonus. If the attack succeeds, the target must make a DC 20 Fortitude save or take 130 points of damage, as if affected by a finger of death spell. If the target succeeds on his saving throw, he nevertheless takes 3d6+13 points of damage. After attacking (whether successful or not), the mask flies back to its user. The mask has AC 16, 10 hit points, and hardness 6. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, animate objects, finger of death, fly; Cost 11,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_of_the_skull",
+          "value": {
+            "value": 22000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_of_the_skull",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

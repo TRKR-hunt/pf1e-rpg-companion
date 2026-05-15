@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bilgewater_coat__crb_",
+    "name": {
+      "value": "Bilgewater Coat"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 11,655 gp; Slot none; CL 5th Weight 10 lbs.; Aura faint conjuration APPEARANCE This +1 putrid padded armor is made up of colorful silks, complete with a ruffled collar that is accented with a brass button. EFFECTS Whenever a creature that is adjacent to the wearer confirms a critical hit against her, slimy bilgewater gushes from inside the coat onto the ground, landing in the attacking creature\u00e2\u0080\u0099s space. Each creature touching the ground in this space when this effect activates must succeed at a DC 13 Reflex saving throw or fall prone. For the next 5 minutes, the bilgewater replicates the effects of grease in that square, and any creatures that move through it, including the wearer of the coat, must attempt Acrobatics checks as the grease spell requires. CONSTRUCTION REQUIREMENTS Cost 6,405 gp; Feats Craft Wondrous Item; Spells grease, stinking cloud"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bilgewater_coat",
+          "value": {
+            "value": 11655
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bilgewater_coat",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

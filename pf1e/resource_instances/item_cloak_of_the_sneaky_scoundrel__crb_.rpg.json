@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_the_sneaky_scoundrel__crb_",
+    "name": {
+      "value": "Cloak of the Sneaky Scoundrel"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,400 gp; Slot shoulders; CL 5th; Weight 2 lbs.; Aura faint illusion DESCRIPTION This dark burgundy cloak shifts its hue and pattern to blend in against its surroundings, granting the wearer a +5 competence bonus on Stealth checks. The cloak holds a concealed scabbard in which a light blade (as defined in the fighter weapon group) can be hidden. The wearer can draw the blade as if from a normal scabbard, but anyone searching the wearer for the item must succeed at a DC 20 Perception check, as if he were looking for a secret door. If a swashbuckler is wearing the cloak, she can spend 1 panache point to vanish, as the spell. CONSTRUCTION REQUIREMENTS Cost 3,200 gp; Feats Craft Wondrous Item; Spells shrink item, vanish"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_the_sneaky_scoundrel",
+          "value": {
+            "value": 6400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_the_sneaky_scoundrel",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "prayer_wheel_of_ethical_strength__crb_",
+    "name": {
+      "value": "Prayer wheel of ethical strength #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 3 lbs.; Slot none; Price 10,000 gp DESCRIPTION Sacred or profane mantras cover the outer face of this cylindrical wooden block, which rotates around a decorative brass spindle. By holding the spindle in one hand while meditating or resting to regain ki, the bearer may attune his ki points to the wheel. Once attuned, the bearer\u2019s ki strikes count as good (if the wheel has sacred mantras) or evil (if the wheel has profane mantras) instead of lawful for the purpose of overcoming damage reduction. This lasts until the next time the bearer rests or meditates to regain ki points. A creature can only be attuned to one prayer wheel at a time, and a prayer wheel can only be attuned to one person at a time. Only creatures who can make lawfully-aligned ki strikes can use a prayer wheel. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, align weapon; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_prayer_wheel_of_ethical_strength",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_prayer_wheel_of_ethical_strength",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

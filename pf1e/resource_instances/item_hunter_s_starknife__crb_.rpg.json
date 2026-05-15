@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hunter_s_starknife__crb_",
+    "name": {
+      "value": "Hunter's Starknife"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 36,324 gp; Slot none; CL 10th; Weight 3 lbs.; Aura moderate evocation and necromancy DESCRIPTION Random patterns of brown rust, discolored metal, and dried blood tarnish the surface of this +2 wounding starknife. If this weapon is thrown and deals damage, it embeds itself in the target. The target continues to take bleed damage until the embedded weapon is removed. An embedded hunter\u2019s starknife emits a blue glow that imitates the effect of a faerie fire spell, affecting the weapon and the target as long as it is embedded. Removing this weapon requires a successful DC 15 Strength check (a full-round action ). The creature takes an additional 1d4 points of damage when attempting this check, regardless of whether it succeeds or fails. CONSTRUCTION REQUIREMENTS Cost 18,324 gp; Feats Craft Magic Arms and Armor; Spells bleed, faerie fire"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hunter_s_starknife",
+          "value": {
+            "value": 36324
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hunter_s_starknife",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

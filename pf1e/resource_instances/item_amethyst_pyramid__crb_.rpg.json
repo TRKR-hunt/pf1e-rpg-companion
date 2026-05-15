@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amethyst_pyramid__crb_",
+    "name": {
+      "value": "Amethyst Pyramid (Ioun Stone)"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong abjuration DESCRIPTION This stone grants you the ability to pass undetected before undead as if under the effects of a hide from undead spell. Unintelligent undead automatically can\u2019t see you, and intelligent undead receive a single DC 12 Will save to notice you despite the stone\u2019s effects. If you attempt to channel positive energy, turn or command undead, touch an undead creature, or attack any creature (even with a spell), the stone\u2019s effects are negated for 1 hour. Cracked: This stone grants a +2 competence bonus on Knowledge (religion) checks to identify undead and their special abilities. Price: 150 gp. Flawed: This stone functions as a normal amethyst pyramid ioun stone, but against undead you take a \u00e2\u0080\u00931 penalty to AC and on saves. Price: 6,000 gp. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells hide from undead; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amethyst_pyramid",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

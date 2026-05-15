@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_wraiths_sight__crb_",
+    "name": {
+      "value": "Elixir, Wraith\u00e2\u0080\u0099s Sight"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot none; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate necromancy DESCRIPTION This rectangular glass flask with a gemstone for a cork contains a pale blue liquid. EFFECTS When the imbiber drinks this elixir, her eyes glow with a golden energy and she gains lifesense with a range of 30 feet. This effect lasts 30 minutes. During this duration, the imbiber gains the blind condition. If this condition is healed or removed in any way, the effect of the elixir immediately ends. CONSTRUCTION REQUIREMENTS Cost 750 gp; Feats Craft Wondrous Item; Spells blindness/deafness, deathwatch"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_wraiths_sight",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_tumbling__crb_",
+    "name": {
+      "value": "Belt of tumbling #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 1st; Slot belt; Price 800 gp; Weight 1 lb. DESCRIPTION This thin and flexible cotton cord is meant to be wrapped several times around wearer\u00e2\u0080\u0099s waist. The belt\u00e2\u0080\u0099s wearer gains a +4 competence bonus on Acrobatics checks made to move through a threatened square or through an enemy\u00e2\u0080\u0099s space. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u00e2\u0080\u0099s grace; Cost 400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_tumbling",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_tumbling",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

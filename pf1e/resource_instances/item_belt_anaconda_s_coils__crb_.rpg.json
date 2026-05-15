@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_anaconda_s_coils__crb_",
+    "name": {
+      "value": "Anaconda\u2019s coils"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot belt; Price 18,500 gp; Weight 1 lb. DESCRIPTION This snakeskin belt\u00e2\u0080\u0099s buckle is shaped like a serpent\u00e2\u0080\u0099s head. The wearer gains a +2 enhancement bonus to Strength and a +2 competence bonus on grapple combat maneuver checks. Treat the enhancement bonus to Strength as temporary ability bonus for the first 24 hours the belt is worn. In addition, the belt grants the wearer the constrict ability for 1d6 points of damage plus the wearer\u00e2\u0080\u0099s Strength modifier. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape I, bull\u00e2\u0080\u0099s strength; Cost 9,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_anaconda_s_coils",
+          "value": {
+            "value": 18500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_anaconda_s_coils",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

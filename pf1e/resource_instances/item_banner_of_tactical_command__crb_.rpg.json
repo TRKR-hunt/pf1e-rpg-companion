@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "banner_of_tactical_command__crb_",
+    "name": {
+      "value": "Banner of Tactical Command"
+    },
+    "source": {
+      "value": "quests_campaigns"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 10th; Slot none; Price 100,000 gp; Weight 3 lbs. DESCRIPTION This brightly colored banner measures 2 feet by 4 feet in size, and is mounted on an 8-foot-long pole of spiraled gold and ivory. When the commander of an army engaged in mass combat displays this banner, the army under her command is treated as knowing one additional tactic. The granted tactic must be selected at the time of the banner\u00e2\u0080\u0099s creation and cannot be changed. The army must be able to see the banner in a given phase of mass combat to receive the bonus; a banner is considered obscured in conditions of darkness, fog, and sandstorms. If the commander is killed or captured, the banner ceases to function, even if it remains visible in the commander\u00e2\u0080\u0099s absence. A commander may have a number of banners in effect equal to her Charisma modifier; if more banners are displayed than her Charisma modifier allows, roll randomly each round to determine which banners\u00e2\u0080\u0099 abilities are suppressed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, tactical insight; Cost 50,000 gp Banner of Tactical Command, Lesser Aura moderate divination; CL 10th; Slot none; Price 20,000 gp; Weight 3 lbs. DESCRIPTION This item functions as a banner of tactical command but can only affect armies of size Large or smaller. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, tactical insight; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_banner_of_tactical_command",
+          "value": {
+            "value": 100000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_banner_of_tactical_command",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

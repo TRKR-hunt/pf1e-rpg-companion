@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_jumping_improved__crb_",
+    "name": {
+      "value": "Ring of jumping, improved"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot ring; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ring functions as a ring of jumping, except it grants the wearer a +10 competence bonus all her Acrobatics checks made to make high or long jumps. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special creator must have 10 ranks in Acrobatics; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_jumping_improved",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

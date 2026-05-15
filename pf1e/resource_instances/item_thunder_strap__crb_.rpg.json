@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "thunder_strap__crb_",
+    "name": {
+      "value": "Thunder Strap"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 60,000 gp; Slot none; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This sturdy leather strap seems worn and weathered, but is as strong as steel. When wrapped around the grip of a melee weapon for 24 hours, the strap\u2019s magic becomes active. Once per day, the wielder of a melee weapon so wrapped can hold the weapon aloft for 1 minute to change local weather conditions to create a thunderstorm. This acts as control weather, except only thunderstorms can be created. Additionally, the wielder can cast call lightning storm once per day. If used outside, this spell is cast as if the local conditions are stormy. CONSTRUCTION REQUIREMENTS Cost 30,000 gp; Feats Craft Wondrous Item; Spells call lightning storm, control weather"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_thunder_strap",
+          "value": {
+            "value": 60000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

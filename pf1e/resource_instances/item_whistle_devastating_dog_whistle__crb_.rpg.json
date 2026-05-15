@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "whistle_devastating_dog_whistle__crb_",
+    "name": {
+      "value": "Whistle, Devastating Dog"
+    },
+    "source": {
+      "value": "goblins_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Slot none; Price 1,500 gp; Weight 1 lb. DESCRIPTION When blown, this crudely carved reed whistle emits a painful sound that only dogs (or other canine creatures, like wolves, werewolves, or yeth hounds ) can hear. All such creatures within a 30-foot-radius spread when a devastating dog whistle is activated must make a DC 11 Fortitude save to avoid taking 1d6 points of sonic damage. A creature that fails to resist the effects of this spell is also affected by magical silence, preventing it from speaking or making sounds with its voice (it can still make noise by movement\u2014it just can\u2019t talk or bark or howl) for 1 minute. A devastating dog whistle can be used once per day without peril, but each additional use per day brings a 25% cumulative chance that the devastating dog whistle is destroyed upon activation. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, silence, sound burst; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_whistle_devastating_dog_whistle",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_whistle_devastating_dog_whistle",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

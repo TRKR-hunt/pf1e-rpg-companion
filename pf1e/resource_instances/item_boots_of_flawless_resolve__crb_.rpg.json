@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_flawless_resolve__crb_",
+    "name": {
+      "value": "Boots of Flawless Resolve"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,500 gp; Slot feet; CL 7th Weight 2 lbs.; Aura moderate divination APPEARANCE These knee-high white leather boots are covered in delicate lines of gemstones and precious metals that are almost imperceptible to the average human eye. EFFECTS Three times per day as a move action, the wearer can declare a single creature within 30 feet as his target. The wearer gains a +2 insight bonus to AC against the target\u00e2\u0080\u0099s attacks and a +4 bonus to CMD against combat maneuvers the target attempts against him. This effect lasts for up to 7 rounds, but it ends immediately if the wearer takes any move action that would move him out of his square (not including a 5-foot step, but including movement such as flying) or if he is moved out of his square involuntarily, such as by a successful bull rush combat maneuver that pushes him backward. If the target dies, the effect immediately ends, and declaring a new target requires expending another use. If the wearer declares a new target before the effect on the previous target ends, the effect on the previous target ends immediately, and declaring the new target expends another use. CONSTRUCTION REQUIREMENTS Cost 3,250 gp; Feats Craft Wondrous Item; Spells anticipate thoughts"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_flawless_resolve",
+          "value": {
+            "value": 6500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_flawless_resolve",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

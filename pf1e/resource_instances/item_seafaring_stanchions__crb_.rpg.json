@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "seafaring_stanchions__crb_",
+    "name": {
+      "value": "Seafaring Stanchions"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,400 gp; Slot wrists; CL 5th; Weight 2 lbs.; Aura faint transmutation DESCRIPTION These unmarked bracers of oxidized steel slip easily onto the wrists. As a swift action while submerged underwater, the wearer can tap the bracers together, causing the bracers and any armor he wears to immediately be removed. Removed armor is disassembled, becomes incredibly buoyant, and floats to the surface. After 4 hours, if the items are still in the water, they lose their buoyancy and sink. CONSTRUCTION REQUIREMENTS Cost 2,400 gp; Feats Craft Wondrous Item; Spells water walk"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_seafaring_stanchions",
+          "value": {
+            "value": 2400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_seafaring_stanchions",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

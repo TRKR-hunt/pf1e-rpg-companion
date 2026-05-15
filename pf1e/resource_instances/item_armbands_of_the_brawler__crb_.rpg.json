@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "armbands_of_the_brawler__crb_",
+    "name": {
+      "value": "Armbands of the brawler #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot wrists; Price 500 gp; Weight 1 lb. DESCRIPTION These scarred and worn armbands have clearly seen rough use, and are constructed out of coarse leather and fastened with thick leather straps. They grant their wearer a +1 competence bonus on grapple checks and checks to break a grapple. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bull\u00e2\u0080\u0099s strength; Cost 250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_armbands_of_the_brawler",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_armbands_of_the_brawler",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "manchiller__crb_",
+    "name": {
+      "value": "Manchiller"
+    },
+    "source": {
+      "value": "raiders_of_the_fever_sea"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot none; Price 18,395 gp; Weight 4 lbs. DESCRIPTION Manchiller is a +1 human bane trident. It\u2019s three-pronged head is crafted of magically strengthened seashells, and its haft is composed of rough, twisted coral that deals 1 point of damage each time it is grasped, unless the wielder has a natural armor bonus or is wearing gauntlets. As an immediate action after a successful melee attack with the trident, it\u2019s wielder can transmute the substance of the target creature into rigid coral. This attack deals 1d4 points of Dexterity damage and slows the target (as the spell) for 1 round as its flesh calcifies. A DC 16 Fortitude save negates the slow effect but not the ability damage. A target reduced to 0 Dexterity is permanently petrified, transformed into inert, mindless coral. Break enchantment or restoration reverses all of the effects of this calcification. This ability can be used up to 7 times per day.. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells calcific touch, summon monster I; Cost 9,355 gp Get this book AND support this site!"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_manchiller",
+          "value": {
+            "value": 18395
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_manchiller",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

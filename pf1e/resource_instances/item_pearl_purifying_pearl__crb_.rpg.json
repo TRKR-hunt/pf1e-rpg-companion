@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pearl_purifying_pearl__crb_",
+    "name": {
+      "value": "Pearl, Purifying"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and transmutation; CL 10th; Slot none; Price 19,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION A favored tool of diplomats and those tasked with protecting the lives of regents and other important people, this small luminescent white pearl purifies putridity and poison in two ways. First, up to 10 cubic feet of food or drink that it touches per day is affected as if a purify food and drink spell had been cast upon the food or drink. Second, once per day, if placed in the mouth of a creature (as a standard action that provokes attacks of opportunity ), the pearl acts as a neutralize poison spell cast on that creature ( caster level 10th). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, neutralize poison, purify food and drink; Cost 8,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pearl_purifying_pearl",
+          "value": {
+            "value": 19000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

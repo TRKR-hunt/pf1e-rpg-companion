@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "time_bewitching_candle__crb_",
+    "name": {
+      "value": "Candle, Time-Bewitching"
+    },
+    "source": {
+      "value": "the_world_of_vampire_hunter_d"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation [ darkness, light]; Price 22,500 gp; CL 10th; Slot \u00e2\u0080\u0094 Weight 1 lb. DESCRIPTION This thick taper sits upon an ornate, covered candleholder. A heavy gray incense that smells of thick dust and ammonia threads its way through the candle, smoking faintly as the wick burns. EFFECTS The effects of a time-bewitching candle change depending on the time of day and the position of the sun. If the candle is lit while the sun is in the sky, the candle creates an effect similar to the spell deeper darkness. If the candle is lit while the sun is not in the sky, it creates an effect similar to the spell daylight. In both cases, the candle\u00e2\u0080\u0099s emanation extends in a 15-foot radius. Unlike the spell daylight, the daylight effect created by this candle does count as daylight when it comes to interacting with creatures that are damaged or destroyed by such light. A vampire cannot be destroyed by this light, but it can be staggered, as per its normal sunlight vulnerability. A time-bewitching candle can burn for 10 minutes. It can be lit and snuffed repeatedly, but must be used in 1-minute increments. If the candle is taken to another world or a plane with no sun, its effects employ the position of the sun on the world where it was created. CONSTRUCTION REQUIREMENTS Cost 11,250 gp; Feats Craft Wondrous Item; Spells daylight, deeper darkness"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_time_bewitching_candle",
+          "value": {
+            "value": 22500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_time_bewitching_candle",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

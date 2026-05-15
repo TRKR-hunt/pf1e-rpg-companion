@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "smuggler_s_sling__crb_",
+    "name": {
+      "value": "Smuggler's Sling"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,300 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION Smuggler\u2019s slings are often employed by freedom fighters sneaking contraband weapons past slave masters. The wielder of this +1 sling gains a +5 competence bonus on Sleight of Hand checks to conceal the sling. Up to five times per day, the wearer can load the sling with a conjured bullet as a swift action. A conjured bullet counts as magical for the purposes of overcoming damage reduction and attacking incorporeal creatures, but is otherwise a standard sling bullet. This bullet must be fired by the end of the round or it vanishes. CONSTRUCTION REQUIREMENTS Cost 2,650 gp; Feats Craft Magic Arms and Armor; Spells reloading hands"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_smuggler_s_sling",
+          "value": {
+            "value": 5300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

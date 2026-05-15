@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_uncanny_defense__crb_",
+    "name": {
+      "value": "Amulet of Uncanny Defense"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot neck; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate abjuration DESCRIPTION This heavy, cold-iron amulet depicts a bear\u2019s head with jaws open in a roar. It increases the wearer\u2019s uncanny dodge ability, causing it to function as improved uncanny dodge. (The amulet has no benefit for characters who do not have uncanny dodge ). If the wearer already has improved uncanny dodge, treat his class level as 4 higher for the purpose of determining the number of rogue levels an attacker must have in order to sneak attack the wearer by flanking him. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells true seeing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_uncanny_defense",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

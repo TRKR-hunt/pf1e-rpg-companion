@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_the_beast__crb_",
+    "name": {
+      "value": "Ring of the Beast"
+    },
+    "source": {
+      "value": "pathfinder_society_field_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot ring; Price 8,000 gp; Weight \u2013 DESCRIPTION Three types of rings of the beast exist; all three appear as yellowed bone carved in the shapes of wild beasts devouring their own tails. The type of beast depicted on each ring depends on the ring\u00e2\u0080\u0099s nature, but could be a wolf ( ring of the relentless beast ), a rhinoceros ( ring of the savage beast ), or a tiger ( ring of the swift beast ). Once per day, a ring of the beast can be activated as a standard action to unleash the primal spirit hidden inside even the most peaceful creatures. When the ring is activated, the wearer gains a bonus to a single physical attribute and a penalty to a single mental attribute for 10 minutes, as determined by the type of ring. A ring of the relentless beast grants a +4 enhancement bonus to Constitution and a \u00e2\u0080\u00932 penalty to Charisma. A ring of the savage beast grants a +4 enhancement bonus to Strength and a \u00e2\u0080\u00932 penalty to Intelligence. A ring of the swift beast grants a +4 enhancement bonus to Dexterity and a \u00e2\u0080\u00932 penalty to Wisdom. As long as the effects of this ring are active, the wearer also gains a +2 enhancement bonus to his natural armor bonus. CONSTRUCTION REQUIREMENTS Forge Ring, barkskin and either bear\u00e2\u0080\u0099s endurance ( ring of the relentless beast ), bull\u00e2\u0080\u0099s strength ( ring of the savage beast ), or cat\u00e2\u0080\u0099s grace ( ring of the swift beast ); Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_the_beast",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shell_of_sending__crb_",
+    "name": {
+      "value": "Shell of Sending"
+    },
+    "source": {
+      "value": "city_in_the_deep"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,200 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate evocation DESCRIPTION This conch shell measures only a few inches long and shimmers with a delicate pink color. EFFECTS Shells of sending always come in pairs, with each shell attuned to the other. If pairs are mixed up or lost, a shell of sending can be attuned to a new shell of sending in a process that takes 24 hours. Once per day, anyone holding a shell of sending can whisper up to 25 words into the shell. The sender\u00e2\u0080\u0099s words emerge from the second shell, audible to anyone holding the attuned shell, as long as the receiver is on the same plane of existence. If the receiver wishes, she can send a return message of up to 25 words. Anyone eavesdropping on either sender or receiver must attempt a DC 14 Will saving throw. On a success, an eavesdropper can hear the speakers normally. On a failure, the speakers seem to be relaying gibberish and nonsense words to each other. Creatures who fail this saving throw by 5 or more are deafened for 1d4 minutes. CONSTRUCTION REQUIREMENTS Cost 6,100 gp; Feats Craft Wondrous Item; Spells sending"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shell_of_sending",
+          "value": {
+            "value": 12200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

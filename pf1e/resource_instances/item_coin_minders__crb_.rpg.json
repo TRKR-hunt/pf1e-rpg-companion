@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coin_minders__crb_",
+    "name": {
+      "value": "Coin, Minder\u00e2\u0080\u0099s"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura weak divination; CL 1st; Slot none; Price 450 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This simple copper coin establishes a connection with the most recent person to keep it under her tongue for 24 hours. Once established, this connection allows its owner to determine its current direction and distance each time she casts detect magic. The connection instantly breaks if the coin travels to another plane or enters an antimagic field. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, detect magic; Cost 225 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coin_minders",
+          "value": {
+            "value": 450
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

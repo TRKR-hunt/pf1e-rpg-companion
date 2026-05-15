@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_craft_magic__crb_",
+    "name": {
+      "value": "Ring of craft magic"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot ring; Price 12,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION A ring of craft magic always bears some sort of tool-like design in its craftsmanship. The wearer of the ring sees spells as similar to crafts, and vice versa. The wearer may make a Craft check in place of a Spellcraft check to identify an item that could be created with that Craft skill. The wearer may also expend a spell slot or prepared spell to gain an enhancement bonus equal to the level of the expended spell on a single Craft or Profession check (regardless of the amount of time needed to make the check). CONSTRUCTION REQUIREMENTS Feats Forge Ring; Special creator must have the obsessive racial trait; Cost 6,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_craft_magic",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

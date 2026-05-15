@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pale_orange_rhomboid__crb_",
+    "name": {
+      "value": "Pale Orange Rhomboid (Ioun Stone)"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 200,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong necromancy DESCRIPTION This stone absorbs your soul as the magic jar spell immediately prior to your death. You can\u2019t transfer your soul from the ioun stone receptacle to another creature\u2019s body, and are, for all intents and purposes, dead. While your soul is in the ioun stone, you can sense any life forces within 120 feet as though you were placed in a magic jar. At any point within 12 hours of your soul\u2019s transfer into the pale orange rhombus ioun stone, you can return to your body as long as it is within 120 feet of the ioun stone. Upon returning to your body, you are unconscious and dying with a number of negative hit points equal to your Constitution score minus 1. If you fail to stabilize and aren\u2019t healed after 1 turn, you die and your soul is not absorbed by the ioun stone. Your soul can be absorbed into a pale orange rhombus ioun stone only once per 24-hour period. Cracked: If you die while using this ioun stone, the stone can be used as an additional material component in any spell to return you to life, reducing the spell\u2019s total material component cost by 20%. Price: 1,800 gp. Flawed: This stone functions as a normal pale orange rhomboid, but only once, after which it burns out and turns dull gray. Price: 12,000 gp. CONSTRUCTION REQUIREMENTS Cost 100,000 gp; Feats Craft Wondrous Item; Spells magic jar; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pale_orange_rhomboid",
+          "value": {
+            "value": 200000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

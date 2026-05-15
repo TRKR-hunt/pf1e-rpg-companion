@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "player_s_prize__crb_",
+    "name": {
+      "value": "Player's Prize"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 5th; Weight 1 lb.; Aura moderate necromancy DESCRIPTION This tiny copper statue of a featureless, dancing humanoid is sometimes awarded to the winners of contests. The power of a player\u2019s prize comes not from possessing it, however, but from giving it to an unsuspecting audience member. By inscribing a personal rune on his player\u2019s prize, a bard can cause whoever carries the item (knowingly or not) to be more susceptible to his bardic performances. Once inscribed, a player\u2019s prize can not be keyed to any other creature. Devious bards use Sleight of Hand to drop their player\u2019s prize on rivals\u2019 or foes\u2019 persons, usually in a backpack or in among other gear where it would be difficult to locate. A creature carrying a player\u2019s prize keyed to a bard within 30 feet takes a \u00e2\u0080\u00932 penalty on Will saves against that bard\u2019s bardic performances, as well as a \u00e2\u0080\u00932 penalty on opposed skill checks against any skill checks the bard attempts using his versatile performance class feature. These penalties remain as long as the affected creature continues to carry the player\u2019s prize. Once per day as an immediate action, the character whose personal rune is inscribed on the player\u2019s prize can speak the item\u2019s command word to cause the statue to instantly appear in his hand. The character must be within 30 feet of the player\u2019s prize to activate this ability. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells bestow curse, telekinesis; Cost 1,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_player_s_prize",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_player_s_prize",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_travel__crb_",
+    "name": {
+      "value": "Staff of travel"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 9th; Slot none; Price 54,400 gp; Weight 3 lbs. DESCRIPTION This staff appears to be nothing more than a finely made walking stick, but closer inspection reveals that it is inlaid with a fine copper tracery that makes up an intricate and incomprehensible arcane map. The staff allows use of the following spells: Dimension door (1 charge) Fly (1 charge) Teleport (2 charges) In addition to these spells, the wielder of the staff of travel receives a +10-foot enhancement bonus to his base speed. CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells dimension door, expeditious retreat, fly, teleport; Cost 27,200 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_travel",
+          "value": {
+            "value": 54400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_travel",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pressure_suit__crb_",
+    "name": {
+      "value": "Pressure Suit"
+    },
+    "source": {
+      "value": "distant_worlds"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th Slot body and helm (see text); Price 4,000 gp; Weight 30 lbs. DESCRIPTION This magical full-body suit completely protects the wearer from temperature extremes (as if by endure elements ) and pressure dangers of hard vacuum and all worlds in the system (save the sun), though it only carries enough air for 3 days before it must be recharged in breathable atmosphere (such as that inside a ship). If the suit\u00e2\u0080\u0099s seal is broken\u00e2\u0080\u0094such as the helmet being removed to eat or drink\u00e2\u0080\u0094all the air escapes in 2d6 rounds. A suit with a broken seal confers only the benefits of endure elements. The suit automatically repairs small holes, but if it is struck by a critical hit from a piercing or slashing weapon, the wearer of the pressure suit must succeed at a Reflex save (DC equal to the opponent\u00e2\u0080\u0099s confirmation roll) or the seal breaks. A suit with a broken seal can be repaired with a DC 18 Craft (armor) check or a make whole spell. The suit does not compensate for changes in gravity. Wearing a pressure suit imposes a \u00e2\u0080\u00931 armor check penalty; this penalty stacks with those provided by other equipment (such as armor). Since it takes up both the body and helm slots, armor can be worn over a pressure suit, but robes and helms cannot. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, endure elements, gust of wind; Cost 2,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pressure_suit",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pressure_suit",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

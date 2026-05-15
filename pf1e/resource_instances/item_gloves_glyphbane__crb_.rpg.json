@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_glyphbane__crb_",
+    "name": {
+      "value": "Glyphbane gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 7th; Slot hands; Price 9,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These dark-brown, leather gloves are etched over their entire surface with arcane insignia. The wearer gains a +5 competence bonus on Disable Device checks made to disable magical traps. Once per day, if the wearer\u00e2\u0080\u0099s check to disarm a glyph, rune, or similar writing-based magical trap exceeds the DC by 10 or more, she may change the trigger condition of the trap instead of disabling it. The new trigger condition must be one allowed by the magical trap; for example, a glyph of warding cannot be set according to class, HD, or level, even when manipulated by the gloves. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, find traps, dispel magic; Cost 4,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_glyphbane",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

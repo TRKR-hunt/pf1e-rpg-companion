@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ki_robes__crb_",
+    "name": {
+      "value": "Ki Robes"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot body; CL 11th Weight 1 lb.; Aura moderate abjuration APPEARANCE This black-and-white robe is specially crafted to help the wearer regulate the flow of ki in his body, allowing for the generation of internal strength. EFFECTS Once per round when the wearer spends a ki point, he gains a +1 natural armor bonus to AC and a +1 enhancement bonus to Strength for 1 round. If the wearer spends another ki point before the end of his next turn, the duration is extended by 1 round and the natural armor and enhancement bonuses are increased by 1 (to a maximum of +4). The bonuses to AC and Strength last for only 1 round following the expenditure of the last ki point. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Special creator must have a ki pool"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ki_robes",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ki_robes",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

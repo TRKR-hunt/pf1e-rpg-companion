@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headsman_s_blade__crb_",
+    "name": {
+      "value": "Headsman's Blade"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,850 gp; Slot none; CL 9th; Weight 8 lbs.; Aura moderate necromancy and transmutation DESCRIPTION This scalpel-sharp greatsword has a simple black handle and crosspiece, and is made of unusually dark steel etched with an organic wave pattern. Once per day, the wielder of this +1 keen greatsword can attempt to assassinate a target, per the slayer assassinate advanced talent. If the wielder is not a slayer, he must spend a full-round action studying the target before attempting the assassination, and the target\u2019s DC to avoid death is 15. In the hands of a slayer, the sword\u2019s enhancement bonus on attack rolls is 2 better against a studied target, and the DC to avoid death from an assassination attempt increases by 2. Additionally, if the assassination attempt is successful, the target is decapitated instead of merely slain. CONSTRUCTION REQUIREMENTS Cost 7,100 gp; Feats Craft Magic Arms and Armor; Spells keen edge, slay living"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headsman_s_blade",
+          "value": {
+            "value": 13850
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headsman_s_blade",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cape_charlatan_s__crb_",
+    "name": {
+      "value": "Charlatan\u2019s cape"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong evocation and illusion; CL 13th; Slot shoulders; Price 45,000 gp; Weight 1 lb. DESCRIPTION This garish cloak of red velvet is embroidered with gold-threaded patterns, typically in shapes of sinisterly masked harlequins or other imagery of sinister revelry. The cloak acts like a cloak of the mountebank, but its dimension door power can be used three times per day. Furthermore, once per day the wearer of the cloak can use ethereal jaunt, as per the spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dimension door, ethereal jaunt; Cost 22,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cape_charlatan_s",
+          "value": {
+            "value": 45000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cape_charlatan_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

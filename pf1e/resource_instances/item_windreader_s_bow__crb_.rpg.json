@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "windreader_s_bow__crb_",
+    "name": {
+      "value": "Windreader's Bow"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 54,400 gp; Slot none; CL 8th; Weight 3 lbs.; Aura moderate divination DESCRIPTION Whenever an arrow fired from this +1 adaptive seeking composite longbow damages the wielder\u2019s favored enemy or studied target (as per the ranger and slayer class features, respectively), in addition to its normal effects, it also deals 2 points of bleed damage. As long as the bleed effect continues, the wielder can sense that foe\u2019s approximate direction and distance twice per day by smelling the wind as a standard action. CONSTRUCTION REQUIREMENTS Cost 27,400 gp; Feats Craft Magic Arms and Armor; Spells bleed, locate creature, warp wood"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_windreader_s_bow",
+          "value": {
+            "value": 54400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_windreader_s_bow",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

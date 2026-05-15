@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mockingskull__crb_",
+    "name": {
+      "value": "Mockingskull"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint necromancy DESCRIPTION The tools of juvenile necromancers and bitter witches, mockingskulls are immortal and sleepless guardians. Each is made from a humanoid skull inlaid with a precious gem \u00e2\u0080\u009ceye.\u00e2\u0080\u009d Mockingskulls keep watch over an area with a +8 Perception check bonus, and can be commanded to either warn away intruders or raise an alarm by screaming insults and invectives. If a mockingskull screams invectives, it can attempt an Intimidate check at a +10 bonus each round against one creature within 30 feet. Treat a mockingskull as a single Hit Die mindless undead for the purposes of spells and effects that control, damage, or hide creatures from undead. A mockingskull has hardness 3 and 10 hit points; these hit points are automatically restored every midnight. Although largely mindless, especially old mockingskulls sometimes develop personality quirks. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells alarm, animate dead; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mockingskull",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mockingskull",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

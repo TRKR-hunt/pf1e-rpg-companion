@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_true_form__crb_",
+    "name": {
+      "value": "Amulet of the True Form"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,500 gp; Slot neck; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate transmutation DESCRIPTION This impeccable sapphire amulet is set with an immaculate pearl. An amulet of the true form is enchanted to ward off powers that would result in unwanted transformation. It grants its wearer a +2 resistance bonus on saving throws against polymorph effects and on a +4 resistance bonus on saving throws against unwilling lycanthropic transformation. CONSTRUCTION REQUIREMENTS Cost 3,250 gp; Feats Craft Wondrous Item; Spells polymorph"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_true_form",
+          "value": {
+            "value": 6500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

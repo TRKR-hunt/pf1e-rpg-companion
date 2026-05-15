@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pipes_of_dissolution__crb_",
+    "name": {
+      "value": "Pipes of dissolution #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Weight 3 lbs.; Slot none; Price 12,000 gp DESCRIPTION Carvings of winter scenes decorate this set of pan pipes. Activating the pipes requires a DC 15 Perform (wind instruments) check. Creatures within 30 feet gain a +2 competence bonus on caster level checks to dispel magical effects and overcome spell resistance. Maintaining the performance is challenging, requiring a move action and a new Perform check each round, with the DC increasing by +1 for each round the instrument is played. The magic ends when the player voluntarily stops or fails the Perform check, after which the pipes cannot be used again for 1 hour. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dispel magic; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pipes_of_dissolution",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pipes_of_dissolution",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

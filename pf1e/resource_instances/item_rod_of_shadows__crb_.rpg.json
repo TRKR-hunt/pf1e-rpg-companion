@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_shadows__crb_",
+    "name": {
+      "value": "Rod of shadows"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 8th; Slot none; Price 64,305 gp; Weight 5 lbs. DESCRIPTION This ebon rod is so dark it seems to absorb the light around it. The rod functions as a +2 light mace, and allows its wielder to see in darkness as if she had the see in darkness ability. Three times per day, the wielder can use it to create a deeper darkness effect ( caster level 8th). To use this ability, the rod\u2019s wielder must touch the target object, which is a standard action that provokes attacks of opportunity. CONSTRUCTION REQUIREMENTS Feats Craft Rod, deeper darkness, true seeing; Cost 32,305 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_shadows",
+          "value": {
+            "value": 64305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_shadows",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

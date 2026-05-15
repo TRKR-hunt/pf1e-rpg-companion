@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horn_of_antagonism__crb_",
+    "name": {
+      "value": "Horn of antagonism #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 3rd; Slot none; Price 20,000 gp; Weight 4 lbs. DESCRIPTION Carved from the bone of some giant beast, this large horn emits an eerie, heart-lurching moan when sounded. A person with the favored enemy class feature may blow the horn as a standard action to daze one type of favored enemy within 90 feet for 1d4 rounds (DC 13 Will save negates). Creatures suffer a penalty on this save equal to the ranger \u2018s favored enemy bonus against that type of creature. This is a sonic, mind-affecting effect; creatures that cannot hear the horn are immune to its magic. The horn\u2019s magic works once per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, daze monster; Cost 10,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horn_of_antagonism",
+          "value": {
+            "value": 20000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_horn_of_antagonism",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

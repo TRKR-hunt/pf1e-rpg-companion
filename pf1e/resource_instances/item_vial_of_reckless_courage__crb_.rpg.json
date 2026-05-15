@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vial_of_reckless_courage__crb_",
+    "name": {
+      "value": "Vial of Reckless Courage"
+    },
+    "source": {
+      "value": "antihero_s_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,000 gp; Slot none; CL 5th; Weight 1 lb.; Aura faint transmutation DESCRIPTION This small glass vial contains an effervescent blue liquid. When imbibed, a vial of reckless courage instills a sense of bravery in the drinker, granting a +4 enhancement bonus on saving throws against fear effects. If the drinker is under a fear effect, she can attempt a new saving throw with a +2 bonus. The drinker becomes eager to rush into danger, and as a result, all of her modes of movement (including burrow, climb, fly, and swim speeds) increase by 30 feet, to a maximum of double her normal speed in any given form of movement, for 5 rounds. CONSTRUCTION REQUIREMENTS Cost 2,500 gp; Feats Craft Wondrous Item; Spells haste, remove fear"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vial_of_reckless_courage",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vial_of_reckless_courage",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "figurine_of_the_dwarven_forge__crb_",
+    "name": {
+      "value": "Figurine of the Dwarven Forge"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot none; Price 15,000 gp; Weight 1 lb. DESCRIPTION These stone and steel figurines depicting a forge and anvil are warm to the touch and give off a faint red glow. On command, the figurine enlarges to become a full-sized working forge with a magical fire burning within. The forge occupies a 10-foot-by- 5-foot area, and its transformation fails if sufficient space is unavailable. A second command word returns the forge to its original, miniature size. When a magic scroll containing a single spell is tossed into the forge, the scroll is consumed in flame. Thereafter, the forge and anvil provide that spell for the use of magic item creation in conjunction with Craft Magic Arms and Armor. This allows the crafter to use the stored spell as a prerequisite for multiple magic items. If a new scroll is consumed in the forge\u00e2\u0080\u0099s flame, it replaces the current spell. A spell remains available for use indefinitely until replaced. In addition, once per day, if touched to a melee weapon made primarily of metal as a standard action, the figurine grants that weapon the igniting special ability for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells flame blade, heat metal, shrink item; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_figurine_of_the_dwarven_forge",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_figurine_of_the_dwarven_forge",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

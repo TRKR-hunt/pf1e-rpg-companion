@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elysian_shield__crb_",
+    "name": {
+      "value": "Elysian shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th Weight 45 lbs.; Price 52,620 gp DESCRIPTION This +2 ghost touch tower shield is engraved with funerary runes depicting the peaceful rest of the contented dead. The wielder of an elysian shield is immune to the create spawn ability of undead, and once per day as an immediate action can negate a single energy drain, ability drain, or ability damage attack by an undead creature. In addition, once per day as a standard action, the wielder can release a wave of positive energy that panics undead, as the Turn Undead feat ( Will DC 20 negates). CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor, Turn Undead, death ward, etherealness; Cost 26,390 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elysian_shield",
+          "value": {
+            "value": 52620
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_elysian_shield",
+          "value": {
+            "value": 45
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

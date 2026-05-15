@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "elixir_of_the_thundering_voice__crb_",
+    "name": {
+      "value": "Elixir of the Thundering Voice"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 250 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This light gray elixir makes the user\u2019s voice fiercer and louder, and gives it an inhuman quality that rattles those he talks to, granting the user a +10 competence bonus on Intimidate checks for 1 hour. CONSTRUCTION REQUIREMENTS Cost 125 gp; Feats Craft Wondrous Item; Spells sound burst"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_elixir_of_the_thundering_voice",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

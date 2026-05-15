@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "harness_of_hovering__crb_",
+    "name": {
+      "value": "Harness of Hovering"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot body; CL 3rd; Weight 1/2 lb.; Aura faint transmutation DESCRIPTION This harness of leather with silver fixtures allows the wearer to hang in midair without the use of wings. Pulling on the harness as a swift action activates or dismisses a levitate effect on the wearer. The levitate effect cannot move the wearer upward or downward. CONSTRUCTION REQUIREMENTS Cost 6,000 gp; Feats Craft Wondrous Item; Spells levitate"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_harness_of_hovering",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "herald_seed__crb_",
+    "name": {
+      "value": "Herald Seed"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong divination DESCRIPTION Twice per day, when thrown into the air as a standard action, this palm-sized, tufted, purple seed drifts at a rate of 60 feet per round toward a spot clearly visualized by the thrower. It can be grabbed out of the air with a successful combat maneuver check against a CMD of 20, which ends its flight. The seed flies for up to 12 miles (taking 2 hours) before it settles to the ground. A gathlain thrower can choose to speak a message of up to 25 words when throwing the seed; in this case, the seed repeats the message in the thrower\u2019s voice when its flight ends. If the thrower speaks a command word as part of the action to throw it, the herald seed flies back to where it was last thrown, even if the thrower can\u2019t visualize the location. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells commune with nature, message"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_herald_seed",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

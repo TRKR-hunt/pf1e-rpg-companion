@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "starbow__crb_",
+    "name": {
+      "value": "Starbow"
+    },
+    "source": {
+      "value": "demon_s_heresy"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 11th; Slot none; Price 30,400 gp; Weight 3 lbs. DESCRIPTION The silvery wooden limbs and green riser of this +3 composite longbow are decorated with rows of tiny stars, sparkling comets, and little moons. Arrows fired from this bow trail streams of silvery light, and resemble shooting stars as they fly. Creatures that take penalties in bright light take these penalties for 1 round after being struck by such an arrow. An arrow shot from the starbow sheds light as a sunrod for 1 minute after it is shot. A starbow responds to the strength of its wielder, acting as a bow with a strength rating equal to its wielder\u2019s Strength bonus. The wielder can fire it with a lesser Strength bonus (and cause less damage) if desired. Three times per day as a standard action, the wielder can use a starbow to fire a 30-foot-long cone of arrow-shaped bolts of radiance. All creatures in the area of effect take 5d8 points of damage unless they are undead or creatures harmed by sunlight, in which case the damage increases to 10d8. This damage bypasses damage reduction and energy resistance. A successful DC 18 Reflex save halves the damage. A creature that takes damage from this attack is shrouded with a soft radiance (as faerie fire ) for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells searing light, warp wood; Cost 15,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_starbow",
+          "value": {
+            "value": 30400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_starbow",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

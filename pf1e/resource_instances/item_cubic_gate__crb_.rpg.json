@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cubic_gate__crb_",
+    "name": {
+      "value": "Cubic gate #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong conjuration; CL 13th; Slot \u00e2\u0080\u0094; Price 164,000 gp; Weight 2 lbs. DESCRIPTION This potent magical item is a small cube fashioned from carnelian. Each of the six sides of the cube is keyed to a different plane of existence or dimension, one of which is the Material Plane. The character creating the item chooses the planes to which the other five sides are keyed. If a side of the cubic gate is pressed once, it opens a gate to a random point on the plane keyed to that side. There is a 10% chance per minute that an outsider from that plane (determine randomly) comes through it looking for food, fun, or trouble. Pressing the side a second time closes the gate. It is impossible to open more than one gate at a time. If a side is pressed twice in quick succession, the character so doing is transported to a random point on the other plane, along with all creatures in adjacent squares. The other creatures may avoid this fate by succeeding on DC 23 Will saves. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, plane shift; Cost 82,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cubic_gate",
+          "value": {
+            "value": 164000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cubic_gate",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

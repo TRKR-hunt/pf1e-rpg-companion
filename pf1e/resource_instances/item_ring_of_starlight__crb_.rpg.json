@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_starlight__crb_",
+    "name": {
+      "value": "Ring of Starlight"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,600 gp; Slot ring; CL 1st Weight \u00e2\u0080\u0094; Aura faint evocation APPEARANCE This smooth mithral ring glimmers with light, and a close look reveals the reflection of a starry night sky within the silvery metal. EFFECTS The wearer of a ring of starlight can cause portions of her body or items in her possession to glow with colorful light, as per faerie fire, by waving the hand adorned with the ring over the item or body part as a swift action. This glow lasts for 1 hour, until dismissed as a free action, or until the ring is removed. This duration need not be used all at once, but must be used in 10-minute increments. (Each time an increment of duration is used, the wearer can choose the portion of her body or item in her possession that glows.) In addition, wearing the ring allows the caster to use dancing lights on command three times per day as a standard action. CONSTRUCTION REQUIREMENTS Cost 800 gp; Feats Forge Ring; Spells dancing lights, faerie fire"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_starlight",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

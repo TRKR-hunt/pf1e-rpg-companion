@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "aquarium_ball_replenishing__crb_",
+    "name": {
+      "value": "Aquarium Ball, Replenishing"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies: lesser 500 gp; standard 2,000 gp; greater 4,000 gp; Slot none; CL 7th; Weight 20 lbs.; Aura moderate conjuration DESCRIPTION Replenishing aquarium balls act as standard aquarium balls, but are endowed with magical effects beneficial to the creature held within. The power of the magic depends on the kind of replenishing aquarium ball. Lesser: The ball continually refreshes itself with clean water, allowing a creature within to live as long as it has food. Standard: The ball continually refreshes itself with clean water and fresh food. Greater: The ball continually refreshes itself with clean water and fresh food. In addition, a greater replenishing aquarium ball is magically enhanced so that the glass is as hard as stone ( hardness 8, 15 hp) without increasing its weight. CONSTRUCTION REQUIREMENTS Cost varies: lesser 250 gp; standard 1,000 gp; greater 2,000 gp; Feats Craft Wondrous Item; Spells create water (lesser); create food and water (standard); create food and water, stoneskin (greater)"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_aquarium_ball_replenishing",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

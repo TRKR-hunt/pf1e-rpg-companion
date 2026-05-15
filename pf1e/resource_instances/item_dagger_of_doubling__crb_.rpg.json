@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dagger_of_doubling__crb_",
+    "name": {
+      "value": "Dagger of doubling"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Weight 1 lb.; Price 10,302 gp DESCRIPTION A wielder with a free hand can split this +1 dagger into two identical +1 daggers as a swift action, or a free action if she has the Quick Draw feat. The doubled daggers can\u2019t be split again. If either dagger is thrown while doubled, the hurled dagger vanishes after resolving the attack and the remaining dagger can be split again. If the wielder drops a doubled dagger or it otherwise leaves her person, it vanishes. If both daggers leave the wielder\u2019s hands at the same time, determine randomly which dagger vanishes. Spells or effects placed on a dagger of doubling don\u2019t duplicate when the dagger is split. Any active effects on a dagger end when it vanishes. Destroying one of the doubled daggers just causes the duplicate to disappear, but any damage to a single dagger of doubling remains on both daggers when it doubles. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells shadow weapon; Cost 5,302 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dagger_of_doubling",
+          "value": {
+            "value": 10302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dagger_of_doubling",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "glaive_guisarme_of_the_vanguard__crb_",
+    "name": {
+      "value": "Glaive-Guisarme of The Vanguard"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 8th; Slot none; Price 9,512 gp; Weight 10 lbs. DESCRIPTION This well-crafted +1 glaive-guisarme has an image of a roaring lion built into its fastener, and the entire weapon is unnaturally warm to the touch. When used to brace against a charge, this weapon acts as a +3 glaive-guisarme and deals an additional 2d6 points of precision damage on a successful hit, in addition to dealing double damage against a charging character for being a weapon with the brace special feature. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells true strike; Cost 4,912 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_glaive_guisarme_of_the_vanguard",
+          "value": {
+            "value": 9512
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_glaive_guisarme_of_the_vanguard",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

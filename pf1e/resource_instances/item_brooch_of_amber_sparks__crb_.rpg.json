@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brooch_of_amber_sparks__crb_",
+    "name": {
+      "value": "Brooch of amber sparks #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration and evocation; CL 5th; Slot neck; Price 16,800 gp; Weight 1 lb. DESCRIPTION This copper clasp adorned with a piece of amber is used to fasten a cloak or cape. When its wearer takes electricity damage, this brooch absorbs up to 20 points of electrical damage and holds that electrical charge until it is released by its wielder or harmlessly at the end of 10 minutes, whichever occurs first. The brooch can absorb up to 50 points of electricity damage per day. The wielder can release the charge on command, unleashing any electricity in the brooch as if casting a shocking grasp spell (dealing 1d6 points of electricity damage per 5 points of damage held). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, resist energy, shocking grasp; Cost 8,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brooch_of_amber_sparks",
+          "value": {
+            "value": 16800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_brooch_of_amber_sparks",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

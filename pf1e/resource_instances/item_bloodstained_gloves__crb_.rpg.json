@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloodstained_gloves__crb_",
+    "name": {
+      "value": "Bloodstained Gloves"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot hands; CL 6th; Weight 5 lbs.; Aura moderate divination DESCRIPTION The original color of these supple, calfskin gloves is obfuscated by layers of brown bloodstains that persist through any amount of cleaning. If the gloves are soaked in the blood of a recently killed creature, the wearer gains a +1 insight bonus on attack rolls and damage rolls against creatures of the same type (or subtype for humanoids or outsiders, per the ranger\u2019s favored enemy class feature) for 1 hour. If the gloves are worn by a slayer, the bonus on damage rolls is equal the slayer\u2019s studied target bonus. Creatures that lack blood, such as skeletons, golems, or clockwork creatures, cannot activate the gloves\u2019 ability. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells instant enemy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloodstained_gloves",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bloodstained_gloves",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

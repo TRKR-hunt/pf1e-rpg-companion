@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sadist_s_lash__crb_",
+    "name": {
+      "value": "Sadist's Lash"
+    },
+    "source": {
+      "value": "rise_of_the_runelords_anniversary_edition"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Slot none; Price 22,301 gp; Aura strong abjuration and conjuration; CL 11th; Weight 1 lb DESCRIPTION A sadist\u2019s lash is a long whip of thin strips of leather. The lash acts as a +1 wounding whip, and also aids enchantment spells in two ways. First, it can deliver enchantment spells with a range of touch as if the wielder had touched the creature struck. Additionally, any creature that takes damage from a sadist\u2019s lash takes a \u00e2\u0080\u00935 penalty on Will saves against all enchantment effects created by the wielder of the lash for 1 minute unless it succeeds at a DC 15 Will save. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells dominate person; Cost 11,301 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sadist_s_lash",
+          "value": {
+            "value": 22301
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_sadist_s_lash",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

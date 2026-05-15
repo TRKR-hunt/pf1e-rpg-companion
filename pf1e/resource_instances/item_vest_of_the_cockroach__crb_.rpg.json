@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vest_of_the_cockroach__crb_",
+    "name": {
+      "value": "Vest of the cockroach #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Slot chest; Price 16,000 gp; Weight 2 lbs. DESCRIPTION This padded and slightly bulky vest, made from dyed, red-brown cloth, causes its wearer to feel vaguely uncomfortable whenever lying prone. If the wearer is a rogue, she gains the resiliency rogue talent. If she already has this talent, activating the talent grants her 2 hit points per rogue level instead of 1. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, false life; Cost 8,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vest_of_the_cockroach",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vest_of_the_cockroach",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cape_catching__crb_",
+    "name": {
+      "value": "Catching cape"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 1st; Slot shoulders; Price 200 gp; Weight 3 lbs. DESCRIPTION This silvery cape furls and ripples like a flag with every step its owner takes. As a swift action, the wearer can order the cape to transform into a faint sphere of force that surrounds him on all sides. The field grants the wearer concealment (20% miss chance) against ranged attacks and lasts for 1 minute or until the wearer is missed by a ranged attack due to the power of the cloak, whichever comes first. When the field is used, all magic is lost from the cloak, leaving only a mundane silvery garment. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shield; Cost 100 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cape_catching",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cape_catching",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pelt_of_the_wolf__crb_",
+    "name": {
+      "value": "Pelt of the Wolf"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 14,800 gp; Slot shoulders; CL 3rd; Weight 3 lbs.; Aura faint evocation DESCRIPTION This pelt of a large northern wolf is fashioned into a cloak. The pelt can be activated up to five times per day. When struck in combat, the wearer can spend one use as a swift action to animate a ghostly wolf from the pelt. This ghostly apparition strikes the creature that attacked the wearer with a wolf\u2019s bite attack (a wolf deals 1d6+1 damage with their bite attack). The wearer can spend one additional use each subsequent round to have the wolf continue attacking the target. The apparition can\u2019t be redirected, and disappears if the target moves more than 5 feet of the wearer or dies. The pelt can manifest only one wolf apparition at a time. Apart from these restrictions, the wolf can be directed as a spiritual weapon spell. When a human wears a pelt of the wolf, he gains a +1 morale bonus on saving throws against emotion effects. In addition, any round in which he begins his turn affected by a fear effect, he can attempt a new save at the beginning of the turn to reduce the severity of the fear effect from panicked to frightened, frightened to shaken, or shaken to unaffected. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells remove fear, spiritual weapon; Cost 7,400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pelt_of_the_wolf",
+          "value": {
+            "value": 14800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pelt_of_the_wolf",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

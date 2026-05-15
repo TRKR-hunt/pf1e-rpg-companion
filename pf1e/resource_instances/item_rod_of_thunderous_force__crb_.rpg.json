@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_thunderous_force__crb_",
+    "name": {
+      "value": "Rod of Thunderous Force"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 9th; Slot none; Price 5,400 gp; Weight 5 lbs. DESCRIPTION This mahogany rod is etched with the image of whirling storm clouds. Once per day on command, the wielder can slam the rod against the ground, releasing a concussive wave of sonic and force energy. This creates a 20-foot radius burst centered on the wielder. While it causes no damage, those within the burst must succeed at a DC 19 Fortitude save or fall prone and be deafened for 1d4 rounds. The wielder is unaffected by this blast. This effect is a force and sonic effect. CONSTRUCTION REQUIREMENTS Feats Craft Rod, blindness/deafness, wall of force; Cost 2,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_thunderous_force",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_thunderous_force",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

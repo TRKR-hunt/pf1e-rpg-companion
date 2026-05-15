@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_fiery_vanishing__crb_",
+    "name": {
+      "value": "Cloak of fiery vanishing #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration and illusion; CL 5th; Slot shoulders; Price 2,600 gp; Weight 1 lb. DESCRIPTION This thick leather cloak is charred and blackened around the edges and smells faintly of soot. Once per day, when subject to an effect that deals fire damage, the wearer can spend an immediate action while obscured by the flames to become invisible, leaving behind an illusory pile of ashes and bones, as if he had been slain by the fire effect. The wearer\u00e2\u0080\u0099s invisibility and his illusory remains last for 5 rounds or until the wearer attacks any creature. Creatures that study or interact with the ashes can make a DC 11 Will save to disbelieve the illusion, though this does not end the invisibility effect. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, invisibility, silent image; Cost 1,300 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_fiery_vanishing",
+          "value": {
+            "value": 2600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_fiery_vanishing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

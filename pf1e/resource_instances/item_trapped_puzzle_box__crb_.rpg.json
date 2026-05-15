@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trapped_puzzle_box__crb_",
+    "name": {
+      "value": "Trapped Puzzle Box"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "DESCRIPTION CONSTRUCTION REQUIREMENTS Price 750 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint evocation DESCRIPTION Solving this simple kinetic puzzle involves removing several pegs from a handheld wooden cube. However, removing the final peg triggers the magical trap. The box explodes in the victim\u2019s hands, dealing 6d6 points of fire damage ( Reflex DC 14 for half damage). Detecting that the box is trapped requires a successful DC 30 Perception check made by a character with the trapfinding ability, and disabling it requires a successful DC 30 Disable Device check. CONSTRUCTION REQUIREMENTS Cost 375 gp; Feats Craft Wondrous Item; Spells explosive runes"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trapped_puzzle_box",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

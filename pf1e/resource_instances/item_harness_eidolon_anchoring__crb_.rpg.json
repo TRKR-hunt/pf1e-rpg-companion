@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "harness_eidolon_anchoring__crb_",
+    "name": {
+      "value": "Eidolon anchoring harness"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 7th; Slot body; Price 6,000 gp; Weight 1 lb. DESCRIPTION Loadstone studs line the straps of this ornate leather harness. When worn by an eidolon, the bindings act as a dimensional safety harness, anchoring the outsider to its current plane. Any time the eidolon would be forced to return to its home plane (such as when it\u00e2\u0080\u0099s reduced to negative hit points equal to its Constitution score or when its master is rendered unconscious ), it can expend one use of its summoner\u00e2\u0080\u0099s summon monster spell-like ability as a free action to remain on the Material Plane for 1 round. The summoner does not need to be conscious for the eidolon to use this ability, but he must be within 100 feet. If the summoner is conscious, he can refuse to allow this expenditure (which means the eidolon is forced back to its home plane). If the condition that would have sent the eidolon back to its home plane is still in effect after 1 round has passed, the eidolon may expend another use of its master\u00e2\u0080\u0099s summon monster spell-like ability; otherwise it immediately returns to its home plane. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, dimensional anchor; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_harness_eidolon_anchoring",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_harness_eidolon_anchoring",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

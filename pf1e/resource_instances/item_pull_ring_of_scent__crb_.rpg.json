@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pull_ring_of_scent__crb_",
+    "name": {
+      "value": "Pull-Ring of Scent"
+    },
+    "source": {
+      "value": "animal_archive"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot headband; Price 11,000 gp; Weight 1 lb. DESCRIPTION This dull brass ring is typically placed in the nose or muzzle, or elsewhere on the head of an animal, and is used to attach a lead rope or bridle. The wearer (and its rider, if any) gives off no scent and cannot be tracked or located by scent. In addition, it gains the scent ability within 30 feet; if the wearer already possesses scent, the range for this sense increases by 30 feet (to a maximum of 60 feet). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells beast shape I; Cost 5,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pull_ring_of_scent",
+          "value": {
+            "value": 11000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pull_ring_of_scent",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "seaspike__crb_",
+    "name": {
+      "value": "Seaspike"
+    },
+    "source": {
+      "value": "city_in_the_deep"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 70,338 gp; Slot weapon; CL 12th; Weight 3 lbs.; Aura strong conjuration and transmutation This elegant, short-hafted spear has a razorsharp head carved from a single piece of ivory. A twisting ring of ivory and jade tentacles hovers and slowly rotates just beneath the spearhead. Along the walnut haft sparkle tiny chips of peridot, each the size of a pinhead. EFFECTS Seaspike is a +3 aberration bane shortspear with three special properties. First, the wielder of Seaspike can cast fire shield (chill) on herself three times per day as a 7th-level sorcerer. The chill shield takes the appearance of luminous blue and green flames that swirl around the wielder as if underwater. Second, Seaspike grants its wielder a swim speed of 30 feet when held. If the wielder already has a swim speed, Seaspike increases the swim speed by 10 feet. Third, Seaspike is treated as a light weapon for purposes of the Weapon Finesse feat and other similar abilities. CONSTRUCTION REQUIREMENTS Cost 35,169 gp; Feats Craft Magic Arms and Armor, Weapon Finesse; Spells fire shield, magic weapon, Skills creator must have 5 ranks in Swim"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_seaspike",
+          "value": {
+            "value": 70338
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_seaspike",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

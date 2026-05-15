@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "soothsayer_s_raiment__crb_",
+    "name": {
+      "value": "Soothsayer\u2019s raiment"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Weight 40 lbs.; Price 10,300 gp DESCRIPTION This +1 chainmail is attuned to a particular oracular mystery and contains a revelation associated with that mystery (see oracle ). Its design and coloration are typically suggestive of its related mystery. While wearing the armor, an oracle has access to that revelation and may use it as if she had it as a normal class feature. The oracle must have the appropriate mystery to use the armor; for example, a soothsayer\u2019s raiment (battlecry) is only usable by an oracle of battle. If the wearer already has that revelation and the revelation grants an ability with a limited number of uses per day, the oracle can use that ability one additional time per day. This ability has no effect if the armor is worn by a non- oracle. For divination spells with a percentage-based chance of success (such as augury and divination ), the wearer\u2019s chance increases by +5. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells augury; Special creator must be an oracle with the desired revelation; Cost 5,300 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_soothsayer_s_raiment",
+          "value": {
+            "value": 10300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_soothsayer_s_raiment",
+          "value": {
+            "value": 40
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

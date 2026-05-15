@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pectoral_prophet_s__crb_",
+    "name": {
+      "value": "Prophet\u2019s pectoral"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot chest; Price 6,000 gp; Weight 1 lb. DESCRIPTION The sacred stones, graven star-patterns, and wisdom-writings of the ancients on this chestplate increase the wearer\u00e2\u0080\u0099s chance of success with augury, divination, and contact other plane. The wearer adds 1d6 to the d% roll each time she uses such a spell. When casting commune or commune with nature, the wearer may ask one additional question or gain one additional piece of information. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, divination, guidance; Cost 3,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pectoral_prophet_s",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_pectoral_prophet_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

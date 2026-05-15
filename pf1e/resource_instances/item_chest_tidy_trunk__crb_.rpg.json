@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chest_tidy_trunk__crb_",
+    "name": {
+      "value": "Chest, Tidy Trunk"
+    },
+    "source": {
+      "value": "lost_treasures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,000 gp; Slot none; CL 1st; Weight 25 lbs.; Aura faint universal DESCRIPTION This small-sized trunk is bound in polished metal and lined with velvet fabric. While the trunk is latched, items contained within are kept free of mold, moths, water damage, and other undesirable effects of long-term storage, though perishable items still eventually decay. If the trunk is kept latched for at least 8 hours, the items inside are neatly cleaned. The trunk folds and presses clothing, polishes crystalline and metal tableware, removes stains from items, and so on. Items are not repaired of any preexisting damage; they\u2019re simply kept clean and organized. CONSTRUCTION REQUIREMENTS Cost 500 gp; Feats Craft Wondrous Item; Spells prestidigitation"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chest_tidy_trunk",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chest_tidy_trunk",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

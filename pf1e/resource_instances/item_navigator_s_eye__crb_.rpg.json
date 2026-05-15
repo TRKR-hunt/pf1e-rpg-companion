@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "navigator_s_eye__crb_",
+    "name": {
+      "value": "Navigator's Eye"
+    },
+    "source": {
+      "value": "raiders_of_the_fever_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 10th; Slot none; Price 28,800 gp; Weight 6 lbs. DESCRIPTION Unlike the heavy cast-brass mariner\u2019s astrolabes normally used at sea, this astrolabe is of the more common type found on land, made of flat discs of brass. A famed navigator was said to have sacrificed her eye to the instrument to grant her knowledge of things beyond mortal sight, thus giving the astrolabe its name. In addition to an astrolabe \u2018s normal +2 circumstance bonus, Navigator\u2019s Eye grants a further +2 competence bonus on Knowledge (geography), Profession (sailor), and Survival checks when used to navigate on land or sea. Once per day, the user can make a DC 20 Perception check while using Navigator\u2019s Eye as a move action to catch a glimpse of how things really are for 1 round, as if with a true seeing spell. While using the astrolabe\u2019s true seeing ability, the user can also see through concealment caused by smoke or fog and gains a +10 competence bonus on Perception checks to spot hidden or disguised creatures or objects.. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells know direction, true seeing; Cost 14,600 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_navigator_s_eye",
+          "value": {
+            "value": 28800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_navigator_s_eye",
+          "value": {
+            "value": 6
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

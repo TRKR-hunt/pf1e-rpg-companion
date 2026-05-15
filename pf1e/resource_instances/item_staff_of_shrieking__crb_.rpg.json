@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_shrieking__crb_",
+    "name": {
+      "value": "Staff of shrieking"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 36,000 gp; Weight 5 lbs. DESCRIPTION Holes in this metal shaft cause it to emit an eerie moan when swung through the air. It allows use of the following spells: Shatter (1 charge) Sound burst (1 charge) Shout (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells shatter, shout, sound burst; Cost 18,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_shrieking",
+          "value": {
+            "value": 36000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_shrieking",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

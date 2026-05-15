@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_escape__crb_",
+    "name": {
+      "value": "Rod of escape"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Slot none; Price 15,000 gp; Weight 5 lbs. DESCRIPTION Wrought from cold iron, this rod allows its wielder to escape from even the tightest of bonds or grasps. If an opponent grapples the wielder of this rod, the ends of the rod extend, flailing about in an attempt to free the user. The rod\u2019s wielder gains a +5 bonus to CMD when attempting to evade or break out of a grapple; additionally, the holder cannot be pinned while wielding the rod. The rod\u2019s wielder gains a +5 competence bonus on Escape Artist checks when restrained by non-magical and inanimate means, such as ropes or manacles. The rod\u2019s owner does not need to be holding the rod to gains this bonus; it must merely be on the owner\u2019s person. CONSTRUCTION REQUIREMENTS Feats Craft Rod, bull\u2019s strength, cat\u2019s grace, shatter; Cost 7,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_escape",
+          "value": {
+            "value": 15000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_escape",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

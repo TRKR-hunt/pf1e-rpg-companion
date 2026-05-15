@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_eidolons__crb_",
+    "name": {
+      "value": "Staff of eidolons"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration and transmutation; CL 8th; Slot none; Price 14,400 gp; Weight 5 lbs. DESCRIPTION This crooked staff is made of mahogany and decorated with the bones of eidolons that jut out of the wood. It allows the use of the following spells: Lesser rejuvenate eidolon (1 charge) Unfetter (1 charge) Lesser evolution surge (2 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells lesser evolution surge, lesser rejuvenate eidolon, unfetter; Cost 7,200 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_eidolons",
+          "value": {
+            "value": 14400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_eidolons",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

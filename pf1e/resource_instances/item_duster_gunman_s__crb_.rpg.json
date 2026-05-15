@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "duster_gunman_s__crb_",
+    "name": {
+      "value": "Gunman\u2019s duster"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 12th; Slot body; Price 36,000 gp; Weight 5 lbs. DESCRIPTION This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer\u00e2\u0080\u0099s touch AC against firearm attacks. If the wearer is a gunslinger or has the Amateur Gunslinger feat, she begins each day with 1 additional grit point. This extra point does not increase her maximum grit total. When the wearer uses the gunslinger\u00e2\u0080\u0099s dodge deed, the deed\u00e2\u0080\u0099s dodge bonuses to AC increase by +1. If the wearer is not a gunslinger, she may use the gunslinger\u00e2\u0080\u0099s dodge deed once per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Amateur Gunslinger or creator must be a gunslinger, bullet shield; Cost 18,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_duster_gunman_s",
+          "value": {
+            "value": 36000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_duster_gunman_s",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

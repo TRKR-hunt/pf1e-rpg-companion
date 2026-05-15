@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_deathlurker_s__crb_",
+    "name": {
+      "value": "Cloak, Deathlurker's"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd Slot shoulders; Price 2,700 gp; Weight 1 lb. DESCRIPTION This drab gray cloak sometimes billows about on an invisible wind. Once per day, you may use doom, which causes a deathlike shadow to cross your face for a moment. This item has an associated deity. If you worship the associated deity, once per day you may use false life. While false life is active, if you coup de grace a dying foe, your temporary hit points from the spell increase by 1 (to a maximum of 20 temporary hit points ). The dispatched creature must have at least as many hit dice as you for this effect to occur. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, death knell, doom, false life; Cost 1,350 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_deathlurker_s",
+          "value": {
+            "value": 2700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_deathlurker_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "clasp_swarmbane__crb_",
+    "name": {
+      "value": "Swarmbane clasp"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 8th; Slot neck; Price 3,000 gp; Weight 1/2 lb. DESCRIPTION An ancient fossilized insect lies trapped within this ornate amber clasp, impaled by the long golden pin that fastens the wearer\u00e2\u0080\u0099s cloak. The wearer\u00e2\u0080\u0099s weapons, unarmed attacks, and natural attacks deal full damage to swarms, regardless of the swarm\u00e2\u0080\u0099s immunity to weapon damage (if any, although damage reduction applies as normal). If the wearer is damaged by a swarm, she automatically succeeds on her saving throw against the swarm\u00e2\u0080\u0099s distraction ability. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, repel vermin; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_clasp_swarmbane",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "homunculus_clay__crb_",
+    "name": {
+      "value": "Homunculus Clay"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,100 gp; Slot none; CL 11th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION If a mutagen is poured onto this fist-sized lump of dry clay (a standard action that provokes attacks of opportunity ), it transforms into a homunculus. It treats the alchemist who provided the mutagen as its creator. The homunculus gains the benefits of the mutagen. For every 2 points its Constitution would be increased, it instead gains 1 additional hit point per Hit Die and a +1 bonus on Fortitude saves, and the DC of its poison increases by 1. When the effect of the mutagen ends or the homunculus is slain, it reverts to a lump of clay that can be used again at a later time. If the homunculus clay is broken or destroyed in its inactive form, it is forever ruined. CONSTRUCTION REQUIREMENTS Cost 2,050 gp; Feats Craft Construct, Craft Wondrous Item; Spells animate objects, arcane eye, mending, mirror image; Skills Craft (alchemy) 2 ranks, Craft (sculptures) 2 ranks"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_homunculus_clay",
+          "value": {
+            "value": 4100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_homunculus_clay",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

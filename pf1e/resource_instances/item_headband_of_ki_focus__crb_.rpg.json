@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_of_ki_focus__crb_",
+    "name": {
+      "value": "Headband of ki focus #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 1st; Slot headband; Price 5,400 gp; Weight 1 lb. DESCRIPTION This tied headband helps the wearer focus his ki more effectively. Whenever the wearer spends ki points to make an additional attack, that attack roll gains a +1 insight bonus (+2 if the wearer is using a ki focus weapon with that attack). Furthermore, the wearer of a headband of ki focus is immune to the ninja\u00e2\u0080\u0099s ki block trick or similar effects that block the wearer from using ki points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Special creator must have a ki pool; Cost 2,700 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_of_ki_focus",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_of_ki_focus",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

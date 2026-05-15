@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "saddle_of_the_sky_river__crb_",
+    "name": {
+      "value": "Saddle of The Sky-River"
+    },
+    "source": {
+      "value": "animal_archive"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation [ water ] and transmutation [ air, water ]; CL 7th; Slot chest; Price 16,000 gp; Weight 15 lbs. DESCRIPTION This nacreous saddle is carved from giant mollusk shells, lashed with braided kelp, and designed to be worn by aquatic mounts. On command, an arcing torrent of water rises up from an existing body of water, allowing the mount to use its swim speed to move through the air. This functions as air walk and can be used a total of 7 minutes per day, usable in 1-minute increments. The arc of water trails behind the mount and rider and can be used by other swimming creatures to move through the air ( Swim DC 15). When the effect ends, the suspended water disappears with a negligible amount of water falling on creatures underneath the path of the arc. The sky-river created by the saddle does not harm creatures, though it does extinguish non-magical fires in areas it overlaps with them. As a standard action, the rider can expend 2 minutes of the sky-river\u2019s duration to produce a hydraulic torrent with a CMB of +9. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells air walk, hydraulic torrent, water walk; Cost 8,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_saddle_of_the_sky_river",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_saddle_of_the_sky_river",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rings_contract__crb_",
+    "name": {
+      "value": "Rings, Contract"
+    },
+    "source": {
+      "value": "cohorts_and_companions"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,500 gp; Slot ring; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate enchantment DESCRIPTION Contract rings are crafted in pairs (the price is for both rings), establishing a connection between the wearers. Each wearer must wear their ring for 24 hours before they begin to work. Contract rings grant a +10 competence bonus on Sense Motive checks made against the other wearer, and creatures wearing linked contract rings can understand each other\u2019s language. Once per day, Contract rings can seal a contract. The two wearers join hands and willingly state what each is agreeing to. Once both agree, each wearer accepts a lesser geas (no save) to fulfill the terms of the contract. This function does not occur if either character is under a mind-affecting effect or threat that forces her agreement. This compulsion lasts 7 days, starting immediately. While the lesser geas remains in effect, neither wearer can remove her ring, and neither ring can establish another lesser geas. If either ring is destroyed, the effects of any active lesser geas remain for both creatures, but the surviving ring becomes nonfunctional once the lesser geas expires until the missing ring is repaired or replaced. If one wearer\u2019s lesser geas is broken, the other wearer\u2019s is removed. CONSTRUCTION REQUIREMENTS Cost 4,250 gp; Feats Forge Ring; Spells detect thoughts, lesser geas, share language"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rings_contract",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

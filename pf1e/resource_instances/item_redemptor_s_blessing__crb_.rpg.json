@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "redemptor_s_blessing__crb_",
+    "name": {
+      "value": "Redemptor\u00e2\u0080\u0099s Blessing"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,000 gp; Slot none; CL 3rd; Weight 1/2 lb.; Aura faint necromancy DESCRIPTION This soothing holy symbol is carved from a single chunk of soapstone, and its graceful curves draw the eye. When used to channel positive energy to heal living creatures, it also calms nearby creatures. Any creature healed by the positive energy channeled by a user of a redemptor\u00e2\u0080\u0099s blessing must attempt a DC 13 Will save or become affected by a calm emotions spell. This effect lasts as long as the user continues to brandish the holy symbol and maintain concentration or until anyone takes an aggressive action against a calmed creature. CONSTRUCTION REQUIREMENTS Cost 4,500 gp; Feats Craft Wondrous Item; Spells calm emotions; Special ability to channel positive energy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_redemptor_s_blessing",
+          "value": {
+            "value": 9000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

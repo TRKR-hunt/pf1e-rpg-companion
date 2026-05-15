@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_stone_southern_star__crb_",
+    "name": {
+      "value": "Southern Star (Ioun Stone)"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong transmutation DESCRIPTION This brilliant, deep violet crystal is perfectly cut in the shape of a five-pointed star. EFFECTS The gem grants its bearer a swim speed of 30 feet. When inserted into a wayfinder, it allows the bearer to breathe water for up to 10 minutes per day (in 1-minute increments). CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells touch of the sea; Special creator must be at least 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_stone_southern_star",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

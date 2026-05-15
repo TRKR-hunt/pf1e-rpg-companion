@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_vampiric__crb_",
+    "name": {
+      "value": "Vampiric gloves"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 5th; Slot hands; Price 18,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION These pale, elegant-looking leather gloves have blood-red stitching on the fingers\u00e2\u0080\u0094which bears a startling resemblance to blood-encrusted fingernails. Three times per day, the wearer can use vampiric touch and bleed. If the wearer uses vampiric touch and holds the charge, the charge dissipates if the gloves are removed. Though vampiric touch is normally a touch attack, the wearer may instead use that ability as a ranged touch attack with a range of 30 feet, but only against a dying target or a target suffering from a bleed effect. When using vampiric touch in this way, the wearer may hold the charge on a missed ranged touch attack. If the wearer is suffering from a bleed effect, he may expend one use of vampiric touch to end the bleed effect. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bleed, vampiric touch; Cost 9,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_vampiric",
+          "value": {
+            "value": 18000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

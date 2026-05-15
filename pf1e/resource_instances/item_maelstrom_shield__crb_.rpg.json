@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "maelstrom_shield__crb_",
+    "name": {
+      "value": "Maelstrom shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Weight 10 lbs.; Price 14,170 gp DESCRIPTION The device of this +1 bashing heavy steel shield features a magical image of the trackless seas, complete with rolling waves and crashing whitecaps. When used to make a shield bash attack, the shield\u2019s wielder can make a trip attack as a free action against the same target without provoking an attack of opportunity from the creature being tripped. On command, the wielder can make the shield produce a gallon of fresh drinkable water. Once per day on command, the wielder can use the maelstrom shield to emit a stream of water as the hydraulic push spell. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells bull\u2019s strength, control water, hydraulic push; Cost 7,170 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_maelstrom_shield",
+          "value": {
+            "value": 14170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_maelstrom_shield",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

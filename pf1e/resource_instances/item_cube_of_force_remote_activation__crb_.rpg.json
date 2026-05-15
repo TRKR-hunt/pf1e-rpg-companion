@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cube_of_force_remote_activation__crb_",
+    "name": {
+      "value": "Cube of Force, Remote Activation"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 10th; Slot none; Price 70,000 gp; Weight 1/2 lb. DESCRIPTION This cube can be activated or deactivated from a distance via use of the spell mage hand or the hand of the apprentice ability. The antimagic wall and the wall that keeps out all things prevent remote deactivation in this manner. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mage hand, wall of force; Cost 35,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cube_of_force_remote_activation",
+          "value": {
+            "value": 70000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "patch_sea_tyrant_s__crb_",
+    "name": {
+      "value": "Sea tyrant\u2019s patch"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong enchantment; CL 15th; Slot eye; Price 70,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This ornate silk eye patch is embroidered with gold thread and studded with pearls in a pattern representing a whirlpool. The wearer of this item, which is a favorite patch of ruthless or particularly driven pirate captains, is constantly affected as if subject to the touch of the sea and water breathing spells. Furthermore, once per day on command, the wearer can use mass charm monster, as per the spell. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, mass charm monster, touch of the sea, water breathing; Cost 35,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_patch_sea_tyrant_s",
+          "value": {
+            "value": 70000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

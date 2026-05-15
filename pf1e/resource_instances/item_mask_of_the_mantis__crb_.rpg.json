@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_of_the_mantis__crb_",
+    "name": {
+      "value": "Mask of the Mantis #2"
+    },
+    "source": {
+      "value": "the_inner_sea_world_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot head; Price 6,000 gp; Weight 1 lb. DESCRIPTION These red masks cover the entire face. A mantis mask has three daily charges. The wearer can spend a charge to gain: darkvision to a range of 60 feet the effects of see invisibility the effects of deathwatch, or a +5 competence bonus on Perception checks. Once a charge is spent, the effect granted persists for 30 minutes before fading. Multiple effects can be active simultaneously. Charges used replenish after 24 hours. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, darkvision, see invisibility, deathwatch; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_of_the_mantis",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_of_the_mantis",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

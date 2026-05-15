@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "robes_of_lead__crb_",
+    "name": {
+      "value": "Robes of Lead"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 15th; Slot body; Price 65,000 gp; Weight 900 lbs. DESCRIPTION The eldest ayngavhaul garb themselves in robes of lead, massive suits of armor imbued with diabolical runes and profane symbols. These hulking, blasphemous vestments do little to impede the corpulent fiends\u00e2\u0080\u0099 already encumbered movement, yet grant them significant defense against servants of the divine. An ayngavhaul wearing robes of lead gains a +6 armor bonus and a +2 profane bonus to its Armor Class. In addition, these robes add +10 to the wearer\u00e2\u0080\u0099s SR when attempting to resist spells cast by a good-aligned divine spellcaster. Any Huge creature can wear robes of lead, but non- ayngavhauls must contend with their crushing, 900-pound weight. Any non-evil creature that attempts to wear robes of lead gains one negative level until the vestments are removed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, unholy aura; Special creator must be lawful evil; Cost 32,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_robes_of_lead",
+          "value": {
+            "value": 65000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_robes_of_lead",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

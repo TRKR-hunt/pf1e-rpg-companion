@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "glove_of_storing__crb_",
+    "name": {
+      "value": "Glove of storing #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 6th; Slot hands; Price 10,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This device is a single leather glove. On command, one item held in the hand wearing the glove disappears. The item can weigh no more than 20 pounds and must be able to be held in one hand. While stored, the item has negligible weight. With a snap of the fingers wearing the glove, the item reappears. A glove can only store one item at a time. Storing or retrieving the item is a free action. The item is shrunk down so small within the palm of the glove that it cannot be seen. Spell durations are not suppressed, but continue to expire. If the glove\u00e2\u0080\u0099s effect is suppressed or dispelled, the stored item appears instantly. A glove of storing uses up the wearer\u00e2\u0080\u0099s entire hands slot. The wearer may not use another item (even another glove of storing ) that also uses the hands slot. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shrink item; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_glove_of_storing",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

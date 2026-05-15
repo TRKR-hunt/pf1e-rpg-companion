@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "western_star_ioun_stone__crb_",
+    "name": {
+      "value": "Western Star (Ioun Stone)"
+    },
+    "source": {
+      "value": "occult_mysteries"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong illusion DESCRIPTION This blue crystal is cut in the shape of a five-pointed star. As a standard action, its user can alter his appearance as with a disguise self spell. When so disguised, the user can render the western star and other ioun stones in his possession invisible. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spella disguise self"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_western_star_ioun_stone",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

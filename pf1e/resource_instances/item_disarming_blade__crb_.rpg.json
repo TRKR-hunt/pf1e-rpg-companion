@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "disarming_blade__crb_",
+    "name": {
+      "value": "Disarming Blade"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 2 lbs.; Price 17,820 gp DESCRIPTION This +1 dueling rapier ends duels quickly and decisively by depriving the wielder\u2019s opponent of her weapon. Following a successful disarm attempt with the weapon, the wielder can move the disarmed weapon 5 feet in any direction as a swift action. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells cat\u2019s grace, mage hand; Cost 9,070 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_disarming_blade",
+          "value": {
+            "value": 17820
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_disarming_blade",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "swashbuckler_s_rapier__crb_",
+    "name": {
+      "value": "Swashbuckler's Rapier"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,320 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate transmutation DESCRIPTION This +1 rapier has the nondescript, clean lines of a practice foil. The wielder can spend 1 panache point as a swift action to give the bane special ability for 1 round, and can pick any subtype of humanoids as the designated foe. CONSTRUCTION REQUIREMENTS Cost 3,820 gp; Feats Craft Magic Arms and Armor; Spells magic weapon; Special creator must have 5 ranks in Craft (weapons)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_swashbuckler_s_rapier",
+          "value": {
+            "value": 7320
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_swashbuckler_s_rapier",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

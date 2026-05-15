@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "amulet_of_grasping_souls__crb_",
+    "name": {
+      "value": "Amulet of Grasping Souls"
+    },
+    "source": {
+      "value": "tears_at_bitter_manor"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 13th; Slot neck; Price 21,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This amulet can be worn by both corporeal and incorporeal creatures. If worn by a corporeal creature, it confers the ghost touch special ability on her natural attacks and weapons she wields (even thrown weapons and projectiles). Once per day as a swift action, the wearer can make the next spell she casts affect incorporeal creatures as though she were using the Ectoplasmic Spell metamagic feat but without increasing the spell level. When an incorporeal creature wears the amulet, it can interact with it surroundings. Any item in its possession becomes incorporeal, allowing the incorporeal creature to take items and phase through objects with them. An incorporeal creature without a Strength score uses its Charisma score to determine how much it can carry. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Ectoplasmic Spell; Spells plane shift; Cost 10,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_amulet_of_grasping_souls",
+          "value": {
+            "value": 21000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

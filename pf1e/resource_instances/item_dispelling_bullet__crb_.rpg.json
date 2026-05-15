@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dispelling_bullet__crb_",
+    "name": {
+      "value": "Bullet, Dispelling"
+    },
+    "source": {
+      "value": "heroes_of_golarion"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 250 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura mild abjuration DESCRIPTION This +1 firearm bullet deals no damage but instead dispels one magical effect on the target, as dispel magic cast by a 5th-level wizard. If the target has multiple magical effects active, the lowest-level effect is targeted. CONSTRUCTION REQUIREMENTS Cost 125 gp; Feats \u00c2 Craft Magic Arms and Armor; Spells \u00c2 dispel magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dispelling_bullet",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

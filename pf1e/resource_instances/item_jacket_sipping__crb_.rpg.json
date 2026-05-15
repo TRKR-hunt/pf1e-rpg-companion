@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "jacket_sipping__crb_",
+    "name": {
+      "value": "Sipping jacket"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot chest; Price 5,000 gp; Weight 5 lbs. DESCRIPTION Absorbent fibers line this heavy canvas coat. Once per day as a standard action, the wearer can pour a potion onto this lining, suffusing it into the coat. If the potion has an instantaneous duration, the wearer can activate the coat as a swift action to consume the potion. If the potion\u00e2\u0080\u0099s duration is measured in rounds, the wearer can activate the coat as a swift action to gain the potion\u00e2\u0080\u0099s benefits for 1 round, repeating as desired each round until the potion\u00e2\u0080\u0099s entire duration has been used. These rounds do not need to be consecutive. The coat absorbs only potions with instantaneous or round-based durations, and only those which affect creatures (for example, it does not work on oils). Once the coat absorbs a potion, the potion cannot be retrieved from it, only used as described above. The absorbed potion loses its powers after 24 hours, even if unused. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, amplify elixir; Cost 2,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_jacket_sipping",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_jacket_sipping",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "incense_of_golden_embers__crb_",
+    "name": {
+      "value": "Incense of Golden Embers"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,800 gp; Slot none; CL 7th Weight \u00e2\u0080\u0094; Aura moderate necromancy APPEARANCE When burned, this stick of incense releases a sharp smell and fills the surrounding air with bright orange and golden motes. EFFECTS A creature that lights this incense (a standard action that does not provoke attacks of opportunity ) and breathes the smoke for 1 minute gains the fire subtype for 1 hour. This grants the creature immunity to fire and vulnerability to cold for the duration of the effect. The price listed is for a single stick of incense, which is enough for only one creature to use and benefit from as described. CONSTRUCTION REQUIREMENTS Cost 1,400 gp; Feats Craft Wondrous Item; Spells elemental body I"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_incense_of_golden_embers",
+          "value": {
+            "value": 2800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "periapt_of_proof_against_paralysis__crb_",
+    "name": {
+      "value": "Periapt of Proof Against Paralysis"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot neck; CL 5th; Weight \u00e2\u0080\u0094; Aura faint conjuration DESCRIPTION This pewter chain necklace is formed from alternating sizes of metal links, creating a delicate but imposing look. Short enough to be a choker, it is set in the middle with a brilliant jasper stone that is finely cut and shines even when light is scarce. Whenever the wearer fails a saving throw against an effect that results in paralysis, the periapt instead causes the wearer to be fatigued for 1d4 rounds. If an effect would paralyze the wearer without a saving throw, he is instead fatigued until he removes the condition. If the wearer fails a saving throw against a paralyzing effect while fatigued, he becomes exhausted. Characters with the exhausted condition gain no benefits from a periapt of proof against paralysis. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells remove paralysis"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_periapt_of_proof_against_paralysis",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "the_spiteful_scimitar__crb_",
+    "name": {
+      "value": "The Spiteful Scimitar"
+    },
+    "source": {
+      "value": "prisoner_of_the_blight"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 75,315 gp; Slot none; CL 11th; Weight 4 lbs.; Aura moderate abjuration, transmutation, and necromancy EFFECTS This +2 cruel furyborn scimitar is decorated with images of shriveled vines and wilted flowers along its blade. Three times per day as an immediate action after dealing damage to a creature, the wielder can cause the blighted plant life depicted on the blade to animate, embedding thorny vines in the creature\u00e2\u0080\u0099s wounds. The creeping, twisting vines cause the creature to become entangled for 1d4 rounds, and it is nauseated by the pain while the entangled condition persists. A successful DC 22 Fortitude saving throw negates the nauseated condition. CONSTRUCTION REQUIREMENTS Cost 37,815 gp; Feats Craft Magic Arms and Armor; Spells cause fear, death knell, rage, sickening entanglement"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_the_spiteful_scimitar",
+          "value": {
+            "value": 75315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_the_spiteful_scimitar",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dragon_s_doom__crb_",
+    "name": {
+      "value": "Dragon\u2019s Doom"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination and evocation; CL 8th; Weight 12 lbs.; Price 40,310 gp DESCRIPTION This polearm\u2019s axe blade is shaped like a snarling dragon, its maw stretched wide as it closes for the killing blow. The haft is engraved with the circling image of a dragon in flight. The head of this +2 dragon bane halberd glows when a creature of the dragon type is within 100 feet of the weapon. Three times per day, when the halberd hits a dragon, the wielder can have that attack ignore the dragon\u2019s DR as a free action. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells discern location, light, summon monster I; Cost 20,310 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dragon_s_doom",
+          "value": {
+            "value": 40310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dragon_s_doom",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

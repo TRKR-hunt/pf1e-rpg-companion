@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ioun_stone_thorny__crb_",
+    "name": {
+      "value": "Thorny (Ioun Stone)"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none; CL 12th; Weight \u00e2\u0080\u0094; Aura strong varies DESCRIPTION These variant ioun stones resemble a thorny sphere\u00e2\u0080\u0094each possesses a circular shape with dozens of needle-like points jutting out. Each type of stone is a different color and grants its wearer a +2 competence bonus on checks for a specific combat maneuver. All varieties of thorny ioun stone have the same price and cost (unless they are cracked or flawed). Brown: +2 competence bonus on trip attempts. Crimson: +2 competence bonus on bull rush attempts. Orange: +2 competence bonus on sunder attempts. Silver: +2 competence bonus on overrun attempts. Teal: +2 competence bonus on disarm attempts. Violet: +2 competence bonus on grapple attempts. Cracked: A cracked thorny ioun stone provides a +1 competence bonus on its corresponding type of combat maneuver check. Price: 3,200 gp. Flawed: The flawed version of a thorny ioun stone of any type functions as the normal version, but the wearer also takes a \u00e2\u0080\u00932 penalty to CMD against the corresponding type of combat maneuver check. Price: 6,900 gp. See Inferior Ioun Stones for details on cracked and flawed variant stones. Resonant Powers: A thorny ioun stone\u2019s resonant power grants the bearer the benefit of either the Acrobatic or the Athletic feat. The feat varies by individual ioun stone, and each is equally likely (50% chance). CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Special creator must be 12th level"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ioun_stone_thorny",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

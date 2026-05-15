@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "iron_rope__crb_",
+    "name": {
+      "value": "Iron rope #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 4th; Weight 1 lb.; Slot none; Price 750 gp DESCRIPTION When the end of this gray hemp rope is held and the command word is uttered, it is irrevocably transmuted into solid iron. The transmuted rope loses all magic and has the hardness and hit points of a normal inch-thick iron bar. When crafted, the rope is 25 feet long, but can be cut up to three times and each section of rope can be commanded to harden individually. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, animate rope; Cost 375 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_iron_rope",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_iron_rope",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

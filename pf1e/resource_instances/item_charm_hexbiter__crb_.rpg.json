@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charm_hexbiter__crb_",
+    "name": {
+      "value": "Charm, Hexbiter"
+    },
+    "source": {
+      "value": "merchants_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 180 gp; Slot neck or shoulder; see above; CL 3rd Weight \u2014; Aura faint abjuration APPEARANCE This walrus-shaped charm is typically carved from ivory or bone. EFFECTS When targeted by a witch\u2019s hex or an effect with the curse descriptor, the wearer can activate this charm as an immediate action to gain a +3 resistance bonus on the saving throw to resist the curse effect. If the wearer is affected by the curse effect, he gains a +2 bonus on any subsequent saving throws to resist the effect for up to 1 week, and he gains a +3 bonus on any caster level checks he attempts to remove the effect (such as with remove curse ) during this time. This charm can be used once, after which the charm\u2019s magic is gone forever. A charm occupies the wearer\u2019s shoulders or neck slot, though it can share that slot with one other magic item (as a cloak pin or token hanging from a necklace, for example). A character can never wear more than one charm at a time. CONSTRUCTION REQUIREMENTS Cost 90 gp; Feats Craft Wondrous Item; Spells resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charm_hexbiter",
+          "value": {
+            "value": 180
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

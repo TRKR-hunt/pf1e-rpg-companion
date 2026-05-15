@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "absorbing_shield__crb_",
+    "name": {
+      "value": "Absorbing shield"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 17th Weight 15 lbs.; Price 50,170 gp DESCRIPTION This +1 heavy steel shield is made of metal, but its color is a flat black that seems to absorb light. Once every 2 days, on command, it can disintegrate an object that it touches, as the spell but requiring a melee touch attack. This effect only functions as an attack\u00e2\u0080\u0094it can\u2019t be activated to target a creature or weapon as it strikes the shield. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells disintegrate; Cost 25,170 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_absorbing_shield",
+          "value": {
+            "value": 50170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_absorbing_shield",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

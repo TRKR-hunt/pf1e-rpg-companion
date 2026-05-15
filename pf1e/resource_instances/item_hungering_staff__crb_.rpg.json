@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hungering_staff__crb_",
+    "name": {
+      "value": "Hungering Staff"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot none; CL 9th; Weight 4 lbs.; Aura moderate conjuration DESCRIPTION A ring of curved fangs circles the tip of this 7-foot-long bone staff. When magic mouth is cast from the staff, the resulting illusory mouth is filled with countless needle-like fangs. After magic mouth is cast, one charge remains drained from the staff and can\u00e2\u0080\u0099t be recharged until the user dismisses the spell or until the spell discharges. When casting beast shape I from the staff, the caster can choose only creatures with bite attacks, and the user\u00e2\u0080\u0099s bite attacks deal damage as if the assumed shape were two sizes larger. The staff allows the use of the following spells. Magic mouth (1 charge) Beast shape I (see text; 2 charges) Hungry pit (3 charges) CONSTRUCTION REQUIREMENTS Cost 15,500 gp; Feats Craft Staff; Spells beast shape I, hungry pit, magic mouth"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hungering_staff",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hungering_staff",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

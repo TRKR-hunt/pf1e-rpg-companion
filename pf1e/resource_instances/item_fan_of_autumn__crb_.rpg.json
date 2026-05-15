@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fan_of_autumn__crb_",
+    "name": {
+      "value": "Fan of Autumn"
+    },
+    "source": {
+      "value": "heroes_of_the_wild"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,000 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint illusion DESCRIPTION This delicate fan is made of dried leaves and thin twigs. Three times per day as a standard action, the wielder can wave the fan to summon forth a 30-foot cone of swirling red and gold leaves that lasts for 3 rounds. This area acts as obscuring mist, except for the duration and the fact it is composed of leaves rather than fog (thus, creatures able to see through mist and fog can\u2019t see through the fan of autumn\u2019s concealment ). As long as the wielder has the fan in her hand, the leaves don\u2019t obscure her vision. CONSTRUCTION REQUIREMENTS Cost 3,000 gp; Feats Craft Wondrous Item; Spells gust of wind"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fan_of_autumn",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fan_of_autumn",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

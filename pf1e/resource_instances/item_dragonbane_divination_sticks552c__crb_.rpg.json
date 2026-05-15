@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dragonbane_divination_sticks552c__crb_",
+    "name": {
+      "value": "Dragonbone divination sticks"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 5th; Weight 1 lb.; Slot none; Price 6,400 gp DESCRIPTION These eight rune-engraved dragon bones may be used as a divine focus for augury. They add 5% to the chance to successfully cast augury and divination. The bearer of the set gains a +3 luck bonus on one type of saving throw ( Fortitude, Reflex, or Will ), determined randomly each day. If a creature carries multiple sets of dragonbone divination sticks, all of them provide a bonus on the same saving throw. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, augury, guidance; Cost 3,200 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dragonbane_divination_sticks552c",
+          "value": {
+            "value": 6400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_dragonbane_divination_sticks552c",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

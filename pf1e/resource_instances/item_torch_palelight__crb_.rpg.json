@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "torch_palelight__crb_",
+    "name": {
+      "value": "Torch, Palelight"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 250 gp; Slot none; CL 2nd; Weight 1 lb.; Aura faint evocation DESCRIPTION This torch is made from a dull, gray wood that bears intricate carvings. It burns like a normal torch, but only gives off dim light in a 40-foot radius. In areas of normal light, the torch reduces the light level to dim. The torch has no effect in areas of bright light. CONSTRUCTION REQUIREMENTS Cost 125 gp; Feats Craft Wondrous Item; Spells light"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_torch_palelight",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_torch_palelight",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

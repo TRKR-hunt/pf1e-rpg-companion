@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_voracious_hexes__crb_",
+    "name": {
+      "value": "Rod of Voracious Hexes"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,500 gp; Slot none; CL 17th; Weight 5 lbs.; Aura strong (no school) DESCRIPTION Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex), she can use this rod\u2019s power to target not only the hex\u2019s normal target, but also another target within 30 feet of the first. The hex must normally target a single creature within a range of at least 30 feet. CONSTRUCTION REQUIREMENTS Cost 16,250 gp; Feats Craft Rod, Split Hex; Special creator must have the hex class feature"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_voracious_hexes",
+          "value": {
+            "value": 32500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_voracious_hexes",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

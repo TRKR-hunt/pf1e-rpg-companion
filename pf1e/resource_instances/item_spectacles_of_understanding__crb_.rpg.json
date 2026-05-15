@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spectacles_of_understanding__crb_",
+    "name": {
+      "value": "Spectacles of understanding #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 2nd; Slot eye; Price 3,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION When worn, these innocent-looking spectacles convert any written language to one known by the wearer, as the comprehend languages spell. The glasses are also good at detecting falsified documents, granting their wearer a +5 bonus to Linguistics checks to identify forgeries and the ability make such checks untrained. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, comprehend languages; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spectacles_of_understanding",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

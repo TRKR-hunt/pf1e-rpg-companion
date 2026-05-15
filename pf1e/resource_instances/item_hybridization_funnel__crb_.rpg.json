@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hybridization_funnel__crb_",
+    "name": {
+      "value": "Hybridization funnel #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Weight 2 lbs.; Slot none; Price 200 gp DESCRIPTION This two-spouted funnel is used to safely mix two alchemical splash weapons into a single flask. Using the vial requires 10 minutes and a DC 25 Craft (alchemy) check; a half-elf has a +5 bonus on this check. Failing the check means both splash weapon are destroyed. Success means the two materials are safely mixed into one vial that is the same volume as a normal splash weapon vial; when thrown as a splash weapon, the mixture has the effects of both component substances and creatures are affected as if hit by both. The mixture becomes inert after 24 hours. Only liquids may be mixed with the funnel. The bearer can use it to mix an alchemical splash weapon with either holy water or unholy water, but the Craft (alchemy) DC increases to 30; half-elves still get the +5 bonus on this check. The funnel does not work on potions, elixirs, extracts, or other materials. Mixing a substance with a similar or identical substance (such as alchemist\u2019s fire with alchemist\u2019s fire) has no effect. A mixture cannot be combined with another mixture. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, fabricate or combine extracts discovery; Cost 100 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hybridization_funnel",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hybridization_funnel",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

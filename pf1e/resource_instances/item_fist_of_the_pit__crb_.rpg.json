@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fist_of_the_pit__crb_",
+    "name": {
+      "value": "Fist of the Pit"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 9,305 gp; Slot none; CL 6th; Weight 1 lb.; Aura moderate conjuration DESCRIPTION This +1 spiked gauntlet is shaped like a skull studded with metal spikes. Once per day as a standard action, the wearer can strike the ground with the gauntlet, causing a 10-foot-square, 30-foot-deep extradimensional pit filled with spikes to open within 30 feet, as per spiked pit. The gauntlet\u2019s enhancement bonus is added to the piercing damage caused by the pit\u00e2\u0080\u0099s spikes. If the wearer increases the gauntlet\u2019s enhancement bonus (such as with greater magic weapon or a paladin\u2019s divine bond ability), the additional weapon enhancement bonus is also added to the damage. Similarly, if the gauntlet has any weapon special abilities that deal extra damage (such as flaming or wounding ), this extra damage is likewise added to the damage caused by the pit\u00e2\u0080\u0099s spikes. Weapon special abilities that don\u00e2\u0080\u0099t deal extra damage, or that deal damage to the wielder as well (such as vicious ) do not affect the pit\u00e2\u0080\u0099s spikes. CONSTRUCTION REQUIREMENTS Cost 4,805 gp; Feats Craft Magic Arms and Armor; Spells spiked pit"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fist_of_the_pit",
+          "value": {
+            "value": 9305
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_fist_of_the_pit",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

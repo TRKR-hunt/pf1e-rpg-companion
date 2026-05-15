@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_the_dark_tapestry__crb_",
+    "name": {
+      "value": "Cloak of the Dark Tapestry"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th; Slot shoulders; Price 2,500 gp; Weight 5 lbs. DESCRIPTION This dark hooded cloak is decorated with embroidered comets, moons, and stars along its edge. If you sleep while wearing the cloak, it protects you from hot or cold environments like an endure elements spell, and you may sleep in medium armor without becoming fatigued and you may use know direction once per day. If your patron is a good god: At will, as a standard action, you can cause additional stars and celestial bodies to appear on the cloak, matching the current configuration in the sky. Once per day, y ou gain the effects of the longstrider spell. Once per day, you may throw a tiny, white-burning meteor that has the effect of the flare spell. Once per day, when under a starry night sky you may dimension door as the spell. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, disguise self, endure elements, flare, know direction, lesser restoration, longstrider; Cost 1,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_the_dark_tapestry",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_the_dark_tapestry",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

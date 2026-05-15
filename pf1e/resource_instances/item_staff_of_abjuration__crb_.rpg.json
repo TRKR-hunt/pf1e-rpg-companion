@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_abjuration__crb_",
+    "name": {
+      "value": "Staff of abjuration"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 13th; Slot none; Price 82,000 gp; Weight 5 lbs. DESCRIPTION Usually carved from the heartwood of an ancient oak, ash, sequoia, or other large tree, this staff allows use of the following spells: Dispel magic (1 charge) Resist energy (1 charge) Shield (1 charge) Dismissal (2 charges) Lesser globe of invulnerability (2 charges) Repulsion (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells dismissal, dispel magic, lesser globe of invulnerability, repulsion, resist energy, shield; Cost 41,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_abjuration",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_abjuration",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

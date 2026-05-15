@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_comfort_s__crb_",
+    "name": {
+      "value": "Comfort\u2019s cloak"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration and necromancy; CL 5th; Slot shoulders; Price 15,600 gp; Weight 1 lb. DESCRIPTION A favored cloak of rangers, this cloak is a patchwork of hides and fur. Comfort\u00e2\u0080\u0099s cloak grants a constant endure elements effect to the wearer, and grants a +4 competence bonus to saves against disease, energy drain, effects that cause fatigue or exhaustion, and poisons. Furthermore, while the wearer is resting he regains twice his Hit Dice in hit points for 8 hours of rest instead of the typical 1 hit point per Hit Die. When taking a full 24 hours of rest, the character regains 5 times his Hit Dice in hit points instead of twice his Hit Dice in hit points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, endure elements; Cost 7,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_comfort_s",
+          "value": {
+            "value": 15600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_comfort_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

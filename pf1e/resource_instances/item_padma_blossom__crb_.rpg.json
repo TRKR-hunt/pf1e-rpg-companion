@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "padma_blossom__crb_",
+    "name": {
+      "value": "Padma Blossom"
+    },
+    "source": {
+      "value": "cult_of_the_ebon_destroyers"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration and enchantment; CL 3rd; Slot none; Price 8,000 gp; Weight \u00e2\u0080\u0094. DESCRIPTION This perfect lotus flower formed from pink jade offers purity of mind and spiritual calm. While grasped, the blossom grants its holder a +3 competence bonus on Concentration checks and suppresses the following on its holder: morale bonuses, fear effects, and the confused, dazed, or stunned conditions. Twice per day, the bearer can cast calm emotions. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, calm emotions, remove fear; Cost 4,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_padma_blossom",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

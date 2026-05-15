@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "nightpiercer__crb_",
+    "name": {
+      "value": "Nightpiercer"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,700 gp; Slot wrists; CL 9th; Weight 12 lbs.; Aura moderate conjuration DESCRIPTION This +1 repeating heavy crossbow is carved in the shape of a stylized whippoorwill; the stirrup resembles the head, the limbs look like the wings, and the stock is shaped like the bird\u00e2\u0080\u0099s tail. Nightpiercer applies the ghost touch weapon special ability to all bolts fired from it, and the bolts shriek like whippoorwills as they fly through the air. Whenever a bolt fired from Nightpiercer deals damage to an incorporeal undead creature, the bolt remains embedded in the creature, reducing all of the target\u00e2\u0080\u0099s speeds by half (to a minimum of 5 feet) for 1 round. CONSTRUCTION REQUIREMENTS Cost 6,700 gp; Feats Craft Magic Arms and Armor; Spells dimensional anchor, plane shift"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_nightpiercer",
+          "value": {
+            "value": 12700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_nightpiercer",
+          "value": {
+            "value": 12
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

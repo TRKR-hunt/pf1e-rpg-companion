@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "venomous_whisper_dart__crb_",
+    "name": {
+      "value": "Venomous Whisper Dart"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,466 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint enchantment DESCRIPTION The wielder of this gleaming purple +2 blowgun dart can whisper while loading the dart to imbue it with a suggestion. When the dart strikes a creature, the target must succeed at a DC 14 Will save or forget the sting of the dart and hear the words of the suggestion as if they were whispered in her ear. CONSTRUCTION REQUIREMENTS Cost 736 gp; Feats Craft Magic Arms and Armor; Spells modify memory, suggestion"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_venomous_whisper_dart",
+          "value": {
+            "value": 1466
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

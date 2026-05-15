@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scabbard_of_stanching__crb_",
+    "name": {
+      "value": "Scabbard of stanching #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration (healing); CL 5th; Slot belt; Price 5,000 gp; Weight 2 lbs. DESCRIPTION This fine, red leather sheath is decorated with gold filigree. It fits any bladed slashing weapon. While worn, a scabbard of stanching protects against bleed damage. Anytime the wearer suffers a bleed effect, the scabbard automatically stanches it. It has no effect on bleed damage from effects that require a DC 16 or higher caster level or Heal check. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cure light wounds; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scabbard_of_stanching",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scabbard_of_stanching",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

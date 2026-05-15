@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "runes_of_the_old_faith__crb_",
+    "name": {
+      "value": "Runes of The Old Faith"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,000 gp; Slot none; CL 12th; Weight 1 lb.; Aura strong universal DESCRIPTION This velvet pouch contains a number of stones gathered from the creator\u2019s local area that bear runes with a single druidic symbol each. Runes of the old faith work as runes of the crone\u2019s coven, except they allow casting of druid spells as part of spell kenning. The stones can be used once per day. CONSTRUCTION REQUIREMENTS Cost 8,000 gp; Feats Craft Wondrous Item; Spells imbue with spell ability; Special creator must be able to cast 6th-level druid spells"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_runes_of_the_old_faith",
+          "value": {
+            "value": 16000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_runes_of_the_old_faith",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_freedom_of_movement__crb_",
+    "name": {
+      "value": "Ring of freedom of movement"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 7th; Slot ring; Price 40,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This gold ring allows the wearer to act as if continually under the effect of a freedom of movement spell. CONSTRUCTION REQUIREMENTS Feats Forge Ring; Spells freedom of movement; Cost 20,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_freedom_of_movement",
+          "value": {
+            "value": 40000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

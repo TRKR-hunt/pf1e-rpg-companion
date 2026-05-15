@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "instant_muzzle__crb_",
+    "name": {
+      "value": "Instant Muzzle"
+    },
+    "source": {
+      "value": "animal_archive"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate enchantment and transmutation; CL 9th; Slot none; Price 6,500 gp; Weight 4 lbs. DESCRIPTION This ball of iron bands and hinges is about the size of a human fist. Three times per day, when thrown at a creature or space as a thrown weapon, the contraption opens up as it strikes a solid surface, taking the shape of a metal muzzle. If it hits the target, the muzzle immediately attaches itself to the face of any Large or smaller creature struck by the ball or any single Large or smaller creature in the 5-foot square so targeted. The muzzle harmlessly clatters to the ground and returns to ball form if it fails to strike a creature or no creature is present in the space in which it landed, and it does not return to its thrower. A creature muzzled with an instant muzzle cannot speak properly (if it was normally able to do so), and gains a 20% spell failure chance for any spell it attempts to cast with verbal components, and a 20% chance to incorrectly use a command word when activating a magic item. The muzzled creature cannot make bite attacks or even drink or eat properly. The muzzle has hardness 10 and 25 hit points. An instant muzzle remains attached to a creature for 4 rounds before detaching and returning to ball form, immediately teleporting back to the hand of the creature that originally threw the item. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells fumbletongue, telekinesis; Cost 3,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_instant_muzzle",
+          "value": {
+            "value": 6500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_instant_muzzle",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

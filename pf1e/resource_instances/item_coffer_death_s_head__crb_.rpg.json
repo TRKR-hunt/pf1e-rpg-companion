@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "coffer_death_s_head__crb_",
+    "name": {
+      "value": "Coffer, Death's Head"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 5th; Slot \u00e2\u0080\u0094; Price 1,000 gp; Weight 5 lbs. DESCRIPTION Typically engraved with numerous skulls, these small metal coffers allow the safe transport of infectious substances of up to Tiny size. Closing the lid seals in the contents and holds them in stasis, rendering them immune to aging or any damage. In addition, any infectious material\u00e2\u0080\u0094such as the body of a creature that died of disease \u00e2\u0080\u0094is preserved for as long as the coffer is closed. A death\u00e2\u0080\u0099s head coffer can potentially hold several Tiny items, having dimensions of approximately 4 inches by 4 inches by 6 inches. A death\u00e2\u0080\u0099s head coffer can spread infections between items. Any item placed into a coffer with a diseaseridden item (something capable of spreading a disease by contact) becomes infected with the same disease. For 1 week after being removed from the coffer, the newly infected item can spread the same affliction as the disease -ridden item to any creature that touches it. For example, a coin placed into a death\u00e2\u0080\u0099s head coffer with a rat infected with the shakes forces any creature that touches the coin to make a DC 13 Fortitude save or become infected with the shakes as well. After a death\u00e2\u0080\u0099s head coffer is closed and then reopened, its magic dissipates, rendering the box completely mundane. Some death\u00e2\u0080\u0099s head coffers feature complex locking mechanisms, which require DC 20 Disable Device checks to open. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, contagion, gentle repose; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_coffer_death_s_head",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_coffer_death_s_head",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

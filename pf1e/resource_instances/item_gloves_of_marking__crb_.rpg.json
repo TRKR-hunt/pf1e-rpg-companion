@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gloves_of_marking__crb_",
+    "name": {
+      "value": "Gloves of Marking"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,200 gp; Slot hands; CL 4th; Weight 1 lb.; Aura faint necromancy and transmutation DESCRIPTION These ruddy leather gloves enhance the precision of the wearer. When wielding a piercing or slashing weapon and using Weapon Finesse, the wearer can mark a creature when confirming a critical hit instead of dealing additional damage. The mark consists of a simple symbol, such as a single letter. The wielder and her allies gain a +2 morale bonus on attack rolls and melee damage rolls against the marked creature for 1 minute. In addition, the marked creature must succeed at a Will saving throw (DC 10 + one-half the wielder\u2019s level + the wielder\u2019s Dexterity modifier) or be shaken for 1 minute. The bonuses and condition persist even if the damage caused by the mark is healed. CONSTRUCTION REQUIREMENTS Cost 3,600 gp; Feats Craft Wondrous Item; Spells cause fear, heroism"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gloves_of_marking",
+          "value": {
+            "value": 7200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_gloves_of_marking",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "malleable_monument__crb_",
+    "name": {
+      "value": "Malleable Monument"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,000 gp; Slot none CL 9th; Weight 15 lbs.; Aura moderate evocation DESCRIPTION This stone statuette is shaped like a humanoid, but it lacks a face and fine detail. EFFECTS A character holding the statue can call upon her deity as a full-round action, imbuing the statue with divine energy and reshaping it in the image of her deity for 24 hours, after which it reverts to its original appearance. For this duration, followers of that deity who are within 100 feet of the statue gain a +2 morale bonus on saving throws against fear effects. Additionally, followers of the wielder\u00e2\u0080\u0099s deity can use the statue as the origin point for channel energy effects as long as the statue is within 100 feet. A follower of the deity can drive the statue into the ground and spend 10 minutes praying to cast hallow or unhallow centered on the statue. This functions as the chosen spell except all effects end after 24 hours or when the statue is destroyed. The statue loses all abilities after using this effect, but it retains its reshaped image. A malleable monument has hardness 8 and 25 hit points. CONSTRUCTION REQUIREMENTS Cost 4,000 gp; Feats Craft Wondrous Item; Spells hallow, remove fear, stone shape, unhallow"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_malleable_monument",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_malleable_monument",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

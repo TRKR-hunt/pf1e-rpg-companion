@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mantle_of_faith__crb_",
+    "name": {
+      "value": "Mantle of faith #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong abjuration; CL 20th; Slot chest; Price 76,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This holy garment bears the varied religious icons and favored colors of a specific faith. When worn over normal clothing, grants damage reduction 5/evil to the character wearing it. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, stoneskin; Cost 38,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mantle_of_faith",
+          "value": {
+            "value": 76000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

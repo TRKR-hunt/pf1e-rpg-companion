@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bubble_vault__crb_",
+    "name": {
+      "value": "Bubble Vault"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Slot none; Price 1,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This tiny pearl swells to form a 1-foot-diameter soap-like bubble when placed in water. Up to 5 cubic feet of goods can be placed inside the bubble vault. On command, the bubble sinks to the bottom of the water, automatically burying itself 1 foot deep in the bottom ground if there is mud or other loose material present. If the command word is spoken three times within 30 feet of the bubble, it rises to the surface of the water, at which time it can be opened and the items within it retrieved. Once opened, the bubble reverts to its pearl form for 24 hours. The bubble is watertight but does not otherwise magically protect or preserve its contents. If forced open, it has hardness 1 and 5 hit points. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, shrink item, unseen servant; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bubble_vault",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

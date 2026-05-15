@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_miasmatic__crb_",
+    "name": {
+      "value": "Mask, Miasmatic"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 23,000 gp; Slot head; CL 7th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This dark purple mask is contorted and twisted, and it covers the top half of the wearer\u00e2\u0080\u0099s face in swirls of thick brocade and lace. Dappled across the mask\u00e2\u0080\u0099s swaths are dozens of twinkling amethysts. EFFECTS This mask grants the wearer the ability to transform into a poisonous gaseous form once per day, as per the spell miasmatic form. This transformation lasts for 5 minutes, at which point the wearer immediately turns back into her original form. If the wearer reverts to her original form in a space that would not normally accommodate her body, she is shunted to the nearest such open space. Activating this mask is a standard action that provokes attacks of opportunity. CONSTRUCTION REQUIREMENTS Cost 11,500 gp; Feats Craft Wondrous Item; Spells miasmatic form"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_miasmatic",
+          "value": {
+            "value": 23000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_miasmatic",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

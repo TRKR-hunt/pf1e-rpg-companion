@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "traveler_s_grandiose_carrying_case__crb_",
+    "name": {
+      "value": "Traveler's Grandiose Carrying Case"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,200 gp; Slot none; CL 5th; Weight 2 lbs.; Aura moderate illusion and transmutation DESCRIPTION This masterwork harrow carrying case protects the harrow deck within from harm. When the case is used as part of a harrowing, the light level within 15 feet of the case darkens to dim light and miniature illusions of the interpreted cards appear in front of the harrower and her subjects. While stored in a traveler\u2019s grandiose carrying case, a harrow deck gains a +2 bonus on saves against effects that specifically target the deck. CONSTRUCTION REQUIREMENTS Cost 600 gp; Feats Craft Wondrous Item; Spells darkness, endure elements, major image"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_traveler_s_grandiose_carrying_case",
+          "value": {
+            "value": 1200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_traveler_s_grandiose_carrying_case",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

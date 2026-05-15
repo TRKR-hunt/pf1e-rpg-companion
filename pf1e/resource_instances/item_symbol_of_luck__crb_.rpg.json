@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "symbol_of_luck__crb_",
+    "name": {
+      "value": "Symbol of Luck"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 3rd; Slot none; Price 6,000 gp; Weight 1 lb. DESCRIPTION This translucent sphere of iron-hard glass changes shape to match its bearer\u2019s holy symbol within an hour of coming into her possession. After that transformation is complete, when this symbol is used by a halfling with the luck or adaptable luck racial trait to channel energy in order to heal, it also grants those healed a +1 luck bonus on saving throws for a number of rounds equal to the number of dice healed by the channel energy. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, divine favor, the creator must be a halfling; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_symbol_of_luck",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_symbol_of_luck",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rope_of_entanglement__crb_",
+    "name": {
+      "value": "Rope of entanglement #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 12th; Slot \u00e2\u0080\u0094; Price 21,000 gp; Weight 5 lbs. DESCRIPTION A rope of entanglement looks just like any other hempen rope about 30 feet long. Upon command, the rope lashes forward 20 feet or upward 10 feet to entangle a victim. An entangled creature can break free with a DC 20 Strength check or a DC 20 Escape Artist check. A rope of entanglement has AC 22, 12 hit points, hardness 10, and damage reduction 5/slashing. The rope repairs damage to itself at a rate of 1 point per 5 minutes, but if a rope of entanglement is severed (all 12 hit points lost to damage), it is destroyed. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, animate objects, animate rope or entangle; Cost 10,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rope_of_entanglement",
+          "value": {
+            "value": 21000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rope_of_entanglement",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

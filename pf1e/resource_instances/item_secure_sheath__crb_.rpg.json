@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "secure_sheath__crb_",
+    "name": {
+      "value": "Secure Sheath"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 500 gp; Slot none; CL 4th; Weight 1 lb.; Aura faint conjuration DESCRIPTION Secure sheaths take a hundred different forms, from simple loops to richly engraved scabbards. A secure sheath can be attuned to a new owner by that character wearing it continuously for 24 hours. If anyone other than the owner attempts to draw a weapon from a secure sheath, he finds that the weapon is stuck and must succeed at a DC 20 Strength check to pull it out. CONSTRUCTION REQUIREMENTS Cost 250 gp; Feats Craft Magic Arms and Armor; Spells glue seal"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_secure_sheath",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_secure_sheath",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

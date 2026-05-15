@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_mind_mastery__crb_",
+    "name": {
+      "value": "Rod of mind mastery"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration and divination; CL 7th; Slot none; Price 67,000 gp; Weight 5 lbs. DESCRIPTION This rod is a simple, unadorned piece of clear crystal that has been magically hardened. The wielder of the rod is under a constant nondetection effect, as the spell. Furthermore, the rod has the following powers. Three times per day on command, the user of the rod can use it to detect thoughts as the spell. Once per day as an immediate action, the wielder may determine whether someone is lying to her, as the discern lies spell. CONSTRUCTION REQUIREMENTS Feats Craft Rod, detect thoughts, discern lies, nondetection; Cost 33,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_mind_mastery",
+          "value": {
+            "value": 67000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_mind_mastery",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

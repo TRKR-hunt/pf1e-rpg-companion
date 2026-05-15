@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_hungry_shadows__crb_",
+    "name": {
+      "value": "Staff of hungry shadows"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong varies; CL 13th; Slot none; Price 69,300 gp; Weight 5 lbs. DESCRIPTION This staff is made of scorched and twisted wood and is set with a crystal sphere filled with swirling smoke. It allows the use of the following spells: Darkness (1 charge) Ray of enfeeblement (1 charge) Vampiric touch (1 charge) Enervation (2 charges) Summon shadow (as summon monster V but summons 1 shadow, 2 charges) Call devourer (as planar binding but calls 1 devourer, 3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells darkness, enervation, planar binding, ray of enfeeblement, summon monster V, vampiric touch; Cost 34,650 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_hungry_shadows",
+          "value": {
+            "value": 69300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_hungry_shadows",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

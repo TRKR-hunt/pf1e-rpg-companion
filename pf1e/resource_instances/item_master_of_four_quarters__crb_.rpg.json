@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "master_of_four_quarters__crb_",
+    "name": {
+      "value": "Master of Four Quarters"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Pathfinder #22 Aura moderate enchantment; CL 9th; Slot genie seal; Price 12,000 gp; Weight \u2014 DESCRIPTION This seal is perhaps the most hated by geniekind, for it uses the power of the imprisoned genie to dominate other elemental creatures. The master of four quarters is made of ivory and set with red and blue jewels at the corners. Once per day, a character who takes a standard action to present the seal and the bottle it graces can use a charm monster spell against a single elemental creature in range of the spell. The targeted elemental can resist the charm with a DC 16 Will save, but if the targeted elemental has the same elemental subtype as that of the imprisoned genie, the elemental suffers a \u20134 penalty to his saving throw. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, charm monster; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_master_of_four_quarters",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

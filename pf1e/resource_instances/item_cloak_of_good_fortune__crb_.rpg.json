@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_of_good_fortune__crb_",
+    "name": {
+      "value": "Cloak of Good Fortune"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,500 gp; Slot shoulders; CL 9th; Weight 1 lb.; Aura moderate evocation DESCRIPTION This elegant cloak has simple prayers to kami stitched into its lining. EFFECTS The wearer gains a +1 luck bonus on attack rolls, and once per day, the wearer can spend 10 minutes reciting prayers from the cloak\u00e2\u0080\u0099s lining to pose a single question to a nearby spirit, as per commune. CONSTRUCTION REQUIREMENTS Cost 6,250 gp; Feats Craft Wondrous Item; Spells commune, divine favor"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_of_good_fortune",
+          "value": {
+            "value": 12500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_of_good_fortune",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

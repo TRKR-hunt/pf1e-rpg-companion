@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grim_lantern__crb_",
+    "name": {
+      "value": "Grim lantern #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Weight 2 lbs.; Slot none; Price 5,800 gp DESCRIPTION This macabre lantern is composed of a humanoid skull dangling from a short length of chain. A small fragment of soulstuff is trapped inside, burning slowly in a heatless flame. Its flickering light shines from the skull\u2019s eye sockets, casting light as a bullseye lantern. On command, the lantern can consume its soulstuff in a sudden blast of heat, as burning hands. Doing so extinguishes the lantern. Whenever a living creature with at least 1 HD is slain within 30 feet of an empty grim lantern, the lantern absorbs a fragment of that creature\u2019s soul, restoring its glow. CONSTRUCTION REQUIREMENTS; Cost 2,900 gp Craft Wondrous Item, burning hands, creator cannot be good; Cost 2,900 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grim_lantern",
+          "value": {
+            "value": 5800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_grim_lantern",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

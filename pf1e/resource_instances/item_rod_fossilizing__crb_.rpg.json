@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_fossilizing__crb_",
+    "name": {
+      "value": "Rod, Fossilizing"
+    },
+    "source": {
+      "value": "elemental_masters_handbook"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,400 gp; Slot none; CL 11th; Weight 4 lbs.; Aura moderate necromancy and transmutation DESCRIPTION This forearm-length rod of onyx gemstone is capped by a sphere of amber. Once per day when the bearer of a fossilizing rod casts animate dead to animate skeletons, she can imbue the skeletons with fossilizing earth energy. Fossilized skeletons gain the earth subtype, reduce their Dexterity scores by 4 and their speeds by 10 feet, and cannot fly even if they could do so magically in life. However, due to the stone infusing their bones, fossilized skeletons gain hardness 8. CONSTRUCTION REQUIREMENTS Cost 13,200 gp; Feats Craft Rod; Spells flesh to stone"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_fossilizing",
+          "value": {
+            "value": 26400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_fossilizing",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

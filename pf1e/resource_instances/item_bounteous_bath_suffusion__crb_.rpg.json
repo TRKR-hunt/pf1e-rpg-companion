@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bounteous_bath_suffusion__crb_",
+    "name": {
+      "value": "Bounteous Bath Suffusion"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,200 gp; Slot none; CL 12th Weight \u00e2\u0080\u0094; Aura strong conjuration EFFECTS A single bounteous bath suffusion can be used to fill a bath with enough water for a single Medium or Large creature. A living creature that spends 20 minutes in such a treated bath receives the benefits of both neutralize poison (only the option to neutralize poison affecting the suffusion\u00e2\u0080\u0099s user) and remove disease. The bathing creature also gains a +2 circumstance bonus on saving throws against diseases and poisons for the next 24 hours. CONSTRUCTION REQUIREMENTS Cost 600 gp; Feats Craft Wondrous Item; Spells neutralize poison, remove disease"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bounteous_bath_suffusion",
+          "value": {
+            "value": 1200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_cat_burglar_s__crb_",
+    "name": {
+      "value": "Boots, Cat Burglar's"
+    },
+    "source": {
+      "value": "shards_of_sin"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot feet; Price 2,000 gp; Weight 1 lb. DESCRIPTION These soft-soled boots provide their wearer with a +2 competence bonus on Acrobatics, Climb, and Stealth checks. Once per day as an immediate action, the wearer of cat burglar\u2019s boots can reroll any one failed Acrobatics, Climb, or Stealth check, taking the result of that check in place of the first failed check (even if the second result is worse). In addition, a secret pocket in the boots is built to hold a fully functional set of masterwork thieves\u2019 tools. A DC 22 Perception check is required to notice this pocket. Any other object in the pocket causes it to bulge and become obvious to even casual observation. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, cat\u2019s grace; Cost 1,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_cat_burglar_s",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_cat_burglar_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vest_mushroom__crb_",
+    "name": {
+      "value": "Vest, Mushroom"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Source Second Darkness Player\u2019s Guide Aura faint abjuration; CL 5th; Slot chest; Price 500 gp; Weight 3 lbs. DESCRIPTION This spongy, mottled brown vest is several inches thick and composed of woven strips of preserved fungus. The vest feels soft to the touch and springs back into shape no matter how badly compressed. Its magic keeps the vest fresh and whole despite constant wear and abuse. A mushroom vest protects you from impact trauma. When wearing the vest, you treat any fall as if it were 20 feet less when calculating damage. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, feather fall; Cost 250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vest_mushroom",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vest_mushroom",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

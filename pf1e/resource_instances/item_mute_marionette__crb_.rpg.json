@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mute_marionette__crb_",
+    "name": {
+      "value": "Mute Marionette"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,500 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate enchantment DESCRIPTION Every mute marionette appears as a hag with its lips sewn shut. The creator of a mute marionette chooses a creature type or subtype from the ranger\u2019s list of favored enemies to which the doll is attuned. If the doll\u2019s owner is within 30 feet of one or more creatures of the attuned type, the owner can shake the doll as a standard action. Creatures of the attuned type must attempt a DC 11 Will save; on a failure, for the next hour, affected creatures have a 10% chance of failing to cast spells or spell-like abilities as long as they remain within 30 feet of the doll. Regardless of the result of its save, a creature cannot be targeted by a mute marionette more than once per 24 hours. Once per day, a mute marionette can be presented forcefully to cast confusion (DC 16) at an area within 170 feet, affecting all creatures of the attuned type in a 15-foot-radius burst. CONSTRUCTION REQUIREMENTS Cost 8,250 gp; Feats Craft Wondrous Item; Spells confusion, fumbletongue"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mute_marionette",
+          "value": {
+            "value": 16500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mute_marionette",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "book_of_marvelous_recipes__crb_",
+    "name": {
+      "value": "Book of Marvelous Recipes"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate conjuration; CL 11th; Slot none; Price 28,800; Weight 3 lbs. DESCRIPTION The pages of this thick and travel-worn leather book visibly rewrite themselves as a reader flips through them, creating a number of delicious recipes that seem to anticipate the current craving or culinary desires of the reader. The recipes can aid the reader in creating such dishes, allowing him to use the Profession (cook) skill untrained, or granting a +4 competence bonus on such checks if the reader is trained in that skill. Furthermore, once per day, this book can be used to enhance a meal the reader is cooking. When used in this way, it grants the meal being cooked the effects of a heroes\u2019 feast spell ( caster level 11th). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, heroes\u2019 feast, the creator must have at least 4 ranks in Profession (cook); Cost 14,400 gp"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_book_of_marvelous_recipes",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wasp_s_kiss__crb_",
+    "name": {
+      "value": "Wasp's Kiss"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 26,380 gp; Slot none; CL 7th; Weight 7 lbs.; Aura moderate necromancy DESCRIPTION The long blade of this weapon bears shifting black and yellow patterns, resembling the markings of a wasp. This +1 heartseeker elven curve blade has three slots built into the hilt for storing doses of poison. Adding or removing a dose of poison from the blade is a swift action that requires a free hand. Any creature struck by a wasp\u2019s kiss suffers a \u00e2\u0080\u00934 penalty on saving throws against the poison applied to the weapon. The frequency of any poison applied to the weapon increases by 2 (for example, black adder venom lasts 8 rounds instead of 6, and arsenic lasts for 6 minutes instead of 4). Attempts to cure the poisoned target with a skill or magic take a \u00e2\u0080\u00934 penalty. CONSTRUCTION REQUIREMENTS Cost 13,380 gp; Feats Craft Magic Arms and Armor; Spells death knell, pernicious poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wasp_s_kiss",
+          "value": {
+            "value": 26380
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wasp_s_kiss",
+          "value": {
+            "value": 7
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bone_razor__crb_",
+    "name": {
+      "value": "Bone razor #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 5th; Weight 1 lb.; Slot none; Price 5,000 gp DESCRIPTION This jagged bone knife seems too thin and frail for combat but easily cuts flesh. If used to perform a coup de grace on a helpless living creature and the creature dies from the attack, the creature\u2019s flesh begins to peel off and its bones animate as a skeleton under the command of the bearer of the razor. The creature\u2019s flesh is not destroyed, but decays at a steady rate. The bearer of the razor can spend 1 minute reattaching the flesh to the animate skeleton, which ends the necromantic magic and results in a normal corpse (though a corpse of a person killed or mutilated by knife wounds). If the bearer uses the razor to flense and animate another creature\u2019s bones, the previous animate skeleton is immediately destroyed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells animate dead; Cost 2,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bone_razor",
+          "value": {
+            "value": 5000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bone_razor",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

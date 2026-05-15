@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "emancipation_hammer__crb_",
+    "name": {
+      "value": "Emancipation Hammer"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,312 gp; Slot weapon; CL 9th Weight 5 lbs.; Aura moderate abjuration and evocation APPEARANCE A broken chain link of tempered steel is embedded in the head of this +1 warhammer. EFFECTS If the wielder successfully uses the hammer to make an attack or perform a sunder combat maneuver against a non-magical metal chain or an object made of non-magical chain links (excluding weapons or armor), it deals an additional 2d6 points of damage. In addition, once per day as a standard action, the wielder can speak a command word to attempt to remove a compulsion spell or effect from a willing creature that is within 30 feet, as per break enchantment. The owner can use this ability as long as she has an emancipation hammer on her person, even if she\u00e2\u0080\u0099s not wielding it; however, when targeting an unwilling creature, the wielder must succeed at a touch attack, and may choose to forgo the damage that would usually be dealt. (If the wielder\u00e2\u0080\u0099s attack misses, the hammer\u00e2\u0080\u0099s magic is not expended.) The owner of the hammer can use this ability to remove a compulsion from herself, as long as the compulsion doesn\u00e2\u0080\u0099t prevent it. CONSTRUCTION REQUIREMENTS Cost 7,812 gp; Feats Craft Magic Arms and Armor; Spells break enchantment, shatter"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_emancipation_hammer",
+          "value": {
+            "value": 13312
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_emancipation_hammer",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

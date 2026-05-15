@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mummified_guardian__crb_",
+    "name": {
+      "value": "Mummified Guardian"
+    },
+    "source": {
+      "value": "the_half_dead_city"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Slot none; Price 3,500 gp; Weight 3 lbs. DESCRIPTION This mummified house cat\u00e2\u0080\u0094dried, filled with sand, and bound in linen wrappings\u00e2\u0080\u0094 appears to be nothing more than a family pet buried alongside its deceased master. Far more than a mere pet, however, a mummified guardian protects and preserves the corpse it is interred with and acts as a guardian against grave robbers and looters, potentially driving such trespassers toward more dangerous defenders or traps. When placed inside a sarcophagus or coffin alongside a dead body and activated, a mummified guardian also infuses the corpse with positive energy, preventing the body from being turned into an undead creature, as sanctify corpse. In addition, the mummified guardian also creates a magical ward around the sarcophagus containing it. If the sarcophagus is opened after the mummified guardian is placed inside, any creature with 5 Hit Dice or fewer within 20 feet of the open sarcophagus is overcome by a feeling of dread and must succeed at a DC 13 Will save or be frightened for 3 rounds. On a successful save, a creature is instead shaken for 1 round. This ability functions only once. Once triggered, the mummified guardian retains only its sanctify corpse ability (this reduces the price of the mummified guardian to 3,000 gp). If the sarcophagus containing the mummified guardian is placed in an area or room with multiple paths of egress, the owner may designate one general direction an affected target must take if it flees, as long as the chosen direction does not require the target to move any closer to the mummified guardian. After moving in the designated direction for 1 round, the target behaves as normal for the frightened condition for the remainder of the effect\u2019s duration. A mummified guardian must be placed inside a sarcophagus, coffin, or other enclosed container with a dead body to function. Although cats are most common, mummified guardians can be created from the mummified remains of other small animals as well. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells alarm, sanctify corpse, scare; Special creator must have 5 ranks in the Heal skill; Cost 1,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mummified_guardian",
+          "value": {
+            "value": 3500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mummified_guardian",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

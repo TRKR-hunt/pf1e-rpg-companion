@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_burglar__crb_",
+    "name": {
+      "value": "Burglar boots"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Burglar Boots, Minor Aura faint divination; CL 1st; Slot feet; Price 4,000 gp; Weight 1/2 lb. DESCRIPTION These form-fitting, calfskin boots are dyed black and lightly decorated with raven feathers. They grant their wearer a +5 competence bonus on Perception checks to spot or locate traps and devices on the floor with 10 feet. This includes pits, pressure plates, and other mechanical and magical devices located on or attached to the floor. This bonus also applies to AC and on any Reflex saving throws against such traps. CONSTRUCTION REQUIREMENTS Craft Wondrous Item; Special creator must have 4 ranks in Perception; Cost 2,000 gp. Burglar Boots, Major Aura moderate divination; CL 10th; Slot feet; Price 46,000 gp; Weight 1/2 lb. DESCRIPTION These boots look and act as the minor burglar boots, but grant a +10 competence bonus on Perception checks and to AC and on Reflex saves. Also, once per day on command, these boots grant the wearer the ability to use find traps as the spell. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, find traps; Special creator must have at least 12 ranks in Perception; Cost 23,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_burglar",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

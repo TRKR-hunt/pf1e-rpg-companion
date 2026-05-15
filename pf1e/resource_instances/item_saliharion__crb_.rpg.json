@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "saliharion__crb_",
+    "name": {
+      "value": "Saliharion"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 3,000 gp; Slot none; CL 5th; Weight 15 lbs.; Aura faint divination DESCRIPTION Note This item is associated with a particular deity that can not be named here. This hefty tome contains inspiring parables, simple folk remedies for widespread illnesses and injuries, and helpful hints for dealing with common monsters. Its pages are expertly illuminated with brilliant inks and metallic foil, depicting scenes of angels battling various monstrosities. While in possession of this book, the owner gains a +2 sacred bonus on Heal checks and Knowledge skill checks to identify the abilities and weaknesses of monsters. If the associated deity is the owner\u00e2\u0080\u0099s patron, the owner may instead choose to gain a sacred bonus equal to her Wisdom or Charisma modifier on these skill checks instead of the normal +2 bonus. CONSTRUCTION REQUIREMENTS Cost 1,500 gp; Feats Craft Wondrous Item; Spells know the enemy, owl\u00e2\u0080\u0099s wisdom"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_saliharion",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_saliharion",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

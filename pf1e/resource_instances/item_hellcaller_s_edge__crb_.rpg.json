@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hellcaller_s_edge__crb_",
+    "name": {
+      "value": "Hellcaller's Edge"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate evocation; CL 9th; Slot none; Price 20,350 gp; Weight 8 lbs. DESCRIPTION Bestowed as rewards for unwavering loyalty to Hell Knights of great renown, these filigreed +2 greatswords pulse with a sickening carmine light in rhythm with the heartbeats of their bearers. Prized trophies, these weapons are brandished eagerly by staunch champions. Once per day as a standard action, you may strike the blade against the ground to create a one-way rift from Phlegethon (the fieriest layer of Hell ) centered where the sword hits. The rift spews magical flames upward in a 10-ft-radius, 40-foot-high cylinder. All creatures in this area (including you) take 9d6 points of damage ( Reflex half DC 17). Half the damage is fire, but the other half results directly from divine power and is therefore not subject to fire resistance or immunity. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells flame strike, caster level 6th; Cost 10,350 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hellcaller_s_edge",
+          "value": {
+            "value": 20350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hellcaller_s_edge",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

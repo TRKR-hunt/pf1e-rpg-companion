@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "collapsible_tower__crb_",
+    "name": {
+      "value": "Collapsible tower"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 6th; Weight 15 lbs.; Price 8,170 gp DESCRIPTION Three times per day, this +2 heavy steel shield can be commanded to transform into a +2 tower shield. It can stay in tower shield form for 1 minute or until it is commanded to take its normal form again (a swift action ). A collapsible tower\u2019s weight does not change when it takes tower shield form. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells shrink item; Cost 4,170 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_collapsible_tower",
+          "value": {
+            "value": 8170
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_collapsible_tower",
+          "value": {
+            "value": 15
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

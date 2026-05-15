@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "archon_s_torch__crb_",
+    "name": {
+      "value": "Archon\u2019s torch #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th; Weight 1 lb.; Slot none; Price 750 gp DESCRIPTION This torch is made of pale yellow wood and inscribed with holy runes. When lit, it burns as a regular torch, but only lasts for 5 minutes. When held by a lawful good creature, it functions as an archon\u2019s aura spell. The magical aura ends if a lawful good creature isn\u2019t holding it, and resumes automatically if a lawful good creature holds it again. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, archon\u2019s aura; Cost 375 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_archon_s_torch",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_archon_s_torch",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

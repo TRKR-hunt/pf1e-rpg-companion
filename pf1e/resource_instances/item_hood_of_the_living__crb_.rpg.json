@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hood_of_the_living__crb_",
+    "name": {
+      "value": "Hood of the Living"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,840 gp; Slot head; CL 1st; Weight 1 lb.; Aura faint divination DESCRIPTION This simple leather coif grants the wearer a +2 resistance bonus on Will saves against mind-affecting effects created by undead creatures. Three times per day, the wearer may activate the hood of the living to detect the auras of any undead creatures within a 30-foot radius. Doing so is a full-round action that discloses the presence of any undead auras, the number of undead auras, and the direction of the nearest undead aura, as though the user had concentrated for 3 rounds while using detect undead. When activated, a hood of the living also detects any living creatures within a 30-foot radius that are acting under the effects of a charm or compulsion created by an undead creature. This effect only reveals the presence of such creatures, not their number or location. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells detect undead, protection from evil; Cost 1,420 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hood_of_the_living",
+          "value": {
+            "value": 2840
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_hood_of_the_living",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

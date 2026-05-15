@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mute_dart__crb_",
+    "name": {
+      "value": "Mute Dart"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 566 gp; Slot none; CL 5th; Weight \u00e2\u0080\u0094; Aura faint illusion DESCRIPTION This ivory +1 blowgun dart emits a silence effect that envelops the space of the creature or object it strikes, up to a maximum radius of 20 feet. If a creature is struck, it can resist the silence with a successful DC 13 Will save. CONSTRUCTION REQUIREMENTS Cost 286 gp; Feats Craft Magic Arms and Armor; Spells silence"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mute_dart",
+          "value": {
+            "value": 566
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_of_refusal__crb_",
+    "name": {
+      "value": "Ring of Refusal"
+    },
+    "source": {
+      "value": "inner_sea_monster_codex"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,500 gp; Slot ring; CL 13th; Weight \u00e2\u0080\u0094; Aura strong conjuration and transmutation DESCRIPTION Powerful gillmen who suspect they harbor unwitting allegiance to hidden masters use rings of refusal to resist such bonds. The wearer of a ring of refusal gains a +2 bonus on saving throws against enchantment spells and effects. When the wearer is targeted by break enchantment or a similar effect that ends an enchantment, the caster gains a +2 bonus on caster level checks to resolve the effect. The wearer can also activate the ring once per day as an immediate action to gain spell resistance 25 against a single enchantment spell or effect. CONSTRUCTION REQUIREMENTS Cost 16,250 gp; Feats Forge Ring; Spells break enchantment, spell resistance"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_of_refusal",
+          "value": {
+            "value": 32500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

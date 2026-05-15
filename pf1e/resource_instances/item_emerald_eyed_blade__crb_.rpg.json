@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "emerald_eyed_blade__crb_",
+    "name": {
+      "value": "Emerald-Eyed Blade"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 24,315 gp; Slot none; CL 9th Weight 4 lbs.; Aura moderate necromancy APPEARANCE This scimitar has an emerald gem set into its hilt. EFFECTS This is a +3 scimitar Additionally, when the wielder confirms a critical hit with the emerald-eyed blade, as a free action the wielder can cause the weapon to inflict a terrible curse upon the foe. The affected creature cannot benefit from spells, potions, or other magic items with the word \u00e2\u0080\u009ccure\u00e2\u0080\u009d in their names until the curse is lifted with a remove curse or break enchantment spell (DC 20) or a limited wish, wish, or miracle. CONSTRUCTION REQUIREMENTS Cost 21,315 gp; Feats Craft Wondrous Item?; Spells bestow curse"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_emerald_eyed_blade",
+          "value": {
+            "value": 24315
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_emerald_eyed_blade",
+          "value": {
+            "value": 4
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

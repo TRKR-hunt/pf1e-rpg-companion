@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracelet_of_bargaining__crb_",
+    "name": {
+      "value": "Bracelet of bargaining #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 7th; Slot wrists; Price 14,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This heavy gold band can be worn openly as a display of wealth or concealed beneath a sleeve. It grants its wearer a +5 competence bonus on Bluff, Diplomacy, and Sense Motive checks. Whenever the wearer shakes hands with another creature in order to seal a deal or a promise, she can immediately sense whether deceit is involved ( Will save DC 16 negates), though the wearer cannot determine the exact nature of the deception. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, detect lie, detect thoughts; Cost 7,250 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracelet_of_bargaining",
+          "value": {
+            "value": 14500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

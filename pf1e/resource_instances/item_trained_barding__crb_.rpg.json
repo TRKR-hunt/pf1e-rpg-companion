@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "trained_barding__crb_",
+    "name": {
+      "value": "Trained Barding"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,350 gp; Slot armor; CL 9th; Weight 30 lbs.; Aura moderate transmutation DESCRIPTION This suit of Large +2 scale mail barding is equipped with leather straps and loops suitable for attaching harnesses and leashes. It can fit any Large animal or magical beast, though not creatures of any other type. When worn by an animal, this armor grants the animal two additional tricks or one general purpose (as defined by the Handle Animal skill), determined at the time the armor is created. CONSTRUCTION REQUIREMENTS Cost 4,350 gp; Feats Craft Magic Arms and Armor; Spells awaken"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_trained_barding",
+          "value": {
+            "value": 8350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_trained_barding",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "talisman_greater__crb_",
+    "name": {
+      "value": "Talisman, Greater"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price varies- 500 gp (Beneficial Winds), 4,500 gp (Akoben), 4,500 gp (Sealed Summons), 4,500 gp (Warrior\u2019s Courage), 6,000 gp (Arrow Protection), 6,000 gp (Pentacle), 6,000 gp (Scarab), 6,000 gp (Triskelion), 7,500 gp (Danger Sense), 9,000 gp (Freedom), 12,500 gp (Ankh), 12,500 gp (Protection from Flames), 16,800 gp (Good Fortune), 24,000 gp (Healing Power), 30,000 gp (Hamsa), 35,000 gp (Life\u2019s Breath); Slot neck; CL varies; Weight 1 lb.; Aura varies DESCRIPTION A greater talisman functions as a lesser talisman of the same type, but has much greater longevity. It can provide its benefits once per day. CONSTRUCTION REQUIREMENTS Cost varies- 2,250 gp (Akoben), 6,250 gp (Ankh), 3,000 gp (Arrow Protection), 250 gp (Beneficial Winds), 3,750 gp (Danger Sense), 4,500 gp (Freedom), 8,400 gp (Good Fortune), 15,000 (Hamsa), 12,000 gp (Healing Power), 17,500 gp (Life\u2019s Breath), 3,000 gp (Pentacle), 6,250 gp (Protection from Flames), 3,000 gp (Scarab), 2,250 gp (Sealed Summons), 3,000 gp (Triskelion), 2,250 gp (Warrior\u2019s Courage) Feats Craft Wondrous Item; Spells (see text)"
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_talisman_greater",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

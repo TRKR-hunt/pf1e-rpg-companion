@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "exorcist_s_aspergillum__crb_",
+    "name": {
+      "value": "Exorcist\u2019s aspergillum #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 7th; Weight 1 lb.; Slot none; Price 8,000 gp DESCRIPTION This short aspergillum is made of silver. An inquisitor who carries it may use detect undead as if it were one of the spells associated with her detect alignment ability. Once per day, the item can alter an inquisitor\u2019s judgment ability; by spending one use of her judgment ability, she can allow her spells of 3rd level and lower to have full effect against incorporeal creatures, as though using the Ectoplasmic Spell feat. This lasts until the combat ends. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Ectoplasmic Spell, detect undead; Special creator must be an inquisitor; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_exorcist_s_aspergillum",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_exorcist_s_aspergillum",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

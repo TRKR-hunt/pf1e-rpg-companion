@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "champion_s_banner__crb_",
+    "name": {
+      "value": "Banner, Champion's"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; Slot none; CL 5th; Price 8,000 gp; Weight 3 lbs. DESCRIPTION A champion\u2019s banner is a cloth flag or standard (typically 2 feet wide and 4 feet long) meant to be carried and displayed on a lance, polearm, frame, or staff. It has no effect unless it is mounted properly and a wielder is carrying the object bearing it. It depicts the insignia or heraldic symbol of its wielder; if the wielder has no such symbol, it depicts a heraldic lion. A character with the challenge class feature carrying a champion\u2019s banner treats his class level as 4 levels higher when determining the effect of his challenge ability. This does not alter the number of times per day the wielder may use his challenge ability, only the value of the bonuses it grants when he does so. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, eagle\u2019s splendor, Knowledge (nobility) 5 ranks; Cost 4,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_champion_s_banner",
+          "value": {
+            "value": 8000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_champion_s_banner",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

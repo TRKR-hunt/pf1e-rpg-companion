@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "incense_of_eidos__crb_",
+    "name": {
+      "value": "Incense of Eidos"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,000 gp; Slot none; CL 8th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION This incense gives off a musty smell when burned, reminiscent of old tomes in libraries. When a character lights incense of eidos and then spends 10 minutes meditating nearby, she is able to recall with perfect clarity any information she wishes. For the next 10 minutes, the affected character can take 20 on any Knowledge skill check, even if in immediate danger or distracted. One pound of incense of eidos is enough for three 10-minute meditation sessions. CONSTRUCTION REQUIREMENTS Cost 1,000 gp; Feats Craft Wondrous Item; Spells fox\u2019s cunning"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_incense_of_eidos",
+          "value": {
+            "value": 2000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_incense_of_eidos",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

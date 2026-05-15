@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goblet_of_quenching__crb_",
+    "name": {
+      "value": "Goblet of Quenching"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration (creation); CL 1st; Slot none; Price 180 gp; Weight 1 lb. DESCRIPTION At your command, this simple clay goblet fills itself with cool, fresh drinking water. The goblet can create up to 2 gallons of water per day. The water evaporates normally if left exposed, and is completely normal water; you can store it, use it to create holy water, and so on. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, create water; Cost 90 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goblet_of_quenching",
+          "value": {
+            "value": 180
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_goblet_of_quenching",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

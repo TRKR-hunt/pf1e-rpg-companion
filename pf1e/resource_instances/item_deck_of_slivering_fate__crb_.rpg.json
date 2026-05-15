@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "deck_of_slivering_fate__crb_",
+    "name": {
+      "value": "Deck of Slivering Fate"
+    },
+    "source": {
+      "value": "the_harrow_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 13,000 gp; Slot none; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate evocation DESCRIPTION The 54 cards in this +1 limning harrow deck have more violent imagery than a standard harrow deck, and each card has a thin metallic frill around its edges. When the wielder uses a card from this deck with the Deadly Dealer feat, the metallic frills become taut and sharp. When they are used in this way, the cards deal slashing damage instead of piercing, and the bonus damage from the Arcane Strike feat is doubled. CONSTRUCTION REQUIREMENTS Cost 6,500 gp; Feats Craft Magical Arms and Armor, Craft Wondrous Item, Deadly Dealer; Spells magic missile"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_deck_of_slivering_fate",
+          "value": {
+            "value": 13000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

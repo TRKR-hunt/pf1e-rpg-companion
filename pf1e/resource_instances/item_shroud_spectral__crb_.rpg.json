@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "shroud_spectral__crb_",
+    "name": {
+      "value": "Spectral shroud"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 5th; Slot chest; Price 26,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This thin, bleached cloth covers the wearer\u00e2\u0080\u0099s entire torso. Some also cover the wearer\u00e2\u0080\u0099s face, but don\u00e2\u0080\u0099t interfere with the wearer\u00e2\u0080\u0099s vision. The morbid burial shroud grants the wearer some affinity with the spectral dead. The wearer can discern invisible or ethereal creatures as though using see invisibility. Once per day, the wearer can become incorporeal for 10 rounds and gain a fly speed equal to half his base speed with perfect maneuverability. The wearer can\u00e2\u0080\u0099t attack while incorporeal, but can dismiss the effect as a move action. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, hide from undead, see invisibility; Cost 13,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_shroud_spectral",
+          "value": {
+            "value": 26000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

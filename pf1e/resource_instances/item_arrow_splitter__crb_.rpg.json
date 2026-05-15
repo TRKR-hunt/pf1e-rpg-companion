@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "arrow_splitter__crb_",
+    "name": {
+      "value": "Arrow Splitter"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 180,375 gp; Slot none; CL 15th; Weight 3 lbs.; Aura strong evocation DESCRIPTION This +5 second chance longbow is made of supple willow that forever looks freshly carved. When the wielder hits a foe multiple times with the bow, the arrows land in the same spot, driving their way deeper. A creature struck by an arrow fired from an arrow splitter takes an additional 1d6 points of precision damage for each arrow fired from an arrow splitter that has struck the creature within the same round. For example, if a creature is struck by three arrows fired from an arrow splitter in the same round, the first arrow deals damage as normal, the second arrow deals an additional 1d6 points of precision damage, and the third arrow deals an additional 2d6 points of precision damage. CONSTRUCTION REQUIREMENTS Cost 90,375 gp; Feats Craft Magic Arms and Armor; Spells ricochet shot, sonic thrust"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_arrow_splitter",
+          "value": {
+            "value": 180375
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_arrow_splitter",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

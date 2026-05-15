@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mask_miser_s__crb_",
+    "name": {
+      "value": "Miser\u2019s mask"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 1st; Slot head; Price 3,000 gp; Weight 1 lb. DESCRIPTION This wooden mask depicts the sunken face of a miser with an upturned nose. The mask grants the wearer the scent ability, but she can use it only to sense coins and gems. Each type and quality of gem has its own unique aura to the wearer, granting her a +5 competence bonus on Appraise checks made to ascertain the value of gems. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, bloodhound, the creator must have 4 ranks in Appraise; Cost 1,500 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mask_miser_s",
+          "value": {
+            "value": 3000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_mask_miser_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

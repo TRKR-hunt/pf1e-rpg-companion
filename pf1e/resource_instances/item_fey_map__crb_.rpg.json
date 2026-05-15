@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fey_map__crb_",
+    "name": {
+      "value": "Fey Map"
+    },
+    "source": {
+      "value": "the_first_world_realm_of_the_fey"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 16,200 gp; Slot none; CL 9th; Weight \u00e2\u0080\u0094; Aura moderate conjuration DESCRIPTION This stylized and labeled map of the Plane of Faerie constantly shifts to reflect the relative locations of dozens of major geographical features, settlements, and other key locations. In addition, a tiny icon of whoever is currently holding the map appears at the user\u00e2\u0080\u0099s current location, moving to track the bearer\u00e2\u0080\u0099s progress as he travels. The map\u00e2\u0080\u0099s scale is very large, covering thousands of square miles of territory, and has little detail outside of the artistic representations of key locations. Once per day, the user can fold the map so that his icon touches the icon of one of the named locations; rubbing them together allows the user to instantly transport himself and up to three other touched creatures to a point just outside that location, as per teleport. CONSTRUCTION REQUIREMENTS Cost 8,100 gp; Feats Craft Wondrous Item; Spells planar orientation, teleport"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fey_map",
+          "value": {
+            "value": 16200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "parting_glass__crb_",
+    "name": {
+      "value": "Parting Glass"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 23,000 gp; Slot none; CL 12th; Weight 1 lb.; Aura strong enchantment DESCRIPTION A parting glass, engraved with the names of adventuring companies and their honored dead is a rare gift. Once per day when used in a toast with at least one other creature, a single creature drinking from a parting glass gains a +5 morale bonus on the next saving throw it attempts within 24 hours, and one poison (other than alcohol) currently affecting the drinker is targeted by neutralize poison. CONSTRUCTION REQUIREMENTS Cost 11,500 gp; Feats Craft Wondrous Item; Spells greater heroism, neutralize poison"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_parting_glass",
+          "value": {
+            "value": 23000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_parting_glass",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

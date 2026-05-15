@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "incense_of_dulled_senses__crb_",
+    "name": {
+      "value": "Incense of Dulled Senses"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 1,500 gp; Slot none; CL 10th; Weight \u2014; Aura moderate abjuration DESCRIPTION This gray incense smells of cold granite. When burned, the smoke from the incense spreads to fill a space equal to ten 10-foot cubes. This smoke remains stationary unless moved by wind. If inhaled by a creature with blindsense, scent, or tremorsense, the creature must attempt a DC 20 Fortitude save. If it fails the save, it does not benefit from its blindsense, tremorsense, or scent abilities for 10 minutes. After 10 minutes the smoke from the incense dissipates and loses all magical properties. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells blindness/deafness; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_incense_of_dulled_senses",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

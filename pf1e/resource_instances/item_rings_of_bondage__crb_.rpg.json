@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rings_of_bondage__crb_",
+    "name": {
+      "value": "Rings of Bondage"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,200 gp; Slot ring; CL 7th; Weight \u00e2\u0080\u0094; Aura moderate enchantment DESCRIPTION These rings are forged in pairs, establishing a mental connection between the two creatures wearing them, designating one as the master and the other as the servant. The listed price and cost are for both rings. Creatures wearing rings of bondage can understand one another\u2019s speech. The wearer of the master ring gains a +6 competence bonus on Sense Motive checks against the servant and is continuously aware of the location and general condition of the wearer of the servant ring, as the status spell. In addition, once per day, the wearer of the master ring of bondage can impose her will upon the wearer of the servant ring, compelling the servant to perform or refrain from an action as if subjected to a lesser geas ( Will DC 16 negates). Alternatively, this effect can be executed as a contract between the wearers: as long as the wearer of the master ring is a valid target for lesser geas, she can accept a lesser geas dictated by the wearer of the servant ring. In such an event, neither wearer is entitled to a saving throw and both are compelled by the lesser geas to fulfill the terms of the agreement. If the wearer of the servant ring is unwilling to agree to such a contract, she can always select a lesser geas such as \u00e2\u0080\u009cremove the lesser geas from me.\u00e2\u0080\u009d As long as a lesser geas imposed by a ring of bondage remains in effect, neither ring can be removed. If either ring is destroyed, the effects of the lesser geas remain in place, but the surviving ring can\u2019t create a new lesser geas until the missing ring is repaired or replaced. If a mutual lesser geas is accepted and one lesser geas is ended, both lesser geas effects end simultaneously. A target can have a ring of bondage forcibly placed on its finger, but only if that creature is helpless. CONSTRUCTION REQUIREMENTS Cost 9,100 gp; Feats Forge Ring; Spells detect thoughts, lesser geas, sanctuary, share language, status"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rings_of_bondage",
+          "value": {
+            "value": 18200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

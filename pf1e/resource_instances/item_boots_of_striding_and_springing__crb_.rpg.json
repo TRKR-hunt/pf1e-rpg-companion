@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "boots_of_striding_and_springing__crb_",
+    "name": {
+      "value": "Boots of striding and springing #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 3rd; Slot feet; Price 5,500 gp; Weight 1 lb. DESCRIPTION These boots increase the wearer\u2019s base land speed by 10 feet. In addition to this striding ability (considered an enhancement bonus ), these boots allow the wearer to make great leaps. She can jump with a +5 competence bonus on Acrobatics checks. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, longstrider; Special creator must have 5 ranks in the Acrobatics skill; Cost 2,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_boots_of_striding_and_springing",
+          "value": {
+            "value": 5500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_boots_of_striding_and_springing",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

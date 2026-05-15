@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "harp_of_contagion__crb_",
+    "name": {
+      "value": "Harp of contagion #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate necromancy; CL 7th; Weight 5 lbs.; Slot none; Price 13,000 gp DESCRIPTION This grand-looking wooden harp is carved with images of various venomous creatures. Once per day the bearer may play the harp to target a single opponent with a poison spell (DC 16). Alternatively, the bearer may play the harp to grant allies within 30 feet a +2 resistance bonus on saving throws against disease and poison; maintaining this benefit each round is a standard action. If the player has the countersong bardic performance ability, he may expend rounds of bardic performance to use the harp to refocus his countersong against disease and poison instead of sonic or language-dependent effects. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, poison, resistance; Cost 6,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_harp_of_contagion",
+          "value": {
+            "value": 13000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_harp_of_contagion",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dowsing_syrup__crb_",
+    "name": {
+      "value": "Dowsing syrup #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate divination; CL 11th; Weight 1/2 lb.; Slot none; Price 1,000 gp DESCRIPTION The thick liquid in this ceramic jar smells sickly sweet. To activate its powers, the user it must be unstopper the jar as a standard action while thinking deeply about a specific person or object that she has seen at least once from up to 30 feet away. When then poured onto the ground, the syrup flows at 15 feet per round following the most direct route to the creature or object visualized, provided the creature or object is on the same plane, leaving behind a sticky trail. The syrup can flow uphill or even up stairs and can pass through openings as narrow as one-sixteenth of an inch. It cannot penetrate other liquids or porous or absorbent surfaces (such as sand or sawdust). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, find the path, locate creature, locate object; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dowsing_syrup",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

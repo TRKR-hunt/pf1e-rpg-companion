@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "headband_dead_man_s__crb_",
+    "name": {
+      "value": "Dead man\u2019s headband"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment and abjuration; CL 1st; Slot headband; Price 3,600 gp; Weight 1 lb. DESCRIPTION This taut black band, clipped with a black metal skull, can be attached on the outside of a hat or other head slot item or can be worn as a normal headband. The wearer gains a +2 competence bonus on Intimidate checks and increases the DC of any fear effect he creates by +1. In addition, if this headband is attached to the outside of a hat, the wearer\u2019s hat or headgear cannot be blown off or removed by wind, water, or environmental effects, and the wearer gains a +5 circumstance bonus to his CMD against steal and sunder attempts targeting his headgear. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, doom, shrink item; Cost 1,800 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_headband_dead_man_s",
+          "value": {
+            "value": 3600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_headband_dead_man_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

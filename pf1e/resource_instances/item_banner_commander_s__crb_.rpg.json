@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "banner_commander_s__crb_",
+    "name": {
+      "value": "Banner, Commander's"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; Slot none; CL 5th; Price 10,000 gp; Weight 3 lbs. DESCRIPTION A commander\u2019s banner is a cloth flag or standard (typically 2 feet wide and 4 feet long) meant to be carried and displayed on a lance, polearm, frame, or staff. It has no effect unless it is mounted properly, and a wielder is carrying the object bearing it. It normally depicts the insignia or heraldic symbol of a particular noble. A character with the tactician class feature carrying a commander\u2019s banner can use her tactician ability one additional time per day, she can use it to grant the teamwork feat granted by the tactician ability to allies within 60 feet (rather than 30 feet), and allies can use the granted feat for 2 rounds longer than normal. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, eagle\u2019s splendor, Diplomacy 5 ranks; Cost 5,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_banner_commander_s",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_banner_commander_s",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

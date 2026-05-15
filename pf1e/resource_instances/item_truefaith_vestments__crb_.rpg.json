@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "truefaith_vestments__crb_",
+    "name": {
+      "value": "Truefaith Vestments"
+    },
+    "source": {
+      "value": "inner_sea_combat"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 6,950 gp; Slot armor; CL 10th; Weight 1 lb.; Aura moderate illusion DESCRIPTION This +1 chain shirt appears as a fine hooded robe made of silk of a color appropriate to the wearer\u2019s rank within his or her church as if it had the glamered special ability (it appears white when worn by anyone who doesn\u2019t follow the Living God). Used primarily as a means of appearing to be protected by the false god\u2019s power, the armor is treated as a +3 breastplate against attacks made by any enemy who has not seen through the illusion. Unlike with standard glamered armor, any creature that successfully hits the target with a melee weapon is considered to have interacted with the illusion, and can see the armor\u2019s true form with a successful DC 16 Will save. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells disguise self; Cost 3,600 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_truefaith_vestments",
+          "value": {
+            "value": 6950
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_truefaith_vestments",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

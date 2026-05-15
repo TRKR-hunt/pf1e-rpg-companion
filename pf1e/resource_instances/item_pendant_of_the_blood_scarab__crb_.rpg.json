@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pendant_of_the_blood_scarab__crb_",
+    "name": {
+      "value": "Pendant of the Blood Scarab"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 3rd; Slot neck; Price 1,000 gp; Weight \u00e2\u0080\u0094 DESCRIPTION A carved ruby in the shape of a scarab set in gold, this magic amulet grants its wearer insight on where to strike a creature so as to maximize pain and distress. This pendant must be worn against bare flesh in order to function. Once per day, as an immediate action, when the wearer of a pendant of the blood scarab threatens a critical hit with any attack, he may automatically confirm the critical hit. When the user activates this ability, the pendant\u00e2\u0080\u0099s spiky little legs momentarily animate and clutch against the wearer\u00e2\u0080\u0099s skin, dealing 1d6 points of damage as the amulet burrow s and digs into the wearer\u00e2\u0080\u0099s body in apparent delight at the devastating blow inflicted on the enemy. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, true strike; Cost 500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pendant_of_the_blood_scarab",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "cloak_tentacle__crb_",
+    "name": {
+      "value": "Tentacle cloak"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot shoulders; Price 14,000 gp; Weight 1 lb. DESCRIPTION Subtle, indefinable shapes ripple and flow when this deep blue cloak moves, seemingly devouring any light falling upon it. Once per day at the wearer\u00e2\u0080\u0099s command, two large gray tentacles emerge from the cloak near the shoulders. Each tentacle can make a natural attack that deals 1d6 points of bludgeoning damage, assuming the wear is Medium (the damage of the tentacles scales by size of the wearer as a tentacle natural attack ). The tentacles have 10-foot reach and the grab monster special ability. In addition, the wearer gains a +4 competence bonus on grapple maneuver checks with the tentacles. The tentacles last for 1 minute. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, polymorph self; Cost 7,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_cloak_tentacle",
+          "value": {
+            "value": 14000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_cloak_tentacle",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

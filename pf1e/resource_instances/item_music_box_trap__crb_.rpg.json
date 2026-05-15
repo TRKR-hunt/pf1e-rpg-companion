@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "music_box_trap__crb_",
+    "name": {
+      "value": "Music Box Trap"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 20,160 gp; Slot none; CL 7th; Weight 2 lbs.; Aura moderate enchantment DESCRIPTION A silhouette of a miniature dancer graces the center of this simple music box. When opened, the music box plays a delicate tune only a few notes long. Although worth 200 gp as a work of art, the music box\u2019s true value is as a spell repository. A spellcaster can store a single targeted mind-affecting spell of up to 4th level into a closed music box trap that is not currently storing a spell. Thereafter, when the music box trap is opened and allowed to play for 1 round, the stored spell targets the creature that opened the box. If this would result in the spell being cast at an inappropriate target, or if the creature moves farther than the spell\u2019s range away from the music box during the 1-round delay, the spell is discharged with no effect. The original spellcaster remains the caster of the stored spell; for example, a charm person spell successfully delivered onto a target from a music box trap makes the creature well disposed to the spellcaster, even if the spellcaster is long gone. There is no obvious indicator that the music box trap delivers a stored spell onto the creature opening the box, but while the box is open, those who succeed at a DC 25 Perception check notice that the miniature dancer is keeping her gaze fixed upon the pending target. Closing the music box trap is a move action. If the music box is closed before its stored spell is delivered, the spell remains stored within the music box trap to await the next creature to open the box. CONSTRUCTION REQUIREMENTS Cost 10,180 gp; Feats Craft Wondrous Item; Spells permanency, spite"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_music_box_trap",
+          "value": {
+            "value": 20160
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_music_box_trap",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "charlatans_cope__crb_",
+    "name": {
+      "value": "Charlatan\u00e2\u0080\u0099s Cope"
+    },
+    "source": {
+      "value": "disciples_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,800 gp; Slot body; CL 3rd; Weight 2 lbs.; Aura faint illusion DESCRIPTION This plush hooded robe is finely trimmed with gold accents. EFFECTS When the wearer casts a spell, the robe scintillates with color and produces ostentatious magical effects, such as bright lights and loud hums, increasing the DC of Spellcraft checks to identify the spell by 10. In addition, once per day as a move action, the wearer can trigger these effects with a dramatic flourish; each creature within 30 feet that can see the wearer must succeed at a DC 13 Will save or be blinded for 1d4+1 rounds. CONSTRUCTION REQUIREMENTS Cost 2,400 gp; Feats Craft Wondrous Item; Spells ghost sound, pyrotechnics, silent image"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_charlatans_cope",
+          "value": {
+            "value": 4800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_charlatans_cope",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

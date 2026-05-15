@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "clicking_blade__crb_",
+    "name": {
+      "value": "Clicking Blade"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,310 gp; Slot none; CL 7th Weight 3 lbs.; Aura moderate necromancy APPEARANCE Adapted from the weapons of clockwork soldiers, this +1 keen short sword is modified with ticking clockwork components. EFFECTS Technomagical internal mechanisms help the blade strike true when it would otherwise deliver a glancing blow. Once per day, when the wielder deals sneak attack or precision damage with this weapon, she can reroll the sneak attack or precision damage dice after the damage is rolled, but before the damage is applied. When the damage dice are rerolled with this ability, they are reduced by one step (for example, d6s become d4s, and d8s become d6s). CONSTRUCTION REQUIREMENTS Cost 5,310 gp; Feats Craft Magic Arms and Armor, lesser object possession"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_clicking_blade",
+          "value": {
+            "value": 10310
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_clicking_blade",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "machete_of_clearing__crb_",
+    "name": {
+      "value": "Machete of Clearing"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint necromancy; CL 3rd; Slot none; Price 5,550 gp (11,550 gp for animal or plant bane); Weight 2 lbs. DESCRIPTION This broad, heavy knife is used to chop through thick undergrowth in the jungle. Once per day on command, this +1 short sword can cast defoliate to clear vegetation either in a line 60 feet long or in a 10-foot radius spread. Explorers used to fighting the jungle\u00e2\u0080\u0099s dangerous inhabitants sometimes commission machetes of clearing with either the animal bane or plant bane special abilities. Moderate conjuration; CL 8th. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells defoliate (plus summon monster I for animal or plant bane); Cost 2,930 gp (5,930 gp for animal or plant bane)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_machete_of_clearing",
+          "value": {
+            "value": 5550
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_machete_of_clearing",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "beads_prayer_strand__crb_",
+    "name": {
+      "value": "Strand of prayer beads, lesser"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint, moderate or strong (many schools); CL 1st (blessing), 5th (healing), 7th (smiting), 9th (karma), 11th (wind walking), 17th (summons); Slot \u00e2\u0080\u0094; Price 9,600 gp (lesser), 45,800 gp (standard), 95,800 gp (greater); Weight 1/2 lb. DESCRIPTION This item appears to be nothing more than a string of prayer beads until the owner casts a divine spell while the beads are carried. Once that occurs, the owner instantly knows the powers of the prayer beads and understands how to activate the strand\u2019s special magical beads. Each strand includes two or more special beads, each with a different magic power selected from the following list. Special Bead Type Special Bead Ability Bead of blessing Wearer can cast bless. Bead of healing Wearer can cast his choice of cure serious wounds, remove blindness/deafness, or remove disease. Bead of karma Wearer casts his spells at +4 caster level. Effect lasts 10 minutes. Bead of smiting Wearer can cast chaos hammer, holy smite, order\u2019s wrath, or unholy blight ( Will DC 17 partial). Bead of summons Summons a powerful creature of appropriate alignment from the Outer Planes (an angel, devil, etc.) to aid the wearer for 1 day. (If the wearer uses the bead of summons to summon a deity\u2019s emissary frivolously, the deity takes that character\u2019s items and places a geas upon him as punishment at the very least.) Bead of wind walking Wearer can cast wind walk. A lesser strand of prayer beads has a bead of blessing and a bead of healing. A strand of prayer beads has a bead of healing, a bead of karma, and a bead of smiting. A greater strand of prayer beads has a bead of healing, a bead of karma, a bead of summons, and a bead of wind walking. Each special bead can be used once per day, except for the bead of summons, which works only once and then becomes non-magical. The beads of blessing, smiting, and wind walking function as spell trigger items; the beads of karma and summons can be activated by any character capable of casting divine spells. The owner need not hold or wear the strand of prayer beads in any specific location, as long as he carries it somewhere on his person. The power of a special bead is lost if it is removed from the strand. Reduce the price of a strand of prayer beads that is missing one or more beads by the following amounts: bead of blessing \u00e2\u0080\u0093600 gp, bead of healing \u00e2\u0080\u00939,000 gp, bead of karma \u00e2\u0080\u009320,000 gp, bead of smiting \u00e2\u0080\u009316,800 gp, bead of summons \u00e2\u0080\u009320,000 gp, bead of wind walking \u00e2\u0080\u009346,800 gp. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item and one of the following spells per bead, as appropriate: bless (blessing); cure serious wounds, remove blindness/deafness, or remove disease (healing); righteous might (karma); gate (summons); chaos hammer, holy smite, order\u2019s wrath, or unholy blight (smiting), wind walk (wind walking); Cost 4,800 gp (lesser), 22,900 gp (standard), 47,900 gp (greater)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_beads_prayer_strand",
+          "value": {
+            "value": 9600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

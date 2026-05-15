@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "void_dust__crb_",
+    "name": {
+      "value": "Void dust #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 11th; Weight \u00e2\u0080\u0094; Slot none; Price 4,500 gp DESCRIPTION Infused with the essence of destruction, a pinch of void dust unmakes force effects. If sprinkled on or thrown at a force effect, it acts as a dispel magic, unless the force effect is immune to dispel magic, in which case it acts like disintegrate. Void dust can be sprinkled on an adjacent force effect or thrown up to 10 feet. No attack roll is required. A single pinch affects only a single force effect. A found container holds three pinches. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, disintegrate; Cost 2,250 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_void_dust",
+          "value": {
+            "value": 4500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

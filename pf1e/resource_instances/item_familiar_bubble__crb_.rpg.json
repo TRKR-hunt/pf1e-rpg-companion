@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "familiar_bubble__crb_",
+    "name": {
+      "value": "Familiar Bubble"
+    },
+    "source": {
+      "value": "blood_of_the_sea"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint conjuration DESCRIPTION A familiar bubble looks like nothing more than a pair of reinforced leather straps designed to fit over the shoulders\u00e2\u0080\u0094 until it is worn. Once the straps are donned, a bubble of force forms on the wearer\u2019s back, large enough to hold a Tiny or smaller creature and 1 pound of items (usually food for the creature). The bubble is transparent and continuously generates fresh, breathable air within. While the bubble keeps air in and water out, it is permeable to other objects. Spells and weapons can target the creature in the familiar bubble normally. As a standard action, the familiar bubble\u2019s user can designate a specific creature within 30 feet that can pass freely in and out of the bubble. All other living creatures find the bubble impenetrable. This selection remains until the wearer chooses a different creature or removes the familiar bubble (which causes the bubble to disappear). Normally, the user selects a creature in order to get it into the bubble and then selects himself so he can retrieve the creature, if needed. CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item; Spells air bubble"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_familiar_bubble",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_familiar_bubble",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_transmutation__crb_",
+    "name": {
+      "value": "Staff of transmutation"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong transmutation; CL 13th; Slot none; Price 82,000 gp; Weight 5 lbs. DESCRIPTION This staff is generally carved from or decorated with petrified wood or fossilized bone, each etched with tiny but complex runes. It allows use of the following spells: Alter self (1 charge) Blink (1 charge) Expeditious retreat (1 charge) Baleful polymorph (2 charges) Polymorph (2 charges) Disintegrate (3 charges) CONSTRUCTION REQUIREMENTS Requirements Craft Staff, alter self, baleful polymorph, blink, disintegrate, expeditious retreat, polymorph; Cost 41,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_transmutation",
+          "value": {
+            "value": 82000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_transmutation",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "universal_lock__crb_",
+    "name": {
+      "value": "Universal Lock"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,150 gp; Slot none; CL 5th; Weight 1/2 lb.; Aura faint abjuration DESCRIPTION This intricate padlock ( hardness 10, hp 10, break DC 28, Disable Device DC 35) is crafted from pure gold and etched with depictions of the First Vault along its face. The lock can be placed onto any object that can open and close (such as a chest, pouch, door, window, or even a folded napkin, as well as magic items such as bags of holding and portable holes). The lock cannot be placed on a creature. Upon command, the lock merges with the item, becoming an inked image of the lock that covers half of the item being locked. If the item\u00e2\u0080\u0099s hardness and normal hit points are lower than those of the universal lock, the item\u00e2\u0080\u0099s hardness and hit points are increased to match those of the lock. The universal lock remains in place until the owner commands it to unlock or it is successfully picked; it then reverts back to its original form. If the object it is locking is broken open, the universal lock is destroyed. A knock spell does not open an object sealed with a universal lock, but it reduces the lock\u2019s Disable Device DC by 5 for 10 minutes. CONSTRUCTION REQUIREMENTS Cost 2,650 gp; Feats Craft Wondrous Item; Spells arcane lock, hold portal"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_universal_lock",
+          "value": {
+            "value": 5150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

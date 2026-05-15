@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "emblem_of_lost_lives__crb_",
+    "name": {
+      "value": "Emblem of Lost Lives"
+    },
+    "source": {
+      "value": "disciple_s_doctrine"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot neck; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint divination DESCRIPTION This unassuming pendant whispers a constant discordant chorus of voices into the mind of its wearer. EFFECTS As a standard action, the wearer can focus on these voices and pick out one from a past life. The voice whispers information related to a particular subject, granting the wearer a +2 insight bonus on one type of Knowledge check for 1 minute. The wearer can use this ability once per day for each type of Knowledge in which she is trained, choosing a different type of Knowledge each time. Additionally, once per day, the wearer can spend 1 minute consulting with the voices for aid with a future task, as per augury. CONSTRUCTION REQUIREMENTS Cost 6,000 gp; Feats Craft Wondrous Item; Spells augury, fox\u00e2\u0080\u0099s cunning"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_emblem_of_lost_lives",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

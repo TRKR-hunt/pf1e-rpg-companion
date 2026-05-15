@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "staff_of_obstacles__crb_",
+    "name": {
+      "value": "Staff of obstacles"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "staff"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate varies; CL 9th; Slot none; Price 52,850 gp; Weight 5 lbs. DESCRIPTION Dark and solid, this worn staff appears to be carved of rough stone, yet feels and weighs like light wood. It allows use of the following spells: Arcane lock (1 charge) Grease (1 charge) Wind wall (1 charge) Wall of fire (2 charges) Wall of ice (2 charges) Wall of stone (3 charges) CONSTRUCTION REQUIREMENTS Feats Craft Staff; Spells arcane lock, grease, wall of fire, wall of ice, wall of stone, wind wall; Cost 27,050 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_staff_of_obstacles",
+          "value": {
+            "value": 52850
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_staff_of_obstacles",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

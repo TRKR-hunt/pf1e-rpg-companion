@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scabbard_of_true_death__crb_",
+    "name": {
+      "value": "Scabbard of True Death"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 32,000 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint necromancy DESCRIPTION Whenever an assassin draws a weapon from the scabbard of true death and makes a successful death attack against her target, the DC of her true death ability increases by 4. In addition, regardless of whether the wielder has levels in the assassin class, the wielder gains the bleeding attack rogue talent as though she had a sneak attack that dealt 1d6 points of damage (thus, attacks that qualify as sneak attacks deal 1 point of bleed damage); if the wielder already has the bleeding attack rogue talent, the bleed damage caused by that talent is increased by 1. CONSTRUCTION REQUIREMENTS Cost 16,000 gp; Feats Craft Wondrous Item; Spells bestow curse; Special creator must have the bleeding attack rogue talent"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scabbard_of_true_death",
+          "value": {
+            "value": 32000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_scabbard_of_true_death",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

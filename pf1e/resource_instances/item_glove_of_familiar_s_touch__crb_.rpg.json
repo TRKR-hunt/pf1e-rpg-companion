@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "glove_of_familiar_s_touch__crb_",
+    "name": {
+      "value": "Glove of Familiar's Touch"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 23,000 gp; Slot hands; CL 7th; Weight 2 lbs.; Aura moderate evocation DESCRIPTION A glove of familiar\u2019s touch features a large, brightly colored gem fastened to its palm, and comes with an additional gem attuned to the glove. As long as his familiar is touching the attuned gem, the wearer of this glove can designate his familiar as the source for any touch spell he casts, even if he and his familiar are not in contact when the spell is cast. A glove of familiar\u2019s touch takes up the wearer\u2019s entire hands slot; the wearer can\u2019t gain the benefits of another magic item (even another glove of familiar\u2019s touch ) that also uses the hands slot. CONSTRUCTION REQUIREMENTS Cost 11,500 gp; Feats Craft Wondrous Item; Spells imbue with spell ability"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_glove_of_familiar_s_touch",
+          "value": {
+            "value": 23000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_glove_of_familiar_s_touch",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

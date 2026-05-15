@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "spectacles_physician_s__crb_",
+    "name": {
+      "value": "Spectacles, Physician's"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,900 gp; Slot eyes; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint conjuration and divination DESCRIPTION These nondescript, brass-rimmed spectacles have green-tinted lenses and are favored by practicing doctors and adventurers alike. When worn, they grant the wearer a constant awareness of poisons and diseases as the detect poison and diagnose disease spells. Also, once per day on command the wearer can touch a single creature to use delay poison on that creature. CONSTRUCTION REQUIREMENTS Cost 2,450 gp; Feats Craft Wondrous Item; Spells delay poison, detect poison, diagnose disease"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_spectacles_physician_s",
+          "value": {
+            "value": 4900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

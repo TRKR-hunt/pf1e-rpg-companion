@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "armor_of_the_pure_legion__crb_",
+    "name": {
+      "value": "Armor of the Pure Legion"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,300 gp; Slot armor; CL 15th; Weight 30 lbs.; Aura strong abjuration DESCRIPTION This suit of +1 steel lamellar armor grants its wearer spell resistance against divine spells equal to 5 + the wearer\u00e2\u0080\u0099s base attack bonus. It also protects the wearer from heat dangers as if she were affected by a continuous endure elements spell. Additionally, once per day when the wearer of a suit of armor of the Pure Legion fails a Will save against a mind-affecting spell cast by a divine spellcaster, she can attempt another save as a free action on the following round to end the spell. CONSTRUCTION REQUIREMENTS Cost 9,300 gp; Feats Craft Magic Arms and Armor; Spells endure elements, mind blank"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_armor_of_the_pure_legion",
+          "value": {
+            "value": 18300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_armor_of_the_pure_legion",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

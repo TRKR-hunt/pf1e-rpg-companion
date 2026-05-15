@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rod_of_the_aboleth__crb_",
+    "name": {
+      "value": "Rod of the aboleth"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 7th; Slot none; Price 29,000 gp; Weight 5 lbs. DESCRIPTION The rod of the aboleth acts as a +1 corrosive light mace. One end of the rod has three eye-shaped rubies imbedded in it, while the other end comes to a sharp point. When exposed to moisture, the surface of the rod takes on a slimy sheen that doesn\u2019t affect the wielder\u2019s grip. This rod has the following powers. Once per day as a free action, when the rod hits a living creature, the target must succeed at a DC 18 Fortitude saving throw or take 1d4 points of Constitution damage. Once per day as a free action, when the rod hits a living creature, the creature must succeed at a DC 13 Will saving throw or be affected as though targeted with a aboleth\u2019s lung spell. On command for 1 minute per day, the wielder may gain a swim speed of 60 feet for 1 minute. This time need not be continuous, and can be spent in 1-round increments. CONSTRUCTION REQUIREMENTS Feats Craft Rod, aboleth\u2019s lung, acid arrow, touch of the sea; Cost 14,500 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rod_of_the_aboleth",
+          "value": {
+            "value": 29000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_rod_of_the_aboleth",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

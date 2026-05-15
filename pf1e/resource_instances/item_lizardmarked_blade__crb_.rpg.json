@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lizardmarked_blade__crb_",
+    "name": {
+      "value": "Lizardmarked Blade"
+    },
+    "source": {
+      "value": "magical_marketplace"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 15,715 gp; Slot none; CL 10th; Weight 3 lbs.; Aura moderate transmutation DESCRIPTION The pommel of this +1 shocking gladius is shaped like the head of a lightning-breathing linnorm. The wielder automatically detects any electrical discharges within 100 feet, and as a move action can concentrate on a creature within 60 feet to determine whether it has a resistance or immunity to electricity damage. Once per day, the wielder can speak the lizardmarked blade\u2019s command word to cause the weapon to deal damage as if it\u2019s one size category larger than it actually is (effectively increasing the gladius\u2019s damage die from 1d6 to 1d8). This lasts for 10 minutes. CONSTRUCTION REQUIREMENTS Cost 8,015 gp; Feats Craft Magic Arms and Armor; Spells lead blades, lightning bolt"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lizardmarked_blade",
+          "value": {
+            "value": 15715
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lizardmarked_blade",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

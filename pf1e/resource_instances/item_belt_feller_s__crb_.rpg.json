@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_feller_s__crb_",
+    "name": {
+      "value": "Belt, Feller's"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot belt; CL 10th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION A creature wearing a feller\u2019s belt gains +4 bonus on combat maneuver checks to sunder wooden objects, ignores any hardness possessed by wooden objects, and bypasses the damage reduction of any creatures of the plant or fey type. A creature wearing a feller\u2019s belt for over 24 hours doubles the critical threat range of any held axe, as though that weapon possessed the keen weapon special ability. This benefit lasts for as long as the belt is worn, and doesn\u2019t stack with any other effects that expand the critical threat range of a weapon (such as keen edge or the Improved Critical feat). CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells keen edge, warp wood; Cost 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_feller_s",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_feller_s",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

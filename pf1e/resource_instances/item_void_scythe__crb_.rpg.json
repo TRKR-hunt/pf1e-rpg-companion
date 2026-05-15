@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "void_scythe__crb_",
+    "name": {
+      "value": "Void Scythe"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura strong necromancy; CL 13th; Weight 10 lbs.; Price 95,318 gp DESCRIPTION Instead of a Blade, a swathe of absolute darkness inimical to life tips this scythe. It functions as a +1 brilliant energy scythe, except the Blade is formed of negative energy and gives off no light whatsoever. The wielder can channel negative energy directly into the scythe to charge it with life-destroying energy for 1 round per die of channeling. For example, channeling negative energy for 5d6 points of damage fuels the scythe for 5 rounds. While so charged, the void scythe bestows one negative level with each hit. One day after being struck, subjects must succeed at a DC 16 Fortitude save for each negative level or the negative levels become permanent. Black energy utterly consumes any creature that is slain by the void scythe, leaving no body behind but leaving the creature\u2019s equipment unharmed. A victim of the void scythe can be restored only by true resurrection or carefully worded miracle or wish. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells disintegrate, enervation; Cost 47,815 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_void_scythe",
+          "value": {
+            "value": 95318
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_void_scythe",
+          "value": {
+            "value": 10
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

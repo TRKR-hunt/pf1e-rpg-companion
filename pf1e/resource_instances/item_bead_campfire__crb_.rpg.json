@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bead_campfire__crb_",
+    "name": {
+      "value": "Campfire bead"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 1st; Slot none; Price 720 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This tiny glass bead transforms itself into a small (2-foot-tall) pile of burning logs whenever its command word is spoken. The fire burns for 8 hours or until extinguished, at which point it turns back into a bead. The owner of the item must wait twice as long as the fire burned before he can order the bead to become a campfire again. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, produce flame; Cost 360 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bead_campfire",
+          "value": {
+            "value": 720
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

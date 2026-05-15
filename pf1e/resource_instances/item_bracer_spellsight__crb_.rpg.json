@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracer_spellsight__crb_",
+    "name": {
+      "value": "Bracer, Spellsight"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint abjuration; CL 5th Slot wrist; Price 2,100 gp; Weight 1 lb. DESCRIPTION This item has an associated deity. Dozens of variants of this bracer exist, but they are usually leather, always ornately patterned, and bear a single spherical polished stone or gem (typically a carbuncle, olivine, or sard) mounted near the wrist. The wearer may use detect magic once per day. When this power is used, the spherical stone or gem appears to open like a human eye. The bracer also provides a +1 resistance bonus on Will saving throws. If the associated deity is the wearer\u2019s patron, once per day the wearer may use the bracer as if it were a lesser silent metamagic rod. The wearer may spontaneously convert prepared spells or use available spell slots to cast mage hand, even if it is not on your the wearer\u2019s spell list or the wearer does not know the spell. Using either of these powers causes the \u00e2\u0080\u009ceye\u00e2\u0080\u009d in the gem to open as described earlier. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, Silent Spell, detect magic, mage hand, resistance; Cost 1,050 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracer_spellsight",
+          "value": {
+            "value": 2100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracer_spellsight",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

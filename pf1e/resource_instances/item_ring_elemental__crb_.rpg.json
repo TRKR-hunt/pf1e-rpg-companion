@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ring_elemental__crb_",
+    "name": {
+      "value": "Ring, Elemental"
+    },
+    "source": {
+      "value": "cohorts_and_companions"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot ring; CL 15th; Weight 1 lb.; Aura strong conjuration DESCRIPTION This ornate ring has a thick iron band covered in sigils of calling, and is set with a large glowing gemstone that appears to be an elemental gem. The ring serves as a gateway for a specific elder elemental (25% chance each for air, earth, fire, or water) that performs a narrow range of services when called. When activated with a command word, the elemental is called (as by greater planar ally ) and demands to know what service it is to perform. It can only be commanded to protect a specific creature or object, attack a specific creature, damage a specific object, or answer questions about its home plane. The wearer of the ring is able to communicate with the elder elemental as if they shared a common language. The elder elemental serves for no more than 24 hours, after which it returns to its home plane and the ring become a valueless hunk of lead. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Forge Ring; Spells planar ally, planar binding"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ring_elemental",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_ring_elemental",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

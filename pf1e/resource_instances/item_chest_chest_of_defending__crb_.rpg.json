@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "chest_chest_of_defending__crb_",
+    "name": {
+      "value": "Chest, Chest of Defending"
+    },
+    "source": {
+      "value": "lost_treasures"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 29,300 gp; Slot none; CL 12th; Weight 100 lbs.; Aura moderate transmutation DESCRIPTION This appears to be a complex wooden chest of immense size\u00e2\u0080\u0094at least 5 feet long and 3 feet wide and tall, with numerous drawers, side-compartments, hatches, and lids and ornately carved feet and scrollwork trim. In spite of its size, a chest of defending has an interior volume of 6 cubic feet. It has permanent alarm and arcane lock spells cast on it, which can be set to acknowledge a specific creature as the effective caster of the spells with a command word (thus allowing that creature to determine the details of the chest\u2019s spells as if she had cast them). This password is normally carved in one of the small drawers. All the compartments of the chest have average quality locks, and can be further locked with padlocks (not included). If the chest\u2019s alarm spell is triggered, the chest\u2019s most impressive magic property comes into effect: it alters shape and composition to become a Medium wood golem (the chest\u2019s contents are unharmed by the transformation). Unless given different instructions by someone who uses the chest\u2019s command word, the golem attacks the creature that triggered its alarm, then folds back into a normal chest once the trespasser is defeated. All the items within the chest count against the golem\u2019s encumbrance. CONSTRUCTION REQUIREMENTS Cost 14,800 gp; Feats Craft Construct, Craft Wondrous Item; Spells alarm, animate objects, cat \u2018s grace, geas/quest, limited wish; Special creator must be at least caster level 12th, creator must succeed at a DC 17 Craft (carpentry) check"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_chest_chest_of_defending",
+          "value": {
+            "value": 29300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_chest_chest_of_defending",
+          "value": {
+            "value": 100
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

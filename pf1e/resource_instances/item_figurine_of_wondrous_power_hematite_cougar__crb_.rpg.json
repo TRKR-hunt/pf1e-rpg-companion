@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "figurine_of_wondrous_power_hematite_cougar__crb_",
+    "name": {
+      "value": "Hematite Cougar Figurine of Wondrous Power"
+    },
+    "source": {
+      "value": "elemental_masters_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 10,000 gp; Slot none; CL 11th; Weight 2 lbs.; Aura moderate conjuration and transmutation DESCRIPTION This palm-sized figurine of a cat with a spiked tail is made of gleaming hematite. A hematite cougar turns into a digmaul that is fully obedient to the figurine\u2019s owner. Even in its animated form, the hematite cougar is made of dense metal, granting it a +2 armor bonus to AC and a +2 bonus to its CMD. An animated hematite cougar conducts low levels of electricity; creatures adjacent to the hematite cougar gain electricity resistance 2, but any damage prevented by this ability is dealt to the hematite cougar instead. A hematite cougar can be animated twice per week for up to 8 hours per use; speaking the command word before the 8 hours expires returns the hematite cougar to a figurine. CONSTRUCTION REQUIREMENTS Cost 5,000 gp; Feats Craft Wondrous Item; Spells animate objects, resist energy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_figurine_of_wondrous_power_hematite_cougar",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_figurine_of_wondrous_power_hematite_cougar",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

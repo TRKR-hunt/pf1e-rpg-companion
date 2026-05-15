@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "metalseeker_swarm__crb_",
+    "name": {
+      "value": "Metalseeker Swarm #2"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 5,500 gp; Slot none; CL 5th; Weight 3 lbs.; Aura faint conjuration DESCRIPTION In its inert state, a metalseeker swarm is a heavy, 2-inch-square cube of textured steel. Once per day on command, the cube disintegrates into a cloud of countless Fine flying constructs that resemble mechanical fireflies. These fireflies cluster and flutter about in a 60-foot-radius spread around the user, homing in on Tiny or larger masses of metal and illuminating them as though the objects emitted candlelight. The fireflies continue to highlight metal objects for 5 minutes before swarming back into cube-form in the user\u2019s hand. Creatures in the area wearing metal armor are illuminated as if by faerie fire. Creatures in the area wielding metal weapons are dazzled as long as they are within range of the mechanical fireflies and continue to wield the weapons. The mechanical fireflies glow different colors depending on the type of metal they touch, though the item bears no indication of which colors correspond to what metals, so the user must figure out the fireflies\u2019 code to glean any useful information from it. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells detect metal, faerie fire, summon swarm; Cost 2,750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_metalseeker_swarm",
+          "value": {
+            "value": 5500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_metalseeker_swarm",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

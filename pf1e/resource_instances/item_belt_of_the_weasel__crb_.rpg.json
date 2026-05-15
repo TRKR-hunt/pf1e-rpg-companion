@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "belt_of_the_weasel__crb_",
+    "name": {
+      "value": "Belt of the weasel #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 4th; Slot belt; Price 10,000 gp; Weight 1 lb. DESCRIPTION This surprisingly soft belt has an absurdly large buckle, made even more absurd by the fact that it\u00e2\u0080\u0099s crafted in the shape of a smiling weasel\u00e2\u0080\u0099s face. It grants its wearer a +2 enhancement bonus to Dexterity, and the ability to move at half normal speed while prone. Treat the enhancement bonus to Dexterity as a temporary ability bonus for the first 24 hours the belt is worn. The wearer does not take a penalty on melee attack rolls or to AC against melee attacks while prone. Additionally, the wearer gains the compression ability. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, beast shape I; Cost 5,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_belt_of_the_weasel",
+          "value": {
+            "value": 10000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_belt_of_the_weasel",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

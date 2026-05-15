@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bracers_of_primal_mastery__crb_",
+    "name": {
+      "value": "Bracers of Primal Mastery"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,000 gp; Slot wrists; CL 5th; Weight 1 lb.; Aura faint abjuration DESCRIPTION Seven mithral strips weave their way around these steel bracers, which thrum ever so faintly with the force of stabilizing magic. EFFECTS When the wearer activates a magic item, casts a spell, or uses a spell-like ability that triggers a primal magic event, the resulting event is rolled (or otherwise determined) twice, and the caster can choose which of the two events occur. The bracers also allow the wearer to roll twice and choose the result when using a rod of wonder. CONSTRUCTION REQUIREMENTS Cost 15,000 gp; Feats Craft Wondrous Item; Spells dispel magic"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bracers_of_primal_mastery",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_bracers_of_primal_mastery",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

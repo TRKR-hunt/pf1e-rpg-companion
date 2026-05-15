@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "horse_caller_flute__crb_",
+    "name": {
+      "value": "Horse-Caller Flute"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,200 gp; Slot none; CL 4th Weight \u00e2\u0080\u0094; Aura moderate conjuration APPEARANCE The body of this wooden flute is elaborately decorated with carved motifs of horses running across grassy plains. EFFECTS Once per day, the user of a horse-caller flute can play a lilting melody with the flute, and while doing so can attempt a DC 10 Perform (wind) check. On a success, a light riding horse appears in an appropriate space adjacent to the player to serve as her mount for 2 hours, plus an additional 2 hours for every 5 points by which the result exceeds the Perform (wind) check DC. The horse does not appear if the terrain cannot support it; in this case, if the user succeeds at the Perform (wind) check, the horse simply does not appear and the item\u00e2\u0080\u0099s daily use is not wasted. CONSTRUCTION REQUIREMENTS Cost 2,100 gp; Feats Craft Wondrous Item; Spells ghost sound, mount"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_horse_caller_flute",
+          "value": {
+            "value": 4200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

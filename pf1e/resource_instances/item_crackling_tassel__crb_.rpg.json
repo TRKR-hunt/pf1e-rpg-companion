@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crackling_tassel__crb_",
+    "name": {
+      "value": "Crackling Tassel"
+    },
+    "source": {
+      "value": "merchant_s_manifest"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 2,500 gp; Slot none; CL 6th Weight \u00e2\u0080\u0094; Aura moderate evocation APPEARANCE These magical tassels are usually affixed to the pommels of bladed weapons, though they can be fastened to other weapons as well. EFFECTS The tassel has no effect unless attached to a weapon, and even then, it activates only under certain conditions. The wielder gains a +4 circumstance bonus on performance combat checks. When the wielder takes a standard action to fight defensively, the next attack that misses her before the start of her next round causes the attacker to take 3d6 points of electricity damage. Once the electricity is discharged, the crackling tassel can\u00e2\u0080\u0099t be used again for 24 hours. CONSTRUCTION REQUIREMENTS Cost 1,250 gp; Feats Craft Wondrous Item; Spells defensive shock, hypnotism"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crackling_tassel",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

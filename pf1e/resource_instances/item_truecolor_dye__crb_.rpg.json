@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "truecolor_dye__crb_",
+    "name": {
+      "value": "Dye, Truecolor"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint divination; CL 1st; Slot none; Price 50 gp; Weight \u00e2\u0080\u0094 DESCRIPTION Truecolor dye produces vibrant colors, yet the actual color that registers varies according to the personality and temperment of the viewer\u00e2\u0080\u0094the viewer\u00e2\u0080\u0099s good, neutral, or evil alignment component determines the color he sees. Good viewers see a pleasing gold, while evil viewers see a rich blood red. A neutral viewer sees the dye as its actual color, a dull orange. A DC 25 Knowledge (geography or nature) check reveals the dye\u00e2\u0080\u0099s nature. A single vial of truecolor dye is enough to coat a square foot of material, or to ink 5 pages of text. Once applied, truecolor dye is permanent, although it can be washed off with universal solvent. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, detect good or detect evil; Cost 25 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_truecolor_dye",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "catapult_feather_token__crb_",
+    "name": {
+      "value": "Catapult Feather Token"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 400 gp DESCRIPTION This token creates a standard catapult (see Siege Engines ). The catapult disappears after 12 hours. CONSTRUCTION REQUIREMENTS Cost 200 gp; Feats Craft Wondrous Item; Spells major creation, telekinetic assembly"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_catapult_feather_token",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

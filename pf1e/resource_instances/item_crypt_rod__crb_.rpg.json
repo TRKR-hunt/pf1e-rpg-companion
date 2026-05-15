@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crypt_rod__crb_",
+    "name": {
+      "value": "Crypt Rod"
+    },
+    "source": {
+      "value": "the_dead_roads"
+    },
+    "type": {
+      "value": "held"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 8,500 gp; Slot none; CL 9th; Weight 5 lbs.; Aura moderate divination DESCRIPTION This 3-foot-long iron rod has a flanged, conical head and strikes as a +1 light mace. On command when held in hand, the rod points in the direction of the closest grave, tomb, or cairn within 500 feet. If the wielder concentrates on a specific type or subtype of creature, the rod identifies only gravesites that hold the remains of that type of creature. The rod can search for the remains of a specific individual if the wielder carries an item that the individual owned in life. CONSTRUCTION REQUIREMENTS Cost 4,250 gp; Feats Craft Rod, locate object"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crypt_rod",
+          "value": {
+            "value": 8500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crypt_rod",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

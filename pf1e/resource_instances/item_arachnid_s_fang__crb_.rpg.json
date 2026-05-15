@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "arachnid_s_fang__crb_",
+    "name": {
+      "value": "Arachnid's Fang"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 18,302 gp; Slot none; CL 9th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION Poison applied to this +1 dagger seeps into the blade, awaiting the perfect moment for release. After a hit with the dagger but before damage is determined, the wielder of an arachnid\u2019s fang can release a stored dose of poison into the creature struck by the blade as a free action. Up to 8 doses of poison can be stored in the dagger at a time, but only 1 dose can be released on a given attack. CONSTRUCTION REQUIREMENTS Cost 9,302 gp; Feats Craft Magic Arms and Armor; Spells touch injection"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_arachnid_s_fang",
+          "value": {
+            "value": 18302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_arachnid_s_fang",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

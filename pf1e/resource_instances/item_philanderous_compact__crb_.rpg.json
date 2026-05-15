@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "philanderous_compact__crb_",
+    "name": {
+      "value": "Philanderous Compact"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint illusion; CL 1st; Slot none; Price 1,500 gp; Weight \u00e2\u0080\u0094 DESCRIPTION This small, polished leather case opens to reveal a mirror, face powder, rouge, and a puff. Using the puff and uttering a command word allows you to change your appearance once per day as per disguise self. Additionally, you get a +2 competence bonus on Diplomacy checks made to gather information. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, disguise self; Special creator must have at least 2 ranks in Diplomacy; Cost 750 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_philanderous_compact",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grafting_blade__crb_",
+    "name": {
+      "value": "Grafting Blade"
+    },
+    "source": {
+      "value": "spymaster_s_handbook"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,370 gp; Slot none; CL 3rd; Weight 1 lb.; Aura faint transmutation DESCRIPTION This plain-looking +1 spring blade is attached to a weatherbeaten cedar grip. By speaking a command word, the wielder can magically merge the grip into a larger wood handle, such as a cane, club, staff, stylus, or oar, transforming the infused item into either a +1 shortspear, +1 spear, or +1 siangham (depending on the handle\u00e2\u0080\u0099s size). The blade can even be affixed to magic items such as staves, rods, and wands so long as they are made of wood, but doing so renders their other magical properties nonfunctional until the grafting blade is removed. Removing a grafting blade from an item it has merged with requires a full-round action, and leaves both items unharmed. CONSTRUCTION REQUIREMENTS Cost 2,370 gp; Feats Craft Magic Arms and Armor; Spells wood shape"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grafting_blade",
+          "value": {
+            "value": 4370
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_grafting_blade",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

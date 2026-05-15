@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "demon_blood__crb_",
+    "name": {
+      "value": "Demon Blood"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation [evil]; CL 5th; Slot none; Price 800 gp; Weight 1 lb. DESCRIPTION A character who drinks a dose of this black, bubbling ichor becomes nauseated for 1d6 rounds if he fails a DC 15 Fortitude save. He also gains an enhanced capacity to affect demons with his magical attacks for 1 hour\u00e2\u0080\u0094during this time, demons suffer a \u00e2\u0080\u00932 penalty on their saving throws against the user\u00e2\u0080\u0099s spells and spell-like abilities, and the user gains a +2 bonus on caster level checks made to penetrate a demon\u00e2\u0080\u0099s spell resistance. Demon blood is somewhat addictive, and every day for a week after a user stops daily doses of the ichor, he must make a DC 15 Fortitude save to avoid taking 1 point of Wisdom damage and being sickened for the entire day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, desecrate; Cost 400 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_demon_blood",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_demon_blood",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

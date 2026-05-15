@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "constrictor_s_gauntlets__crb_",
+    "name": {
+      "value": "Constrictor's Gauntlets"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "weapon"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,302 gp; Slot none; CL 10th; Weight 1 lb.; Aura moderate transmutation DESCRIPTION These +1 gauntlets are made of snakeskin and grant a +1 enhancement bonus on grapple checks. Once per day as a standard action, the wielder of a pair of constrictor\u2019s gauntlets can target a single creature wearing medium or heavy armor within 30 feet. The target must succeed at a DC 16 Will saving throw or its armor shrinks and constricts, dealing 1d6 points of bludgeoning damage to the target if it\u2019s wearing medium armor or 1d8 points of bludgeoning damage if it\u2019s wearing heavy armor. The armor deals this damage each round for 3 rounds, and then returns to its normal size. The armor\u2019s armor bonus, maximum Dexterity bonus, armor check penalty, and other attributes do not change while it is shrunken. CONSTRUCTION REQUIREMENTS Cost 6,302 gp; Feats Craft Magic Arms and Armor; Spells shrink item"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_constrictor_s_gauntlets",
+          "value": {
+            "value": 12302
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_constrictor_s_gauntlets",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

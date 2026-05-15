@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sustaining_spoon__crb_",
+    "name": {
+      "value": "Sustaining spoon #2"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint conjuration; CL 5th; Slot \u00e2\u0080\u0094; Price 5,400 gp; Weight \u00e2\u0080\u0094 DESCRIPTION If this unremarkable appearing utensil is placed in an empty container, the vessel fills with a thick, pasty gruel. Although the gruel tastes like warm, wet cardboard, it is highly nourishing and contains everything necessary to sustain any herbivorous, omnivorous, or carnivorous creature. The spoon can produce sufficient gruel each day to feed up to four humans. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, create food and water; Cost 2,700 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sustaining_spoon",
+          "value": {
+            "value": 5400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

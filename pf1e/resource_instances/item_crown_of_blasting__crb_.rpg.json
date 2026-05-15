@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "crown_of_blasting__crb_",
+    "name": {
+      "value": "Crown of blasting, minor"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Crown of Blasting, Minor Aura moderate evocation; CL 6th; Slot head; Weight 1 lb.; Price 6,480 gp DESCRIPTION On command, this simple golden crown projects a blast of searing light (3d8 points of damage) once per day. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, searing light; Cost 3,240 gp Crown of Blasting, Major Aura strong evocation; CL 17th; Slot head; Weight 1 lb.; Price 23,760 gp DESCRIPTION On command, this elaborate golden crown projects a blast of searing light (5d8 maximized for 40 points of damage) once per day. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, Maximize Spell, searing light; Cost 11,880 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_crown_of_blasting",
+          "value": {
+            "value": 6480
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_crown_of_blasting",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "singing_bell_of_striking__crb_",
+    "name": {
+      "value": "Singing bell of striking #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint transmutation; CL 5th; Weight 3 lbs.; Slot none; Price 6,000 gp DESCRIPTION This simple bowl-shaped bell made of either cold iron or silver is played by rubbing a leather mallet along its rim, creating a ringing sound. By playing the bell while meditating or resting to regain ki, the bearer may attune his ki points to the instrument. Once attuned, the bearer\u2019s ki strikes count as cold iron (if the bell is cold iron ) or silver (if the bell is silver) instead of magic for the purpose of overcoming damage reduction. This lasts until the next time the bearer rests or meditates to regain ki points. A creature can only be attuned to one singing bell at a time, and a singing bell can only be attuned to one person at a time. Only creatures whose ki strikes normally act as magic weapons can use a singing bell of striking. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, versatile weapon; Cost 3,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_singing_bell_of_striking",
+          "value": {
+            "value": 6000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_singing_bell_of_striking",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

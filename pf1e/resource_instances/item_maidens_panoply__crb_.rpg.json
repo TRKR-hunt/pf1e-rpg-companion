@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "maidens_panoply__crb_",
+    "name": {
+      "value": "Maiden's Panoply"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 30,650 gp; Slot armor; CL 11th; Weight 50 lbs.; Aura moderate abjuration and divination DESCRIPTION This set of +3 Gray Maiden plate creates a mental link between the wearer and her allies. The wearer can telepathically communicate with allies within 30 feet (although this communication is one-way, unless an ally also has telepathy ). If an ally within 30 feet is aware of a threat, the wearer of this armor is aware as well, and the wearer is never flat-footed unless all allies within 30 feet are also flat-footed. In addition, if the wearer of a maiden\u2019s panoply also wields a maiden\u2019s aegis, activating that shield\u2019s ability does not reduce the maiden\u2019s aegis\u2019s enhancement bonus, and the bonus it grants increases to +2. CONSTRUCTION REQUIREMENTS Cost 16,150 gp; Feats Craft Magic Arms and Armor; Spells detect thoughts, telepathy"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_maidens_panoply",
+          "value": {
+            "value": 30650
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_maidens_panoply",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

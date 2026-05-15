@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "conquering_brand__crb_",
+    "name": {
+      "value": "Conquering Brand"
+    },
+    "source": {
+      "value": "path_of_the_hellknight"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura varies; CL varies; Slot none; Price 420 gp (Conformity), 2,820 gp (Hobbling), 10,020 gp (Lesser Geas), 14,420 gp (Subjugation), 14,420 gp (Tracking), 18,020 gp (Justice), 26,420 gp (Geas); Weight 5 lbs. DESCRIPTION Each of these 3-foot-long branding irons ends in a distinctive, cruel-looking symbol. Once per day on command, a wielder of a conquering brand can cause the tip to grow red hot for 1 hour, and during this time one creature can be branded. The brand\u2019s recipient is burned as normal for a branding iron and is also affected as per brand or another spell the conquering brand carries, as the wielder of the brand chooses. A conquering brand can create only one magical brand per day. Conformity: A conquering brand of conformity can create a brand of conformity. Aura faint transmutation; CL 1st; Feats Craft Wondrous Item; Spells brand, brand of conformity. Geas: A conquering brand of geas can affect the recipient as per geas/quest. When the brand is used in this way, it takes 10 minutes for its tip to heat up. If not used to create a brand, the mark left by the branding iron is non-magical and not tied to the spell effect, so removing it doesn\u2019t remove the spell effect. Aura moderate enchantment; CL 11th; Feats Craft Wondrous Item; Spells brand, geas/quest. Hobbling: A conquering brand of hobbling can create a brand of hobbling. faint transmutation; CL 4th; Feats Craft Wondrous Item; Spells brand, brand of hobbling. Justice: A conquering brand of justice can create a mark of justice, as per the spell. When the brand is used this way, it takes 10 minutes for its tip to heat up. Aura faint necromancy; CL 9th; Feats Craft Wondrous Item; Spells brand, mark of justice. Lesser Geas: A conquering brand of lesser geas allows you to affect the recipient as per lesser geas. When the brand is used in this way, it takes 1 round for its tip to heat up. If not used to create a brand, the mark left by the branding iron is non-magical and not tied to the spell effect, so removing it doesn\u2019t remove the spell effect. Aura faint enchantment; CL 7th; Feats Craft Wondrous Item; Spells brand, lesser geas. Subjugation: This brand can create a greater brand, except it blazes when brought within 30 feet of the Nail\u2019s symbol. Aura moderate transmutation; CL 10th; Feats Craft Wondrous Item; Spells brand, greater brand. Tracking: A conquering brand of tracking can create a brand of tracking. Aura moderate transmutation; CL 9th; Feats Craft Wondrous Item; Spells brand, brand of tracking. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells brand, additional spells (see text); Cost 220 gp (Conformity), 13,220 gp (Geas), 1,420 gp (Hobbling), 9,020 gp (Justice), 5,020 gp (Lesser Geas), 7,220 gp (Subjugation), 7,220 gp (Tracking)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_conquering_brand",
+          "value": {
+            "value": 420
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_conquering_brand",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

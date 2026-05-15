@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "monocle_inquisitor_s__crb_",
+    "name": {
+      "value": "Inquisitor\u2019s monocle"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint enchantment; CL 3rd; Slot eye; Price 6,800 gp; Weight \u00e2\u0080\u0094 DESCRIPTION The thick glass lens of this golden-framed monocle is attached to the wearer by a weighty chain. This monocle helps draw out the truth of things, and was originally created to aid in the investigation of crimes and the questioning of witnesses. Twice per day on command, it can create a zone of truth, as per the spell. In addition, this monocle grants its wearer a +5 competence bonus on Sense Motive checks. Though it fits over only one of the wearer\u00e2\u0080\u0099s eyes, the item takes up the entire eyes slot. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, zone of truth; Cost 3,400 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_monocle_inquisitor_s",
+          "value": {
+            "value": 6800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

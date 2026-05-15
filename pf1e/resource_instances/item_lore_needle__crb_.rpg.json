@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lore_needle__crb_",
+    "name": {
+      "value": "Lore Needle"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 4,000 gp; Slot head; CL 3rd; Weight \u00e2\u0080\u0094; Aura faint transmutation DESCRIPTION This thick silver needle is approximately 6 inches long and can be carefully inserted into the brain of a willing or helpless target in order to magically expand the target\u2019s knowledge. Implanting a lore needle takes 10 minutes and requires a successful DC 15 Heal check. A user can insert the needle into her own head with a successful DC 25 Heal check. On a failure, the needle deals 2 points of Constitution damage and 2 points of Intelligence damage to the target and is not implanted. A creature with an implanted lore needle can, up to three times per day when attempting a Knowledge check, apply to that check its bonus on any other single Knowledge skill in which it is trained. CONSTRUCTION REQUIREMENTS Cost 2,000 gp; Feats Craft Wondrous Item; Spells modify memory"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lore_needle",
+          "value": {
+            "value": 4000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

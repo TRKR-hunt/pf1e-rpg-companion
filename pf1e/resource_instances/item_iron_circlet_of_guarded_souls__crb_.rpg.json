@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "iron_circlet_of_guarded_souls__crb_",
+    "name": {
+      "value": "Iron circlet of guarded souls #2"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate abjuration; CL 11th; Slot head; Price 30,000 gp; Weight 1 lb. DESCRIPTION This simple cold iron circle has no markings or ornamentation upon it, and is always slightly cool to the touch. The circle shields both the wearer\u00e2\u0080\u0099s soul and his identity from mystic intrusion. The wearer is immune to effects that target souls (such as trap the soul ) or that would be foiled by a nondetection spell (unlike nondetection, the diviner\u00e2\u0080\u0099s caster cannot attempt a spell resistance check to overcome this effect). If the wearer is slain, he cannot be restored to life by magic (save by a miracle, wish, or divine intervention) until the circlet is removed. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item, nondetection, trap the soul; Cost 15,000 gp."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_iron_circlet_of_guarded_souls",
+          "value": {
+            "value": 30000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_iron_circlet_of_guarded_souls",
+          "value": {
+            "value": 1
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

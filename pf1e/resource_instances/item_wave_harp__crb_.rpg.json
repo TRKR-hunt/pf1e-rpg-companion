@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "wave_harp__crb_",
+    "name": {
+      "value": "Wave Harp"
+    },
+    "source": {
+      "value": "into_the_shattered_continent"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 7,500 gp; Slot none; CL 3rd; Weight 8 lbs.; Aura faint evocation DESCRIPTION Three mithral antennae stand two feet tall from this thick, rectangular plate made of silvery metal with raised ridges that resemble tiny waves. The wave harp is an unusual musical instrument. Three thin mithral rods extend from a thick plate, emitting invisible, short-range fields that respond to specific movements with notes of different pitches and timbres. Plucking the air between the mithral rods creates a variety of tones that a skilled musician can work into complicated chords and melodies. The music of a wave harp is usually thin and high pitched, even when the lower notes are played closest to the plate. A wave harp is generally placed upon a stool or table at waist height to the musician, but it can be fitted with a strap to hang in front of the musician like a marching drum. EFFECTS As the necessary finger-motions are something between playing an organ and a zither, a musician can use either Perform (keyboard) or Perform (strings) to play a wave harp, although a musician without ranks in both skills takes a \u00e2\u0080\u00934 penalty on his Perform checks. There is no limit to the time a wave harp can be played as a mundane instrument, but the device has two additional magical effects that can be activated by anyone playing the wave harp as a standard action three times per day. First, the musician can conjure a pair of ghostly hands made of sonic energy to assist in plucking the air for 1 minute; the hands automatically assist the wearer with Perform checks, providing a +2 bonus on Perform checks with the instrument for 1 minute. These hands also absorb errant noises that would impact the performance, providing the musician with sonic resistance 10. Second, the musician can cause the wave harp to emit a discordant wail. The musician attempts a DC 15 Perform check with the wave harp; on a success, all creatures within 30 feet other than the musician take a \u00e2\u0080\u00932 penalty on saving throws against sonic effects for 1 round, plus 1 additional round for every 5 points by which the Perform check result exceeds the DC. CONSTRUCTION REQUIREMENTS Cost 3,750 gp; Feats Craft Wondrous Item; Spells minor image, sound burst"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_wave_harp",
+          "value": {
+            "value": 7500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_wave_harp",
+          "value": {
+            "value": 8
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

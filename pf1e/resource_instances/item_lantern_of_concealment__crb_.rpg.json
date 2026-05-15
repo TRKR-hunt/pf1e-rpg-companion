@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "lantern_of_concealment__crb_",
+    "name": {
+      "value": "Lantern of Concealment"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Price 12,000 gp; Slot none; CL 5th; Weight 2 lbs.; Aura faint illusion DESCRIPTION This black lamp has a wooden frame wrapped with a cover made from white linen, on which are drawn numerous spidery runes and constellations. While lit, a lantern of concealment creates a hide campsite effect in a 20-foot cube centered on the lantern that lasts for 10 hours. This effect moves with the lantern, but only functions while the lantern is stationary. If the lantern is moved while its concealment effect is active, it must take 10 minutes to adjust to its new location before continuing the hide campsite effect. A lantern of concealment can only be used in this way once per day. CONSTRUCTION REQUIREMENTS Feats Craft Wondrous Item; Spells hide campsite; Gold 6,000 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_lantern_of_concealment",
+          "value": {
+            "value": 12000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_lantern_of_concealment",
+          "value": {
+            "value": 2
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

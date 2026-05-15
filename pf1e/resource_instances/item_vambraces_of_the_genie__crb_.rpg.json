@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "vambraces_of_the_genie__crb_",
+    "name": {
+      "value": "Vambraces of the genie (efreeti)"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "worn"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura faint evocation; CL 5th Slot wrists; Price 14,400 gp (efreeti), 18,900 gp (djinni), 18,900 gp (marid), 18,900 gp (shaitan); Weight 3 lb. DESCRIPTION These bracers are decorated with icons representing air, earth, fire, or water, and depictions of genies appropriate to that element. The item protects the wearer against hot and cold environments as if she were using endure elements The vambraces\u00e2\u0080\u0099 materials and other powers depend on their associated genie type. Djinni: These mithral bracers allow the wearer to use gaseous form, invisibility, and wind wall each once per day. Efreeti: These scorched bronze bracers allow the wearer to use invisibility (self only), produce flame, and pyrotechnics each once per day. Marid: These coral bracers allow the wearer to use hydraulic torrent, invisibility, and water breathing each once per day. Shaitan: These adamantine bracers allow the wearer to use glitterdust, meld into stone, and stone shape each once per day. CONSTRUCTION REQUIREMENTS Craft Wondrous Item, protection from elements and the three spells the wearer can use; Cost 7,200 gp (efreeti), 9,450 gp (djinni), 9,450 gp (marid), 9,450 (shaitan)."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_vambraces_of_the_genie",
+          "value": {
+            "value": 14400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_vambraces_of_the_genie",
+          "value": {
+            "value": 3
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}

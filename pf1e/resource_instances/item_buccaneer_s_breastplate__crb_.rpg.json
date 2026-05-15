@@ -1,0 +1,49 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "buccaneer_s_breastplate__crb_",
+    "name": {
+      "value": "Buccaneer\u2019s breastplate"
+    },
+    "source": {
+      "value": "ultimate_equipment_ogl"
+    },
+    "type": {
+      "value": "armor"
+    },
+    "is_magic": {
+      "value": true
+    },
+    "description": {
+      "value": "Aura moderate transmutation; CL 9th; Weight 30 lbs.; Price 23,850 gp DESCRIPTION This +1 breastplate is made of shining amber metal and decorated with faint motifs of the waves and water. It allows the wearer to continually utilize the effects of the spell water walk. If a creature puts on the armor while underwater, the wearer is borne toward the surface at a rate of 60 feet per round. CONSTRUCTION REQUIREMENTS Feats Craft Magic Arms and Armor; Spells water walk; Cost 12,100 gp"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_buccaneer_s_breastplate",
+          "value": {
+            "value": 23850
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    },
+    "weight": {
+      "value": {
+        "resource_id": "weight",
+        "stats": {
+          "id": "wt_buccaneer_s_breastplate",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "pounds"
+          }
+        }
+      }
+    }
+  }
+}
