@@ -85,8 +85,40 @@ CATEGORY_CONFIG: dict[str, dict] = {
         "index_roots": [f"{BASE}/gods-and-magic/"],
         "path_prefix": "/gods-and-magic/",
         "detail_depth": 3,
+        "recursive": True,
         "excluded": ("/3rd-party",),
     },
+    "race_lore": {
+        "compendium_category": "race_lore",
+        "index_roots": [
+            f"{BASE}/races/core-races/",
+            f"{BASE}/races/other-races/featured-races/",
+            f"{BASE}/races/other-races/uncommon-races/",
+            f"{BASE}/races/other-races/more-races/",
+        ],
+        "path_prefix": "/races/",
+        "detail_depth": 3,
+        "recursive": True,
+        "excluded": ("/3rd-party",),
+        # Tails containing "races" (core-races, featured-races,
+        # standard-races-1-10-rp, ...) are sub-indexes to recurse, not
+        # detail pages. Detail race slugs (arg-catfolk, gnoll-6-rp)
+        # don't contain "races".
+        "extra_index_substrings": ("races",),
+    },
+}
+
+# The 7 hand-authored mechanical PF1e races, keyed by lowercased name,
+# so a scraped core-race lore entry can cross-link to the real
+# mechanical race resource.
+MECHANICAL_RACE_IDS = {
+    "dwarf": "race_dwarf__crb_",
+    "elf": "race_elf__crb_",
+    "gnome": "race_gnome__crb_",
+    "half-elf": "race_half-elf__crb_",
+    "half-orc": "race_half-orc__crb_",
+    "halfling": "race_halfling__crb_",
+    "human": "race_human__crb_",
 }
 
 # Hand-authored mechanical class ids, keyed by lowercased class name, so
@@ -149,9 +181,11 @@ _INDEX_TAIL_NAMES = {
 }
 
 
-def _looks_like_index_tail(tail: str) -> bool:
-    return bool(_INDEX_TAIL_RE.match(tail)) or tail in _INDEX_TAIL_NAMES \
-        or tail.endswith("-classes") or tail.endswith("-archetypes")
+def _looks_like_index_tail(tail: str, extra_substrings: tuple = ()) -> bool:
+    if bool(_INDEX_TAIL_RE.match(tail)) or tail in _INDEX_TAIL_NAMES \
+            or tail.endswith("-classes") or tail.endswith("-archetypes"):
+        return True
+    return any(sub in tail for sub in extra_substrings)
 
 
 def discover(cfg: dict) -> dict[str, str]:
@@ -199,7 +233,15 @@ def discover(cfg: dict) -> dict[str, str]:
             low = name.lower()
             if low.startswith("go to ") or low in ("next", "previous", "back"):
                 continue
-            if n >= depth and not _looks_like_index_tail(tail):
+            extra = cfg.get("extra_index_substrings", ())
+            is_index = _looks_like_index_tail(tail, extra)
+            if is_index:
+                # A sub-index. Recurse into it (recursive categories only),
+                # regardless of depth — nested buckets can sit deeper than
+                # detail_depth (e.g. races more-races/standard-races-1-10-rp).
+                if recursive and href not in visited and path != root.rstrip("/"):
+                    queue.append(href)
+            elif n >= depth:
                 # A detail page.
                 if not recursive:
                     # Must be a direct child of a configured index root.
@@ -208,10 +250,6 @@ def discover(cfg: dict) -> dict[str, str]:
                         continue
                 if name and len(name) <= 120:
                     out.setdefault(href, name)
-            elif recursive and n < depth and _looks_like_index_tail(tail) \
-                    and href not in visited:
-                # A sub-index to recurse into (recursive categories only).
-                queue.append(href)
     return out
 
 
@@ -328,10 +366,15 @@ def parse_detail(name: str, url: str, cfg: dict,
         tag.decompose()
     body = content.get_text("\n", strip=True)
     # Strip the breadcrumb trail. d20pfsrd renders it as a chain of
-    # "> Section > Subsection > Name" with or without a leading "Home".
-    body = re.sub(r"^\s*(?:Home\s*)?(?:>\s*[^\n>]+\s*)+>\s*"
-                  + re.escape(name) + r"\s*", "", body, count=1)
-    body = re.sub(rf"^\s*{re.escape(name)}\s*\n+", "", body, count=1)
+    # "Home > Section > Subsection > Leaf" (case/word may differ from the
+    # link text, e.g. "Dwarves" vs name "dwarves"). Drop everything up to
+    # and including the last ">" of the leading breadcrumb run.
+    body = re.sub(
+        r"^\s*Home\s*(?:>\s*[^\n>]+\s*){1,6}",
+        "", body, count=1, flags=re.IGNORECASE,
+    )
+    body = re.sub(rf"^\s*{re.escape(name)}\s*\n+", "", body, count=1,
+                  flags=re.IGNORECASE)
     # Strip the in-page "Contents ..." table-of-contents line(s) that
     # d20pfsrd injects right after the breadcrumb.
     body = re.sub(r"^\s*Contents\b[^\n]*\n", "", body, count=1)
@@ -356,6 +399,17 @@ def parse_detail(name: str, url: str, cfg: dict,
     related = related_override or ""
     if not related and compendium_cat == "class":
         related = MECHANICAL_CLASS_IDS.get(name.strip().lower(), "")
+    if not related and compendium_cat == "race_lore":
+        rn = name.strip().lower()
+        # d20pfsrd's core-race index links use plurals ("Elves",
+        # "Dwarves"). Normalize to the mechanical-race singular key.
+        _plural_to_singular = {
+            "elves": "elf", "dwarves": "dwarf", "gnomes": "gnome",
+            "halflings": "halfling", "humans": "human",
+            "half-elves": "half-elf", "half-orcs": "half-orc",
+        }
+        rn = _plural_to_singular.get(rn, rn)
+        related = MECHANICAL_RACE_IDS.get(rn, "")
 
     # Namespace the id by category: every compendium_entry shares the
     # compendium_entry_<id>.rpg.json filename space, so an archetype
