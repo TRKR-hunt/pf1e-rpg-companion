@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_elemental_commixture_teamwork__crb_",
+    "name": {
+      "value": "Elemental Commixture"
+    },
+    "source": {
+      "value": "blood_of_the_elements"
+    },
+    "type": {
+      "value": "teamwork"
+    },
+    "traits": {
+      "value": "teamwork"
+    },
+    "prerequisites": {
+      "value": "Caster level 1st."
+    },
+    "description": {
+      "value": "**Benefit:** You and an ally within 30 feet who shares this feat can cast your spells together to create a more powerful, hybrid effect. Both spells must have an elemental descriptor (air, earth, fire, or water), or an energy descriptor that corresponds to one of the elements ( acid [earth], cold [water], electricity [air], or fire [fire]). Both spells must be at least 1st level, within 1 spell level of each other, and cast during the same initiative turn through the use of readied actions. When the spells to be commixed are cast, one is designated as the primary spell (typically the higher-level spell), while the other is the secondary spell. The primary spell must be an offensive spell that targets an area or one or more creatures. The secondary spell can be any spell with an appropriate descriptor. Neither spell can take more than a standard action to cast. The primary spell behaves as written (with the exception of the synergistic benefits that are described below). The secondary spell does not manifest any of its usual effects; instead, targeted creatures are affected by a secondary effect that is determined by the combination of the two spells\u2019 descriptors. Targeted creatures can attempt a saving throw against the primary spell as normal (assuming that a save is normally allowed), and then attempt a separate save against the secondary effect. The secondary effect\u2019s save type is described in its listing, and its save DC is equal to the normal save DC of the primary or secondary spell, whichever is lower (or, if neither spell allows a saving throw, 10 + lowest spell\u2019s level + spellcaster\u2019s primary spellcasting ability score [ Int, Wis, or Cha ] modifier). Commixed spells cannot be counterspelled normally. A creature with Improved Counterspell can counterspell commixed spells if both spells are correctly identified and both belong to the same school. Regardless, the secondary effects of two spells combined through Elemental Commixture cannot be counterspelled. Spell resistance still applies to the secondary effect, unless both of the commixed spells bypass spell resistance. Synergistic Benefits: The primary spell\u2019s save DC (if any) increases by 1. If either spell is normally modified by Spell Focus or Greater Spell Focus, the bonus to save DCs granted by those feats stacks with this increase. The caster of the primary spell also gains a +1 bonus on any caster level check made to overcome spell resistance. Secondary Effects: While the secondary spell has no direct effect other than bolstering the effects of the primary spell, the combination of spells also creates a unique secondary effect depending on the elemental descriptors of the commixed spells. For the purpose of this secondary effect, the acid, cold, and electricity descriptors count as earth, water, and air descriptors, respectively. Commixed spells with the same elemental descriptors do not produce a secondary effect, though the primary spell still gains the synergistic benefits described above. Dust (Air/Earth): Choked by dust, the targets must succeed at a Fortitude save or become staggered for 1 round plus 1 round per 5 caster levels of the secondary spell\u2019s caster. Targeted spellcasters must succeed at a concentration check to cast spells (the DC is equal to the save DC). On a successful save, the targets are not staggered but must still attempt concentration checks. Lava (Earth/Fire): The targets are splattered with bits of molten rock and take 1d6 points of fire damage. The targets must succeed at a Reflex save or catch fire (see Catching on Fire). Mud (Earth/Water): The targets must succeed at a Reflex save or fall prone and have their movement speeds cut in half (to a minimum speed of 5 feet) for 1 round plus 1 round per 5 caster levels of the secondary spell\u2019s caster. On a successful save, the targets\u2019 movement speeds are cut in half for 1 round. Smoke (Air/Fire): The targets suffer smoke inhalation and must succeed at Fortitude saves or become nauseated f"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

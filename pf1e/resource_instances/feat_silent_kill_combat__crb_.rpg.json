@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_silent_kill_combat__crb_",
+    "name": {
+      "value": "Silent Kill"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Stealth 12 ranks; assassinate advanced slayer talent or ninja master trick."
+    },
+    "description": {
+      "value": "**Benefit:** When you kill a creature during a surprise round, you can attempt a Stealth check, opposed by the Perception checks of potential observers, to prevent them from noticing your action and subsequently identifying you as the assailant."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

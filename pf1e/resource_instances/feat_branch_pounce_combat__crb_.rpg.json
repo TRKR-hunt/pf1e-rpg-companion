@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_branch_pounce_combat__crb_",
+    "name": {
+      "value": "Branch Pounce"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_wilderness"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Climb 3 ranks, Stealth 3 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** When charging a target by jumping down from above (such as when jumping out of a tree), you can soften your fall with a melee attack. If the attack at the end of your charge hits, the attack deals damage as normal and you also deal the amount of falling damage appropriate to your fall to the target (1d6 points for a 10-foot fall, 2d6 points for a 20-foot fall, and so on). This falling damage is not multiplied on a critical hit. You land in an unoccupied square of your choosing adjacent to the target, and you take falling damage as if your fall had been 10 feet shorter. You can attempt an Acrobatics check as normal to treat the fall as an additional 10 feet shorter for the purpose of determining the damage you take from the fall. If your attack misses, you land prone in a random square adjacent to the target and automatically take the full amount of falling damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

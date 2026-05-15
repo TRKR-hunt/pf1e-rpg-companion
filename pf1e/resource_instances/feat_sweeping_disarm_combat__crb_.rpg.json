@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_sweeping_disarm_combat__crb_",
+    "name": {
+      "value": "Sweeping Disarm (Combat)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Disarm, base attack bonus +1."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you succeed at a combat maneuver check to disarm an opponent, you can attempt a second disarm at a \u00e2\u0080\u00935 penalty against an opponent adjacent to the original target. You need not be threatening the second target. You can attempt only one additional disarm combat maneuver check per round with this feat."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

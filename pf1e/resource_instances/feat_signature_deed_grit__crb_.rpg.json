@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_signature_deed_grit__crb_",
+    "name": {
+      "value": "Signature Deed"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Grit class feature, gunslinger level 11th."
+    },
+    "description": {
+      "value": "**Benefit:** Pick a deed that you have access to and that you must spend grit to perform. Once per round, you can perform this deed for 1 fewer grit point (minimum 0). You can reduce the cost of a deed in this way only if you have at least 1 grit point."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

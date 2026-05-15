@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_unconquerable_resolve_combat__crb_",
+    "name": {
+      "value": "Unconquerable Resolve (Combat)"
+    },
+    "source": {
+      "value": "healer_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Resolve class feature, samurai level 1st."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you spend a daily use of the resolve class feature, you gain 1 temporary hit point per Hit Die you have. These temporary hit points are lost first when you take damage, disappear after 1 minute, and are replenished each time you use the resolve class feature. Temporary hit points gained in this way persist for 24 hours and then, if you haven\u00e2\u0080\u0099t lost them, they disappear.\n\n**Special:** This feat can be taken multiple times. Each time you take it, the number of temporary hit points you gain each time you spend a daily use of the resolve class feature increases by 1 per Hit Die you have."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

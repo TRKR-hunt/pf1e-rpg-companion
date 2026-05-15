@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_warning_shot_combat__crb_",
+    "name": {
+      "value": "Warning Shot"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Point-Blank Shot, Precise Shot, Weapon Focus, proficiency with the selected weapon."
+    },
+    "description": {
+      "value": "**Benefit:** As a standard action, you can make a ranged touch attack using a ranged weapon with which you have Weapon Focus. If successful, instead of dealing damage or applying any other effects of the attack, you may attempt an Intimidate check to demoralize the target as a free action. The target doesn\u2019t need to be within 30 feet, nor does it need to be able to see or hear you."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

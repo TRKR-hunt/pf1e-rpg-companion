@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_blinding_critical_combat_critical__crb_",
+    "name": {
+      "value": "Critical, Blinding"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Critical Focus, base attack bonus +15."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you score a critical hit, your opponent is permanently blinded. A successful Fortitude save reduces this to dazzled for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM\u2019s discretion). Blindness can be cured by heal, regenerate, remove blindness, or similar abilities.\n\n**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

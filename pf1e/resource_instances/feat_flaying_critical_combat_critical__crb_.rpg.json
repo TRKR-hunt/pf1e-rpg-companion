@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_flaying_critical_combat_critical__crb_",
+    "name": {
+      "value": "Flaying Critical (Combat, Critical)"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Critical Focus, base attack bonus +11."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you score a critical hit, your opponent takes a \u00e2\u0080\u00931 penalty to its natural armor bonus for the duration of the encounter. This penalty is cumulative, but cannot reduce an opponent\u2019s natural armor bonus below 0."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_tenebrous_spell_metamagic__crb_",
+    "name": {
+      "value": "Tenebrous Spell"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "**Benefit:** When you cast a tenebrous spell in darkness or dim light, the spell\u00e2\u0080\u0099s effective caster level and any associated save DCs are increased by 1. Any attempts at dispelling a tenebrous spell in darkness or dim light take a \u00e2\u0080\u00932 penalty on the dispel check. Casting a tenebrous spell in bright light is difficult, and requires a concentration check (DC 15 + twice the tenebrous spell\u00e2\u0080\u0099s effective spell level). Attempts to dispel a tenebrous spell in bright light gain a +4 bonus on the dispel check. You cannot use this feat on spells with the light descriptor. A tenebrous spell uses up a spell Slot one level higher than the spell\u00e2\u0080\u0099s actual level, except in the case of spells with the darkness or shadow descriptor or of the illusion (shadow) subschool; this feat does not change the effective level of those spells (but still counts as using a metamagic feat for all other purposes)."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

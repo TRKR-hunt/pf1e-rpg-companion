@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_restorative_vigor_combat__crb_",
+    "name": {
+      "value": "Restorative Vigor (Combat)"
+    },
+    "source": {
+      "value": "healer_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Con 15, Combat Vigor, character level 8th."
+    },
+    "description": {
+      "value": "**Benefit:** Your vigor pool gains 1 vigor point. Whenever you spend vigor points, you can recover from 1d3 points of ability score damage from one physical ability score ( Strength, Dexterity, or Constitution ) instead of regaining 1d6 hit points. You can choose separately for each vigor point spent. For example, if you spend 2 vigor points, you could regain 2d6 hit points; recover 2d3 points of ability damage from up to two physical ability scores total; or regain 1d6 hit points and recover from 1d3 points of ability damage from one physical ability score."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

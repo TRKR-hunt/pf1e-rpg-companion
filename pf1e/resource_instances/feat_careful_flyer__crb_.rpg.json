@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_careful_flyer__crb_",
+    "name": {
+      "value": "Careful Flyer"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_intrigue"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Acrobatic, Fly 5 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** As long as you take a move action to fly, even when moving less than half your speed, you do not need to succeed at a Fly check to continue flying. When moving less than half your speed in a round, you also gain a +2 bonus on Acrobatics checks to avoid attacks of opportunity and a +2 bonus to your AC against attacks of opportunity you provoke because of movement.\n\n**Normal:** You must succeed at a Fly check to continue flying unless you move at least half your speed."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

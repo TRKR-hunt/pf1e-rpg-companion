@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_kudzu_takeover_combat__crb_",
+    "name": {
+      "value": "Kudzu Takeover (Combat)"
+    },
+    "source": {
+      "value": "wilderness_origins"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, base attack bonus +6 or monk level 6th, Greater Grapple, Improved Grapple, Improved Unarmed Strike, Kudzu Grappler, Kudzu Invasion, vine leshy."
+    },
+    "description": {
+      "value": "**Benefit:** Opponents blinded by your Kudzu Grappler feat increase their miss chance against creatures they attack by 20%. If the opponent has means of ignoring blindness, such as blindsight, they instead treat other creatures as if these creatures had normal concealment (20% miss chance).\n\n**Normal:** All opponents are considered to have total concealment (50% miss chance) against blinded creatures."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

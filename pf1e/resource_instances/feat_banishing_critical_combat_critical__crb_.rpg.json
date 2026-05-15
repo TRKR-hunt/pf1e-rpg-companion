@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_banishing_critical_combat_critical__crb_",
+    "name": {
+      "value": "Critical, Banishing"
+    },
+    "source": {
+      "value": "blood_of_angels"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Critical Focus, ability to cast dismissal or banishment, caster level 9th.\n\nArcane Strike or Disruptive; Spellcraft 8 ranks; arcane pool class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When you confirm a critical hit with a slashing or bludgeoning weapon, you may cast dismissal or banishment on that target as an immediate action, and the target takes a \u00e2\u0080\u00934 penalty on its Will save to resist the spell\u2019s effect. You must have dismissal or banishment prepared or otherwise available to cast, and using this ability casts the corresponding spell. The newer version: PPC:MSH Your familiarity with summoning creatures has taught you how to send them away with a well-timed strike.\n\nWhen you confirm a critical hit against a target while using Arcane Strike or with a weapon enhanced by your arcane pool, if the target was summoned by a spell you identified using a Spellcraft check, it must succeed at a Will save (DC = 10 + 1/2 your character level + your Intelligence modifier) or be sent back to its home plane as per the dismissal spell."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

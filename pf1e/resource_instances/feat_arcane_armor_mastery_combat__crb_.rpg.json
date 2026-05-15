@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_arcane_armor_mastery_combat__crb_",
+    "name": {
+      "value": "Arcane Armor Mastery"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Arcane Armor Training, Medium Armor Proficiency, caster level 7th."
+    },
+    "description": {
+      "value": "**Benefit:** As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 20% for any spells you cast this round. This bonus replaces, and does not stack with, the bonus granted by Arcane Armor Training."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

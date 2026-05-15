@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_greater_called_shot__crb_",
+    "name": {
+      "value": "Greater Called Shot"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Called Shot, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you make an attack, you can choose to replace that attack with a called shot. You can make multiple called shots in a single round. Each additional called shot after the first made in the same round takes a \u00e2\u0080\u00935 penalty. In addition, a called shot that deals half the creature\u00e2\u0080\u0099s hit points of damage (minimum 40) is a debilitating blow.\n\n**Normal:** You can make only one called shot in a round as a full-round action. A called shot that deals 50 points of damage is a debilitating blow."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

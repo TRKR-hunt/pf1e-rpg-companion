@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_conversion_channel__crb_",
+    "name": {
+      "value": "Conversion Channel"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Channel energy 7d6, worshiper of an evil deity."
+    },
+    "description": {
+      "value": "**Benefit:** Once per day when you channel negative energy to deal damage to living creatures, you can grant the effects of channeling positive energy to the faithful of your deity. Worshipers of your deity within the area of your channel recover a number of hit points equal to the amount of negative energy channeled. Non-worshipers of your deity within the channeled energy can convert to the worship of your deity as an immediate action in order to gain this healing effect. As long as their conversion is sincere, willing converts gain the healing instead of the damage from the channeled negative energy. Such a conversion can only be undone by an atonement or similar effect."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

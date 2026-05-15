@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_bulette_leap_combat__crb_",
+    "name": {
+      "value": "Bulette Leap"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Str 15, Bulette Charge Style, Improved Overrun, Power Attack, proficiency with heavy armor."
+    },
+    "description": {
+      "value": "**Benefit:** While using Bulette Charge Style, you gain a bonus on Acrobatics checks to jump equal to your Strength bonus. Additionally, when you perform an overrun combat maneuver, you can attempt to overrun multiple foes, but you take a cumulative \u00e2\u0080\u00932 penalty on each successive overrun attempt in the same round. If an overrun attempt fails, you cannot make any further attempts until your next round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

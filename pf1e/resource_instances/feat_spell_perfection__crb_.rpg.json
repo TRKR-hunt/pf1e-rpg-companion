@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_spell_perfection__crb_",
+    "name": {
+      "value": "Spell Perfection"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Spellcraft 15 ranks, at least three metamagic feats."
+    },
+    "description": {
+      "value": "**Benefit:** Pick one spell which you have the ability to cast. Whenever you cast that spell you may apply any one metamagic feat you have to that spell without affecting its level or casting time, as long as the total modified level of the spell does not use a spell slot above 9th level. In addition, if you have other feats which allow you to apply a set numerical bonus to any aspect of this spell (such as Spell Focus, Spell Penetration, Weapon Focus [ray], and so on), double the bonus granted by that feat when applied to this spell."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

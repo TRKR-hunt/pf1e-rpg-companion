@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_alchemical_strike_combat__crb_",
+    "name": {
+      "value": "Alchemical Strike"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Throw Anything, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** You can throw a single alchemical item as a full-attack action, increasing the effectiveness of the alchemical agent thrown. When throwing a single alchemical item as a full-attack action, you increase the DC of any effects associated with that alchemical item by 2. When your base attack bonus reaches +11 and every 5 points of bonus thereafter, increase the saving throw DC of the alchemical item by an additional 2. This feat does not apply to an alchemist\u2019s bombs.\n\n**Special:** An alchemist can take this feat in place of an alchemist discovery. He does not need to meet its prerequisites. The alchemist uses his class level, rather than the base attack bonus granted by the alchemist class, to calculate his total base attack bonus for the purposes of determining the bonus granted by this feat."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

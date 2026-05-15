@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_shrapnel_strike_combat__crb_",
+    "name": {
+      "value": "Shrapnel Strike"
+    },
+    "source": {
+      "value": "champions_of_corruption"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 15, Improved Sunder, Power Attack."
+    },
+    "description": {
+      "value": "**Benefit:** When you attempt a Strength check to break an object that can shatter (nothing made of paper, cloth, leather, or other soft, pliable material), you gain a bonus on the Strength check equal to your base attack bonus. If you surpass the object\u2019s break DC, you can send shards of its material f lying out in all directions, dealing an amount of piercing, slashing, and bludgeoning damage equal to 1d4 plus 1 point per point of the object\u2019s hardness to all creatures within 10 feet of the object, including yourself. A successful Reflex save (DC = 10 + 1/2 your Hit Dice + your Strength modifier) halves the damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

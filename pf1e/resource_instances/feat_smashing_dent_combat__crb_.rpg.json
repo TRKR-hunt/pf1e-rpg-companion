@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_smashing_dent_combat__crb_",
+    "name": {
+      "value": "Smashing Dent"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Str 13, Improved Sunder, Smashing Crush, Smashing Style, Weapon Focus with the chosen weapon, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** While using Smashing Style, each time you damage a suit of armor with a sunder combat maneuver, you reduce its armor bonus to its Armor Class by 1 and increase its armor check penalty by 1. Armor cannot have its armor bonus to AC reduced to less than 50% of its normal bonus or its armor check penalty more than doubled. These reductions and increases both end when the damage dealt by the sunder is repaired."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

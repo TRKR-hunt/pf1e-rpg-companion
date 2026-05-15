@@ -3,31 +3,31 @@
   "stats": {
     "id": "feat_weapon_focus__crb_",
     "name": {
-      "value": "Weapon Focus"
+      "value": "Weapon Focus (Style)"
     },
     "source": {
-      "value": "crb"
+      "value": "unknown"
     },
     "type": {
-      "value": "combat"
+      "value": "style"
     },
     "traits": {
-      "value": "combat"
+      "value": "style"
     },
     "prerequisites": {
-      "value": "Proficiency with chosen weapon, base attack bonus +1"
+      "value": "Proficiency with selected weapon, base attack bonus +1."
     },
     "description": {
-      "value": "+1 bonus on attack rolls with chosen weapon. (Repeatable; choose different weapon each time.)"
+      "value": "**Benefit:** You gain a +1 bonus on all attack rolls you make using the selected weapon.\n\n**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."
+    },
+    "action_cost": {
+      "value": "passive"
     },
     "is_toggleable": {
       "value": false
     },
     "effects": {
       "value": []
-    },
-    "action_cost": {
-      "value": "passive"
     }
   }
 }

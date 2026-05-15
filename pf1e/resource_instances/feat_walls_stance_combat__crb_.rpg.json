@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_walls_stance_combat__crb_",
+    "name": {
+      "value": "Wall's Stance (Combat)"
+    },
+    "source": {
+      "value": "elemental_masters_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Con 13, proficiency with heavy armor and shields."
+    },
+    "description": {
+      "value": "**Benefit:** As a move action when wearing heavy armor and using a heavy shield or tower shield, you increase the bonus to AC granted by your armor and your shield by 1 each until you move or are moved from your current square. You must be in contact with solid ground to gain this benefit. You can never increase an armor or shield bonus to AC by more than 1 each in this way."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

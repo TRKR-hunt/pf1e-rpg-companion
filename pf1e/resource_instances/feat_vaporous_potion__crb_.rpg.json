@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_vaporous_potion__crb_",
+    "name": {
+      "value": "Vaporous Potion"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Brew Potion."
+    },
+    "description": {
+      "value": "**Benefit:** When you brew a potion, you can brew it in such a way that when exposed suddenly to air and force, it diffuses into a cloud of vapor that can be inhaled. The potion can still be consumed normally, but it can also be delivered by throwing it at another creature as a splash weapon. The potion vial has a range increment of 10 feet and is considered an improvised weapon. On impact, the vial breaks and a cloud of barely visible potion vapor fills the square it lands in (this vapor does not obscure normal sight in any way). If a creature is in that square, it gains the benefits of the potion immediately as though it had imbibed the potion. Otherwise, the vapor persists for 1d3+1 rounds in only that square before dissipating, and the first creature to enter the square before the vapor dissipates gains the potion\u00e2\u0080\u0099s\n\n. A creature entering the vapor\u00e2\u0080\u0099s space can hold its breath to refrain from inhaling the potion. No more than one creature can benefit from a potion\u00e2\u0080\u0099s vapor, and if more than one creature is in the potion\u00e2\u0080\u0099s space after it is thrown, the potion is wasted and has no effect. The thrown potion deals no damage to creatures or objects it hits. A spell brewed into a potion this way does not use up a higher-level spell slot than the spell\u00e2\u0080\u0099s actual level."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

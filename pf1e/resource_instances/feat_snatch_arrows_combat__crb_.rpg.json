@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_snatch_arrows_combat__crb_",
+    "name": {
+      "value": "Snatch Arrows"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 15, Deflect Arrows, Improved Unarmed Strike."
+    },
+    "description": {
+      "value": "**Benefit:** When using the Deflect Arrows feat you may choose to catch the weapon instead of just deflecting it. Thrown weapons can immediately be thrown back as an attack against the original attacker (even though it isn\u2019t your turn) or kept for later use. You must have at least one hand free (holding nothing) to use this feat. FAQ Does an attack that is deflected count as a miss? It depends on the ability that is deflecting the attack. For example, the Deflect Arrows feat says, \u201cOnce per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it.\u201d It doesn\u2019t say the attack is a miss or is treated as a miss\u00e2\u0080\u0094instead, you take no damage from the attack. Because it is not a miss, effects that would trigger on a miss (such as Efreeti Style or Snake Fang ) are not triggered. Likewise, the Crane Wing feat uses similar language and does not say the deflected attack is a miss or treated as a miss. Note that the Snatch Arrows feat counts as a deflected attack\u00e2\u0080\u0094you do not take damage if you choose to catch the weapons instead of just deflecting it, and catching the weapon does not mean the attack was a miss. Update: If the attack is deflected, not only does the target take no damage, but any other effects ( ability drain, negative levels, harmful conditions, and so on) associated with that attack do not occur. If the deflected attack is a touch spell or other effect that requires \u201cholding the charge,\u201d the charge is not expended. For example, if a ghoul\u2019s claw attack is deflected, the target is not subject to the ghoul\u2019s paralysis ability from the attack. If a shocking grasp touch attack is deflected, the attacker is still \u201cholding the charge.\u201d [ Source ]"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

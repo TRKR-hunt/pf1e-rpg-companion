@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_redirect_attack_combat__crb_",
+    "name": {
+      "value": "Redirect Attack"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 15, Int 15, Dodge."
+    },
+    "description": {
+      "value": "**Benefit:** Once per turn, when an opponent only you threaten fails an attack against you, you can redirect the attack to target another foe. The new target must be adjacent to you and within reach of the opponent that missed you. Attempt a combat maneuver check; if the result exceeds both the Combat Maneuver Defense of the opponent who missed you and the Armor Class of the new target, the attack strikes and deals its normal damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

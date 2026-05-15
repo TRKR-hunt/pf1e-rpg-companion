@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_explosive_escape_combat__crb_",
+    "name": {
+      "value": "Explosive Escape (Combat)"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Str 13, Improved Grapple, Improved Unarmed Strike."
+    },
+    "description": {
+      "value": "**Benefit:** When you succeed at a combat maneuver check to break a grapple, you can choose to throw back any enemies participating in the grapple who are up to one size category larger than you. Such foes are thrown 5 feet directly away from you and take an amount of nonlethal damage equal to that of your unarmed attack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

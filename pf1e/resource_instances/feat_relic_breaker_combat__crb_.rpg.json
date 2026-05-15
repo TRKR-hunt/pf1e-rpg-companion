@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_relic_breaker_combat__crb_",
+    "name": {
+      "value": "Relic Breaker"
+    },
+    "source": {
+      "value": "path_of_the_hellknight"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, Gate Breaker, Improved Sunder, Power Attack, base attack bonus +1."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you sunder a held object, its bearer must succeed at a Reflex saving throw or the bearer catches on fire (taking 1d6 points of fire damage immediately, and an additional 1d6 points of fire damage each subsequent round the creature fails a Reflex saving throw). When your total Hit Dice reach 5, this damage increases by 1d6, and it increases by 1d6 every 5 levels thereafter, to a maximum of 5d6 at 20th level. The saving throw\u00e2\u0080\u0099s DC is equal to 10 + 1/2 your HD + your Charisma modifier."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

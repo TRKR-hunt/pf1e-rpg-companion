@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_channel_smite_combat__crb_",
+    "name": {
+      "value": "Channel Smite"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Channel energy class feature."
+    },
+    "description": {
+      "value": "**Benefit:** Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect. Editor\u2019s Note Do bonus dice from Channel Smite or spells such as elemental touch or flame arrow multiply on a critical hit? No. See Multiplying Damage: \u201d Exception: Extra damage dice over and above a weapon\u00e2\u0080\u0099s normal damage are never multiplied.\u201d The general rule is the only dice you multiply on a critical hit are the actual dice from the basic weapon (d8 for a longsword, 2d6 for a greatsword, and so on). [ Source ]"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

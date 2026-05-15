@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_fearsome_spell_metamagic__crb_",
+    "name": {
+      "value": "Fearsome Spell"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_occult_adventures"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "**Benefit:** When a creature takes damage from a fearsome spell, if that creature failed its save against the spell, it becomes shaken for a number of rounds equal to the spell\u2019s original level. If the spell doesn\u2019t allow a save, creatures harmed by it can attempt a Will save (against the same DC the spell would have if it did allow a save) to negate the shaken effect. If the spell effect already causes creatures to become shaken, on a failed save, add the duration of this metamagic effect to the duration of the shaken condition imposed by the spell. A fearsome spell can\u2019t cause a creature to become frightened, even if that creature is already shaken. Level Increase: +2 (a fearsome spell uses up a spell slot 2 levels higher than the spell\u2019s actual level."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

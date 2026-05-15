@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_dispelling_critical_critical__crb_",
+    "name": {
+      "value": "Dispelling Critical"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Arcane Strike, base attack bonus +11, ability to cast dispel magic."
+    },
+    "description": {
+      "value": "**Benefit:** If you have dispel magic prepared or can cast it spontaneously, when you score a critical hit against an opponent, you may use a swift action to cast dispel magic to make a targeted dispel against that opponent."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_reckless_aim_combat__crb_",
+    "name": {
+      "value": "Reckless Aim"
+    },
+    "source": {
+      "value": "blood_of_fiends"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Point-Blank Shot, Precise Shot."
+    },
+    "description": {
+      "value": "**Benefit:** When you shoot or throw ranged weapons at an opponent engaged in melee, you can choose to take a \u00e2\u0080\u00931 penalty to your AC and gain a +2 competence bonus on your attack roll. However, when you roll a natural 1 on a ranged attack roll made with this bonus, you automatically hit a random adjacent creature that threatens your intended target."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

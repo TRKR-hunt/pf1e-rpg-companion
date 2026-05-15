@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_fortuitous_vigor_combat__crb_",
+    "name": {
+      "value": "Fortuitous Vigor (Combat)"
+    },
+    "source": {
+      "value": "healer_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Con 13, Combat Vigor, character level 4th."
+    },
+    "description": {
+      "value": "**Benefit:** Your vigor pool gains 1 vigor point. Whenever you roll a natural 20 on an ability check, attack roll, saving throw, or skill check, and whenever you threaten a critical hit with an attack, you can spend 1 or more vigor points as a swift action to regain hit points as described in the Combat Vigor feat."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

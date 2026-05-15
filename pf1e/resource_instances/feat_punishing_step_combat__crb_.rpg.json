@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_punishing_step_combat__crb_",
+    "name": {
+      "value": "Punishing Step (Combat)"
+    },
+    "source": {
+      "value": "monster_hunter_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Dodge."
+    },
+    "description": {
+      "value": "**Benefit:** Your bonus to AC from the Dodge feat increases to +2 when calculating your CMD. When a creature attempts a combat maneuver against you and fails, you gain a +2 circumstance bonus on attack rolls against that creature until the end of your next turn."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_dread_poisoner_s_lore__crb_",
+    "name": {
+      "value": "Dread Poisoner's Lore"
+    },
+    "source": {
+      "value": "advanced_class_origins"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Craft (alchemy) 5 ranks, member of a poisoner\u2019s guild, poison lore or poison use class feature."
+    },
+    "description": {
+      "value": "**Benefit:** Choose one poison. When you deliver that poison, the number of saves needed to cure it increases by 1, and the DC to cure it with neutralize poison increases by 5. Succeeding at the initial save still negates the poison. Additionally, if you have the poison lore class feature, you\u2019re considered to have the poison use class feature for the purpose of meeting prerequisites."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

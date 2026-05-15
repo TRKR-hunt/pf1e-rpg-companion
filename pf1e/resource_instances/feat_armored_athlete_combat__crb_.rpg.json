@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_armored_athlete_combat__crb_",
+    "name": {
+      "value": "Armored Athlete"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Light armor proficiency, medium armor proficiency, 3 ranks in any Dexterity \u2013 or Strength -based skill."
+    },
+    "description": {
+      "value": "**Benefit:** Choose one Dexterity \u2013 or Strength -based skill in which you possess at least 3 ranks. When you attempt a check for the chosen skill, your armor check penalty on that check for wearing light or medium armor is reduced by 3 (to a minimum of 0). If you have 10 or more ranks in the skill, the penalty is instead reduced by 6 (to a minimum of 0). If you have armor training 2 and are proficient with heavy armor, this benefit also applies to armor check penalties for wearing heavy armor.\n\n**Special:** You can gain this feat multiple times. Each time you take the feat, it applies to a new skill."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

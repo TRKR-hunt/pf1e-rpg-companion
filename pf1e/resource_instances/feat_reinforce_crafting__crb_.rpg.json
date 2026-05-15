@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_reinforce_crafting__crb_",
+    "name": {
+      "value": "Reinforce Crafting"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Craft Magic Arms and Armor, ability to cast make whole or mending."
+    },
+    "description": {
+      "value": "**Benefit:** When you craft a magic weapon, magic armor, or magic shield, you can add a fortifying element to the item. This increases the item\u00e2\u0080\u0099s total construction cost by 10%. If it\u00e2\u0080\u0099s a weapon, when it becomes broken, the penalty to attack and damage rolls is reduced to \u00e2\u0080\u00931 (this can never reduce a broken weapon\u00e2\u0080\u0099s penalty to attack and damage to 0 or a positive number). If it\u00e2\u0080\u0099s a suit of armor or a shield, when it becomes broken, the bonus it grants to AC is reduced by one-quarter, rounding down. Other drawbacks of the broken condition to weapons, armor, and shields still apply as normal.\n\n**Normal:** A broken weapon imposes a \u00e2\u0080\u00932 penalty on attack and damage rolls. The bonus a broken suit of armor or a broken shield grants to AC is halved."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

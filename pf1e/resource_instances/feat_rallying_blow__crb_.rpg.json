@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_rallying_blow__crb_",
+    "name": {
+      "value": "Rallying Blow"
+    },
+    "source": {
+      "value": "shifting_sands"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Aura of courage."
+    },
+    "description": {
+      "value": "**Benefit:** When you confirm a critical hit against an enemy, any fear effect affecting allies within 30 feet is reduced by one step. Panicked becomes frightened, frightened becomes shaken, and shaken is removed. In addition, any ally suffering other effects from a failed save against a fear effect, such as the paralysis from a mummy \u2018s despair aura, receives a new save against the effect at the original DC."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_cultivate_magic_plants_item_creation__crb_",
+    "name": {
+      "value": "Cultivate Magic Plants"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_wilderness"
+    },
+    "type": {
+      "value": "item_creation"
+    },
+    "traits": {
+      "value": "item_creation"
+    },
+    "prerequisites": {
+      "value": "Brew Potion, Craft Wondrous Item; Knowledge (nature) 1 rank."
+    },
+    "description": {
+      "value": "**Benefit:** You can cultivate magic plants. Cultivating a magic plant takes 1 week per 1,000 gp in its base price. When you create a magic plant, you make the same choices that you would normally make when casting the spell. Whoever consumes the fruit of the magic plant is the target of the spell."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

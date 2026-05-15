@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_graceful_steal_combat__crb_",
+    "name": {
+      "value": "Graceful Steal"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_intrigue"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Agile Maneuvers, Improved Steal, Sleight of Hand 3 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** When attempting Sleight of Hand checks to lift or palm objects, you can use your Combat Maneuver Bonus for a steal combat maneuver in place of your Sleight of Hand modifier, though if you do so, you must use your Dexterity modifier and not your Strength modifier. You can steal items with the steal combat maneuver even if they are hidden in a bag or pack (provided you can reach the item within), but the opponent gains at least a +5 bonus to its CMD (as for a fastened object) in this case."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

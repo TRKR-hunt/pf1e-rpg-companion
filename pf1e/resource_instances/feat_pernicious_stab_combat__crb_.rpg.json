@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_pernicious_stab_combat__crb_",
+    "name": {
+      "value": "Pernicious Stab (Combat)"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Sneak attack +2d6."
+    },
+    "description": {
+      "value": "**Benefit:** When you hit an opponent with a poisoned weapon and would deal sneak attack damage, you can choose to forgo some or all of the sneak attack damage to increase the poison\u2019s chance of success. For every 2d6 points of sneak attack damage you forgo, add 1 to the saving throw DC of the poison delivered with your attack. This increase to the poison save DC does not apply to creatures that are immune to precision damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

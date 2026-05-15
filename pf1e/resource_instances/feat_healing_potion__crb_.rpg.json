@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_healing_potion__crb_",
+    "name": {
+      "value": "Healing Potion"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Brew Potion, ability to cast cure serious wounds."
+    },
+    "description": {
+      "value": "**Benefit:** When you brew a potion, you can add the effects of one of the following spells to the potion\u00e2\u0080\u0099s effects: cure light wounds, cure moderate wounds, or cure serious wounds. When imbibed, the potion has the effect of both the chosen cure spell and the spell used to brew the potion. When brewing the potion, you must expend both spells as though you were creating two separate potions. Due to the intricacies of making such a carefully blended potion, you must use particularly fine and rare ingredients, meaning you must pay twice the cost of creating each potion separately. The combined spell levels of the cure spell and the other spell used in the potion must be level 3 or less (for example, you could combine cure light wounds with a 2nd-level spell to create a healing potion, or cure moderate wounds with a 1st-level spell, or cure serious wounds with a 0-level spell)."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

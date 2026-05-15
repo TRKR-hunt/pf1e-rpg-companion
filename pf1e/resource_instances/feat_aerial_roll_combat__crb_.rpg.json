@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_aerial_roll_combat__crb_",
+    "name": {
+      "value": "Aerial Roll (Combat)"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Fly 10 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** You can perform a defensive roll while in the air. As an immediate action, you can attempt a Fly check when you are attacked while flying. If the result of the check is greater than the result of the attack roll, you dodge the attack, causing it to miss automatically. Whether you succeed or fail at the Fly check, the barrel roll leaves you off-balance and vulnerable, causing you to take a \u00e2\u0080\u009310 penalty on Fly checks until the end of your next turn."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

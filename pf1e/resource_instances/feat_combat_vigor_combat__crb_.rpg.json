@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_combat_vigor_combat__crb_",
+    "name": {
+      "value": "Combat Vigor (Combat)"
+    },
+    "source": {
+      "value": "healer_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Con 13."
+    },
+    "description": {
+      "value": "**Benefit:** You gain a vigor pool with a maximum number of points equal to your Constitution bonus. As a standard action, you can spend up to 1 vigor point per 3 Hit Dice you have (minimum 1) to regain 1d6 hit points per vigor point spent (maximum 7d6). Each time you spend vigor points, you become fatigued for 1 minute. You cannot spend vigor points while fatigued or exhausted. Spending vigor points doesn\u00e2\u0080\u0099t provoke attacks of opportunity. The points in your vigor pool are replenished to their maximum after you rest for 8 hours."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

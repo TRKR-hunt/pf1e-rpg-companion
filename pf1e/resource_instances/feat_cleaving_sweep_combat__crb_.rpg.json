@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_cleaving_sweep_combat__crb_",
+    "name": {
+      "value": "Cleaving Sweep (Combat)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_monster_codex"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 15, Cleave, Improved Trip, Weapon Focus ( greataxe ), base attack bonus +11."
+    },
+    "description": {
+      "value": "**Benefit:** When using a full-attack action with a two-handed weapon, you can give up your regular attacks and instead attempt a trip combat maneuver at your highest base attack bonus against each opponent within reach. You must attempt a separate combat maneuver check against each opponent."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_savage_leap_combat__crb_",
+    "name": {
+      "value": "Savage Leap (Combat)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Grapple, Improved Unarmed Strike, Savage Slam, base attack bonus +12 or monk level 10th."
+    },
+    "description": {
+      "value": "**Benefit:** When you use Savage Slam, you can move yourself and your target up to half your speed before releasing the grapple. You provoke attacks of opportunity from this movement, but your target does not. If your target takes damage from Savage Slam, the target is shaken for 1 round. You become flat-footed until the start of your next turn if you move before using Savage Slam in this way."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

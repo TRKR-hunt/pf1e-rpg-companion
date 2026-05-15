@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_soul_powered_magic__crb_",
+    "name": {
+      "value": "Soul-Powered Magic"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_book_of_the_damned"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Any evil alignment, caster level 5th."
+    },
+    "description": {
+      "value": "**Benefit:** When casting a spell would require an expensive material component, you can substitute a captured soul in its place. The soul can be captured in any way (the spells create soul gem, soul trap, and trap the soul are the most common methods), but you must be able to touch the soul or the object in which it is trapped (usually a crystal or gem) to use it as a material component. Using a soul in this way does not harm the object in which it was trapped. The soul itself must be at least equal in value to the gp cost of the material component you are replacing (any excess gp value is lost). A soul used as a material component is damaged but not destroyed. Once used, such a soul is no longer trapped and cannot be used as a material component again. A creature whose soul has been used as a material component cannot be restored to life via raise dead. Reincarnate, resurrection, and true resurrection can restore such a creature to life if the caster succeeds at a DC 20 caster level check. Miracle and wish can restore the creature to life without requiring a caster level check. Using Soul-Powered Magic is an evil act."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

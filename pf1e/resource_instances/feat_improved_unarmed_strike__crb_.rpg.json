@@ -3,31 +3,31 @@
   "stats": {
     "id": "feat_improved_unarmed_strike__crb_",
     "name": {
-      "value": "Improved Unarmed Strike"
+      "value": "Improved Unarmed Strike (Style)"
     },
     "source": {
-      "value": "crb"
+      "value": "unknown"
     },
     "type": {
-      "value": "combat"
+      "value": "style"
     },
     "traits": {
-      "value": "combat"
+      "value": "style"
     },
     "prerequisites": {
       "value": ""
     },
     "description": {
-      "value": "Unarmed strikes are treated as armed; no AoO when striking unarmed."
+      "value": "**Benefit:** You are considered to be armed even when unarmed\u00e2\u0080\u0094you do not provoke attacks of opportunity when you attack foes while unarmed. Your unarmed strikes can deal lethal or nonlethal damage, at your choice.\n\n**Normal:** Without this feat, you are considered unarmed when attacking with an unarmed strike, and you can deal only nonlethal damage with such an attack."
+    },
+    "action_cost": {
+      "value": "passive"
     },
     "is_toggleable": {
       "value": false
     },
     "effects": {
       "value": []
-    },
-    "action_cost": {
-      "value": "passive"
     }
   }
 }

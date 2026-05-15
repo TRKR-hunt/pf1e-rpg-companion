@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_ranged_disarm_combat_targeting__crb_",
+    "name": {
+      "value": "Ranged Disarm (Combat, Targeting)"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Deadly Aim, base attack bonus +1."
+    },
+    "description": {
+      "value": "**Benefit:** As a full-round action, you can attempt to perform a disarm combat maneuver with any ranged weapon at a \u00e2\u0080\u00932 penalty. Add your Dexterity modifier to your CMB in place of your Strength modifier and apply range penalties to your combat maneuver check, doubling the penalties from range increments. If your target is more than 30 feet away, you take an additional \u00e2\u0080\u00932 penalty. If the disarm attempt is successful, the target also takes damage as if you had made a successful attack with that weapon. You cannot be disarmed by failing this disarm attempt."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

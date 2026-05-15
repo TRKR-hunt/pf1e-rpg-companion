@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_arcane_armor_training_combat__crb_",
+    "name": {
+      "value": "Arcane Armor Training"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Light Armor Proficiency, caster level 3rd."
+    },
+    "description": {
+      "value": "**Benefit:** As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 10% for any spells you cast this round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

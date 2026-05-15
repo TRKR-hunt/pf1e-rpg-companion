@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_poison_shot_deed_grit__crb_",
+    "name": {
+      "value": "Poison Shot Deed (Grit)"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Amateur Gunslinger or grit class feature."
+    },
+    "description": {
+      "value": "**Benefit:** You can spend 1 grit point to load your firearm with 1 dose of inhaled or ingested poison as a move action. This action has no chance of exposing you to the poison (as if you had the poison use class feature). Shooting a firearm loaded with a poison in this manner is a standard action that provokes attacks of opportunity and sprays out the poison in a 15-foot cone. Any creatures caught in the blast take no damage but are exposed to this poison and must each immediately attempt a save against the poison as though the onset time had elapsed."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

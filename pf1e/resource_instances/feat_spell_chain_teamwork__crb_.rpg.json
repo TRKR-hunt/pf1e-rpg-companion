@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_spell_chain_teamwork__crb_",
+    "name": {
+      "value": "Spell Chain"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "type": {
+      "value": "teamwork"
+    },
+    "traits": {
+      "value": "teamwork"
+    },
+    "prerequisites": {
+      "value": "Spell Penetration."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you make a successful caster level check to overcome a target\u2019s spell resistance, the next ally who also has this feat that attempts to overcome the same target\u2019s spell resistance can roll twice when attempting his own caster level check, taking the better result. This benefit must be used within 1 round or else it is lost."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

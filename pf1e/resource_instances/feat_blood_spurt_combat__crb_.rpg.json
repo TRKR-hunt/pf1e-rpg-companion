@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_blood_spurt_combat__crb_",
+    "name": {
+      "value": "Blood Spurt"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Base attack bonus +2, susceptibility to bleed damage."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever a creature adjacent to you hits you with a melee attack that deals bleed damage, that creature must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Constitution modifier) or become blinded for 1d4 rounds as your blood sprays it in the face. Additionally, if you have a special ability that deals bleed damage (such as a rogue\u00e2\u0080\u0099s bleeding strike rogue talent ), as a standard action, you can deal 1 point of bleed damage to yourself to spray blood in the face of an adjacent creature of your choice, causing the same effect. The creature only needs to attempt the saving throw for the first of its attacks that deals bleed damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

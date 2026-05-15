@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_sunder_blessing_combat__crb_",
+    "name": {
+      "value": "Sunder Blessing"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Disruptive, fighter level 8th."
+    },
+    "description": {
+      "value": "**Benefit:** You can attempt to sunder an ongoing divine spell effect or divine spell-like ability by succeeding at a combat maneuver check. For any effect other than one on a creature, you must succeed at a combat maneuver check against a CMD of 15 + the effect\u2019s caster level. To sunder an effect on a creature, you must succeed at a normal sunder combat maneuver check against the creature\u2019s CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. On a success, you suppress the effect for 1 round. If you exceed the CMD by 5 or more, you suppress the effect for 2 rounds. If you exceed the CMD by 10 or more, the effect is dispelled instead. If you fail to sunder a spell, you cannot attempt to sunder that effect again for 1 minute."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

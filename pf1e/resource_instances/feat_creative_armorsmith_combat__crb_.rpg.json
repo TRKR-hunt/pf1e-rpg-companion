@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_creative_armorsmith_combat__crb_",
+    "name": {
+      "value": "Creative Armorsmith (Combat)"
+    },
+    "source": {
+      "value": "adventurer_s_armory_2"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Craft (armor) 3 ranks, Knowledge (engineering) 3 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** With an hour of work, you can temporarily add an armor modification of your choice to your armor, or temporarily remove an existing modification, at no cost. You must have access to masterwork artisan\u2019s tools designed for armorsmithing to perform this alteration. This alteration lasts for 8 hours. Armor modifications you add this way only provide their benefits to you; any other wearer suffers the modification\u2019s drawbacks but does not gain its benefits."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

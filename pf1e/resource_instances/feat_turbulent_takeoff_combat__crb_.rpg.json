@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_turbulent_takeoff_combat__crb_",
+    "name": {
+      "value": "Turbulent Takeoff (Combat)"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Fly 5 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** When you use your fly speed to leave the ground, you can create a blast of wind. Each creature that threatens you cannot make attacks of opportunities as you move away unless it succeeds at a Reflex save (DC = 10 + your skill ranks in Fly + your Dexterity modifier). A creature that fail this Reflex save by 10 or more is knocked prone. You must begin your move action standing on the ground to use this ability."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

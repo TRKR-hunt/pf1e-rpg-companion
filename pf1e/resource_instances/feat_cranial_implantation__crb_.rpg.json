@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_cranial_implantation__crb_",
+    "name": {
+      "value": "Cranial Implantation"
+    },
+    "source": {
+      "value": "occult_origins"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Self-Sufficient or Trepanation, Heal 7 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** You can perform the phrenology occult skill unlock, though you must use needles or similar sharp implements rather than your fingertips, dealing 1d3 points of damage to the subject. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use phrenology one additional time per day. In addition, you can insert needles into a creature\u2019s brain to help center its thoughts and emotions. Doing so requires a successful Heal check (DC = 25 + the target\u2019s Hit Dice ). Creatures with implanted needles gain a +1 bonus on saving throws against spells with the emotion or fear descriptor (or similar effects), but take a \u00e2\u0080\u00931 penalty on saving throws against spells with the electricity or pain descriptors. Implanting needles deals 1d6 points of damage to the patient, which can\u2019t be healed by any means until the needles are removed (which requires a second successful Heal check at the same DC, or a restoration or regenerate spell). If you have implanted needles into your own cranium, you can probe them as a swift action while casting a spell, dealing an amount of damage to yourself equal to 1 + the spell\u2019s level. The pain from this probing stimulates your powers of focus, granting you a bonus of +1d6 on any concentration check you must attempt as part of casting that spell. This damage doesn\u2019t force you to attempt a concentration check."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

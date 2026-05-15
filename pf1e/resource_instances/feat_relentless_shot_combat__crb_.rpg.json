@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_relentless_shot_combat__crb_",
+    "name": {
+      "value": "Relentless Shot"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Point-Blank Shot, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** When you successfully trip an opponent within 30 feet with a ranged attack, you threaten that opponent until your next turn. You can make attacks of opportunity against that opponent with ranged weapons. This effect ends if you attack another target or the opponent moves from its current square.\n\n**Normal:** While wielding a ranged weapon, you threaten no squares and cannot make attacks of opportunity with that weapon."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

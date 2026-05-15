@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_raging_regeneration_combat__crb_",
+    "name": {
+      "value": "Raging Regeneration (Combat)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_monster_codex"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Rage class ability, regeneration, troll."
+    },
+    "description": {
+      "value": "**Benefit:** While you are raging, fire and acid damage don\u2019t make your regeneration stop functioning on the round following the attack, and instead reduce the number of hit points regained by regeneration each round by 2 until the end of your next turn.\n\n**Normal:** Acid and fire damage cause your regeneration to stop functioning on the round following the attack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

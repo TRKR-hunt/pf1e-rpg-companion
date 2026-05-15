@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_blighted_critical_critical__crb_",
+    "name": {
+      "value": "Blighted Critical"
+    },
+    "source": {
+      "value": "um"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Caster level 5th."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you confirm a critical hit with a touch spell, ranged touch spell, or spell-like ability against an opponent, the victim gains a random minor spellblight.\n\n**Special:** You can apply the effects of only one critical feat to a given critical hit unless you possess Critical Mastery."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

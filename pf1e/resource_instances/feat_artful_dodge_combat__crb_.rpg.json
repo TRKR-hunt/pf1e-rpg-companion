@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_artful_dodge_combat__crb_",
+    "name": {
+      "value": "Artful Dodge"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13.\n\n."
+    },
+    "description": {
+      "value": "**Benefit:** If you are the only character threatening an opponent, you gain a +1 dodge bonus to AC against that opponent.\n\n**Special:** The Artful Dodge feat acts as the Dodge feat for the purpose of satisfying prerequisites that require Dodge. You can use Intelligence, rather than Dexterity, for feats with a minimum Dexterity"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

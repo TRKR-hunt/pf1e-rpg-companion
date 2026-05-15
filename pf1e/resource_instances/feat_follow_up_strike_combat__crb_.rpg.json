@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_follow_up_strike_combat__crb_",
+    "name": {
+      "value": "Follow-Up Strike (Combat)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Disarm, Improved Unarmed Strike, base attack bonus +6 or monk level 6th."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you succeed at a combat maneuver check to disarm an opponent, you can spend a swift action to make an unarmed strike attack at your highest base attack bonus against the target you disarmed."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

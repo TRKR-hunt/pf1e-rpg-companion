@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_focused_target_combat__crb_",
+    "name": {
+      "value": "Focused Target (Combat)"
+    },
+    "source": {
+      "value": "monster_hunter_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Studied target class feature (second studied target)."
+    },
+    "description": {
+      "value": "**Benefit:** When you study a target, you can reduce the number of additional targets you can maintain as a studied target. For each target reduced in this way, you increase your studied target bonus by 1 for either attack rolls, damage rolls, skill checks, or the DCs of your abilities. Each such increase must be applied to a different category ( attack rolls, damage rolls, skill checks, or DCs). You can end the effects of this feat as a free action."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

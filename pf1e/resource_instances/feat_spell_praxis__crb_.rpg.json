@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_spell_praxis__crb_",
+    "name": {
+      "value": "Spell Praxis"
+    },
+    "source": {
+      "value": "plane_hopper_s_handbook"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Scribe Scroll, Scribe Spell Equation, aphorite, caster level 5th, crystalline dust racial trait."
+    },
+    "description": {
+      "value": "**Benefit:** When you hit a creature with a melee weapon, you can immediately solve one of your spell equations to cast the spell and target that creature as an immediate action. The spell stored in the spell equation must be a spell of up to 3rd level that targets one or more creatures and has a casting time of 1 standard action. The spell can target only the creature you hit, even if the spell would normally allow multiple targets."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

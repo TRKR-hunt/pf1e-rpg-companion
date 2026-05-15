@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_grappled_caster__crb_",
+    "name": {
+      "value": "Grappled Caster"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Combat Casting."
+    },
+    "description": {
+      "value": "**Benefit:** You gain a +4 bonus on concentration checks to cast spells while grappled. This bonus stacks with the bonus granted by Combat Casting."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

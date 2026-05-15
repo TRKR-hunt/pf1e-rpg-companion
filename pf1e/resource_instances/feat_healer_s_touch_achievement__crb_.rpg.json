@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_healer_s_touch_achievement__crb_",
+    "name": {
+      "value": "Healer\u00e2\u0080\u0099s Touch"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Cure a cumulative total of 1,000 points of damage for other creatures using healing spells. Dealing damage slows progress toward this goal achievement; for every 1 point of damage you deal to another creature, reduce your cumulative healing total by 2."
+    },
+    "description": {
+      "value": "**Benefit:** When you cast a healing spell to heal a target other than yourself, the spell is maximized as though using the Maximize Spell effect. This does not increase your casting time for the spell. When you cast a healing spell to damage a target, the spell is not maximized but its saving throw DC increases by +4. Note: There may be an opposite version of this feat allowing casters using negative energy to heal undead."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_craft_wand_item_creation__crb_",
+    "name": {
+      "value": "Craft Wand"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "item_creation"
+    },
+    "traits": {
+      "value": "item_creation"
+    },
+    "prerequisites": {
+      "value": "Caster level 5th."
+    },
+    "description": {
+      "value": "**Benefit:** You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See magic item creation rules for more information."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

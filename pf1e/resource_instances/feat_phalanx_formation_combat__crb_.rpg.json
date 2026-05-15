@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_phalanx_formation_combat__crb_",
+    "name": {
+      "value": "Phalanx Formation"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Base attack bonus +1."
+    },
+    "description": {
+      "value": "**Benefit:** When you wield a reach weapon with which you are proficient, allies don\u2019t provide soft cover to opponents you attack with reach.\n\n**Normal:** Attacking a target that is beyond another creature, even an ally, can result in the target having soft cover from you."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_cursed_item_detection__crb_",
+    "name": {
+      "value": "Cursed Item Detection"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Spellcraft 5 ranks, ability to cast detect magic as a spell or spell-like ability."
+    },
+    "description": {
+      "value": "**Benefit:** You gain a +2 bonus on checks made to identify the properties of magic items. In addition, you need only exceed the DC of these checks by 5 in order to determine whether or not an item is cursed.\n\n**Normal:** Unless the check made to identify a cursed item exceeds the DC by 10 or more, the item\u2019s curse cannot be detected."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

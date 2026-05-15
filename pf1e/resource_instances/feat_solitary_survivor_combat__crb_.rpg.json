@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_solitary_survivor_combat__crb_",
+    "name": {
+      "value": "Solitary Survivor (Combat)"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 17, base attack bonus +4, half-orc."
+    },
+    "description": {
+      "value": "**Benefit:** As a free action when you have no conscious allies within 30 feet of you, you can call upon your solitary prowess to enter a focused state. While in this state, your melee attacks deal an additional 1d6 points of damage. This damage is not multiplied on a critical hit. You can remain in this state for a number of rounds per day equal to your Hit Dice. These rounds do not need to be consecutive."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_searing_distraction_combat__crb_",
+    "name": {
+      "value": "Searing Distraction (Combat)"
+    },
+    "source": {
+      "value": "heroes_of_the_darklands"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Catch Off-Guard."
+    },
+    "description": {
+      "value": "**Benefit:** When you make an attack using a light source such as a sunrod or torch as an improvised weapon, the target must succeed at a Fortitude save or be dazzled for 1 round. On a critical hit, the target is instead blinded for 1 round. The DC of the effect is 10 + half your character level + your Dexterity modifier. Blind targets are immune to this effect."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

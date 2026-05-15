@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_vanguard_ward_combat__crb_",
+    "name": {
+      "value": "Vanguard Ward"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Bodyguard, Combat Reflexes, Vanguard Style, proficiency with light or heavy shields."
+    },
+    "description": {
+      "value": "**Benefit:** While using Vanguard Style, when an adjacent ally is attacked or required to make a Reflex saving throw, you can expend a use of an attack of opportunity to use both Bodyguard and Vanguard Style to protect that ally. You can also lose your shield bonus to AC to grant your ally a shield bonus to AC of the same value for as long as that ally gains a bonus to Reflex saves from Vanguard Style."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

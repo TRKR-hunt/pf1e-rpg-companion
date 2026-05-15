@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_reactive_healing__crb_",
+    "name": {
+      "value": "Reactive Healing"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Quick Channel or Quicken Spell; channel energy or lay on hands class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When the damage from an attack or an effect would reduce you to 0 or fewer hit points, you can expend one use of channel energy (of a form that would heal you) or lay on hands as an immediate action to heal yourself. The healing affects only you, even if it would normally affect others."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

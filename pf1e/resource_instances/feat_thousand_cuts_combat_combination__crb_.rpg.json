@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_thousand_cuts_combat_combination__crb_",
+    "name": {
+      "value": "Thousand Cuts (Combat, Combination)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Weapon Focus with slashing weapon."
+    },
+    "description": {
+      "value": "**Benefit:** When you deal damage with a melee attack with a slashing weapon to an opponent you have already damaged this round, you can also deal 1 point of bleed damage that lasts for 2 rounds. This bleed damage stacks with itself, but only if dealt in the same round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

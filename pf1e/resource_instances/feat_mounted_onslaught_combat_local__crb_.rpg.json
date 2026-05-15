@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_mounted_onslaught_combat_local__crb_",
+    "name": {
+      "value": "Mounted Onslaught"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Mounted Combat, Trample, Ride 5 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** On your turn you may overrun more than one creature. Each overrun combat maneuver check beyond the first has a cumulative \u00e2\u0080\u00935 penalty. If you fail to overrun a target, your movement ends. Your mount may only make a single hoof attack against one target that is knocked prone by your overrun (not one per prone opponent).\n\n**Normal:** You can only attempt one overrun per round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_feral_combat_training_combat__crb_",
+    "name": {
+      "value": "Feral Combat Training"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Unarmed Strike, Weapon Focus with selected natural weapon."
+    },
+    "description": {
+      "value": "**Benefit:** Choose one of your natural weapons. While using the selected natural weapon, you can apply the effects of feats that have Improved Unarmed Strike as a prerequisite.\n\n**Special:** If you are a monk, you can use the selected natural weapon with your flurry of blows class feature."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

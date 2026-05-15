@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_bleeding_stare_combat_stare__crb_",
+    "name": {
+      "value": "Bleeding Stare"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_occult_adventures"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Mesmerist level 5th, painful stare class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When you trigger your painful stare, the target takes an amount of bleed damage equal to 1/3 your mesmerist level. Bleed damage from multiple uses of Bleeding Stare doesn\u2019t stack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

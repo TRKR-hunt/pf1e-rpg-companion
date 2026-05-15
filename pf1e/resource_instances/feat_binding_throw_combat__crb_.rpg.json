@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_binding_throw_combat__crb_",
+    "name": {
+      "value": "Binding Throw"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Grapple, Improved Trip, Improved Unarmed Strike, Ki Throw."
+    },
+    "description": {
+      "value": "**Benefit:** After you successfully use the Ki Throw feat on an opponent, you can use a swift action to attempt a grapple combat maneuver against that opponent.\n\n**Normal:** The grapple combat maneuver is a standard action.\n\n**Special:** A monk can gain Binding Throw as a bonus feat starting at 14th level."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

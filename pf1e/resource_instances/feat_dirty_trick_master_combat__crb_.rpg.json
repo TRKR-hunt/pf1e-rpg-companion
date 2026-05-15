@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_dirty_trick_master_combat__crb_",
+    "name": {
+      "value": "Dirty Trick Master"
+    },
+    "source": {
+      "value": "bastards_of_golarion"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Greater Dirty Trick, Improved Dirty Trick, base attack bonus +11."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you successfully perform a dirty trick combat maneuver against an opponent who is still affected by a condition inflicted by a previous dirty trick (whether your own or another creature\u2019s), you can cause the condition to worsen. In addition to increasing the duration of the condition as normal, you cause an opponent who is dazzled to become dazed, entangled to become pinned, shaken to become frightened, and sickened to become nauseated. This worsened condition replaces the previous dirty trick condition, and lasts for the duration of the dirty trick (including any rounds remaining from the previous dirty trick condition) or until the opponent uses a standard action to remove the condition (whichever comes first)."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

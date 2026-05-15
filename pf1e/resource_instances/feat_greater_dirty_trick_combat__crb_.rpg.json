@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_greater_dirty_trick_combat__crb_",
+    "name": {
+      "value": "Dirty Trick, Greater"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Dirty Trick, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** You receive a +2 bonus on checks made to attempt a dirty trick. This bonus stacks with the bonus granted by Improved Dirty Trick. Whenever you successfully perform a dirty trick, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds the target\u00e2\u0080\u0099s CMD. In addition, removing the condition requires the target to spend a standard action.\n\n**Normal:** The condition imposed by a dirty trick lasts for 1 round plus 1 round for every 5 by which your attack exceeds the target\u00e2\u0080\u0099s CMD. Removing the condition requires the target to spend a move action."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

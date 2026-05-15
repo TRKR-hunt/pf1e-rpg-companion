@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_difficult_swings_weapon_mastery__crb_",
+    "name": {
+      "value": "Difficult Swings (Weapon Mastery)"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Base attack bonus +5, weapon training class feature with a melee weapon."
+    },
+    "description": {
+      "value": "**Benefit:** When you make a full attack with an appropriate melee weapon, you can force creatures to treat squares adjacent to you as difficult terrain until the beginning of your next turn. You can choose to allow any creature you are aware of to ignore the difficult terrain you effectively create with this feat."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_blinding_stare_combat_stare__crb_",
+    "name": {
+      "value": "Blinding Stare (Combat, Stare)"
+    },
+    "source": {
+      "value": "psychic_anthology"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Mesmerist level 7th, painful stare class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When you trigger your painful stare, the target must succeed at a Will save (DC = 10 + half your mesmerist level + your Charisma modifier) or be blinded for 1 round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

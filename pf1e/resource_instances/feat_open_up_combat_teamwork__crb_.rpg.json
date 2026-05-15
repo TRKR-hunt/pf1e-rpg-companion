@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_open_up_combat_teamwork__crb_",
+    "name": {
+      "value": "Open Up"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "teamwork"
+    },
+    "traits": {
+      "value": "teamwork"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise."
+    },
+    "description": {
+      "value": "**Benefit:** When you successfully use the aid another action to improve the next attack roll against an opponent by an ally who also has this feat, that attack also ignores any Armor Class bonus granted by the opponent\u2019s shield. This benefit affects only physical shields, not shield bonuses from spells or other sources.\n\n**Special:** If both you and your ally also have the Harrying Partners teamwork feat, all of your ally\u2019s attacks made before your next turn ignore the opponent\u2019s Armor Class bonus from a shield."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

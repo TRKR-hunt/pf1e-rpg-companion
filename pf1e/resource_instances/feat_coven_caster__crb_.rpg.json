@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_coven_caster__crb_",
+    "name": {
+      "value": "Coven Caster"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Changeling."
+    },
+    "description": {
+      "value": "**Benefit:** As a standard action, you can attempt a special aid another action (1d20 + your choice of your Intelligence or Charisma modifier; DC 10). If you succeed, you can increase an adjacent spellcaster\u2019s caster level by 1 until the beginning of your next turn. If you also have the coven witch hex, you can apply this bonus to all members of your coven within 30 feet."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

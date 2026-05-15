@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_friendly_shroud__crb_",
+    "name": {
+      "value": "Friendly Shroud"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Stealth 1 rank."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you are adjacent to an ally, and neither you nor that ally move for at least 1 round, and both you and that ally attempt Stealth checks, that ally can use your Stealth check result if it is better than his own."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_disrupting_fist_combat__crb_",
+    "name": {
+      "value": "Disrupting Fist"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Channel Smite, Improved Unarmed Strike, base attack bonus +9, channel positive energy 4d6."
+    },
+    "description": {
+      "value": "**Benefit:** On a confirmed critical hit using an unarmed strike against an undead creature, you can expend two uses of your channel energy ability as a swift action to destroy that undead creature. The undead creature can negate this effect with a successful Will saving throw (DC = 10 + your base attack bonus )."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

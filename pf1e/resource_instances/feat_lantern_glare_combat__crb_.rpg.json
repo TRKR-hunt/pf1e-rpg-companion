@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_lantern_glare_combat__crb_",
+    "name": {
+      "value": "Lantern Glare"
+    },
+    "source": {
+      "value": "distant_realms"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Light, Lantern Style, Point-Blank Shot, Precise Shot, good or lawful alignment, caster level 11th or monk level 11th."
+    },
+    "description": {
+      "value": "**Benefit:** Creatures you hit with a thrown weapon as well as creatures within 20 feet of your target must succeed at a Will save (DC = 10 + half your character level + your Charisma modifier) or become shaken until they damage you or 24 hours have passed. A creature that succeeds at its saving throw or that damages you after becoming shaken becomes immune to this effect for 24 hours."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

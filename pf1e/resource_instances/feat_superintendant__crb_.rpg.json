@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_superintendant__crb_",
+    "name": {
+      "value": "Superintendant"
+    },
+    "source": {
+      "value": "quests_campaigns"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Own at least one room."
+    },
+    "description": {
+      "value": "**Benefit:** When a room you own gains the broken condition, you may repair it for half the normal cost in gold pieces and other capital, rounded up. Additionally, buildings and organizations you\u2019ve created are not affected by capital attrition until 1 month of your absence. From that point, capital attrition affects your buildings and organizations as normal."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

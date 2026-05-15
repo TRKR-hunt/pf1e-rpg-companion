@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_arcane_trap_suppressor__crb_",
+    "name": {
+      "value": "Arcane Trap Suppressor"
+    },
+    "source": {
+      "value": "dungeoneers_handbook"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Ability to cast dispel magic or greater dispel magic as a spell or spell-like ability."
+    },
+    "description": {
+      "value": "**Benefit:** When you target a magic trap with dispel magic or greater dispel magic, if your caster level check exceeds the Disable Device DC of the trap, the trap is disabled for 1d4 minutes.\n\n**Normal:** Dispel magic suppresses an item\u2019s magical properties for 1d4 rounds."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

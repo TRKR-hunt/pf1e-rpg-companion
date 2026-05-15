@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_cooperative_disabling_teamwork__crb_",
+    "name": {
+      "value": "Cooperative Disabling"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_intrigue"
+    },
+    "type": {
+      "value": "teamwork"
+    },
+    "traits": {
+      "value": "teamwork"
+    },
+    "prerequisites": {
+      "value": "Disable Device 1 rank, trapfinding class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When you use the Disable Device skill and fail the check against a trap, a single adjacent ally with this feat who is also within reach of the trap can attempt a Disable Device check against the same device as an immediate action. The ally must have remained adjacent throughout the process of disabling the device and must have either aided your Disable Device check or taken no other action. If your ally succeeds at the check, your attempt is considered to be successful. If your ally fails, your attempt is considered to have failed by 5 or more, even if the original check failed by 4 or less."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

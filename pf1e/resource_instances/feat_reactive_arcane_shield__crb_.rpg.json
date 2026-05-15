@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_reactive_arcane_shield__crb_",
+    "name": {
+      "value": "Reactive Arcane Shield"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Arcane Shield, arcane spellcaster, caster level 12th."
+    },
+    "description": {
+      "value": "**Benefit:** If you are aware of an attack against you that has already been declared and you choose to use the Arcane Shield feat, the immediate action to activate the feat occurs before the attack roll against you is resolved. In addition, all adjacent allies also gain the feat\u2019s deflection bonus to AC for 1 round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

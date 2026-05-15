@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_greater_cloud_invocation__crb_",
+    "name": {
+      "value": "Greater Cloud Invocation"
+    },
+    "source": {
+      "value": "heroes_from_the_fringe"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Cloud Invocation, dwarf."
+    },
+    "description": {
+      "value": "**Benefit:** The duration of your Cloud Invocation increases to 1 minute per level, and you can dismiss it as an immediate action. You can create mist with your Cloud Invocation ability multiple times per day, so long as you do not exceed a total duration of 1 minute per level, and you expend the duration of your Cloud Invocation in 1-minute increments. If you create a mist cloud while any previous mist is still present, the previous mist ends. Additionally, you can have the mist remain centered on you, rather than stationary."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

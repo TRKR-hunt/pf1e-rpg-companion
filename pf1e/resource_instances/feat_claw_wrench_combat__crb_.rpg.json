@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_claw_wrench_combat__crb_",
+    "name": {
+      "value": "Claw Wrench (Combat)"
+    },
+    "source": {
+      "value": "monster_hunter_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Improved Grapple, Improved Unarmed Strike."
+    },
+    "description": {
+      "value": "**Benefit:** As a standard action, you can attempt a grapple combat maneuver with a \u00e2\u0080\u00935 penalty against a creature that is currently grappling another creature via its grab\n\n**Special:** ability. If you succeed, you pry open the creature\u00e2\u0080\u0099s grasp, releasing any creatures it had grappled. Additionally, you can ready an action to trigger if a creature attempts a bite attack against you. When the readied action triggers, you can attempt a grapple combat maneuver with a +2 bonus. If you succeed, you grapple the creature and cause the bite attack to miss. As long as you maintain the grapple, the creature can\u00e2\u0080\u0099t use its bite attack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

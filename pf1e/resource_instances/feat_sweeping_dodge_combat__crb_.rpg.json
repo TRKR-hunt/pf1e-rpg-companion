@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_sweeping_dodge_combat__crb_",
+    "name": {
+      "value": "Sweeping Dodge"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Dodge."
+    },
+    "description": {
+      "value": "**Benefit:** When you make a dueling dodge while wearing a cloak, you gain evasion (as the rogue ability). If a critical hit or sneak attack is scored on you, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This feat only applies until the attack that triggered the immediate action is resolved. This feat does not stack with the fortification armor special ability or similar effects."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

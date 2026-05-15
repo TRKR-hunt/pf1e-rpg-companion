@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_acupuncture_specialist__crb_",
+    "name": {
+      "value": "Acupuncture Specialist"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Heal 5 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** You can incorporate the art of acupuncture into your healing procedures, allowing you to use physical means to cleanse spiritual ailments. Doing so requires that you have an acupuncture kit (same as a healer\u00e2\u0080\u0099s kit) and takes 1 hour. Attempt a Heal check, and compare the result to a single curse or spell with the curse descriptor that the patient is suffering from. If the result of your Heal check exceeds the DC of the curse by 10 or more, the curse\u00e2\u0080\u0099s effects are suppressed for 1d4 days. If the result of your Heal check exceeds the DC of the curse by 20 or more, the curse is removed."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

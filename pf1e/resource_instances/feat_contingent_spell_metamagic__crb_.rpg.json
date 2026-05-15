@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_contingent_spell_metamagic__crb_",
+    "name": {
+      "value": "Contingent Spell"
+    },
+    "source": {
+      "value": "healer_s_handbook"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": "Ability to cast cure spells (a cure spell is any spell with \u00e2\u0080\u009ccure\u00e2\u0080\u009d in its name)."
+    },
+    "description": {
+      "value": "**Benefit:** A contingent spell infuses a target with a dormant healing or restorative spell that can trigger when the target needs it the most. This metamagic feat can be applied to only cure spells; breath of life; or any harmless spell that can be used to remove ability score damage, ability score drain, or a negative condition or effect (including break enchantment, neutralize poison, and remove disease ). When you cast a contingent spell, you must set a specific trigger that dictates under what circumstances the target is immediately subject to the spell\u00e2\u0080\u0099s effects (for instance, \u00e2\u0080\u009c When the target dies, breath of life takes effect \u00e2\u0080\u009d). The contingent spell\u00e2\u0080\u0099s effects can remain dormant within the target for up to 10 minutes per caster level you have. A creature can be infused with only one contingent spell at a time. Metamagic Adjustment: +2 (a contingent spell uses up a spell slot 2 levels higher than the spell\u00e2\u0080\u0099s actual level.)"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

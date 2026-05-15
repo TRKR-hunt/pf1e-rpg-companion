@@ -79,9 +79,24 @@ def _is_listing_path(path: str) -> bool:
     return False
 
 
+def _is_excluded(path: str) -> bool:
+    """Match the EXCLUDED_PREFIXES anywhere in the path, not just at start.
+    d20pfsrd nests 3rd-party feats under category roots (e.g.
+    /feats/style-feats/3rd-party-feats/...), so a startswith check would
+    miss them."""
+    p = path
+    if any(p.startswith(pref) for pref in EXCLUDED_PREFIXES):
+        return True
+    # Substring matches for nested 3rd-party / monster paths.
+    for needle in ("/3rd-party-feats/", "/monster-feats/", "/animal-companion-feats/"):
+        if needle in p:
+            return True
+    return False
+
+
 def _categorize(path: str) -> str | None:
     """Return our feat_types id for this URL path, or None if out-of-scope."""
-    if any(path.startswith(p) for p in EXCLUDED_PREFIXES):
+    if _is_excluded(path):
         return None
     for prefix, cat in CATEGORY_RULES:
         if path.startswith(prefix):
@@ -96,10 +111,21 @@ def slugify(s: str) -> str:
 
 
 def _url_slug(url: str) -> str:
-    """Last non-empty path segment, slugified. Unique per d20pfsrd URL."""
+    """Last non-empty path segment, slugified. Suitable as a short id when
+    no other URL shares the same final segment."""
     path = urlparse(url).path.rstrip("/")
     last = path.rsplit("/", 1)[-1]
     return slugify(last)
+
+
+def _url_path_slug(url: str, root: str = "/feats/") -> str:
+    """Slug of the URL path after the given root. Unique per d20pfsrd URL,
+    even when same-named pages exist across categories (e.g.
+    /feats/combat-feats/dodge/ vs /feats/general-feats/dodge/)."""
+    path = urlparse(url).path.rstrip("/")
+    if path.startswith(root):
+        path = path[len(root):]
+    return slugify(path)
 
 
 def _collapse_inline_newlines(text: str) -> str:
@@ -157,6 +183,17 @@ def find_feat_links(index_url: str) -> list[tuple[str, str]]:
         if "#" in href:
             continue
         path = urlparse(href).path.rstrip("/")
+        # Canonicalize the href so trivial typos on d20pfsrd collapse to
+        # the same URL: trailing-slash form, lowercase path, segments
+        # stripped of leading/trailing dashes.
+        from urllib.parse import urlunparse
+        parsed = urlparse(href)
+        segs = [s.strip("-").lower() for s in parsed.path.split("/")]
+        new_path = "/".join(segs)
+        if not new_path.endswith("/"):
+            new_path += "/"
+        href = urlunparse(parsed._replace(path=new_path))
+        path = new_path.rstrip("/")
         if not path.startswith("/feats/"):
             continue
         if path == self_path:
@@ -164,10 +201,20 @@ def find_feat_links(index_url: str) -> list[tuple[str, str]]:
         if _is_listing_path(path):
             continue
         # Skip excluded categories even if linked from a kept category.
-        if any(path.startswith(p) for p in EXCLUDED_PREFIXES):
+        if _is_excluded(path):
             continue
         tail = path.rsplit("/", 1)[-1]
         if not tail or tail in NON_DETAIL_TAILS:
+            continue
+        # Reject URLs deeper than /feats/<category>-feats/<subcat-feats>/<slug>.
+        # d20pfsrd's relative-link parsing sometimes produces
+        # /feats/<cat>/<feat>/<another-feat>/, which 503s when fetched
+        # (page doesn't exist). Valid 4-deep URLs require the 3rd segment
+        # to be a -feats category (combat-feats/critical-feats/slug).
+        segs = [s for s in path.split("/") if s]
+        if len(segs) >= 4 and not segs[-2].endswith("-feats"):
+            continue
+        if len(segs) > 4:
             continue
         name = a.get_text(" ", strip=True)
         if not name or len(name) > 120:
@@ -291,16 +338,47 @@ def parse_feat_page(name: str, url: str, category: str) -> dict | None:
     }
 
 
-def write_feat(name: str, url: str, category: str, slug_buckets: dict) -> str | None:
-    """parse + write; returns the filename written, or None on failure."""
+def _is_curated(out_path: Path) -> bool:
+    """A file is curated if it already exists and contains non-empty effects.
+    Curated feats are hand-authored with rich mechanics; scraped feats
+    have effects=[] (just description text). Never overwrite a curated
+    file with a scraped version."""
+    if not out_path.exists():
+        return False
+    try:
+        data = json.loads(out_path.read_text(encoding="utf-8"))
+        effects = data.get("stats", {}).get("effects", {}).get("value", [])
+        return bool(effects)
+    except Exception:
+        return False
+
+
+def write_feat(name: str, url: str, category: str, display_name: str,
+                slug_buckets: dict) -> str | None:
+    """parse + write; returns the filename written, or None on failure.
+
+    `display_name` is the name-disambiguator output for this feat (may
+    equal `name` for the bare-name winner of a colliding group, or be
+    parenthetically suffixed for losers)."""
     feat = parse_feat_page(name, url, category)
     if not feat:
         return None
     base_slug = _url_slug(url)
-    # Disambiguate if multiple URLs share the same final-segment slug
+    # ID-level disambiguation: when more than one URL maps to the same
+    # final-segment slug, use the full URL path slug (which is unique
+    # per URL — guaranteed by the site structure). This catches both
+    # cross-category collisions (combat-feats/dodge vs general-feats/
+    # dodge) and within-category sub-category collisions (combat-feats/
+    # dodge vs combat-feats/critical-feats/dodge).
     if len(slug_buckets.get(base_slug, [])) > 1:
-        feat["stats"]["id"] = f"feat_{category}_{base_slug}__crb_"
+        feat["stats"]["id"] = f"feat_{_url_path_slug(url)}__crb_"
+    # Name-level disambiguation so the compiler-emitted per-resource
+    # filename doesn't collapse across same-named feats.
+    feat["stats"]["name"]["value"] = display_name
     out_path = OUT_DIR / f"{feat['stats']['id']}.rpg.json"
+    # Don't clobber hand-curated feats that have real `effects` defined.
+    if _is_curated(out_path):
+        return None
     out_path.write_text(json.dumps(feat, indent=2), encoding="utf-8")
     return out_path.name
 
@@ -336,21 +414,39 @@ def main():
         items = items[: args.limit]
         print(f"\n--limit {args.limit}: scraping first {len(items)} only.")
 
-    # Pre-compute url-slug → list, for collision disambiguation.
+    # ID-level disambiguation buckets (URL-slug collisions).
     slug_buckets: dict[str, list] = {}
     for url, meta in items:
         slug_buckets.setdefault(_url_slug(url), []).append(url)
 
-    def task(item):
-        url, meta = item
-        return write_feat(meta["name"], url, meta["category"], slug_buckets)
+    # NAME-level disambiguation: the bundled compiler derives the per-
+    # resource output filename from the `name` stat. Many feats share
+    # names across categories or share with same-cat variants (Power
+    # Attack, Improved Initiative, …). Pre-compute unique display names
+    # so the compiler emits one .rpg per id.
+    triples = [(meta["name"], url, meta["category"]) for url, meta in items]
+    unique_names = scrape_lib.disambiguate_names(triples)
+
+    def task(item_and_name):
+        (url, meta), display_name = item_and_name
+        return write_feat(meta["name"], url, meta["category"], display_name, slug_buckets)
 
     print(f"\nScraping {len(items)} feats with {scrape_lib.WORKERS} workers...")
     scrape_lib.reset_hard_stop()
-    results = scrape_lib.parallel_map(items, task, label="feat")
+    scrape_lib.reset_source_trackers()
+    paired = list(zip(items, unique_names))
+    results = scrape_lib.parallel_map(paired, task, label="feat")
     written = sum(1 for r in results if r)
     failed = sum(1 for r in results if r is None)
     print(f"\nDone: wrote {written} feats, {failed} failures/skips.")
+    slug_count = len({scrape_lib.compiler_slug(dn) for dn in unique_names})
+    print(f"Unique compiler-slug names: {slug_count} (expect == {written})")
+    print(f"\nSource attribution: {len(scrape_lib.seen_sources)} distinct ids")
+    if scrape_lib.unknown_sources:
+        unmapped = sum(1 for k in scrape_lib.unknown_sources if k != "__no_section_15__")
+        nosec15 = scrape_lib.unknown_sources.get("__no_section_15__", 0)
+        print(f"  {nosec15} pages had no Section 15 footer (-> 'unknown')")
+        print(f"  {unmapped} distinct book strings were auto-derived (not in KNOWN_SOURCES)")
 
 
 if __name__ == "__main__":

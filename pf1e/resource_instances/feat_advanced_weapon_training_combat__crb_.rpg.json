@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_advanced_weapon_training_combat__crb_",
+    "name": {
+      "value": "Advanced Weapon Training"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Fighter level 5th, weapon training class feature."
+    },
+    "description": {
+      "value": "**Benefit:** Select one advanced weapon training option, applying it to one fighter weapon group you have already selected with the weapon training class feature.\n\n**Special:** This feat can be taken more than once, but at most once per 5 fighter levels.\n\nFighters that have the weapon master archetype can select this feat beginning at 4th level. The benefits of a weapon master\u2019s advanced weapon training options apply only to his selected weapon rather than all weapons in the same fighter weapon group, and he can\u2019t select the weapon specialist advanced weapon training option. A weapon master can select this feat as a bonus feat; if he does so, it doesn\u2019t count for the purpose of the requirement that it can be taken at most once per 5 fighter levels. FAQ If an archetype replaces a class ability with a more specific version of that ability (or one that works similarly to the replaced ability), does the archetype\u2019s ability count as the original ability for the purpose of rules that improve the original ability? It depends on how the archetype\u2019s ability is worded. If the archetype ability says it works like the standard ability, it counts as that ability. If the archetype\u2019s ability requires you to make a specific choice for the standard ability, it counts as that ability. Otherwise, the archetype ability doesn\u2019t count as the standard ability. (It doesn\u2019t matter if the archetype\u2019s ability name is different than the standard class ability it is replacing; it is the description and game mechanics of the archetype ability that matter.) Example: The dragoon (fighter) archetype (Ultimate Combat) has an ability called \u201cspear training,\u201d which requires the dragoon to select \u201cspears\u201d as his weapon training group, and refers to his weapon training bonus (even though this bonus follows a slightly different progression than standard weapon training). Therefore, this ability counts as weapon training for abilities that improve weapon training, such as gloves of dueling (Advanced Player\u2019s Guide), which increase the wearer\u2019s weapon training bonus. Example: The archer (fighter) archetype gets several abilities (such as \u201cexpert archer\u201d) which replace weapon training and do not otherwise refer to the weapon training ability. Therefore, this ability does not count as weapon training for abilities that improve weapon training (such as gloves of dueling ). This is the case even for the \u201cexpert archer,\u201d ability which has a bonus that improves every 4 fighter levels, exactly like weapon training. [ Source ]"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

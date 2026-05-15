@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_recall_ammunition_combat_grit__crb_",
+    "name": {
+      "value": "Recall Ammunition (Combat, Grit)"
+    },
+    "source": {
+      "value": "heroes_of_golarion"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Amateur Gunslinger feat or grit class feature, base attack bonus +9, Spellcraft 5 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** After missing with a ranged weapon attack using a firearm, you can spend 2 grit points as an immediate action to recall the shot. If you do so, the ammunition from the missed shot is magically loaded back into the firearm and is ready to fire again immediately."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

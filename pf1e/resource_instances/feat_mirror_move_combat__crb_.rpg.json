@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_mirror_move_combat__crb_",
+    "name": {
+      "value": "Mirror Move"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, base attack bonus +4."
+    },
+    "description": {
+      "value": "**Benefit:** If you are the only character threatening an opponent and that opponent uses a combat feat (including taking an action that benefits from a combat feat, or gaining any bonus to AC, attack rolls, damage rolls, or saving throws from a combat feat ), you can take an immediate action to gain the benefit of that feat until the end of your next turn. You must meet all the feat\u2019s prerequisites. If a feat has a daily use limitation, as does Stunning Fist, any uses of that feat while you\u2019re using Mirror Move count toward that feat\u2019s daily limit for you. You can use Mirror Move once per day for every 4 levels you have attained."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

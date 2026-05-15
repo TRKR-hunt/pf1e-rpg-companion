@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_regenerate_muscles__crb_",
+    "name": {
+      "value": "Regenerate Muscles"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_monster_codex"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Power Attack, regeneration, troll."
+    },
+    "description": {
+      "value": "**Benefit:** As a free action, you can make your regeneration stop working for 1 minute and gain a +2 enhancement bonus to your Strength. You lose your regeneration ability while you benefit from this bonus to Strength and for 1 minute afterward. You can end this ability early as a free action. You can activate this ability only if your regeneration is functioning."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

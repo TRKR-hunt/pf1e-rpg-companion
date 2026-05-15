@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_combat_style_master_combat__crb_",
+    "name": {
+      "value": "Combat Style Master"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Unarmed Strike, two or more style feats, base attack bonus +6 or monk level 5th."
+    },
+    "description": {
+      "value": "**Benefit:** You can switch your style as a free action. At the start of combat, pick one of your styles. You start the combat in that style, even in the surprise round.\n\n**Normal:** It takes a swift action to begin or switch your styles."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

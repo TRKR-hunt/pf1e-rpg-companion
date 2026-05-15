@@ -3,31 +3,31 @@
   "stats": {
     "id": "feat_run__crb_",
     "name": {
-      "value": "Run"
+      "value": "run"
     },
     "source": {
-      "value": "crb"
+      "value": "unknown"
     },
     "type": {
-      "value": "general"
+      "value": "combat"
     },
     "traits": {
-      "value": "general"
+      "value": "combat"
     },
     "prerequisites": {
       "value": ""
     },
     "description": {
-      "value": "Run x5 (instead of x4); retain Dex bonus to AC; +4 bonus on Acrobatic checks made to jump."
+      "value": "**Benefit:** When running, you move five times your normal speed (if wearing medium, light, or no armor and carrying no more than a medium load) or four times your speed (if wearing heavy armor or carrying a heavy load). If you make a jump after a running start (see Acrobatics ), you gain a +4 bonus on your Acrobatics check. While running, you retain your Dexterity bonus to your Armor Class.\n\n**Normal:** You move four times your speed while running (if wearing medium, light, or no armor and carrying no more than a medium load) or three times your speed (if wearing heavy armor or carrying a heavy load), and you lose your Dexterity bonus to AC."
+    },
+    "action_cost": {
+      "value": "passive"
     },
     "is_toggleable": {
       "value": false
     },
     "effects": {
       "value": []
-    },
-    "action_cost": {
-      "value": "passive"
     }
   }
 }

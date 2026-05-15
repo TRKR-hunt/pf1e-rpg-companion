@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_directed_disarm_combat__crb_",
+    "name": {
+      "value": "Disarm, Directed"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Greater Disarm, Improved Disarm, base attack bonus +11."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you successfully use a combat maneuver to disarm an opponent, the disarmed weapon lands up to 15 feet away from its wielder, in the direction you choose. Alternatively, you can make a ranged attack as an immediate action with the disarmed weapon against another opponent, as long as the disarmed weapon is a light or one-handed weapon. If the weapon is not a thrown weapon, you take a \u00e2\u0080\u00934 penalty on the attack roll. You take a \u00e2\u0080\u00934 penalty on your attack roll if you do not have a free hand."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

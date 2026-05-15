@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_consecrate_spell_metamagic__crb_",
+    "name": {
+      "value": "Consecrate Spell"
+    },
+    "source": {
+      "value": "blood_of_angels"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": "Aasimar, able to prepare or cast consecrate."
+    },
+    "description": {
+      "value": "**Benefit:** A consecrated spell is treated as a maximized spell against evil creatures and creatures with the evil subtype. Against all other creatures, this feat does not modify the spell in any way (for example, a consecrated fireball acts as a normal fireball against neutral or good creatures). This feat does not stack with Maximize Spell. Level Increase: +2 (a consecrated spell uses up a spell slot two levels higher than the spell\u2019s actual level.)"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_craft_technological_item__crb_",
+    "name": {
+      "value": "Craft Technological Item"
+    },
+    "source": {
+      "value": "technology_guide"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Technologist, Craft (mechanical) 5 ranks, Knowledge (engineering) 5 ranks"
+    },
+    "description": {
+      "value": "**Benefit:** You can create technological gear. Creating a piece of technological gear takes 1 day for every 1,000 gp in the item\u2019s price. To create the object, you must use up raw materials costing half of this total price. You can also repair a broken technological item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item from scratch."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

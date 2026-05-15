@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_retributive_kick_weapon_mastery__crb_",
+    "name": {
+      "value": "Retributive Kick (Weapon Mastery)"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Unarmed Strike, base attack bonus +5, weapon training class feature with a melee weapon."
+    },
+    "description": {
+      "value": "**Benefit:** When you make a full attack with an appropriate melee weapon and your first attack misses or is blocked, deflected, parried, or otherwise caused to not hit the target, you can immediately make an unarmed attack against the same target with the same attack bonus. You then cannot make any more attacks as part of that full attack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_combat_medic_teamwork__crb_",
+    "name": {
+      "value": "Combat Medic"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "teamwork"
+    },
+    "traits": {
+      "value": "teamwork"
+    },
+    "prerequisites": {
+      "value": "Heal 5 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you use Heal to provide first aid, treat caltrop wounds, or treat poison on an ally who also has this feat, you provoke no attacks of opportunity, and can take 10 on the check. Unlike with other teamwork feats, allies that are paralyzed, stunned, unconscious, or cannot otherwise act still count for the purposes of this feat."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

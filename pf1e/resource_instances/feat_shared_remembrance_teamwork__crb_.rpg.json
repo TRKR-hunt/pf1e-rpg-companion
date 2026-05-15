@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_shared_remembrance_teamwork__crb_",
+    "name": {
+      "value": "Shared Remembrance (Teamwork)"
+    },
+    "source": {
+      "value": "isr"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Knowledge (any) 1 rank, elf."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you make a Knowledge check to identify a monster, you gain a cumulative +2 circumstance bonus on the check for each ally within 30 feet who also has this feat and has ranks in the Knowledge skill required to identify that monster (maximum +10 bonus)."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

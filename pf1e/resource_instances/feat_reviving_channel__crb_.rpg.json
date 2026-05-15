@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_reviving_channel__crb_",
+    "name": {
+      "value": "Reviving Channel"
+    },
+    "source": {
+      "value": "distant_realms"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Channel energy 3d6."
+    },
+    "description": {
+      "value": "**Benefit:** When you use channel energy, you can focus on one creature within range that would be healed by your channel energy whose hit points are below 0. When you do so, no other creatures are healed, but the target creature is restored to 0 hit points before the normal healing takes effect."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

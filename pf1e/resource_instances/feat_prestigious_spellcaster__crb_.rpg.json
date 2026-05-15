@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_prestigious_spellcaster__crb_",
+    "name": {
+      "value": "Prestigious Spellcaster"
+    },
+    "source": {
+      "value": "paths_of_the_righteous"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Favored Prestige Class with selected prestige class."
+    },
+    "description": {
+      "value": "**Benefit:** The first time you gain a level in your favored prestige class and the spells per day class feature does not grant an increase in effective level for the purpose of casting spells, you gain new spells per day as if the prestige class did grant +1 level of spellcasting for that level. This effect is retroactive if you gain this feat at a level beyond the point where your favored prestige class would normally have not advanced your spellcasting. The Prestigious Spellcaster feat does not have any effect if your favored prestige class does not have the spells per day class feature, or if it does have the spells per day class feature but already grants a level increase for every level of the prestige class (as do the arcane trickster and loremaster prestige classes).\n\n**Special:** You can select the Prestigious Spellcaster feat multiple times. Each time you select the Prestigious Spellcaster feat, your effective caster level increases by 1. However, regardless of the number of times you choose this feat, the total increase to your effective caster level cannot exceed your actual prestige class level. This feat also applies to prestige classes that grant extracts per day instead of spells per day."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

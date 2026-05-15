@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_trick_spell_metamagic__crb_",
+    "name": {
+      "value": "Trick Spell"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": "Ability to cast 1st-level spells, chaotic neutral alignment, worshiper of a deity of trickery, lust, and revenge."
+    },
+    "description": {
+      "value": "**Benefit:** Only enchantment spells that affect a single target and can be negated with a successful Will save can be trick spells. If the target fails its Will save against a trick spell, in addition to the spell\u2019s normal effects, the target also clumsily hinders itself. Immediately attempt a special combat maneuver check (1d20 + your caster level + your Charisma bonus) to perform a dirty trick combat maneuver against the target. Any feats you have that apply to dirty trick maneuvers (such as Greater Dirty Trick ) also apply to this check. Level Increase: +1 (a trick spell takes up a spell slot 1 level higher than the spell\u2019s actual level.)"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

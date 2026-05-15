@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_boar_shred_combat__crb_",
+    "name": {
+      "value": "Boar Shred"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Improved Unarmed Strike, Boar Ferocity, Boar Style, Intimidate 9 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** You can make an Intimidate check to demoralize an opponent as a move action. While using Boar Style, whenever you tear an opponent\u00e2\u0080\u0099s flesh, once per round at the start of that opponent\u00e2\u0080\u0099s turn he takes 1d6 bleed damage. The bleed damage dealt while using Boar Style persist even if you later switch to a different style. FAQ Boar Style seems to deal 2d6 bleed damage, which by the normal rules of bleed damage would apply each round, but then Boar Shred, which requires Boar Style and a much higher level, deals 1d6 bleed damage and specifies that it happens on each round. Did Boar Style mean something else? Yes, Boar Style means to say that it deals 2d6 additional damage once when you hit a foe twice, similar to the rend ability, and then Boar Shred actually does 1d6 ongoing bleed damage. This will be reflected in future errata. [ Source ]"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

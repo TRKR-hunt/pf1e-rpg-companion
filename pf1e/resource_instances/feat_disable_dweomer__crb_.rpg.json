@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_disable_dweomer__crb_",
+    "name": {
+      "value": "Disable Dweomer"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Disable Device 5 ranks, Use Magic Device 5 ranks, trapfinding."
+    },
+    "description": {
+      "value": "**Benefit:** You can use Disable Device to suppress the magic of a non-artifact magic item for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes non-magical for the duration of the suppression. Using Disable Device in this way takes 2d4 rounds, with a DC of 15 + the item\u2019s caster level."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_distant_spell_link__crb_",
+    "name": {
+      "value": "Distant Spell Link"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Enlarge Spell or Reach Spell; animal companion, eidolon, familiar, or other allied creature with the share spells ability."
+    },
+    "description": {
+      "value": "**Benefit:** The range of your allied creature\u2019s share spells ability increases to close (25 feet + 5 feet for every 2 levels) as long as you have line of effect to the creature when you cast the shared spell. If your allied creature has the deliver touch spells ability, you can designate your allied creature as the spell\u2019s source when you cast a touch spell as long as you are within close range of it. The creature must still deliver the touch spell at its touch range.\n\n**Normal:** You must be adjacent to your familiar to share spells with it or designate touch spells for it to deliver."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

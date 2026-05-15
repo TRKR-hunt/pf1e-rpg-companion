@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_ranged_study__crb_",
+    "name": {
+      "value": "Ranged Study"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Weapon Focus with the chosen weapon, studied combat class feature."
+    },
+    "description": {
+      "value": "**Benefit:** Choose one kind of ranged weapon. You gain the bonuses for studied combat with your chosen weapon and can use studied strike with your chosen weapon as long as the target of your studied strike is within 30 feet of you.\n\n**Normal:** You gain the bonuses for studied combat and can use studied strike only with melee weapons."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

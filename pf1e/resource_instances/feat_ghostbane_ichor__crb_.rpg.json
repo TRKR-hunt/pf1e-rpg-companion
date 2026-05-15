@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_ghostbane_ichor__crb_",
+    "name": {
+      "value": "Ghostbane Ichor"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Knowledge (religion) 9 ranks, vishkanya."
+    },
+    "description": {
+      "value": "**Benefit:** For a number of rounds equal to your Constitution modifier, a weapon envenomed by your vishkanya venom gains the ghost touch\n\n**Normal:** Vishkanya venom deals Dexterity damage.\n\n**Special:** ability and deals 1d6 additional points of damage against incorporeal foes. This affects creatures even if they are immune to poison effects. If the weapon is used to attack a corporeal creature, the venom is expended and the effects it granted to your weapon end."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

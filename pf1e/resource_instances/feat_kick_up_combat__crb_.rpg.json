@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_kick_up_combat__crb_",
+    "name": {
+      "value": "Kick Up"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 12, Acrobatic, Acrobatics 1 rank; slayer level 1st or swashbuckler level 1st."
+    },
+    "description": {
+      "value": "**Benefit:** As long as you have at least one hand free, you can use a swift action to retrieve a single unattended item or weapon that weighs 10 pounds or less from the ground, either in your square or in any adjacent square not occupied or threatened by an enemy. Additionally, when you kick up a weapon and attempt a feint before the end of your turn, you receive a +2 circumstance bonus on the feint attempt."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

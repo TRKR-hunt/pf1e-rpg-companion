@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_arming_grab_combat__crb_",
+    "name": {
+      "value": "Arming Grab (Combat)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Catch Off-Guard, Combat Expertise, Improved Disarm."
+    },
+    "description": {
+      "value": "**Benefit:** You take no penalty on your attack roll when attempting to disarm an opponent while you are unarmed. If you succeed at a disarm attempt without using a weapon and choose to pick up the disarmed weapon, you can attack with that weapon as though you were proficient with it until the end of your next turn. If you are already proficient with that type of weapon, you gain a +2 morale bonus to your attack rolls with that weapon until the end of your next turn.\n\n**Normal:** Attempting to disarm a foe while unarmed imposes a \u00e2\u0080\u00934 penalty on the attack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_contagious_spell_metamagic__crb_",
+    "name": {
+      "value": "Contagious Spell"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "**Benefit:** A caster level check to dispel or remove a contagious spell that fails by 5 or more causes it to spread from the original target to the creature that attempted to remove it. The spell spreads to the new target regardless of its normal range or any special targeting requirement like a melee or ranged touch attack. The spell is treated as if you had just cast it on the new target. The new target receives a saving throw or the benefit of spell resistance (if applicable) if the spell normally allows it. Level Increase: +2 (an contagious spell uses up a spell slot 2 levels higher than the spell\u00e2\u0080\u0099s actual level.)\n\n**Special:** A contagious spell can be identified normally as it is being cast with a successful Spellcraft check. Identifying whether a spell is contagious by its effect, however, requires the use of the analyze dweomer spell or a similar effect."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

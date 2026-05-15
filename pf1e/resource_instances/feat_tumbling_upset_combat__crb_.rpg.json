@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_tumbling_upset_combat__crb_",
+    "name": {
+      "value": "Tumbling Upset (Combat)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Trip, Acrobatics 7 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** When you succeed at an Acrobatics check to move through an enemy\u00e2\u0080\u0099s space, you can spend a swift action to attempt a trip combat maneuver check against the opponent. Even if you fail this check by 10 or more, you do not fall prone.\n\n**Normal:** If you fail a trip combat maneuver check by 10 or more, you are knocked prone."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

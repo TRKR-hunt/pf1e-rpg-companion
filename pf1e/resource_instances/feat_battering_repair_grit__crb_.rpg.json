@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_battering_repair_grit__crb_",
+    "name": {
+      "value": "Battering Repair (Grit)"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Craft (alchemy) 3 ranks; grit class feature or Amateur Gunslinger; pistol-whip gunslinger deed; quick clear gunslinger deed."
+    },
+    "description": {
+      "value": "**Benefit:** You can ignore the broken condition of a firearm you\u00e2\u0080\u0099re wielding to perform the pistol-whip deed. If you hit a creature with this deed, you can spend 1 grit point as an immediate action to remove the broken condition from the firearm, but only if the firearm gained that condition from a misfire."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

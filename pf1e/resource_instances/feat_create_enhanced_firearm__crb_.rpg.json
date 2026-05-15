@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_create_enhanced_firearm__crb_",
+    "name": {
+      "value": "Create Enhanced Firearm"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Craft Magic Arms and Armor; Craft (weapons) 1 rank or Gunsmithing."
+    },
+    "description": {
+      "value": "**Benefit:** When you craft a firearm or magical firearm, you can use reinforced components to make the weapon more reliable. This increases the item\u00e2\u0080\u0099s total construction cost by 10%. The misfire chance of the weapon is reduced by 1. This can never reduce a firearm\u00e2\u0080\u0099s misfire chance by more than 1."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

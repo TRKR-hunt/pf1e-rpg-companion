@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_smiting_reversal_combat__crb_",
+    "name": {
+      "value": "Smiting Reversal"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Power Attack, Toughness."
+    },
+    "description": {
+      "value": "**Benefit:** Three times per day after being targeted by the smite attack of an enemy, you can immediately make an attack of opportunity against the target. You gain a bonus on this attack roll equal to your Charisma bonus. If this attack of opportunity hits, you gain a bonus on the damage roll equal to your character level. This attack of opportunity ignores all damage reduction the creature possesses."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_eternal_enmity__crb_",
+    "name": {
+      "value": "Eternal Enmity"
+    },
+    "source": {
+      "value": "isr"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Knowledge 3 ranks (see special), hatred racial trait."
+    },
+    "description": {
+      "value": "**Benefit:** Your attacks deal an additional 1d6 points of precision damage against targets of your hatred racial trait. This bonus damage stacks with other sources of precision damage, such as sneak attack. If your hatred racial trait applies to two creature types or subtypes, you must choose one of them\u2014this feat applies to targets of that type (and subtype, if applicable). Once made, this choice cannot be changed.\n\n**Special:** The Knowledge skill used to qualify for this feat must be appropriate for identifying creatures of the chosen type."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

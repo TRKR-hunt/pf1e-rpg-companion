@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_ki_channel__crb_",
+    "name": {
+      "value": "Ki Channel"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Channel positive energy class feature, worshiper of a god of self-perfection or inner mastery."
+    },
+    "description": {
+      "value": "**Benefit:** When you channel positive energy to heal living creatures, any creature that could be healed by the channeled energy can choose to regain ki from it instead. Affected creatures regain a number of ki points equal to the number of dice healed by the channel. A creature regaining ki in such a way must either regain ki or be healed by the channel (it cannot gain both)."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

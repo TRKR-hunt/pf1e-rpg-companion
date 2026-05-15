@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_exhausting_critical_combat_critical__crb_",
+    "name": {
+      "value": "Critical, Exhausting"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Critical Focus, Tiring Critical, base attack bonus +15."
+    },
+    "description": {
+      "value": "**Benefit:** When you score a critical hit on a foe, your target immediately becomes exhausted. This feat has no effect on exhausted creatures.\n\n**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess the Critical Mastery feat."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

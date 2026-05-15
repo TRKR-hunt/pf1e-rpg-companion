@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_blinding_sneak_attack_combat__crb_",
+    "name": {
+      "value": "Blinding Sneak Attack"
+    },
+    "source": {
+      "value": "blood_of_fiends"
+    },
+    "type": {
+      "value": "racial"
+    },
+    "traits": {
+      "value": "racial"
+    },
+    "prerequisites": {
+      "value": "Base attack bonus +5, darkness spell-like ability, sneak attack class feature, tiefling."
+    },
+    "description": {
+      "value": "**Benefit:** When you successfully deal sneak attack damage to a foe while you are within an area of magical darkness, you temporarily blind your opponent for 1 round. A successful Fortitude save (DC 10 + the amount of sneak attack damage dealt) negates this effect."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

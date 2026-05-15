@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_manyshot_combat__crb_",
+    "name": {
+      "value": "Manyshot"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 17, Point-Blank Shot, Rapid Shot, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger\u2019s favored enemy bonus. Damage reduction and resistances apply separately to each arrow. Editor\u2019s Note How does Manyshot work with Deflect Arrows? \u201c Deflect Arrows works only once per round. Manyshot allows an archer to shoot multiple arrows, but you only make one attack roll, so Deflect Arrows would block all arrows grouped in anyone particular Manyshot attack.\u201d [ Source ]"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

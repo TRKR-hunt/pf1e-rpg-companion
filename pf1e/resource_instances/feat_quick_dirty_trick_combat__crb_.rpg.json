@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_quick_dirty_trick_combat__crb_",
+    "name": {
+      "value": "Quick Dirty Trick"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Dirty Trick, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** On your turn, you can perform a single dirty trick combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the dirty trick combat maneuver.\n\n**Normal:** A dirty trick combat maneuver is a standard action."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

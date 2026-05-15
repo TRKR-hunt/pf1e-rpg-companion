@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_liberating_shot_weapon_mastery__crb_",
+    "name": {
+      "value": "Liberating Shot (Weapon Mastery)"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Deadly Aim, base attack bonus +7, weapon training class feature with a ranged weapon."
+    },
+    "description": {
+      "value": "**Benefit:** When you hit an opponent with a ranged attack as part of an attack action and that opponent is grappling an ally, your grappled ally can use your attack roll result in place of her combat maneuver check result, whichever is higher, to escape from the grapple during her next turn."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

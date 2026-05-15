@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_open_conduit__crb_",
+    "name": {
+      "value": "Open Conduit"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Knowledge (planes) 5 ranks or outsider with the native subtype."
+    },
+    "description": {
+      "value": "**Benefit:** Select a conduit feat you have. When determining the uses per day or the amount of time per day you can use this conduit feat, you are treated as though you had an additional 5 ranks in Knowledge (planes). This does not offer any other benefit or affect other uses of Knowledge (planes).\n\n**Special:** You can select this feat more than once. Its effects do not stack. Each time you select it, choose another conduit feat to gain its benefits."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

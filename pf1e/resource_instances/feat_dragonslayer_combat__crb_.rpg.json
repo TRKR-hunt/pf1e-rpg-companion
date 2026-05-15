@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_dragonslayer_combat__crb_",
+    "name": {
+      "value": "Dragonslayer (Combat)"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Knowledge (arcana) 4 ranks, base attack bonus +4."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you confirm a critical hit against an opponent that has a breath weapon, you can forgo the extra critical damage to instead prevent your foe from using its breath weapon for a number of rounds equal to twice the critical multiplier of your attack, in addition to any normal delay mentioned in the breath weapon effect\u2019s description."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_channeling_force_combat__crb_",
+    "name": {
+      "value": "Channeling Force"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Ability to cast at least one force spell, channel energy class feature."
+    },
+    "description": {
+      "value": "**Benefit:** A swift action, you can expend one use of channel energy to grant your weapon attacks a bonus on damage rolls equal to the number of dice of your channel energy. This extra damage is force damage. This lasts for your next three weapon attacks or until the end of combat, whichever comes first."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

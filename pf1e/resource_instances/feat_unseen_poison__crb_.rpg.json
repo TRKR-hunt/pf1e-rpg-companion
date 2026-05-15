@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_unseen_poison__crb_",
+    "name": {
+      "value": "Unseen Poison"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Bluff 5 ranks, Craft ( poison ) 5 ranks, ability to cast nondetection."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever a creature attempts to magically detect poison you are carrying, the creature must succeed at a caster level check with a DC equal to 10 + your character level. On a failed check, that spell or magic ability fails to detect any poison you possess for the duration of the spell."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

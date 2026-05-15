@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_just_out_of_reach_combat__crb_",
+    "name": {
+      "value": "Just out of Reach"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Dodge, Mobility."
+    },
+    "description": {
+      "value": "**Benefit:** When a foe more than 5 feet away from you makes a melee attack against you using reach, you gain a +4 dodge bonus to your AC against the attack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

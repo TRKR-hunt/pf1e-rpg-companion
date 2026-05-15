@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_hold_the_blade_combat__crb_",
+    "name": {
+      "value": "Hold the Blade"
+    },
+    "source": {
+      "value": "dragon_empires_primer"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Disarm, base attack bonus +10."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever an enemy deals damage to you with a melee weapon as part of a flanking attack or sneak attack, you can make a combat maneuver check to disarm against that opponent as an immediate action. You must have at least one hand free when you use this feat. When you use this feat, you take a \u20134 penalty to your AC until your next turn. You can only use this feat once per round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

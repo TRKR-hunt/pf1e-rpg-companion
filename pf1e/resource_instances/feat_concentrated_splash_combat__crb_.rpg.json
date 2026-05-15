@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_concentrated_splash_combat__crb_",
+    "name": {
+      "value": "Concentrated Splash"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Precise Shot or Throw Anything."
+    },
+    "description": {
+      "value": "**Benefit:** When you deal a direct hit to a creature with a splash weapon that normally also deals splash damage, you can choose to forgo dealing splash damage. If you do, the damage dealt to the target of the direct hit increases by 50%. This damage is multiplied on a critical hit. This feat cannot be used with an alchemist\u2019s bombs."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

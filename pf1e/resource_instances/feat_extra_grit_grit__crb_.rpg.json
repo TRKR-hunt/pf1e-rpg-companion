@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_extra_grit_grit__crb_",
+    "name": {
+      "value": "Extra Grit"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Grit class feature or the Amateur Gunslinger feat."
+    },
+    "description": {
+      "value": "**Benefit:** You gain 2 extra grit points at the start of each day, and your maximum grit increases by 2.\n\n**Normal:** If you are a gunslinger, you gain your Wisdom modifier in grit points at the start of each day, which is also your maximum grit. If you have the Amateur Gunslinger feat, you gain 1 grit point at the start of each day, and your maximum grit is equal to your Wisdom modifier.\n\n**Special:** If you possess levels in the gunslinger class, you can take this feat multiple times."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

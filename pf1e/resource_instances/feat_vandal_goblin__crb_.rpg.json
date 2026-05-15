@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_vandal_goblin__crb_",
+    "name": {
+      "value": "Vandal"
+    },
+    "source": {
+      "value": "goblins_of_golarion"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Goblin, sneak attack class feature."
+    },
+    "description": {
+      "value": "**Benefit:** You treat unattended objects as if they were vulnerable to your sneak attack, but you only deal half as much damage as you would against an actual creature. For instance, if you rolled 12 extra damage from the sneak attack you would deal an extra 6 damage to the object. This only applies when attacking unattended objects."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

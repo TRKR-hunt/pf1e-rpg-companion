@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_beastmaster_style_combat_style__crb_",
+    "name": {
+      "value": "Beastmaster Style (Combat, Style)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_wilderness"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Cha 13, Handle Animal 1 rank, must have an animal companion."
+    },
+    "description": {
+      "value": "**Benefit:** When you are adjacent to your animal companion and an attack is made against it, if you are also adjacent to the attacking creature, you can attempt a Handle Animal check as an immediate action to negate the hit. The hit is negated if your Handle Animal check result is greater than the attacker\u2019s attack roll.\n\n**Special:** You cannot use this style if you are mounted on your animal companion."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

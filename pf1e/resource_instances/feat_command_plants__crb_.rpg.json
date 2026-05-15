@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_command_plants__crb_",
+    "name": {
+      "value": "Command Plants"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_wilderness"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Channel energy class feature, Plant domain."
+    },
+    "description": {
+      "value": "**Benefit:** As a standard action, you can use one of your daily uses of channel energy to command plants within 30 feet of you. Plants can attempt a Will save (DC = 10 + half your class level + your Charisma modifier) to negate the effect. This functions as the command plants spell with a caster level equal to your class level. Each affected plant can attempt a new saving throw each day to escape this effect. You can control any number of plants, so long as their total Hit Dice do not exceed your class level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an affected plant creature is controlled by or a companion of another creature, you must attempt an opposed Charisma check whenever your orders conflict."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

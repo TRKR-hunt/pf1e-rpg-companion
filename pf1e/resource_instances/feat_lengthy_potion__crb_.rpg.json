@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_lengthy_potion__crb_",
+    "name": {
+      "value": "Lengthy Potion"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Brew Potion, caster level 10th."
+    },
+    "description": {
+      "value": "**Benefit:** When you brew a potion using a spell with a duration of 1 round per caster level, you can increase the spell\u00e2\u0080\u0099s duration to 1 minute for the purposes of the resulting potion\u00e2\u0080\u0099s effects on the imbiber. This does not stack with any other effect that would increase the duration of the potion, such as the Extend Spell metamagic feat. A spell brewed into a potion this way uses up a spell slot one level higher than the spell\u00e2\u0080\u0099s actual level for the purposes of crafting and its cost."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_suppress_regeneration_combat_teamwork__crb_",
+    "name": {
+      "value": "Suppress Regeneration"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "type": {
+      "value": "teamwork"
+    },
+    "traits": {
+      "value": "teamwork"
+    },
+    "prerequisites": {
+      "value": ""
+    },
+    "description": {
+      "value": "**Benefit:** When you make a successful attack that causes a creature\u2019s regeneration ability to cease functioning for at least 1 round (such as by hitting a troll with alchemist\u2019s fire ), any ally who also has this feat and is currently threatening the creature can make an attack of opportunity against it. This attack of opportunity deals no damage, but instead extends the time that the creature\u2019s regeneration is suppressed by 1 additional round. If multiple allies with this feat hit the creature with this attack of opportunity, the additional rounds of suppression stack."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

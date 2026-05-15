@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_hemorrhaging_venom_combat__crb_",
+    "name": {
+      "value": "Hemorrhaging Venom (Combat)"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Spit Venom, Virulent Venom, base attack bonus +7, nagaji."
+    },
+    "description": {
+      "value": "**Benefit:** Your ability to spit poison granted by the Spit Venom feat deals 2d6 points of bleed damage on a failed saving throw in addition to all other effects. The bleeding can be stopped as normal with a successful DC 15 Heal check or the application of any effect that heals hit point damage. In addition, you gain one additional use per day of the ability to spit poison granted by the Spit Venom feat."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

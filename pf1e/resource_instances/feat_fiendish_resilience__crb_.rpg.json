@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_fiendish_resilience__crb_",
+    "name": {
+      "value": "Fiendish Resilience"
+    },
+    "source": {
+      "value": "blood_of_fiends"
+    },
+    "type": {
+      "value": "racial"
+    },
+    "traits": {
+      "value": "racial"
+    },
+    "prerequisites": {
+      "value": "Dex 13, evasion class feature, tiefling."
+    },
+    "description": {
+      "value": "**Benefit:** Choose one of the following energy types that you have resistance to: cold, electricity, or fire. Anytime you make a Reflex saving throw against an attack that deals the selected type of energy damage and is subject to your evasion class feature, you gain a +4 competence bonus on the save.\n\n**Special:** You can take this feat multiple times. Each time you take it, you select a different qualifying energy type."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

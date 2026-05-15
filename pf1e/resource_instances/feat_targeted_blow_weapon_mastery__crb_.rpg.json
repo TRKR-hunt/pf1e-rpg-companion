@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_targeted_blow_weapon_mastery__crb_",
+    "name": {
+      "value": "Targeted Blow (Weapon Mastery)"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, Power Attack, base attack bonus +9, weapon training class feature with a melee weapon."
+    },
+    "description": {
+      "value": "**Benefit:** As a standard action, you can make a single melee attack with an appropriate weapon while targeting a specific body part of your foe. On a successful attack, you affect the target as if you had used the targeting gunslinger deed. You can use this ability two times per day, plus one additional time per day when your base attack bonus reaches +10, +15, and +20."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_scrutinize_spell__crb_",
+    "name": {
+      "value": "Scrutinize Spell"
+    },
+    "source": {
+      "value": "path_of_the_hellknight"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Spellcraft 1 rank."
+    },
+    "description": {
+      "value": "**Benefit:** When you witness a creature casting a spell, you can attempt a Spellcraft check to determine what sort of spellcaster the target is\u00e2\u0080\u0094specifically, what the target\u00e2\u0080\u0099s class is. The DC of this skill check is equal to 10 + the spellcaster\u00e2\u0080\u0099s Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell\u00e2\u0080\u0099s level), you also identify the spell. Once you have identified the target\u00e2\u0080\u0099s class, you can add your Wisdom or Charisma modifier (whichever is higher) to Spellcraft checks to identify all spells the target casts from that class\u00e2\u0080\u0099s spell list. Additionally, after you have determined the target\u00e2\u0080\u0099s spellcasting class, you can attempt an Intimidate check as a free action to demoralize the target, gaining a bonus equal to your Wisdom or Charisma modifier (whichever is highest)."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

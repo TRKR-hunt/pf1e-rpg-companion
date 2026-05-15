@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_combat_rhythm_combat_combination__crb_",
+    "name": {
+      "value": "Combat Rhythm (Combat, Combination)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Base attack bonus +6 or monk level 6th."
+    },
+    "description": {
+      "value": "**Benefit:** When you deal damage with a melee attack to an opponent you have already damaged this round, you can reduce the total of any voluntary penalties to your melee attack rolls imposed by actions or feats (such as the Power Attack feat) by 1 (to a minimum penalty of 0). This reduction in penalties lasts until the beginning of your next turn and stacks with itself."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_warding_blood__crb_",
+    "name": {
+      "value": "Warding Blood"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Ghostbane Ichor, Knowledge (religion) 13 ranks, vishkanya."
+    },
+    "description": {
+      "value": "**Benefit:** You can spend 10 minutes and two uses of your vishkanya venom to coat an area no larger than 10 feet by 10 feet with your blood. This creates a forbiddance effect, using your character level as your caster level (maximum 20). The save DC of this effect is equal to 15 + your Charisma modifier. Creatures that take damage from the forbiddance effect are also exposed to your vishkanya venom. If you have abilities that alter the effects of your venom, you must choose which effect applies when you create the venomous area."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

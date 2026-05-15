@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_finesse_shot_weapon_mastery__crb_",
+    "name": {
+      "value": "Finesse Shot (Weapon Mastery)"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Marksman\u2019s Utility, base attack bonus +7, weapon training class feature with a ranged weapon."
+    },
+    "description": {
+      "value": "**Benefit:** In addition to the options allowed by the utility shot gunslinger deed, you gain access to the following utility shots. Open/Close Object: You can use a ranged attack to open or close an object as a standard action. You make an attack roll against an unattended and unlocked door, window, or container within the first range increment of your weapon. Such an object has an AC equal to 3 + the object\u2019s size modifier (minimum +0) + its hardness. If you hit, the object opens if it is closed or closes if it is open. Otherwise, this ability functions as the open/close spell."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

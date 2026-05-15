@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_accursed_hex__crb_",
+    "name": {
+      "value": "Accursed Hex"
+    },
+    "source": {
+      "value": "um"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Hex class feature"
+    },
+    "description": {
+      "value": "**Benefit:** When you target a creature with a hex that cannot target the same creature more than once per day, and that creature succeeds at its saving throw against the hex\u00e2\u0080\u0099s effect, you can target the creature with the same hex a second time before the end of your next turn. If the second attempt fails, you can make no further attempts to target that creature with the same hex for 1 day.\n\n**Normal:** You can only target a creature with these hexes once per day."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

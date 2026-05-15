@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_scouting_summons_metamagic__crb_",
+    "name": {
+      "value": "Scouting Summons"
+    },
+    "source": {
+      "value": "monster_summoner_s_handbook"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": "Spell Focus ( conjuration ), ability to cast magic jar."
+    },
+    "description": {
+      "value": "**Benefit:** When casting a conjuration ( summoning ) spell that summons a single creature, you can possess the creature as per magic jar (but with no receptacle necessary). If the creature takes damage while you possess it, you must succeed at a concentration check (DC equal to the amount of damage taken) or be ejected from the creature immediately. If the creature takes enough damage to reduce it to 0 hit points or fewer, you are immediately ejected from the creature and take an amount of damage equal to double the level of the spell slot used to summon that creature. A scouting summons spell takes up a spell slot 2 levels higher than the spell\u2019s actual level. Level Increase: +2 (a scouting summons spell uses up a spell slot 2 levels higher than the spell\u2019s actual level.)"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

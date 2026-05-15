@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_greater_dispel_focus__crb_",
+    "name": {
+      "value": "Greater Dispel Focus"
+    },
+    "source": {
+      "value": "monster_summoner_s_handbook"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Dispel Focus, ability to cast dispel magic."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you attempt a dispel check based on your caster level, you gain a +2 bonus to the check. This stacks with the bonus from Dispel Focus."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

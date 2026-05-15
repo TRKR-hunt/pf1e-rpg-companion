@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_craft_pharmaceutical__crb_",
+    "name": {
+      "value": "Craft Pharmaceutical"
+    },
+    "source": {
+      "value": "technology_guide"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Technologist, Heal 9 ranks, Knowledge (nature) 9 ranks"
+    },
+    "description": {
+      "value": "**Benefit:** You can create any pharmaceutical or poison. Creating a pharmaceutical takes 2 hours if its base price is 250 gp or less; otherwise, the creation of the pharmaceutical takes 1 day for every 1,000 gp in its price. To create the pharmaceutical or poison, you must use up raw materials costing half of this total price."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

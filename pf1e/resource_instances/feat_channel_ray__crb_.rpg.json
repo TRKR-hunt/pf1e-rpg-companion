@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_channel_ray__crb_",
+    "name": {
+      "value": "Channel Ray"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Channel energy class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When you channel energy, you can project a ray from your holy symbol instead of creating a burst. You must succeed at a ranged touch attack to hit an unwilling target; your target is then affected by the channeled energy as normal and receives a saving throw. You need not make an attack roll to affect a willing creature with the ray. The ray has a range of 30 feet per channel energy die, and its save DC is increased by 2."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_improved_vital_strike_combat__crb_",
+    "name": {
+      "value": "Improved Vital Strike"
+    },
+    "source": {
+      "value": "pathfinder_rpg_core_rulebook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Vital Strike, base attack bonus +11."
+    },
+    "description": {
+      "value": "**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon\u00e2\u0080\u0099s damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming ), precision-based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

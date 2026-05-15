@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_siphon_channel__crb_",
+    "name": {
+      "value": "Siphon Channel"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Channel energy 3d6, worshiper of a deity of parasites or infections."
+    },
+    "description": {
+      "value": "**Benefit:** Once per day when you channel negative energy to damage living creatures, you gain a number of temporary hit points equal to half the die result of your channeled energy + 1 per creature affected by the channeled energy. For each affected creature that did not succeed at its saving throw against the channeled energy, you gain an additional temporary hit point. These temporary hit points disappear after 1 hour."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

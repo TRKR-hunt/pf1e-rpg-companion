@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_surprising_combatant_combat__crb_",
+    "name": {
+      "value": "Surprising Combatant (Combat)"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Initiative, Bluff 3 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** *: At the beginning of a combat in which you would normally be able to act in a surprise round, after initiative is rolled but before the surprise round begins, you can attempt a Bluff check as a free action. The DC of this Bluff check is equal to 15 + the CR of the encounter. If you succeed at this Bluff check, you may treat the result of your Bluff check as your initiative result for the surprise round. If your Bluff check fails, you cannot act during the surprise round. Regardless, you use your normal initiative result to determine initiative for the remainder of the encounter.\n\n**Special:** This feat is available to weretigers, weretiger-kin and those who associate with these creatures."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

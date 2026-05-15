@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_gate_breaker_combat__crb_",
+    "name": {
+      "value": "Gate Breaker"
+    },
+    "source": {
+      "value": "path_of_the_hellknight"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, Improved Sunder, Power Attack, base attack bonus +1."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you would deal damage to an object, you deal normal damage plus an additional amount equal to your Strength modifier. This applies to both unattended objects and those you damage as part of a successful sunder combat maneuver check."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

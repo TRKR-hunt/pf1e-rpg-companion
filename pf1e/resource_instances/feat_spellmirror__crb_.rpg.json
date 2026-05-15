@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_spellmirror__crb_",
+    "name": {
+      "value": "Spellmirror"
+    },
+    "source": {
+      "value": "wilderness_origins"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Cha 13, character level 6th, ghoran, spelleater racial trait."
+    },
+    "description": {
+      "value": "**Benefit:** Once per day, you can use the dispel magic spell-like ability granted by your spelleater racial trait as an immediate action to attempt to counterspell. If your counterspell attempt is successful, the spell rebounds back upon the original caster, taking effect as if the spell had been cast upon that creature. This exhausts the daily use of dispel magic granted by the spelleater racial trait."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

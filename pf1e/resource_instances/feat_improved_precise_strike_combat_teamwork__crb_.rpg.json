@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_improved_precise_strike_combat_teamwork__crb_",
+    "name": {
+      "value": "Improved Precise Strike (Combat, Teamwork)"
+    },
+    "source": {
+      "value": "legacy_of_the_first_world"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Precise Strike, base attack bonus +4."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you deal additional damage with Precise Strike, you also deal 1 point of bleed damage. This bleed damage does not stack with itself."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_wingclipper_combat__crb_",
+    "name": {
+      "value": "Wingclipper (Combat)"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Base attack bonus +9."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you confirm a critical hit against an opponent that uses wings to fly, you can forgo the extra critical damage to instead prevent it from flying for a number of rounds equal to twice the critical multiplier of your attack. Opponents that are flying at the time of the critical effect must succeed at a DC 20 Fly check to avoid taking falling damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_smashing_crush_combat__crb_",
+    "name": {
+      "value": "Smashing Crush"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Str 13, Improved Sunder, Smashing Style, Weapon Focus with the chosen weapon."
+    },
+    "description": {
+      "value": "**Benefit:** While using Smashing Style, if you successfully damage an object with the sunder combat maneuver, you reduce its hardness by 1. An object can\u2019t have its hardness reduced to less than 50% of its normal hardness, and its hardness is restored when the damage dealt by the sunder attack is repaired."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

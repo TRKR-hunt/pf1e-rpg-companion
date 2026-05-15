@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_improved_parry_combat__crb_",
+    "name": {
+      "value": "Improved Parry"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise."
+    },
+    "description": {
+      "value": "**Benefit:** When you successfully parry a foe\u00e2\u0080\u0099s melee attack (with a dueling parry or the parry class feature), your next melee attack against the target does not allow the enemy to apply its Dexterity bonus to AC (if any). This attack must be made before the end of your next turn."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

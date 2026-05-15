@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_reflexive_caster__crb_",
+    "name": {
+      "value": "Reflexive Caster"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Combat Reflexes, caster level 5th."
+    },
+    "description": {
+      "value": "**Benefit:** If you fail a Perception check that results in you being unable to act in a surprise round, you still roll initiative\n\n**Normal:** ly. You can act on your initiative count in the surprise round, but can only take a standard action to cast an abjuration spell that targets only yourself."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

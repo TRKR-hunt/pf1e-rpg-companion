@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_rending_swarm_combat_teamwork__crb_",
+    "name": {
+      "value": "Rending Swarm Combat Teamwork"
+    },
+    "source": {
+      "value": "blood_of_the_beast"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 15, Rat Stack, swarming racial trait."
+    },
+    "description": {
+      "value": "**Benefit:** You gain a +1 bonus on all melee damage rolls for each allied creature you share a square with that also has this feat. If two or more allies sharing a square have this feat and hit the same adjacent creature in a round, they tear it in different directions, dealing additional damage at the end of the round. This rend attack deals an amount of damage equal to 1d6 + the highest Strength modifier of all qualifying allies in the same square who struck the target this round."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

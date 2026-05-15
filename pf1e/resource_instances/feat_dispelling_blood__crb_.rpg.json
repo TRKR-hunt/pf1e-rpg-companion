@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_dispelling_blood__crb_",
+    "name": {
+      "value": "Dispelling Blood"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Knowledge (arcana) 7 ranks, vishkanya."
+    },
+    "description": {
+      "value": "**Benefit:** As a swift action, you can alter the effects of your venom to affect magic instead of flesh. Your venom functions as a targeted dispel magic effect when it strikes a creature, using your character level as your caster level. This dispelling effect affects creatures even if they are immune to poison effects.\n\n**Normal:** Vishkanya venom deals Dexterity damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

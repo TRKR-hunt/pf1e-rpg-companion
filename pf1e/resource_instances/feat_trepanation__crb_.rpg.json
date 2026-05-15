@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_trepanation__crb_",
+    "name": {
+      "value": "Trepanation"
+    },
+    "source": {
+      "value": "occult_origins"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Heal 5 ranks, Knowledge (arcana) 2 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** You can perform the faith healing occult skill unlock even if you can\u2019t use psychic magic. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use faith healing one additional time per day. So long as you have a healer\u2019s kit or surgeon\u2019s tools, you can spend 1 hour performing a full trepanation on a creature. This procedure requires a Heal check (DC = 20 + the target\u2019s Hit Dice ). If you\u2019re successful, the target gains a +2 insight bonus on saving throws against curses, possession, and spells from the enchantment ( compulsion ) school. These effects persist for 1 day per character level you possess. If you fail the check, the target takes 1d3 points of Intelligence, Wisdom, and Charisma damage. You can perform this procedure on yourself, but the DC increases by 5."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_painful_collision_combat__crb_",
+    "name": {
+      "value": "Painful Collision (Combat)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, Improved Bull Rush, Power Attack."
+    },
+    "description": {
+      "value": "**Benefit:** When you bull rush an enemy into another creature, both creatures take 1d6 points of bludgeoning damage, plus an additional 1d6 points of bludgeoning damage for every 5 feet your original target has moved as a result of your bull rush. For instance, if you successfully bull rush a goblin 10 feet and it then collides with another goblin, both creatures would take 3d6 points of bludgeoning damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

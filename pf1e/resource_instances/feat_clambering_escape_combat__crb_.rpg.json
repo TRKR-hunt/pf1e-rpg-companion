@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_clambering_escape_combat__crb_",
+    "name": {
+      "value": "Clambering Escape"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_intrigue"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Reposition, evasion class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When you successfully use your evasion class feature to avoid taking damage from an effect that allows a Reflex saving throw, you can attempt a special reposition combat maneuver check against any one foe within reach as an immediate action. If successful, you switch positions with the target of your combat maneuver. If your foe was not initially within range of the effect that you evaded, it must save against the effect as if it had been within the area of effect."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

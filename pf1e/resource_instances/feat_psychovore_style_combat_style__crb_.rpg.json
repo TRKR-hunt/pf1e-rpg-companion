@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_psychovore_style_combat_style__crb_",
+    "name": {
+      "value": "Psychovore Style"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Improved Unarmed Strike, Sense Motive 3 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** When using this style, you can attempt a Sense Motive check (DC = 15 + CR of target) as a move action against a creature with an Intelligence score of 3 or higher. If you succeed, you gain a +1 dodge bonus to your AC against attacks from the target creature until you are no longer using this style. You can have this bonus against only one creature at a time: if you succeed at this Sense Motive check against another creature, you lose the bonus against the first creature. This bonus increases to +2 when you have 8 ranks in Sense Motive, and to +3 when you have 13 ranks in Sense Motive."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

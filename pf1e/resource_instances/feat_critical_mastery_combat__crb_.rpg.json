@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_critical_mastery_combat__crb_",
+    "name": {
+      "value": "Critical Mastery"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Critical Focus, any two critical feats, 14th-level fighter."
+    },
+    "description": {
+      "value": "**Benefit:** When you score a critical hit, you can apply the effects of two critical feats in addition to the damage dealt.\n\n**Normal:** You can only apply the effects of one critical feat to a given critical hit in addition to the damage dealt."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

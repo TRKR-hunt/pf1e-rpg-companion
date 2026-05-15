@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_spring_attack_combat__crb_",
+    "name": {
+      "value": "Spring Attack"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "style"
+    },
+    "traits": {
+      "value": "style"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Dodge, Mobility, base attack bonus +4."
+    },
+    "description": {
+      "value": "**Benefit:** As a full-round action, you can move up to your speed and make a single melee attack without provoking any attacks of opportunity from the target of your attack. You can move both before and after the attack, but you must move at least 10 feet before the attack and the total distance that you move cannot be greater than your speed. You cannot use this ability to attack a foe that is adjacent to you at the start of your turn.\n\n**Normal:** You cannot move before and after an attack. FAQ Can Vital Strike be used with Spring Attack? Can Vital Strike be used on a charge? No. Vital Strike can only be used as part of an attack action, which is a specific kind of standard action. Spring Attack is a special kind of full-round action that includes the ability to make one melee attack, not one attack action. Charging uses similar language and can also not be used in combination with Vital Strike. [ Source ] Can I use Spring Attack to make an attack from an ally\u2019s square? Let\u2019s use a diagram of a 5-foot-wide hallway to help visualize this question. Periods are open squares. A is the acting character. Numbers are allies of A. X is the monster...... A 1 2 3 X Using the diagram as a model, the question is, \u201cCan I use Spring Attack to move from A to 3, make an attack on the monster from 3\u2019s square, then move back to A and end my turn?\u201d The answer is \u201cyes.\u201d The key to understanding this is the general rule, \u201cyou cannot end your movement in an occupied square.\u201d Spring Attack is a full-round action; it is not a move action, then an attack, and then another move action, it\u2019s one continuous movement with an attack happening in the middle. Thus, with Spring Attack you\u2019re not ending your movement until you end your movement for the turn. To look at it another way, if the character just wanted to move from A to 3 and back to A, that would be a legal move because he\u2019s not ending his movement in 3, he\u2019s ending his movement back in A. With Spring Attack, the character still isn\u2019t ending his movement in 3; the feat gives him the ability to perform an attack as part of the continuous movement from A to 3 to A (regardless of whether that attack happens when he\u2019s in an occupied square). (Even with speed 15, a character moving 15 feet from A to 3 and then 15 feet from 3 to A isn\u2019t ending his movement in 3\u2026 using a move action to move 15 feet and a standard action to move 15 feet doesn\u2019t mean he\u2019s actually pausing halfway through his movement to change actions.) [ Source ]"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

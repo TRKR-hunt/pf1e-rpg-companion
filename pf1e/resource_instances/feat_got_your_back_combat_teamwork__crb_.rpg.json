@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_got_your_back_combat_teamwork__crb_",
+    "name": {
+      "value": "Got Your Back"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "teamwork"
+    },
+    "traits": {
+      "value": "teamwork"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise."
+    },
+    "description": {
+      "value": "**Benefit:** If you successfully use the aid another action to give an ally who also has this feat a +2 bonus to AC against an opponent\u2019s next attack, the ally is also not considered flanked or flat-footed against that opponent until the beginning of your next turn.\n\n**Normal:** You can use aid another to grant an ally a +2 bonus to AC against the next attack from an adjacent foe."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

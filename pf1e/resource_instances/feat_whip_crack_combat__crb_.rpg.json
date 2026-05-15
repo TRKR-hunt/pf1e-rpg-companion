@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_whip_crack_combat__crb_",
+    "name": {
+      "value": "Whip Crack (Combat)"
+    },
+    "source": {
+      "value": "martial_arts_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Improved Reposition, base attack bonus +3 or monk level 1st."
+    },
+    "description": {
+      "value": "**Benefit:** When you successfully reposition an opponent, its movement need not remain within your reach, though once the opponent leaves your reach, its remaining movement must be in a straight line. This movement doesn\u00e2\u0080\u0099t provoke attacks of opportunity unless you have the Greater Reposition feat.\n\n**Normal:** The target of a reposition combat maneuver must remain within your reach at all times during its movement, except for the final 5 feet of movement, which can be to a space adjacent to your reach."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

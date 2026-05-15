@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_stone_handed_combat__crb_",
+    "name": {
+      "value": "Stone-Handed (Combat)"
+    },
+    "source": {
+      "value": "elemental_masters_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, Stunning Fist."
+    },
+    "description": {
+      "value": "**Benefit:** Before making a melee attack with an unarmed strike, you can expend one use of Stunning Fist to declare a stone-handed strike. Resolve the attack normally, except your attack ignores an amount of the target\u2019s hardness equal to your monk level or one-quarter your base attack bonus (minimum 1), whichever is higher. This effect replaces other effects or conditions that would be caused by your Stunning Fist."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_misdirection_attack_combat__crb_",
+    "name": {
+      "value": "Misdirection Attack"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_intrigue"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Int 13, Combat Expertise, Deceitful, Misdirection Redirection, Misdirection Tactics, Bluff 10 ranks."
+    },
+    "description": {
+      "value": "**Benefit:** When you successfully use the Misdirection Tactics feat to negate a melee weapon attack, the opponent whose attack you negated provokes an attack of opportunity from you, even though you normally can\u2019t take attacks of opportunity while using the total defense action. This effect is in addition to the effect gained from Misdirection Redirection."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

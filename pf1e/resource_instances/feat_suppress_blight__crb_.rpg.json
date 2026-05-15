@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_suppress_blight__crb_",
+    "name": {
+      "value": "Suppress Blight"
+    },
+    "source": {
+      "value": "prisoner_of_the_blight"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Great Fortitude, Iron Will."
+    },
+    "description": {
+      "value": "**Benefit:** Once per day as a standard action, when you are suffering from a curse or disease effect, you can suppress the effects (as delay poison ) for 1 hour per 3 character levels (minimum 1 hour). While the affliction is suppressed, you gain a number of temporary hit points equal to the suppressed affliction\u00e2\u0080\u0099s save DC, which last as long as the affliction\u00e2\u0080\u0099s effects are suppressed. At the end of this duration, the effects return and all subsequent saving throw DCs against the affliction (including the DC to permanently end the effect) are increased by 2, to a maximum increase of half your Hit Dice; you can\u00e2\u0080\u0099t suppress an affliction whose save DC has already been increased to its maximum."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

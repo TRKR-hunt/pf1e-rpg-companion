@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_greater_disarm_combat__crb_",
+    "name": {
+      "value": "Disarm, Greater"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Combat Expertise, Improved Disarm, base attack bonus +6, Int 13."
+    },
+    "description": {
+      "value": "**Benefit:** You receive a +2 bonus on combat maneuver checks made to disarm a foe. This bonus stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction.\n\n**Normal:** Disarmed weapons and gear land at the feet of the disarmed creature."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

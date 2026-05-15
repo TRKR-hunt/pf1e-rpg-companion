@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_soulwrecking_strike_combat__crb_",
+    "name": {
+      "value": "Soulwrecking Strike"
+    },
+    "source": {
+      "value": "haunted_heroes_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Vital Strike, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** Whenever you use the attack action against a creature that is possessed, both the creature and any creature possessing it are damaged by your attack (the amount of damage includes your weapon\u00e2\u0080\u0099s damage dice, your Strength modifier, weapon special abilities, and so on). The possessing creature can attempt a Will save (DC = 10 + 1/2 your base attack bonus + your Charisma modifier) to halve the damage. Damage Reduction applies normally against this attack, but incorporeal creatures take full damage from this attack as if they were corporeal."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

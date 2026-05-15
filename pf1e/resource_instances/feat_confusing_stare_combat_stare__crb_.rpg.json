@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_confusing_stare_combat_stare__crb_",
+    "name": {
+      "value": "Confusing Stare (Combat, Stare)"
+    },
+    "source": {
+      "value": "psychic_anthology"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Mesmerist level 7th, painful stare class feature."
+    },
+    "description": {
+      "value": "**Benefit:** When you trigger your painful stare, the target must succeed at a Will save (DC = 10 + half your mesmerist level + your Charisma modifier) or else become confused for 1 round. The target must roll twice to determine the result of its confused condition, and you select which roll is used."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

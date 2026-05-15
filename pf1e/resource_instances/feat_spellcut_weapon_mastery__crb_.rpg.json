@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_spellcut_weapon_mastery__crb_",
+    "name": {
+      "value": "Spellcut (Weapon Mastery)"
+    },
+    "source": {
+      "value": "weapon_master_s_handbook"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Str 13, Cut from the Air, Power Attack, base attack bonus +9, Spellcraft 1 rank, weapon training class feature with a melee weapon."
+    },
+    "description": {
+      "value": "**Benefit:** Once per round, you can use your base attack bonus in place of your total saving throw bonus for a spell, spell-like ability, or supernatural ability that either allows a Reflex save or is not a melee attack and targets only you."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

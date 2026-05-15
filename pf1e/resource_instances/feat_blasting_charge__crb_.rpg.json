@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_blasting_charge__crb_",
+    "name": {
+      "value": "Blasting Charge"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "type": {
+      "value": "general"
+    },
+    "traits": {
+      "value": "general"
+    },
+    "prerequisites": {
+      "value": "Base attack bonus +7, ability to cast 2nd-level bloodrager spells, bloodrage class feature."
+    },
+    "description": {
+      "value": "**Benefit:** While you are bloodraging, at the end of a charge you can expend a bloodrager spell slot as a swift action to imbue your charge attack with extra power. You deal an additional 1d6 points of damage per level of the spell slot expended. This extra damage is force damage, and it\u2019s not multiplied in the case of a critical hit. If your bloodline has a specific energy type associated with it (such as the elemental or draconic bloodlines), you can choose to increase the damage to 1d8 points per level of the spell slot expended, and this extra damage is of that energy type."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

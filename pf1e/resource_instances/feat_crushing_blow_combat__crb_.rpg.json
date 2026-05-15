@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_crushing_blow_combat__crb_",
+    "name": {
+      "value": "Crushing Blow"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_ultimate_combat"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Improved Unarmed Strike, Stunning Fist."
+    },
+    "description": {
+      "value": "**Benefit:** You can make a Stunning Fist attempt as a full-round action. If successful, instead of stunning your target, you reduce the target\u00e2\u0080\u0099s AC by an amount equal to your Wisdom modifier for 1 minute. This penalty does not stack with other penalties applied due to Crushing Blow."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

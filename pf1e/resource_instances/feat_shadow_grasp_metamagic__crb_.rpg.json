@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_shadow_grasp_metamagic__crb_",
+    "name": {
+      "value": "Shadow Grasp"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "type": {
+      "value": "metamagic"
+    },
+    "traits": {
+      "value": "metamagic"
+    },
+    "prerequisites": {
+      "value": "Tenebrous Spell, Umbral Spell."
+    },
+    "description": {
+      "value": "**Benefit:** When you cast a spell with the darkness descriptor that affects an area, creatures in the area are entangled. If the spell allows a saving throw, a successful save negates the entangle effect. If the spell does not normally allow a save, a creature can make a Reflex save (DC = the spell\u00e2\u0080\u0099s DC if it had a saving throw) to negate the effect. If the spell allows spell resistance, failing to overcome a creature\u00e2\u0080\u0099s spell resistance means it is not entangled. An entangled creature remains so as long as it is in the area of the spell and for 1 round after it leaves. A creature that leaves and reenters the area must make a new saving throw to avoid becoming entangled. Creatures that succeed at a save to resist being entangled do not have to make additional saves if they stay within the darkened area. You are never impeded by the effects of your spells modified by this feat. Level Increase: +1 (a shadow grasp spell uses up a slot one level higher than the spell\u00e2\u0080\u0099s actual level.)"
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

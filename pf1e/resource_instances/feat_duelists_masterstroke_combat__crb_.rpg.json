@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_duelists_masterstroke_combat__crb_",
+    "name": {
+      "value": "Duelist's Masterstroke (Combat)"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Exotic Weapon Proficiency ( dueling sword ), Weapon Focus ( dueling sword ), base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** Once per round when you hit a foe you have successfully feinted against via a melee attack using a dueling sword, you deal an extra 2d6 points of precision damage. When your base attack bonus reaches +11, this damage bonus increases to +3d6, and at base attack bonus +16, it increases to +4d6. This precision damage does not stack with damage from sneak attack, a vigilante\u2019s sudden strike, or similar effects. Any effect which protects against sneak attack damage also protects against this additional damage."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}

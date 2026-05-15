@@ -1,0 +1,33 @@
+{
+  "resource_id": "feat",
+  "stats": {
+    "id": "feat_circling_mongoose_combat__crb_",
+    "name": {
+      "value": "Circling Mongoose"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "type": {
+      "value": "combat"
+    },
+    "traits": {
+      "value": "combat"
+    },
+    "prerequisites": {
+      "value": "Dex 13, Dodge, Mobility, Spring Attack, base attack bonus +6."
+    },
+    "description": {
+      "value": "**Benefit:** When you are adjacent to a foe, as a full-round action, you can take a full-attack action to make melee attacks against the foe, moving 5 feet before each attack. You must move 5 feet before each melee attack you make, and can\u2019t exceed your maximum speed, exceed your maximum number of attacks in a round, or attack any other target until the beginning of your next turn. You must remain adjacent to the foe, and your movement provokes attacks of opportunity as normal unless you succeed at the appropriate Acrobatics checks. If your first attack against the foe hits, you are considered to be flanking the foe on your second attack. Subsequent attacks made as part of the full-attack action continue to be treated as if you were flanking the foe until one of your attacks misses, at which point your attacks are treated normally.\n\n**Normal:** A character without this feat is limited to only one 5-foot step during a full attack, taken before, after, or between attacks."
+    },
+    "action_cost": {
+      "value": "passive"
+    },
+    "is_toggleable": {
+      "value": false
+    },
+    "effects": {
+      "value": []
+    }
+  }
+}
