@@ -76,12 +76,11 @@ character_sheet_section features() =
           ),
         ],
         content = [
-          resourceArray(
+          resource(
             id = "racial_traits_race_display",
             resource_id = "race",
             stat = "race",
             view_type = "display",
-            hide_line = true,
           ),
         ],
         show_divider = false,
