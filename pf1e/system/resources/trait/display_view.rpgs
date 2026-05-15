@@ -1,0 +1,60 @@
+// PF1e trait display view. Compact: category chip, prerequisites (if any),
+// description prose.
+view trait_display() =
+  list(
+    id = "trait_display",
+    padding = 16,
+    subviews = [
+      composite(
+        id = "trait_display_header",
+        subviews = [
+          text(
+            id = "trait_display_source",
+            margin_left = 16,
+            style = "caption",
+            resource_id = "source",
+            resource_instance_ids_stat = "source",
+            resource_display_stat = "abbreviation",
+          ),
+          text(
+            id = "trait_display_source_sep",
+            text = " | ",
+            style = "caption",
+            is_visible = !isEmpty(category_name),
+          ),
+          text(
+            id = "trait_display_category",
+            text = category_name,
+            style = "caption",
+            bold = true,
+          ),
+        ],
+      ),
+      composite(
+        id = "trait_display_prereq_row",
+        margin_top = 8,
+        subviews = [
+          text(
+            id = "trait_display_prereq_label",
+            text = "Prerequisites: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "trait_display_prereq_value",
+            text = prerequisites,
+            style = "text",
+          ),
+        ],
+        is_visible = !isEmpty(prerequisites),
+      ),
+      text(
+        id = "trait_display_description",
+        text = description,
+        style = "text",
+        markdown = true,
+        margin_top = 8,
+        is_visible = !isEmpty(description),
+      ),
+    ],
+  );

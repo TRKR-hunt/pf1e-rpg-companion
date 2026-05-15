@@ -1,0 +1,25 @@
+base string name(name = "Name") = "";
+
+base string source(name = "Source") = "";
+
+// PF1e trait category: combat / faith / magic / mount / social / race /
+// regional / religion. Enum'd via trait_categories.
+base string trait_category(name = "Category") = "combat";
+
+base string prerequisites(name = "Prerequisites") = "";
+
+base string description(name = "Description") = "";
+
+// PF1e characters pick 2 traits at creation, by convention from 2 different
+// categories. We don't enforce that here — the creator flow can validate it.
+// `is_basic` flips true for the simpler / non-campaign-specific traits;
+// not currently surfaced anywhere but available for future filtering.
+base bool is_basic(name = "Is basic trait") = false;
+
+calc string category_name(name = "Category display name") =
+  enumeratedName(enumerated_type = "trait_categories", id = trait_category);
+
+calc string display_header_text(name = "Display header text") =
+  if !isEmpty(prerequisites)
+    then concat([category_name, " | Prereq: ", prerequisites])
+    else category_name;

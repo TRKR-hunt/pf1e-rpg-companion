@@ -1,0 +1,2 @@
+view trait_list() =
+  listItem(id = "trait_list", title = name, subtitle = category_name);

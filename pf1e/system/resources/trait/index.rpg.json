@@ -1,0 +1,38 @@
+{
+  "id": "trait",
+  "name": "Trait",
+  "plural": "Traits",
+  "core": true,
+  "color": "#7B1FA2",
+  "indexed_stats": [
+    "name",
+    "trait_category",
+    "source"
+  ],
+  "search_filters": [
+    {
+      "name": "Category",
+      "stat": "trait_category",
+      "options": "trait_categories",
+      "options_display_stat": "name"
+    },
+    {
+      "name": "Source",
+      "stat": "source",
+      "options": "source",
+      "options_display_stat": "abbreviation"
+    }
+  ],
+  "sort_options": [
+    {
+      "name": "alphabetically",
+      "stat": "name"
+    },
+    {
+      "name": "by category",
+      "stat": "trait_category",
+      "options": "trait_categories",
+      "options_display_stat": "name"
+    }
+  ]
+}
