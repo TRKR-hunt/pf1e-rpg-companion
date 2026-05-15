@@ -239,10 +239,13 @@ def _fuzzy_key(name: str) -> str:
     'Pathfinder Roleplaying Game Advanced Race Guide' matches the
     KNOWN_SOURCES key 'Pathfinder Roleplaying Game: Advanced Race
     Guide' (d20pfsrd's Section 15 sometimes elides the colon)."""
-    n = name.lower()
-    n = n.replace(":", "")
-    n = re.sub(r"\s+", " ", n).strip(" .,;")
-    return n
+    # Compact alphanumeric form: drop ALL non-alphanumerics including
+    # spaces. This makes "Advanced Player's Guide", "Advanced Players
+    # Guide", and "advanced-players-guide" all collapse to
+    # "advancedplayersguide", and lets a prefix-dropped footer
+    # ("Advanced Players Guide") suffix-match the full KNOWN key
+    # ("Pathfinder Roleplaying Game: Advanced Player's Guide").
+    return re.sub(r"[^a-z0-9]+", "", name.lower())
 
 
 # Pre-built fuzzy index of KNOWN_SOURCES for O(1) lookup at scrape time.
@@ -283,12 +286,22 @@ def extract_section_15_source(html: str) -> tuple[str, str | None]:
     if not canonical:
         unknown_sources[raw[:80]] = unknown_sources.get(raw[:80], 0) + 1
         return (UNKNOWN_SOURCE_ID, raw)
-    # Fuzzy match against KNOWN_SOURCES (colon-insensitive).
+    # Fuzzy match against KNOWN_SOURCES (punctuation-insensitive).
     fuzzy = _fuzzy_key(canonical)
     if fuzzy in _KNOWN_SOURCES_FUZZY:
         sid, _ = _KNOWN_SOURCES_FUZZY[fuzzy]
         seen_sources[sid] = seen_sources.get(sid, 0) + 1
         return (sid, canonical)
+    # Suffix match: d20pfsrd's class/spell footers often drop the
+    # "Pathfinder Roleplaying Game" prefix, leaving just "Advanced
+    # Player's Guide". The fuzzy key is space-free, so accept when a
+    # KNOWN key ends with the extracted fuzzy form. Require >= 12 chars
+    # so short ambiguous fragments don't false-match.
+    if len(fuzzy) >= 12:
+        for known_fuzzy, (sid, _abbr) in _KNOWN_SOURCES_FUZZY.items():
+            if known_fuzzy.endswith(fuzzy):
+                seen_sources[sid] = seen_sources.get(sid, 0) + 1
+                return (sid, canonical)
     # Unknown but parsed — auto-derive an id.
     sid, _ = _auto_derive_source(canonical)
     seen_sources[sid] = seen_sources.get(sid, 0) + 1

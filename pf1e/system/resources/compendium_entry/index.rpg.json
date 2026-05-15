@@ -1,0 +1,38 @@
+{
+  "id": "compendium_entry",
+  "name": "Compendium entry",
+  "plural": "Compendium entries",
+  "core": true,
+  "color": "#5D4037",
+  "indexed_stats": [
+    "name",
+    "category",
+    "source"
+  ],
+  "search_filters": [
+    {
+      "name": "Category",
+      "stat": "category",
+      "options": "compendium_entry_category",
+      "options_display_stat": "name"
+    },
+    {
+      "name": "Source",
+      "stat": "source",
+      "options": "source",
+      "options_display_stat": "abbreviation"
+    }
+  ],
+  "sort_options": [
+    {
+      "name": "alphabetically",
+      "stat": "name"
+    },
+    {
+      "name": "by category",
+      "stat": "category",
+      "options": "compendium_entry_category",
+      "options_display_stat": "name"
+    }
+  ]
+}

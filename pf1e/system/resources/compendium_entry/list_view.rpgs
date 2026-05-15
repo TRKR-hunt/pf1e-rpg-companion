@@ -1,0 +1,6 @@
+view compendium_entry_list() =
+  listItem(
+    id = "compendium_entry_list",
+    title = name,
+    subtitle = category_name,
+  );

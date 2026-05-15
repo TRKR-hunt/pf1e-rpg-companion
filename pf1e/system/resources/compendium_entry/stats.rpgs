@@ -1,0 +1,42 @@
+// PF1e unified compendium entry: lore-rich, mechanics-thin content
+// scraped from d20pfsrd where the source material is descriptive prose
+// rather than a parseable rules block. Used for classes, prestige
+// classes, archetypes, race lore, deities, and (Session D) GM content.
+//
+// This type is intentionally NOT mechanically modeled. Mechanically
+// modeled types (class, race, feat, spell, trait, weapon, armor, item,
+// magic_item) keep their own rich schemas and drive character creation.
+// A compendium_entry never feeds the creation flow.
+
+base string name(name = "Name") = "";
+
+base string source(name = "Source") = "";
+
+// Which kind of compendium content this is. Enum'd via
+// compendium_entry_category (class / prestige_class / archetype /
+// race_lore / deity / monster_lore / location / organization).
+base string category(name = "Category") = "class";
+
+// Free-form prerequisite / requirement text d20pfsrd shows (e.g. an
+// archetype's "Class: Fighter" line, a prestige class's entry
+// requirements). Not mechanically enforced — display only.
+base string prerequisites_text(name = "Prerequisites") = "";
+
+base string description(name = "Description") = "";
+
+// Optional link to a mechanically-modeled resource that this entry
+// describes. e.g. the "Fighter" class compendium entry points at the
+// hand-authored mechanical Fighter class id ("class_fighter__crb_").
+// Empty when no mechanical counterpart exists (most scraped content).
+base string related_mechanical_resource_id(name = "Related mechanical resource id") = "";
+
+calc string category_name(name = "Category display name") =
+  enumeratedName(enumerated_type = "compendium_entry_category", id = category);
+
+calc bool has_mechanical_link(name = "Has mechanical link") =
+  !isEmpty(related_mechanical_resource_id);
+
+calc string display_header_text(name = "Display header text") =
+  if !isEmpty(prerequisites_text)
+    then concat([category_name, " | ", prerequisites_text])
+    else category_name;
