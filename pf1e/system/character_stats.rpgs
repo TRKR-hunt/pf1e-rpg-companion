@@ -814,3 +814,65 @@ calc resource<progression_grant>[] level_up_interactive_progression_grants_in_ne
 // invent those resource types. The level-up popup just won't show them.
 calc string[] level_up_language_proficiency_choices_effective(name = "Level-up language prof choices effective (PF2E-STUB)") = [];
 calc string[] level_up_lore_skill_choices(name = "Level-up lore skill choices (PF2E-STUB)") = [];
+
+// --- character-creator framework stubs ---
+//
+// The app framework's Save handler iterates creation pages in REVERSE during
+// save, reading `creator_ability_score_increases` (and siblings) on each
+// page to track "abilities before/after post_edit". When these stats are
+// undeclared, the read fails silently and the iteration HALTS at the page
+// that triggered post_edit — never completing, never firing dismiss.
+//
+// Diagnosed via side-by-side 5e (works) vs PF1e (doesn't) logcat capture.
+// 5e logs `[EditCharacter] post_edit start page=3 → 2 → 1 → 0` (full
+// reverse iteration). Ours logs only `[EditCharacter] post_edit start
+// page=6` and stops. Adding these stubs lets the framework's iteration
+// proceed to completion → dismiss fires.
+//
+// All empty / null — PF1e doesn't use pf2e's creator-flow ability-boost
+// model. These stats exist solely so the framework can read them during
+// save iteration without erroring.
+calc resource<ability_score_increase>[] creator_ability_score_increases(name = "Creator ability score increases (PF2E-STUB)") = [];
+base resource<ability_score_increase>[] old_creator_ability_score_increases(name = "Old creator ability score increases (PF2E-STUB)") = [];
+calc resource<race> creator_selected_ancestry(name = "Selected creator ancestry (PF2E-STUB)") = race;
+calc resource<heritage> creator_selected_heritage(name = "Selected creator heritage (PF2E-STUB)") = null;
+calc resource<feat> creator_selected_background(name = "Selected creator background (PF2E-STUB)") = null;
+calc resource<class_progression>[] creator_selected_classes(name = "Selected creator classes (PF2E-STUB)") = classes;
+// Choice arrays — framework may read these for the save's per-page validation.
+calc string[] creator_language_proficiency_choices(name = "Creator language prof choices (PF2E-STUB)") = [];
+calc resource<levelled_skill_proficiency>[] creator_skill_proficiency_choices(name = "Creator skill prof choices (PF2E-STUB)") = [];
+base string[] creator_additional_class_skill_choices(name = "Creator additional class skill choices (PF2E-STUB)") = [];
+calc string[] creator_selected_skill_choices(name = "Creator selected skill choices (PF2E-STUB)") = [];
+calc integer creator_additional_class_skill_choices_required(name = "Creator additional class skill choices required (PF2E-STUB)") = 0;
+calc string[] creator_additional_class_skill_choices_allowed_options(name = "Creator additional class skill choices allowed options (PF2E-STUB)") = [];
+calc string creator_additional_class_skill_choices_help_text(name = "Creator additional class skill choices help text (PF2E-STUB)") = "";
+calc resource<levelled_armor_proficiency>[] creator_armor_proficiency_choices(name = "Creator armor prof choices (PF2E-STUB)") = [];
+calc resource<levelled_weapon_proficiency>[] creator_weapon_proficiency_choices(name = "Creator weapon prof choices (PF2E-STUB)") = [];
+calc string[] creator_lore_skill_choices(name = "Creator lore skill choices (PF2E-STUB)") = [];
+// `creator_starting_*_choices` reference resource types we don't declare
+// (selectable_items / selectable_armors / selectable_weapons). String[] is
+// a safe fallback — these stubs never produce non-empty content.
+calc string[] creator_starting_equipment_choices(name = "Creator starting equipment choices (PF2E-STUB)") = [];
+calc string[] creator_starting_armor_choices(name = "Creator starting armor choices (PF2E-STUB)") = [];
+calc string[] creator_starting_weapon_choices(name = "Creator starting weapon choices (PF2E-STUB)") = [];
+// `creator_preview_*` integer stats. Framework may inspect these to show
+// "your ability scores after creation" hints. All return same value as the
+// current ability scores (no creator-flow boosts in PF1e).
+calc integer creator_preview_strength_score(name = "Creator preview STR (PF2E-STUB)") = strength_score;
+calc integer creator_preview_dexterity_score(name = "Creator preview DEX (PF2E-STUB)") = dexterity_score;
+calc integer creator_preview_constitution_score(name = "Creator preview CON (PF2E-STUB)") = constitution_score;
+calc integer creator_preview_intelligence_score(name = "Creator preview INT (PF2E-STUB)") = intelligence_score;
+calc integer creator_preview_wisdom_score(name = "Creator preview WIS (PF2E-STUB)") = wisdom_score;
+calc integer creator_preview_charisma_score(name = "Creator preview CHA (PF2E-STUB)") = charisma_score;
+calc integer creator_preview_strength_modifier(name = "Creator preview STR mod (PF2E-STUB)") = strength_modifier;
+calc integer creator_preview_dexterity_modifier(name = "Creator preview DEX mod (PF2E-STUB)") = dexterity_modifier;
+calc integer creator_preview_constitution_modifier(name = "Creator preview CON mod (PF2E-STUB)") = constitution_modifier;
+calc integer creator_preview_intelligence_modifier(name = "Creator preview INT mod (PF2E-STUB)") = intelligence_modifier;
+calc integer creator_preview_wisdom_modifier(name = "Creator preview WIS mod (PF2E-STUB)") = wisdom_modifier;
+calc integer creator_preview_charisma_modifier(name = "Creator preview CHA mod (PF2E-STUB)") = charisma_modifier;
+calc integer creator_preview_strength_total_boosts(name = "Creator preview STR boosts (PF2E-STUB)") = 0;
+calc integer creator_preview_dexterity_total_boosts(name = "Creator preview DEX boosts (PF2E-STUB)") = 0;
+calc integer creator_preview_constitution_total_boosts(name = "Creator preview CON boosts (PF2E-STUB)") = 0;
+calc integer creator_preview_intelligence_total_boosts(name = "Creator preview INT boosts (PF2E-STUB)") = 0;
+calc integer creator_preview_wisdom_total_boosts(name = "Creator preview WIS boosts (PF2E-STUB)") = 0;
+calc integer creator_preview_charisma_total_boosts(name = "Creator preview CHA boosts (PF2E-STUB)") = 0;
