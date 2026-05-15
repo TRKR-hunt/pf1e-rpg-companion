@@ -53,9 +53,13 @@ CATEGORY_CONFIG: dict[str, dict] = {
     },
     "prestige_class": {
         "compendium_category": "prestige_class",
-        "index_roots": [f"{BASE}/classes/prestige-classes/"],
+        "index_roots": [
+            f"{BASE}/classes/prestige-classes/core-rulebook/",
+            f"{BASE}/classes/prestige-classes/apg/",
+            f"{BASE}/classes/prestige-classes/other-paizo/",
+        ],
         "path_prefix": "/classes/prestige-classes/",
-        "detail_depth": 3,
+        "detail_depth": 4,
         "excluded": ("/3rd-party",),
     },
     "archetype": {
@@ -126,14 +130,35 @@ def _collapse_inline_newlines(text: str) -> str:
     return text.strip()
 
 
+# Path tails that denote an INDEX page to recurse into, not a detail
+# page: alpha buckets (a, a-b, c-d), and known sub-index segment names.
+_INDEX_TAIL_RE = re.compile(r"^[a-z](?:-[a-z])?$")
+_INDEX_TAIL_NAMES = {
+    "core-rulebook", "apg", "other-paizo", "acg", "arg", "um", "uc",
+}
+
+
+def _looks_like_index_tail(tail: str) -> bool:
+    return bool(_INDEX_TAIL_RE.match(tail)) or tail in _INDEX_TAIL_NAMES \
+        or tail.endswith("-classes") or tail.endswith("-archetypes")
+
+
 def discover(cfg: dict) -> dict[str, str]:
     """Return {detail_url: name} for every detail page under the
-    configured index roots."""
+    configured index roots. Recurses through sub-index pages
+    (alpha-bucket / category sub-pages) up to the detail depth."""
     out: dict[str, str] = {}
     prefix = cfg["path_prefix"]
     depth = cfg["detail_depth"]
     excluded = cfg["excluded"]
-    for root in cfg["index_roots"]:
+    visited: set[str] = set()
+    queue: list[str] = list(cfg["index_roots"])
+
+    while queue:
+        root = queue.pop()
+        if root in visited:
+            continue
+        visited.add(root)
         try:
             html = scrape_lib.fetch(root)
         except Exception as e:
@@ -149,18 +174,21 @@ def discover(cfg: dict) -> dict[str, str]:
             if any(x in path for x in excluded):
                 continue
             segs = [s for s in path.split("/") if s]
-            if len(segs) != depth:
+            n = len(segs)
+            if n == 0:
                 continue
             tail = segs[-1]
-            if tail.endswith("-classes") or tail in ("classes", "gods-and-magic"):
-                continue
             name = a.get_text(" ", strip=True)
-            if not name or len(name) > 120:
-                continue
             low = name.lower()
             if low.startswith("go to ") or low in ("next", "previous", "back"):
                 continue
-            out.setdefault(href, name)
+            if n >= depth and not _looks_like_index_tail(tail):
+                # A detail page.
+                if name and len(name) <= 120:
+                    out.setdefault(href, name)
+            elif n < depth and _looks_like_index_tail(tail) and href not in visited:
+                # A sub-index to recurse into.
+                queue.append(href)
     return out
 
 
