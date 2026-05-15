@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mage_bane__crb_",
+    "name": {
+      "value": "Mage Bane"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 20 **Onset:** 1 min **Frequency:** 1/min for 6 mins **Effect:** -10 to all Concentration DCs for 1 hr **Cure:** 2 consecutive saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mage_bane",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

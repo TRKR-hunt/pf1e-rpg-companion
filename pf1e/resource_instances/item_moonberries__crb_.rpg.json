@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "moonberries__crb_",
+    "name": {
+      "value": "Moonberries"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact, ingested **Fort DC:** 18 **Onset:** 1 rd. **Frequency:** Once **Effect:** 3d6 Con dmg"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_moonberries",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

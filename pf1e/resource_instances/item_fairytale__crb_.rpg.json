@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fairytale__crb_",
+    "name": {
+      "value": "Fairytale"
+    },
+    "source": {
+      "value": "galactic_bestiary_20"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "[Source: GB19] A challenging drug to refine, fairytale triggers soothing hallucinations, which the user can project into the minds of others or conjure into reality as flitting lights. DETAIL Type injury (injected); Addiction moderate, Fortitude DC 18; Price 800 gp EFFECT 2 hours; +2 alchemical bonus to Will saves against magic effects and a \u00e2\u0080\u00932 penalty to Perception checks. During this time, gain dancing lights , deep slumber , and wisp ally as spell-like abilities (CL 9th), each usable once. DAMAGE 1d4 Charisma damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fairytale",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

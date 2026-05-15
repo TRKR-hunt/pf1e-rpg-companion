@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "angel_s_trumpet__crb_",
+    "name": {
+      "value": "Angel's Trumpet"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 75 gp; Weight \u00e2\u0080\u0094 DETAILS Type drug, ingested; Addiction minor ; Fortitude DC 18 EFFECT 1 hour; +2 alchemical bonus on initiative checks, +4 alchemical bonus on Diplomacy and Bluff checks, +4 alchemical bonus on saves against fear or compulsions , and is fatigued . If the user fails a save against a fear or compulsion effect with a duration other than instantaneous or permanent, the user ignores the effect but is dazed for a number of rounds equal to the effect\u2019s spell level (or 1d4 rounds if the effect has no spell level). Effects that have an instantaneous or permanent duration are not altered by the presence of angel\u2019s trumpet in a creature\u2019s system. EFFECT 1d4 days; user gains the light blindness special quality, becoming blinded and sickened for 1 round if exposed to bright light, such as sunlight or the daylight spell, and dazzled for as long as she remains in areas of bright light. DAMAGE 1d4 Con and 1d4 Wis damage ALCHEMICAL RECIPE (20 realgar + 20 salt + 30 urea)/digestion; Skill Craft (alchemy) DC 18; Time 1 day; Tools heat source; Type drug"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_angel_s_trumpet",
+          "value": {
+            "value": 75
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

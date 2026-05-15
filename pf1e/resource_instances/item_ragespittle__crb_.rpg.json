@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ragespittle__crb_",
+    "name": {
+      "value": "Ragespittle"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 17 **Onset:** 1 min **Frequency:** 1/min for 6 mins **Effect:** 1d2 Dex dmg , see text **Cure:** 2 saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ragespittle",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

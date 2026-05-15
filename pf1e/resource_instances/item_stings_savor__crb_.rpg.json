@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "stings_savor__crb_",
+    "name": {
+      "value": "Sting\u00e2\u0080\u0099s Savor"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 45 gp; Weight \u00e2\u0080\u0094 ABOUT The \u00e2\u0080\u009csting\u00e2\u0080\u009d administered to willing recipients at some temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users. DETAILS Type injury; Addiction minor , Fortitude DC 15 EFFECT The user immediately heals 1d8+2 points of nonlethal damage . EFFECT After 1d4 hours an opponent who attempts a Bluff check to fool the user or a Diplomacy check to change the user\u00e2\u0080\u0099s attitude can roll twice and take the better result. DAMAGE 1d2 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_stings_savor",
+          "value": {
+            "value": 45
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

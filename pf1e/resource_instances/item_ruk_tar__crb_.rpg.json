@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ruk_tar__crb_",
+    "name": {
+      "value": "Ruk Tar"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 55 gp; Weight \u00e2\u0080\u0094 ABOUT Common among desperate adventurers, gladiatorial combatants, and orc tribes, ruk tar is often applied after the first blood of a fight is spilled, using the wound as an opportunity to enhance the user\u00e2\u0080\u0099s abilities to ensure victory. DETAILS Type injury; Addiction moderate , Fortitude DC 25 EFFECT 1 hour; the user gains a +2 alchemical bonus to Strength and immunity to pain effects. EFFECT After 1 hour; the user gains the exhausted condition. DAMAGE 1d4 Int damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ruk_tar",
+          "value": {
+            "value": 55
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

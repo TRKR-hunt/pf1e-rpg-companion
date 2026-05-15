@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "nymph_s_lure__crb_",
+    "name": {
+      "value": "Nymph\u2019s Lure"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 15 **Onset:** 1d4 hrs **Frequency:** 1/hr. for 8 hrs **Effect:** 1d2 Str and Wis dmg ; attract wild creatures, see text **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_nymph_s_lure",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

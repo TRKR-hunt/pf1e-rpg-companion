@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "oil_of_restfulness__crb_",
+    "name": {
+      "value": "Oil of Restfulness"
+    },
+    "source": {
+      "value": "ultimate_equipment"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 15 **Onset:** 1 min **Frequency:** \u00e2\u0080\u0094 **Effect:** Unconscious 1d3 hrs **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_oil_of_restfulness",
+          "value": {
+            "value": 90
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

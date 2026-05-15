@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "sweetdream__crb_",
+    "name": {
+      "value": "Sweetdream"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** inhaled **Fort DC:** 19 **Onset:** 1 rd. **Frequency:** 1/min for 2 mins **Effect:** Sleep and forget (see text) **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_sweetdream",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

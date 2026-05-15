@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "pupil_s_friend__crb_",
+    "name": {
+      "value": "Pupil\u00e2\u0080\u0099s Friend"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 10 **Onset:** 10 min **Frequency:** 1/min for 15 mins **Effect:** Sickened for 1 min; see text **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_pupil_s_friend",
+          "value": {
+            "value": 30
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

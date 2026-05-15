@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hush__crb_",
+    "name": {
+      "value": "Hush"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 200 gp; Weight \u00e2\u0080\u0094 ABOUT This slate-gray powder is often mixed into alcohol. Its similarity in appearance to gunpowder has led to more than a few fatal mishaps. DETAILS Type ingested; Addiction moderate , Fortitude DC 20 EFFECTS For the next 1d6 hours the user gains sonic resistance 5, but must roll twice and take the worse result for Perception checks based on sound and increases her arcane spell failure chance by 5%. DAMAGE 1d4 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hush",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

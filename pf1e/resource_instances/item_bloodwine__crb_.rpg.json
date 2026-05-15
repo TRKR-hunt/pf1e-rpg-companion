@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloodwine__crb_",
+    "name": {
+      "value": "Bloodwine"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 25 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/min for 6 mins **Effect:** Sickened for 1d4 hrs, 1d3 Wis dmg **Cure:** 2 consecutive saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloodwine",
+          "value": {
+            "value": 100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

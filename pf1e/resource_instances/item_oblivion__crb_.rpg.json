@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "oblivion__crb_",
+    "name": {
+      "value": "Oblivion"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 100 gp; Weight \u00e2\u0080\u0094 ABOUT A less pure version of refined cytillesh, oblivion retains the unpredictable side effects and highly addictive properties of the source material. Oblivion is common in Cassamir\u2019s slums and the Puddles district of Absalom. DETAILS Type ingested; Addiction major , Fortitude DC 26 EFFECTS A user under the effect of a suggestion spell can attempt another saving throw (with the effect\u00e2\u0080\u0099s original DC) to shake off the spell\u00e2\u0080\u0099s effect, but loses all memories from the previous 1d4 hours, as per modify memory but without the 5-minute limit. DAMAGE 1d4 damage to a random ability score"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_oblivion",
+          "value": {
+            "value": 100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

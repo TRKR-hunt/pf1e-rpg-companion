@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dwarven_fire_ale__crb_",
+    "name": {
+      "value": "Dwarven Fire Ale"
+    },
+    "source": {
+      "value": "pathfinder_rpg_gamemastery_guide"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 50 gp; Weight \u00e2\u0080\u0094 DETAILS Type drug (ingested); Addiction moderate , Fortitude DC 20 EFFECT 1d4 rounds; rage as per the spell EFFECT 1 hour; cold resistance 5 DAMAGE 1d2 Con damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dwarven_fire_ale",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

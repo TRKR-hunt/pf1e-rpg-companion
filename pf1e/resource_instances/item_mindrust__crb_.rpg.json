@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mindrust__crb_",
+    "name": {
+      "value": "Mindrust"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** inhaled **Fort DC:** 20 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 6 rds **Effect:** 1 Wis dmg and suggestible for 1 min; see text **Cure:** 2 consecutive saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mindrust",
+          "value": {
+            "value": 1600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

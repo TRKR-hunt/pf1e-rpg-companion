@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tangle_root_paste__crb_",
+    "name": {
+      "value": "Tangle Root Paste"
+    },
+    "source": {
+      "value": "ultimate_equipment"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 16 **Onset:** 1 min **Frequency:** 1/min for 6 mins **Effect:** 1d2 Dex dmg **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tangle_root_paste",
+          "value": {
+            "value": 250
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

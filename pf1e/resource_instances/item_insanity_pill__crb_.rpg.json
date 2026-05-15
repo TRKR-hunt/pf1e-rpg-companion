@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "insanity_pill__crb_",
+    "name": {
+      "value": "Insanity Pill"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 14 **Onset:** 1 min **Frequency:** \u00e2\u0080\u0094 **Effect:** Affected as confusion for 1 min **Cure:** 2 consecutive saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_insanity_pill",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

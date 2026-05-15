@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "keif_black__crb_",
+    "name": {
+      "value": "Keif, Black"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 100 gp; Weight \u00e2\u0080\u0094 ABOUT The name keif refers to both a desert cactus and the narcotic drug made from that plant\u2019s milk. Keif is illegal in most countries, but where legal the quality and price are strictly regulated. A rare few spellcasters use keif as a means to deepen their understanding of magic. Known as sahir-afiyun, a phrase meaning \u00e2\u0080\u009csorcerer of sleep ,\u00e2\u0080\u009d these spellcasters believe that using the drug expands their minds to greater possibilities and thus greater magics. Most sahir-afiyun are arcane spellcasters. DETAILS Type ingested or inhaled; Addiction minor ; Fortitude DC 22 EFFECT (1 HOUR) User gains +1d4 alchemical bonus to Strength and Constitution , \u00e2\u0080\u00932 penalty on saves against illusions and mind-affecting effects. Anytime the user could attempt a Strength check as a standard action or quicker, she can elect to attempt the check as a full-round action , adding a +2 alchemical bonus to the check. Doing so deals 1d6 points of nonlethal damage to the user as she strains herself. If the user takes lethal damage from any source while under the effects of black keif, she must succeed at a DC 16 Will save or become confused for 1d4 rounds. DAMAGE 1d4 Con damage; see also Effect ALCHEMICAL RECIPE (30 brimstone + 6 keif + 20 urea)/sublimation; Skill Craft (alchemy) DC 22; Time 1 day; Tools retort; Type drug"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_keif_black",
+          "value": {
+            "value": 100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

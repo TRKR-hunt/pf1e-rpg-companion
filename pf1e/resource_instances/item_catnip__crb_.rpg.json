@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "catnip__crb_",
+    "name": {
+      "value": "Catnip"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 5 gp; Weight \u00e2\u0080\u0094 ABOUT Catnip (also known as catswort or catmint) is a flowering type of mint plant that grows abundantly throughout jungles. To felines, catnip is a stimulant that increases pleasure and reaction times. Once the stimulating effects have worn off, an affected feline becomes sluggish for several hours, and must wait until the sluggishness wears off before it can gain the benefits of catnip again. Even large felines such as lions and tigers react to catnip, though they may need a larger dose to be affected. Catnip has no effect whatsoever on any creatures except felines. DETAILS Type ingested; Addiction minor , Fortitude DC 11 EFFECTS Initial Effects For 1d6 minutes felines gain a +1 alchemical bonus on initiative checks and +2 alchemical bonus on Reflex saves. Secondary Effects After the initial effects expire the creature gains the fatigued condition lasting 1d3 hours and suffers 1 Wisdom damage. DAMAGE See Effects."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_catnip",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

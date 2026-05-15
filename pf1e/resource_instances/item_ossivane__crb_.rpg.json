@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "ossivane__crb_",
+    "name": {
+      "value": "Ossivane"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury **Fort DC:** 18 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 6 rds (see text) **Effect:** 1d3 Dex dmg **Cure:** 2 saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_ossivane",
+          "value": {
+            "value": 350
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

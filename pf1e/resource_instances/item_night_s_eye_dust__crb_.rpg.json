@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "night_s_eye_dust__crb_",
+    "name": {
+      "value": "Night\u2019s-eye Dust"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** inhaled **Fort DC:** 14 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 6 rds **Effect:** Shaken / Blinded **Cure:** 2 consecutive saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_night_s_eye_dust",
+          "value": {
+            "value": 900
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

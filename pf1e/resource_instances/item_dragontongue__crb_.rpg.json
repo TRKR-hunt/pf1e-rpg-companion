@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dragontongue__crb_",
+    "name": {
+      "value": "Dragontongue"
+    },
+    "source": {
+      "value": "galactic_bestiary_20"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "[Source: GB19] DETAIL This drug bonds to the language center of the brain, granting psychic confidence and an intuitive understanding of languages. Type injury (injected); Addiction minor, Fortitude DC 16; Price 260 gp Effect 2 hours; +2 alchemical bonus to Linguistics checks for 2 hours. During this time, gain comprehend languages and scare as spell-like abilities (CL 6th), each usable once. DAMAGE 1d3 Dexterity damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dragontongue",
+          "value": {
+            "value": 260
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "starspore__crb_",
+    "name": {
+      "value": "Starspore"
+    },
+    "source": {
+      "value": "numeria_land_of_fallen_stars"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 300 gp; Weight \u00e2\u0080\u0094 ABOUT A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on adamantine and other skymetals as well as their alloys. It requires trace toxins to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price. Starspore uses the rules for addiction . DETAILS Type drug, ingested or inhaled; Addiction severe, Fortitude DC 15 EFFECT 1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as the see invisibility spell), and vulnerability to sonic damage DAMAGE 1d2 Constitution damage and 1 Wisdom drain"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_starspore",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

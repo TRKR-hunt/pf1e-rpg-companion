@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "widow_s_kiss__crb_",
+    "name": {
+      "value": "Widow\u2019s Kiss"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 24 **Onset:** 1d4 days **Frequency:** 1/day **Effect:** 1d3 Con , see text **Cure:** 3 saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_widow_s_kiss",
+          "value": {
+            "value": 7000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

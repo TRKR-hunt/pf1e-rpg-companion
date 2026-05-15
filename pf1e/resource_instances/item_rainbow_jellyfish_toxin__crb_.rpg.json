@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rainbow_jellyfish_toxin__crb_",
+    "name": {
+      "value": "Rainbow Jellyfish Toxin"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury, contact **Fort DC:** 14 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 2 rds **Effect:** Staggered for 1d6 rds; Secondary: Paralyzed for 1d6 min **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rainbow_jellyfish_toxin",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "strange_fluids__crb_",
+    "name": {
+      "value": "Strange Fluids"
+    },
+    "source": {
+      "value": "numeria_land_of_fallen_stars"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Engine fluid, coolant, hydraulic fluids, and stranger substances have mixed together, the chemicals further transformed by the strange radiations of the ship\u2019s drives. Fluids can be found in pools or springs, or collected as they drip from larger pieces of wreckage. Odd behavior in animal life or an abundance of mutations can indicate a nearby source of alien fluids. While many such fluids are no more magical or marvelous than crude oil\u00e2\u0080\u0094and often highly poisonous to humanoids \u00e2\u0080\u0094others have strange and sometimes desirable effects on biological life. Strange fluids are considered drugs. Initially, the fluids expand perception and insight, opening the mind to new sensations. This overstimulation gives way to mental fatigue, leaving the imbiber distracted and vulnerable to suggestion. A pleasant euphoria lasts as long as the drug\u2019s effects. Unlike most drugs, the effects of Strange fluids can be negated with a successful DC 20 Fortitude saving throw. Success at this saving throw precludes the need to save against addiction, but also prevents the dose from countering the effects of addiction. A person partaking of Strange fluids can open his mind and body to the fluid\u2019s effects, voluntarily forgoing a Fortitude save. Of course, this also entails accepting the risk of addiction and any side effects from the specific type of fluids consumed. Each distinct dose of Strange fluids requires a new roll for side effects, even if multiple doses were recovered from the same source. The inherent instability of the fluid contributes to this variability, as the fluids undergo further reactions even after collection. At the Gamemaster\u2019s option, fluids collected from the same source at the same time can have a higher chance of providing the same side effect. One option for handling such variation is to roll two d20s of different colors for each subsequent drink from a sample, adding one and subtracting the other from the previous result. Another option is rolling twice, and using the second result only if it matches the previous side effect. Either variant increases the potential value of a dose of Strange fluids, and the potential for unintended consequences in the campaign. At least 1 pint of Strange fluids must be consumed to experience euphoria and expose the drinker to side effects. Smaller amounts leave the drinker slightly disoriented (no game effect). If a drinker consumes a full dose within a single 24-hour period, the drug takes effect when the final portion is consumed. In addition to imparting normal addiction to the fluids, certain results also addict the imbiber to a particular side effect. This extra addiction and its strength are listed on Table: Strange Fluids Side Effects. Only rolling the same type of side effect for a dose of fluids alleviates this addiction. This is handled as a distinct case of addiction, rather than being grouped in with other addictions, as is normally the case. This special type of addiction has a frequency and a dose requirement of once per week, rather than once per day. If a given creature has to save against the effects of both general addiction and this special addiction on the same day, only roll for the more serious addiction that day. Identifying the effects of a dose of Strange fluids presents a challenge, as the composition of the fluids changes constantly. A successful DC 25 Craft (alchemy) check has a 75% chance of correctly identifying a fluid\u2019s effects on a specific drinker, and a 25% chance of misidentifying a random effect instead. The dose must be consumed within 1 hour for the results to remain accurate. Type drug, ingested; Addiction minor , Fortitude DC 15; Save Fortitude DC 20; Price 500 gp (1 pint) Effect 1d4 hours; +1d4 Wis , roll on Table: Strange Fluids Side Effects . Additional Effects After the initial 1d4 hours; \u00e2\u0080\u00935 penalty on Perception and Sense Motive checks, \u00e2\u0080\u00932 penalty on saving throws against mind-affecting effects for 2d4 hours Damage 1d2 Con Table: Strange Fluids S"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_strange_fluids",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

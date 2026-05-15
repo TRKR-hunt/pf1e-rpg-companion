@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gossamer_veil__crb_",
+    "name": {
+      "value": "Gossamer Veil"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 20 gp; Weight \u2014 ABOUT Cultists of Ghlaunder and manipulators wander the streets of impoverished neighborhoods, administering this \u201cvaccine\u201d to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest\u2019s deity. DETAILS Type ingested; Addiction minor , Fortitude DC 18 EFFECT 1 day; +4 alchemical bonus on saving throws against disease effects. EFFECT After 1 day; user suffers a \u20134 penalty on saving throws against disease effects for 7 days. DAMAGE 1d4 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gossamer_veil",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

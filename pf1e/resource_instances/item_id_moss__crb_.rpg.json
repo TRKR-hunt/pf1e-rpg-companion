@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "id_moss__crb_",
+    "name": {
+      "value": "Id Moss"
+    },
+    "source": {
+      "value": "ultimate_equipment"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 14 **Onset:** 10 min **Frequency:** 1/min for 6 mins **Effect:** 1d3 Int dmg **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_id_moss",
+          "value": {
+            "value": 125
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

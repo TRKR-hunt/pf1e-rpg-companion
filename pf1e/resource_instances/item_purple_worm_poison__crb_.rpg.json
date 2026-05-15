@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "purple_worm_poison__crb_",
+    "name": {
+      "value": "Purple Worm Poison"
+    },
+    "source": {
+      "value": "ultimate_equipment"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury **Fort DC:** 24 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 6 rds **Effect:** 1d3 Str dmg **Cure:** 2 saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_purple_worm_poison",
+          "value": {
+            "value": 700
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

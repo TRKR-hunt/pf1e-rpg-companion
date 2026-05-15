@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "scour__crb_",
+    "name": {
+      "value": "Scour"
+    },
+    "source": {
+      "value": "pathfinder_rpg_gamemastery_guide"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 45 gp DETAIL Type ingested or inhaled; Addiction major , Fortitude DC 24 EFFECT 3 hours; +1d4 alchemical bonus to Dexterity, \u00e2\u0080\u00931d4 penalty to Wisdom DAMAGE 1d6 Con damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_scour",
+          "value": {
+            "value": 45
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

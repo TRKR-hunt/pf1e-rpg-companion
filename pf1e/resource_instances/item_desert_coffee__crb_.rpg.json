@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "desert_coffee__crb_",
+    "name": {
+      "value": "Desert Coffee"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 5 gp; Weight \u00e2\u0080\u0094 ABOUT This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit. DETAILS Type ingested; Addiction minor , Fortitude DC 12 EFFECT 8 hours; user ignores the effects of the fatigued condition. EFFECT After 8 hours; the user becomes exhausted , which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour). DAMAGE 1 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_desert_coffee",
+          "value": {
+            "value": 5
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

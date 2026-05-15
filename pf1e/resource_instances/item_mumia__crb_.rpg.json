@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "mumia__crb_",
+    "name": {
+      "value": "Mumia"
+    },
+    "source": {
+      "value": "lost_kingdoms"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 500 gp; Weight \u00e2\u0080\u0094 ABOUT This black, tar-like substance is an ingredient in numerous salves, potions, and pills concocted to treat ailments and revitalize wealthy clientele. Cheap, imitation mumia has the same stats as mumia, but the benefits are rendered at 50% their normal potency and for half the duration. DETAILS Type drug (inhaled, ingested, or injury); Addiction major , Fortitude DC 18 EFFECT 1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, fatigue. If the user is addicted for more than a week straight, there is a cumulative +5% chance of transforming into a ghoul every week of addiction. Damage DAMAGE 1d2 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_mumia",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "old_mage__crb_",
+    "name": {
+      "value": "Old-Mage"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 1,500 gp; Weight \u00e2\u0080\u0094 ABOUT In higher circles of nobility, some petty nobles pretend to be mighty wizards. Old-mage offers a temporary taste of eldritch power at an exorbitant cost\u00e2\u0080\u0094both financial and physical. DETAIL Type injury; Addiction major , Fortitude DC 18 EFFECT 12 hours; the user gains the ability to activate scrolls as if she had succeeded at a Use Magic Device check to activate a given scroll. Each time the user activates a scroll this way, she takes 1d4 points of Charisma damage and an amount of nonlethal damage equal to the scroll\u00e2\u0080\u0099s caster level . Charisma damage taken this way is counted as ability damage caused by the drug for the purpose of calculating the DC of saving throws to resist addiction to the drug. Neither the Charisma damage nor the nonlethal damage can be healed until the user takes a full 8 hours of rest. DAMAGE See Effect."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_old_mage",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "white_petal__crb_",
+    "name": {
+      "value": "White Petal"
+    },
+    "source": {
+      "value": "galactic_bestiary_20"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "[Source: GB19] The most common of the drugs on the market derived from harpy jasmine, white petal causes a mild, dreamy high that lends itself to restful sleep. DETAIL Type injury (injected); Addiction minor, Fortitude DC 13; Price 60 gp EFFECT 10 hours; \u00e2\u0080\u00932 penalty to initiative checks and regain an additional 1d4 hit points when recovering hit points naturally. During this time, gain detect magic as a spell-like ability (CL 2nd), usable three times. DAMAGE 1d2 Charisma damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_white_petal",
+          "value": {
+            "value": 60
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

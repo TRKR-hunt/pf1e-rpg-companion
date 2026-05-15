@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "midnight_milk__crb_",
+    "name": {
+      "value": "Midnight Milk"
+    },
+    "source": {
+      "value": "lost_cities_of_golarion"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 50 gp; Weight \u00e2\u0080\u0094 DETAILS Type drug (ingested); Addiction moderate , Fort \u00c2\u00a0DC 16 EFFECTS 1 hour; fatigue , plus the user takes a \u00e2\u0080\u00934 penalty on all saving throws made to resist sleep effects. If the user falls asleep while under the effects of midnight milk, he dreams vividly; these dreams last for 1 hour per dose of midnight milk taken in the past month (including this one). Upon awakening, the user is revitalized as if he had enjoyed a full 8 hours of sleep. DAMAGE 1d2 Wis damage. Experimental Midnight Milk :\u00c2\u00a0Poison\u00e2\u0080\u0094ingested; save Fort DC 14; frequency 1/minute for 2 minutes; initial effect\u00c2 fatigued \u00c2\u00a01 hour; secondary effect unconsciousness for\u00c2\u00a02d4 hours plus nightmare (as the character sleeps he\u00c2\u00a0has dreams of being drawn enslaved by shadowy overlords. To the dreaming PC\u00c2\u00a0the effect seems to last for years, and the character is\u00c2\u00a0exhausted upon waking); cure 1 save."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_midnight_milk",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "fiddleback_venom__crb_",
+    "name": {
+      "value": "Fiddleback Venom"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury, ingested **Fort DC:** 13 **Onset:** 1 min **Frequency:** 1/min for 6 mins **Effect:** Nauseated 1d4 rds; Secondary: 1d3 Str dmg and 1d4 Con dmg **Cure:** 2 saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_fiddleback_venom",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

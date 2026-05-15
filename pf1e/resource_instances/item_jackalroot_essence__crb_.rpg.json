@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "jackalroot_essence__crb_",
+    "name": {
+      "value": "Jackalroot Essence"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury **Fort DC:** 18 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 1d6 rds **Effect:** Uncontrollable laughter (as per hideous laughter ) **Cure:** 2 consecutive saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_jackalroot_essence",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

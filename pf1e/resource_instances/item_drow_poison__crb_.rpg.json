@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "drow_poison__crb_",
+    "name": {
+      "value": "Drow poison"
+    },
+    "source": {
+      "value": "ultimate_equipment"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury **Fort DC:** 13 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/min for 2 mins **Effect:** Unconscious 1 min/2d4 hrs. **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_drow_poison",
+          "value": {
+            "value": 75
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

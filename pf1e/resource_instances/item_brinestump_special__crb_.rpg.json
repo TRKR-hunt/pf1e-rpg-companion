@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "brinestump_special__crb_",
+    "name": {
+      "value": "Brinestump Special"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 15 **Onset:** 1 rd. **Frequency:** \u00e2\u0080\u0094 **Effect:** Nauseated 5 rds, gobinoids immune **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_brinestump_special",
+          "value": {
+            "value": 400
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

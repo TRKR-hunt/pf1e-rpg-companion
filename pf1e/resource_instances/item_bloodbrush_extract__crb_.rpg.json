@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloodbrush_extract__crb_",
+    "name": {
+      "value": "Bloodbrush Extract"
+    },
+    "source": {
+      "value": "numeria_land_of_fallen_stars"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 25 gp ABOUT Refined from the thorns of a blood-red brush, this extract numbs the senses and evokes vivid hallucinations, heightened awareness, and altered thought processes. Although repeated doses can be toxic, bloodbrush extract is not widely used as a poison but rather as a recreational drug. DETAILS Type drug, ingested; Addiction mild; Fortitude DC 14 EFFECT 2 hours; +2 on Knowledge (arcana, planes, or religion) and Spellcraft checks, victim is distracted for the purposes of Perception checks. DAMAGE 1d2 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloodbrush_extract",
+          "value": {
+            "value": 25
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

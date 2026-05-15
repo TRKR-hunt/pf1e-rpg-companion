@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "keif_wyrm__crb_",
+    "name": {
+      "value": "Keif, Wyrm"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 500 gp; Weight \u00e2\u0080\u0094 ABOUT This rare and expensive variant of standard keif is produced by introducing a vial of dragon\u2019s blood into a dose of keif during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon\u2019s blood, the cost to her well-being can be severe. DETAILS Type ingested or inhaled; Addiction severe, Fortitude DC 24 EFFECT 1 hour; 25 temporary hit points EFFECT 1 day; +2 alchemical bonus on saves against sleep and paralysis effects DAMAGE 1d2 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_keif_wyrm",
+          "value": {
+            "value": 500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

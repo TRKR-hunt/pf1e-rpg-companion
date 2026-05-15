@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "bloodpyre__crb_",
+    "name": {
+      "value": "Bloodpyre"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 14 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 6 rds **Effect:** 1 Cha , Int , and Wis dmg , 2d6 fire, see text **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_bloodpyre",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

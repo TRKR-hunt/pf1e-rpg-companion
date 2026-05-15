@@ -6,13 +6,16 @@
       "value": "Wolfsbane"
     },
     "source": {
-      "value": "unknown"
+      "value": "ultimate_equipment"
     },
     "type": {
-      "value": "adventuring_gear"
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
     },
     "description": {
-      "value": ""
+      "value": "**Type:** ingested **Fort DC:** 16 **Onset:** 10 min **Frequency:** 1/min for 6 mins **Effect:** 1d3 Con dmg **Cure:** 1 save"
     },
     "cost": {
       "value": {
@@ -20,7 +23,7 @@
         "stats": {
           "id": "cost_wolfsbane",
           "value": {
-            "value": 5
+            "value": 500
           },
           "unit": {
             "value": "gold"

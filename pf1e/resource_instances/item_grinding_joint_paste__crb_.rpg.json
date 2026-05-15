@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "grinding_joint_paste__crb_",
+    "name": {
+      "value": "Grinding Joint Paste"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 16 **Onset:** 10 min **Frequency:** 1/min for 6 mins **Effect:** 1d4 Dex dmg and pain (see text) **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_grinding_joint_paste",
+          "value": {
+            "value": 2100
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

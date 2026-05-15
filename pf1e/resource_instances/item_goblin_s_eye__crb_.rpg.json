@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "goblin_s_eye__crb_",
+    "name": {
+      "value": "Goblin\u2019s Eye"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 13 **Onset:** 1 min **Frequency:** 1/min for 6 mins **Effect:** 1 Con dmg and the creature is Nauseated for 1 min **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_goblin_s_eye",
+          "value": {
+            "value": 75
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

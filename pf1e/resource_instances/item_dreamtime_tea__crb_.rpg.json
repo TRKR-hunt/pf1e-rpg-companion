@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dreamtime_tea__crb_",
+    "name": {
+      "value": "Dreamtime Tea"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 120 gp; Weight \u00e2\u0080\u0094 ABOUT This tea carries a complex aroma combining the unlikely mix of citrus and dung. Dreamtime tea is popular among those who seek dreams as an escape from reality. DETAILS Type drug (ingested); Addiction moderate , Fortitude DC 20 EFFECTS 2d12 minutes; unconscious , gain vivid dreams acting as the augury spell, but with only a 60% chance of receiving a meaningful reply DETAIL 1d3 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dreamtime_tea",
+          "value": {
+            "value": 120
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

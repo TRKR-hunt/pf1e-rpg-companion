@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "juvebloom__crb_",
+    "name": {
+      "value": "Juvebloom"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** Ingested **Fort DC:** 16 **Onset:** 1 day **Frequency:** 1/day for 7 days **Effect:** 1 Wis drain ; see text **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_juvebloom",
+          "value": {
+            "value": 750
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

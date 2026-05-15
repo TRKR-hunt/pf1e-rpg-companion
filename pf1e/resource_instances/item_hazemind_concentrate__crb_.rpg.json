@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hazemind_concentrate__crb_",
+    "name": {
+      "value": "Hazemind Concentrate"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 200 gp DETAILS Type poison , injury; Save Fortitude DC 16; Onset 1 round; Frequency 1/round for 6 rounds; Cure 1 save EFFECTS The subject\u2019s mind goes fuzzy, shifting its attitudes toward all other creatures one step closer to indifferent and DCs to influence the subject with Charisma , Diplomacy , Handle Animal , or Intimidate checks increase by 4."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hazemind_concentrate",
+          "value": {
+            "value": 200
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "inspiration_dust__crb_",
+    "name": {
+      "value": "Inspiration Dust"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 75 gp; Weight \u00e2\u0080\u0094 ABOUT The mind-opening properties of this translucent dust enable the user to process information and draw connections rapidly, though the accompanying paranoia can make it difficult to act effectively on the knowledge thus gleaned. DETAILS Type inhaled; Addiction moderate , Fortitude DC 22 EFFECTS 4 hours; +1d4 alchemical bonus on Knowledge , Linguistics , and Spellcraft checks. EFFECTS After 4 hours; for 24 hours the user takes a \u00e2\u0080\u00934 penalty on Sense Motive checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth. DAMAGE 1d4 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_inspiration_dust",
+          "value": {
+            "value": 75
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

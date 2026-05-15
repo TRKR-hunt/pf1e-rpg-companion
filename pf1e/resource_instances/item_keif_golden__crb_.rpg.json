@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "keif_golden__crb_",
+    "name": {
+      "value": "Keif, Golden"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 50 gp; Weight \u00e2\u0080\u0094 ABOUT The name keif refers to both a desert cactus and the narcotic drug made from that plant\u2019s milk. Keif is illegal in most countries, but where legal the quality and price are strictly regulated. A rare few spellcasters use keif as a means to deepen their understanding of magic. Known as sahir-afiyun, a phrase meaning \u00e2\u0080\u009csorcerer of sleep,\u00e2\u0080\u009d these spellcasters believe that using the drug expands their minds to greater possibilities and thus greater magics. Most sahir-afiyun are arcane spellcasters. DETAILS Type ingested or inhaled; Addiction major ; Fortitude DC 18 EFFECT (1 HOUR) User gains +1d2 alchemical bonus to Strength , \u00e2\u0080\u00932 penalty on saves against illusions and mind-affecting effects, +2 alchemical bonus on saving throws against the effects of drugs that are not a type of keif (this bonus also applies to saves to recover from addiction to non-keif drugs). If the user takes a dose of golden keif while under the effects of another drug that causes a penalty on saves or skill checks, such penalties are decreased by 1 (to a minimum penalty of \u00e2\u0080\u00931). DAMAGE 1 Con and 1 Wis damage ALCHEMICAL RECIPE (2 gold + 3 keif + 10 urea)/sublimation; Skill Craft (alchemy) DC 18; Time 1 day; Tools retort; Type drug"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_keif_golden",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

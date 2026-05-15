@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "slaver_s_drops__crb_",
+    "name": {
+      "value": "Slaver\u00e2\u0080\u0099s Drops"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 20 gp; Weight \u00e2\u0080\u0094 ABOUT Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control. DETAILS Type drug (ingested); Addiction minor , Fortitude DC 13 EFFECTS 3 hours; \u00e2\u0080\u00933 on Will saves, +3 on Perception checks DAMAGE 1d2 Str damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_slaver_s_drops",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

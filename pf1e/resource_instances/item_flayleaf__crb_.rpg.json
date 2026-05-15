@@ -6,13 +6,16 @@
       "value": "Flayleaf"
     },
     "source": {
-      "value": "unknown"
+      "value": "pathfinder_rpg_gamemastery_guide"
     },
     "type": {
-      "value": "adventuring_gear"
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
     },
     "description": {
-      "value": ""
+      "value": "Price 10 gp ABOUT Type inhaled or ingested; Addiction minor , Fortitude DC 12 EFFECTS 1 hour; +2 alchemical bonus on saves against mindaffecting effects, fatigue DAMAGE 1 Wis damage"
     },
     "cost": {
       "value": {
@@ -20,24 +23,10 @@
         "stats": {
           "id": "cost_flayleaf",
           "value": {
-            "value": 20
+            "value": 10
           },
           "unit": {
             "value": "gold"
-          }
-        }
-      }
-    },
-    "weight": {
-      "value": {
-        "resource_id": "weight",
-        "stats": {
-          "id": "wt_flayleaf",
-          "value": {
-            "value": 2
-          },
-          "unit": {
-            "value": "pounds"
           }
         }
       }

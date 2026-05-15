@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dark_reaver_powder__crb_",
+    "name": {
+      "value": "Dark Reaver Powder"
+    },
+    "source": {
+      "value": "ultimate_equipment"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** ingested **Fort DC:** 18 **Onset:** 10 min **Frequency:** 1/min for 6 mins **Effect:** 1d3 Con and 1 Str dmg **Cure:** 2 saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dark_reaver_powder",
+          "value": {
+            "value": 800
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

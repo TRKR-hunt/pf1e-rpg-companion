@@ -6,13 +6,16 @@
       "value": "Belladonna"
     },
     "source": {
-      "value": "unknown"
+      "value": "ultimate_equipment"
     },
     "type": {
-      "value": "adventuring_gear"
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
     },
     "description": {
-      "value": ""
+      "value": "**Type:** ingested **Fort DC:** 14 **Onset:** 10 min **Frequency:** 1/min for 6 mins **Effect:** 1d2 Str dmg , see text **Cure:** 1 save"
     },
     "cost": {
       "value": {
@@ -20,7 +23,7 @@
         "stats": {
           "id": "cost_belladonna",
           "value": {
-            "value": 2
+            "value": 100
           },
           "unit": {
             "value": "gold"

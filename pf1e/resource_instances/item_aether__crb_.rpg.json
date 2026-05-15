@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "aether__crb_",
+    "name": {
+      "value": "AEther"
+    },
+    "source": {
+      "value": "pathfinder_rpg_gamemastery_guide"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 20 gp; Weight \u00e2\u0080\u0094 DETAILS Type drug (inhaled); Addiction moderate , Fortitude DC 16 EFFECT 1 hour; +1 caster level EFFECT 1d4 hours; user must make a caster check to cast spells, DC 15 + spell level DAMAGE 1d2 Con damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_aether",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

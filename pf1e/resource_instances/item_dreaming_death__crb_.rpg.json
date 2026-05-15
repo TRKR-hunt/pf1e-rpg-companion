@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "dreaming_death__crb_",
+    "name": {
+      "value": "Dreaming death"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** inhaled **Fort DC:** 16 **Onset:** 10 min **Frequency:** 1/10 min for 1 hr **Effect:** Sleep 10 min, see text **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_dreaming_death",
+          "value": {
+            "value": 2500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

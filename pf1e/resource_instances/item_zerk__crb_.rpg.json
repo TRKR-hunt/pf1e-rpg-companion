@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "zerk__crb_",
+    "name": {
+      "value": "Zerk"
+    },
+    "source": {
+      "value": "pathfinder_rpg_gamemastery_guide"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 50 gp DETAILS Type: drug (injury); Addiction: minor , Fortitude DC 18 EFFECTS 1 hour; +1 alchemical bonus to initiative. If addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted. DAMAGE 1d2 Con damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_zerk",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

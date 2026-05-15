@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "esoterum__crb_",
+    "name": {
+      "value": "Esoterum"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 600 gp; Weight \u00e2\u0080\u0094 ABOUT Legends tell of esoterum dens where dream chasers open their minds to the spirit world, gaining deep insights and abilities beyond mortal ken. Such tales usually continue to describe the destructive rampages that follow when malevolent spirits take advantage of an opened mind and possess the unfortunate individual. DETAILS Type inhaled; Addiction major , Fortitude DC 24 EFFECTS For the next 24 hours the user gains the benefits of the Psychic Sensitivity feat but takes a \u00e2\u0080\u00934 penalty on Will saves and automatically fails Will saves against possession attempts. DAMAGE 1d4 Con damage and 1d4 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_esoterum",
+          "value": {
+            "value": 600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "serpents_kiss__crb_",
+    "name": {
+      "value": "Serpent\u00e2\u0080\u0099s Kiss"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 50 gp; Weight \u00e2\u0080\u0094 ABOUT Relied upon by politicians and shy noble scions, this emerald syrup boosts the user\u00e2\u0080\u0099s confidence, allowing her to navigate social situations with aplomb, though the tremor it imparts to her hands can cause an unseemly clatter of cutlery or stemware. DETAILS Type ingested; Addiction moderate , Fortitude DC 18 EFFECT 1 hour; the user gains a +2 alchemical bonus on Bluff , Diplomacy , and Intimidate checks. EFFECT After 1 hour the user gains the fatigued condition for 1d4 hours. DAMAGE 1d4 Dex damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_serpents_kiss",
+          "value": {
+            "value": 50
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

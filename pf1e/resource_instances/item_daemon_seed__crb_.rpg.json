@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "daemon_seed__crb_",
+    "name": {
+      "value": "Daemon Seed"
+    },
+    "source": {
+      "value": "book_of_the_damned_vol_3"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 1,000 gp; Weight \u00e2\u0080\u0094 ABOUT Most often used by other daemons , daemon seed has found a ready market across the planes. Daemon seed is derived from the viscous, sometimes iridescent fluid tapped from a daemon\u00e2\u0080\u0099s spinal column, and those who imbibe it experience delusional euphoria, and a storm of memories digested by the daemon. The one skill that gains a heightened effect is random and varies from dose to dose, and there is no way to tell which skill a particular dose affects. Usually the drug has no side effects, but when but when it does, they are debilitating. Rumor has it that a creature who has recently used daemon seed is especially noticeable to daemons (though how \u00e2\u0080\u009crecent\u00e2\u0080\u009d and to what extent the creature is more noticeable varies from rumor to rumor). Daemons are immune to the negative effects of daemon seed and cannot become addicted to it. DETAILS Type ingested or inhaled; Addiction major , Fortitude DC 20 (non- daemons only) EFFECT 1 hour; +1d4 profane bonus to saves and skill checks, +1d6 profane bonus to one skill DAMAGE 15% chance of blindness and deafness for 1 hour and 1 negative level (DC 20)"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_daemon_seed",
+          "value": {
+            "value": 1000
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

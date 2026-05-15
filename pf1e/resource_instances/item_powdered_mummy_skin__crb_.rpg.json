@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "powdered_mummy_skin__crb_",
+    "name": {
+      "value": "Powdered Mummy Skin"
+    },
+    "source": {
+      "value": "shadows_of_gallowspire"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 20 gp; Weight \u00e2\u0080\u0094 DETAIL Type inhaled; Addiction minor , Fortitude DC 18 EFFECT 1 hour; +1d2 alchemical bonus to Strength , \u00e2\u0080\u00932 penalty on saves against negative energy and paralysis effects DAMAGE 1 Wis and 1 Dex damage, contract mummy rot"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_powdered_mummy_skin",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

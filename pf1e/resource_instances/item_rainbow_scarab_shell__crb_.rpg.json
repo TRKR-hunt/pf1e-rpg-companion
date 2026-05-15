@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "rainbow_scarab_shell__crb_",
+    "name": {
+      "value": "Rainbow Scarab Shell"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury **Fort DC:** 14 **Onset:** 1 rd. **Frequency:** 1/rd. for 4 rds **Effect:** 1d4 Str dmg and suffocation **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_rainbow_scarab_shell",
+          "value": {
+            "value": 150
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

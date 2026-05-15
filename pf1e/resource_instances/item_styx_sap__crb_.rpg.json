@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "styx_sap__crb_",
+    "name": {
+      "value": "Styx Sap"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 18 **Onset:** 1d4 min **Frequency:** 1/10 min for 1 hr **Effect:** 1d4 Wis dmg , memory loss; see text **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_styx_sap",
+          "value": {
+            "value": 2600
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

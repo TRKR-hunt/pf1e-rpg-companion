@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "gobinvine_oil__crb_",
+    "name": {
+      "value": "Gobinvine Oil"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 10 **Onset:** 1 rd. **Frequency:** \u00e2\u0080\u0094 **Effect:** Sickened **Cure:** 2 consecutive saves or 1 min of washing"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_gobinvine_oil",
+          "value": {
+            "value": 125
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

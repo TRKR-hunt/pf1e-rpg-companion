@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hag_spit__crb_",
+    "name": {
+      "value": "Hag Spit"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury, ingested **Fort DC:** 16 **Onset:** \u00e2\u0080\u0094 **Frequency:** 1/rd. for 6 rds **Effect:** Blindness for 1d10 rds; Secondary: 1d4 Wis dmg **Cure:** 2 saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hag_spit",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

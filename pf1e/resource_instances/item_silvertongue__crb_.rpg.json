@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "silvertongue__crb_",
+    "name": {
+      "value": "Silvertongue"
+    },
+    "source": {
+      "value": "bastards_of_golarion"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 75 gp; Weight \u00e2\u0080\u0094 ABOUT The potent performance enhancer known as silvertongue is a sweet alchemical elixir with a metallic aftertaste. A single dose loosens the lips and sharpens the wit. More than one begins to mark the user, and frequent use causes the imbiber\u2019s gums and tongue to take on a silvery sheen that advertises her habit. DETAIL Type ingested; Addiction moderate , Fortitude DC 16 EFFECT 1 hour; +1d2 alchemical bonus to Charisma EFFECT 1d4 hours; +2 alchemical bonus on saves against mind-affecting effects DAMAGE 1d4 Con damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_silvertongue",
+          "value": {
+            "value": 75
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

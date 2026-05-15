@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "leng_s_tears__crb_",
+    "name": {
+      "value": "Leng\u2019s Tears"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 18 **Onset:** 1 rd. **Frequency:** 1/10 min for 1 hr. **Effect:** 1d2 Wis dmg and Paralyzed 10 min **Cure:** 1 save"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_leng_s_tears",
+          "value": {
+            "value": 1500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

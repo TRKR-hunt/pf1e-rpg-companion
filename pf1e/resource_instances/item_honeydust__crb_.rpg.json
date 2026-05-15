@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "honeydust__crb_",
+    "name": {
+      "value": "Honeydust"
+    },
+    "source": {
+      "value": "bastards_of_golarion"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 20 gp ABOUT The use of this mild, dizzying powder has spread throughout much of the world. Once taken, this sparkling, honeydew-colored inhalant gives the user a euphoric sensation that can quickly become overwhelming and even sickening. While the long-term effects are relatively minor, few except the hardy care to risk stomaching this toxin. DETAILS Type inhaled; Addiction minor , Fortitude DC 13 EFFECT 1 hour; +1d2 alchemical bonus to Charisma , \u00e2\u0080\u00932 penalty on saves against illusions EFFECT After 1 hour; 75% chance to become sickened for 1d4 hours DAMAGE 1d2 Wis damage"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_honeydust",
+          "value": {
+            "value": 20
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

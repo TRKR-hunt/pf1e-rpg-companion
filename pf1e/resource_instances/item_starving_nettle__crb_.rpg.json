@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "starving_nettle__crb_",
+    "name": {
+      "value": "Starving Nettle"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** injury **Fort DC:** 15 **Onset:** ? **Frequency:** 1/day for 8 days **Effect:** 1d3 Dex and Con dmg ; Nausea , see text **Cure:** 2 consecutive saves"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_starving_nettle",
+          "value": {
+            "value": 300
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

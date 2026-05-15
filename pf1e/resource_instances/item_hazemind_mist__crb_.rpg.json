@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "hazemind_mist__crb_",
+    "name": {
+      "value": "Hazemind Mist"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "Price 225 gp DETAILS Type poison , inhaled; Save Fortitude DC 13; Onset 1 round; Frequency 1/round for 10 rounds; Cure 1 save EFFECTS Hazemind mist is an inhaled form of hazemind concentrate . It is somewhat weaker (DC 13 save vs. DC 16 for concentrate) but it\u2019s frequency is a bit longer (10 rounds vs. 6 rounds). It otherwise functions as hazemind concentrate ."
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_hazemind_mist",
+          "value": {
+            "value": 225
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}

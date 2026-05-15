@@ -1,0 +1,35 @@
+{
+  "resource_id": "item",
+  "stats": {
+    "id": "tears_of_death__crb_",
+    "name": {
+      "value": "Tears of Death"
+    },
+    "source": {
+      "value": "ultimate_equipment"
+    },
+    "type": {
+      "value": "alchemical"
+    },
+    "is_magic": {
+      "value": false
+    },
+    "description": {
+      "value": "**Type:** contact **Fort DC:** 22 **Onset:** 1 min **Frequency:** 1/min for 6 mins **Effect:** 1d6 Con dmg and Paralyzed 1 min **Cure:** \u00e2\u0080\u0094"
+    },
+    "cost": {
+      "value": {
+        "resource_id": "cost",
+        "stats": {
+          "id": "cost_tears_of_death",
+          "value": {
+            "value": 6500
+          },
+          "unit": {
+            "value": "gold"
+          }
+        }
+      }
+    }
+  }
+}
