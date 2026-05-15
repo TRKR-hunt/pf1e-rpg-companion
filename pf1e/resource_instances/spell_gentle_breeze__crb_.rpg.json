@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "gentle_breeze__crb_",
+    "name": {
+      "value": "Gentle Breeze"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature or object"
+    },
+    "duration": {
+      "value": "1 hour (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You create a light wind that blows only against the target, from a direction of your choice. The breeze grants the target a +2 circumstance bonus on saves against very hot conditions, severe heat, and saves against clouds, vapors, and gases (such as cloudkill, stinking cloud, and inhaled poisons). There must be air present to use this spell. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

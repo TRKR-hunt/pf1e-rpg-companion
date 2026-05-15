@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "grease__crb_",
+    "name": {
+      "value": "Grease"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "mesmerist",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (butter)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one object or 10-ft. square one object/2 levels or 1 10-ft. square/2 levels; see text"
+    },
+    "duration": {
+      "value": "1 min./level (D)"
+    },
+    "saving_throw": {
+      "value": "see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can\u2019t move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on their turn do not need to make this check and are not considered flat-footed. The spell can also be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while an object wielded or employed by a creature requires its bearer to make a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature immediately drops the item. A saving throw must be made in each round that the creature attempts to pick up or use the greased item. A creature wearing greased armor or clothing gains a +10 circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and to their CMD to avoid being grappled. Grease, Greater Source Pathfinder Player Companion: Dirty Tactics Toolbox This spell functions like grease, except as noted here. When you use this spell to cover a solid surface with slippery grease, the 10-foot squares must form a continuous area, each part of which must be within the spell\u2019s range. When you use this spell to create a greasy coating on items, no two of the targeted items can be more than 30 feet apart. You cannot target both items and surfaces with a single casting of this spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

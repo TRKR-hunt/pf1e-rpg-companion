@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "restore_eidolon__crb_",
+    "name": {
+      "value": "Restore Eidolon, Lesser"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "summoner",
+        "unchained_summoner"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute 3 rounds"
+    },
+    "components": {
+      "value": "V, S, M (diamond dust worth 100 gp or 1,000 gp, see text) V, S"
+    },
+    "range": {
+      "value": "touch touch"
+    },
+    "area": {
+      "value": "eidolon touched eidolon touched"
+    },
+    "duration": {
+      "value": "instantaneous instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless); Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "This spell functions as restoration, except it only affects an eidolon. Restore Eidolon, Lesser This spell functions as lesser restoration, except it only affects an eidolon. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

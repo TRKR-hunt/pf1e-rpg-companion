@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hollow_blades__crb_",
+    "name": {
+      "value": "Hollow Blades"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "ranger",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "All melee and natural attacks from the target deal damage as if the target were one size category smaller than it actually is. While the target is under the effects of this spell, weapons dropped by the target function normally for other creatures, while any melee weapons picked up by the target deal damage as if one size smaller. Ranged attacks and weapons are unaffected by this spell. Section 15: Copyright Notice Pathfinder Player Companion: Giant Hunter\u2019s Handbook \u00c2\u00a9 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross."
+    }
+  }
+}

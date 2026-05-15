@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "force_anchor__crb_",
+    "name": {
+      "value": "Force Anchor"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "inquisitor",
+        "magus",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a twisted nail)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You conjure an anchor of pure force that immediately skewers your target on a successful ranged touch attack. If it hits, the attack deals the target 1d4 points of force damage per 2 caster levels (max 5d4) and the anchor becomes firmly lodged in the target\u2019s torso. The anchor has no weight, but its wide flukes prevent the target from moving through any space smaller than the creature\u2019s size. The anchor also prevents incorporeal targets from moving through solid objects. Whenever the target moves through a square occupied by another creature, the square counts as 2 squares for the purpose of calculating movement, even if the square\u2019s occupant is the target\u2019s ally. Section 15: Copyright Notice Pathfinder Player Companion: Undead Slayer\u2019s Handbook \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Dennis Baker, Jay Loomis, Alex Putnam, Adam Roy, Tork Shaw, and Larry Wilhelm."
+    }
+  }
+}

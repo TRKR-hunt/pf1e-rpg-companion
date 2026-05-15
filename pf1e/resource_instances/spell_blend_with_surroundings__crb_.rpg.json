@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "blend_with_surroundings__crb_",
+    "name": {
+      "value": "Blend with Surroundings"
+    },
+    "source": {
+      "value": "dirty_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M/DF (a chess piece)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless) or Will disbelieves (if interacted with)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "This spell changes the appearance of the affected creature so that it better blends in with its surroundings. As chosen by you, the affected creature takes on the appearance of a statue, furniture, a tree, a bush, a rock, or another object of similar size. As long as the target stays still, it gains a +20 bonus on Stealth checks, and it can use Stealth even if it is being observed. The target\u2019s armor blends in perfectly with the illusory shape, and the target\u2019s armor check penalty on Stealth checks is negated for the duration of the spell. If the target moves at all while this spell is in effect, the spell ends. Section 15: Copyright Notice Pathfinder Player Companion: Dirty Tactics Toolbox \u00c2\u00a9 2015, Paizo Inc.; Authors: Alexander Augunas, Mikko Kallio, Anthony Li, Luis Loza, and Andrew Marlowe."
+    }
+  }
+}

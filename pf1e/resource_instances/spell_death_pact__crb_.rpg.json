@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "death_pact__crb_",
+    "name": {
+      "value": "Death Pact"
+    },
+    "source": {
+      "value": "occult_origins"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, M (a contract signed in blood)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "24 hours"
+    },
+    "saving_throw": {
+      "value": "Will negates; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You take control of a creature\u2019s mind and implant deadly subconscious commands. This spell functions as dominate person, allowing you to control your subject and see through her senses, but also implants a powerful burst of psychic energy in the subject\u2019s mind. At any point during the spell\u2019s duration, you can trigger this burst as an immediate action, dealing 1d8 points of damage per caster level ( Fortitude half) to the subject. If this damage is enough to reduce to target to 0 or fewer hit points, the target dies instantly. Your target can also willingly trigger this psychic burst as an immediate action. You can specify conditions (such as being captured) when she should do so, though such orders are considered dangerous and allow the subject a new Will saving throw with a +2 bonus. Section 15: Copyright Notice Pathfinder Player Companion: Occult Origins \u00c2\u00a9 2015, Paizo Inc.; Authors: Robert Brookes, Ben McFarland, Jason Nelson, and Mark Seifter."
+    }
+  }
+}

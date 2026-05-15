@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "depilate__crb_",
+    "name": {
+      "value": "Depilate"
+    },
+    "source": {
+      "value": "blood_of_the_beast"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "S, M (a sliver of cow\u00e2\u0080\u0099s tongue)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature with hair or fur"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This simple jinx causes a target\u00e2\u0080\u0099s hair or fur to fall out in patchy clumps, leaving the creature disheveled and less commanding. A jinxed creature takes a \u00e2\u0080\u00932 penalty on all Diplomacy, Intimidate, and Perform checks until the hair begins to regrow 1 week later, or until the damage can be concealed with a successful Disguise or Heal check (the DC is equal to the original save DC of the spell). A successful break enchantment, remove curse, or similar effect instantly regrows the target\u00e2\u0080\u0099s hair or fur and removes the spell\u00e2\u0080\u0099s effects. Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Beast \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, John Compton, and Crystal Frasier."
+    }
+  }
+}

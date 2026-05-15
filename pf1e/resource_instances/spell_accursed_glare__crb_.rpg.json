@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "accursed_glare__crb_",
+    "name": {
+      "value": "Accursed Glare"
+    },
+    "source": {
+      "value": "blood_of_the_moon"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 day/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes (if any). Multiple allies can attempt Intimidate checks; this bonus stacks. Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Moon \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Tim Akers, Neal Litherland, David N. Ross, and Tork Shaw. Book of Magic: Spell Codex Volume 1 . \u00c2\u00a9 2022, Jon Brazer Enterprises"
+    },
+    "description": {
+      "value": "You channel a fell curse through your glare. If the target fails its saving throw, it begins to obsessively second guess its actions and attract bad luck. Whenever the target attempts an attack roll or saving throw while the curse lasts, it must roll twice and take the lower result. While you cast this spell, an ally within range of the subject can attempt an Intimidate check as a move action (DC = save DC of this spell); on a success, the ally adds its own glare to yours, granting you a +2 bonus on your caster level check to overcome"
+    }
+  }
+}

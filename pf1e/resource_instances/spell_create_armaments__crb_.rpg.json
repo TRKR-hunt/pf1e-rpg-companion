@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "create_armaments__crb_",
+    "name": {
+      "value": "Create Armaments"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "medium",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, M (diamonds worth price of arms to be created)"
+    },
+    "range": {
+      "value": "0 ft. Effect one non-magical weapon, shield, or set of armor"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You create one non-magical weapon, shield, or set of armor. To determine whether the item functions as intended, you must attempt an appropriate Craft check with the DC required to create the item normally. If you fail, the item is created with the broken condition. You can create items made of rare or unusual materials if you include a bit of that material as an additional material component when you cast the spell, but cannot create cold iron items with this spell. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+    }
+  }
+}

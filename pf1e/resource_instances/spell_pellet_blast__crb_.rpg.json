@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "pellet_blast__crb_",
+    "name": {
+      "value": "Pellet Blast"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "magus",
+        "psychic",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a handful of metal pellets or handful of cold iron , silver , or adamantine pellets; see descriptions for cost)"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "cone-shaped burst"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Reflex half"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell creates an explosion of conjured metal pellets, striking everything within its area and dealing 1d8 points of piercing damage per two caster levels, maximum 5d8. This damage is subject to damage reduction. If the material component is made of cold iron (costing 50 gp), silver (costing 20 gp), or adamantine (costing 100 gp), the resulting blast can overcome damage reduction of the appropriate type. The pellets disappear after the spell is cast and the damage is dealt. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

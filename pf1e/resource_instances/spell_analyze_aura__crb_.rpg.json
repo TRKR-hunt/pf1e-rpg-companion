@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "analyze_aura__crb_",
+    "name": {
+      "value": "Analyze Aura"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature or object"
+    },
+    "duration": {
+      "value": "concentration , up to 1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You peer into the aura of one target creature or object, gaining valuable information about its condition and nature. Each round, choose one of the target\u2019s four auras. This spell functions similarly to the read aura occult skill unlock, but doesn\u2019t require checks and returns results on all the target\u2019s auras in an instant. Alignment Aura: You study the target\u2019s spiritual nature to determine its alignment. You also learn the type and power of its alignment aura, as detect evil. Emotion Aura: The colors playing within the target\u2019s aura reveal its emotional state, granting valuable insight into its psyche. You learn a general summary of the target\u2019s current disposition, as well as its attitude toward any other creatures within 30 feet of it. For the duration of the spell and for 1 hour afterward, you gain a +2 circumstance bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks you attempt against the target. Objects do not have emotion auras, except intelligent weapons and similar sentient oddities. Health Aura: The flow of vital force animating the target becomes plainly visible, giving you insight into its physical condition. You know whether the target is unharmed or wounded, Whether it is poisoned or diseased, and whether it is under any of the following conditions: confused, disabled, dying, nauseated, panicked, staggered, stunned, or unconscious.\u00c2\u00a0Further, your insight into the overall strength of the target\u2019s vital force reveals the total number of points available in its ki pool, grit pool, or similar resource. Objects and most undead creatures don\u2019t have health auras. Magic Aura: You determine the number and power of all magical auras on the target (as detect magic to determine a magic aura\u2019s power), as well as the school of each aura. You can attempt Knowledge (arcana) or Spellcraft skill checks to determine the school or identify properties of a magic item, as normal. If cast on an item, analyze aura cuts through the obfuscation of the magic aura spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

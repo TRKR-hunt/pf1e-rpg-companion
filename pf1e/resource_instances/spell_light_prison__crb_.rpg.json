@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "light_prison__crb_",
+    "name": {
+      "value": "Light Prison"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature/2 levels"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Reflex negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Rays of light burst forth from your outstretched hand, encircling each target\u2019s space with a cage of light. If a target fails its Reflex save, it becomes enclosed in the light prison. A creature enclosed in a light prison can attack, cast spells, and otherwise act normally as long as it stays within the light prison. However, if a creature passes through the walls of a light prison enclosing it, it takes 1d6 points of damage and is blinded for 1 round. Creatures do not receive saves to negate these effects. Once a creature passes through the walls of a light prison surrounding it, the effect ends for that creature. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Gods \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
+    }
+  }
+}

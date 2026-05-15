@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "power_word_blind__crb_",
+    "name": {
+      "value": "Power Word Blind"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature with 200 hp or less"
+    },
+    "duration": {
+      "value": "see text 50 or less Permanent 51-100 1d4+1 minutes 101-200 1d4+1 rounds"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You utter a single word of power that causes a creature to become blinded, whether the creature can hear the word or not. The duration of the spell depends on the target\u2019s current hit point total. Any creature that currently has 201 or more hit points is unaffected. Hit Points"
+    }
+  }
+}

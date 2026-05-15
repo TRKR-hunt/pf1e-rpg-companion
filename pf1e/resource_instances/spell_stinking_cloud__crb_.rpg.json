@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "stinking_cloud__crb_",
+    "name": {
+      "value": "stinking cloud"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "cleric",
+        "druid",
+        "magus",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a rotten egg or cabbage leaves)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates; see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Stinking cloud creates a bank of fog like that created by fog cloud, except that the vapors are nauseating. Living creatures in the cloud become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. (Roll separately for each nauseated character.) Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn. This is a poison effect. Stinking cloud can be made permanent with a permanency spell. A permanent stinking cloud dispersed by wind reforms in 10 minutes. By the way\u2026 The effects created by this spell do not move with a vehicle."
+    }
+  }
+}

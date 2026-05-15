@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mirage__crb_",
+    "name": {
+      "value": "Mirage"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "druid",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "ranger"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S, M (a pinch of sand and a drop of water)"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": "one 40-ft. cube/level (S)"
+    },
+    "duration": {
+      "value": "2 hours/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will disbelief (see below)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You create an image of a pool of water, a group of standing stones, a cove, an island, or another simple land formation over a stretch of flat land or water. The image is purely visual, and structures, equipment, and creatures within the area are not hidden or changed in appearance. Anyone interacting with the illusion can attempt to disbelieve it, and a creature trained in Survival can make a special attempt to disbelieve the illusion. the creature must be within 120 feet of the illusion\u2019s area and can attempt a Survival check instead of a Will saving throw. If the result is equal to or greater than the spell\u2019s save DC, the creature realizes the mirage is an illusion as if it disbelieved the spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Wilderness \u00c2\u00a9 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
+    }
+  }
+}

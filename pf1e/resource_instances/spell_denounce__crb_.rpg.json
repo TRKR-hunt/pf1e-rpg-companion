@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "denounce__crb_",
+    "name": {
+      "value": "Denounce"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "inquisitor",
+        "mesmerist",
+        "psychic"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "30-ft.-radius burst"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You speak out against a single creature within line of sight and turn possible allies against it by drawing upon the power of your voice and conviction. Creatures in the area who can see the denounced creature must make a Will Saving Throw or have their starting attitude toward the denounce d creature worsened by two levels (see Diplomacy skill or table on this page for details). For example, creatures previously indifferent to the subject turn unfriendly. Diplomacy checks made to reverse the effects of denounce are made at a -10 penalty. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

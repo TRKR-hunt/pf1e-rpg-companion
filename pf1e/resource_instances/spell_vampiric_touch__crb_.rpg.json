@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "vampiric_touch__crb_",
+    "name": {
+      "value": "Vampiric Touch"
+    },
+    "source": {
+      "value": "pathfinder_rpg_core_rulebook"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bloodrager",
+        "magus",
+        "medium",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creature touched"
+    },
+    "duration": {
+      "value": "instantaneous/1 hour; see text"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You must succeed on a melee touch attack. Your touch deals 1d6 points of damage per two caster levels (maximum 10d6). You gain temporary hit points equal to the damage you deal. You can\u2019t gain more than the subject\u2019s current hit points + the subject\u2019s Constitution score (which is enough to kill the subject). The temporary hit points disappear 1 hour later. Mythic The spell\u00e2\u0080\u0099s damage increases to 1d8 points of damage per 2 caster levels (maximum 10d8). Your melee touch attack to deliver the spell threatens a critical hit on a 19 or 20. This expanded threat range doesn\u00e2\u0080\u0099t stack with other effects or abilities that increase the threat range. If the damage kills the target, you gain fast healing 5 for a number of rounds equal to the Hit Dice of the target. Section 15: Copyright Notice Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

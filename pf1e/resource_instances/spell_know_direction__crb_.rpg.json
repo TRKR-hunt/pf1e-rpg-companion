@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "know_direction__crb_",
+    "name": {
+      "value": "Know Direction"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_0"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "druid",
+        "occultist",
+        "psychic",
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "When you cast this spell, you instantly know the direction of north from your current position. The spell is effective in any environment in which \u201cnorth\u201d exists, but it may not work in extraplanar settings. Your knowledge of north is correct at the moment of casting, but you can get lost again within moments if you don\u2019t find some external reference point to help you keep track of direction. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

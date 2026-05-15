@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sacred_bond__crb_",
+    "name": {
+      "value": "Sacred Bond"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, F (a pair of golden bracelets worth 100 gp each worn by both you and the target)"
+    },
+    "range": {
+      "value": "touch; see text"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "To use this spell, you first touch the intended recipient, creating a sympathetic field of healing energies between you. Once the spell has been cast, you and the target may cast conjuration (healing) spells with a range of touch upon each other so long as you are within close range (25 ft. + 5 ft./2 levels). Should either you or the target remove your bracelet, the spell immediately ends. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "telekinetic_strikes__crb_",
+    "name": {
+      "value": "Telekinetic Strikes"
+    },
+    "source": {
+      "value": "psychic_anthology"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The touched creature\u00e2\u0080\u0099s limbs are charged with telekinetic force. For the duration of the spell, the target\u00e2\u0080\u0099s unarmed attacks or natural weapons deal an additional 1d4 points of force damage on each successful unarmed melee attack. Section 15: Copyright Notice Pathfinder Player Companion: Psychic Anthology \u00c2\u00a9 2017, Paizo Inc.; Authors: Alexander Augunas, Isabelle Lee, Luis Loza, Alex Riggs, Mark Seifter, Loren Sieg, and Jeremy Smith"
+    }
+  }
+}

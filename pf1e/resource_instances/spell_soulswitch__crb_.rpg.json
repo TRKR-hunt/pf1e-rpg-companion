@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "soulswitch__crb_",
+    "name": {
+      "value": "Soulswitch"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "inquisitor",
+        "magus",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (two brass collars worth 50 gp each)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "you and your familiar"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar\u2019s soul is placed in your body. This functions as if you possessed your familiar using magic jar; your familiar simultaneously possesses your body in the same manner. You can\u2019t freely transfer your soul between your body and your familiar\u2019s \u00e2\u0080\u0094if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies. Section 15: Copyright Notice Pathfinder Player Companion: Familiar Folio \u00c2\u00a9 2015, Paizo Inc.; Authors: Will McCardell, Philip Minchin, Mark Seifter, and Jerome Virnich"
+    }
+  }
+}

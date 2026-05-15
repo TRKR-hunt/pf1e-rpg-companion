@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "dark_light__crb_",
+    "name": {
+      "value": "Dark-Light"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a pinch of earth)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "20-ft.-radius burst"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You evoke a powerful light that affects all sighted creatures that do not posses light sensitivity. Those that succeed on their saves are dazzled for 1 round per level; those who fail are blinded for the same duration. Section 15: Copyright Notice Pathfinder Player Companion: Kobolds of Golarion. \u00c2\u00a9 2013 Paizo Publishing, LLC; Authors: Tork Shaw, Mat Smith, and Jerome Virnich."
+    }
+  }
+}

@@ -6,7 +6,7 @@
       "value": "Acid Splash"
     },
     "source": {
-      "value": "crb"
+      "value": "unknown"
     },
     "level": {
       "value": "spell_level_0"
@@ -16,7 +16,11 @@
     },
     "classes": {
       "value": [
+        "inquisitor",
+        "magus",
         "sorcerer",
+        "summoner",
+        "unchained_summoner",
         "wizard"
       ]
     },
@@ -27,10 +31,10 @@
       "value": "V, S"
     },
     "range": {
-      "value": "close (25 ft + 5 ft/2 levels)"
+      "value": "close (25 ft. + 5 ft./2 levels)"
     },
     "area": {
-      "value": "one orb of acid"
+      "value": ""
     },
     "duration": {
       "value": "instantaneous"
@@ -42,7 +46,7 @@
       "value": "no"
     },
     "description": {
-      "value": "Ranged touch attack; 1d3 acid damage."
+      "value": "You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage. This acid disappears after 1 round."
     }
   }
 }

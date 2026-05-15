@@ -16,17 +16,30 @@
     },
     "classes": {
       "value": [
-        "sorcerer",
-        "wizard",
         "bard",
-        "cleric"
+        "cleric",
+        "druid",
+        "inquisitor",
+        "magus",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
       ]
     },
     "casting_time": {
       "value": "1 standard action"
     },
     "components": {
-      "value": "V, M/DF"
+      "value": "V, M/DF (a firefly)"
     },
     "range": {
       "value": "touch"
@@ -35,7 +48,7 @@
       "value": "object touched"
     },
     "duration": {
-      "value": "10 min/level"
+      "value": "10 min./level"
     },
     "saving_throw": {
       "value": "none"
@@ -44,7 +57,7 @@
       "value": "no"
     },
     "description": {
-      "value": "Object touched shines like a torch (20-foot radius normal light, dim light to 40 ft)."
+      "value": "This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius from the point touched, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object. You can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit. Light can be used to counter or dispel any darkness spell of equal or lower spell level. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
     }
   }
 }

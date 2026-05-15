@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "biting_words__crb_",
+    "name": {
+      "value": "Biting Words"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Your voice becomes suffused with magic so that you can harm your opponents with but a word. As a standard action, you can target one opponent within 30 feet with a ranged touch attack by speaking to it, dealing an amount of damage equal to 1d6 + your Strength or Charisma modifier, whichever is higher. The damage dealt is bludgeoning, piercing, and slashing damage and can be reduced by damage reduction. Each attack you make reduces the spell\u2019s remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after the attack resolves. You can attack with biting words by shouting instead of speaking intelligibly. When doing so, the amount of damage dealt by the attack is reduced to 1d4 + 1/2 your Strength or Charisma modifier (whichever is higher), but the spell doesn\u2019t count as having the language-dependent descriptor for that attack. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

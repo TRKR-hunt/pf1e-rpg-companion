@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "elemental_touch__crb_",
+    "name": {
+      "value": "Elemental Touch"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_bestiary_2"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a bit of the chosen element: earth, water, air, or fire)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "see text"
+    },
+    "spell_resistance": {
+      "value": "no Editor\u2019s Note Do bonus dice from Channel Smite or spells such as elemental touch or flame arrow multiply on a critical hit? No. See Multiplying Damage : \u201c Exception : Extra damage dice over and above a weapon\u00e2\u0080\u0099s normal damage are never multiplied.\u201d The general rule is the only dice you multiply on a critical hit are the actual dice from the basic weapon (d8 for a longsword, 2d6 for a greatsword, and so on). [ Source ]"
+    },
+    "description": {
+      "value": "Upon completing the casting of this spell, elemental energy infuses your hands. Choose an energy type: acid, cold, electricity, or fire. You gain a melee touch attack causing 1d6 points of damage of that energy type, along with a special effect described below. You also deal energy damage and the related special effect when you attack with your hands using an unarmed strike, a single claw, or a single slam attack. This bonus damage can never apply to multiple weapons. Acid: Your touch attack causes 1 point of ongoing acid damage per round for 1 round per three caster levels. The target must make a Fortitude save or be sickened for the duration of the ongoing acid damage. Cold: The target must make a Fortitude save or be fatigued. A creature that is already fatigued suffers no additional effect. Electricity: The target must make a Fortitude save or be staggered for 1 round. Fire: Your hands ignite and shed light as a torch. Your touch may cause targets to catch on fire. Subsequent attacks inflict the normal damage, but the additional effects do not stack. This spell grants no special protection to anything held in or worn on your hands. When you cast this spell to deal acid, cold, electricity, or fire damage, it is a spell of that type. Section 15: Copyright Notice Pathfinder Roleplaying Game Bestiary 2, \u00c2\u00a9 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

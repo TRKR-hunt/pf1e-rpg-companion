@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "corruption_resistance__crb_",
+    "name": {
+      "value": "Corruption Resistance"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_bestiary_2"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "inquisitor",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You grant the touched creature limited protection from magical effects that inflict damage based on the target creature\u2019s alignment, such as holy smite, order\u2019s wrath, a paladin \u2018s smite evil attack, or an unholy weapon. Choose one alignment type: chaos, evil, good, or law. The subject takes 5 less points of damage from effects that specifically harm creatures of that alignment. The value of the protection increases to 10 points at 7th level and 15 points at 11th level. The spell protects the recipient\u2019s equipment as well. Corruption resistance protects against spells, spell-like abilities, and special abilities, not physical attacks. Corruption resistance only protects against damage. The subject can still suffer side effects from such attacks. When you use this spell to protect an alignment, it gains the descriptor of that alignment. Section 15: Copyright Notice Pathfinder Roleplaying Game Bestiary 2, \u00c2\u00a9 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

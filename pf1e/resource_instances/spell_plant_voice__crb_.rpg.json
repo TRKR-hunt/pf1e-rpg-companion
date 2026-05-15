@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "plant_voice__crb_",
+    "name": {
+      "value": "Plant Voice"
+    },
+    "source": {
+      "value": "cohorts_and_companions"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "shaman",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a small root cutting)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one plant creature"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You grant one plant creature the ability to speak, hear, and understand any of the languages you know. If you know more than one language, you may grant the plant creature up to one language per 2 caster levels and you decide which languages to grant when the spell is cast. This spell does not cause the plant creature to be predisposed toward you in any way, but allows you to interact with them with Charisma -based skills normally. Plant creatures with an Intelligence score of 2 or lower can communicate and understand only the simplest of concepts, such as \u00e2\u0080\u009cfriend,\u00e2\u0080\u009d \u00e2\u0080\u009cfood,\u00e2\u0080\u009d and \u00e2\u0080\u009cdanger.\u00e2\u0080\u009d This spell has no effect on ordinary plants and fungus. Section 15: Copyright Notice Pathfinder Player Companion: Cohorts and Companions \u00c2\u00a9 2015, Paizo Inc.; Authors: Brian Duckwitz, Philip Minchin, and Jason Nelson."
+    }
+  }
+}

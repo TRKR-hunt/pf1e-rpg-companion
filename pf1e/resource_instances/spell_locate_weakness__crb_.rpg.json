@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "locate_weakness__crb_",
+    "name": {
+      "value": "Locate Weakness"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "inquisitor",
+        "magus",
+        "occultist",
+        "psychic",
+        "ranger",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a pickled predator\u00e2\u0080\u0099s eye)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You can sense your foes\u00e2\u0080\u0099 weak points, granting you greater damage with critical hits. Whenever you score a critical hit, roll the attack\u00e2\u0080\u0099s damage dice (but not extra or precision damage dice) twice and take the highest result. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

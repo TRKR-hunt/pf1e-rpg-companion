@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "dust_ward__crb_",
+    "name": {
+      "value": "Dust Ward"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_monster_codex"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S, M (a pinch of pumice)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one magic item"
+    },
+    "duration": {
+      "value": "permanent"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You ward a magic item against other creatures who try to learn to use or copy it. When you cast the spell, you designate one creature type, subtype, or a specific individual. If the item is worn or carried for 1 continuous hour or more by a creature that doesn\u2019t match the designation, the dust ward disintegrates the item into worthless gray dust. This destruction also occurs if the creature attempts to study the item in order to learn its properties or how to magically craft it (a miracle or wish spell used on the gray dust can still reveal this information). The destruction of the item doesn\u2019t harm the creature wearing or carrying the item (although the item\u2019s destruction may put the creature in harm\u2019s way, such as if a magical rope were being used to cross a chasm at the time). If the offending creature wears or carries the item for less than 1 hour and passes it to a different creature, the countdown to the item\u2019s destruction starts over. The spell cannot affect a magic item with a caster level greater than half your caster level. Section 15: Copyright Notice Pathfinder Roleplaying Game Monster Codex \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

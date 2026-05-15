@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "human_potential__crb_",
+    "name": {
+      "value": "Human Potential"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "medium",
+        "psychic",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a human hair)"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The target chooses one ability score and gains a +2 enhancement bonus to that ability score. The bonus confers the usual benefit to skills and abilities based on the ability enhanced, but does not affect bonus spells or skill ranks. Human Potential, Mass This spell functions like human potential, except it affects multiple creatures. Each target can choose a different ability score to be enhanced by this spell. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+    }
+  }
+}

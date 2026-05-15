@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "euphoric_tranquility__crb_",
+    "name": {
+      "value": "Euphoric Tranquility"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "mesmerist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a poppy flower)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none and Will partial (see below)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "A creature under the effect of this enchantment enters a state of euphoria. The target treats all creatures as dear friends and abhors violence, but may rise up to protect itself if violence is perpetrated against it. Until the end of the spell\u2019s duration, the creature\u2019s speed is halved, and it cannot make attacks or cast spells. If the creature is attacked, it gets a Will Saving Throw. If the Saving Throw succeeds, the creature can make act normally for 1 round. If the Saving Throw fails, the creature moves half its speed away from the attacker as its next action. Furthermore, if the creature is interacted with, or questioned while under the effects of this spell, it is considered to have an attitude of Helpful (see Table: Starting Attitudes and Diplomacy DC\u2019s to Modify below or see the full Diplomacy skill details for more information), though any advice or answers it gives may be disjointed or stream of consciousness due to its euphoric state. Table: Starting Attitudes and Diplomacy DC\u2019s to Modify Starting Attitude Diplomacy DC Hostile 25 + creature\u2019s Cha Modifier Unfriendly 20 + creature\u2019s Cha Modifier Indifferent 15 + creature\u2019s Cha Modifier Friendly 10 + creature\u2019s Cha Modifier Helpful 0 + creature\u2019s Cha Modifier Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

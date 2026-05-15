@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "vine_strike__crb_",
+    "name": {
+      "value": "Vine Strike"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "bloodrager",
+        "druid",
+        "ranger",
+        "shaman",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Reflex negates (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Bristles burst from your body, lodging in your opponent and blossoming into entangling vines as you pummel your target. While this spell is in effect, one of your natural attacks or unarmed strikes deals an additional 1d6 points of damage, and each creature hit with that natural weapon or unarmed strike must succeed at a Reflex save or be entangled for the duration of the spell; on a successful Reflex save, the creature is immune to the entangled effect for 1 round. A creature entangled by this spell can spend a standard action to remove the vines, but can be entangled again by further unarmed strikes. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Wilderness \u00c2\u00a9 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
+    }
+  }
+}

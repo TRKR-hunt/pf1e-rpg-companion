@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "make_lost__crb_",
+    "name": {
+      "value": "Make Lost"
+    },
+    "source": {
+      "value": "inner_sea_monster_codex"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You strip the targets of their senses of direction and recent memories of travel. They immediately forget the route they took in the last hour (but not details of encounters along the way) and become lost. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Monster Codex \u00c2\u00a9 2015, Paizo Inc.; Authors: John Compton, Paris Crenshaw, Mike Myler, Tork Shaw, and Larry Wilhelm."
+    }
+  }
+}

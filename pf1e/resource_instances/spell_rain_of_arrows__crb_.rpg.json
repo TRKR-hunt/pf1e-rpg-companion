@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "rain_of_arrows__crb_",
+    "name": {
+      "value": "Rain of Arrows"
+    },
+    "source": {
+      "value": "ranged_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_8"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a quiver full of 20 arrows worth 1 gp)"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Reflex halves"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You point your finger and conjure a cloud of magical arrows that rain down on any creatures and objects in the indicated area. You must have line of sight to the intended area. The arrows deal 1d6 points of piercing damage per caster level (maximum 20d6) to each creature and object in a 15-foot radius centered on the targeted square or intersection. If the arrows used as a material component are all made of the same material (such as cold iron ), the arrows created by the spell are also made of that material. Section 15: Copyright Notice Pathfinder Player Companion: Ranged Tactics Toolbox \u00c2\u00a9 2014, Paizo Inc.; Authors: David N. Ross, David Schwartz, and Kaitlyn Sprague."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "volcanic_storm__crb_",
+    "name": {
+      "value": "Volcanic Storm"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "druid",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (obsidian and ash)"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": "cylinder (20-ft. radius, 40 ft. high)"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Chunks of hot volcanic rock and clumps of ash pound down when this spell is cast, dealing 3d6 points of bludgeoning damage and 2d6 points of fire damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, heavy ash rains down in the area. Creatures inside this area take a \u00e2\u0080\u00934 penalty on Perception skill checks and the entire area is treated as difficult terrain.\u00c2\u00a0At the end of the duration, the rock and ash disappear, leaving no aftereffects (other than the damage dealt). Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

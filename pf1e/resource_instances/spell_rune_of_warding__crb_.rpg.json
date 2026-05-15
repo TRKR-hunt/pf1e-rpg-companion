@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "rune_of_warding__crb_",
+    "name": {
+      "value": "Rune of Warding"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 hour"
+    },
+    "components": {
+      "value": "V, S, M (powdered adamantine, diamond, or mithral worth 200 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "doorway or portal touched"
+    },
+    "duration": {
+      "value": "permanent until discharged (D)"
+    },
+    "saving_throw": {
+      "value": "Reflex half"
+    },
+    "spell_resistance": {
+      "value": "no (object) and yes (see text)"
+    },
+    "description": {
+      "value": "You inscribe a series of runes upon the surface of a door or around the border of an entryway. They function as a glyph of warding (blast glyph), though unlike a glyph of warding, these runes are always visible. The runes count as a glyph of warding for the purpose of what spells can defeat it, placing multiple glyphs in the same area, and so on. Section 15: Copyright Notice Pathfinder Companion: Dwarves of Golarion. Copyright 2009, Paizo Publishing, LLC; Authors: David A. Eitelbach, Russ Taylor, JD Wiker, Keri Wiker, and Hank Woon."
+    }
+  }
+}

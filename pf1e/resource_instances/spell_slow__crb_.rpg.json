@@ -1,0 +1,62 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "slow__crb_",
+    "name": {
+      "value": "Slow"
+    },
+    "source": {
+      "value": "pathfinder_rpg_core_rulebook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "inquisitor",
+        "magus",
+        "medium",
+        "occultist",
+        "oracle",
+        "paladin",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a drop of molasses)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "An affected creature moves and attacks at a drastically slowed rate. Creatures affected by this spell are staggered and can take only a single move action or standard action each turn, but not both (nor may it take full-round actions). Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex saves. A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature\u2019s jumping distance as normal for decreased speed. Multiple slow effects don\u2019t stack. Slow counters and dispels haste. Mythic The penalty on attack rolls, on Reflex saves, and to AC increases to \u00e2\u0080\u00932, and affected creatures move at one-fourth speed. Select one affected creature; this creature is denied its Dexterity bonus to AC. Section 15: Copyright Notice Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

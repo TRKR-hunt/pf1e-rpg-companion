@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "enchantment_sight__crb_",
+    "name": {
+      "value": "Enchantment Sight"
+    },
+    "source": {
+      "value": "heroes_of_the_high_court"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Your irises take on a purplish tinge and you can see whether creatures within 60 feet of you are affected by an enchantment effect. To your eyes only, a creature under the effects of an enchantment spell glows with a simple white light around its head. You can immediately discern whether the brightness of the light is faint, moderate, strong, or overwhelming depending on the highest spell level of enchantment currently in effect (as per detect magic ). Enchantments of the charm or compulsion subschool glow with a scarlet or emerald hue, respectively. If a creature under an enchantment effect is in your line of sight, you can attempt a Spellcraft check as a move action to determine the highest-level spell or spell effect (DC = 15 + the spell level, or 15 + 1/2 the caster level for a non-spell effect). Effects that block divination magic also block this spell. Enchantment sight can be made permanent with a permanency spell cast by a caster of 9th level or higher, at a cost of 2,500 gp. Section 15: Copyright Notice Pathfinder Player Companion: Heroes of the High Court \u00c2\u00a9 2017, Paizo Inc.; Authors: Isabelle Lee, Luis Loza, Ron Lundeen, and Jacob W. Michaels."
+    }
+  }
+}

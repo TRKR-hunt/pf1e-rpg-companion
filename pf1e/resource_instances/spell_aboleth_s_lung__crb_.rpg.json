@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "aboleth_s_lung__crb_",
+    "name": {
+      "value": "Aboleth\u2019s Lung"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (piece of seaweed)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creatures touched"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The targets are able to breathe water, freely. However, they can no longer breathe air. Divide the duration evenly among all the creatures you touch. This spell has no effect on creatures that can already breathe water. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

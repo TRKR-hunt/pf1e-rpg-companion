@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sunder_breaker__crb_",
+    "name": {
+      "value": "Sunder Breaker"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level (D) or until discharged"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless) and see text"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) and see text applies to this damage. The attacker can attempt a Fortitude save to halve this damage. The ward on the target counts as a magical trap and can be detected and disabled as such. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor"
+    },
+    "description": {
+      "value": "You place an invisible ward upon the target. The next time a creature succeeds at a sunder combat maneuver against the target, the attacker\u2019s weapon takes 1d6 points of damage per caster level (maximum 10d6). If the attacker used a natural weapon for the sunder, the attacker takes half this damage."
+    }
+  }
+}

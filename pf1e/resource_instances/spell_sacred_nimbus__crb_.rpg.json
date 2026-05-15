@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sacred_nimbus__crb_",
+    "name": {
+      "value": "Sacred Nimbus"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "applies against this damage. You also take half damage from magical attacks with the evil descriptor . If such an attack allows a Reflex save for half damage, you take no damage on a successful saving throw. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer"
+    },
+    "description": {
+      "value": "You are surrounded by a nimbus of golden light shaped like your god\u00e2\u0080\u0099s holy symbol or a symbol of your faith. Any evil creature striking you with unarmed strikes, natural weapons, or a handheld weapon deals normal damage, but at the same time, the attacker takes 1d6 points of damage + 1 point per caster level (maximum +15). Creatures wielding melee weapons with reach are not subject to this damage if they attack you."
+    }
+  }
+}

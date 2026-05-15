@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "touch_of_blindness__crb_",
+    "name": {
+      "value": "Touch of Blindness"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bard",
+        "cleric",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature or creatures touched (up to one/level)"
+    },
+    "duration": {
+      "value": "1 round/level (see text)"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "A touch from your hand, which is engulfed in darkness, disrupts a creature\u2019s vision by coating its eyes in supernatural darkness. Each touch causes the target to become blinded for 1 round unless it makes a successful Fortitude saving throw. You can use this melee touch attack up to one time per caster level. Any touch attack not used after 1 round per caster level is lost. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "full_pouch__crb_",
+    "name": {
+      "value": "Full Pouch"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "druid",
+        "inquisitor",
+        "occultist",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "V, S, M (alchemical reagents or herbs worth 1 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "1 object touched"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fort negates (object)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You cast this spell as you draw out a consumable alchemical item to use. The object must be an alchemical item, but not a dose of disease, a poison, a magic potion, or another type of consumable item. The item divides itself into two nearly identical copies and the newly separated one is delivered into your hand. The new item functions as the original in all ways except the copied item suffers a slight reduction in quality. Saves against the new alchemical item\u00e2\u0080\u0099s affects use the original item\u00e2\u0080\u0099s save DC or the save DC of this spell, whichever is higher. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+    }
+  }
+}

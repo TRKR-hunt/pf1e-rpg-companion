@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "dispel_evil__crb_",
+    "name": {
+      "value": "Evil (Dispel)"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin",
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "touch Target or Targets you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level or until discharged, whichever comes first"
+    },
+    "saving_throw": {
+      "value": "see text"
+    },
+    "spell_resistance": {
+      "value": "see text"
+    },
+    "description": {
+      "value": "Shimmering, white holy energy surrounds you. This energy has three effects. First, you gain a +4 deflection bonus to AC against attacks by evil creatures. Second, on making a successful melee touch attack against an evil creature from another plane, you can choose to drive that creature back to its home plane. The creature can negate the effects with a successful Will save (Spell Resistance applies). This use discharges and ends the spell. Third, with a touch you can automatically dispel any one enchantment spell cast by an evil creature or any one evil spell. Spells that can\u2019t be dispelled by dispel magic also can\u2019t be dispelled by dispel evil. Saving throws and Spell Resistance do not apply to this effect. This use discharges and ends the spell."
+    }
+  }
+}

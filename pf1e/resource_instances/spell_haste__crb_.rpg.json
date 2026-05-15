@@ -3,35 +3,46 @@
   "stats": {
     "id": "haste__crb_",
     "name": {
-      "value": "Haste"
+      "value": "haste"
     },
     "source": {
-      "value": "crb"
+      "value": "pathfinder_rpg_core_rulebook"
     },
     "level": {
-      "value": "spell_level_3"
+      "value": "spell_level_2"
     },
     "school": {
       "value": "transmutation"
     },
     "classes": {
       "value": [
+        "alchemist",
+        "bard",
+        "bloodrager",
+        "cleric",
+        "magus",
+        "medium",
+        "occultist",
+        "oracle",
+        "psychic",
         "sorcerer",
-        "wizard",
-        "bard"
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
       ]
     },
     "casting_time": {
       "value": "1 standard action"
     },
     "components": {
-      "value": "V, S, M"
+      "value": "V, S, M (a shaving of licorice root)"
     },
     "range": {
-      "value": "close (25 ft + 5 ft/2 levels)"
+      "value": "close (25 ft. + 5 ft./2 levels)"
     },
     "area": {
-      "value": "one creature/level, no two more than 30 ft apart"
+      "value": "one creature/level, no two of which can be more than 30 ft. apart"
     },
     "duration": {
       "value": "1 round/level"
@@ -43,7 +54,7 @@
       "value": "yes (harmless)"
     },
     "description": {
-      "value": "Targets get +1 attack on full-attack, +1 dodge AC, +1 Reflex, +30 ft speed."
+      "value": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects. When making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature\u2019s full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can\u2019t use it to cast a second spell or otherwise take an extra action in the round.) A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. All of the hasted creature\u2019s modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject\u2019s normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature\u2019s jumping distance as normal for increased speed. Multiple haste effects don\u2019t stack. Haste dispels and counters slow. Mythic Affected creatures gain an additional move action each round. The movement speed increase changes to 50 feet, to a maximum of three times the creature\u00e2\u0080\u0099s normal speed for that movement type. Augmented (3rd): If you expend two uses of mythic power, the movement speed increase changes to 70 feet, with no limit based on the creature\u00e2\u0080\u0099s normal speed. If an affected creature moves at least 30 feet on its turn, it can travel across liquid as if the liquid were solid. If the liquid deals damage on contact, the creature takes only half damage from moving across it. Section 15: Copyright Notice Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
     }
   }
 }

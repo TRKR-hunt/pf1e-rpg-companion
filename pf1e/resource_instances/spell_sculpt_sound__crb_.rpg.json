@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sculpt_sound__crb_",
+    "name": {
+      "value": "Sculpt Sound"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature or object/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You can change the sounds that creatures or objects make. You can create sounds where none exist, deaden sounds, or transform sounds into other sounds. All affected creatures or objects must be transmuted in the same way. Once the transmutation is made, you cannot change it. You can change the qualities of sounds but cannot create words with which you are unfamiliar yourself. A spellcaster whose voice is changed dramatically is unable to cast spells with verbal components."
+    }
+  }
+}

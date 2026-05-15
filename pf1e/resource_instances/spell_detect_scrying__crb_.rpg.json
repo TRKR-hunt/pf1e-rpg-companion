@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "detect_scrying__crb_",
+    "name": {
+      "value": "Detect Scrying"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a piece of mirror and a miniature brass hearing trumpet)"
+    },
+    "range": {
+      "value": "40 ft."
+    },
+    "area": {
+      "value": "40-ft.-radius emanation centered on you"
+    },
+    "duration": {
+      "value": "24 hours"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You immediately become aware of any attempt to observe you by means of a divination (scrying) spell or effect. The spell\u2019s area radiates from you and moves as you move. You know the location of every magical sensor within the spell\u2019s area. If the scrying attempt originates within the area, you also know its location; otherwise, you and the scrier immediately make opposed caster level checks (1d20 + caster level). If you at least match the scrier\u2019s result, you get a visual image of the scrier and an accurate sense of his direction and distance from you. Mythic This spell automatically gives you a visual image of the creature scrying you. If it\u2019s using a non-mythic means of scrying, you also gain an accurate sense of its direction and distance from you. You automatically succeed at caster levelchecks to overcome nondetection or similar effects (other than mind blank ) that block your ability to detect the creature. If you learn the creature\u2019s direction and distance with this spell, you can, as an immediate action, cast a mind-affecting spell through the scrying sensor to target the creature. This spell affects only the scrying creature, even if the spell normally affects an area or multiple targets. You must expend a number of uses of mythic power equal to the level of the spell you wish to cast against the creature. Augmented (6th): If you expend two uses of mythic power, even mind blank doesn\u2019t prevent you from detecting the scrying creature. If you teleport to the creature\u2019s location within 1 minute, you arrive on target (with no chance of error) and bypass non-mythic effects that block teleportation. Alternatively, you can compel the creature to attempt to teleport to you within 1 minute ( Will negates, DC equal to 10 plus double your tier). It must use its own means of teleportation to do so, but you guarantee it arrives on target and bypasses non-mythic effects that block teleportation to your location. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

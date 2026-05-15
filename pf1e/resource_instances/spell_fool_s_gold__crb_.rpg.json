@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "fool_s_gold__crb_",
+    "name": {
+      "value": "Fool\u2019s Gold"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "bard",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (a lump of gold worth 5 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "1 gold piece/level touched"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (object, see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You cast this spell on one or more gold pieces, which make those who have them more vulnerable to your magics. A creature with one or more of these gold pieces in its possession must attempt a Will save (at this spell\u00e2\u0080\u0099s save DC) the first time the creature is forced to attempt a saving throw against a spell, spell-like ability, or supernatural ability you create. If the creature fails, it takes a \u00e2\u0080\u00932 penalty on all saving throws against your magic effects as long as the gold piece is in its possession. Additionally, if it fails a saving throw against a magic ability of yours that is not harmless and has a duration, the duration is doubled for that creature. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+    }
+  }
+}

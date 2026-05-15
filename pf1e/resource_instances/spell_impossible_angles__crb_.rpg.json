@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "impossible_angles__crb_",
+    "name": {
+      "value": "Impossible Angles"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a melted prism)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "contiguous area up to one 5-foot cube/ caster level (S)"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You cause the surrounding area to appear to distort. The angles and corners of the area subtly twist and contort, creating unnatural and impossible shapes. Any creature entering the area must succeed at a Will save or become disoriented. Disoriented characters treat the area as difficult terrain and are sickened. In addition, whenever a disoriented creature uses an action to move (including taking a 5-foot step if it can do so in difficult terrain), roll 1d8 to see which direction it moves, in a similar manner to determining where a splash weapon lands on a miss. On a 1, the creature moves in its intended direction, with 2 through 8 rotating around the creature\u00e2\u0080\u0099s starting square in a clockwise direction. Only the creature\u00e2\u0080\u0099s first 5 feet of movement each round are affected in this way\u00e2\u0080\u0094it can move normally for any remaining movement, either from the same action or from later actions, as the creature acclimatizes to the distortion. An affected creature can attempt a new Will save each round to end the disoriented effect. A creature that leaves the area and re-enters must attempt the saving throw again, even if it succeeded at its initial save. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

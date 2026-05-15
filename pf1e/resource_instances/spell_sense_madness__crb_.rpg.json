@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sense_madness__crb_",
+    "name": {
+      "value": "Sense Madness"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "medium",
+        "occultist",
+        "oracle",
+        "paladin",
+        "psychic"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "creatures in range (see text)"
+    },
+    "duration": {
+      "value": "concentration , up to 1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of madness or addiction, has total sanity damage greater than or equal to its sanity edge (if using the sanity rules ), or is under a magical compulsion that could be detected by detect magic, you can detect the presence of such a disturbance on the first round of concentration. If you concentrate on the same creature for an additional round, you learn if the creature\u00e2\u0080\u0099s total sanity damage is greater than or equal to its sanity edge, and you can attempt a Sense Motive check against a DC equal to 10 + the save DC of the target\u00e2\u0080\u0099s madness or addiction to determine the exact nature of a madness or addiction. Additionally, you can attempt a Spellcraft check with a DC equal to 11 + the caster level of the compulsion against each magical compulsion currently affecting the target that could be detected by detect magic. If successful, you can identify the specific spell affecting the target. You gain a +4 bonus on your Spellcraft check if the effect is confusion, insanity, or a similar effect that explicitly causes madness or insanity. If you successfully identify such an effect with sense madness, the insights provided by this spell grant you a +1 circumstance bonus on your next caster level check in the following 1 minute made to counter, dispel, or remove that specific effect. After attempting a check to identify a madness, addiction, or compulsion, you can\u00e2\u0080\u0099t attempt that check against the same creature again, even if you concentrate on the creature again. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

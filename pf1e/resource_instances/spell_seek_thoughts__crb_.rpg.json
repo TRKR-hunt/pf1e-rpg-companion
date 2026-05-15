@@ -1,0 +1,59 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "seek_thoughts__crb_",
+    "name": {
+      "value": "Seek Thoughts"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a handful of copper coins)"
+    },
+    "range": {
+      "value": "40 ft."
+    },
+    "area": {
+      "value": "40-ft.-radius emanation centered on you"
+    },
+    "duration": {
+      "value": "concentration , up to 1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Similar to detect thoughts, seek thoughts allows you to sift through the surface thoughts of those around you. You may scan for either the answer to a simple question (such as \u201cWhere is the hidden lair of the wererats?\u201d) or for information on a general topic (such as the beliefs of an evil cult). You detect the number of creatures who are thinking about this question or topic within range, as well as their location if they are visible to you. Seek thoughts does not let you read actual surface thoughts, only if a given creature is thinking about the topic you are concentrating on. A successful Will save prevents you from sensing a creature\u2019s thoughts for the duration of the spell. You can maintain concentration on seek thoughts while you engage in normal conversation, allowing you to ask leading questions about topics of interest. A creature conversing with you while you concentrate can notice that you are distracted with a successful DC 25 Sense Motive check. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

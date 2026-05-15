@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "vampiric_hunger__crb_",
+    "name": {
+      "value": "Vampiric Hunger"
+    },
+    "source": {
+      "value": "faiths_of_corruption"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The target of this spell grows the fangs of a vampire, as well as a thirst for blood. For the duration of this spell, the target gains the ability to drain an opponent\u00e2\u0080\u0099s blood during a grapple; if the target establishes or maintains a pin, it drains blood, dealing 1d4 points of Constitution damage. Each round it drains blood in this way, the target heals 5 hit points or gains 5 temporary hit points for the duration of the spell (up to a maximum number of temporary hit points equal to its full normal hit points ). If the target does not drain blood in this way while under the effects of this spell, it becomes exhausted at the end of the spell\u00e2\u0080\u0099s duration. Section 15: Copyright Notice Pathfinder Player Companion: Faiths of Corruption \u00c2\u00a9 2011, Paizo Publishing, LLC; Author: Colin McComb."
+    }
+  }
+}

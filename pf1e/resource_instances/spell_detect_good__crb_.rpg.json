@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "detect_good__crb_",
+    "name": {
+      "value": "Good"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": ""
+    },
+    "components": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": ""
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like detect evil, except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil."
+    }
+  }
+}

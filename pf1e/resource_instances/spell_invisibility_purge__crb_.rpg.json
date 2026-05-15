@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "invisibility_purge__crb_",
+    "name": {
+      "value": "Invisibility Purge"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "occultist",
+        "oracle",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 min./level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You surround yourself with a sphere of power with a radius of 5 feet per caster level that negates all forms of invisibility. Anything invisible becomes visible while in the area. Editor\u2019s Note Does invisibility purge work on creatures that are naturally invisible? In general, yes\u2013nothing in the spell description says it only works on spells or other magical sources of invisibility. However, note that the invisible stalker\u2019s natural invisibility specifically says that it is not subject to invisibility purge. Thus, will-o\u2019-wisps and pixies become visible, but invisible stalkers do not. [ Source ]"
+    }
+  }
+}

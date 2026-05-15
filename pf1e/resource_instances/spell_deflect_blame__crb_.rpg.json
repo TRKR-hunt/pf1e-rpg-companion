@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "deflect_blame__crb_",
+    "name": {
+      "value": "Deflect Blame"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You can cast this spell immediately after attacking a creature, causing that creature to believe that a different creature that threatens it was responsible for the attack rather than you. You can instead cast this spell immediately after a failed Bluff, Diplomacy, or Intimidate check, causing the target of that check to believe that a different creature you designate within spell range was responsible for the content of that failed check. Using the spell in these ways doesn\u2019t compel the target to undertake a specific action in response to its belief of where the blame lies. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

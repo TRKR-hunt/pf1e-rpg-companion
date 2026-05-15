@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "erode_defenses__crb_",
+    "name": {
+      "value": "Erode Defenses"
+    },
+    "source": {
+      "value": "dragonslayers_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S EFFECTS"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./level)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (see below)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Your spell slowly begins to eat away at the defenses of your target. If the target fails its saving throw, it loses 1 point from any damage reduction and natural armor bonus it may have. If the initial save was not successful, the target may attempt a new saving throw each round for the duration of the spell or continue to suffer cumulative losses. If the first save fails but a subsequent save succeeds, the eroding effects stop at that point, though any of the penalties already accrued remain until the spell expires. At the end of the spell\u2019s duration, the target\u2019s damage reduction and natural armor bonus immediately return to normal. Only one erode defenses spell can affect a particular target at any one time. Section 15: Copyright Notice Pathfinder Player Companion: Dragonslayer\u2019s Handbook \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Marie Small, and Jerome Virnich."
+    }
+  }
+}

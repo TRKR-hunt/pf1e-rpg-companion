@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "eldritch_conduit__crb_",
+    "name": {
+      "value": "Eldritch Conduit"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a small mirror)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level 1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "If the target of this spell fails to resist its effects with a Will save, he becomes outlined in faint radiance, as if via faerie fire. At any time before the eldritch conduit expires, you may cast another spell with an area effect of cone, cylinder, line, or sphere and use the subject of the eldritch conduit as the point of origin for that spell. Doing so ends the spell immediately. The target must be within close range (25 feet + 5 feet/2 levels) in order for you to use the conduit\u00e2\u0080\u0094if the target moves out of range, the eldritch conduit effect persists but cannot be utilized by you until you get back within range. Eldritch Conduit, Greater This spell functions like eldritch conduit save for the differences listed above and that the target must be within medium range (100 ft. + 10 ft./level) in order for you to use the conduit. Using a creature as a conduit for a spell ends the greater eldritch conduit effect on that creature, but does not end the effect for other eldritch conduits. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ray_of_exhaustion__crb_",
+    "name": {
+      "value": "ray of exhaustion"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "druid",
+        "magus",
+        "mesmerist",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a drop of sweat)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 min./level"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "A black ray projects from your pointing finger. You must succeed on a ranged touch attack with the ray to strike a target. The subject is immediately exhausted for the spell\u2019s duration. A successful Fortitude save means the creature is only fatigued. A character that is already fatigued instead becomes exhausted. This spell has no effect on a creature that is already exhausted. Unlike normal exhaustion or fatigue, the effect ends as soon as the spell\u2019s duration expires."
+    }
+  }
+}

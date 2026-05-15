@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "minor_creation__crb_",
+    "name": {
+      "value": "Minor Creation"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, M (a tiny piece of matter of the same sort of item you plan to create with minor creation )"
+    },
+    "range": {
+      "value": "0 ft."
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You create a non-magical, unattended object of nonliving vegetable matter. The volume of the item created cannot exceed 1 cubic foot per caster level. You must succeed on an appropriate Craft skill check to make a complex item. Attempting to use any created object as a material component causes the spell to fail."
+    }
+  }
+}

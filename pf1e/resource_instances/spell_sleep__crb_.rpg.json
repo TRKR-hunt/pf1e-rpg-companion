@@ -3,38 +3,43 @@
   "stats": {
     "id": "sleep__crb_",
     "name": {
-      "value": "Sleep"
+      "value": "sleep"
     },
     "source": {
       "value": "crb"
     },
     "level": {
-      "value": "spell_level_1"
+      "value": "spell_level_0"
     },
     "school": {
       "value": "enchantment"
     },
     "classes": {
       "value": [
+        "bard",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "shaman",
         "sorcerer",
-        "wizard",
-        "bard"
+        "witch",
+        "wizard"
       ]
     },
     "casting_time": {
       "value": "1 round"
     },
     "components": {
-      "value": "V, S, M"
+      "value": "V, S, M (fine sand, rose petals, or a live cricket)"
     },
     "range": {
-      "value": "medium (100 ft + 10 ft/level)"
+      "value": "medium (100 ft. + 10 ft./level)"
     },
     "area": {
-      "value": "one or more living creatures within a 10-ft-radius burst"
+      "value": "one or more living creatures within a 10-ft.-radius burst"
     },
     "duration": {
-      "value": "1 min/level"
+      "value": "1 min./level"
     },
     "saving_throw": {
       "value": "Will negates"
@@ -43,7 +48,7 @@
       "value": "yes"
     },
     "description": {
-      "value": "Puts 4 HD of creatures into magical slumber. Creatures with 5+ HD unaffected."
+      "value": "A sleep spell causes a magical slumber to come upon 4 HD of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell\u2019s point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Sleeping creatures are helpless. Slapping or wounding awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action). Sleep does not target unconscious creatures, constructs, or undead creatures. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
     }
   }
 }

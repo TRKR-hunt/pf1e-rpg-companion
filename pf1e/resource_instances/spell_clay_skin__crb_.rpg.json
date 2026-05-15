@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "clay_skin__crb_",
+    "name": {
+      "value": "Clay Skin"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (clay and iron filings)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level or until discharged"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The target\u00e2\u0080\u0099s skin becomes as thick and tough as clay, granting the target DR 5/ adamantine. Once the spell has prevented a total of 5 points of damage per caster level (maximum 50 points), it is discharged and the spell ends. Section 15: Copyright Notice Pathfinder Player Companion: Potions & Poisons \u00c2\u00a9 2017, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Nathan King, Lyz Liddell, Luis Loza, Alex Putnam, Alex Riggs, and David Schwartz."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "feather_step__crb_",
+    "name": {
+      "value": "Feather Step"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "druid",
+        "psychic",
+        "ranger"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature one creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "For the duration of this spell, the subject ignores the adverse movement effects of difficult terrain, and can even take 5-foot steps in difficult terrain. Feather Step, Mass As feather step, except this spell affects multiple creatures. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

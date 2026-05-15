@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "consecrate__crb_",
+    "name": {
+      "value": "Consecrate"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a vial of holy water and 25 gp worth of silver dust), DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "20-ft.-radius emanation"
+    },
+    "duration": {
+      "value": "2 hours/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell blesses an area with positive energy. The DC to resist positive channeled energy within this area gains a +3 sacred bonus. Every undead creature entering a consecrated area suffers minor disruption, suffering a -1 penalty on attack rolls, damage rolls, and saves. Undead cannot be created within or summoned into a consecrated area. If the consecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or aligned higher power, the modifiers given above are doubled (+6 sacred bonus to positive channeled energy DCs, -2 penalties for undead in the area). You cannot consecrate an area with a similar fixture of a deity other than your own patron. Instead, the consecrate spell curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above. Consecrate counters and dispels desecrate. Mythic Consecrate Select one alignment component that you have ( chaotic, good, or lawful ). The spell\u2019s penalty on attack rolls, damage rolls, and saves also affects outsiders with the opposite alignment subtype as if they were undead. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

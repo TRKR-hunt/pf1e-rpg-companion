@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "release_the_hounds__crb_",
+    "name": {
+      "value": "Release the Hounds"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "druid",
+        "shaman",
+        "sorcerer",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (shards of a canine\u2019s fang)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell summons a pack of canines that respond to the spellcaster\u2019s commands and act in perfect unison, causing them to function like a swarm. The pack uses the statistics for a winter wolf, except it loses its breath weapon, the cold subtype, and its cold special attack and gains the swarm subtype, a swarm attack that deals 3d6 points of damage, and the distraction special attack (DC 17). Whenever the pack damages an opponent with its swarm attack, it can immediately attempt a trip combat maneuver check against that creature with its trip special attack. The pack does not gain any damage reduction or immunity to damage and can be attacked by effects that target a specific number of creatures, though such attacks deal 1/4 the normal amount of damage (25%) and effects that don\u2019t deal hit point damage are only 25% likely to work. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

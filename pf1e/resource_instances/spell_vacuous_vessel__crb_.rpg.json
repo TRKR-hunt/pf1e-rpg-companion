@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "vacuous_vessel__crb_",
+    "name": {
+      "value": "Vacuous Vessel"
+    },
+    "source": {
+      "value": "black_markets"
+    },
+    "level": {
+      "value": "spell_level_0"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "container touched"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates; see text"
+    },
+    "spell_resistance": {
+      "value": "yes; see text"
+    },
+    "description": {
+      "value": "This spell makes a single bag, chest, sack, or other container look and feel empty. The container must be no larger than 1 cubic foot per caster level or the spell fails. Anyone peering into or reaching into the container must succeed at a Will save or perceive the container as being completely empty. All items within the container when the spell was cast are still present, but they can\u2019t be noticed unless removed from the bag\u00e2\u0080\u0094such as by someone who can perceive them, or who upends the container. Casting vacuous vessel on another container or placing a new item in the existing container immediately dismisses the currently active spell. Section 15: Copyright Notice Pathfinder Player Companion: Black Markets \u00c2\u00a9 2015, Paizo Inc.; Authors: Ron Lundeen, Jason Nelson, David N. Ross, and David Schwartz."
+    }
+  }
+}

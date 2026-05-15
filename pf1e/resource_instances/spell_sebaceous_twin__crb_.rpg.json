@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sebaceous_twin__crb_",
+    "name": {
+      "value": "Sebaceous Twin"
+    },
+    "source": {
+      "value": "prisoner_of_the_blight"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S EFFECTS"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creature touched"
+    },
+    "duration": {
+      "value": "1 round/level (see text)"
+    },
+    "saving_throw": {
+      "value": "none (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "By touching a living target, you cause a half-formed, parasitic clone of the target to burst from its midsection. The twin dangles from the target\u00e2\u0080\u0099s body, making it difficult for the target to move easily and imparting a \u00e2\u0080\u00932 penalty on Acrobatics and Climb checks. In addition, for the spell\u00e2\u0080\u0099s duration, the target must succeed at a Fortitude saving throw at the start of its turn each round, or else it takes 1 point of Constitution damage and is sickened for that round as the twin siphons off its blood. Each time the target receives any healing (magical or otherwise), the duration of this spell is extended by 1 round. Each attack that deals damage to the target reduces the duration of this spell by 1 round. If the duration reaches 0 rounds in this manner, the twin is violently excised from the body, and the target takes 1d6 points of bleed damage (which can be healed as normal). The effect of sebaceous twin counts as a disease effect with a DC equal to the spell\u00e2\u0080\u0099s saving throw DC. Section 15: Copyright Notice Pathfinder Adventure Path #119: Prisoner of the Blight \u00c2\u00a9 2017, Paizo Inc.; Authors: Amanda Hamon Kunz, with Paris Crenshaw, Crystal Frasier, Jason Keeley, Isabelle Lee, and Larry Wilhelm."
+    }
+  }
+}

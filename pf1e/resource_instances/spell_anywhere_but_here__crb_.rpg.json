@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "anywhere_but_here__crb_",
+    "name": {
+      "value": "Anywhere But Here"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "psychic",
+        "sorcerer",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "you and up to four willing creatures, none of whom can be on their home plane"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions similarly to plane shift, but instead of transporting the targets to a destination near an intended location on a specific plane, anywhere but here transports affected creatures to a random plane. A creature can be affected by anywhere but here only if it is currently not on its home plane (although targets can, by chance, end up traveling to their home plane as a result of this spell). Subjects always appear in a location that is not inherently harmful, but the exact destination is otherwise random. The specific plane is determined by the table below; the location on the destination plane where the transported creatures arrive is completely subject to the GM\u00e2\u0080\u0099s whim. d% Planar Destination 1\u00e2\u0080\u00937 Abyss 8\u00e2\u0080\u009314 Abaddon 15\u00e2\u0080\u009320 Hell 21\u00e2\u0080\u009324 Shadow Plane 25\u00e2\u0080\u009328 Fey World 29\u00e2\u0080\u009335 Maelstrom 36\u00e2\u0080\u009342 Boneyard 43\u00e2\u0080\u009349 Axis 50\u00e2\u0080\u009356 Ethereal Plane 57\u00e2\u0080\u009363 Elysium 64\u00e2\u0080\u009370 Nirvana 71\u00e2\u0080\u009377 Heaven 78\u00e2\u0080\u009384 Astral Plane 85\u00e2\u0080\u009390 Random demiplane 91\u00e2\u0080\u009395 Material Plane (random world) 96\u00e2\u0080\u0093100 GM\u00e2\u0080\u0099s choice A creature that is transported by anywhere but here cannot be affected by a subsequent casting of anywhere but here for 24 hours afterward (but can be affected normally by other forms of planar travel). Section 15: Copyright Notice Pathfinder Roleplaying Game Planar Adventures \u00c2\u00a9 2018, Paizo Inc.; Authors: Robert Brookes, John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, James Jacobs, Isabelle Lee, Lyz Liddell, Ron Lundeen, Joe Pasini, Lacy Pellazar, Jessica Price, Mark Seifter, F. Wesley Schneider, Todd Stewart, James L. Sutter, and Linda Zayas-Palmer."
+    }
+  }
+}

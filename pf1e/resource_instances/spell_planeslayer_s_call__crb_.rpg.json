@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "planeslayer_s_call__crb_",
+    "name": {
+      "value": "Planeslayer\u2019s Call"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "occultist",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "20 ft."
+    },
+    "area": {
+      "value": "allies within a 20-ft.-radius burst centered on you"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes , and their spells ignore the first 10 points of energy resistance (but not energy immunity ). This spell gains the alignment descriptor that is opposite the outsider alignment chosen. For example, if you choose for the spell to affect evil outsiders , then this spell has the good descriptor . Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor"
+    },
+    "description": {
+      "value": "The magic of your allies in the area becomes more potent against certain outsiders. Chose one alignment subtype (chaotic, evil, good, or lawful). Against outsiders with that alignment component or subtype, your allies in the area gain a +2 bonus on caster level checks to overcome"
+    }
+  }
+}

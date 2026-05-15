@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "contagious_suggestion__crb_",
+    "name": {
+      "value": "Contagious Suggestion"
+    },
+    "source": {
+      "value": "blood_of_the_beast"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./level)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "1 hour/level or until completed (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions as per suggestion, except the target can pass on the enchantment to other targets. The target is compelled to communicate your suggestion to another creature, forcing the new target to attempt a saving throw as if it were the initial target. If a secondary target successfully saves, the suggestion effect on the initial target isn\u00e2\u0080\u0099t negated. If a secondary target fails, it is placed under the same compulsion as the initial target and can further spread the suggestion. This spell can affect a total number of Hit Dice of creatures equal to your caster level. Creatures that save against this spell cannot be affected by that particular casting of contagious suggestion for 24 hours. Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Beast \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, John Compton, and Crystal Frasier."
+    }
+  }
+}

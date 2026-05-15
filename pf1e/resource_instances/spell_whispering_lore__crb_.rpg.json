@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "whispering_lore__crb_",
+    "name": {
+      "value": "Whispering Lore"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "medium",
+        "oracle",
+        "psychic",
+        "ranger",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 full-round action"
+    },
+    "components": {
+      "value": "V, S, M/DF (an owl\u2019s beak)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Upon casting this spell, you are able to gain knowledge from the land itself. As you walk through the terrain, it whispers information in a language you understand, though the whispering is so rambling it is hard to distinguish useful information. This whispering grants you a +4 insight bonus on a single Knowledge skill type appropriate to the type of terrain you are in. If you are within a cold, desert, forest, jungle, mountain, plains, swamp, or water environment, you gain the bonus on Knowledge (nature) checks. If you are within an underground environment, you gain the bonus on Knowledge (dungeoneering) checks. If you are within an urban environment, you gain the bonus on Knowledge (local) checks. If you are on a plane other than the Material Plane, you gain the bonus on Knowledge (planes) checks. If you enter a new terrain, you lose the previous terrain\u2019s skill bonus and gain the new bonus. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

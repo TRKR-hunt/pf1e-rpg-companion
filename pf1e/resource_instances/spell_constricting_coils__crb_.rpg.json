@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "constricting_coils__crb_",
+    "name": {
+      "value": "Constricting Coils"
+    },
+    "source": {
+      "value": "sanctum_of_the_serpent_god"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a snakeskin)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "1 round/level (D); see text"
+    },
+    "saving_throw": {
+      "value": "Will negates; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions like hold monster, except that the target is constricted as if by the coils of a large snake, taking 1d6+6 points of bludgeoning damage each round that it fails its save. A successful save ends both the paralyzing and constriction effects. Section 15: Copyright Notice Pathfinder Adventure Path #42: Sanctum of the Serpent God. \u00c2\u00a9 2011, Paizo Publishing, LLC; Author: Neil Spicer."
+    }
+  }
+}

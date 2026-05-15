@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "deathwatch__crb_",
+    "name": {
+      "value": "Deathwatch"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "medium",
+        "oracle",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "cone-shaped emanation"
+    },
+    "duration": {
+      "value": "10 min./level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Using the powers of necromancy, you can determine the condition of creatures near death within the spell\u2019s range. You instantly know whether each creature within the area is dead, fragile (alive and wounded, with 3 or fewer hit points left), fighting off death (alive with 4 or more hit points), healthy, undead, or neither alive nor dead (such as a construct). Deathwatch sees through any spell or ability that allows creatures to feign death. Editor\u2019s Note Does deathwatch detect things you can\u2019t see? The following information was provided by Michael Brock, who previously served as Pathfinder Society\u2019s campaign coordinator. He is not a developer, but this information likely applies to PFS organized play: \u201cIt is intended to be used only on creatures already perceived.\u00c2\u00a0You have to be able to see the creature to instantly know whether each creature within the area is dead, fragile (alive and wounded, with 3 or fewer hit points left), fighting off death (alive with 4 or more hit points), healthy, undead, or neither alive nor dead (such as a construct).\u00c2\u00a0It doesn\u2019t magically advise or let you see or know there is an invisible creature or a very stealthy creature in the area and what the health and condition of that creature is.\u201d [ Source ]"
+    }
+  }
+}

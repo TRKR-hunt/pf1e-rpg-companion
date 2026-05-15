@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shield_of_darkness__crb_",
+    "name": {
+      "value": "Shield of Darkness"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "shaman",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You shield yourself with darkness, reducing the illumination level in your space to magical darkness and granting you total concealment. Your opponents are automatically aware of which squares you occupy, preventing you from attempting Stealth checks using this concealment unless every square adjacent to you has an illumination level of darkness or lower. Shield of darkness does not hinder your vision, and creatures that can see in magical darkness ignore this effect. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

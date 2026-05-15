@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "vengeful_comets__crb_",
+    "name": {
+      "value": "Vengeful Comets"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level or until completely discharged (see below)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell causes a number of miniature comets (up to one per four caster levels) to orbit in the air above your head. Bits of snow and cold wind drift down from the orbiting comets, granting you a circumstance bonus equal to the number of comets on all saving throws against fire effects. The actual use for the comets, though, is to make vengeful strikes against foes who dare to target you with offensive spells. As an immediate action whenever you are affected by a spell cast by another creature, you can fire one of your vengeful comets as a bolt of icy retribution (provided the source of the offensive spell is within range of your vengeful comet, of course). The comet requires a ranged touch attack to hit. If it hits, a comet deals 1d6 points of bludgeoning damage and 3d6 points of cold damage to the target, plus an additional amount of cold damage equal to the level of the spell you are retaliating against. If the spell you\u00e2\u0080\u0099re retaliating against had the fire descriptor, you may opt to fire two comets instead of one. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

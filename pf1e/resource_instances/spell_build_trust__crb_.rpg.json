@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "build_trust__crb_",
+    "name": {
+      "value": "Build Trust"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "mesmerist",
+        "oracle",
+        "paladin",
+        "psychic"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a gold piece)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 day/level; see text"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You get a sense of the best way to interact with the target in order to encourage positive regard and fellowship toward you. You gain a +2 circumstance bonus on all Charisma checks and Charisma -based skill checks you attempt when interacting with the target. In addition, whenever you fail a Charisma check or Charisma -based skill check when interacting with the target, you can reroll the check as an immediate action. Attempting this reroll grants the target a new saving throw to end the spell. The target doesn\u2019t become hostile to you when the spell ends, but it does become disillusioned of its new trust in you. Attacking the target or taking an obvious hostile action against it automatically ends the spell. If you are using the contacts rules, your trust score with the target increases by 1 for the duration of the spell. If you\u2019re using the individual influence system, if the target fails its initial saving throw you learn one of its influence skills, strengths, or weaknesses as though you had succeeded at a discovery check. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

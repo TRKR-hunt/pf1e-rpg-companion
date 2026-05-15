@@ -1,0 +1,61 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "bull_s_strength__crb_",
+    "name": {
+      "value": "Bull\u2019s Strength"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "bloodrager",
+        "cleric",
+        "druid",
+        "magus",
+        "medium",
+        "oracle",
+        "paladin",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a few hairs, or a pinch of dung, from a bull)"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 min./level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier. Bull\u2019s Strength, Mass This spell functions like bull\u2019s strength, except that it affects multiple creatures. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

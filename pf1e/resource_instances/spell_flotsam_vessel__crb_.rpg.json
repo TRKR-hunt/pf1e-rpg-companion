@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "flotsam_vessel__crb_",
+    "name": {
+      "value": "Flotsam Vessel"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "ranger",
+        "summoner"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, M (driftwood branch or river rat\u2019s tail)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell assembles a sturdy raft and oars from driftwood, reeds, and other river detritus. The smallest raft created by the spell is roughly 5 feet square, increasing by an additional 5 feet square for every 2 caster levels you possess. Each 5-foot section of the raft can carry two Medium passengers or 300 pounds of cargo. The vessel functions as a normal raft, except it is not slowed or damaged by non-magical river hazards such as rapids or shallows, and it is always considered to be traveling downstream for the purpose of calculating travel speed, regardless of its actual direction. Section 15: Copyright Notice Pathfinder Player Companion: People of the River \u00c2\u00a9 2014, Paizo Inc.; Authors: Tim Akers, Jason Brick, Ethan Day-Jones, James Jacobs, Nick Salestrom, David Schwartz, and William Thrasher."
+    }
+  }
+}

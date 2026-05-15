@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "allied_cloak__crb_",
+    "name": {
+      "value": "Allied Cloak"
+    },
+    "source": {
+      "value": "adventurer_s_armory_2"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (cloak or outer garment)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You cause a cloak, shawl, poncho, or other outer garment you are wearing to animate to aid and defend you. The cloak provides a +2 shield bonus to your AC. In addition, once each round during your turn, you can take a free action to direct your cloak to use the aid another action to assist your skill check, attack roll, or AC. The cloak has an attack bonus or a total skill bonus equal to your caster level plus your key spellcasting ability score modifier ( Charisma for bards, Intelligence for wizards, and so on). If another creature dons the cloak during the duration, the cloak provides its protection and aid to the wearer, but it still uses the same bonus on the aid another actions as if you were the wearer. The cloak cannot take any other type of action. Section 15: Copyright Notice Pathfinder Player Companion: Adventurer\u00e2\u0080\u0099s Armory 2 \u00c2\u00a9 2017, Paizo Inc.; Authors: Jenny Jarzabski, Mikko Kallio, Isabelle Lee, Luis Loza, Joe Pasini, David N. Ross, and Linda Zayas-Palmer. Book of Magic: Spell Codex Volume 1. \u00c2\u00a9 2022, Jon Brazer Enterprises"
+    }
+  }
+}

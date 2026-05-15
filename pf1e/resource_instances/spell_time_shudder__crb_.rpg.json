@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "time_shudder__crb_",
+    "name": {
+      "value": "Time Shudder"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "psychic",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a tiny hourglass )"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "30-ft.-radius emanation centered on you"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You cause a ripple in time that affects all creatures in the area. At the start of each creature\u2019s turn, there is a 50% chance the creature is hasted (as haste ); otherwise it is slowed (as slow ). Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "heckle__crb_",
+    "name": {
+      "value": "Heckle"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "magus",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a tomato)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "1 creature"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You badger and nitpick the subject of your spell until its mood sours. The target\u00e2\u0080\u0099s attitude shifts one category toward hostile regarding you and everyone within 30 feet of the target at the time the spell is cast. The target also takes a \u00e2\u0080\u00932 penalty on attack rolls, on saving throws, and on ability and skill checks that rely on Intelligence, Wisdom, or Charisma. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+    }
+  }
+}

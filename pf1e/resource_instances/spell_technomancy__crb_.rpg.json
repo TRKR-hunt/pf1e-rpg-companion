@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "technomancy__crb_",
+    "name": {
+      "value": "Technomancy"
+    },
+    "source": {
+      "value": "technology_guide"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (oil stirred with a coil of wires)"
+    },
+    "range": {
+      "value": "60 ft."
+    },
+    "area": {
+      "value": "cone-shaped emanation"
+    },
+    "duration": {
+      "value": "3 rounds/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions as detect magic, except it detects the presence of technological objects instead of magical objects. The spell grants you the Technologist feat for the purposes of attempting Knowledge (engineering) checks to identify the properties of technological items in your possession. If you already possess this feat, you gain a +10 bonus on Knowledge (engineering) checks to identify item properties. Section 15: Copyright Notice Pathfinder Campaign Setting: Technology Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor."
+    }
+  }
+}

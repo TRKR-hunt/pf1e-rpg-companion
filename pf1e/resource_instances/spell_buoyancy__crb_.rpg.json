@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "buoyancy__crb_",
+    "name": {
+      "value": "Buoyancy"
+    },
+    "source": {
+      "value": "pirates_of_the_inner_sea"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one Medium or smaller object or creature/level, no two of which can be more than 20 ft. apart"
+    },
+    "duration": {
+      "value": "up to 1 round/level (see text)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless) or Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "The affected creatures or objects become incredibly buoyant. The affected creatures (including gear and carried objects up to each creature\u00e2\u0080\u0099s maximum load) and objects naturally float on any water at least 1 foot deep. An affected creature that deliberately tries to submerge must succeed at a DC 20 Swim check every round to stay underwater. The spell ends if the creature or object spends at least 1 round on dry land. Section 15: Copyright Notice Pathfinder Player Companion: Pirates of the Inner Sea \u00c2\u00a9 2012, Paizo Publishing, LLC; Author: Amber E. Scott."
+    }
+  }
+}

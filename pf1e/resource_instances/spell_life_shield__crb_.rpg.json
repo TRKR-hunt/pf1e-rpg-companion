@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "life_shield__crb_",
+    "name": {
+      "value": "Life Shield"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "S, DF"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level or until discharged"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You surround yourself with a positive energy field that damages undead opponents. Each time an undead creature damages you with a melee attack, that creature takes an amount of positive energy damage equal to half the damage it dealt to you. This damage is calculated after applying your damage reduction, resistances, and other defenses. Once this spell has dealt 5 points of damage per caster level (maximum 50), it is discharged. Section 15: Copyright Notice Pathfinder Player Companion: Undead Slayer\u2019s Handbook \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Dennis Baker, Jay Loomis, Alex Putnam, Adam Roy, Tork Shaw, and Larry Wilhelm."
+    }
+  }
+}

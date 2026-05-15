@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "create_soul_gem__crb_",
+    "name": {
+      "value": "Create Soul Gem"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_book_of_the_damned"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, F (crystal lens worth 500 gp)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one dying or recently dead creature"
+    },
+    "duration": {
+      "value": "1 day/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You draw forth the ebbing life force of a dying creature or one that has died in the past round, focusing it through a crystal lens focus to transform into a soul gem. If the creature is alive and fails its saving throw, it dies and you capture its soul in the gem. If the creature is dead, it can still resist the spell effect by attempting a Will save as if it were still alive. The value of the soul gem created depends on the nature of the creature it is made from. Soul gems created by this spell crumble to dust once the spell\u2019s duration expires, releasing the trapped soul to travel on to judgment in the Great Beyond. Only one soul gem can be created from a dying creature. Any attempt to resurrect a body whose soul is trapped in a soul gem requires a caster check against create soul gem\u2019s save DC. Failure results in the resurrection spell having no effect, while success shatters the target\u2019s soul gem and returns the creature to life as normal. If the soul gem resides in an unholy location, such as that created by the unhallow spell, the DC of this check increases by 2. If you are a souldrinker, you can cast this spell and expend 5 soul points to fill the gem with the equivalent of one basic soul. Section 15: Copyright Notice Pathfinder Roleplaying Game Book of the Damned \u00c2\u00a9 2017, Paizo Inc.; Authors: John Compton, Adam Daigle, Amanda Hamon Kunz, James Jacobs, Isabelle Lee, F. Wesley Schneider, Todd Stewart, and Josh Vogt."
+    }
+  }
+}

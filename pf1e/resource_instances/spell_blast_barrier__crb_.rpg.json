@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "blast_barrier__crb_",
+    "name": {
+      "value": "Blast Barrier"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "ranger",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (handful of snow, earth, or gravel)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "concentration , up to 1 round/2 levels"
+    },
+    "saving_throw": {
+      "value": "Reflex half (see below)"
+    },
+    "spell_resistance": {
+      "value": "yes (see below)"
+    },
+    "description": {
+      "value": "When you cast blast barrier, you cause a rippling wall of loose earth, mud, snow, sand, or gravel to spring up in a designated space within the spell\u00e2\u0080\u0099s range. This wall provides total cover to all Large or smaller creatures and objects. The barrier can only spring up in an area of natural, unworked ground. The energy that forms the wall\u00e2\u0080\u0099s matrix is unstable, and you must concentrate to maintain the wall\u00e2\u0080\u0099s shape. A blast barrier has an AC of 9, hardness 0, and 5 hit points per caster level. When a blast barrier reaches 0 hit points, or when you cease concentrating on maintaining it, the energies that maintain the barrier\u00e2\u0080\u0099s shape fail with explosive results, sending sharp chunks of the materials comprising the wall and magical energy out along both sides. Any creature that is adjacent to a blast barrier when it explodes takes 2d6 points of slashing damage and 1d6 points of sonic damage per 3 caster levels (maximum 6d6). A successful Reflex save halves the total damage done. Spell resistance applies as well. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

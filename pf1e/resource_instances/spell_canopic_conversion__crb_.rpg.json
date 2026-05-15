@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "canopic_conversion__crb_",
+    "name": {
+      "value": "Canopic Conversion"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_9"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, F (four alabaster canopic jars worth 100 gp each), M (black onyx worth 100 gp per hit die of the target)"
+    },
+    "range": {
+      "value": "close (25 f. + 5 f./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude half"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell eviscerates the target, drawing forth his life essence as well as his internal organs. The target takes 1d6 hit points of damage per caster level (maximum 20d6). If this damage kills the target, the spell pulls his organs into a set of 4 canopic jars and seals them; 1d4 rounds later, the corpse revives as an undead with the dune mummy template. The mummy is not under your control, but the canopic jars give the bearer certain powers over it. Anyone holding one of the jars can communicate with the mummy as if they share a common language. The bearer gains the benefits of protection from evil and sanctuary, but only against that mummy. Unsealing or breaking a jar is a standard action, which dissipates its power (and protection) but lets the bearer issue a short command to the mummy, similar to a suggestion spell ( Will DC 23 negates). You (and only you) may unseal all 4 jars in a 10-minute ritual to control the mummy with an effect similar to geas ( Will DC 23 negates); most casters typically include a restriction that the mummy will not harm them, as unsealing the jars leaves them vulnerable. Section 15: Copyright Notice Pathfinder Companion: Osirion, Land of Pharaohs, Copyright 2008, Paizo Publishing, LLC; Authors: Jason Nelson and Todd Stewart."
+    }
+  }
+}

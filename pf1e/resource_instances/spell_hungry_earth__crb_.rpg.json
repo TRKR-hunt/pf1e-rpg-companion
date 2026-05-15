@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hungry_earth__crb_",
+    "name": {
+      "value": "Hungry Earth"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_monster_codex"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "20-foot-radius spread"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "The ground attempts to pull creatures beneath its surface as if hungry for the flesh of mortals. Immediately, and at the beginning of each of your turns, every creature touching the ground within the area of the spell is the target of a grapple combat maneuver. Creatures that enter the area of effect are also automatically attacked. The ground does not provoke attacks of opportunity. The earth\u2019s CMB is equal to 5 + your caster level for the purpose of this combat maneuver check. Attempt the combat maneuver check only once each round and apply the result to all creatures in the area of effect. Each time the ground succeeds at a combat maneuver check to grapple a foe, it drags the creature farther down, eventually forcing the creature below its surface. With the first successful check, the target gains the grappled condition. Grappled opponents can\u2019t move without first breaking the grapple (doing so requires a successful DC 20 combat maneuver or Escape Artist check). The ground receives a +5 bonus on combat maneuver checks to grapple opponents it is already grappling. After the second successful grapple combat maneuver check, the grappled creature is pulled to the ground and becomes prone. On the third successful grapple combat maneuver check, the creature is fully buried and must hold its breath or begin suffocating. A buried creature can\u2019t attempt to escape unless the effect ends or it breaks the grapple. The DC to escape the grapple increases to 25 for a creature that has been pulled beneath the earth. Section 15: Copyright Notice Pathfinder Roleplaying Game Monster Codex \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

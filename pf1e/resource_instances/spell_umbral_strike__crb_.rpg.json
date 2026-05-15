@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "umbral_strike__crb_",
+    "name": {
+      "value": "Umbral Strike"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "inquisitor",
+        "magus",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a black crossbow bolt)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "1 creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You create a bolt of dark energy and use it to make a ranged touch attack that ignores concealment (but not total concealment ). If you hit, the target takes 1d6 points of damage per caster level (maximum 20d6). Half of this damage is cold damage and half of it is negative energy. The bolt\u2019s shadow expands and covers the target, rendering him blind for the duration of the spell. A successful Fortitude save halves the damage and negates the blind condition. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

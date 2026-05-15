@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hunger_for_flesh__crb_",
+    "name": {
+      "value": "Hunger for Flesh"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a ghoul fang)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one humanoid , magical beast , or monstrous humanoid one humanoid , magical beast , or monstrous humanoid /level, no two of which can be more than 30 feet apart"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Your target\u00e2\u0080\u0099s belly distends and its front teeth grow longer and sharper. The creature ravenously craves the flesh of its own kind, gaining the staggered condition as hunger pangs rack its altered body. The target gains a bite attack as a primary natural attack that deals damage appropriate for its size (1d6 if Medium, 1d4 if Small). There\u00e2\u0080\u0099s a 25% chance on each of the creature\u00e2\u0080\u0099s turns that it can\u00e2\u0080\u0099t overcome its hunger. If so, it must move directly toward the nearest corporeal creature of its type and subtype (if applicable) and make a bite attack against it. If the target lacks enough actions to attack on that turn, it moves as close to the creature as it can, but on its next turn, if the percentile dice indicate it overcomes its hunger, the target is not forced to pursue or attack further. On any round after the target deals damage to another creature of its own type and subtype (if applicable) with its bite attack, the target loses the staggered condition. If it doesn\u00e2\u0080\u0099t continue dealing bite damage to applicable creatures, the target regains the staggered condition at the beginning of its next turn. Hunger for Flesh, Mass This spell functions like hunger for flesh, except that it affects multiple targets. When forced to feed by the spell, affected creatures attack creatures not affected by this spell if there are any such appropriate creatures nearby, but otherwise they attack other affected creatures. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "malfunction__crb_",
+    "name": {
+      "value": "Malfunction"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "occultist",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one construct"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This functions as confusion, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity ). Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

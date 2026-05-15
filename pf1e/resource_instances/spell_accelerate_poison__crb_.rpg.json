@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "accelerate_poison__crb_",
+    "name": {
+      "value": "Accelerate Poison"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "occultist",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a thorn)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You hasten the onset of poison in the target. If the poison normally has an onset time, its effects begin immediately. If the poison has no onset time, its frequency is doubled, requiring two saving throws and inflicting damage twice per round or minute, though its duration is halved. Accelerate poison does not change the cure condition for the poison. If the target is affected by more than one poison, you may choose which is affected if you administered the poison; otherwise, randomly determine which poison is affected. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

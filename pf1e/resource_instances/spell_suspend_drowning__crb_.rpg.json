@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "suspend_drowning__crb_",
+    "name": {
+      "value": "Suspend Drowning"
+    },
+    "source": {
+      "value": "blood_of_the_sea"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one Medium or smaller drowning creature/level, no two of which can be more than 20 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The affected creatures immediately\u00e2\u0080\u0094though temporarily\u00e2\u0080\u0094stop drowning and cannot suffocate or drown while this spell is in effect. A target that had been reduced to below 1 hit point from drowning immediately returns to 1 hit point. The magic of this spell allows the targets to breathe, drink, and talk normally for the duration of the spell, but targets cannot inhale to increase the amount of air remaining in their lungs. When the spell effect ends, the target resumes drowning unless it is in an environment that allows it to breathe normally (such as an air-breathing creature returning to the surface) or has obtained a method of breathing normally (such as by consuming a potion of water breathing ). Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Sea \u00c2\u00a9 2017, Paizo Inc.; Author: Amber E. Scott."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "aura_of_distraction__crb_",
+    "name": {
+      "value": "Aura of Distraction"
+    },
+    "source": {
+      "value": "psychic_anthology"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": "20-ft.-radius emanation centered on you"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You emit an aura of subsonic noise and mental imagery that makes concentrating difficult. Any creature within the aura that fails its save takes a \u00e2\u0080\u00935 penalty on concentration checks. A creature must attempt the Will save upon entering the area of the aura, and the penalty ends as soon as the creature leaves the aura. A creature that succeeds at its save is immune to the effects of the aura for this casting of the spell, even if it leaves and reenters the aura, but must attempt another Will save each additional time this spell is cast. You are immune to your own aura of distraction. Section 15: Copyright Notice Pathfinder Player Companion: Psychic Anthology \u00c2\u00a9 2017, Paizo Inc.; Authors: Alexander Augunas, Isabelle Lee, Luis Loza, Alex Riggs, Mark Seifter, Loren Sieg, and Jeremy Smith"
+    }
+  }
+}

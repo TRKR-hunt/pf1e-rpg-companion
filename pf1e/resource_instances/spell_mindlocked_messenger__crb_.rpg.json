@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mindlocked_messenger__crb_",
+    "name": {
+      "value": "Mindlocked Messenger"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one willing living creature"
+    },
+    "duration": {
+      "value": "permanent until discharged (see text)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You speak a short message (up to 10 words per caster level ), implanting both it and the identity of the message\u2019s intended recipient in the mind of a willing creature. The creature is aware of the message and who the recipient is. Any attempt to speak, write, or otherwise communicate the message to anyone other than its intended recipient causes the target to forget the message for 1d6 minutes. Attempts to read the target\u2019s mind (such as with detect thoughts ) or to force the target to reveal the message (such as with torture or magical compulsion ) likewise cause temporary amnesia regarding the message. The target can communicate the message only to someone it believes is the intended recipient, which means that disguises, illusions, and polymorph effects might fool the target into delivering the message. Once the target communicates the message, the message is permanently erased from the target\u2019s memory. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

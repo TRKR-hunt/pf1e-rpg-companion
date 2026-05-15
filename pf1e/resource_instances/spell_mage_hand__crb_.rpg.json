@@ -16,9 +16,17 @@
     },
     "classes": {
       "value": [
+        "bard",
+        "magus",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
         "sorcerer",
-        "wizard",
-        "bard"
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
       ]
     },
     "casting_time": {
@@ -28,10 +36,10 @@
       "value": "V, S"
     },
     "range": {
-      "value": "close (25 ft + 5 ft/2 levels)"
+      "value": "close (25 ft. + 5 ft./2 levels)"
     },
     "area": {
-      "value": "one nonmagical, unattended object up to 5 lb."
+      "value": "one non-magical, unattended object weighing up to 5 lbs."
     },
     "duration": {
       "value": "concentration"
@@ -43,7 +51,7 @@
       "value": "no"
     },
     "description": {
-      "value": "Move target up to 15 ft per round; cannot lift higher than your reach."
+      "value": "You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell\u2019s range. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
     }
   }
 }

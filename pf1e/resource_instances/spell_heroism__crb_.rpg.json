@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "heroism__crb_",
+    "name": {
+      "value": "Heroism"
+    },
+    "source": {
+      "value": "pathfinder_rpg_core_rulebook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "bloodrager",
+        "inquisitor",
+        "medium",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 min./level 1 min./level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks. Heroism, Greater This spell functions like heroism, except the creature gains a +4 morale bonus on attack rolls, saves, and skill checks, immunity to fear effects, and temporary hit points equal to your caster level (maximum 20). Mythic The morale bonus increases to +4 and applies on all checks, attack rolls, saves, and weapon damage rolls. Allies adjacent to the target gain a +4 morale bonus on saves against fear effects. Augmented (3rd): If you expend two uses of mythic power, the target can attempt one additional attack per round when taking a full attack action (as if using a haste spell). The target can use this additional attack ability a number of times equal to your tier. Section 15: Copyright Notice Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

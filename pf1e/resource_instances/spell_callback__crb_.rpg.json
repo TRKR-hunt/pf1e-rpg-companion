@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "callback__crb_",
+    "name": {
+      "value": "Callback"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a crushed grasshopper)"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level) 1 mile/level"
+    },
+    "area": {
+      "value": "your familiar or spirit animal"
+    },
+    "duration": {
+      "value": "10 minutes/level or until expended (see text) 1 hour/level or until expended"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "If the target takes hit point damage while within range of this spell, it immediately teleports to your space (or adjacent to your space) after the damage is applied. If the target is killed, its corpse teleports instead. Optionally, you can specify a number of points of damage for your familiar to take before the spell takes effect, but you must do so when the spell is cast. Once the familiar has teleported back to you, the spell ends. Callback, Greater This spell functions as callback, except as noted above. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Wilderness \u00c2\u00a9 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
+    }
+  }
+}

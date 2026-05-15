@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "liberating_command__crb_",
+    "name": {
+      "value": "Liberating Command"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "medium",
+        "occultist",
+        "oracle",
+        "paladin",
+        "psychic",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "If the target is bound, grappled, or otherwise restrained, he may make an Escape Artist check to escape as an immediate action. He gains a competence bonus on this check equal to twice your caster level (maximum +20). This spell has no effect if the target could not get free by using the Escape Artist skill (for example, if he were under the effects of a hold person spell or paralyzed by Strength damage). Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

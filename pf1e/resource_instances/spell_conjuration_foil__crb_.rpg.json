@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "conjuration_foil__crb_",
+    "name": {
+      "value": "Conjuration Foil"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "medium",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "20-foot radius spread"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "saving_throw": {
+      "value": "Will partial (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "All creatures in the area gain a +4 bonus on saving throws against teleportation effects. If any creature would enter or depart the area via a summoning or teleportation effect, that creature takes 1d6 points of damage per spell level of the triggering effect (or half the HD of the originating creature if the effect has no spell level) and arrives in a random similar location within the triggering effect\u2019s range, rather than the intended destination. A successful Will save halves the damage and negates the altered destination. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "daylight__crb_",
+    "name": {
+      "value": "Daylight"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "inquisitor",
+        "magus",
+        "occultist",
+        "oracle",
+        "paladin",
+        "shaman",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "object touched"
+    },
+    "duration": {
+      "value": "10 min./level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by such light. If daylight is cast on a small object that is then placed inside or under a light-proof covering, the spell\u2019s effects are blocked until the covering is removed. Daylight brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect. Daylight counters or dispels any darkness spell of equal or lower level, such as darkness. Mythic The illumination in the additional 60 foot radius increases to at least normal light regardless of the existing lighting conditions. Creatures that take penalties in bright light double those penalties while in the area of bright light produced by this spell. All other creatures in the area of bright light gain a +2 circumstance bonus on Perception checks and saves to resist fear. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

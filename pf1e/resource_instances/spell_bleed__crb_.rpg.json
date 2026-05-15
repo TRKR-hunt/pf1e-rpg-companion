@@ -1,0 +1,61 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "bleed__crb_",
+    "name": {
+      "value": "Bleed"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_0"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "cleric",
+        "inquisitor",
+        "magus",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "psychic",
+        "ranger",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You cause a living creature that is below 0 hit points but stabilized to resume dying. Upon casting this spell, you target a living creature that has -1 or fewer hit points. That creature begins dying, taking 1 point of damage per round. The creature can be stabilized later normally. This spell causes a creature that is dying to take 1 point of damage. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

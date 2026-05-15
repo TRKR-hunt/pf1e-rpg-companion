@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "enhance_water__crb_",
+    "name": {
+      "value": "Enhance Water"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "1 pint of water/level"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless, object)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless, object)"
+    },
+    "description": {
+      "value": "This spell transforms water into an alcoholic beverage, typically ale, beer, mead, or wine. The alcohol is of middling quality but perfectly drinkable. The spell also serves to remove poisons, diseases, minerals, and other toxins from the water as it transforms. The more contaminants that exist in the water, the darker the ale or the more full-bodied the wine becomes. The beverage\u2019s alcohol content is not affected by the presence or absence of contaminants. This spell does not work on unholy water, potions, or other liquids with magical power. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Gods \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
+    }
+  }
+}

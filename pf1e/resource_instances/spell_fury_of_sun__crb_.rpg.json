@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "fury_of_sun__crb_",
+    "name": {
+      "value": "Fury of the Sun"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You curse the target to suffer unbearable heat. On a failed saving throw, the target is immediately subjected to severe heat, takes 1d4 points of nonlethal damage, and is suffering from heatstroke ( fatigued ). The target must save every 10 minutes as normal for severe heat (starting at DC 15 rather than the DC of this spell). Because this heat is internal, the target cannot avoid it using the normal methods for escaping heat dangers such as Survival checks or finding shade. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

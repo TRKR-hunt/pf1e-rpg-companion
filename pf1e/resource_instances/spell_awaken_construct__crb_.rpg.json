@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "awaken_construct__crb_",
+    "name": {
+      "value": "Awaken Construct"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "24 hours"
+    },
+    "components": {
+      "value": "V, S, M (herbs and oils worth 2,000 gp per HD of target), DF"
+    },
+    "range": {
+      "value": "touch Target mindless construct touched"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You amplify the animating force of a construct to more closely resemble a true soul, granting the construct humanlike sentience. To do so, you must succeed at a Spellcraft check (DC = 15 + the construct\u2019s current Hit Dice ). If the construct\u2019s master (if any) is present, this is an opposed Spellcraft check. You have no special empathy or connection with a creature you awaken\u00e2\u0080\u0094it is a free-willed creature. Golems previously under another creature\u2019s control, either as shield guardians or a golem crafter\u2019s creations, break all connections with that creature. Roll 3d6 to determine the Intelligence score of the awakened construct, and increase its Charisma score by 2d6. It gains feats and skill points according to its new Intelligence score, and the skill points are assigned appropriately for its function, as determined by the GM. An awakened construct speaks one language that its creator spoke, plus one additional language that its creator knew per point of the construct\u2019s Intelligence bonus (if any). Its alignment is determined by the GM, but is usually within one step of its creator\u2019s alignment. This spell doesn\u2019t function on a construct with an Intelligence score. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

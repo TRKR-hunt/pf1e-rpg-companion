@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "echo__crb_",
+    "name": {
+      "value": "Echo"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "druid",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "ranger",
+        "spiritualist",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "S, F (a conch shell)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) or long (400 ft. + 40 ft./level); see text"
+    },
+    "area": {
+      "value": "one 10-ft. cube/level (S)"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will disbelief (if interacted with)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You cause a sound heard in the target area up to 1 round ago and lasting up to 1 round in duration to repeat at a regular interval. the original sound need not have come from the area, but it echoes from the target area at its original full volume. Any special effects of the sound are not duplicated by this spell. If the area is naturally prone to echoes, such as a space surrounded on at least two sides by cliffs or high river banks, the spell\u2019s range is long. Otherwise, the spell\u2019s range is close. You can concentrate as a standard action to alter the echo. You can change it to be any sound audible in the area within the last 1 round, move the apparent source of the sound within the area, or attempt a Bluff check to create a distraction to hide with a bonus equal to your caster level. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Wilderness \u00c2\u00a9 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
+    }
+  }
+}

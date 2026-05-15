@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "fester__crb_",
+    "name": {
+      "value": "Fester"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "inquisitor",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (rotted meat)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature one creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level or 1 round; see text"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Necrotic energy permeates the target, blocking healing abilities. The subject gains Spell Resistance equal to 12 + your caster level against effects that restore hit points or grant temporary hit points. In addition, any healing provided by effects that ignore Spell Resistance (such as fast healing, regeneration, and some spells) are halved. If the target succeeds on a Fortitude Saving Throw, fester lasts only a single round. Fester, Mass This spell functions as fester, except that it affects multiple foes. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

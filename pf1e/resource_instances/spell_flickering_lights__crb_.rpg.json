@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "flickering_lights__crb_",
+    "name": {
+      "value": "Flickering Lights"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "magus",
+        "occultist",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M (a patch of white cloth and a patch of black cloth)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "contiguous area consisting of one 10-foot cube/level (S)"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You cause the illumination in the area to seem to flicker erratically, fluctuating between absolute darkness and blinding brightness. The level of light in the area changes at the start of each creature\u00e2\u0080\u0099s turn, as determined by rolling a percentile die and consulting the following table. d% Illumination level 1\u00e2\u0080\u009310 Supernatural darkness 11\u00e2\u0080\u009325 Darkness 26\u00e2\u0080\u009350 Dim light 51\u00e2\u0080\u009390 Normal light 91\u00e2\u0080\u009300 Bright light Even darkvision can\u00e2\u0080\u0099t see through supernatural darkness (as deeper darkness ). Bright light affects creatures with light blindness or light sensitivity. For the purpose of superseding its effects with higher-level light or darkness spells, flickering lights counts as a light spell when it increases the ambient light level and a darkness spell when it decreases the ambient light level. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

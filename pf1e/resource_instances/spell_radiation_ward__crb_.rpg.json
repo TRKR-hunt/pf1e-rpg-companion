@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "radiation_ward__crb_",
+    "name": {
+      "value": "Radiation Ward"
+    },
+    "source": {
+      "value": "heroes_of_the_darklands"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "A creature warded by this spell gains a +4 bonus on saving throws against radiation-based effects. In addition, the warded creature is immediately aware when it enters an area of radiation, as well as the radiation level (low, medium, high, or severe) suffusing the area. Section 15: Copyright Notice Pathfinder Player Companion: Heroes of the Darklands \u00c2\u00a9 2017, Paizo Inc.; Authors: Robert Brookes, Eleanor Ferron, Michelle Jones, Alex Riggs, and Nicholas Wasko."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "honeyed_tongue__crb_",
+    "name": {
+      "value": "Honeyed Tongue"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "inquisitor",
+        "mesmerist",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, M/DF (a drop of honey)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell augments your diplomacies. While under the effects of spell, you roll two dice each time you make a Diplomacy check to change a creature\u2019s attitude, taking the highest roll. If this results in a roll low enough to reduce the creature\u2019s attitude by a step, that creature gets some clue that you are manipulating it with a spell. Alternatively you can cast this spell before making a Diplomacy check to gather information, gaining a +5 competence bonus on the check. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

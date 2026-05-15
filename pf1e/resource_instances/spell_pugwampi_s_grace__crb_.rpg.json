@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "pugwampi_s_grace__crb_",
+    "name": {
+      "value": "Pugwampi\u2019s Grace"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a pugwampi\u2019s hair)"
+    },
+    "range": {
+      "value": "short (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature (see below)"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The gremlins known as pugwampis infect those around them with a malignant form of unluck\u00e2\u0080\u0094an effect that this spell emulates. If the target fails its Will save, it becomes infused with the so-called \u00e2\u0080\u009cgrace of the pugwampi.\u00e2\u0080\u009d A creature affected by this spell must roll two d20s whenever a situation calls for a d20 roll (such as an attack roll, a skill check, or a saving throw) and must use the lower of the two results generated. As with the aura shed by actual pugwampies, this spell has no effect on animals, gremlins, or gnolls. The effects of this spell are negated as long as a target gains any sort of luck bonus to a d20 roll (such as those granted by a luckstone or divine favor ), but the spell\u00e2\u0080\u0099s duration is not impacted by these effects. If the luck bonus goes away before the pugwampi\u00e2\u0080\u0099s grace effect ends, the unluck returns and remains until the spell\u00e2\u0080\u0099s normal duration runs out. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

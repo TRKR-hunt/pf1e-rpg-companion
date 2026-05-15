@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "open_close__crb_",
+    "name": {
+      "value": "Open/Close"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_0"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (a brass key)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "object weighing up to 30 lbs. or portal that can be opened or closed"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or other container. If anything resists this activity (such as a bar on a door or a lock on a chest), the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less. Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell\u2019s ability to affect. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sessile_spirit__crb_",
+    "name": {
+      "value": "Sessile Spirit"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "medium",
+        "occultist",
+        "oracle",
+        "shaman",
+        "spiritualist",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature or object (see text)"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You reach into the target creature and cause that spirits within to become dormant and inactive. If the target is a medium with a spirit inhabiting its body or a spiritualist with a phantom inhabiting its consciousness (or a member of another class using the spirit or phantom class features), a failed save renders that spirit or phantom powerless, suppressing any benefits the spirit or phantom normally provides to its host, including bonus feats and spells known. If a spirit within the target is a creature using a possession effect, including possess object, possession, or a ghost\u2019s malevolence, the spell targets the possessing creature rather than the creature it inhabits. On a failed save, the possessing spirit isn\u2019t exorcised from the target but is dazed for the duration of the spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

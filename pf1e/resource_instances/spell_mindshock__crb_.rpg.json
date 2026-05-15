@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mindshock__crb_",
+    "name": {
+      "value": "Mindshock"
+    },
+    "source": {
+      "value": "occult_origins"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bloodrager",
+        "inquisitor",
+        "medium",
+        "occultist",
+        "psychic",
+        "shaman",
+        "spiritualist",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You charge yourself with violent psychic energy so attacks you make with weapons, natural weapons, and unarmed strikes cause the target to recall pain suffered in the past. Such attacks deal 1d4 points of nonlethal damage in addition to their normal damage, though creatures immune to mind-affecting or pain effects ignore this additional damage. In addition, when you confirm a critical hit, the target is confused for 1 round by the pain. Creatures immune to critical hits, mind-affecting, or pain effects ignore the confusion. Even if you confirm multiple critical hits while this spell is in effect, an individual creature can only be confused by a single casting of mindshock once. Section 15: Copyright Notice Pathfinder Player Companion: Occult Origins \u00c2\u00a9 2015, Paizo Inc.; Authors: Robert Brookes, Ben McFarland, Jason Nelson, and Mark Seifter."
+    }
+  }
+}

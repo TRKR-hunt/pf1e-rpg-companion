@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "obscure_object__crb_",
+    "name": {
+      "value": "Obscure Object"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (chameleon skin)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one object touched of up to 100 lbs./level"
+    },
+    "duration": {
+      "value": "8 hours (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "This spell hides an object from location by divination (scrying) effects, such as the scrying spell or a crystal ball. Such an attempt automatically fails (if the divination is targeted on the object) or fails to perceive the object (if the divination is targeted on a nearby location, object, or person). Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

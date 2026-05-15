@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "telekinetic_charge__crb_",
+    "name": {
+      "value": "Telekinetic Charge"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one willing creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You telekinetically launch an ally across the battlefield to anywhere within this spell\u00e2\u0080\u0099s range. While moving, your ally is flying just above the ground unless you wish otherwise. Movement from this spell provokes attacks of opportunity as normal, although you can lift your ally over objects or out of enemy reach, as long as your ally remains within this spell\u00e2\u0080\u0099s range. If your ally lands adjacent to an opponent, he can spend an immediate action to make a melee attack against that opponent with a +2 bonus on the attack roll. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

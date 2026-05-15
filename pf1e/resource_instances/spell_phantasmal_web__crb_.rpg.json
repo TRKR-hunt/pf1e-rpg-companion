@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "phantasmal_web__crb_",
+    "name": {
+      "value": "Phantasmal Web"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature/level, no two of which may be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will disbelief, then Fortitude partial; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You implant within the minds of your targets the illusion that they are engulfed in tangled webs teeming with swarms of tiny spiders. Those who fail to disbelieve the phantasmal web are treated as if in a web spell, but must also make a Fortitude save at the beginning of each turn or become nauseated for that round by the phantasmal spiders. As the phantasmal web exists only in the minds of the targets, it cannot be burned or destroyed, and it provides no cover (though it does provide concealment ) against attacks made by the targets. Targets cannot escape the phantasmal web by moving, even by teleportation. Freedom of movement allows unobstructed movement but does not negate the concealment or nausea effects. Targets of the spell perceive everyone else around them to be engulfed in webs and swarming spiders, but the spell has no visible effect to other creatures (who may assist allies to disbelieve the effect). Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

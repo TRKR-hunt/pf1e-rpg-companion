@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "holy_javelin__crb_",
+    "name": {
+      "value": "Holy Javelin"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round + 1 round/4 levels"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You create a shimmering javelin of holy energy to hurl at an enemy as a ranged touched attack. The javelin deals 1d6 points of damage to an evil creature on a successful attack; it dissipates harmlessly against creatures of any other alignment. Each time a creature starts its turn while impaled by the javelin, it takes another 1d6 points of damage. For every 4 caster levels you have, the javelin remains in the creature for an additional round (to a maximum of 5 rounds at 18th level). While the creature remains impaled, it takes a \u00e2\u0080\u00932 penalty on attack rolls and skill checks. As a move action, the creature (or another adjacent creature) can attempt to pull the javelin out (causing it to immediately disappear) with a DC 12 Strength check. The holy javelin glows like a torch, and this light clearly indicates the impaled creature\u00e2\u0080\u0099s location, even if it turns invisible. Since this light is not a light effect, just the glow of a conjured javelin, darkness spells always suppress it, even if they are lower level. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

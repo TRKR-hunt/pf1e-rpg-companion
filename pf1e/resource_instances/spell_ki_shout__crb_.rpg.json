@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ki_shout__crb_",
+    "name": {
+      "value": "Ki Shout"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "With a guttural bark, you unleash a sudden blast of sonic energy that strikes your opponent. The target takes 1d6 points of sonic damage per level (maximum 20d6) and is stunned for 1 round; a successful Fortitude save reduces the damage by half and negates the stun. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

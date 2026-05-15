@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "gusting_sphere__crb_",
+    "name": {
+      "value": "Gusting Sphere"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "druid",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (object) or Reflex negates; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force. The sphere is treated in all ways as an area of severe wind, applying a \u00e2\u0080\u00934 penalty on ranged weapon attacks that pass through it. The sphere moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space containing a Medium or smaller creature, it stops moving for that round and generates a sharp thrust of wind to bull rush the creature. The sphere\u2019s CMB for bull rush combat maneuvers uses your caster level in place of its base attack bonus, with a +2 bonus for its Strength score (14). Whether or not the bull rush is successful, the creature takes 1d6 points of nonlethal bludgeoning damage from the attack. If the bull rush fails, the creature is still subject to the severe winds from the sphere as long as they remain in the same square as it. A gusting sphere rolls over objects or barriers that are less than 4 feet tall. The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest. A gusting sphere immediately dissipates if it exceeds the spell\u2019s range. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "create_undead__crb_",
+    "name": {
+      "value": "Create Undead"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 hour"
+    },
+    "components": {
+      "value": "V, S, M (a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created) of the spell, the spellcaster must use the body of a creature that died as a result of a fire spell or effect. The spell must be one that affects an area. Scorching ray is not sufficient, but fireball is. The creature must have died within 24 hours of the casting of create undead . Blast shadows created in this way are loyal to their creator, but those created by a death burst are beholden to no one. 4 You must have a caster level greater than the HD of the undead to be created. Create Greater Undead"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one corpse"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "A much more potent spell than animate dead, this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below. Caster Level Undead Created Additional Requirements 11th (or lower) Ghoul \u00c2 11th (or lower) Hollow helm Corpse must be wearing suit of heavy armor 11th+ Huecuva 1 Corpse of a cleric (preferably an evil cleric ) 11th+ Crawling hand Severed hand of a Medium or smaller humanoid 11th+ Juju zombie 4 Enervation or energy drain 11th+ Skeletal champion 4 Enervation or energy drain 12th-14th Ghast, festrog 2 \u00c2 12th+ Draugr \u00c2 12th+ Guardian phantom armor Corpse must be wearing suit of heavy armor 13th Attic whisperer Crushing despair, fear, corpse of a humanoid child 14th+ Blast shadow 3 \u00c2 14th+ Crawling hand (giant) Enlarge person, severed hand of a Large or larger humanoid 14th+ Wight Enervation 15th+ Giant phantom armor Corpse must be wearing suit of heavy armor 15th-17th Mummy \u00c2 15th+ Crypt thing Teleport 16th+ Phantom lancer Humanoid corpse must be wearing suit of heavy armor; mount must be wearing barding 17th+ Dullahan Decapitated humanoid corpse 18th+ Mohrg \u00c2 18th+ Rajput Ambari The full skeleton of an adult elephant and adornment of a regal bearing adding at least 400 gp to the spell\u00e2\u0080\u0099s total cost You may create less powerful undead than your level would allow if you choose. Created undead are not automatically under the control of their animator. If you are capable of commanding undead, you may attempt to command the undead creature as it forms. This spell must be cast at night. 1 A huecuva can be created using create undead. The caster must be at least 11th level and the spell normally uses the body of an evil cleric. The spell can be used to create a huecuva using the body of a good cleric, but this requires a DC 20 caster level check. Creating a huecuva in this way is considered to be one of the most heinous things that can be done to a cleric that has passed away. The faithless aura of huecuvas created from the bodies of good clerics in this way grants a +4 profane bonus on Will saves to resist channeled energy and any effects based off that ability. 2 The create undead spell can create festrogs as if they were ghasts. The caster must be able to cast contagion, have access to that spell in a scroll or other magic item, or work with another caster who has access to the spell; creating the festrog expends the prepared contagion spell, uses an appropriate spell slot, or a charge from the magical source. If the corpse to be animated died of necrotic boils (the disease that festrogs spread) the contagion spell is not necessary. 3 A spellcaster of 14th level or higher can create a blast shadow using create undead. In addition to the normal This spell functions like create undead, except that you can create more powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or types of undead created is based on caster level, as shown below. Caster Level Undead Created Additional Requirements 15th or lower Shadow \u00c2 15th+ Allip Insanity 16th-17th Wraith \u00c2 18th+ Totenmaske Caster must be a cleric 18th-19th Spectre \u00c2 19th Bonestorm 5 \u00c2 19th Greater shadow Shadow walk 19th Witchfire Corpse of a hag 20th+ Banshee Fear, wail of the banshee, corpse of a female elf 20th+ Bodak 6 Must be cast in the Abyss 20th+ Devourer \u00c2 20th+ Minor reaper \u00c2 5 A cleric, wizard, or sorcerer may create a bonestorm by casting create greater undead, if the caster possesses the required caster level of 19th or higher. 6 A 20th-level spellcaster can use create greater undead to create a bodak, but only if the spell is cast while the spellcaster is located on one of the evil outer planes (traditionally the Abyss)."
+    }
+  }
+}

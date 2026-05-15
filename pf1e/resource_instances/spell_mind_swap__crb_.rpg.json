@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mind_swap__crb_",
+    "name": {
+      "value": "Mind Swap"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round 1 minute"
+    },
+    "components": {
+      "value": "V, S V, S, M (diamonds worth 10,000 gp)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature one creature of your same race"
+    },
+    "duration": {
+      "value": "1 hour/level (D) instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell is similar to possession, except you switch minds with the target, so instead of the target\u2019s soul sharing its body with yours and being unable to act, the target\u2019s mind moves to your body and can control it as if you each had cast possession on the other. Mind Swap, Major The spell functions as mind swap, except as noted above. In addition, after 24 hours, instead of using each other\u2019s hit points, You each revert to your original hit points, modified by your new Constitution modifiers. This spell can be reversed only with miracle, wish, or another major mind swap. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

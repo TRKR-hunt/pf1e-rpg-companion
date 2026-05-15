@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "aqueous_orb__crb_",
+    "name": {
+      "value": "Aqueous Orb"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_bestiary_2"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "druid",
+        "magus",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a drop of water and a glass bead)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Reflex negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You create a rolling sphere of churning water that can engulf those it strikes. The aqueous orb can move up to 30 feet per round, rolling over barriers less than 10 feet tall. It automatically quenches any non-magical fires and functions as dispel magic against magical fires as long as those fires are size Large or less. Any creature in the path of the aqueous orb takes 2d6 points of nonlethal damage. A successful Reflex save negates this damage, but a Large or smaller creature that fails its save must make a second save or be engulfed by the aqueous orb and carried along with it. Engulfed creatures are immersed in water and must hold their breath unless capable of breathing water. They gain cover against attacks from outside the aqueous orb but are considered entangled by its churning currents, takes 2d6 points of nonlethal damage at the beginning of their turn each round they remain trapped. Creatures within the orb may attempt a new Reflex save each round to escape into a random square adjacent to the aqueous orb. The orb may hold one Large creature, 4 Medium, or 16 Small or smaller creatures within it. The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and churns in place. An aqueous orb stops if it moves outside the spell\u2019s range. Section 15: Copyright Notice Pathfinder Roleplaying Game Bestiary 2, \u00c2\u00a9 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "abeyance__crb_",
+    "name": {
+      "value": "Abeyance"
+    },
+    "source": {
+      "value": "secrets_of_the_sphinx"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, M (a flask of holy water worth 25 gp), DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "24 hours"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "Abeyance suppresses the effects of a single curse on a creature. It does not restore any damage or drain that might have been caused by the curse. Abeyance cannot suppress curses that cannot be removed by remove curse, but it can suppress curses such as lycanthropy that require remove curse along with additional measures. An individual curse can be suppressed only once by abeyance, even if cast by a different caster. Abeyance does not allow a creature to divest itself of cursed objects, though it can suppress a curse contracted from an object. Section 15: Copyright Notice Pathfinder Adventure Path #82: Secrets of the Sphinx \u00c2\u00a9 2014, Paizo Inc.; Authors: Amber E. Scott, with Michael Kortes, Amber E. Scott, David Schwartz, Russ Taylor, Greg A. Vaughan, and Larry Wilhelm."
+    }
+  }
+}

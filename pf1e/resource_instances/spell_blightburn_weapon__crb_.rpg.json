@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "blightburn_weapon__crb_",
+    "name": {
+      "value": "Blightburn Weapon"
+    },
+    "source": {
+      "value": "kobolds_of_golarion"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "magus"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one weapon"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You transform the target weapon into pure blightburn. The weapon functions as normal, but any creature that touches it, or that it strikes, takes 2d6 points of fire damage each round it remains in contact. In addition, the weapon emanates an aura of radiation that causes blightburn sickness. This is as the disease, but with a 10-foot radius and a save DC equal to this spell\u2019s save DC. Section 15: Copyright Notice Pathfinder Player Companion: Kobolds of Golarion. \u00c2\u00a9 2013 Paizo Publishing, LLC; Authors: Tork Shaw, Mat Smith, and Jerome Virnich."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "reinforce_armaments__crb_",
+    "name": {
+      "value": "Reinforce Armaments"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "magus",
+        "occultist",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a metal pin)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one armor suit or weapon touched armor suits or weapons touched This spell functions like reinforce armaments, except you divide the duration in 10-minute intervals among the objects touched. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat . \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless, object)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless, object)"
+    },
+    "description": {
+      "value": "You reinforce a weapon or armor suit to give it a temporarily upgrade or mitigate the fragile quality. A suit of armor or weapon touched that has the fragile quality is not considered to have the fragile quality for the spell\u00e2\u0080\u0099s duration. Normal armor suits or weapons subjected to this spell instead gain the masterwork quality for the spell\u00e2\u0080\u0099s duration and their hardness is doubled. If this spell is cast on masterwork or magical armor or weapons, their hardness is doubled for the duration of the spell. Reinforce Armaments, Communal"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "strong_jaw__crb_",
+    "name": {
+      "value": "Strong Jaw"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "ranger"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "Laying a hand upon an allied creature\u2019s jaw, claws, tentacles, or other natural weapons, you enhance the power of that creature\u2019s natural attacks. Each natural attack that creature makes deals damage as if the creature were two sizes larger than it actually is. If the creature is already Gargantuan or Colossal-sized, double the amount of damage dealt by each of its natural attacks instead. This spell does not actually change the creature\u2019s size; all of its statistics except the amount of damage dealt by its natural attacks remain unchanged. Natural Attack Base Damage by Size* Fine Dim. Tiny Small Medium Large Huge Garg. Col. Bite 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 Claw \u2013 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Gore 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 Hoof, tentacle, wing \u2013 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Pincers, tail slap 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 Slam \u2013 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Sting \u2013 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Talons \u2013 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Other \u2013 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

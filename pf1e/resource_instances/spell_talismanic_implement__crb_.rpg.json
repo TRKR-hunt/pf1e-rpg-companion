@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "talismanic_implement__crb_",
+    "name": {
+      "value": "Talismanic Implement"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "occultist"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "personal Target you"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 hour/level (D) or until discharged"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions as contingency, but you invest a spell whose level doesn\u2019t exceed one-quarter of your level (rounded down, maximum spell level 3rd) into one of your implements that holds 2 or more points of mental focus. The spell\u2019s school must match that of the implement, and the spell must be one that affects only your person."
+    }
+  }
+}

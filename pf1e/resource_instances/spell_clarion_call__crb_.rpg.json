@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "clarion_call__crb_",
+    "name": {
+      "value": "Clarion Call"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a piece of brass)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The subject of this spell gains two benefits. First, the affected creature gains the ability to create a sound like the blast of a mighty horn or trumpet simply by miming the action of sounding one. Second, the subject can speak in a booming voice that carries easily over great distances, lowering the DC of any check to hear what is said by \u00e2\u0080\u009315. This spell is particularly prized by battlefield commanders and champions who wish to make themselves clearly heard or gain the attention of their allies or foes. Section 15: Copyright Notice Pathfinder Player Companion: Knights of the Inner Sea \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Gareth Hanrahan, Steve Kenson, Patrick Renie, Tork Shaw, and Jerome Virnich."
+    }
+  }
+}

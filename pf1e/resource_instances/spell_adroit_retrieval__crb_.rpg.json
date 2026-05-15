@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "adroit_retrieval__crb_",
+    "name": {
+      "value": "Adroit Retrieval"
+    },
+    "source": {
+      "value": "black_markets"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You instill the target with the ability to withdraw small items from her pockets or packs with supernatural swiftness. When the target retrieves an item stored on itself, it can retrieve the item either as a move action without provoking attacks of opportunity, or as a swift action that provokes attacks of opportunity. This effect functions only when the target attempts to retrieve a stored item that weighs less than 1 pound per caster level (maximum 15 pounds). Section 15: Copyright Notice Pathfinder Player Companion: Black Markets \u00c2\u00a9 2015, Paizo Inc.; Authors: Ron Lundeen, Jason Nelson, David N. Ross, and David Schwartz."
+    }
+  }
+}

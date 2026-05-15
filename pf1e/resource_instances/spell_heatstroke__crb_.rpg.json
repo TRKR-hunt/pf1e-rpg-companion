@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "heatstroke__crb_",
+    "name": {
+      "value": "Heatstroke"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a drop of sweat)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial, see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "A wavering red ray projects from your finger. You must succeed on a ranged touch attack with the ray to hit your target. The ray inflicts 1d4 points of nonlethal damage, causing the target to suffer from heatstroke as its body temperature dramatically increases. Except as noted above, this spell otherwise functions as ray of exhaustion. Characters wearing heavy clothing or armor of any sort take a \u00e2\u0080\u00934 penalty on their saves. Section 15: Copyright Notice Pathfinder Companion: Sargava, the Lost Colony. Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker."
+    }
+  }
+}

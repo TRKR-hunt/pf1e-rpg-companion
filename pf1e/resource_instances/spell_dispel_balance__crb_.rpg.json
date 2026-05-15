@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "dispel_balance__crb_",
+    "name": {
+      "value": "Dispel Balance"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF , this deflection bonus is instead +5. Second, upon making a successful melee touch attack against a creature from another plane with a neutral component to its alignment , you can banish that creature back to its home plane. The creature\u00e2\u0080\u0099s , the creature takes a \u00e2\u0080\u00932 penalty on this saving throw. This use discharges and ends the spell. Third, with a touch , you can automatically dispel any one enchantment spell cast by a creature with a neutral component to its alignment . Spells that can\u00e2\u0080\u0099t be dispelled by dispel magic also can\u00e2\u0080\u0099t be dispelled by dispel balance. Saving throws and"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "you and a touched, neutral creature from another plane, or you and an enchantment on a touched creature or object"
+    },
+    "duration": {
+      "value": "1 round/level or until discharged, whichever comes first"
+    },
+    "saving_throw": {
+      "value": "see text"
+    },
+    "spell_resistance": {
+      "value": "see text applies to this attempt, and the creature can negate this effect with a successful Will save. If the creature\u00e2\u0080\u0099s alignment is neutral with no other alignment do not apply to this effect. This use discharges and ends the spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Planar Adventures \u00c2\u00a9 2018, Paizo Inc.; Authors: Robert Brookes, John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, James Jacobs, Isabelle Lee, Lyz Liddell, Ron Lundeen, Joe Pasini, Lacy Pellazar, Jessica Price, Mark Seifter, F. Wesley Schneider, Todd Stewart, James L. Sutter, and Linda Zayas-Palmer"
+    },
+    "description": {
+      "value": "Pulsing bronze energy surrounds you, bestowing three effects. First, you gain a +3 deflection bonus to AC against attacks by chaotic neutral, lawful neutral, neutral evil, and neutral good creatures. Against attacks by creatures whose alignment is neutral with no other alignment"
+    }
+  }
+}

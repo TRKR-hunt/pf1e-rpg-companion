@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "litany_of_escape__crb_",
+    "name": {
+      "value": "Litany of Escape"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "inquisitor",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one willing creature that is grappled"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "no"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "With a powerful prayer, you call upon the servants of your god to whisk a friend out of a grapple. The target loses the grappled and pinned conditions and is teleported 10 feet. If there is no available space for the target to teleport to, the spell fails. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

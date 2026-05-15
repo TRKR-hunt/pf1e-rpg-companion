@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "phasic_challenge__crb_",
+    "name": {
+      "value": "Phasic Challenge"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a scrap of a knight\u2019s banner )"
+    },
+    "range": {
+      "value": "short (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "two creatures within 60 feet of one another; see text"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (see below)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You select one enemy and one willing ally as targets. The enemy gains a new Will saving throw at the beginning of each turn, and on a successful saving throw the spell ends. Both targets remain visible and audible, and can see and hear other creatures, but cannot physically interact with any creature save one another. Spells or weapon attacks from the affected creatures impact only each other, though spells might affect terrain or other factors not related to other creatures. If one of the creatures becomes unconscious or dies, or if the effect is dispelled, the effect ends for both of them. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

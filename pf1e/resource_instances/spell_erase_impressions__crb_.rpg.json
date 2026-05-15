@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "erase_impressions__crb_",
+    "name": {
+      "value": "Erase Impressions"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "object touched"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You banish psychic impressions from the object touched, rendering it devoid of recent history. You choose how much time to erase, up to a maximum of 1 day per caster level. You must erase impressions from the present time back; you cannot choose to leave recent events untouched. Impressions erased in this manner cannot be recovered via object reading, legend lore, or similar measures. Casting erase impressions on a corpse removes recent psychic impressions from when the creature was alive as well, making those memories unavailable to speak with dead. For example, a 5th-level caster casting the spell on a 2-day-old corpse could erase the past 2 days of psychic impressions from the corpse and 3 additional days of information from just before the creature died. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

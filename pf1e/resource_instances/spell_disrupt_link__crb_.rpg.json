@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "disrupt_link__crb_",
+    "name": {
+      "value": "Disrupt Link"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bard",
+        "inquisitor",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature and her animal companion , familiar , or other bonded creature (which may be no more than 30 ft. apart)"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The target has her link with her bonded creature temporarily severed. If the subject has a familiar, she loses the benefits of the alertness, deliver touch spells, empathic link, scry on familiar, share spells, and speak with master abilities. If the target has an animal companion, she loses the benefits of the link, share spells, and devotion abilities. The target and her familiar or animal companion also lose any other abilities (such as those from archetypes or feats) that rely on the two having a connection. Section 15: Copyright Notice Pathfinder Player Companion: Familiar Folio \u00c2\u00a9 2015, Paizo Inc.; Authors: Will McCardell, Philip Minchin, Mark Seifter, and Jerome Virnich"
+    }
+  }
+}

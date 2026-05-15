@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "righteous_blood__crb_",
+    "name": {
+      "value": "Righteous Blood"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "inquisitor",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature of good alignment"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The target creature\u2019s innate goodness infuses its body with holy energy. While this energy does not directly empower the target, it can harm embodiments of evil. Any creature that damages the target with a slashing or piercing melee weapon is sprayed by the target\u2019s holy blood. If the attacker is a creature with the evil subtype, it takes 1d6 points of damage from divine power each time it successfully hits the target. If the target has the good subtype or an ability that grants it an aura of good (like paladins or some clerics ), its blood instead deals 2d6 points of damage. Creatures that don\u2019t have the evil subtype or that are using reach weapons are not subject to this damage. Section 15: Copyright Notice Pathfinder Player Companion: Demon Hunter\u00e2\u0080\u0099s Handbook \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Philip Minchin, F. Wesley Schneider, and Jerome Virnich."
+    }
+  }
+}

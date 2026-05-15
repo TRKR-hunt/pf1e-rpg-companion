@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "divine_illumination__crb_",
+    "name": {
+      "value": "Divine Illumination"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "medium (100 ft. +5 ft./level)"
+    },
+    "area": {
+      "value": "all undead in a 10-foot-radius spread"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "With this spell, you create shafts of blue light that illuminate all undead creatures in the area. Affected undead take a \u00e2\u0080\u009320 penalty on all Stealth checks. Invisible undead are not made visible by this effect, but the light does make it easy to pinpoint the exact squares in which such undead are located (they still retain the 50% miss chance granted by invisibility ). This spell increases light levels by one step in a 5-foot radius around an affected undead creature. Once an undead is affected, it remains illuminated as long as remains within the spell\u00e2\u0080\u0099s range, even if it leaves the spell\u00e2\u0080\u0099s original radius, until the spell\u00e2\u0080\u0099s duration ends. Affected undead must also make a Will save when they are first illuminated. Those who fail this save lose all benefits of channel resistance and take a \u00e2\u0080\u00932 penalty on all saving throws made against positive energy effects. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

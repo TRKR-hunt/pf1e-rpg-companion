@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "staggering_fall__crb_",
+    "name": {
+      "value": "Staggering Fall"
+    },
+    "source": {
+      "value": "rival_guide"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one falling creature"
+    },
+    "duration": {
+      "value": "1 round/level (see below)"
+    },
+    "saving_throw": {
+      "value": "Will partial (see below)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell must be cast on a creature as it falls, either from a height or after being knocked prone or tripped. The magic of this spell causes the creature to hit the ground particularly hard, knocking the wind from it. The creature takes an additional 1d6 points of damage from the fall. In addition, the creature becomes staggered for the duration of the spell unless it makes a Will save. Each round the spell\u00e2\u0080\u0099s effects persist, the creature may attempt a new Will save as a free action to end the staggered effect early. A creature under the effects of this spell must take a standard action to stand up. Section 15: Copyright Notice Pathfinder Campaign Setting: Rival Guide. \u00c2\u00a9 2011, Paizo Publishing, LLC. Authors: Brian Cortijo, Adam Daigle, Tim Hitchcock, Brandon Hodge, Colin McComb, Jason Nelson, Amber Scott, Neil Spicer, and Todd Stewart."
+    }
+  }
+}

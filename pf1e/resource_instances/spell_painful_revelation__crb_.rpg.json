@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "painful_revelation__crb_",
+    "name": {
+      "value": "Painful Revelation"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one ongoing illusion"
+    },
+    "duration": {
+      "value": "1 hour/level or until discharged"
+    },
+    "saving_throw": {
+      "value": "Will partial"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You augment an ongoing illusion effect to strike out painfully at creatures that see through it. When a creature successfully disbelieves an illusion that is the target of painful revelation, it takes 1d6 points of nonlethal damage for every 2 caster levels you have (maximum 10d6) and is staggered for 1d4 rounds. A successful Will save reduces the nonlethal damage by half and negates the staggered effect. Once painful revelation has been triggered, the spell ends. However, creatures under the effect of spells such as true seeing that automatically pierce illusions are not subject to this effect. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Temples \u00c2\u00a9 2016, Paizo Inc.; Authors: Robert Brookes, Liz Courts, Mikko Kallio, Jeffrey Swank, and Larry Wilhelm."
+    }
+  }
+}

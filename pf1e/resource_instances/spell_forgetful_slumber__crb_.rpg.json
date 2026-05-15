@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "forgetful_slumber__crb_",
+    "name": {
+      "value": "Forgetful Slumber"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M (a few drops of river water)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell acts as the deep slumber spell, but only affects one creature of 10 Hit Dice or fewer. In addition, a creature affected by this spell awakens with no knowledge of the events that led to the spell\u2019s casting. The target loses all memory from the 5 minutes prior to falling asleep. No effect short of a miracle or wish can restore memories lost by this spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

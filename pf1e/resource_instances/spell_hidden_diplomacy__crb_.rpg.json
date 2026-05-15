@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hidden_diplomacy__crb_",
+    "name": {
+      "value": "Hidden Diplomacy"
+    },
+    "source": {
+      "value": "spymaster_s_handbook"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "magus",
+        "mesmerist",
+        "oracle",
+        "psychic"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a bent coin)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "instant; see text"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "As part of casting this spell, you can attempt a single Intimidate skill check to make a target act friendly toward you. If you succeed, the target assists you normally, but hidden diplomacy clouds the memory of any threats or pressure you applied. The target remembers assisting you, but can\u00e2\u0080\u0099t remember why, and its attitude toward you doesn\u00e2\u0080\u0099t worsen as a result of being intimidated. Whether a creature fails or succeeds at its saving throw, it becomes immune to further castings of hidden diplomacy for 24 hours. Section 15: Copyright Notice Pathfinder Player Companion: Spymaster\u00e2\u0080\u0099s Handbook \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Owen K.C. Stephens."
+    }
+  }
+}

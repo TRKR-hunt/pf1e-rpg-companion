@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "keep_watch__crb_",
+    "name": {
+      "value": "Keep Watch"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "inquisitor",
+        "magus",
+        "paladin",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature touched/2 levels"
+    },
+    "duration": {
+      "value": "8 hours or less; see text"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "This spell enables the subjects to stand watch or keep vigil throughout the night without any ill effects. The subjects suffer no fatigue and gain all the usual benefits of a full night\u2019s rest. The subjects gain hit points as though from resting, wizards may prepare their spells as though they had slept for 8 hours, and so on. Effects that rely on actual sleep or dreaming are ineffective, though the subjects are still susceptible to effects that would put them to sleep, such as sleep or deep slumber. Any vigorous activity, including fighting, immediately ends the effect, and the affected creatures must either have the spell cast on them again or sleep for the remaining hours to avoid fatigue and gain the benefits of a full night\u2019s rest. Section 15: Copyright Notice Pathfinder Player Companion: Knights of the Inner Sea \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Gareth Hanrahan, Steve Kenson, Patrick Renie, Tork Shaw, and Jerome Virnich."
+    }
+  }
+}

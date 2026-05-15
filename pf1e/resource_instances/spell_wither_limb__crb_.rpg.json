@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "wither_limb__crb_",
+    "name": {
+      "value": "Wither Limb"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S . Leg : The creature\u00e2\u0080\u0099s movement speeds are halved, except for flying or other speeds that don\u00e2\u0080\u0099t involve its legs. If multiple castings of this spell wither all of a creature\u00e2\u0080\u0099s legs, it can only crawl at a speed of 5 feet each round. Wing : The creature loses access to any fly speed that depends on its wings if even a single wing is withered. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creature touched"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You cause one limb of the target to shrivel and weaken. The target takes 2d6 points of damage. The points are permanently lost until the target\u00e2\u0080\u0099s limb is restored by heal, limited wish, miracle, regenerate, or wish. Wither limb affects only living creatures of the humanoid or monstrous humanoid type, or similar bipedal creatures at the GM\u00e2\u0080\u0099s discretion. You choose the limb affected. This spell\u00e2\u0080\u0099s effects stack, until all a target\u00e2\u0080\u0099s arms and legs (or equivalent limbs) are withered. Arm: The target looses the use of one arm, which might affect what weapons and shields it can use. The creature must immediately drop all objects held in the withered limb, though it can shift a two-handed weapon it is holding in both hands to a remaining arm as an immediate action. Worn objects\u00e2\u0080\u0094 gauntlets, rings, and magic items in the wrist slot\u00e2\u0080\u0094remain. This prevents the creature from using two-weapon fighting, claw attacks from that arm, and so on. If multiple castings of this spell wither all of a creature\u00e2\u0080\u0099s arms, it can\u00e2\u0080\u0099t manipulate objects or cast spells requiring somatic"
+    }
+  }
+}

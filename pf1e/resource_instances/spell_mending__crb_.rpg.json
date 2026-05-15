@@ -1,0 +1,59 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mending__crb_",
+    "name": {
+      "value": "Mending"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_0"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "occultist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "10 ft."
+    },
+    "area": {
+      "value": "one object of up to 1 lb./level"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": ": Will negates (harmless, object)"
+    },
+    "spell_resistance": {
+      "value": ": yes (harmless, object)"
+    },
+    "description": {
+      "value": "This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs ). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

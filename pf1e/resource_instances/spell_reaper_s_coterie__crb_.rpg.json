@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "reaper_s_coterie__crb_",
+    "name": {
+      "value": "Reaper\u2019s Coterie"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bloodrager",
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "weapon touched"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "The target weapon becomes a reservoir of spiritual energy, fueling its destructive power by drawing in a tiny fragment of the essence of each creature it is used to defeat. When the targeted weapon is used to reduce a living creature to 0 or fewer hit points, it gains a +1 profane bonus on damage rolls. This bonus increases by 1 for each creature reduced to 0 hit points or fewer with that weapon, up to a maximum bonus equal to 1/2 your caster level. Section 15: Copyright Notice Pathfinder Player Companion: Melee Tactics Toolbox \u00c2\u00a9 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz."
+    }
+  }
+}

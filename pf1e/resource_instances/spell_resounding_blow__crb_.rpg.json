@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "resounding_blow__crb_",
+    "name": {
+      "value": "Resounding Blow"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "inquisitor",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial; see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You must have a melee weapon in hand to cast this spell. On a successful melee attack, your weapon resounds with a thunderous clash. The target takes 1d6 points of sonic damage. Your weapon is not harmed by this attack. If you are using your judgment ability or smite ability against the target, it is staggered for 1 round on a successful attack. A successful Fortitude save negates the staggering effect. On a successful critical hit, the target is stunned for 1 round and deafened for 1d6 rounds. A successful Fortitude save negates the stunning and deafening effects. If you are also using judgment or smite, your foe makes only a single save against all effects. This spell immediately ends if your weapon leaves your hand. Resounding blow stacks with the thundering weapon property. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

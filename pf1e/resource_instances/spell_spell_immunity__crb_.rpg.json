@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "spell_immunity__crb_",
+    "name": {
+      "value": "Spell Immunity"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "cleric",
+        "inquisitor",
+        "occultist",
+        "oracle",
+        "psychic",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF V, S, DF V, S, DF"
+    },
+    "range": {
+      "value": "touch touch touch"
+    },
+    "area": {
+      "value": "creature touched creatures touched creatures touched creatures touched"
+    },
+    "duration": {
+      "value": "10 min./level 10 min./level 10 min./level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless); Will negates (harmless); Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) regarding the specified spell or spells. Naturally, that immunity doesn\u2019t protect a creature from spells for which doesn\u2019t apply. Spell immunity protects against spells, spell-like effects of magic items, and innate spell-like abilities of creatures. It does not protect against supernatural or extraordinary abilities, such as breath weapons or gaze attacks. Only a particular spell can be protected against, not a certain domain or school of spells or a group of spells that are similar in effect. A creature can have only one spell immunity or greater spell immunity spell in effect on it at a time. Spell Immunity, Greater yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "The warded creature is immune to the effects of one specified spell for every four levels you have. The spells must be of 4th level or lower. The warded creature effectively has unbeatable This spell functions like spell immunity, except the immunity applies to spells of 8th level or lower. A creature can have only one spell immunity or greater spell immunity spell in effect on it at a time. Spell Immunity, Communal This spell functions like spell immunity, except you divide the duration in 10-minute intervals among the creatures touched. Spell Immunity, Greater Communal This spell functions like greater spell immunity, except you divide the duration among the creatures in 10-minute intervals among the creatures touched. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

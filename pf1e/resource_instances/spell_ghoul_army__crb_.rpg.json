@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ghoul_army__crb_",
+    "name": {
+      "value": "Ghoul Army"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a handful of ghoul\u00e2\u0080\u0099s teeth)"
+    },
+    "range": {
+      "value": "5 feet"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude half (see text)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "By scattering a handful of ghoul\u00e2\u0080\u0099s teeth across the ground, you cause 1d4+1 ghouls led by a single ghast to rise up from the ground around you. The ghouls and their ghast leader must appear in squares adjacent to you, but after that they follow your spoken commands unerringly. If one of the ghouls is destroyed while the spell\u00e2\u0080\u0099s duration is still in effect, it bursts into a spray of rotten flesh and necromantic energy that deals 1d6 points of negative energy damage to all adjacent targets\u00e2\u0080\u0094this energy heals undead targets as typical for negative energy damage. If the ghast is destroyed in this manner, it deals twice as much negative energy damage as a ghoul. A successful Fortitude save halves the negative energy damage dealt. When this spell\u00e2\u0080\u0099s duration expires, any remaining undead created by this spell crumble apart into dust and blow away without dealing any additional negative energy damage. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

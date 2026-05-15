@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "codespeak__crb_",
+    "name": {
+      "value": "Codespeak"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a complex rune inscribed on a slip of paper that is then placed under your tongue)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "you plus one willing creature per 2 levels, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "10 min./level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Upon casting this spell, all recipients gain the ability to speak a new language. This language sounds like random, babbling syllables to anyone not under the influence of the spell, but the targets understand each other perfectly. Anyone using codespeak can read and write in this new language as well. Once the spell expires, however, any coded writing suddenly appears as gibberish. If the exact same group of individuals become the targets of a codespeak spell again, cast by the same caster, they can once again read any coded writings. A dedicated codebreaker can crack such writing\u2019s code, deciphering it one page at a time with a series of DC 30 Linguistics checks. Comprehend languages doesn\u2019t enable a caster to understand the language of another\u2019s codespeak spell, but it does reveal that the targets are speaking a magical language. Tongues translates codespeak normally. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "path_of_glory__crb_",
+    "name": {
+      "value": "Path of Glory"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch (see text)"
+    },
+    "area": {
+      "value": "four 5-ft. squares/level (see text)"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You cause four 5-foot squares (one of which must be your space) to glow with dim illumination. Starting on your next turn, as a swift action you can extend the glowing area by an additional four 5-foot squares; each new square must be adjacent to a square that was previously glowing. Allies that end their turns on a glowing square (including one who falls unconscious in the square) are healed of 1 point of damage. Path of Glory, Greater"
+    }
+  }
+}

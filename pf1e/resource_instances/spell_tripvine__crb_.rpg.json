@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "tripvine__crb_",
+    "name": {
+      "value": "Tripvine"
+    },
+    "source": {
+      "value": "faction_guide"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "10-foot-long rope or vine"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Reflex negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You animate a rope, vine, or similar object so that it attempts to trip any creature that comes near. The rope attacks anything in a 10-foot-square area you designate. The rope does not provoke an attack of opportunity. Its CMB is equal to your caster level +2. A tripped target that was running, jumping, or charging takes 1d6 points of nonlethal damage. Creatures aware of the tripvine gain a +4 bonus to their CMD against it. A nature-worshiping faith created this spell, but it is now common. Section 15: Copyright Notice Pathfinder Chronicles: Faction Guide \u00c2\u00a9 2010, Paizo Publishing, LLC; Authors: Crystal Frasier, Joshua J. Frost, Hal Maclean, Tim Hitchcock, Jonathan H. Keith, Michael Kortes, Jason Nelson, Jeff Quick, Chris Self, Sean K Reynolds, and Amber Stewart."
+    }
+  }
+}

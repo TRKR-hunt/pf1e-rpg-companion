@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "cloudkill__crb_",
+    "name": {
+      "value": "Cloudkill"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "sorcerer",
+        "spiritualist",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 min./level"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial; see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell generates a bank of fog, similar to a fog cloud, except that its vapors are yellowish green and poisonous. These vapors automatically kill any living creature with 3 or fewer HD (no save). A living creature with 4 to 6 HD is slain unless it succeeds on a Fortitude save (in which case it takes 1d4 points of Constitution damage on your turn each round while in the cloud). A living creature with 6 or more HD takes 1d4 points of Constitution damage on your turn each round while in the cloud (a successful Fortitude save halves this damage). Holding one\u2019s breath doesn\u2019t help, but creatures immune to poison are unaffected by the spell. Unlike a fog cloud, the cloudkill moves away from you at 10 feet per round, rolling along the surface of the ground. Figure out the cloud\u2019s new spread each round based on its new point of origin, which is 10 feet farther away from the point of origin where you cast the spell. Because the vapors are heavier than air, they sink to the lowest level of the land, even pouring down den or sinkhole openings. It cannot penetrate liquids, nor can it be cast underwater. Mythic As a move action, you can move the cloud 10 feet in any direction. Add your tier to the spell\u2019s level and Hit Dice categories to determine its effect on creatures. (For example, at 3rd tier a creature with 6 or fewer Hd gets no save, one with 7\u00e2\u0080\u00939 HD must save or die, and one with 10 or more HD must save or take 1d4 points of Con damage.) Augmented (6th): If you expend two uses of mythic power, the spell bypasses the poison immunity of living creatures. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

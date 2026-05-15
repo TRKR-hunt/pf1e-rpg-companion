@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "detect_fiendish_presence__crb_",
+    "name": {
+      "value": "Detect Fiendish Presence"
+    },
+    "source": {
+      "value": "agents_of_evil"
+    },
+    "level": {
+      "value": "spell_level_0"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "60 ft."
+    },
+    "area": {
+      "value": "cone-shaped emanation"
+    },
+    "duration": {
+      "value": "concentration , up to 10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like detect evil, except that it detects only outsiders with the evil subtype, as well as the lingering effects caused by their gifts, presence, and spells. It can also detect clerics and paladins of fiendish deities, including Asmodeus, archdevils, daemonic harbingers, and demon lords. Section 15: Copyright Notice Pathfinder Player Companion: Agents of Evil \u00c2\u00a9 2015, Paizo Inc.; Author: Thurston Hillman."
+    }
+  }
+}

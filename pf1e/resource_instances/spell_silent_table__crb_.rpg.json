@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "silent_table__crb_",
+    "name": {
+      "value": "Silent Table"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "mesmerist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "5-ft.-diameter emanation centered on an object or a point in space"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "none (object)"
+    },
+    "spell_resistance": {
+      "value": "no (object)"
+    },
+    "description": {
+      "value": "You protect an area against casual eavesdropping. Sounds and sonic effects that originate inside the area are muffled for anyone outside the area; Perception DCs to hear or understand sounds leaving the area increase by 20, and any saving throw DCs of these effects decrease by 2. The spell does not affect sounds that enter the area or the Perception checks of creatures inside it. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "alter_self__crb_",
+    "name": {
+      "value": "Alter Self"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "magus",
+        "medium",
+        "mesmerist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a piece of the creature whose form you plan to assume)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 min./level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "When you cast this spell, you can assume the form of any Small or Medium creature of the humanoid type. If the form you assume has any of the following abilities, you gain the listed ability: darkvision 60 feet, low-light vision, scent, and swim 30 feet. Small creature: If the form you take is that of a Small humanoid, you gain a +2 size bonus to your Dexterity. Medium creature: If the form you take is that of a Medium humanoid, you gain a +2 size bonus to your Strength."
+    }
+  }
+}

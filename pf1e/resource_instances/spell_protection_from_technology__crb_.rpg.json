@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "protection_from_technology__crb_",
+    "name": {
+      "value": "Protection from Technology"
+    },
+    "source": {
+      "value": "technology_guide"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a pinch of powdered copper)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless), see text"
+    },
+    "spell_resistance": {
+      "value": "no, see text"
+    },
+    "description": {
+      "value": "This spell wards a creature from attacks by technological objects and creatures of the robot subtype, and protects against mental control from technological sources. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has two major effects. First, the target gains a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. Both of these bonuses apply against attacks made or effects caused by technological objects and creatures with the robot subtype. Second, the target immediately receives another saving throw (if one was allowed to begin with) against any technological effects that exercise mental control over the creature, including the effects of pharmaceuticals. The target gains a +2 morale bonus on this saving throw, using the same DC as the original effect. If the target succeeds at this save, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to exercise mental control over her using technological means. Section 15: Copyright Notice Pathfinder Campaign Setting: Technology Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor."
+    }
+  }
+}

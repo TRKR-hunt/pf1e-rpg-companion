@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "duplicate_familiar__crb_",
+    "name": {
+      "value": "Duplicate Familiar"
+    },
+    "source": {
+      "value": "familiar_folio"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (alchemically preserved mockingfey feathers), F ( familiar )"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You create a duplicate of a familiar. The familiar\u2019s master can use the duplicate as if it were his familiar in all respects, though he doesn\u2019t gain the bonus special ability from more than one familiar at a time. When the spell\u2019s duration expires, the familiar duplicate shrivels into nothing, even if petrified or otherwise transformed. Section 15: Copyright Notice Pathfinder Player Companion: Familiar Folio \u00c2\u00a9 2015, Paizo Inc.; Authors: Will McCardell, Philip Minchin, Mark Seifter, and Jerome Virnich"
+    }
+  }
+}

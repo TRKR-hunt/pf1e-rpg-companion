@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "curse_of_magic_negation__crb_",
+    "name": {
+      "value": "Curse of Magic Negation"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M (powdered lead and platinum worth 250 gp)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "10 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You disrupt the target creature\u00e2\u0080\u0099s ability to draw upon magical energies. For the duration of the spell, it gains the negated spellblight. Dispel checks to remove the spellblight take a \u00e2\u0080\u00935 penalty due to this spell\u00e2\u0080\u0099s interference with magical energies. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "acid_pit__crb_",
+    "name": {
+      "value": "Acid Pit"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_bestiary_2"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (drop of acid), F (Fine shovel worth 10 gp)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round + 1 round/level"
+    },
+    "saving_throw": {
+      "value": "Reflex negates; see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Table: Items Affected by Magical Attacks Order* Item 1st Shield 2nd Armor 3rd Magic helmet, hat, or headband 4th Item in hand (including weapon, wand, or the like) 5th Magic cloak 6th Stowed or sheathed weapon 7th Magic bracers 8th Magic clothing 9th Magic jewelry (including rings) 10th Anything else * In order of most likely to least likely to be affected. This spell functions as create pit, except that it places a 5-foot deep pool of acid at the bottom of the pit. The pit has a maximum depth of 100 feet. Creatures who fall into the pit take falling damage as normal (the acid counts as a yielding surface), plus 2d6 points of acid damage per round spent in contact with the acid. In addition, exposed items carried by a creature in the pit may be harmed. Refer to Table: Items Affected by Magical Attacks (also copied here for convenience). Items are affected one at a time in the order listed on the table, and must make Fortitude saves after 3 consecutive rounds in the acid or gain the broken condition. Objects with the broken condition (regardless of how they became broken ) must make a Fortitude Saving Throw each round spent within the acid or be destroyed. The walls of the pit are quite slippery and have a Climb DC of 30. Section 15: Copyright Notice Pathfinder Roleplaying Game Bestiary 2, \u00c2\u00a9 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

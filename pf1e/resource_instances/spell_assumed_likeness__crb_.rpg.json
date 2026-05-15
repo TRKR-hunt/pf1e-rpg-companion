@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "assumed_likeness__crb_",
+    "name": {
+      "value": "Assumed Likeness"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will disbelief"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You draw upon the memories of the targets to create a visual disguise for yourself that only they can see. When you cast the spell, you choose an emotion from the table below. Each target perceives you as a creature it feels that way toward. If it doesn\u00e2\u0080\u0099t feel that way toward anyone, it instead perceives you as a stranger with features likely to evoke that emotion (e.g., if you choose respect, a guard who was taught to respect her elders but who currently knows no elders might see you as an elderly version of yourself). Since you don\u00e2\u0080\u0099t know how you will appear to each target, you must match your actions and statements to fit with the illusion as best you can. While the spell grants a +10 bonus on Disguise checks like disguise self does, you also take a \u00e2\u0080\u00935 penalty on Disguise checks until you can get a sense of who the target thinks you are. Each target who fails to disbelieve the phantasm ) and is fooled by your Disguise check takes a \u00e2\u0080\u00932 penalty on Sense Motive checks to notice your lies, and each emotion choice grants you an additional benefit against such targets, as listed in the table below. Emotion"
+    }
+  }
+}

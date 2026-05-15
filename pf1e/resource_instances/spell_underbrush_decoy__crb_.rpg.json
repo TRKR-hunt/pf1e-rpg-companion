@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "underbrush_decoy__crb_",
+    "name": {
+      "value": "Underbrush Decoy"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "ranger",
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one non-creature plant of size Tiny, Small, or Medium"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You cause a plant to rustle noisily, distracting nearby creatures. You can attempt a Bluff check to create a distraction to hide, using your caster level + your Wisdom modifier in place of your total Bluff skill bonus and applying the result to all creatures within 30 feet. You count the target as distracted, as do any creatures that knew about your distraction in advance. Creatures might not be distracted if they detect you casting the spell or otherwise anticipate your subterfuge. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

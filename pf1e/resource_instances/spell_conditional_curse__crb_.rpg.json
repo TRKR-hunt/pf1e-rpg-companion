@@ -1,0 +1,59 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "conditional_curse__crb_",
+    "name": {
+      "value": "Conditional Curse"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "permanent (see text)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions as bestow curse, except that you must state a condition under which the curse is broken, ending its effect. An intelligent target, even one of animal intelligence, innately understands this condition even if it doesn\u2019t understand your language. The condition must be possible for the target to bring about within a year and a day without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove conditional curse with break enchantment or remove curse increases by 5. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

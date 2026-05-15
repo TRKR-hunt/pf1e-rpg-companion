@@ -6,7 +6,7 @@
       "value": "Acid Arrow"
     },
     "source": {
-      "value": "crb"
+      "value": "unknown"
     },
     "level": {
       "value": "spell_level_2"
@@ -16,6 +16,8 @@
     },
     "classes": {
       "value": [
+        "bloodrager",
+        "magus",
         "sorcerer",
         "wizard"
       ]
@@ -24,16 +26,16 @@
       "value": "1 standard action"
     },
     "components": {
-      "value": "V, S, F, M"
+      "value": "V, S, M (rhubarb leaf and an adder\u2019s stomach), F (a dart)"
     },
     "range": {
-      "value": "long (400 ft + 40 ft/level)"
+      "value": "long (400 ft. + 40 ft./level)"
     },
     "area": {
-      "value": "one arrow of acid"
+      "value": ""
     },
     "duration": {
-      "value": "1 round + 1/3 levels"
+      "value": "1 round + 1 round per three levels"
     },
     "saving_throw": {
       "value": "none"
@@ -42,7 +44,7 @@
       "value": "no"
     },
     "description": {
-      "value": "Ranged touch; 2d4 acid damage immediately and on subsequent rounds."
+      "value": "An arrow of acid springs from your hand and speeds to its target. You must succeed on a ranged touch attack to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round."
     }
   }
 }

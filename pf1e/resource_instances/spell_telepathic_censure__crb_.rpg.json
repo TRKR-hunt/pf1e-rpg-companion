@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "telepathic_censure__crb_",
+    "name": {
+      "value": "Telepathic Censure"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "inquisitor"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature (see text)"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell creates an invisible psychic interference that inhibits telepathic communication. When cast upon a creature that can communicate via telepathy, this spell prevents that ability\u2019s use\u00e2\u0080\u0094 either to receive or project thoughts. When cast upon a creature without telepathy, the spell merely prevents the target from receiving telepathic communication. Those affected by this spell or that attempt to telepathically communicate with creatures under its effects are not innately aware that their communication is being inhibited. This spell temporarily disrupts spells and effects like telepathic bond or telepathic messages sent by a helm of telepathy, but not attacks and effects unrelated to communication like detect thoughts or a neothelid\u2019s psychic crush. Section 15: Copyright Notice Pathfinder Player Companion: Demon Hunter\u00e2\u0080\u0099s Handbook \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Philip Minchin, F. Wesley Schneider, and Jerome Virnich."
+    }
+  }
+}

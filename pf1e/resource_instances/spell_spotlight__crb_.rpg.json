@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "spotlight__crb_",
+    "name": {
+      "value": "Spotlight"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "inquisitor",
+        "magus",
+        "occultist",
+        "oracle",
+        "paladin",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Reflex partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You create a mobile area of bright light centered on one target while simultaneously suppressing other light sources surrounding it. The light level in the target\u2019s space increases to bright light, causing the target to take any penalties that it would normally take in bright light. In addition, all mundane light sources (and magic light sources of 3rd spell level or lower) within 20 feet of the target\u2019s space are suppressed, shedding no light as long as they remain within this spell\u2019s affected area and reverting the area normally affected by those light sources to their unmodified illumination levels. The effects of spotlight are centered on the target and move as the target does. As a result, the target takes a \u00e2\u0080\u009320 penalty on all Stealth checks for the spell\u2019s duration and cannot benefit from concealment normally provided by darkness, as though illuminated with faerie fire. If the target succeeds at its Reflex save, the spotlight is created in the target\u2019s square but does not move with the target, and it hinders the Stealth checks only of creatures within that square. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

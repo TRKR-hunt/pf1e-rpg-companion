@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "remove_radioactivity__crb_",
+    "name": {
+      "value": "Remove Radioactivity"
+    },
+    "source": {
+      "value": "technology_guide"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature or object touched"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fort negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You remove all ongoing radiation effects, both primary and secondary, on a single target if you succeed at a caster level check (DC = the Fortitude DC associated with the radiation effect). In addition, you immediately restore 1d4 points of Constitution drain and 1d4 points of Strength drain caused by radiation\u00e2\u0080\u0094this spell cannot restore ability damage or drain caused by other sources. When cast on an area, a single casting of remove radioactivity removes radiation from a 20-foot-radius area around the point you touch. This spell has no power to negate naturally radioactive materials, and as long as such materials remain in an area, the radiation that was removed may return. Remove Radioactivity, Greater Source Technology Guide This spell functions like remove radioactivity, save that it cures all ability damage and drain due to radioactivity that the target has taken. In addition, you can deplete a radioactive object as well, although because you must touch the object to affect it, you expose yourself to at least 1 round of contact with the object\u2019s radiation. You must succeed at a caster level check (DC = 5 + the Fortitude DC associated with the radiation effect) in order to deplete the object. If you are successful, the object no longer emits radiation. In the case of a nuclear reactor or atomic warhead, this permanently renders the reactor or warhead inert and harmless. Section 15: Copyright Notice Pathfinder Campaign Setting: Technology Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor."
+    }
+  }
+}

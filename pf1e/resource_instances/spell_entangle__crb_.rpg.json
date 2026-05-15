@@ -6,7 +6,7 @@
       "value": "Entangle"
     },
     "source": {
-      "value": "crb"
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
     },
     "level": {
       "value": "spell_level_1"
@@ -17,7 +17,10 @@
     "classes": {
       "value": [
         "druid",
-        "ranger"
+        "ranger",
+        "shaman",
+        "spiritualist",
+        "witch"
       ]
     },
     "casting_time": {
@@ -27,13 +30,13 @@
       "value": "V, S, DF"
     },
     "range": {
-      "value": "long (400 ft + 40 ft/level)"
+      "value": "long (400 ft. + 40 ft./level)"
     },
     "area": {
-      "value": "plants in 40-ft-radius spread"
+      "value": "plants in a 40-ft.-radius spread"
     },
     "duration": {
-      "value": "1 min/level (D)"
+      "value": "1 min./level (D)"
     },
     "saving_throw": {
       "value": "Reflex partial; see text"
@@ -42,7 +45,7 @@
       "value": "no"
     },
     "description": {
-      "value": "Plants entangle creatures within area."
+      "value": "This spell causes tall grass, weeds, and other plants to wrap around creatures in the area of effect or those that enter the area. Creatures that fail their save gain the entangled condition. Creatures that make their save can move as normal, but those that remain in the area must save again at the end of your turn. Creatures that move into the area must save immediately. Those that fail must end their movement and gain the entangled condition. Entangled creatures can attempt to break free as a move action, making a Strength or Escape Artist check. The DC for this check is equal to the DC of the spell. The entire area of effect is considered difficult terrain while the effect lasts. If the plants in the area are covered in thorns, those in the area take 1 point of damage each time they fail a save against the entangle or fail a check made to break free. Other effects, depending on the local plants, might be possible at GM discretion. Mythic The spell functions in areas without any vegetation, causing plants to spring up out of the ground. These plants can reach creatures that are up to 10 feet in the air. Plants affected or created by the spell sprout thorns that deal 1d6 points of damage each round to creatures in the area. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
     }
   }
 }

@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ironskin__crb_",
+    "name": {
+      "value": "Ironskin"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_monster_codex"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "bloodrager",
+        "cleric",
+        "druid",
+        "oracle",
+        "paladin",
+        "psychic",
+        "ranger",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF/M (a pinch of forge soot)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level (D; see text)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Your skin hardens and takes on the color and texture of rough iron. You gain a +4 enhancement bonus to your existing natural armor bonus (if you do not have a natural armor bonus, you are considered to have an effective natural armor bonus of +0). This enhancement bonus increases by 1 for every 4 caster levels above 4th, to a maximum of +7 at 15th level. While you\u2019re under the effects of this spell, if an opponent confirms a critical hit or sneak attack against you with a physical weapon (not a spell or magical effect), you can dismiss this spell to negate the critical hit or sneak attack and treat it is as a normal hit. Dismissing the spell in this way is not an action, but you must be conscious and aware of the attack to do so. Note*: The math is incorrect in the spell description, and should cap at 16th level. Though there\u2019s been some dialogue about whether the prior change to 16th level or if the bonus is to iterate at \u201cevery 4 caster levels above 3rd\u201d (like admonishing ray, scorching ray, etc), no update from Paizo has been provided. Section 15: Copyright Notice Pathfinder Roleplaying Game Monster Codex \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

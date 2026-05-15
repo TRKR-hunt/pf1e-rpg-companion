@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "aura_of_cannibalism__crb_",
+    "name": {
+      "value": "Aura of Cannibalism"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_monster_codex"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a piece of flesh from another creature of your species)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "20-ft.-radius emanation centered on you"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You emanate an aura that saps the strength of others of your kind and channels their energy into you. Each round that a creature starts its turn in the spell\u2019s area and shares both your creature type and at least one subtype you possess (if any), that creature must succeed at a Fortitude save or take 1d4 points of damage. You gain a number of temporary hit points equal to the amount of damage you deal with this spell (maximum 10 + your caster level ). These temporary hit points go away when the spell ends. As long as you have at least 5 temporary hit points while this spell is in effect, you gain a +1 competence bonus on attack rolls, saving throws, and skill checks. If you have 15 or more temporary hit points, this competence bonus increases to +2. Section 15: Copyright Notice Pathfinder Roleplaying Game Monster Codex \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

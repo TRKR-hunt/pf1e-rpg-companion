@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "lighten_object__crb_",
+    "name": {
+      "value": "Lighten Object"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, M (goose down)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "1 object of up to 1 cubic ft./level"
+    },
+    "duration": {
+      "value": "1 minute/level 10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "The target\u2019s weight decreases by half. If this spell is cast on armor, the armor\u2019s armor check penalty decreases by 1, though its categorization as light, medium, or heavy does not change. Lighten Object, Mass This spell functions like lighten object, except that it affects a number of objects equal to half your caster level. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Gods \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
+    }
+  }
+}

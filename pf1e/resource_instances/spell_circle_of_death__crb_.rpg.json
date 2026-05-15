@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "circle_of_death__crb_",
+    "name": {
+      "value": "Circle of Death"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "inquisitor",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a crushed black pearl worth 500 gp)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "several living creatures within a 40-ft.-radius burst"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Circle of death snuffs out the life force of living creatures, killing them instantly. The spell slays 1d4 HD worth of living creatures per caster level (maximum 20d4). Creatures with the fewest HD are affected first; among creatures with equal HD, those who are closest to the burst\u2019s point of origin are affected first. No creature of 9 or more HD can be affected, and HD that are not sufficient to affect a creature are wasted. Mythic The number of Hit Dice worth of creatures killed by the spell increases to 1d6 per caster level (maximum 20d6). Add your tier to the maximum HD of creatures that can be affected by the spell. (For example, at 3rd tier, a creature with 12 HD cannot be affected.) Augmented (6th): If you expend two uses of mythic power, creatures that succeed at their saves against this spell take 1d6 points of damage per tier. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

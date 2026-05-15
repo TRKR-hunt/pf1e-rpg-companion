@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "apparent_master__crb_",
+    "name": {
+      "value": "Apparent Master"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "Close (25 ft. +5 ft./2 levels)"
+    },
+    "area": {
+      "value": "One construct ; see text"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "Yes"
+    },
+    "description": {
+      "value": "This charm makes a construct regard you as its master. The spell only affects mindless constructs that are attuned to the commands of a master, such as animated objects, golems, retrievers, and shield guardians. All constructs with Intelligence scores, even those that explicitly follow the commands of their creator, such as an homunculus, are unaffected. If the construct is currently being threatened or attacked by you or your allies it receives a +5 bonus on its saving throw. The spell enables you to control the construct completely, with the sole exception that commands directly resulting in damage break the spell. Any act by you or your apparent allies that damages the construct also breaks the spell. You can communicate your commands in any spoken language. The construct reverts to obeying the last commands given by its true master when the spell\u00e2\u0080\u0099s duration expires. If the construct\u00e2\u0080\u0099s true master attempts to command a construct affected by apparent master, you must win an opposed Charisma check for the construct to continue to follow your commands. Failing this check breaks the spell. Section 15: Copyright Notice GameMastery Module J2: Guardians of Dragonfall, Copyright 2007, Paizo Publishing, LLC. Author: Anson Caralya."
+    }
+  }
+}

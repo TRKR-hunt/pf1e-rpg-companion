@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ant_haul__crb_",
+    "name": {
+      "value": "Ant Haul"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "cleric",
+        "druid",
+        "medium",
+        "occultist",
+        "oracle",
+        "psychic",
+        "ranger",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a small pulley) V, S, M/DF (a small pulley)"
+    },
+    "range": {
+      "value": "touch touch"
+    },
+    "area": {
+      "value": "creature touched creatures touched"
+    },
+    "duration": {
+      "value": "2 hours/level 2 hours/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates (harmless); Fortitude negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "The target\u2019s carrying capacity triples. This does not affect the creature\u2019s actual Strength in any way, merely the amount of material it can carry while benefiting from this spell. It also has no effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties for doing so regardless of how much weight the spell allows it to carry. Table: New Carrying Capacity Strength Score Light Load Medium Load Heavy Load 1 9 lbs. or less 10\u00e2\u0080\u009318 lbs. 19\u00e2\u0080\u009330 lbs. 2 18 lbs. or less 19\u00e2\u0080\u009339 lbs. 40\u00e2\u0080\u009360 lbs. 3 30 lbs. or less 31\u00e2\u0080\u009360 lbs. 61\u00e2\u0080\u009390 lbs. 4 39 lbs. or less 40\u00e2\u0080\u009378 lbs. 79\u00e2\u0080\u0093120 lbs. 5 48 lbs. or less 49\u00e2\u0080\u009399 lbs. 100\u00e2\u0080\u0093150 lbs. 6 60 lbs. or less 61\u00e2\u0080\u0093120 lbs. 121\u00e2\u0080\u0093180 lbs. 7 69 lbs. or less 70\u00e2\u0080\u0093138 lbs. 139\u00e2\u0080\u0093210 lbs. 8 78 lbs. or less 79\u00e2\u0080\u0093159 lbs. 160\u00e2\u0080\u0093240 lbs. 9 90 lbs. or less 91\u00e2\u0080\u0093180 lbs. 181\u00e2\u0080\u0093270 lbs. 10 99 lbs. or less 100\u00e2\u0080\u0093198 lbs. 199\u00e2\u0080\u0093300 lbs. 11 114 lbs. or less 115\u00e2\u0080\u0093228 lbs. 229\u00e2\u0080\u0093345 lbs. 12 129 lbs. or less 130\u00e2\u0080\u0093258 lbs. 259\u00e2\u0080\u0093390 lbs. 13 150 lbs. or less 151\u00e2\u0080\u0093300 lbs. 301\u00e2\u0080\u0093450 lbs. 14 174 lbs. or less 175\u00e2\u0080\u0093348 lbs. 349\u00e2\u0080\u0093525 lbs. 15 198 lbs. or less 199\u00e2\u0080\u0093399 lbs. 400\u00e2\u0080\u0093600 lbs. 16 228 lbs. or less 229\u00e2\u0080\u0093459 lbs. 460\u00e2\u0080\u0093690 lbs. 17 258 lbs. or less 259\u00e2\u0080\u0093519 lbs. 520\u00e2\u0080\u0093780 lbs. 18 300 lbs. or less 301\u00e2\u0080\u0093600 lbs. 601\u00e2\u0080\u0093900 lbs. 19 348 lbs. or less 349\u00e2\u0080\u0093699 lbs. 700\u00e2\u0080\u00931,050 lbs. 20 399 lbs. or less 400\u00e2\u0080\u0093798 lbs. 799\u00e2\u0080\u00931,200 lbs. 21 459 lbs. or less 460\u00e2\u0080\u0093918 lbs. 919\u00e2\u0080\u00931,380 lbs. 22 519 lbs. or less 520\u00e2\u0080\u00931,038 lbs. 1,039\u00e2\u0080\u00931,560 lbs. 23 600 lbs. or less 601\u00e2\u0080\u00931,200 lbs. 1,201\u00e2\u0080\u00931,800 lbs. 24 699 lbs. or less 700\u00e2\u0080\u00931,398 lbs. 1,399\u00e2\u0080\u00932,100 lbs. 25 798 lbs. or less 799\u00e2\u0080\u00931,599 lbs. 1,600\u00e2\u0080\u00932,400 lbs. 26 918 lbs. or less 919\u00e2\u0080\u00931,839 lbs. 1,840\u00e2\u0080\u00932,760 lbs. 27 1,038 lbs. or less 1,039\u00e2\u0080\u00932,079 lbs. 2,080\u00e2\u0080\u00933,120 lbs. 28 1,200 lbs. or less 1,201\u00e2\u0080\u00932,400 lbs. 2,401\u00e2\u0080\u00933,600 lbs. 29 1,398 lbs. or less 1,399\u00e2\u0080\u00932,799 lbs. 2,800\u00e2\u0080\u00934,200 lbs. +10 \u00c3\u00974 \u00c3\u00974 \u00c3\u00974 Ant Haul, Communal Source: Pathfinder Roleplaying Game Ultimate Combat This spell functions like ant haul except you may divide the duration in 2-hour intervals among the creatures touched. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

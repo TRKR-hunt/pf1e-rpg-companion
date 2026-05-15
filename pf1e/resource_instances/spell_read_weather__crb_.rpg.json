@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "read_weather__crb_",
+    "name": {
+      "value": "Read Weather"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "oracle",
+        "ranger",
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, F (a set of marked sticks or bones worth at least 25 gp)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell allows you to forecast the weather at your location for the next 48 hours, providing you with advance warning of storms, tornadoes, and so on. This forecast reveals only the weather that would arise naturally, and does not take into account any magical occurrences that might change the weather. Check out the Random Weather Generator! Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Gods \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
+    }
+  }
+}

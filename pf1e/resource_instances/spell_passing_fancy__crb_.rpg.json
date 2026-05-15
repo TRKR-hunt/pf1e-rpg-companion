@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "passing_fancy__crb_",
+    "name": {
+      "value": "Passing Fancy"
+    },
+    "source": {
+      "value": "spymaster_s_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature one living creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "4d4 rounds (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "When you cast this spell, you dictate one specific topic or recent event and instill a magical obsession with that subject within the target. An affected creature becomes fascinated by the topic, and becomes completely focused on discussing the event with anyone nearby, possibly wandering off or distracting unaffected creatures. Passing fancy has no effect on a creature with an Intelligence of 2 or less. Because the target talks and interacts with its usual cadence, onlookers take a \u00e2\u0080\u009310 penalty on Sense Motive checks to notice that anything is amiss with the target\u00e2\u0080\u0099s behavior. Passing Fancy, Mass This spell functions as per passing fancy except as noted. Section 15: Copyright Notice Pathfinder Player Companion: Spymaster\u00e2\u0080\u0099s Handbook \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Owen K.C. Stephens."
+    }
+  }
+}

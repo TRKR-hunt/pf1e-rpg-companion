@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "blood_rage__crb_",
+    "name": {
+      "value": "Blood Rage"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a drop of blood from each creature to be affected)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./level)"
+    },
+    "area": {
+      "value": "one willing living creature per 2 levels, no two of which may be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The targets of this spell become angrier as they fight, the pain of their wounds fueling their strength. An affected creature gains a cumulative +2 morale bonus to Strength and a cumulative -1 penalty to AC for every 5 points of damage it takes (maximum +10 Strength, -5 AC) for the duration of the spell. These bonuses last until the spell expires or the target falls unconscious. Section 15: Copyright Notice Pathfinder Companion: Orcs of Golarion. Copyright 2010, Paizo Publishing, LLC; Authors: Steve Kenson, Rob McCreary, Richard Pett, Sean K Reynolds, and JD Wiker."
+    }
+  }
+}

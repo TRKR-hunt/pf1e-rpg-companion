@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "urban_step__crb_",
+    "name": {
+      "value": "Urban Step"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "occultist",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (scrap of cobweb)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "two doors or other portals in range"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You set up a magical connection between two doors (or other physical portals, such as windows) that both must be within range, line of sight, and line of effect. During the spell\u2019s duration, you can move through one of the two portals. When you do, you teleport to the other portal, emerging in either direction. Both portals must be open and unobstructed when you cast the spell and enter the first portal, and they both must be large enough for you to fit through, otherwise the spell ends and the teleportation fails. You can bring along objects as long as their combined weight doesn\u2019t exceed your maximum load. You can\u2019t bring other creatures with you, and other creatures that go through the portals don\u2019t teleport. Once you step through, the spell ends and you can\u2019t take any other actions until your next turn. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

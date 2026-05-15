@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "twisted_futures__crb_",
+    "name": {
+      "value": "Twisted Futures"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a small die with the faces scratched off)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "By rearranging the threads of fate, you disrupt fortunate outcomes for other creatures. A creature affected by this spell is unable to benefit from effects that grant the ability to roll multiple times and take the higher result (like the swashbuckler\u2019s charmed life ability) or to choose the die result in lieu of rolling (like the wizard\u2019s prescience school power or the cyclops\u2019s flash of insight ability). This doesn\u2019t affect abilities that force a creature to take the lower of two rolls, such as ill omen or a pugwampi\u2019s unluck aura. A cyclops can\u2019t use its flash of insight ability to save against this spell. Section 15: Copyright Notice Pathfinder Player Companion: Giant Hunter\u2019s Handbook \u00c2\u00a9 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross."
+    }
+  }
+}

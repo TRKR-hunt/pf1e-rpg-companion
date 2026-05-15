@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "compel_tongue__crb_",
+    "name": {
+      "value": "Compel Tongue"
+    },
+    "source": {
+      "value": "black_markets"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a wooden block carved with a letter)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions as share language, granting a creature the ability to read, understand, and communicate to the best of its ability in any one language you know. For the spell\u2019s entire duration, the target can speak and write only in the language imparted, but its ability to understand other languages is unaffected. Compel Tongue, Mass This spell functions as compel tongue, except it affects multiple creatures. The same language restriction applies to all creatures, and the same language must be imparted to all creatures affected by the same casting of this spell. Section 15: Copyright Notice Pathfinder Player Companion: Black Markets \u00c2\u00a9 2015, Paizo Inc.; Authors: Ron Lundeen, Jason Nelson, David N. Ross, and David Schwartz."
+    }
+  }
+}

@@ -16,33 +16,43 @@
     },
     "classes": {
       "value": [
+        "alchemist",
+        "bloodrager",
+        "magus",
+        "occultist",
+        "psychic",
+        "shaman",
         "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
         "wizard"
       ]
     },
     "casting_time": {
-      "value": "1 standard action"
+      "value": "1 standard action 1 standard action 1 standard action 1 standard action"
     },
     "components": {
-      "value": "V, S, F"
+      "value": "V, S, F (a wing feather) V, S, F (a wing feather) V, S V, S, M"
     },
     "range": {
-      "value": "touch"
+      "value": "touch touch touch touch"
     },
     "area": {
-      "value": "creature touched"
+      "value": "creature touched creature touched creature touched creature touched"
     },
     "duration": {
-      "value": "1 min/level"
+      "value": "1 min./level 1 min./level 1 min./level 1 min./level"
     },
     "saving_throw": {
-      "value": "Will negates (harmless)"
+      "value": "Will negates (harmless); Will negates (harmless); Will negates (harmless); Will negates (harmless)"
     },
     "spell_resistance": {
-      "value": "yes (harmless)"
+      "value": "yes (harmless) yes (harmless) yes (harmless) yes (harmless)"
     },
     "description": {
-      "value": "Fly speed 60 ft (40 in medium/heavy armor or carrying medium/heavy load)."
+      "value": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load). It can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus on Fly skill checks equal to 1/2 your caster level. Should the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 60 feet per round for 1d6 rounds. If it reaches the ground in that amount of time, it lands safely. If not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet of fall. Since dispelling a spell effectively ends it, the subject also descends safely in this way if the fly spell is dispelled, but not if it is negated by an antimagic field. See Falling Damage if something bad happens! FAQ When a character or creature is flying, and that creature decides to ascend at a 45 degree angle, the rules states that it moves at half speed? Do the rules for diagonal square counting still apply when moving up diagonally in this way? No. Since the game is generally assumed to be played in two dimensions, even when representing three dimensional combat, the rules for ascending are handled by the speed reduction instead of asking players and GMs to ascertain the diagonal vertical movement. [ Source ] Mythic Fly The fly speed changes to 120 feet (or 80 feet if the target is wearing medium or heavy armor, or carrying a medium or heavy load ) with perfect maneuverability. When the duration expires, the target is protected by feather fall for a number of rounds equal to your caster level. Augmented (3rd): If you expend two uses of mythic power, the target adds your tier on Reflex saves and as a dodge bonus to AC. It gains these bonuses only while flying. Editor\u2019s Note Paizo designer Sean K. Reynolds designed some completely unofficial variants of the fly spell on his personal website. Yes, these are COMPLETELY unofficial. Consult your GM to confirm if these might be allowed! \u201cHere are three variants of the fly spell from different schools. Each of them has a weakness, drawback, or some other element that makes them less effective or powerful than the transmutation form of the spell), but they\u2019re still viable options for thematic spellcasters or specialist wizards who chose transmutation as a prohibited school.\u201d *We adapted the necromantic variant to be compatible with the Pathfinder rules. Fly, Conjurative This spell functions like fly, except that rather than being sustained by magic, you conjure a Small flying outsider that carries the target and follows his mental commands. The outsider has hit dice (d8s) equal to half your caster level and 4 hit points per hit die. The outsider is a separate creatures for the purpose of all effects (such as targeted and area effects). It uses the target creature\u2019s saving throw bonuses and has improved evasion. It is subject to all effects that target outsiders (such as magic circle spells, which prevent it from entering or carrying the target into that area). If the outsider is killed, the spell ends (carrying the target safely to the ground as explained in the fly spell). When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type. When you summon the creature, you decide if it is a celestial ( angel, avoral, or guardinal), fiend ( daemon, demon, or devil ), or elemental (air or fire); this choice has no effect on the creature\u2019s abilities (though if you have an ability that augments or extends spells you cast that summon certain creatures it has the normal effect). The focus is a tiny bag and a small (not necessarily lit) candle. Fly, Illusory This spell"
     }
   }
 }

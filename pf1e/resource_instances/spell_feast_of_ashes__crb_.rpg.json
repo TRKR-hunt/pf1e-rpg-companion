@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "feast_of_ashes__crb_",
+    "name": {
+      "value": "Feast of Ashes"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "occultist",
+        "psychic",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a pinch of ash)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft/2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "2 days/level (D)"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You curse the target with a hunger no food can assuage. On a failed Saving Throw, the target begins to starve. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of eating can counter the effect and, further, even attempting to eat causes the target to become nauseated for 1 round unless they make a DC 12 Fortitude save. The target still experiences the other normal effects of anything consumed (such as poisons or potions). Feast of ashes can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell, but effects suffered as a result of starvation must be healed by normal means. Mythic Feast of Ashes Source PZO1126 On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your tier to the DC of any further Constitution checks the target attempts to resist the effects of starvation as part of this spell\u00e2\u0080\u0099s effects. While the curse is in effect, the target gains no benefit from any spell, effect, or item that requires eating, such as the food from a heroes\u00e2\u0080\u0099 feast spell (though the food is still used up when the target eats it). Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

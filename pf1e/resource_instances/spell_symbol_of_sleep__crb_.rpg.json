@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "symbol_of_sleep__crb_",
+    "name": {
+      "value": "Symbol of Sleep"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": ""
+    },
+    "components": {
+      "value": "V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 1,000 gp)"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": ""
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like symbol of death, except that all creatures of 10 HD or less within 60 feet of the symbol of sleep instead fall into a catatonic slumber for 3d6x10 minutes. Unlike with the sleep spell, sleeping creatures cannot be awakened by non-magical means before this time expires. Unlike symbol of death, symbol of sleep has no hit point limit; once triggered, a symbol of sleep simply remains active for 10 minutes per caster level."
+    }
+  }
+}

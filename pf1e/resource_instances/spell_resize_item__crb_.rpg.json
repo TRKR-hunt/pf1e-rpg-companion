@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "resize_item__crb_",
+    "name": {
+      "value": "Resize Item"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (silver calipers worth 25 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one weapon or suit of armor weighing up to 25 lbs./level"
+    },
+    "duration": {
+      "value": "24 hours (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You alter a magic weapon or suit of armor to be up to two size categories larger or smaller. If the spell on a resized suit of armor ends while the armor is being worn, the armor falls off harmlessly. If the spell would cause an item to grow too large for the area containing it, its growth halts just before that point. Resize item can be made permanent with a permanency spell for 7,500 gp, in which case the affected object is set at one specific new size within two steps of its original size. Section 15: Copyright Notice Pathfinder Player Companion: Giant Hunter\u2019s Handbook \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David N. Ross."
+    }
+  }
+}

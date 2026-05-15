@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shatter__crb_",
+    "name": {
+      "value": "Shatter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "cleric",
+        "magus",
+        "occultist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a chip of mica)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) Area or Target 5-ft.-radius spread; or one solid object or one crystalline creature"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (object); Will negates (object) or Fortitude half; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Shatter creates a loud, ringing noise that breaks brittle, non-magical objects; sunders a single solid, non-magical object; or damages a crystalline creature. Used as an area attack, shatter destroys non-magical objects of crystal, glass, ceramic, or porcelain. All such unattended objects within a 5-foot radius of the point of origin are smashed into dozens of pieces by the spell. Objects weighing more than 1 pound per your level are not affected, but all other objects of the appropriate composition are shattered. Alternatively, you can target shatter against a single solid non-magical object, regardless of composition, weighing up to 10 pounds per caster level. Targeted against a crystalline creature (of any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6), with a Fortitude save for half damage. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

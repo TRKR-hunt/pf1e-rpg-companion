@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "overland_flight__crb_",
+    "name": {
+      "value": "Overland Flight"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "magus",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly skill checks equal to half your caster level. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet). See Falling Damage if something bad happens! Editor\u2019s Note When a character or creature is flying, and that creature decides to ascend at a 45 degree angle, the rules states that it moves at half speed? Do the rules for diagonal square counting still apply when moving up diagonally in this way? No. Since the game is generally assumed to be played in two dimensions, even when representing three dimensional combat, the rules for ascending are handled by the speed reduction instead of asking players and GMs to ascertain the diagonal vertical movement. [ Source ]"
+    }
+  }
+}

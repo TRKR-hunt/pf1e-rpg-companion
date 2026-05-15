@@ -6,7 +6,7 @@
       "value": "Cure Light Wounds"
     },
     "source": {
-      "value": "crb"
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
     },
     "level": {
       "value": "spell_level_1"
@@ -16,36 +16,43 @@
     },
     "classes": {
       "value": [
+        "alchemist",
+        "bard",
         "cleric",
         "druid",
-        "bard",
+        "inquisitor",
+        "occultist",
+        "oracle",
         "paladin",
-        "ranger"
+        "ranger",
+        "shaman",
+        "spiritualist",
+        "witch"
       ]
     },
     "casting_time": {
-      "value": "1 standard action"
+      "value": "1 standard action 1 standard action"
     },
     "components": {
-      "value": "V, S"
+      "value": "V, S V, S"
     },
     "range": {
-      "value": "touch"
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
     },
     "area": {
-      "value": "creature touched"
+      "value": "creature touched one creature/level, no two of which can be more than 30 ft. apart"
     },
     "duration": {
-      "value": "instantaneous"
+      "value": "instantaneous instantaneous"
     },
     "saving_throw": {
-      "value": "Will half (harmless); see text"
+      "value": "Will half (harmless); see text; Will half (harmless) or Will half; see text"
     },
     "spell_resistance": {
-      "value": "yes"
+      "value": "yes (harmless); see text yes (harmless) or yes; see text"
     },
     "description": {
-      "value": "Cures 1d8 + caster level (max +5) HP."
+      "value": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage. Cure Light Wounds, Mass You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage. Mythic The damage cured increases to 2d8 points of damage + 2 points per caster level (maximum +10). The spell cures up to 1 point of ability damage if the target is a living creature. The target chooses what type of ability damage is cured. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
     }
   }
 }

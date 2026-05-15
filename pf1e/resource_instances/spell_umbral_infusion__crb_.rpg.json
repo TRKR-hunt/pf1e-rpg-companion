@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "umbral_infusion__crb_",
+    "name": {
+      "value": "Umbral Infusion"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "cleric",
+        "occultist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one mindless undead creature one mindless undead creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You infuse the target mindless undead creature with power drawn from the Shadow Plane, immediately granting it the advanced creature simple template. It gains a +2 bonus on all rolls, including damage rolls, a +2 bonus to special ability DCs, a +4 bonus to AC and CMD, and 2 additional hit points per Hit Die. The undead creature\u2019s destructive instincts take hold for the duration of this spell, and any attempts to control or command the undead creature have a 50% chance of failing; if uncontrolled, the undead creature attacks any living creatures it sees. This spell has no effect on undead creatures that already have the advanced creature template. Umbral Infusion, Mass This spell functions as umbral infusion, except it can affect multiple mindless undead creatures. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

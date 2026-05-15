@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "slipstream__crb_",
+    "name": {
+      "value": "Slipstream"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "druid",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a few drops of oil and water)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": "Reflex negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You create a low-cresting wave of water that carries the target along the surface of water or the ground. When moving across level ground, the target\u2019s speed increases by 10 feet. If going downhill, speed increases by 20 feet instead, but slipstream provides no movement bonus when going uphill. While swimming, the slipstream increases the target\u2019s swim speed by 20 feet-if the target does not have a swim speed, this spell grants a swim speed of 20 ft. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

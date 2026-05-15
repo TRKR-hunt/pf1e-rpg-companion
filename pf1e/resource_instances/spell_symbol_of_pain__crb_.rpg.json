@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "symbol_of_pain__crb_",
+    "name": {
+      "value": "Symbol of Pain"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": ""
+    },
+    "components": {
+      "value": "V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 1,000 gp)"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": ""
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like symbol of death, except that each creature within the radius of a symbol of pain instead suffers wracking pains that impose a -4 penalty on attack rolls, skill checks, and ability checks. These effects last for 1 hour after the creature moves farther than 60 feet from the symbol. Unlike symbol of death, symbol of pain has no hit point limit; once triggered, a symbol of pain simply remains active for 10 minutes per caster level."
+    }
+  }
+}

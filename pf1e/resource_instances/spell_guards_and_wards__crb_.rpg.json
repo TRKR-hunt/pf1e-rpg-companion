@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "guards_and_wards__crb_",
+    "name": {
+      "value": "Guards and Wards"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "30 minutes"
+    },
+    "components": {
+      "value": "V, S, M (burning incense, a small measure of brimstone and oil, a knotted string, and a small amount of blood), F (a small silver rod)"
+    },
+    "range": {
+      "value": "anywhere within the area to be warded"
+    },
+    "area": {
+      "value": "up to 200 sq. ft./level (S)"
+    },
+    "duration": {
+      "value": "2 hours/level (D)"
+    },
+    "saving_throw": {
+      "value": "see text; : none. : none. : Reflex negates; see text for web . : none. : Will disbelief (if interacted with). : none. : none. : Fortitude negates; see text for stinking cloud . : Fortitude negates. : Will negates"
+    },
+    "spell_resistance": {
+      "value": "see text : no. Arcane Locks : All doors in the warded area are arcane locked . : no. Webs : Webs fill all stairs from top to bottom. These strands are identical with those created by the web spell, except that they regrow in 10 minutes if they are burned or torn away while the guards and wards spell lasts. : no. Confusion : Where there are choices in direction- such as a corridor intersection or side passage- a minor confusion -type effect functions so as to make it 50% probable that intruders believe they are going in the opposite direction from the one they actually chose. This is a mind-affecting effect. : yes. Lost Doors : One door per caster level is covered by a silent image to appear as if it were a plain wall. : no. In addition, you can place your choice of one of the following five magical effects. Dancing lights in four corridors. You can designate a simple program that causes the lights to repeat as long as the guards and wards spell lasts. : no. A magic mouth in two places. : no. A stinking cloud in two places. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while the guards and wards spell lasts. : no. A gust of wind in one corridor or room. : yes. A suggestion in one place. You select an area of up to 5 feet square, and any creature who enters or passes through the area receives the suggestion mentally. : yes. The whole warded area radiates strong magic of the abjuration school. A dispel magic cast on a specific effect, if successful, removes only that effect. A successful mage\u2019s disjunction destroys the entire guards and wards effect"
+    },
+    "description": {
+      "value": "This powerful spell is primarily used to defend a stronghold or fortress by creating a number of magical wards and effects. The ward protects 200 square feet per caster level. The warded area can be as much as 20 feet high, and shaped as you desire. You can ward several stories of a stronghold by dividing the area among them; you must be somewhere within the area to be warded to cast the spell. The spell creates the following magical effects within the warded area. Fog: Fog fills all corridors, obscuring all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target)."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "track_ship__crb_",
+    "name": {
+      "value": "Track Ship"
+    },
+    "source": {
+      "value": "pirates_of_the_inner_sea"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (piece of ship)"
+    },
+    "range": {
+      "value": "see text"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "In order to cast this spell, you must have a piece of the ship you wish to track. Merchants often preserve slivers from their trade ships specifically for this purpose. You also need a nautical chart. When you cast this spell, an icon of the targeted ship appears on the nautical chart. The icon moves as the ship moves for the duration of this spell. If the ship is not within the area delineated by the chart, the spell fails. If the ship is reduced to 0 or fewer hit points, its icon changes from a ship to a skull and crossbones. Section 15: Copyright Notice Pathfinder Player Companion: Pirates of the Inner Sea \u00c2\u00a9 2012, Paizo Publishing, LLC; Author: Amber E. Scott."
+    }
+  }
+}

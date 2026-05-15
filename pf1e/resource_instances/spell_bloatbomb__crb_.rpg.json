@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "bloatbomb__crb_",
+    "name": {
+      "value": "Bloatbomb"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creature touched"
+    },
+    "duration": {
+      "value": "instantaneous and 1 minute/level (see text)"
+    },
+    "saving_throw": {
+      "value": "Fort negates or Reflex half (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The target creature dies if it fails a Fortitude saving throw and its Hit Dice are no more than half your caster level. If it dies, its corpse rapidly putrefies. The next creature to touch the corpse within 1 minute per level of the target\u2019s death causes the corpse to explode in a 10-foot-radius burst, dealing 3d6 points of acid damage ( Reflex half). Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

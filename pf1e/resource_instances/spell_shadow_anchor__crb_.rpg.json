@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shadow_anchor__crb_",
+    "name": {
+      "value": "Shadow Anchor"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 round/level (D); see text"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The target\u2019s shadow becomes a flexible tether to its current square. The creature can move up to 5 feet from that square without penalty. Moving farther than 5 feet from the tether point requires the target to make a bull rush combat maneuver check against a CMB of 10 + 1/2 your caster level + your Intelligence modifier (if a witch or wizard ) or Charisma modifier (if a bard or sorcerer ). The target takes a \u00e2\u0080\u00931 penalty for every 5 feet of distance between it and its tethered square. Failing this check means the target\u2019s move is wasted and it cannot move farther away. If it fails this check by 10 or more, it is pulled 5 feet toward the tether square and is knocked prone. If it beats the check by 10 or more, the spell ends. This spell does not work on creatures that do not cast shadows or reflections. If the target uses a teleportation effect or leaves the current plane, the spell ends. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

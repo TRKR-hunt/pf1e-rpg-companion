@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "veil__crb_",
+    "name": {
+      "value": "Veil"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": "one or more creatures, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "concentration + 1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates; see text"
+    },
+    "spell_resistance": {
+      "value": "yes; see text"
+    },
+    "description": {
+      "value": "You instantly change the appearance of the subjects and then maintain that appearance for the spell\u2019s duration. You can make the subjects appear to be anything you wish. The subjects look, feel, and smell just like the creatures the spell makes them resemble. Affected creatures resume their normal appearances if slain. You must succeed on a Disguise check to duplicate the appearance of a specific individual. This spell gives you a +10 bonus on the check. Unwilling targets can negate the spell\u2019s effect on them by making Will saves or with Spell Resistance. Those who interact with the subjects can attempt Will disbelief saves to see through the glamer, but Spell Resistance doesn\u2019t help."
+    }
+  }
+}

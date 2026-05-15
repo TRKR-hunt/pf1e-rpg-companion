@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "fleeting_defect__crb_",
+    "name": {
+      "value": "Fleeting Defect"
+    },
+    "source": {
+      "value": "black_markets"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one solid object that does not have the broken condition, or one construct"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Fort negates\u201d (harmless, object); see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You cause a single object to temporarily gain the broken condition. The target must be a single solid object, regardless of its composition, weighing up to 10 pounds per caster level. Attended objects are allowed a Fortitude save. When this spell ends, the object reverts to its original quality. An item destroyed while under the effects of this spell remains destroyed when this spell ends. This spell can be cast on a single construct to disrupt its animating force. A construct that fails its saving throw takes a \u00e2\u0080\u00932 circumstance penalty on attack rolls, saving throws, skill checks, and ability checks for the duration of the spell. Section 15: Copyright Notice Pathfinder Player Companion: Black Markets \u00c2\u00a9 2015, Paizo Inc.; Authors: Ron Lundeen, Jason Nelson, David N. Ross, and David Schwartz."
+    }
+  }
+}

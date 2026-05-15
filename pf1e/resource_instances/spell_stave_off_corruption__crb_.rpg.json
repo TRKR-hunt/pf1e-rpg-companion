@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "stave_off_corruption__crb_",
+    "name": {
+      "value": "Stave Off Corruption"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (see text) for this spell vary with the type of corruption. For example, garlic is used for a vampirism corruption, a sprig of wolfsbane is used for a lycanthropy corruption, and so on. The GM can determine appropriate material , but the should cost at least 25 gp. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 day/2 caster levels"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You ward the target to slow the advancement of its corruption. The target receives a +2 circumstance bonus on saving throws against the advancement of its corruption, as described in the catalyst section of each corruption. Multiple applications of this spell do not stack, nor does the bonus stack with morale, profane, or sacred bonuses on saving throws against the advancement of the target\u00e2\u0080\u0099s corruption. The material"
+    }
+  }
+}

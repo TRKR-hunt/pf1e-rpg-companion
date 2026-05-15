@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hidden_blades__crb_",
+    "name": {
+      "value": "Hidden Blades"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "bard",
+        "inquisitor",
+        "magus",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a shard of glass)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "weapon or ammunition touched; see text"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless, object)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless, object)"
+    },
+    "description": {
+      "value": "You render a target weapon or up to 50 pieces of ammunition invisible, granting the wielder a +20 bonus on Sleight of Hand checks made to conceal the weapon or ammunition and a +5 circumstance bonus on Bluff checks to feint with the weapon or ammunition. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

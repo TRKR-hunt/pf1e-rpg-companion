@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sure_casting__crb_",
+    "name": {
+      "value": "Sure Casting"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, F (a square of cloth and a needle) EFFECTS"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round (see text)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "This bonus doesn\u2019t increase any other effects that depend on caster level , such as the spell\u2019s damage or range, and affects only the first spell cast after sure casting. Section 15: Copyright Notice Pathfinder Player Companion: Pathfinder Society Primer \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: John Compton and Mark Moreland"
+    },
+    "description": {
+      "value": "You gain temporary insight into your enemies\u2019 magical defenses. When you next cast a spell before the end of the next round, treat your caster level as 5 higher than normal for the purpose of overcoming"
+    }
+  }
+}

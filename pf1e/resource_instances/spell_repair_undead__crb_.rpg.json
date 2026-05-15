@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "repair_undead__crb_",
+    "name": {
+      "value": "Repair Undead"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S V, S"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one undead creature touched (see text)"
+    },
+    "duration": {
+      "value": "instantaneous instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will half (harmless); Will half (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "When you touch an undead creature, you channel negative energy that heals 1d8 points of damage + 1 point per caster level (maximum +5). This spell has no effect on living creatures, except those that are healed by negative energy are also healed by the spell. Repair Undead, Mass This spell functions as repair undead, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hymn_of_mercy__crb_",
+    "name": {
+      "value": "Hymn of Mercy"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "30-ft.-radius burst centered on you"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions like touch of mercy, except as noted above. Section 15: Copyright Notice Pathfinder Player Companion: Champions of Purity \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jessica Blomstrom, Adam Daigle, Shaun Hocking, Daniel Marthaler, Tork Shaw, and Christina Stiles."
+    }
+  }
+}

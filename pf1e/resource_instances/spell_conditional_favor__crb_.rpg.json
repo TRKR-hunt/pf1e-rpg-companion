@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "conditional_favor__crb_",
+    "name": {
+      "value": "Conditional Favor"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bard",
+        "cleric",
+        "inquisitor",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "paladin",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": "1 creature"
+    },
+    "duration": {
+      "value": "1 day/level (D)"
+    },
+    "saving_throw": {
+      "value": "none (see below)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You must cast this spell immediately before casting another spell on the same creature, eliciting a promise or warning against a behavior and binding the target to the paired spell. If you don\u2019t cast a paired spell, conditional favor has no effect. The paired spell must be from the abjuration, conjuration ( healing ), enchantment, or transmutation school or subschool, and must be cast on a willing creature. If the spell\u2019s recipient violates the oath or prohibition while conditional favor remains in effect, the paired spell is undone as if never cast. If the spell was a healing spell, the hit point damage or condition you removed returns immediately, even if the subject has enjoyed subsequent rest or healing. Poisons, diseases, curses, restored ability damage, and negative levels removed by the paired spell return as well. Conditional favor recognizes the spirit of your condition and doesn\u2019t trigger a violation due to unintended consequences or circumstances that the subject could not predict with her current knowledge of the situation. For instance, if the prohibition prevented the subject from laying a finger on royalty, touching a disguised prince would not count as a violation if the subject did not recognize the prince, nor would touching a member of royalty while dominated. The subject of the spell intuitively knows beforehand whether an action will cause it to lose the paired spell\u2019s benefit. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "contingent_action__crb_",
+    "name": {
+      "value": "Contingent Action"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one willing creature"
+    },
+    "duration": {
+      "value": "1 minute/level (D) or until discharged"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "Yes (harmless)"
+    },
+    "description": {
+      "value": "The target gains an extra action that becomes available when a condition which you dictate is met. At the time of casting, you dictate the condition, and the target specifies a readied action that occurs when triggered by this condition. The condition needed to trigger the readied action must be clear, although it can be general. If a complicated or convoluted condition is prescribed, the whole combination might fail when triggered. For example, suppose the trigger and the action are stated as \u201cIf the target is attacked while he is not holding a weapon, he draws a weapon.\u201d If the target has no weapon to draw when the trigger occurs, the action fails. If the trigger and the action are \u201cIf an ally within 20 feet falls unconscious, the target moves to a space adjacent to that ally\u201d but the target is chained to a wall when the trigger occurs and can\u2019t reach the unconscious ally, the action fails. The readied action must be a standard, move, or swift action \u00e2\u0080\u0094it cannot be used to cast a spell or use a supernatural ability. This action counts as a readied action and doesn\u2019t count toward the number of actions the creature can take in a round. When the condition occurs, the target can decide not to use the readied action. Once the condition is triggered, the spell is discharged\u00e2\u0080\u0094whether or not the target uses the readied action or the action is successful. This spell counts as a contingency spell for the purpose of having multiple contingent effects on a creature at the same time. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

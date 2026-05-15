@@ -1,0 +1,60 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "break_enchantment__crb_",
+    "name": {
+      "value": "Break Enchantment"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "paladin",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "up to one creature per level, all within 30 ft. of each other"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell frees victims from enchantments, transmutations, and curses. Break enchantment can reverse even an instantaneous effect. For each such effect, you make a caster level check (1d20 + caster level, maximum +15) against a DC of 11 + caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is equal to the DC of the curse. If the spell is one that cannot be dispelled by dispel magic, break enchantment works only if that spell is 5th level or lower. If the effect comes from a permanent magic item, break enchantment does not remove the curse from the item, but it does free the victim from the item\u2019s effects. Mythic Against non-mythic effects, the spell automatically succeeds without requiring a caster level check. Against mythic effects, add your tier to your caster level check. The maximum level of spell this spell can remove is 5 + half your tier. Augmented (7th): If you expend two uses of mythic power, you can apply A removed enchantment, transmutation, or curse to the creature that originally cast it. The creature must be a valid target of the spell and on the same plane as you, and it gets a saving throw at the effect\u2019s original DC. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

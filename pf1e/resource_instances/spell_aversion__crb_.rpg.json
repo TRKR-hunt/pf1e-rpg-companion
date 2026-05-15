@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "aversion__crb_",
+    "name": {
+      "value": "Aversion"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "druid",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 day/level"
+    },
+    "saving_throw": {
+      "value": "Will partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You plant a revulsion in the mind of the subject, causing her to avoid an object or location. You must choose a specific object or place. A location chosen in this way can be no larger than a cube measuring 50 feet on a side. The aversion is entirely in the target\u2019s mind, so the chosen object or location itself isn\u2019t subject to any magical effect. If the target fails her saving throw, she can\u2019t come within 60 feet of the chosen object or place. She makes every reasonable effort to avoid the object of the aversion, but will not put herself in danger in order to maintain the aversion. For example, if the object of the aversion is a bridge but a forest fire is closing in and will likely kill the target, she ignores the aversion and crosses the bridge to save herself. If the target must ignore the conditions of the aversion, she is nauseated until she is no longer violating the aversion. If the target succeeds at her saving throw, she is instead sickened while within 60 feet of the object or place, but isn\u2019t compelled to stay away from it. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

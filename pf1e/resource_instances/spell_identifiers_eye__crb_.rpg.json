@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "identifiers_eye__crb_",
+    "name": {
+      "value": "Identifier\u2019s Eye"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a wine -stained pearl)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "3 rounds + 1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "This spell infuses a spark of magical energy into the veins of the target, allowing it to feel the presence of magic the way one might feel the thrum of vibrations in the air. For the spell\u00e2\u0080\u0099s duration, the target gains the benefits of the spell detect magic and also gains a +5 enhancement bonus on Spellcraft checks to identify the properties and command words of magic items. Further, the target can attempt such checks untrained while under the effects of this spell. This ability does not allow the target to identify artifacts. Section 15: Copyright Notice Pathfinder Player Companion: Potions & Poisons \u00c2\u00a9 2017, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Nathan King, Lyz Liddell, Luis Loza, Alex Putnam, Alex Riggs, and David Schwartz."
+    }
+  }
+}

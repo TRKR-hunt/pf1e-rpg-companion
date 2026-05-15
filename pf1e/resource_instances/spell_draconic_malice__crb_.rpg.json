@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "draconic_malice__crb_",
+    "name": {
+      "value": "Draconic Malice"
+    },
+    "source": {
+      "value": "legacy_of_dragons"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "cleric",
+        "inquisitor",
+        "mesmerist",
+        "oracle",
+        "paladin",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You surround yourself with a palpable aura of draconic fear and dread. Living creatures within this aura that are normally immune to fear or mind-affecting abilities lose those immunities against your spells, spell-like abilities, and supernatural abilities that create fear effects, as well as any Intimidate checks you attempt to demoralize foes. If you have the antipaladin aura of cowardice class feature, this spell instead changes the penalty imposed by aura of cowardice to \u00e2\u0080\u00936 for its duration. Section 15: Copyright Notice Pathfinder Player Companion: Legacy of Dragons \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Thurston Hillman, Michelle Jones, Mikko Kallio, and Mark Seifter."
+    }
+  }
+}

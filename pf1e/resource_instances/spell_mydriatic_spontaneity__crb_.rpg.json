@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mydriatic_spontaneity__crb_",
+    "name": {
+      "value": "Mydriatic Spontaneity"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) Targets one living creature"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You overstimulate the target with alternating flashes of light and shadow within its eyes, causing its pupils to rapidly dilate and contract. While under the effects of this spell, the target is racked by splitting headaches and unable to see clearly, becoming nauseated for the spell\u2019s duration. Each round, the target\u2019s pupils randomly become dilated or contracted for 1 round. During any round that its eyes are dilated, the target is blinded if exposed to bright light or dazzled if exposed to normal light. During any round its eyes are contracted, the target is blinded if exposed to darkness or dazzled if exposed to dim light. In addition, any creature can attempt a Stealth check to avoid detection from the target, even if the creature lacks cover or concealment. Mydriatic Spontaneity, Mass This spell functions as mydriatic spontaneity, except it can affect multiple creatures. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

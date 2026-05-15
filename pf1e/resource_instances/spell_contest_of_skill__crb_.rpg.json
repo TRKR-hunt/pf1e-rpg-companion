@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "contest_of_skill__crb_",
+    "name": {
+      "value": "Contest of Skill"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a tiny gong)"
+    },
+    "range": {
+      "value": "close (25 ft. plus 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The randomness of critical hits has long vexed certain duelists in the school who consider luck to be an unwelcome addition to duels, which they view as contests of skill rather than chance. The creature targeted by this spell is infused with magical power, altering the odds of combat to weaken lucky strikes. Critical threats made by the affected creature automatically fail to confirm. Critical threats that automatically confirm due to class features or feats, such as the Fighter\u2019s weapon Mastery, are unaffected by this spell. In addition, when the initial target of this spell fails its Will save to resist contest of skill, it can select one additional creature within range of the spell to suffer the effects of the spell as well ( Will negates). If this secondary target negates this spell with a successful save, the duration of contest of skill on the primary target is reduced to 1 round. Section 15: Copyright Notice Pathfinder Roleplaying Game Adventurer\u2019s Guide \u00c2\u00a9 2017, Paizo Inc.; Authors: Benjamin Bruck, John Compton, Crystal Frasier, Tim Hitchcock, Jenny Jarzabski, Isabelle Lee, Joe Pasini, Jessica Price, David Schwartz, and Josh Vogt."
+    }
+  }
+}

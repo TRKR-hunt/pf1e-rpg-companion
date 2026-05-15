@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "bleed_for_your_master__crb_",
+    "name": {
+      "value": "Bleed for Your Master"
+    },
+    "source": {
+      "value": "uw"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "druid",
+        "ranger",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "your animal companion , familiar , or fiendish servant"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "When you would be hit by an attack that requires an attack roll, or when you are within an area of effect that allows you to attempt a Reflex saving throw, with a single touch you compel the target to throw itself in front of the blow or shield you from the effect. If an attack roll triggered this spell\u2019s casting, the target takes the damage instead of you, even if the attack roll would not normally hit the target\u2019s Armor Class. If an area of effect that allows you to attempt a Reflex save triggered this spell\u2019s casting, the target instead grants you cover against the effect (+2 bonus on Reflex saves) if it is your size or smaller, or improved cover (+4 bonus on Reflex saves and improved evasion against the effect) if it is larger than you. the target automatically fails its Reflex save against the effect but can still benefit from improved evasion and similar mitigating effects. After taking damage, the target is shaken for 1 minute. If the target was already shaken, it becomes frightened instead. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Wilderness \u00c2\u00a9 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
+    }
+  }
+}

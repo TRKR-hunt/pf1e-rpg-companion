@@ -1,0 +1,61 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "tongues__crb_",
+    "name": {
+      "value": "Tongues"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "cleric",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, M/DF (a clay model of a ziggurat)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched creatures touched"
+    },
+    "duration": {
+      "value": "10 min./level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don\u2019t speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way. Tongues can be made permanent with a permanency spell. Tongues, Communal This spell functions like tongues, except you divide the duration in 10-minute intervals among the creatures touched. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "stumble_gap__crb_",
+    "name": {
+      "value": "Stumble Gap"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (miniature shovel costing 10 gp)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round + 1 round/level"
+    },
+    "saving_throw": {
+      "value": "Reflex partial; to avoid falling prone in an adjacent square and taking 1d6 points of damage. A creature that makes its still stumbles ever so slightly and takes a -1 penalty on all rolls and checks for 1 round. The spell has no effect on creatures adjacent to the square containing the hole. Section 15: Copyright Notice Advanced Player\u2019s Guide . Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You create a shallow extra-dimensional hole perfectly sized to trip anyone who steps within it. This hole occupies a single 5-foot square with a depth of six inches. Any creature occupying the square when you first create the hole, or who later steps into the square containing the hole, must make a Reflex"
+    }
+  }
+}

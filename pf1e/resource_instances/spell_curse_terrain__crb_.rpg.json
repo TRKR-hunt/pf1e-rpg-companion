@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "curse_terrain__crb_",
+    "name": {
+      "value": "Curse Terrain, Lesser"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S, M (the heart of a creature that dwelled in the area and powdered onyx worth 700 gp) V, S, M (the heart of a creature that dwelled in the area and powdered onyx worth 1,500 gp) V, S, M (the heart of a creature that dwelled in the area and powdered onyx worth 350 gp) V, S, M (the heart of a creature that dwelled in the area and powdered onyx worth 4,000 gp)"
+    },
+    "range": {
+      "value": "touch touch touch touch"
+    },
+    "area": {
+      "value": "1-mile radius emanating from the touched point 5-mile radius emanating from the touched point 300-ft. radius emanating from the touched point 5-mile radius emanating from the touched point"
+    },
+    "duration": {
+      "value": "1 day (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "By touching the ground, you curse the land with four unnatural hazards. This functions as lesser curse terrain, but with the effects of the major perilous demesne curse. Curse Terrain, Greater By touching the ground, you curse the land with six unnatural hazards. This functions as lesser curse terrain, but with the effects of the greater perilous demesne curse. Curse Terrain, Lesser By touching the ground, you curse the land with three unnatural hazards, as the minor perilous demesne curse. Though this makes the hazards appear frequently, their manifestations are still unpredictable\u00e2\u0080\u0094you can\u00e2\u0080\u0099t control when the hazards begin or end, nor where they appear within the cursed terrain. Curse terrain spells can be made permanent with a permanency spell. The minimum caster level and gp cost are shown on the table. The spell is still dismissable if made permanent. Spell Minimum Caster Level Cost (gp) Lesser curse terrain 9th 2,500 Curse terrain 11th 7,500 Greater curse terrain 15th 17,500 Supreme curse terrain 19th 27,500 Curse Terrain, Supreme By touching the ground, you curse the land with seven unnatural hazards. This functions as lesser curse terrain, but with the effects of the grand perilous demesne curse. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

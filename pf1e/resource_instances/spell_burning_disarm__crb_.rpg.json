@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "burning_disarm__crb_",
+    "name": {
+      "value": "Burning Disarm"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "Short (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "Held metal item of one creature or 15 lbs. of unattended metal"
+    },
+    "duration": {
+      "value": "\u00c2\u00a0instantaneous"
+    },
+    "saving_throw": {
+      "value": "Reflex negates (object, see text)"
+    },
+    "spell_resistance": {
+      "value": "Yes (object)"
+    },
+    "description": {
+      "value": "This spell causes a metal object to instantly become red hot. A creature holding the item may attempt a Reflex save to drop it and take no damage (even if it is not their turn), otherwise the hot metal deals 1d4 points of fire damage per caster level (maximum 5d4). Circumstances that prevent the creature from dropping the item (such as a locked gauntlet) mean the creature gets no saving throw. The heat does not harm the item, and it does not get hot enough or last long enough to ignite flammable objects. The item cools to its previous temperature almost instantly. If cast underwater, burning disarm deals half damage and boils the surrounding water. Section 15: Copyright Notice Pathfinder Chronicles \u2013 Cheliax: Empire of Devils Copyright 2009, Paizo Publishing, LLC Authors: Jonathan H. Keith, Colin McComb, Steven E. Schend, Leandra Christine Schneider, and Amber E. Scott"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "all_spells_b_book_ward__crb_",
+    "name": {
+      "value": "Book Ward"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a drop of clear oil)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one touched object of up to 10 pounds/level"
+    },
+    "duration": {
+      "value": "1 day/level or until discharged (see text)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "Yes (harmless)"
+    },
+    "description": {
+      "value": "As protection from energy, except as noted above and that the spell only protects against acid and fire damage. While the energy protection remains, the item is also completely waterproof (this protection extends to other liquids as well, such as alcohol and oil). Section 15: Copyright Notice Pathfinder Chronicles: Seekers of Secrets. Copyright 2009, Paizo Publishing, LLC; Authors: Tim Hitchcock, Erik Mona, Sean K Reynolds, James L. Sutter, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "detect_chaos__crb_",
+    "name": {
+      "value": "Detect Chaos"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "shaman",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": ""
+    },
+    "components": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": ""
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like detect evil, except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful."
+    }
+  }
+}

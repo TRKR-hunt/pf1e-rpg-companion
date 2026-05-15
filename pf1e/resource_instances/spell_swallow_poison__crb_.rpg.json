@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "swallow_poison__crb_",
+    "name": {
+      "value": "Swallow Poison"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "druid",
+        "shaman",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 hour/level or until discharged"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "A special gland grows on the inside of your throat, which absorbs any poisons that you ingest, and can be used to expel them in a toxic spray. Any time you consume ingested poison during the spell\u2019s duration, you can roll a caster level check against the poison\u2019s save DC in order to harmlessly absorb the poison, ignoring its effects. The spell can absorb up to 1 dose of poison per 3 caster levels, after which the gland is unable to process any more poison, and any further doses of ingested poison affect you normally. You store each dose of absorbed poison within the gland, and you can end the spell to spray one dose of absorbed poison out of your mouth as a standard action. This sprays the poison in a 15-foot cone. Each creature in the area must succeed at a Reflex save (at swallow poison\u2019s DC) or be exposed to the sprayed poison, which is treated as though it were a contact poison for this purpose. Everything about the poison other than its type, including its frequency, effect, and saving throw DC, are unaffected by this spell. Any other doses of poison you had absorbed instantly become inert when you end the spell. If the spell\u2019s duration ends without you spraying a poison, all poisons you had absorbed become inert. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

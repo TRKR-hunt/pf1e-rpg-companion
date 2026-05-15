@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "martyr_s_bargain__crb_",
+    "name": {
+      "value": "Martyr\u2019s Bargain"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Among the faithful followers of the gods of purity martyr\u00e2\u0080\u0099s bargain represents true faith and true sacrifice. You cast this spell as an immediate action when you are subject to a spell or spell-like ability that deals hit point damage, after attack rolls and saving throws have been rolled but before the damage itself is determined. The damage dealt by the spell and any related effects are then delayed for you (and you only) for a number of rounds equal to your caster level. At the end of that time (or immediately if martyr\u00e2\u0080\u0099s bargain is dispelled), the delayed damage takes effect on you as it would have at the time it was cast, but is maximized as if affected by the Maximize Spell metamagic feat. Spells and spell-like abilities that were already maximized gain no additional benefit from this spell. Nothing can prevent this delayed damage from affecting you. You can be affected by only one martyr\u00e2\u0080\u0099s bargain spell at a time. If you cast this spell while you are already under the effects of a previous martyr\u00e2\u0080\u0099s bargain, the previous spell effect ends and you immediately take the damage it had delayed. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

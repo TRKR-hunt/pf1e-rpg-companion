@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "getaway__crb_",
+    "name": {
+      "value": "Getaway"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, M (a brass doorknob)"
+    },
+    "range": {
+      "value": "unlimited"
+    },
+    "area": {
+      "value": "you and one willing creature/2 levels, all of which must be within 30 feet of you"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Getaway teleports you and allies you designate at the time of casting to a predetermined location. You must initially cast the spell at that location-all creatures affected by the spell must be present at that time and within 30 feet of you. At any time before the spell\u2019s duration expires, you may trigger the spell as a swift action. At this time, all affected creatures (or their remains and gear) within 30 feet of you are teleported to the location where you first cast the spell. Creatures more than 30 feet away from you are left behind. Selected creatures within 30 feet of you who do not wish to travel with you at that time can simply choose not to go. You can be transported any distance within a plane but cannot travel between planes. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

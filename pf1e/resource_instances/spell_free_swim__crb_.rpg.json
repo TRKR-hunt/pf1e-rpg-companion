@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "free_swim__crb_",
+    "name": {
+      "value": "Free Swim"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a strip of kelp bound to the target), DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The target can move and attack underwater normally without the usual penalties involved with underwater combat, as if under the effects of freedom of movement. However, the target doesn\u00e2\u0080\u0099t gain any protections against grapple, paralysis, and magical effects that impede movement (such as solid fog, slow, and web ). Section 15: Copyright Notice Pathfinder Campaign Setting: Aquatic Adventures \u00c2\u00a9 2017, Paizo Inc.; Authors: Amber E. Scott and Mark Seifter."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "transmute_wine_to_blood__crb_",
+    "name": {
+      "value": "Transmute Wine to Blood"
+    },
+    "source": {
+      "value": "blood_of_the_night"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (drop of animal blood)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "bottle of wine worth at least 10 gp"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You transform one bottle of fine wine into 1 pint of animal blood, sufficient for a creature with the blood drain ability to feed upon as if it came from a Medium animal with 1 Hit Die. If you are using the optional hunger rules, this blood satiates an undead creature\u00e2\u0080\u0099s hunger, negating any withdrawal effects, but does not grant the creature a feeding bonus. The blood coagulates and spoils at the normal rate. Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Night \u00c2\u00a9 2012, Paizo Publishing, LLC; Author: Tork Shaw."
+    }
+  }
+}

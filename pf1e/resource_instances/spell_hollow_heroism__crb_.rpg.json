@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hollow_heroism__crb_",
+    "name": {
+      "value": "Hollow Heroism"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "inquisitor",
+        "medium",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S V, S"
+    },
+    "range": {
+      "value": "touch touch"
+    },
+    "area": {
+      "value": "creature touched creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level (D) 1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless); Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "This spell functions as heroism, except that you can reverse the spell by issuing a special command as a standard action if you are within medium range (100 feet + 10 feet per caster level ) of the target. The target loses the bonuses and instead takes a \u00e2\u0080\u00932 penalty on attack rolls, saving throws, and skill checks until the spell\u2019s duration ends (no save). Attempts to identify hollow heroism with a skill check incorrectly identify it as heroism (see the ruse descriptor). Hollow Heroism, Greater This spell functions as greater heroism, except that you can reverse the spell by issuing a special command as a standard action if you are within medium range (100 feet + 10 feet per caster level ) of the target. The target loses the bonuses and instead takes a \u00e2\u0080\u00934 penalty on attack rolls, saving throws, and skill checks until the spell\u2019s duration ends (no save), increasing to a \u00e2\u0080\u00938 penalty against fear effects. Additionally, she takes damage equal to your caster level when you reverse the spell. Attempts to identify greater hollow heroism with a skill check incorrectly identify it as greater heroism (see the ruse descriptor). Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

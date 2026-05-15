@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "energy_drain__crb_",
+    "name": {
+      "value": "Energy Drain"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_9"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": ""
+    },
+    "components": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": ""
+    },
+    "saving_throw": {
+      "value": "Fortitude partial; see text for enervation"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like enervation, except that the creature struck gains 2d4 temporary negative levels. Twenty-four hours after gaining them, the subject must make a Fortitude saving throw (DC = energy drain spell\u2019s save DC) for each negative level. If the save succeeds, that negative level is removed. If it fails, that negative level becomes permanent. An undead creature struck by the ray gains 2d4 x 5 temporary hit points for 1 hour. Editor\u2019s Note Does energy drain count as a death effect? Energy drain is not a death effect. The undead type calls out immunities to \u201cdeath effects\u201d and \u201cenergy drain\u201d as separate things. \u201cEnergy Drain and Negative Levels\u201d is an entirely separate entry in the Core Rulebook and doesn\u2019t say energy drain is a type of death attack, not does it say that death ward protects against them. Death ward gives a bonus against death spells and magical death effects, and goes on to say that the target is immune to energy drain, and suspends penalties from negative levels while the spell is active. Therefore the rules treat energy drain and death effects as different things. For example, if you are immune to death effects, you aren\u2019t necessarily immune to energy drain. [ Source ] Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

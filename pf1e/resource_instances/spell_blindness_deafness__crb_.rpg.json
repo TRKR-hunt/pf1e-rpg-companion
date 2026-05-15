@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "blindness_deafness__crb_",
+    "name": {
+      "value": "Blindness/Deafness"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bard",
+        "bloodrager",
+        "cleric",
+        "mesmerist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "permanent (D)"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose. Get Organized! The following information is not official in terms of general campaign usage. It is copied from the Pathfinder Society Organized Play FAQ section because we thought it might be helpful information for a player or GM in adjudicating common problems or questions. Usage is up to the GM of your game. What does a deaf PC (or other creature) need to do in order to read lips? Any PC may learn to read lips with a rank in Linguistics as if they had learned a new language. When reading the lips of a speaking creature within 10 feet in normal lighting conditions, the reader need not make any skill checks. In situations of dim lighting, extreme distances, or to read the lips of someone trying to hide their words from the reader, the reader must make Perception checks (DC determined by the GM based on the situation). A lip reader may only understand spoken words in a language it knows. [ Source ]"
+    }
+  }
+}

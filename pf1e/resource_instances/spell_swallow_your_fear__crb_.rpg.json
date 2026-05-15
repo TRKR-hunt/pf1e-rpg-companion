@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "swallow_your_fear__crb_",
+    "name": {
+      "value": "Swallow Your Fear"
+    },
+    "source": {
+      "value": "war_of_the_river_kings"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature plus one additional creature per four levels, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "10 minutes; see text"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You make the affected subjects ready for battle despite their fear. If a target is suffering from a fear effect of any kind, he gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. If the subject is frightened, he remains in place and gains the confused condition for the remainder of the fear effect, except he treats all results of \u201cattack self \u201d as \u201cdo nothing\u201d and treats \u201cattack nearest creature\u201d as \u201cact normally.\u201d If the subject is panicked, he remains in place and gains the confused condition for the duration of the fear effect. Section 15: Copyright Notice Pathfinder Adventure Path #35: War of the River Kings. \u00c2\u00a9 2010, Paizo Publishing, LLC; Author: Jason Nelson."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "abundant_ammunition__crb_",
+    "name": {
+      "value": "Abundant Ammunition"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle",
+        "psychic",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a single piece of ammunition)"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": "one container touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "When cast on a container such as a quiver or a pouch that contains nonmagical ammunition or shuriken (including masterwork ammunition or shuriken, but not special materials, alchemical attributes, or nonmagical treatments on the ammunition) at the start of each round this spell replaces any ammunition taken from the container the round before. The ammunition taken from the container the round before vanishes. If, after casting this spell, you cast a spell that enhances projectiles, such as align weapon or greater magic weapon, on the same container, all projectiles this spell conjures are affected by that spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "stormbolts__crb_",
+    "name": {
+      "value": "Stormbolts"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_8"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a copper rod)"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "a 30-ft.-radius spread, centered on you"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "When you cast this spell, lightning spills forth from your body in all directions. The bolts do not harm natural vegetation or creatures in the area you wish to exclude from damage. Any other creatures within the area take 1d8 points of electricity damage per caster level (maximum 20d8) and are stunned for 1 round. A successful Saving Throw halves the damage and negates the stun effect. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

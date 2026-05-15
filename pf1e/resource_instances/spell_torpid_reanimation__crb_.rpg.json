@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "torpid_reanimation__crb_",
+    "name": {
+      "value": "Torpid Reanimation"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "occultist",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (an onyx gem worth at least 25 gp per HD of the undead )"
+    },
+    "range": {
+      "value": "touch Targets one or more corpses touched"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 day/ caster level and instantaneous (see text)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell works like animate dead except you set a specific condition for when the animation occurs and you do not immediately have control of the creatures. The condition can be simple, such as being touched, a certain word spoken, or on hearing a specific sound. You can also set a condition based on time, but it must occur within a number of days equal to your caster level. At any time, you can cause the animation to occur as a standard action. You can gain control of any uncontrolled undead you created with this spell as a free action if you are within at least 60 feet of the undead creature and have line of sight to it; if you have control of an undead you created with this spell and later lose control of that undead, you can\u00e2\u0080\u0099t use this ability to regain control of the same undead. The limit on the number of Hit Dice you can control with animate dead still applies. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

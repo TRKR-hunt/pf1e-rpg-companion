@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "sequester__crb_",
+    "name": {
+      "value": "Sequester"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "psychic",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a basilisk eyelash and gum arabic)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one willing creature or object (up to a 2-ft. cube/level) touched"
+    },
+    "duration": {
+      "value": "1 day/level (D)"
+    },
+    "saving_throw": {
+      "value": "none or Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "no or yes (object)"
+    },
+    "description": {
+      "value": "When cast, this spell prevents divination spells from detecting or locating the target and also renders the affected target invisible (as the invisibility spell). The spell does not prevent the subject from being discovered through tactile means or through the use of devices. Creatures affected by sequester become comatose and are effectively in a state of suspended animation until the spell ends. Note: The Will save prevents an attended or magical object from being sequestered. There is no save to see the sequestered creature or object or to detect it with a divination spell."
+    }
+  }
+}

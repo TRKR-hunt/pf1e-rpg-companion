@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "irradiate__crb_",
+    "name": {
+      "value": "Irradiate"
+    },
+    "source": {
+      "value": "technology_guide"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial (see below)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "The spell\u2019s area of effect floods with dangerous radiation. The strength of the radiation you create depends on your caster level, as detailed below. The central irradiated area is always a 10-foot-radius spread that expands normally per the rules for radiation areas of effect. Creatures within the area are exposed to the radiation only once; the radiation does not linger in the area. The save to resist the radiation effects is set by the spell, not the standard save DC for radiation. Caster Level Radiation Level 6th or lower Low 7th\u00e2\u0080\u00939th Medium 10th\u00e2\u0080\u009316th High 17th or higher Severe Section 15: Copyright Notice Pathfinder Campaign Setting: Technology Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor."
+    }
+  }
+}

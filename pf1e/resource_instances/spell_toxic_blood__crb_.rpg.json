@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "toxic_blood__crb_",
+    "name": {
+      "value": "Toxic Blood"
+    },
+    "source": {
+      "value": "potions_poisons"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M ( vial of black adder venom)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates; see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "The target creature\u00e2\u0080\u0099s blood becomes poisonous. Anytime the target takes piercing or slashing damage, a spray of acidic blood spurts from its body in the direction of the opponent who inflicted the wound. This blood travels in a 10-foot line, striking the first creature or object it touches. A creature struck by the blood is exposed to black adder venom and must save against the poison as normal, with a DC equal to the spell\u00e2\u0080\u0099s DC. Toxic blood can be made permanent with a permanency spell cast by a caster of 11th level or higher, at a cost of 7,500 gp. Section 15: Copyright Notice Pathfinder Player Companion: Potions & Poisons \u00c2\u00a9 2017, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Nathan King, Lyz Liddell, Luis Loza, Alex Putnam, Alex Riggs, and David Schwartz."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "psychic_reading__crb_",
+    "name": {
+      "value": "Psychic Reading"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one humanoid creature"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You are able to read a person\u2019s surface thoughts and take cues from the person\u2019s appearance, body language, and manner of speech to infer a great deal of information about the person, even if that person is in disguise (including polymorph effects ). When casting the spell, attempt a DC 20 Sense Motive check with a bonus equal to your caster level. A successful skill check reveals to you one of the following pieces of information of your choice, plus one additional piece of information for every 5 points by which your check result exceeds 20: age, alignment, class\u00e2\u0080\u00a0, feats\u00e2\u0080\u00a0, gender, native language, place of origin, race or ethnicity, racial traits\u00e2\u0080\u00a0, religion, sexual orientation, or training in a Craft, Perform, or Profession skill. For items marked with a cross (\u00e2\u0080\u00a0), if the target has more than one of these features, each one you discover counts as a piece of information. There\u2019s a 70% chance that all information you receive is correct. This roll is made secretly. Otherwise, on a roll of 71\u00e2\u0080\u009380, You receive one false piece of information, on a roll of 81\u00e2\u0080\u009390 you receive two, and on a roll of 91\u00e2\u0080\u0093100 you receive three. You can\u2019t get more false information than the total number of pieces of information you discover. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

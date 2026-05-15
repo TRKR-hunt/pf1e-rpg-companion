@@ -1,0 +1,61 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "protection_from_energy__crb_",
+    "name": {
+      "value": "protection from energy"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "cleric",
+        "druid",
+        "inquisitor",
+        "occultist",
+        "oracle",
+        "psychic",
+        "ranger",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched creatures touched"
+    },
+    "duration": {
+      "value": "10 min./level or until discharged"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged. Protection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted. Protection from Energy, Communal This spell functions like protection from energy, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell\u00e2\u0080\u0099s effects end for that subject. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

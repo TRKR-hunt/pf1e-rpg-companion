@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "enlarge_person__crb_",
+    "name": {
+      "value": "Enlarge Person"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "magus",
+        "medium",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M (powdered iron)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one humanoid creature One humanoid creature/level, no two of which can be more than 30 ft. apart This spell functions like enlarge person , except that it affects multiple creatures. Mythic Enlarge Person You can increase the target\u2019s size by up to two size categories, to a maximum of Huge. If the target grows two sizes, its weight increases by a factor of 25, it gains a +4 size bonus to Strength , and takes a \u00e2\u0080\u00934 size penalty to Dexterity and a \u00e2\u0080\u00932 penalty on attack rolls and to AC because of its increased size. A Medium humanoid creature whose size increases to Huge has a space of 15 feet and a natural reach of 10 feet. Mythic enlarge person counters and dispels mythic reduce person . FAQ I\u2019m confused by how to increase and decrease manufactured and natural weapon damage dice when the weapon\u2019s size or effective size changes. There\u2019s a bunch of different charts, and I\u2019m not sure which to use. Size Changes, Effective Size Changes, and Damage Dice Progression: I\u2019m confused by how to increase and decrease manufactured and natural weapon damage dice when the weapon\u2019s size or effective size changes. There\u2019s a bunch of different charts, and I\u2019m not sure which to use. When the damage dealt by a creature\u00e2\u0080\u0099s weapons or natural attacks changes due to a change in its size (or the size of its weapon), use the following rules to determine the new damage. If the size increases by one step, look up the original damage on the chart and increase the damage by two steps. If the initial size is Small or lower (or is treated as Small or lower) or the initial damage is 1d6 or less, instead increase the damage by one step. If the size decreases by one step, look up the original damage on the chart and decrease the damage by two steps. If the initial size is Medium or lower (or is treated as Medium or lower) or the initial damage is 1d8 or less, instead decrease the damage by one step. If the exact number of original dice is not found on this chart, apply the following before adjusting the damage dice. If the damage is a number of d6, find the next lowest number of d6 on the chart and use that number of d8 as the original damage value (for example, 10d6 would instead be treated as 8d8). If the damage is a number of d8, find the next highest number of d8 on the chart and use that number of d6 as the original damage value (for example, 5d8 would instead be treated as 6d6). Once you have the new damage value, adjust by the number of steps noted above. If the die type is not referenced on this chart, apply the following rules before adjusting the damage dice. 2d4 counts as 1d8 on the chart, 3d4 counts as 2d6 on the chart, and so on for higher numbers of d4. 1d12 counts as 2d6 on the chart, and so on for higher numbers of d12. Finally, 2d10 increases to 4d8 and decreases to 2d8, regardless of the initial size, and so on for higher numbers of d10. Damage Dice Progression Chart 1 1d2 1d3 1d4 1d6 1d8 1d10 2d6 2d8 3d6 3d8 4d6 4d8 6d6 6d8 8d6 8d8 12d6 12d8 16d6 [ Source ] Can you use Quicken Spell on a spell with a casting time of \u201c1 round\u201d (such as enlarge person )? Can you use it on a spell with a casting time of \u201c1 full round\u201d (such as a spontaneous caster using a metamagic feat on a spell)? Yes and yes. Neither type has a longer casting time than the \u201clonger than 1 full-round action\u201d limitation of Quicken Spell, therefore both can be quickened. This means that a sorcerer could cast an empowered quickened magic missile as a swift action . Likewise, as multiple metamagic feats don\u2019t push the casting time longer than 1 full-round action , a sorcerer could cast an empowered silent stilled quickened magic missile as a swift action. [ Source ] Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook . \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    },
+    "duration": {
+      "value": "1 min./level (D)"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature\u2019s size category to the next larger one. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size. A humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell does not change the target\u2019s speed. If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it\u2013the spell cannot be used to crush a creature by increasing its size. All equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage (see Table: Medium/Large Weapon Damage ). Other magical properties are not affected by this spell. Any enlarged item that leaves an enlarged creature\u2019s possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell. Multiple magical effects that increase size do not stack. Enlarge person counters and dispels reduce person. Enlarge person can be made permanent with a permanency spell. Table: Size Modifiers Size Size Modifier Colossal \u00e2\u0080\u00938 Gargantuan \u00e2\u0080\u00934 Huge \u00e2\u0080\u00932 Large \u00e2\u0080\u00931 Medium +0 Small +1 Tiny +2 Diminutive +4 Fine +8 Enlarge Person, Mass"
+    }
+  }
+}

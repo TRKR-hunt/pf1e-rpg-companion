@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "selective_alarm__crb_",
+    "name": {
+      "value": "Selective Alarm"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "inquisitor",
+        "occultist",
+        "psychic",
+        "ranger",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F/DF (a slender iron rod 1 foot in length)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "up to 20-ft.-radius emanation centered on a point in space"
+    },
+    "duration": {
+      "value": "2 hours/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions as alarm, except that you can tweak the spell to be more discerning in what types of creatures or objects trigger the alarm. Instead of being triggered whenever a creature of Tiny size or larger enters the warded area, you can set whatever triggering conditions you wish, as long as they are based on observable phenomenon. For example, you could cause the selective alarm to trigger when creatures of a certain race (such as orcs, bugbears, or kobolds ) enter the area, or whenever a group of four or more creatures enters the area together, or when a metal object is brought into the area. You can\u2019t choose triggering conditions that rely on unobservable information, such as having it triggered when creatures of a certain alignment enter the area, nor could you have the alarm be triggered by \u00e2\u0080\u009csomething worth more than 5,000 gp\u00e2\u0080\u009d entering the area, or even \u00e2\u0080\u009ca weapon\u00e2\u0080\u009d entering the area, because an item\u2019s value and classification as a weapon is subjective, and might vary from one person to the next. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "death_clutch__crb_",
+    "name": {
+      "value": "Death Clutch"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_8"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Chanting an unholy litany, you reach out with a grasping motion toward your target and cause its heart to leap out of its chest and into your hand. A target with 200 or fewer hit points remaining that fails its saving throw is instantly reduced to a number of negative hit points equal to your caster level or its Constitution score \u00e2\u0080\u0093 1, whichever is less negative. The creature is staggered until the beginning of your next turn, at which point it dies. If the affected creature receives a regenerate spell before the beginning of your next turn, the creature gains the normal benefits of that spell and, thanks to its heart\u00e2\u0080\u0099s regeneration, it doesn\u00e2\u0080\u0099t immediately die when your next turn begins. If a creature that dies from death clutch is brought back from the dead by a breath of life or raise dead spell, it must also be targeted with regenerate on the following round to restore its missing heart or be unable to return to life. A target with 201 or more hit points that fails its saving throw manages to keep its heart from leaping out of its chest, but it is still staggered for 1 minute and takes 1d4 points of Constitution drain and 1d4 points of Constitution bleed. Regardless of its current hit points, if the target succeeds at its Fortitude save, it is still staggered until the beginning of your next turn as it feels its heart wrenching within its chest. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

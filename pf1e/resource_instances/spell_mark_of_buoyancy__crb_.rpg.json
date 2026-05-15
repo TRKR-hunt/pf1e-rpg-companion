@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mark_of_buoyancy__crb_",
+    "name": {
+      "value": "Mark of Buoyancy"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "touched object weighing up to 10 lbs./level"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You cause the touched object to become lighter than air, such that it floats if not weighted down. The object is effectively weightless and, if left unattended, will rise to a number of feet off the ground equal to twice your caster level, and then remain floating at that height. The object can be pushed, dragged, carried, or otherwise moved normally, and it can be carried by the wind if not held or secured. The object is buoyant enough that it can carry an additional weight of up to 10 pounds per caster level with it, potentially allowing it to be used to carry small objects or creatures. Mark of buoyancy can be made permanent with a permanency spell cast by a caster of 11th level or higher at the cost of 7,500 gp. Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Ancients \u00c2\u00a9 2018, Paizo Inc.; Authors: John Compton, Andrew Hoskins, James Jacobs, Mikko Kallo, Alex Riggs, Stephen Rowe, and Jeffrey Swank."
+    }
+  }
+}

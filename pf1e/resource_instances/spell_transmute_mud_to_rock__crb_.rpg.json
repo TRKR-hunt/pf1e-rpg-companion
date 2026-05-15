@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "transmute_mud_to_rock__crb_",
+    "name": {
+      "value": "Transmute Mud to Rock"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "occultist",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (sand, lime, and water)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "up to two 10-ft. cubes/level (S)"
+    },
+    "duration": {
+      "value": "permanent"
+    },
+    "saving_throw": {
+      "value": "see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell permanently transforms normal mud or quicksand of any depth into soft stone (sandstone or a similar mineral). Any creature in the mud is allowed a Reflex save to escape before the area is hardened to stone. Transmute mud to rock counters and dispels transmute rock to mud."
+    }
+  }
+}

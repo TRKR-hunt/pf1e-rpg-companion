@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "retribution__crb_",
+    "name": {
+      "value": "Retribution"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "inquisitor"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature who has just struck you with an attack"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Retribution blasts those who have the temerity to assault your person. You may target anyone who has just struck you with an attack within the previous round, whether with a melee, ranged, or natural weapon, or a spell that requires an attack roll. The target is wracked with shooting pains that impose a -4 penalty on attack rolls, skills checks, and ability checks. On a successful Fortitude save, the penalty only lasts for 1 round. A target who worships the same god as you takes a -2 penalty on its Saving Throw. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

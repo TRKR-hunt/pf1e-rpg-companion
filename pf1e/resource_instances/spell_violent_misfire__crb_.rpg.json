@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "violent_misfire__crb_",
+    "name": {
+      "value": "Violent Misfire"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a small piece of flint)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one early or advanced firearm one early or advanced firearm /level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "This spell creates a chaotic charge within the black powder loaded in a target firearm. The next time the target weapon fires during this spell\u00e2\u0080\u0099s duration, it automatically misfires. If this misfire causes the firearm to explode, the radius of the explosion is doubled and it deals maximum damage to all creatures in the radius. The firearm\u00e2\u0080\u0099s wielder also takes 1d6 additional points of fire damage per 2 caster levels (maximum 10d6) you have. If the target is an advanced firearm, and the firearm misfires a second time in a row while this spell is in effect, it does not explode but still deals the additional damage to the wielder as described. Violent Misfire, Mass This spell functions as violent misfire except as noted above. Section 15: Copyright Notice Pathfinder Player Companion: People of the Wastes \u00c2\u00a9 2017, Paizo Inc.; Authors: Logan Bonner, John Compton, Nathan King, Luis Loza, Christopher Wasko, and Linda Zayas-Palmer."
+    }
+  }
+}

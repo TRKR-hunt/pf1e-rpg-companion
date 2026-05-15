@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "foster_hatred__crb_",
+    "name": {
+      "value": "Foster Hatred"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "inquisitor",
+        "mesmerist",
+        "psychic",
+        "spiritualist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "S, DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "any number of living creatures, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You build upon your targets\u2019 innate prejudice, stoking it from a simmer to the full flame of hatred. Choose a creature type (if you choose humanoid or outsider, you must also choose a subtype). Targets who hold no ill will toward and have a completely positive opinion of the chosen creatures automatically succeed at their saving throws, while targets with a particular hatred toward the chosen creature (such as the dwarf\u2019s hatred racial ability) take a \u00e2\u0080\u00934 penalty on their saving throws. Targets that fail their saving throws become hostile toward all creatures of the chosen type and never treat them as allies for the spell\u2019s duration. Affected creatures take everything creatures of the chosen type do in the worst possible light. Since most creatures don\u2019t hold ill-will toward their own race, you can use foster hatred toward a smaller subset of creatures of your chosen type, such as worshipers of Shelyn, in order to focus the hatred onto your chosen targets. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

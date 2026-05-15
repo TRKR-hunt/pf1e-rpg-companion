@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shield_speech__crb_",
+    "name": {
+      "value": "Shield Speech"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "10 ft. 30ft"
+    },
+    "area": {
+      "value": "30-ft. emanation centered on you"
+    },
+    "duration": {
+      "value": "1 minute/level (D) 10 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You can securely communicate with one creature within range. So long as your target remains within 10 feet of you, you and it can speak freely to each other without fear of being overheard. Communications that involve shield speech cannot be spied on, such as with a divination spell, and observers of the conversation can tell you are communicating but cannot read lips or hear the conversation unless they are the target of the spell. If you or the target speak to any other creatures, they can hear you normally (only communication between you and the target is protected). The spell does not shield writing, sign language, or any form of communication other than speaking. Shield Speech, Greater This spell functions as shield speech, except all creatures within the dome may communicate with each other as if linked by shield speech. If they speak with anyone outside the area, those outside the area hear them normally. Section 15: Copyright Notice Pathfinder Companion: Taldor, Echoes of Glory. Copyright 2009, Paizo Publishing, LLC; Author: Joshua J. Frost."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "death_candle__crb_",
+    "name": {
+      "value": "Death Candle"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creature touched"
+    },
+    "duration": {
+      "value": "instantaneous/1 round per HD of subject; see text"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions like death knell, except instead of using the slain target\u2019s life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with summon monster II. The elemental remains for a number of rounds equal to the Hit Dice of the slain creature. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

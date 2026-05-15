@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "contagious_zeal__crb_",
+    "name": {
+      "value": "Contagious Zeal"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The target gains a +2 morale bonus on attack rolls and weapon damage rolls, 1d6 temporary hit points, and a +4 morale bonus on saving throws against fear effects and to the DC of Intimidate checks attempted against her. Once per round, the target can select one other creature to gain this bonus as well. The chosen creature can be no farther from the target than 25 feet + 5 feet for every 2 caster levels you possess, and a creature can\u2019t be selected more than once in this way. Such allies gain only the bonuses and temporary hit points; they don\u2019t continue to spread it to other creatures. The additional creatures\u2019 bonuses and temporary hit points share the original spell\u2019s duration, so when that duration ends, all affected creatures lose their bonuses and any remaining temporary hit points from this spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

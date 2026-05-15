@@ -1,0 +1,56 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "control_summoned_creature__crb_",
+    "name": {
+      "value": "Control Summoned Creature"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one summoned creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You seize control of a summoned creature by disrupting the bond between it and the caster who summoned it. If the creature fails its save, you may command it as if you had summoned it. The original caster can attempt to regain control of the creature as a standard action by making an opposed Spellcraft check against you. When your spell ends, control reverts to the original summoner. If the summoning spell ends before this spell ends, the remaining duration of this spell is lost. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

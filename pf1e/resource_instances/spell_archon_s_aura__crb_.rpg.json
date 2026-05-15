@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "archon_s_aura__crb_",
+    "name": {
+      "value": "Archon\u2019s Aura"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "20 ft."
+    },
+    "area": {
+      "value": "20-ft. radius centered on you"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You gain a powerful aura, similar to an archon\u2019s aura of menace. Any hostile creature within a 20-foot radius of you must make a Will save to resist the effects of this aura. If the creature fails, it takes a \u00e2\u0080\u00932 penalty on attack rolls and saving throws and to Armor Class for the duration of this spell, or until it successfully hits you with an attack. A creature that has resisted or broken the effect cannot be affected again by this particular casting of archon\u00e2\u0080\u0099s aura. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

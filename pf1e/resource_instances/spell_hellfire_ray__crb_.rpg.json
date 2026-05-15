@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "hellfire_ray__crb_",
+    "name": {
+      "value": "Hellfire Ray"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_book_of_the_damned"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F/DF (any unholy symbol or heretical tome)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels);"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "A blast of hellfire blazes from your hands. You can fire one ray, plus one additional ray for every 4 caster levels beyond 11th (to a maximum of three rays at 19th level). Each ray requires a ranged touch attack to hit and deals 1d6 points of damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly from unholy power and is therefore not subject to being reduced by fire resistance. The rays can be fired at the same target or at different targets, but all rays must be fired simultaneously and aimed at targets within 30 feet of each other. Any creature killed by this spell must attempt a Will saving throw; failure means the creature\u2019s soul is damned to Hell as a burst of brimstone appears around its corpse. A nonevil spellcaster attempting to bring the creature back from the dead must attempt a caster level check (DC = 10 + the slain creature\u2019s level) to succeed; failure means the spellcaster cannot try again for 1 day. Evil spellcasters can raise the slain character normally, without requiring a check. A raised character\u2019s soul is no longer automatically consigned to Hell. Section 15: Copyright Notice Pathfinder Roleplaying Game Book of the Damned \u00c2\u00a9 2017, Paizo Inc.; Authors: John Compton, Adam Daigle, Amanda Hamon Kunz, James Jacobs, Isabelle Lee, F. Wesley Schneider, Todd Stewart, and Josh Vogt."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "gentle_repose__crb_",
+    "name": {
+      "value": "Gentle Repose"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "medium",
+        "occultist",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (salt and a copper piece for each of the corpse\u2019s eyes)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "corpse touched"
+    },
+    "duration": {
+      "value": "1 day/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You preserve the remains of a dead creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see raise dead ). Days spent under the influence of this spell don\u2019t count against the time limit. Additionally, this spell makes transporting a slain (and thus decaying) comrade less unpleasant. The spell also works on severed body parts and the like."
+    }
+  }
+}

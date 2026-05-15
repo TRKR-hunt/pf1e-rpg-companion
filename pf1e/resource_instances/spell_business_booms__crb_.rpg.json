@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "business_booms__crb_",
+    "name": {
+      "value": "Business Booms"
+    },
+    "source": {
+      "value": "quests_campaigns"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (promotional materials such as flyers and posters worth 10 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one building"
+    },
+    "duration": {
+      "value": "see text (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You may cast this spell immediately prior to spending 1 day of downtime to promote a business. The spell is cast on a building you wish to promote, which is magically bestowed with magical decorations and other improvements that make it generally more appealing, and it is treated as seeing increased activity for the spell\u2019s duration. If the spell is cast on a building that you do not promote immediately thereafter, the spell is expended with no effect. After the initial day of downtime spent promoting your building, the spell maintains the influx of activity for a number of days equal to half your caster level (maximum 5 days). During this time, you needn\u2019t spend additional downtime to promote the building, but you must spend capital as normal to promote the building. The capital the affected building generates for you is unaffected by the spell. If you spend 1 day promoting a different building than the target of this spell while this spell remains active, the spell immediately ends. Section 15: Copyright Notice Pathfinder Player Companion: Quests & Campaigns \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Amanda Hamon and David N. Ross."
+    }
+  }
+}

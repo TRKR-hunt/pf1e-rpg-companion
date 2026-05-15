@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "healing_thief__crb_",
+    "name": {
+      "value": "Healing Thief"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a bit of sponge, damp with tears)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 round/level or until discharged"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "With this spell you can steal the healing of the target creature. You must succeed at a melee touch attack to strike the target. If you do, until the effect ends, whenever your target is subject to a healing spell or a supernatural effect that heals hit points, the target only receives half the healing (rounded down) and you receive the other half (also rounded down). You must remain within 25 feet (plus 5 feet per two caster levels) of the target to gain this benefit. If you move outside that range, the spell is discharged. Once you steal 5 hit points per your caster level (maximum 50 hit points ) of healing from this spell\u00e2\u0080\u0099s effect, the spell is discharged. Mythic Healing Thief Instead of stealing half the target\u00e2\u0080\u0099s healing, you steal all of it. The amount of damage you steal before the spell is discharged increases to 10 points per caster level (maximum 100 points). Augmented: If you expend two uses of mythic power, the range of the spell changes to close (25 feet + 5 feet per 2 caster levels). If the target has fast healing or regeneration, you steal half of its fast healing or regeneration. Healing from these abilities count toward the maximum healing stolen before the spell is discharged. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

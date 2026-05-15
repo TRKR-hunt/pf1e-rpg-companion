@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "orb_of_the_void__crb_",
+    "name": {
+      "value": "Orb of the Void"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_8"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a black gemstone of any kind worth 50 gp)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates; (the DC of this save is equal to the DC of this spell) for each negative level . If the save succeeds, that negative level is removed. If it fails, that negative level becomes permanent. If more than one orb (from different castings of the spell) enters the same space, the orbs automatically fuse together. The resulting orb uses the higher of the two orbs\u00e2\u0080\u0099 DCs as its DC and whichever duration has more time left. If the orbs are from different casters, each must make an opposed Intelligence check to move the sphere. An undead creature that passes through or ends its turn in the space occupied by the orb gains 2d4 \u00c3\u0097 5 temporary hit points for 1 hour. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic . \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You create a small weightless sphere of pure negative energy. As a move action, you can move it up to 30 feet per round in any direction. If it enters a space with a living creature, it stops moving for the round and that creature gains one negative level ( Fortitude negates). Any creature passing through or ending its turn in the space occupied by the sphere gains one negative level ( Fortitude negates). Twenty-four hours after gaining a negative level from the sphere, the subject must make a Fortitude"
+    }
+  }
+}

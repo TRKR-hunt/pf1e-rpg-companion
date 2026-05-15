@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "transmute_golem__crb_",
+    "name": {
+      "value": "Transmute Golem"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "8 hours"
+    },
+    "components": {
+      "value": "V, S, M (powdered metals with a variable cost, see text)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "golem touched"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You turn one type of golem into another. The golem must be willing\u00e2\u0080\u0094it must be commanded to transform by its master or must be a creature able to make informed decisions that opts to submit to the spell. You must provide various powdered metals with a value equal to 150% of the difference in creation costs between the old and new type of golem, even if the new golem type is cheaper to create. Both types of golems must share the same subtypes, if any. You cannot transmute a golem into a new type of golem with a CR higher than your caster level. If all of these conditions are satisfied, the old golem completely changes to the new golem type. Its abilities and statistics are identical to one of the new golem type, including its magic immunities and special attacks. The new golem is still affected by any damage or conditions it suffered before the spell was cast. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+    }
+  }
+}

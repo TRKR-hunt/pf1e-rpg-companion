@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "influence_wild_magic__crb_",
+    "name": {
+      "value": "Influence Wild Magic"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "none (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no (harmless)"
+    },
+    "description": {
+      "value": "This spell creates an area of stabilizing magical energy that emanates from you. Any creature within this area that fails a concentration check to cast a spell normally in an area of wild magic rolls twice to determine the wild magic effect and choose its preferred result. Section 15: Copyright Notice Pathfinder Player Companion: People of the Wastes \u00c2\u00a9 2017, Paizo Inc.; Authors: Logan Bonner, John Compton, Nathan King, Luis Loza, Christopher Wasko, and Linda Zayas-Palmer."
+    }
+  }
+}

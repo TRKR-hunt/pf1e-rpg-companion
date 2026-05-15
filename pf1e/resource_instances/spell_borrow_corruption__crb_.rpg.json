@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "borrow_corruption__crb_",
+    "name": {
+      "value": "Borrow Corruption"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "druid",
+        "medium",
+        "occultist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a dirty scrap of a good priest\u00e2\u0080\u0099s raiment)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You touch a creature with at least one manifestation from a corruption. You temporarily gain any stains and gifts that corruption grants to the creature, and the creature retains them. If the gifts have limited uses, you count as having no uses remaining. You take 1d3 points of Wisdom drain whenever you cast this spell. If your campaign uses the sanity rules, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) each time you cast this spell, instead of you taking Wisdom drain. Only greater restoration, miracle, or wish can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting borrow corruption, while a casting of miracle or wish removes them all. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    }
+  }
+}

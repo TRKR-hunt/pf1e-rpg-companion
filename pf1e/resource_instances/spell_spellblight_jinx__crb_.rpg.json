@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "spellblight_jinx__crb_",
+    "name": {
+      "value": "Spellblight Jinx"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bard",
+        "cleric",
+        "inquisitor",
+        "occultist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "permanent"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You inflict a curse similar to the spell burn spellblight on a creature. Each time a spellcaster who is afflicted with this curse casts a spell or uses a spell-like ability, her skin seems to burn as though she were on fire. With a successful concentration check (DC = 15 + double the spell level of the spell cast or spell-like ability used), the spellcaster can ignore the pain of the effect, but if she fails, she loses the spell or spell slot and is staggered for a round. Unlike with the spell burn spellblight, the burning sensation is a tangible effect, visible during the act of spellcasting as an incorporeal, violet flame surrounding the caster. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

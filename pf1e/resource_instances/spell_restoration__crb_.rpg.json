@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "restoration__crb_",
+    "name": {
+      "value": "Restoration, Lesser"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "cleric",
+        "druid",
+        "inquisitor",
+        "mesmerist",
+        "oracle",
+        "paladin",
+        "shaman",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner"
+      ]
+    },
+    "casting_time": {
+      "value": "3 rounds 3 rounds"
+    },
+    "components": {
+      "value": "V, S, M (diamond dust worth 100 gp or 1,000 gp, see text) V, S, M (diamond dust 5,000 gp) V, S"
+    },
+    "range": {
+      "value": "touch touch touch"
+    },
+    "area": {
+      "value": "creature touched creature touched creature touched"
+    },
+    "duration": {
+      "value": "instantaneous instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless); Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "This spell functions like lesser restoration, except that it also dispels temporary negative levels or one permanent negative level. If this spell is used to dispel a permanent negative level, it has a material component of diamond dust worth 1,000 gp. This spell cannot be used to dispel more than one permanent negative level possessed by a target in a 1-week period. Restoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your choice if more than one is drained). It also eliminates any fatigue or exhaustion suffered by the target. Restoration, Greater This spell functions like lesser restoration, except that it dispels all permanent and temporary negative levels afflicting the healed creature. Greater restoration also dispels all magical effects penalizing the creature\u2019s abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects. Restoration, Lesser Lesser restoration dispels any magical effects reducing one of the subject\u2019s ability scores or cures 1d4 points of temporary ability damage to one of the subject\u2019s ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    }
+  }
+}

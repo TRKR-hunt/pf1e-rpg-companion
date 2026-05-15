@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mnemonic_siphon__crb_",
+    "name": {
+      "value": "Mnemonic Siphon"
+    },
+    "source": {
+      "value": "blood_of_the_ancients"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "magus",
+        "occultist",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "object touched"
+    },
+    "duration": {
+      "value": "1 day/level or until discharged (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You inscribe a rune on the target object. The rune remains dormant until the object finds its way into the hands of a spellcaster, at which point the rune steals one of that creature\u00e2\u0080\u0099s spells and passes the knowledge back to you. The stolen spell is selected randomly. An object inscribed with this rune is affected as though by the spell magic aura. Additionally, if a creature in possession of the object casts a spell that appears on your spell list, there is a 10% chance that the mnemonic siphon absorbs that spell, causing it to fail as though it had been successfully countered. Whenever the mnemonic siphon absorbs a spell in this fashion, it causes the knowledge of the absorbed spell to appear directly in your mind. You can use this knowledge to prepare the spell if you have an unused spell slot capable of casting it. You can also use the knowledge to write the spell into a spellbook or teach it to your familiar. This knowledge remains in your mind for 24 hours, after which time it is lost. The mnemonic siphon is capable of absorbing up to 1 spell per 2 caster levels you have before being discharged. If you are not capable of learning a stolen spell normally, the knowledge is useless to you. Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Ancients \u00c2\u00a9 2018, Paizo Inc.; Authors: John Compton, Andrew Hoskins, James Jacobs, Mikko Kallo, Alex Riggs, Stephen Rowe, and Jeffrey Swank."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "dimensional_blade__crb_",
+    "name": {
+      "value": "Dimensional Blade"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bloodrager",
+        "cleric",
+        "inquisitor",
+        "magus",
+        "oracle",
+        "paladin",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell gives you the power to turn one melee weapon in your hand into a two-dimensional object with length and height but no width. A sword becomes a flat image of a sword, a mace is reduced to a flat outline, and so on. The magic of the spell allows the weapon to be wielded by you normally, creating just enough depth to grasp it. Attacks made with the weapon are melee touch attacks that ignore all armor. Force effects, such as mage armor and shield, still apply their AC against attacks made with a dimensional blade. Bludgeoning weapons used to make attacks with this spell deal half damage and are treated as slashing weapons. If the weapon leaves your hand before the end of the spell, the effect ends. Section 15: Copyright Notice Pathfinder Player Companion: Melee Tactics Toolbox \u00c2\u00a9 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz."
+    }
+  }
+}

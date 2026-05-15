@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "virulence__crb_",
+    "name": {
+      "value": "Virulence"
+    },
+    "source": {
+      "value": "shifting_sands"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "40 ft."
+    },
+    "area": {
+      "value": "all living creatures within a 40-ft.-radius burst centered on you"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "All living creatures within the area of effect, including yourself, must immediately attempt a saving throw with a \u00e2\u0080\u00932 penalty against any and all diseases they have contracted, even if the onset time has not yet elapsed. On a failed saving throw, the affliction has its usual effect. A successful save does not count toward curing the affliction. Section 15: Copyright Notice Pathfinder Adventure Path #81: Shifting Sands \u00c2\u00a9 2014, Paizo Inc.; Authors: Richard Pett, with Benjamin Bruck, Adam Daigle, Thurston Hillman, Michael McCarthy, Patrick Renie, Amber E. Scott, and Russ Taylor."
+    }
+  }
+}

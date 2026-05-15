@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "harmless_form__crb_",
+    "name": {
+      "value": "Harmless Form"
+    },
+    "source": {
+      "value": "heroes_of_the_street"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one willing animal companion, familiar , or spirit animal"
+    },
+    "duration": {
+      "value": "8 hours (D)"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You transform the target into a harmless animal of the same approximate body type. The form assumed must be one considered unobtrusive by local communities, such as a cat, a dog, a hunting hawk, a horse, or a rat. This transformation can reduce the target by up to two size categories, but cannot make an animal smaller than Tiny. It cannot increase the size of the target or give it new natural attacks or new forms of movement. The spell otherwise functions as beast shape II. Section 15: Copyright Notice Pathfinder Player Companion: Heroes of the Street \u00c2\u00a9 2015, Paizo Inc.; Authors: John Compton, Mikko Kallio, Nicolas Logue, Michael McCarthy, Mike Myler, and David N. Ross."
+    }
+  }
+}

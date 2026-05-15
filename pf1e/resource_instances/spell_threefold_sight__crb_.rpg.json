@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "threefold_sight__crb_",
+    "name": {
+      "value": "Threefold Sight"
+    },
+    "source": {
+      "value": "legacy_of_the_first_world"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a three-pointed knot)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "3 minutes"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You view several possible futures at once, allowing you to thread a needle around disasters by taking a middle path. For the duration of this spell, whenever you roll for an attack, saving throw, or skill check, roll three d20 and use the middle of the three rolls (or the highest, if more than one die shows the same highest value, or the lowest, if more than one die shows the same lowest value). If another ability would make you roll an attack roll, saving throw, or skill check twice and take the higher result, roll twice and take the lower result, or reroll, that ability has no effect and threefold sight ends immediately. Section 15: Copyright Notice Pathfinder Player Companion: Legacy of the First World \u00c2\u00a9 2017, Paizo Inc.; Authors: Judy Bauer, John Compton, Violet Hargrave, Mikko Kallio, Jason Keeley, Joe Pasini, Mark Seifter, Kendra Leigh Speedling, Josh Vogt, and Linda Zayas-Palmer."
+    }
+  }
+}

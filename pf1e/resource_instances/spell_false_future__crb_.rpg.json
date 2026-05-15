@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "false_future__crb_",
+    "name": {
+      "value": "False Future"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "medium",
+        "mesmerist",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (crushed jade worth 100 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature or object touched"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates or Will disbelief (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You interfere with attempts to predict the target\u2019s future by preventing divinations from revealing what the target will do and what will befall the target while under the spell\u2019s effects. Instead of the target\u2019s true actions or experiences, divinations resolve as if the target will experience some different future you describe as you cast false future. The target creature can attempt a Will save to avoid the initial effect, and creatures using divinations get a Will save to disbelieve the illusion. This spell doesn\u2019t prevent divinations cast after the duration\u2019s end from determining what the subject actually did during the time you obscured using false future. False future can\u2019t be detected by detect magic or identify, but greater detect magic can detect it. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

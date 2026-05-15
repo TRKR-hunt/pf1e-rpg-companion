@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ape_walk__crb_",
+    "name": {
+      "value": "Ape Walk"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (an ape or monkey paw)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The subject can climb as well as an ape or monkey, gaining a climb speed of 30 feet and a +8 racial bonus on Climb skill checks. The affected creature must have her hands free to climb in this manner. In addition, as long as she has 10 feet of space in which to make a running start, the subject can make a long jump of up to 10 feet without making an Acrobatics check (an Acrobatics check is still required to jump longer distances). Section 15: Copyright Notice Pathfinder Companion: Sargava, the Lost Colony. Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker."
+    }
+  }
+}

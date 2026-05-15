@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "demand__crb_",
+    "name": {
+      "value": "Demand"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 Minutes standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (fine copper wire)"
+    },
+    "range": {
+      "value": "See Description"
+    },
+    "area": {
+      "value": "1 Creature"
+    },
+    "duration": {
+      "value": "1 round"
+    },
+    "saving_throw": {
+      "value": "Will partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions like sending, but the message can also contain a suggestion (see the suggestion spell), which the subject does its best to carry out. A successful Will save negates the suggestion effect but not the contact itself. The demand, if received, is understood even if the subject\u2019s Intelligence score is as low as 1. If the message is impossible or meaningless according to the circumstances that exist for the subject at the time the demand is issued, the message is understood but the suggestion is ineffective. The demand\u2019s message to the creature must be 25 words or less, including the suggestion. The creature can also give a short reply immediately."
+    }
+  }
+}

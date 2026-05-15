@@ -3,7 +3,7 @@
   "stats": {
     "id": "charm_person__crb_",
     "name": {
-      "value": "Charm Person"
+      "value": "charm person"
     },
     "source": {
       "value": "crb"
@@ -16,9 +16,14 @@
     },
     "classes": {
       "value": [
+        "bard",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "shaman",
         "sorcerer",
-        "wizard",
-        "bard"
+        "witch",
+        "wizard"
       ]
     },
     "casting_time": {
@@ -28,13 +33,13 @@
       "value": "V, S"
     },
     "range": {
-      "value": "close (25 ft + 5 ft/2 levels)"
+      "value": "close (25 ft. + 5 ft./2 levels)"
     },
     "area": {
-      "value": "one humanoid creature"
+      "value": "one humanoid creature one or more humanoid creatures, no two of which can be more than 30 ft. apart"
     },
     "duration": {
-      "value": "1 hour/level"
+      "value": "1 hour/level 1 hour/level"
     },
     "saving_throw": {
       "value": "Will negates"
@@ -43,7 +48,7 @@
       "value": "yes"
     },
     "description": {
-      "value": "Target regards you as a trusted friend and ally."
+      "value": "This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target\u2019s attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw. The spell does not enable you to control the charmed person as if it were an automaton, but it perceives your words and actions in the most favorable way. You can try to give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn\u2019t ordinarily do. (Retries are not allowed.) An affected creature never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing. Any act by you or your apparent allies that threatens the charmed person breaks the spell. You must speak the person\u2019s language to communicate your commands, or else be good at pantomiming. Charm Person, Mass Source PZO1134 This spell functions like charm person, except that it affects a number of humanoid creatures whose combined Hit Dice don\u2019t exceed twice your level. If there are more potential targets than you can affect, you choose them one at a time until you reach the limit of HD you can affect. If you target only one creature, you ignore the spell\u2019s HD limit. FAQ Charm person makes a humanoid \u201c friendly \u201d to you, as per the rules found in the Diplomacy skill, but it also allows you to issue orders to the target, making an opposed Charisma check to convince the target to do something that it would not normally do. How does that work? The charm person spell (and charm monster by extension) makes the target your friend. It will treat you kindly (although maybe not your allies) and will generally help you as long as your interests align. This is mostly in the purview of the GM. If you ask the creature to do something that it would not normally do (in relation to your friendship), that is when the opposed Charisma check comes into play. For example, if you use charm person to befriend an orc, the orc might share his grog with you and talk with you about the upcoming raid on a nearby settlement. If you asked him to help you fight some skeletons, he might very well lend a hand. If you asked him to help you till a field, however, you might need to make that check to convince him to do it. [ Source ] Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
     }
   }
 }

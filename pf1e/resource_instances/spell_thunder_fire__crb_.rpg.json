@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "thunder_fire__crb_",
+    "name": {
+      "value": "Thunder Fire"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a piece of spent thunderstone)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "1 loaded firearm"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (object), see text"
+    },
+    "spell_resistance": {
+      "value": "yes (object), see text"
+    },
+    "description": {
+      "value": "The firearm targeted creates a thunderous report, even if the firearm is not loaded. Every creature within 15 feet of the creature wielding or carrying the firearm must succeed at a Fortitude save or be deafened for 1 minute. The creature wielding or carrying the firearm takes a \u00e2\u0080\u00934 penalty on this saving throw, and his misfire range increases by 1 for 1d4 rounds. If the firearm was loaded when it was targeted by this spell, that ammunition is wasted. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

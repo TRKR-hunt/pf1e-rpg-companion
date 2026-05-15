@@ -6,7 +6,7 @@
       "value": "Mage Armor"
     },
     "source": {
-      "value": "crb"
+      "value": "pathfinder_rpg_core_rulebook"
     },
     "level": {
       "value": "spell_level_1"
@@ -16,7 +16,14 @@
     },
     "classes": {
       "value": [
+        "bloodrager",
+        "occultist",
+        "psychic",
         "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
         "wizard"
       ]
     },
@@ -24,7 +31,7 @@
       "value": "1 standard action"
     },
     "components": {
-      "value": "V, S, F"
+      "value": "V, S, F (a piece of cured leather)"
     },
     "range": {
       "value": "touch"
@@ -42,7 +49,7 @@
       "value": "no"
     },
     "description": {
-      "value": "+4 armor bonus to AC."
+      "value": "An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC. Unlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can\u2019t bypass it the way they do normal armor. Section 15: Copyright Notice Pathfinder RPG Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
     }
   }
 }

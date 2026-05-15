@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "detect_charm__crb_",
+    "name": {
+      "value": "Detect Charm"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle",
+        "paladin",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "60 ft. Area cone-shaped emanation"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "concentration , up to 1 minute/level (D) Saving Throw none;"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions as per detect magic, except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see Spellcraft ). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a Sense Motive check as a standard action (DC = 20 + caster level ). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area). Section 15: Copyright Notice Pathfinder Roleplaying Game Adventurer\u2019s Guide \u00c2\u00a9 2017, Paizo Inc.; Authors: Benjamin Bruck, John Compton, Crystal Frasier, Tim Hitchcock, Jenny Jarzabski, Isabelle Lee, Joe Pasini, Jessica Price, David Schwartz, and Josh Vogt."
+    }
+  }
+}

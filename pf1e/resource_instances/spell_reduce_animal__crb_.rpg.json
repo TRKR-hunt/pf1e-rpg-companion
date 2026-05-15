@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "reduce_animal__crb_",
+    "name": {
+      "value": "Reduce Animal"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "ranger"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one willing animal of Small, Medium, Large, or Huge size"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions like reduce person, except that it affects a single willing animal. Reduce the damage dealt by the animal\u2019s natural attacks as appropriate for its new size (see Table: Tiny and Large Weapon Damage to adjust damage for size). Table: Weapon Damage Size Conversion Tiny Weapon Damage Small Weapon Damage Medium Weapon Damage Large Weapon Damage Huge Weapon Damage \u00e2\u0080\u0094 1 1d2 1d3 1d4 1 1d2 1d3 1d4 1d6 1d2 1d3 1d4 1d6 1d8 1d3 1d4 1d6 1d8 2d6 1d4 1d6 1d8 2d6 3d6 1d6 1d8 1d10 2d8 3d8 1d8 1d10 1d12 3d6 4d6 1d4 1d6 2d4 2d6 3d6 1d8 1d10 2d6 3d6 4d6 1d10 2d6 2d8 3d8 4d8 2d6 2d8 2d10 4d8 6d8"
+    }
+  }
+}

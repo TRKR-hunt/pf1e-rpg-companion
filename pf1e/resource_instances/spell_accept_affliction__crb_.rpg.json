@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "accept_affliction__crb_",
+    "name": {
+      "value": "Accept Affliction"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "oracle",
+        "paladin",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a dove\u2019s heart)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The caster can transfer the effects of afflictions such as curses, diseases, and poisons from the target creature to himself. This spell can also transfer the blinded, deafened, fatigued, nauseated, shaken, and sickened conditions. All aspects of the transferred afflictions (save DCs, remaining duration, removal conditions, and so on) remain the same, but affect the caster instead of the original target. After transferring the affliction or condition, the caster is free to cure it in any way he can. Section 15: Copyright Notice Pathfinder Player Companion: Champions of Purity \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jessica Blomstrom, Adam Daigle, Shaun Hocking, Daniel Marthaler, Tork Shaw, and Christina Stiles. Book of Magic: Spell Codex Volume 1. \u00c2\u00a9 2022, Jon Brazer Enterprises"
+    }
+  }
+}

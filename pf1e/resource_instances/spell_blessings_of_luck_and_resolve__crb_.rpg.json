@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "blessings_of_luck_and_resolve__crb_",
+    "name": {
+      "value": "Blessings of Luck and Resolve"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level (D), special see below"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "A favored blessing of halfling clerics, this spell grants its target a +2 morale bonus on saving throws against fear effects. If the target has the fearless racial trait, it is immune to fear instead. If the target fails a saving throw against fear, it can end the spell as an immediate action to reroll the save with a +4 morale bonus, and must take the new result, even if it is worse. Blessing Of Luck And Resolve, Mass This spell functions like blessing of luck and resolve, except that it affects multiple creatures. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

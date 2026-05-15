@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "spellscar__crb_",
+    "name": {
+      "value": "Spellscar"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_8"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a pinch of sand)"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "two 10-ft. cubes per level (S)"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This potent spell invokes devastation on a localized (and thankfully temporary) scale. Within the area you choose to affect, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a primal magic event\u00e2\u0080\u0094a spellcaster can avoid triggering such an event by making a concentration check (DC 15 + twice the spell\u00e2\u0080\u0099s level), but non-spellcasters who activate magic items have no such option. You gain a +4 insight bonus on concentration checks made to avoid triggering primal magic events while within an area you have created, and if you do trigger a primal magic event, you may roll d% twice and pick which of the two results you wish to have occur. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

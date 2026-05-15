@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "howling_agony__crb_",
+    "name": {
+      "value": "Howling Agony"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "inquisitor",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a needle and a dried eyeball)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature/level, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You send wracking pains through the targets\u00e2\u0080\u0099 bodies. Because of the pain, affected creatures take a \u00e2\u0080\u00932 penalty to AC, attacks, melee damage rolls, and Reflex saving throws, and must succeed at a concentration check (DC equal to the DC of this spell) to cast spells. However, if an affected creature spends a move action screaming as loudly as possible, it can act without any other penalties for the remainder of its turn. \u00e2\u0080\u009cScreaming,\u00e2\u0080\u009d for the purposes of this spell, includes any vocalization of pain or its telepathic equivalent; creatures that cannot scream (such as creatures without the natural ability to communicate or vocalize) suffer the full effect of the spell. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

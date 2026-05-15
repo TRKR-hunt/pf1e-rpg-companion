@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "homeward_bound__crb_",
+    "name": {
+      "value": "Homeward Bound"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_planar_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one willing extraplanar creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions as dismissal, except as noted above. Section 15: Copyright Notice Pathfinder Roleplaying Game Planar Adventures \u00c2\u00a9 2018, Paizo Inc.; Authors: Robert Brookes, John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, James Jacobs, Isabelle Lee, Lyz Liddell, Ron Lundeen, Joe Pasini, Lacy Pellazar, Jessica Price, Mark Seifter, F. Wesley Schneider, Todd Stewart, James L. Sutter, and Linda Zayas-Palmer."
+    }
+  }
+}

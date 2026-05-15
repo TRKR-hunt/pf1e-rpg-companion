@@ -1,0 +1,59 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "cat_s_grace__crb_",
+    "name": {
+      "value": "Cat\u2019s Grace"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "bloodrager",
+        "druid",
+        "magus",
+        "medium",
+        "mesmerist",
+        "psychic",
+        "ranger",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (pinch of cat fur)"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 min./level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier. Cat\u2019s Grace, Mass This spell functions like cat\u2019s grace, except that it affects multiple creatures. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

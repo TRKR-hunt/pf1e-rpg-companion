@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "contact_high__crb_",
+    "name": {
+      "value": "Contact High"
+    },
+    "source": {
+      "value": "black_markets"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creatures touched (up to one per level)"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "While under the effects of a drug, you can duplicate those effects in others. You can touch another creature once per round (this requires a melee touch attack if the target is unwilling). When touched, the target begins experiencing the effects of the same drug by which you are currently affected (select one, if you are under the influence of more than one drug). The target doesn\u2019t take any ability damage or risk addiction from the drug. You cannot impart the effects of any potion, poison, elixir, or mutagen currently affecting you. Section 15: Copyright Notice Pathfinder Player Companion: Black Markets \u00c2\u00a9 2015, Paizo Inc.; Authors: Ron Lundeen, Jason Nelson, David N. Ross, and David Schwartz."
+    }
+  }
+}

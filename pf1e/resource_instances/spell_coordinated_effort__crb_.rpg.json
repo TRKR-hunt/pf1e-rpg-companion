@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "coordinated_effort__crb_",
+    "name": {
+      "value": "Coordinated Effort"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "inquisitor",
+        "psychic"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "you plus one willing creature per 3 levels, no two of which can be more than 30 ft. part"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Choose a single teamwork feat that you possess. You forge a link with your allies, allowing them to gain the benefits of the chosen feat even if they do not have it themselves. You must be a part of the group qualifying for a given bonus for your allies to gain the benefits. For example, two of your allies flanking an orc would gain no benefit from your Outflank feat, but an ally flanking the orc with you would. Your allies\u2019 positioning and actions must still meet the prerequisites listed in the teamwork feat for either of you to receive the listed bonus. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

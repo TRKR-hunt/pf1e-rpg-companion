@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "break__crb_",
+    "name": {
+      "value": "Break"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 round"
+    },
+    "components": {
+      "value": "V, S, M (a twig) V, S, M (an unbroken platinum tuning fork worth 100 gp)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) 30 ft. Targets all Medium or smaller objects in a 30-ft. burst centered on you"
+    },
+    "area": {
+      "value": "one Medium or smaller object"
+    },
+    "duration": {
+      "value": "instantaneous instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates (object); none"
+    },
+    "spell_resistance": {
+      "value": "yes (object) yes (object)"
+    },
+    "description": {
+      "value": "You can attempt to break or at least damage any one Medium or smaller object within range. If the target fails its Fortitude Saving Throw, it gains the broken condition. If cast on a broken item, that item is destroyed on a failed save. Mythic You can target up to 1 Medium or smaller object per caster level. Augmented (3rd): If you expend two uses of mythic power, target objects gain the broken condition on a successful save and are destroyed on a failed save. This doesn\u2019t affect mythic objects or objects held or carried by mythic creatures. Break, Greater Source PZO1134 You release a burst of destructive energy. Each Medium or smaller object in the area gains the broken condition unless it succeeds at a Fortitude saving throw. If a broken object fails this save, it is instead destroyed. Magic items can be broken by this spell, but not destroyed. Objects in your possession are not immune. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese. Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "binding_earth__crb_",
+    "name": {
+      "value": "Binding Earth"
+    },
+    "source": {
+      "value": "arg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature or unattended object (see text)"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "If the target of this spell fails its Fortitude save, areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain. If the target is a creature, it treats all areas of earth and stone it moves through as difficult terrain. Furthermore, for each 5 feet a creature moves through such areas, it takes 1d6 points of damage. Creatures with a burrow speed or the earth glide ability are unaffected by binding earth. If cast on an unattended object resting on an area of stone or earth, the stone or earth warps and wraps around it, pulling it firmly to the ground. A DC 15 Strength check is required to pull the object free from snapping earth or stone. Binding Earth, Mass This spell functions as binding earth, except as noted above. Section 15: Copyright Notice Pathfinder Roleplaying Game Advanced Race Guide \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+    }
+  }
+}

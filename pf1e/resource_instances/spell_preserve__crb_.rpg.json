@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "preserve__crb_",
+    "name": {
+      "value": "Preserve"
+    },
+    "source": {
+      "value": "inner_sea_temples"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a pinch of salt)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one or more objects touched, up to 1 lb./level"
+    },
+    "duration": {
+      "value": "1 week"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You imbue one or more objects with magic that dramatically slows down natural processes that lead to decay and spoilage. For the duration of the spell, food, water, plants, and other perishable objects affected by the spell remain as fresh as they were when the spell was cast. The spell also protects these objects against spells of the same level or lower that cause spoilage, such as putrefy food and drink. When the duration of preserve expires, the objects resume aging at their normal rate. The spell also works on severed body parts and the bodies of small creatures as per gentle repose, provided that the weight of the creature or part does not exceed the spell\u00e2\u0080\u0099s limit. Preserve can be made permanent with a permanency spell by a caster of 9th level or higher for 500 gp. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Temples \u00c2\u00a9 2016, Paizo Inc.; Authors: Robert Brookes, Liz Courts, Mikko Kallio, Jeffrey Swank, and Larry Wilhelm."
+    }
+  }
+}

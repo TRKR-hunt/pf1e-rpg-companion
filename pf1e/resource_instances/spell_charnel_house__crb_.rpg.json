@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "charnel_house__crb_",
+    "name": {
+      "value": "Charnel House"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "mesmerist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes is complete, the walls drip with blood and the floor is slick with unidentifiable lumps of meat and other signs of a massacre. Anyone entering the area must attempt a Will save or be sickened for 1d6 rounds. This is a mind-affecting effect. If a creature succeeds at its save, it can see the semi-real nature of the illusion. The room itself is covered in a layer of slippery, semi-real gore. Any creature attempting to walk within or through the area of gore can move at half normal speed with a DC 10 Acrobatics check. Failure means it can\u00e2\u0080\u0099t move that round, and failure by 5 or more means it falls prone (see the Acrobatics skill for details). Creatures that don\u00e2\u0080\u0099t move on their turns don\u00e2\u0080\u0099t need to attempt this check and are not considered flat-footed . A creature that succeeded at its Will save gains a +5 bonus on the Acrobatics check. Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+    },
+    "components": {
+      "value": "V, S, M (one Tiny or larger living creature)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) Area 20-ft. cube (S)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "Will partial"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "By sacrificing a living creature, you create the grisly illusion of viscera and gore splattered about the nearby area. When the"
+    }
+  }
+}

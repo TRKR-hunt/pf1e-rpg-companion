@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shocking_image__crb_",
+    "name": {
+      "value": "Shocking Image"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "mesmerist",
+        "occultist",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "see text the first time you deal this electricity damage to it. Failure renders the target immune to damage from this spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat . \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor"
+    },
+    "description": {
+      "value": "This spell works like mirror image, except the illusory doubles it creates discharge an electric shock when destroyed. An opponent that uses a melee attack to destroy one of your images takes 2d6 points of electricity damage. You must overcome a target\u00e2\u0080\u0099s"
+    }
+  }
+}

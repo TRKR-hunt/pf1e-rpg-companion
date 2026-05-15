@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "collaborative_thaumaturgy__crb_",
+    "name": {
+      "value": "Collaborative Thaumaturgy"
+    },
+    "source": {
+      "value": "pathfinder_society_primer"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 immediate action : Enlarge Spell , Extend Spell , Silent Spell , or Still Spell . If the ally is the target of two collaborative thaumaturgy spells when casting a spell, the ally can instead apply the Empower Spell metamagic feat to a spell at least 2 levels lower than the highest-level spell she can cast. Finally, if the ally is the target of three collaborative thaumaturgy spells when casting a spell, she can instead apply the Maximize Spell or Widen Spell metamagic feat to a spell at least 3 levels lower than the highest-level spell she can cast. You can\u2019t target yourself with collaborative thaumaturgy. Section 15: Copyright Notice Pathfinder Player Companion: Pathfinder Society Primer \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: John Compton and Mark Moreland."
+    },
+    "components": {
+      "value": "V, S, F (a bronze tuning fork) EFFECTS"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You tap into the magical resonance between you and your allies to enhance one another\u2019s magic. Cast this spell when an ally casts a spell at least 1 level lower than the highest-level spell she can cast. The ally casts her spell as if one of the following metamagic feats were applied to it without increasing the spell level or"
+    }
+  }
+}

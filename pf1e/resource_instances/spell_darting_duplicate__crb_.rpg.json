@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "darting_duplicate__crb_",
+    "name": {
+      "value": "Darting Duplicate"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bard",
+        "magus",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 swift action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "5 ft."
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "An illusory duplicate of you steps clumsily into an adjacent square, presenting a tempting target before winking out of existence. Any creature that threatens that square must succeed at a Will save or make an attack of opportunity against the image. The image\u2019s AC is equal to 10 + 1/2 your caster level, but as a figment, the image is unaffected by any attack. Section 15: Copyright Notice Pathfinder Player Companion: Melee Tactics Toolbox \u00c2\u00a9 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "mental_block__crb_",
+    "name": {
+      "value": "Mental Block"
+    },
+    "source": {
+      "value": "upsi"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "mesmerist",
+        "psychic"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You lock access to the target\u2019s procedural memories, preventing it from drawing upon its experience and expertise. The target loses all skill ranks, spells known, spells prepared, and activated feats, as well as its extraordinary, supernatural, and spell-like abilities. Each round at the end of the target\u2019s turn, the target can attempt another Will save to end this effect. Editor\u2019s Note Does the word \u00e2\u0080\u009cactivated\u00e2\u0080\u009d in the spell\u00e2\u0080\u0099s description scope only cover feats, or does it also apply to extraordinary, supernatural, and spell-like abilities too? It should apply to all of them. It only stops them from using active abilities, and it doesn\u00e2\u0080\u0099t stop passive abilities at all. This will be reflected in the next errata. [ Source ] Section 15: Copyright Notice Pathfinder Roleplaying Game Occult Adventures \u00c2\u00a9 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+    }
+  }
+}

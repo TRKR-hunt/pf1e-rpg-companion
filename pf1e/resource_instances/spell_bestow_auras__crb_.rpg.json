@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "bestow_auras__crb_",
+    "name": {
+      "value": "Bestow Auras"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You transfer one or more of your paladin or antipaladin auras (such as aura of courage and aura of resolve ) to another creature. You retain the personal effect of that aura, but the target becomes the center of the aura effect instead of you. For example, if you transfer your aura of courage, you remain immune to fear, but the target becomes the center of the aura that grants a +4 morale bonus on saves against fear effects. If an aura functions only when you are conscious, the transferred aura functions only when the target is conscious. If an aura functions only when you expend uses of another ability (such as with aura of justice or aura of vengeance), the transferred aura functions only if the target has that other ability and expends uses of it to activate the aura. You cannot transfer an aura that affects only you (such as aura of good). Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "innocuous_shape__crb_",
+    "name": {
+      "value": "Innocuous Shape"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a handful of dandelion seeds)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "living creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "This spell transforms a creature into a Medium or smaller animal or humanoid of no more than 1 Hit Die. If you use this spell to cause the target to take on the form of an animal, the spell functions as beast shape II. If the form is that of a humanoid, the spell can function as alter self, youthful appearance, or both, such that you can transform a creature into a generic, youthful humanoid of any type. Any creature that interacts with the target of this spell must succeed at a Will saving throw (using the DC of the spell) or view the target in the most innocuous possible light. On a failed saving throw, the creature views all of the target\u00e2\u0080\u0099s actions as inoffensive and no cause for concern unless the target becomes an obvious threat. The creature can otherwise act normally, and feels no compunction to obey or ignore the target; it simply assumes none of the target\u00e2\u0080\u0099s actions are dangerous or malicious unless shown evidence that proves otherwise. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

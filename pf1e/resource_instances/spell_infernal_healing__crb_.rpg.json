@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "infernal_healing__crb_",
+    "name": {
+      "value": "Infernal Healing"
+    },
+    "source": {
+      "value": "the_inner_sea_world_guide"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "cleric",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M (1 drop of devil blood or 1 dose of unholy water)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You anoint a wounded creature with devil\u00e2\u0080\u0099s blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target\u00e2\u0080\u0099s alignment. Infernal Healing, Greater As infernal healing, except the target gains fast healing 4 and the target detects as an evil cleric. Section 15: Copyright Notice Pathfinder Campaign Setting: The Inner Sea World Guide. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, and JD Wiker."
+    }
+  }
+}

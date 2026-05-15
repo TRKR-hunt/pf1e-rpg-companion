@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shroud_of_innocuity__crb_",
+    "name": {
+      "value": "Shroud of Innocuity"
+    },
+    "source": {
+      "value": "heroes_of_the_high_court"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one willing creature plus one/2 caster levels, no two of which can be more than 30 ft. apart"
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "none (harmless); see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "All affected creatures are veiled with a commonplace appearance. This appearance varies based on the viewer, but is always an ordinary member of that viewer\u00e2\u0080\u0099s race, ethnicity, or nationality. This familiarity grants a +2 bonus on Diplomacy checks attempted by affected targets against those not affected by the spell. Creatures with an attitude of unfriendly or hostile toward an affected target can attempt a Will save to disbelieve the effect the first time they encounter that target. Section 15: Copyright Notice Pathfinder Player Companion: Heroes of the High Court \u00c2\u00a9 2017, Paizo Inc.; Authors: Isabelle Lee, Luis Loza, Ron Lundeen, and Jacob W. Michaels."
+    }
+  }
+}

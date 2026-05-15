@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "touch_of_mercy__crb_",
+    "name": {
+      "value": "Touch of Mercy"
+    },
+    "source": {
+      "value": "champions_of_purity"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The target creature deals only nonlethal damage with all of its weapon attacks. Damage taken by creatures or objects that are not subject to nonlethal damage is not converted to nonlethal and remains lethal damage. The weapon retains all of its other normal properties. Section 15: Copyright Notice Pathfinder Player Companion: Champions of Purity \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jessica Blomstrom, Adam Daigle, Shaun Hocking, Daniel Marthaler, Tork Shaw, and Christina Stiles."
+    }
+  }
+}

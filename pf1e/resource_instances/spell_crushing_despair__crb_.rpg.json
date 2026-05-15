@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "crushing_despair__crb_",
+    "name": {
+      "value": "Crushing Despair"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "cone-shaped burst"
+    },
+    "duration": {
+      "value": "1 min./level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "An invisible cone of despair causes great sadness in the subjects. Each affected creature takes a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. Crushing despair counters and dispels good hope. Editor\u2019s Note: If using Good Hope \u2013 Crushing Despair by Orphaned Bookworm Productions, this spell becomes a despair effect and uses the despair conditions. See crushing despair (modified)."
+    }
+  }
+}

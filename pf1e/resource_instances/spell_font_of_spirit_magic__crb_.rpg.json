@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "font_of_spirit_magic__crb_",
+    "name": {
+      "value": "Font of Spirit Magic"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (gold dust worth 50 gp)"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "30-ft.-radius emanation centered on you"
+    },
+    "duration": {
+      "value": "concentration + 1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You amplify the effect of magic associated with your spirit and wandering spirit (any spells on the spirit magic spell lists for these spirits). When allies within the area cast these spells, they gain a +2 bonus on caster level checks and concentration checks, as well as to spell DCs. This bonus is a sacred bonus if you are good-aligned or a profane bonus if you are evil-aligned; if you are neither good nor evil, you can choose what type of bonus the spell grants when you cast it. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

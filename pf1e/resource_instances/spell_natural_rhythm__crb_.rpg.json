@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "natural_rhythm__crb_",
+    "name": {
+      "value": "Natural Rhythm"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a handful of pebbles dropped one by one onto the ground)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You enhance a creature\u2019s ability to harm an opponent based on the number of times it has already injured that opponent with a natural attack. Each time the creature successfully strikes an opponent with a natural attack, the subject gains a cumulative +1 bonus on damage rolls made against that opponent when making natural attacks (maximum +5 bonus). If an attack misses, the bonus to damage for all attacks resets to +0. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

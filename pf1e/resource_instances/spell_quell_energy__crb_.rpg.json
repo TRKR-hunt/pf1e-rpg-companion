@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "quell_energy__crb_",
+    "name": {
+      "value": "Quell Energy"
+    },
+    "source": {
+      "value": "occult_origins"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "inquisitor",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You reduce the target creature\u2019s ability to tap into a single energy type (acid, cold, electricity, fire, or sonic) of your choice. This reduces damage of the selected type the creature deals with spells, spell-like abilities, and supernatural abilities by 10 points. Multiple castings of this spell stack. Damage from sources other than the creature, such as objects and magic items, is not reduced. If the damage of one of the creature\u2019s effects is negated entirely, any additional effects associated with that damage (such being stunned by sound burst or set on fire by a fire elemental ) are also negated. At 13th level, you reduce the target\u2019s damage by 20 points, and at 19th level, you reduce the target\u2019s damage by 30 points. If the target succeeds on its saving throw, the spell\u2019s duration is reduced to 1 round. Section 15: Copyright Notice Pathfinder Player Companion: Occult Origins \u00c2\u00a9 2015, Paizo Inc.; Authors: Robert Brookes, Ben McFarland, Jason Nelson, and Mark Seifter."
+    }
+  }
+}

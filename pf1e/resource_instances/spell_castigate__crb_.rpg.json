@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "castigate__crb_",
+    "name": {
+      "value": "Castigate"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "inquisitor",
+        "mesmerist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) medium (100 ft. + 10 ft./level)"
+    },
+    "area": {
+      "value": "one creature/level, no two of which can be more than 30 ft. apart."
+    },
+    "duration": {
+      "value": "1 round/level or 1 round; see text"
+    },
+    "saving_throw": {
+      "value": "Will partial"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You compel the target to beg for forgiveness. On a failed save, the target cowers with fear. On a successful save, it is shaken for 1 round. Each round on its turn, a cowering subject may attempt a new save to end the effect. A creature who worships the same god as you takes a -2 penalty on its Saving Throw. Castigate, Mass This spell functions as castigate, except it affects many creatures. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

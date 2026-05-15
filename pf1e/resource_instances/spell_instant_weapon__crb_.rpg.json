@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "instant_weapon__crb_",
+    "name": {
+      "value": "Instant Weapon"
+    },
+    "source": {
+      "value": "melee_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "cleric",
+        "inquisitor",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "0 ft."
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You create a melee weapon sized appropriately for you from opaque force. You are considered proficient with this weapon, which acts in all ways as a masterwork weapon typical of its type. The instant weapon has hardness 20 and the same number of hit points as a typical weapon of its type. As a force effect, it can strike and damage incorporeal creatures. If the instant weapon leaves your hand at any time, the spell ends at the beginning of your next turn. Section 15: Copyright Notice Pathfinder Player Companion: Melee Tactics Toolbox \u00c2\u00a9 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz."
+    }
+  }
+}

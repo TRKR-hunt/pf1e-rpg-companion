@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "transmute_potion_to_poison__crb_",
+    "name": {
+      "value": "Transmute Potion to Poison"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round then 1 minute/level; see text"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This extract causes you to take on a pale, sickly pallor for 1 round. During this time, if you consume a potion, it has no effect. Instead, your mouth fills with a vile poison that you can spit onto a weapon as a free action. If you do not spit out the poison in 1 round, it affects you instead. The effect of the poison depends on the level of spell contained in the potion consumed (see sidebar). If the poison is not used within 1 minute per caster level it becomes inert. You can only create one dose of poison in this way per casting of this spell. Transmuted Poisons 0-Level Potion Poison Type poison, injury; Save Fortitude DC 10; Frequency 1/round for 2 rounds;"
+    }
+  }
+}

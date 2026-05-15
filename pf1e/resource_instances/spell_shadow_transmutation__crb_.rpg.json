@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shadow_transmutation__crb_",
+    "name": {
+      "value": "Shadow Transmutation"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "medium",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "see text"
+    },
+    "area": {
+      "value": "see text"
+    },
+    "duration": {
+      "value": "see text"
+    },
+    "saving_throw": {
+      "value": "Will disbelief (if interacted with); varies; see text"
+    },
+    "spell_resistance": {
+      "value": "yes; see text"
+    },
+    "description": {
+      "value": "You suffuse one subject\u2019s body with energy from the Shadow Plane, altering its form to match a creature from the Shadow Plane. Shadow transmutation can mimic any of the following spells: animal growth, anthropomorphic animal, enlarge person, fins to feet, longarm, polymorph, reduce person, and stone fist. If using shadow transmutation as polymorph, the target does not gain any sensory abilities that its new form has (such as low-light vision or darkvision ) and the speed of any movement types gained from the spell cannot exceed the target\u2019s base speed or natural speed with those movement types (whichever is higher). A creature under the effects of shadow transmutation deals normal damage and has all the normal abilities and weaknesses of whatever form it assumes using the spell. Any creature that interacts with a target under the effects of the spell (including attacking or being attacked by that creature) can attempt a Will save to recognize the target\u2019s true nature. Creatures that succeed at their Will saves to disbelieve the illusion take one-fifth (20%) of the normal damage from the target\u2019s natural attacks or special abilities granted by the target\u2019s shadowy form (if any), and the target\u2019s special abilities that don\u00e2\u0080\u0099t deal damage have only a 20% chance of working against them. Creatures that succeed at their saves see the shadow transmutation as transparent images superimposed over the target. Shadow Transmutation, Greater This spell functions like shadow transmutation, except it can mimic greater polymorph instead of polymorph. The illusory attacks and special abilities of any shape assumed using greater shadow transmutation deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60% likely to work against nonbelievers. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

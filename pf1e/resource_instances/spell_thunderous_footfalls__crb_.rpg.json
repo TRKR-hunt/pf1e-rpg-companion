@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "thunderous_footfalls__crb_",
+    "name": {
+      "value": "Thunderous Footfalls"
+    },
+    "source": {
+      "value": "battle_of_bloodmarch_hill"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one Large or larger creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no (harmless)"
+    },
+    "description": {
+      "value": "This spell makes the target creature\u2019s footfalls shake the ground violently as he trundles, which may knock down smaller creatures as he passes by, though it also makes the target slower on land. The target\u2019s land speed is reduced by half (round down to the nearest 5-foot increment), but each time he moves overland adjacent to a creature that is at least one size category smaller than he is, that creature must succeed at a Fortitude saving throw or be knocked prone. Section 15: Copyright Notice Pathfinder Adventure Path #91: Battle of Bloodmarch Hill \u00c2\u00a9 2015, Paizo Inc.; Authors: Patrick Renie, with Tyler Beck, Adam Daigle, Richard Pett, Stephen Radney-MacFarland, and David Schwartz."
+    }
+  }
+}

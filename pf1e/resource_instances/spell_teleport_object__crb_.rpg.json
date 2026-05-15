@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "teleport_object__crb_",
+    "name": {
+      "value": "Teleport Object"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_7"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 Standard Action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one touched object of up to 50 lbs./level and 3 cu. ft./level"
+    },
+    "duration": {
+      "value": ""
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "This spell functions like teleport, except that it teleports an object, not you. Creatures and magical forces cannot be teleported. If desired, the target object can be sent to a distant location on the Ethereal Plane. In this case, the point from which the object was teleported remains faintly magical until the item is retrieved. A successful targeted dispel magic spell cast on that point brings the vanished item back from the Ethereal Plane."
+    }
+  }
+}

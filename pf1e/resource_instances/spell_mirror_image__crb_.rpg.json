@@ -16,9 +16,15 @@
     },
     "classes": {
       "value": [
+        "bard",
+        "bloodrager",
+        "magus",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
         "sorcerer",
-        "wizard",
-        "bard"
+        "wizard"
       ]
     },
     "casting_time": {
@@ -34,16 +40,16 @@
       "value": "you"
     },
     "duration": {
-      "value": "1 min/level (D)"
+      "value": "1 min./level"
     },
     "saving_throw": {
-      "value": "none"
+      "value": ""
     },
     "spell_resistance": {
       "value": "no"
     },
     "description": {
-      "value": "1d4 + 1 per 3 levels (max 8) duplicates appear; attacks may hit a duplicate."
+      "value": "This spell creates a number of illusory doubles of you that inhabit your square. These doubles make it difficult for enemies to precisely locate and attack you. When mirror image is cast, 1d4 images plus one image per three caster levels (maximum eight images total) are created. These images remain in your space and move with you, mimicking your movements, sounds, and actions exactly. Whenever you are attacked or are the target of a spell that requires an attack roll, there is a possibility that the attack targets one of your images instead. If the attack is a hit, roll randomly to see whether the selected target is real or a figment. If it is a figment, the figment is destroyed. If the attack misses by 5 or less, one of your figments is destroyed by the near miss. Area spells affect you normally and do not destroy any of your figments. Spells and effects that do not require an attack roll affect you normally and do not destroy any of your figments. Spells that require a touch attack are harmlessly discharged if used to destroy a figment. An attacker must be able to see the figments to be fooled. If you are invisible or the attacker is blind, the spell has no effect (although the normal miss chances still apply). Editor\u2019s Note Can I use Cleave or Great Cleave to cleave to or from an image created by a mirror image spell? No. If your initial attack hit the caster, you can\u00e2\u0080\u0099t cleave to an image as if it were an actual creature. If your initial attack hit an image, you failed to hit your intended target (the caster), and therefore can\u00e2\u0080\u0099t cleave. As you can\u00e2\u0080\u0099t specifically target an image (because you can\u00e2\u0080\u0099t tell the images from the actual caster), you likewise can\u00e2\u0080\u0099t aim for an image and try to cleave to another image. Can I use magic missile to destroy one or more images from a mirror image spell? No. Magic missile targets a creature and does not require an attack roll, so it bypasses all the images and always hits the caster. [ Source ] Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
     }
   }
 }

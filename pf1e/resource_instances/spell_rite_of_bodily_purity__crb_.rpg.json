@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "rite_of_bodily_purity__crb_",
+    "name": {
+      "value": "Rite of Bodily Purity"
+    },
+    "source": {
+      "value": "divine_anthology"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "paladin",
+        "ranger",
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": "1 hour"
+    },
+    "components": {
+      "value": "V, M (soothing incense worth 100 gp)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "24 hours or until discharged"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You energize your body\u00e2\u0080\u0099s immune system, improving your ability to resist toxins and ailments. You gain a +2 resistance bonus on saving throws to resist diseases, drugs, and poisons. Additionally, at any time during the spell\u00e2\u0080\u0099s duration, whenever you fail a saving throw to resist a disease, drug, or poison, you can expend the spell\u00e2\u0080\u0099s remaining duration as an immediate action in order to reroll that saving throw. You must take the second result, even if it\u00e2\u0080\u0099s worse. The +2 resistance bonus granted by the spell applies to the reroll, but after you make this reroll, the spell ends. Section 15: Copyright Notice Pathfinder Player Companion: Divine Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Russ Brown, John Compton, Alex Riggs, and David Ross."
+    }
+  }
+}

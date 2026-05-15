@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "renovation__crb_",
+    "name": {
+      "value": "Renovation"
+    },
+    "source": {
+      "value": "quests_campaigns"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "8 hours"
+    },
+    "components": {
+      "value": "V, S, M (silver dust worth 1,000 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one unoccupied structure"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none (object; see text)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Upon casting this spell, you permanently rearrange and resize the rooms in a building you constructed as a downtime activity. You may reorganize and remap the building however you please, as if each room had just been constructed and is being positioned for the first time. You cannot make any changes to a building that changes how much a room would cost to create or that alters the benefits a room provides. The structure also must remain in the same general position within the district. If you don\u2019t wholly own the structure, all of the structure\u2019s owners must consent to the changes being made before the spell is cast; otherwise, it fails immediately. Section 15: Copyright Notice Pathfinder Player Companion: Quests & Campaigns \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Amanda Hamon and David N. Ross."
+    }
+  }
+}

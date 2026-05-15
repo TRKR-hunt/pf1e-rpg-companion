@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "seek_shelter__crb_",
+    "name": {
+      "value": "Seek Shelter"
+    },
+    "source": {
+      "value": "inner_sea_intrigue"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) Targets all non-hostile creatures with 4 or fewer HD in a 30-ft. spread"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 hour/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You send an empathic urge to seek safety both as fast as possible and in an orderly fashion, and to remain in such secure locations for the duration of the spell. Targets with 5 or more Hit Dice are unaffected. When you cast the spell, you can designate a fortified location\u00e2\u0080\u0094either general (such as \u00e2\u0080\u009cindoors\u00e2\u0080\u009d) or specific (such as \u00e2\u0080\u009cthe local garrison\u00e2\u0080\u009d)\u00e2\u0080\u0094for the targets to attempt to reach. If you do not specify a location for the targets to retreat to, they attempt to find safety to the best of their ability. Affected creatures defend themselves normally but attack only if provoked. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: David N. Ross, with Ross Byers."
+    }
+  }
+}

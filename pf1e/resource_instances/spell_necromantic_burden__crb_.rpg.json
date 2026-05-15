@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "necromantic_burden__crb_",
+    "name": {
+      "value": "Necromantic Burden"
+    },
+    "source": {
+      "value": "undead_slayers_handbook"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M/DF (a handful of knucklebones)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one undead creature"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You make an undead creature more difficult for necromancers and clerics to control via effects such as Command Undead or control undead. If the target fails its Will save, the target\u2019s effective number of Hit Dice is doubled for the purposes of determining whether it remains under the control of another creature. Regardless of the target\u2019s actual Hit Dice, its effective HD cannot exceed twice your caster level. (For example, a 12th-level cleric could cast this spell to cause an undead creature with 15 HD to instead effectively have 24 HD for the purpose of controlling it.) If the targeted undead is under the control of another creature and this spell causes the target\u2019s effective Hit Dice to exceed the controller\u2019s maximum capability, the target creature is immediately freed from control. Any creature capable of controlling undead may attempt to control the target, provided the target\u2019s effective HD won\u2019t cause the would-be controller to exceed its HD limit. The target\u2019s former controller can attempt to regain control over the target by relinquishing command over other creatures until its HD limit is no longer exceeded (or the former controller can wait until the spell\u2019s duration expires to attempt this at the target\u2019s normal HD). Section 15: Copyright Notice Pathfinder Player Companion: Undead Slayer\u2019s Handbook \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Dennis Baker, Jay Loomis, Alex Putnam, Adam Roy, Tork Shaw, and Larry Wilhelm."
+    }
+  }
+}

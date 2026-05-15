@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "find_fault__crb_",
+    "name": {
+      "value": "Find Fault"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "cleric",
+        "inquisitor",
+        "magus",
+        "medium",
+        "oracle",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "medium (100 ft. plus 10 ft./level)"
+    },
+    "area": {
+      "value": "1 creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes you failed to penetrate (the GM may have you attempt a caster level check to conceal the true reason for the spell\u00e2\u0080\u0099s failure). Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross"
+    },
+    "description": {
+      "value": "You instantly learn many of the target\u00e2\u0080\u0099s weaknesses, as if you had made an appropriate Knowledge skill check with a result equal to 20 + your caster level. Additionally, your first melee or ranged attack roll against the creature before the end of your next turn gains a +5 insight bonus. If the creature is polymorphed, disguised, or hidden by an illusion and you are not aware of it\u00e2\u0080\u0099s true form, this spell fails as if the target has"
+    }
+  }
+}

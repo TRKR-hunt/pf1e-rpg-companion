@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "magic_aura__crb_",
+    "name": {
+      "value": "Magic Aura"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (a small square of silk that must be passed over the object that receives the aura) V, S, F (a woolen handkerchief)"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one touched object weighing up to 5 lbs./level one creature, or one object weighing up to 20 lbs./level"
+    },
+    "duration": {
+      "value": "1 day/level (D) 1 day/level (D)"
+    },
+    "saving_throw": {
+      "value": "none; see text; none (see text)"
+    },
+    "spell_resistance": {
+      "value": "no no"
+    },
+    "description": {
+      "value": "You alter an item\u2019s aura so that it registers to detect spells (and spells with similar capabilities) as though it were non-magical, or a magic item of a kind you specify, or the subject of a spell you specify. If the object bearing magic aura has identify cast on it or is similarly examined, the examiner recognizes that the aura is false and detects the object\u2019s actual qualities if he succeeds on a Will save. Otherwise, he believes the aura and no amount of testing reveals what the true magic is. If the targeted item\u2019s own aura is exceptionally powerful (if it is an artifact, for instance), magic aura doesn\u2019t work. Note: A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average make, for example, looks suspicious if it has a magical aura. Magic Aura, Greater Source PZO1134 If cast on an object, this spell functions as magic aura, except that if you have identified the unique spellcasting signatures of a specific individual with greater detect magic or a similar spell, you can make the magic aura appear to have been created by that individual. Alternatively, you can simply obscure all identifiers, making it more difficult to determine who cast the spell. In either case, if the object is the subject of a greater detect magic spell, any Spellcraft check made to identify the unique spellcasting identifiers of the aura automatically produce the result you chose unless the observer disbelieves the spell with a successful Will save (as with magic aura, however, detect spells don\u2019t grant a save to disbelieve). If cast on a creature, you can make that creature register to detect spells (and spells with similar capabilities) as though it were the subject of any number of spells that you specify, when the spell is cast. Alternatively, you can make the creature register as non-magical, hiding all spell effects that he is currently affected by from such scrutiny. If you choose to make the creature register as being the subject of one or more spells, you can also alter the unique spellcasting identifiers of those spell auras, in the same fashion as described for objects. If the target is a creature, you can also alter how the creature registers to arcane sight, making the creature appear to have or not have spellcasting or spell-like abilities, whether those abilities are arcane, divine, or psychic in nature, and the strength of the most powerful spell or spell-like ability they currently have available for use. Similarly, you can alter the way the target appears when viewed with greater detect magic, causing the last spell that he cast to seem to be any spell of your choice. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

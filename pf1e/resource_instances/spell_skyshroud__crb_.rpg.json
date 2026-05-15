@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "skyshroud__crb_",
+    "name": {
+      "value": "Skyshroud"
+    },
+    "source": {
+      "value": "heroes_of_the_darklands"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, F (a jar of earth from the surface)"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level); see text"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "The caster designates the area of a hemisphere within the spell\u00e2\u0080\u0099s range. If a solid object would block the creation of the hemisphere (such as a ceiling or wall), the spell instead conforms to the geometry of the location up to the maximum area of effect for the spell. The hemisphere displays an image of the sky as it appears directly above where the spell was cast. This effect bypasses natural impediments, such as rock or stone, that would obstruct the targeted location from the sky. The image of the sky created by this spell counts as the actual sky for purposes of effects that require view of the sky, sun, stars, or other features (including for spell preparation or deific obediences). It does not enable spells or effects that draw effects from the sky (such as call lightning ). Light created by this effect functions normally and harms creatures vulnerable to bright light or direct sunlight. Section 15: Copyright Notice Pathfinder Player Companion: Heroes of the Darklands \u00c2\u00a9 2017, Paizo Inc.; Authors: Robert Brookes, Eleanor Ferron, Michelle Jones, Alex Riggs, and Nicholas Wasko."
+    }
+  }
+}

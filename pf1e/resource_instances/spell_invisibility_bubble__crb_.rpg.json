@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "invisibility_bubble__crb_",
+    "name": {
+      "value": "Invisibility Bubble"
+    },
+    "source": {
+      "value": "aquatic_adventures"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (needle from a sea urchin) V, S, M (needle from a sea urchin) V, S, M (needle from a sea urchin)"
+    },
+    "range": {
+      "value": "touch touch long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": "touched creature\u2019s space, up to one 5-foot-cube 10-ft..-radius emanation centered on the touched creature\u2019s space"
+    },
+    "duration": {
+      "value": "1 minute/level (D) 1 minute/level (D) 1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless); Will negates (harmless); Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "A glamered bubble surrounds the target\u00e2\u0080\u0099s space, rendering her completely invisible underwater by hiding both the target and any water she displaces. Because of the bubble\u00e2\u0080\u0099s size limit, this spell works only on Medium or smaller targets. Other objects and creatures within the bubble\u00e2\u0080\u0099s space are also invisible while they stay in the space, which could reveal the spell\u00e2\u0080\u0099s existence to a canny observer who notices fish disappearing into the bubble and reappearing on the other side. Creatures inside the bubble can see each other, which allows foes who can pinpoint the bubble\u00e2\u0080\u0099s location (such as dragons ) to stick their heads into the bubble in order to see the target. Any creature on the inside of the bubble that takes any action that would break invisibility pops the bubble and ends the spell early. On land, the bubble is clearly visible, acting much as invisibility does in the water. Unlike with invisibility, the inside of the bubble blocks light from escaping the bubble, meaning that light sources inside the bubble don\u00e2\u0080\u0099t illuminate past its edges, but also don\u00e2\u0080\u0099t reveal a telltale glow. Invisibility Bubble, Giant This functions as per invisibility bubble, but the bubble is larger, which allows you to target a creature of up to size Gargantuan, or allows more creatures into the bubble. Invisibility Bubble, Mass This functions as per invisibility bubble, but the spell affects the areas of each target creature, regardless of the creature\u00e2\u0080\u0099s size. The effect moves with the group and is broken when anyone in the group attacks. Individuals in separate bubbles can\u00e2\u0080\u0099t see each other. The spell is broken for any individual who moves more than 180 feet from the nearest member of the group. If only two individuals are affected, the one moving away from the other one loses its invisibility. If both are moving away from each other simultaneously, they both become visible when the distance between them exceeds 180 feet. Section 15: Copyright Notice Pathfinder Campaign Setting: Aquatic Adventures \u00c2\u00a9 2017, Paizo Inc.; Authors: Amber E. Scott and Mark Seifter."
+    }
+  }
+}

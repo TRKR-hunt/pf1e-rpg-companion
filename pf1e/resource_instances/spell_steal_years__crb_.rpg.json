@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "steal_years__crb_",
+    "name": {
+      "value": "Steal Years"
+    },
+    "source": {
+      "value": "blood_of_the_night"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a handful of ash) V, S, M (a handful of ash)"
+    },
+    "range": {
+      "value": "touch touch"
+    },
+    "area": {
+      "value": "creature touched creature touched"
+    },
+    "duration": {
+      "value": "24 hours 1 day/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude negates; Fortitude negates"
+    },
+    "spell_resistance": {
+      "value": "yes yes"
+    },
+    "description": {
+      "value": "You temporarily drain youth and vitality from the target and channel it into yourself. If the target fails its Fortitude save, it physically ages 1d4 years per two caster levels (maximum 5d4), and you decrease your age by the same number of years. If this changes the age category of you or the target, only adjust physical ability scores. This effect cannot bring your age to lower than the minimum age of adulthood for your race. This stolen youth does not actually change your age or prolong your life; you will still die at your allotted time, no matter how youthful you appear. Likewise, the spell does not add to the target\u00e2\u0080\u0099s true age, and cannot make the target die of old age. When the spell ends, the sudden weight of aging makes you fatigued for 1d4 hours. Steal Years, Greater This spell functions like steal years, except you drain 1d6 years per two caster levels (maximum 10d6). Section 15: Copyright Notice Pathfinder Player Companion: Blood of the Night \u00c2\u00a9 2012, Paizo Publishing, LLC; Author: Tork Shaw."
+    }
+  }
+}

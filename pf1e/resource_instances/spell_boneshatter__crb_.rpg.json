@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "boneshatter__crb_",
+    "name": {
+      "value": "Boneshatter"
+    },
+    "source": {
+      "value": "pyramid_of_the_sky_pharaoh"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a broken bone)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one corporeal creature or object"
+    },
+    "duration": {
+      "value": "instantaneous and 1 minute/level (see text)"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The target\u2019s bones (or exoskeleton) splinter, dealing 1d6 points of damage per caster level (maximum 15d6) to the target, which is also exhausted for 1 minute per caster level from the pain and exertion of the transformation. If the target succeeds at its save, it takes half damage and is fatigued rather than exhausted. Objects made of bone, chitin, or similar material take half again as much damage (+50%) from this spell. This spell has no effect on a creature that has neither a skeleton nor a hard carapace. Section 15: Copyright Notice Pathfinder Adventure Path #84: Pyramid of the Sky Pharaoh \u00c2\u00a9 2014, Paizo Inc.; Authors: Mike Shel, with Tyler Beck, Adam Daigle, F. Wesley Schneider, and Amber E. Scott., Osirion, Land of the Pharaohs"
+    }
+  }
+}

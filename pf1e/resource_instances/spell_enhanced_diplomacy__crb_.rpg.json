@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "enhanced_diplomacy__crb_",
+    "name": {
+      "value": "Enhanced Diplomacy"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_0"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute or until discharged"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You imbue the subject with divine diplomacy skills. The creature gets a +2 competence bonus on a single Diplomacy or Intimidate check. It must choose to use the bonus before making the roll to which it applies. Section 15: Copyright Notice Pathfinder Companion: Taldor, Echoes of Glory. Copyright 2009, Paizo Publishing, LLC; Author: Joshua J. Frost."
+    }
+  }
+}

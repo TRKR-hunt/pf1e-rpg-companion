@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "stoneskin__crb_",
+    "name": {
+      "value": "Stoneskin"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "druid",
+        "inquisitor",
+        "magus",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (granite and diamond dust worth 250 gp) V, S, M (granite and diamond dust worth 250 gp per creature affected)"
+    },
+    "range": {
+      "value": "touch touch"
+    },
+    "area": {
+      "value": "creature touched creatures touched"
+    },
+    "duration": {
+      "value": "10 min./level or until discharged 10 min./level or until discharged"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless); Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless) yes (harmless)"
+    },
+    "description": {
+      "value": "The warded creature gains resistance to blows, cuts, stabs, and slashes. The subject gains DR 10/adamantine. It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged. Stoneskin, Communal This spell functions like stoneskin, except you divide the duration in 10 minute intervals among the creatures touched. Once the spell has prevented 10 points of damage per caster level (maximum 150 points) for a subject, the spell\u00e2\u0080\u0099s effects end for that subject. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

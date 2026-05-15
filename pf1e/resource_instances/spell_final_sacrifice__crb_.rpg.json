@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "final_sacrifice__crb_",
+    "name": {
+      "value": "Final Sacrifice"
+    },
+    "source": {
+      "value": "monster_summoner_s_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bloodrager",
+        "cleric",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one summoned creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Fort negates, then Reflex half (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes Get this book AND support this site!"
+    },
+    "description": {
+      "value": "You disrupt the conjuring energies within a summoned creature, causing it to violently explode. If the target fails its Fortitude save, it is immediately slain and all creatures within 20 feet of the target take 1d4 points of damage per spell level of the summoning spell that conjured the target. This damage is fire damage unless the target creature has the cold or water subtype, in which case it\u2019s cold damage. Creatures caught in this explosion take half damage if they succeed at their Reflex saves against this spell\u2019s DC. Final sacrifice can detonate a summoner \u2018s eidolon, though an eidolon receives a +4 bonus on its Fortitude save unless the spell is cast by the eidolon \u2018s own summoner. If this spell targets an eidolon, creatures within 20 feet of the eidolon take an amount of damage equal to 1d4 + 1/2 the caster level of the summoner who controlled the eidolon. Section 15: Copyright Notice Pathfinder Player Companion: Monster Summoner\u00e2\u0080\u0099s Handbook \u00c2\u00a9 2015, Paizo Inc.; Authors: Alexander Augunas, Tyler Beck, Anthony Li, Luis Loza, David N. Ross, Owen K.C. Stephens, and Linda Zayas-Palmer."
+    }
+  }
+}

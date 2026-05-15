@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "protection_from_outsiders__crb_",
+    "name": {
+      "value": "Protection From Outsiders"
+    },
+    "source": {
+      "value": "demon_hunter_s_handbook"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no; see text"
+    },
+    "description": {
+      "value": "This spell wards a creature from attacks by outsiders with a specific racial subtype, from mental control exerted by creatures of the chosen subtype, and from summoned creatures of that subtype. Only the subtypes of specific outsider races\u00e2\u0080\u0094 angel, azata, demon, oni, psychopomp, protean, and so on\u00e2\u0080\u0094can be chosen as the subtype this spell protects against. Alignment subtypes or other general subtypes (like elemental, extraplanar, or native ) cannot be selected. Outsiders without an outsider racial subtype (like genies, night hags, yeth hounds, or xills ) are not affected by this spell. This spell creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects. First, the subject gains a +4 deflection bonus to AC and a +4 resistance bonus on saves when targeted by creatures of the chosen subtype. Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the target creature. This functions in the same fashion as protection from evil, but only when the effect stems from outsiders of the chosen subtype, and the target\u2019s saving throw is made with a +4 morale bonus (using the same DC as the original effect). Third, the spell prevents bodily contact by summoned creatures of the chosen subtype in the same manner as detailed in protection from evil. This spell\u2019s descriptor varies depending on the outsider race selected, gaining the alignment descriptors opposite to the alignment of the outsider race\u00e2\u0080\u0094for example, lawful and good if the race is chaotic and evil, chaotic if the selected race is lawful, or none if the selected race is neutral. Section 15: Copyright Notice Pathfinder Player Companion: Demon Hunter\u00e2\u0080\u0099s Handbook \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Philip Minchin, F. Wesley Schneider, and Jerome Virnich."
+    }
+  }
+}

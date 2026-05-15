@@ -1,0 +1,58 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "irregular_size__crb_",
+    "name": {
+      "value": "Irregular Size"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bloodrager",
+        "cleric",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "permanent"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You curse a creature so one set of its limbs (typically its arms, legs, or wings) shrivels in size. Arms: The creature counts as one size category smaller for the purpose of determining the size of weapon it can wield. If the creature is capable of making natural attacks with its arms, the damage dealt by those attacks decreases as though the target were one size category smaller than its actual size. Legs: The creature\u2019s base speed decreases by 10 feet (to a minimum of 5 feet) and its Strength score counts as 4 lower for the purpose of determining its carrying capacity. Wings: The creature\u2019s fly speed decreases by 10 feet (to a minimum of 5 feet), the damage dealt by any wing attacks decreases as though the target were one size category smaller than its actual size, and its fly maneuverability decreases by a step (to a minimum of clumsy). Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "nondetection__crb_",
+    "name": {
+      "value": "Nondetection"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "bloodrager",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "ranger",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (diamond dust worth 50 gp) V, S, M (diamond dust worth 25 gp per target) V, S, M (a drop of mercury)"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels) Target creature touched"
+    },
+    "area": {
+      "value": "creature or object touched creatures or objects touched"
+    },
+    "duration": {
+      "value": "1 hour/level 1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless, object); Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless, object) no"
+    },
+    "description": {
+      "value": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal ball s. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on an item currently in your possession, the DC is 15 + your caster level. If cast on a creature, nondetection wards the creature\u2019s gear as well as the creature itself. Nondetection, Communal Source: PRG:UC This spell functions like nondetection, except you divide the duration in 1-hour increments among the creatures or objects touched. Lesser Nondetection Source: PZO9468 This spell functions like nondetection, except it blocks the effects of only divination spells and effects that target an area, rather than you or an object in your possession specifically. For example, lesser nondetection doesn\u2019t ward you against a spellcaster who is attempting to scry on you with the scrying spell or find an object in your possession with locate object, but it does protect you against effects that target an area you happen to be in, such as detect spells or clairaudience/clairvoyance. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

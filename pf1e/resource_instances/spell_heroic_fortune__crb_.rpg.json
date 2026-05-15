@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "heroic_fortune__crb_",
+    "name": {
+      "value": "Heroic Fortune"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "cleric",
+        "oracle",
+        "paladin"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF, M (diamond dust worth 100 gp) V, S, DF, M (diamond dust worth 1,000 gp)"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Note: This spell deals with hero points. See Hero Points for full details. This spell grants 1 hero point to the target. This hero point must be spent before the duration expires, or it is lost. The bonus hero point is spent before any other hero points the target might possess. Heroic Fortune, Mass"
+    }
+  }
+}

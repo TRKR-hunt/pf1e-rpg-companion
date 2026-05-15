@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ice_spears__crb_",
+    "name": {
+      "value": "Ice Spears"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a small stalagmite-shaped crystal)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Reflex half and see below"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Upon casting this spell, one or more giant spears of ice lance up out of the ground. Each stalagmite-like icicle affects a 5-foot square and tapers to a height of 10 feet. You may cause a number of ice spears equal to one spear for every four caster levels you possess to burst from the ground. A creature that occupies a square from which a spear extends (or that is within 10 feet of the ground below) takes 2d6 points of piercing damage and 2d6 points of cold damage per square\u00e2\u0080\u0094creatures that take up more than one square can be hit by multiple spears if the caster is high enough level. The explosive growth can also trip foes. When the spears erupt from the ground, they make a combat maneuver check against any targets that take damage from the spears, with a total bonus equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest. Each additional ice spear beyond the first that strikes a single foe grants a +10 bonus to this CMB check. If the check succeeds, the ice spears knock the foe prone. A successful Reflex save halves the damage and prevents the trip attempt. If you cast this spell upon an area covered with ice or snow, such as atop a glacier, frozen lake, or snow-covered field, the spears strike with additional force. Saves against the effect suffer a \u00e2\u0080\u00932 penalty and the spell gains a +4 bonus on its combat maneuver check to trip foes. Ice spears created by this spell remain after they do their damage. They melt as normal depending on the surrounding environment. They no longer damage foes in their square, but can provide cover. An ice spear has hardness 5 and 30 hit points. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    }
+  }
+}

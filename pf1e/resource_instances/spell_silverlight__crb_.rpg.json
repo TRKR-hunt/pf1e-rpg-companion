@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "silverlight__crb_",
+    "name": {
+      "value": "Silverlight"
+    },
+    "source": {
+      "value": "guide_to_the_river_kingdoms"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (1 sp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "object touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Fortitude partial (see text)"
+    },
+    "spell_resistance": {
+      "value": "No"
+    },
+    "description": {
+      "value": "As daylight, except the object touched sheds bright silvery light in a 20-foot radius. In addition to providing illumination, the area of bright light is painful to creatures that are susceptible to alchemical silver. A creature with DR/silver that begins its turn within the light of this spell is automatically dazzled and becomes sickened unless it succeeds on a Fortitude save. These effects disappear 1 round after the target leaves the silverlight. A creature that leaves the area and then returns must make a new saving throw. This spell provides dim light up to 40 feet away, but only creatures within 20 feet are subject to the above effects. Section 15: Copyright Notice Pathfinder Chronicles: Guide to the River Kingdoms \u00c2\u00a9 2010, Paizo Publishing, LLC; Authors: Eric Bailey, Kevin Carter, Elaine Cunningham, Adam Daigle, Mike Ferguson, Joshua J. Frost, James Jacobs, Steve Kenson, Rob Manning, Colin McComb, Alison McKenzie, China Mi\u00c3\u00a9ville, Brock Mitchel-Slentz, Jason Nelson, Richard Pett, Chris Pramas, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Neil Spicer, Lisa Stevens, Matthew Stinson, and John Wick."
+    }
+  }
+}

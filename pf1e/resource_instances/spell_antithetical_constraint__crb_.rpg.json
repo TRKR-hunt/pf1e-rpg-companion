@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "antithetical_constraint__crb_",
+    "name": {
+      "value": "Antithetical Constraint"
+    },
+    "source": {
+      "value": "champions_of_balance"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S . This restriction doesn\u2019t apply to effects that do not require attack rolls , such as magic missile . Section 15: Copyright Notice Pathfinder Player Companion: Champions of Balance \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz."
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You constrain the target such that the target automatically misses with all attacks made against creatures that are not of the opposite alignment of it. For example, a lawful evil target would automatically fail at all attacks except those made against chaotic good creatures, and a neutral good target would automatically fail at all attacks except those made against neutral evil creatures. For the purposes of antithetical constraint, creatures that are chaotic evil, chaotic good, lawful evil, or lawful good are all considered to have the opposite alignment of a target whose alignment is neutral with no other alignment"
+    }
+  }
+}

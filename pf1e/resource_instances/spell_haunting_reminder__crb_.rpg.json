@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "haunting_reminder__crb_",
+    "name": {
+      "value": "Haunting Reminder"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_adventurers_guide"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "12 hours + 2 hours/level or until triggered, then 1 day/level"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "As part of casting this spell, you can attempt a single Intimidate check to make the target act friendly to you. If you succeed, the target assists you normally, but it remains fearful of your retribution even after its attitude shifts to unfriendly. If the creature reports your coercion to authorities, attacks you, or otherwise acts in a purposeful way that threatens you or your objectives (at the GM\u2019s discretion), the spell triggers, inflicting the creature with the unshakable certainty that you will find and punish it. This imposes the shaken condition on the creature for 1 day per caster level; during this time, the creature takes a -2 penalty on saving throws against spells you cast with the fear descriptor. Section 15: Copyright Notice Pathfinder Roleplaying Game Adventurer\u2019s Guide \u00c2\u00a9 2017, Paizo Inc.; Authors: Benjamin Bruck, John Compton, Crystal Frasier, Tim Hitchcock, Jenny Jarzabski, Isabelle Lee, Joe Pasini, Jessica Price, David Schwartz, and Josh Vogt."
+    }
+  }
+}

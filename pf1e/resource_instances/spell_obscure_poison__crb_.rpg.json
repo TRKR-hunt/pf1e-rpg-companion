@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "obscure_poison__crb_",
+    "name": {
+      "value": "Obscure Poison"
+    },
+    "source": {
+      "value": "ui"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "antipaladin",
+        "bard",
+        "cleric",
+        "druid",
+        "mesmerist",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "S, M (herbs used in antitoxins worth 10 gp)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one dose of poison or one venomous creature touched"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You make the touched poison difficult to detect or identify. Detect poison and similar effects detect an obscured poison only with a successful caster level check against a DC equal to 15 + your caster level (rolled secretly by the GM). Even if the poison is detected, the DC of Craft (alchemy) or Wisdom checks to identify the poison is increased by 10. If cast upon a venomous creature, obscure poison disguises all of the creature\u2019s natural poisons in the same way. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Intrigue \u00c2\u00a9 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+    }
+  }
+}

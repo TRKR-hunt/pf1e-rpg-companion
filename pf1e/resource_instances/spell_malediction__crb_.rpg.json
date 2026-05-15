@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "malediction__crb_",
+    "name": {
+      "value": "Malediction"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_book_of_the_damned"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "cleric",
+        "oracle",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "1 creature touched"
+    },
+    "duration": {
+      "value": "1 minute and instantaneous (see text)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Channeling the blasphemy of fiends into your hand, you mark your target with a brief but fundamental corruption, causing its soul to be irretrievably damned should it die within the next minute. If you are lawful evil, souls are sent to Hell. If you are neutral evil, souls are sent to Abaddon. If you are chaotic evil, souls are sent to the Abyss. A target killed while under the effect of this spell cannot be resurrected by normal means. Only a worshiper of a deity or demigod of your alignment can return a soul damned by malediction to life without difficulty. Other spellcasters must succeed at a caster level check (DC = 10 + your caster level ) to restore to life a creature slain while under the effects of malediction. Miracle or wish can return the victim of a malediction to life without requiring a caster level check. A soul can also be freed by the efforts of someone bodily going to the appropriate plane, locating the affected soul, and leading it out of the plane, which allows it to go to its intended destination in the afterlife and be resurrected as normal. You can end the effects of your own malediction \u00c2\u00a0by casting the spell again and concentrating on a past target. Doing so only frees the past target to go to its rightful place in death; it does not return the target to life. Spells such as break enchantment, dispel magic, and remove curse negate this spell if successfully cast before the target dies. Section 15: Copyright Notice Pathfinder Roleplaying Game Book of the Damned \u00c2\u00a9 2017, Paizo Inc.; Authors: John Compton, Adam Daigle, Amanda Hamon Kunz, James Jacobs, Isabelle Lee, F. Wesley Schneider, Todd Stewart, and Josh Vogt."
+    }
+  }
+}

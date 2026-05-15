@@ -6,7 +6,7 @@
       "value": "Bless"
     },
     "source": {
-      "value": "crb"
+      "value": "pathfinder_roleplaying_game_mythic_adventures"
     },
     "level": {
       "value": "spell_level_1"
@@ -17,7 +17,10 @@
     "classes": {
       "value": [
         "cleric",
-        "paladin"
+        "inquisitor",
+        "oracle",
+        "paladin",
+        "shaman"
       ]
     },
     "casting_time": {
@@ -27,13 +30,13 @@
       "value": "V, S, DF"
     },
     "range": {
-      "value": "50 ft"
+      "value": "50 ft."
     },
     "area": {
-      "value": "you and all allies within 50 ft"
+      "value": "The caster and all allies within a 50-ft. burst, centered on the caster"
     },
     "duration": {
-      "value": "1 min/level"
+      "value": "1 min./level"
     },
     "saving_throw": {
       "value": "none"
@@ -42,7 +45,7 @@
       "value": "yes (harmless)"
     },
     "description": {
-      "value": "+1 morale bonus on attack rolls and on saves vs fear."
+      "value": "Bless fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects. Bless counters and dispels bane. Mythic The +1 morale bonus applies on attack rolls, weapon damage rolls, and all saving throws. Once during the spell\u2019s duration, an affected creature can roll an attack roll or saving throw twice and take the higher result. The target must decide to use this ability before the first roll is attempted. Section 15: Copyright Notice Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
     }
   }
 }

@@ -1,0 +1,47 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "frosty_aura__crb_",
+    "name": {
+      "value": "Frosty Aura"
+    },
+    "source": {
+      "value": "battle_of_bloodmarch_hill"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "magus"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a chunk of ice or a few drops of water melted from glacier ice)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you (see text)"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "none (harmless, see text)"
+    },
+    "spell_resistance": {
+      "value": "no (harmless, see text)"
+    },
+    "description": {
+      "value": "The spell allows you to channel cold into your very being. If you don\u2019t already have the cold subtype, this spell grants you the cold subtype. If you already have the cold subtype, you instead channel the frost from your being outward, creating a 10-foot-radius aura of cold centered on you. Creatures who enter or end their turns in the aura must succeed at a Fortitude saving throw or take 1d8 points of cold damage. Multiple castings of this spell stack; you can cast it once on yourself to gain the cold subtype, then again to manifest the aura of frost around you. Section 15: Copyright Notice Pathfinder Adventure Path #91: Battle of Bloodmarch Hill \u00c2\u00a9 2015, Paizo Inc.; Authors: Patrick Renie, with Tyler Beck, Adam Daigle, Richard Pett, Stephen Radney-MacFarland, and David Schwartz."
+    }
+  }
+}

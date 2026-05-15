@@ -16,20 +16,33 @@
     },
     "classes": {
       "value": [
-        "sorcerer",
-        "wizard",
+        "antipaladin",
         "bard",
         "cleric",
         "druid",
+        "inquisitor",
+        "magus",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "oracle",
         "paladin",
-        "ranger"
+        "psychic",
+        "ranger",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
       ]
     },
     "casting_time": {
       "value": "1 standard action"
     },
     "components": {
-      "value": "V, S, F"
+      "value": "V, S, F (a clear crystal or mineral prism)"
     },
     "range": {
       "value": "personal"
@@ -38,16 +51,16 @@
       "value": "you"
     },
     "duration": {
-      "value": "10 min/level"
+      "value": "10 min./level"
     },
     "saving_throw": {
-      "value": "none"
+      "value": ""
     },
     "spell_resistance": {
       "value": "no"
     },
     "description": {
-      "value": "Read scrolls and spellbooks; identify glyphs and runes."
+      "value": "You can decipher magical inscriptions on objects \u2013 books, scrolls, weapons, and the like \u2013 that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level). Read magic can be made permanent with a permanency spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
     }
   }
 }

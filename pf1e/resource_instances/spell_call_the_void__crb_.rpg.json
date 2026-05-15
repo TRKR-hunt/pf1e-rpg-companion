@@ -1,0 +1,49 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "call_the_void__crb_",
+    "name": {
+      "value": "Call the Void"
+    },
+    "source": {
+      "value": "dragon_empires_primer"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S . Creatures adjacent to you are allowed a Reflex save to halve the damage and negate the fatigue effect, but cannot breathe or speak regardless of whether their save is successful as long as they are adjacent to you. Section 15: Copyright Notice Pathfinder Player Companion: Dragon Empires Primer \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Tim Hitchcock and Colin McComb."
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Reflex for half; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell surrounds you with an aura of nothingness that channels mysterious energies. Creatures adjacent to you when this spell is cast and at the start of your turn take 2d6 points of damage. In addition, creatures affected by your aura are fatigued, cannot breathe, and cannot speak or cast spells with verbal"
+    }
+  }
+}

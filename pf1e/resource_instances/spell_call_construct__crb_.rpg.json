@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "call_construct__crb_",
+    "name": {
+      "value": "Call Construct"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "occultist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S, M (a sapphire worth 1,000 or 5,000 gp; see text)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "construct touched"
+    },
+    "duration": {
+      "value": "permanent until discharged"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions as instant summons, except it can only summon a construct you control. For constructs such as golems that are immune to magic, the value of the specially inscribed sapphire must be at least 5,000 gp. For other constructs, a 1,000 gp sapphire suffices. If the construct is no longer under your control or destroyed, the spell fails, but you know roughly where the construct or its remains are located. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "caustic_blood__crb_",
+    "name": {
+      "value": "Caustic Blood"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "cleric",
+        "druid",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M ( vial of black adder venom)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "Reflex half or negates; see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You imbue your blood with corrosive acid. Any time you take piercing or slashing damage, a spray of acidic blood spurts from your body in the direction of the opponent who inflicted the wound, dealing 1d6 points of acid damage per caster level (maximum 15d6, Reflex half). This spurt travels in a 10-foot line, damaging the first creature or object it touches, with no splash damage. After it contacts a creature or object, your acidic blood continues to burn that creature for 1 round, dealing 1d6 points of acid damage per 2 caster levels (maximum 7d6). A second successful Reflex save negates this additional damage. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Gods \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
+    }
+  }
+}

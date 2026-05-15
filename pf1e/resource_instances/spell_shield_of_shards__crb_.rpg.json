@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "shield_of_shards__crb_",
+    "name": {
+      "value": "Shield of Shards"
+    },
+    "source": {
+      "value": "armor_master_s_handbook"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "cleric",
+        "inquisitor",
+        "magus",
+        "medium",
+        "oracle",
+        "paladin",
+        "shaman"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (a shield)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "one shield you wield"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This defensive spell must be cast on a shield you are currently wielding, and fractures the shield into two shards, plus one additional shard per 2 caster levels (to a maximum of 12 shards at 20th level). While shield of shards is active, you lose your shield\u00e2\u0080\u0099s bonus to AC as its broken pieces orbit you. On your turn, you can direct the shards to attack an adjacent opponent as a move action. The shards\u00e2\u0080\u0099 attack bonus is equal to your caster level + the modifier for the ability score that determines your spell save DCs. The shards deal an amount of slashing and piercing damage equal to 1d4 points + 1 point per shard beyond the first, and have a threat range of 19\u00e2\u0080\u009320. They are considered magic weapons for the purpose of bypassing damage reduction. Additionally, if your shield is made from a special material (such as adamantine ), the shards penetrate damage reduction and hardness as if they were weapons made from the same material. At the end of this spell\u00e2\u0080\u0099s duration, the shards reform into their original shield form. You regain its shield bonus to AC, provided you still have a free hand in which to wield it. Otherwise, the shield falls at your feet in your square. Section 15: Copyright Notice Pathfinder Player Companion: Armor Master\u00e2\u0080\u0099s Handbook \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Anthony Li, Luis Loza, and David Schwartz."
+    }
+  }
+}

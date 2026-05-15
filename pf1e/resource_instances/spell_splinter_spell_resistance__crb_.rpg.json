@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "splinter_spell_resistance__crb_",
+    "name": {
+      "value": "Splinter Spell Resistance"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "magus",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "melee or thrown weapon or up to 50 pieces of ammunition touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates"
+    },
+    "spell_resistance": {
+      "value": "no , that creature\u00e2\u0080\u0099s is reduced by 5 for 1 round. This reduction is not cumulative for multiple attacks within the same round, even if the target is struck by different weapons, each affected by a different casting of splinter . However, the same creature\u00e2\u0080\u0099s can be reduced on multiple rounds by subsequent hits. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross"
+    },
+    "description": {
+      "value": "You create an aura around the target weapon that weakens a foe\u00e2\u0080\u0099s magical defenses. The first time each round the weapon damages a creature with"
+    }
+  }
+}

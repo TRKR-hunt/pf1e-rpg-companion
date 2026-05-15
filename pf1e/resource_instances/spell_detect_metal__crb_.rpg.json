@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "detect_metal__crb_",
+    "name": {
+      "value": "Detect Metal"
+    },
+    "source": {
+      "value": "people_of_the_river"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bard",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (a magnetized nail or nugget of ore)"
+    },
+    "range": {
+      "value": "60 ft."
+    },
+    "area": {
+      "value": "cone-shaped emanation"
+    },
+    "duration": {
+      "value": "concentration , up to 1 minute/level (D)"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You detect any metal objects or creatures within a 60-foot cone. You can specify all metal objects or one or more specific types of metal (such as silver, cold iron, or a type of skymetal) when you cast this spell; in the case of the latter, you detect only objects or creatures made of the specified metal. Section 15: Copyright Notice Pathfinder Player Companion: People of the River \u00c2\u00a9 2014, Paizo Inc.; Authors: Tim Akers, Jason Brick, Ethan Day-Jones, James Jacobs, Nick Salestrom, David Schwartz, and William Thrasher."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "imbue_with_aura__crb_",
+    "name": {
+      "value": "Imbue with Aura"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You infuse another creature with your divine aura, causing the target to radiate an aura identical to your own clerical aura. The target\u00e2\u0080\u0099s actual alignment is not changed, but spells like detect evil or detect good detect only the aura, not the creature\u00e2\u0080\u0099s actual alignment. For the duration of this spell, effects influenced by the target\u00e2\u0080\u0099s alignment function according to the imposed aura, not the creature\u00e2\u0080\u0099s actual aura. When the spell ends, the target\u00e2\u0080\u0099s aura returns to normal, and alignment -affecting magic affects it according to its actual alignment. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

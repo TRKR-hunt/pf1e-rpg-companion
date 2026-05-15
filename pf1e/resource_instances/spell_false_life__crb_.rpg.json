@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "false_life__crb_",
+    "name": {
+      "value": "False Life"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a drop of blood)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 hour/level or until discharged; see text"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You harness the power of unlife to grant yourself a limited ability to avoid death. While this spell is in effect, you gain temporary hit points equal to 1d10 + 1 per caster level (maximum +10). Mythic False Life Source PZO1126 The temporary hit points gained increase to 2d8 + 2 per caster level (maximum +20). As an immediate action, you can dismiss the remaining duration of the spell to prevent 1 point of Strength, Dexterity, or Constitution damage per 10 temporary hit points remaining from the spell. This takes effect after the attack hits you and the damage is rolled, but before you take the damage. For example, if you have 22 temporary hit points from mythic false life and a wyvern stings you for 3 points of Constitution damage, you can dismiss the spell to prevent 2 points of Constitution damage from that attack. False Life, Greater This spell functions as false life, except you gain temporary hit points equal to 2d10 + 1 point per caster level (maximum +20). The effects of this spell do not stack with those of false life. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

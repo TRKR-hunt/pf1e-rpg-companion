@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "arcane_sight__crb_",
+    "name": {
+      "value": "Arcane Sight"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "inquisitor",
+        "magus",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 min./level (D)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell makes your eyes glow blue and allows you to see magical auras within 120 feet of you. The effect is similar to that of a detect magic spell, but arcane sight does not require concentration and discerns aura location and power more quickly. You know the location and power of all magical auras within your sight. An aura\u2019s power depends on a spell\u2019s functioning level or an item\u2019s caster level, as noted in the description of the detect magic spell (see tables above.) If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.) If you concentrate on a specific creature within 120 feet of you as a standard action, you can determine whether it has any spellcasting or spell-like abilities, whether these are arcane or divine (spell-like abilities register as arcane), and the strength of the most powerful spell or spell-like ability the creature currently has available for use. As with detect magic, you can use this spell to identify the properties of magic items, but not artifacts. Arcane sight can be made permanent with a permanency spell. Spell or Object Aura Power Faint Moderate Strong Overwhelming Functioning spell (spell level) 3rd or lower 4th-6th 7th-9th 10th+ (deity-level) Magic item (caster level) 5th or lower 6th-11th 12th-20th 21st+ ( artifact ) Original Strength Duration of Lingering Aura Faint 1d6 rounds Moderate 1d6 minutes Strong 1d6x10 minutes Overwhelming 1d6 days Arcane Sight, Greater This spell functions like arcane sight, except that you automatically know which spells or magical effects are active upon any individual or object you see. Unlike arcane sight, this spell cannot be made permanent with a permanency spell. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+    }
+  }
+}

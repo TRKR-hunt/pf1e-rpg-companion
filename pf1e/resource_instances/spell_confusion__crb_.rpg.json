@@ -1,0 +1,57 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "confusion__crb_",
+    "name": {
+      "value": "Confusion, Lesser"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "inquisitor",
+        "medium",
+        "mesmerist",
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "spiritualist",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action 1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (three nutshells) V, S, DF"
+    },
+    "range": {
+      "value": "medium (100 ft. + 10 ft./level) close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one living creature"
+    },
+    "duration": {
+      "value": "1 round/level 1 round"
+    },
+    "saving_throw": {
+      "value": "Will negates; Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes yes"
+    },
+    "description": {
+      "value": "This spell causes confusion in the targets, making them unable to determine their actions. Roll on the following table at the start of each subject\u2019s turn each round to see what it does in that round. Table: Confusion Effects d% Behavior 01-25 Acts normally 26-50 Does nothing but babble incoherently 51-75 Deals 1d8 points of damage + Str modifier to self with item in hand 76-100 Attacks nearest creature (for this purpose, a familiar counts as part of the subject\u2019s self) A confused character who can\u2019t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes. Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked). Confusion, Lesser This spell causes a single creature to become confused for 1 round. Mythic Roll on the table below instead of the non-mythic version at the start of each subject\u2019s turn to see what it does in that round. d% Behavior 01\u00e2\u0080\u009325 Subject acts normally, but takes a \u00e2\u0080\u00932 penalty on all attack rolls, skill checks, and ability checks until its next turn. 26\u00e2\u0080\u009350 Subject does nothing but babble incoherently, and takes a \u00e2\u0080\u00934 penalty to AC until its next turn. 51\u00e2\u0080\u009375 Subject deals 2d8 points of damage + Str modifier to self with item in hand. 76\u00e2\u0080\u0093100 Subject attacks nearest ally (for this purpose, a familiar counts as an ally). Augmented: If you expend two uses of mythic power when casting the spell, you force one affected creature per round to roll on the table twice and take the higher result. Section 15: Copyright Notice Pathfinder Roleplaying Game Core Rulebook. \u00c2\u00a9 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. Pathfinder Roleplaying Game Mythic Adventures \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+    }
+  }
+}

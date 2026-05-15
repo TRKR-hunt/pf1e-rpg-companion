@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "prediction_of_failure__crb_",
+    "name": {
+      "value": "Prediction of Failure"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_6"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "occultist",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "permanent or 1 round/level (see text)"
+    },
+    "saving_throw": {
+      "value": "Will partial; means it also gains a random minor spellblight. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic . \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You wrack the target\u00e2\u0080\u0099s body and mind with the anguish and suffering of every bitter failure it will ever experience, rendering it permanently shaken and sickened. A successful Will save reduces the duration to 1 round per level. If the target is a spellcaster, failing this"
+    }
+  }
+}

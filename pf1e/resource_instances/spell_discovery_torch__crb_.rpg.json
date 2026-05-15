@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "discovery_torch__crb_",
+    "name": {
+      "value": "Discovery Torch"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "oracle"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "object touched"
+    },
+    "duration": {
+      "value": "10 minutes/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "An object you touch emanates a 20-foot radius of bright light. The effect looks like a regular flame but creates no heat and uses no oxygen. Allies within the area of this light gain a +2 enhancement bonus on Perception and Sense Motive checks, as well as on Knowledge checks to identify monsters that are also within the area and their special powers and vulnerabilities. When an inquisitor casts this spell, the light emanation doubles (40-ft.-radius emanation) while that inquisitor has a judgment active. Light spells counter and dispel darkness spells of an equal or lower level. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

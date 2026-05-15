@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "horrific_doubles__crb_",
+    "name": {
+      "value": "Horrific Doubles"
+    },
+    "source": {
+      "value": "pathfinder_roleplaying_game_horror_adventures"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "bloodrager",
+        "medium",
+        "mesmerist",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "applies against them. If your campaign uses the sanity system, a creature takes 1d8 points of sanity damage instead of Wisdom damage . Section 15: Copyright Notice Pathfinder Roleplaying Game Horror Adventures \u00c2\u00a9 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer"
+    },
+    "description": {
+      "value": "You create several illusory doubles of yourself, where you and each image all seem slightly off or wrong in appearance. Treat this spell as mirror image, except as noted. Each creature that can see the doubles must succeed at a Will save or become shaken for as long as it can see any of the doubles. A successful saving throw negates the shaken condition and renders the creature immune to the further effects of this spell (beyond the usual effects of mirror image ). In addition, the first time a creature that failed its initial saving throw destroys one of the images, it must succeed at a Will save or its perception of the double shifts at the last second. The double takes on the face of the attacker, the face of a loved one, or some other equally disturbing image, causing the attacker to become frightened for 1 round and take 1d3 points of Wisdom damage from the traumatic shock. Both additional effects are mind-affecting fear effects, and"
+    }
+  }
+}

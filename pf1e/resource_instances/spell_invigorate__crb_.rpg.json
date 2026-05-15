@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "invigorate__crb_",
+    "name": {
+      "value": "Invigorate"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "illusion"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "medium",
+        "mesmerist",
+        "psychic"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched creatures touched, up to one/level"
+    },
+    "duration": {
+      "value": "10 minutes/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "This spell banishes feelings of weariness. For the duration, the subject takes no penalties from the fatigued or exhausted conditions. The effect of invigorate is merely an illusion, however, not a substitute for actual rest or respite. When the spell ends, the subject takes 1d6 points of nonlethal damage, along with the return of the original condition(s). A creature can be under the effects of only one invigorate spell at a time; if it is cast a second time on that creature, the first immediately ends. Invigorate, Mass This spell work as invigorate, except it affects multiple creatures. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

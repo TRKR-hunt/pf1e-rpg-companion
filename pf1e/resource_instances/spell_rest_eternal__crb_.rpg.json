@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "rest_eternal__crb_",
+    "name": {
+      "value": "Rest Eternal"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "druid",
+        "oracle",
+        "shaman",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M/DF (ashes and a vial of holy or unholy water)"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "one dead creature touched"
+    },
+    "duration": {
+      "value": "permanent"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You place a curse upon a dead creature that bars its spirit from returning. Anyone casting a spell that would communicate with the dead creature, return it to life, or turn it into an undead creature must succeed on a caster level check with a DC of 11 plus your caster level. Rest eternal cannot be dispelled, but it can be negated with remove curse or break enchantment. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "fire_breath__crb_",
+    "name": {
+      "value": "Fire Breath"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a chili pepper)"
+    },
+    "range": {
+      "value": "15 ft."
+    },
+    "area": {
+      "value": "cone-shaped burst"
+    },
+    "duration": {
+      "value": "1 round/level or until discharged; see text"
+    },
+    "saving_throw": {
+      "value": "Reflex half; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Up to thrice during this spell\u2019s duration, you can belch forth a cone of fire as a standard action. The first cone deals 4d6 points of fire damage to every creature in the area. The second cone of flame deals 2d6 points of fire damage to every creature in the area. The third cone of flame deals 1d6 points of fire damage to every creature in the area. A successful Reflex save halves this damage. After the third cone of flame, the spell ends. Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

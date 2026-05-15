@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "curse_of_burning_sleep__crb_",
+    "name": {
+      "value": "Curse of Burning Sleep"
+    },
+    "source": {
+      "value": "acg"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a feather and a drop of oil)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature duration permanent until triggered (see text)"
+    },
+    "duration": {
+      "value": ""
+    },
+    "saving_throw": {
+      "value": "Will negates (see text)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You place a curse upon the target that triggers 1 hour after the next time it falls asleep. When the curse is triggered, the creature bursts into flame, taking 1d6 points of fire damage per 2 caster levels (maximum 8d6). Furthermore, it catches on fire, taking 2d6 points of fire damage per round at the end of its turn each round until the creature dies or is quenched as normal. If the target is still asleep, the fire damage from this spell wakes it. Only one of these spells can be in place on a creature at any time. This has no effect on creatures that don\u2019t sleep. Section 15: Copyright Notice Pathfinder Roleplaying Game: Advanced Class Guide \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "symbol_of_distraction__crb_",
+    "name": {
+      "value": "Symbol of Distraction"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "mesmerist",
+        "occultist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes"
+    },
+    "components": {
+      "value": "V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 5,000 gp)"
+    },
+    "range": {
+      "value": "0 feet; see text"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "see text"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions like symbol of death, except that all creatures within the radius of a symbol of distraction instead become fascinated by the symbol for 10 minutes per caster level. Unlike symbol of death, symbol of distraction has no hit point limit; once triggered, a symbol of distraction simply remains active for a duration of 10 minutes \u00c3\u0097 your caster level. All fascinated creatures move toward the symbol of distraction, trying to remain within the symbol\u00e2\u0080\u0099s area of effect. If the symbol leads affected creatures into a dangerous area, each fascinated creature can attempt an additional Will saving throw, with success indicating it is no longer fascinated. If a creature\u00e2\u0080\u0099s view of the symbol is completely blocked, it is immediately freed of the symbol\u00e2\u0080\u0099s effect. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

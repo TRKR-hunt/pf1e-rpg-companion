@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "cleromancy__crb_",
+    "name": {
+      "value": "Cleromancy"
+    },
+    "source": {
+      "value": "occult_mysteries"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "full-round action"
+    },
+    "components": {
+      "value": "V, S, F/DF (a set of 64 chicken bones)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 round/ caster level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Cleromancy involves casting bones and interpreting the results. Those able to arrive at the proper interpretation are granted knowledge of coming events. Roll 1d4 per caster level. Group the dice by like results, and choose one of the groups. For the duration of cleromancy, you can apply a luck bonus equal to the result of the selected dice to any d20 roll. You can apply this bonus to a number of rolls equal to the number of dice in the group. If cleromancy expires before you are able to allocate the total number of allotted bonuses, the remaining bonuses are lost. The Path of Numbers The Path of Numbers is a system of numerology that describes eight basic energies. Any of these types of energy can interact at any time, producing 64 possible combinations. It is believed that those 64 combinations are sufficient to describe the basis of every interaction in the cosmos. No matter the plane, creature, or time in question, every event in the multiverse is based on one of those 64 templates. In short, the Path of Numbers is a periodic table of energetic elements."
+    }
+  }
+}

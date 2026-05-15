@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "spell_gauge__crb_",
+    "name": {
+      "value": "Spell Gauge"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, F (a silver piece)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You immediately discover some of the spells that the target knows or has prepared. The number of spells revealed to you is equal to your caster level. The target\u2019s lowest-level spells are revealed first\u00e2\u0080\u0094ignoring 0-level spells\u00e2\u0080\u0094in a random order. Once all of the target\u2019s 1st-level spells are revealed, the spell begins revealing 2nd-level spells, then 3rd-level spells. This spell does not reveal spells of 4th level or higher, nor does it reveal spell-like abilities or other special abilities. If cast on a creature that is not a spellcaster, that has only 0-level spells or spells of 4th level or higher prepared, that has expended all of its spells, or that has not prepared any spells that day, the spell has no effect. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Gods \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
+    }
+  }
+}

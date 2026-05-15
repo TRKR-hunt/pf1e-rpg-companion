@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "rain_of_frogs__crb_",
+    "name": {
+      "value": "Rain of Frogs"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_3"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "druid",
+        "psychic",
+        "shaman",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M/DF (a square of red cloth)"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": ""
+    },
+    "duration": {
+      "value": "concentration + 2 rounds"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell functions as summon swarm, except you summon a swarm of poisonous frogs. This swarm has the statistics of a centipede swarm, except it has the animal type and its poison deals Constitution damage instead of Dexterity damage. Putting it all together\u2026 To save you the effort of looking up 5 different things, the wording (if combined with summon swarm ) would be: Rain of Frogs You summon a swarm of poisonous frogs, which attacks all other creatures within its area. You may summon the swarm so that it shares the area of other creatures. If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel. And here is a complete stat block for a poisonous frog swarm: Poisonous Frog Swarm N Diminutive animal ( swarm ) Init +4; Senses darkvision 60 ft., tremorsense 30 ft.; Perception +4 DEFENSE AC 18, touch 18, flat-footed 14 (+4 Dex, +4 size) hp 31 (9d8\u00e2\u0080\u00939) Fort +5, Ref +7, Will +3 Defensive Abilities swarm traits, Immune weapon damage OFFENSE Speed 30 ft., climb 30 ft. Melee swarm (2d6 plus poison [1d4 Con damage; Fort DC 13]) Space 10 ft.; Reach 0 ft. Special Attacks distraction (DC 13), poison STATISTICS Str 1, Dex 19, Con 8, Int \u00e2\u0080\u0094, Wis 10, Cha 2 Base Atk +6; CMB \u00e2\u0080\u0094; CMD \u00e2\u0080\u0094 Feats Weapon Finesse B Skills Climb +12, Perception +4; Racial Modifiers +4 Perception SPECIAL ABILITIES Poison (Ex) Bite \u00e2\u0080\u0094injury; save Fortitude DC 13; frequency 1/round for 6 rounds;"
+    }
+  }
+}

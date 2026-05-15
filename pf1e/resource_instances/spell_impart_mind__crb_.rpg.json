@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "impart_mind__crb_",
+    "name": {
+      "value": "Impart Mind"
+    },
+    "source": {
+      "value": "inner_sea_magic"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "2 rounds"
+    },
+    "components": {
+      "value": "V, S, M (diamond dust worth at least 1,000 gp) required to cast this spell, you can gain further bonuses on the d% roll made to determine the item\u00e2\u0080\u0099s power. Every additional 100 gp in diamond dust you use in excess grants a cumulative +1 bonus to the roll, up to a maximum additional bonus equal to your caster level . If the item gains the ability to cast a spell, determine the spell it can cast randomly from spells you know of the appropriate level. If the item gains ranks in a skill, it gains ranks in a random skill in which you have at least 1 rank. If you roll above 100, then you can choose one item power on Table: Intelligent Item Powers to grant the item, and the item gains a special purpose. Roll once on Table: Intelligent Item Purpose and Table: Special Purpose Item Dedicated Powers to determine what the item\u00e2\u0080\u0099s special purpose and dedicated powers are. These d% rolls are not modified by your caster level or any additional powdered gems you used to cast the spell. Once this spell ends, the item reverts to its previous nature\u00e2\u0080\u0094if you cast this spell on the item again, it gains entirely different powers as determined by a new set of rolls. Table: Intelligent Item Powers d% Item Power Base Price Modifier Ego Modifier 01\u00e2\u0080\u009310 Item can cast a 0-level spell at will +1,000 gp +1 11\u00e2\u0080\u009320 Item can cast a 1st-level spell 3/day +1,200 gp +1 21\u00e2\u0080\u009325 Item can use magic aura on itself at will +2,000 gp +1 26\u00e2\u0080\u009335 Item can cast a 2nd-level spell 1/day +2,400 gp +1 36\u00e2\u0080\u009345 Item has 5 ranks in one skill* +2,500 gp +1 46\u00e2\u0080\u009350 Item can sprout limbs and move with a speed of 10 feet +5,000 gp +1 51\u00e2\u0080\u009355 Item can cast a 3rd-level spell 1/day +6,000 gp +1 56\u00e2\u0080\u009360 Item can cast a 2nd-level spell 3/day +7,200 gp +1 61\u00e2\u0080\u009370 Item has 10 ranks in one skill* +10,000 gp +2 71\u00e2\u0080\u009375 Item can change shape into one other form of the same size +10,000 gp +2 76\u00e2\u0080\u009380 Item can fly , as per the spell, at a speed of 30 feet +10,000 gp +2 81\u00e2\u0080\u009385 Item can cast a 4th-level spell 1/day +11,200 gp +2 86\u00e2\u0080\u009390 Item can teleport itself 1/day +15,000 gp +2 91\u00e2\u0080\u009395 Item can cast a 3rd-level spell 3/day +18,000 gp +2 96\u00e2\u0080\u0093100 Item can cast a 4th-level spell 3/day +33,600 gp +2 * Intelligent items can only possess Intelligence -, Wisdom -, or Charisma -based skills, unless they also possess some form of ability to move. Table: Intelligent Item Purpose d% Purpose Ego Modifier 01\u00e2\u0080\u009320 Defeat/slay diametrically opposed alignment* +2 21\u00e2\u0080\u009330 Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities) +2 31\u00e2\u0080\u009340 Defeat/slay divine spellcasters (including divine entities and servitors) +2 41\u00e2\u0080\u009350 Defeat/slay non-spellcasters +2 51\u00e2\u0080\u009355 Defeat/slay a particular creature type (see the bane special ability for choices) +2 56\u00e2\u0080\u009360 Defeat/slay a particular race or kind of creature +2 61\u00e2\u0080\u009370 Defend a particular race or kind of creature +2 71\u00e2\u0080\u009380 Defeat/slay the servants of a specific deity +2 81\u00e2\u0080\u009390 Defend the servants and interests of a specific deity +2 91\u00e2\u0080\u009395 Defeat/slay all (other than the item and the wielder) +2 96\u00e2\u0080\u0093100 Choose one +2 * The purpose of the neutral (N) version of this item is to preserve the balance by defeating/slaying powerful beings of the extreme alignments (LG, LE, CG, CE). Table: Special Purpose Item Dedicated Powers d% Dedicated Power Base Price Modifier Ego Modifier 01\u00e2\u0080\u009320 Item can detect any special purpose foes within 60 feet +10,000 gp +1 21\u00e2\u0080\u009335 Item can use a 4th-level spell at will +56,000 gp +2 36\u00e2\u0080\u009350 Wielder gets +2 luck bonus on attacks, saves, and checks +80,000 gp +2 51\u00e2\u0080\u009365 Item can use a 5th-level spell at will +90,000 gp +2 66\u00e2\u0080\u009380 Item can use a 6th-level spell at will +132,000 gp +2 81\u00e2\u0080\u009395 Item can use a 7th-level spell at will +182,000 gp +2 96\u00e2\u0080\u0093100 Item can use true resurrection on wielder, once per month +200,000 gp +2 Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "permanent nonintelligent magic item touched"
+    },
+    "duration": {
+      "value": "1 hour/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "This spell grants the target magic item temporary intelligence by siphoning off a tiny portion of your own mind to infuse the object. Only permanent magic items may be enhanced by this spell\u00e2\u0080\u0094one-use items and charged items cannot be affected by impart mind. Intelligent magic items cannot be affected by impart mind. When you cast impart mind on a magic item, the item gains an Intelligence, Wisdom, and Charisma score of 10 and gains your alignment. You have no special control over the item once it becomes intelligent, although since it has your alignment, personality conflicts with items you wield won\u00e2\u0080\u0099t be a problem. Determine the item\u00e2\u0080\u0099s ego normally, as per the rules on intelligent items in the Core Rulebook. An item made intelligent via impart mind communicates via speech and has normal senses to a range of 60 feet. It speaks and reads one language known by you\u00e2\u0080\u0094if you know multiple languages, you may choose which language the item knows. When you cast impart mind on an item, roll once on Table: Intelligent Item Powers to randomly determine the item\u00e2\u0080\u0099s power\u00e2\u0080\u0094add your caster level to this roll. By expending additional diamond dust in excess of the 1,000 gp worth of material"
+    }
+  }
+}

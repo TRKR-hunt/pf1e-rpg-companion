@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "stone_throwing__crb_",
+    "name": {
+      "value": "Stone Throwing"
+    },
+    "source": {
+      "value": "giant_hunters_handbook"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "cleric",
+        "druid",
+        "magus",
+        "oracle",
+        "ranger",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (powdered stone)"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "The subject gains the rock throwing and rock catching abilities. It can use these abilities with any solid, mostly inflexible object with a hardness of at least 5. The subject can hurl rocks up to two categories smaller than its own size. The range increment for this attack is 20 feet, and rocks can be hurled a maximum of 5 range increments. Damage is based on the size of the subject\u00e2\u0080\u00941d8 points of damage for a Large creature, 1d6 for a Medium creature, or 1d4 for a Small creature\u00e2\u0080\u0094plus 1-1/2 times the thrower\u2019s Strength bonus. For every size category smaller than Large the subject is, it receives a cumulative \u00e2\u0080\u00935 penalty on Reflex saves to catch rocks (or similar projectiles) thrown at it. Section 15: Copyright Notice Pathfinder Player Companion: Giant Hunter\u2019s Handbook \u00c2\u00a9 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross."
+    }
+  }
+}

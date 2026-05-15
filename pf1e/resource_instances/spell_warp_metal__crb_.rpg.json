@@ -1,0 +1,55 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "warp_metal__crb_",
+    "name": {
+      "value": "Warp Metal"
+    },
+    "source": {
+      "value": "magic_tactics_toolbox"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "cleric",
+        "druid",
+        "medium",
+        "occultist",
+        "oracle",
+        "psychic",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a twisted wire)"
+    },
+    "range": {
+      "value": "close (25 ft. plus 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "1 Small metal object/level, all within a 20-ft. radius; see text"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates (object)"
+    },
+    "spell_resistance": {
+      "value": "yes (object)"
+    },
+    "description": {
+      "value": "You cause metal to bend and warp, permanently destroying its straightness, form, and strength. A warped door springs open (or becomes stuck, requiring a successful Strength check to open, at your option). A vehicle grinds to a halt and ceases to operate. Warped ranged weapons are useless. A warped melee weapon imposes a \u00e2\u0080\u00934 penalty on attack rolls. You can warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32. Alternatively, you can unwarp metal (effectively warping it back to normal) with this spell. Make whole, on the other hand, does nothing to repair a warped item. You can combine multiple consecutive castings of warp metal to warp (or unwarp) an object that is too large for you to warp with a single casting. Until the object is completely warped, it suffers no ill effects. Section 15: Copyright Notice Pathfinder Player Companion: Magic Tactics Toolbox \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+    }
+  }
+}

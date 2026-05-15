@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "firefall__crb_",
+    "name": {
+      "value": "Firefall"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "magus",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (one fire source)"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": "one fire source, up to a 20-foot cube"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates and Reflex negates; see text"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "Firefall causes a fire to erupt into a geyser of dazzlingly bright liquid flame. The spell uses one fire source, which is immediately extinguished. A fire larger than a 20-foot cube is only partly extinguished. Magical fires are not extinguished, but a creature of the fire subtype used as the source takes 1 point of damage per caster level (no Saving Throw). The coruscating rain of fire fills a hemispherical burst with a radius of 60 feet. All creatures and objects in the area take 5d6 points of fire damage and catch on fire. Creatures who make successful Reflex saves take half damage and don\u2019t catch on fire. Creatures within 120 feet of the original fire source are blinded for 1d4+1 rounds ( Will negates). Section 15: Copyright Notice Advanced Player\u2019s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+    }
+  }
+}

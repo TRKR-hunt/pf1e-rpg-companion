@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "celestial_healing__crb_",
+    "name": {
+      "value": "Celestial Healing"
+    },
+    "source": {
+      "value": "arcane_anthology"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "cleric",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M (1 drop of blood from a good outsider or 1 dose of holy water )"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 round/2 levels"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "You anoint a wounded creature with the blood of an outsider with the good subtype (such as an angel ) or holy water, giving it fast healing 1. The target radiates the aura of a good creature for the duration of the spell and can sense the righteousness of the magic, though this has no long-term effect on the target\u00e2\u0080\u0099s alignment. If the target has its own evil aura, this is not suppressed by celestial healing, and can also be detected normally. Celestial Healing, Greater As per celestial healing, except the target gains fast healing 4 and the target radiates the aura of a good cleric. Section 15: Copyright Notice Pathfinder Player Companion: Arcane Anthology \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ward_shield__crb_",
+    "name": {
+      "value": "Ward Shield"
+    },
+    "source": {
+      "value": "knights_of_the_inner_sea"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "inquisitor",
+        "magus",
+        "oracle",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": {
+      "value": "shield touched"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless)"
+    },
+    "description": {
+      "value": "With a touch, you enchant a shield and enable it to protect its wielder from hostile spells. The shield grants spell resistance 10 + your caster level against spells so long as the shield can be interposed between the wielder and the spell effect. A spell shield does not provide spell resistance against area effect spells such as fireball, but does provide a +5 bonus on Reflex saving throws against such spells. Section 15: Copyright Notice Pathfinder Player Companion: Knights of the Inner Sea \u00c2\u00a9 2012, Paizo Publishing, LLC; Authors: Gareth Hanrahan, Steve Kenson, Patrick Renie, Tork Shaw, and Jerome Virnich."
+    }
+  }
+}

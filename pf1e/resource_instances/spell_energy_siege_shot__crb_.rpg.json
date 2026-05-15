@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "energy_siege_shot__crb_",
+    "name": {
+      "value": "Energy Siege Shot"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "occultist",
+        "sorcerer",
+        "summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "10 minutes Component V, S, M (a ball of pitch)"
+    },
+    "components": {
+      "value": ""
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels) close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one Large siege engine one siege engine of any size"
+    },
+    "duration": {
+      "value": "10 minute/level"
+    },
+    "saving_throw": {
+      "value": "Fort negates (harmless, object)"
+    },
+    "spell_resistance": {
+      "value": "yes (harmless, object)"
+    },
+    "description": {
+      "value": "This spell transforms any ammunition fired by the target ranged siege engine into ammunition made of pure energy. When casting the spell, the caster picks a one of the following energy types: acid, cold, electricity, fire, sonic, or force. The ammunition within the siege engine now deals that type of energy damage on a hit, though the amount of damage dealt by the ammunition does not change, nor does it change any of the other effects of the ammunition. Unlike other forms of energy damage, this energy damage does full damage to objects. Based on the type of energy the caster chose while casting, the ammunition also gains one of the following effects. Acid: The ammunition deals half its damage in a splash to all creatures and unattended objects within 15 feet of the target hit by the siege engine. Creatures can halve the splash damage with a Reflex saving throw. The DC of the splash is the same as the DC of the spell. Cold: The ammunition creates an ice sheen within a 20-foot-radius burst around the target of the siege engine\u00e2\u0080\u0099s attack. That sheen lasts 1d6 rounds. Creatures within the ice sheen are entangled. Any creature within the area of the ice sheen at the start of its turn takes 2d6 cold damage. Electricity: Creatures hit by the siege engine attack or within 15 feet of the attack are staggered for 1 round. Fire: Creatures and wood objects within 15 feet of the attack may catch on fire. Sonic: Creatures hit by the attack or within 20 feet of the attack must succeed at a Fortitude saving throw or be deafened for one hour. The DC of this effect is the same as the spell DC. Force: No extra effect. Energy Siege Shot, Greater This spell functions like energy siege shot, except it can target siege engines of any size, not just Large siege engines. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

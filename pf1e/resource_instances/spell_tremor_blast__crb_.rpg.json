@@ -1,0 +1,53 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "tremor_blast__crb_",
+    "name": {
+      "value": "Tremor Blast"
+    },
+    "source": {
+      "value": "isg"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "bloodrager",
+        "cleric",
+        "inquisitor",
+        "oracle",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "cone-shaped burst"
+    },
+    "duration": {
+      "value": "instantaneous"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You create a minor earthquake that can trip creatures. Attempt a single combat maneuver check and apply the result against the CMD of every creature in the area. If your roll equals or exceeds a creature\u2019s CMD, that creature is knocked prone. This trip attack does not provoke an attack of opportunity (though you do provoke one for casting the spell), nor are you knocked prone if you fail the check by 10 or more. Unlike with a regular trip attack, you can trip any creature touching the ground, regardless of size. Improved Trip does not affect this spell in any way. Though the earthquake is small and focused on the ground, if the area is particularly unstable, the spell might cause items to topple, stones to shake loose from the walls or ceiling, and so on at the GM\u2019s discretion. Section 15: Copyright Notice Pathfinder Campaign Setting: Inner Sea Gods \u00c2\u00a9 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
+    }
+  }
+}

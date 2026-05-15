@@ -1,0 +1,50 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "bloodsworn_retribution__crb_",
+    "name": {
+      "value": "Bloodsworn Retribution"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "cleric",
+        "oracle",
+        "paladin",
+        "ranger"
+      ]
+    },
+    "casting_time": {
+      "value": "1 round"
+    },
+    "components": {
+      "value": "V, S, M (your blood)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "special (see text)"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "When you cast this spell, you cut yourself and swear an oath of retribution on your own blood. You decide how much damage you want to take from this attack, up to 25 points. This damage cannot be healed for as long as the spell is in effect. Anytime you perform an attack, save, or check that is directly related to the oath and brings you closer to the fulfillment of that oath, you gain a morale bonus to that roll equal to the number of hit points of damage you took from the oath divided by 5. The GM is the final arbiter over whether or not an action qualifies for this bonus. When you fulfill the oath (or choose to forsake it), the spell ends, and the lost hit points can be healed as normal. Section 15: Copyright Notice Pathfinder Companion: Dwarves of Golarion. Copyright 2009, Paizo Publishing, LLC; Authors: David A. Eitelbach, Russ Taylor, JD Wiker, Keri Wiker, and Hank Woon."
+    }
+  }
+}

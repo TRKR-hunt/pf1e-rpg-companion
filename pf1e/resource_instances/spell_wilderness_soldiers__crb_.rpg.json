@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "wilderness_soldiers__crb_",
+    "name": {
+      "value": "Wilderness Soldiers"
+    },
+    "source": {
+      "value": "uc"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "ranger"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "30 ft."
+    },
+    "area": {
+      "value": "30-ft.-radius emanation, centered on you"
+    },
+    "duration": {
+      "value": "1 round/level"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You call on the plants nearby to aid you in combat. This spell is ineffective if no plants you can direct are within the area. You can spend a swift action and/or a standard action on each of your turns to direct one of the following attacks. The attack bonus or CMB for these attacks equals your base attack bonus + your Wisdom modifier. You grant a +1 bonus per three caster levels (maximum +5) on damage rolls due to this spell. Your wilderness soldiers never provoke attacks of opportunity, and they do not count as allies for flanking or other purposes. Tree: A tree makes a melee attack with a 10-foot reach from its trunk. A hit deals an amount of damage equal to 1d8 points + your Wisdom modifier. The tree can instead attempt a bull rush, drag, or reposition combat maneuver with the same reach, but the tree cannot move itself. Undergrowth or Hedgerow: Acting as a Medium creature, one square of undergrowth or hedgerow attempts a grapple combat maneuver against an opponent within or adjacent to that square. Heavy undergrowth gains a +2 bonus to its CMD. Undergrowth cannot move the grapple or pin a foe, but it can deal an amount of damage equal to 1d4 points + your Wisdom modifier by making a successful grapple check against a foe it is grappling. The undergrowth\u00e2\u0080\u0099s CMD is 5 + its CMB. If you fail to direct the undergrowth to maintain the grapple, it releases its opponent. Section 15: Copyright Notice Pathfinder Roleplaying Game Ultimate Combat. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

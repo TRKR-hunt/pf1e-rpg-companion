@@ -1,0 +1,51 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "ice_crystal_teleport__crb_",
+    "name": {
+      "value": "Ice Crystal Teleport"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_5"
+    },
+    "school": {
+      "value": "conjuration"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V"
+    },
+    "range": {
+      "value": "long (400 ft. + 40 ft./level)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1d4 rounds and instantaneous"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "This spell functions as teleport, except you use it to teleport yourself or one other creature to a safe location you specify (the target can bring along objects as long as their weight doesn\u00e2\u0080\u0099t exceed the target\u00e2\u0080\u0099s heavy load). You can only send the target to a location with which you are very familiar. The target is first trapped in ice ( hardness 0, 3 hit points per inch of thickness, 1 inch thick per caster level ) for 1d4 rounds, during which time it is paralyzed, aware but unable to take any physical actions, and begins to fade away as the teleportation aspect takes effect. At the end of the 1d4 rounds, the target teleports to the specified location, and the ice\u00e2\u0080\u0099s hit points drop to 0 and it quickly melts away. If the ice is destroyed before the target teleports, the spell ends and the teleport doesn\u00e2\u0080\u0099t occur. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic. \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+    }
+  }
+}

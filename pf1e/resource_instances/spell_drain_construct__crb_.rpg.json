@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "drain_construct__crb_",
+    "name": {
+      "value": "Drain Construct"
+    },
+    "source": {
+      "value": "people_of_the_wastes"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "one construct"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates"
+    },
+    "spell_resistance": {
+      "value": "no"
+    },
+    "description": {
+      "value": "You weaken a target construct, temporarily sapping its animating force and limiting its normal functionality. If the construct fails its saving throw, for the duration of this spell, it loses any damage reduction and fast healing it had and its base speed is reduced by half. Additionally, the construct takes a \u00e2\u0080\u00934 penalty to Strength while this spell is in effect. This penalty increases by 2 for every 3 caster levels beyond 3rd (maximum \u00e2\u0080\u009314). If the construct is normally immune to magic, this spell\u00e2\u0080\u0099s sapping effect is less penetrating and the construct receives a +4 bonus on its saving throw. Section 15: Copyright Notice Pathfinder Player Companion: People of the Wastes \u00c2\u00a9 2017, Paizo Inc.; Authors: Logan Bonner, John Compton, Nathan King, Luis Loza, Christopher Wasko, and Linda Zayas-Palmer."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "masochistic_shadow__crb_",
+    "name": {
+      "value": "Masochistic Shadow"
+    },
+    "source": {
+      "value": "blood_of_shadows"
+    },
+    "level": {
+      "value": "spell_level_4"
+    },
+    "school": {
+      "value": "necromancy"
+    },
+    "classes": {
+      "value": [
+        "antipaladin",
+        "bloodrager",
+        "magus",
+        "occultist",
+        "shaman",
+        "sorcerer",
+        "witch",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S"
+    },
+    "range": {
+      "value": "close (25 ft. + 5 ft./level)"
+    },
+    "area": {
+      "value": "one creature"
+    },
+    "duration": {
+      "value": "1 round/level (D)"
+    },
+    "saving_throw": {
+      "value": "Will negates, then Reflex partial; see text"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "You animate the target\u2019s shadow with semi-living energies drawn from the Shadow Plane, instilling a maddening hunger for its owner\u2019s life energy within it. If the target fails its Will save, it takes 1d4 points of Strength damage as a quasi-real shadow manifests in its space and attacks it. This shadow remains attached to the target and moves wherever the target moves. At the start of each subsequent round, the target must succeed at a Reflex save or take 1d4 additional points of Strength damage; a successful save reduces the Strength damage to 1 point. If its Strength score is reduced to 0 by this spell\u2019s effects, the target dies. If the target is in bright light, it gains a +2 bonus on Reflex saves against this spell. If the target is in darkness, it takes a \u00e2\u0080\u00932 penalty on Reflex saves against this spell. Section 15: Copyright Notice Pathfinder Player Companion: Blood of Shadows \u00c2\u00a9 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+    }
+  }
+}

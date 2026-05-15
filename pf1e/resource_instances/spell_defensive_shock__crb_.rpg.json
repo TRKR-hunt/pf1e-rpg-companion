@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "defensive_shock__crb_",
+    "name": {
+      "value": "Defensive Shock"
+    },
+    "source": {
+      "value": "um"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "magus",
+        "occultist",
+        "sorcerer",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M (a hollow metal sphere)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 minute/level or until discharged"
+    },
+    "saving_throw": {
+      "value": ""
+    },
+    "spell_resistance": {
+      "value": "it applies against this damage. Each time the spell discharges, the number of damage dice it deals is halved (rounded down); when the spell\u00e2\u0080\u0099s damage dice reach 0, the spell ends. Section 15: Copyright Notice Pathfinder Roleplaying Game: Ultimate Magic . \u00c2\u00a9 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor"
+    },
+    "description": {
+      "value": "Electrical energy floods your body, shocking the next creature that touches you. Any creature striking you with its body or a handheld weapon takes 1d6 points of electricity damage per two caster levels (maximum 6d6). If the attacker has"
+    }
+  }
+}

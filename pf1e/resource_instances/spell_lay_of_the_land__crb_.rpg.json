@@ -1,0 +1,52 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "lay_of_the_land__crb_",
+    "name": {
+      "value": "Lay of the Land"
+    },
+    "source": {
+      "value": "faiths_philosophies"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "divination"
+    },
+    "classes": {
+      "value": [
+        "bard",
+        "cleric",
+        "druid",
+        "oracle",
+        "ranger",
+        "witch"
+      ]
+    },
+    "casting_time": {
+      "value": "1 minute"
+    },
+    "components": {
+      "value": "V, S, M (a piece of soil from the land to be memorized)"
+    },
+    "range": {
+      "value": "personal"
+    },
+    "area": {
+      "value": "you"
+    },
+    "duration": {
+      "value": "1 day"
+    },
+    "saving_throw": {
+      "value": "none"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "In a flash of recognition, you learn about the geography of your surroundings within a radius of 1 mile per 2 caster levels (minimum 1 mile). This instant familiarity grants you an insight bonus equal to your caster level (maximum +5) on Knowledge (geography) checks and Survival checks to avoid getting lost so long as you remain in the affected area. Additionally, for the duration of the spell you can make Knowledge (geography) checks regarding the affected area as though you were trained in that skill. Section 15: Copyright Notice Pathfinder Player Companion: Faiths & Philosophies \u00c2\u00a9 2013, Paizo Publishing, LLC; Authors: Savannah Broadway, Paris Crenshaw, Neall Raemonn Price, David Ross, Owen K. C. Stephens, and James L. Sutter."
+    }
+  }
+}

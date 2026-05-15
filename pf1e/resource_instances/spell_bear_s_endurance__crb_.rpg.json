@@ -1,0 +1,60 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "bear_s_endurance__crb_",
+    "name": {
+      "value": "Bear\u2019s Endurance"
+    },
+    "source": {
+      "value": "unknown"
+    },
+    "level": {
+      "value": "spell_level_2"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "alchemist",
+        "bloodrager",
+        "cleric",
+        "druid",
+        "magus",
+        "medium",
+        "oracle",
+        "psychic",
+        "ranger",
+        "shaman",
+        "sorcerer",
+        "summoner",
+        "unchained_summoner",
+        "wizard"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, M/DF (a few hairs, or a pinch of dung, from a bear)"
+    },
+    "range": {
+      "value": "touch close (25 ft. + 5 ft./2 levels)"
+    },
+    "area": {
+      "value": "creature touched"
+    },
+    "duration": {
+      "value": "1 min./level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth. Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subject\u2019s Constitution drops back to normal. They are not lost first as temporary hit points are. Bear\u2019s Endurance, Mass Mass bear\u2019s endurance works like bear\u2019s endurance, except that it affects multiple creatures."
+    }
+  }
+}

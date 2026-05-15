@@ -1,0 +1,48 @@
+{
+  "resource_id": "spell",
+  "stats": {
+    "id": "acid_maw__crb_",
+    "name": {
+      "value": "Acid Maw"
+    },
+    "source": {
+      "value": "advanced_class_origins"
+    },
+    "level": {
+      "value": "spell_level_1"
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "classes": {
+      "value": [
+        "druid",
+        "ranger"
+      ]
+    },
+    "casting_time": {
+      "value": "1 standard action"
+    },
+    "components": {
+      "value": "V, S, DF"
+    },
+    "range": {
+      "value": "close (25 ft. + 2 ft./level)"
+    },
+    "area": {
+      "value": "your animal companion"
+    },
+    "duration": {
+      "value": "1 minute/level"
+    },
+    "saving_throw": {
+      "value": "Will negates (harmless)"
+    },
+    "spell_resistance": {
+      "value": "yes"
+    },
+    "description": {
+      "value": "Your animal companion\u2019s bite attack deals an additional 1d4 points of acid damage, and the acid deals another 1d4 points of acid damage to the target on the next round. The acid continues to deal damage for 1 additional round per 4 caster levels (to a maximum of 6 total rounds at caster level 20th). This ongoing acid damage doesn\u2019t stack from multiple attacks, but the duration resets if a newer bite would cause the ongoing damage to last longer than the duration remaining from a previous one. The acid does not harm the animal companion. Section 15: Copyright Notice Pathfinder Player Companion: Advanced Class Origins \u00c2\u00a9 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Tom Phillips, Stephen Radney-MacFarland, and Owen K.C. Stephens. Book of Magic: Spell Codex Volume 1. \u00c2\u00a9 2022, Jon Brazer Enterprises"
+    }
+  }
+}

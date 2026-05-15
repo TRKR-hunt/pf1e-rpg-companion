@@ -233,13 +233,38 @@ def _auto_derive_source(canonical: str) -> tuple[str, str]:
     return id_slug, abbr
 
 
+def _fuzzy_key(name: str) -> str:
+    """Normalize a book name to a comparison-friendly form: lowercase,
+    drop colons + extra whitespace + trailing punctuation. Used so
+    'Pathfinder Roleplaying Game Advanced Race Guide' matches the
+    KNOWN_SOURCES key 'Pathfinder Roleplaying Game: Advanced Race
+    Guide' (d20pfsrd's Section 15 sometimes elides the colon)."""
+    n = name.lower()
+    n = n.replace(":", "")
+    n = re.sub(r"\s+", " ", n).strip(" .,;")
+    return n
+
+
+# Pre-built fuzzy index of KNOWN_SOURCES for O(1) lookup at scrape time.
+_KNOWN_SOURCES_FUZZY: dict[str, tuple[str, str]] = {}
+
+
+def _ensure_fuzzy_index() -> None:
+    if _KNOWN_SOURCES_FUZZY:
+        return
+    for canonical, (sid, abbr) in KNOWN_SOURCES.items():
+        _KNOWN_SOURCES_FUZZY[_fuzzy_key(canonical)] = (sid, abbr)
+
+
 def extract_section_15_source(html: str) -> tuple[str, str | None]:
     """Parse a d20pfsrd page; return (source_id, raw_book_name_or_None).
 
     Looks for the Section 15 OGL footer's book attribution. Maps known books
-    to their canonical ids. For unknown books, derives an id from the name
-    and records the raw string for later review. Pages without a Section 15
-    footer return (UNKNOWN_SOURCE_ID, None)."""
+    to their canonical ids via fuzzy comparison (colon-insensitive). For
+    unknown books, derives an id from the name and records the raw string
+    for later review. Pages without a Section 15 footer return
+    (UNKNOWN_SOURCE_ID, None)."""
+    _ensure_fuzzy_index()
     from bs4 import BeautifulSoup  # imported here so HTTP path doesn't need bs4
     soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ", strip=True)
@@ -258,8 +283,10 @@ def extract_section_15_source(html: str) -> tuple[str, str | None]:
     if not canonical:
         unknown_sources[raw[:80]] = unknown_sources.get(raw[:80], 0) + 1
         return (UNKNOWN_SOURCE_ID, raw)
-    if canonical in KNOWN_SOURCES:
-        sid, _ = KNOWN_SOURCES[canonical]
+    # Fuzzy match against KNOWN_SOURCES (colon-insensitive).
+    fuzzy = _fuzzy_key(canonical)
+    if fuzzy in _KNOWN_SOURCES_FUZZY:
+        sid, _ = _KNOWN_SOURCES_FUZZY[fuzzy]
         seen_sources[sid] = seen_sources.get(sid, 0) + 1
         return (sid, canonical)
     # Unknown but parsed — auto-derive an id.
