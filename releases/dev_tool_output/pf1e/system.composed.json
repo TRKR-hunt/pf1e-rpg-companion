@@ -5962,6 +5962,40 @@
           },
           {
             "type": "text",
+            "id": "avatar_deity",
+            "margin_left": 48,
+            "margin_right": 48,
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Deity: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "deity"
+                  }
+                ]
+              }
+            },
+            "style": "caption",
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "deity"
+                }
+              }
+            }
+          },
+          {
+            "type": "text",
             "id": "avatar_description",
             "margin_bottom": 8,
             "margin_left": 32,

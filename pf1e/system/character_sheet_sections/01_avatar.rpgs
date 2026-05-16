@@ -28,6 +28,14 @@ character_sheet_section avatar() =
         style = "headline",
       ),
       text(
+        id = "avatar_deity",
+        margin_left = 48,
+        margin_right = 48,
+        text = concat(["Deity: ", deity]),
+        style = "caption",
+        is_visible = !isEmpty(deity),
+      ),
+      text(
         id = "avatar_description",
         margin_bottom = 8,
         margin_left = 32,
