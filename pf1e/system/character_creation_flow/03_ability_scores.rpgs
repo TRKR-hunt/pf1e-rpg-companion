@@ -1,15 +1,10 @@
 // PF1e creation step 3: Ability scores.
-// PF1e supports multiple generation methods; we don't try to enforce one in
-// the UI because `ability_score_mode` isn't a tracked stat in
-// character_stats.rpgs. Instead, this page lets the user type in their final
-// "base" score (before racial mod) for each ability, and shows the running
-// 15-point-buy cost as advisory help.
-//
-// Cost table for raw scores 7..18:
-//   7=-4  8=-2  9=-1  10=0  11=+1  12=+2  13=+3  14=+5  15=+7
-//   16=+10  17=+13  18=+17
-// Standard fantasy = 15 points. Use rolled (4d6 drop low) or the elite array
-// (15,14,13,12,10,8) and ignore the cost line if your group prefers those.
+// The method dropdown (ability_score_methods enum) selects how scores are
+// generated. Point-buy variants enforce a 15/20/25 budget live against the
+// six *base* (pre-racial) scores. Rolled variants expose a Roll button that
+// populates the bases (4d6 drop lowest / 3d6 / 2d6+6); the user can then
+// reassign by editing the boxes. Custom = unconstrained free entry. Racial
+// modifiers apply downstream automatically (final-scores line shows them).
 character_creation_page edit_ability_scores_title() =
   characterCreationPage(
     title = displayableData(id = "edit_ability_scores_title", name = "Ability scores"),
@@ -19,20 +14,54 @@ character_creation_page edit_ability_scores_title() =
       subviews = [
         text(
           id = "edit_character_ability_scores_subheader",
-          text = "Set your six ability scores. Default is 15-point buy.",
+          text = "Choose a generation method, then set your six ability scores (before racial modifiers).",
           style = "subhead",
+        ),
+        composite(
+          id = "edit_character_ability_scores_method_composite",
+          margin_top = 12,
+          subviews = [
+            text(
+              id = "edit_character_ability_scores_method_label",
+              text = "Method:",
+              style = "text",
+              bold = true,
+              margin_right = 8,
+            ),
+            select(
+              id = "edit_character_ability_scores_method_select",
+              stat = "ability_score_method",
+              options = "ability_score_methods",
+            ),
+          ],
         ),
         text(
           id = "edit_character_ability_scores_help_pointbuy",
-          text = "Point buy costs (per ability): 7=-4, 8=-2, 9=-1, 10=0, 11=+1, 12=+2, 13=+3, 14=+5, 15=+7, 16=+10, 17=+13, 18=+17. Standard fantasy = 15 points total.",
+          text = "Point buy costs (per ability): 7=-4, 8=-2, 9=-1, 10=0, 11=+1, 12=+2, 13=+3, 14=+5, 15=+7, 16=+10, 17=+13, 18=+17. Spend up to your budget; legal base range is 7-18.",
           style = "caption",
-          margin_top = 4,
+          margin_top = 8,
+          is_visible = ability_method_is_point_buy,
         ),
         text(
           id = "edit_character_ability_scores_help_rolled",
-          text = "Alternative: roll 4d6, drop lowest, six times; assign as desired. Or use the elite array (15,14,13,12,10,8).",
+          text = "Tap Roll to generate six scores with the chosen method. You can then edit the boxes to assign each roll to the ability you want.",
           style = "caption",
-          margin_top = 4,
+          margin_top = 8,
+          is_visible = ability_method_is_rolled,
+        ),
+        button(
+          id = "edit_character_ability_scores_roll_button",
+          text = "ROLL ABILITY SCORES",
+          event = event(name = "roll_ability_scores"),
+          margin_top = 8,
+          is_visible = ability_method_is_rolled,
+        ),
+        text(
+          id = "edit_character_ability_scores_help_custom",
+          text = "Custom: enter any values you and your GM agree on. No budget is enforced.",
+          style = "caption",
+          margin_top = 8,
+          is_visible = ability_score_method == "custom",
         ),
         composite(
           id = "edit_character_ability_scores_inputs",
@@ -48,6 +77,9 @@ character_creation_page edit_ability_scores_title() =
               signed = false,
               hint = "10",
               label = "STR",
+              validation_message = if (ability_method_is_point_buy && ability_points_remaining < 0)
+                then concat(["Over budget by ", (ability_point_buy_total - ability_point_buy_budget), " point(s). Reduce a score."])
+                else null,
             ),
             text(
               id = "edit_character_ability_scores_dex",
@@ -100,6 +132,25 @@ character_creation_page edit_ability_scores_title() =
               label = "CHA",
             ),
           ],
+        ),
+        text(
+          id = "edit_character_ability_scores_pointbuy_status",
+          text = concat([
+            "Points spent: ", ability_point_buy_total,
+            " / ", ability_point_buy_budget,
+            "  (", ability_points_remaining, " remaining)",
+          ]),
+          style = "text",
+          bold = true,
+          margin_top = 12,
+          is_visible = ability_method_is_point_buy,
+        ),
+        text(
+          id = "edit_character_ability_scores_pointbuy_over",
+          text = "Over budget — reduce one or more scores.",
+          style = "caption",
+          margin_top = 4,
+          is_visible = ability_method_is_point_buy && (ability_points_remaining < 0),
         ),
         text(
           id = "edit_character_ability_scores_totals_header",

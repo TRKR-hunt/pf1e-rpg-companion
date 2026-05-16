@@ -1,0 +1,67 @@
+// B.0 Task 4 — rolled ability-score generation.
+// Fires from the "Roll ability scores" button on creation page 3, visible
+// only when ability_score_method is a rolled variant. Rolls the six base
+// scores in STR..CHA order; the user can then reassign by editing the
+// (free-entry) score boxes. Formula per method:
+//   roll_4d6_drop_lowest -> 4d6kh3 (keep highest 3 = drop lowest)
+//   roll_3d6             -> 3d6
+//   roll_2d6_plus_6      -> 2d6+6
+mechanic roll_ability_scores(event_names = "roll_ability_scores") =
+  sequence(
+    effects = [
+      setStat(
+        stat = "strength_score_base",
+        new_value = roll(formula = when {
+          ability_score_method == "roll_4d6_drop_lowest" -> "4d6kh3",
+          ability_score_method == "roll_2d6_plus_6" -> "2d6+6",
+          else -> "3d6",
+        }),
+        aggregation_type = "set",
+      ),
+      setStat(
+        stat = "dexterity_score_base",
+        new_value = roll(formula = when {
+          ability_score_method == "roll_4d6_drop_lowest" -> "4d6kh3",
+          ability_score_method == "roll_2d6_plus_6" -> "2d6+6",
+          else -> "3d6",
+        }),
+        aggregation_type = "set",
+      ),
+      setStat(
+        stat = "constitution_score_base",
+        new_value = roll(formula = when {
+          ability_score_method == "roll_4d6_drop_lowest" -> "4d6kh3",
+          ability_score_method == "roll_2d6_plus_6" -> "2d6+6",
+          else -> "3d6",
+        }),
+        aggregation_type = "set",
+      ),
+      setStat(
+        stat = "intelligence_score_base",
+        new_value = roll(formula = when {
+          ability_score_method == "roll_4d6_drop_lowest" -> "4d6kh3",
+          ability_score_method == "roll_2d6_plus_6" -> "2d6+6",
+          else -> "3d6",
+        }),
+        aggregation_type = "set",
+      ),
+      setStat(
+        stat = "wisdom_score_base",
+        new_value = roll(formula = when {
+          ability_score_method == "roll_4d6_drop_lowest" -> "4d6kh3",
+          ability_score_method == "roll_2d6_plus_6" -> "2d6+6",
+          else -> "3d6",
+        }),
+        aggregation_type = "set",
+      ),
+      setStat(
+        stat = "charisma_score_base",
+        new_value = roll(formula = when {
+          ability_score_method == "roll_4d6_drop_lowest" -> "4d6kh3",
+          ability_score_method == "roll_2d6_plus_6" -> "2d6+6",
+          else -> "3d6",
+        }),
+        aggregation_type = "set",
+      ),
+    ],
+  );
