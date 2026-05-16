@@ -50,6 +50,17 @@
     "padding": 16,
     "subviews": [
      {
+      "id": "level_up_pick_hdr",
+      "type": "text",
+      "text": {
+       "type": "constant",
+       "value": "Level Up",
+       "value_type": "string"
+      },
+      "style": "title",
+      "bold": true
+     },
+     {
       "id": "level_up_as_comp",
       "type": "composite",
       "subviews": [
@@ -92,7 +103,16 @@
         "components": [
          {
           "type": "constant",
-          "value": "Advancing from level ",
+          "value": "Leveling ",
+          "value_type": "string"
+         },
+         {
+          "type": "stat",
+          "stat": "level_up_selected_class_name"
+         },
+         {
+          "type": "constant",
+          "value": ": level ",
           "value_type": "string"
          },
          {
@@ -101,28 +121,23 @@
          },
          {
           "type": "constant",
-          "value": " to ",
+          "value": "  ->  ",
           "value_type": "string"
          },
          {
           "type": "stat",
           "stat": "level_up_new_level"
-         },
-         {
-          "type": "constant",
-          "value": ".",
-          "value_type": "string"
          }
         ]
        }
       },
-      "style": "text",
+      "style": "title",
+      "bold": true,
+      "margin_top": 14,
       "is_visible": {
        "type": "stat",
        "stat": "level_up_class_selected"
-      },
-      "bold": true,
-      "margin_top": 12
+      }
      },
      {
       "id": "level_up_hp_gain",
@@ -134,7 +149,7 @@
         "components": [
          {
           "type": "constant",
-          "value": "Hit points gained: ",
+          "value": "Hit points gained: +",
           "value_type": "string"
          },
          {
@@ -143,7 +158,7 @@
          },
          {
           "type": "constant",
-          "value": "  (class HD by ",
+          "value": "   (class HD by ",
           "value_type": "string"
          },
          {
@@ -159,11 +174,11 @@
        }
       },
       "style": "text",
+      "margin_top": 8,
       "is_visible": {
        "type": "stat",
        "stat": "level_up_class_selected"
-      },
-      "margin_top": 8
+      }
      },
      {
       "id": "level_up_skill_points",
@@ -175,7 +190,7 @@
         "components": [
          {
           "type": "constant",
-          "value": "Skill ranks gained: ",
+          "value": "Skill ranks gained: +",
           "value_type": "string"
          },
          {
@@ -184,21 +199,21 @@
          },
          {
           "type": "constant",
-          "value": "  (class ranks/level + INT mod, min 1, + favored)",
+          "value": "   (class ranks + INT mod, min 1, + favored)",
           "value_type": "string"
          }
         ]
        }
       },
       "style": "text",
+      "margin_top": 6,
       "is_visible": {
        "type": "stat",
        "stat": "level_up_class_selected"
-      },
-      "margin_top": 6
+      }
      },
      {
-      "id": "level_up_bab_saves",
+      "id": "level_up_bab_preview",
       "type": "text",
       "text": {
        "type": "concat",
@@ -207,7 +222,7 @@
         "components": [
          {
           "type": "constant",
-          "value": "New BAB +",
+          "value": "Base Attack Bonus: +",
           "value_type": "string"
          },
          {
@@ -216,7 +231,48 @@
          },
          {
           "type": "constant",
-          "value": "  |  Fort +",
+          "value": "  ->  +",
+          "value_type": "string"
+         },
+         {
+          "type": "stat",
+          "stat": "level_up_new_bab"
+         },
+         {
+          "type": "constant",
+          "value": "   (+",
+          "value_type": "string"
+         },
+         {
+          "type": "stat",
+          "stat": "level_up_bab_delta"
+         },
+         {
+          "type": "constant",
+          "value": " this level)",
+          "value_type": "string"
+         }
+        ]
+       }
+      },
+      "style": "text",
+      "margin_top": 6,
+      "is_visible": {
+       "type": "stat",
+       "stat": "level_up_class_selected"
+      }
+     },
+     {
+      "id": "level_up_saves_preview",
+      "type": "text",
+      "text": {
+       "type": "concat",
+       "components": {
+        "type": "list",
+        "components": [
+         {
+          "type": "constant",
+          "value": "Saves  Fort +",
           "value_type": "string"
          },
          {
@@ -225,7 +281,16 @@
          },
          {
           "type": "constant",
-          "value": " / Ref +",
+          "value": "->+",
+          "value_type": "string"
+         },
+         {
+          "type": "stat",
+          "stat": "level_up_new_fort"
+         },
+         {
+          "type": "constant",
+          "value": "   Ref +",
           "value_type": "string"
          },
          {
@@ -234,7 +299,16 @@
          },
          {
           "type": "constant",
-          "value": " / Will +",
+          "value": "->+",
+          "value_type": "string"
+         },
+         {
+          "type": "stat",
+          "stat": "level_up_new_ref"
+         },
+         {
+          "type": "constant",
+          "value": "   Will +",
           "value_type": "string"
          },
          {
@@ -243,18 +317,110 @@
          },
          {
           "type": "constant",
-          "value": "  (auto-recomputed on confirm)",
+          "value": "->+",
           "value_type": "string"
+         },
+         {
+          "type": "stat",
+          "stat": "level_up_new_will"
+         }
+        ]
+       }
+      },
+      "style": "text",
+      "margin_top": 6,
+      "is_visible": {
+       "type": "stat",
+       "stat": "level_up_class_selected"
+      }
+     },
+     {
+      "id": "level_up_asi_prompt",
+      "type": "text",
+      "text": {
+       "type": "concat",
+       "components": {
+        "type": "list",
+        "components": [
+         {
+          "type": "constant",
+          "value": "Ability Score Increase (levels 4/8/12/16/20): raise one ability +1.  Currently: ",
+          "value_type": "string"
+         },
+         {
+          "type": "stat",
+          "stat": "level_up_asi_display"
          }
         ]
        }
       },
       "style": "caption",
+      "margin_top": 10,
+      "is_visible": {
+       "type": "stat",
+       "stat": "level_up_is_asi_level"
+      }
+     },
+     {
+      "id": "level_up_feat_reminder",
+      "type": "text",
+      "text": {
+       "type": "constant",
+       "value": "Feat: you gain a feat this level (odd character levels). Add it from Features & Feats after confirming.",
+       "value_type": "string"
+      },
+      "style": "caption",
+      "margin_top": 8,
+      "is_visible": {
+       "type": "stat",
+       "stat": "level_up_is_feat_level"
+      }
+     },
+     {
+      "id": "level_up_caster_reminder",
+      "type": "text",
+      "text": {
+       "type": "constant",
+       "value": "Spellcaster: your spells per day / spells known advance — manage them in the Spells section.",
+       "value_type": "string"
+      },
+      "style": "caption",
+      "margin_top": 8,
+      "is_visible": {
+       "type": "stat",
+       "stat": "level_up_is_caster"
+      }
+     },
+     {
+      "id": "level_up_features_note",
+      "type": "text",
+      "text": {
+       "type": "constant",
+       "value": "New class features for the new level appear under Features & Feats after you confirm.",
+       "value_type": "string"
+      },
+      "style": "caption",
+      "margin_top": 8,
       "is_visible": {
        "type": "stat",
        "stat": "level_up_class_selected"
+      }
+     },
+     {
+      "id": "level_up_choices_hdr",
+      "type": "text",
+      "text": {
+       "type": "constant",
+       "value": "Your choices",
+       "value_type": "string"
       },
-      "margin_top": 6
+      "style": "subhead",
+      "bold": true,
+      "margin_top": 14,
+      "is_visible": {
+       "type": "stat",
+       "stat": "level_up_class_selected"
+      }
      },
      {
       "id": "level_up_favored_comp",
@@ -286,21 +452,6 @@
       ]
      },
      {
-      "id": "level_up_asi_prompt",
-      "type": "text",
-      "text": {
-       "type": "constant",
-       "value": "Ability Score Increase: at levels 4, 8, 12, 16, 20 raise one ability by +1. Pick it below; it is applied when you confirm.",
-       "value_type": "string"
-      },
-      "style": "caption",
-      "is_visible": {
-       "type": "stat",
-       "stat": "level_up_is_asi_level"
-      },
-      "margin_top": 14
-     },
-     {
       "id": "level_up_asi_comp",
       "type": "composite",
       "margin_top": 6,
@@ -330,45 +481,19 @@
       ]
      },
      {
-      "id": "level_up_feat_reminder",
+      "id": "level_up_confirm_hint",
       "type": "text",
       "text": {
        "type": "constant",
-       "value": "You gain a feat this level (odd character levels). Add it from the Features & Feats section on your sheet.",
+       "value": "Confirm to apply this level-up. Cancel to back out — nothing changes until you confirm.",
        "value_type": "string"
       },
       "style": "caption",
+      "margin_top": 14,
       "is_visible": {
        "type": "stat",
-       "stat": "level_up_is_feat_level"
-      },
-      "margin_top": 12
-     },
-     {
-      "id": "level_up_caster_reminder",
-      "type": "text",
-      "text": {
-       "type": "constant",
-       "value": "Spellcaster: your spells per day / spells known advance. Manage them in the Spells section.",
-       "value_type": "string"
-      },
-      "style": "caption",
-      "is_visible": {
-       "type": "stat",
-       "stat": "level_up_is_caster"
-      },
-      "margin_top": 8
-     },
-     {
-      "id": "level_up_features_note",
-      "type": "text",
-      "text": {
-       "type": "constant",
-       "value": "New class features for the new level appear under Features & Feats after you confirm.",
-       "value_type": "string"
-      },
-      "style": "caption",
-      "margin_top": 8
+       "stat": "level_up_class_selected"
+      }
      }
     ]
    },

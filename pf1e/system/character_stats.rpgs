@@ -1045,10 +1045,17 @@ calc integer level_up_class_per_level_hp(name = "HP for this class level (method
   }),
 };
 
+// B.0.6 — PREVIEW calcs read the LIVE select $view value
+// ($view.level_up_favored_select), per gotcha #13: the bound stat
+// temp_level_up_favored_choice is stale until on_level_up_confirm, so a
+// preview over it would not update live in the level-up popup. The
+// APPLY-side calcs (level_up_favored_is_hp, level_up_asi_is_*) below keep
+// reading the bound stat — by confirm time it is committed (that path is
+// device-verified working).
 calc integer level_up_favored_hp_bonus(name = "Favored class +1 HP") =
-  if temp_level_up_favored_choice == "hp" then 1 else 0;
+  if ($view.level_up_favored_select ?? "hp") == "hp" then 1 else 0;
 calc integer level_up_favored_skill_bonus(name = "Favored class +1 skill rank") =
-  if temp_level_up_favored_choice == "skill" then 1 else 0;
+  if ($view.level_up_favored_select ?? "hp") == "skill" then 1 else 0;
 
 calc integer level_up_hp_gain_preview(name = "HP gained this level") =
   level_up_class_per_level_hp + constitution_modifier + level_up_favored_hp_bonus;
@@ -1059,6 +1066,54 @@ calc integer level_up_skill_points_preview(name = "Skill ranks gained this level
 
 calc bool level_up_is_caster(name = "Selected level-up class is a caster") =
   !isEmpty(level_up_selected_class_progression?.class?.spellcasting_ability ?? "");
+
+// Live ASI target for the preview text (bound stat is stale in the popup).
+calc string level_up_asi_display(name = "Level-up ASI target (preview)") =
+  if isEmpty($view.level_up_asi_select ?? "") then "(none chosen)"
+  else ($view.level_up_asi_select ?? "");
+
+// --- B.0.6 BAB / save deltas for the preview ---
+// Predicted change from the selected class's NEXT level. L = that class's
+// current class_level; PF1e per-level deltas via floor arithmetic.
+calc integer level_up_sel_class_level(name = "Selected class current level") =
+  level_up_selected_class_progression?.class_level ?? 0;
+
+calc integer level_up_bab_delta(name = "BAB gained this level") = when {
+  (level_up_selected_class_progression?.class?.bab_progression ?? "half") == "full" -> 1,
+  (level_up_selected_class_progression?.class?.bab_progression ?? "half") == "three_quarters" ->
+    (divide([(3 * (level_up_sel_class_level + 1)), 4], rounding_method = "down")
+      - divide([(3 * level_up_sel_class_level), 4], rounding_method = "down")),
+  else ->
+    (divide([(level_up_sel_class_level + 1), 2], rounding_method = "down")
+      - divide([level_up_sel_class_level, 2], rounding_method = "down")),
+};
+
+calc integer level_up_fort_delta(name = "Fort base gained this level") =
+  if (level_up_selected_class_progression?.class?.fortitude_progression ?? "poor") == "good"
+    then (divide([(level_up_sel_class_level + 1), 2], rounding_method = "down")
+      - divide([level_up_sel_class_level, 2], rounding_method = "down"))
+    else (divide([(level_up_sel_class_level + 1), 3], rounding_method = "down")
+      - divide([level_up_sel_class_level, 3], rounding_method = "down"));
+calc integer level_up_ref_delta(name = "Ref base gained this level") =
+  if (level_up_selected_class_progression?.class?.reflex_progression ?? "poor") == "good"
+    then (divide([(level_up_sel_class_level + 1), 2], rounding_method = "down")
+      - divide([level_up_sel_class_level, 2], rounding_method = "down"))
+    else (divide([(level_up_sel_class_level + 1), 3], rounding_method = "down")
+      - divide([level_up_sel_class_level, 3], rounding_method = "down"));
+calc integer level_up_will_delta(name = "Will base gained this level") =
+  if (level_up_selected_class_progression?.class?.will_progression ?? "poor") == "good"
+    then (divide([(level_up_sel_class_level + 1), 2], rounding_method = "down")
+      - divide([level_up_sel_class_level, 2], rounding_method = "down"))
+    else (divide([(level_up_sel_class_level + 1), 3], rounding_method = "down")
+      - divide([level_up_sel_class_level, 3], rounding_method = "down"));
+
+calc string level_up_selected_class_name(name = "Selected level-up class name") =
+  level_up_selected_class_progression?.class?.name ?? "(choose a class)";
+
+calc integer level_up_new_bab(name = "BAB after level-up") = base_attack_bonus + level_up_bab_delta;
+calc integer level_up_new_fort(name = "Fort base after level-up") = fortitude_base + level_up_fort_delta;
+calc integer level_up_new_ref(name = "Ref base after level-up") = reflex_base + level_up_ref_delta;
+calc integer level_up_new_will(name = "Will base after level-up") = will_base + level_up_will_delta;
 
 // Single-stat condition flags so on_level_up_confirm (JSON) only needs the
 // proven {"type":"stat"} when-condition shape (no inline equality nodes).
