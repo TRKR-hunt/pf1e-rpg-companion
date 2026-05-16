@@ -1612,6 +1612,96 @@
                 ]
               }
             }
+          },
+          {
+            "type": "composite",
+            "id": "edit_character_class_hp_method_composite",
+            "margin_top": 16,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "classes"
+                }
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "edit_character_class_hp_method_label",
+                "text": {
+                  "type": "constant",
+                  "value": "HP per level:",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true,
+                "margin_right": 8
+              },
+              {
+                "type": "select",
+                "id": "edit_character_class_hp_method_select",
+                "stat": "hp_method",
+                "options": "hit_point_modes"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "edit_character_class_hp_method_help",
+            "text": {
+              "type": "constant",
+              "value": "Level 1 is always max hit die (PF1e rule). Beyond level 1: Max = full die, Average = half die + 1, Roll = rolled at level-up (shows the average until you roll).",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "margin_top": 4,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "classes"
+                }
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "edit_character_class_hp_preview",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Max HP: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_hp"
+                  }
+                ]
+              }
+            },
+            "style": "text",
+            "bold": true,
+            "margin_top": 8,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "classes"
+                }
+              }
+            }
           }
         ]
       }
@@ -10655,6 +10745,703 @@
       "name": "Nonlethal damage"
     },
     {
+      "id": "hp_method",
+      "type": "base",
+      "value_type": "string",
+      "default_value": "average",
+      "name": "HP method"
+    },
+    {
+      "id": "hp_method_per_level",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "add",
+        "components": {
+          "type": "map",
+          "components": {
+            "type": "stat",
+            "stat": "classes"
+          },
+          "map_value_key": "$c",
+          "mapper": {
+            "type": "multiply",
+            "components": {
+              "type": "list",
+              "components": [
+                {
+                  "type": "stat",
+                  "stat": "$c.class_level"
+                },
+                {
+                  "type": "when",
+                  "clauses": [
+                    {
+                      "condition": {
+                        "type": "equals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "hp_method"
+                            },
+                            {
+                              "type": "constant",
+                              "value": "max",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      "components": {
+                        "type": "when",
+                        "clauses": [
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d4",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 4,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d6",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 6,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d8",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 8,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d10",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 10,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d12",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 12,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d20",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 20,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "constant",
+                              "value_type": "bool",
+                              "value": true
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 8,
+                              "value_type": "integer"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "condition": {
+                        "type": "constant",
+                        "value_type": "bool",
+                        "value": true
+                      },
+                      "components": {
+                        "type": "when",
+                        "clauses": [
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d4",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 3,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d6",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 4,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d8",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 5,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d10",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 6,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d12",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 7,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "$c.class.hit_die"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "d20",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 11,
+                              "value_type": "integer"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "constant",
+                              "value_type": "bool",
+                              "value": true
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": 5,
+                              "value_type": "integer"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "name": "HP per level (method)"
+    },
+    {
+      "id": "hp_first_class_die",
+      "type": "calculated",
+      "value_type": "string",
+      "components": {
+        "type": "defaultIfNull",
+        "components": {
+          "type": "findFirst",
+          "components": {
+            "type": "map",
+            "components": {
+              "type": "stat",
+              "stat": "classes"
+            },
+            "map_value_key": "$c",
+            "mapper": {
+              "type": "stat",
+              "stat": "$c.class.hit_die"
+            }
+          },
+          "filter": {
+            "type": "constant",
+            "value": true,
+            "value_type": "bool"
+          }
+        },
+        "default_components": {
+          "type": "constant",
+          "value": "d8",
+          "value_type": "string"
+        }
+      },
+      "name": "First class hit die"
+    },
+    {
+      "id": "hp_first_level_bonus",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "isEmpty",
+              "components": {
+                "type": "stat",
+                "stat": "classes"
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          },
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hp_method"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "max",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "when",
+              "clauses": [
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "hp_first_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d4",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "hp_first_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d6",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 2,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "hp_first_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d8",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 3,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "hp_first_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d10",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 4,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "hp_first_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d12",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 5,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "hp_first_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d20",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 9,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "constant",
+                    "value_type": "bool",
+                    "value": true
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 3,
+                    "value_type": "integer"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "name": "HP first-level max bonus"
+    },
+    {
+      "id": "class_hp_total",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "greaterThan",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hp_rolled_total"
+                  },
+                  {
+                    "type": "constant",
+                    "value": 0,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "stat",
+              "stat": "hp_rolled_total"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "add",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hp_method_per_level"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "hp_first_level_bonus"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "name": "Class HP total"
+    },
+    {
       "id": "max_hp",
       "type": "calculated",
       "value_type": "integer",
@@ -10665,7 +11452,7 @@
           "components": [
             {
               "type": "stat",
-              "stat": "hp_rolled_total"
+              "stat": "class_hp_total"
             },
             {
               "type": "multiply",

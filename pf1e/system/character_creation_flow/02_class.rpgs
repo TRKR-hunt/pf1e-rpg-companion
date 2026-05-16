@@ -75,6 +75,40 @@ character_creation_page edit_class_title() =
           margin_top = 8,
           is_visible = length(classes) > 1,
         ),
+        composite(
+          id = "edit_character_class_hp_method_composite",
+          margin_top = 16,
+          is_visible = !isEmpty(classes),
+          subviews = [
+            text(
+              id = "edit_character_class_hp_method_label",
+              text = "HP per level:",
+              style = "text",
+              bold = true,
+              margin_right = 8,
+            ),
+            select(
+              id = "edit_character_class_hp_method_select",
+              stat = "hp_method",
+              options = "hit_point_modes",
+            ),
+          ],
+        ),
+        text(
+          id = "edit_character_class_hp_method_help",
+          text = "Level 1 is always max hit die (PF1e rule). Beyond level 1: Max = full die, Average = half die + 1, Roll = rolled at level-up (shows the average until you roll).",
+          style = "caption",
+          margin_top = 4,
+          is_visible = !isEmpty(classes),
+        ),
+        text(
+          id = "edit_character_class_hp_preview",
+          text = concat(["Max HP: ", max_hp]),
+          style = "text",
+          bold = true,
+          margin_top = 8,
+          is_visible = !isEmpty(classes),
+        ),
       ],
     ),
   );

@@ -194,8 +194,64 @@ base integer current_hp(name = "Current HP") = 1;
 base integer temp_hp(name = "Temporary HP") = 0;
 base integer nonlethal_damage(name = "Nonlethal damage") = 0;
 
+// B.0 Task 3 — HP method. Enum: hit_point_modes (roll / average / max).
+// PF1e: 1st character level = max of that class's hit die; every level
+// after = per the chosen method. "roll" has no value until the level-up
+// flow stores actual rolls in hp_rolled_total, so it displays the
+// average baseline until then (standard VTT behaviour).
+base string hp_method(name = "HP method") = "average";
+
+// Per-class-level HP value for the chosen method.
+//   max:     full die.  average: PF1e die/2 + 1 (d8 -> 5).
+//   roll:    average baseline (real rolls come from level-up).
+calc integer hp_method_per_level(name = "HP per level (method)") =
+  add(map(classes, mapper = ($c) => ($c.class_level * (when {
+    hp_method == "max" -> (when {
+      $c.class.hit_die == "d4" -> 4, $c.class.hit_die == "d6" -> 6,
+      $c.class.hit_die == "d8" -> 8, $c.class.hit_die == "d10" -> 10,
+      $c.class.hit_die == "d12" -> 12, $c.class.hit_die == "d20" -> 20,
+      else -> 8,
+    }),
+    else -> (when {
+      $c.class.hit_die == "d4" -> 3, $c.class.hit_die == "d6" -> 4,
+      $c.class.hit_die == "d8" -> 5, $c.class.hit_die == "d10" -> 6,
+      $c.class.hit_die == "d12" -> 7, $c.class.hit_die == "d20" -> 11,
+      else -> 5,
+    }),
+  }))));
+
+// Hit die of the first class taken (the level-1 class).
+calc string hp_first_class_die(name = "First class hit die") =
+  findFirst(
+    map(classes, mapper = ($c) => $c.class.hit_die),
+    filter = ($findFirstValue) => true,
+  ) ?? "d8";
+
+// +1st-level-is-max correction: PF1e grants max hit die at character
+// level 1. Bonus = (max die) - (per-level method value) for that class;
+// zero when the method is already "max".
+calc integer hp_first_level_bonus(name = "HP first-level max bonus") =
+  if isEmpty(classes) then 0
+  else if hp_method == "max" then 0
+  else (when {
+    hp_first_class_die == "d4" -> 1,
+    hp_first_class_die == "d6" -> 2,
+    hp_first_class_die == "d8" -> 3,
+    hp_first_class_die == "d10" -> 4,
+    hp_first_class_die == "d12" -> 5,
+    hp_first_class_die == "d20" -> 9,
+    else -> 3,
+  });
+
+// Deterministic class HP from method; overridden by stored rolls when
+// the level-up flow has written them (hp_rolled_total > 0).
+calc integer class_hp_total(name = "Class HP total") =
+  if hp_rolled_total > 0
+    then hp_rolled_total
+    else (hp_method_per_level + hp_first_level_bonus);
+
 calc integer max_hp(name = "Max HP") =
-  hp_rolled_total + (constitution_modifier * level) + hp_favored_class + hp_misc;
+  class_hp_total + (constitution_modifier * level) + hp_favored_class + hp_misc;
 
 // ---------- BASE ATTACK BONUS ----------
 
