@@ -13,11 +13,26 @@ view class_display() =
         resource_display_stat = "abbreviation",
       ),
       text(
+        id = "class_display_lore_only_banner",
+        text = "(Lore Only — not mechanically implemented)",
+        style = "caption",
+        bold = true,
+        is_visible = is_lore_only,
+      ),
+      text(
         id = "class_display_description",
         text = description,
         style = "text",
         markdown = true,
         is_visible = !isEmpty(description),
+      ),
+      text(
+        id = "class_display_lore",
+        text = lore,
+        style = "text",
+        markdown = true,
+        margin_top = 8,
+        is_visible = !isEmpty(lore),
       ),
       resourceArray(
         id = "class_display_ability_score_increases",

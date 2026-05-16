@@ -1,5 +1,5 @@
 {
-  "resource_id": "race_lore",
+  "resource_id": "race",
   "stats": {
     "id": "race_lore_yaddithian_characters__crb_",
     "name": {
@@ -8,17 +8,11 @@
     "source": {
       "value": "pathfinder_roleplaying_game_bestiary_6"
     },
-    "category": {
-      "value": "race_lore"
+    "is_lore_only": {
+      "value": true
     },
-    "prerequisites_text": {
-      "value": ""
-    },
-    "description": {
+    "lore": {
       "value": "Cosmic Mind (Ex) Long-Lived (Ex) Yaddithians are an ancient race of scholarly starfarers. Bholes consumed their home planet long ago; the survivors fled to other worlds across the universe. It is rare to find a yaddithian less powerful than the wizard above. Yaddithians are defined by their class levels\u00e2\u0080\u0094they don\u00e2\u0080\u0099t have racial Hit Dice. They have the following racial traits. Ability Scores: +2 Constitution, +2 Intelligence, \u00e2\u0080\u00932 Wisdom. Size: Yaddithians are Medium creatures and thus receive no bonuses or penalties due to their size. Type: Yaddithians are Aberrations. Speed: Yaddithians have a land speed of 20 feet. Darkvision: Yaddithians can see in the dark up to 60 feet. Defensive Abilities: Yaddithians have cold resistance 5 and the no breath ability. Claws: A Yaddithian has two claws that deal 1d4 points of damage each. Rugose: A Yaddithian gains a +1 natural armor bonus. Cosmic Mind (Ex) A Yaddithian gets a +2 racial bonus on Knowledge and Spellcraft checks. A yaddithian spellcaster who would store spells in a spellbook or familiar instead stores those spells in its mind (but must expend the normal resources to learn new spells). Long-Lived (Ex) Yaddithians live for thousands of years; they gain no benefit or penalty from aging and are immune to magical aging effects. Languages: Yaddithians begin play speaking Yaddithian. Those with high Intelligence scores can choose any language as a bonus language."
-    },
-    "related_mechanical_resource_id": {
-      "value": ""
     }
   }
 }

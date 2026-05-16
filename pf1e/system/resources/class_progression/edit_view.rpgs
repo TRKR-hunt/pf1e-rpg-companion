@@ -31,6 +31,7 @@ view class_progression_edit() =
             id = "class_progression_edit_class_select",
             stat = "class",
             resource_id = "class",
+            filters = dict(is_lore_only = false),
             validation_message = if isNull($view.class_progression_edit_class_select)
             then "You have an unselected class. Select a class or remove it."
             else null,

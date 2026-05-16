@@ -2,6 +2,7 @@ view class_search_item() =
   listItem(
     id = "class_search_item",
     title = name,
+    subtitle = if is_lore_only then "(Lore Only)" else "",
     chips = [
       createChip(
         id = "spell_search_item_source_chip",

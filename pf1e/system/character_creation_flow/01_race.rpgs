@@ -36,6 +36,7 @@ character_creation_page edit_race_title() =
               id = "edit_character_race_select",
               stat = "race",
               resource_id = "race",
+              filters = dict(is_lore_only = false),
               validation_message = if !notNull($view.edit_character_race_select)
                 then "Please pick a race"
                 else null,

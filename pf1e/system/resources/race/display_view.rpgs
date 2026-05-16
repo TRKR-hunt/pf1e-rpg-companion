@@ -17,6 +17,21 @@ view race_display() =
         resource_instance_ids_stat = "source",
         resource_display_stat = "abbreviation",
       ),
+      text(
+        id = "race_display_lore_only_banner",
+        text = "(Lore Only — not mechanically implemented)",
+        style = "caption",
+        bold = true,
+        is_visible = is_lore_only,
+      ),
+      text(
+        id = "race_display_lore",
+        text = lore,
+        style = "text",
+        markdown = true,
+        margin_top = 8,
+        is_visible = !isEmpty(lore),
+      ),
       composite(
         id = "race_display_basics_size",
         margin_top = 8,

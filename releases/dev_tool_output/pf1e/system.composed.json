@@ -1003,6 +1003,13 @@
                 "id": "edit_character_race_select",
                 "stat": "race",
                 "resource_id": "race",
+                "filters": {
+                  "is_lore_only": {
+                    "type": "constant",
+                    "value": false,
+                    "value_type": "bool"
+                  }
+                },
                 "validation_message": {
                   "type": "when",
                   "clauses": [
@@ -32589,7 +32596,8 @@
       "color": "#00897B",
       "indexed_stats": [
         "name",
-        "source"
+        "source",
+        "is_lore_only"
       ],
       "search_filters": [
         {
@@ -32628,6 +32636,21 @@
           },
           {
             "type": "text",
+            "id": "class_display_lore_only_banner",
+            "text": {
+              "type": "constant",
+              "value": "(Lore Only — not mechanically implemented)",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "bold": true,
+            "is_visible": {
+              "type": "stat",
+              "stat": "is_lore_only"
+            }
+          },
+          {
+            "type": "text",
             "id": "class_display_description",
             "text": {
               "type": "stat",
@@ -32642,6 +32665,27 @@
                 "components": {
                   "type": "stat",
                   "stat": "description"
+                }
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "class_display_lore",
+            "text": {
+              "type": "stat",
+              "stat": "lore"
+            },
+            "style": "text",
+            "markdown": true,
+            "margin_top": 8,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "lore"
                 }
               }
             }
@@ -33522,6 +33566,34 @@
         "title": {
           "type": "stat",
           "stat": "name"
+        },
+        "subtitle": {
+          "type": "when",
+          "clauses": [
+            {
+              "condition": {
+                "type": "stat",
+                "stat": "is_lore_only"
+              },
+              "components": {
+                "type": "constant",
+                "value": "(Lore Only)",
+                "value_type": "string"
+              }
+            },
+            {
+              "condition": {
+                "type": "constant",
+                "value_type": "bool",
+                "value": true
+              },
+              "components": {
+                "type": "constant",
+                "value": "",
+                "value_type": "string"
+              }
+            }
+          ]
         },
         "chips": {
           "type": "list",
@@ -36679,451 +36751,20 @@
             }
           },
           "name": "Show feat level"
-        }
-      ]
-    },
-    {
-      "id": "class_lore",
-      "name": "Class Lore",
-      "plural": "Class Lore",
-      "core": true,
-      "color": "#1565C0",
-      "indexed_stats": [
-        "name",
-        "source"
-      ],
-      "search_filters": [
-        {
-          "name": "Source",
-          "stat": "source",
-          "options": "source",
-          "options_display_stat": "abbreviation"
-        }
-      ],
-      "sort_options": [
-        {
-          "name": "alphabetically",
-          "stat": "name"
-        }
-      ],
-      "display_view": {
-        "id": "class_lore_display",
-        "type": "list",
-        "padding": 16,
-        "subviews": [
-          {
-            "type": "composite",
-            "id": "class_lore_display_header",
-            "subviews": [
-              {
-                "type": "text",
-                "id": "class_lore_display_source",
-                "margin_left": 16,
-                "style": "caption",
-                "resource_id": "source",
-                "resource_instance_ids_stat": "source",
-                "resource_display_stat": "abbreviation"
-              },
-              {
-                "type": "text",
-                "id": "class_lore_display_source_sep",
-                "text": {
-                  "type": "constant",
-                  "value": " | ",
-                  "value_type": "string"
-                },
-                "style": "caption",
-                "is_visible": {
-                  "type": "not",
-                  "components": {
-                    "type": "isEmpty",
-                    "components": {
-                      "type": "stat",
-                      "stat": "category_name"
-                    }
-                  }
-                }
-              },
-              {
-                "type": "text",
-                "id": "class_lore_display_category",
-                "text": {
-                  "type": "stat",
-                  "stat": "category_name"
-                },
-                "style": "caption",
-                "bold": true
-              }
-            ]
-          },
-          {
-            "type": "composite",
-            "id": "class_lore_display_prereq_row",
-            "margin_top": 8,
-            "subviews": [
-              {
-                "type": "text",
-                "id": "class_lore_display_prereq_label",
-                "text": {
-                  "type": "constant",
-                  "value": "Prerequisites: ",
-                  "value_type": "string"
-                },
-                "style": "text",
-                "bold": true
-              },
-              {
-                "type": "text",
-                "id": "class_lore_display_prereq_value",
-                "text": {
-                  "type": "stat",
-                  "stat": "prerequisites_text"
-                },
-                "style": "text"
-              }
-            ],
-            "is_visible": {
-              "type": "not",
-              "components": {
-                "type": "isEmpty",
-                "components": {
-                  "type": "stat",
-                  "stat": "prerequisites_text"
-                }
-              }
-            }
-          },
-          {
-            "type": "text",
-            "id": "class_lore_display_description",
-            "text": {
-              "type": "stat",
-              "stat": "description"
-            },
-            "style": "text",
-            "markdown": true,
-            "margin_top": 8,
-            "is_visible": {
-              "type": "not",
-              "components": {
-                "type": "isEmpty",
-                "components": {
-                  "type": "stat",
-                  "stat": "description"
-                }
-              }
-            }
-          }
-        ]
-      },
-      "edit_view": {
-        "id": "class_lore_edit",
-        "type": "list",
-        "padding": 16,
-        "subviews": [
-          {
-            "type": "text",
-            "id": "class_lore_edit_name",
-            "edit_stat": "name",
-            "style": "title",
-            "max_length": 120,
-            "label": {
-              "type": "constant",
-              "value": "Name",
-              "value_type": "string"
-            },
-            "validation_message": {
-              "type": "when",
-              "clauses": [
-                {
-                  "condition": {
-                    "type": "isEmpty",
-                    "components": {
-                      "type": "stat",
-                      "stat": "$view.class_lore_edit_name"
-                    }
-                  },
-                  "components": {
-                    "type": "constant",
-                    "value": "Please give the entry a name",
-                    "value_type": "string"
-                  }
-                },
-                {
-                  "condition": {
-                    "type": "constant",
-                    "value_type": "bool",
-                    "value": true
-                  },
-                  "components": {
-                    "type": "constant",
-                    "value": null,
-                    "value_type": "string"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "type": "composite",
-            "id": "class_lore_edit_source_row",
-            "margin_top": 8,
-            "subviews": [
-              {
-                "type": "text",
-                "id": "class_lore_edit_source_label",
-                "text": {
-                  "type": "constant",
-                  "value": "Source: ",
-                  "value_type": "string"
-                },
-                "style": "text"
-              },
-              {
-                "type": "selectResources",
-                "id": "class_lore_edit_source_select",
-                "stat": "source",
-                "resource_id": "source"
-              }
-            ]
-          },
-          {
-            "type": "composite",
-            "id": "class_lore_edit_category_row",
-            "margin_top": 8,
-            "subviews": [
-              {
-                "type": "text",
-                "id": "class_lore_edit_category_label",
-                "text": {
-                  "type": "constant",
-                  "value": "Category: ",
-                  "value_type": "string"
-                },
-                "style": "text"
-              },
-              {
-                "type": "select",
-                "id": "class_lore_edit_category_select",
-                "stat": "category",
-                "options": "class_lore_category"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "class_lore_edit_prereq",
-            "edit_stat": "prerequisites_text",
-            "style": "text",
-            "max_length": 600,
-            "margin_top": 8,
-            "label": {
-              "type": "constant",
-              "value": "Prerequisites (display only)",
-              "value_type": "string"
-            }
-          },
-          {
-            "type": "text",
-            "id": "class_lore_edit_related",
-            "edit_stat": "related_mechanical_resource_id",
-            "style": "text",
-            "max_length": 120,
-            "margin_top": 8,
-            "label": {
-              "type": "constant",
-              "value": "Related mechanical resource id (optional)",
-              "value_type": "string"
-            }
-          },
-          {
-            "type": "text",
-            "id": "class_lore_edit_description",
-            "edit_stat": "description",
-            "style": "text",
-            "max_length": 8000,
-            "margin_top": 8,
-            "label": {
-              "type": "constant",
-              "value": "Description",
-              "value_type": "string"
-            }
-          }
-        ]
-      },
-      "list_view": {
-        "id": "class_lore_list",
-        "type": "listItem",
-        "title": {
-          "type": "stat",
-          "stat": "name"
         },
-        "subtitle": {
-          "type": "stat",
-          "stat": "category_name"
-        }
-      },
-      "search_item_view": {
-        "id": "class_lore_search_item",
-        "type": "listItem",
-        "title": {
-          "type": "stat",
-          "stat": "name"
-        },
-        "subtitle": {
-          "type": "stat",
-          "stat": "category_name"
-        },
-        "chips": {
-          "type": "list",
-          "components": [
-            {
-              "type": "createChip",
-              "id": "class_lore_search_item_source_chip",
-              "background_color": {
-                "type": "constant",
-                "value": "hint",
-                "value_type": "string"
-              },
-              "style": {
-                "type": "constant",
-                "value": "compact",
-                "value_type": "string"
-              },
-              "resource_id": "source",
-              "resource_instance_ids_stat": "source",
-              "resource_display_stat": "abbreviation"
-            }
-          ]
-        }
-      },
-      "stats": [
         {
-          "id": "name",
+          "id": "is_lore_only",
           "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Name"
-        },
-        {
-          "id": "source",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Source"
-        },
-        {
-          "id": "category",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "class",
-          "name": "Category"
-        },
-        {
-          "id": "prerequisites_text",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Prerequisites"
-        },
-        {
-          "id": "description",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Description"
-        },
-        {
-          "id": "related_mechanical_resource_id",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Related mechanical resource id"
-        },
-        {
-          "id": "category_name",
-          "type": "calculated",
-          "value_type": "string",
-          "components": {
-            "type": "enumeratedName",
-            "enumerated_type": "compendium_entry_category",
-            "id": {
-              "type": "stat",
-              "stat": "category"
-            }
-          },
-          "name": "Category display name"
-        },
-        {
-          "id": "has_mechanical_link",
-          "type": "calculated",
           "value_type": "bool",
-          "components": {
-            "type": "not",
-            "components": {
-              "type": "isEmpty",
-              "components": {
-                "type": "stat",
-                "stat": "related_mechanical_resource_id"
-              }
-            }
-          },
-          "name": "Has mechanical link"
+          "default_value": false,
+          "name": "Lore only"
         },
         {
-          "id": "display_header_text",
-          "type": "calculated",
+          "id": "lore",
+          "type": "base",
           "value_type": "string",
-          "components": {
-            "type": "when",
-            "clauses": [
-              {
-                "condition": {
-                  "type": "not",
-                  "components": {
-                    "type": "isEmpty",
-                    "components": {
-                      "type": "stat",
-                      "stat": "prerequisites_text"
-                    }
-                  }
-                },
-                "components": {
-                  "type": "concat",
-                  "components": {
-                    "type": "list",
-                    "components": [
-                      {
-                        "type": "stat",
-                        "stat": "category_name"
-                      },
-                      {
-                        "type": "constant",
-                        "value": " | ",
-                        "value_type": "string"
-                      },
-                      {
-                        "type": "stat",
-                        "stat": "prerequisites_text"
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "condition": {
-                  "type": "constant",
-                  "value_type": "bool",
-                  "value": true
-                },
-                "components": {
-                  "type": "stat",
-                  "stat": "category_name"
-                }
-              }
-            ]
-          },
-          "name": "Display header text"
+          "default_value": "",
+          "name": "Lore"
         }
       ]
     },
@@ -37404,6 +37045,13 @@
                 "id": "class_progression_edit_class_select",
                 "stat": "class",
                 "resource_id": "class",
+                "filters": {
+                  "is_lore_only": {
+                    "type": "constant",
+                    "value": false,
+                    "value_type": "bool"
+                  }
+                },
                 "validation_message": {
                   "type": "when",
                   "clauses": [
@@ -89293,7 +88941,8 @@
       "color": "#F4511E",
       "indexed_stats": [
         "name",
-        "source"
+        "source",
+        "is_lore_only"
       ],
       "search_filters": [
         {
@@ -89329,6 +88978,42 @@
             "resource_id": "source",
             "resource_instance_ids_stat": "source",
             "resource_display_stat": "abbreviation"
+          },
+          {
+            "type": "text",
+            "id": "race_display_lore_only_banner",
+            "text": {
+              "type": "constant",
+              "value": "(Lore Only — not mechanically implemented)",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "bold": true,
+            "is_visible": {
+              "type": "stat",
+              "stat": "is_lore_only"
+            }
+          },
+          {
+            "type": "text",
+            "id": "race_display_lore",
+            "text": {
+              "type": "stat",
+              "stat": "lore"
+            },
+            "style": "text",
+            "markdown": true,
+            "margin_top": 8,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "lore"
+                }
+              }
+            }
           },
           {
             "type": "composite",
@@ -90456,6 +90141,34 @@
         "title": {
           "type": "stat",
           "stat": "name"
+        },
+        "subtitle": {
+          "type": "when",
+          "clauses": [
+            {
+              "condition": {
+                "type": "stat",
+                "stat": "is_lore_only"
+              },
+              "components": {
+                "type": "constant",
+                "value": "(Lore Only)",
+                "value_type": "string"
+              }
+            },
+            {
+              "condition": {
+                "type": "constant",
+                "value_type": "bool",
+                "value": true
+              },
+              "components": {
+                "type": "constant",
+                "value": "",
+                "value_type": "string"
+              }
+            }
+          ]
         },
         "chips": {
           "type": "list",
@@ -92755,451 +92468,20 @@
             ]
           },
           "name": "Display unarmed strike"
-        }
-      ]
-    },
-    {
-      "id": "race_lore",
-      "name": "Race Lore",
-      "plural": "Race Lore",
-      "core": true,
-      "color": "#2E7D32",
-      "indexed_stats": [
-        "name",
-        "source"
-      ],
-      "search_filters": [
-        {
-          "name": "Source",
-          "stat": "source",
-          "options": "source",
-          "options_display_stat": "abbreviation"
-        }
-      ],
-      "sort_options": [
-        {
-          "name": "alphabetically",
-          "stat": "name"
-        }
-      ],
-      "display_view": {
-        "id": "race_lore_display",
-        "type": "list",
-        "padding": 16,
-        "subviews": [
-          {
-            "type": "composite",
-            "id": "race_lore_display_header",
-            "subviews": [
-              {
-                "type": "text",
-                "id": "race_lore_display_source",
-                "margin_left": 16,
-                "style": "caption",
-                "resource_id": "source",
-                "resource_instance_ids_stat": "source",
-                "resource_display_stat": "abbreviation"
-              },
-              {
-                "type": "text",
-                "id": "race_lore_display_source_sep",
-                "text": {
-                  "type": "constant",
-                  "value": " | ",
-                  "value_type": "string"
-                },
-                "style": "caption",
-                "is_visible": {
-                  "type": "not",
-                  "components": {
-                    "type": "isEmpty",
-                    "components": {
-                      "type": "stat",
-                      "stat": "category_name"
-                    }
-                  }
-                }
-              },
-              {
-                "type": "text",
-                "id": "race_lore_display_category",
-                "text": {
-                  "type": "stat",
-                  "stat": "category_name"
-                },
-                "style": "caption",
-                "bold": true
-              }
-            ]
-          },
-          {
-            "type": "composite",
-            "id": "race_lore_display_prereq_row",
-            "margin_top": 8,
-            "subviews": [
-              {
-                "type": "text",
-                "id": "race_lore_display_prereq_label",
-                "text": {
-                  "type": "constant",
-                  "value": "Prerequisites: ",
-                  "value_type": "string"
-                },
-                "style": "text",
-                "bold": true
-              },
-              {
-                "type": "text",
-                "id": "race_lore_display_prereq_value",
-                "text": {
-                  "type": "stat",
-                  "stat": "prerequisites_text"
-                },
-                "style": "text"
-              }
-            ],
-            "is_visible": {
-              "type": "not",
-              "components": {
-                "type": "isEmpty",
-                "components": {
-                  "type": "stat",
-                  "stat": "prerequisites_text"
-                }
-              }
-            }
-          },
-          {
-            "type": "text",
-            "id": "race_lore_display_description",
-            "text": {
-              "type": "stat",
-              "stat": "description"
-            },
-            "style": "text",
-            "markdown": true,
-            "margin_top": 8,
-            "is_visible": {
-              "type": "not",
-              "components": {
-                "type": "isEmpty",
-                "components": {
-                  "type": "stat",
-                  "stat": "description"
-                }
-              }
-            }
-          }
-        ]
-      },
-      "edit_view": {
-        "id": "race_lore_edit",
-        "type": "list",
-        "padding": 16,
-        "subviews": [
-          {
-            "type": "text",
-            "id": "race_lore_edit_name",
-            "edit_stat": "name",
-            "style": "title",
-            "max_length": 120,
-            "label": {
-              "type": "constant",
-              "value": "Name",
-              "value_type": "string"
-            },
-            "validation_message": {
-              "type": "when",
-              "clauses": [
-                {
-                  "condition": {
-                    "type": "isEmpty",
-                    "components": {
-                      "type": "stat",
-                      "stat": "$view.race_lore_edit_name"
-                    }
-                  },
-                  "components": {
-                    "type": "constant",
-                    "value": "Please give the entry a name",
-                    "value_type": "string"
-                  }
-                },
-                {
-                  "condition": {
-                    "type": "constant",
-                    "value_type": "bool",
-                    "value": true
-                  },
-                  "components": {
-                    "type": "constant",
-                    "value": null,
-                    "value_type": "string"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "type": "composite",
-            "id": "race_lore_edit_source_row",
-            "margin_top": 8,
-            "subviews": [
-              {
-                "type": "text",
-                "id": "race_lore_edit_source_label",
-                "text": {
-                  "type": "constant",
-                  "value": "Source: ",
-                  "value_type": "string"
-                },
-                "style": "text"
-              },
-              {
-                "type": "selectResources",
-                "id": "race_lore_edit_source_select",
-                "stat": "source",
-                "resource_id": "source"
-              }
-            ]
-          },
-          {
-            "type": "composite",
-            "id": "race_lore_edit_category_row",
-            "margin_top": 8,
-            "subviews": [
-              {
-                "type": "text",
-                "id": "race_lore_edit_category_label",
-                "text": {
-                  "type": "constant",
-                  "value": "Category: ",
-                  "value_type": "string"
-                },
-                "style": "text"
-              },
-              {
-                "type": "select",
-                "id": "race_lore_edit_category_select",
-                "stat": "category",
-                "options": "race_lore_category"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "race_lore_edit_prereq",
-            "edit_stat": "prerequisites_text",
-            "style": "text",
-            "max_length": 600,
-            "margin_top": 8,
-            "label": {
-              "type": "constant",
-              "value": "Prerequisites (display only)",
-              "value_type": "string"
-            }
-          },
-          {
-            "type": "text",
-            "id": "race_lore_edit_related",
-            "edit_stat": "related_mechanical_resource_id",
-            "style": "text",
-            "max_length": 120,
-            "margin_top": 8,
-            "label": {
-              "type": "constant",
-              "value": "Related mechanical resource id (optional)",
-              "value_type": "string"
-            }
-          },
-          {
-            "type": "text",
-            "id": "race_lore_edit_description",
-            "edit_stat": "description",
-            "style": "text",
-            "max_length": 8000,
-            "margin_top": 8,
-            "label": {
-              "type": "constant",
-              "value": "Description",
-              "value_type": "string"
-            }
-          }
-        ]
-      },
-      "list_view": {
-        "id": "race_lore_list",
-        "type": "listItem",
-        "title": {
-          "type": "stat",
-          "stat": "name"
         },
-        "subtitle": {
-          "type": "stat",
-          "stat": "category_name"
-        }
-      },
-      "search_item_view": {
-        "id": "race_lore_search_item",
-        "type": "listItem",
-        "title": {
-          "type": "stat",
-          "stat": "name"
-        },
-        "subtitle": {
-          "type": "stat",
-          "stat": "category_name"
-        },
-        "chips": {
-          "type": "list",
-          "components": [
-            {
-              "type": "createChip",
-              "id": "race_lore_search_item_source_chip",
-              "background_color": {
-                "type": "constant",
-                "value": "hint",
-                "value_type": "string"
-              },
-              "style": {
-                "type": "constant",
-                "value": "compact",
-                "value_type": "string"
-              },
-              "resource_id": "source",
-              "resource_instance_ids_stat": "source",
-              "resource_display_stat": "abbreviation"
-            }
-          ]
-        }
-      },
-      "stats": [
         {
-          "id": "name",
+          "id": "is_lore_only",
           "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Name"
-        },
-        {
-          "id": "source",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Source"
-        },
-        {
-          "id": "category",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "class",
-          "name": "Category"
-        },
-        {
-          "id": "prerequisites_text",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Prerequisites"
-        },
-        {
-          "id": "description",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Description"
-        },
-        {
-          "id": "related_mechanical_resource_id",
-          "type": "base",
-          "value_type": "string",
-          "default_value": "",
-          "name": "Related mechanical resource id"
-        },
-        {
-          "id": "category_name",
-          "type": "calculated",
-          "value_type": "string",
-          "components": {
-            "type": "enumeratedName",
-            "enumerated_type": "compendium_entry_category",
-            "id": {
-              "type": "stat",
-              "stat": "category"
-            }
-          },
-          "name": "Category display name"
-        },
-        {
-          "id": "has_mechanical_link",
-          "type": "calculated",
           "value_type": "bool",
-          "components": {
-            "type": "not",
-            "components": {
-              "type": "isEmpty",
-              "components": {
-                "type": "stat",
-                "stat": "related_mechanical_resource_id"
-              }
-            }
-          },
-          "name": "Has mechanical link"
+          "default_value": false,
+          "name": "Lore only"
         },
         {
-          "id": "display_header_text",
-          "type": "calculated",
+          "id": "lore",
+          "type": "base",
           "value_type": "string",
-          "components": {
-            "type": "when",
-            "clauses": [
-              {
-                "condition": {
-                  "type": "not",
-                  "components": {
-                    "type": "isEmpty",
-                    "components": {
-                      "type": "stat",
-                      "stat": "prerequisites_text"
-                    }
-                  }
-                },
-                "components": {
-                  "type": "concat",
-                  "components": {
-                    "type": "list",
-                    "components": [
-                      {
-                        "type": "stat",
-                        "stat": "category_name"
-                      },
-                      {
-                        "type": "constant",
-                        "value": " | ",
-                        "value_type": "string"
-                      },
-                      {
-                        "type": "stat",
-                        "stat": "prerequisites_text"
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "condition": {
-                  "type": "constant",
-                  "value_type": "bool",
-                  "value": true
-                },
-                "components": {
-                  "type": "stat",
-                  "stat": "category_name"
-                }
-              }
-            ]
-          },
-          "name": "Display header text"
+          "default_value": "",
+          "name": "Lore"
         }
       ]
     },

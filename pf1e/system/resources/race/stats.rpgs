@@ -366,3 +366,9 @@ calc string display_unarmed_strike(name = "Display unarmed strike") =
           lowest_level_unarmed_strike.weapon.attack_ability,
         ],
       );
+
+// A.1.1: lore folding. is_lore_only flags compendium-only entries
+// (filtered out of the creation picker); lore holds folded scraped
+// description text from matched compendium_entry records.
+base bool is_lore_only(name = "Lore only") = false;
+base string lore(name = "Lore") = "";
