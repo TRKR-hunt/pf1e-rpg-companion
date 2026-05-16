@@ -931,6 +931,73 @@ calc resource<class_progression> level_up_selected_class_progression(name = "Sel
     filter = ($findFirstValue) => ($findFirstValue.class?.id == $view.level_up_select_class?),
   );
 
+// --- B.0 Task 7 — PF1e level-up walkthrough ---
+// The core loop already works: on_level_up_confirm increments the chosen
+// class_progression.class_level, and level / BAB / saves / max_hp (Task 3
+// method) / skill-point budget all auto-recompute from class_level. These
+// stats drive the richer level_up_view walkthrough and the appended
+// ASI / favored-class effects in on_level_up_confirm.
+base string temp_level_up_asi_ability(name = "Level-up: ability to raise (+1)") = "";
+base string temp_level_up_favored_choice(name = "Level-up: favored class bonus") = "hp";
+
+calc integer level_up_new_level(name = "Level after this level-up") = level + 1;
+
+// PF1e: an ability score increase at character levels 4, 8, 12, 16, 20.
+calc bool level_up_is_asi_level(name = "This level grants an ASI") =
+  (level_up_new_level - (divide([level_up_new_level, 4], rounding_method = "down") * 4)) == 0;
+
+// PF1e: a feat at every odd character level (1, 3, 5, ...).
+calc bool level_up_is_feat_level(name = "This level grants a feat") =
+  (level_up_new_level - (divide([level_up_new_level, 2], rounding_method = "down") * 2)) == 1;
+
+calc bool level_up_class_selected(name = "A class is selected for level-up") =
+  notNull(level_up_selected_class_progression);
+
+calc string level_up_selected_class_die(name = "Selected level-up class hit die") =
+  level_up_selected_class_progression?.class?.hit_die ?? "d8";
+
+// HP for one level of the selected class under the chosen HP method
+// (mirrors hp_method_per_level; roll baseline = average).
+calc integer level_up_class_per_level_hp(name = "HP for this class level (method)") = when {
+  hp_method == "max" -> (when {
+    level_up_selected_class_die == "d4" -> 4, level_up_selected_class_die == "d6" -> 6,
+    level_up_selected_class_die == "d8" -> 8, level_up_selected_class_die == "d10" -> 10,
+    level_up_selected_class_die == "d12" -> 12, level_up_selected_class_die == "d20" -> 20,
+    else -> 8,
+  }),
+  else -> (when {
+    level_up_selected_class_die == "d4" -> 3, level_up_selected_class_die == "d6" -> 4,
+    level_up_selected_class_die == "d8" -> 5, level_up_selected_class_die == "d10" -> 6,
+    level_up_selected_class_die == "d12" -> 7, level_up_selected_class_die == "d20" -> 11,
+    else -> 5,
+  }),
+};
+
+calc integer level_up_favored_hp_bonus(name = "Favored class +1 HP") =
+  if temp_level_up_favored_choice == "hp" then 1 else 0;
+calc integer level_up_favored_skill_bonus(name = "Favored class +1 skill rank") =
+  if temp_level_up_favored_choice == "skill" then 1 else 0;
+
+calc integer level_up_hp_gain_preview(name = "HP gained this level") =
+  level_up_class_per_level_hp + constitution_modifier + level_up_favored_hp_bonus;
+
+calc integer level_up_skill_points_preview(name = "Skill ranks gained this level") =
+  max([1, ((level_up_selected_class_progression?.class?.skill_ranks_per_level ?? 2)
+    + intelligence_modifier)]) + level_up_favored_skill_bonus;
+
+calc bool level_up_is_caster(name = "Selected level-up class is a caster") =
+  !isEmpty(level_up_selected_class_progression?.class?.spellcasting_ability ?? "");
+
+// Single-stat condition flags so on_level_up_confirm (JSON) only needs the
+// proven {"type":"stat"} when-condition shape (no inline equality nodes).
+calc bool level_up_asi_is_str(name = "ASI -> STR") = temp_level_up_asi_ability == "strength";
+calc bool level_up_asi_is_dex(name = "ASI -> DEX") = temp_level_up_asi_ability == "dexterity";
+calc bool level_up_asi_is_con(name = "ASI -> CON") = temp_level_up_asi_ability == "constitution";
+calc bool level_up_asi_is_int(name = "ASI -> INT") = temp_level_up_asi_ability == "intelligence";
+calc bool level_up_asi_is_wis(name = "ASI -> WIS") = temp_level_up_asi_ability == "wisdom";
+calc bool level_up_asi_is_cha(name = "ASI -> CHA") = temp_level_up_asi_ability == "charisma";
+calc bool level_up_favored_is_hp(name = "Favored -> HP") = temp_level_up_favored_choice == "hp";
+
 // --- level-up flow PF2E-STUBS: stats system.rpg.json references but PF1e
 // doesn't yet implement (ASI = pf2e Ability Score Increase mechanic; skill
 // increases = pf2e mechanic; interactive progression grants = pf2e). All

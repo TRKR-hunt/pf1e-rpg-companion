@@ -81,6 +81,294 @@
                 "options_display_stat": "name"
               }
             ]
+          },
+          {
+            "id": "level_up_transition",
+            "type": "text",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Advancing from level ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "level"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " to ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "level_up_new_level"
+                  },
+                  {
+                    "type": "constant",
+                    "value": ".",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "style": "text",
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_class_selected"
+            },
+            "bold": true,
+            "margin_top": 12
+          },
+          {
+            "id": "level_up_hp_gain",
+            "type": "text",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Hit points gained: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "level_up_hp_gain_preview"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  (class HD by ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "hp_method"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " method + CON mod + favored)",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "style": "text",
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_class_selected"
+            },
+            "margin_top": 8
+          },
+          {
+            "id": "level_up_skill_points",
+            "type": "text",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Skill ranks gained: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "level_up_skill_points_preview"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  (class ranks/level + INT mod, min 1, + favored)",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "style": "text",
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_class_selected"
+            },
+            "margin_top": 6
+          },
+          {
+            "id": "level_up_bab_saves",
+            "type": "text",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "New BAB +",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "base_attack_bonus"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  |  Fort +",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "fortitude_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " / Ref +",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "reflex_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " / Will +",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "will_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  (auto-recomputed on confirm)",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "style": "caption",
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_class_selected"
+            },
+            "margin_top": 6
+          },
+          {
+            "id": "level_up_favored_comp",
+            "type": "composite",
+            "margin_top": 14,
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_class_selected"
+            },
+            "subviews": [
+              {
+                "id": "level_up_favored_label",
+                "type": "text",
+                "text": {
+                  "type": "constant",
+                  "value": "Favored class bonus: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true,
+                "margin_right": 8
+              },
+              {
+                "id": "level_up_favored_select",
+                "type": "select",
+                "stat": "temp_level_up_favored_choice",
+                "options": "level_up_favored_options"
+              }
+            ]
+          },
+          {
+            "id": "level_up_asi_prompt",
+            "type": "text",
+            "text": {
+              "type": "constant",
+              "value": "Ability Score Increase: at levels 4, 8, 12, 16, 20 raise one ability by +1. Pick it below; it is applied when you confirm.",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_is_asi_level"
+            },
+            "margin_top": 14
+          },
+          {
+            "id": "level_up_asi_comp",
+            "type": "composite",
+            "margin_top": 6,
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_is_asi_level"
+            },
+            "subviews": [
+              {
+                "id": "level_up_asi_label",
+                "type": "text",
+                "text": {
+                  "type": "constant",
+                  "value": "Raise ability: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true,
+                "margin_right": 8
+              },
+              {
+                "id": "level_up_asi_select",
+                "type": "select",
+                "stat": "temp_level_up_asi_ability",
+                "options": "ability"
+              }
+            ]
+          },
+          {
+            "id": "level_up_feat_reminder",
+            "type": "text",
+            "text": {
+              "type": "constant",
+              "value": "You gain a feat this level (odd character levels). Add it from the Features & Feats section on your sheet.",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_is_feat_level"
+            },
+            "margin_top": 12
+          },
+          {
+            "id": "level_up_caster_reminder",
+            "type": "text",
+            "text": {
+              "type": "constant",
+              "value": "Spellcaster: your spells per day / spells known advance. Manage them in the Spells section.",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "is_visible": {
+              "type": "stat",
+              "stat": "level_up_is_caster"
+            },
+            "margin_top": 8
+          },
+          {
+            "id": "level_up_features_note",
+            "type": "text",
+            "text": {
+              "type": "constant",
+              "value": "New class features for the new level appear under Features & Feats after you confirm.",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "margin_top": 8
           }
         ]
       },
@@ -818,6 +1106,138 @@
               "type": "constant",
               "value": false,
               "value_type": "bool"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "when",
+            "clauses": [
+              {
+                "condition": {
+                  "type": "stat",
+                  "stat": "level_up_asi_is_str"
+                },
+                "effect": {
+                  "type": "addToStat",
+                  "stat": "strength_level_increase",
+                  "value": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  "aggregation_type": "set"
+                }
+              },
+              {
+                "condition": {
+                  "type": "stat",
+                  "stat": "level_up_asi_is_dex"
+                },
+                "effect": {
+                  "type": "addToStat",
+                  "stat": "dexterity_level_increase",
+                  "value": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  "aggregation_type": "set"
+                }
+              },
+              {
+                "condition": {
+                  "type": "stat",
+                  "stat": "level_up_asi_is_con"
+                },
+                "effect": {
+                  "type": "addToStat",
+                  "stat": "constitution_level_increase",
+                  "value": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  "aggregation_type": "set"
+                }
+              },
+              {
+                "condition": {
+                  "type": "stat",
+                  "stat": "level_up_asi_is_int"
+                },
+                "effect": {
+                  "type": "addToStat",
+                  "stat": "intelligence_level_increase",
+                  "value": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  "aggregation_type": "set"
+                }
+              },
+              {
+                "condition": {
+                  "type": "stat",
+                  "stat": "level_up_asi_is_wis"
+                },
+                "effect": {
+                  "type": "addToStat",
+                  "stat": "wisdom_level_increase",
+                  "value": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  "aggregation_type": "set"
+                }
+              },
+              {
+                "condition": {
+                  "type": "stat",
+                  "stat": "level_up_asi_is_cha"
+                },
+                "effect": {
+                  "type": "addToStat",
+                  "stat": "charisma_level_increase",
+                  "value": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  "aggregation_type": "set"
+                }
+              }
+            ]
+          },
+          {
+            "type": "when",
+            "clauses": [
+              {
+                "condition": {
+                  "type": "stat",
+                  "stat": "level_up_favored_is_hp"
+                },
+                "effect": {
+                  "type": "addToStat",
+                  "stat": "hp_favored_class",
+                  "value": {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  "aggregation_type": "set"
+                }
+              }
+            ]
+          },
+          {
+            "type": "setStat",
+            "stat": "temp_level_up_asi_ability",
+            "new_value": {
+              "type": "constant",
+              "value": "",
+              "value_type": "string"
             },
             "aggregation_type": "set"
           }
@@ -20007,6 +20427,917 @@
       "name": "Selected existing class when levelling up"
     },
     {
+      "id": "temp_level_up_asi_ability",
+      "type": "base",
+      "value_type": "string",
+      "default_value": "",
+      "name": "Level-up: ability to raise (+1)"
+    },
+    {
+      "id": "temp_level_up_favored_choice",
+      "type": "base",
+      "value_type": "string",
+      "default_value": "hp",
+      "name": "Level-up: favored class bonus"
+    },
+    {
+      "id": "level_up_new_level",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "add",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "level"
+            },
+            {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            }
+          ]
+        }
+      },
+      "name": "Level after this level-up"
+    },
+    {
+      "id": "level_up_is_asi_level",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "subtract",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "level_up_new_level"
+                  },
+                  {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "divide",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "level_up_new_level"
+                              },
+                              {
+                                "type": "constant",
+                                "value": 4,
+                                "value_type": "integer"
+                              }
+                            ]
+                          },
+                          "rounding_method": "down"
+                        },
+                        {
+                          "type": "constant",
+                          "value": 4,
+                          "value_type": "integer"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          ]
+        }
+      },
+      "name": "This level grants an ASI"
+    },
+    {
+      "id": "level_up_is_feat_level",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "subtract",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "level_up_new_level"
+                  },
+                  {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "divide",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "level_up_new_level"
+                              },
+                              {
+                                "type": "constant",
+                                "value": 2,
+                                "value_type": "integer"
+                              }
+                            ]
+                          },
+                          "rounding_method": "down"
+                        },
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            }
+          ]
+        }
+      },
+      "name": "This level grants a feat"
+    },
+    {
+      "id": "level_up_class_selected",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "notNull",
+        "components": {
+          "type": "stat",
+          "stat": "level_up_selected_class_progression"
+        }
+      },
+      "name": "A class is selected for level-up"
+    },
+    {
+      "id": "level_up_selected_class_die",
+      "type": "calculated",
+      "value_type": "string",
+      "components": {
+        "type": "defaultIfNull",
+        "components": {
+          "type": "stat",
+          "stat": "level_up_selected_class_progression?.class?.hit_die"
+        },
+        "default_components": {
+          "type": "constant",
+          "value": "d8",
+          "value_type": "string"
+        }
+      },
+      "name": "Selected level-up class hit die"
+    },
+    {
+      "id": "level_up_class_per_level_hp",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hp_method"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "max",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "when",
+              "clauses": [
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d4",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 4,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d6",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 6,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d8",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 8,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d10",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 10,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d12",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 12,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d20",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 20,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "constant",
+                    "value_type": "bool",
+                    "value": true
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 8,
+                    "value_type": "integer"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "when",
+              "clauses": [
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d4",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 3,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d6",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 4,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d8",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 5,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d10",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 6,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d12",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 7,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "level_up_selected_class_die"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "d20",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 11,
+                    "value_type": "integer"
+                  }
+                },
+                {
+                  "condition": {
+                    "type": "constant",
+                    "value_type": "bool",
+                    "value": true
+                  },
+                  "components": {
+                    "type": "constant",
+                    "value": 5,
+                    "value_type": "integer"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "name": "HP for this class level (method)"
+    },
+    {
+      "id": "level_up_favored_hp_bonus",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "temp_level_up_favored_choice"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "hp",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          }
+        ]
+      },
+      "name": "Favored class +1 HP"
+    },
+    {
+      "id": "level_up_favored_skill_bonus",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "temp_level_up_favored_choice"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "skill",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          }
+        ]
+      },
+      "name": "Favored class +1 skill rank"
+    },
+    {
+      "id": "level_up_hp_gain_preview",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "add",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "level_up_class_per_level_hp"
+            },
+            {
+              "type": "stat",
+              "stat": "constitution_modifier"
+            },
+            {
+              "type": "stat",
+              "stat": "level_up_favored_hp_bonus"
+            }
+          ]
+        }
+      },
+      "name": "HP gained this level"
+    },
+    {
+      "id": "level_up_skill_points_preview",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "add",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "max",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  },
+                  {
+                    "type": "add",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "defaultIfNull",
+                          "components": {
+                            "type": "stat",
+                            "stat": "level_up_selected_class_progression?.class?.skill_ranks_per_level"
+                          },
+                          "default_components": {
+                            "type": "constant",
+                            "value": 2,
+                            "value_type": "integer"
+                          }
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "intelligence_modifier"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "stat",
+              "stat": "level_up_favored_skill_bonus"
+            }
+          ]
+        }
+      },
+      "name": "Skill ranks gained this level"
+    },
+    {
+      "id": "level_up_is_caster",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "not",
+        "components": {
+          "type": "isEmpty",
+          "components": {
+            "type": "defaultIfNull",
+            "components": {
+              "type": "stat",
+              "stat": "level_up_selected_class_progression?.class?.spellcasting_ability"
+            },
+            "default_components": {
+              "type": "constant",
+              "value": "",
+              "value_type": "string"
+            }
+          }
+        }
+      },
+      "name": "Selected level-up class is a caster"
+    },
+    {
+      "id": "level_up_asi_is_str",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "temp_level_up_asi_ability"
+            },
+            {
+              "type": "constant",
+              "value": "strength",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "ASI -> STR"
+    },
+    {
+      "id": "level_up_asi_is_dex",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "temp_level_up_asi_ability"
+            },
+            {
+              "type": "constant",
+              "value": "dexterity",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "ASI -> DEX"
+    },
+    {
+      "id": "level_up_asi_is_con",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "temp_level_up_asi_ability"
+            },
+            {
+              "type": "constant",
+              "value": "constitution",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "ASI -> CON"
+    },
+    {
+      "id": "level_up_asi_is_int",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "temp_level_up_asi_ability"
+            },
+            {
+              "type": "constant",
+              "value": "intelligence",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "ASI -> INT"
+    },
+    {
+      "id": "level_up_asi_is_wis",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "temp_level_up_asi_ability"
+            },
+            {
+              "type": "constant",
+              "value": "wisdom",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "ASI -> WIS"
+    },
+    {
+      "id": "level_up_asi_is_cha",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "temp_level_up_asi_ability"
+            },
+            {
+              "type": "constant",
+              "value": "charisma",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "ASI -> CHA"
+    },
+    {
+      "id": "level_up_favored_is_hp",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "temp_level_up_favored_choice"
+            },
+            {
+              "type": "constant",
+              "value": "hp",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "Favored -> HP"
+    },
+    {
       "id": "temp_asi_selection_1",
       "type": "base",
       "value_type": "string",
@@ -25176,6 +26507,24 @@
         {
           "id": "artifact",
           "name": "Artifact"
+        }
+      ]
+    },
+    {
+      "id": "level_up_favored_options",
+      "name": "Favored class bonus",
+      "types": [
+        {
+          "id": "hp",
+          "name": "+1 Hit Point"
+        },
+        {
+          "id": "skill",
+          "name": "+1 Skill Rank"
+        },
+        {
+          "id": "none",
+          "name": "No favored class bonus"
         }
       ]
     },
