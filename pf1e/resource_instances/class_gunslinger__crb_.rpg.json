@@ -1,0 +1,69 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "gunslinger__crb_",
+    "name": { "value": "Gunslinger" },
+    "source": { "value": "crb" },
+    "description": { "value": "### Hit Die\nd10.\n\n### Starting Wealth\n5d6 × 10 gp (average 175 gp).\n\n### Skill Ranks per Level\n4 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nThe gunslinger masters firearms, fueling daring deeds with a pool of grit. Grit pool = Wisdom modifier (minimum 1), regained by killing/critting with a firearm and other deed-specific events. Choose deeds as they become available. See the level table below." },
+    "hit_die": { "value": "d10" },
+    "class_hp_per_level": { "value": 10 },
+    "skill_ranks_per_level": { "value": 4 },
+    "skill_ranks_ability": { "value": "intelligence" },
+    "bab_progression": { "value": "full" },
+    "fortitude_progression": { "value": "good" },
+    "reflex_progression": { "value": "good" },
+    "will_progression": { "value": "poor" },
+    "class_skills": {
+      "value": [
+        "acrobatics",
+        "bluff",
+        "climb",
+        "craft",
+        "handle_animal",
+        "heal",
+        "intimidate",
+        "knowledge_engineering",
+        "knowledge_local",
+        "perception",
+        "profession",
+        "ride",
+        "sleight_of_hand",
+        "survival",
+        "swim"
+      ]
+    },
+    "starting_wealth": { "value": "5d6 × 10 gp" },
+    "alignment_restriction": { "value": "any" },
+    "weapon_proficiencies": { "value": ["simple", "martial", "firearm"] },
+    "armor_proficiencies": { "value": ["light", "medium"] },
+    "shield_proficiencies": { "value": ["buckler"] },
+    "class_features": {
+      "value": [
+        "L1: Gunsmith — Bonus Gunsmithing feat; start with a battered firearm (pistol or musket) only you can use without misfire penalty.",
+        "L1: Grit — Pool of grit = Wisdom modifier (min 1). Regain 1 grit on a killing blow or confirmed critical hit with a firearm (deeds may add other triggers).",
+        "L1: Deeds — Gain the level-1 deeds: Deadeye (resolve touch attacks beyond first range increment for grit), Gunslinger's Dodge (+2 AC vs one ranged attack for grit), Quick Clear (clear a misfired firearm), Steady Aim (+1 firearm range increment while you have ≥1 grit).",
+        "L2: Nimble +1 — +1 dodge bonus to AC while wearing light or no armor.",
+        "L3: Deeds — Gain the level-3 deeds: Gunslinger Initiative (+2 initiative and quick-draw a firearm with ≥1 grit), Pistol-Whip (melee strike with a firearm for grit), Utility Shot (spend grit for Blast Lock / Scoot Unattended Object / Stop Bleeding).",
+        "L4: Bonus Feat — Bonus combat feat.",
+        "L5: Gun Training 1 — Choose one firearm type; add Dexterity modifier to its damage and reduce its misfire value by 1.",
+        "L6: Nimble +2 — Dodge bonus increases (+1 at 2nd, +1 every 4 levels after).",
+        "L7: Deeds — Gain the level-7 deeds: Dead Shot (full-round, accumulate attacks into one shot), Startling Shot (shot to make a foe flat-footed), Targeting (called shots vs body parts for grit).",
+        "L8: Bonus Feat — Bonus combat feat.",
+        "L9: Gun Training 2 — Choose a second firearm type.",
+        "L10: Nimble +3.",
+        "L11: Deeds — Gain the level-11 deeds: Bleeding Wound (firearm damage causes bleed for grit), Expert Loading (reroll a misfire check), Lightning Reload (reload one firearm as a free/swift action with ≥1 grit).",
+        "L12: Bonus Feat — Bonus combat feat.",
+        "L13: Gun Training 3 — Choose a third firearm type.",
+        "L14: Nimble +4.",
+        "L15: Deeds — Gain the level-15 deeds: Menacing Shot (shot that shakes/frightens for grit), Slinger's Luck (reroll a Reflex save or grit-deed roll), Stunning Shot (spend 2 grit to stun a struck foe).",
+        "L16: Bonus Feat — Bonus combat feat.",
+        "L17: Gun Training 4 — Choose a fourth firearm type.",
+        "L18: Nimble +5.",
+        "L19: Deeds — Gain the level-19 deeds: Death's Shot (confirmed crit forces a save or die), Cheat Death (spend all grit to negate a killing blow), plus an improved capstone-tier shot.",
+        "L20: Bonus Feat — Bonus combat feat.",
+        "L20: True Grit — Capstone: choose two deeds; their grit costs are reduced (those costing 1 grit cost none; others cost 1 less)."
+      ]
+    },
+    "is_lore_only": { "value": false }
+  }
+}
