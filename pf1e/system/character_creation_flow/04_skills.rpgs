@@ -31,6 +31,21 @@ character_creation_page edit_skills_title() =
           margin_top = 4,
           is_visible = !isEmpty(class_skill_list),
         ),
+        // Live total-budget meter. skill_ranks_spent reads the stepper
+        // $view values (live, like point buy); skill_ranks_budget is a
+        // calc over committed prior-page stats (classes/INT) so it is
+        // stable on this page.
+        text(
+          id = "edit_character_skills_budget_meter",
+          text = if (skill_ranks_remaining < 0)
+            then concat(["OVER BUDGET — ", skill_ranks_spent, " of ", skill_ranks_budget,
+              " skill ranks used. Remove ", (skill_ranks_spent - skill_ranks_budget), "."])
+            else concat([skill_ranks_spent, " of ", skill_ranks_budget,
+              " skill ranks used, ", skill_ranks_remaining, " remaining"]),
+          style = "title",
+          bold = true,
+          margin_top = 10,
+        ),
         composite(
           id = "edit_skill_row_acrobatics",
           margin_top = 4,
@@ -49,7 +64,10 @@ character_creation_page edit_skills_title() =
               edit_stat = "acrobatics_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
+              validation_message = if (skill_ranks_remaining < 0)
+                then "Over your skill-rank budget — remove ranks before continuing."
+                else null,
             ),
             text(
               id = "edit_skill_row_total_acrobatics",
@@ -77,7 +95,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "appraise_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_appraise",
@@ -105,7 +123,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "bluff_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_bluff",
@@ -133,7 +151,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "climb_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_climb",
@@ -161,7 +179,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "craft_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_craft",
@@ -189,7 +207,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "diplomacy_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_diplomacy",
@@ -217,7 +235,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "disable_device_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_disable_device",
@@ -245,7 +263,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "disguise_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_disguise",
@@ -273,7 +291,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "escape_artist_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_escape_artist",
@@ -301,7 +319,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "fly_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_fly",
@@ -329,7 +347,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "handle_animal_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_handle_animal",
@@ -357,7 +375,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "heal_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_heal",
@@ -385,7 +403,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "intimidate_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_intimidate",
@@ -413,7 +431,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_arcana_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_arcana",
@@ -441,7 +459,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_dungeoneering_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_dungeoneering",
@@ -469,7 +487,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_engineering_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_engineering",
@@ -497,7 +515,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_geography_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_geography",
@@ -525,7 +543,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_history_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_history",
@@ -553,7 +571,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_local_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_local",
@@ -581,7 +599,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_nature_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_nature",
@@ -609,7 +627,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_nobility_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_nobility",
@@ -637,7 +655,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_planes_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_planes",
@@ -665,7 +683,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "knowledge_religion_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_knowledge_religion",
@@ -693,7 +711,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "linguistics_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_linguistics",
@@ -721,7 +739,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "perception_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_perception",
@@ -749,7 +767,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "perform_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_perform",
@@ -777,7 +795,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "profession_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_profession",
@@ -805,7 +823,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "ride_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_ride",
@@ -833,7 +851,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "sense_motive_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_sense_motive",
@@ -861,7 +879,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "sleight_of_hand_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_sleight_of_hand",
@@ -889,7 +907,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "spellcraft_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_spellcraft",
@@ -917,7 +935,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "stealth_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_stealth",
@@ -945,7 +963,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "survival_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_survival",
@@ -973,7 +991,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "swim_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_swim",
@@ -1001,7 +1019,7 @@ character_creation_page edit_skills_title() =
               edit_stat = "use_magic_device_ranks",
               change_amount = 1,
               min_value_allowed = 0,
-              max_value_allowed = 99,
+              calculated_max_value_allowed = level,
             ),
             text(
               id = "edit_skill_row_total_use_magic_device",

@@ -179,53 +179,98 @@ base string ability_score_method(name = "Ability score method") = "point_buy_15"
 
 // PF1e point-buy cost of one base score (legal range 7..18; <=7 floors at
 // -4, >=18 caps at 17).
+//
+// B.0.5 — CRITICAL reactivity fix. These read the stepper widget's LIVE
+// $view value ($view.edit_character_ability_scores_<abbr>), NOT the bound
+// *_score_base char stat. A stat() stepper behaves like select: it updates
+// $view.<widgetId> live on-page but the bound stat is stale until the
+// page commits. Upstream's live point-buy counter
+// (5e str_point_buy_point_worth) reads $view.<stepperId> for exactly this
+// reason. Reading the char stat here was why the counter was stale every
+// session through B.0.4. Default 10 = the score default (0 cost).
 calc integer str_point_buy_cost(name = "STR point-buy cost") = when {
-  strength_score_base <= 7 -> -4, strength_score_base == 8 -> -2,
-  strength_score_base == 9 -> -1, strength_score_base == 10 -> 0,
-  strength_score_base == 11 -> 1, strength_score_base == 12 -> 2,
-  strength_score_base == 13 -> 3, strength_score_base == 14 -> 5,
-  strength_score_base == 15 -> 7, strength_score_base == 16 -> 10,
-  strength_score_base == 17 -> 13, else -> 17,
+  ($view.edit_character_ability_scores_str? ?? 10) <= 7 -> -4,
+  ($view.edit_character_ability_scores_str? ?? 10) == 8 -> -2,
+  ($view.edit_character_ability_scores_str? ?? 10) == 9 -> -1,
+  ($view.edit_character_ability_scores_str? ?? 10) == 10 -> 0,
+  ($view.edit_character_ability_scores_str? ?? 10) == 11 -> 1,
+  ($view.edit_character_ability_scores_str? ?? 10) == 12 -> 2,
+  ($view.edit_character_ability_scores_str? ?? 10) == 13 -> 3,
+  ($view.edit_character_ability_scores_str? ?? 10) == 14 -> 5,
+  ($view.edit_character_ability_scores_str? ?? 10) == 15 -> 7,
+  ($view.edit_character_ability_scores_str? ?? 10) == 16 -> 10,
+  ($view.edit_character_ability_scores_str? ?? 10) == 17 -> 13,
+  else -> 17,
 };
 calc integer dex_point_buy_cost(name = "DEX point-buy cost") = when {
-  dexterity_score_base <= 7 -> -4, dexterity_score_base == 8 -> -2,
-  dexterity_score_base == 9 -> -1, dexterity_score_base == 10 -> 0,
-  dexterity_score_base == 11 -> 1, dexterity_score_base == 12 -> 2,
-  dexterity_score_base == 13 -> 3, dexterity_score_base == 14 -> 5,
-  dexterity_score_base == 15 -> 7, dexterity_score_base == 16 -> 10,
-  dexterity_score_base == 17 -> 13, else -> 17,
+  ($view.edit_character_ability_scores_dex? ?? 10) <= 7 -> -4,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 8 -> -2,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 9 -> -1,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 10 -> 0,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 11 -> 1,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 12 -> 2,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 13 -> 3,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 14 -> 5,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 15 -> 7,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 16 -> 10,
+  ($view.edit_character_ability_scores_dex? ?? 10) == 17 -> 13,
+  else -> 17,
 };
 calc integer con_point_buy_cost(name = "CON point-buy cost") = when {
-  constitution_score_base <= 7 -> -4, constitution_score_base == 8 -> -2,
-  constitution_score_base == 9 -> -1, constitution_score_base == 10 -> 0,
-  constitution_score_base == 11 -> 1, constitution_score_base == 12 -> 2,
-  constitution_score_base == 13 -> 3, constitution_score_base == 14 -> 5,
-  constitution_score_base == 15 -> 7, constitution_score_base == 16 -> 10,
-  constitution_score_base == 17 -> 13, else -> 17,
+  ($view.edit_character_ability_scores_con? ?? 10) <= 7 -> -4,
+  ($view.edit_character_ability_scores_con? ?? 10) == 8 -> -2,
+  ($view.edit_character_ability_scores_con? ?? 10) == 9 -> -1,
+  ($view.edit_character_ability_scores_con? ?? 10) == 10 -> 0,
+  ($view.edit_character_ability_scores_con? ?? 10) == 11 -> 1,
+  ($view.edit_character_ability_scores_con? ?? 10) == 12 -> 2,
+  ($view.edit_character_ability_scores_con? ?? 10) == 13 -> 3,
+  ($view.edit_character_ability_scores_con? ?? 10) == 14 -> 5,
+  ($view.edit_character_ability_scores_con? ?? 10) == 15 -> 7,
+  ($view.edit_character_ability_scores_con? ?? 10) == 16 -> 10,
+  ($view.edit_character_ability_scores_con? ?? 10) == 17 -> 13,
+  else -> 17,
 };
 calc integer int_point_buy_cost(name = "INT point-buy cost") = when {
-  intelligence_score_base <= 7 -> -4, intelligence_score_base == 8 -> -2,
-  intelligence_score_base == 9 -> -1, intelligence_score_base == 10 -> 0,
-  intelligence_score_base == 11 -> 1, intelligence_score_base == 12 -> 2,
-  intelligence_score_base == 13 -> 3, intelligence_score_base == 14 -> 5,
-  intelligence_score_base == 15 -> 7, intelligence_score_base == 16 -> 10,
-  intelligence_score_base == 17 -> 13, else -> 17,
+  ($view.edit_character_ability_scores_int? ?? 10) <= 7 -> -4,
+  ($view.edit_character_ability_scores_int? ?? 10) == 8 -> -2,
+  ($view.edit_character_ability_scores_int? ?? 10) == 9 -> -1,
+  ($view.edit_character_ability_scores_int? ?? 10) == 10 -> 0,
+  ($view.edit_character_ability_scores_int? ?? 10) == 11 -> 1,
+  ($view.edit_character_ability_scores_int? ?? 10) == 12 -> 2,
+  ($view.edit_character_ability_scores_int? ?? 10) == 13 -> 3,
+  ($view.edit_character_ability_scores_int? ?? 10) == 14 -> 5,
+  ($view.edit_character_ability_scores_int? ?? 10) == 15 -> 7,
+  ($view.edit_character_ability_scores_int? ?? 10) == 16 -> 10,
+  ($view.edit_character_ability_scores_int? ?? 10) == 17 -> 13,
+  else -> 17,
 };
 calc integer wis_point_buy_cost(name = "WIS point-buy cost") = when {
-  wisdom_score_base <= 7 -> -4, wisdom_score_base == 8 -> -2,
-  wisdom_score_base == 9 -> -1, wisdom_score_base == 10 -> 0,
-  wisdom_score_base == 11 -> 1, wisdom_score_base == 12 -> 2,
-  wisdom_score_base == 13 -> 3, wisdom_score_base == 14 -> 5,
-  wisdom_score_base == 15 -> 7, wisdom_score_base == 16 -> 10,
-  wisdom_score_base == 17 -> 13, else -> 17,
+  ($view.edit_character_ability_scores_wis? ?? 10) <= 7 -> -4,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 8 -> -2,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 9 -> -1,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 10 -> 0,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 11 -> 1,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 12 -> 2,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 13 -> 3,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 14 -> 5,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 15 -> 7,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 16 -> 10,
+  ($view.edit_character_ability_scores_wis? ?? 10) == 17 -> 13,
+  else -> 17,
 };
 calc integer cha_point_buy_cost(name = "CHA point-buy cost") = when {
-  charisma_score_base <= 7 -> -4, charisma_score_base == 8 -> -2,
-  charisma_score_base == 9 -> -1, charisma_score_base == 10 -> 0,
-  charisma_score_base == 11 -> 1, charisma_score_base == 12 -> 2,
-  charisma_score_base == 13 -> 3, charisma_score_base == 14 -> 5,
-  charisma_score_base == 15 -> 7, charisma_score_base == 16 -> 10,
-  charisma_score_base == 17 -> 13, else -> 17,
+  ($view.edit_character_ability_scores_cha? ?? 10) <= 7 -> -4,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 8 -> -2,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 9 -> -1,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 10 -> 0,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 11 -> 1,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 12 -> 2,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 13 -> 3,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 14 -> 5,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 15 -> 7,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 16 -> 10,
+  ($view.edit_character_ability_scores_cha? ?? 10) == 17 -> 13,
+  else -> 17,
 };
 
 calc integer ability_point_buy_total(name = "Point-buy points spent") =
@@ -239,26 +284,44 @@ calc integer ability_point_buy_budget(name = "Point-buy budget") = when {
   else -> 0,
 };
 
-// B.0.1: these MUST be direct boolean expressions. A `calc bool = when {
-// ... -> true, else -> false }` body did not yield a value the view
-// layer's is_visible evaluator treated as a real bool (the only such
-// pattern in the codebase; every working gate uses a direct expression),
-// so the roll button and point-buy readout never surfaced on device.
-calc bool ability_method_is_rolled(name = "Method is rolled") =
-  ability_score_method == "roll_4d6_drop_lowest"
-    || ability_score_method == "roll_3d6"
-    || ability_score_method == "roll_2d6_plus_6";
-
+// B.0.5: rolled methods dropped (user decision). Only Point Buy
+// 15/20/25 and Custom remain. (B.0.1: calc bool must be a direct
+// boolean expression, never a when{->true/else->false}.)
 calc bool ability_method_is_custom(name = "Method is custom") =
   ability_score_method == "custom";
 
-// Point buy is the inclusive default (anything not rolled and not custom),
-// so an uninitialised / unexpected value still shows the point-buy UI.
+// Point buy is the inclusive default (anything that isn't custom).
 calc bool ability_method_is_point_buy(name = "Method is point buy") =
-  !ability_method_is_rolled && !ability_method_is_custom;
+  !ability_method_is_custom;
 
 calc integer ability_points_remaining(name = "Point-buy points remaining") =
   ability_point_buy_budget - ability_point_buy_total;
+
+// B.0.5 Task 3 -- total skill-rank budget cap. `skill_ranks_spent` reads
+// the LIVE stepper $view values (same reactivity fix as point buy; see
+// REACTIVITY_DIAGNOSIS.md). Budget per PF1e: each class level grants
+// max(1, class skill ranks/level + INT mod); Human "Skilled" adds +1 per
+// level. Favored-class +1 skill is a level-up choice not tracked at
+// creation, so it is intentionally NOT added here (being slightly
+// generous beats wrongly blocking a legal build).
+calc integer skill_ranks_budget(name = "Skill ranks budget (total)") =
+  add(map(classes, mapper = ($c) =>
+    ($c.class_level * max([1, (($c.class?.skill_ranks_per_level ?? 2) + intelligence_modifier)]))))
+  + (if (race?.id ?? "") == "human__crb_" then level else 0);
+
+calc integer skill_ranks_spent(name = "Skill ranks spent") =
+  ($view.edit_skill_row_ranks_acrobatics? ?? 0) + ($view.edit_skill_row_ranks_appraise? ?? 0) + ($view.edit_skill_row_ranks_bluff? ?? 0) + ($view.edit_skill_row_ranks_climb? ?? 0) +
+  ($view.edit_skill_row_ranks_craft? ?? 0) + ($view.edit_skill_row_ranks_diplomacy? ?? 0) + ($view.edit_skill_row_ranks_disable_device? ?? 0) + ($view.edit_skill_row_ranks_disguise? ?? 0) +
+  ($view.edit_skill_row_ranks_escape_artist? ?? 0) + ($view.edit_skill_row_ranks_fly? ?? 0) + ($view.edit_skill_row_ranks_handle_animal? ?? 0) + ($view.edit_skill_row_ranks_heal? ?? 0) +
+  ($view.edit_skill_row_ranks_intimidate? ?? 0) + ($view.edit_skill_row_ranks_knowledge_arcana? ?? 0) + ($view.edit_skill_row_ranks_knowledge_dungeoneering? ?? 0) + ($view.edit_skill_row_ranks_knowledge_engineering? ?? 0) +
+  ($view.edit_skill_row_ranks_knowledge_geography? ?? 0) + ($view.edit_skill_row_ranks_knowledge_history? ?? 0) + ($view.edit_skill_row_ranks_knowledge_local? ?? 0) + ($view.edit_skill_row_ranks_knowledge_nature? ?? 0) +
+  ($view.edit_skill_row_ranks_knowledge_nobility? ?? 0) + ($view.edit_skill_row_ranks_knowledge_planes? ?? 0) + ($view.edit_skill_row_ranks_knowledge_religion? ?? 0) + ($view.edit_skill_row_ranks_linguistics? ?? 0) +
+  ($view.edit_skill_row_ranks_perception? ?? 0) + ($view.edit_skill_row_ranks_perform? ?? 0) + ($view.edit_skill_row_ranks_profession? ?? 0) + ($view.edit_skill_row_ranks_ride? ?? 0) +
+  ($view.edit_skill_row_ranks_sense_motive? ?? 0) + ($view.edit_skill_row_ranks_sleight_of_hand? ?? 0) + ($view.edit_skill_row_ranks_spellcraft? ?? 0) + ($view.edit_skill_row_ranks_stealth? ?? 0) +
+  ($view.edit_skill_row_ranks_survival? ?? 0) + ($view.edit_skill_row_ranks_swim? ?? 0) + ($view.edit_skill_row_ranks_use_magic_device? ?? 0);
+
+calc integer skill_ranks_remaining(name = "Skill ranks remaining") =
+  skill_ranks_budget - skill_ranks_spent;
 
 // (B.0.3's temp_roll_d1..d4 scratch stats were removed in B.0.4 along
 // with the dead post_edit auto-roll — see REACTIVITY_DIAGNOSIS.md

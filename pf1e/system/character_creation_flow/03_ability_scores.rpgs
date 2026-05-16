@@ -89,25 +89,6 @@ character_creation_page edit_ability_scores_title() =
             || $view.edit_character_ability_scores_method_select == "point_buy_20"
             || $view.edit_character_ability_scores_method_select == "point_buy_25",
         ),
-        // Rolled methods: auto-roll is impossible on this page (mechanics
-        // don't run in creation; post_edit is end-of-flow only). Honest
-        // pattern: the user rolls real dice and enters results via the
-        // steppers. Instruction text is method-specific via $view.
-        text(
-          id = "edit_character_ability_scores_help_rolled",
-          text = concat([
-            "Roll ",
-            (if $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest" then "4d6 and drop the lowest die"
-             else if $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6" then "2d6+6"
-             else "3d6"),
-            " once per ability (six times), then enter each result below with the steppers. Assign the values to whichever abilities you like.",
-          ]),
-          style = "caption",
-          margin_top = 8,
-          is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest"
-            || $view.edit_character_ability_scores_method_select == "roll_3d6"
-            || $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
-        ),
         text(
           id = "edit_character_ability_scores_help_custom",
           text = "Custom: enter any values you and your GM agree on. No budget is enforced.",
