@@ -782,6 +782,15 @@ base resource<feat>[] selected_feats(name = "Selected feats") = [];
 base resource<spell>[] known_spells(name = "Known spells") = [];
 base resource<spell>[] prepared_spells(name = "Prepared spells today") = [];
 
+// B.0 Task 5 — character traits. PF1e: pick 2 at creation, by convention
+// from 2 different categories. Two single slots make the distinct-category
+// rule enforceable in the creator.
+base resource<trait> trait_1(name = "Trait 1") = null;
+base resource<trait> trait_2(name = "Trait 2") = null;
+calc bool traits_share_category(name = "Traits share a category") =
+  notNull(trait_1) && notNull(trait_2)
+    && ((trait_1?.trait_category ?? "a") == (trait_2?.trait_category ?? "b"));
+
 base resource<weapon>[] weapons(name = "Weapons") = [];
 base resource<armor>[] armors(name = "All armor") = [];
 base resource<item>[] inventory(name = "Inventory") = [];

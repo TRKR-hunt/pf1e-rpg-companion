@@ -1,0 +1,116 @@
+// PF1e creation step: Traits.
+// Characters pick 2 traits at creation, by convention from 2 different
+// categories. Two single slots make that rule enforceable: slot 2 blocks
+// Next while it shares a category with slot 1. Both pickers are the
+// standard searchable resource selector over the full trait compendium
+// (1,239 traits). Mechanical effects are NOT auto-applied (see
+// SESSION_REPORT_B0_COMPLETION.md, Task 5): traits carry no effects field,
+// so the picked traits show their full rules text on the sheet and the
+// player applies the bonus by hand.
+character_creation_page edit_traits_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_traits_title", name = "Traits"),
+    view = list(
+      id = "edit_character_traits",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_character_traits_subheader",
+          text = "Pick 2 traits. By convention they must come from 2 different categories.",
+          style = "subhead",
+        ),
+        text(
+          id = "edit_character_traits_slot1_label",
+          text = "Trait 1",
+          style = "subhead",
+          bold = true,
+          margin_top = 16,
+        ),
+        composite(
+          id = "edit_character_traits_slot1_composite",
+          alignment = "end",
+          margin_bottom = 4,
+          subviews = [
+            popUpButton(
+              id = "edit_character_traits_slot1_see_details",
+              text = "SEE DETAILS",
+              pop_up_view = resource(
+                id = "edit_character_traits_slot1_bottom_sheet",
+                view_type = "display",
+                resource_id = "trait",
+                stat = "$view.edit_character_traits_slot1_select",
+              ),
+              pop_up_title = $view?.edit_character_traits_slot1_select?.name ?? "Trait",
+              display_cancel_button = true,
+              cancel_text = "OK",
+              is_visible = $view?.edit_character_traits_slot1_select? != null,
+            ),
+            selectResources(
+              id = "edit_character_traits_slot1_select",
+              stat = "trait_1",
+              resource_id = "trait",
+              validation_message = if !notNull($view.edit_character_traits_slot1_select)
+                then "Please pick your first trait"
+                else null,
+            ),
+          ],
+        ),
+        text(
+          id = "edit_character_traits_slot1_cat",
+          text = concat(["Category: ", (trait_1?.category_name ?? "")]),
+          style = "caption",
+          is_visible = notNull(trait_1),
+        ),
+        text(
+          id = "edit_character_traits_slot2_label",
+          text = "Trait 2",
+          style = "subhead",
+          bold = true,
+          margin_top = 20,
+        ),
+        composite(
+          id = "edit_character_traits_slot2_composite",
+          alignment = "end",
+          margin_bottom = 4,
+          subviews = [
+            popUpButton(
+              id = "edit_character_traits_slot2_see_details",
+              text = "SEE DETAILS",
+              pop_up_view = resource(
+                id = "edit_character_traits_slot2_bottom_sheet",
+                view_type = "display",
+                resource_id = "trait",
+                stat = "$view.edit_character_traits_slot2_select",
+              ),
+              pop_up_title = $view?.edit_character_traits_slot2_select?.name ?? "Trait",
+              display_cancel_button = true,
+              cancel_text = "OK",
+              is_visible = $view?.edit_character_traits_slot2_select? != null,
+            ),
+            selectResources(
+              id = "edit_character_traits_slot2_select",
+              stat = "trait_2",
+              resource_id = "trait",
+              validation_message = when {
+                !notNull($view.edit_character_traits_slot2_select) -> "Please pick your second trait",
+                traits_share_category -> "Both traits are in the same category. Pick a trait from a different category.",
+                else -> null,
+              },
+            ),
+          ],
+        ),
+        text(
+          id = "edit_character_traits_slot2_cat",
+          text = concat(["Category: ", (trait_2?.category_name ?? "")]),
+          style = "caption",
+          is_visible = notNull(trait_2),
+        ),
+        text(
+          id = "edit_character_traits_help",
+          text = "Trait bonuses are shown in full on your character sheet under Features & Feats; apply the listed bonus to the relevant roll yourself (most are a +1 or +2 trait bonus to a specific skill, save, or initiative).",
+          style = "caption",
+          margin_top = 20,
+        ),
+      ],
+    ),
+  );

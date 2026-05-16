@@ -90,6 +90,39 @@ character_sheet_section features() =
         always_show_collapse_icon = true,
       ),
       section(
+        id = "character_traits_subsection",
+        is_visible = notNull(trait_1) || notNull(trait_2),
+        header = [
+          text(
+            id = "character_traits_label",
+            margin_left = 24,
+            text = "Traits",
+            style = "section",
+          ),
+        ],
+        content = [
+          resource(
+            id = "character_traits_slot1_display",
+            resource_id = "trait",
+            stat = "trait_1",
+            view_type = "display",
+            is_visible = notNull(trait_1),
+          ),
+          resource(
+            id = "character_traits_slot2_display",
+            resource_id = "trait",
+            stat = "trait_2",
+            view_type = "display",
+            is_visible = notNull(trait_2),
+          ),
+        ],
+        show_divider = false,
+        content_item_min_width = 1,
+        collapsible = true,
+        start_collapsed = false,
+        always_show_collapse_icon = true,
+      ),
+      section(
         id = "selected_feats_subsection",
         is_visible = !isEmpty(selected_feats),
         header = [

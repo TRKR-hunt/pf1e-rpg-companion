@@ -5974,6 +5974,347 @@
     },
     {
       "title": {
+        "id": "edit_traits_title",
+        "name": "Traits"
+      },
+      "view": {
+        "type": "list",
+        "id": "edit_character_traits",
+        "padding": 32,
+        "subviews": [
+          {
+            "type": "text",
+            "id": "edit_character_traits_subheader",
+            "text": {
+              "type": "constant",
+              "value": "Pick 2 traits. By convention they must come from 2 different categories.",
+              "value_type": "string"
+            },
+            "style": "subhead"
+          },
+          {
+            "type": "text",
+            "id": "edit_character_traits_slot1_label",
+            "text": {
+              "type": "constant",
+              "value": "Trait 1",
+              "value_type": "string"
+            },
+            "style": "subhead",
+            "bold": true,
+            "margin_top": 16
+          },
+          {
+            "type": "composite",
+            "id": "edit_character_traits_slot1_composite",
+            "alignment": "end",
+            "margin_bottom": 4,
+            "subviews": [
+              {
+                "type": "popUpButton",
+                "id": "edit_character_traits_slot1_see_details",
+                "text": {
+                  "type": "constant",
+                  "value": "SEE DETAILS",
+                  "value_type": "string"
+                },
+                "pop_up_view": {
+                  "type": "resource",
+                  "id": "edit_character_traits_slot1_bottom_sheet",
+                  "view_type": "display",
+                  "resource_id": "trait",
+                  "stat": "$view.edit_character_traits_slot1_select"
+                },
+                "pop_up_title": {
+                  "type": "defaultIfNull",
+                  "components": {
+                    "type": "stat",
+                    "stat": "$view?.edit_character_traits_slot1_select?.name"
+                  },
+                  "default_components": {
+                    "type": "constant",
+                    "value": "Trait",
+                    "value_type": "string"
+                  }
+                },
+                "display_cancel_button": true,
+                "cancel_text": {
+                  "type": "constant",
+                  "value": "OK",
+                  "value_type": "string"
+                },
+                "is_visible": {
+                  "type": "notEquals",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "stat",
+                        "stat": "$view?.edit_character_traits_slot1_select?"
+                      },
+                      {
+                        "type": "constant",
+                        "value": null,
+                        "value_type": "string"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "selectResources",
+                "id": "edit_character_traits_slot1_select",
+                "stat": "trait_1",
+                "resource_id": "trait",
+                "validation_message": {
+                  "type": "when",
+                  "clauses": [
+                    {
+                      "condition": {
+                        "type": "not",
+                        "components": {
+                          "type": "notNull",
+                          "components": {
+                            "type": "stat",
+                            "stat": "$view.edit_character_traits_slot1_select"
+                          }
+                        }
+                      },
+                      "components": {
+                        "type": "constant",
+                        "value": "Please pick your first trait",
+                        "value_type": "string"
+                      }
+                    },
+                    {
+                      "condition": {
+                        "type": "constant",
+                        "value_type": "bool",
+                        "value": true
+                      },
+                      "components": {
+                        "type": "constant",
+                        "value": null,
+                        "value_type": "string"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "edit_character_traits_slot1_cat",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Category: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "trait_1?.category_name"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": "",
+                      "value_type": "string"
+                    }
+                  }
+                ]
+              }
+            },
+            "style": "caption",
+            "is_visible": {
+              "type": "notNull",
+              "components": {
+                "type": "stat",
+                "stat": "trait_1"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "edit_character_traits_slot2_label",
+            "text": {
+              "type": "constant",
+              "value": "Trait 2",
+              "value_type": "string"
+            },
+            "style": "subhead",
+            "bold": true,
+            "margin_top": 20
+          },
+          {
+            "type": "composite",
+            "id": "edit_character_traits_slot2_composite",
+            "alignment": "end",
+            "margin_bottom": 4,
+            "subviews": [
+              {
+                "type": "popUpButton",
+                "id": "edit_character_traits_slot2_see_details",
+                "text": {
+                  "type": "constant",
+                  "value": "SEE DETAILS",
+                  "value_type": "string"
+                },
+                "pop_up_view": {
+                  "type": "resource",
+                  "id": "edit_character_traits_slot2_bottom_sheet",
+                  "view_type": "display",
+                  "resource_id": "trait",
+                  "stat": "$view.edit_character_traits_slot2_select"
+                },
+                "pop_up_title": {
+                  "type": "defaultIfNull",
+                  "components": {
+                    "type": "stat",
+                    "stat": "$view?.edit_character_traits_slot2_select?.name"
+                  },
+                  "default_components": {
+                    "type": "constant",
+                    "value": "Trait",
+                    "value_type": "string"
+                  }
+                },
+                "display_cancel_button": true,
+                "cancel_text": {
+                  "type": "constant",
+                  "value": "OK",
+                  "value_type": "string"
+                },
+                "is_visible": {
+                  "type": "notEquals",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "stat",
+                        "stat": "$view?.edit_character_traits_slot2_select?"
+                      },
+                      {
+                        "type": "constant",
+                        "value": null,
+                        "value_type": "string"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "selectResources",
+                "id": "edit_character_traits_slot2_select",
+                "stat": "trait_2",
+                "resource_id": "trait",
+                "validation_message": {
+                  "type": "when",
+                  "clauses": [
+                    {
+                      "condition": {
+                        "type": "not",
+                        "components": {
+                          "type": "notNull",
+                          "components": {
+                            "type": "stat",
+                            "stat": "$view.edit_character_traits_slot2_select"
+                          }
+                        }
+                      },
+                      "components": {
+                        "type": "constant",
+                        "value": "Please pick your second trait",
+                        "value_type": "string"
+                      }
+                    },
+                    {
+                      "condition": {
+                        "type": "stat",
+                        "stat": "traits_share_category"
+                      },
+                      "components": {
+                        "type": "constant",
+                        "value": "Both traits are in the same category. Pick a trait from a different category.",
+                        "value_type": "string"
+                      }
+                    },
+                    {
+                      "condition": {
+                        "type": "constant",
+                        "value_type": "bool",
+                        "value": true
+                      },
+                      "components": {
+                        "type": "constant",
+                        "value": null,
+                        "value_type": "string"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "edit_character_traits_slot2_cat",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Category: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "trait_2?.category_name"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": "",
+                      "value_type": "string"
+                    }
+                  }
+                ]
+              }
+            },
+            "style": "caption",
+            "is_visible": {
+              "type": "notNull",
+              "components": {
+                "type": "stat",
+                "stat": "trait_2"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "edit_character_traits_help",
+            "text": {
+              "type": "constant",
+              "value": "Trait bonuses are shown in full on your character sheet under Features & Feats; apply the listed bonus to the relevant roll yourself (most are a +1 or +2 trait bonus to a specific skill, save, or initiative).",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "margin_top": 20
+          }
+        ]
+      }
+    },
+    {
+      "title": {
         "id": "edit_details_title",
         "name": "Details"
       },
@@ -8761,6 +9102,80 @@
             "content_item_min_width": 1,
             "collapsible": true,
             "start_collapsed": true,
+            "always_show_collapse_icon": true
+          },
+          {
+            "type": "section",
+            "id": "character_traits_subsection",
+            "is_visible": {
+              "type": "or",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "notNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "trait_1"
+                    }
+                  },
+                  {
+                    "type": "notNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "trait_2"
+                    }
+                  }
+                ]
+              }
+            },
+            "header": [
+              {
+                "type": "text",
+                "id": "character_traits_label",
+                "margin_left": 24,
+                "text": {
+                  "type": "constant",
+                  "value": "Traits",
+                  "value_type": "string"
+                },
+                "style": "section"
+              }
+            ],
+            "content": [
+              {
+                "type": "resource",
+                "id": "character_traits_slot1_display",
+                "resource_id": "trait",
+                "stat": "trait_1",
+                "view_type": "display",
+                "is_visible": {
+                  "type": "notNull",
+                  "components": {
+                    "type": "stat",
+                    "stat": "trait_1"
+                  }
+                }
+              },
+              {
+                "type": "resource",
+                "id": "character_traits_slot2_display",
+                "resource_id": "trait",
+                "stat": "trait_2",
+                "view_type": "display",
+                "is_visible": {
+                  "type": "notNull",
+                  "components": {
+                    "type": "stat",
+                    "stat": "trait_2"
+                  }
+                }
+              }
+            ],
+            "show_divider": false,
+            "content_item_min_width": 1,
+            "collapsible": true,
+            "start_collapsed": false,
             "always_show_collapse_icon": true
           },
           {
@@ -18844,6 +19259,82 @@
       "sub_value_type": "resource",
       "resource_type": "spell",
       "name": "Prepared spells today"
+    },
+    {
+      "id": "trait_1",
+      "type": "base",
+      "value_type": "resource",
+      "default_value": null,
+      "resource_type": "trait",
+      "name": "Trait 1"
+    },
+    {
+      "id": "trait_2",
+      "type": "base",
+      "value_type": "resource",
+      "default_value": null,
+      "resource_type": "trait",
+      "name": "Trait 2"
+    },
+    {
+      "id": "traits_share_category",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "and",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "notNull",
+              "components": {
+                "type": "stat",
+                "stat": "trait_1"
+              }
+            },
+            {
+              "type": "notNull",
+              "components": {
+                "type": "stat",
+                "stat": "trait_2"
+              }
+            },
+            {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "trait_1?.trait_category"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": "a",
+                      "value_type": "string"
+                    }
+                  },
+                  {
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "trait_2?.trait_category"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": "b",
+                      "value_type": "string"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "name": "Traits share a category"
     },
     {
       "id": "weapons",
