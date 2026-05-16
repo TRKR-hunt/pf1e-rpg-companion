@@ -101,9 +101,17 @@ character_creation_page edit_class_title() =
           margin_top = 4,
           is_visible = !isEmpty(classes),
         ),
+        // Reactivity: this echoes the LIVE select value ($view.<selectId>),
+        // not a calc over the hp_method stat (which is stale on-page until
+        // commit — see REACTIVITY_DIAGNOSIS.md). Final HP is computed from
+        // hp_method when the page commits.
         text(
           id = "edit_character_class_hp_preview",
-          text = concat(["Max HP: ", max_hp]),
+          text = concat([
+            "HP method selected: ",
+            ($view.edit_character_class_hp_method_select ?? "average"),
+            " — final Max HP is calculated when you continue.",
+          ]),
           style = "text",
           bold = true,
           margin_top = 8,

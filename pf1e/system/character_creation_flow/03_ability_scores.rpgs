@@ -1,10 +1,14 @@
 // PF1e creation step 3: Ability scores.
-// The method dropdown (ability_score_methods enum) selects how scores are
-// generated. Point-buy variants enforce a 15/20/25 budget live against the
-// six *base* (pre-racial) scores. Rolled variants expose a Roll button that
-// populates the bases (4d6 drop lowest / 3d6 / 2d6+6); the user can then
-// reassign by editing the boxes. Custom = unconstrained free entry. Racial
-// modifiers apply downstream automatically (final-scores line shows them).
+//
+// REACTIVITY (see .local-notes/REACTIVITY_DIAGNOSIS.md):
+// `select(stat="ability_score_method")` only updates
+// `$view.edit_character_ability_scores_method_select` live on-page; the
+// `ability_score_method` char stat (and any calc over it) is stale until
+// the page commits. So EVERY method-dependent visibility/branch here gates
+// on `$view.edit_character_ability_scores_method_select`, never on a calc
+// over the select's stat. The point-buy budget is also derived inline from
+// `$view` (it would otherwise depend on the stale select stat). `spent`
+// reads `*_score_base`, which are `edit_stat`-bound and therefore live.
 character_creation_page edit_ability_scores_title() =
   characterCreationPage(
     title = displayableData(id = "edit_ability_scores_title", name = "Ability scores"),
@@ -40,47 +44,96 @@ character_creation_page edit_ability_scores_title() =
           text = "Point buy costs (per ability): 7=-4, 8=-2, 9=-1, 10=0, 11=+1, 12=+2, 13=+3, 14=+5, 15=+7, 16=+10, 17=+13, 18=+17. Spend up to your budget; legal base range is 7-18.",
           style = "caption",
           margin_top = 8,
-          is_visible = ability_method_is_point_buy,
+          is_visible = $view.edit_character_ability_scores_method_select == "point_buy_15"
+            || $view.edit_character_ability_scores_method_select == "point_buy_20"
+            || $view.edit_character_ability_scores_method_select == "point_buy_25",
         ),
+        // ---- single point-buy tracker (collapsed from the old two) ----
+        // budget derived inline from the LIVE select value; spent is a calc
+        // over edit_stat-bound *_score_base (live). remaining = budget-spent.
+        text(
+          id = "edit_character_ability_scores_pointbuy_meter",
+          text = if (((if $view.edit_character_ability_scores_method_select == "point_buy_25" then 25
+                        else if $view.edit_character_ability_scores_method_select == "point_buy_20" then 20
+                        else 15) - ability_point_buy_total) < 0)
+            then concat([
+              "OVER BUDGET — Point Buy ",
+              (if $view.edit_character_ability_scores_method_select == "point_buy_25" then 25
+               else if $view.edit_character_ability_scores_method_select == "point_buy_20" then 20
+               else 15),
+              ": spent ", ability_point_buy_total,
+              ". Reduce a score.",
+            ])
+            else concat([
+              "Point Buy ",
+              (if $view.edit_character_ability_scores_method_select == "point_buy_25" then 25
+               else if $view.edit_character_ability_scores_method_select == "point_buy_20" then 20
+               else 15),
+              " — spent ", ability_point_buy_total,
+              ", ",
+              ((if $view.edit_character_ability_scores_method_select == "point_buy_25" then 25
+                else if $view.edit_character_ability_scores_method_select == "point_buy_20" then 20
+                else 15) - ability_point_buy_total),
+              " remaining",
+            ]),
+          style = "title",
+          bold = true,
+          margin_top = 14,
+          is_visible = $view.edit_character_ability_scores_method_select == "point_buy_15"
+            || $view.edit_character_ability_scores_method_select == "point_buy_20"
+            || $view.edit_character_ability_scores_method_select == "point_buy_25",
+        ),
+        // ---- rolled methods: help + one button per method ----
         text(
           id = "edit_character_ability_scores_help_rolled",
-          text = "Tap Roll to generate six scores with the chosen method. You can then edit the boxes to assign each roll to the ability you want.",
+          text = "Tap the roll button to generate six values into the boxes below, then edit any box to assign each value to the ability you want.",
           style = "caption",
           margin_top = 8,
-          is_visible = ability_method_is_rolled,
+          is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest"
+            || $view.edit_character_ability_scores_method_select == "roll_3d6"
+            || $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
         ),
         button(
-          id = "edit_character_ability_scores_roll_button",
-          text = "ROLL ABILITY SCORES",
-          event = event(name = "roll_ability_scores"),
+          id = "edit_character_ability_scores_roll_4d6_button",
+          text = "ROLL 4d6 DROP LOWEST x6",
+          event = event(name = "roll_abilities_4d6"),
           margin_top = 8,
-          is_visible = ability_method_is_rolled,
+          is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest",
+        ),
+        button(
+          id = "edit_character_ability_scores_roll_3d6_button",
+          text = "ROLL 3d6 x6",
+          event = event(name = "roll_abilities_3d6"),
+          margin_top = 8,
+          is_visible = $view.edit_character_ability_scores_method_select == "roll_3d6",
+        ),
+        button(
+          id = "edit_character_ability_scores_roll_2d6p6_button",
+          text = "ROLL 2d6+6 x6",
+          event = event(name = "roll_abilities_2d6p6"),
+          margin_top = 8,
+          is_visible = $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
+        ),
+        text(
+          id = "edit_character_ability_scores_rolled_readout",
+          text = concat([
+            "Rolled: STR ", strength_score_base, "  DEX ", dexterity_score_base,
+            "  CON ", constitution_score_base, "  INT ", intelligence_score_base,
+            "  WIS ", wisdom_score_base, "  CHA ", charisma_score_base,
+            "   (edit any box to reassign)",
+          ]),
+          style = "caption",
+          margin_top = 6,
+          is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest"
+            || $view.edit_character_ability_scores_method_select == "roll_3d6"
+            || $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
         ),
         text(
           id = "edit_character_ability_scores_help_custom",
           text = "Custom: enter any values you and your GM agree on. No budget is enforced.",
           style = "caption",
           margin_top = 8,
-          is_visible = ability_method_is_custom,
-        ),
-        text(
-          id = "edit_character_ability_scores_pointbuy_meter",
-          text = if (ability_points_remaining < 0)
-            then concat([
-              "OVER BUDGET by ", (ability_point_buy_total - ability_point_buy_budget),
-              "  —  Point Buy ", ability_point_buy_budget,
-              ": spent ", ability_point_buy_total,
-              ". Reduce a score.",
-            ])
-            else concat([
-              "Point Buy ", ability_point_buy_budget,
-              "  —  spent ", ability_point_buy_total,
-              ", ", ability_points_remaining, " remaining",
-            ]),
-          style = "title",
-          bold = true,
-          margin_top = 14,
-          is_visible = ability_method_is_point_buy,
+          is_visible = $view.edit_character_ability_scores_method_select == "custom",
         ),
         composite(
           id = "edit_character_ability_scores_inputs",
@@ -96,8 +149,13 @@ character_creation_page edit_ability_scores_title() =
               signed = false,
               hint = "10",
               label = "STR",
-              validation_message = if (ability_method_is_point_buy && ability_points_remaining < 0)
-                then concat(["Over budget by ", (ability_point_buy_total - ability_point_buy_budget), " point(s). Reduce a score."])
+              validation_message = if ((($view.edit_character_ability_scores_method_select == "point_buy_15"
+                  || $view.edit_character_ability_scores_method_select == "point_buy_20"
+                  || $view.edit_character_ability_scores_method_select == "point_buy_25"))
+                && (((if $view.edit_character_ability_scores_method_select == "point_buy_25" then 25
+                      else if $view.edit_character_ability_scores_method_select == "point_buy_20" then 20
+                      else 15) - ability_point_buy_total) < 0))
+                then "Over budget — reduce a score before continuing."
                 else null,
             ),
             text(
@@ -151,16 +209,6 @@ character_creation_page edit_ability_scores_title() =
               label = "CHA",
             ),
           ],
-        ),
-        text(
-          id = "edit_character_ability_scores_pointbuy_status",
-          text = if (ability_points_remaining < 0)
-            then concat(["OVER BUDGET by ", (ability_point_buy_total - ability_point_buy_budget), " — reduce a score"])
-            else concat([ability_points_remaining, " of ", ability_point_buy_budget, " points remaining"]),
-          style = "text",
-          bold = true,
-          margin_top = 12,
-          is_visible = ability_method_is_point_buy,
         ),
         text(
           id = "edit_character_ability_scores_totals_header",

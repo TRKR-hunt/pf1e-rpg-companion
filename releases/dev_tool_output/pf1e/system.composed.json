@@ -2099,12 +2099,25 @@
                 "components": [
                   {
                     "type": "constant",
-                    "value": "Max HP: ",
+                    "value": "HP method selected: ",
                     "value_type": "string"
                   },
                   {
-                    "type": "stat",
-                    "stat": "max_hp"
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "$view.edit_character_class_hp_method_select"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": "average",
+                      "value_type": "string"
+                    }
+                  },
+                  {
+                    "type": "constant",
+                    "value": " — final Max HP is calculated when you continue.",
+                    "value_type": "string"
                   }
                 ]
               }
@@ -2182,55 +2195,63 @@
             "style": "caption",
             "margin_top": 8,
             "is_visible": {
-              "type": "stat",
-              "stat": "ability_method_is_point_buy"
-            }
-          },
-          {
-            "type": "text",
-            "id": "edit_character_ability_scores_help_rolled",
-            "text": {
-              "type": "constant",
-              "value": "Tap Roll to generate six scores with the chosen method. You can then edit the boxes to assign each roll to the ability you want.",
-              "value_type": "string"
-            },
-            "style": "caption",
-            "margin_top": 8,
-            "is_visible": {
-              "type": "stat",
-              "stat": "ability_method_is_rolled"
-            }
-          },
-          {
-            "type": "button",
-            "id": "edit_character_ability_scores_roll_button",
-            "text": {
-              "type": "constant",
-              "value": "ROLL ABILITY SCORES",
-              "value_type": "string"
-            },
-            "event": {
-              "name": "roll_ability_scores"
-            },
-            "margin_top": 8,
-            "is_visible": {
-              "type": "stat",
-              "stat": "ability_method_is_rolled"
-            }
-          },
-          {
-            "type": "text",
-            "id": "edit_character_ability_scores_help_custom",
-            "text": {
-              "type": "constant",
-              "value": "Custom: enter any values you and your GM agree on. No budget is enforced.",
-              "value_type": "string"
-            },
-            "style": "caption",
-            "margin_top": 8,
-            "is_visible": {
-              "type": "stat",
-              "stat": "ability_method_is_custom"
+              "type": "or",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "point_buy_15",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "point_buy_20",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "point_buy_25",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
             }
           },
           {
@@ -2246,8 +2267,81 @@
                       "type": "list",
                       "components": [
                         {
-                          "type": "stat",
-                          "stat": "ability_points_remaining"
+                          "type": "subtract",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "when",
+                                "clauses": [
+                                  {
+                                    "condition": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "stat",
+                                            "stat": "$view.edit_character_ability_scores_method_select"
+                                          },
+                                          {
+                                            "type": "constant",
+                                            "value": "point_buy_25",
+                                            "value_type": "string"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "components": {
+                                      "type": "constant",
+                                      "value": 25,
+                                      "value_type": "integer"
+                                    }
+                                  },
+                                  {
+                                    "condition": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "stat",
+                                            "stat": "$view.edit_character_ability_scores_method_select"
+                                          },
+                                          {
+                                            "type": "constant",
+                                            "value": "point_buy_20",
+                                            "value_type": "string"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "components": {
+                                      "type": "constant",
+                                      "value": 20,
+                                      "value_type": "integer"
+                                    }
+                                  },
+                                  {
+                                    "condition": {
+                                      "type": "constant",
+                                      "value_type": "bool",
+                                      "value": true
+                                    },
+                                    "components": {
+                                      "type": "constant",
+                                      "value": 15,
+                                      "value_type": "integer"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "stat",
+                                "stat": "ability_point_buy_total"
+                              }
+                            ]
+                          }
                         },
                         {
                           "type": "constant",
@@ -2264,33 +2358,73 @@
                       "components": [
                         {
                           "type": "constant",
-                          "value": "OVER BUDGET by ",
+                          "value": "OVER BUDGET — Point Buy ",
                           "value_type": "string"
                         },
                         {
-                          "type": "subtract",
-                          "components": {
-                            "type": "list",
-                            "components": [
-                              {
-                                "type": "stat",
-                                "stat": "ability_point_buy_total"
+                          "type": "when",
+                          "clauses": [
+                            {
+                              "condition": {
+                                "type": "equals",
+                                "components": {
+                                  "type": "list",
+                                  "components": [
+                                    {
+                                      "type": "stat",
+                                      "stat": "$view.edit_character_ability_scores_method_select"
+                                    },
+                                    {
+                                      "type": "constant",
+                                      "value": "point_buy_25",
+                                      "value_type": "string"
+                                    }
+                                  ]
+                                }
                               },
-                              {
-                                "type": "stat",
-                                "stat": "ability_point_buy_budget"
+                              "components": {
+                                "type": "constant",
+                                "value": 25,
+                                "value_type": "integer"
                               }
-                            ]
-                          }
-                        },
-                        {
-                          "type": "constant",
-                          "value": "  —  Point Buy ",
-                          "value_type": "string"
-                        },
-                        {
-                          "type": "stat",
-                          "stat": "ability_point_buy_budget"
+                            },
+                            {
+                              "condition": {
+                                "type": "equals",
+                                "components": {
+                                  "type": "list",
+                                  "components": [
+                                    {
+                                      "type": "stat",
+                                      "stat": "$view.edit_character_ability_scores_method_select"
+                                    },
+                                    {
+                                      "type": "constant",
+                                      "value": "point_buy_20",
+                                      "value_type": "string"
+                                    }
+                                  ]
+                                }
+                              },
+                              "components": {
+                                "type": "constant",
+                                "value": 20,
+                                "value_type": "integer"
+                              }
+                            },
+                            {
+                              "condition": {
+                                "type": "constant",
+                                "value_type": "bool",
+                                "value": true
+                              },
+                              "components": {
+                                "type": "constant",
+                                "value": 15,
+                                "value_type": "integer"
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "constant",
@@ -2327,12 +2461,73 @@
                           "value_type": "string"
                         },
                         {
-                          "type": "stat",
-                          "stat": "ability_point_buy_budget"
+                          "type": "when",
+                          "clauses": [
+                            {
+                              "condition": {
+                                "type": "equals",
+                                "components": {
+                                  "type": "list",
+                                  "components": [
+                                    {
+                                      "type": "stat",
+                                      "stat": "$view.edit_character_ability_scores_method_select"
+                                    },
+                                    {
+                                      "type": "constant",
+                                      "value": "point_buy_25",
+                                      "value_type": "string"
+                                    }
+                                  ]
+                                }
+                              },
+                              "components": {
+                                "type": "constant",
+                                "value": 25,
+                                "value_type": "integer"
+                              }
+                            },
+                            {
+                              "condition": {
+                                "type": "equals",
+                                "components": {
+                                  "type": "list",
+                                  "components": [
+                                    {
+                                      "type": "stat",
+                                      "stat": "$view.edit_character_ability_scores_method_select"
+                                    },
+                                    {
+                                      "type": "constant",
+                                      "value": "point_buy_20",
+                                      "value_type": "string"
+                                    }
+                                  ]
+                                }
+                              },
+                              "components": {
+                                "type": "constant",
+                                "value": 20,
+                                "value_type": "integer"
+                              }
+                            },
+                            {
+                              "condition": {
+                                "type": "constant",
+                                "value_type": "bool",
+                                "value": true
+                              },
+                              "components": {
+                                "type": "constant",
+                                "value": 15,
+                                "value_type": "integer"
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "constant",
-                          "value": "  —  spent ",
+                          "value": " — spent ",
                           "value_type": "string"
                         },
                         {
@@ -2345,8 +2540,81 @@
                           "value_type": "string"
                         },
                         {
-                          "type": "stat",
-                          "stat": "ability_points_remaining"
+                          "type": "subtract",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "when",
+                                "clauses": [
+                                  {
+                                    "condition": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "stat",
+                                            "stat": "$view.edit_character_ability_scores_method_select"
+                                          },
+                                          {
+                                            "type": "constant",
+                                            "value": "point_buy_25",
+                                            "value_type": "string"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "components": {
+                                      "type": "constant",
+                                      "value": 25,
+                                      "value_type": "integer"
+                                    }
+                                  },
+                                  {
+                                    "condition": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "stat",
+                                            "stat": "$view.edit_character_ability_scores_method_select"
+                                          },
+                                          {
+                                            "type": "constant",
+                                            "value": "point_buy_20",
+                                            "value_type": "string"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "components": {
+                                      "type": "constant",
+                                      "value": 20,
+                                      "value_type": "integer"
+                                    }
+                                  },
+                                  {
+                                    "condition": {
+                                      "type": "constant",
+                                      "value_type": "bool",
+                                      "value": true
+                                    },
+                                    "components": {
+                                      "type": "constant",
+                                      "value": 15,
+                                      "value_type": "integer"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "stat",
+                                "stat": "ability_point_buy_total"
+                              }
+                            ]
+                          }
                         },
                         {
                           "type": "constant",
@@ -2363,8 +2631,383 @@
             "bold": true,
             "margin_top": 14,
             "is_visible": {
-              "type": "stat",
-              "stat": "ability_method_is_point_buy"
+              "type": "or",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "point_buy_15",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "point_buy_20",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "point_buy_25",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "edit_character_ability_scores_help_rolled",
+            "text": {
+              "type": "constant",
+              "value": "Tap the roll button to generate six values into the boxes below, then edit any box to assign each value to the ability you want.",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "margin_top": 8,
+            "is_visible": {
+              "type": "or",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "roll_4d6_drop_lowest",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "roll_3d6",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "roll_2d6_plus_6",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "button",
+            "id": "edit_character_ability_scores_roll_4d6_button",
+            "text": {
+              "type": "constant",
+              "value": "ROLL 4d6 DROP LOWEST x6",
+              "value_type": "string"
+            },
+            "event": {
+              "name": "roll_abilities_4d6"
+            },
+            "margin_top": 8,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "$view.edit_character_ability_scores_method_select"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "roll_4d6_drop_lowest",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "button",
+            "id": "edit_character_ability_scores_roll_3d6_button",
+            "text": {
+              "type": "constant",
+              "value": "ROLL 3d6 x6",
+              "value_type": "string"
+            },
+            "event": {
+              "name": "roll_abilities_3d6"
+            },
+            "margin_top": 8,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "$view.edit_character_ability_scores_method_select"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "roll_3d6",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "button",
+            "id": "edit_character_ability_scores_roll_2d6p6_button",
+            "text": {
+              "type": "constant",
+              "value": "ROLL 2d6+6 x6",
+              "value_type": "string"
+            },
+            "event": {
+              "name": "roll_abilities_2d6p6"
+            },
+            "margin_top": 8,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "$view.edit_character_ability_scores_method_select"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "roll_2d6_plus_6",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "edit_character_ability_scores_rolled_readout",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Rolled: STR ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "strength_score_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  DEX ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "dexterity_score_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  CON ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "constitution_score_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  INT ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "intelligence_score_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  WIS ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "wisdom_score_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  CHA ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "charisma_score_base"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "   (edit any box to reassign)",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "style": "caption",
+            "margin_top": 6,
+            "is_visible": {
+              "type": "or",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "roll_4d6_drop_lowest",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "roll_3d6",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "$view.edit_character_ability_scores_method_select"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "roll_2d6_plus_6",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "edit_character_ability_scores_help_custom",
+            "text": {
+              "type": "constant",
+              "value": "Custom: enter any values you and your GM agree on. No budget is enforced.",
+              "value_type": "string"
+            },
+            "style": "caption",
+            "margin_top": 8,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "$view.edit_character_ability_scores_method_select"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "custom",
+                    "value_type": "string"
+                  }
+                ]
+              }
             }
           },
           {
@@ -2401,8 +3044,63 @@
                           "type": "list",
                           "components": [
                             {
-                              "type": "stat",
-                              "stat": "ability_method_is_point_buy"
+                              "type": "or",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "equals",
+                                    "components": {
+                                      "type": "list",
+                                      "components": [
+                                        {
+                                          "type": "stat",
+                                          "stat": "$view.edit_character_ability_scores_method_select"
+                                        },
+                                        {
+                                          "type": "constant",
+                                          "value": "point_buy_15",
+                                          "value_type": "string"
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "equals",
+                                    "components": {
+                                      "type": "list",
+                                      "components": [
+                                        {
+                                          "type": "stat",
+                                          "stat": "$view.edit_character_ability_scores_method_select"
+                                        },
+                                        {
+                                          "type": "constant",
+                                          "value": "point_buy_20",
+                                          "value_type": "string"
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "equals",
+                                    "components": {
+                                      "type": "list",
+                                      "components": [
+                                        {
+                                          "type": "stat",
+                                          "stat": "$view.edit_character_ability_scores_method_select"
+                                        },
+                                        {
+                                          "type": "constant",
+                                          "value": "point_buy_25",
+                                          "value_type": "string"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
                             },
                             {
                               "type": "lessThan",
@@ -2410,8 +3108,81 @@
                                 "type": "list",
                                 "components": [
                                   {
-                                    "type": "stat",
-                                    "stat": "ability_points_remaining"
+                                    "type": "subtract",
+                                    "components": {
+                                      "type": "list",
+                                      "components": [
+                                        {
+                                          "type": "when",
+                                          "clauses": [
+                                            {
+                                              "condition": {
+                                                "type": "equals",
+                                                "components": {
+                                                  "type": "list",
+                                                  "components": [
+                                                    {
+                                                      "type": "stat",
+                                                      "stat": "$view.edit_character_ability_scores_method_select"
+                                                    },
+                                                    {
+                                                      "type": "constant",
+                                                      "value": "point_buy_25",
+                                                      "value_type": "string"
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              "components": {
+                                                "type": "constant",
+                                                "value": 25,
+                                                "value_type": "integer"
+                                              }
+                                            },
+                                            {
+                                              "condition": {
+                                                "type": "equals",
+                                                "components": {
+                                                  "type": "list",
+                                                  "components": [
+                                                    {
+                                                      "type": "stat",
+                                                      "stat": "$view.edit_character_ability_scores_method_select"
+                                                    },
+                                                    {
+                                                      "type": "constant",
+                                                      "value": "point_buy_20",
+                                                      "value_type": "string"
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              "components": {
+                                                "type": "constant",
+                                                "value": 20,
+                                                "value_type": "integer"
+                                              }
+                                            },
+                                            {
+                                              "condition": {
+                                                "type": "constant",
+                                                "value_type": "bool",
+                                                "value": true
+                                              },
+                                              "components": {
+                                                "type": "constant",
+                                                "value": 15,
+                                                "value_type": "integer"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "stat",
+                                          "stat": "ability_point_buy_total"
+                                        }
+                                      ]
+                                    }
                                   },
                                   {
                                     "type": "constant",
@@ -2425,38 +3196,9 @@
                         }
                       },
                       "components": {
-                        "type": "concat",
-                        "components": {
-                          "type": "list",
-                          "components": [
-                            {
-                              "type": "constant",
-                              "value": "Over budget by ",
-                              "value_type": "string"
-                            },
-                            {
-                              "type": "subtract",
-                              "components": {
-                                "type": "list",
-                                "components": [
-                                  {
-                                    "type": "stat",
-                                    "stat": "ability_point_buy_total"
-                                  },
-                                  {
-                                    "type": "stat",
-                                    "stat": "ability_point_buy_budget"
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "type": "constant",
-                              "value": " point(s). Reduce a score.",
-                              "value_type": "string"
-                            }
-                          ]
-                        }
+                        "type": "constant",
+                        "value": "Over budget — reduce a score before continuing.",
+                        "value_type": "string"
                       }
                     },
                     {
@@ -2570,108 +3312,6 @@
                 }
               }
             ]
-          },
-          {
-            "type": "text",
-            "id": "edit_character_ability_scores_pointbuy_status",
-            "text": {
-              "type": "when",
-              "clauses": [
-                {
-                  "condition": {
-                    "type": "lessThan",
-                    "components": {
-                      "type": "list",
-                      "components": [
-                        {
-                          "type": "stat",
-                          "stat": "ability_points_remaining"
-                        },
-                        {
-                          "type": "constant",
-                          "value": 0,
-                          "value_type": "integer"
-                        }
-                      ]
-                    }
-                  },
-                  "components": {
-                    "type": "concat",
-                    "components": {
-                      "type": "list",
-                      "components": [
-                        {
-                          "type": "constant",
-                          "value": "OVER BUDGET by ",
-                          "value_type": "string"
-                        },
-                        {
-                          "type": "subtract",
-                          "components": {
-                            "type": "list",
-                            "components": [
-                              {
-                                "type": "stat",
-                                "stat": "ability_point_buy_total"
-                              },
-                              {
-                                "type": "stat",
-                                "stat": "ability_point_buy_budget"
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "type": "constant",
-                          "value": " — reduce a score",
-                          "value_type": "string"
-                        }
-                      ]
-                    }
-                  }
-                },
-                {
-                  "condition": {
-                    "type": "constant",
-                    "value_type": "bool",
-                    "value": true
-                  },
-                  "components": {
-                    "type": "concat",
-                    "components": {
-                      "type": "list",
-                      "components": [
-                        {
-                          "type": "stat",
-                          "stat": "ability_points_remaining"
-                        },
-                        {
-                          "type": "constant",
-                          "value": " of ",
-                          "value_type": "string"
-                        },
-                        {
-                          "type": "stat",
-                          "stat": "ability_point_buy_budget"
-                        },
-                        {
-                          "type": "constant",
-                          "value": " points remaining",
-                          "value_type": "string"
-                        }
-                      ]
-                    }
-                  }
-                }
-              ]
-            },
-            "style": "text",
-            "bold": true,
-            "margin_top": 12,
-            "is_visible": {
-              "type": "stat",
-              "stat": "ability_method_is_point_buy"
-            }
           },
           {
             "type": "text",
@@ -29199,7 +29839,7 @@
       "event_names": "turnAdvanced"
     },
     {
-      "id": "roll_ability_scores",
+      "id": "roll_abilities_2d6p6",
       "effects": {
         "type": "sequence",
         "effects": [
@@ -29209,69 +29849,9 @@
             "new_value": {
               "type": "roll",
               "formula": {
-                "type": "when",
-                "clauses": [
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_4d6_drop_lowest",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "4d6kh3",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_2d6_plus_6",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "2d6+6",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "constant",
-                      "value_type": "bool",
-                      "value": true
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "3d6",
-                      "value_type": "string"
-                    }
-                  }
-                ]
+                "type": "constant",
+                "value": "2d6+6",
+                "value_type": "string"
               }
             },
             "aggregation_type": "set"
@@ -29282,69 +29862,9 @@
             "new_value": {
               "type": "roll",
               "formula": {
-                "type": "when",
-                "clauses": [
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_4d6_drop_lowest",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "4d6kh3",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_2d6_plus_6",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "2d6+6",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "constant",
-                      "value_type": "bool",
-                      "value": true
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "3d6",
-                      "value_type": "string"
-                    }
-                  }
-                ]
+                "type": "constant",
+                "value": "2d6+6",
+                "value_type": "string"
               }
             },
             "aggregation_type": "set"
@@ -29355,69 +29875,9 @@
             "new_value": {
               "type": "roll",
               "formula": {
-                "type": "when",
-                "clauses": [
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_4d6_drop_lowest",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "4d6kh3",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_2d6_plus_6",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "2d6+6",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "constant",
-                      "value_type": "bool",
-                      "value": true
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "3d6",
-                      "value_type": "string"
-                    }
-                  }
-                ]
+                "type": "constant",
+                "value": "2d6+6",
+                "value_type": "string"
               }
             },
             "aggregation_type": "set"
@@ -29428,69 +29888,9 @@
             "new_value": {
               "type": "roll",
               "formula": {
-                "type": "when",
-                "clauses": [
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_4d6_drop_lowest",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "4d6kh3",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_2d6_plus_6",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "2d6+6",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "constant",
-                      "value_type": "bool",
-                      "value": true
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "3d6",
-                      "value_type": "string"
-                    }
-                  }
-                ]
+                "type": "constant",
+                "value": "2d6+6",
+                "value_type": "string"
               }
             },
             "aggregation_type": "set"
@@ -29501,69 +29901,9 @@
             "new_value": {
               "type": "roll",
               "formula": {
-                "type": "when",
-                "clauses": [
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_4d6_drop_lowest",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "4d6kh3",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_2d6_plus_6",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "2d6+6",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "constant",
-                      "value_type": "bool",
-                      "value": true
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "3d6",
-                      "value_type": "string"
-                    }
-                  }
-                ]
+                "type": "constant",
+                "value": "2d6+6",
+                "value_type": "string"
               }
             },
             "aggregation_type": "set"
@@ -29574,76 +29914,190 @@
             "new_value": {
               "type": "roll",
               "formula": {
-                "type": "when",
-                "clauses": [
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_4d6_drop_lowest",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "4d6kh3",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "equals",
-                      "components": {
-                        "type": "list",
-                        "components": [
-                          {
-                            "type": "stat",
-                            "stat": "ability_score_method"
-                          },
-                          {
-                            "type": "constant",
-                            "value": "roll_2d6_plus_6",
-                            "value_type": "string"
-                          }
-                        ]
-                      }
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "2d6+6",
-                      "value_type": "string"
-                    }
-                  },
-                  {
-                    "condition": {
-                      "type": "constant",
-                      "value_type": "bool",
-                      "value": true
-                    },
-                    "components": {
-                      "type": "constant",
-                      "value": "3d6",
-                      "value_type": "string"
-                    }
-                  }
-                ]
+                "type": "constant",
+                "value": "2d6+6",
+                "value_type": "string"
               }
             },
             "aggregation_type": "set"
           }
         ]
       },
-      "event_names": "roll_ability_scores"
+      "event_names": "roll_abilities_2d6p6"
+    },
+    {
+      "id": "roll_abilities_3d6",
+      "effects": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "setStat",
+            "stat": "strength_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "3d6",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "dexterity_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "3d6",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "constitution_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "3d6",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "intelligence_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "3d6",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "wisdom_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "3d6",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "charisma_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "3d6",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          }
+        ]
+      },
+      "event_names": "roll_abilities_3d6"
+    },
+    {
+      "id": "roll_abilities_4d6",
+      "effects": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "setStat",
+            "stat": "strength_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "4d6kh3",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "dexterity_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "4d6kh3",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "constitution_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "4d6kh3",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "intelligence_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "4d6kh3",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "wisdom_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "4d6kh3",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "charisma_score_base",
+            "new_value": {
+              "type": "roll",
+              "formula": {
+                "type": "constant",
+                "value": "4d6kh3",
+                "value_type": "string"
+              }
+            },
+            "aggregation_type": "set"
+          }
+        ]
+      },
+      "event_names": "roll_abilities_4d6"
     },
     {
       "id": "roll_stat",
