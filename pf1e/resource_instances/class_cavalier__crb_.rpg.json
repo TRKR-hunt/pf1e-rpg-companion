@@ -1,0 +1,66 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "cavalier__crb_",
+    "name": { "value": "Cavalier" },
+    "source": { "value": "crb" },
+    "description": { "value": "### Hit Die\nd10.\n\n### Starting Wealth\n5d6 × 10 gp (average 175 gp).\n\n### Skill Ranks per Level\n4 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nA cavalier swears himself to an order and rides a loyal mount into battle, issuing challenges and rallying allies. Choose one order at 1st level (Cockatrice, Dragon, Lion, Shield, Star, or Sword). See the level table below." },
+    "hit_die": { "value": "d10" },
+    "class_hp_per_level": { "value": 10 },
+    "skill_ranks_per_level": { "value": 4 },
+    "skill_ranks_ability": { "value": "intelligence" },
+    "bab_progression": { "value": "full" },
+    "fortitude_progression": { "value": "good" },
+    "reflex_progression": { "value": "poor" },
+    "will_progression": { "value": "poor" },
+    "class_skills": {
+      "value": [
+        "bluff",
+        "climb",
+        "craft",
+        "diplomacy",
+        "handle_animal",
+        "intimidate",
+        "profession",
+        "ride",
+        "sense_motive",
+        "swim"
+      ]
+    },
+    "starting_wealth": { "value": "5d6 × 10 gp" },
+    "alignment_restriction": { "value": "any" },
+    "weapon_proficiencies": { "value": ["simple", "martial"] },
+    "armor_proficiencies": { "value": ["light", "medium", "heavy"] },
+    "shield_proficiencies": { "value": ["buckler", "light", "heavy"] },
+    "class_features": {
+      "value": [
+        "L1: Challenge 1/day — Swift action; +1 damage/level vs. one target, -2 AC vs. others. +1/day every 3 levels (max 7/day at 19th).",
+        "L1: Mount — Loyal steed functioning as a druid animal companion using cavalier level as effective druid level.",
+        "L1: Order — Choose one: Order of the Cockatrice (self-interest, Dazzling Display), Order of the Dragon (loyalty to companions, aid another), Order of the Lion (loyalty to a sovereign, challenge bonuses near allies), Order of the Shield (protect the common folk, vs. challenged-target damage), Order of the Star (faith/religion, save bonuses), or Order of the Sword (chivalry/honor, mounted challenge bonus). Grants order skills, edicts, and challenge benefit.",
+        "L1: Tactician — Grant a teamwork feat you know to all allies within 30 ft for a number of rounds; 1/day, +1/day at 11th and every 6 levels after.",
+        "L2: Order Ability — Gain your order's 2nd-level ability.",
+        "L3: Cavalier's Charge — +4 to melee attack on a charge (instead of +2); no AC penalty for charging.",
+        "L4: Challenge 2/day.",
+        "L4: Expert Trainer — +1/2 cavalier level on Handle Animal and Ride for your mount; train mount in 1/7 the normal time.",
+        "L5: Banner — While displayed, allies within 60 ft who can see it get +2 vs. fear and +1 on charge attack rolls; improves with level.",
+        "L6: Bonus Feat — Bonus combat feat.",
+        "L7: Challenge 3/day.",
+        "L8: Order Ability — Gain your order's 8th-level ability.",
+        "L9: Greater Tactician — Gain a bonus teamwork feat; grant it via Tactician to allies; can use Tactician as a move action.",
+        "L10: Challenge 4/day.",
+        "L11: Mighty Charge — Double threat range on a charge; may make a free combat maneuver (bull rush/disarm/sunder/trip) without provoking on a charge.",
+        "L12: Bonus Feat — Bonus combat feat.",
+        "L12: Demanding Challenge — Challenged target takes -2 AC against everyone except the cavalier.",
+        "L13: Challenge 5/day.",
+        "L14: Greater Banner — Allies within range may reroll a save vs. fear/charm; rallying flag rallies routed allies as a standard action.",
+        "L15: Order Ability — Gain your order's 15th-level ability.",
+        "L16: Challenge 6/day.",
+        "L17: Master Tactician — Grant two teamwork feats with a single use of Tactician; Greater Tactician as a swift action.",
+        "L18: Bonus Feat — Bonus combat feat.",
+        "L19: Challenge 7/day.",
+        "L20: Supreme Charge — Charge attacks deal double damage (triple with a lance); a creature damaged by the charge must save or be stunned 1d4 rounds (knocked prone on success)."
+      ]
+    },
+    "is_lore_only": { "value": false }
+  }
+}
