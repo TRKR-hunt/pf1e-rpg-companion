@@ -57,9 +57,9 @@ character_creation_page edit_traits_title() =
         ),
         text(
           id = "edit_character_traits_slot1_cat",
-          text = concat(["Category: ", (trait_1?.category_name ?? "")]),
+          text = concat(["Category: ", ($view.edit_character_traits_slot1_select?.category_name ?? "")]),
           style = "caption",
-          is_visible = notNull(trait_1),
+          is_visible = $view.edit_character_traits_slot1_select? != null,
         ),
         text(
           id = "edit_character_traits_slot2_label",
@@ -93,7 +93,9 @@ character_creation_page edit_traits_title() =
               resource_id = "trait",
               validation_message = when {
                 !notNull($view.edit_character_traits_slot2_select) -> "Please pick your second trait",
-                traits_share_category -> "Both traits are in the same category. Pick a trait from a different category.",
+                ($view.edit_character_traits_slot1_select?.trait_category ?? "a")
+                  == ($view.edit_character_traits_slot2_select?.trait_category ?? "b")
+                  -> "Both traits are in the same category. Pick a trait from a different category.",
                 else -> null,
               },
             ),
@@ -101,9 +103,9 @@ character_creation_page edit_traits_title() =
         ),
         text(
           id = "edit_character_traits_slot2_cat",
-          text = concat(["Category: ", (trait_2?.category_name ?? "")]),
+          text = concat(["Category: ", ($view.edit_character_traits_slot2_select?.category_name ?? "")]),
           style = "caption",
-          is_visible = notNull(trait_2),
+          is_visible = $view.edit_character_traits_slot2_select? != null,
         ),
         text(
           id = "edit_character_traits_help",

@@ -43,67 +43,41 @@ character_creation_page edit_race_title() =
             ),
           ],
         ),
+        // Reactivity: gate + read from the LIVE selectResources value
+        // ($view.edit_character_race_select), not calcs over the `race`
+        // char stat (stale on-page until commit — see
+        // REACTIVITY_DIAGNOSIS.md). Tap SEE DETAILS for the full race
+        // sheet (also $view-bound). Racial ability modifiers are applied
+        // to your scores when the page commits.
         text(
           id = "edit_character_race_preview_header",
-          text = "Racial modifiers:",
+          text = "Selected race:",
           style = "subhead",
           margin_top = 16,
-          is_visible = notNull(race),
+          is_visible = $view.edit_character_race_select? != null,
         ),
         text(
-          id = "edit_character_race_preview_size",
-          text = concat(["Size: ", (race?.size ?? "medium")]),
+          id = "edit_character_race_preview_name",
+          text = concat([($view.edit_character_race_select?.name ?? ""),
+            "  —  Size ", ($view.edit_character_race_select?.size ?? "medium"),
+            ", Speed ", ($view.edit_character_race_select?.base_speed ?? 30), " ft"]),
           style = "text",
-          is_visible = notNull(race),
+          bold = true,
+          is_visible = $view.edit_character_race_select? != null,
         ),
         text(
-          id = "edit_character_race_preview_speed",
-          text = concat(["Base speed: ", (race?.base_speed ?? 30), " ft"]),
+          id = "edit_character_race_preview_ability_mods",
+          text = concat(["Ability modifiers: ",
+            joinToString(($view.edit_character_race_select?.ability_score_modifiers ?? []), separator = ", ")]),
           style = "text",
-          is_visible = notNull(race),
-        ),
-        text(
-          id = "edit_character_race_preview_str",
-          text = concat(["STR race mod: ", strength_race_modifier]),
-          style = "text",
-          is_visible = notNull(race),
-        ),
-        text(
-          id = "edit_character_race_preview_dex",
-          text = concat(["DEX race mod: ", dexterity_race_modifier]),
-          style = "text",
-          is_visible = notNull(race),
-        ),
-        text(
-          id = "edit_character_race_preview_con",
-          text = concat(["CON race mod: ", constitution_race_modifier]),
-          style = "text",
-          is_visible = notNull(race),
-        ),
-        text(
-          id = "edit_character_race_preview_int",
-          text = concat(["INT race mod: ", intelligence_race_modifier]),
-          style = "text",
-          is_visible = notNull(race),
-        ),
-        text(
-          id = "edit_character_race_preview_wis",
-          text = concat(["WIS race mod: ", wisdom_race_modifier]),
-          style = "text",
-          is_visible = notNull(race),
-        ),
-        text(
-          id = "edit_character_race_preview_cha",
-          text = concat(["CHA race mod: ", charisma_race_modifier]),
-          style = "text",
-          is_visible = notNull(race),
+          is_visible = $view.edit_character_race_select? != null,
         ),
         text(
           id = "edit_character_race_floating_help",
-          text = "If your race has a floating +2, set it in the Manual overrides on the Ability scores page.",
+          text = "Racial ability modifiers apply automatically when you continue. If your race has a floating +2, bake it into the chosen ability on the Ability scores page.",
           style = "caption",
           margin_top = 8,
-          is_visible = notNull(race),
+          is_visible = $view.edit_character_race_select? != null,
         ),
       ],
     ),

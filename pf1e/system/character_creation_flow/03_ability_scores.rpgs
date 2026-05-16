@@ -84,40 +84,26 @@ character_creation_page edit_ability_scores_title() =
             || $view.edit_character_ability_scores_method_select == "point_buy_25",
         ),
         // ---- rolled methods: help + one button per method ----
+        // Rolled methods: the engine cannot run a mechanic during creation
+        // (mechanics run only in the character-sheet context) and a creation
+        // button can only fire an unhandled event — so an on-page "roll"
+        // button is architecturally impossible. Instead the six scores are
+        // rolled in post_edit when this method is first chosen (the upstream
+        // pattern, same as 5e rolled HP). The user then reassigns by editing
+        // the (always-live) boxes; changing scores later does not re-roll.
         text(
           id = "edit_character_ability_scores_help_rolled",
-          text = "Tap the roll button to generate six values into the boxes below, then edit any box to assign each value to the ability you want.",
+          text = "When you continue, six values are rolled with this method and filled into the boxes below. Come back to this page and edit any box to assign a value to the ability you want — re-editing scores will not re-roll (only changing the method re-rolls).",
           style = "caption",
           margin_top = 8,
           is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest"
             || $view.edit_character_ability_scores_method_select == "roll_3d6"
             || $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
         ),
-        button(
-          id = "edit_character_ability_scores_roll_4d6_button",
-          text = "ROLL 4d6 DROP LOWEST x6",
-          event = event(name = "roll_abilities_4d6"),
-          margin_top = 8,
-          is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest",
-        ),
-        button(
-          id = "edit_character_ability_scores_roll_3d6_button",
-          text = "ROLL 3d6 x6",
-          event = event(name = "roll_abilities_3d6"),
-          margin_top = 8,
-          is_visible = $view.edit_character_ability_scores_method_select == "roll_3d6",
-        ),
-        button(
-          id = "edit_character_ability_scores_roll_2d6p6_button",
-          text = "ROLL 2d6+6 x6",
-          event = event(name = "roll_abilities_2d6p6"),
-          margin_top = 8,
-          is_visible = $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
-        ),
         text(
           id = "edit_character_ability_scores_rolled_readout",
           text = concat([
-            "Rolled: STR ", strength_score_base, "  DEX ", dexterity_score_base,
+            "Current rolled values — STR ", strength_score_base, "  DEX ", dexterity_score_base,
             "  CON ", constitution_score_base, "  INT ", intelligence_score_base,
             "  WIS ", wisdom_score_base, "  CHA ", charisma_score_base,
             "   (edit any box to reassign)",
@@ -242,6 +228,249 @@ character_creation_page edit_ability_scores_title() =
           style = "caption",
           margin_top = 8,
         ),
+      ],
+    ),
+    post_edit = sequence(
+      effects = [
+        // Rolled ability scores. Mechanics cannot run during creation and
+        // the dice grammar is only "xdy +/- n" (no kh/dl) -- so rolling is
+        // done here in post_edit (upstream's pattern), gated so it only
+        // rolls when the method was just chosen ($updated_stats) or on a
+        // new character; later score edits do NOT re-roll. 4d6-drop-lowest
+        // is decomposed: four 1d6 into scratch stats, score = sum - min
+        // (sequence is synchronous, so the reads see the writes).
+        when {
+          contains(haystack = $updated_stats, needle = ability_score_method) || $is_new -> when {
+            ability_score_method == "roll_3d6" -> sequence(
+              effects = [
+          setStat(
+            stat = "strength_score_base",
+            new_value = roll(formula = "3d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "dexterity_score_base",
+            new_value = roll(formula = "3d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "constitution_score_base",
+            new_value = roll(formula = "3d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "intelligence_score_base",
+            new_value = roll(formula = "3d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "wisdom_score_base",
+            new_value = roll(formula = "3d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "charisma_score_base",
+            new_value = roll(formula = "3d6 + 0"),
+            aggregation_type = "set",
+          ),
+              ],
+            ),
+            ability_score_method == "roll_2d6_plus_6" -> sequence(
+              effects = [
+          setStat(
+            stat = "strength_score_base",
+            new_value = roll(formula = "2d6 + 6"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "dexterity_score_base",
+            new_value = roll(formula = "2d6 + 6"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "constitution_score_base",
+            new_value = roll(formula = "2d6 + 6"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "intelligence_score_base",
+            new_value = roll(formula = "2d6 + 6"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "wisdom_score_base",
+            new_value = roll(formula = "2d6 + 6"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "charisma_score_base",
+            new_value = roll(formula = "2d6 + 6"),
+            aggregation_type = "set",
+          ),
+              ],
+            ),
+            ability_score_method == "roll_4d6_drop_lowest" -> sequence(
+              effects = [
+          setStat(
+            stat = "temp_roll_d1",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d2",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d3",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d4",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "strength_score_base",
+            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
+              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d1",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d2",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d3",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d4",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "dexterity_score_base",
+            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
+              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d1",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d2",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d3",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d4",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "constitution_score_base",
+            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
+              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d1",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d2",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d3",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d4",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "intelligence_score_base",
+            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
+              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d1",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d2",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d3",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d4",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "wisdom_score_base",
+            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
+              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d1",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d2",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d3",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "temp_roll_d4",
+            new_value = roll(formula = "1d6 + 0"),
+            aggregation_type = "set",
+          ),
+          setStat(
+            stat = "charisma_score_base",
+            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
+              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
+            aggregation_type = "set",
+          ),
+              ],
+            ),
+          },
+        },
       ],
     ),
   );

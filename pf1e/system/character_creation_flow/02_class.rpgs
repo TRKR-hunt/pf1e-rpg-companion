@@ -44,19 +44,24 @@ character_creation_page edit_class_title() =
             else -> null,
           },
         ),
+        // Visibility is gated on $view (live); the numbers below are calcs
+        // over the `classes` char stat, which commits when the page does —
+        // so they show the previous committed state and finalize on
+        // continue (BAB/saves over a multiclass array can't be recomputed
+        // from $view cheaply). Upstream does not preview these at all.
         text(
           id = "edit_character_class_total_level_label",
-          text = concat(["Total character level: ", level]),
+          text = concat(["Total character level: ", level, "  (updates on continue)"]),
           style = "text",
           bold = true,
           margin_top = 12,
-          is_visible = !isEmpty(classes),
+          is_visible = !isEmpty($view.edit_character_class_classes),
         ),
         text(
           id = "edit_character_class_bab_preview",
-          text = concat(["Base Attack Bonus: +", base_attack_bonus]),
+          text = concat(["Base Attack Bonus: +", base_attack_bonus, "  (updates on continue)"]),
           style = "text",
-          is_visible = !isEmpty(classes),
+          is_visible = !isEmpty($view.edit_character_class_classes),
         ),
         text(
           id = "edit_character_class_saves_preview",
@@ -64,21 +69,22 @@ character_creation_page edit_class_title() =
             "Save bases — Fort +", fortitude_base,
             " / Ref +", reflex_base,
             " / Will +", will_base,
+            "  (updates on continue)",
           ]),
           style = "text",
-          is_visible = !isEmpty(classes),
+          is_visible = !isEmpty($view.edit_character_class_classes),
         ),
         text(
           id = "edit_character_class_multiclass_help",
           text = "Multiclassing tip: BAB sums across classes (rounded down per class), and you take the best save category from each class.",
           style = "caption",
           margin_top = 8,
-          is_visible = length(classes) > 1,
+          is_visible = length($view.edit_character_class_classes) > 1,
         ),
         composite(
           id = "edit_character_class_hp_method_composite",
           margin_top = 16,
-          is_visible = !isEmpty(classes),
+          is_visible = !isEmpty($view.edit_character_class_classes),
           subviews = [
             text(
               id = "edit_character_class_hp_method_label",
@@ -99,7 +105,7 @@ character_creation_page edit_class_title() =
           text = "Level 1 is always max hit die (PF1e rule). Beyond level 1: Max = full die, Average = half die + 1, Roll = rolled at level-up (shows the average until you roll).",
           style = "caption",
           margin_top = 4,
-          is_visible = !isEmpty(classes),
+          is_visible = !isEmpty($view.edit_character_class_classes),
         ),
         // Reactivity: this echoes the LIVE select value ($view.<selectId>),
         // not a calc over the hp_method stat (which is stale on-page until
@@ -115,7 +121,7 @@ character_creation_page edit_class_title() =
           style = "text",
           bold = true,
           margin_top = 8,
-          is_visible = !isEmpty(classes),
+          is_visible = !isEmpty($view.edit_character_class_classes),
         ),
       ],
     ),
