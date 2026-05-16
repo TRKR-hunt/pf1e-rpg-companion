@@ -2229,21 +2229,142 @@
             "style": "caption",
             "margin_top": 8,
             "is_visible": {
-              "type": "equals",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "stat",
-                    "stat": "ability_score_method"
+              "type": "stat",
+              "stat": "ability_method_is_custom"
+            }
+          },
+          {
+            "type": "text",
+            "id": "edit_character_ability_scores_pointbuy_meter",
+            "text": {
+              "type": "when",
+              "clauses": [
+                {
+                  "condition": {
+                    "type": "lessThan",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "ability_points_remaining"
+                        },
+                        {
+                          "type": "constant",
+                          "value": 0,
+                          "value_type": "integer"
+                        }
+                      ]
+                    }
                   },
-                  {
-                    "type": "constant",
-                    "value": "custom",
-                    "value_type": "string"
+                  "components": {
+                    "type": "concat",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": "OVER BUDGET by ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "subtract",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "ability_point_buy_total"
+                              },
+                              {
+                                "type": "stat",
+                                "stat": "ability_point_buy_budget"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "constant",
+                          "value": "  —  Point Buy ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "ability_point_buy_budget"
+                        },
+                        {
+                          "type": "constant",
+                          "value": ": spent ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "ability_point_buy_total"
+                        },
+                        {
+                          "type": "constant",
+                          "value": ". Reduce a score.",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
                   }
-                ]
-              }
+                },
+                {
+                  "condition": {
+                    "type": "constant",
+                    "value_type": "bool",
+                    "value": true
+                  },
+                  "components": {
+                    "type": "concat",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": "Point Buy ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "ability_point_buy_budget"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "  —  spent ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "ability_point_buy_total"
+                        },
+                        {
+                          "type": "constant",
+                          "value": ", ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "ability_points_remaining"
+                        },
+                        {
+                          "type": "constant",
+                          "value": " remaining",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "style": "title",
+            "bold": true,
+            "margin_top": 14,
+            "is_visible": {
+              "type": "stat",
+              "stat": "ability_method_is_point_buy"
             }
           },
           {
@@ -2454,73 +2575,10 @@
             "type": "text",
             "id": "edit_character_ability_scores_pointbuy_status",
             "text": {
-              "type": "concat",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "constant",
-                    "value": "Points spent: ",
-                    "value_type": "string"
-                  },
-                  {
-                    "type": "stat",
-                    "stat": "ability_point_buy_total"
-                  },
-                  {
-                    "type": "constant",
-                    "value": " / ",
-                    "value_type": "string"
-                  },
-                  {
-                    "type": "stat",
-                    "stat": "ability_point_buy_budget"
-                  },
-                  {
-                    "type": "constant",
-                    "value": "  (",
-                    "value_type": "string"
-                  },
-                  {
-                    "type": "stat",
-                    "stat": "ability_points_remaining"
-                  },
-                  {
-                    "type": "constant",
-                    "value": " remaining)",
-                    "value_type": "string"
-                  }
-                ]
-              }
-            },
-            "style": "text",
-            "bold": true,
-            "margin_top": 12,
-            "is_visible": {
-              "type": "stat",
-              "stat": "ability_method_is_point_buy"
-            }
-          },
-          {
-            "type": "text",
-            "id": "edit_character_ability_scores_pointbuy_over",
-            "text": {
-              "type": "constant",
-              "value": "Over budget — reduce one or more scores.",
-              "value_type": "string"
-            },
-            "style": "caption",
-            "margin_top": 4,
-            "is_visible": {
-              "type": "and",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "stat",
-                    "stat": "ability_method_is_point_buy"
-                  },
-                  {
+              "type": "when",
+              "clauses": [
+                {
+                  "condition": {
                     "type": "lessThan",
                     "components": {
                       "type": "list",
@@ -2536,9 +2594,83 @@
                         }
                       ]
                     }
+                  },
+                  "components": {
+                    "type": "concat",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": "OVER BUDGET by ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "subtract",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "ability_point_buy_total"
+                              },
+                              {
+                                "type": "stat",
+                                "stat": "ability_point_buy_budget"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "constant",
+                          "value": " — reduce a score",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
                   }
-                ]
-              }
+                },
+                {
+                  "condition": {
+                    "type": "constant",
+                    "value_type": "bool",
+                    "value": true
+                  },
+                  "components": {
+                    "type": "concat",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "ability_points_remaining"
+                        },
+                        {
+                          "type": "constant",
+                          "value": " of ",
+                          "value_type": "string"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "ability_point_buy_budget"
+                        },
+                        {
+                          "type": "constant",
+                          "value": " points remaining",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "style": "text",
+            "bold": true,
+            "margin_top": 12,
+            "is_visible": {
+              "type": "stat",
+              "stat": "ability_method_is_point_buy"
             }
           },
           {
@@ -13429,109 +13561,15 @@
       "name": "Point-buy budget"
     },
     {
-      "id": "ability_method_is_point_buy",
-      "type": "calculated",
-      "value_type": "bool",
-      "components": {
-        "type": "when",
-        "clauses": [
-          {
-            "condition": {
-              "type": "equals",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "stat",
-                    "stat": "ability_score_method"
-                  },
-                  {
-                    "type": "constant",
-                    "value": "point_buy_15",
-                    "value_type": "string"
-                  }
-                ]
-              }
-            },
-            "components": {
-              "type": "constant",
-              "value": true,
-              "value_type": "bool"
-            }
-          },
-          {
-            "condition": {
-              "type": "equals",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "stat",
-                    "stat": "ability_score_method"
-                  },
-                  {
-                    "type": "constant",
-                    "value": "point_buy_20",
-                    "value_type": "string"
-                  }
-                ]
-              }
-            },
-            "components": {
-              "type": "constant",
-              "value": true,
-              "value_type": "bool"
-            }
-          },
-          {
-            "condition": {
-              "type": "equals",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "stat",
-                    "stat": "ability_score_method"
-                  },
-                  {
-                    "type": "constant",
-                    "value": "point_buy_25",
-                    "value_type": "string"
-                  }
-                ]
-              }
-            },
-            "components": {
-              "type": "constant",
-              "value": true,
-              "value_type": "bool"
-            }
-          },
-          {
-            "condition": {
-              "type": "constant",
-              "value_type": "bool",
-              "value": true
-            },
-            "components": {
-              "type": "constant",
-              "value": false,
-              "value_type": "bool"
-            }
-          }
-        ]
-      },
-      "name": "Method is point buy"
-    },
-    {
       "id": "ability_method_is_rolled",
       "type": "calculated",
       "value_type": "bool",
       "components": {
-        "type": "when",
-        "clauses": [
-          {
-            "condition": {
+        "type": "or",
+        "components": {
+          "type": "list",
+          "components": [
+            {
               "type": "equals",
               "components": {
                 "type": "list",
@@ -13548,14 +13586,7 @@
                 ]
               }
             },
-            "components": {
-              "type": "constant",
-              "value": true,
-              "value_type": "bool"
-            }
-          },
-          {
-            "condition": {
+            {
               "type": "equals",
               "components": {
                 "type": "list",
@@ -13572,14 +13603,7 @@
                 ]
               }
             },
-            "components": {
-              "type": "constant",
-              "value": true,
-              "value_type": "bool"
-            }
-          },
-          {
-            "condition": {
+            {
               "type": "equals",
               "components": {
                 "type": "list",
@@ -13595,28 +13619,62 @@
                   }
                 ]
               }
-            },
-            "components": {
-              "type": "constant",
-              "value": true,
-              "value_type": "bool"
             }
-          },
-          {
-            "condition": {
-              "type": "constant",
-              "value_type": "bool",
-              "value": true
-            },
-            "components": {
-              "type": "constant",
-              "value": false,
-              "value_type": "bool"
-            }
-          }
-        ]
+          ]
+        }
       },
       "name": "Method is rolled"
+    },
+    {
+      "id": "ability_method_is_custom",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "equals",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "stat",
+              "stat": "ability_score_method"
+            },
+            {
+              "type": "constant",
+              "value": "custom",
+              "value_type": "string"
+            }
+          ]
+        }
+      },
+      "name": "Method is custom"
+    },
+    {
+      "id": "ability_method_is_point_buy",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "and",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "not",
+              "components": {
+                "type": "stat",
+                "stat": "ability_method_is_rolled"
+              }
+            },
+            {
+              "type": "not",
+              "components": {
+                "type": "stat",
+                "stat": "ability_method_is_custom"
+              }
+            }
+          ]
+        }
+      },
+      "name": "Method is point buy"
     },
     {
       "id": "ability_points_remaining",

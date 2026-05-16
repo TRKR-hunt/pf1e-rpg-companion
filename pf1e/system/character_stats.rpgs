@@ -239,19 +239,23 @@ calc integer ability_point_buy_budget(name = "Point-buy budget") = when {
   else -> 0,
 };
 
-calc bool ability_method_is_point_buy(name = "Method is point buy") = when {
-  ability_score_method == "point_buy_15" -> true,
-  ability_score_method == "point_buy_20" -> true,
-  ability_score_method == "point_buy_25" -> true,
-  else -> false,
-};
+// B.0.1: these MUST be direct boolean expressions. A `calc bool = when {
+// ... -> true, else -> false }` body did not yield a value the view
+// layer's is_visible evaluator treated as a real bool (the only such
+// pattern in the codebase; every working gate uses a direct expression),
+// so the roll button and point-buy readout never surfaced on device.
+calc bool ability_method_is_rolled(name = "Method is rolled") =
+  ability_score_method == "roll_4d6_drop_lowest"
+    || ability_score_method == "roll_3d6"
+    || ability_score_method == "roll_2d6_plus_6";
 
-calc bool ability_method_is_rolled(name = "Method is rolled") = when {
-  ability_score_method == "roll_4d6_drop_lowest" -> true,
-  ability_score_method == "roll_3d6" -> true,
-  ability_score_method == "roll_2d6_plus_6" -> true,
-  else -> false,
-};
+calc bool ability_method_is_custom(name = "Method is custom") =
+  ability_score_method == "custom";
+
+// Point buy is the inclusive default (anything not rolled and not custom),
+// so an uninitialised / unexpected value still shows the point-buy UI.
+calc bool ability_method_is_point_buy(name = "Method is point buy") =
+  !ability_method_is_rolled && !ability_method_is_custom;
 
 calc integer ability_points_remaining(name = "Point-buy points remaining") =
   ability_point_buy_budget - ability_point_buy_total;
