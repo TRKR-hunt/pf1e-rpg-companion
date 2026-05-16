@@ -1,0 +1,91 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "kineticist__crb_",
+    "name": {
+      "value": "Kineticist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Skill Ranks per Level\n4 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 4
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "good"
+    },
+    "reflex_progression": {
+      "value": "good"
+    },
+    "will_progression": {
+      "value": "poor"
+    },
+    "class_skills": {
+      "value": [
+        "acrobatics",
+        "craft",
+        "heal",
+        "intimidate",
+        "knowledge_nature",
+        "perception",
+        "profession",
+        "stealth",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        "L1: Elemental Focus — Choose an element (aether/air/earth/fire/water); defines kinetic blast.",
+        "L1: Kinetic Blast — Ranged/melee elemental attack (1d6+Con scaling), the core attack.",
+        "L1: Burn — Accept burn (nonlethal, locks HP) to fuel powerful talents; Gather Power reduces burn.",
+        "L1: Elemental Defense.",
+        "L2: Infusion (substance/form infusions modify blasts).",
+        "L3: Wild Talent / Elemental Overflow (scaling bonuses for accepting burn).",
+        "L5: Internal Buffer.",
+        "L7: Metakinesis (empower/maximize/etc. via burn).",
+        "L20: Omnikinesis — Capstone; use any wild talent.",
+        "NOTE: Burn / wild-talent selection is descriptive text pending the B.1.5 sub-choice framework; base stat block is fully mechanical."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": ""
+    }
+  }
+}

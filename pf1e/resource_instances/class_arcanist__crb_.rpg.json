@@ -1,0 +1,105 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "arcanist__crb_",
+    "name": {
+      "value": "Arcanist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd6.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d6"
+    },
+    "class_hp_per_level": {
+      "value": 6
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "half"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "appraise",
+        "craft",
+        "fly",
+        "knowledge_arcana",
+        "knowledge_dungeoneering",
+        "knowledge_engineering",
+        "knowledge_geography",
+        "knowledge_history",
+        "knowledge_local",
+        "knowledge_nature",
+        "knowledge_nobility",
+        "knowledge_planes",
+        "knowledge_religion",
+        "linguistics",
+        "profession",
+        "spellcraft",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        "L1: Arcanist Spellcasting — Prepare a spellbook but cast spontaneously from prepared spells (Int).",
+        "L1: Arcane Reservoir — Pool of arcane points fueling exploits and boosting spells.",
+        "L1: Arcanist Exploit — Choose exploits (every 2 levels).",
+        "L1: Cantrips / Consume Spells.",
+        "L7: Greater Exploits available.",
+        "L20: Magical Supremacy — Capstone exploit access."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "spellcasting_mode": {
+      "value": "prepared"
+    },
+    "spellcasting_tradition": {
+      "value": "arcane"
+    },
+    "spellcasting_ability": {
+      "value": "intelligence"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 9
+    },
+    "lore": {
+      "value": "Class Skills Class Features Weapon and Armor Proficiencies Spell Casting Spellbooks Cantrips Arcane Reservoir (Su) Arcanist Exploits Consume Spells (Su) Greater Exploits Magical Supremacy (Su) Alternative Capstone Ability Deep Reservoir (Su) Arcane Spells and Armor Favored Class Bonuses Archetypes & Alternate Class Features Some spellcasters seek the secrets of magic, pursuing the power to make the impossible possible. Others are born with magic in their blood, commanding unbelievable forces as effortlessly as they breathe. Yet still others seek to meld the science of arcane scholars with the natural might of innate casters. These arcanists seek to discover the mysterious laws of magic and through will and expertise bend those forces to their whims. Arcanists are the shapers and tinkers of the arcane world, and no magic can resist their control. Role: Arcanists are scholars of all things magical. They constantly seek out new forms of magic to discover how they work, and in many cases, to collect the energy of such magic for their own uses. Many arcanists are seen as reckless, more concerned with the potency of magic than the ramifications of unleashing such power. Alignment: Any. Hit Die: d6. Parent Classes: Sorcerer and wizard. Starting Wealth: 2d6 Ã 10 gp (average 70 gp.) In addition, each character begins play with an outfit worth 10 gp or less. Class Skills The arcanist’s class skills are Appraise ( Int ), Craft ( Int ), Fly ( Dex ), Knowledge (all) ( Int ), Linguistics ( Int ), Profession ( Wis ), Spellcraft ( Int ), and Use Magic Device ( Cha ). Skill Ranks per Level: 2 + Int modifier. Table: Arcanist Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 1st +0 +0 +0 +2 Arcane reservoir, arcanist exploit, cantrips, consume spells 2 â â â â â â â â 2nd +1 +0 +0 +3 Â 3 â â â â â â â â 3rd +1 +1 +1 +3 Arcanist exploit 4 â â â â â â â â 4th +2 +1 +1 +4 Â 4 2 â â â â â â â 5th +2 +1 +1 +4 Arcanist exploit 4 3 â â â â â â â 6th +3 +2 +2 +5 Â 4 4 2 â â â â â â 7th +3 +2 +2 +5 Arcanist exploit 4 4 3 â â â â â â 8th +4 +2 +2 +6 Â 4 4 4 2 â â â â â 9th +4 +3 +3 +6 Arcanist exploit 4 4 4 3 â â â â â 10th +5 +3 +3 +7 Â 4 4 4 4 2 â â â â 11th +5 +3 +3 +7 Arcanist exploit, greater exploits 4 4 4 4 3 â â â â 12th +6/+1 +4 +4 +8 Â 4 4 4 4 4 2 â â â 13th +6/+1 +4 +4 +8 Arcanist exploit 4 4 4 4 4 3 â â â 14th +7/+2 +4 +4 +9 Â 4 4 4 4 4 4 2 â â 15th +7/+2 +5 +5 +9 Arcanist exploit 4 4 4 4 4 4 3 â â 16th +8/+3 +5 +5 +10 Â 4 4 4 4 4 4 4 2 â 17th +8/+3 +5 +5 +10 Arcanist exploit 4 4 4 4 4 4 4 3 â 18th +9/+4 +6 +6 +11 Â 4 4 4 4 4 4 4 4 2 19th +9/+4 +6 +6 +11 Arcanist exploit 4 4 4 4 4 4 4 4 3 20th +10/+5 +6 +6 +12 Magical supremacy 4 4 4 4 4 4 4 4 4 Class Features The following are the class features of the arcanist. Weapon and Armor Proficiencies Arcanists are proficient with all simple weapons. They are not proficient with any type of armor or shield. Armor interferes with an arcanist’s gestures, which can cause her spells with somatic components to fail (see Arcane Spells and Armor). Spell Casting Table: Arcanist Spells Prepared Level Spells Prepared 0th 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 1st 4 2 â â â â â â â â 2nd 5 2 â â â â â â â â 3rd 5 3 â â â â â â â â 4th 6 3 1 â â â â â â â 5th 6 4 2 â â â â â â â 6th 7 4 2 1 â â â â â â 7th 7 5 3 2 â â â â â â 8th 8 5 3 2 1 â â â â â 9th 8 5 4 3 2 â â â â â 10th 9 5 4 3 2 1 â â â â 11th 9 5 5 4 3 2 â â â â 12th 9 5 5 4 3 2 1 â â â 13th 9 5 5 4 4 3 2 â â â 14th 9 5 5 4 4 3 2 1 â â 15th 9 5 5 4 4 4 3 2 â â 16th 9 5 5 4 4 4 3 2 1 â 17th 9 5 5 4 4 4 3 3 2 â 18th 9 5 5 4 4 4 3 3 2 1 19th 9 5 5 4 4 4 3 3 3 2 20th 9 5 5 4 4 4 3 3 3 3 An arcanist casts arcane spells drawn from the sorcerer/wizard spell list. An arcanist must prepare her spells ahead of time, but unlike a wizard, her spells are not expended when they’re cast. Instead, she can cast any spell that she has prepared consuming a spell slot of the appropriate level, assuming she hasn’t yet used up her spell slots per day for that level. To learn, prepare, or cast a spell, the arcanist must have an Intelligence score equal to at least 10 + the spell’s level. The saving throw DC against an arcanist’s spell is 10 + the spell’s level + the arcanist’s Intelligence modifier. An arcanist can only cast a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: Arcanist under âSpells per Day.â In addition, she receives bonus spells per day if she has a high Intelligence score. An arcanist may know any number of spells, but the number she can prepare each day is limited. At 1st level, she can prepare four 0-level spells and two 1st-level spells each day. At each new arcanist level, the number of spells she can prepare each day increases, adding new spell levels as indicated on Table: Arcanist Spells Prepared. Unlike the number of spells she can cast per day, the number of spells an arcanist can prepare each day is not affected by her Intelligence score. Feats and other effects that modify the number of spells known by a spellcaster instead affect the number of spells an arcanist can prepare. An arcanist must choose and prepare her spells ahead of time by getting 8 hours of sleep and spending 1 hour studying her spellbook. While studying, the arcanist decides what spells to prepare and refreshes her available spell slots for the day. Like a sorcerer, an arcanist can choose to apply any metamagic feats she knows to a prepared spell as she casts it, with the same increase in casting time (see Spontaneous Casting and Metamagic Feats ). However, she may also prepare a spell with any metamagic feats she knows and cast it without increasing casting time like a wizard. She cannot combine these optionsâa spell prepared with metamagic feats cannot be further modified with another metamagic feat at the time of casting (unless she has the metamixing arcanist exploit, detailed below). Spellbooks An arcanist must study her spellbook each day to prepare her spells. She can’t prepare any spell not recorded in her spellbook, except for read magic (which all arcanists can prepare from memory). An arcanist begins play with a spellbook containing all 0-level wizard / sorcerer spells plus three 1st-level spells of her choice. The arcanist also selects a number of additional 1st-level spells equal to her Intelligence modifier to add to the spellbook. At each new arcanist level, she gains two new spells of any spell level or levels that she can cast (based on her new arcanist level) for her spellbook. At any time, an arcanist can also add spells found in wizards ‘ or other arcanists’ spellbooks to her own. Cantrips Arcanists can prepare a number of cantrips, or 0-level spells, each day as noted on Table: Arcanist Spells Prepared. These spells are cast like any other spell, but they do not consume spell slots. As with her other spells, these spells are not expended when cast. Arcane Reservoir (Su) An arcanist has an innate pool of magical energy that she can draw upon to fuel her arcanist exploits and enhance her spells. The arcanist’s arcane reservoir can hold a maximum amount of magical energy equal to 3 + the arcanist’s level. Each day, when preparing spells, the arcanist’s arcane reservoir fills with raw magical energy, gaining a number of points equal to 3 + 1/2 her arcanist level. Any points she had from the previous day are lost. She can also regain these points through the consume spells class feature and some arcanist exploits. The arcane reservoir can never hold more points than the maximum amount noted above; points gained in excess of this total are lost. Points f"
+    }
+  }
+}

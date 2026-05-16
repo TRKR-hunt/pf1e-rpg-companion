@@ -1,0 +1,105 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "vigilante__crb_",
+    "name": {
+      "value": "Vigilante"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Skill Ranks per Level\n6 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 6
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "good"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "bluff",
+        "climb",
+        "craft",
+        "diplomacy",
+        "disable_device",
+        "disguise",
+        "escape_artist",
+        "handle_animal",
+        "intimidate",
+        "knowledge_local",
+        "linguistics",
+        "perception",
+        "profession",
+        "ride",
+        "sense_motive",
+        "sleight_of_hand",
+        "stealth",
+        "survival",
+        "swim"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "martial"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light",
+        "medium"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "buckler",
+        "light",
+        "heavy"
+      ]
+    },
+    "class_features": {
+      "value": [
+        "L1: Dual Identity — A social identity and a vigilante identity; swap with preparation.",
+        "L1: Seamless Guise / Vigilante Specialization — Choose Avenger, Defender, Stalker, or Warlock (descriptive).",
+        "L2: Social Talent / Vigilante Talent (more with level).",
+        "L3: Unshakable (+level vs Intimidate).",
+        "L4: Loyal Aid.",
+        "L8: Vigilante specialization scaling (e.g., hidden strike +Nd8).",
+        "L11: Startling Appearance.",
+        "L20: Really Startling Appearance — Capstone."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Class Skills Class Features Weapon and Armor Proficiency Dual Identity (Ex) Seamless Guise (Ex) Social Talent Vigilante Specialization (Ex) Vigilante Talent Unshakable (Ex) Startling Appearance (Ex) Frightening Appearance (Ex) Stunning Appearance (Ex) Vengeance Strike (Ex) Alternative Capstone Ability Past Your Limits (Ex) Favored Class Bonuses Archetypes & Alternate Class Features Being a renowned hero can be dangerous to your health and prosperity. Fighting against corruption and the evil that lurks within society makes you a target and, even worse, puts your friends and family in danger. For those who must maintain a social persona, being a part of the greater community while secretly fighting against powerful forces within it requires leading a double life. By day, the vigilante maneuvers through society, dealing with other nobles or influential individuals. By night, he dons a disguise and an utterly different set of goals, taking the fight to his foes and solving problems with a blade when words will not suffice. Game Masters should consider carefully whether or not a vigilante will make for a good fit with their campaign. The class is one that requires a degree of social aptitude and roleplaying to make full use of its potential. Campaigns that focus more on wilderness exploration, travel, or dungeon delving and that are lighter on politics, negotiation, and manipulation might require a vigilante player to put in additional effort to make full use of his class features. Alternatively, a vigilante is uniquely suited to make for a powerful villain, hidden by day behind a mask of civility and a terror at night, free to commit terrible acts without risking discovery. For players, the vigilante offers a unique opportunity to take on the role of a character with a hidden side, and whose life is committed to a secret agenda that he must struggle to advance in a complex world. Not every problem can be solved with a dagger in the dark, and even the most stubborn foe might be become an ally with the proper bribe. For the vigilante, these tasks are both within reach as long as you learn to properly use your dual nature and hidden skills to your fullest advantage. Life can be unfair. Think of the starving peasants forced to toil for the local baron or the common laborers tasked with building the king’s newest palace for a mere handful of copper pieces each week. There are those who see these injustices and do nothing. There are those who are willing to reap the rewards obtained through the suffering of others. Then there are those who see inequality and find themselves driven to take action, outside the law if necessary. These vigilantes operate in plain sight, hiding behind respectable personas by day, but donning alternate guises by night to right the wrongs they see all around them. Not all vigilantes are out to make the world a better place. Some criminals hide behind the pretense of being ordinary folk, only to become terrors in the shadows, stealing and killing to fulfill some dark agenda. In either case, the vigilante is a character of two naturesâthe face that everyone knows and the mask that inspires fear. Role: A vigilante can take on many tasks within a group. Most are skilled at negotiating delicate social situations and courtly intrigue, but they can also serve as stealthy spies or even brutish warriors in dangerous environments. Alignment: Any. Hit Die: d8. Starting Wealth: 5d6 Ã 10 (average 175 gp). Class Skills A vigilante’s class skills are Acrobatics ( Dex ), Appraise ( Int ), Bluff ( Cha ), Climb ( Str ), Craft ( Int ), Diplomacy ( Cha ), Disable Device ( Dex ), Disguise ( Cha ), Escape Artist ( Dex ), Intimidate ( Cha ), Knowledge (dungeoneering) ( Int ), Knowledge (engineering) ( Int ), Knowledge (local) ( Int ), Knowledge (nobility errata ) ( Int ), Perception ( Wis ), Perform ( Cha ), Profession ( Wis ), Ride ( Dex ), Sense Motive ( Wis ), Sleight of Hand ( Dex ), Stealth ( Dex ), Survival ( Wis ), Swim ( Str ), and Use Magic Device ( Cha ). Skill Ranks per Level: 6 + Int modifier. Table: Vigilante Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +0 +0 +2 +2 Dual identity, seamless guise, social talent, vigilante specialization 2nd +1 +0 +3 +3 Vigilante talent 3rd +2 +1 +3 +3 Social talent, unshakable 4th +3 +1 +4 +4 Vigilante talent 5th +3 +1 +4 +4 Social talent, startling appearance 6th +4 +2 +5 +5 Vigilante talent 7th +5 +2 +5 +5 Social talent 8th +6/+1 +2 +6 +6 Vigilante talent 9th +6/+1 +3 +6 +6 Social talent 10th +7/+2 +3 +7 +7 Vigilante talent 11th +8/+3 +3 +7 +7 Frightening appearance, social talent 12th +9/+4 +4 +8 +8 Vigilante talent 13th +9/+4 +4 +8 +8 Social talent 14th +10/+5 +4 +9 +9 Vigilante talent 15th +11/+6/+1 +5 +9 +9 Social talent 16th +12/+7/+2 +5 +10 +10 Vigilante talent 17th +12/+7/+2 +5 +10 +10 Social talent, stunning appearance 18th +13/+8/+3 +6 +11 +11 Vigilante talent 19th +14/+9/+4 +6 +11 +11 Social talent 20th +15/+10/+5 +6 +12 +12 Vengeance strike, vigilante talent Class Features The following are the class features of the vigilante. Weapon and Armor Proficiency Vigilantes are proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields). Dual Identity (Ex) A vigilante hides his true identity, allowing him to move about social circles and nobility without carrying the stigma of his ruthless actions. In effect, the vigilante has two identities: one is a polite member of society while the other is a skilled and cunning warrior. To keep up this charade, the vigilante usually has two names: his true name, used in polite company, and his vigilante name, used to strike fear in the hearts of those who oppose him. Knowledge checks about one do not reveal information about the other, unless the vigilante’s true identity revealed to the world at large. The vigilante can start each day in either of his identities, referred to simply as social or vigilante. Changing from one identity to another takes 1 minute and must be done out of sight from other creatures to preserve the vigilante’s secret. Changing identities is more than just changing outfits and clothing (although that is certainly a part of it); the process often also involves applying make-up, altering his hair, and adjusting other personal effects. Furthermore, the change is as much a state of mind as of body, so items such as a hat of disguise and similar spells and effects that change the user’s appearance do not reduce the time required to change identities. Most social talents require the vigilante to be in his social identity, but a vigilante who uses vigilante talents in his social identity risks exposing his secret. Despite being a single person, a vigilante’s dual nature allows him to have two alignments, one for each of his identities. When in an identity, he is treated as having that identity’s alignment for all spells, magic items, and abilities that rely on alignment. For the purpose of meeting a qualification for a feat, class, or any ability, he is only eligible if both of his alignments meet the requirements. A vigilante’s two alignments cannot be more than one step from each other on a single alignment axis. For example, a vigilante with a lawful neutral social identity could have a vigilante identity that is lawful good, lawful neutral, lawful evil, neutral, neutral good, or neutral evil. If a vigilante is the target of an effect that would change his alignment, it changes both of his alignments to the new alignment. Any attempts to scry or otherwise locate the vigilante work only if the vigilante is currently in the identity the creature is attempting to locate (or if the creature knows that the two identities are the same individual). Otherwise, the spell or effect has no effect, revealing nothing but darkness, as if the target were invalid or did not exist. Seamless Guise (Ex) A vigilante knows how to behave in a way that appears perfectly proper and normal for his c"
+    }
+  }
+}

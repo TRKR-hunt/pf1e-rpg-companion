@@ -1,0 +1,100 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "witch__crb_",
+    "name": {
+      "value": "Witch"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd6.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d6"
+    },
+    "class_hp_per_level": {
+      "value": 6
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "half"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "craft",
+        "fly",
+        "heal",
+        "intimidate",
+        "knowledge_arcana",
+        "knowledge_history",
+        "knowledge_nature",
+        "knowledge_planes",
+        "profession",
+        "spellcraft",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        "L1: Patron — A mysterious patron grants a themed bonus spell list (descriptive).",
+        "L1: Familiar — Stores the witch's spells; required to prepare them (Int).",
+        "L1: Hex — Witch hexes (evil eye, slumber, etc.); gain more at every even level.",
+        "L1: Cantrips / Prepared Arcane via familiar (Int).",
+        "L10: Major Hex available.",
+        "L18: Grand Hex available.",
+        "L20: Capstone — Grand hex mastery / patron capstone."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "spellcasting_mode": {
+      "value": "prepared"
+    },
+    "spellcasting_tradition": {
+      "value": "arcane"
+    },
+    "spellcasting_ability": {
+      "value": "intelligence"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 9
+    },
+    "lore": {
+      "value": "Home > Classes > Base Classes > Witch Contents Class Skills Class Features Weapon and Armor Proficiency Spells Hex Patron Spells Witch’s Familiar (Ex) Major Hex Major Hexes Grand Hex Grand Hexes Favored Class Bonuses Archetypes & Alternate Class Features Archetypes & Other Class Options Some gain power through study, some through devotion, others through blood, but the witch gains power from her communion with the unknown. Generally feared and misunderstood, the witch draws her magic from a pact made with an otherworldly power. Communing with that source, using her familiar as a conduit, the witch gains not only a host of spells, but a number of strange abilities known as hexes. As a witch grows in power, she might learn about the source of her magic, but some remain blissfully unaware. Some are even afraid of that source, fearful of what it might be or where its true purposes lie. Role: While many witches are recluses, living on the edge of civilization, some live within society, openly or in hiding. The blend of witches’ spells makes them adept at filling a number of different roles, from seer to healer, and their hexes grant them a number of abilities that are useful in a fight. Some witches travel about, seeking greater knowledge and better understanding of the mysterious powers that guide them. Alignment: Any. Hit Die: d6. Starting Wealth: 3d6 Ã 10 gp (average 105 gp.) In addition, each character begins play with an outfit worth 10 gp or less. Class Skills The witch’s class skills are Craft ( Int ), Fly ( Dex ), Heal ( Wis ), Intimidate ( Cha ), Knowledge (arcana) ( Int ), Knowledge (history) ( Int ), Knowledge (nature) ( Int ), Knowledge (planes) ( Int ), Profession ( Wis ), Spellcraft ( Int ), and Use Magic Device ( Cha ). Skill Ranks per Level: 2 + Int modifier. Table: Witch Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 0 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 1st +0 +0 +0 +2 Cantrips, hex, patron spells, witch’s familiar 3 1 â â â â â â â â 2nd +1 +0 +0 +3 Hex 4 2 â â â â â â â â 3rd +1 +1 +1 +3 Â 4 2 1 â â â â â â â 4th +2 +1 +1 +4 Hex 4 3 2 â â â â â â â 5th +2 +1 +1 +4 Â 4 3 2 1 â â â â â â 6th +3 +2 +2 +5 Hex 4 3 3 2 â â â â â â 7th +3 +2 +2 +5 Â 4 4 3 2 1 â â â â â 8th +4 +2 +2 +6 Hex 4 4 3 3 2 â â â â â 9th +4 +3 +3 +6 Â 4 4 4 3 2 1 â â â â 10th +5 +3 +3 +7 Hex, major hex 4 4 4 3 3 2 â â â â 11th +5 +3 +3 +7 Â 4 4 4 4 3 2 1 â â â 12th +6/+1 +4 +4 +8 Hex 4 4 4 4 3 3 2 â â â 13th +6/+1 +4 +4 +8 Â 4 4 4 4 4 3 2 1 â â 14th +7/+2 +4 +4 +9 Hex 4 4 4 4 4 3 3 2 â â 15th +7/+2 +5 +5 +9 Â 4 4 4 4 4 4 3 2 1 â 16th +8/+3 +5 +5 +10 Hex 4 4 4 4 4 4 3 3 2 â 17th +8/+3 +5 +5 +10 Â 4 4 4 4 4 4 4 3 2 1 18th +9/+4 +6 +6 +11 Hex, grand hex 4 4 4 4 4 4 4 3 3 2 19th +9/+4 +6 +6 +11 Â 4 4 4 4 4 4 4 4 3 3 20th +10/+5 +6 +6 +12 Hex 4 4 4 4 4 4 4 4 4 4 Class Features The following are the class features of the witch. Weapon and Armor Proficiency Witches are proficient with all simple weapons. They are not proficient with any type of armor or shield. Armor interferes with a witch’s gestures, which can cause her spells with somatic components to fail. Spells A witch casts arcane spells drawn from the witch spell list. A witch must choose and prepare her spells ahead of time. To learn or cast a spell, a witch must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a witch’s spell is 10 + the spell level + the witch’s Intelligence modifier. A witch can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: Witch. In addition, she receives bonus spells per day if she has a high Intelligence score (see Table: Ability Modifiers and Bonus Spells ). A witch may know any number of spells. She must choose and prepare her spells ahead of time by getting 8 hours of sleep and spending 1 hour communing with her familiar. While communing, the witch decides which spells to prepare. Cantrips Witches can prepare a number of cantrips, or 0-level spells, each day, as noted on Table: Witch under âSpells per Day.â These spells are cast like any other spell, but they are not expended when cast and may be used again. Cantrips prepared using other spell slots, due to metamagic feats for example, are expended normally. Hex Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level, as noted on Table: Witch. A witch cannot select an individual hex more than once. Unless otherwise noted, using a hex is a standard action that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 + 1/2 the witch’s level + the witch’s Intelligence modifier. Paizo Subpages Ameliorating (Su) Aura of Purity (Su) Beast of Ill-Omen (Su) Blight (Su) Cackle (Su) Cauldron* (Ex) Charm (Su) Child-Scent (Ex) City Sight (Su) Combat Hypnosis (Su) Congeal (Su) Coven (Ex) Cursed Wound (Su) Dark Apothecary (Ex) Deathcall (Su) Discord (Su) Disguise* (Su) Disrupt Connection (Su) Distraction (Su) Enemy Ground (Su) Evil Eye* (Su) Feral Speech (Su) Flight* (Su) Floating Lotus (Su) Fortune (Su) Gift of Consumption (Su) Greater Gift of Consumption (Su) Healing* (Su) Heralding Bloom (Su) Iceplant (Su) Leshy Summoning (Su) Minor Prophecy (Su) Misfortune (Su) Mother's Eye (Su) Mud Witch (Su) Murksight (Su) Nails (Ex) No Place Like Home (Su) Peacebond (Su) Poison Steep (Sp) Poison Touch (Ex) Pollute Water (Su) Polluting Glance (Su) Prehensile Hair (Su) Protective Luck (Su) Scar (Su) Seduction (Su) Sink (Su) Slumber (Su) Soothsayer (Su) Summer's Heat (Su) Swamp Hag (Sp) Swamp's Grasp (Su) Swine (Su) Tongues (Su) Unnerve Beasts (Su) Verdant Familiar (Ex) Ward (Su) Water Lung (Su) Witch's Bottle (Su) Other Publishers Subpages Jewel Bound Familiar Skullbound Shapechanger FAQ Do Temporary Ability Score Increases affect the DCs of monster and PC supernatural abilities based on those ability scores? Although the description of temporarily ability score bonuses just refers to increasing spell DCs, that is a legacy of some older game terminology not being updated as new features were added to the rules. Temporary ability score increases should affect supernatural ability DCs based on those ability scores, such as a medusa’s gaze attack or a witch’s hexes. If a hex says it can only affect a creature once every 24 hours, does that mean no other witch can use it on that target? No, the restriction only applies to that particular witch using that hex, and doesn’t prevent other witches from using their own hex with that name on the target. For example, if Esmerelda uses her healing hex on Gustav, she can’t use it on him again for 24 hours. Morda can still use her healing hex on Gustav during Esmerelda’s no-healing-hex time period (and doing so prevents Morda from using it on him again for 24 hours). Repeat for any other witch using the healing hex If I take levels in a prestige class that advances my spellcasting, do I continue to gain bonus spells from my patron as I gain levels? No. That is a class feature of the witch class, and the standard “+1 level of spellcasting” prestige class ability only advances spells known, spells per day, effective spellcaster level. (You retain the patron spells from your familiar based on your actual witch level, of course.) What spell does the light patron grant at level 18? The spell at level 18 should be fiery body. Update: Change the level 18 “sunburst” to “fiery body**.” What spell does the insanity patron grant at level 6? The spell at level 6 should be distracting cacophony. Update: Change “mad hallucination*” to “distracting cacophony*.” Source(s) APG FAQ, UM FAQ Patron Spells At 1st level, when a witch gains he"
+    }
+  }
+}

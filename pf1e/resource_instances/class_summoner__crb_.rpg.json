@@ -1,0 +1,106 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "summoner__crb_",
+    "name": {
+      "value": "Summoner"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "craft",
+        "fly",
+        "handle_animal",
+        "knowledge_arcana",
+        "knowledge_dungeoneering",
+        "knowledge_planes",
+        "linguistics",
+        "profession",
+        "ride",
+        "spellcraft",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        "L1: Eidolon — A summoned outsider companion (descriptive; full eidolon mechanics deferred to Session D).",
+        "L1: Life Link / Summon Monster I (SLA, scaling) / Cantrips / Spontaneous Arcane (Cha).",
+        "L2: Bond Senses.",
+        "L4: Shield Ally.",
+        "L6: Maker's Call.",
+        "L8: Transposition.",
+        "L10: Aspect — Borrow eidolon evolutions.",
+        "L12: Greater Shield Ally.",
+        "L16: Merge Forms.",
+        "L18: Greater Aspect.",
+        "L20: Twin Eidolon — Capstone; become a copy of the eidolon."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "spellcasting_mode": {
+      "value": "spontaneous"
+    },
+    "spellcasting_tradition": {
+      "value": "arcane"
+    },
+    "spellcasting_ability": {
+      "value": "charisma"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 6
+    },
+    "lore": {
+      "value": "Class Skills Class Features Weapon and Armor Proficiency Spells Cantrips Eidolon Life Link (Su) Summon Monster I (Sp) Bond Senses (Su) Shield Ally (Ex) Makerâs Call (Su) Transposition (Su) Aspect (Su) Greater Shield Ally (Su) Life Bond (Su) Merge Forms (Su) Greater Aspect (Su) Twin Eidolon (Su) Alternative Capstone Ability Grand Eidolon (Su) Favored Class Bonuses Archetypes & Alternate Class Features While many who dabble in the arcane become adept at beckoning monsters from the farthest reaches of the planes, none are more skilled at it than the summoner. This practitioner of the arcane arts forms a close bond with one particular outsider, known as an eidolon, who gains power as the summoner becomes more proficient at his summoning. Over time, the two become linked, eventually even sharing a shard of the same soul. But this power comes with a price: the summonerâs spells and abilities are limited due to his time spent enhancing the power and exploring the nature of his eidolon. Role: Summoners spend much of their time exploring the arcane arts alongside their eidolons. While their power comes from within, they rely heavily on their eidolon companions in dangerous situations. While a summoner and his eidolon function as individuals, their true power lies in what they can accomplish together. Alignment: Any. Hit Die: d8. Starting Wealth: 2d6 Ã 10 gp (average 70gp.) In addition, each character begins play with an outfit worth 10 gp or less. Class Skills The summonerâs class skills are Craft ( Int ), Fly ( Dex ), Handle Animal ( Cha ), Knowledge (all) ( Int ), Linguistics ( Int ), Profession (Wis), Ride ( Dex ), Spellcraft ( Int ), and Use Magic Device ( Cha ). Skill Ranks per Level: 2 + Int modifier. Table: Summoner Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1 st 2 nd 3 rd 4 th 5 th 6 th 1st +0 +0 +0 +2 Cantrips, Eidolon, Life link, Summon monster I 1 â â â â â 2nd +1 +0 +0 +3 Bond senses 2 â â â â â 3rd +2 +1 +1 +3 Summon monster II 3 â â â â â 4th +3 +1 +1 +4 Shield ally 3 1 â â â â 5th +3 +1 +1 +4 Summon monster III 4 2 â â â â 6th +4 +2 +2 +5 Makerâs call 4 3 â â â â 7th +5 +2 +2 +5 Summon monster IV 4 3 1 â â â 8th +6/+1 +2 +2 +6 Transposition 4 4 2 â â â 9th +6/+1 +3 +3 +6 Summon monster V 5 4 3 â â â 10th +7/+2 +3 +3 +7 Aspect 5 4 3 1 â â 11th +8/+3 +3 +3 +7 Summon monster VI 5 4 4 2 â â 12th +9/+4 +4 +4 +8 Greater shield ally 5 5 4 3 â â 13th +9/+4 +4 +4 +8 Summon monster VII 5 5 4 3 1 â 14th +10/+5 +4 +4 +9 Life bond 5 5 4 4 2 â 15th +11/+6/+1 +5 +5 +9 Summon monster VIII 5 5 5 4 3 â 16th +12/+7/+2 +5 +5 +10 Merge forms 5 5 5 4 3 1 17th +12/+7/+2 +5 +5 +10 Summon monster IX 5 5 5 4 4 2 18th +13/+8/+3 +6 +6 +11 Greater aspect 5 5 5 5 4 3 19th +14/+9/+4 +6 +6 +11 Gate 5 5 5 5 5 4 20th +15/+10/+5 +6 +6 +12 Twin eidolon 5 5 5 5 5 5 Class Features The following are the class features of the summoner. Weapon and Armor Proficiency Summoners are proficient with all simple weapons. Summoners are also proficient with light armor. A summoner can cast summoner spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a summoner wearing medium or heavy armor, or using a shield, incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass summoner still incurs the normal arcane spell failure chance for arcane spells received from other classes. Spells Table: Summoner Spells Known Level 0th 1st 2nd 3rd 4th 5th 6th 1st 4 2 â â â â â 2nd 5 3 â â â â â 3rd 6 4 â â â â â 4th 6 4 2 â â â â 5th 6 4 3 â â â â 6th 6 4 4 â â â â 7th 6 5 4 2 â â â 8th 6 5 4 3 â â â 9th 6 5 4 4 â â â 10th 6 5 5 4 2 â â 11th 6 6 5 4 3 â â 12th 6 6 5 4 4 â â 13th 6 6 5 5 4 2 â 14th 6 6 6 5 4 3 â 15th 6 6 6 5 4 4 â 16th 6 6 6 5 5 4 2 17th 6 6 6 6 5 4 3 18th 6 6 6 6 5 4 4 19th 6 6 6 6 5 5 4 20th 6 6 6 6 6 5 5 A summoner casts arcane spells drawn from the summoner spell list. He can cast any spell he knows without preparing it ahead of time, assuming he has not yet used up his allotment of spells per day for the spellâs level. To learn or cast a spell, a summoner must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a summonerâs spell is 10 + the spell level + the summonerâs Charisma modifier. A summoner can cast only a certain number of spells of each spell level each day. His base daily spell allotment is given on Table: Summoner. In addition, he receives bonus spells per day if he has a high Charisma score (see Table: Ability Modifiers and Bonus Spells ). A summonerâs selection of spells is extremely limited. A summoner begins play knowing four 0-level spells and two 1st-level spells of the summonerâs choice. At each new summoner level, he gains one or more new spells as indicated on Table: Summoner Spells Known. (Unlike spells per day, the number of spells a summoner knows is not affected by his Charisma score. The numbers on Table: Summoner Spells Known are fixed.) Upon reaching 5th level, and at every third summoner level thereafter (8th, 11th, and so on), a summoner can choose to learn a new spell in place of one he already knows. In effect, the summoner âlosesâ the old spell in exchange for the new one. The new spellâs level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level summoner spell he can cast. A summoner may swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time that he gains new spells known for the level. Cantrips A summoner learns a number of cantrips, or 0-level spells, as noted on Table: Summoner Spells Known under âSpells Known.â These spells are cast like any other spell, but they may be cast any number of times per day. Cantrips prepared using other spell slots, due to metamagic feats, for example, consume spell slots as normally. Eidolon A summoner begins play with the ability to summon to his side a powerful outsider called an eidolon. The eidolon forms a link with the summoner, who, forever after, summons an aspect of the same creature. An eidolon has the same alignment as the summoner that calls it and can speak all of his languages. Eidolons are treated as summoned creatures, except that they are not sent back to their home plane until reduced to a number of negative hit points equal to or greater than their Constitution score. In addition, due to its tie to its summoner, an eidolon can touch and attack creatures warded by protection from evil and similar effects that prevent contact with summoned creatures. A summoner can summon his eidolon in a ritual that takes 1 minute to perform. When summoned in this way, the eidolon hit points are unchanged from the last time it was dismissed or banished. The only exception to this is if the eidolon was slain, in which case it returns with half its normal hit points. The eidolon does not heal naturally. The eidolon remains until dismissed by the summoner (a standard action ). If the eidolon is sent back to its home plane due to death, it cannot be summoned again until the following day. The eidolon cannot be sent back to its home plane by means of dispel magic, but spells such as dismissal and banishment work normally. If the summoner is unconscious, asleep, or killed, his eidolon is immediately banished. The eidolon takes a form shaped by the summonerâs desires. The eidolonâs Hit Dice, saving throws, skills, feats, and abilities are tied to the summonerâs class level and increase as the summoner gains levels. In addition, each eidolon receives a pool of evolution points, based on the summonerâs class level, that can be used to give the eidolon different abilities and powers. Whenev"
+    }
+  }
+}

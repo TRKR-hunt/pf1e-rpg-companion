@@ -1,0 +1,107 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "medium__crb_",
+    "name": {
+      "value": "Medium"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Skill Ranks per Level\n4 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 4
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "bluff",
+        "craft",
+        "diplomacy",
+        "disguise",
+        "knowledge_arcana",
+        "knowledge_planes",
+        "knowledge_religion",
+        "profession",
+        "sense_motive",
+        "spellcraft"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple",
+        "martial"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light",
+        "medium"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": [
+        "buckler",
+        "light",
+        "heavy"
+      ]
+    },
+    "class_features": {
+      "value": [
+        "L1: Spirit — Channel a spirit (Archmage/Champion/etc.) for a séance boon & abilities (descriptive).",
+        "L1: Séance / Channel — Gain the spirit's powers; influence builds toward losing control.",
+        "L1: Spell casting (spontaneous occult, limited to 4th).",
+        "L3: Haunt Channeler.",
+        "L4: Location Channel.",
+        "L7: Spacious Soul.",
+        "L20: Astral Journey — Capstone."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "spellcasting_mode": {
+      "value": "spontaneous"
+    },
+    "spellcasting_tradition": {
+      "value": "occult"
+    },
+    "spellcasting_ability": {
+      "value": "charisma"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 4
+    },
+    "lore": {
+      "value": ""
+    }
+  }
+}

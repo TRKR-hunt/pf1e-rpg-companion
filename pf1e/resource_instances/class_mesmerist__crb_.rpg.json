@@ -1,0 +1,111 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "mesmerist__crb_",
+    "name": {
+      "value": "Mesmerist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd8.\n\n### Skill Ranks per Level\n6 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 6
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "good"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "bluff",
+        "diplomacy",
+        "disguise",
+        "escape_artist",
+        "intimidate",
+        "knowledge_arcana",
+        "knowledge_dungeoneering",
+        "knowledge_local",
+        "knowledge_nature",
+        "knowledge_nobility",
+        "knowledge_planes",
+        "knowledge_religion",
+        "perception",
+        "profession",
+        "sense_motive",
+        "sleight_of_hand",
+        "spellcraft",
+        "use_magic_device"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": [
+        "light"
+      ]
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        "L1: Hypnotic Stare — Penalize one foe's Will (scaling); core debuff.",
+        "L1: Consummate Liar / Mesmerist Trick — Implant tricks in allies (Cha + 1/2 level/day).",
+        "L1: Spell casting (spontaneous occult, Cha).",
+        "L3: Touch Treatment (remove conditions).",
+        "L4: Manifold Tricks.",
+        "L5: Mental Potency.",
+        "L7: Bold Stare (improves hypnotic stare).",
+        "L9: Painful Stare scaling.",
+        "L20: Manifold Stare — Capstone."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "spellcasting_mode": {
+      "value": "spontaneous"
+    },
+    "spellcasting_tradition": {
+      "value": "occult"
+    },
+    "spellcasting_ability": {
+      "value": "charisma"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 6
+    },
+    "lore": {
+      "value": ""
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "psychic__crb_",
+    "name": {
+      "value": "Psychic"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Hit Die\nd6.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table; class-specific sub-choices are described in the Lore section (mechanical sub-choice selection arrives with the B.1.5 framework)."
+    },
+    "hit_die": {
+      "value": "d6"
+    },
+    "class_hp_per_level": {
+      "value": 6
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "half"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": [
+        "bluff",
+        "diplomacy",
+        "fly",
+        "intimidate",
+        "knowledge_arcana",
+        "knowledge_dungeoneering",
+        "knowledge_history",
+        "knowledge_nature",
+        "knowledge_nobility",
+        "knowledge_planes",
+        "knowledge_religion",
+        "linguistics",
+        "profession",
+        "sense_motive",
+        "spellcraft"
+      ]
+    },
+    "starting_wealth": {
+      "value": "5d6 × 10 gp"
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        "L1: Psychic Discipline — Choose a discipline (faith/lore/etc.) granting bonus spells & a phrenic pool boost (descriptive).",
+        "L1: Phrenic Pool / Phrenic Amplifications — Spend phrenic points to modify spells.",
+        "L1: Spell casting (spontaneous occult, Int; thought & emotion components).",
+        "L3: Telepathy-ish discipline powers.",
+        "L5: Discipline power.",
+        "L13: Discipline power.",
+        "L20: Remade — Capstone (immortal, immune to mind-affecting choice)."
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "spellcasting_mode": {
+      "value": "spontaneous"
+    },
+    "spellcasting_tradition": {
+      "value": "occult"
+    },
+    "spellcasting_ability": {
+      "value": "intelligence"
+    },
+    "spellcasting_max_spell_level": {
+      "value": 9
+    },
+    "lore": {
+      "value": ""
+    }
+  }
+}
