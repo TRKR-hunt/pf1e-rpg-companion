@@ -260,16 +260,10 @@ calc bool ability_method_is_point_buy(name = "Method is point buy") =
 calc integer ability_points_remaining(name = "Point-buy points remaining") =
   ability_point_buy_budget - ability_point_buy_total;
 
-// B.0.3 — scratch dice for 4d6-drop-lowest decomposition in the ability
-// page post_edit. The engine's dice grammar is only "xdy + n" / "xdy - n"
-// (no kh/dl), and mechanics do NOT run during creation (schema: mechanics
-// run only in the character-sheet context) — so rolled scores are computed
-// in post_edit (the upstream pattern) by rolling four 1d6 into these and
-// taking sum - min. Reused per ability within the sequence.
-base integer temp_roll_d1(name = "Scratch d6 #1 (4d6dl)") = 0;
-base integer temp_roll_d2(name = "Scratch d6 #2 (4d6dl)") = 0;
-base integer temp_roll_d3(name = "Scratch d6 #3 (4d6dl)") = 0;
-base integer temp_roll_d4(name = "Scratch d6 #4 (4d6dl)") = 0;
+// (B.0.3's temp_roll_d1..d4 scratch stats were removed in B.0.4 along
+// with the dead post_edit auto-roll — see REACTIVITY_DIAGNOSIS.md
+// addendum: post_edit only runs at final save, so on-page auto-roll is
+// impossible; rolled methods are now manual stepper entry.)
 
 // Inlined abilityModifier(score): divide([(score + -10), 2], rounding_method = "down")
 calc integer strength_modifier(name = "STR mod") =

@@ -1,14 +1,20 @@
 // PF1e creation step 3: Ability scores.
 //
-// REACTIVITY (see .local-notes/REACTIVITY_DIAGNOSIS.md):
-// `select(stat="ability_score_method")` only updates
-// `$view.edit_character_ability_scores_method_select` live on-page; the
-// `ability_score_method` char stat (and any calc over it) is stale until
-// the page commits. So EVERY method-dependent visibility/branch here gates
-// on `$view.edit_character_ability_scores_method_select`, never on a calc
-// over the select's stat. The point-buy budget is also derived inline from
-// `$view` (it would otherwise depend on the stale select stat). `spent`
-// reads `*_score_base`, which are `edit_stat`-bound and therefore live.
+// REACTIVITY (see .local-notes/REACTIVITY_DIAGNOSIS.md + B.0.4 addendum):
+//  - `select` only updates $view.<id> live on-page; gate every
+//    method-dependent view on $view.edit_character_ability_scores_method_select.
+//  - post_edit runs ONLY at final character save, NOT on page change or
+//    select change. So there is no way to auto-roll on this page; the
+//    B.0.3 post_edit auto-roll was removed (it never ran on-page and at
+//    final save would overwrite manual entries).
+//  - The live input mechanism is the `stat()` stepper (upstream's
+//    point-buy widget): each +/- tap updates the bound score, so the
+//    point-buy counter (a calc over the scores) recomputes live. Plain
+//    text(edit_stat=) does NOT auto-commit on-page — that was the stale
+//    counter. All six scores are now steppers.
+//  - Rolled methods are honest user-driven entry: roll real dice, enter
+//    the six results with the steppers. (Auto-roll is architecturally
+//    impossible here — documented.)
 character_creation_page edit_ability_scores_title() =
   characterCreationPage(
     title = displayableData(id = "edit_ability_scores_title", name = "Ability scores"),
@@ -18,7 +24,7 @@ character_creation_page edit_ability_scores_title() =
       subviews = [
         text(
           id = "edit_character_ability_scores_subheader",
-          text = "Choose a generation method, then set your six ability scores (before racial modifiers).",
+          text = "Choose a generation method, then set your six ability scores (before racial modifiers) with the +/- steppers.",
           style = "subhead",
         ),
         composite(
@@ -41,16 +47,16 @@ character_creation_page edit_ability_scores_title() =
         ),
         text(
           id = "edit_character_ability_scores_help_pointbuy",
-          text = "Point buy costs (per ability): 7=-4, 8=-2, 9=-1, 10=0, 11=+1, 12=+2, 13=+3, 14=+5, 15=+7, 16=+10, 17=+13, 18=+17. Spend up to your budget; legal base range is 7-18.",
+          text = "Point buy costs (per ability): 7=-4, 8=-2, 9=-1, 10=0, 11=+1, 12=+2, 13=+3, 14=+5, 15=+7, 16=+10, 17=+13, 18=+17. Stepper range 7-18; spend up to your budget.",
           style = "caption",
           margin_top = 8,
           is_visible = $view.edit_character_ability_scores_method_select == "point_buy_15"
             || $view.edit_character_ability_scores_method_select == "point_buy_20"
             || $view.edit_character_ability_scores_method_select == "point_buy_25",
         ),
-        // ---- single point-buy tracker (collapsed from the old two) ----
-        // budget derived inline from the LIVE select value; spent is a calc
-        // over edit_stat-bound *_score_base (live). remaining = budget-spent.
+        // Single point-buy tracker. Budget derived inline from the LIVE
+        // $view select value; spent is a calc over the score stats, which
+        // the steppers commit live -> counter updates on every tap.
         text(
           id = "edit_character_ability_scores_pointbuy_meter",
           text = if (((if $view.edit_character_ability_scores_method_select == "point_buy_25" then 25
@@ -83,33 +89,21 @@ character_creation_page edit_ability_scores_title() =
             || $view.edit_character_ability_scores_method_select == "point_buy_20"
             || $view.edit_character_ability_scores_method_select == "point_buy_25",
         ),
-        // ---- rolled methods: help + one button per method ----
-        // Rolled methods: the engine cannot run a mechanic during creation
-        // (mechanics run only in the character-sheet context) and a creation
-        // button can only fire an unhandled event — so an on-page "roll"
-        // button is architecturally impossible. Instead the six scores are
-        // rolled in post_edit when this method is first chosen (the upstream
-        // pattern, same as 5e rolled HP). The user then reassigns by editing
-        // the (always-live) boxes; changing scores later does not re-roll.
+        // Rolled methods: auto-roll is impossible on this page (mechanics
+        // don't run in creation; post_edit is end-of-flow only). Honest
+        // pattern: the user rolls real dice and enters results via the
+        // steppers. Instruction text is method-specific via $view.
         text(
           id = "edit_character_ability_scores_help_rolled",
-          text = "When you continue, six values are rolled with this method and filled into the boxes below. Come back to this page and edit any box to assign a value to the ability you want — re-editing scores will not re-roll (only changing the method re-rolls).",
-          style = "caption",
-          margin_top = 8,
-          is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest"
-            || $view.edit_character_ability_scores_method_select == "roll_3d6"
-            || $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
-        ),
-        text(
-          id = "edit_character_ability_scores_rolled_readout",
           text = concat([
-            "Current rolled values — STR ", strength_score_base, "  DEX ", dexterity_score_base,
-            "  CON ", constitution_score_base, "  INT ", intelligence_score_base,
-            "  WIS ", wisdom_score_base, "  CHA ", charisma_score_base,
-            "   (edit any box to reassign)",
+            "Roll ",
+            (if $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest" then "4d6 and drop the lowest die"
+             else if $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6" then "2d6+6"
+             else "3d6"),
+            " once per ability (six times), then enter each result below with the steppers. Assign the values to whichever abilities you like.",
           ]),
           style = "caption",
-          margin_top = 6,
+          margin_top = 8,
           is_visible = $view.edit_character_ability_scores_method_select == "roll_4d6_drop_lowest"
             || $view.edit_character_ability_scores_method_select == "roll_3d6"
             || $view.edit_character_ability_scores_method_select == "roll_2d6_plus_6",
@@ -121,20 +115,27 @@ character_creation_page edit_ability_scores_title() =
           margin_top = 8,
           is_visible = $view.edit_character_ability_scores_method_select == "custom",
         ),
-        composite(
+        // Six live steppers (upstream's point-buy widget). stat() in a
+        // creation page renders its +/- edit controls; each change commits
+        // the bound score so the point-buy counter recomputes live.
+        // Min is method-aware via $view (point-buy 7, otherwise 3); max 18.
+        section(
           id = "edit_character_ability_scores_inputs",
+          header = [],
+          show_divider = false,
+          content_item_min_width = 90,
+          collapsible = false,
           margin_top = 12,
-          alignment = "center",
-          subviews = [
-            text(
+          content = [
+            stat(
               id = "edit_character_ability_scores_str",
+              stat = "strength_score_base",
               edit_stat = "strength_score_base",
-              style = "text",
-              max_length = 2,
-              margin_right = 4,
-              signed = false,
-              hint = "10",
-              label = "STR",
+              change_amount = 1,
+              max_value_allowed = 18,
+              calculated_min_value_allowed = if ($view.edit_character_ability_scores_method_select == "point_buy_15"
+                || $view.edit_character_ability_scores_method_select == "point_buy_20"
+                || $view.edit_character_ability_scores_method_select == "point_buy_25") then 7 else 3,
               validation_message = if ((($view.edit_character_ability_scores_method_select == "point_buy_15"
                   || $view.edit_character_ability_scores_method_select == "point_buy_20"
                   || $view.edit_character_ability_scores_method_select == "point_buy_25"))
@@ -144,55 +145,55 @@ character_creation_page edit_ability_scores_title() =
                 then "Over budget — reduce a score before continuing."
                 else null,
             ),
-            text(
+            stat(
               id = "edit_character_ability_scores_dex",
+              stat = "dexterity_score_base",
               edit_stat = "dexterity_score_base",
-              style = "text",
-              max_length = 2,
-              margin_right = 4,
-              signed = false,
-              hint = "10",
-              label = "DEX",
+              change_amount = 1,
+              max_value_allowed = 18,
+              calculated_min_value_allowed = if ($view.edit_character_ability_scores_method_select == "point_buy_15"
+                || $view.edit_character_ability_scores_method_select == "point_buy_20"
+                || $view.edit_character_ability_scores_method_select == "point_buy_25") then 7 else 3,
             ),
-            text(
+            stat(
               id = "edit_character_ability_scores_con",
+              stat = "constitution_score_base",
               edit_stat = "constitution_score_base",
-              style = "text",
-              max_length = 2,
-              margin_right = 4,
-              signed = false,
-              hint = "10",
-              label = "CON",
+              change_amount = 1,
+              max_value_allowed = 18,
+              calculated_min_value_allowed = if ($view.edit_character_ability_scores_method_select == "point_buy_15"
+                || $view.edit_character_ability_scores_method_select == "point_buy_20"
+                || $view.edit_character_ability_scores_method_select == "point_buy_25") then 7 else 3,
             ),
-            text(
+            stat(
               id = "edit_character_ability_scores_int",
+              stat = "intelligence_score_base",
               edit_stat = "intelligence_score_base",
-              style = "text",
-              max_length = 2,
-              margin_right = 4,
-              signed = false,
-              hint = "10",
-              label = "INT",
+              change_amount = 1,
+              max_value_allowed = 18,
+              calculated_min_value_allowed = if ($view.edit_character_ability_scores_method_select == "point_buy_15"
+                || $view.edit_character_ability_scores_method_select == "point_buy_20"
+                || $view.edit_character_ability_scores_method_select == "point_buy_25") then 7 else 3,
             ),
-            text(
+            stat(
               id = "edit_character_ability_scores_wis",
+              stat = "wisdom_score_base",
               edit_stat = "wisdom_score_base",
-              style = "text",
-              max_length = 2,
-              margin_right = 4,
-              signed = false,
-              hint = "10",
-              label = "WIS",
+              change_amount = 1,
+              max_value_allowed = 18,
+              calculated_min_value_allowed = if ($view.edit_character_ability_scores_method_select == "point_buy_15"
+                || $view.edit_character_ability_scores_method_select == "point_buy_20"
+                || $view.edit_character_ability_scores_method_select == "point_buy_25") then 7 else 3,
             ),
-            text(
+            stat(
               id = "edit_character_ability_scores_cha",
+              stat = "charisma_score_base",
               edit_stat = "charisma_score_base",
-              style = "text",
-              max_length = 2,
-              margin_right = 4,
-              signed = false,
-              hint = "10",
-              label = "CHA",
+              change_amount = 1,
+              max_value_allowed = 18,
+              calculated_min_value_allowed = if ($view.edit_character_ability_scores_method_select == "point_buy_15"
+                || $view.edit_character_ability_scores_method_select == "point_buy_20"
+                || $view.edit_character_ability_scores_method_select == "point_buy_25") then 7 else 3,
             ),
           ],
         ),
@@ -228,249 +229,6 @@ character_creation_page edit_ability_scores_title() =
           style = "caption",
           margin_top = 8,
         ),
-      ],
-    ),
-    post_edit = sequence(
-      effects = [
-        // Rolled ability scores. Mechanics cannot run during creation and
-        // the dice grammar is only "xdy +/- n" (no kh/dl) -- so rolling is
-        // done here in post_edit (upstream's pattern), gated so it only
-        // rolls when the method was just chosen ($updated_stats) or on a
-        // new character; later score edits do NOT re-roll. 4d6-drop-lowest
-        // is decomposed: four 1d6 into scratch stats, score = sum - min
-        // (sequence is synchronous, so the reads see the writes).
-        when {
-          contains(haystack = $updated_stats, needle = ability_score_method) || $is_new -> when {
-            ability_score_method == "roll_3d6" -> sequence(
-              effects = [
-          setStat(
-            stat = "strength_score_base",
-            new_value = roll(formula = "3d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "dexterity_score_base",
-            new_value = roll(formula = "3d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "constitution_score_base",
-            new_value = roll(formula = "3d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "intelligence_score_base",
-            new_value = roll(formula = "3d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "wisdom_score_base",
-            new_value = roll(formula = "3d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "charisma_score_base",
-            new_value = roll(formula = "3d6 + 0"),
-            aggregation_type = "set",
-          ),
-              ],
-            ),
-            ability_score_method == "roll_2d6_plus_6" -> sequence(
-              effects = [
-          setStat(
-            stat = "strength_score_base",
-            new_value = roll(formula = "2d6 + 6"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "dexterity_score_base",
-            new_value = roll(formula = "2d6 + 6"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "constitution_score_base",
-            new_value = roll(formula = "2d6 + 6"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "intelligence_score_base",
-            new_value = roll(formula = "2d6 + 6"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "wisdom_score_base",
-            new_value = roll(formula = "2d6 + 6"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "charisma_score_base",
-            new_value = roll(formula = "2d6 + 6"),
-            aggregation_type = "set",
-          ),
-              ],
-            ),
-            ability_score_method == "roll_4d6_drop_lowest" -> sequence(
-              effects = [
-          setStat(
-            stat = "temp_roll_d1",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d2",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d3",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d4",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "strength_score_base",
-            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
-              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d1",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d2",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d3",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d4",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "dexterity_score_base",
-            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
-              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d1",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d2",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d3",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d4",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "constitution_score_base",
-            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
-              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d1",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d2",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d3",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d4",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "intelligence_score_base",
-            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
-              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d1",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d2",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d3",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d4",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "wisdom_score_base",
-            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
-              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d1",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d2",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d3",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "temp_roll_d4",
-            new_value = roll(formula = "1d6 + 0"),
-            aggregation_type = "set",
-          ),
-          setStat(
-            stat = "charisma_score_base",
-            new_value = (temp_roll_d1 + temp_roll_d2 + temp_roll_d3 + temp_roll_d4)
-              - min([temp_roll_d1, temp_roll_d2, temp_roll_d3, temp_roll_d4]),
-            aggregation_type = "set",
-          ),
-              ],
-            ),
-          },
-        },
       ],
     ),
   );

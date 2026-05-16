@@ -43,14 +43,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_acrobatics",
+              stat = "acrobatics_ranks",
               edit_stat = "acrobatics_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_acrobatics",
@@ -72,14 +71,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_appraise",
+              stat = "appraise_ranks",
               edit_stat = "appraise_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_appraise",
@@ -101,14 +99,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_bluff",
+              stat = "bluff_ranks",
               edit_stat = "bluff_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_bluff",
@@ -130,14 +127,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_climb",
+              stat = "climb_ranks",
               edit_stat = "climb_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_climb",
@@ -159,14 +155,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_craft",
+              stat = "craft_ranks",
               edit_stat = "craft_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_craft",
@@ -188,14 +183,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_diplomacy",
+              stat = "diplomacy_ranks",
               edit_stat = "diplomacy_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_diplomacy",
@@ -217,14 +211,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_disable_device",
+              stat = "disable_device_ranks",
               edit_stat = "disable_device_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_disable_device",
@@ -246,14 +239,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_disguise",
+              stat = "disguise_ranks",
               edit_stat = "disguise_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_disguise",
@@ -275,14 +267,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_escape_artist",
+              stat = "escape_artist_ranks",
               edit_stat = "escape_artist_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_escape_artist",
@@ -304,14 +295,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_fly",
+              stat = "fly_ranks",
               edit_stat = "fly_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_fly",
@@ -333,14 +323,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_handle_animal",
+              stat = "handle_animal_ranks",
               edit_stat = "handle_animal_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_handle_animal",
@@ -362,14 +351,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_heal",
+              stat = "heal_ranks",
               edit_stat = "heal_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_heal",
@@ -391,14 +379,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_intimidate",
+              stat = "intimidate_ranks",
               edit_stat = "intimidate_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_intimidate",
@@ -420,14 +407,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_arcana",
+              stat = "knowledge_arcana_ranks",
               edit_stat = "knowledge_arcana_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_arcana",
@@ -449,14 +435,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_dungeoneering",
+              stat = "knowledge_dungeoneering_ranks",
               edit_stat = "knowledge_dungeoneering_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_dungeoneering",
@@ -478,14 +463,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_engineering",
+              stat = "knowledge_engineering_ranks",
               edit_stat = "knowledge_engineering_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_engineering",
@@ -507,14 +491,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_geography",
+              stat = "knowledge_geography_ranks",
               edit_stat = "knowledge_geography_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_geography",
@@ -536,14 +519,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_history",
+              stat = "knowledge_history_ranks",
               edit_stat = "knowledge_history_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_history",
@@ -565,14 +547,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_local",
+              stat = "knowledge_local_ranks",
               edit_stat = "knowledge_local_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_local",
@@ -594,14 +575,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_nature",
+              stat = "knowledge_nature_ranks",
               edit_stat = "knowledge_nature_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_nature",
@@ -623,14 +603,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_nobility",
+              stat = "knowledge_nobility_ranks",
               edit_stat = "knowledge_nobility_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_nobility",
@@ -652,14 +631,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_planes",
+              stat = "knowledge_planes_ranks",
               edit_stat = "knowledge_planes_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_planes",
@@ -681,14 +659,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_knowledge_religion",
+              stat = "knowledge_religion_ranks",
               edit_stat = "knowledge_religion_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_knowledge_religion",
@@ -710,14 +687,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_linguistics",
+              stat = "linguistics_ranks",
               edit_stat = "linguistics_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_linguistics",
@@ -739,14 +715,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_perception",
+              stat = "perception_ranks",
               edit_stat = "perception_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_perception",
@@ -768,14 +743,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_perform",
+              stat = "perform_ranks",
               edit_stat = "perform_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_perform",
@@ -797,14 +771,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_profession",
+              stat = "profession_ranks",
               edit_stat = "profession_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_profession",
@@ -826,14 +799,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_ride",
+              stat = "ride_ranks",
               edit_stat = "ride_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_ride",
@@ -855,14 +827,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_sense_motive",
+              stat = "sense_motive_ranks",
               edit_stat = "sense_motive_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_sense_motive",
@@ -884,14 +855,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_sleight_of_hand",
+              stat = "sleight_of_hand_ranks",
               edit_stat = "sleight_of_hand_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_sleight_of_hand",
@@ -913,14 +883,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_spellcraft",
+              stat = "spellcraft_ranks",
               edit_stat = "spellcraft_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_spellcraft",
@@ -942,14 +911,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_stealth",
+              stat = "stealth_ranks",
               edit_stat = "stealth_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_stealth",
@@ -971,14 +939,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_survival",
+              stat = "survival_ranks",
               edit_stat = "survival_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_survival",
@@ -1000,14 +967,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_swim",
+              stat = "swim_ranks",
               edit_stat = "swim_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_swim",
@@ -1029,14 +995,13 @@ character_creation_page edit_skills_title() =
               style = "text",
               margin_right = 8,
             ),
-            text(
+            stat(
               id = "edit_skill_row_ranks_use_magic_device",
+              stat = "use_magic_device_ranks",
               edit_stat = "use_magic_device_ranks",
-              style = "text",
-              max_length = 2,
-              signed = false,
-              hint = "0",
-              label = "Ranks",
+              change_amount = 1,
+              min_value_allowed = 0,
+              max_value_allowed = 99,
             ),
             text(
               id = "edit_skill_row_total_use_magic_device",
