@@ -44,34 +44,18 @@ character_creation_page edit_class_title() =
             else -> null,
           },
         ),
-        // Visibility is gated on $view (live); the numbers below are calcs
-        // over the `classes` char stat, which commits when the page does —
-        // so they show the previous committed state and finalize on
-        // continue (BAB/saves over a multiclass array can't be recomputed
-        // from $view cheaply). Upstream does not preview these at all.
+        // B.1.1: the BAB/saves/level numbers are calcs over the `classes`
+        // char stat, which only commits when the page does — on-page they
+        // read as 0. Live multiclass preview is deferred (B.1.5), so rather
+        // than show misleading zeros + an "(updates on continue)" footnote
+        // (reads as broken), the numbers are hidden entirely and replaced
+        // with one clear line. They appear correctly on the character sheet
+        // after this page commits. Upstream does not preview these either.
         text(
-          id = "edit_character_class_total_level_label",
-          text = concat(["Total character level: ", level, "  (updates on continue)"]),
-          style = "text",
-          bold = true,
+          id = "edit_character_class_stats_note",
+          text = "Base attack bonus, saving throws, and total level are calculated from your class and shown on your character sheet after you continue.",
+          style = "caption",
           margin_top = 12,
-          is_visible = !isEmpty($view.edit_character_class_classes),
-        ),
-        text(
-          id = "edit_character_class_bab_preview",
-          text = concat(["Base Attack Bonus: +", base_attack_bonus, "  (updates on continue)"]),
-          style = "text",
-          is_visible = !isEmpty($view.edit_character_class_classes),
-        ),
-        text(
-          id = "edit_character_class_saves_preview",
-          text = concat([
-            "Save bases — Fort +", fortitude_base,
-            " / Ref +", reflex_base,
-            " / Will +", will_base,
-            "  (updates on continue)",
-          ]),
-          style = "text",
           is_visible = !isEmpty($view.edit_character_class_classes),
         ),
         text(
