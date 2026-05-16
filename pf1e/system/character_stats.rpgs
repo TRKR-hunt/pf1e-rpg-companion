@@ -1045,17 +1045,21 @@ calc integer level_up_class_per_level_hp(name = "HP for this class level (method
   }),
 };
 
-// B.0.6 — PREVIEW calcs read the LIVE select $view value
-// ($view.level_up_favored_select), per gotcha #13: the bound stat
-// temp_level_up_favored_choice is stale until on_level_up_confirm, so a
-// preview over it would not update live in the level-up popup. The
-// APPLY-side calcs (level_up_favored_is_hp, level_up_asi_is_*) below keep
-// reading the bound stat — by confirm time it is committed (that path is
-// device-verified working).
+// B.0.6 — PREVIEW calcs read the LIVE select $view value, per gotcha
+// #13: the bound stat temp_level_up_favored_choice is stale until
+// on_level_up_confirm. B.0.7 (gotcha #14): the widget-id path component
+// MUST carry the trailing `?` conditional-path operator
+// ($view.level_up_favored_select?) — without it, when the favored
+// widget hasn't rendered yet (1->2 level-up: no favored class chosen
+// during creation) the bare path throws PathNotFoundException before
+// `?? "hp"` can apply. The `?` makes the missing path resolve to null,
+// then `?? "hp"` supplies the default. APPLY-side calcs
+// (level_up_favored_is_hp, level_up_asi_is_*) keep reading the bound
+// stat — by confirm time it is committed (device-verified working).
 calc integer level_up_favored_hp_bonus(name = "Favored class +1 HP") =
-  if ($view.level_up_favored_select ?? "hp") == "hp" then 1 else 0;
+  if ($view.level_up_favored_select? ?? "hp") == "hp" then 1 else 0;
 calc integer level_up_favored_skill_bonus(name = "Favored class +1 skill rank") =
-  if ($view.level_up_favored_select ?? "hp") == "skill" then 1 else 0;
+  if ($view.level_up_favored_select? ?? "hp") == "skill" then 1 else 0;
 
 calc integer level_up_hp_gain_preview(name = "HP gained this level") =
   level_up_class_per_level_hp + constitution_modifier + level_up_favored_hp_bonus;
@@ -1069,8 +1073,8 @@ calc bool level_up_is_caster(name = "Selected level-up class is a caster") =
 
 // Live ASI target for the preview text (bound stat is stale in the popup).
 calc string level_up_asi_display(name = "Level-up ASI target (preview)") =
-  if isEmpty($view.level_up_asi_select ?? "") then "(none chosen)"
-  else ($view.level_up_asi_select ?? "");
+  if isEmpty($view.level_up_asi_select? ?? "") then "(none chosen)"
+  else ($view.level_up_asi_select? ?? "");
 
 // --- B.0.6 BAB / save deltas for the preview ---
 // Predicted change from the selected class's NEXT level. L = that class's
