@@ -1,0 +1,65 @@
+view companion_lore_edit() =
+  list(
+    id = "companion_lore_edit",
+    padding = 16,
+    subviews = [
+      text(
+        id = "companion_lore_edit_name",
+        edit_stat = "name",
+        style = "title",
+        max_length = 120,
+        label = "Name",
+        validation_message = if isEmpty($view.companion_lore_edit_name)
+          then "Please give the entry a name"
+          else null,
+      ),
+      composite(
+        id = "companion_lore_edit_source_row",
+        margin_top = 8,
+        subviews = [
+          text(id = "companion_lore_edit_source_label", text = "Source: ", style = "text"),
+          selectResources(
+            id = "companion_lore_edit_source_select",
+            stat = "source",
+            resource_id = "source",
+          ),
+        ],
+      ),
+      composite(
+        id = "companion_lore_edit_category_row",
+        margin_top = 8,
+        subviews = [
+          text(id = "companion_lore_edit_category_label", text = "Category: ", style = "text"),
+          select(
+            id = "companion_lore_edit_category_select",
+            stat = "category",
+            options = "companion_lore_category",
+          ),
+        ],
+      ),
+      text(
+        id = "companion_lore_edit_prereq",
+        edit_stat = "prerequisites_text",
+        style = "text",
+        max_length = 600,
+        margin_top = 8,
+        label = "Prerequisites (display only)",
+      ),
+      text(
+        id = "companion_lore_edit_related",
+        edit_stat = "related_mechanical_resource_id",
+        style = "text",
+        max_length = 120,
+        margin_top = 8,
+        label = "Related mechanical resource id (optional)",
+      ),
+      text(
+        id = "companion_lore_edit_description",
+        edit_stat = "description",
+        style = "text",
+        max_length = 8000,
+        margin_top = 8,
+        label = "Description",
+      ),
+    ],
+  );

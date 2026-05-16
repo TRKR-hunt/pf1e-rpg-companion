@@ -1,0 +1,25 @@
+{
+  "id": "prestige_class",
+  "name": "Prestige Classes",
+  "plural": "Prestige Classes",
+  "core": true,
+  "color": "#6A1B9A",
+  "indexed_stats": [
+    "name",
+    "source"
+  ],
+  "search_filters": [
+    {
+      "name": "Source",
+      "stat": "source",
+      "options": "source",
+      "options_display_stat": "abbreviation"
+    }
+  ],
+  "sort_options": [
+    {
+      "name": "alphabetically",
+      "stat": "name"
+    }
+  ]
+}

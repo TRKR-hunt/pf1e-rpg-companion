@@ -1,0 +1,6 @@
+view prestige_class_list() =
+  listItem(
+    id = "prestige_class_list",
+    title = name,
+    subtitle = category_name,
+  );

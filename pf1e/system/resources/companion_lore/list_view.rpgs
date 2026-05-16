@@ -1,0 +1,6 @@
+view companion_lore_list() =
+  listItem(
+    id = "companion_lore_list",
+    title = name,
+    subtitle = category_name,
+  );

@@ -1,128 +1,42 @@
+// PF1e unified compendium entry: lore-rich, mechanics-thin content
+// scraped from d20pfsrd where the source material is descriptive prose
+// rather than a parseable rules block. Used for classes, prestige
+// classes, archetypes, race lore, deities, and (Session D) GM content.
+//
+// This type is intentionally NOT mechanically modeled. Mechanically
+// modeled types (class, race, feat, spell, trait, weapon, armor, item,
+// magic_item) keep their own rich schemas and drive character creation.
+// A compendium_entry never feeds the creation flow.
+
 base string name(name = "Name") = "";
 
 base string source(name = "Source") = "";
 
-base string category(name = "Category") = "";
+// Which kind of compendium content this is. Enum'd via
+// compendium_entry_category (class / prestige_class / archetype /
+// race_lore / deity / monster_lore / location / organization).
+base string category(name = "Category") = "class";
+
+// Free-form prerequisite / requirement text d20pfsrd shows (e.g. an
+// archetype's "Class: Fighter" line, a prestige class's entry
+// requirements). Not mechanically enforced — display only.
+base string prerequisites_text(name = "Prerequisites") = "";
 
 base string description(name = "Description") = "";
 
-base string areas_of_concern(name = "Areas of concern") = "";
+// Optional link to a mechanically-modeled resource that this entry
+// describes. e.g. the "Fighter" class compendium entry points at the
+// hand-authored mechanical Fighter class id ("class_fighter__crb_").
+// Empty when no mechanical counterpart exists (most scraped content).
+base string related_mechanical_resource_id(name = "Related mechanical resource id") = "";
 
-base string edicts(name = "Edicts") = "";
+calc string category_name(name = "Category display name") =
+  enumeratedName(enumerated_type = "compendium_entry_category", id = category);
 
-base string anathema(name = "Anathema") = "";
+calc bool has_mechanical_link(name = "Has mechanical link") =
+  !isEmpty(related_mechanical_resource_id);
 
-base string domains(name = "Domains") = "";
-
-base string alternate_domains(name = "Alternate domains") = "";
-
-base string[] font_options(name = "Divine font options") = [];
-
-base string[] divine_skill_options(name = "Divine skill options") = [];
-
-base string[] divine_ability_options(name = "Divine ability options") = [];
-
-base string[] favored_weapons(name = "Favored weapons") = [];
-
-base string[] favored_weapon_ids(name = "Favored weapon ids (internal)") = [];
-
-base resource<levelled_skill_proficiency>[] skill_proficiencies(name = "Skill proficiencies") =
-  [];
-
-base resource<levelled_spell>[] granted_spells(name = "Granted spells") = [];
-
-base string[] alignment_options(name = "Alignment options") = [];
-
-base string[] follower_alignment_options(name = "Follower alignment options") = [];
-
-base string sanctification_options(name = "Sanctification options") = "";
-
-calc string display_secondary(name = "Display secondary") =
-  joinToString(
-    filter(
-      [
-        category,
-        (if isEmpty(source) then "" else concat(["Source: ", source])),
-      ],
-      filter = ($filterValue) => !isEmpty($filterValue),
-    ),
-    separator = " • ",
-  );
-
-calc string display_areas_of_concern(name = "Display areas of concern") =
-  areas_of_concern;
-
-calc string display_edicts(name = "Display edicts") =
-  edicts;
-
-calc string display_anathema(name = "Display anathema") =
-  anathema;
-
-calc string display_domains(name = "Display domains") =
-  domains;
-
-calc string display_alternate_domains(name = "Display alternate domains") =
-  alternate_domains;
-
-calc string display_font_options(name = "Display divine font options") =
-  joinToString(
-    map(
-      font_options,
-      mapper = ($mapValue) => enumeratedName(enumerated_type = "spell_font", id = $mapValue),
-    ),
-    separator = ", ",
-  );
-
-calc string display_divine_skill(name = "Display divine skill") =
-  joinToString(
-    map(
-      divine_skill_options,
-      mapper = ($mapValue) => enumeratedName(enumerated_type = "skill_types", id = $mapValue),
-    ),
-    separator = ", ",
-  );
-
-calc string display_divine_ability(name = "Display divine ability") =
-  joinToString(
-    map(
-      divine_ability_options,
-      mapper = ($mapValue) => enumeratedName(enumerated_type = "ability", id = $mapValue),
-    ),
-    separator = ", ",
-  );
-
-calc string display_favored_weapon(name = "Display favored weapon") =
-  joinToString(
-    map(
-      favored_weapons,
-      mapper = ($mapValue) => enumeratedName(enumerated_type = "weapon_types", id = $mapValue),
-    ),
-    separator = ", ",
-  );
-
-calc resource<levelled_spell>[] granted_spells_for_current_level(name = "Granted spells for current level") =
-  filter(
-    granted_spells,
-    filter = ($filterValue) => ($filterValue.level <= ($character?.level ?? 1)),
-  );
-
-calc string display_alignment(name = "Display alignment") =
-  joinToString(
-    map(
-      alignment_options,
-      mapper = ($mapValue) => enumeratedName(enumerated_type = "alignments", id = $mapValue),
-    ),
-    separator = ", ",
-  );
-
-calc string display_follower_alignment(name = "Display follower alignment") =
-  joinToString(
-    map(
-      follower_alignment_options,
-      mapper = ($mapValue) => enumeratedName(enumerated_type = "alignments", id = $mapValue),
-    ),
-    separator = ", ",
-  );
-
-calc string display_sanctification(name = "Display sanctification") =
-  sanctification_options;
+calc string display_header_text(name = "Display header text") =
+  if !isEmpty(prerequisites_text)
+    then concat([category_name, " | ", prerequisites_text])
+    else category_name;

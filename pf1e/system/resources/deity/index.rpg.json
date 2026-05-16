@@ -1,13 +1,12 @@
 {
   "id": "deity",
-  "name": "Deity",
-  "plural": "Deities",
+  "name": "Cleric Domains",
+  "plural": "Cleric Domains",
   "core": true,
-  "color": "#6A4C93",
+  "color": "#00897B",
   "indexed_stats": [
     "name",
-    "source",
-    "category"
+    "source"
   ],
   "search_filters": [
     {
@@ -21,12 +20,6 @@
     {
       "name": "alphabetically",
       "stat": "name"
-    },
-    {
-      "name": "by source",
-      "stat": "source",
-      "options": "source",
-      "options_display_stat": "abbreviation"
     }
   ]
 }

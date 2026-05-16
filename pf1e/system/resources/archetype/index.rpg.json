@@ -1,14 +1,12 @@
 {
   "id": "archetype",
-  "name": "Archetype",
+  "name": "Archetypes",
   "plural": "Archetypes",
   "core": true,
   "color": "#7B1FA2",
   "indexed_stats": [
     "name",
-    "source",
-    "is_class_archetype",
-    "required_class_id"
+    "source"
   ],
   "search_filters": [
     {
@@ -16,24 +14,12 @@
       "stat": "source",
       "options": "source",
       "options_display_stat": "abbreviation"
-    },
-    {
-      "name": "Class archetype",
-      "stat": "is_class_archetype",
-      "true_name": "Class archetype",
-      "false_name": "Non class archetype"
     }
   ],
   "sort_options": [
     {
       "name": "alphabetically",
       "stat": "name"
-    },
-    {
-      "name": "by source",
-      "stat": "source",
-      "options": "source",
-      "options_display_stat": "abbreviation"
     }
   ]
 }

@@ -1,0 +1,60 @@
+// PF1e compendium entry display: source chip + category, optional
+// prerequisites row, description prose (markdown).
+view race_lore_display() =
+  list(
+    id = "race_lore_display",
+    padding = 16,
+    subviews = [
+      composite(
+        id = "race_lore_display_header",
+        subviews = [
+          text(
+            id = "race_lore_display_source",
+            margin_left = 16,
+            style = "caption",
+            resource_id = "source",
+            resource_instance_ids_stat = "source",
+            resource_display_stat = "abbreviation",
+          ),
+          text(
+            id = "race_lore_display_source_sep",
+            text = " | ",
+            style = "caption",
+            is_visible = !isEmpty(category_name),
+          ),
+          text(
+            id = "race_lore_display_category",
+            text = category_name,
+            style = "caption",
+            bold = true,
+          ),
+        ],
+      ),
+      composite(
+        id = "race_lore_display_prereq_row",
+        margin_top = 8,
+        subviews = [
+          text(
+            id = "race_lore_display_prereq_label",
+            text = "Prerequisites: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "race_lore_display_prereq_value",
+            text = prerequisites_text,
+            style = "text",
+          ),
+        ],
+        is_visible = !isEmpty(prerequisites_text),
+      ),
+      text(
+        id = "race_lore_display_description",
+        text = description,
+        style = "text",
+        markdown = true,
+        margin_top = 8,
+        is_visible = !isEmpty(description),
+      ),
+    ],
+  );

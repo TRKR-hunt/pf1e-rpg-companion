@@ -1,0 +1,65 @@
+view prestige_class_edit() =
+  list(
+    id = "prestige_class_edit",
+    padding = 16,
+    subviews = [
+      text(
+        id = "prestige_class_edit_name",
+        edit_stat = "name",
+        style = "title",
+        max_length = 120,
+        label = "Name",
+        validation_message = if isEmpty($view.prestige_class_edit_name)
+          then "Please give the entry a name"
+          else null,
+      ),
+      composite(
+        id = "prestige_class_edit_source_row",
+        margin_top = 8,
+        subviews = [
+          text(id = "prestige_class_edit_source_label", text = "Source: ", style = "text"),
+          selectResources(
+            id = "prestige_class_edit_source_select",
+            stat = "source",
+            resource_id = "source",
+          ),
+        ],
+      ),
+      composite(
+        id = "prestige_class_edit_category_row",
+        margin_top = 8,
+        subviews = [
+          text(id = "prestige_class_edit_category_label", text = "Category: ", style = "text"),
+          select(
+            id = "prestige_class_edit_category_select",
+            stat = "category",
+            options = "prestige_class_category",
+          ),
+        ],
+      ),
+      text(
+        id = "prestige_class_edit_prereq",
+        edit_stat = "prerequisites_text",
+        style = "text",
+        max_length = 600,
+        margin_top = 8,
+        label = "Prerequisites (display only)",
+      ),
+      text(
+        id = "prestige_class_edit_related",
+        edit_stat = "related_mechanical_resource_id",
+        style = "text",
+        max_length = 120,
+        margin_top = 8,
+        label = "Related mechanical resource id (optional)",
+      ),
+      text(
+        id = "prestige_class_edit_description",
+        edit_stat = "description",
+        style = "text",
+        max_length = 8000,
+        margin_top = 8,
+        label = "Description",
+      ),
+    ],
+  );

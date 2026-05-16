@@ -1,0 +1,25 @@
+{
+  "id": "race_lore",
+  "name": "Race Lore",
+  "plural": "Race Lore",
+  "core": true,
+  "color": "#2E7D32",
+  "indexed_stats": [
+    "name",
+    "source"
+  ],
+  "search_filters": [
+    {
+      "name": "Source",
+      "stat": "source",
+      "options": "source",
+      "options_display_stat": "abbreviation"
+    }
+  ],
+  "sort_options": [
+    {
+      "name": "alphabetically",
+      "stat": "name"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ view deity_search_item() =
   listItem(
     id = "deity_search_item",
     title = name,
-    subtitle = display_secondary,
+    subtitle = category_name,
     chips = [
       createChip(
         id = "deity_search_item_source_chip",

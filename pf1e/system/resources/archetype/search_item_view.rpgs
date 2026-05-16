@@ -2,8 +2,7 @@ view archetype_search_item() =
   listItem(
     id = "archetype_search_item",
     title = name,
-    subtitle = list_view_description,
-    first_line_extra = if is_class_archetype then "Class archetype" else null,
+    subtitle = category_name,
     chips = [
       createChip(
         id = "archetype_search_item_source_chip",
