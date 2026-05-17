@@ -69,13 +69,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Patron — A mysterious patron grants a themed bonus spell list (descriptive).",
-        "L1: Familiar — Stores the witch's spells; required to prepare them (Int).",
-        "L1: Hex — Witch hexes (evil eye, slumber, etc.); gain more at every even level.",
-        "L1: Cantrips / Prepared Arcane via familiar (Int).",
-        "L10: Major Hex available.",
-        "L18: Grand Hex available.",
-        "L20: Capstone — Grand hex mastery / patron capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "witch_patron",
+            "name": {
+              "value": "Patron"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Patron — A mysterious patron grants a themed bonus spell list (descriptive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "witch_familiar",
+            "name": {
+              "value": "Familiar"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Familiar — Stores the witch's spells; required to prepare them (Int)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "witch_hex",
+            "name": {
+              "value": "Hex"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Hex — Witch hexes (evil eye, slumber, etc.); gain more at every even level."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "witch_cantrips_prepared_arcane_via_familiar_int",
+            "name": {
+              "value": "Cantrips / Prepared Arcane via familiar (Int)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Cantrips / Prepared Arcane via familiar (Int)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "witch_major_hex_available",
+            "name": {
+              "value": "Major Hex available."
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Major Hex available."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "witch_grand_hex_available",
+            "name": {
+              "value": "Grand Hex available."
+            },
+            "level": {
+              "value": 18
+            },
+            "description": {
+              "value": "L18: Grand Hex available."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "witch_capstone",
+            "name": {
+              "value": "Capstone"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Capstone — Grand hex mastery / patron capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

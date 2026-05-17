@@ -86,16 +86,186 @@
     },
     "class_features": {
       "value": [
-        "L1: Judgment — 1/day combat blessing (justice/healing/etc.), +1/3 levels uses.",
-        "L1: Domain / Orisons / Monster Lore / Stern Gaze (+1/2 level Intimidate & Sense Motive).",
-        "L2: Cunning Initiative (add Wis to init) / Detect Alignment / Track.",
-        "L3: Solo Tactics — Allies count as having your teamwork feats.",
-        "L3: Teamwork Feat (every 3 levels).",
-        "L5: Bane — Weapon becomes bane vs a creature type.",
-        "L8: Second Judgment.",
-        "L11: Stalwart.",
-        "L16: Greater Bane / Third Judgment.",
-        "L20: True Judgment — Capstone; target dies (Fort negates), 1/day."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_judgment",
+            "name": {
+              "value": "Judgment"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Judgment — 1/day combat blessing (justice/healing/etc.), +1/3 levels uses."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_domain_orisons_monster_lore_stern_gaze_1_2_level",
+            "name": {
+              "value": "Domain / Orisons / Monster Lore / Stern Gaze (+1/2 level Intimidate & Sense Moti"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Domain / Orisons / Monster Lore / Stern Gaze (+1/2 level Intimidate & Sense Motive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_cunning_initiative_add_wis_to_init_detect_alignm",
+            "name": {
+              "value": "Cunning Initiative (add Wis to init) / Detect Alignment / Track."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Cunning Initiative (add Wis to init) / Detect Alignment / Track."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_solo_tactics",
+            "name": {
+              "value": "Solo Tactics"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Solo Tactics — Allies count as having your teamwork feats."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_teamwork_feat_every_3_levels",
+            "name": {
+              "value": "Teamwork Feat (every 3 levels)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Teamwork Feat (every 3 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_bane",
+            "name": {
+              "value": "Bane"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Bane — Weapon becomes bane vs a creature type."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_second_judgment",
+            "name": {
+              "value": "Second Judgment."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Second Judgment."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_stalwart",
+            "name": {
+              "value": "Stalwart."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Stalwart."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_greater_bane_third_judgment",
+            "name": {
+              "value": "Greater Bane / Third Judgment."
+            },
+            "level": {
+              "value": 16
+            },
+            "description": {
+              "value": "L16: Greater Bane / Third Judgment."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_true_judgment",
+            "name": {
+              "value": "True Judgment"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: True Judgment — Capstone; target dies (Fort negates), 1/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

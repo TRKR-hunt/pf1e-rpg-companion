@@ -78,13 +78,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Spirit — Choose a spirit (life, flame, nature, etc.; descriptive) granting spells & a spirit ability.",
-        "L1: Spirit Animal — A familiar carrying the shaman's connection.",
-        "L1: Orisons / Prepared Divine Casting (Wis).",
-        "L1: Hex — Shaman & spirit hexes (gain more with level).",
-        "L4: Wandering Spirit.",
-        "L8: Wandering Hex.",
-        "L20: Manifestation — Capstone of the chosen spirit."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shaman_spirit",
+            "name": {
+              "value": "Spirit"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spirit — Choose a spirit (life, flame, nature, etc.; descriptive) granting spells & a spirit ability."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shaman_spirit_animal",
+            "name": {
+              "value": "Spirit Animal"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spirit Animal — A familiar carrying the shaman's connection."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shaman_orisons_prepared_divine_casting_wis",
+            "name": {
+              "value": "Orisons / Prepared Divine Casting (Wis)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Orisons / Prepared Divine Casting (Wis)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shaman_hex",
+            "name": {
+              "value": "Hex"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Hex — Shaman & spirit hexes (gain more with level)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shaman_wandering_spirit",
+            "name": {
+              "value": "Wandering Spirit."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Wandering Spirit."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shaman_wandering_hex",
+            "name": {
+              "value": "Wandering Hex."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Wandering Hex."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shaman_manifestation",
+            "name": {
+              "value": "Manifestation"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Manifestation — Capstone of the chosen spirit."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

@@ -77,18 +77,222 @@
     },
     "class_features": {
       "value": [
-        "L1: Challenge — 1/day, +level damage vs one target; +1/day every 3 levels.",
-        "L1: Order — Choose a samurai order (Warrior, Cockatrice, etc.; descriptive).",
-        "L1: Mount / Resolve — Loyal steed; Resolve pool (1/2 level + 1) for determination/unstoppable.",
-        "L2: Order Ability.",
-        "L3: Weapon Expertise — +1 atk & extra feat support with chosen weapon group.",
-        "L4: Mounted Archer.",
-        "L5: Banner.",
-        "L6: Bonus Feat (6/12/18).",
-        "L9: Greater Resolve.",
-        "L14: Greater Banner.",
-        "L17: Last Stand.",
-        "L20: True Resolve — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_challenge",
+            "name": {
+              "value": "Challenge"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Challenge — 1/day, +level damage vs one target; +1/day every 3 levels."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_order",
+            "name": {
+              "value": "Order"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Order — Choose a samurai order (Warrior, Cockatrice, etc.; descriptive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_mount_resolve",
+            "name": {
+              "value": "Mount / Resolve"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Mount / Resolve — Loyal steed; Resolve pool (1/2 level + 1) for determination/unstoppable."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_order_ability",
+            "name": {
+              "value": "Order Ability."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Order Ability."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_weapon_expertise",
+            "name": {
+              "value": "Weapon Expertise"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Weapon Expertise — +1 atk & extra feat support with chosen weapon group."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_mounted_archer",
+            "name": {
+              "value": "Mounted Archer."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Mounted Archer."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_banner",
+            "name": {
+              "value": "Banner."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Banner."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_bonus_feat_6_12_18",
+            "name": {
+              "value": "Bonus Feat (6/12/18)."
+            },
+            "level": {
+              "value": 6
+            },
+            "description": {
+              "value": "L6: Bonus Feat (6/12/18)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_greater_resolve",
+            "name": {
+              "value": "Greater Resolve."
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: Greater Resolve."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_greater_banner",
+            "name": {
+              "value": "Greater Banner."
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Greater Banner."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_last_stand",
+            "name": {
+              "value": "Last Stand."
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Last Stand."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_true_resolve",
+            "name": {
+              "value": "True Resolve"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: True Resolve — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

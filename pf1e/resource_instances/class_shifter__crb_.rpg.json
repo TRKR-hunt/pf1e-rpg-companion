@@ -74,14 +74,150 @@
     },
     "class_features": {
       "value": [
-        "L1: Shifter Aspect — Choose a major form (animal aspect) granting natural attacks/senses.",
-        "L1: Shifter Claws — Natural claw attacks scaling with level.",
-        "L1: Wild Empathy.",
-        "L2: Defensive Instinct (Wis to AC unarmored).",
-        "L3: Shifter Aspect (minor) (every few levels).",
-        "L4: Wild Shape — Beast shape, improving with level.",
-        "L5: Woodland Stride.",
-        "L20: Bestial Form — Capstone aspect mastery."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_shifter_aspect",
+            "name": {
+              "value": "Shifter Aspect"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Shifter Aspect — Choose a major form (animal aspect) granting natural attacks/senses."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_shifter_claws",
+            "name": {
+              "value": "Shifter Claws"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Shifter Claws — Natural claw attacks scaling with level."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_wild_empathy",
+            "name": {
+              "value": "Wild Empathy."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Wild Empathy."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_defensive_instinct_wis_to_ac_unarmored",
+            "name": {
+              "value": "Defensive Instinct (Wis to AC unarmored)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Defensive Instinct (Wis to AC unarmored)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_shifter_aspect_minor_every_few_levels",
+            "name": {
+              "value": "Shifter Aspect (minor) (every few levels)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Shifter Aspect (minor) (every few levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_wild_shape",
+            "name": {
+              "value": "Wild Shape"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Wild Shape — Beast shape, improving with level."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_woodland_stride",
+            "name": {
+              "value": "Woodland Stride."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Woodland Stride."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "shifter_bestial_form",
+            "name": {
+              "value": "Bestial Form"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Bestial Form — Capstone aspect mastery."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

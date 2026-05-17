@@ -78,12 +78,114 @@
     },
     "class_features": {
       "value": [
-        "L1: Hunter's Focus — Studied bonuses vs undead (esp. vampires).",
-        "L1: Track / Undead Lore.",
-        "L2: Hunter Talent (every 2 levels).",
-        "L3: Sneak Attack vs undead.",
-        "L7: Stalker.",
-        "L20: Slayer of the Dead — Capstone (3pp; The World of Vampire Hunter D)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vampire_hunter_hunter_s_focus",
+            "name": {
+              "value": "Hunter's Focus"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Hunter's Focus — Studied bonuses vs undead (esp. vampires)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vampire_hunter_track_undead_lore",
+            "name": {
+              "value": "Track / Undead Lore."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Track / Undead Lore."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vampire_hunter_hunter_talent_every_2_levels",
+            "name": {
+              "value": "Hunter Talent (every 2 levels)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Hunter Talent (every 2 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vampire_hunter_sneak_attack_vs_undead",
+            "name": {
+              "value": "Sneak Attack vs undead."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Sneak Attack vs undead."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vampire_hunter_stalker",
+            "name": {
+              "value": "Stalker."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Stalker."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vampire_hunter_slayer_of_the_dead",
+            "name": {
+              "value": "Slayer of the Dead"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Slayer of the Dead — Capstone (3pp; The World of Vampire Hunter D)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

@@ -9,7 +9,7 @@
       "value": "crb"
     },
     "description": {
-      "value": "### Hit Die\nd10.\n\n### Starting Wealth\n5d6 \u00d7 10 gp\n\n### Skill Ranks per Level\n6 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table below."
+      "value": "### Hit Die\nd10.\n\n### Starting Wealth\n5d6 × 10 gp\n\n### Skill Ranks per Level\n6 + Int modifier.\n\n### Alignment\nany.\n\n### Class Features\nSee the level table below."
     },
     "hit_die": {
       "value": "d10"
@@ -55,7 +55,7 @@
       ]
     },
     "starting_wealth": {
-      "value": "5d6 \u00d7 10 gp"
+      "value": "5d6 × 10 gp"
     },
     "alignment_restriction": {
       "value": "any"
@@ -81,30 +81,438 @@
     },
     "class_features": {
       "value": [
-        "L1: 1st Favored Enemy \u2014 +2 atk/dmg/skill vs chosen creature type.",
-        "L1: Track \u2014 Add half ranger level to Survival to track.",
-        "L1: Wild Empathy",
-        "L2: Combat Style Feat \u2014 Bonus feat from chosen archery or two-weapon list.",
-        "L3: Endurance \u2014 Bonus feat.",
-        "L3: Favored Terrain \u2014 +2 init/Knowledge geo/Per/Stealth/Survival in terrain.",
-        "L4: Hunter's Bond \u2014 Animal companion or +half level to allies' atk vs FE.",
-        "L5: 2nd Favored Enemy",
-        "L6: Combat Style Feat",
-        "L7: Woodland Stride",
-        "L8: Swift Tracker \u2014 Track at normal speed.",
-        "L9: Evasion",
-        "L10: 3rd Favored Enemy",
-        "L10: Combat Style Feat",
-        "L11: Quarry",
-        "L12: Camouflage",
-        "L14: Combat Style Feat",
-        "L15: 4th Favored Enemy",
-        "L16: Improved Evasion",
-        "L17: Hide in Plain Sight",
-        "L18: Combat Style Feat",
-        "L19: Improved Quarry",
-        "L20: 5th Favored Enemy",
-        "L20: Master Hunter \u2014 Standard action kill of favored enemy."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_1st_favored_enemy",
+            "name": {
+              "value": "1st Favored Enemy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: 1st Favored Enemy — +2 atk/dmg/skill vs chosen creature type."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_track",
+            "name": {
+              "value": "Track"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Track — Add half ranger level to Survival to track."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_wild_empathy",
+            "name": {
+              "value": "Wild Empathy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Wild Empathy"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_combat_style_feat",
+            "name": {
+              "value": "Combat Style Feat"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Combat Style Feat — Bonus feat from chosen archery or two-weapon list."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_endurance",
+            "name": {
+              "value": "Endurance"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Endurance — Bonus feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_favored_terrain",
+            "name": {
+              "value": "Favored Terrain"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Favored Terrain — +2 init/Knowledge geo/Per/Stealth/Survival in terrain."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_hunter_s_bond",
+            "name": {
+              "value": "Hunter's Bond"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Hunter's Bond — Animal companion or +half level to allies' atk vs FE."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_2nd_favored_enemy",
+            "name": {
+              "value": "2nd Favored Enemy"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: 2nd Favored Enemy"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_combat_style_feat_2",
+            "name": {
+              "value": "Combat Style Feat"
+            },
+            "level": {
+              "value": 6
+            },
+            "description": {
+              "value": "L6: Combat Style Feat"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_woodland_stride",
+            "name": {
+              "value": "Woodland Stride"
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Woodland Stride"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_swift_tracker",
+            "name": {
+              "value": "Swift Tracker"
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Swift Tracker — Track at normal speed."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_evasion",
+            "name": {
+              "value": "Evasion"
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: Evasion"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_3rd_favored_enemy",
+            "name": {
+              "value": "3rd Favored Enemy"
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: 3rd Favored Enemy"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_combat_style_feat_3",
+            "name": {
+              "value": "Combat Style Feat"
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Combat Style Feat"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_quarry",
+            "name": {
+              "value": "Quarry"
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Quarry"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_camouflage",
+            "name": {
+              "value": "Camouflage"
+            },
+            "level": {
+              "value": 12
+            },
+            "description": {
+              "value": "L12: Camouflage"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_combat_style_feat_4",
+            "name": {
+              "value": "Combat Style Feat"
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Combat Style Feat"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_4th_favored_enemy",
+            "name": {
+              "value": "4th Favored Enemy"
+            },
+            "level": {
+              "value": 15
+            },
+            "description": {
+              "value": "L15: 4th Favored Enemy"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_improved_evasion",
+            "name": {
+              "value": "Improved Evasion"
+            },
+            "level": {
+              "value": 16
+            },
+            "description": {
+              "value": "L16: Improved Evasion"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_hide_in_plain_sight",
+            "name": {
+              "value": "Hide in Plain Sight"
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Hide in Plain Sight"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_combat_style_feat_5",
+            "name": {
+              "value": "Combat Style Feat"
+            },
+            "level": {
+              "value": 18
+            },
+            "description": {
+              "value": "L18: Combat Style Feat"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_improved_quarry",
+            "name": {
+              "value": "Improved Quarry"
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: Improved Quarry"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_5th_favored_enemy",
+            "name": {
+              "value": "5th Favored Enemy"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: 5th Favored Enemy"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_master_hunter",
+            "name": {
+              "value": "Master Hunter"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Master Hunter — Standard action kill of favored enemy."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "spellcasting_mode": {
@@ -123,7 +531,7 @@
       "value": 4
     },
     "lore": {
-      "value": "## ranger\n\nHome > Classes > Core Classes > Ranger Contents Class Skills Class Features Weapon and Armor Proficiency Favored Enemy (Ex) Track (Ex) Wild Empathy (Ex) Combat Style Feat (Ex) Endurance Favored Terrain (Ex) Hunter\u2019s Bond (Ex) Spells Woodland Stride (Ex) Swift Tracker (Ex) Evasion (Ex) Quarry (Ex) Camouflage (Ex) Improved Evasion (Ex) Hide in Plain Sight (Ex) Improved Quarry (Ex) Master Hunter (Ex) Alternative Capstone Ability Seen It Before (Ex) Favored Class Bonuses Archetypes & Alternate Class Features Image used by permission of Yama Orce. For those who relish the thrill of the hunt, there are only predators and prey. Be they scouts, trackers, or bounty hunters, rangers share much in common: unique mastery of specialized weapons, skill at stalking even the most elusive game, and the expertise to defeat a wide range of quarries. Knowledgeable, patient, and skilled hunters, these rangers hound man, beast, and monster alike, gaining insight into the way of the predator, skill in varied environments, and ever more lethal martial prowess. While some track man-eating creatures to protect the frontier, others pursue more cunning game\u00e2\u0080\u0094even fugitives among their own people. Role: Ranger are deft skirmishers, either in melee or at range, capable of skillfully dancing in and out of battle. Their abilities allow them to deal significant harm to specific types of foes, but their skills are valuable against all manner of enemies. Alignment: Any Hit Die: d10 Starting Wealth: 5d6 \u00c3\u0097 10 gp (average 175 gp.) In addition, each character begins play with an outfit worth 10 gp or less. Class Skills The ranger\u2019s class skills are Climb ( Str ), Craft ( Int ), Handle Animal ( Cha ), Heal ( Wis ), Intimidate ( Cha ), Knowledge (dungeoneering) ( Int ), Knowledge (geography) ( Int ), Knowledge (nature) ( Int ), Perception ( Wis ), Profession ( Wis ), Ride ( Dex ), Spellcraft ( Int ), Stealth ( Dex ), Survival ( Wis ), and Swim ( Str ). Skill Ranks per Level: 6 + Int modifier. Table: Ranger Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1st 2nd 3rd 4th 1st +1 +2 +2 +0 1st favored enemy, track, wild empathy \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 2nd +2 +3 +3 +0 Combat style feat \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 3rd +3 +3 +3 +1 Endurance, 1st favored terrain \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 4th +4 +4 +4 +1 Hunter\u2019s bond 0 \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 5th +5 +4 +4 +1 2nd favored enemy 1 \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 6th +6/+1 +5 +5 +2 Combat style feat 1 \u00e2\u0080\u0094 \u00e2\u0080\u0094 \u00e2\u0080\u0094 7th +7/+2 +5 +5 +2 Woodland stride 1 0 \u00e2\u0080\u0094 \u00e2\u0080\u0094 8th +8/+3 +6 +6 +2 Swift tracker, 2nd favored terrain 1 1 \u00e2\u0080\u0094 \u00e2\u0080\u0094 9th +9/+4 +6 +6 +3 Evasion 2 1 \u00e2\u0080\u0094 \u00e2\u0080\u0094 10th +10/+5 +7 +7 +3 3rd favored enemy, combat style feat 2 1 0 \u00e2\u0080\u0094 11th +11/+6/+1 +7 +7 +3 Quarry 2 1 1 \u00e2\u0080\u0094 12th +12/+7/+2 +8 +8 +4 Camouflage 2 2 1 \u00e2\u0080\u0094 13th +13/+8/+3 +8 +8 +4 3rd favored terrain 3 2 1 0 14th +14/+9/+4 +9 +9 +4 Combat style feat 3 2 1 1 15th +15/+10/+5 +9 +9 +5 4th favored enemy 3 2 2 1 16th +16/+11/+6/+1 +10 +10 +5 Improved evasion 3 3 2 1 17th +17/+12/+7/+2 +10 +10 +5 Hide in plain sight 4 3 2 1 18th +18/+13/+8/+3 +11 +11 +6 4th favored terrain, combat style feat 4 3 2 2 19th +19/+14/+9/+4 +11 +11 +6 Improved quarry 4 3 3 2 20th +20/+15/+10/+5 +12 +12 +6 5th favored enemy, master hunter 4 4 3 3 Class Features Table: Ranger Favored Enemies Type (Subtype) Aberration Animal Construct Dragon Fey Humanoid ( aquatic ) Humanoid ( dwarf ) Humanoid ( elf ) Humanoid ( giant ) Humanoid ( goblinoid ) Humanoid ( gnoll ) Humanoid ( gnome ) Humanoid ( halfling ) Humanoid ( human ) Humanoid ( orc ) Humanoid ( reptilian ) Humanoid (other subtype) Magical beast Monstrous humanoid Ooze Outsider ( air ) Outsider ( chaotic ) Outsider ( earth ) Outsider ( evil ) Outsider ( fire ) Outsider ( good ) Outsider ( lawful ) Outsider ( native ) Outsider ( water ) Plant Undead Vermin Table: Ranger Favored Terrains Favored Terrains Cold (ice, glaciers, snow, and tundra) Desert (sand and wastelands) Forest (coniferous and deciduous) Jungle Mountain (including hills) Plains Planes (pick one, other than Material Plane ) Swamp Underground (caves and dungeons) Urban (buildings, streets, and sewers) Water (above and below the surface) All of the following are class features of the ranger. Weapon and Armor Proficiency A ranger is proficient with all simple and martial weapons and with light armor, medium armor, and shields (except tower shields). Favored Enemy ( Ex ) At 1st level, a ranger selects a creature type from the ranger favored enemies table. He gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make Knowledge skill checks untrained when attempting to identify these creatures. At 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2. If the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. (Note that there are other types of humanoid to choose from\u00e2\u0080\u0094those called out specifically on the table below are merely the most common.) If a specific creature falls into more than one category of favored enemy, the ranger\u2019s bonuses do not stack; he simply uses whichever bonus is higher. Track ( Ex ) A ranger adds half his level (minimum 1) to Survival skill checks made to follow tracks. Wild Empathy ( Ex ) A ranger can improve the initial attitude of an animal. This ability functions just like a Diplomacy check to improve the attitude of a person (see Using Skills ). The ranger rolls 1d20 and adds his ranger level and his Charisma bonus to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. To use wild empathy, the ranger and the animal must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time. The ranger can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but he takes a \u00e2\u0080\u00934 penalty on the check. Combat Style Feat ( Ex ) At 2nd level, a ranger must select one combat style to pursue. The ranger\u2019s expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites. The benefits of the ranger\u2019s chosen style feats apply only when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed. Endurance A ranger gains Endurance as a bonus feat at 3rd level. Favored Terrain ( Ex ) At 3rd level, a ranger may select a type of terrain from Table: Ranger Favored Terrains. The ranger gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when he is in this terrain. A ranger traveling through his favored terrain normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses). At 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2. If a specific terrain falls into more than one category of favored terrain, the ranger\u2019s bonuses do not stack; he simply uses whichever bonus is higher. Hunter\u2019s Bond ( Ex ) At 4th level, a ranger forms a bond with his hunting companions. This bond can take one of two forms. Once the form is chosen, it cannot be changed. The first is a bond to his companions. This bond allows him to sp"
+      "value": "## ranger\n\nHome > Classes > Core Classes > Ranger Contents Class Skills Class Features Weapon and Armor Proficiency Favored Enemy (Ex) Track (Ex) Wild Empathy (Ex) Combat Style Feat (Ex) Endurance Favored Terrain (Ex) Hunter’s Bond (Ex) Spells Woodland Stride (Ex) Swift Tracker (Ex) Evasion (Ex) Quarry (Ex) Camouflage (Ex) Improved Evasion (Ex) Hide in Plain Sight (Ex) Improved Quarry (Ex) Master Hunter (Ex) Alternative Capstone Ability Seen It Before (Ex) Favored Class Bonuses Archetypes & Alternate Class Features Image used by permission of Yama Orce. For those who relish the thrill of the hunt, there are only predators and prey. Be they scouts, trackers, or bounty hunters, rangers share much in common: unique mastery of specialized weapons, skill at stalking even the most elusive game, and the expertise to defeat a wide range of quarries. Knowledgeable, patient, and skilled hunters, these rangers hound man, beast, and monster alike, gaining insight into the way of the predator, skill in varied environments, and ever more lethal martial prowess. While some track man-eating creatures to protect the frontier, others pursue more cunning gameâeven fugitives among their own people. Role: Ranger are deft skirmishers, either in melee or at range, capable of skillfully dancing in and out of battle. Their abilities allow them to deal significant harm to specific types of foes, but their skills are valuable against all manner of enemies. Alignment: Any Hit Die: d10 Starting Wealth: 5d6 Ã 10 gp (average 175 gp.) In addition, each character begins play with an outfit worth 10 gp or less. Class Skills The ranger’s class skills are Climb ( Str ), Craft ( Int ), Handle Animal ( Cha ), Heal ( Wis ), Intimidate ( Cha ), Knowledge (dungeoneering) ( Int ), Knowledge (geography) ( Int ), Knowledge (nature) ( Int ), Perception ( Wis ), Profession ( Wis ), Ride ( Dex ), Spellcraft ( Int ), Stealth ( Dex ), Survival ( Wis ), and Swim ( Str ). Skill Ranks per Level: 6 + Int modifier. Table: Ranger Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1st 2nd 3rd 4th 1st +1 +2 +2 +0 1st favored enemy, track, wild empathy â â â â 2nd +2 +3 +3 +0 Combat style feat â â â â 3rd +3 +3 +3 +1 Endurance, 1st favored terrain â â â â 4th +4 +4 +4 +1 Hunter’s bond 0 â â â 5th +5 +4 +4 +1 2nd favored enemy 1 â â â 6th +6/+1 +5 +5 +2 Combat style feat 1 â â â 7th +7/+2 +5 +5 +2 Woodland stride 1 0 â â 8th +8/+3 +6 +6 +2 Swift tracker, 2nd favored terrain 1 1 â â 9th +9/+4 +6 +6 +3 Evasion 2 1 â â 10th +10/+5 +7 +7 +3 3rd favored enemy, combat style feat 2 1 0 â 11th +11/+6/+1 +7 +7 +3 Quarry 2 1 1 â 12th +12/+7/+2 +8 +8 +4 Camouflage 2 2 1 â 13th +13/+8/+3 +8 +8 +4 3rd favored terrain 3 2 1 0 14th +14/+9/+4 +9 +9 +4 Combat style feat 3 2 1 1 15th +15/+10/+5 +9 +9 +5 4th favored enemy 3 2 2 1 16th +16/+11/+6/+1 +10 +10 +5 Improved evasion 3 3 2 1 17th +17/+12/+7/+2 +10 +10 +5 Hide in plain sight 4 3 2 1 18th +18/+13/+8/+3 +11 +11 +6 4th favored terrain, combat style feat 4 3 2 2 19th +19/+14/+9/+4 +11 +11 +6 Improved quarry 4 3 3 2 20th +20/+15/+10/+5 +12 +12 +6 5th favored enemy, master hunter 4 4 3 3 Class Features Table: Ranger Favored Enemies Type (Subtype) Aberration Animal Construct Dragon Fey Humanoid ( aquatic ) Humanoid ( dwarf ) Humanoid ( elf ) Humanoid ( giant ) Humanoid ( goblinoid ) Humanoid ( gnoll ) Humanoid ( gnome ) Humanoid ( halfling ) Humanoid ( human ) Humanoid ( orc ) Humanoid ( reptilian ) Humanoid (other subtype) Magical beast Monstrous humanoid Ooze Outsider ( air ) Outsider ( chaotic ) Outsider ( earth ) Outsider ( evil ) Outsider ( fire ) Outsider ( good ) Outsider ( lawful ) Outsider ( native ) Outsider ( water ) Plant Undead Vermin Table: Ranger Favored Terrains Favored Terrains Cold (ice, glaciers, snow, and tundra) Desert (sand and wastelands) Forest (coniferous and deciduous) Jungle Mountain (including hills) Plains Planes (pick one, other than Material Plane ) Swamp Underground (caves and dungeons) Urban (buildings, streets, and sewers) Water (above and below the surface) All of the following are class features of the ranger. Weapon and Armor Proficiency A ranger is proficient with all simple and martial weapons and with light armor, medium armor, and shields (except tower shields). Favored Enemy ( Ex ) At 1st level, a ranger selects a creature type from the ranger favored enemies table. He gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make Knowledge skill checks untrained when attempting to identify these creatures. At 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by +2. If the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table below. (Note that there are other types of humanoid to choose fromâthose called out specifically on the table below are merely the most common.) If a specific creature falls into more than one category of favored enemy, the ranger’s bonuses do not stack; he simply uses whichever bonus is higher. Track ( Ex ) A ranger adds half his level (minimum 1) to Survival skill checks made to follow tracks. Wild Empathy ( Ex ) A ranger can improve the initial attitude of an animal. This ability functions just like a Diplomacy check to improve the attitude of a person (see Using Skills ). The ranger rolls 1d20 and adds his ranger level and his Charisma bonus to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly. To use wild empathy, the ranger and the animal must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time. The ranger can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but he takes a â4 penalty on the check. Combat Style Feat ( Ex ) At 2nd level, a ranger must select one combat style to pursue. The ranger’s expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites. The benefits of the ranger’s chosen style feats apply only when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed. Endurance A ranger gains Endurance as a bonus feat at 3rd level. Favored Terrain ( Ex ) At 3rd level, a ranger may select a type of terrain from Table: Ranger Favored Terrains. The ranger gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when he is in this terrain. A ranger traveling through his favored terrain normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses). At 8th level and every five levels thereafter, the ranger may select an additional favored terrain. In addition, at each such interval, the skill bonus and initiative bonus in any one favored terrain (including the one just selected, if so desired), increases by +2. If a specific terrain falls into more than one category of favored terrain, the ranger’s bonuses do not stack; he simply uses whichever bonus is higher. Hunter’s Bond ( Ex ) At 4th level, a ranger forms a bond with his hunting companions. This bond can take one of two forms. Once the form is chosen, it cannot be changed. The first is a bond to his companions. This bond allows him to sp"
     }
   }
 }

@@ -73,13 +73,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Psychic Discipline — Choose a discipline (faith/lore/etc.) granting bonus spells & a phrenic pool boost (descriptive).",
-        "L1: Phrenic Pool / Phrenic Amplifications — Spend phrenic points to modify spells.",
-        "L1: Spell casting (spontaneous occult, Int; thought & emotion components).",
-        "L3: Telepathy-ish discipline powers.",
-        "L5: Discipline power.",
-        "L13: Discipline power.",
-        "L20: Remade — Capstone (immortal, immune to mind-affecting choice)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "psychic_psychic_discipline",
+            "name": {
+              "value": "Psychic Discipline"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Psychic Discipline — Choose a discipline (faith/lore/etc.) granting bonus spells & a phrenic pool boost (descriptive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "psychic_phrenic_pool_phrenic_amplifications",
+            "name": {
+              "value": "Phrenic Pool / Phrenic Amplifications"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Phrenic Pool / Phrenic Amplifications — Spend phrenic points to modify spells."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "psychic_spell_casting_spontaneous_occult_int_thought_emo",
+            "name": {
+              "value": "Spell casting (spontaneous occult, Int; thought & emotion components)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spell casting (spontaneous occult, Int; thought & emotion components)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "psychic_telepathy_ish_discipline_powers",
+            "name": {
+              "value": "Telepathy-ish discipline powers."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Telepathy-ish discipline powers."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "psychic_discipline_power",
+            "name": {
+              "value": "Discipline power."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Discipline power."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "psychic_discipline_power_2",
+            "name": {
+              "value": "Discipline power."
+            },
+            "level": {
+              "value": 13
+            },
+            "description": {
+              "value": "L13: Discipline power."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "psychic_remade",
+            "name": {
+              "value": "Remade"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Remade — Capstone (immortal, immune to mind-affecting choice)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

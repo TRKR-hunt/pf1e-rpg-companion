@@ -84,13 +84,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Studied Target — Move action to study a foe: +1 (scaling) atk/dmg & skills vs it.",
-        "L1: Track.",
-        "L2: Slayer Talent (every 2 levels; rogue talents allowed).",
-        "L3: Sneak Attack (+1d6, +1d6 at 5/7/...; not full rogue progression).",
-        "L7: Stalker — Studied target also grants sneak attack damage.",
-        "L10: Advanced Talents.",
-        "L20: Master Slayer — Capstone; studied target can paralyze/kill (Fort)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_studied_target",
+            "name": {
+              "value": "Studied Target"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Studied Target — Move action to study a foe: +1 (scaling) atk/dmg & skills vs it."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_track",
+            "name": {
+              "value": "Track."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Track."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_slayer_talent_every_2_levels_rogue_talents_allow",
+            "name": {
+              "value": "Slayer Talent (every 2 levels; rogue talents allowed)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Slayer Talent (every 2 levels; rogue talents allowed)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_sneak_attack_1d6_1d6_at_5_7_not_full_rogue_progr",
+            "name": {
+              "value": "Sneak Attack (+1d6, +1d6 at 5/7/...; not full rogue progression)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Sneak Attack (+1d6, +1d6 at 5/7/...; not full rogue progression)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_stalker",
+            "name": {
+              "value": "Stalker"
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Stalker — Studied target also grants sneak attack damage."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_advanced_talents",
+            "name": {
+              "value": "Advanced Talents."
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Advanced Talents."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_master_slayer",
+            "name": {
+              "value": "Master Slayer"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Master Slayer — Capstone; studied target can paralyze/kill (Fort)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

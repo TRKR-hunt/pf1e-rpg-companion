@@ -81,15 +81,168 @@
     },
     "class_features": {
       "value": [
-        "L1: Sneak Attack (+1d6, +1d6 every 2 levels) / Finesse Training (Weapon Finesse; add Dex to damage with one weapon).",
-        "L1: Trapfinding.",
-        "L2: Evasion / Rogue Talent (every 2 levels).",
-        "L3: Danger Sense (+1/3 levels vs traps & not flat-footed).",
-        "L4: Debilitating Injury — Sneak attacks impose bewildered/disoriented/hampered.",
-        "L5: Improved Finesse Training.",
-        "L8: Improved Uncanny Dodge.",
-        "L10: Advanced Talents.",
-        "L20: Master Strike — Capstone; sneak attack forces sleep/paralyze/death."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_sneak_attack_1d6_1d6_every_2_levels_finesse_trai",
+            "name": {
+              "value": "Sneak Attack (+1d6, +1d6 every 2 levels) / Finesse Training (Weapon Finesse; add"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Sneak Attack (+1d6, +1d6 every 2 levels) / Finesse Training (Weapon Finesse; add Dex to damage with one weapon)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_trapfinding",
+            "name": {
+              "value": "Trapfinding."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Trapfinding."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_evasion_rogue_talent_every_2_levels",
+            "name": {
+              "value": "Evasion / Rogue Talent (every 2 levels)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Evasion / Rogue Talent (every 2 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_danger_sense_1_3_levels_vs_traps_not_flat_footed",
+            "name": {
+              "value": "Danger Sense (+1/3 levels vs traps & not flat-footed)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Danger Sense (+1/3 levels vs traps & not flat-footed)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_debilitating_injury",
+            "name": {
+              "value": "Debilitating Injury"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Debilitating Injury — Sneak attacks impose bewildered/disoriented/hampered."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_improved_finesse_training",
+            "name": {
+              "value": "Improved Finesse Training."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Improved Finesse Training."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_improved_uncanny_dodge",
+            "name": {
+              "value": "Improved Uncanny Dodge."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Improved Uncanny Dodge."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_advanced_talents",
+            "name": {
+              "value": "Advanced Talents."
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Advanced Talents."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_master_strike",
+            "name": {
+              "value": "Master Strike"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Master Strike — Capstone; sneak attack forces sleep/paralyze/death."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

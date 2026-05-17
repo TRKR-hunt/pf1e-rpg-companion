@@ -75,15 +75,168 @@
     },
     "class_features": {
       "value": [
-        "L1: Eidolon (Unchained) — Eidolon of a fixed subtype (angel, demon, etc.) with a defined evolution list (descriptive; deferred to Session D).",
-        "L1: Life Link / Summon Monster I (SLA) / Cantrips / Spontaneous Arcane (Cha).",
-        "L2: Bond Senses.",
-        "L4: Shield Ally.",
-        "L6: Maker's Call.",
-        "L8: Transposition.",
-        "L12: Greater Shield Ally.",
-        "L16: Merge Forms.",
-        "L20: Twin Eidolon — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_eidolon_unchained",
+            "name": {
+              "value": "Eidolon (Unchained)"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Eidolon (Unchained) — Eidolon of a fixed subtype (angel, demon, etc.) with a defined evolution list (descriptive; deferred to Session D)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_life_link_summon_monster_i_sla_cantrips_spontane",
+            "name": {
+              "value": "Life Link / Summon Monster I (SLA) / Cantrips / Spontaneous Arcane (Cha)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Life Link / Summon Monster I (SLA) / Cantrips / Spontaneous Arcane (Cha)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_bond_senses",
+            "name": {
+              "value": "Bond Senses."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Bond Senses."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_shield_ally",
+            "name": {
+              "value": "Shield Ally."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Shield Ally."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_maker_s_call",
+            "name": {
+              "value": "Maker's Call."
+            },
+            "level": {
+              "value": 6
+            },
+            "description": {
+              "value": "L6: Maker's Call."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_transposition",
+            "name": {
+              "value": "Transposition."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Transposition."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_greater_shield_ally",
+            "name": {
+              "value": "Greater Shield Ally."
+            },
+            "level": {
+              "value": 12
+            },
+            "description": {
+              "value": "L12: Greater Shield Ally."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_merge_forms",
+            "name": {
+              "value": "Merge Forms."
+            },
+            "level": {
+              "value": 16
+            },
+            "description": {
+              "value": "L16: Merge Forms."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_twin_eidolon",
+            "name": {
+              "value": "Twin Eidolon"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Twin Eidolon — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

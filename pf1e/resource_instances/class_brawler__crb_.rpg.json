@@ -78,15 +78,168 @@
     },
     "class_features": {
       "value": [
-        "L1: Brawler's Flurry — Two-weapon-fighting-style flurry with brawler/monk/close weapons.",
-        "L1: Martial Flexibility — Spend a move action to gain a combat feat (Cha-ish uses/day).",
-        "L1: Martial Training / Unarmed Strike — Treat brawler level as fighter & monk for feat prereqs; 1d6 unarmed scaling.",
-        "L2: Bonus Combat Feat (every 3 levels).",
-        "L3: Maneuver Training.",
-        "L4: AC Bonus (+1, +1 per 4 levels in light/no armor).",
-        "L5: Knockout 1/day (Fort or fall unconscious).",
-        "L8: Improved/Greater martial flexibility.",
-        "L20: Awesome Blow / Improved Reflexes — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_brawler_s_flurry",
+            "name": {
+              "value": "Brawler's Flurry"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Brawler's Flurry — Two-weapon-fighting-style flurry with brawler/monk/close weapons."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_martial_flexibility",
+            "name": {
+              "value": "Martial Flexibility"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Martial Flexibility — Spend a move action to gain a combat feat (Cha-ish uses/day)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_martial_training_unarmed_strike",
+            "name": {
+              "value": "Martial Training / Unarmed Strike"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Martial Training / Unarmed Strike — Treat brawler level as fighter & monk for feat prereqs; 1d6 unarmed scaling."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_bonus_combat_feat_every_3_levels",
+            "name": {
+              "value": "Bonus Combat Feat (every 3 levels)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Bonus Combat Feat (every 3 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_maneuver_training",
+            "name": {
+              "value": "Maneuver Training."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Maneuver Training."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_ac_bonus_1_1_per_4_levels_in_light_no_armor",
+            "name": {
+              "value": "AC Bonus (+1, +1 per 4 levels in light/no armor)."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: AC Bonus (+1, +1 per 4 levels in light/no armor)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_knockout_1_day_fort_or_fall_unconscious",
+            "name": {
+              "value": "Knockout 1/day (Fort or fall unconscious)."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Knockout 1/day (Fort or fall unconscious)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_improved_greater_martial_flexibility",
+            "name": {
+              "value": "Improved/Greater martial flexibility."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Improved/Greater martial flexibility."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_awesome_blow_improved_reflexes",
+            "name": {
+              "value": "Awesome Blow / Improved Reflexes"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Awesome Blow / Improved Reflexes — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

@@ -81,15 +81,168 @@
     },
     "class_features": {
       "value": [
-        "L1: Blessings — Two deity blessings, minor/major (Str+1/2 level uses).",
-        "L1: Focus Weapon / Orisons / Prepared Divine Casting (Wis).",
-        "L1: Fervor — Wis pool: swift self-heal/harm or swift-cast a spell (scaling dice).",
-        "L2: Sacred Weapon (treat weapon as +1/scaling, Fervor to enhance).",
-        "L3: Channel Energy.",
-        "L4: Sacred Armor (+1 enhancement, scaling, Fervor to boost).",
-        "L6: Bonus Combat Feat (every 3 levels).",
-        "L7: Sacred Weapon damage scaling.",
-        "L20: Aspect of War — Capstone combat blessing."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_blessings",
+            "name": {
+              "value": "Blessings"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Blessings — Two deity blessings, minor/major (Str+1/2 level uses)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_focus_weapon_orisons_prepared_divine_casting_wis",
+            "name": {
+              "value": "Focus Weapon / Orisons / Prepared Divine Casting (Wis)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Focus Weapon / Orisons / Prepared Divine Casting (Wis)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_fervor",
+            "name": {
+              "value": "Fervor"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Fervor — Wis pool: swift self-heal/harm or swift-cast a spell (scaling dice)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_sacred_weapon_treat_weapon_as_1_scaling_fervor_t",
+            "name": {
+              "value": "Sacred Weapon (treat weapon as +1/scaling, Fervor to enhance)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Sacred Weapon (treat weapon as +1/scaling, Fervor to enhance)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_channel_energy",
+            "name": {
+              "value": "Channel Energy."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Channel Energy."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_sacred_armor_1_enhancement_scaling_fervor_to_boo",
+            "name": {
+              "value": "Sacred Armor (+1 enhancement, scaling, Fervor to boost)."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Sacred Armor (+1 enhancement, scaling, Fervor to boost)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_bonus_combat_feat_every_3_levels",
+            "name": {
+              "value": "Bonus Combat Feat (every 3 levels)."
+            },
+            "level": {
+              "value": 6
+            },
+            "description": {
+              "value": "L6: Bonus Combat Feat (every 3 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_sacred_weapon_damage_scaling",
+            "name": {
+              "value": "Sacred Weapon damage scaling."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Sacred Weapon damage scaling."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_aspect_of_war",
+            "name": {
+              "value": "Aspect of War"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Aspect of War — Capstone combat blessing."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

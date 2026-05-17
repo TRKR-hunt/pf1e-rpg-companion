@@ -84,13 +84,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Raging Song — Bardic-performance that grants allies an inspired rage (rage bonuses + rage powers).",
-        "L1: Bardic Knowledge / Cantrips / Spontaneous Arcane (Cha).",
-        "L2: Versatile Performance / Well-Versed.",
-        "L3: Rage Power — Grant a rage power via raging song (more with level).",
-        "L5: Spell Kenning — Cast a spell from sorcerer/cleric/bard list a few times/day.",
-        "L8: Lore Master.",
-        "L20: Master Skald — Capstone; raging song without limit."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_raging_song",
+            "name": {
+              "value": "Raging Song"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Raging Song — Bardic-performance that grants allies an inspired rage (rage bonuses + rage powers)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_bardic_knowledge_cantrips_spontaneous_arcane_cha",
+            "name": {
+              "value": "Bardic Knowledge / Cantrips / Spontaneous Arcane (Cha)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Bardic Knowledge / Cantrips / Spontaneous Arcane (Cha)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_versatile_performance_well_versed",
+            "name": {
+              "value": "Versatile Performance / Well-Versed."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Versatile Performance / Well-Versed."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_rage_power",
+            "name": {
+              "value": "Rage Power"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Rage Power — Grant a rage power via raging song (more with level)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_spell_kenning",
+            "name": {
+              "value": "Spell Kenning"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Spell Kenning — Cast a spell from sorcerer/cleric/bard list a few times/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_lore_master",
+            "name": {
+              "value": "Lore Master."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Lore Master."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_master_skald",
+            "name": {
+              "value": "Master Skald"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Master Skald — Capstone; raging song without limit."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

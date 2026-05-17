@@ -73,18 +73,222 @@
     },
     "class_features": {
       "value": [
-        "L1: Arcane Pool — Int-based pool to enhance the wielded weapon (+1/4 levels).",
-        "L1: Spell Combat — Cast a spell and make weapon attacks in the same round.",
-        "L1: Cantrips / Spellbook (prepared arcane, Int).",
-        "L2: Spellstrike — Deliver a touch spell through a weapon strike.",
-        "L3: Magus Arcana (every 3 levels).",
-        "L4: Spell Recall — Recall an expended spell with the arcane pool.",
-        "L7: Knowledge Pool.",
-        "L8: Improved Spell Combat.",
-        "L11: Improved Spell Recall.",
-        "L14: Greater Spell Combat.",
-        "L19: Greater Spell Access.",
-        "L20: True Magus — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_arcane_pool",
+            "name": {
+              "value": "Arcane Pool"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Arcane Pool — Int-based pool to enhance the wielded weapon (+1/4 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_spell_combat",
+            "name": {
+              "value": "Spell Combat"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spell Combat — Cast a spell and make weapon attacks in the same round."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_cantrips_spellbook_prepared_arcane_int",
+            "name": {
+              "value": "Cantrips / Spellbook (prepared arcane, Int)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Cantrips / Spellbook (prepared arcane, Int)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_spellstrike",
+            "name": {
+              "value": "Spellstrike"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Spellstrike — Deliver a touch spell through a weapon strike."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_magus_arcana_every_3_levels",
+            "name": {
+              "value": "Magus Arcana (every 3 levels)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Magus Arcana (every 3 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_spell_recall",
+            "name": {
+              "value": "Spell Recall"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Spell Recall — Recall an expended spell with the arcane pool."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_knowledge_pool",
+            "name": {
+              "value": "Knowledge Pool."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Knowledge Pool."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_improved_spell_combat",
+            "name": {
+              "value": "Improved Spell Combat."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Improved Spell Combat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_improved_spell_recall",
+            "name": {
+              "value": "Improved Spell Recall."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Improved Spell Recall."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_greater_spell_combat",
+            "name": {
+              "value": "Greater Spell Combat."
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Greater Spell Combat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_greater_spell_access",
+            "name": {
+              "value": "Greater Spell Access."
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: Greater Spell Access."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_true_magus",
+            "name": {
+              "value": "True Magus"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: True Magus — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

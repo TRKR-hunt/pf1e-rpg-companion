@@ -77,17 +77,204 @@
     },
     "class_features": {
       "value": [
-        "L1: Aura of Evil / Detect Good / Touch of Corruption — Cha+1/2 level, 1d6/2 levels negative energy.",
-        "L1: Unholy Resilience — Add Cha modifier to all saves.",
-        "L2: Cruelty — Touch of corruption inflicts a condition (every 3 levels).",
-        "L3: Aura of Cowardice / Plague Bringer.",
-        "L3: Smite Good — Cha to atk, level to dmg vs good.",
-        "L4: Channel Negative Energy / Fiendish Boon (weapon or servant) at L5.",
-        "L8: Aura of Despair.",
-        "L11: Aura of Vengeance.",
-        "L14: Aura of Sin.",
-        "L17: Aura of Depravity.",
-        "L20: Unholy Champion — Capstone; smite as free action, banish good outsiders."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_aura_of_evil_detect_good_touch_of_corruption",
+            "name": {
+              "value": "Aura of Evil / Detect Good / Touch of Corruption"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Aura of Evil / Detect Good / Touch of Corruption — Cha+1/2 level, 1d6/2 levels negative energy."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_unholy_resilience",
+            "name": {
+              "value": "Unholy Resilience"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Unholy Resilience — Add Cha modifier to all saves."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_cruelty",
+            "name": {
+              "value": "Cruelty"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Cruelty — Touch of corruption inflicts a condition (every 3 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_aura_of_cowardice_plague_bringer",
+            "name": {
+              "value": "Aura of Cowardice / Plague Bringer."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Aura of Cowardice / Plague Bringer."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_smite_good",
+            "name": {
+              "value": "Smite Good"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Smite Good — Cha to atk, level to dmg vs good."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_channel_negative_energy_fiendish_boon_weapon_or_",
+            "name": {
+              "value": "Channel Negative Energy / Fiendish Boon (weapon or servant) at L5."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Channel Negative Energy / Fiendish Boon (weapon or servant) at L5."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_aura_of_despair",
+            "name": {
+              "value": "Aura of Despair."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Aura of Despair."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_aura_of_vengeance",
+            "name": {
+              "value": "Aura of Vengeance."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Aura of Vengeance."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_aura_of_sin",
+            "name": {
+              "value": "Aura of Sin."
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Aura of Sin."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_aura_of_depravity",
+            "name": {
+              "value": "Aura of Depravity."
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Aura of Depravity."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "antipaladin_unholy_champion",
+            "name": {
+              "value": "Unholy Champion"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Unholy Champion — Capstone; smite as free action, banish good outsiders."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

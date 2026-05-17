@@ -81,13 +81,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Implements — Magic-laden objects (transmutation/abjuration/etc.) granting resonant & focus powers (descriptive).",
-        "L1: Mental Focus — Daily pool invested across implements to power focus abilities.",
-        "L1: Object Reading / Spell casting (prepared occult, Int).",
-        "L2: Magic Circles.",
-        "L3: Aura Sight.",
-        "L5: Outside Contact.",
-        "L20: Mind Over Magic — Capstone (counter/absorb spells)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "occultist_implements",
+            "name": {
+              "value": "Implements"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Implements — Magic-laden objects (transmutation/abjuration/etc.) granting resonant & focus powers (descriptive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "occultist_mental_focus",
+            "name": {
+              "value": "Mental Focus"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Mental Focus — Daily pool invested across implements to power focus abilities."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "occultist_object_reading_spell_casting_prepared_occult_int",
+            "name": {
+              "value": "Object Reading / Spell casting (prepared occult, Int)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Object Reading / Spell casting (prepared occult, Int)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "occultist_magic_circles",
+            "name": {
+              "value": "Magic Circles."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Magic Circles."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "occultist_aura_sight",
+            "name": {
+              "value": "Aura Sight."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Aura Sight."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "occultist_outside_contact",
+            "name": {
+              "value": "Outside Contact."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Outside Contact."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "occultist_mind_over_magic",
+            "name": {
+              "value": "Mind Over Magic"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Mind Over Magic — Capstone (counter/absorb spells)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

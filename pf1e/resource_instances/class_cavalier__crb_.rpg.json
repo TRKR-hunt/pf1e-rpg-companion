@@ -77,31 +77,456 @@
     },
     "class_features": {
       "value": [
-        "L1: Challenge 1/day — Swift action; +1 damage/level vs. one target, -2 AC vs. others. +1/day every 3 levels (max 7/day at 19th).",
-        "L1: Mount — Loyal steed functioning as a druid animal companion using cavalier level as effective druid level.",
-        "L1: Order — Choose one: Order of the Cockatrice (self-interest, Dazzling Display), Order of the Dragon (loyalty to companions, aid another), Order of the Lion (loyalty to a sovereign, challenge bonuses near allies), Order of the Shield (protect the common folk, vs. challenged-target damage), Order of the Star (faith/religion, save bonuses), or Order of the Sword (chivalry/honor, mounted challenge bonus). Grants order skills, edicts, and challenge benefit.",
-        "L1: Tactician — Grant a teamwork feat you know to all allies within 30 ft for a number of rounds; 1/day, +1/day at 11th and every 6 levels after.",
-        "L2: Order Ability — Gain your order's 2nd-level ability.",
-        "L3: Cavalier's Charge — +4 to melee attack on a charge (instead of +2); no AC penalty for charging.",
-        "L4: Challenge 2/day.",
-        "L4: Expert Trainer — +1/2 cavalier level on Handle Animal and Ride for your mount; train mount in 1/7 the normal time.",
-        "L5: Banner — While displayed, allies within 60 ft who can see it get +2 vs. fear and +1 on charge attack rolls; improves with level.",
-        "L6: Bonus Feat — Bonus combat feat.",
-        "L7: Challenge 3/day.",
-        "L8: Order Ability — Gain your order's 8th-level ability.",
-        "L9: Greater Tactician — Gain a bonus teamwork feat; grant it via Tactician to allies; can use Tactician as a move action.",
-        "L10: Challenge 4/day.",
-        "L11: Mighty Charge — Double threat range on a charge; may make a free combat maneuver (bull rush/disarm/sunder/trip) without provoking on a charge.",
-        "L12: Bonus Feat — Bonus combat feat.",
-        "L12: Demanding Challenge — Challenged target takes -2 AC against everyone except the cavalier.",
-        "L13: Challenge 5/day.",
-        "L14: Greater Banner — Allies within range may reroll a save vs. fear/charm; rallying flag rallies routed allies as a standard action.",
-        "L15: Order Ability — Gain your order's 15th-level ability.",
-        "L16: Challenge 6/day.",
-        "L17: Master Tactician — Grant two teamwork feats with a single use of Tactician; Greater Tactician as a swift action.",
-        "L18: Bonus Feat — Bonus combat feat.",
-        "L19: Challenge 7/day.",
-        "L20: Supreme Charge — Charge attacks deal double damage (triple with a lance); a creature damaged by the charge must save or be stunned 1d4 rounds (knocked prone on success)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_challenge_1_day",
+            "name": {
+              "value": "Challenge 1/day"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Challenge 1/day — Swift action; +1 damage/level vs. one target, -2 AC vs. others. +1/day every 3 levels (max 7/day at 19th)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_mount",
+            "name": {
+              "value": "Mount"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Mount — Loyal steed functioning as a druid animal companion using cavalier level as effective druid level."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_order",
+            "name": {
+              "value": "Order"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Order — Choose one: Order of the Cockatrice (self-interest, Dazzling Display), Order of the Dragon (loyalty to companions, aid another), Order of the Lion (loyalty to a sovereign, challenge bonuses near allies), Order of the Shield (protect the common folk, vs. challenged-target damage), Order of the Star (faith/religion, save bonuses), or Order of the Sword (chivalry/honor, mounted challenge bonus). Grants order skills, edicts, and challenge benefit."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_tactician",
+            "name": {
+              "value": "Tactician"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Tactician — Grant a teamwork feat you know to all allies within 30 ft for a number of rounds; 1/day, +1/day at 11th and every 6 levels after."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_order_ability",
+            "name": {
+              "value": "Order Ability"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Order Ability — Gain your order's 2nd-level ability."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_cavalier_s_charge",
+            "name": {
+              "value": "Cavalier's Charge"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Cavalier's Charge — +4 to melee attack on a charge (instead of +2); no AC penalty for charging."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_challenge_2_day",
+            "name": {
+              "value": "Challenge 2/day."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Challenge 2/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_expert_trainer",
+            "name": {
+              "value": "Expert Trainer"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Expert Trainer — +1/2 cavalier level on Handle Animal and Ride for your mount; train mount in 1/7 the normal time."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_banner",
+            "name": {
+              "value": "Banner"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Banner — While displayed, allies within 60 ft who can see it get +2 vs. fear and +1 on charge attack rolls; improves with level."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_bonus_feat",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 6
+            },
+            "description": {
+              "value": "L6: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_challenge_3_day",
+            "name": {
+              "value": "Challenge 3/day."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Challenge 3/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_order_ability_2",
+            "name": {
+              "value": "Order Ability"
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Order Ability — Gain your order's 8th-level ability."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_greater_tactician",
+            "name": {
+              "value": "Greater Tactician"
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: Greater Tactician — Gain a bonus teamwork feat; grant it via Tactician to allies; can use Tactician as a move action."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_challenge_4_day",
+            "name": {
+              "value": "Challenge 4/day."
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Challenge 4/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_mighty_charge",
+            "name": {
+              "value": "Mighty Charge"
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Mighty Charge — Double threat range on a charge; may make a free combat maneuver (bull rush/disarm/sunder/trip) without provoking on a charge."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_bonus_feat_2",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 12
+            },
+            "description": {
+              "value": "L12: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_demanding_challenge",
+            "name": {
+              "value": "Demanding Challenge"
+            },
+            "level": {
+              "value": 12
+            },
+            "description": {
+              "value": "L12: Demanding Challenge — Challenged target takes -2 AC against everyone except the cavalier."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_challenge_5_day",
+            "name": {
+              "value": "Challenge 5/day."
+            },
+            "level": {
+              "value": 13
+            },
+            "description": {
+              "value": "L13: Challenge 5/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_greater_banner",
+            "name": {
+              "value": "Greater Banner"
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Greater Banner — Allies within range may reroll a save vs. fear/charm; rallying flag rallies routed allies as a standard action."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_order_ability_3",
+            "name": {
+              "value": "Order Ability"
+            },
+            "level": {
+              "value": 15
+            },
+            "description": {
+              "value": "L15: Order Ability — Gain your order's 15th-level ability."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_challenge_6_day",
+            "name": {
+              "value": "Challenge 6/day."
+            },
+            "level": {
+              "value": 16
+            },
+            "description": {
+              "value": "L16: Challenge 6/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_master_tactician",
+            "name": {
+              "value": "Master Tactician"
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Master Tactician — Grant two teamwork feats with a single use of Tactician; Greater Tactician as a swift action."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_bonus_feat_3",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 18
+            },
+            "description": {
+              "value": "L18: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_challenge_7_day",
+            "name": {
+              "value": "Challenge 7/day."
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: Challenge 7/day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_supreme_charge",
+            "name": {
+              "value": "Supreme Charge"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Supreme Charge — Charge attacks deal double damage (triple with a lance); a creature damaged by the charge must save or be stunned 1d4 rounds (knocked prone on success)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

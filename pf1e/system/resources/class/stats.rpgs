@@ -22,12 +22,20 @@ base string skill_ranks_ability(name = "Skill ranks ability") = "intelligence";
 base string starting_wealth(name = "Starting wealth") = "";
 base string alignment_restriction(name = "Alignment restriction") = "any";
 
-// Flattened: each entry is "L<n>: <Name> — <description>". The generator
-// flattens the structured class-features list at emit time so the schema
-// stays simple and the value renders as-is. Generator splits the data into
-// the existing scalar spellcasting_* fields (mode/tradition/ability) plus
-// the PF1e-specific spellcasting_max_spell_level + spellcasting_begins_at_level.
-base string[] class_features(name = "Class features (per level)") = [];
+// B.1.5 Phase 2a — structured, ID-addressable class features. Each
+// entry is an INLINE resource<class_feature> ({resource_id, stats:
+// {id, level, name, description}}) so no new resource instances are
+// created. The `id` is the stable handle Phase 2b archetypes'
+// replaces[]/adds[] reference. `class_features_display` is the
+// string[] projection (legacy/derived consumers + any future
+// per-level display) — preserves prior behaviour.
+base resource<class_feature>[] class_features(name = "Class features (per level)") = [];
+
+calc string[] class_features_display(name = "Class features (display)") =
+  map(class_features, mapper = ($f) => $f.description);
+
+calc resource<class_feature>[] class_features_for_current_level(name = "Class features up to current level") =
+  filter(class_features, filter = ($f) => ($f.level <= level));
 base integer spellcasting_max_spell_level(name = "Spellcasting max spell level") = 0;
 base integer spellcasting_begins_at_level(name = "Spellcasting begins at level") = 1;
 

@@ -72,18 +72,222 @@
     },
     "class_features": {
       "value": [
-        "L1: Flurry of Blows — Full BAB flurry with monk weapons.",
-        "L1: Unarmed Strike (1d6, scaling) / Stunning Fist / Bonus Feat.",
-        "L2: Evasion.",
-        "L3: Ki Pool (Wis) at L4; Still Mind at L3.",
-        "L4: Ki Pool — Spend ki for extra attack, +20 ft speed, or dodge.",
-        "L4: Style Strike (every 4 levels).",
-        "L5: High Jump / Purity of Body.",
-        "L7: Ki Powers.",
-        "L9: Improved Evasion.",
-        "L13: Diamond Soul (SR).",
-        "L17: Timeless Body.",
-        "L20: Perfect Self — Capstone (DR 10/chaotic, treated as outsider)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_flurry_of_blows",
+            "name": {
+              "value": "Flurry of Blows"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Flurry of Blows — Full BAB flurry with monk weapons."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_unarmed_strike_1d6_scaling_stunning_fist_bonus_f",
+            "name": {
+              "value": "Unarmed Strike (1d6, scaling) / Stunning Fist / Bonus Feat."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Unarmed Strike (1d6, scaling) / Stunning Fist / Bonus Feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_evasion",
+            "name": {
+              "value": "Evasion."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Evasion."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_ki_pool_wis_at_l4_still_mind_at_l3",
+            "name": {
+              "value": "Ki Pool (Wis) at L4; Still Mind at L3."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Ki Pool (Wis) at L4; Still Mind at L3."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_ki_pool",
+            "name": {
+              "value": "Ki Pool"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Ki Pool — Spend ki for extra attack, +20 ft speed, or dodge."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_style_strike_every_4_levels",
+            "name": {
+              "value": "Style Strike (every 4 levels)."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Style Strike (every 4 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_high_jump_purity_of_body",
+            "name": {
+              "value": "High Jump / Purity of Body."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: High Jump / Purity of Body."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_ki_powers",
+            "name": {
+              "value": "Ki Powers."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Ki Powers."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_improved_evasion",
+            "name": {
+              "value": "Improved Evasion."
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: Improved Evasion."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_diamond_soul_sr",
+            "name": {
+              "value": "Diamond Soul (SR)."
+            },
+            "level": {
+              "value": 13
+            },
+            "description": {
+              "value": "L13: Diamond Soul (SR)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_timeless_body",
+            "name": {
+              "value": "Timeless Body."
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Timeless Body."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_unchained_perfect_self",
+            "name": {
+              "value": "Perfect Self"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Perfect Self — Capstone (DR 10/chaotic, treated as outsider)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

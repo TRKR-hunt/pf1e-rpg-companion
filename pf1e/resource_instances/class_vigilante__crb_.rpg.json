@@ -85,14 +85,150 @@
     },
     "class_features": {
       "value": [
-        "L1: Dual Identity — A social identity and a vigilante identity; swap with preparation.",
-        "L1: Seamless Guise / Vigilante Specialization — Choose Avenger, Defender, Stalker, or Warlock (descriptive).",
-        "L2: Social Talent / Vigilante Talent (more with level).",
-        "L3: Unshakable (+level vs Intimidate).",
-        "L4: Loyal Aid.",
-        "L8: Vigilante specialization scaling (e.g., hidden strike +Nd8).",
-        "L11: Startling Appearance.",
-        "L20: Really Startling Appearance — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_dual_identity",
+            "name": {
+              "value": "Dual Identity"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Dual Identity — A social identity and a vigilante identity; swap with preparation."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_seamless_guise_vigilante_specialization",
+            "name": {
+              "value": "Seamless Guise / Vigilante Specialization"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Seamless Guise / Vigilante Specialization — Choose Avenger, Defender, Stalker, or Warlock (descriptive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_social_talent_vigilante_talent_more_with_level",
+            "name": {
+              "value": "Social Talent / Vigilante Talent (more with level)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Social Talent / Vigilante Talent (more with level)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_unshakable_level_vs_intimidate",
+            "name": {
+              "value": "Unshakable (+level vs Intimidate)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Unshakable (+level vs Intimidate)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_loyal_aid",
+            "name": {
+              "value": "Loyal Aid."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Loyal Aid."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_vigilante_specialization_scaling_e_g_hidden_stri",
+            "name": {
+              "value": "Vigilante specialization scaling (e.g., hidden strike +Nd8)."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Vigilante specialization scaling (e.g., hidden strike +Nd8)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_startling_appearance",
+            "name": {
+              "value": "Startling Appearance."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Startling Appearance."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_really_startling_appearance",
+            "name": {
+              "value": "Really Startling Appearance"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Really Startling Appearance — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

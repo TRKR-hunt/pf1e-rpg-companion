@@ -81,16 +81,186 @@
     },
     "class_features": {
       "value": [
-        "L1: Animal Companion — As a druid of hunter level.",
-        "L1: Nature Training / Wild Empathy / Track / Orisons.",
-        "L1: Hunter's Bond — Share teamwork feats with the animal companion.",
-        "L2: Precise Companion (teamwork feat).",
-        "L3: Hunter Tactics.",
-        "L4: Spellcasting begins (spontaneous divine, Wis).",
-        "L8: Second Animal Focus.",
-        "L11: Speak with Master.",
-        "L19: Raise Animal Companion.",
-        "L20: Master Hunter — Capstone; instantly slay a known creature type."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_animal_companion",
+            "name": {
+              "value": "Animal Companion"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Animal Companion — As a druid of hunter level."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_nature_training_wild_empathy_track_orisons",
+            "name": {
+              "value": "Nature Training / Wild Empathy / Track / Orisons."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Nature Training / Wild Empathy / Track / Orisons."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_hunter_s_bond",
+            "name": {
+              "value": "Hunter's Bond"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Hunter's Bond — Share teamwork feats with the animal companion."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_precise_companion_teamwork_feat",
+            "name": {
+              "value": "Precise Companion (teamwork feat)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Precise Companion (teamwork feat)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_hunter_tactics",
+            "name": {
+              "value": "Hunter Tactics."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Hunter Tactics."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_spellcasting_begins_spontaneous_divine_wis",
+            "name": {
+              "value": "Spellcasting begins (spontaneous divine, Wis)."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Spellcasting begins (spontaneous divine, Wis)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_second_animal_focus",
+            "name": {
+              "value": "Second Animal Focus."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Second Animal Focus."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_speak_with_master",
+            "name": {
+              "value": "Speak with Master."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Speak with Master."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_raise_animal_companion",
+            "name": {
+              "value": "Raise Animal Companion."
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: Raise Animal Companion."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_master_hunter",
+            "name": {
+              "value": "Master Hunter"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Master Hunter — Capstone; instantly slay a known creature type."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

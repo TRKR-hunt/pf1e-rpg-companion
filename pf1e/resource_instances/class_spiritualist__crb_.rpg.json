@@ -77,13 +77,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Phantom — An emotionally-charged spirit companion (descriptive; full phantom mechanics deferred like Eidolon).",
-        "L1: Etheric Tether / Bonded Manifestation — Manifest the phantom in ectoplasmic or incorporeal form.",
-        "L1: Spell casting (prepared occult, Wis).",
-        "L3: Spiritual Interference.",
-        "L4: Spiritual Bond.",
-        "L7: Greater Bonded Manifestation.",
-        "L20: Dual Bond — Capstone (two phantoms)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "spiritualist_phantom",
+            "name": {
+              "value": "Phantom"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Phantom — An emotionally-charged spirit companion (descriptive; full phantom mechanics deferred like Eidolon)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "spiritualist_etheric_tether_bonded_manifestation",
+            "name": {
+              "value": "Etheric Tether / Bonded Manifestation"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Etheric Tether / Bonded Manifestation — Manifest the phantom in ectoplasmic or incorporeal form."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "spiritualist_spell_casting_prepared_occult_wis",
+            "name": {
+              "value": "Spell casting (prepared occult, Wis)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spell casting (prepared occult, Wis)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "spiritualist_spiritual_interference",
+            "name": {
+              "value": "Spiritual Interference."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Spiritual Interference."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "spiritualist_spiritual_bond",
+            "name": {
+              "value": "Spiritual Bond."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Spiritual Bond."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "spiritualist_greater_bonded_manifestation",
+            "name": {
+              "value": "Greater Bonded Manifestation."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Greater Bonded Manifestation."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "spiritualist_dual_bond",
+            "name": {
+              "value": "Dual Bond"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Dual Bond — Capstone (two phantoms)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

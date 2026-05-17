@@ -80,29 +80,420 @@
     },
     "class_features": {
       "value": [
-        "L1: Gunsmith — Bonus Gunsmithing feat; start with a battered firearm (pistol or musket) only you can use without misfire penalty.",
-        "L1: Grit — Pool of grit = Wisdom modifier (min 1). Regain 1 grit on a killing blow or confirmed critical hit with a firearm (deeds may add other triggers).",
-        "L1: Deeds — Gain the level-1 deeds: Deadeye (resolve touch attacks beyond first range increment for grit), Gunslinger's Dodge (+2 AC vs one ranged attack for grit), Quick Clear (clear a misfired firearm), Steady Aim (+1 firearm range increment while you have ≥1 grit).",
-        "L2: Nimble +1 — +1 dodge bonus to AC while wearing light or no armor.",
-        "L3: Deeds — Gain the level-3 deeds: Gunslinger Initiative (+2 initiative and quick-draw a firearm with ≥1 grit), Pistol-Whip (melee strike with a firearm for grit), Utility Shot (spend grit for Blast Lock / Scoot Unattended Object / Stop Bleeding).",
-        "L4: Bonus Feat — Bonus combat feat.",
-        "L5: Gun Training 1 — Choose one firearm type; add Dexterity modifier to its damage and reduce its misfire value by 1.",
-        "L6: Nimble +2 — Dodge bonus increases (+1 at 2nd, +1 every 4 levels after).",
-        "L7: Deeds — Gain the level-7 deeds: Dead Shot (full-round, accumulate attacks into one shot), Startling Shot (shot to make a foe flat-footed), Targeting (called shots vs body parts for grit).",
-        "L8: Bonus Feat — Bonus combat feat.",
-        "L9: Gun Training 2 — Choose a second firearm type.",
-        "L10: Nimble +3.",
-        "L11: Deeds — Gain the level-11 deeds: Bleeding Wound (firearm damage causes bleed for grit), Expert Loading (reroll a misfire check), Lightning Reload (reload one firearm as a free/swift action with ≥1 grit).",
-        "L12: Bonus Feat — Bonus combat feat.",
-        "L13: Gun Training 3 — Choose a third firearm type.",
-        "L14: Nimble +4.",
-        "L15: Deeds — Gain the level-15 deeds: Menacing Shot (shot that shakes/frightens for grit), Slinger's Luck (reroll a Reflex save or grit-deed roll), Stunning Shot (spend 2 grit to stun a struck foe).",
-        "L16: Bonus Feat — Bonus combat feat.",
-        "L17: Gun Training 4 — Choose a fourth firearm type.",
-        "L18: Nimble +5.",
-        "L19: Deeds — Gain the level-19 deeds: Death's Shot (confirmed crit forces a save or die), Cheat Death (spend all grit to negate a killing blow), plus an improved capstone-tier shot.",
-        "L20: Bonus Feat — Bonus combat feat.",
-        "L20: True Grit — Capstone: choose two deeds; their grit costs are reduced (those costing 1 grit cost none; others cost 1 less)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_gunsmith",
+            "name": {
+              "value": "Gunsmith"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Gunsmith — Bonus Gunsmithing feat; start with a battered firearm (pistol or musket) only you can use without misfire penalty."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_grit",
+            "name": {
+              "value": "Grit"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Grit — Pool of grit = Wisdom modifier (min 1). Regain 1 grit on a killing blow or confirmed critical hit with a firearm (deeds may add other triggers)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_deeds",
+            "name": {
+              "value": "Deeds"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Deeds — Gain the level-1 deeds: Deadeye (resolve touch attacks beyond first range increment for grit), Gunslinger's Dodge (+2 AC vs one ranged attack for grit), Quick Clear (clear a misfired firearm), Steady Aim (+1 firearm range increment while you have ≥1 grit)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_nimble_1",
+            "name": {
+              "value": "Nimble +1"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Nimble +1 — +1 dodge bonus to AC while wearing light or no armor."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_deeds_2",
+            "name": {
+              "value": "Deeds"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Deeds — Gain the level-3 deeds: Gunslinger Initiative (+2 initiative and quick-draw a firearm with ≥1 grit), Pistol-Whip (melee strike with a firearm for grit), Utility Shot (spend grit for Blast Lock / Scoot Unattended Object / Stop Bleeding)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_bonus_feat",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_gun_training_1",
+            "name": {
+              "value": "Gun Training 1"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Gun Training 1 — Choose one firearm type; add Dexterity modifier to its damage and reduce its misfire value by 1."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_nimble_2",
+            "name": {
+              "value": "Nimble +2"
+            },
+            "level": {
+              "value": 6
+            },
+            "description": {
+              "value": "L6: Nimble +2 — Dodge bonus increases (+1 at 2nd, +1 every 4 levels after)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_deeds_3",
+            "name": {
+              "value": "Deeds"
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Deeds — Gain the level-7 deeds: Dead Shot (full-round, accumulate attacks into one shot), Startling Shot (shot to make a foe flat-footed), Targeting (called shots vs body parts for grit)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_bonus_feat_2",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_gun_training_2",
+            "name": {
+              "value": "Gun Training 2"
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: Gun Training 2 — Choose a second firearm type."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_nimble_3",
+            "name": {
+              "value": "Nimble +3."
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Nimble +3."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_deeds_4",
+            "name": {
+              "value": "Deeds"
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Deeds — Gain the level-11 deeds: Bleeding Wound (firearm damage causes bleed for grit), Expert Loading (reroll a misfire check), Lightning Reload (reload one firearm as a free/swift action with ≥1 grit)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_bonus_feat_3",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 12
+            },
+            "description": {
+              "value": "L12: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_gun_training_3",
+            "name": {
+              "value": "Gun Training 3"
+            },
+            "level": {
+              "value": 13
+            },
+            "description": {
+              "value": "L13: Gun Training 3 — Choose a third firearm type."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_nimble_4",
+            "name": {
+              "value": "Nimble +4."
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Nimble +4."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_deeds_5",
+            "name": {
+              "value": "Deeds"
+            },
+            "level": {
+              "value": 15
+            },
+            "description": {
+              "value": "L15: Deeds — Gain the level-15 deeds: Menacing Shot (shot that shakes/frightens for grit), Slinger's Luck (reroll a Reflex save or grit-deed roll), Stunning Shot (spend 2 grit to stun a struck foe)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_bonus_feat_4",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 16
+            },
+            "description": {
+              "value": "L16: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_gun_training_4",
+            "name": {
+              "value": "Gun Training 4"
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Gun Training 4 — Choose a fourth firearm type."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_nimble_5",
+            "name": {
+              "value": "Nimble +5."
+            },
+            "level": {
+              "value": 18
+            },
+            "description": {
+              "value": "L18: Nimble +5."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_deeds_6",
+            "name": {
+              "value": "Deeds"
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: Deeds — Gain the level-19 deeds: Death's Shot (confirmed crit forces a save or die), Cheat Death (spend all grit to negate a killing blow), plus an improved capstone-tier shot."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_bonus_feat_5",
+            "name": {
+              "value": "Bonus Feat"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Bonus Feat — Bonus combat feat."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_true_grit",
+            "name": {
+              "value": "True Grit"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: True Grit — Capstone: choose two deeds; their grit costs are reduced (those costing 1 grit cost none; others cost 1 less)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

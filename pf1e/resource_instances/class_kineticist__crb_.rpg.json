@@ -69,16 +69,186 @@
     },
     "class_features": {
       "value": [
-        "L1: Elemental Focus — Choose an element (aether/air/earth/fire/water); defines kinetic blast.",
-        "L1: Kinetic Blast — Ranged/melee elemental attack (1d6+Con scaling), the core attack.",
-        "L1: Burn — Accept burn (nonlethal, locks HP) to fuel powerful talents; Gather Power reduces burn.",
-        "L1: Elemental Defense.",
-        "L2: Infusion (substance/form infusions modify blasts).",
-        "L3: Wild Talent / Elemental Overflow (scaling bonuses for accepting burn).",
-        "L5: Internal Buffer.",
-        "L7: Metakinesis (empower/maximize/etc. via burn).",
-        "L20: Omnikinesis — Capstone; use any wild talent.",
-        "NOTE: Burn / wild-talent selection is descriptive text pending the B.1.5 sub-choice framework; base stat block is fully mechanical."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_elemental_focus",
+            "name": {
+              "value": "Elemental Focus"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Elemental Focus — Choose an element (aether/air/earth/fire/water); defines kinetic blast."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_kinetic_blast",
+            "name": {
+              "value": "Kinetic Blast"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Kinetic Blast — Ranged/melee elemental attack (1d6+Con scaling), the core attack."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_burn",
+            "name": {
+              "value": "Burn"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Burn — Accept burn (nonlethal, locks HP) to fuel powerful talents; Gather Power reduces burn."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_elemental_defense",
+            "name": {
+              "value": "Elemental Defense."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Elemental Defense."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_infusion_substance_form_infusions_modify_blasts",
+            "name": {
+              "value": "Infusion (substance/form infusions modify blasts)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Infusion (substance/form infusions modify blasts)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_wild_talent_elemental_overflow_scaling_bonuses_f",
+            "name": {
+              "value": "Wild Talent / Elemental Overflow (scaling bonuses for accepting burn)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Wild Talent / Elemental Overflow (scaling bonuses for accepting burn)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_internal_buffer",
+            "name": {
+              "value": "Internal Buffer."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Internal Buffer."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_metakinesis_empower_maximize_etc_via_burn",
+            "name": {
+              "value": "Metakinesis (empower/maximize/etc. via burn)."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Metakinesis (empower/maximize/etc. via burn)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_omnikinesis",
+            "name": {
+              "value": "Omnikinesis"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Omnikinesis — Capstone; use any wild talent."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "kineticist_note_burn_wild_talent_selection_is_descriptive_t",
+            "name": {
+              "value": "NOTE: Burn / wild-talent selection is descriptive text pending the B.1.5 sub-cho"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "NOTE: Burn / wild-talent selection is descriptive text pending the B.1.5 sub-choice framework; base stat block is fully mechanical."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

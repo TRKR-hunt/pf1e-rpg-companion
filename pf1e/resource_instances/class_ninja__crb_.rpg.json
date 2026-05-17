@@ -79,13 +79,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Ninja Trick / Poison Use / Sneak Attack (+1d6, +1d6 every 2 levels).",
-        "L1: Ki Pool (Cha) — Extra attack, +20 ft speed, vanish.",
-        "L2: Ninja Trick (every 2 levels).",
-        "L3: No Trace (+1/3 levels Stealth & vs tracking).",
-        "L4: Light Steps — Move across any surface for 1 round.",
-        "L10: Master Tricks available.",
-        "L20: Hidden Master — Capstone; project an image and act through it."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_ninja_trick_poison_use_sneak_attack_1d6_1d6_ever",
+            "name": {
+              "value": "Ninja Trick / Poison Use / Sneak Attack (+1d6, +1d6 every 2 levels)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Ninja Trick / Poison Use / Sneak Attack (+1d6, +1d6 every 2 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_ki_pool_cha",
+            "name": {
+              "value": "Ki Pool (Cha)"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Ki Pool (Cha) — Extra attack, +20 ft speed, vanish."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_ninja_trick_every_2_levels",
+            "name": {
+              "value": "Ninja Trick (every 2 levels)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Ninja Trick (every 2 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_no_trace_1_3_levels_stealth_vs_tracking",
+            "name": {
+              "value": "No Trace (+1/3 levels Stealth & vs tracking)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: No Trace (+1/3 levels Stealth & vs tracking)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_light_steps",
+            "name": {
+              "value": "Light Steps"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Light Steps — Move across any surface for 1 round."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_master_tricks_available",
+            "name": {
+              "value": "Master Tricks available."
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Master Tricks available."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_hidden_master",
+            "name": {
+              "value": "Hidden Master"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Hidden Master — Capstone; project an image and act through it."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

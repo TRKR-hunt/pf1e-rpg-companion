@@ -1,0 +1,22 @@
+view class_feature_edit() =
+  composite(
+    id = "class_feature_edit",
+    row_only = true,
+    subviews = [
+      text(
+        id = "class_feature_edit_level",
+        edit_stat = "level",
+        style = "text",
+        hint = "Lvl",
+        max_length = 3,
+      ),
+      text(
+        id = "class_feature_edit_name",
+        edit_stat = "name",
+        style = "text",
+        margin_left = 4,
+        hint = "Name",
+        max_length = 80,
+      ),
+    ],
+  );

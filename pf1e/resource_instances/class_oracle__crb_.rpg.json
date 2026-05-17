@@ -74,11 +74,96 @@
     },
     "class_features": {
       "value": [
-        "L1: Mystery — Choose a mystery (battle, flame, life, etc.) granting bonus spells & a revelation list (descriptive).",
-        "L1: Oracle's Curse — A permanent curse (clouded vision, lame, etc.) with scaling compensations.",
-        "L1: Orisons / Spontaneous Divine Casting (Cha).",
-        "L1: Revelation — Mystery revelations at 1,3,7,11,15,19.",
-        "L20: Final Revelation — Capstone mystery ability."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "oracle_mystery",
+            "name": {
+              "value": "Mystery"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Mystery — Choose a mystery (battle, flame, life, etc.) granting bonus spells & a revelation list (descriptive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "oracle_oracle_s_curse",
+            "name": {
+              "value": "Oracle's Curse"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Oracle's Curse — A permanent curse (clouded vision, lame, etc.) with scaling compensations."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "oracle_orisons_spontaneous_divine_casting_cha",
+            "name": {
+              "value": "Orisons / Spontaneous Divine Casting (Cha)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Orisons / Spontaneous Divine Casting (Cha)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "oracle_revelation",
+            "name": {
+              "value": "Revelation"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Revelation — Mystery revelations at 1,3,7,11,15,19."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "oracle_final_revelation",
+            "name": {
+              "value": "Final Revelation"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Final Revelation — Capstone mystery ability."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

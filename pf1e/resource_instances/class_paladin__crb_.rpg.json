@@ -78,26 +78,366 @@
     },
     "class_features": {
       "value": [
-        "L1: Aura of Good",
-        "L1: Detect Evil — At will.",
-        "L1: Smite Evil 1/day — Add Cha mod to atk, level to damage vs evil.",
-        "L2: Divine Grace — Add Cha mod to all saves.",
-        "L2: Lay on Hands — Heal (level/2) × Cha-mod times per day, 1d6 per 2 levels.",
-        "L3: Aura of Courage — +4 vs fear for self & allies in 10 ft.",
-        "L3: Divine Health — Immune to disease.",
-        "L3: Mercy — Lay on Hands also removes a condition.",
-        "L4: Channel Positive Energy",
-        "L5: Divine Bond — Weapon or mount.",
-        "L5: Smite Evil 2/day",
-        "L8: Aura of Resolve",
-        "L8: Smite Evil 3/day",
-        "L11: Aura of Justice",
-        "L11: Smite Evil 4/day",
-        "L14: Aura of Faith",
-        "L14: Smite Evil 5/day",
-        "L17: Aura of Righteousness",
-        "L17: Smite Evil 6/day",
-        "L20: Holy Champion — Smite banishes evil outsiders."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_aura_of_good",
+            "name": {
+              "value": "Aura of Good"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Aura of Good"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_detect_evil",
+            "name": {
+              "value": "Detect Evil"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Detect Evil — At will."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_smite_evil_1_day",
+            "name": {
+              "value": "Smite Evil 1/day"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Smite Evil 1/day — Add Cha mod to atk, level to damage vs evil."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_divine_grace",
+            "name": {
+              "value": "Divine Grace"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Divine Grace — Add Cha mod to all saves."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_lay_on_hands",
+            "name": {
+              "value": "Lay on Hands"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Lay on Hands — Heal (level/2) × Cha-mod times per day, 1d6 per 2 levels."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_aura_of_courage",
+            "name": {
+              "value": "Aura of Courage"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Aura of Courage — +4 vs fear for self & allies in 10 ft."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_divine_health",
+            "name": {
+              "value": "Divine Health"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Divine Health — Immune to disease."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_mercy",
+            "name": {
+              "value": "Mercy"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Mercy — Lay on Hands also removes a condition."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_channel_positive_energy",
+            "name": {
+              "value": "Channel Positive Energy"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Channel Positive Energy"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_divine_bond",
+            "name": {
+              "value": "Divine Bond"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Divine Bond — Weapon or mount."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_smite_evil_2_day",
+            "name": {
+              "value": "Smite Evil 2/day"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Smite Evil 2/day"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_aura_of_resolve",
+            "name": {
+              "value": "Aura of Resolve"
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Aura of Resolve"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_smite_evil_3_day",
+            "name": {
+              "value": "Smite Evil 3/day"
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Smite Evil 3/day"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_aura_of_justice",
+            "name": {
+              "value": "Aura of Justice"
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Aura of Justice"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_smite_evil_4_day",
+            "name": {
+              "value": "Smite Evil 4/day"
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Smite Evil 4/day"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_aura_of_faith",
+            "name": {
+              "value": "Aura of Faith"
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Aura of Faith"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_smite_evil_5_day",
+            "name": {
+              "value": "Smite Evil 5/day"
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Smite Evil 5/day"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_aura_of_righteousness",
+            "name": {
+              "value": "Aura of Righteousness"
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Aura of Righteousness"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_smite_evil_6_day",
+            "name": {
+              "value": "Smite Evil 6/day"
+            },
+            "level": {
+              "value": 17
+            },
+            "description": {
+              "value": "L17: Smite Evil 6/day"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_holy_champion",
+            "name": {
+              "value": "Holy Champion"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Holy Champion — Smite banishes evil outsiders."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "spellcasting_mode": {

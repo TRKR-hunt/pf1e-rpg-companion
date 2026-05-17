@@ -67,18 +67,222 @@
     },
     "class_features": {
       "value": [
-        "L1: Bloodline — Choose a bloodline; gain bonus spells, class skills, feats, powers.",
-        "L1: Bloodline Power — 1st bloodline power.",
-        "L1: Cantrips — 0-level spells castable at will.",
-        "L1: Eschew Materials — Cast without inexpensive material components.",
-        "L3: Bloodline Power",
-        "L3: Bloodline Spell (1st)",
-        "L7: Bloodline Spell (3rd)",
-        "L9: Bloodline Power",
-        "L11: Bloodline Spell (5th)",
-        "L15: Bloodline Power & Spell (7th)",
-        "L19: Bloodline Spell (9th)",
-        "L20: Bloodline Power (capstone)"
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline",
+            "name": {
+              "value": "Bloodline"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Bloodline — Choose a bloodline; gain bonus spells, class skills, feats, powers."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_power",
+            "name": {
+              "value": "Bloodline Power"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Bloodline Power — 1st bloodline power."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_cantrips",
+            "name": {
+              "value": "Cantrips"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Cantrips — 0-level spells castable at will."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_eschew_materials",
+            "name": {
+              "value": "Eschew Materials"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Eschew Materials — Cast without inexpensive material components."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_power_2",
+            "name": {
+              "value": "Bloodline Power"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Bloodline Power"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_spell_1st",
+            "name": {
+              "value": "Bloodline Spell (1st)"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Bloodline Spell (1st)"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_spell_3rd",
+            "name": {
+              "value": "Bloodline Spell (3rd)"
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Bloodline Spell (3rd)"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_power_3",
+            "name": {
+              "value": "Bloodline Power"
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: Bloodline Power"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_spell_5th",
+            "name": {
+              "value": "Bloodline Spell (5th)"
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Bloodline Spell (5th)"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_power_spell_7th",
+            "name": {
+              "value": "Bloodline Power & Spell (7th)"
+            },
+            "level": {
+              "value": 15
+            },
+            "description": {
+              "value": "L15: Bloodline Power & Spell (7th)"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_spell_9th",
+            "name": {
+              "value": "Bloodline Spell (9th)"
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: Bloodline Spell (9th)"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_bloodline_power_capstone",
+            "name": {
+              "value": "Bloodline Power (capstone)"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Bloodline Power (capstone)"
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "spellcasting_mode": {

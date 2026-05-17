@@ -1,0 +1,7 @@
+view class_feature_display() =
+  text(
+    id = "class_feature_display",
+    margin_left = 4,
+    text = description,
+    style = "text",
+  );

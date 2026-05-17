@@ -77,14 +77,150 @@
     },
     "class_features": {
       "value": [
-        "L1: Panache — Cha-based pool regained on crit/killing blow with a light/one-handed piercing weapon.",
-        "L1: Swashbuckler Finesse — Weapon Finesse with light/one-handed piercing; use Cha for some social.",
-        "L1: Deeds — Derring-do, dodging panache, opportune parry & riposte, etc. (more with level).",
-        "L3: Charmed Life (Cha/day, add Cha to a save).",
-        "L4: Nimble (+1 dodge AC in light/no armor, +1 every 4 levels).",
-        "L5: Swashbuckler Weapon Training (+1 atk/dmg, +1 every 4 levels).",
-        "L11: Swashbuckler's Grace.",
-        "L20: Capstone Deed — Stunning/finishing deeds mastery."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_panache",
+            "name": {
+              "value": "Panache"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Panache — Cha-based pool regained on crit/killing blow with a light/one-handed piercing weapon."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_swashbuckler_finesse",
+            "name": {
+              "value": "Swashbuckler Finesse"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Swashbuckler Finesse — Weapon Finesse with light/one-handed piercing; use Cha for some social."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_deeds",
+            "name": {
+              "value": "Deeds"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Deeds — Derring-do, dodging panache, opportune parry & riposte, etc. (more with level)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_charmed_life_cha_day_add_cha_to_a_save",
+            "name": {
+              "value": "Charmed Life (Cha/day, add Cha to a save)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Charmed Life (Cha/day, add Cha to a save)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_nimble_1_dodge_ac_in_light_no_armor_1_every_4_le",
+            "name": {
+              "value": "Nimble (+1 dodge AC in light/no armor, +1 every 4 levels)."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Nimble (+1 dodge AC in light/no armor, +1 every 4 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_swashbuckler_weapon_training_1_atk_dmg_1_every_4",
+            "name": {
+              "value": "Swashbuckler Weapon Training (+1 atk/dmg, +1 every 4 levels)."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Swashbuckler Weapon Training (+1 atk/dmg, +1 every 4 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_swashbuckler_s_grace",
+            "name": {
+              "value": "Swashbuckler's Grace."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Swashbuckler's Grace."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_capstone_deed",
+            "name": {
+              "value": "Capstone Deed"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Capstone Deed — Stunning/finishing deeds mastery."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

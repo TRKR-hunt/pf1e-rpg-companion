@@ -76,13 +76,132 @@
     },
     "class_features": {
       "value": [
-        "L1: Spirit — Channel a spirit (Archmage/Champion/etc.) for a séance boon & abilities (descriptive).",
-        "L1: Séance / Channel — Gain the spirit's powers; influence builds toward losing control.",
-        "L1: Spell casting (spontaneous occult, limited to 4th).",
-        "L3: Haunt Channeler.",
-        "L4: Location Channel.",
-        "L7: Spacious Soul.",
-        "L20: Astral Journey — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "medium_spirit",
+            "name": {
+              "value": "Spirit"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spirit — Channel a spirit (Archmage/Champion/etc.) for a séance boon & abilities (descriptive)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "medium_s_ance_channel",
+            "name": {
+              "value": "Séance / Channel"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Séance / Channel — Gain the spirit's powers; influence builds toward losing control."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "medium_spell_casting_spontaneous_occult_limited_to_4th",
+            "name": {
+              "value": "Spell casting (spontaneous occult, limited to 4th)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spell casting (spontaneous occult, limited to 4th)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "medium_haunt_channeler",
+            "name": {
+              "value": "Haunt Channeler."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Haunt Channeler."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "medium_location_channel",
+            "name": {
+              "value": "Location Channel."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Location Channel."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "medium_spacious_soul",
+            "name": {
+              "value": "Spacious Soul."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Spacious Soul."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "medium_astral_journey",
+            "name": {
+              "value": "Astral Journey"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Astral Journey — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

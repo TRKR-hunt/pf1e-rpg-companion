@@ -89,14 +89,150 @@
     },
     "class_features": {
       "value": [
-        "L1: Alchemy / Inspiration — Inspiration pool (1/2 level + Int) added to skill/attack checks.",
-        "L1: Trapfinding.",
-        "L2: Investigator Talent / Poison Resistance (every 2 levels).",
-        "L3: Keen Recollection — All Knowledge always usable, half level as bonus.",
-        "L4: Studied Combat / Studied Strike — Move action to study a foe; precision damage scaling.",
-        "L5: Swift Alchemy.",
-        "L11: Studied Defense.",
-        "L20: True Inspiration — Capstone; inspiration on nearly any roll."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_alchemy_inspiration",
+            "name": {
+              "value": "Alchemy / Inspiration"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Alchemy / Inspiration — Inspiration pool (1/2 level + Int) added to skill/attack checks."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_trapfinding",
+            "name": {
+              "value": "Trapfinding."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Trapfinding."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_investigator_talent_poison_resistance_every_2_le",
+            "name": {
+              "value": "Investigator Talent / Poison Resistance (every 2 levels)."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Investigator Talent / Poison Resistance (every 2 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_keen_recollection",
+            "name": {
+              "value": "Keen Recollection"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Keen Recollection — All Knowledge always usable, half level as bonus."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_studied_combat_studied_strike",
+            "name": {
+              "value": "Studied Combat / Studied Strike"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Studied Combat / Studied Strike — Move action to study a foe; precision damage scaling."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_swift_alchemy",
+            "name": {
+              "value": "Swift Alchemy."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Swift Alchemy."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_studied_defense",
+            "name": {
+              "value": "Studied Defense."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Studied Defense."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_true_inspiration",
+            "name": {
+              "value": "True Inspiration"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: True Inspiration — Capstone; inspiration on nearly any roll."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

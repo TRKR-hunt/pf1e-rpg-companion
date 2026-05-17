@@ -75,12 +75,114 @@
     },
     "class_features": {
       "value": [
-        "L1: Arcanist Spellcasting — Prepare a spellbook but cast spontaneously from prepared spells (Int).",
-        "L1: Arcane Reservoir — Pool of arcane points fueling exploits and boosting spells.",
-        "L1: Arcanist Exploit — Choose exploits (every 2 levels).",
-        "L1: Cantrips / Consume Spells.",
-        "L7: Greater Exploits available.",
-        "L20: Magical Supremacy — Capstone exploit access."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "arcanist_arcanist_spellcasting",
+            "name": {
+              "value": "Arcanist Spellcasting"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Arcanist Spellcasting — Prepare a spellbook but cast spontaneously from prepared spells (Int)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "arcanist_arcane_reservoir",
+            "name": {
+              "value": "Arcane Reservoir"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Arcane Reservoir — Pool of arcane points fueling exploits and boosting spells."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "arcanist_arcanist_exploit",
+            "name": {
+              "value": "Arcanist Exploit"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Arcanist Exploit — Choose exploits (every 2 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "arcanist_cantrips_consume_spells",
+            "name": {
+              "value": "Cantrips / Consume Spells."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Cantrips / Consume Spells."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "arcanist_greater_exploits_available",
+            "name": {
+              "value": "Greater Exploits available."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Greater Exploits available."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "arcanist_magical_supremacy",
+            "name": {
+              "value": "Magical Supremacy"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Magical Supremacy — Capstone exploit access."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

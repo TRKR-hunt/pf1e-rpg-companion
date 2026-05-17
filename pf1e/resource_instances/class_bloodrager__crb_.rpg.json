@@ -77,16 +77,186 @@
     },
     "class_features": {
       "value": [
-        "L1: Bloodrage — Rage that also fuels arcane power; +Str/Con, scaling.",
-        "L1: Bloodline — Choose a bloodrager bloodline (descriptive; powers at 1/4/8/12/16/20).",
-        "L1: Fast Movement (+10 ft).",
-        "L2: Uncanny Dodge.",
-        "L4: Bloodline Power / Spellcasting begins (spontaneous arcane, Cha).",
-        "L4: Blood Casting — Cast while bloodraging.",
-        "L5: Improved Uncanny Dodge.",
-        "L8: Damage Reduction.",
-        "L11: Greater Bloodrage.",
-        "L20: Mighty Bloodrage — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_bloodrage",
+            "name": {
+              "value": "Bloodrage"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Bloodrage — Rage that also fuels arcane power; +Str/Con, scaling."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_bloodline",
+            "name": {
+              "value": "Bloodline"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Bloodline — Choose a bloodrager bloodline (descriptive; powers at 1/4/8/12/16/20)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_fast_movement_10_ft",
+            "name": {
+              "value": "Fast Movement (+10 ft)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Fast Movement (+10 ft)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_uncanny_dodge",
+            "name": {
+              "value": "Uncanny Dodge."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Uncanny Dodge."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_bloodline_power_spellcasting_begins_spontaneous_",
+            "name": {
+              "value": "Bloodline Power / Spellcasting begins (spontaneous arcane, Cha)."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Bloodline Power / Spellcasting begins (spontaneous arcane, Cha)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_blood_casting",
+            "name": {
+              "value": "Blood Casting"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Blood Casting — Cast while bloodraging."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_improved_uncanny_dodge",
+            "name": {
+              "value": "Improved Uncanny Dodge."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Improved Uncanny Dodge."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_damage_reduction",
+            "name": {
+              "value": "Damage Reduction."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Damage Reduction."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_greater_bloodrage",
+            "name": {
+              "value": "Greater Bloodrage."
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Greater Bloodrage."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_mighty_bloodrage",
+            "name": {
+              "value": "Mighty Bloodrage"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Mighty Bloodrage — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

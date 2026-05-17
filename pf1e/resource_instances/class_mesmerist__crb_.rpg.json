@@ -78,15 +78,168 @@
     },
     "class_features": {
       "value": [
-        "L1: Hypnotic Stare — Penalize one foe's Will (scaling); core debuff.",
-        "L1: Consummate Liar / Mesmerist Trick — Implant tricks in allies (Cha + 1/2 level/day).",
-        "L1: Spell casting (spontaneous occult, Cha).",
-        "L3: Touch Treatment (remove conditions).",
-        "L4: Manifold Tricks.",
-        "L5: Mental Potency.",
-        "L7: Bold Stare (improves hypnotic stare).",
-        "L9: Painful Stare scaling.",
-        "L20: Manifold Stare — Capstone."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_hypnotic_stare",
+            "name": {
+              "value": "Hypnotic Stare"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Hypnotic Stare — Penalize one foe's Will (scaling); core debuff."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_consummate_liar_mesmerist_trick",
+            "name": {
+              "value": "Consummate Liar / Mesmerist Trick"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Consummate Liar / Mesmerist Trick — Implant tricks in allies (Cha + 1/2 level/day)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_spell_casting_spontaneous_occult_cha",
+            "name": {
+              "value": "Spell casting (spontaneous occult, Cha)."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Spell casting (spontaneous occult, Cha)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_touch_treatment_remove_conditions",
+            "name": {
+              "value": "Touch Treatment (remove conditions)."
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Touch Treatment (remove conditions)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_manifold_tricks",
+            "name": {
+              "value": "Manifold Tricks."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Manifold Tricks."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_mental_potency",
+            "name": {
+              "value": "Mental Potency."
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Mental Potency."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_bold_stare_improves_hypnotic_stare",
+            "name": {
+              "value": "Bold Stare (improves hypnotic stare)."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Bold Stare (improves hypnotic stare)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_painful_stare_scaling",
+            "name": {
+              "value": "Painful Stare scaling."
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: Painful Stare scaling."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mesmerist_manifold_stare",
+            "name": {
+              "value": "Manifold Stare"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Manifold Stare — Capstone."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

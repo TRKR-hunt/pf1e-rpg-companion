@@ -73,15 +73,168 @@
     },
     "class_features": {
       "value": [
-        "L1: Alchemy — Prepare extracts using a formula book (Int-based, like arcane spells).",
-        "L1: Bomb — Throw splash bombs; 1d6 + Int dmg, +1d6 per 2 levels, Int + 1/2 level per day.",
-        "L1: Brew Potion / Throw Anything / Mutagen — Bonus feats + a Str/Dex/Con mutagen (+2 phys, -2 mental, +2 natural armor).",
-        "L2: Discovery — Choose an alchemist discovery (every 2 levels).",
-        "L2: Poison Resistance / Use — +2 vs poison, scaling.",
-        "L3: Swift Alchemy — Craft alchemy in half time.",
-        "L7: Swift Poisoning.",
-        "L14: Persistent Mutagen.",
-        "L20: Grand Discovery — Capstone discovery (philosopher's stone, true mutagen, etc.)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_alchemy",
+            "name": {
+              "value": "Alchemy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Alchemy — Prepare extracts using a formula book (Int-based, like arcane spells)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_bomb",
+            "name": {
+              "value": "Bomb"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Bomb — Throw splash bombs; 1d6 + Int dmg, +1d6 per 2 levels, Int + 1/2 level per day."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_brew_potion_throw_anything_mutagen",
+            "name": {
+              "value": "Brew Potion / Throw Anything / Mutagen"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Brew Potion / Throw Anything / Mutagen — Bonus feats + a Str/Dex/Con mutagen (+2 phys, -2 mental, +2 natural armor)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_discovery",
+            "name": {
+              "value": "Discovery"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Discovery — Choose an alchemist discovery (every 2 levels)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_poison_resistance_use",
+            "name": {
+              "value": "Poison Resistance / Use"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Poison Resistance / Use — +2 vs poison, scaling."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_swift_alchemy",
+            "name": {
+              "value": "Swift Alchemy"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Swift Alchemy — Craft alchemy in half time."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_swift_poisoning",
+            "name": {
+              "value": "Swift Poisoning."
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Swift Poisoning."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_persistent_mutagen",
+            "name": {
+              "value": "Persistent Mutagen."
+            },
+            "level": {
+              "value": 14
+            },
+            "description": {
+              "value": "L14: Persistent Mutagen."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_grand_discovery",
+            "name": {
+              "value": "Grand Discovery"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Grand Discovery — Capstone discovery (philosopher's stone, true mutagen, etc.)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

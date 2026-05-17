@@ -79,12 +79,114 @@
     },
     "class_features": {
       "value": [
-        "L1: Channel — Divine conduit; channel energy and a guiding spirit.",
-        "L1: Divine Bond / Detect Alignment.",
-        "L2: Divine Weapon / Mercy-like grace.",
-        "L4: Spellcasting begins (prepared divine, Wis).",
-        "L8: Aura of Resolve.",
-        "L20: Divine Avatar — Capstone (3pp: Stranger Comics, Niobe)."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "omdura_channel",
+            "name": {
+              "value": "Channel"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Channel — Divine conduit; channel energy and a guiding spirit."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "omdura_divine_bond_detect_alignment",
+            "name": {
+              "value": "Divine Bond / Detect Alignment."
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Divine Bond / Detect Alignment."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "omdura_divine_weapon_mercy_like_grace",
+            "name": {
+              "value": "Divine Weapon / Mercy-like grace."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Divine Weapon / Mercy-like grace."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "omdura_spellcasting_begins_prepared_divine_wis",
+            "name": {
+              "value": "Spellcasting begins (prepared divine, Wis)."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Spellcasting begins (prepared divine, Wis)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "omdura_aura_of_resolve",
+            "name": {
+              "value": "Aura of Resolve."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Aura of Resolve."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "omdura_divine_avatar",
+            "name": {
+              "value": "Divine Avatar"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Divine Avatar — Capstone (3pp: Stranger Comics, Niobe)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

@@ -71,17 +71,204 @@
     },
     "class_features": {
       "value": [
-        "L1: Eidolon — A summoned outsider companion (descriptive; full eidolon mechanics deferred to Session D).",
-        "L1: Life Link / Summon Monster I (SLA, scaling) / Cantrips / Spontaneous Arcane (Cha).",
-        "L2: Bond Senses.",
-        "L4: Shield Ally.",
-        "L6: Maker's Call.",
-        "L8: Transposition.",
-        "L10: Aspect — Borrow eidolon evolutions.",
-        "L12: Greater Shield Ally.",
-        "L16: Merge Forms.",
-        "L18: Greater Aspect.",
-        "L20: Twin Eidolon — Capstone; become a copy of the eidolon."
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_eidolon",
+            "name": {
+              "value": "Eidolon"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Eidolon — A summoned outsider companion (descriptive; full eidolon mechanics deferred to Session D)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_life_link_summon_monster_i_sla_scaling_cantrips_",
+            "name": {
+              "value": "Life Link / Summon Monster I (SLA, scaling) / Cantrips / Spontaneous Arcane (Cha"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Life Link / Summon Monster I (SLA, scaling) / Cantrips / Spontaneous Arcane (Cha)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_bond_senses",
+            "name": {
+              "value": "Bond Senses."
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Bond Senses."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_shield_ally",
+            "name": {
+              "value": "Shield Ally."
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: Shield Ally."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_maker_s_call",
+            "name": {
+              "value": "Maker's Call."
+            },
+            "level": {
+              "value": 6
+            },
+            "description": {
+              "value": "L6: Maker's Call."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_transposition",
+            "name": {
+              "value": "Transposition."
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: Transposition."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_aspect",
+            "name": {
+              "value": "Aspect"
+            },
+            "level": {
+              "value": 10
+            },
+            "description": {
+              "value": "L10: Aspect — Borrow eidolon evolutions."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_greater_shield_ally",
+            "name": {
+              "value": "Greater Shield Ally."
+            },
+            "level": {
+              "value": 12
+            },
+            "description": {
+              "value": "L12: Greater Shield Ally."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_merge_forms",
+            "name": {
+              "value": "Merge Forms."
+            },
+            "level": {
+              "value": 16
+            },
+            "description": {
+              "value": "L16: Merge Forms."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_greater_aspect",
+            "name": {
+              "value": "Greater Aspect."
+            },
+            "level": {
+              "value": 18
+            },
+            "description": {
+              "value": "L18: Greater Aspect."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_twin_eidolon",
+            "name": {
+              "value": "Twin Eidolon"
+            },
+            "level": {
+              "value": 20
+            },
+            "description": {
+              "value": "L20: Twin Eidolon — Capstone; become a copy of the eidolon."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
       ]
     },
     "is_lore_only": {

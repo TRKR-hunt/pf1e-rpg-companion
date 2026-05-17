@@ -1,0 +1,19 @@
+// B.1.5 Phase 2a — structured, ID-addressable class feature.
+// Stored INLINE in each class instance's class_features array
+// (resource<class_feature>[]), so the migration adds zero new
+// resource instances. The `id` (standard resource id, set per
+// instance) is the stable handle archetypes' replaces[]/adds[]
+// reference in Phase 2b.
+
+base string name(name = "Name") = "";
+
+base integer level(name = "Level") = 1;
+
+base string description(name = "Description") = "";
+
+// Feature category — base / archetype-added / sub-choice-granted.
+// Defaults to "base"; Phase 2b archetype adds[] set "archetype".
+base string feature_category(name = "Feature category") = "base";
+
+calc string display_label(name = "Display label") =
+  concat(["L", level, ": ", (if isEmpty(name) then description else name)]);
