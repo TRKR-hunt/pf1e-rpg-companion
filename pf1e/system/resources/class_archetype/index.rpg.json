@@ -12,6 +12,12 @@
   ],
   "search_filters": [
     {
+      "name": "Class",
+      "stat": "parent_class_id",
+      "options": "class",
+      "options_display_stat": "name"
+    },
+    {
       "name": "Source",
       "stat": "source",
       "options": "source",
