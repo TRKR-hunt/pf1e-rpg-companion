@@ -1003,6 +1003,47 @@ base string temp_last_level_up_class_id(name = "Temp last level-up class id (PF2
 // and writes the selected class's display name into this base string.
 base string temp_level_up_class(name = "Temp variable for level-up class select") = null;
 
+// B.1.6 — multiclass at level-up (upstream pre-stdlib 5e pattern).
+// When `temp_level_up_multiclass` is checked, the user picks a brand
+// new class via the `level_up_new_class` resource<class_progression>
+// widget; on_level_up_confirm appends it to `classes` (addToStat
+// array append) instead of incrementing an existing class. Phase 1's
+// _effective calcs then sum BAB/saves/HP/level across all classes
+// automatically.
+base bool temp_level_up_multiclass(name = "Level-up: multiclass instead") = false;
+base resource<class_progression> temp_level_up_new_class(name = "Level-up: new multiclass class") = null;
+
+// Picked new class (live $view of the nested class_progression edit).
+calc resource<class> level_up_new_class_picked(name = "Level-up new class (picked)") =
+  $view?.level_up_new_class?.$view?.class_progression_edit_class_select?;
+
+// Alignment gate. selectResources filters are equality-on-indexed-stat
+// only and cannot express PF1e's prose alignment predicates against the
+// character's chosen alignment, so the picker cannot be option-filtered
+// (gotcha #17). Enforced here as a blocking validation keyed off the
+// picked class id + character `alignment` per the SRD-restricted list.
+calc string level_up_multiclass_alignment_error(name = "Multiclass alignment error") = when {
+  (level_up_new_class_picked?.id ?? "") == "paladin__crb_" && alignment != "lawful_good"
+    -> "Paladin requires Lawful Good alignment.",
+  (level_up_new_class_picked?.id ?? "") == "antipaladin__crb_" && alignment != "chaotic_evil"
+    -> "Antipaladin requires Chaotic Evil alignment.",
+  (level_up_new_class_picked?.id ?? "") == "monk__crb_"
+    && alignment != "lawful_good" && alignment != "lawful_neutral" && alignment != "lawful_evil"
+    -> "Monk requires a Lawful alignment.",
+  (level_up_new_class_picked?.id ?? "") == "monk_unchained__crb_"
+    && alignment != "lawful_good" && alignment != "lawful_neutral" && alignment != "lawful_evil"
+    -> "Unchained Monk requires a Lawful alignment.",
+  ((level_up_new_class_picked?.id ?? "") == "barbarian__crb_"
+    || (level_up_new_class_picked?.id ?? "") == "barbarian_unchained__crb_")
+    && (alignment == "lawful_good" || alignment == "lawful_neutral" || alignment == "lawful_evil")
+    -> "Barbarian cannot be Lawful.",
+  (level_up_new_class_picked?.id ?? "") == "druid__crb_"
+    && (alignment == "lawful_good" || alignment == "lawful_neutral" || alignment == "lawful_evil"
+      || alignment == "chaotic_good" || alignment == "chaotic_neutral" || alignment == "chaotic_evil")
+    -> "Druid must be within one step of true neutral (no Lawful/Chaotic extremes).",
+  else -> "",
+};
+
 // Resolves the selected class back to its class_progression by matching
 // $view.level_up_select_class? against $character.classes[*].class.id.
 calc resource<class_progression> level_up_selected_class_progression(name = "Selected existing class when levelling up") =

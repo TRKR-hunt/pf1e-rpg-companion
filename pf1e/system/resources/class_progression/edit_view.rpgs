@@ -8,7 +8,12 @@ view class_progression_edit() =
         id = "class_progression_edit",
         alignment = "end",
         margin_bottom = 4,
-        is_visible = defined(stat = "$character.$is_new"),
+        // B.1.6: also render during level-up multiclass — a freshly
+        // created level_up_new_class row has no class picked yet, so
+        // the class selector must show. Committed sheet rows (have a
+        // class, not $is_new) stay hidden as before (no regression).
+        is_visible = defined(stat = "$character.$is_new")
+          || isNull($view.class_progression_edit_class_select),
         subviews = [
           popUpButton(
             id = "edit_character_basics_see_class_button",

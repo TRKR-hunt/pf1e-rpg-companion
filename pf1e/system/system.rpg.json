@@ -94,6 +94,175 @@
       ]
      },
      {
+      "id": "level_up_multiclass_check",
+      "type": "checkbox",
+      "stat": "temp_level_up_multiclass",
+      "label": {
+       "type": "constant",
+       "value": "Multiclass: add a level of a NEW class instead",
+       "value_type": "string"
+      },
+      "label_alignment": "right",
+      "style": "checkbox",
+      "margin_top": 8
+     },
+     {
+      "id": "level_up_new_class",
+      "type": "resource",
+      "view_type": "edit",
+      "resource_id": "class_progression",
+      "stat": "temp_level_up_new_class",
+      "create_if_empty": true,
+      "is_visible": {
+       "type": "defaultIfNull",
+       "components": {
+        "type": "stat",
+        "stat": "$view?.level_up_multiclass_check?"
+       },
+       "default_components": {
+        "type": "constant",
+        "value": false,
+        "value_type": "bool"
+       }
+      },
+      "validation_message": {
+       "type": "when",
+       "clauses": [
+        {
+         "condition": {
+          "type": "isNull",
+          "components": {
+           "type": "defaultIfNull",
+           "components": {
+            "type": "stat",
+            "stat": "$view?.level_up_new_class?"
+           },
+           "default_components": {
+            "type": "constant",
+            "value": false,
+            "value_type": "bool"
+           }
+          }
+         },
+         "components": {
+          "type": "constant",
+          "value": "Pick the class you want to multiclass into.",
+          "value_type": "string"
+         }
+        },
+        {
+         "condition": {
+          "type": "contains",
+          "haystack": {
+           "type": "map",
+           "components": {
+            "type": "stat",
+            "stat": "classes"
+           },
+           "mapper": {
+            "type": "stat",
+            "stat": "$mapValue.class.name"
+           }
+          },
+          "needle": {
+           "type": "stat",
+           "stat": "$view?.level_up_new_class?.$view?.class_progression_edit_class_select?.name"
+          }
+         },
+         "components": {
+          "type": "constant",
+          "value": "You already have levels in that class — uncheck multiclass to level it, or pick a different class.",
+          "value_type": "string"
+         }
+        },
+        {
+         "condition": {
+          "type": "not",
+          "components": {
+           "type": "isEmpty",
+           "components": {
+            "type": "defaultIfNull",
+            "components": {
+             "type": "stat",
+             "stat": "level_up_multiclass_alignment_error"
+            },
+            "default_components": {
+             "type": "constant",
+             "value": "",
+             "value_type": "string"
+            }
+           }
+          }
+         },
+         "components": {
+          "type": "stat",
+          "stat": "level_up_multiclass_alignment_error"
+         }
+        },
+        {
+         "condition": {
+          "type": "constant",
+          "value": true,
+          "value_type": "bool"
+         },
+         "components": {
+          "type": "constant",
+          "value": null,
+          "value_type": "string"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "id": "level_up_multiclass_align_warn",
+      "type": "text",
+      "text": {
+       "type": "stat",
+       "stat": "level_up_multiclass_alignment_error"
+      },
+      "style": "caption",
+      "margin_top": 4,
+      "is_visible": {
+       "type": "and",
+       "components": {
+        "type": "list",
+        "components": [
+         {
+          "type": "defaultIfNull",
+          "components": {
+           "type": "stat",
+           "stat": "$view?.level_up_multiclass_check?"
+          },
+          "default_components": {
+           "type": "constant",
+           "value": false,
+           "value_type": "bool"
+          }
+         },
+         {
+          "type": "not",
+          "components": {
+           "type": "isEmpty",
+           "components": {
+            "type": "defaultIfNull",
+            "components": {
+             "type": "stat",
+             "stat": "level_up_multiclass_alignment_error"
+            },
+            "default_components": {
+             "type": "constant",
+             "value": "",
+             "value_type": "string"
+            }
+           }
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
       "id": "level_up_transition",
       "type": "text",
       "text": {
@@ -511,41 +680,107 @@
       "aggregation_type": "set"
      },
      {
-      "type": "setStat",
-      "stat": "temp_last_level_up_class_id",
-      "new_value": {
-       "type": "stat",
-       "stat": "level_up_selected_class_progression.class.id"
-      },
-      "aggregation_type": "set"
+      "type": "when",
+      "clauses": [
+       {
+        "condition": {
+         "type": "not",
+         "components": {
+          "type": "stat",
+          "stat": "$view.level_up_multiclass_check"
+         }
+        },
+        "effect": {
+         "type": "sequence",
+         "effects": [
+          {
+           "type": "setStat",
+           "stat": "temp_last_level_up_class_id",
+           "new_value": {
+            "type": "stat",
+            "stat": "level_up_selected_class_progression.class.id"
+           },
+           "aggregation_type": "set"
+          },
+          {
+           "type": "forEach",
+           "components": {
+            "type": "list",
+            "components": [
+             {
+              "type": "stat",
+              "stat": "level_up_selected_class_progression"
+             }
+            ]
+           },
+           "apply": {
+            "type": "sequence",
+            "effects": [
+             {
+              "type": "addToStat",
+              "stat": "$class_progression.class_level",
+              "value": {
+               "type": "constant",
+               "value": 1,
+               "value_type": "integer"
+              },
+              "aggregation_type": "set"
+             }
+            ]
+           },
+           "for_each_value_key": "$class_progression"
+          }
+         ]
+        }
+       }
+      ]
      },
      {
-      "type": "forEach",
-      "components": {
-       "type": "list",
-       "components": [
-        {
+      "type": "when",
+      "clauses": [
+       {
+        "condition": {
          "type": "stat",
-         "stat": "level_up_selected_class_progression"
-        }
-       ]
-      },
-      "apply": {
-       "type": "sequence",
-       "effects": [
-        {
-         "type": "addToStat",
-         "stat": "$class_progression.class_level",
-         "value": {
-          "type": "constant",
-          "value": 1,
-          "value_type": "integer"
+         "stat": "$view.level_up_multiclass_check"
+        },
+        "effect": {
+         "type": "forEach",
+         "components": {
+          "type": "list",
+          "components": [
+           {
+            "type": "stat",
+            "stat": "$view.level_up_new_class"
+           }
+          ]
          },
-         "aggregation_type": "set"
+         "for_each_value_key": "$new_cp",
+         "apply": {
+          "type": "sequence",
+          "effects": [
+           {
+            "type": "addToStat",
+            "stat": "classes",
+            "value": {
+             "type": "stat",
+             "stat": "$new_cp"
+            },
+            "aggregation_type": "set"
+           },
+           {
+            "type": "setStat",
+            "stat": "temp_last_level_up_class_id",
+            "new_value": {
+             "type": "stat",
+             "stat": "$new_cp.class.id"
+            },
+            "aggregation_type": "set"
+           }
+          ]
+         }
         }
-       ]
-      },
-      "for_each_value_key": "$class_progression"
+       }
+      ]
      },
      {
       "type": "setStat",
@@ -1362,6 +1597,26 @@
       "new_value": {
        "type": "constant",
        "value": "",
+       "value_type": "string"
+      },
+      "aggregation_type": "set"
+     },
+     {
+      "type": "setStat",
+      "stat": "temp_level_up_multiclass",
+      "new_value": {
+       "type": "constant",
+       "value": false,
+       "value_type": "bool"
+      },
+      "aggregation_type": "set"
+     },
+     {
+      "type": "setStat",
+      "stat": "temp_level_up_new_class",
+      "new_value": {
+       "type": "constant",
+       "value": null,
        "value_type": "string"
       },
       "aggregation_type": "set"
