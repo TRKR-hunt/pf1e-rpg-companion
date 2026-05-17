@@ -1,0 +1,93 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_woodland_sniper__crb_",
+    "name": {
+      "value": "Woodland Sniper"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_track",
+        "slayer_stalker",
+        "slayer_swift_tracker",
+        "slayer_slayer_s_advance"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_tree_climber",
+            "name": {
+              "value": "Tree Climber"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Tree Climber — A woodland sniper adds half his level to Acrobatics and Climb checks to move between, through, or up trees. With a successful DC 15 Acrobatics check, he can make ranged attacks with bows while balancing on branches."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_still_shot",
+            "name": {
+              "value": "Still Shot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Still Shot — At 7th level, when he has cover provided by one or more trees, the woodland sniper reduces the penalty on Stealth checks to remain hidden while sniping by half his slayer level."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_branchwalking",
+            "name": {
+              "value": "Branchwalking"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Branchwalking — At 11th level, the woodland sniper gains a climb speed equal to his base speed. In addition, at 13th level, he can move from one tree to another via connecting branches by adding 5 to the DC of an Acrobatics or Climb che"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Tree Climber (Ex) Ranged Sneak Attack (Ex) Still Shot (Ex) Branchwalking (Ex) Woodland snipers are guardians of forest and grove, keeping vigil on their borders and hunting bounties and trespassers from the shelter of sturdy branches. Tree Climber (Ex) A woodland sniper adds half his level to Acrobatics and Climb checks to move between, through, or up trees. With a successful DC 15 Acrobatics check, he can make ranged attacks with bows while balancing on branches. This replaces track. Ranged Sneak Attack (Ex) At 3rd level, whenever a woodland sniper makes a ranged attack against a creature within 30 feet that is denied its Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), he deals an additional 1d6 points of damage. This damage increases by 1d6 every 3 levels thereafter. Should the woodland sniper score a critical hit with his ranged attack, this additional damage is not multiplied. A woodland sniper cannot use sneak attack with a melee attack. At 6th level and every 3rd level thereafter, the range at which he can make a sneak attack increases by 10 feet. This alters sneak attack. Still Shot (Ex) At 7th level, when he has cover provided by one or more trees, the woodland sniper reduces the penalty on Stealth checks to remain hidden while sniping by half his slayer level. This replaces stalker. Branchwalking (Ex) At 11th level, the woodland sniper gains a climb speed equal to his base speed. In addition, at 13th level, he can move from one tree to another via connecting branches by adding 5 to the DC of an Acrobatics or Climb check to move within the canopy. The woodland sniper cannot end his movement on a branch that cannot support his weight. This replaces swift tracker and slayer’s advance."
+    }
+  }
+}

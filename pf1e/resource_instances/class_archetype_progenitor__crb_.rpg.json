@@ -1,0 +1,35 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_progenitor__crb_",
+    "name": {
+      "value": "Progenitor"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_nature_bond"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Infused Summoning (Ex) Primal Bond (Ex) Fey Shape (Su) Some druids forge powerful bonds with the raw, natural power of the Fey World. Progenitors are druids who tap into the vibrant power of the Fey World to propagate natural and supernatural wonders. Infused Summoning (Ex) When a progenitor casts summon natureâs ally to summon a creature, the summoned creature gains fast healing equal to the progenitorâs level (maximum equal to the progenitorâs Wisdom modifier). This alters spontaneous casting. Primal Bond (Ex) A progenitor infuses herself with fey magic so that she is treated as either her original creature type or the fey type for the purposes of spells or effects that target a creature by type, whichever is more beneficial to her. Additionally, the progenitor chooses one of two forms through which this bond expresses itself: magic or nature. A progenitor who chooses magic as her primal bond can draw upon wild magic as a swift action to attempt to cast a prepared spell without losing that spell from its spell slot. To use this ability, she casts the spell as she would normally, but as the spellâs effects take place, she must attempt a concentration check (DC = 20 + twice the spellâs level). If she fails, she expends the spell normally as if she had cast it, but its effects are replaced by a wild magic effect with a CR equal to her caster level and she is staggered until the end of her next turn. If she succeeds, she casts the spell normally and it is not expended from her prepared spell slot, allowing her to cast that spell again at a later point. A progenitor can use wild magic in this manner once per day plus one additional time per day at 5th level and every 5 levels thereafter. A progenitor who chooses nature as her primal bond can create plants as a full-round action. She can do so once per day plus one additional time per day per 5 levels. At the start of her next turn, so long as she is touching a solid surface underfoot, a 5-foot radius of mobile undergrowth springs to life around the progenitor for a number of rounds equal to 3 plus the progenitorâs Wisdom bonus. Upon activating this ability, the progenitor chooses whether the undergrowth provides cover or difficult terrain. If the progenitor chooses cover, her undergrowth provides a cover bonus to AC to the progenitor and allies within the radius. If she chooses difficult terrain, enemies who enter the radius of undergrowth treat it as difficult terrain. A progenitorâs undergrowth is treated as forest terrain if it provides cover and plains terrain if it provides difficult terrain. This radius increases by 5 feet at 5th level and every 5 levels thereafter. This replaces nature bond. Fey Shape (Su) A progenitor never gains the ability to use wild shape to transform into an elemental. At 6th level, a progenitor can use wild shape to change into a Small or Medium fey. When doing so, her wild shape functions as fey form I. At 8th level, a progenitor can use wild shape to change into a Tiny or Large fey. When she does so, her wild shape functions as fey form II. At 10th level, a progenitor can use wild shape to change into a Diminutive or Huge fey. When she does so, her wild shape functions as fey form III. At 14th level, when a progenitor uses wild shape to assume a fey form, her wild shape functions as fey form IV. This alters wild shape."
+    }
+  }
+}

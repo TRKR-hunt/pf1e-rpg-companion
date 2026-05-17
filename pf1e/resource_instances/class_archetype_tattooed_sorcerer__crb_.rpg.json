@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_tattooed_sorcerer__crb_",
+    "name": {
+      "value": "Tattooed Sorcerer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "sorcerer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Sorcerer"
+    },
+    "replaces": {
+      "value": [
+        "sorcerer_bloodline",
+        "sorcerer_eschew_materials"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sorcerer_arch_tattoo",
+            "name": {
+              "value": "Tattoo"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Tattoo — At 1st level, the tattooed sorcerer gains Mage’s Tattoo as a bonus feat. If she doesnât have Spell Focus, she may choose which school of magic her Mage’s Tattoo enhances."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Familiar Tattoo (Su) Mage’s Tattoo (Ex) Bloodline Tattoos (Ex) Create Spell Tattoo (Su) Enhanced Magical Tattoo (Su) The tattooed sorcerer uses colorful and intricate tattoos to enhance her magical powers. A tattooed sorcerer has the following class features. Familiar Tattoo (Su) A tattooed sorcerer gains a familiar as an arcane bond, as a wizard equal to her sorcerer level. Her sorcerer levels stack with any wizard or witch levels she possesses when determining the powers of her familiarâthis ability does not allow her to have both a familiar and a bonded item. Unlike most familiars, her familiar can transform itself into a tattoo that she carries in her flesh. Transforming into a tattoo or back to normal familiar form is a move action for her familiar. In tattoo form, the familiar looks like a stylized version of itself, but does not count as a creature separate from the tattooed sorcerer. In tattoo form it continues to grant its special familiar ability, but otherwise has no abilities and can take no actions except to transform from tattoo into creature. A familiar tattoo cannot be erased or dispelled. This ability replaces her 1st-level bloodline power. Mage’s Tattoo (Ex) At 1st level, the tattooed sorcerer gains Mage’s Tattoo as a bonus feat. If she doesnât have Spell Focus, she may choose which school of magic her Mage’s Tattoo enhances. This ability replaces her Eschew Materials bonus feat. Bloodline Tattoos (Ex) Whenever a tattooed sorcerer gains a bloodline spell, a new tattoo manifests on her body to represent this spell. Her bloodline spells are always enhanced by her Mage’s Tattoo feat, even if they donât match the school to which her Mage’s Tattoo belongs. Create Spell Tattoo (Su) At 7th level, a tattooed sorcerer can create a spell tattoo once per day with a single touch as a standard action. The recipient of the spell tattoo must be willing to receive the spell tattoo. If she gives the spell tattoo to herself, it does not count against the regular limit of magic tattoos she can have. The spell tattoo must be of a spell that she knows that has no material or focus component. She can maintain one spell tattoo created by this ability at a timeâif she uses this ability again, the previous spell tattoo she created fades away. Spell tattoos she creates with Inscribe Magic Tattoo do not count against this limit. She can use this ability twice per day at 11th level, and three times per day at 15th level. This ability replaces the bloodline feat gained at 7th level. Enhanced Magical Tattoo (Su) At 9th level, the tattooed sorcerer can pick any one spell she knows for which she has a Mage’s Tattoo feat. This spell must be one that lacks focus components and costly material components. She can now use that spell as a spell-like ability once per day. This spell-like ability is not enhanced by her Mage’s Tattoo, but it functions at +2 caster levels above her sorcerer caster level. Whenever she gains a bloodline power at a later date, she may change this spell-like ability to another qualifying spell. This ability replaces the 9th-level bloodline power."
+    }
+  }
+}

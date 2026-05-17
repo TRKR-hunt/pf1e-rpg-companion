@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_contemplative_dwarf__crb_",
+    "name": {
+      "value": "Contemplative (Dwarf)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "monk__crb_"
+    },
+    "parent_class_name": {
+      "value": "Monk"
+    },
+    "replaces": {
+      "value": [
+        "monk_stunning_fist",
+        "monk_wholeness_of_body"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_arch_spurn_tradition",
+            "name": {
+              "value": "Spurn Tradition"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Spurn Tradition — Contemplative dwarves strive to separate themselves from the rest of their race and the traditions that bind them. The bonuses for non-magical effects that target or specifically affect dwarf subtype creatures (such as a"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_arch_know_the_unseen_disciples",
+            "name": {
+              "value": "Know the Unseen Disciples"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Know the Unseen Disciples — At 7th level, an Contemplative can spot hidden creatures, as if using the spell see invisibility. Using this ability is a standard action that consumes 2 points from his ki pool. His caster level for this effect is equal"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Awaken Divinity (Su) Spurn Tradition (Ex) Know the Unseen Disciples (Su) The ascetic, desert-dwelling dwarves known as the Contemplatives have eschewed dwarven traditions, whose unchanging rigidity, they believe, shackles their people to the past and inhibits self-improvement. Shaving their heads, living under the open sky, and practicing arts unfamiliar to the typical dwarf, the Contemplatives seek to awaken the divine essence that lives within each creature. Awaken Divinity (Su) At 1st level, as a standard action, a Contemplative can touch a creature to grant it a temporary ki point until the beginning of the Contemplative’s next turn. In addition to any other ways in which the target can use ki, it can expend the ki point as a swift action in order to either gain a +2 dodge bonus to AC for 1 round or increase its base speed by 20 feet for 1 round. The Contemplative can target himself with this ability as a swift action, but doing so costs 2 uses of the ability. At 4th level, the dodge bonus to AC increases to +4. At 8th level, an affected creature can spend the ki point to ignore all Strength, Dexterity, and Constitution penalties it would otherwise take for 1 round. At 12th level, an Contemplative can target two adjacent creatures with this ability as a standard action, but must expend one use of the ability for each target affected. At 16th level, an affected creature can spend this ki point to roll all saving throws twice and take the higher result for 1 round. At 20th level, an affected creature can spend the ki point to benefit from the Contemplative’s perfect self class ability for 1 round. If the creature already has the perfect self class feature, its damage reduction and any spell resistance it has increases by 2 for 1 round. A Contemplative can use this ability a number of times per day equal to his class level, but no more than once per round. This ability replaces the stunning fist monk class feature and the greed and hatred racial traits. Spurn Tradition (Ex) Contemplative dwarves strive to separate themselves from the rest of their race and the traditions that bind them. The bonuses for non-magical effects that target or specifically affect dwarf subtype creatures (such as a ranger’s favored enemy class feature) are all reduced by half. In addition, an Contemplative becomes proficient in one martial weapon with the monk property. This ability replaces the dwarf ‘s defensive training, stonecunning, and weapon familiarity racial traits. Know the Unseen Disciples (Su) At 7th level, an Contemplative can spot hidden creatures, as if using the spell see invisibility. Using this ability is a standard action that consumes 2 points from his ki pool. His caster level for this effect is equal to his class level. This ability replaces wholeness of body."
+    }
+  }
+}

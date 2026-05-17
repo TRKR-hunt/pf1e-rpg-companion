@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_flame_dancer__crb_",
+    "name": {
+      "value": "Flame Dancer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_countersong",
+        "bard_inspire_competence_2",
+        "bard_suggestion",
+        "bard_dirge_of_doom"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_fire_break",
+            "name": {
+              "value": "Fire Break"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fire Break — : At 6th level, a fire dancer’s performance can bend flames away from others. Any ally within 30 feet of the bard who can hear or see the bardic performance gains resist fire 20 as long as the performance is maintained. "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_fan_the_flames",
+            "name": {
+              "value": "Fan the Flames"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fan the Flames — : At 8th level, a fire dancer adds burning hands, flaming sphere, and fireball to his list of bard spells known (as 1st-, 2nd-, and 3rd-level spells, respectively)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "A flame dancer studies the movements of fire, adding its grace to his repertoire. He seeks truth in fire’s burning essence, and uses his performance to unleash the power of fire against those who dare oppose him. Bardic Performance A flame dancer gains the following bardic performances. Fire Dancer (Su): At 1st level, a fire dancer learns to protect himself and others from the pain of fire, and discovers how to control the flame while enduring its heat. Each round of the fire dance, he rolls a Perform (dance or sing) check. Any ally within 30 feet of the bard that has caught on fire or is affected by a fire effect or extreme heat can use the bard’s Perform check result in place of its saving throw against that fire. Any ally within 30 feet of the bard who is suffering from heatstroke can ignore the fatigue from heat exposure so long as the bard maintains this performance. Fire dance relies on audible or visual components. This ability replaces countersong. Song of the Fiery Gaze (Su): At 3rd level, a fire dancer can allow allies to see through flames without any distortion. Any ally within 30 feet of the bard who can hear the performance can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow him to see normally, as with the base effect of the gaze of flames oracle revelation. Song of the fiery gaze relies on audible components. This ability replaces inspire competence. Fire Break (Su): At 6th level, a fire dancer’s performance can bend flames away from others. Any ally within 30 feet of the bard who can hear or see the bardic performance gains resist fire 20 as long as the performance is maintained. At 11th level, this resistance increases to 30. Fire break relies on audible or visual components. This ability replaces suggestion. Fan the Flames (Su): At 8th level, a fire dancer adds burning hands, flaming sphere, and fireball to his list of bard spells known (as 1st-, 2nd-, and 3rd-level spells, respectively). This ability replaces dirge of doom."
+    }
+  }
+}

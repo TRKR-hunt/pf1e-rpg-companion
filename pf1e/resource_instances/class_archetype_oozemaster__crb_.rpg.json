@@ -1,0 +1,37 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_oozemaster__crb_",
+    "name": {
+      "value": "Oozemaster"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_bomb",
+        "alchemist_poison_resistance_use",
+        "alchemist_poison_immunity"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Ooze Bomb (Su) Ooze Toxin (Ex) Ooze Resistance The oozemaster is a specialized alchemist who fights and ensnares oozes. An oozemaster carefully studies the characteristics of the oozes he hunts to help him create new and more effective mutagens and bombs. Class Skills: An oozemaster gains Knowledge (dungeoneering) as a class skill but does not gain Knowledge (nature) as a class skill. Ooze Bomb (Su) An oozemasterâs bombs deal acid damage instead of fire damage, and they deal damage only on a direct hit; they do not splash. A creature damaged by an ooze bomb takes additional acid damage equal to the oozemasterâs Intelligence modifier at the start of the oozemasterâs next turn. A creature can take this delayed damage only once per round; additional hits extend the duration of the ongoing damage by 1 round each. An oozemaster cannot select discoveries that change the type of damage dealt by his bombs, nor those that affect the bombâs splash radius. This ability otherwise functions as and replaces the bomb class feature. Ooze Toxin (Ex) An oozemaster can extract deadly toxins from the bodies of slain oozes and use them against his foes, making him a deadly opponent with unpredictable stratagems. As a full-round action while adjacent to an ooze that died within the past 10 minutes, an oozemaster can attempt a Craft (alchemy) check with a DC equal to 10 + the oozeâs Challenge Rating to create a toxin. If successful, the oozemaster can extract a number of doses of toxin from an ooze equal to half its Constitution modifier (minimum 1). These toxins remain potent for 1 hour before becoming inert. The oozemaster can throw an ooze toxin as a ranged touch attack with a range increment of 10 feet, or he can apply the toxin to a weapon as if it were an injury poison. The toxin deals 1d6 points of acid damage plus an additional 1d6 points of acid damage per 3 Hit Dice the ooze had. If the ooze had any additional effects conveyed by its slam attack other than grab (such as a gelatinous cubeâs paralysis ability), the oozemaster can also apply these qualities to this attack. The save DC for additional abilities produced by this attack is 10 + half the alchemistâs level + the alchemistâs Intelligence modifier. This ability replaces Brew Potion, though an oozemaster can still select Brew Potion without meeting the featâs prerequisites. Ooze Resistance At 2nd level, an oozemaster becomes especially resistant to the abilities of his chosen foes. He gains a +2 bonus on saving throws against the extraordinary and supernatural abilities of oozes. This bonus increases by +1 at 5th level and every 3 levels thereafter, to a maximum of +8 at 20th level. This replaces poison resistance and poison immunity. Discoveries: The following discoveries complement the oozemaster archetype: bottled ooze, ooze blight, and splitting mutagen."
+    }
+  }
+}

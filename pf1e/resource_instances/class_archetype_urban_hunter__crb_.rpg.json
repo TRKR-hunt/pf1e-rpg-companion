@@ -1,0 +1,57 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_urban_hunter__crb_",
+    "name": {
+      "value": "Urban Hunter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "hunter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Hunter"
+    },
+    "replaces": {
+      "value": [
+        "hunter_hunter_tactics",
+        "hunter_teamwork_feat",
+        "hunter_woodland_stride",
+        "hunter_one_with_the_wild"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_arch_frightful_ferocity",
+            "name": {
+              "value": "Frightful Ferocity"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Frightful Ferocity — At 17th level, an urban hunter and her animal companion can each attempt an Intimidate check to demoralize a foe as a swift action."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Animal Companion (Ex) Captor (Ex) Animal Insight (Ex) Frightful Ferocity (Ex) Urban hunters help guards track down and apprehend criminals or spies, find lost children and disaster victims, and protect animals from abuse in the city. They still draw their inspiration and strength from the natural world, marveling at how nature flourishes wherever the city allows. Class Skills: An urban hunter adds Diplomacy ( Cha ), Knowledge (local) ( Int ), and Sense Motive ( Wis ) as class skills, and removes Knowledge (nature) ( Int ) and Survival ( Wis ). This alters the hunter’s class skills. Animal Companion (Ex) Urban hunters have animal companions that are domesticated animals or animals native to a major city. The urban hunter must select her animal companion from the following list: axe beak, badger, bird, camel, dire rat, dog, horse, llama, ostrich, pony, ram, or trumpeter swan. In urban settings, an urban hunter’s animal companion seems domesticated and likely harmless to anyone who has not seen it in combat (potentially reducing the DC of Diplomacy checks to convince anyone to allow it into secure areas). It draws no more attention than a friendly dog, loyal horse, or similar tame animal. Creatures who have never seen the animal companion make an attack must succeed at a Sense Motive check (opposed by the animal companion’s Stealth check) to realize the animal companion is a potential threat. The hunter can calm those who witness her animal companion’s attacks (so long as they were not injured) with a successful Handle Animal check (DC = 15 + the target’s Will save modifier). Captor (Ex) At 3rd level, an urban hunter and her animal companion take no penalties when dealing nonlethal damage with weapons or natural attacks. At 6th level and every 3 levels thereafter, the urban hunter selects a bonus feat from the following list to be gained by both the hunter and her animal companion: Improved Bull Rush, Improved Dirty Trick, Improved Disarm, Improved Grapple, and Improved Trip. At 12th level, the hunter can also select from the following feats: Combat Patrol, Combat Reflexes, Disarming Strike, Greater Bull Rush, Greater Dirty Trick, Greater Disarm, Greater Grapple, Greater Trip, and Lunge. Neither the hunter nor her animal companion needs to meet the prerequisites for these bonus feats. This ability replaces hunter tactics and teamwork feat. Animal Insight (Ex) At 5th level, an urban hunter and her animal companion learn to combine their insights to defeat deception and manipulation. As long as they are within 30 feet of each other, both hunter and animal companion gain an insight bonus on Sense Motive checks equal to half the urban hunter’s hunter level. They also gain a +2 insight bonus on Will saving throws against illusions and mind-affecting effects. This ability replaces woodland stride. Frightful Ferocity (Ex) At 17th level, an urban hunter and her animal companion can each attempt an Intimidate check to demoralize a foe as a swift action. This ability replaces one with the wild."
+    }
+  }
+}

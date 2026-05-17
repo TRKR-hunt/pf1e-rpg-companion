@@ -1,0 +1,74 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_swamp_poisoner_grippli__crb_",
+    "name": {
+      "value": "Swamp Poisoner (Grippli)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_trapfinding",
+        "rogue_rogue_talent",
+        "rogue_trap_sense_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_mucous_membrane",
+            "name": {
+              "value": "Mucous Membrane"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Mucous Membrane — A swamp poisoner gains a bonus equal to half his class level on Escape Artist checks and to his CMD when resisting grapple attempts (minimum 1)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_mark_the_vein",
+            "name": {
+              "value": "Mark the Vein"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Mark the Vein — At 2nd level, when the swamp poisoner attacks a target that is currently affected by his grippli racial poison, that target is denied its Dexterity bonus to AC. The target must be actively poisoned, not just suffering th"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Mucous Membrane (Ex) Mark the Vein (Ex) Poison the Well (Ex) Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp poisoner is an archetype available to grippli characters. Prerequisite(s): A swamp poisoner must have selected the toxic skin grippli alternate racial trait. Mucous Membrane (Ex) A swamp poisoner gains a bonus equal to half his class level on Escape Artist checks and to his CMD when resisting grapple attempts (minimum 1). This replaces trapfinding. Mark the Vein (Ex) At 2nd level, when the swamp poisoner attacks a target that is currently affected by his grippli racial poison, that target is denied its Dexterity bonus to AC. The target must be actively poisoned, not just suffering the effects of poison, such as lingering ability damage. This replaces the rogue talent gained at 2nd level. Poison the Well (Ex) At 3rd level as a standard action, a swamp poisoner can smear the poison generated through the use of his toxic skin alternate racial trait onto the ground in a 5-foot area, instead of onto a weapon or his own body. The first creature other than the swamp poisoner to enter the area is exposed to the poison. The poison loses its potency after 1 hour. This area is considered a trap, and the DCs of Perception checks to notice it and Disable Device checks to disable it are equal to 10 + half the swamp poisonerâs level + the swamp poisonerâs Constitution modifier. The swamp poisoner also gains an extra use per day of his toxic skin alternate racial trait, plus one additional use per day for every 3 levels beyond 3rd. This replaces trap sense. An unchained rogue replaces danger sense instead."
+    }
+  }
+}

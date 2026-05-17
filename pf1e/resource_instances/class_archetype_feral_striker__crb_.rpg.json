@@ -1,0 +1,35 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_feral_striker__crb_",
+    "name": {
+      "value": "Feral Striker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "brawler__crb_"
+    },
+    "parent_class_name": {
+      "value": "Brawler"
+    },
+    "replaces": {
+      "value": [
+        "brawler_martial_flexibility"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "A feral striker taps into a reservoir of druidic power hidden inside herself, allowing her to take animalistic characteristics. Feral Aspect (Su) This functions as the shifter aspect class feature of the shifter, except the feral striker can choose only from the bear, bull, falcon, snake, stag, tiger, and wolf aspects. She has access to only the minor versions all these aspects. At 6th level, the feral striker can take on two minor aspects simultaneously as a move action. Each aspect counts toward her total number of minutes (so if a feral striker who normally has 9 total minutes of aspects takes on two aspects simultaneously for 4 minutes, she still has 1 minute remaining). She can end one or both aspects as a free action on her turn. At 10th level, the feral striker adds her Constitution modifier to the total number of minutes per day in which she can use feral aspect. At 12th level, the feral striker can take on three aspects simultaneously as a move action or one or two aspects as a swift action. At 20th level, the feral striker can take on as many aspects as she wishes at once as a swift action, and they count as only one aspect for the purpose of calculating duration. This replaces martial flexibility."
+    }
+  }
+}

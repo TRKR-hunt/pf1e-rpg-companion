@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_bogborn__crb_",
+    "name": {
+      "value": "Bogborn"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_brew_potion_throw_anything_mutagen"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_amphibious_mutagen",
+            "name": {
+              "value": "Amphibious Mutagen"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Amphibious Mutagen — At 1st level, when a bogborn alchemist uses a mutagen, he may choose to have his mutagen form enhanced for aquatic movement. This gives him the amphibious special quality, his feet elongate, and the webbing between his f"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that inhabit them; these serve as their laboratories and research subjects, respectively. These bogborn alchemists have the following class features. Class Skills: A bogborn alchemist adds Swim to his list of class skills. Amphibious Mutagen (Ex) At 1st level, when a bogborn alchemist uses a mutagen, he may choose to have his mutagen form enhanced for aquatic movement. This gives him the amphibious special quality, his feet elongate, and the webbing between his fingers and toes expands, granting a swim speed of 15 feet. This replaces throw anything. Discovery Options: A bogborn alchemist can select the toxic skin grippli racial trait in place of an alchemical discovery. Discoveries: The following discoveries complement the bogborn alchemist archetype: chameleon; concentrate poison, sticky poison; nauseating flesh, poison conversion; bottled ooze, tanglefoot bomb, tentacle."
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_fist_of_the_gods__crb_",
+    "name": {
+      "value": "Fist of the Gods"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "warpriest__crb_"
+    },
+    "parent_class_name": {
+      "value": "Warpriest"
+    },
+    "replaces": {
+      "value": [
+        "warpriest_bonus_combat_feat_every_3_levels",
+        "warpriest_aspect_of_war"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_arch_detect_chaos",
+            "name": {
+              "value": "Detect Chaos"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Detect Chaos — At 3rd level, a fist of the gods can cast detect chaos three times per day as a spell-like ability, using his warpriest level as his caster level. If the fist of the gods already has, or later gains, the ability to cast "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_arch_aspect_of_law",
+            "name": {
+              "value": "Aspect of Law"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Aspect of Law — At 20th level, a fist of the gods can channel an aspect of law, growing even more inflexible. Once per day as a swift action, a warpriest can treat his level as his base attack bonus, gains DR 20/chaotic, and becomes imm"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Blessings of the Fist (Ex) Detect Chaos (Sp) Alignment Channel (Su) Aspect of Law (Ex) Devoted to the divine control of law above all else, these zealots seek to establish absolute order. Disciplined and precise, they lead their allies against the chaotic hordes. Alignment: A fist of the gods must be of a lawful alignment. This alters the warpriestâs alignment restriction. Blessings of the Fist (Ex) A fist of the gods must select the Law blessing and the Godfist blessing (see below). This alters blessings. Detect Chaos (Sp) At 3rd level, a fist of the gods can cast detect chaos three times per day as a spell-like ability, using his warpriest level as his caster level. If the fist of the gods already has, or later gains, the ability to cast detect chaos, then he can cast detect chaos at will as a spell-like ability. This replaces the bonus feat gained at 3rd level. Alignment Channel (Su) At 6th level, a fist of the gods gains Alignment Channel as a bonus feat. When he uses this feat and spends fervor to channel energy, he can harm only outsiders with the chaotic subtype. Additionally, when using this feat, he expends only one use of his fervor to channel energy and deals 1d6 points of damage for every 2 warpriest levels he has. At 12th level, a fist of the gods can expend an additional use of fervor to channel energy as a move action. This replaces the bonus feats gained at 6th level and 12th level. Aspect of Law (Ex) At 20th level, a fist of the gods can channel an aspect of law, growing even more inflexible. Once per day as a swift action, a warpriest can treat his level as his base attack bonus, gains DR 20/chaotic, and becomes immune to mind-affecting effects. In addition, he can take the average result on any die roll instead of rolling normally. This ability lasts for 1 minute. This replaces aspect of war."
+    }
+  }
+}

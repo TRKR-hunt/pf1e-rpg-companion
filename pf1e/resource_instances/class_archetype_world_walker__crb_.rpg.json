@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_world_walker__crb_",
+    "name": {
+      "value": "World Walker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_venom_immunity",
+        "druid_timeless_body"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_favored_terrain",
+            "name": {
+              "value": "Favored Terrain"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Favored Terrain — At 3rd level, the world walker gains the ranger’s favored terrain ability. She treats her druid level as her ranger level for this ability. If she has levels in both classes, both classâs levels stack for determining t"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "While all druids traverse the wilderness with ease, the world walkers take it upon themselves to travel the entire world. Some act as messengers and scouts for druidic circles, while others have a seemingly unquenchable wanderlust; each new land provides new mysteries to discover and new wisdom to be gained from mastering those mysteries. Favored Terrain (Ex) At 3rd level, the world walker gains the ranger’s favored terrain ability. She treats her druid level as her ranger level for this ability. If she has levels in both classes, both classâs levels stack for determining the effect of this ability. This ability replaces trackless step and resist natureâs lure. Path of Trees (Su) At 9th level, once a day, a wanderer can step within a tree and then teleport from that tree to another one in a manner similar to the tree stride spell. She gains an extra use of this ability each day at 12th level, and a third use of this ability at 15th level. Furthermore, a world walker of 13th level or higher can use this ability to teleport to any other tree of its type up to 100 miles away. This ability replaces both venom immunity and timeless body."
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_dark_lurker__crb_",
+    "name": {
+      "value": "Dark Lurker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_evasion",
+        "rogue_rogue_talent"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_blind_fight",
+            "name": {
+              "value": "Blind-Fight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Blind-Fight — At 2nd level, a dark lurker gains Blind-Fight as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_improved_blind_fight",
+            "name": {
+              "value": "Improved Blind-Fight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Improved Blind-Fight — At 8th level, a dark lurker gains Improved Blind-Fight as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_greater_blind_fight",
+            "name": {
+              "value": "Greater Blind-Fight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Greater Blind-Fight — At 14th level, a dark lurker gains Greater Blind-Fight as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_instinctual_sense",
+            "name": {
+              "value": "Instinctual Sense"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Instinctual Sense — At 20th level, a dark lurker gains blindsight with a range of 30 feet."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Blades from the Shadows (Ex) Blind-Fight (Ex) Improved Blind-Fight (Ex) Greater Blind-Fight (Ex) Instinctual Sense (Ex) Dark lurkers use darkness as an ally. They are widely feared in many major metropolises, spoken of as âliving shadowsâ by guards and called âthe hungry nightâ by citizens who mistake them for fetchling assassins. Blades from the Shadows (Ex) At 2nd level, a dark lurker gains shadow strike as a bonus rogue talent. (A character using the unchained rogue class instead gains the ability to make attacks of opportunity against foes with cover, though not foes with improved cover or total cover ). At 6th level, the dark lurker can deal precision damage to targets with total concealment (though any miss chance applies normally, and may prevent an attack from hitting in the first place). This ability replaces evasion; the dark lurker can take evasion as a rogue talent. Blind-Fight (Ex) At 2nd level, a dark lurker gains Blind-Fight as a bonus feat. This ability replaces the rogue talent gained at 2nd level. Improved Blind-Fight (Ex) At 8th level, a dark lurker gains Improved Blind-Fight as a bonus feat. This ability replaces the rogue talent gained at 8th level. Greater Blind-Fight (Ex) At 14th level, a dark lurker gains Greater Blind-Fight as a bonus feat. This ability replaces the rogue talent gained at 14th level. Instinctual Sense (Ex) At 20th level, a dark lurker gains blindsight with a range of 30 feet. This ability replaces the rogue talent gained at 20th level. Rogue Talents: The following rogue talents complement the dark lurker archetype: befuddling strike, eerie disappearance, false attacker, fast getaway, fast stealth, opportunist, pierce the darkness, sniper’s eye, and surprise attack."
+    }
+  }
+}

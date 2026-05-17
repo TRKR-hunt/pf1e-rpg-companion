@@ -1,0 +1,56 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_blazing_torchbearer__crb_",
+    "name": {
+      "value": "Blazing Torchbearer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_brew_potion_throw_anything_mutagen",
+        "alchemist_poison_resistance_use",
+        "alchemist_discovery"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_everburning_flame",
+            "name": {
+              "value": "Everburning Flame"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Everburning Flame — Any torch held by a blazing torchbearer is considered to be an everburning torch, although it still sheds heat and can be used as a weapon. In addition, a blazing torchbearer can cast spark as a spell-like ability at wil"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Everburning Flame (Ex) Intense Light (Ex) Explosive Torch (Ex) This archetype can be taken by a character’s torchbearer, as well as other characters that qualify. The blazing torchbearer is especially adept at manipulating flames of all kinds. Everburning Flame (Ex) Any torch held by a blazing torchbearer is considered to be an everburning torch, although it still sheds heat and can be used as a weapon. In addition, a blazing torchbearer can cast spark as a spell-like ability at will. This ability replaces Brew Potion. Intense Light (Ex) At 2nd level, a blazing torchbearer has mastered lighting and holding a torch to the point that it sheds more light than those carried by his peers. The radius of normal and increased illumination of any torch held by a blazing torchbearer increases by 10 feet. Once per day as a standard action, the blazing torchbearer can create a brilliant flash of light that blinds everyone within 10 feet (including the torchbearer) for 1 round. This ability replaces poison use. Explosive Torch (Ex) At 4th level, as a standard action, a blazing torchbearer can drop a special blend of explosive powders onto his torch before using it as a weapon. His next successful melee attack with the torch deals an additional 2d6 points of fire damage and sets the target on fire. This attack must be made within 1d4 rounds or the torch prematurely explodes at the end of the blazing torchbearer’s turn, dealing damage to the blazing torchbearer and setting him on fire. This ability replaces the alchemist’s 4th-level discovery."
+    }
+  }
+}

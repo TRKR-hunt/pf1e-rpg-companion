@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_elegist_skald_archetype__crb_",
+    "name": {
+      "value": "Elegist (Skald Archetype)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "skald__crb_"
+    },
+    "parent_class_name": {
+      "value": "Skald"
+    },
+    "replaces": {
+      "value": [
+        "skald_raging_song",
+        "skald_versatile_performance_well_versed"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_steady_hearted",
+            "name": {
+              "value": "Steady Hearted"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Steady Hearted — At 2nd level, an elegist receives a +4 bonus to saving throws against emotion effects."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Melancholic Apparition (Su) Steady Hearted (Ex) Somber Damage Reduction (Ex) Master Elegist (Su) Some skalds internalize the saddest and must mournful of stories, so much that they are able to manifest the emotions caused by these tales in physical form. These spirits are able to inflict the misery onto the elegist’s enemies. Melancholic Apparition (Su) By using music, oration, and similar performances, an elegist can call forth a physical manifestation of the sorrow of his tales. This functions as a spiritualist ‘s phantom with the despair focus. He can manifest his melancholic apparition as a standard action and dismiss it as a free action. The phantom appears adjacent to the skald and can act immediately. The melancholic apparition is immediately dismissed if the elegist is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round to maintain the performance that keeps the phantom manifested. At 1st level, an elegist can keep his apparition manifested for a total number of rounds each day equal to 3 + his Charisma modifier. For each skald level beyond 1st, he can manifest his apparition 2 additional rounds per day. Unlike a spiritualist ‘s phantom, a melancholic apparition can’t be harbored in the elegist’s consciousness. When manifested, the melancholic apparition has the same number of hit points it had when previously manifested that day. It regains all of its hit points when the elegist regains his spells for the day. If the melancholic apparition is slain, the elegist can manifest it again in the same day by spending a number of additional rounds ot’this ability equal to half his skald level (minimum 1); the melancholic apparition returns with half its normal total of hit points. This replaces raging song and all related performances. as well as rage powers. Steady Hearted (Ex) At 2nd level, an elegist receives a +4 bonus to saving throws against emotion effects. This replaces well-versed. Somber Damage Reduction (Ex) The damage reduction an elegist gains at 9th level is shared by his melancholic apparition when it is manifested. This alters damage reduction. Master Elegist (Su) At 20th level, the elegist can manifest his melancholic apparition as a swift action. If it is slain. the elegist can manifest a new phantom in the same day with no additional expenditure of rounds of the melancholic apparition ability, and the new phantom has all of its hit points."
+    }
+  }
+}

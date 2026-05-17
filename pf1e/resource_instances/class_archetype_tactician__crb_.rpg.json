@@ -1,0 +1,111 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_tactician__crb_",
+    "name": {
+      "value": "Tactician"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_bonus_combat_feat",
+        "fighter_bravery_1",
+        "fighter_weapon_training_1",
+        "fighter_armor_training_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_strategic_training",
+            "name": {
+              "value": "Strategic Training"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Strategic Training — A tactician gains 4 skill ranks + a number of skill ranks equal to his Intelligence modifier at each level, instead of the normal 2 skill ranks + Intelligence modifier at each level. Furthermore, Diplomacy (Cha), Knowled"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_tactical_awareness",
+            "name": {
+              "value": "Tactical Awareness"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Tactical Awareness — At 2nd level, a tactician gains a +1 bonus on initiative checks. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_tactician",
+            "name": {
+              "value": "Tactician"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Tactician — At 5th level, a tactician gains the tactician ability as the cavalier class feature. He may use this ability once per day at 5th level, plus one additional time for every five levels after 5th (to a maximum of four times"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_battle_insight",
+            "name": {
+              "value": "Battle Insight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Battle Insight — At 15th level, as a swift action, a tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gai"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Weapon and Armor Proficiency Strategic Training (Ex) Bonus Feats Tactical Awareness (Ex) Tactician (Ex) Cooperative Combatant (Ex) Battle Insight (Ex) While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield. These fighters use their training and tactical acumen to overcome challenges that would overwhelm mere brute strength and skill at arms. Weapon and Armor Proficiency A tactician is not proficient with heavy armor or tower shields. Strategic Training (Ex) A tactician gains 4 skill ranks + a number of skill ranks equal to his Intelligence modifier at each level, instead of the normal 2 skill ranks + Intelligence modifier at each level. Furthermore, Diplomacy (Cha), Knowledge (geography) (Int), Knowledge (nobility) (Int), Linguistics (Int), and Sense Motive (Wis) are all class skills for the tactician. This ability replaces the bonus fighter combat feat gained at 1st level. Bonus Feats A tactician may choose Skill Focus or any teamwork feat, in addition to Combat Feats, as bonus feats. Tactical Awareness (Ex) At 2nd level, a tactician gains a +1 bonus on initiative checks. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This ability replaces bravery. Tactician (Ex) At 5th level, a tactician gains the tactician ability as the cavalier class feature. He may use this ability once per day at 5th level, plus one additional time for every five levels after 5th (to a maximum of four times at 20th level). If the tactician also has cavalier levels, these levels stack for determining the number of uses per day, and he can take the better progression. This ability replaces weapon training 1. Cooperative Combatant (Ex) At 11th level, when a tactician uses the aid another special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponentâs next attack on that ally, and can grant different allies different bonuses. This ability replaces armor training 3. Battle Insight (Ex) At 15th level, as a swift action, a tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tacticianâs next turn. The tactician can use this ability a number of times per day equal to 3 + his Intelligence modifier. This ability replaces armor training 4."
+    }
+  }
+}

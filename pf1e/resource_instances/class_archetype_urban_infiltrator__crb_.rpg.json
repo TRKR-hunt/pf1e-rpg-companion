@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_urban_infiltrator__crb_",
+    "name": {
+      "value": "Urban Infiltrator"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "inquisitor__crb_"
+    },
+    "parent_class_name": {
+      "value": "Inquisitor"
+    },
+    "replaces": {
+      "value": [
+        "inquisitor_domain_orisons_monster_lore_stern_gaze_1_2_level",
+        "inquisitor_stalwart"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_gifted_detective",
+            "name": {
+              "value": "Gifted Detective"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Gifted Detective — An urban infiltrator adds her Wisdom modifier as well as her Charisma modifier on Bluff and Disguise skill checks and on Diplomacy checks to gather information. Attempting a Diplomacy check to gather information never ta"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_thousand_faces",
+            "name": {
+              "value": "Thousand Faces"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Thousand Faces — At 11th level, an urban inquisitor gains the ability to change her appearance at will, as if using the alter self spell."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Masters of secretly gathering information to further their faith’s ends, urban infiltrators excel at operating within an unfriendly society or infiltrating an enemy cult. This archetype is available to any inquisitor who prefers subtle investigation to forthright zeal. Class Skills: An urban infiltrator adds Disable Device, Knowledge (history), Knowledge (local), and Knowledge (nobility) to her list of class skills in place of Knowledge (dungeoneering) and Knowledge (nature). This alters the inquisitor’s class skills. Gifted Detective (Ex) An urban infiltrator adds her Wisdom modifier as well as her Charisma modifier on Bluff and Disguise skill checks and on Diplomacy checks to gather information. Attempting a Diplomacy check to gather information never takes an urban infiltrator more than 1 hour. This ability replaces monster lore. A Thousand Faces (Su) At 11th level, an urban inquisitor gains the ability to change her appearance at will, as if using the alter self spell. This ability replaces stalwart."
+    }
+  }
+}

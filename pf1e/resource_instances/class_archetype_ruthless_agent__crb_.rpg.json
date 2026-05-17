@@ -1,0 +1,57 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_ruthless_agent__crb_",
+    "name": {
+      "value": "Ruthless Agent"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "investigator__crb_"
+    },
+    "parent_class_name": {
+      "value": "Investigator"
+    },
+    "replaces": {
+      "value": [
+        "investigator_trapfinding",
+        "investigator_trap_sense",
+        "investigator_swift_alchemy",
+        "investigator_investigator_talent_poison_resistance_every_2_le"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_concoction_of_truth",
+            "name": {
+              "value": "Concoction of Truth"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Concoction of Truth — At 7th level, a ruthless agent automatically adds discern lies to her list of formulae known. She prepares this as a 3rd-level extract, and she can prepare one discern lies extract each day that does not count against he"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Inspiration (Ex) Enhanced Intimidation (Ex) Interrogate (Su) Agonizing Strike (Ex) Concoction of Truth (Su) Compel Obedience (Sp) Ruthless agents are often called upon for their skills at extracting information by any means necessary. Though some view their methods as extreme, ruthless agents prize getting the job done at all costs. Ruthless agents can be found in the employ of nearly any organizationâeven goodly groups whose leaders either don’t know the extent of ruthless agents’ zeal or are willing to look the other way to take advantage of these investigators ‘ incredible efficiency. Alignment: Any nongood. This alters the investigator’s alignment. Inspiration (Ex) A ruthless agent focuses on reading motivations and using interrogation tactics. She can use inspiration on Intimidate, Knowledge, and Sense Motive checks without expending a use of inspiration, provided she’s trained in the skill. A ruthless agent can’t spend inspiration on attack rolls or saving throws. This alters inspiration. Enhanced Intimidation (Ex) A ruthless agent adds half her investigator level (minimum +1) as a bonus on Intimidate checks. When the ruthless agent uses Intimidate to influence an opponent’s attitude, the duration of the attitude shift is 1d6x10 minutes per investigator level (rather than the normal 1d6x10 minutes). Additionally, the ruthless agent is an expert in blending coercion and fear. The first time the ruthless agent attempts to use Intimidate to influence an opponent’s attitude and fails, she can retry it against that same opponent with no increase to the DC. Subsequent attempts to influence the same opponent are subject to increased DCs as normal. This replaces trapfinding. Interrogate (Su) At 3rd level as a full-round action, a ruthless agent can ask a target one question for every 2 investigator levels she has. The target is not compelled to answer truthfully, but the ruthless agent’s implicit or explicit threats and looming manner leads the target to believe the ruthless agent will cause it serious harm if it lies. This imposes a â2 penalty on the target’s Bluff checks to lie when answering the specific questions the ruthless agent asked. At 6th level and every 3 levels thereafter, the penalty increases by 2 (to a maximum of â12 at 18th level). She can use this ability a number of times per day equal to 3 + her Intelligence modifier. This is a mind-affecting fear effect. This replaces trap sense. Agonizing Strike (Ex) At 4th level, a ruthless agent has learned how to finesse her attacks to discomfort a foe. When she deals damage using her studied strike, she can make this damage nonlethal (regardless of whether her weapon normally deals lethal or nonlethal damage ), forcing the target to succeed at a Fortitude saving throw (DC = 10 + half the ruthless agent’s level + her Intelligence modifier) or be sickened for 1 round and take a â2 penalty on Will saving throws for 1 minute. Multiple agonizing strikes do not worsen the condition or impose an additional penalty on Will saves, but they do increase the duration of both effects. This replaces swift alchemy. Concoction of Truth (Su) At 7th level, a ruthless agent automatically adds discern lies to her list of formulae known. She prepares this as a 3rd-level extract, and she can prepare one discern lies extract each day that does not count against her daily allotment of extracts. This replaces the investigator talent gained at 7th level. Compel Obedience (Sp) At 11th level, a ruthless agent can issue a binding command to a creature as a full-round action once per day. This command acts like geas/quest with the creature as the target, using the ruthless agent’s investigator level as the caster level. The ruthless agent can compel obedience from only one creature at a time (as soon as the geas/quest is fulfilled, however, the ruthless agent can use this ability again, as long as she has a use of this ability available). At 17th level, the ruthless agent can compel obedience from two creatures at once, and she is always aware of the targets as if they were under the effects of a status spell ( caster level = the ruthless agent’s investigator level). This replaces the investigator talents gained at 11th and 17th levels."
+    }
+  }
+}

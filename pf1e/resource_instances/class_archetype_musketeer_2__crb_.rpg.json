@@ -1,0 +1,74 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_musketeer_2__crb_",
+    "name": {
+      "value": "Musketeer #2"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "swashbuckler__crb_"
+    },
+    "parent_class_name": {
+      "value": "Swashbuckler"
+    },
+    "replaces": {
+      "value": [
+        "swashbuckler_swashbuckler_finesse",
+        "swashbuckler_deeds",
+        "swashbuckler_panache"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_musketeer_instruction",
+            "name": {
+              "value": "Musketeer Instruction"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Musketeer Instruction — At 1st level, a musketeer gains the benefits of the Weapon Finesse feature with the rapier (this counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites), as well as both Rapid Reload ( musket"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_quick_clear",
+            "name": {
+              "value": "Quick Clear"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Quick Clear — : At 1st level, as a standard action the musketeer can spend 1 panache point to remove the broken condition from a single firearm he is currently wielding, as long as the firearm gained that condition through a misfire."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "A number of organizations and kingdoms search for warriors who are brave (or foolish) enough to wield firearms on the battlefield. The daring nature of swashbucklers often makes them ideal candidates for such service. Weapon and Armor Proficiency A musketeer gains proficiency with all simple weapons and martial weapons, as well as one-handed and two-handed firearms. This ability replaces the swashbuckler’s weapon proficiencies. Musketeer Instruction (Ex) At 1st level, a musketeer gains the benefits of the Weapon Finesse feature with the rapier (this counts as having the Weapon Finesse feat for purposes of meeting feat prerequisites), as well as both Rapid Reload ( musket ) and Gunsmithing feats as bonus feats. This ability replaces swashbuckler finesse. Deeds The musketeer gains the following deed, which replaces an existing deed. Quick Clear (Ex): At 1st level, as a standard action the musketeer can spend 1 panache point to remove the broken condition from a single firearm he is currently wielding, as long as the firearm gained that condition through a misfire. This deed replaces dodging panache."
+    }
+  }
+}

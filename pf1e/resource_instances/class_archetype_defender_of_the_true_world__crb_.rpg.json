@@ -1,0 +1,111 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_defender_of_the_true_world__crb_",
+    "name": {
+      "value": "Defender of the True World"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_wild_empathy",
+        "druid_trackless_step",
+        "druid_venom_immunity",
+        "druid_a_thousand_faces"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_fey_empathy",
+            "name": {
+              "value": "Fey Empathy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fey Empathy — A defender of the true world gains a +2 competence bonus on Bluff, Diplomacy, and Intimidate checks when interacting with fey creatures. This bonus increases by 1 for every 4 druid levels she has (maximum +7 at 20th leve"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_fey_stalker",
+            "name": {
+              "value": "Fey Stalker"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fey Stalker — At 3rd level, the defender of the true worldâs animal companion and any creatures she summons with summon natureâs ally gain a +1 morale bonus on attack and damage rolls against fey creatures. This bonus increases to"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_beguiling_immunity",
+            "name": {
+              "value": "Beguiling Immunity"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Beguiling Immunity — At 9th level, a defender of the true world becomes immune to the mind-affecting effects of fey."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_fey_deceiver",
+            "name": {
+              "value": "Fey Deceiver"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fey Deceiver — At 13th level, a defender of the true world gains the ability to change her appearance as per alter self, except she can take the form of a humanoid or fey creature. Her base land speed from this ability cannot exceed 60"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Bonus Languages Enemy of the Fey Fey Empathy (Ex) Fey Stalker (Ex) Feybane (Ex) Beguiling Immunity (Ex) Fey Deceiver (Su) Some druids specialize in tracking down, diverting, and slaying fey threats. Class Skills: A defender of the true world gains Diplomacy as a class skill. This alters the druidâs class skills. Bonus Languages A defender of the true world can select Aklo, Sylvan, or Undercommon as bonus languages, in addition to the normal list of bonus languages available. Enemy of the Fey A defender of the true world cannot use summon natureâs ally to summon fey creatures. This modifies spontaneous casting. Fey Empathy (Ex) A defender of the true world gains a +2 competence bonus on Bluff, Diplomacy, and Intimidate checks when interacting with fey creatures. This bonus increases by 1 for every 4 druid levels she has (maximum +7 at 20th level). This replaces wild empathy. Fey Stalker (Ex) At 3rd level, the defender of the true worldâs animal companion and any creatures she summons with summon natureâs ally gain a +1 morale bonus on attack and damage rolls against fey creatures. This bonus increases to +2 at 8th level, +3 at 13th level, and +4 at 18th level. This ability replaces trackless step. Feybane (Ex) At 4th level, a defender of the true world doesnât gain a bonus on saving throws against spells and effects that utilize or target plants. She instead treats her natural attacks as cold iron for the purpose of overcoming damage reduction, and she gains a +2 bonus on caster level checks to overcome the spell resistance of fey creatures. This ability alters resist natureâs lure. Beguiling Immunity (Ex) At 9th level, a defender of the true world becomes immune to the mind-affecting effects of fey. This ability replaces venom immunity. Fey Deceiver (Su) At 13th level, a defender of the true world gains the ability to change her appearance as per alter self, except she can take the form of a humanoid or fey creature. Her base land speed from this ability cannot exceed 60 feet. This ability replaces a thousand faces."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_hidden_current__crb_",
+    "name": {
+      "value": "Hidden Current"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "vigilante__crb_"
+    },
+    "parent_class_name": {
+      "value": "Vigilante"
+    },
+    "replaces": {
+      "value": [
+        "vigilante_social_talent",
+        "vigilante_frightening_appearance",
+        "vigilante_vigilante_talent"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_arch_guise_of_the_land_walker",
+            "name": {
+              "value": "Guise of the Land Walker"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Guise of the Land Walker — At 1st level, a hidden current gains the many guises social talent, but the mundane identity assumed must be of a nonaquatic humanoid and functions only when he is on land."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_arch_stealthy_swimmer",
+            "name": {
+              "value": "Stealthy Swimmer"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Stealthy Swimmer — Hidden currents can transition between land and sea at a moment’s notice. If a hidden current begins his movement on land and ends his movement in water at least waist deep, or vice versa, he gains a +5 circumstance bonu"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Guise of the Land Walker (Ex) Sea’s Return (Sp) Stealthy Swimmer (Ex) Sometimes the best place to hide is in plain sight. The hidden current operates above and below the sea. When operating underwater, he blends easily with the locals, passing himself off as one of them or as an experienced aquatic traveler. When operating on land, he erases all traces of his aquatic heritage. When the hidden current needs to avoid pursuit, he slips away into his native environment. Guise of the Land Walker (Ex) At 1st level, a hidden current gains the many guises social talent, but the mundane identity assumed must be of a nonaquatic humanoid and functions only when he is on land. This ability replaces the hidden current’s 1st-level social talent. Sea’s Return (Sp) At 11th level, a hidden current can magically slip between the sea and the land, as if using the spell dimension door with a caster level equal to the hidden current’s vigilante level. The starting point of this ability must be on land and the ending point in water at least waist deep, or vice versa. Using this ability is a move action. The hidden current cannot take other creatures with him when he uses this ability. A hidden current can use this ability once per day at 11th level and an additional time per day every 4 levels thereafter (to a maximum of three uses per day at 19th level). This ability replaces frightening appearance. Stealthy Swimmer (Ex) Hidden currents can transition between land and sea at a moment’s notice. If a hidden current begins his movement on land and ends his movement in water at least waist deep, or vice versa, he gains a +5 circumstance bonus on a Stealth check in the same turn. This ability replaces the hidden current’s 2nd-level vigilante talent."
+    }
+  }
+}

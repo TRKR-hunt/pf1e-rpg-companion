@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_enlightened_bloodrager_2__crb_",
+    "name": {
+      "value": "Enlightened Bloodrager #2"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bloodrager__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bloodrager"
+    },
+    "replaces": {
+      "value": [
+        "bloodrager_bloodline",
+        "bloodrager_damage_reduction"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_arch_enlightened_bloodrage",
+            "name": {
+              "value": "Enlightened Bloodrage"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Enlightened Bloodrage — At 4th level, while bloodraging an enlightened bloodrager takes no penalties to his AC, and can still use Intelligence -, Dexterity -, and Charisma -based skills. This ability alters bloodrage and"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Enlightened Spellcasting Enlightened Bloodrage (Su) Bloodline Feat Bloodline Powers Troubled by overwhelming rage and mystic forces beyond their comprehension, bloodragers seek peace and enlightenment. Many perish or succumb to their bloodlust well before reaching their goal, but those who survive eventually learn to control their anger and suppress the worst influences of their bloodlines. Enlightened Spellcasting An enlightened bloodragerâs sophisticated outlook allows him to cast an expanded array of spells. Instead of his normal spells per day and spells known for his bloodrager level, an enlightened bloodrager uses the spells per day from the medium class. This grants him the ability to learn a number of 0-level spells, which are cast like any other spells, but donât consume spell slots and can be used again. The enlightened bloodrager adds all 0-level spells from the sorcerer/wizard spell list to his bloodrager spell list. He also adds all druid spells of 4th level and lower (including 0-level spells). If a spell appears on both the bloodrager spell list and the druid spell list, the enlightened bloodrager uses the lower of the two spell levels listed for the spell. The bloodrager treats any druid spells he takes with this ability as bloodrager spells for the purposes of other abilities (such as greater bloodrage). At 5th level and every 3 levels thereafter, the enlightened bloodrager can choose to learn a new spell in place of one he already knows. In effect, he loses the old spell in exchange for the new one. The new spellâs level must be the same as that of the spell being exchanged, and it must be at least 1 level lower than the highest-level spell the enlightened bloodrager can cast. The enlightened bloodrager can swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level. This ability alters spellcasting and replaces the bloodline power gained at 1st level and all bonus spells gained as part of a bloodline. Enlightened Bloodrage (Su) At 4th level, while bloodraging an enlightened bloodrager takes no penalties to his AC, and can still use Intelligence -, Dexterity -, and Charisma -based skills. This ability alters bloodrage and replaces the bloodline power gained at 1st level. This replaces the bloodline power gained at 4th level. Bloodline Feat At 6th level, an enlightened bloodrager adds Expanded Arcana, Nameless One, and all feats that list Nameless One as a prerequisite to the list of feats he can select as a bloodline feat. This replaces the damage reduction the bloodrager gains at 7th, 10th, 13th, 16th, and 19th levels. Bloodline Powers At 8th level, an enlightened bloodrager gains the bloodline power normally granted at 1st level. At 12th level and every 4 levels thereafter, he gains the bloodline power normally granted 8 levels earlier, to a maximum of gaining at 20th level the bloodline power normally gained at 12th level. This ability modifies bloodline power."
+    }
+  }
+}

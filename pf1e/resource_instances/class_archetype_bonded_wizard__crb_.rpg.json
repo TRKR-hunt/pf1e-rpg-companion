@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_bonded_wizard__crb_",
+    "name": {
+      "value": "Bonded Wizard"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "wizard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Wizard"
+    },
+    "replaces": {
+      "value": [
+        "wizard_scribe_scroll",
+        "wizard_bonus_feat"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "wizard_arch_hidden_bond",
+            "name": {
+              "value": "Hidden Bond"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Hidden Bond — A bonded wizard can change the appearance and magical aura of her bonded item at will, as if using disguise self and magic aura, but affecting only the item; for the purpose of disguise self, the item’s item type (such a"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Arcane Bond (Ex) Hidden Bond (Sp) Bonded Force (Su) Reshape Bond (Sp) Many wizards form an arcane bond with an item, but for some this bond becomes a powerful mystic union. Arcane Bond (Ex) A bonded wizard must select an item as her arcane bond. The bonded object’s hit point and hardness increase by +1 per level the bonded wizard possesses. Hidden Bond (Sp) A bonded wizard can change the appearance and magical aura of her bonded item at will, as if using disguise self and magic aura, but affecting only the item; for the purpose of disguise self, the item’s item type (such as weapon or ring) is its creature type. This ability replaces Scribe Scroll. Bonded Force (Su) At 5th level, a bonded wizard wearing or wielding her bonded object can channel magical energies through it to create tools, armor, and weapons from pure force. She gains a pool of force points equal to half his wizard level. She can expend 1 point from his force pool as a standard action to create an effect that acts as mage armor (lasting 1 hour), shield (lasting 1 minute), or spiritual weapon (any simple or martial weapon, using her Intelligence modifier to determine its attack bonus rather than Wisdom and lasting 1 round per wizard level). These effects are visible; they take the appearance of armor, shields, or weapons as appropriate, and they always have some visual detail reminiscent of the wizard’s bonded item (such as the pattern of a bonded ring appearing as decoration on a mage armor or shield effect). At 9th level, when the bonded wizard uses bonded force for mage armor, the armor bonus increases by 1; when she uses bonded force for shield, the shield bonus increases by 1; and she gains a +1 enhancement bonus on attack and damage rolls when using bonded force for spiritual weapon. The increases for mage armor and shield and the enhancement bonus for spiritual weapon improve by an additional 1 at 13th level and again at 17th level. When she uses bonded force for spiritual weapon, the bonded wizard can choose to reduce this enhancement bonus by 1 to double the spiritual weapon’s critical threat range as the keen weapon property, and for mage armor or shield, she can choose to reduce the armor or shield bonus by 1 to protect herself from critical hits and sneak attacks as the light fortification armor property. Alternatively, the bonded wizard can expend a point from her force pool to create a tool of force, which functions as a masterwork version of a simple tool of her choice that could be reproduced by a traveler’s any-tool. The tool has the same AC and durability as a spiritual weapon and lasts for 10 minutes. The circumstance bonus the tool of force grants to appropriate skill checks starts at +2 (as masterwork tools) and increases to +3 at 9th level, and by an additional +1 every 4 levels thereafter, to a maximum of +5 at 17th level. A bonded wizard can only have one instance of bonded force active at a time. If she uses this ability again, any previously created force construct immediately ends. This ability replaces a wizard’s bonus feats normally gained at 5th and 15th level. Reshape Bond (Sp) At 10th level, a bonded wizard can repair her bonded item or turn it into another object once per day as a full-round action. Transforming it functions as polymorph any object, but does not alter the item’s magical properties (including its item slot), while repairing it functions as make whole. The wizard may also sacrifice a prepared spell in order to repair an additional 1d6 points of damage per level of the sacrificed spell. This replaces the wizard’s bonus feat normally gained at 10th level."
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_divine_hunter__crb_",
+    "name": {
+      "value": "Divine Hunter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "paladin__crb_"
+    },
+    "parent_class_name": {
+      "value": "Paladin"
+    },
+    "replaces": {
+      "value": [
+        "paladin_aura_of_courage",
+        "paladin_divine_bond",
+        "paladin_mercy",
+        "paladin_aura_of_resolve",
+        "paladin_aura_of_justice",
+        "paladin_aura_of_faith"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_arch_righteous_hunter",
+            "name": {
+              "value": "Righteous Hunter"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Righteous Hunter — Most paladins rush into battle, meeting evil toe-to-toe. The divine hunter prefers to engage evil from afar, striking down her foes before they can threaten her allies. Precise Shot A divine hunter gains Precise Shot as "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_arch_shared_precision",
+            "name": {
+              "value": "Shared Precision"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Shared Precision — At 3rd level, when a divine hunter hits a creature with a ranged attack, she grants her allies within 10 feet of her the benefit of the Precise Shot feat against that target until the start of her next turn. Her allies m"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_arch_distant_mercy",
+            "name": {
+              "value": "Distant Mercy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Distant Mercy — At 6th level, a divine hunter can expend two uses of her lay on hand ability to use her lay on hands ability on a target within 5 feet per paladin level. Distant mercy has no effect on creatures harmed by positive energy"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_arch_blessing",
+            "name": {
+              "value": "Blessing"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Blessing — At 11th level, a divine hunter can expend a use of her smite evil ability as a swift action to grant herself and all allies within 10 feet the Deadly Aim, Precise Shot, and Improved Precise Shot feats, even if they lack "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Precise Shot Shared Precision (Su) Divine Bond (Su) Distant Mercy (Sp) Aura of Care (Su) Hunterâs Blessing (Su) Righteous Hunter (Su) Most paladins rush into battle, meeting evil toe-to-toe. The divine hunter prefers to engage evil from afar, striking down her foes before they can threaten her allies. Precise Shot A divine hunter gains Precise Shot as a bonus feat at 1st level, even if she doesnât meet the prerequisites. This ability replaces her heavy armor proficiency. Shared Precision (Su) At 3rd level, when a divine hunter hits a creature with a ranged attack, she grants her allies within 10 feet of her the benefit of the Precise Shot feat against that target until the start of her next turn. Her allies must remain within 10 feet of her, and must be able both to see and hear the divine hunter to gain this benefit. This ability replaces aura of courage. Divine Bond (Su) At 5th level, a divine hunter forms a bond with her deity. This functions as the paladin’s divine bond ability, except the bond must always take the form of a ranged or throwing weapon (excluding ammunition). In addition to the listed abilities, a divine hunter can add the distance, returning, or seeking special abilities to her weapon, but she cannot add the defending or disruption special abilities. Special abilities added to throwing weapons function normally when the weapon is used in melee. This ability replaces the standard paladin’s divine bond. Distant Mercy (Sp) At 6th level, a divine hunter can expend two uses of her lay on hand ability to use her lay on hands ability on a target within 5 feet per paladin level. Distant mercy has no effect on creatures harmed by positive energy, such as undead. This ability replaces the paladin’s 6th-level mercy. Aura of Care (Su) At 8th level, a divine hunter and her allies gain a preternatural awareness of each otherâs position in battle. She and any allies within 10 feet of her no longer provide cover against each otherâs ranged attacks unless they wish to. Allies who cannot move or otherwise take actions still provide cover, as do flat-footed allies. The divine hunter and her allies must be able to see or hear each other to use this ability. This ability replaces aura of resolve. Hunterâs Blessing (Su) At 11th level, a divine hunter can expend a use of her smite evil ability as a swift action to grant herself and all allies within 10 feet the Deadly Aim, Precise Shot, and Improved Precise Shot feats, even if they lack the prerequisites. The effects last for 1 minute. Evil creatures gain no benefit from this ability. This ability replaces aura of justice. Righteous Hunter (Su) At 14th level, a divine hunterâs ranged weapons are treated as good-aligned for the purposes of overcoming damage reduction. Any ranged attacks made by an ally within 10 feet of her are likewise treated as good-aligned for the purposes of overcoming damage reduction. This ability functions only while the divine hunter is conscious. This ability replaces aura of faith."
+    }
+  }
+}

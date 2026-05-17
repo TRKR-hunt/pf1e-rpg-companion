@@ -1,0 +1,113 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_tidal_hunter__crb_",
+    "name": {
+      "value": "Tidal Hunter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ranger__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ranger"
+    },
+    "replaces": {
+      "value": [
+        "ranger_wild_empathy",
+        "ranger_combat_style_feat",
+        "ranger_track",
+        "ranger_camouflage",
+        "ranger_woodland_stride",
+        "ranger_evasion"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_waterborn",
+            "name": {
+              "value": "Waterborn"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Waterborn — A tidal hunter can breathe water for up to 10 minutes per ranger level each day. At 6th level, he can breathe underwater indefinitely."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_keen_scent",
+            "name": {
+              "value": "Keen Scent"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Keen Scent — A tidal hunter gains scent, as per the universal monster rule. At 12th level, while in water, the tidal hunter can detect particularly strong or distinct odors (such as blood) up to 1 mile away."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_wave_rush",
+            "name": {
+              "value": "Wave Rush"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wave Rush — At 7th level, a tidal hunter gains a swim speed equal to his base speed. If he already has a swim speed, it increases by 10 feet."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_tidal_surge",
+            "name": {
+              "value": "Tidal Surge"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Tidal Surge — At 16th level, a tidal hunter gains control over water, and he can use the tides to attack his foes. Once per day, he can cast tidal surge as a spell-like ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Waterborn (Su) Keen Scent (Ex) Aquatic Mastery (Ex) Wave Rush (Ex) Tidal Surge (Sp) The tidal hunter draws strength from the fish and other wildlife of the deep. Waterborn (Su) A tidal hunter can breathe water for up to 10 minutes per ranger level each day. At 6th level, he can breathe underwater indefinitely. This replaces wild empathy and the 6th-level combat style feat. Keen Scent (Ex) A tidal hunter gains scent, as per the universal monster rule. At 12th level, while in water, the tidal hunter can detect particularly strong or distinct odors (such as blood) up to 1 mile away. This replaces track and camouflage. Aquatic Mastery (Ex) At 3rd level, a tidal hunter must select water as his favored terrain, and he doesn’t gain additional favored terrains. At 8th level and every 5 levels thereafter, the bonus from this favored terrain increases by 2. This alters favored terrain. Wave Rush (Ex) At 7th level, a tidal hunter gains a swim speed equal to his base speed. If he already has a swim speed, it increases by 10 feet. This replaces woodland stride. Tidal Surge (Sp) At 16th level, a tidal hunter gains control over water, and he can use the tides to attack his foes. Once per day, he can cast tidal surge as a spell-like ability. This replaces improved evasion."
+    }
+  }
+}

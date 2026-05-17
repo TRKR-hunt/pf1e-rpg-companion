@@ -1,0 +1,92 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_buckler_duelist__crb_",
+    "name": {
+      "value": "Buckler Duelist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_bravery_1",
+        "fighter_armor_training_1",
+        "fighter_weapon_training_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_buckler_bash",
+            "name": {
+              "value": "Buckler Bash"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Buckler Bash — At 2nd level, a buckler duelist can perform a shield bash with a buckler (use the same damage and critical modifier as for a light shield)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_armor_training",
+            "name": {
+              "value": "Armor Training"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Armor Training — At 7th level, a buckler duelist gains armor training 1, and can move at his normal speed in medium armor. At 15th level, the buckler duelist gains armor training 2, and can move at his normal speed in heavy armor."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_chopping_blow",
+            "name": {
+              "value": "Chopping Blow"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Chopping Blow — At 11th level, as a standard action, a buckler duelist can make a single melee attack with a falcata. If the attack hits, he may make a sunder combat maneuver against the target of his attack as a free action that does n"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Buckler Bash (Ex) Buckler Catch (Ex) Strong Swing (Ex) Armor Training (Ex) Chopping Blow (Ex) These duelists use their bucklers both to defend themselves and to launch unexpected strikes while chopping and hewing at their foesâ unprotected bodies and heads with their falcatas. They wear any type of armor, but favor bucklers, and are comfortable using both hands for offense and defense. Buckler Bash (Ex) At 2nd level, a buckler duelist can perform a shield bash with a buckler (use the same damage and critical modifier as for a light shield). This ability replaces bravery. Buckler Catch (Ex) At 3rd level, a buckler duelist can catch his opponentâs weapon between his buckler and his forearm, effectively wedging the hafts of polearms and hammers or the flats of blades. This functions as a disarm combat maneuver, and the buckler duelist gains a +4 bonus on the roll. If the buckler duelistâs attack fails by 10 or more, he suffers a â2 penalty to his AC until the start of his next turn. This ability replaces armor training 1. Strong Swing (Ex) At 5th level, a buckler duelist gains a +1 bonus on attack and damage rolls when wielding a falcata and buckler that applies to attacks made by either hand. These bonuses increase by +1 for every four levels beyond 5th. With a full-attack action, a buckler duelist may alternate between using his falcata or his buckler for each attack. This does not grant additional attacks or incur penalties as two-weapon fighting does. This ability replaces weapon training 1. Armor Training (Ex) At 7th level, a buckler duelist gains armor training 1, and can move at his normal speed in medium armor. At 15th level, the buckler duelist gains armor training 2, and can move at his normal speed in heavy armor. This ability replaces armor training 2. Chopping Blow (Ex) At 11th level, as a standard action, a buckler duelist can make a single melee attack with a falcata. If the attack hits, he may make a sunder combat maneuver against the target of his attack as a free action that does not provoke an attack of opportunity. This ability replaces armor training 3. Suggested Feats: Exotic Weapon Proficiency ( falcata ), Improved Shield Bash, Improved Two-Weapon Fighting, Power Attack, Shield Slam, Shield Master, Duelist, Two-Weapon Fighting, Weapon Focus ( falcata ), Weapon Specialization ( falcata )."
+    }
+  }
+}

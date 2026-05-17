@@ -1,0 +1,57 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_chronicler_of_worlds__crb_",
+    "name": {
+      "value": "Chronicler of Worlds"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_inspire_greatness",
+        "bard_inspire_heroics",
+        "bard_well_versed",
+        "bard_versatile_performance"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_amoral_scholar",
+            "name": {
+              "value": "Amoral Scholar"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Amoral Scholar — A chronicler of worlds rejects cosmic morality. At 2nd level, she does not take penalties imposed by planar alignment traits, and she gains a +4 bonus on saving throws against spells and effects that vary based on their "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Planar Lore (Ex) Quintessence Infusion (Su) Mantra of the Angel (Su) Amoral Scholar (Ex) Scrivenerâs Versatility (Ex) In eons past, an angel was tasked with cataloging all knowledge of the great beyond, only to eventually be cast from Heaven for penning the Book of the Damned, the perfect catalog of all planar evil. His dedication and sacrifice to the task have inspired some to follow his example; these bards are known as the chroniclers of worlds. A chronicler of worlds forsakes morality in service of understanding; she is both warrior and mystic, scholar and soldier. Some chroniclers congregate in Axis to share their discoveries and theories, but the majority wander the planes, steadfastly pushing the boundaries of what is known. Wandererâs Insight: A chronicler of worlds gains power not from her personality but from an analytical understanding of existence. She uses Intelligence instead of Charisma to determine the effects of bard class features, including spellcasting and bardic performance. A chronicler of worlds must have an alignment with at least one neutral component; a character who does not meet this requirement cannot use or benefit from this archetypeâs abilities. Planar Lore (Ex) A chronicler of worlds can take 10 on Knowledge (planes) checks. A number of times per day equal to her Intelligence modifier, she can take 20 on a Knowledge (planes) check. This ability stacks with that gained by lore master at 5th level. A chronicler of worlds can attempt all Knowledge checks untrained. This alters bardic knowledge. Bardic Performance: The chronicler of worlds gains the following bardic performances. Quintessence Infusion (Su) This performance infuses allies with planar quintessence. At 9th level, while on a plane other than the Material Plane, the chronicler of worlds can use this performance to target an ally within 30 feet. For every 3 bard levels she has beyond 9th, she can affect one additional creature. Affected allies gain the planeâs basic infusion effect. If the chronicler of worlds is 13th level or higher, affected creatures also gain the planeâs improved infusion. If she is 16th level or higher, affected creatures also gain the planeâs greater infusion. The first time each day a creature benefits from quintessence infusion, the plane infused is set for the day and additional infusions can grant only that planeâs infusions. Infusions that have limited uses per day remain limited in that way, regardless of how many times quintessence infusion is gained. Quintessence infusion relies on audible and visual components. This replaces inspire greatness. Mantra of the Angel (Su) At 15th level, the chronicler of worlds can create a potent ward against outsiders. While maintaining this performance, when the chronicler of worlds is hit by an attack from an outsider or fails a saving throw against an outsiderâs extraordinary, supernatural, or spell-like ability, as an immediate action she can attempt a Knowledge (planes) check and use the result as her Armor Class or her saving throw result against that attack or effect. The chronicler cannot use her planar lore ability to take 20 on this Knowledge (planes) check. This can retroactively alter the results of the attack or ability. The chronicler of worlds must decide to use this ability before the effects of the successful attack or failed saving throw have been announced. Mantra of the Angel relies on audible components. This replaces inspire heroics. Amoral Scholar (Ex) A chronicler of worlds rejects cosmic morality. At 2nd level, she does not take penalties imposed by planar alignment traits, and she gains a +4 bonus on saving throws against spells and effects that vary based on their targetâs alignment. This replaces well-versed. Scrivenerâs Versatility (Ex) A chronicler of worlds seeks to emulate historyâs greatest scribe; gaining insight into widely varying subjects, from anatomy to discourse. At 2nd level, a chronicler of worlds selects a skill from the following list: Bluff, Diplomacy, Disable Device, Heal, Intimidate, Profession (scribe), Sense Motive, or Survival. When attempting skill checks of that type, a chronicler can use her Linguistics skill bonus in place of her bonus with the chosen skill. At 6th level and every 4 levels thereafter, a chronicler of worlds selects an additional skill to gain this benefit. This replaces versatile performance."
+    }
+  }
+}

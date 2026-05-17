@@ -1,0 +1,112 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_ectochymist__crb_",
+    "name": {
+      "value": "Ectochymist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_bomb",
+        "alchemist_poison_resistance_use",
+        "alchemist_swift_poisoning",
+        "alchemist_discovery",
+        "alchemist_poison_immunity"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_ectoplasmic_blanche",
+            "name": {
+              "value": "Ectoplasmic Blanche"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Ectoplasmic Blanche — An ectochymist can alchemically treat a melee weapon so that it deals full damage to incorporeal creatures. The process requires a full-round action and lasts until the next time that weapon is used to make an attack. An"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_cool_headed",
+            "name": {
+              "value": "Cool-Headed"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Cool-Headed — At 2nd level, an ectochymist gains a +2 bonus on saves against death, fear, and negative energy effects. This bonus increases to +4 at 5th level, and to +6 at 8th level."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_advanced_ectochymistry",
+            "name": {
+              "value": "Advanced Ectochymistry"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Advanced Ectochymistry — At 2nd level, a weapon coated in an ectochymist’s ectoplasmic blanche also deals full damage to haunts."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_swift_ectochymistry",
+            "name": {
+              "value": "Swift Ectochymistry"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Swift Ectochymistry — At 6th level, an ectochymist can use ectoplasmic blanche on one of his own weapons as a swift action. When coated on a weapon wielded by the ectochymist, ectoplasmic blanche lasts for a number of attacks equal to the ect"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Class Skills Ectoplasmic Blanche (Su) Cool-Headed (Ex) Advanced Ectochymistry (Su) Swift Ectochymistry (Su) Ghost Trap (Su) Ectochymical Analysis (Sp) Discoveries Ectochymists study the effects of alchemy on soul and spirit, focusing on fighting ghosts and other incorporeal creatures. Class Skills An ectochymist adds Knowledge (religion) to his list of class skills. This alters the alchemist’s class skills. Ectoplasmic Blanche (Su) An ectochymist can alchemically treat a melee weapon so that it deals full damage to incorporeal creatures. The process requires a full-round action and lasts until the next time that weapon is used to make an attack. An ectochymist can use this ability a number of times per day equal to his alchemist level + his Intelligence modifier. This ability replaces bombs. Cool-Headed (Ex) At 2nd level, an ectochymist gains a +2 bonus on saves against death, fear, and negative energy effects. This bonus increases to +4 at 5th level, and to +6 at 8th level. This ability replaces poison resistance. Advanced Ectochymistry (Su) At 2nd level, a weapon coated in an ectochymist’s ectoplasmic blanche also deals full damage to haunts. This ability replaces poison use. Swift Ectochymistry (Su) At 6th level, an ectochymist can use ectoplasmic blanche on one of his own weapons as a swift action. When coated on a weapon wielded by the ectochymist, ectoplasmic blanche lasts for a number of attacks equal to the ectochymist’s Intelligence modifier (minimum 1 attack). This ability replaces swift poisoning. Ghost Trap (Su) At 8th level, an ectochymist can throw a trap to capture an incorporeal creature of up to 1 Hit Die per alchemist level he possesses. As a standard action, the ectochymist can expend a use of ectoplasmic blanche to coat the inside of a container with his blanche and throw it at an incorporeal creature as a ranged touch attack. If he hits, the creature receives a Will save to escape the trap (DC = 10 + 1/2 his alchemist level + his Intelligence modifier). If the creature fails its save, it is sealed within the vessel until someone breaks or opens that vessel. The ghost trap automatically survives being thrown at the incorporeal creature, but otherwise is only as durable as the vessel (normally hardness 5, 1 hp for a glass bottle ). This ability replaces the 8th-level alchemist discovery. Ectochymical Analysis (Sp) At 10th level, an ectochymist can use alchemical processes to uncover esoteric knowledge from a haunted area that would normally require divinations to ascertain. This process takes 10 minutes and expends one use of ectoplasmic blanche. Treat this effect as speak with haunt with a saving throw DC equal to 10 + 1/2 the ectochymist’s class level + the ectochymist’s Charisma modifier and a caster level equal to the ectochymist’s class level. Because the ectochymist is performing an analysis to answer his questions and not speaking with the haunt directly, he uses Craft (alchemy) rather than Sense Motive to oppose any Bluff checks the spirit might attempt in order to mislead him. This ability replaces poison immunity. Discoveries The following discoveries complement the ectochymist archetype: alchemical simulacrum, cognatogen, grand cognatogen, greater alchemical simulacrum, and mummification."
+    }
+  }
+}

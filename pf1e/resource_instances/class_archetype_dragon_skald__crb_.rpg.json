@@ -1,0 +1,93 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_dragon_skald__crb_",
+    "name": {
+      "value": "Dragon Skald"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "skald__crb_"
+    },
+    "parent_class_name": {
+      "value": "Skald"
+    },
+    "replaces": {
+      "value": [
+        "skald_scribe_scroll",
+        "skald_bardic_knowledge_cantrips_spontaneous_arcane_cha",
+        "skald_versatile_performance_well_versed",
+        "skald_song_of_marching"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_wind_whistler",
+            "name": {
+              "value": "Wind Whistler"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wind Whistler — At 1st level, a dragon skald adds alter winds, fog cloud, and obscuring mist to his class spell list, at the same levels the wizard gains them. He still must add these spells to his spells known as normal."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_sea_legs",
+            "name": {
+              "value": "Sea Legs"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Sea Legs — A dragon skald adds 1/2 his class level (minimum 1) on all Profession (sailor) checks, Survival checks while at sea, Acrobatics and Climb checks made while aboard a boat, and Swim checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_fearless_raider",
+            "name": {
+              "value": "Fearless Raider"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fearless Raider — At 2nd level, the dragon skald becomes resistant to fear effects. The dragon skald gains a +4 bonus on saving throws against fear effects, and DCs to affect the dragon skald with the Intimidate skill increase by 4."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Wind Whistler (Su) Sea Legs (Ex) Fearless Raider (Ex) Raging Song (Su) Skalds are prized on sea raids and linnorm hunts. Dragon skald performances involve song, whistling, or blowing mighty horns, and viking sailors often talk about having a skald along to whistle up a wind or sing away the mists on the morning of a momentous raid. Wind Whistler (Su) At 1st level, a dragon skald adds alter winds, fog cloud, and obscuring mist to his class spell list, at the same levels the wizard gains them. He still must add these spells to his spells known as normal. This ability replaces Scribe Scroll. Sea Legs (Ex) A dragon skald adds 1/2 his class level (minimum 1) on all Profession (sailor) checks, Survival checks while at sea, Acrobatics and Climb checks made while aboard a boat, and Swim checks. This ability replaces bardic knowledge. Fearless Raider (Ex) At 2nd level, the dragon skald becomes resistant to fear effects. The dragon skald gains a +4 bonus on saving throws against fear effects, and DCs to affect the dragon skald with the Intimidate skill increase by 4. This ability replaces well-versed. Raging Song (Su) A dragon skald gains access to the following raging song. Glorious Epic (Su) At 3rd level, a dragon skald learns how to truly extol the virtues and prowess of the heroic figures in his epic tales. By performing for 10 minutes and expending 1 round of raging song, the dragon skald can influence opinions positively towards a heroic subject of the dragon skald’s choice. If the subject of the epic attempts a Diplomacy or Intimidate check against anyone who listened to the full performance, he receives a circumstance bonus on that check equal to the Will save bonus granted by the dragon skald’s inspired rage. This ability replaces song of marching."
+    }
+  }
+}

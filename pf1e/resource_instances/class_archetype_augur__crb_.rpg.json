@@ -1,0 +1,56 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_augur__crb_",
+    "name": {
+      "value": "Augur"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "skald__crb_"
+    },
+    "parent_class_name": {
+      "value": "Skald"
+    },
+    "replaces": {
+      "value": [
+        "skald_versatile_performance_well_versed",
+        "skald_versatile_performance",
+        "skald_spell_kenning"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_monster_insight",
+            "name": {
+              "value": "Monster Insight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Monster Insight — At 2nd level, the augur applies his Charisma modifier in addition to his Intelligence modifier when attempting Knowledge checks to identify the abilities and weaknesses of creatures. Monster insight counts as the monster"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Monster Insight (Ex) Signs and Portents (Su) Predictive Strike (Su) *Note: The “flavor” text below was taken from Wikipedia since the original descriptive text was too infused with words and ideas that can not legally be used here (they are product identity). The augur often serves as a priest and official. His main role is the practice of augury, interpreting the will of the gods by studying the flight of birds: whether they are flying in groups or alone, what noises they make as they fly, direction of flight and what kind of birds they are. This is known as “taking the auspices.” The ceremony and function of the augur was central to any major undertaking in societyâpublic or privateâincluding matters of war, commerce, and religion. Monster Insight (Ex) At 2nd level, the augur applies his Charisma modifier in addition to his Intelligence modifier when attempting Knowledge checks to identify the abilities and weaknesses of creatures. Monster insight counts as the monster lore class feature for prerequisites. This ability replaces well-versed. Signs and Portents (Su) At 2nd level, an augur can read signs and portents to attempt to ascertain how events in the near future will play out. This allows the augur to cast augury as a spell-like ability. At 7th level, he can instead use signs and portents to cast divination as a spell-like ability, and at 12th level, he can instead cast commune as a spell-like ability. At 17th level, he can use signs and portents twice per day. This ability replaces all types of versatile performance. Predictive Strike (Su) At 5th level, the augur accurately divines the possible movements of his enemies in combat. Once per day as a free action, he can declare one of his melee attacks to be a predictive strike. Against the augurâs attack, the target is flat-footed and gains no benefits from concealment or cover. Attacks from other creatures are treated normally. The target still benefits from total concealment and total cover normally. At 11th level, the augur can use this ability a total of two attacks per day, and at 17th, three attacks per day. This replaces spell kenning."
+    }
+  }
+}

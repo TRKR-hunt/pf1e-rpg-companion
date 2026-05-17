@@ -1,0 +1,91 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_blackjack__crb_",
+    "name": {
+      "value": "Blackjack"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_bravery_1",
+        "fighter_bonus_combat_feat"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_well_paid_loyalty",
+            "name": {
+              "value": "Well-Paid Loyalty"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Well-Paid Loyalty — At 2nd level, a Blackjack gains a +1 bonus on Will saves against compulsion spells, spell-like abilities, and effects. This bonus increases by 1 for every 4 levels the Blackjack possesses beyond 2nd."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_superior_tactics",
+            "name": {
+              "value": "Superior Tactics"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Superior Tactics — At 12th level, a Blackjack who uses the Blackjack tactics ability can allow all affected Blackjacks to gain a second bonus teamwork feat possessed by at least one of the participants."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_corps",
+            "name": {
+              "value": "Corps"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Corps — At 16th level, a Blackjack grants all Blackjacks with whom he is sharing one or more teamwork feats through the Blackjack tactics ability a +2 morale bonus on attack rolls, ability checks, skill checks, and saving throws"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Bonus Feats Well-Paid Loyalty (Ex) Blackjack Tactics (Ex) Amateurs! (Ex) Superior Tactics (Ex) Esprit de Corps (Ex) Known as the Blackjacks, these elite soldiers are and always have been mercenaries rather than a standing army. Still, gold buys loyalty. As a result, the Blackjacks are well equipped and dedicate themselves to training in small-unit tactics, quickly communicating strategies and tricks to handle any threat to their charges. Bonus Feats In addition to combat feats, a Blackjack can choose Improved Iron Will, Iron Will, or any teamwork feat as bonus feats. Well-Paid Loyalty (Ex) At 2nd level, a Blackjack gains a +1 bonus on Will saves against compulsion spells, spell-like abilities, and effects. This bonus increases by 1 for every 4 levels the Blackjack possesses beyond 2nd. This ability replaces bravery. Blackjack Tactics (Ex) At 4th level, two or more Blackjacks can spend 1 minute discussing strategy, then choose a single teamwork feat possessed by at least one of them. For a number of hours equal to the class level of the highest-level Blackjack, the participants each gain the benefits of the selected feat even if they do not meet the feat’s prerequisites. If a creature benefiting from this ability moves more than 30 feet away from any other participant, it loses all benefits of this ability until it is again within 30 feet. Creatures that do not have levels in this archetype can’t benefit from this ability, and no creature can benefit from this ability more than once at any given time. This ability replaces the bonus feat gained at 4th level. Amateurs! (Ex) At 8th level, when using the Blackjack tactics ability, a Blackjack can include one or more creatures without levels in this archetype, but doing so reduces the duration of the effect to a number of minutes equal to the class level of the highest-level Blackjack instead of a number of hours per level. If only Blackjacks are included in the effect, all Blackjacks affected gain a +1 morale bonus on skill checks and saving throws for the duration of the effect. This ability replaces the bonus feat gained at 8th level. Superior Tactics (Ex) At 12th level, a Blackjack who uses the Blackjack tactics ability can allow all affected Blackjacks to gain a second bonus teamwork feat possessed by at least one of the participants. This ability replaces the bonus feat gained at 12th level. Esprit de Corps (Ex) At 16th level, a Blackjack grants all Blackjacks with whom he is sharing one or more teamwork feats through the Blackjack tactics ability a +2 morale bonus on attack rolls, ability checks, skill checks, and saving throws. Each affected Blackjack increases this bonus by 1 if another affected Blackjack has been reduced to 0 or fewer hit points since the beginning of his last turn. This ability replaces the bonus feat gained at 16th level."
+    }
+  }
+}

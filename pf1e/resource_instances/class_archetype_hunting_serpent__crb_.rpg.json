@@ -1,0 +1,74 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_hunting_serpent__crb_",
+    "name": {
+      "value": "Hunting Serpent"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ninja__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ninja"
+    },
+    "replaces": {
+      "value": [
+        "ninja_no_trace_1_3_levels_stealth_vs_tracking",
+        "ninja_uncanny_dodge",
+        "ninja_ninja_trick_poison_use_sneak_attack_1d6_1d6_ever"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_arch_relentless_pursuit",
+            "name": {
+              "value": "Relentless Pursuit"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Relentless Pursuit — At 3rd level, a hunting serpent gains a +1 bonus on Diplomacy checks to gather information and on Survival checks to identify or follow tracks. The bonus increases by 1 for every 3 ninja levels beyond 3rd."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ninja_arch_certain_demise",
+            "name": {
+              "value": "Certain Demise"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Certain Demise — At 10th level, the hunting serpentâs sneak attack damage applies on the first attack she makes each round against the target of her death mark ability, even if it normally wouldnât. Other effects that trigger on a sn"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Relentless Pursuit (Ex) Death Mark (Ex) Certain Demise (Ex) The order dispatches specially trained killers to hunt relentlessly and fight from the shadows. Class Skills: A hunting serpent gains Survival as a class skill but loses Knowledge (nobility). This ability alters the ninjaâs class skills. Relentless Pursuit (Ex) At 3rd level, a hunting serpent gains a +1 bonus on Diplomacy checks to gather information and on Survival checks to identify or follow tracks. The bonus increases by 1 for every 3 ninja levels beyond 3rd. This ability replaces no trace. Death Mark (Ex) At 4th level, as a swift action once per day, a hunting serpent can mark an opponent damaged by her sneak attack for death. A hunting serpent gains a +1 competence bonus on attack and damage rolls against an opponent affected by death mark as well as on Survival checks to track the marked creature. The bonuses from death mark and its number of uses per day increase by 1 at 8th, 12th, and 16th levels. The effects of death mark last for 24 hours, until the marked creature is slain, or until the hunting serpent chooses to mark another creature, whichever comes first. This ability replaces uncanny dodge, improved uncanny dodge, and the ninja tricks gained at 12th and 16th levels. Certain Demise (Ex) At 10th level, the hunting serpentâs sneak attack damage applies on the first attack she makes each round against the target of her death mark ability, even if it normally wouldnât. Other effects that trigger on a sneak attack do not apply with this ability. This ability replaces the ninja trick gained at 10th level."
+    }
+  }
+}

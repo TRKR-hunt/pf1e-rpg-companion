@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_spiderhawk__crb_",
+    "name": {
+      "value": "Spiderhawk"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "magus__crb_"
+    },
+    "parent_class_name": {
+      "value": "Magus"
+    },
+    "replaces": {
+      "value": [
+        "magus_spell_recall"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "magus_arch_sneak_attack",
+            "name": {
+              "value": "Sneak Attack"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Sneak Attack — At 4th level, a spiderhawk gains the rogue sneak attack ability. This sneak attack damage is +1d6 at 4th level, and increases by +1d6 every three spiderhawk levels thereafter. Extra damage dealt by a sneak attack does no"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Over 2,000 years ago, a merchant-led battalion of mercenaries from a coastal trade city sought to establish a more profitable trade route with the dwarven smithies and mines in the nearby mountains. Expecting bandits and gnolls, they were ill-prepared to be caught near a great canyon between previously-unknown â spidertaurs â driving multi-platoon waves of slaves against a thousand-strong interplanar incursion of rapine xills. The besieged party were saved by allying with warbands of native aranea defending their tribal lands. The heavily-outnumbered and rapidly-winnowing alliance only survived due to cunning guerrilla tactics, desperate tenacity, and luckâs fortune. After the near month-long fighting withdrawal had ended, a few surviving merchant magi adapted their talents to emulate the abilities of the araneasâ arcane tricksters and were nicknamed honorary âspiderhawksââafter the parasitoidal wasps who hunt spiders. While this ill-fated expedition is long forgotten, the spiderhawk tradition yet survives practiced by a small number of human and aranea magi. Keen Minds, Nimble Bodies While many magi build their martial prowess upon a foundation of physical strength and resolute hearts, a spiderhawk focuses upon swift reflexes, adroit improvisation, and uncanny reasoning. Base Save Bonuses: A spiderhawk gains base save progressions as a bard of the same level. Weapon and Armor Proficiency: A spiderhawk is proficient with all simple weapons, plus the kukri, rapier, sap, shortbow, and shortsword. She also gains proficiency with one additional light or one-handed martial melee weapon. A spiderhawk is proficient with light armor, and can cast magus spells while wearing light armor without incurring the normal arcane spell failure chance. A spiderhawk wearing medium armor, heavy armor, or a shield incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass spiderhawk still incurs the normal arcane spell failure chance for arcane spells received from other classes. Class Skills: The spiderhawkâs class skills are Acrobatics ( Dex ), Appraise ( Int ), Bluff ( Cha ), Climb ( Str ), Craft ( Int ), Disable Device ( Dex ), Diplomacy ( Cha ), Disguise ( Cha ), Escape Artist ( Dex ), Intimidate ( Cha ), Knowledge (arcana) ( Int ), Knowledge (dungeoneering) ( Int ), Knowledge (history) ( Int ), Knowledge (local) ( Int ), Knowledge (planes) ( Int ), Perform ( Cha ), Profession (Wis), Sense Motive ( Wis ), Sleight of Hand ( Dex ), Spellcraft ( Int ), Stealth ( Dex ), Swim ( Str ), and Use Magic Device ( Cha ). These replace the standard magus saves, skills, and weapons and armor proficiency. Spells and Cantrips A spiderhawk gains cantrips, spells known, and spells per day as a bard of the same level, but she uses the standard magus class spell list and her Intelligence score instead of Charisma. A spiderhawk casts spells spontaneously and applies metamagic feats to her spells in the same manner as other spontaneous arcane casters. This modifies the standard spells and cantrips abilities, and it replaces the magus spellbook. Arcane Pool (Su) At 1st level, a spiderhawk gains an arcane pool equal to Â½ her spiderhawk level (minimum 1) + her Intelligence modifier. At 5th level, the weapon enhancement bonuses can be used to add magic weapon properties. Adding these properties consumes an amount of bonus equal to the propertyâs base price modifier. Unlike a standard magus, a 5th level spiderhawk knows 3 properties of her choice with a +1 base price modifier, and learns an additional property at every four spiderhawk levels thereafter (9th, 13th, and so on). A spiderhawk can learn new weapon properties whose base price modifier is the same or less than the current maximum enhancement bonus she can add to her weapon. Upon reaching 7th level, and at every four spiderhawk levels thereafter (11th, 15th, and so on), a spiderhawk can choose to learn a new magic weapon property in place of one she already knows. In effect, the spiderhawk loses the old property in exchange for the new one. The new propertyâs level can be of any currently available to her. The spiderhawk may swap only a single property at any given level, and must choose whether or not to swap the property at the same time that she gains new magus spells known for the level. This modifies the standard magus arcane pool ability. Spiderhawk Arcana At 3rd level, a spiderhawk may select a magus arcana as usual, or she may instead select any rogue talent for which she qualifies in place of a magus arcana. Any talent that requires a ki pool instead utilizes (and expends) an equivalent number of points from her arcane pool. Her spiderhawk levels stack with rogue levels for any talents she possesses with level-dependent effects. Other than riddle in the steel, a spiderhawk is forbidden from taking other arcana that add options to her list of available arcane pool magic weapon properties (such as bane blade, devoted blade, ghost blade, etc.). A spiderhawk also gains access to the following unique magus arcana. Improved Uncanny Dodge (Ex): A spiderhawk gains the benefits of the rogue improved uncanny dodge ability. A spiderhawk must be a minimum of 6th level and possess uncanny dodge before taking this arcana. Preternatural Reflexes (Su): As long as she has at least 1 point in her arcane pool, a spiderhawk gains the benefits of the rogue evasion ability. Ranged Legerdemain (Su): A spiderhawk gains the arcane trickster ranged legerdemain ability. A spiderhawk must be able to cast both levitate and mage hand as magus spells and be at least 6th level before taking this arcana. Riddle in the Steel (Su): A spiderhawk adds one additional magic weapon property to her available arcane pool enhancements. The spiderhawk may select this arcana multiple times, gaining a different property each time. Shifting Trickster (Su): As a swift action, a spiderhawk can spend 1 point from her arcane pool to teleport to a nearby space as if using dimension door, but with the following differences. The spiderhawk must be able to see the space into which she is teleporting. She cannot take other creatures with her when using this ability (except for familiars). She can move 5 feet for every two spiderhawk levels she possesses (minimum 5 feet). At 10th level, a spiderhawk may spend 2 points to use dimension door as the spell once per day. A spiderhawk must be at least 6th level before taking this arcana. Surprise Spells (Su): A spiderhawk gains the arcane trickster surprise spells ability. This damage is only applied once per spell. Area effect spells affect all targets within the area, with each target applying any successful save (if applicable) to halve the damage (including the sneak attack damage). With targeted spells affecting more than a single target, the extra damage is only added once to one effect and a single target, chosen by the spellhawk when the spell is cast. Extra damage dealt by a surprise spell does not stack with any extra damage from a spell critical during spell combat; the spiderhawk chooses only one type of extra damage or the other to apply to a single attack. A spiderhawk must be a minimum of 15th level before taking this arcana. Trap Sense (Ex): A spiderhawk gains the rogue trap sense ability. Trapfinder (Ex): A spiderhawk gains the rogue trapfinding ability. Uncanny Dodge (Ex): A spiderhawk gains the benefits of the rogue uncanny dodge ability. Sneak Attack (Ex) At 4th level, a spiderhawk gains the rogue sneak attack ability. This sneak attack damage is +1d6 at 4th level, and increases by +1d6 every three spiderhawk levels thereafter. Extra damage dealt by a sneak attack does not stack with any extra damage from a spell critical during spell combat; the spiderhawk chooses only one type of extra damage to apply to a single attack. This ability replaces spell recall and improved spell recall. Spiderhawk Talents At 7th, 11th and 15th levels, a spiderhawk may sel"
+    }
+  }
+}

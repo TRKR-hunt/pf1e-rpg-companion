@@ -1,0 +1,92 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_green_marshal__crb_",
+    "name": {
+      "value": "Green Marshal"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "inquisitor__crb_"
+    },
+    "parent_class_name": {
+      "value": "Inquisitor"
+    },
+    "replaces": {
+      "value": [
+        "inquisitor_domain_orisons_monster_lore_stern_gaze_1_2_level",
+        "inquisitor_discern_lies",
+        "inquisitor_stalwart"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_wild_lore",
+            "name": {
+              "value": "Wild Lore"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wild Lore — A Green marshal adds her Wisdom modifier to her Knowledge (nature) skill checks, in addition to her Intelligence modifier."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_ally",
+            "name": {
+              "value": "Ally"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Ally — At 5th level, a Green marshal gains the ability to cast commune with nature once per week."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_wild_step",
+            "name": {
+              "value": "Wild Step"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wild Step — At 11th level, a Green marshal can move through any sort of naturally occurring difficult terrain (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed without taking damage or suffer"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Power of Nature Wild Lore (Ex) Nature’s Ally (Sp) Wild Step (Ex) Green marshals serve as a literal force of nature, hunting down and punishing those who have committed sins against nature through enslavement and mistreatment of animals or destruction of wild places. Power of Nature A Green marshal gains one domain selected from the animal and terrain domains. The 1st- through 6th-level bonus spells from this domain are added to Green marshal’s spell list. This alters the inquisitor’s domain ability and replaces stern gaze. Wild Lore (Ex) A Green marshal adds her Wisdom modifier to her Knowledge (nature) skill checks, in addition to her Intelligence modifier. This replaces monster lore. Nature’s Ally (Sp) At 5th level, a Green marshal gains the ability to cast commune with nature once per week. This replaces discern lies. Wild Step (Ex) At 11th level, a Green marshal can move through any sort of naturally occurring difficult terrain (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed without taking damage or suffering any other impairment. Terrain that is enchanted or magically manipulated to impede motion still affects her. This replaces stalwart."
+    }
+  }
+}

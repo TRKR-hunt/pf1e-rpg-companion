@@ -1,0 +1,37 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_infiltrator_3__crb_",
+    "name": {
+      "value": "Infiltrator #3"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "investigator__crb_"
+    },
+    "parent_class_name": {
+      "value": "Investigator"
+    },
+    "replaces": {
+      "value": [
+        "investigator_trapfinding",
+        "investigator_poison_lore",
+        "investigator_investigator_talent_poison_resistance_every_2_le"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Master of Disguise (Ex) Voice Mimicry (Ex) Mimic Mastery (Su) An infiltrator specializes in investigating or disrupting groups from within. He uses his specialized set of skills and alchemical abilities to morph into the shape of the people or creatures whose company he’s infiltrating, or even specific individuals. Master of Disguise (Ex) At 1st level, an infiltrator can use disguise with great results. When disguising himself as a different gender, race, age category, or size category, an infiltrator reduces the penalties for each by â2. For example, if the infiltrator disguises himself as a female two age categories older than himself, he would take a â2 to the check instead of a â6. Also, an infiltrator can disguise himself with 1d3 minutes of work (instead of the normal 1d3? 10 minutes of work). This ability replaces trapfinding. Voice Mimicry (Ex) At 2nd level, an infiltrator learns to mimic voices and sounds around him. Using this ability requires a special Disguise check, and creatures hearing the voice can make a Perception check to discover the ruse. An infiltrator can attempt to emulate any creature or other sound he’s heard clearly for at least 1 minute. The bonuses or penalties to this special Disguise check are modified in the following ways, all of which are cumulative. Disguised Voice Check Modifier Voice is not your own, but not that of a distinct individual +5 Voice is that of a different gender â2 Voice is that of a different race â2 Voice is that of a different age category â2 Voice is that of a different size category â5 Also, the creature making the Perception check gains a bonus based on its familiarity with specific voices, just as if it were confronted with a normal disguise. This ability is a language-dependent effect, meaning that if a creature cannot hear or understand what the infiltrator is saying, the ruse fails. Magic items, feats, and traits that affect typical disguises do not affect this disguise check. At 8th level, the infiltrator gains the effects of its master of disguise class feature on this special use of the Disguise skill (no penalty for a voice of a different gender, race, or age category, and only a â3 penalty for a different size category). This ability replaces poison lore. Mimic Mastery (Su) At 2nd level, when an infiltrator uses disguise self or any polymorph extracts on himself, he is treated as 2 investigator levels higher for the purpose of determining the duration of that extract’s effect. He can use these extracts to take the appearance of specific individuals of the type of form he chooses, gaining a +10 to Disguise checks even if that extract does not typically grant such a bonus. Furthermore, these extracts grant the infiltrator a +10 bonus to Disguise checks made as part of his voice mimicry ability. This ability replaces poison resistance."
+    }
+  }
+}

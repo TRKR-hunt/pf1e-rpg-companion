@@ -1,0 +1,92 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_liberator_rogue_archetype__crb_",
+    "name": {
+      "value": "Liberator (Rogue Archetype)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_trapfinding",
+        "rogue_trap_sense_1",
+        "rogue_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_bond_breaker",
+            "name": {
+              "value": "Bond Breaker"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Bond Breaker — A liberator adds 1/2 her class level to Escape Artist checks, and never takes a penalty on Disable Device checks when using improvised tools to open locks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_covert_commander",
+            "name": {
+              "value": "Covert Commander"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Covert Commander — A liberator grants all allies within 30 feet who are in her line of sight (but not herself ) a +1 competence bonus on Disguise and Stealth checks. This bonus increases by 1 for every 3 levels beyond 3rd."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_catch_off_guard",
+            "name": {
+              "value": "Catch Off-Guard"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Catch Off-Guard — At 4th level, the liberator is adept at improvising weapons. She gains Catch Off-Guard as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Bond Breaker (Ex) Covert Commander (Ex) Catch Off-Guard (Ex) Some freedom fighters endeavor to be captured, knowing that being taken in manacles is the easiest way to infiltrate the slavers, liberate other slaves, and lead them to freedom. Bond Breaker (Ex) A liberator adds 1/2 her class level to Escape Artist checks, and never takes a penalty on Disable Device checks when using improvised tools to open locks. This ability replaces trapfinding. Covert Commander (Ex) A liberator grants all allies within 30 feet who are in her line of sight (but not herself ) a +1 competence bonus on Disguise and Stealth checks. This bonus increases by 1 for every 3 levels beyond 3rd. This ability replaces trap sense. Catch Off-Guard (Ex) At 4th level, the liberator is adept at improvising weapons. She gains Catch Off-Guard as a bonus feat. This ability replaces uncanny dodge. Rogue Talents: The following rogue talents complement the liberator archetype: deft palm, fast picks, fast stealth, quick disguise, slow reactions, underhanded. Advanced Talents: The following advanced rogue talents complement the liberator archetype: defensive roll, fast tumble, knock-out blow, skill mastery, weapon snatcher."
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_war_drummer__crb_",
+    "name": {
+      "value": "War Drummer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "skald__crb_"
+    },
+    "parent_class_name": {
+      "value": "Skald"
+    },
+    "replaces": {
+      "value": [
+        "skald_bardic_knowledge_cantrips_spontaneous_arcane_cha",
+        "skald_scribe_scroll",
+        "skald_lore_master",
+        "skald_versatile_performance_well_versed"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_fearsome_mien",
+            "name": {
+              "value": "Fearsome Mien"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fearsome Mien — A war drummer adds 1/2 his class level (minimum 1) to all Intimidate and Bluff skill checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_weapon_master",
+            "name": {
+              "value": "Weapon Master"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Weapon Master — At 7th level, a war drummer gains Craft Magic Arms and Armor as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Weapon Proficiency Fearsome Mien (Ex) Deadly Rhythm (Ex) Weapon Master (Ex) Raging Song (Su) These fierce drummers are equally adept at tapping out a driving rhythm and rapping enemies upside the head with the same massive clubs they use to beat the crude hide-covered drums they carry into battle. Weapon Proficiency A war drummer is proficient with all simple weapons and the greatclub. Fearsome Mien (Ex) A war drummer adds 1/2 his class level (minimum 1) to all Intimidate and Bluff skill checks. This ability replaces bardic knowledge. Deadly Rhythm (Ex) At 1st level, during his raging song, a war drummer can draw clubs and greatclubs as a free action as if he had the Quick Draw feat. At 3rd level, the war drummer gains a +1 bonus on damage rolls for attacks made with clubs or greatclubs. At 7th level and every 4 levels thereafter, this bonus increases by 1 (to a maximum of +5). At 6th level, the war drummer gains Improved Critical with the club or the greatclub as a bonus feat. This ability replaces Scribe Scroll. Weapon Master (Ex) At 7th level, a war drummer gains Craft Magic Arms and Armor as a bonus feat. This ability replaces lore master. Raging Song (Su) A war drummer gains access to the following raging song. Siege Drums (Su) At 7th level, the war drummer can shatter massive walls, doors, and other inanimate obstacles using his war drums. This ability works as the shatter spell, except the drummer can increase the amount of damage and size of the object damaged by playing for longer periods. The siege drummer can affect objects weighing up to 10 pounds per level, plus an additional 5 pounds per level for each additional round he plays. The damage dealt increases by 2d6 per round (to a maximum of 20d6 after 10 rounds). The damage is dealt only after the drummer ceases playing. This ability replaces the versatile performance gained benefit at 7th level."
+    }
+  }
+}

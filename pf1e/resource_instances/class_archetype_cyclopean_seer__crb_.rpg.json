@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_cyclopean_seer__crb_",
+    "name": {
+      "value": "Cyclopean Seer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "oracle__crb_"
+    },
+    "parent_class_name": {
+      "value": "Oracle"
+    },
+    "replaces": {
+      "value": [
+        "oracle_revelation",
+        "oracle_mystery"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "oracle_arch_brutal_trance",
+            "name": {
+              "value": "Brutal Trance"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Brutal Trance — Once per day as a standard action, you can enter a trance that lasts 1 round per oracle level you possess. While in this trance, you are confused, but each round that you can act normally, you can ask a single question a"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Class Skills Oracle’s Curse Bonus Spells Assume Fate (Su) Brutal Trance (Su) Revelations Final Revelation A cyclopean seer draws power from the mysterious prophetic abilities of ancient giants. Recommended Mysteries: Ancestor, lore, nature, occult, time. Class Skills A cyclopean seer adds Linguistics and all Knowledge skills to her list of class skills. These replace the additional class skills granted by her mystery. Oracle’s Curse A cyclopean seer must choose the haunted, hunger, powerless prophecy (see above), or tongues curse at 1st level. Bonus Spells Each time a cyclopean seer would gain a bonus spell from her mystery, she instead selects a divination spell from any class’s spell list. If the spell is not on the cleric spell list, it must be at least 1 level lower than the highest-level oracle spell the cyclopean seer can cast. This ability alters the bonus spells granted by the oracle’s mystery. Assume Fate (Su) As an immediate action when targeted by an effect that requires a saving throw, you can choose another creature within line of sight that is attempting a save against the same effect. The target takes a penalty on its saving throw equal to 1d4 + 1 for every 4 levels you possess. You gain the value of their penalty as a luck bonus on your saving throw. You can use this ability a number of times per day equal to your Charisma bonus. This ability replaces the revelation gained at 1st level. Brutal Trance (Su) Once per day as a standard action, you can enter a trance that lasts 1 round per oracle level you possess. While in this trance, you are confused, but each round that you can act normally, you can ask a single question as if using commune. This ability replaces the revelation gained at 7th level. Revelations All cyclopean seers have access to the following revelations, regardless of their chosen mysteries. Doomsaying (Su): As a standard action, you can pronounce doom on a creature within 30 feet. The target takes a penalty equal to your oracle level on either all skill checks, all savings throws, or all attack rolls (your choice) for 1 minute or until he fails one such roll. You can use this ability a number of times per day equal to your Charisma bonus. This is a curse effect. Flash of Insight (Su): You gain the cyclops racial ability of the same name. If you already possess this ability, you gain an additional daily use. Prescience (Ex): You gain a +2 bonus to your Armor Class against attacks of opportunity and a +2 bonus on concentration checks. At 5th level and every 5 levels thereafter, these bonuses increase by 1. This ability alters the revelation class feature. Final Revelation Upon reaching 20th level, you embody ancient cyclopes’ insight. You can use each of the following once per day as a spell-like ability: discern location, prying eyes, and stone tell. In addition, using flash of insight to select a d20 roll result equal to or lower than your Charisma modifier doesn’t expend that ability. This ability replaces the final revelation of the oracle’s mystery."
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_brawling_blademaster__crb_",
+    "name": {
+      "value": "Brawling Blademaster"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "samurai__crb_"
+    },
+    "parent_class_name": {
+      "value": "Samurai"
+    },
+    "replaces": {
+      "value": [
+        "samurai_mount_resolve",
+        "samurai_weapon_expertise",
+        "samurai_mounted_archer",
+        "samurai_banner"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_arch_empty_hand",
+            "name": {
+              "value": "Empty Hand"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Empty Hand — A brawling blademaster gains Improved Unarmed Strike as a bonus feat. She uses her samurai level as her monk level for determining the amount of damage she deals with an unarmed strike. These levels stack with monk level"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_arch_dual_expertise",
+            "name": {
+              "value": "Dual Expertise"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Dual Expertise — At 3rd level, a brawling blademaster gains Two-Weapon Fighting as a bonus feat, even if she doesnât meet the prerequisites. Furthermore, when the brawling blademaster selects a feat with the bonus feat class feature, s"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_arch_perfect_clarity",
+            "name": {
+              "value": "Perfect Clarity"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Perfect Clarity — At 5th level, the brawling blademaster sees all her foes with perfect clarity even when focused on one opponent. She no longer takes a penalty to her AC during a challenge."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_arch_superior_focus",
+            "name": {
+              "value": "Superior Focus"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Superior Focus — At 14th level, the brawling blademaster gains a +2 bonus on saving throws during a challenge."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Weapon and Armor Proficiency Empty Hand (Ex) Nimble (Ex) Dual Expertise (Ex) Harmonious Flow (Ex) Perfect Clarity (Ex) Superior Focus (Ex) While some martial arts traditions focus on the strength of the body, most schools of combat and self-defense know the importance of using weapons as well. Brawling blademaster samurai use weapon strikes and unarmed attacks in equal measureâfoes expecting to defend themselves against a dagger or a sword are often caught off guard by a brawling blademasterâs brutal kicks or punches. Weapon and Armor Proficiency Brawling blademasters are proficient with all simple and martial weapons, plus the katana and wakizashi. Brawling blademasters are proficient with light armor, but not with shields. This alters the samuraiâs weapon and armor proficiency. Empty Hand (Ex) A brawling blademaster gains Improved Unarmed Strike as a bonus feat. She uses her samurai level as her monk level for determining the amount of damage she deals with an unarmed strike. These levels stack with monk levels to determine the brawling blademasterâs unarmed strike damage. This replaces mount. Nimble (Ex) At 2nd level, a brawling blademaster gains the gunslingerâs nimble class feature, using her samurai level as his gunslinger level. Dual Expertise (Ex) At 3rd level, a brawling blademaster gains Two-Weapon Fighting as a bonus feat, even if she doesnât meet the prerequisites. Furthermore, when the brawling blademaster selects a feat with the bonus feat class feature, she can ignore any Dexterity requirements for the feat if its prerequisites include the Two-Weapon Fighting feat. This replaces weapon expertise. Harmonious Flow (Ex) At 4th level, the brawling blademaster becomes skilled at combining weapon attacks and unarmed strikes into a harmonious combat style. When attacking the target of her challenge, the brawling blademaster doesnât take the usual â2 penalty on attack rolls associated with attacking with two weapons if her main-hand weapon is a light or one-handed manufactured weapon and her off-hand weapon is an unarmed strike (or vice versa). While sheâs using this ability, one of her hands must be empty even if she uses another body part to make an unarmed strike. This replaces mounted archer. Perfect Clarity (Ex) At 5th level, the brawling blademaster sees all her foes with perfect clarity even when focused on one opponent. She no longer takes a penalty to her AC during a challenge. This ability replaces banner. Superior Focus (Ex) At 14th level, the brawling blademaster gains a +2 bonus on saving throws during a challenge. This replaces greater banner."
+    }
+  }
+}

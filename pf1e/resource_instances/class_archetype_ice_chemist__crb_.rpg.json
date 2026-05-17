@@ -1,0 +1,74 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_ice_chemist__crb_",
+    "name": {
+      "value": "Ice Chemist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_poison_resistance_use",
+        "alchemist_poison_immunity",
+        "alchemist_discovery"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_cold_sweat",
+            "name": {
+              "value": "Cold Sweat"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Cold Sweat — At 2nd level, an ice chemist channels her affinity for cold energy into her personal space, keeping herself and her gear cool. She gains cold resistance equal to her alchemist level and can survive comfortably in tempera"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_frost_bomb",
+            "name": {
+              "value": "Frost Bomb"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Frost Bomb — At 2nd level, an ice chemist gains the frost bomb discovery."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Icy Bombs (Su) Cold Sweat (Su) Frost Bomb (Su) Reclusive alchemists who dwell in the highest mountains or on the frozen tundra devote their skills to mastering the cold. Icy Bombs (Su) An ice chemist’s bombs deal cold damage instead of fire damage. In place of an alchemist discovery, she can learn to create bombs that deal fire damage like normal alchemist bombs do, though she can’t apply discoveries that modify bombs to such fire bombs that she creates. An ice alchemist’s icy bombs can still be poisonous or create thick vapors similar to smoke, but she cannot apply the explosive or inferno bomb discoveries to them. This alters the bomb class feature. Cold Sweat (Su) At 2nd level, an ice chemist channels her affinity for cold energy into her personal space, keeping herself and her gear cool. She gains cold resistance equal to her alchemist level and can survive comfortably in temperatures as low as â50Âº Fahrenheit. This replaces poison resistance and poison immunity. Frost Bomb (Su) At 2nd level, an ice chemist gains the frost bomb discovery. This replaces the discovery that the alchemist normally gains at 2nd level."
+    }
+  }
+}

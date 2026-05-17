@@ -1,0 +1,108 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_dervish_of_dawn_dawnflower__crb_",
+    "name": {
+      "value": "Dervish of Dawn (Dawnflower)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_armor_training_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_burst_of_speed",
+            "name": {
+              "value": "Burst of Speed"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Burst of Speed — At 3rd level, a dervish takes only a â1 penalty to her AC after charging. At 7th level, the dervish can charge with no penalty."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_desert_stride",
+            "name": {
+              "value": "Desert Stride"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Desert Stride — At 7th level, a dervish can move through 10 feet of difficult terrain each round as if it were normal terrain. This benefit stacks with the benefits provided by the Acrobatic Steps and Nimble Moves feats."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_rapid_attack",
+            "name": {
+              "value": "Rapid Attack"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Rapid Attack — At 11th level, a dervish can combine a full attack with a single move. She must forgo the attack at her highest bonus but may take the remaining attacks at any point during her movement. This movement provokes attacks of"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_lightning_strike",
+            "name": {
+              "value": "Lightning Strike"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Lightning Strike — At 15th level, as part of a full attack, a dervish can make one additional attack. This attack is at the dervishâs highest base attack bonus, but each attack in the round (including the extra one) takes a â2 penalty."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "No enemy is as feared as the dervishes of dawn. While dervishes can be clerics, paladins, or rangers, zealous fighters join their ranks as well. These spinning warriors prefer light or no armor and wield scimitars with devastating consequences, moving swiftly over the treacherous desert sands to attack with lightning-fast strikes. They maneuver quickly among their enemies, relying on their speed and their skill to see them through the battle. Burst of Speed (Ex) At 3rd level, a dervish takes only a â1 penalty to her AC after charging. At 7th level, the dervish can charge with no penalty. This ability replaces Armor Training 1. Desert Stride (Ex) At 7th level, a dervish can move through 10 feet of difficult terrain each round as if it were normal terrain. This benefit stacks with the benefits provided by the Acrobatic Steps and Nimble Moves feats. This ability replaces Armor Training 2. Rapid Attack (Ex) At 11th level, a dervish can combine a full attack with a single move. She must forgo the attack at her highest bonus but may take the remaining attacks at any point during her movement. This movement provokes attacks of opportunity as normal. This ability replaces Armor Training 3. Lightning Strike (Ex) At 15th level, as part of a full attack, a dervish can make one additional attack. This attack is at the dervishâs highest base attack bonus, but each attack in the round (including the extra one) takes a â2 penalty. This ability replaces Armor Training 4. Suggested Feats: Agile Maneuvers, Combat Expertise, Dazzling Display, Dervish Dance, Dodge, Mobility, Spring Attack, Step Up, Weapon Finesse, Weapon Focus ( scimitar ), Weapon Specialization ( scimitar ), Whirlwind Attack."
+    }
+  }
+}

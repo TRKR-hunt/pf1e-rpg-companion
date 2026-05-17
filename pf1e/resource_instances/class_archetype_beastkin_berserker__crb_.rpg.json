@@ -1,0 +1,36 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_beastkin_berserker__crb_",
+    "name": {
+      "value": "Beastkin Berserker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "barbarian__crb_"
+    },
+    "parent_class_name": {
+      "value": "Barbarian"
+    },
+    "replaces": {
+      "value": [
+        "barbarian_fast_movement",
+        "barbarian_rage"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Savage Rapport (Ex) Feral Transformation (Su) While some barbarians take on bestial aspects in their rages, the beastkin berserker descends so deeply into primal fury that she actually transforms into an animal. Berserkers of the surface world often associate with predators such as bears or wolves, and are sometimes mistaken for lycanthropes. Some barbarians shapechange into rampaging dinosaurs or megafauna, crafting their armor out of the hide and bones of their favored animals. Savage Rapport (Ex) At 1st level, a beastkin berserker gains a spiritual connection to a specific kind of creature with the animal type (such as a badger or a triceratops ). She adds half her level (minimum 1) on Handle Animal, Intimidate, and Sense Motive checks involving the chosen type of animal. At 5th level and every 5 levels thereafter (10th, 15th, and 20th levels), the beastkin berserker can select an additional kind of animal to which these bonuses apply. This ability replaces fast movement. Feral Transformation (Su) At 4th level, when entering a rage, a beastkin berserker can take the form of a Small or Medium animal. This functions as beast shape I, except the duration is for as long as the beastkin berserker rages and the animal must be one she has chosen with her savage rapport. At 8th level, the beastkin berserker can use feral transformation to take the form of a Large or Tiny animal that she has chosen with her savage rapport. Feral transformation now acts as beast shape II. At 12th level, a beastkin berserker is able to use feral transformation to take the form of a Huge or Diminutive animal that she has chosen with her savage rapport. Feral transformation now functions as beast shape III. This ability replaces the rage powers gained at 4th, 8th, and 12th levels."
+    }
+  }
+}

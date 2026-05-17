@@ -1,0 +1,57 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_feral_shifter__crb_",
+    "name": {
+      "value": "Feral Shifter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_nature_bond",
+        "druid_venom_immunity",
+        "druid_a_thousand_faces",
+        "druid_timeless_body"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_second_animal_focus",
+            "name": {
+              "value": "Second Animal Focus"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Second Animal Focus — At 9th level, when a feral shifter uses her animal focus ability, she selects two different animal aspects for herself instead of one."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Animal Focus (Su) Second Animal Focus (Su) A feral shifter internalizes her communion with and mastery over animals. Instead of forming a bond with an animal companion or an aspect of nature, she alters her own essence or being as homage to the noble creatures of the wild. More in tune with transformation and animal bodies than a normal druid, a feral shifter blurs the line between humanoid and beast. Animal Focus (Su) At 1st level, as a swift action, a feral shifter can take on the aspect of an animal, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter’s animal focus class feature. The feral shifter can use this ability for a number of minutes per day equal to her druid level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. She can emulate only one animal at a time. This ability replaces nature bond. Second Animal Focus (Su) At 9th level, when a feral shifter uses her animal focus ability, she selects two different animal aspects for herself instead of one. This ability replaces venom immunity, a thousand faces, and timeless body."
+    }
+  }
+}

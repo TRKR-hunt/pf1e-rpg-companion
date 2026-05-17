@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_stygian_slayer__crb_",
+    "name": {
+      "value": "Stygian Slayer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_slayer_talent_every_2_levels_rogue_talents_allow",
+        "slayer_stalker"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_invisibility",
+            "name": {
+              "value": "Invisibility"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Invisibility — At 4th level, a stygian slayer can cast invisibility once per day, using his slayer level as his caster level. The slayer uses his Intelligence modifier for concentration checks when using this ability. The slayer can us"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_shadowy_mist_form",
+            "name": {
+              "value": "Shadowy Mist Form"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Shadowy Mist Form — At 10th level, a stygian slayer can transform into an inky black cloud of mist. This functions as gaseous form, except it also obscures vision as fog cloud. The slayer can use this ability for a number of minutes per day"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Weapon and Armor Proficiency Invisibility (Sp) Spell Use Shadowy Mist Form (Sp) A stygian slayer crawls out of the darkest shadows to strike fear into the hearts of civilized folk. He’s a merciless killer who can control a sliver of magic, allowing him to arrive unseen, commit murder, and depart without detection. Weapon and Armor Proficiency A stygian slayer is proficient with light armor, but not with medium armor, heavy armor, or any kind of shield (including tower shields). This replaces the slayer’s armor proficiency. Invisibility (Sp) At 4th level, a stygian slayer can cast invisibility once per day, using his slayer level as his caster level. The slayer uses his Intelligence modifier for concentration checks when using this ability. The slayer can use this an additional time per day at 8th level and every 4 levels thereafter. This ability replaces the slayer talent gained at 4th level. Spell Use At 7th level, a stygian slayer is able to use spell completion and spell trigger items as if he were an arcane caster with these spells on his spell list: darkness, forced quiet, modify memory, nondetection, obscuring mist, phantom steed, shadow walk, and wizard spells of the illusion school of spell level 0 through 4th. The slayer’s uses his class level as his caster level for this ability. This ability replaces stalker. Shadowy Mist Form (Sp) At 10th level, a stygian slayer can transform into an inky black cloud of mist. This functions as gaseous form, except it also obscures vision as fog cloud. The slayer can use this ability for a number of minutes per day equal to his level. These minutes need not be consecutive, but must be used in 1-minute increments. This ability replaces the advanced slayer talent gained at 10th level. Slayer Talents: The following slayer talents (and rogue talents ) complement the stygian slayer archetype: bleeding attack, lasting poison, poison use*, powerful sneak, rogue crawl, slow reactions, surprise attack, and swift poison. (Those with asterisks [*] are detailed in the slayer class.) Advanced Slayer Talents: The following advanced slayer talents (and advanced rogue talents ) complement the stygian slayer archetype: assassinate*, hunter’s surprise, and slayer camouflage *."
+    }
+  }
+}

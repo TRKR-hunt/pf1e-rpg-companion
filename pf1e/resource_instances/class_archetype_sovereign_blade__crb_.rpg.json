@@ -1,0 +1,74 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_sovereign_blade__crb_",
+    "name": {
+      "value": "Sovereign Blade"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "samurai__crb_"
+    },
+    "parent_class_name": {
+      "value": "Samurai"
+    },
+    "replaces": {
+      "value": [
+        "samurai_mount_resolve",
+        "samurai_mounted_archer",
+        "samurai_bonus_feat_6_12_18"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_arch_dogmatic_denial",
+            "name": {
+              "value": "Dogmatic Denial"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Dogmatic Denial — A sovereign blade gains a +2 bonus on saving throws against spells with any of the following descriptors that donât match part of the characterâs own alignment: chaotic, evil, good, or lawful."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "samurai_arch_golden_armor",
+            "name": {
+              "value": "Golden Armor"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Golden Armor — At 4th level, a sovereign blade can spend one use of her resolve to cause her armor to become golden for 1 round per class level, gaining energy resistance equal to 1/2 her samurai level against one energy type of her ch"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Many samurai are tutored in the ways of honor using lessons that originate from sovereign dragons and their dedication to safeguarding harmony. Alignment: A sovereign bladeâs alignment must be at least partially neutral. If the sovereign bladeâs alignment is not partially neutral, she is treated as if she had violated her orderâs edicts each day until her alignment is again partially neutral. Dogmatic Denial (Ex) A sovereign blade gains a +2 bonus on saving throws against spells with any of the following descriptors that donât match part of the characterâs own alignment: chaotic, evil, good, or lawful. This ability replaces mount. Golden Armor (Su) At 4th level, a sovereign blade can spend one use of her resolve to cause her armor to become golden for 1 round per class level, gaining energy resistance equal to 1/2 her samurai level against one energy type of her choice. This ability replaces mounted archer. Sovereign Breath (Sp) At 6th level, the sovereign blade can issue forth an immense roar similar to the breath weapon of a sovereign dragon. This functions as dragonâs breath, except it deals sonic damage in a 30-foot cone and has a caster level equal to half the sovereign bladeâs samurai level. The sovereign blade can use this ability once per day, plus one additional time per day at 12th and 18th levels. This replaces the bonus feats a samurai gained at 6th, 12th, and 18th level."
+    }
+  }
+}

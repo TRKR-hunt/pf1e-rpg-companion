@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_cruorchymist_alchemist_archetype__crb_",
+    "name": {
+      "value": "Cruorchymist (Alchemist Archetype)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_brew_potion_throw_anything_mutagen"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_blood_treatment",
+            "name": {
+              "value": "Blood Treatment"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Blood Treatment — A cruorchymist can give up some of his blood to restore his blood familiar. As a swift or immediate action, a cruorchymist can take a number of points of Constitution drain. His blood familiar heals 1d6 hit points for ev"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Blood Familiar (Ex) Blood Treatment (Ex) Blood Augmentation (Ex) Cruorchymists see their blood as just another tool for their experiments. They use this blood to create new life that can be commanded to serve the cruorchymistâs goals. Diminished Poisoning: A cruorchymist doesnât gain the poison use, poison resistance, poison immunity, or swift poisoning class features. Blood Familiar (Ex) A cruorchymist has created a homunculus from basic materials and his own blood. The homunculus takes the shape of a Tiny humanoid. It functions in all ways as a familiar, treating the cruorchymistâs alchemist level as his effective wizard level. If a cruorchymist wishes to replace his blood familiar, he can reduce the cost of the replacement ritual by taking 2 points of Constitution drain for every 100 gp he wishes to forgo. At 3rd level, if the cruorchymist has the infusion discovery, a blood familiar can deliver extracts that have a range of touch for its cruorchymist master. This replaces mutagen. A cruorchymist can never gain the mutagen, cognatogen, or inspired cognatogen ability, even from a discovery or another class. Blood Treatment (Ex) A cruorchymist can give up some of his blood to restore his blood familiar. As a swift or immediate action, a cruorchymist can take a number of points of Constitution drain. His blood familiar heals 1d6 hit points for every 1 point of Constitution drain the cruorchymist inflicts upon himself in this way. This replaces Brew Potion. Blood Augmentation (Ex) At 4th level, a cruorchymist can provide more of his blood to further enhance his blood familiar. As a swift action, the cruorchymist can take 1 point of Constitution damage to provide his familiar with an animal aspect for 1 minute, treating his alchemist level as his hunter level. The cruorchymist takes 1 additional point of Constitution damage for every minute he maintains the animal aspect beyond the first. At 12th level, the cruorchymist can select two animal aspects for his blood familiar instead of one, taking 2 points of Constitution damage for every minute that he maintains both animal aspects."
+    }
+  }
+}

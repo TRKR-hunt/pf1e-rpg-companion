@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_arcane_tinkerer_arcanist_archetype__crb_",
+    "name": {
+      "value": "Arcane Tinkerer (Arcanist Archetype)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "arcanist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Arcanist"
+    },
+    "replaces": {
+      "value": [
+        "arcanist_arcanist_exploit"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "arcanist_arch_break_magic_immunity",
+            "name": {
+              "value": "Break Magic Immunity"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Break Magic Immunity — At 5th level, an arcane tinkerer can overcome a constructâs immunity to magic. When targeting a construct with a spell, the construct is instead treated as if it has spell resistance equal to 15 + the constructâs CR."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Manipulate Construct (Su) Break Magic Immunity (Su) All constructs are animated by magic in some capacity. Arcane tinkerers use their knowledge and understanding of magic to disrupt or even destroy constructs. Manipulate Construct (Su) An arcane tinkerer can turn the animating magic of a construct against itself. As a standard action, she can expend 1 point from her arcane reservoir to impose a â1 penalty on a single constructâs attack and damage rolls for 1 round. The target can attempt a Will save to negate this effect (DC = 10 + half the arcane tinkererâs level + the arcane tinkererâs Charisma modifier). At 7th level, instead of gaining an arcanist exploit, an arcane tinkerer can improve her manipulate construct ability to instead affect a construct with slow for 1 round. At 13th level, if the arcane tinkerer has previously improved this ability, instead of gaining an arcanist exploit, she can improve this ability again to instead cause a construct to become helpless for 1 round. This replaces the arcanist exploit gained at 1st level. Break Magic Immunity (Su) At 5th level, an arcane tinkerer can overcome a constructâs immunity to magic. When targeting a construct with a spell, the construct is instead treated as if it has spell resistance equal to 15 + the constructâs CR. At 11th level, a construct is instead treated as if it has spell resistance equal to 11 + the constructâs CR. This replaces the arcanist exploits gained at 5th and 11th level."
+    }
+  }
+}

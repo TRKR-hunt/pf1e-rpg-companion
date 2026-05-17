@@ -1,0 +1,94 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_dreamthief__crb_",
+    "name": {
+      "value": "Dreamthief"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_sneak_attack_1d6",
+        "rogue_master_strike",
+        "rogue_trap_sense_1",
+        "rogue_uncanny_dodge",
+        "rogue_rogue_talent"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_lucid_dreamer",
+            "name": {
+              "value": "Lucid Dreamer"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Lucid Dreamer — At 3rd level, a dreamthief can control her dreams, and gains Lucid Dreamer as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_soothe_dreaming",
+            "name": {
+              "value": "Soothe Dreaming"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Soothe Dreaming — At 4th level, a dreamthief can steal negative emotions, freeing allies from harmful conditions. This acts as the mesmeristâs touch treatment ability, treating her rogue level as her mesmerist level; a dreamthief can us"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_dream_infiltrator",
+            "name": {
+              "value": "Dream Infiltrator"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Dream Infiltrator — A dreamthief can enter dreams, whether to learn secrets or meddle more directly. At 8th level, a dreamthief can cast dream scan once per day as a spell-like ability. At 12th level, once per day she can cast either dream "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Dreamshard Focus (Su) Lucid Dreamer (Ex) Soothe Dreaming (Su) Dream Infiltrator (Sp) The dreamthief is master of both waking and dreaming worlds. Each dreamthief bears a focused fragment of emotion, known as a dreamshard, within her soul. Some are born with such fragments, while others gain their dreamshards during traumatic moments, especially those involving nightmares, attacks by ethereal beings, or incidents that take place in the Dimension of Dreams. Whether a dreamshard is shaped from the dreamerâs aggregated emotions or manifested from a repressed aspect of herself, this metaphysical crystal grants a dreamthief supernatural powers, which she supplements with skill and grace. Dreamthievesâ powers grant them enhanced access to dreamscapes. Using the unique power of her dreamshard, a knowledgeable dreamthief can crystallize and steal dreamersâ deepest emotions. Such theft can alter dreamers in profound ways, whether for better or worse. Skills: Knowledge (arcana) and Knowledge (planes) are class skills for a dreamthief. This alters the rogueâs class skills. Dreamshard Focus (Su) At 1st level, a dreamthief selects an emotional focus from among those available to a spiritualistâs phantom. She gains the abilities granted by that emotional focus (with the exception of the focus determining her good saving throwsâshe retains the typical rogue saves). For each of the two skills associated with that emotional focus, a dreamthief gains ranks in that skill equal to her rogue level; this does not allow her ranks in these skills to exceed her Hit Dice. A dreamthief is considered to be both a phantom and a spiritualist for the purpose of emotional focus abilities whose effect references both a phantom and a spiritualist, such as dutiful strike, and she treats her rogue level as both her spiritualist level and her phantom Hit Dice when determining abilities and save DCs. Once per round when a dreamthief makes a melee attack, she can declare that attack to be a dreamstrike. This does not require an action, but a dreamthief must declare a dreamstrike before making the attack roll. A dreamstrike is treated as a slam attack for the purpose of emotional focus abilities that apply to a phantomâs slam attacks, such as miserable strike. At 20th level, any melee attack a dreamthief makes automatically gains this benefit. This replaces sneak attack and master strike. Lucid Dreamer (Ex) At 3rd level, a dreamthief can control her dreams, and gains Lucid Dreamer as a bonus feat. This replaces trap sense. Soothe Dreaming (Su) At 4th level, a dreamthief can steal negative emotions, freeing allies from harmful conditions. This acts as the mesmeristâs touch treatment ability, treating her rogue level as her mesmerist level; a dreamthief can use this ability once per day for every 3 rogue levels she has. This replaces uncanny dodge. Dream Infiltrator (Sp) A dreamthief can enter dreams, whether to learn secrets or meddle more directly. At 8th level, a dreamthief can cast dream scan once per day as a spell-like ability. At 12th level, once per day she can cast either dream scan or dream travel as a spell-like ability. The caster level of these spell-like abilities is equal to her rogue level. This replaces improved uncanny dodge and the rogue talent gained at 12th level."
+    }
+  }
+}

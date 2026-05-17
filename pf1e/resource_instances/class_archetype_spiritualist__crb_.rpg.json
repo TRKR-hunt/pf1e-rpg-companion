@@ -1,0 +1,131 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_spiritualist__crb_",
+    "name": {
+      "value": "Spiritualist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "investigator__crb_"
+    },
+    "parent_class_name": {
+      "value": "Investigator"
+    },
+    "replaces": {
+      "value": [
+        "investigator_alchemy_inspiration",
+        "investigator_poison_lore",
+        "investigator_investigator_talent_poison_resistance_every_2_le",
+        "investigator_trap_sense",
+        "investigator_swift_alchemy",
+        "investigator_poison_immunity"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_spirit_sense",
+            "name": {
+              "value": "Spirit Sense"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Spirit Sense — At 2nd level, when a spiritualist attempts a saving throw against an ability or an effect delivered by an incorporeal creature, he can expend one use of his inspiration instead of two to augment that saving throw. If the"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_strong_life",
+            "name": {
+              "value": "Strong Life"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Strong Life — His dealings with the other side and knowledge of what lies beyond strengthens the spiritualist’s will. He gains a +2 bonus on saving throws against death effects and negative energy damage. This bonus increases to +4 at"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_sixth_sense",
+            "name": {
+              "value": "Sixth Sense"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Sixth Sense — At 3rd level, a spiritualist can spend one of his uses of the commune with spirits ability to reroll a single saving throw that he has failed. He must take the results of the reroll, even if it is lower."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_whispering_spirits",
+            "name": {
+              "value": "Whispering Spirits"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Whispering Spirits — At 4th level, the spiritualist can open a conduit with the spirit world that can aid him in combat for a short time. He can expend one use of his commune with spirits ability in order to gain an insight bonus to both AC "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_touched_by_the_beyond",
+            "name": {
+              "value": "Touched by the Beyond"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Touched by the Beyond — At 11th level, the spiritualist’s ability to touch the beyond grants him further protection against the dangers of death and negative energy. The spiritualist becomes immune to death effects, and he takes half damage fro"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Commune with Spirits (Sp) Spirit Sense (Su) Strong Life (Ex) Sixth Sense (Su) Whispering Spirits (Su) Touched by the Beyond (Su) While most investigators look to the physical world to gain their knowledge, there are those who seek out knowledge beyond the pale. Those who think that the dead tell no tales are quickly proven wrong by the spiritualist. Instead of toying with chemicals and reagents to find clues, he talks directly to the spirit world to uncover the ways and means of skullduggery and the desperate acts committed in the heat of dark passions. Commune with Spirits (Sp) Instead of relying on alchemical research to find clues, a spiritualist relies on communion with the world beyond death. At 1st level, a spiritualist gains the ability to use comprehend languages, detect secret doors, and identify, but each has a casting time of 1 minute, as the spiritualist needs to consult with the spirits of the dead that dwell in his area or that are somehow attached to him in some way. The spiritualist can use this ability a number of times per day equal to his investigator level + his Wisdom modifier. As he goes up in level, the spiritualist gains the ability to use other spells with the casting time as above. At 5th level, he can use augury. At 7th level, he can use speak with dead and locate object. At 9th level, he can use legend lore. Each of these requires one use of this ability. This ability replaces alchemy. A spiritualist cannot take the alchemist discovery talent or any investigator talent that affects alchemy. Spirit Sense (Su) At 2nd level, when a spiritualist attempts a saving throw against an ability or an effect delivered by an incorporeal creature, he can expend one use of his inspiration instead of two to augment that saving throw. If the spiritualist has the combat inspiration investigator talent, he need not spend any inspiration to augment such saving throws. This ability replaces poison lore. Strong Life (Ex) His dealings with the other side and knowledge of what lies beyond strengthens the spiritualist’s will. He gains a +2 bonus on saving throws against death effects and negative energy damage. This bonus increases to +4 at 5th level, and to +6 at 8th level. This ability replaces poison resistance. Sixth Sense (Su) At 3rd level, a spiritualist can spend one of his uses of the commune with spirits ability to reroll a single saving throw that he has failed. He must take the results of the reroll, even if it is lower. This ability replaces trap sense. Whispering Spirits (Su) At 4th level, the spiritualist can open a conduit with the spirit world that can aid him in combat for a short time. He can expend one use of his commune with spirits ability in order to gain an insight bonus to both AC and saving throws equal to his Wisdom modifier (minimum 1) for 1 minute. This ability replaces swift alchemy. Touched by the Beyond (Su) At 11th level, the spiritualist’s ability to touch the beyond grants him further protection against the dangers of death and negative energy. The spiritualist becomes immune to death effects, and he takes half damage from negative energy. This ability replaces poison immunity. Investigator Talents: The following investigator talents complement the spiritualist archetype: amazing inspiration, combat inspiration, effortless aid, eidetic recollection, empathy, expanded inspiration, hidden agendas, inspirational expertise, item lore, studied defense, and tenacious inspiration."
+    }
+  }
+}

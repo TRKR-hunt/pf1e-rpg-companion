@@ -1,0 +1,110 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_armored_hulk__crb_",
+    "name": {
+      "value": "Armored Hulk"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "barbarian__crb_"
+    },
+    "parent_class_name": {
+      "value": "Barbarian"
+    },
+    "replaces": {
+      "value": [
+        "barbarian_fast_movement",
+        "barbarian_uncanny_dodge",
+        "barbarian_trap_sense_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_arch_indomitable_stance",
+            "name": {
+              "value": "Indomitable Stance"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Indomitable Stance — An armored hulk gains a +1 bonus on combat maneuver checks and to CMD for overrun combat maneuvers, and on Reflex saves against trample attacks. She also gains a +1 bonus to her AC against charge attacks and on attack an"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_arch_armored_swiftness",
+            "name": {
+              "value": "Armored Swiftness"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Armored Swiftness — At 2nd level, an armored hulk moves faster in medium and heavy armor. When wearing medium or heavy armor, an armored hulk can move 5 feet faster than normal, to a maximum of her speed."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_arch_resilience_of_steel",
+            "name": {
+              "value": "Resilience of Steel"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Resilience of Steel — At 3rd level, an armored hulk is able to use her armor to help avoid deadly hits. While wearing heavy armor, she gains a +1 bonus to AC that applies only on critical hit confirmation rolls. This bonus increases by +1 eve"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_arch_swiftness",
+            "name": {
+              "value": "Swiftness"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Swiftness — At 5th level, an armored hulkâs land speed is faster than the norm for her race by +10 feet. This benefit applies when she is wearing any armor, including heavy armor, but not while carrying a heavy load. Apply this bo"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle. Weapon and Armor Proficiency An armored hulk gains proficiency in heavy armor. Indomitable Stance (Ex) An armored hulk gains a +1 bonus on combat maneuver checks and to CMD for overrun combat maneuvers, and on Reflex saves against trample attacks. She also gains a +1 bonus to her AC against charge attacks and on attack and damage rolls against charging creatures. This ability replaces fast movement. Armored Swiftness (Ex) At 2nd level, an armored hulk moves faster in medium and heavy armor. When wearing medium or heavy armor, an armored hulk can move 5 feet faster than normal, to a maximum of her speed. This ability replaces uncanny dodge. Resilience of Steel (Ex) At 3rd level, an armored hulk is able to use her armor to help avoid deadly hits. While wearing heavy armor, she gains a +1 bonus to AC that applies only on critical hit confirmation rolls. This bonus increases by +1 every 3 levels beyond 3rd (maximum +6 at 18th level). This ability replaces trap sense. Improved Armored Swiftness (Ex) At 5th level, an armored hulkâs land speed is faster than the norm for her race by +10 feet. This benefit applies when she is wearing any armor, including heavy armor, but not while carrying a heavy load. Apply this bonus before modifying the armored hulkâs speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian’s land speed. This ability replaces improved uncanny dodge. Rage Powers: The following rage powers complement the armored hulk archetype: boasting taunt, greater guarded life, guarded life, guarded stance, increased damage reduction, no escape, overbearing advance, overbearing onslaught, reflexive dodge, rolling dodge, and unexpected strike."
+    }
+  }
+}

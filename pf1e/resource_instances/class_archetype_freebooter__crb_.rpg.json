@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_freebooter__crb_",
+    "name": {
+      "value": "Freebooter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ranger__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ranger"
+    },
+    "replaces": {
+      "value": [
+        "ranger_1st_favored_enemy",
+        "ranger_woodland_stride"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_bond",
+            "name": {
+              "value": "Bond"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Bond — At 4th level, a freebooter forms a bond with her crewmates. This bond allows her to spend a move action to grant her allies extra combat prowess when they work as a team. All allies within 30 feet who can see or hear the"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_fast_swimmer",
+            "name": {
+              "value": "Fast Swimmer"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fast Swimmer — Starting at 7th level, a freebooter may swim half her speed as a move action or her normal speed as a full-round action with a successful Swim check. The freebooter gains a +2 bonus on Swim checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Freebooter’s Bane (Ex) Freebooter’s Bond (Ex) Fast Swimmer (Ex) “FAQ: A freebooter ranger has quarry but not favored enemy. How does a freebooter use quarry? A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety of roles. Her specialized combat tactics help organize and direct a crew, and freebootersâ talents are in high demand. Most freebooters work as independent agents. A freebooter signs on with a crew when she feels the urge to travel, and often moves to a new ship when her contract ends. The freebooter is an archetype of the ranger class. Freebooter’s Bane (Ex) At 1st level, the freebooter can, as a move action, indicate an enemy in combat and rally her allies to focus on that target. The freebooter and her allies gain a +1 bonus on weapon attack and damage rolls against the target. This ability applies only to allies who can see or hear the freebooter and who are within 30 feet of the freebooter at the time she activates this ability. At 5th level and every 5 levels thereafter (10th, 15th, and 20th level), the bonus increases by 1. The freebooterâs bane lasts until the target dies or the freebooter selects a new target. FAQ Pirates of the Inner Sea, Freebooter: A freebooter ranger has quarry but not favored enemy. How does a freebooter use quarry? A freebooterâs quarry must be the target of the freebooterâs freebooterâs bane ability, rather than a favored enemy. [ Source ] This ability replaces favored enemy. Freebooter’s Bond (Ex) At 4th level, a freebooter forms a bond with her crewmates. This bond allows her to spend a move action to grant her allies extra combat prowess when they work as a team. All allies within 30 feet who can see or hear the freebooter gain an additional +2 bonus on attack rolls when flanking with the freebooter or with another ally affected by this ability. This ability replaces hunterâs bond. Fast Swimmer (Ex) Starting at 7th level, a freebooter may swim half her speed as a move action or her normal speed as a full-round action with a successful Swim check. The freebooter gains a +2 bonus on Swim checks. This ability replaces woodland stride. “FAQ: A freebooter ranger has quarry but not favored enemy. How does a freebooter use quarry? A freebooterâs quarry must be the target of the freebooterâs freebooterâs bane ability, rather than a favored enemy.” ( paizo.com – FAQ: Golarion Rules and Questions )"
+    }
+  }
+}

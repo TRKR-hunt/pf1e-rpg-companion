@@ -1,0 +1,93 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_dragonscale_loyalist__crb_",
+    "name": {
+      "value": "Dragonscale Loyalist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "vigilante__crb_"
+    },
+    "parent_class_name": {
+      "value": "Vigilante"
+    },
+    "replaces": {
+      "value": [
+        "vigilante_social_talent_vigilante_talent_more_with_level",
+        "vigilante_unshakable_level_vs_intimidate",
+        "vigilante_startling_appearance",
+        "vigilante_stunning_appearance"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_arch_ruby_courtier",
+            "name": {
+              "value": "Ruby Courtier"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Ruby Courtier — At 1st level, a Dragonscale loyalist gains Exotic Weapon Proficiency ( dueling sword ) as a bonus feat. His social identity must appear to be that of a noble, and he canât select double time, many guises, or any social"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_arch_reflexive_reaction",
+            "name": {
+              "value": "Reflexive Reaction"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Reflexive Reaction — A Dragonscale loyalist lacks the conviction of other vigilantes, but his reactions are keenly honed. At 3rd level, if a Dragonscale loyalist acts during a surprise round, he can take a full roundâs worth of actions. If"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_arch_vigilance",
+            "name": {
+              "value": "Vigilance"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Vigilance — A Dragonscale loyalist becomes supernaturally perceptive to plots against his lord. At 11th level, while in his vigilante identity, a Dragonscale loyalist is treated as constantly being under the effects of perceive betr"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Ruby Courtier (Ex) Reflexive Reaction (Ex) False Allegiance (Ex) Dragonscale Vigilance (Su) Conquerorâs Wrath (Ex) When not acting as courtiers, these agents don fearsome draconic masks, becoming anonymous protectors of the kingregentâs rule. Ruby Courtier (Ex) At 1st level, a Dragonscale loyalist gains Exotic Weapon Proficiency ( dueling sword ) as a bonus feat. His social identity must appear to be that of a noble, and he canât select double time, many guises, or any social talent inappropriate for a noble social identity. This ability alters social talents and replaces the 1st-level social talent. Reflexive Reaction (Ex) A Dragonscale loyalist lacks the conviction of other vigilantes, but his reactions are keenly honed. At 3rd level, if a Dragonscale loyalist acts during a surprise round, he can take a full roundâs worth of actions. If he does, he is staggered during the first full round of combat. This ability replaces unshakable. False Allegiance (Ex) At 5th level, a Dragonscale loyalist chooses one of the seven famous noble houses, gaining a bonus feat and a special ability appropriate to the chosen house. He need not meet the featâs prerequisites. A: The Dragonscale loyalist gains Sure Grasp and dwarves â stonecunning racial trait. B: The Dragonscale loyalist gains Skill Focus ( Appraise ). He can also resell items for 60% of their listed value, rather than 50%. The purchase limit of the settlement must be high enough to accommodate the increased value. C: The Dragonscale loyalist gains Sea Legs. When attempting Swim checks, he ignores the armor check penalty of light or medium armor. If the loyalist has the heavy training vigilante talent, this applies to heavy armor as well. D: The Dragonscale loyalist gains Endurance and the druidâs resist natureâs lure class feature. E: The Dragonscale loyalist gains Call Truce and a +3 bonus to his CMD. F: The Dragonscale loyalist gains Skill Focus ( Knowledge [history]) and a +2 bonus on Diplomacy checks to gather information. This bonus increases to +4 when gathering information related to a rival noble house. G: The Dragonscale loyalist gains Persuasive and a +4 bonus on Sense Motive checks against creatures that profess to be his allies. This ability replaces startling appearance. Dragonscale Vigilance (Su) A Dragonscale loyalist becomes supernaturally perceptive to plots against his lord. At 11th level, while in his vigilante identity, a Dragonscale loyalist is treated as constantly being under the effects of perceive betrayal (see below). This effectâs caster level is equal to the Dragonscale loyalistâs vigilante level, and he doesnât require material components or a focus. This ability replaces the vigilanteâs frightening appearance. Conquerorâs Wrath (Ex) A Dragonscale loyalist can rampage through enemy ranks. At 17th level, as a full-round action, a Dragonscale loyalist can make a full attack and move up to his speed. The loyalist can pause at any point or points during the movement, make one or more of his attacks, and continue moving. Creatures making attacks of opportunity against the loyalist during this movement gain a +4 bonus on their attack and damage rolls. Using this ability counts as using a vigilante talent. This ability replaces stunning appearance."
+    }
+  }
+}

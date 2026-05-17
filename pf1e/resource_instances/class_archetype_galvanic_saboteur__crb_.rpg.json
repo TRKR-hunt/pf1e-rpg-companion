@@ -1,0 +1,77 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_galvanic_saboteur__crb_",
+    "name": {
+      "value": "Galvanic Saboteur"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ranger__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ranger"
+    },
+    "replaces": {
+      "value": [
+        "ranger_wild_empathy",
+        "ranger_favored_terrain",
+        "ranger_woodland_stride",
+        "ranger_swift_tracker",
+        "ranger_camouflage",
+        "ranger_hide_in_plain_sight"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_reprogram",
+            "name": {
+              "value": "Reprogram"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Reprogram — At 1st level, a galvanic saboteur can improve the initial attitude of a mindless construct. This ability functions as wild empathy, except only against mindless constructs. The ranger can use this ability against constru"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_sensor_evasion",
+            "name": {
+              "value": "Sensor Evasion"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Sensor Evasion — At 17th level, a galvanic saboteur has mastered the art of evading technological and magical observation. He can use the Stealth skill against constructs and magical sensors (such as those created by arcane eye or claira"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Favored Enemy (Ex) Reprogram (Ex) Lucky Dodge (Ex) Technological Trapsmith (Ex) EFFECTS Static Strike (Ex) Sensor Evasion (Su) Some rangers develop special skills to combat robots and devious arcanists. Class Skill(s): A galvanic saboteur adds Disable Device and Knowledge (arcana) to his list of class skills and removes Handle Animal and Knowledge (dungeoneering) from his list of class skills. Favored Enemy (Ex) At 1st level, a galvanic saboteur must select construct creatures as his first favored enemy. This ability alters favored enemy. Reprogram (Ex) At 1st level, a galvanic saboteur can improve the initial attitude of a mindless construct. This ability functions as wild empathy, except only against mindless constructs. The ranger can use this ability against constructs with an Intelligence score, but he takes a â4 penalty on the check. This ability replaces wild empathy. Lucky Dodge (Ex) At 3rd level, a galvanic saboteur can dodge the precise attacks of even the most technologically advanced foes. The ranger gains a luck bonus to AC against attacks that target his touch AC as long as his opponent’s type matches that of his first favored enemy. This luck bonus is equal to 1/2 the ranger’s favored enemy bonus against that creature type. At 8th, 13th, and 18th levels, the ranger gains this luck bonus to AC against attacks that target touch his AC as long as his opponent’s type matches his second, third, and fourth favored enemy, respectively. A galvanic saboteur’s animal companion (if he chose one for his hunter’s bond) also gains this luck bonus. This ability replaces favored terrain. Technological Trapsmith (Ex) At 7th level, a galvanic saboteur can rig technological traps using the remains of destroyed constructs with the clockwork or robot subtype. To successfully rig such a trap, the ranger must spend 1 minute working on the destroyed construct and succeed at a Disable Device check (DC = 10 + the construct’s HD). On a failure, the trap doesn’t function and the construct’s remains are ruined. On a success, the ranger creates a mechanical trap with the following statistics. Rigged Construct Trap Type mechanical; Notice Perception DC 20; Disable Disable Device DC 20 EFFECTS Trigger location (all spaces occupied by the construct’s remains); Reset none; Effect blast of electricity (1d6 electricity damage/2 HD of construct ); Reflex negates (DC = 10 + 1/2 the ranger’s level + his Intelligence modifier); multiple targets (all targets within 5 ft. of construct’s remains) Other types of destroyed constructs can serve as suitable materials for a rigged construct trap (at the GM’s discretion). Constructs destroyed by disintegrate or similar effects that leave no intact remains cannot be used to create a rigged construct trap. This ability replaces woodland stride. Static Strike (Ex) At 8th level, the galvanic saboteur has gathered enough parts and scrap from his constructed enemies that he can infuse some of his attacks with a bit of their alien energy. Once per day as a standard action, the ranger can make a static strike as a melee attack at his full base attack bonus. If the attack hits, it deals an additional 1d6 points of electricity damage and the ranger can make an additional attack at his full base attack bonus against a foe that is adjacent to the previous foe and still within his reach, as if he had Cleave, except he doesn’t take a â2 penalty to his AC and the second attack deals an additional 2d6 points of electricity damage. At 12th level, the ranger can continue to make attacks against adjacent creatures, as if he had Greater Cleave, with each hit increasing the amount of electricity damage dealt to the next foe in line. The ranger can use this ability twice per day at 14th level and three times per day at 20th level. This ability replaces swift tracker and camouflage. Sensor Evasion (Su) At 17th level, a galvanic saboteur has mastered the art of evading technological and magical observation. He can use the Stealth skill against constructs and magical sensors (such as those created by arcane eye or clairaudience/clairvoyance ) even while being observed. This ability replaces hide in plain sight."
+    }
+  }
+}

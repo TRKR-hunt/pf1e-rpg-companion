@@ -1,0 +1,95 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_chameleon_adept__crb_",
+    "name": {
+      "value": "Chameleon Adept"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "hunter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Hunter"
+    },
+    "replaces": {
+      "value": [
+        "hunter_teamwork_feat",
+        "hunter_hunter_tactics",
+        "hunter_nature_training_wild_empathy_track_orisons",
+        "hunter_precise_companion_teamwork_feat",
+        "hunter_woodland_stride",
+        "hunter_animal_companion"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_arch_terrain_chameleon",
+            "name": {
+              "value": "Terrain Chameleon"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Terrain Chameleon — Choose one type of terrain from the ranger’s list of favored terrains. When in the specified type of terrain, a chameleon adept gains a bonus equal to half her hunter level on Stealth checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_arch_savage_diplomacy",
+            "name": {
+              "value": "Savage Diplomacy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Savage Diplomacy — At 2nd level, while in humanoid form, a chameleon adept’s animal companion grants its master a +2 circumstance bonus on Diplomacy and Intimidate checks. Savage diplomacy functions only as long as the creature being influ"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_arch_improved_shifting_companion",
+            "name": {
+              "value": "Improved Shifting Companion"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Improved Shifting Companion — At 10th level, a chameleon adept’s animal companion improves its ability to change shape. It can use wild shape, as a druid of half the hunter’s level, to gain the effects of beast shape I. Unlike a druid’s wild shape, t"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Shifting Companion (Su) Terrain Chameleon (Su) Savage Diplomacy (Ex) Animal Shape (Su) Improved Shifting Companion (Su) One with the Wild (Ex) Some hunters are masters of blending into every situation, even making their companions appear humanoid for brief periods of time. Skills: A chameleon adept adds Diplomacy to her list of class skills. This alters the hunter’s class skills. Shifting Companion (Su) At 3rd level as a standard action, a chameleon adept can cause her companion to assume a humanoid form of the same race as herself. This functions as alter self, except it is used on an adjacent animal companion to have it assume a humanoid form. The companion always assumes the same form, selected when the hunter reaches 3rd level. The hunter can change this form when she gains a new level, but the companion loses the old form and can’t resume it unless the chameleon adept chooses that form when she reaches a new level. The companion is no more intelligent or less savage than normal; the hunter still needs to control it as normal, and it still can’t activate magic items or wield manufactured weapons. The hunter can use this ability for 10 minutes per day per hunter level. This duration does not need to be consecutive, but it must be spent in 10-minute increments. This replaces teamwork feats and hunter’s tactics. Terrain Chameleon (Su) Choose one type of terrain from the ranger’s list of favored terrains. When in the specified type of terrain, a chameleon adept gains a bonus equal to half her hunter level on Stealth checks. This replaces wild empathy. Savage Diplomacy (Ex) At 2nd level, while in humanoid form, a chameleon adept’s animal companion grants its master a +2 circumstance bonus on Diplomacy and Intimidate checks. Savage diplomacy functions only as long as the creature being influenced can see both the companion and the master. This bonus increases by 1 at 5th level and every 4 levels thereafter, to a maximum of +6 at 17th level. This replaces precise companion. Animal Shape (Su) At 5th level as a standard action, a chameleon adept can assume a form superficially identical to her animal companion’s animal form. She gains no bonuses or natural attacks while in this form, only forms of movement. Her size category does not change. This is a polymorph effect. She can assume this form for 1 minute per level per day, in 1-minute increments. She can dismiss this ability at any point as a standard action. This replaces woodland stride. Improved Shifting Companion (Su) At 10th level, a chameleon adept’s animal companion improves its ability to change shape. It can use wild shape, as a druid of half the hunter’s level, to gain the effects of beast shape I. Unlike a druid’s wild shape, this ability does not improve to encompass larger or smaller animals or elementals. This replaces raise animal companion. One with the Wild (Ex) At 17th level, when the companion is using wild shape to appear as a different type of animal, it counts as being in that animal focus for the purpose of one with the wild. This alters one with the wild."
+    }
+  }
+}

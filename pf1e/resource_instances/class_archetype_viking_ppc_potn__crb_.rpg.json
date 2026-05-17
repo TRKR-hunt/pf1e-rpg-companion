@@ -1,0 +1,92 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_viking_ppc_potn__crb_",
+    "name": {
+      "value": "Viking (PPC:PotN)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_bravery_1",
+        "fighter_armor_training_1",
+        "fighter_weapon_training_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_fearsome",
+            "name": {
+              "value": "Fearsome"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fearsome — At 2nd level, a viking can make an Intimidate check to demoralize an opponent as a move action. At 10th level, she can do so as a swift action. At 18th level, she can demoralize a foe as a free action once per round."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_shield_defense",
+            "name": {
+              "value": "Shield Defense"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Shield Defense — Starting at 3rd level, a viking learns the art of fighting with a shield. Whenever she is wearing medium, light, or no armor and wielding a shield, the vikingâs shield bonus to AC increases by 1. Every 4 levels thereaf"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_berserker",
+            "name": {
+              "value": "Berserker"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Berserker — At 4th level, a viking gains the rage ability as the barbarian class feature, but her barbarian level is considered to be her fighter level â3."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Weapon Proficiency Fearsome (Ex) Shield Defense (Ex) Berserker (Ex) Rage Powers (Ex) The sagas of the northern people are filled with stories of mighty warriors sailing south to raid the peoples of warmer climes and returning with longships filled with plunder. The northerners call these warriors vikings, and their deeds are sung in the longhouses during the long winter nights. A viking strikes fear into the heart of her foes, and in battle can fly into a terrible rage. Many vikings wear the pelts of bears or wolves, drawing on the strength and ferocity of these beasts in battle. Vikings do not wear heavy armor, but are skilled at fighting with an ax or spear in conjunction with a shield. The viking is an archetype of the fighter class. Weapon Proficiency A viking is not proficient with heavy armor or tower shields. Fearsome (Ex) At 2nd level, a viking can make an Intimidate check to demoralize an opponent as a move action. At 10th level, she can do so as a swift action. At 18th level, she can demoralize a foe as a free action once per round. This ability replaces bravery. Shield Defense (Ex) Starting at 3rd level, a viking learns the art of fighting with a shield. Whenever she is wearing medium, light, or no armor and wielding a shield, the vikingâs shield bonus to AC increases by 1. Every 4 levels thereafter (7th, 11th, and 15th), this bonus increases by 1. This ability replaces armor training. Berserker (Ex) At 4th level, a viking gains the rage ability as the barbarian class feature, but her barbarian level is considered to be her fighter level â3. This ability replaces weapon training 1, 2, 3, and 4. Rage Powers (Ex) Starting at 6th level, whenever a viking gains a fighter bonus feat, she can instead choose to gain a single rage power, as the barbarian class feature, in place of the bonus feat. Once selected, these rage powers cannot be changed."
+    }
+  }
+}

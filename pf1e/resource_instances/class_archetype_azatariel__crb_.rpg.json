@@ -1,0 +1,110 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_azatariel__crb_",
+    "name": {
+      "value": "Azatariel"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "swashbuckler__crb_"
+    },
+    "parent_class_name": {
+      "value": "Swashbuckler"
+    },
+    "replaces": {
+      "value": [
+        "swashbuckler_deeds",
+        "swashbuckler_charmed_life_cha_day_add_cha_to_a_save",
+        "swashbuckler_nimble_1_dodge_ac_in_light_no_armor_1_every_4_le"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_swiftness",
+            "name": {
+              "value": "Swiftness"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Swiftness — At 3rd level, while the azatariel has at least 1 point of panache, she ignores movement penalties from difficult terrain."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_assault",
+            "name": {
+              "value": "Assault"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Assault — At 11th level, the azatariel can spend 2 panache points when charging. If she does, the AC penalty for charging changes to â4 and she can make a full attack at the end of her charge."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_elysian_conviction",
+            "name": {
+              "value": "Elysian Conviction"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Elysian Conviction — At 2nd level, while she has at least 1 panache point, an azatariel adds her Charisma bonus to her saving throws against mind-affecting effects."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_battle_dance",
+            "name": {
+              "value": "Battle Dance"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Battle Dance — At 3rd level and every 4 levels thereafter, an azatarielâs base speed increases by 10 feet. This is an enhancement bonus. An azatariel in medium or heavy armor or carrying a medium or heavy load loses this extra speed."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Bralaniâs Swiftness (Ex) Whimsical Riposte (Ex) Lillendâs Misdirection (Ex) Ghaeleâs Assault (Ex) Elysian Conviction (Su) Battle Dance (Ex) Affection of Elysium (Su) Azatariels are the champions of Elysium, dedicated to spreading its unpredictable whimsy and capricious goodness across the planes. Irrepressible and happy-go-lucky even in the face of the most tyrannical devil, azatariels take their name from the azatas that they emulate. In battle, azatariels exult in darting among their foes, heedless of danger. Mastery of combatâs chaos allows azatariels to turn enemiesâ strikes against each other, while supernatural good fortune protects them from dire afflictions. When allies falter with fear or suffer the effects of dark magic, a compassionate gesture from an azatariel cures their ills and spurs them onward. Alignment: An azatariel must be chaotic good. If an azatariel changes alignment, she loses all abilities granted by this archetype until her alignment returns to chaotic good. Deeds: An azatariel gains the following deeds. Bralaniâs Swiftness (Ex) At 3rd level, while the azatariel has at least 1 point of panache, she ignores movement penalties from difficult terrain. This replaces the menacing swordplay deed. Whimsical Riposte (Ex) At 3rd level, the azatariel adds her Charisma modifier to attack and damage rolls made with light or one-handed piercing weapons as part of her opportune parry and riposte deed (including when riposting). In addition, whenever the azatariel successfully parries an opponentâs attack, instead of riposting she can redirect that attack to another target as an immediate action. The new target must be within the attackerâs reach, and the attacker uses the original attack roll to determine the attackâs success. This replaces the precise strike deed. Lillendâs Misdirection (Ex) At 7th level, when a foe flanking the azatariel misses her with a melee attack, the azatariel can spend 2 panache points as an immediate action to attempt a reposition combat maneuver check against the attacking foe. If she succeeds at the combat maneuver check, she and the attacking foe switch positions, and the melee attack roll that missed the azatariel instead targets the flanking opponent that did not make the attack, using the same attack roll result (including the bonus gained from flanking ). This replaces the targeted strike deed. Ghaeleâs Assault (Ex) At 11th level, the azatariel can spend 2 panache points when charging. If she does, the AC penalty for charging changes to â4 and she can make a full attack at the end of her charge. This replaces the bleeding wound deed. Elysian Conviction (Su) At 2nd level, while she has at least 1 panache point, an azatariel adds her Charisma bonus to her saving throws against mind-affecting effects. This replaces charmed life. Battle Dance (Ex) At 3rd level and every 4 levels thereafter, an azatarielâs base speed increases by 10 feet. This is an enhancement bonus. An azatariel in medium or heavy armor or carrying a medium or heavy load loses this extra speed. This replaces nimble. Affection of Elysium (Su) An azatarielâs affection relieves harmful afflictions. At 4th level and every 4 levels thereafter, an azatariel selects a mercy from those available to a paladin whose class level is equal to her swashbuckler level. She can show her affection to a willing, adjacent creature as a standard action to apply the effects of these mercies to the targeted creature, treating her swashbuckler level as her paladin level. An azatariel can use this ability a number of times per day equal to half her swashbuckler level plus her Charisma modifier. This replaces the swashbucklerâs bonus feats."
+    }
+  }
+}

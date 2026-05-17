@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_ankou_s_shadow__crb_",
+    "name": {
+      "value": "Ankou's Shadow"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_studied_target",
+        "slayer_stalker"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_vision",
+            "name": {
+              "value": "Vision"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Vision — At 7th level, an ankouâs shadow can use see invisibility, as per the spell, as a swift action for 1 minute per level per day. This duration does not need to be consecutive, but it must be used in 1-minute increments."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Home > Classes > Hybrid Classes > Slayer > Archetypes > Paizo, Inc. – Slayer Archetypes > Ankou’s Shadow Contents Shadow Double (Sp) Ankouâs Vision (Sp) Shadow Prey (Ex) Unfettered Shadows (Su) Ankous are terrifying, winged fey assassins dispatched to eliminate rivals. Some mortals emulate ankous to become the perfect assassins; others believe themselves to be ankous incarnated in mortal shells on a deep cover mission. In either case, an ankouâs shadow practices the deadliest skills of the most feared enforcers. Shadow Double (Sp) An ankouâs shadow can take a full-round action to create a single, quasi-real, shadowy duplicate. This shadow double remains in his square, mimicking his movements as a single mirror image, except that it lasts until it is destroyed or he chooses to dismiss it as a swift action. This ability does not stack with the mirror image spell or with similar abilities, such as the copycat ability of the Trickery domain. At 5th level, an ankouâs shadow gains a second shadow double. In addition to using these shadow doubles as mirror images in his square, he can move his doubles as part of his own move action, dividing his movement between himself and his doubles. When outside his square, shadow doubles do not protect the ankouâs shadow as mirror image and are limited in the actions they can take. Shadow doubles provide flanking for the ankouâs shadow and his allies, but they do not possess teamwork feats or special abilities that alter the effects of flanking or aiding another. As a swift action, the ankouâs shadow can direct his shadow doubles to use the aid another action, using his own base attack bonus plus his Intelligence modifier for the roll. Although a shadow double appears to duplicate the ankouâs shadowâs gear, this gear is part of its form; a shadow doubleâs gear cannot be destroyed, dropped, or stolen. A shadow double disappears if it ventures more than 50 feet from the ankouâs shadow or if it leaves his line of sight or effect. A shadow double that is hit by an attack roll or takes any damage is destroyed. The AC of a shadow double is equal to the ankouâs shadowâs touch AC, and it has the same CMD and saving throw bonuses as the ankouâs shadow. Shadow doubles possess evasion if the ankouâs shadow does. Mind-affecting effects targeting a shadow double affect the ankouâs shadow instead, though he isnât affected twice by effects that target both him and a shadow double. At 10th level, an ankouâs shadow gains a third shadow double. He can divide his actions between his actual body and his shadow doubles, using them as the origin point for attacks or abilities. For example, an ankouâs shadow making three attacks as a part of a full attack could make his primary attack from his own body and his other two attacks from two of his shadow doubles. At 15th level, an ankouâs shadow gains a fourth shadow double. In addition to the abilities above, an ankouâs shadow can assign the doubles to perform simple tasks on their own, as the unseen servant spell, except that the shadow doubles have an effective Strength score of 10. This ability replaces studied target. Ankouâs Vision (Sp) At 7th level, an ankouâs shadow can use see invisibility, as per the spell, as a swift action for 1 minute per level per day. This duration does not need to be consecutive, but it must be used in 1-minute increments. This ability replaces stalker. Shadow Prey (Ex) An ankouâs shadow cannot denote a target as his quarry unless he has a shadow double present, but unlike other slayers, the target does not need to be one of his studied targets. This ability alters quarry and improved quarry. Unfettered Shadows (Su) At 20th level, as a standard action an ankouâs shadow can unfetter all of his shadow doubles for 1 minute. While unfettered, each shadow double can move and attack as if it were the ankouâs shadow without using any of his actions. A creature struck by a shadow double can attempt a Will save (DC 20 + the ankouâs shadowâs Intelligence modifier) each time it takes damage to recognize the illusion. If it succeeds, the target treats all the shadow doubles as 20% real, as the spell shadow conjuration. The shadow doubles cannot use the shadow double ability. The ankouâs shadow can use this ability a number of times per day equal to 3 + his Intelligence modifier. Slayer Talents: The following slayer talents (and rogue talents ) complement the ankouâs shadow archetype: bleeding attack, fast stealth, slowing strike, and surprise attack. Advanced Slayer Talents: The following advanced slayer talents (and advanced rogue talents) complement the ankouâs shadow archetype: assassinate, hunterâs surprise, and woodland stride."
+    }
+  }
+}

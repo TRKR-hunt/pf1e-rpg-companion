@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_sound_striker__crb_",
+    "name": {
+      "value": "Sound Striker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_inspire_competence_2",
+        "bard_suggestion"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_wordstrike",
+            "name": {
+              "value": "Wordstrike"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wordstrike — : At 3rd level, the sound striker bard can spend 1 round of bardic performance as a standard action to direct a burst of sonically charged words at a creature or object. This performance deals 1d4 points of damage plus t"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "They say that words can cut deeper than any blade, and the sound striker proves this true. Using music and words as a weapon, he can focus his performances into a deadly delivery. Bardic Performance A sound striker gains the following type of bardic performance. Neither performance can be performed more quickly than a standard action. Wordstrike (Su): At 3rd level, the sound striker bard can spend 1 round of bardic performance as a standard action to direct a burst of sonically charged words at a creature or object. This performance deals 1d4 points of damage plus the bardâs level to an object, or half this damage to a living creature. This performance replaces inspire competence. Weird Words (Su): At 6th level the bard can start a performance that is always a standard action to speak up to one word per 4 bard levels laden with sonic energy. Each word deals 4d6 points of sonic damage as a ranged touch attack with a range of 30 feet. The bard adds his charisma modifier on damage rolls with weird words. Multiple words that strike the same target stack into a single powerful attack, applying energy resistance and bonuses on damage rolls only once. The bard can target all words at the same or different targets, but he unleashes all words simultaneously. Each word costs 1 round of bardic performance. This performance replaces suggestion."
+    }
+  }
+}

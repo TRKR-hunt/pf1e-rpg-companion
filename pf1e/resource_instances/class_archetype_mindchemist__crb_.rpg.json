@@ -1,0 +1,36 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_mindchemist__crb_",
+    "name": {
+      "value": "Mindchemist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_brew_potion_throw_anything_mutagen",
+        "alchemist_poison_resistance_use"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "While most alchemists use mutagens to boost their physical ability at the cost of mental ability, some use alchemy for the opposite purposeâto boost the power of the mind and memory. A mindchemist can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his physique. A mindchemist has the following class features. Cognatogen At 1st level, a mindchemist learns how to create a cognatogen, as per the cognatogen discovery. This ability replaces the mutagen class ability (a mindchemist cannot create mutagens unless he selects mutagen as a discovery ). Perfect Recall At 2nd level, a mindchemist has honed his memory. When making a Knowledge check, he may add his Intelligence bonus on the check a second time. Thus, a mindchemist with 5 ranks in Knowledge (history) and a +2 Intelligence bonus has a total skill bonus of +9 (5 + 2 + 2) using this ability. The mindchemist can also use this ability when making an Intelligence check to remember something. This ability replaces poison use. Bonus Feats A mindchemist may select Skill Focus ( Disable Device, Disguise, Heal, any Knowledge skill, Sense Motive, or Spellcraft ) in place of a discovery. Languages A mindchemist may learn three languages in place of a discovery. Discoveries: The following discoveries complement the mindchemist archetype: grand cognatogen, greater cognatogen, infuse mutagen."
+    }
+  }
+}

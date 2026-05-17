@@ -1,0 +1,60 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_court_bard__crb_",
+    "name": {
+      "value": "Court Bard"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_inspire_courage_1",
+        "bard_inspire_competence_2",
+        "bard_dirge_of_doom",
+        "bard_frightening_tune",
+        "bard_bardic_knowledge",
+        "bard_lore_master",
+        "bard_jack_of_all_trades"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_epic",
+            "name": {
+              "value": "Epic"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Epic — : A court bard of 8th level or higher can weave captivating tales that engross those who hear them. Enemies within 30 feet become flat-footed unless they succeed at a Will save (DC 10 + 1/2 the bardâs level + the bardâ"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Bardic Performance Heraldic Expertise (Ex) Wide Audience (Su) Spending years studying all of the finer points of erudition and etiquette, the court bard takes up the role of resplendent proclaimer and artist-in-residence at the hand of nobility, royalty, and the well-moneyed elite who aspire to join their ranks. Bardic Performance A court bard gains the following types of bardic performance: Satire (Su): A court bard can use performance to undermine the confidence of enemies who hear it, causing them to take a â1 penalty on attack and damage rolls (minimum 1) and a â1 penalty on saves against fear and charm effects as long as the bard continues performing. This penalty increases by â1 at 5th level and every six levels thereafter. Satire is a language-dependent, mind-affecting ability that uses audible components. This performance replaces inspire courage. Mockery (Su): A court bard of 3rd level or higher can subtly ridicule and defame a specific individual. The bard selects one target who can hear his performance. That individual takes a â2 penalty on Charisma checks and Charisma -related skill checks as long as the bard continues performing. This penalty increases by â1 every four levels after 3rd. Mockery is a language-dependent, mind-affecting ability that relies on audible components. This performance replaces inspire competence. Glorious Epic (Su): A court bard of 8th level or higher can weave captivating tales that engross those who hear them. Enemies within 30 feet become flat-footed unless they succeed at a Will save (DC 10 + 1/2 the bardâs level + the bardâs Cha modifier). A save renders them immune to this ability for 24 hours. Glorious epic is a language-dependent, mind-affecting ability that uses audible components. This performance replaces dirge of doom. Scandal (Su): A court bard of 14th level or higher can combine salacious gossip and biting calumny to incite a riot. Each enemy within 30 feet is affected as if by a song of discord for as long as it can hear the performance. A successful Will save (DC 10 + 1/2 the bardâs level + the bardâs Cha modifier) negates the effect, and that creature is immune to this ability for 24 hours. Scandal is a language-dependent, mind-affecting ability that uses audible components. This performance replaces frightening tune. Heraldic Expertise (Ex) A court bard gains a bonus equal to half his bard level on Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) checks (minimum +1). Once per day, the court bard can also reroll a check against one of these skills, though he must take the result of the second roll even if it is worse. He can reroll one additional time per day at 5th level and every five levels thereafter. This ability replaces bardic knowledge. Wide Audience (Su) At 5th level, a court bard can choose to affect a 60-foot cone instead of a 30-foot radius with bardic performances that affect an area. In addition, for every five levels beyond 5th, the area of such powers is increased by 10 feet (radius) or 20 feet (cone). If the power instead affects multiple creatures, it affects one additional creature than normal for every five levels beyond 5th. This does not affect powers that affect only a single creature. This ability replaces lore master and jack of all trades."
+    }
+  }
+}

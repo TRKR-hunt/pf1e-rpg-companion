@@ -1,0 +1,36 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_rhetorician__crb_",
+    "name": {
+      "value": "Rhetorician"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "witch__crb_"
+    },
+    "parent_class_name": {
+      "value": "Witch"
+    },
+    "replaces": {
+      "value": [
+        "witch_hex",
+        "witch_patron"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Debater (Ex) Eldritch Glibness Public Speaker (Ex) Rhetoricians feel driven to engage in debate, learn as much as they can about their potential foes, and seek ways to use information and quick talking to handle problems before resorting to raw violence. Regardless of their shadowy patrons, rhetoricians are granted a series of spells through their familiars that boost their ability to outtalk and outthink their foes, leading some to believe they are destined to be emissaries for their patrons once some long-term plans of their patronsâ come to fruition. Debater (Ex) A rhetorician is an expert at making counterarguments and treating everything as a debate. When an opponent attempts a Diplomacy check to change another targetâs attitude or request aid, the rhetorician can attempt to make a counterargument to negate the opponentâs efforts. The rhetorician attempts a Diplomacy check as an immediate action, with a DC equal to the result of the opponentâs Diplomacy check. The target of the opponentâs Diplomacy check must be able to see and hear the rhetorician. If the rhetoricianâs Diplomacy check is successful, the opponentâs Diplomacy check fails. This ability replaces the hex gained at 1st level. Eldritch Glibness At 2nd level and every two witch levels thereafter, a rhetorician gains the following spells as spells known at the spell levels listed in parentheses. These spells are automatically added to the list of spells stored by her familiar. She treats these as being on the witch class spell list: 2ndâ confusion, lesser (1st), 4thâ detect thoughts (2nd), 6thâ glibness (3rd), 8thâ sculpt sound (4th), 10thâ modify memory (5th), 12thâ symbol of persuasion (6th), 14thâ song of discord (7th), 16thâ greater shout (8th), 18thâ weird (9th). This ability replaces all the spells the witch gains from her patron. Public Speaker (Ex) A rhetorician gains Perform as a class skill. In addition, she is trained to project her voice with great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount equal to her class level + her Intelligence modifier (minimum 0)."
+    }
+  }
+}

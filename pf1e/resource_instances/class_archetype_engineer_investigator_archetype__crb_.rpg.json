@@ -1,0 +1,57 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_engineer_investigator_archetype__crb_",
+    "name": {
+      "value": "Engineer (Investigator Archetype)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "investigator__crb_"
+    },
+    "parent_class_name": {
+      "value": "Investigator"
+    },
+    "replaces": {
+      "value": [
+        "investigator_trapfinding",
+        "investigator_poison_lore",
+        "investigator_investigator_talent_poison_resistance_every_2_le",
+        "investigator_trap_sense"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_mechanical_understanding",
+            "name": {
+              "value": "Mechanical Understanding"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Mechanical Understanding — At 3rd level, an engineer gains a deeper understanding of constructs and machines. He gains a +1 bonus on Knowledge (arcana) checks to identify constructs and a +1 bonus on Knowledge (engineering) checks. This bonus incr"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Custom Mechanism (Ex) Mechanical Understanding (Ex) A number of investigators use their vast knowledge to build machines that replicate the intricacies of the world. These investigators create devices to enhance the minds and bodies of their allies and themselves. Custom Mechanism (Ex) An engineer can create a mechanism, a small device that assists with the execution of an activity. Creating a mechanism requires 1 minute of time and expends 1 use from the engineerâs inspiration pool. An engineer chooses a skill to associate with the mechanism when he creates it. As an immediate action, a mechanism can be activated to grant the engineerâs inspiration die on a check of the associated skill. An engineer can create a mechanism that affects attack rolls or saving throws, but she expends 2 uses from her inspiration pool to do so. Any creature can use a mechanism, but a creature can have only 1 mechanism at a time, as multiple mechanisms interfere with each other while in close proximity. A mechanism remains active for a number of minutes equal to the engineerâs Intelligence modifier (minimum 1). At 5th level, an engineerâs mechanisms remain active for a number of minutes equal to the engineerâs level. At 11th level, an engineerâs mechanisms remain active for a number of hours equal to the engineerâs level. This replaces the trapfinding, poison lore, and poison resistance class features. Mechanical Understanding (Ex) At 3rd level, an engineer gains a deeper understanding of constructs and machines. He gains a +1 bonus on Knowledge (arcana) checks to identify constructs and a +1 bonus on Knowledge (engineering) checks. This bonus increases by 1 at 6th level and every 3 levels thereafter. This replaces trap sense."
+    }
+  }
+}

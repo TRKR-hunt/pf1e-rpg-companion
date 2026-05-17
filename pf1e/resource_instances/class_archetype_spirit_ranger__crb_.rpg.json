@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_spirit_ranger__crb_",
+    "name": {
+      "value": "Spirit Ranger"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ranger__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ranger"
+    },
+    "replaces": {
+      "value": [
+        "ranger_camouflage"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_wisdom_of_the_spirits",
+            "name": {
+              "value": "Wisdom of the Spirits"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wisdom of the Spirits — At 12th level, the spirit Ranger can use his augury spell-like ability even when he is not in one of his favored terrains. If he is within one of his favored terrains, the Ranger can cast divination instead. Like augury,"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Spirit Bond (Ex) Wisdom of the Spirits (Sp) Some rangers nurture a connection with the spirits that reside in all things. By communing with these spirits, the spirit Ranger can gain glimpses of things to come. A spirit Ranger has the following class features: Spirit Bond (Ex) At 4th level, instead of forming a bond with his hunting companions or an animal companion, the spirit Ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his favored terrains, the Ranger can cast augury as a spell-like ability with a caster level equal to his Ranger level. In addition, he can call upon these spirits to cast any one Ranger spell that he is capable of casting, without having to prepare the spell. At 8th level, and every four levels thereafter, he can cast an additional spell in this way. This ability replaces hunterâs bond. Wisdom of the Spirits (Sp) At 12th level, the spirit Ranger can use his augury spell-like ability even when he is not in one of his favored terrains. If he is within one of his favored terrains, the Ranger can cast divination instead. Like augury, the caster level of the divination is equal to the Rangerâs level. This ability replaces camouflage."
+    }
+  }
+}

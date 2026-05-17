@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_toxicologist__crb_",
+    "name": {
+      "value": "Toxicologist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_wild_empathy",
+        "druid_woodland_stride",
+        "druid_trackless_step",
+        "druid_resist_nature_s_lure"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_natural_poison_lore",
+            "name": {
+              "value": "Natural Poison Lore"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Natural Poison Lore — A toxicologist has a deep understanding of and appreciation for poisons. At 2nd level, she cannot accidentally poison herself when applying poison to a weapon and cannot accidentally poison an animal companion or summone"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_expert_poisoner",
+            "name": {
+              "value": "Expert Poisoner"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Expert Poisoner — At 4th level, a toxicologist increases the DCs of any spells she casts with the poison descriptor by 1."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Expanded Repertoire (Ex) Natural Poison Lore (Ex) Expert Poisoner (Su) Toxic Shaper (Su) Druids protect the natural environs of the world, and sometimes that requires forcibly expelling those who would pollute, despoil, or otherwise harm such areas. Single battles may not be enough to win the war, so some druids specialize in the stealthy application of insidious poisons to their targets. Many druids work to root out their enemies by means of powerful toxins, believing word of their foes’ horrifying deaths will deter others from attempting similar desecrations of the natural world. Expanded Repertoire (Ex) A toxicologist adds the following extracts and spells to her druid spell list as druid spells of the listed spell level: poisoned egg (1st level), transmute potion to poison (2nd level), stinking cloud (3rd level), toxic gift (4th level), and cloudkill (5th level). A toxicologist can channel stored spell energy only into summoning spells she has prepared ahead of time. This ability alters spells and replaces spontaneous casting. Natural Poison Lore (Ex) A toxicologist has a deep understanding of and appreciation for poisons. At 2nd level, she cannot accidentally poison herself when applying poison to a weapon and cannot accidentally poison an animal companion or summoned creature when applying poison to its claws (though poison obviously should not be applied to a creature’s bite). This ability replaces wild empathy and woodland stride. Expert Poisoner (Su) At 4th level, a toxicologist increases the DCs of any spells she casts with the poison descriptor by 1. This ability replaces trackless step and resist nature’s lure. Toxic Shaper (Su) A toxicologist never gains the ability to use wild shape to transform into an elemental or plant. At 8th level, a toxicologist can transform into a Small or Medium vermin. When she takes this form, her wild shape functions as vermin shape I. At 10th level, a toxicologist can transform into a tiny or large vermin. When she takes this form, her wild shape functions as vermin shape II. This ability alters wild shape."
+    }
+  }
+}

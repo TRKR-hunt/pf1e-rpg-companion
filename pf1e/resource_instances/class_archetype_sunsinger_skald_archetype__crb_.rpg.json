@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_sunsinger_skald_archetype__crb_",
+    "name": {
+      "value": "Sunsinger (Skald Archetype)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "skald__crb_"
+    },
+    "parent_class_name": {
+      "value": "Skald"
+    },
+    "replaces": {
+      "value": [
+        "skald_song_of_marching",
+        "skald_spell_kenning"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "skald_arch_pillar_of_light",
+            "name": {
+              "value": "Pillar of Light"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Pillar of Light — At 3rd level, a sunsinger skald can use her raging song to call upon her goddess to imbue her with glory and make all who see it pay heed. A great beam of sunlight shines down upon the skald, casting bright light in a 30"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Pillar of Light (Su) Channel Solar Energy (Su) Sunsingers are particularly religious skalds Â who call down their godâs glory to fill soldiers with fire. Alignment: A sunsinger skald must be lawful good, neutral good, or neutral, and must worship Sarenrae. Pillar of Light (Su) At 3rd level, a sunsinger skald can use her raging song to call upon her goddess to imbue her with glory and make all who see it pay heed. A great beam of sunlight shines down upon the skald, casting bright light in a 30-foot radius, and allows the skaldâs raging song to function as the fascinate bardic performance. This ability replaces song of marching. Channel Solar Energy (Su) At 5th level, a sunsinger skald can channel energy as a cleric once per day to heal wounds or harm undead like a good-aligned cleric. When she does so, she fills the area affected by the channeled energy with light, and can outline creatures in the area of effect as per faerie fire. The sunsinger uses her skald level as her effective cleric level when channeling positive energy. Undead who are particularly harmed by sunlight take a â2 penalty on saving throws against this channeled energy, and take 1 additional point of damage per die of damage dealt by the effect. At 11th level, a sunsinger can channel energy twice per day. At 17th level, she can use this ability three times per day. This ability replaces spell kenning."
+    }
+  }
+}

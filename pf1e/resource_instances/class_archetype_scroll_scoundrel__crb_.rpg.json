@@ -1,0 +1,92 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_scroll_scoundrel__crb_",
+    "name": {
+      "value": "Scroll Scoundrel"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_rogue_talent",
+        "rogue_trap_sense_1",
+        "rogue_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_fast_talker",
+            "name": {
+              "value": "Fast Talker"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fast Talker — At 2nd level, a scroll scoundrelâs penalty on Bluff checks that are unlikely, farfetched, or impossible to achieve is reduced by 5. When he makes a Diplomacy check to adjust a creatureâs starting attitude, he gains a"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_pay_it_back",
+            "name": {
+              "value": "Pay It Back"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Pay It Back — At 4th level, a scroll scoundrel receives a +1 bonus on attack rolls and weapon damage rolls against foes who made melee attacks against him in the previous round. This bonus increases to +2 at 10th level."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_gambit",
+            "name": {
+              "value": "Gambit"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Gambit — At 6th level, a scroll scoundrelâs movement can leave a foe off-balance. If a scroll scoundrel provokes an attack of opportunity by moving past an opponent and that opponent then misses with the attack, that foe is con"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Fast Talker (Ex) Adaptive Learning (Ex) Pay It Back (Ex) Elusive Gambit (Ex) Spot Weakness (Ex) The scroll scoundrel is a rogue archetype that relies on cunning and quick wits to stay alive. He excels in exploiting overconfidence and predictability, using knowledge heâs gained from his extensive research and field experience combined with hearsay and recent observations to react to problems as soon as they arise with swift but unnaturally accurate guesswork. A scroll scoundrel is often called upon to undertake missions where killing a foe isnât nearly as important as humiliating them in public duels or similar conflicts. A scroll scoundrel has the following class features. Fast Talker (Ex) At 2nd level, a scroll scoundrelâs penalty on Bluff checks that are unlikely, farfetched, or impossible to achieve is reduced by 5. When he makes a Diplomacy check to adjust a creatureâs starting attitude, he gains a +3 competence bonus on the skill check. This ability replaces the rogue’s 2nd-level rogue talent. Adaptive Learning (Ex) At 3rd level, a scroll scoundrel gains a +1 bonus on saving throws against abilities and spells he has already successfully saved against within the past minute (even if the spells or abilities in question were used by different creatures). This bonus increases by +1 when the scroll scoundrel reaches 6th level, and by an additional +1 for every three levels thereafter, to a maximum of +6 at 18th level. This ability replaces trap sense. Pay It Back (Ex) At 4th level, a scroll scoundrel receives a +1 bonus on attack rolls and weapon damage rolls against foes who made melee attacks against him in the previous round. This bonus increases to +2 at 10th level. This ability replaces uncanny dodge. Elusive Gambit (Ex) At 6th level, a scroll scoundrelâs movement can leave a foe off-balance. If a scroll scoundrel provokes an attack of opportunity by moving past an opponent and that opponent then misses with the attack, that foe is considered to be flat-footed against the scroll scoundrelâs next melee attack, provided that melee attack comes within 1 round of the missed attack of opportunity. This ability replaces improved uncanny dodge. Spot Weakness (Ex) At 10th level, a scroll scoundrel can discover a weakness in his enemyâs defenses as a swift action. His next successful hit in the same round ignores 5 points of the foeâs damage reduction or hardness. At 15th level, he ignores the first 10 points, and at 20th level, the first 15 points. If the attack deals any sneak attack damage, he ignores all of the foeâs damage reduction or hardness for that attack. He cannot use this ability on foes that are immune to critical hits. This ability replaces the scroll scoundrelâs 10th-level rogue talent."
+    }
+  }
+}

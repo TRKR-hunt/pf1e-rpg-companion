@@ -1,0 +1,58 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_exemplar__crb_",
+    "name": {
+      "value": "Exemplar"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "brawler__crb_"
+    },
+    "parent_class_name": {
+      "value": "Brawler"
+    },
+    "replaces": {
+      "value": [
+        "brawler_martial_training_unarmed_strike",
+        "brawler_close_weapon_mastery",
+        "brawler_maneuver_training",
+        "brawler_ac_bonus_1_1_per_4_levels_in_light_no_armor",
+        "brawler_brawler_s_strike"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_arch_arms",
+            "name": {
+              "value": "Arms"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Arms — At 1st level, an exemplar can expend a use of martial flexibility to rouse her allies into action. All allies within 30 feet are no longer flat-footed, even if they are surprised. Using this ability is a move action. At "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Call to Arms (Ex) Inspiring Prowess (Ex) Field Instruction (Ex) A versatile soldier who inspires her companions with her fighting prowess, an exemplar is at home on the front lines of battles anywhere. Call to Arms (Ex) At 1st level, an exemplar can expend a use of martial flexibility to rouse her allies into action. All allies within 30 feet are no longer flat-footed, even if they are surprised. Using this ability is a move action. At 6th level, the exemplar can use it as a swift action instead. At 10th level, she can use it as a free action. At 12th level, she can use it as an immediate action. This ability replaces unarmed strike and close weapon Mastery. Inspiring Prowess (Ex) At 3rd level, an exemplar gains the ability to use certain bardic performances. She can use this ability for a number of rounds per day equal to 3 + her Charisma modifier; this increases by 1 round per brawler level thereafter. The exemplar’s effective bard level for this ability is equal to her brawler level â 2. At 3rd level, the exemplar can use inspire courage. At 11th level, the exemplar can use inspire greatness. At 15th level, the exemplar can use inspire heroics. Instead of the Perform skill, she activates this ability with impressive flourishes and displays of martial talent (this uses visual components). This ability otherwise functions as bardic performance; feats and other effects that affect bardic performance (such as the Extra Performance feat) apply to it. This ability replaces maneuver training and AC bonus. Field Instruction (Ex) At 5th level, as a standard action an exemplar can grant a teamwork feat to all allies within 30 feet who can see and hear her. This teamwork feat must be one the exemplar knows or has gained with the martial flexibility ability. Allies retain the use of this teamwork feat for 3 rounds + 1 round for every 2 brawler levels. If the granted teamwork feat is one gained from martial flexibility, this duration ends immediately if the exemplar loses access to that feat. Allies don’t need to meet the prerequisites of this teamwork feat. The exemplar can use this ability once per day at 5th level, plus one additional time per day at 9th, 12th, and 17th level. This ability otherwise counts as the cavalier’s tactician class feature; feats and other effects which affect tactician (such as Practiced Tactician ) apply to it. This ability replaces brawler’s strike."
+    }
+  }
+}

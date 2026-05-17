@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_undead_master__crb_",
+    "name": {
+      "value": "Undead Master"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "wizard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Wizard"
+    },
+    "replaces": {
+      "value": [
+        "wizard_scribe_scroll",
+        "wizard_bonus_feat"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "wizard_arch_lich_loved",
+            "name": {
+              "value": "Lich-Loved"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Lich-Loved — At 20th level, an undead master gains the benefits of the undead sorcerer bloodlineâs one of us ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Necromantic Focus Necropolitan (Ex) Corpse Bond (Su) Command Undead (Su) Reanimator (Su) Lich-Loved (Su) Undead masters have great power over undeath. Necromantic Focus An undead master must be of an evil alignment. If he becomes nonevil, he can still use his powers but canât progress any further as a wizard. Most undead masters specialize in the necromancy school, and an undead master canât have necromancy as an opposition school. This alters arcane school and alignment. Necropolitan (Ex) An undead master gains a bonus equal to half his wizard level (minimum +1) on Diplomacy and Knowledge checks regarding undead creatures. Because of his obsessive focus on the undead, he takes a â2 penalty when attempting such checks regarding living creatures. Corpse Bond (Su) An undead master can forge an arcane bond with an object, but that object must be made at least partially of bone. Alternatively, he can animate a corpse companion, as per the undead lord cleric archetype. He canât gain a familiar. This ability alters arcane bond. Command Undead (Su) An undead master gains Command Undead as a bonus feat, treating his wizard level as his cleric level. If he lacks the ability to channel negative energy for the purpose of Command Undead, he can expend 3 uses of any 1st-level arcane school ability that normally has a number of uses per day equal to 3 + his Intelligence modifier, rather than a use of channel energy. If heâs a necromancer with the power over undead ability, he instead gains Improved Channel. This ability replaces Scribe Scroll. Reanimator (Su) An undead master adds the following spells to his spellbook at the given wizard levels: 1stâ repair undead; 3rdâ lesser animate dead; 5thâ animate dead; 7thâ undead anatomy I; 9thâ create undead; 11thâ undeath to death; 13thâ create greater undead; 15thâ undead anatomy IV; 17thâ cursed earth. He can spontaneously cast any of these spells by sacrificing a prepared spell of the same level or higher. The undead master can cast lesser animate dead, animate dead, create undead, and create greater undead as if they were 1 level lower than their normal wizard spell level; this does not alter their level for the purpose of item crafting and the like. This ability replaces the bonus feats gained at 5th, 10th, and 15th levels. Lich-Loved (Su) At 20th level, an undead master gains the benefits of the undead sorcerer bloodlineâs one of us ability. This ability replaces the bonus feat gained at 20th level."
+    }
+  }
+}

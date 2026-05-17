@@ -1,0 +1,36 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_chronomancer__crb_",
+    "name": {
+      "value": "Chronomancer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "wizard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Wizard"
+    },
+    "replaces": {
+      "value": [
+        "wizard_arcane_bond",
+        "wizard_bonus_feat"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Time is not an immutable force but an inscrutable phenomenon. Rare arcane scholars known as chronomancers demonstrate the ability to shift themselves in short bursts between the past, future, and alternate presents. Temporal Pool (Su) A chronomancer gains a reservoir of temporal energy to manipulate the time stream in a variety of ways listed below. This temporal pool has a number of points equal to half his class level + his Intelligence modifier (minimum 1). This pool refreshes once per day when the chronomancer prepares his spells. Forewarned: The chronomancer can expend 1 point from his temporal pool when he rolls initiative to allow himself or an ally within 30 feet to roll 1d4 and add it to that characterâs initiative result. At 5th level, the chronomancer can expend 2 points from his temporal pool as an immediate action to apply this benefit to a saving throw he has just rolled (but before the result is revealed). At 10th level, the die size increases to 1d6. Rewind: As an immediate action after losing a spell due to a failed concentration check or after casting a spell that had no effect (such as due to successful saving throws, a failed caster level check to overcome spell resistance, or other immunities), the chronomancer can expend a number of points from his temporal pool equal to half the spellâs level (minimum 1) to immediately prepare the spell again, as if it had not been cast. Any material components expended in the original casting remain expended, as are actions used to cast the original spell. Accelerate: At 10th level when casting a spell, the chronomancer can expend 2 points from his temporal pool to apply the effects of haste to one creature affected by the spell until the end of the chronomancerâs next turn. Complex Contingency: At 15th level, the chronomancer can specify two trigger conditions when casting contingency. In addition, when the chronomancerâs contingency would trigger, the chronomancer can expend 1 point from his temporal pool as an immediate action to prevent the contingency from triggering, saving the stored effect for later. Parallel Self: At 20th level, if the chronomancer is killed, he can immediately expend 10 points from his temporal pool to summon an alternate version of himself from a parallel existence, appearing up to 30 feet away. This alternate version is identical to the chronomancer except he is a member of a random race, determined using the table that accompanies reincarnate. The alternate version has half the chronomancerâs total hit points (but not any temporary hit points ) and those spells the chronomancer had prepared when he died. The alternate version has the same equipment as the chronomancer but does not bear any artifacts the chronomancer was carrying. Any expendable items, charges, or expensive material components the alternate version uses are also expended for the chronomancer. This alternate version remains for 1 minute before the duplicate and its equipment are ripped back to their reality. This ability replaces arcane bond and the bonus feats gained at 10th, 15th, and 20th levels."
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_guerrilla__crb_",
+    "name": {
+      "value": "Guerrilla"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_trapfinding",
+        "rogue_evasion",
+        "rogue_trap_sense_1",
+        "rogue_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_skilled_liar",
+            "name": {
+              "value": "Skilled Liar"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Skilled Liar — Whenever a guerrilla uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). A guerrilla can still use Disable Device to disarm magic traps."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_secret_messenger",
+            "name": {
+              "value": "Secret Messenger"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Secret Messenger — At 3rd level, a guerrilla gains a +1 bonus on Bluff checks to convey secret messages and on Sense Motive checks to discern secret messages. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of +6 "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_guerrilla_sniping",
+            "name": {
+              "value": "Guerrilla Sniping"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Guerrilla Sniping — At 4th level, when a guerrilla is in an area of dim light or darkness, she takes only a â10 penalty on her Stealth check to maintain her obscured location while sniping."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_uncanny_dodge",
+            "name": {
+              "value": "Uncanny Dodge"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Uncanny Dodge — At 8th level, a guerrilla gains uncanny dodge."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Skilled Liar (Ex) Cover of Night (Ex) Secret Messenger (Ex) Guerrilla Sniping (Ex) Uncanny Dodge (Ex) Guerrillas fight against oppressive leadership and governmentsâoften under cover of night. Any rogue (including the unchained rogue ) can select the guerrilla archetype. Skilled Liar (Ex) Whenever a guerrilla uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). A guerrilla can still use Disable Device to disarm magic traps. This ability replaces trapfinding. Cover of Night (Ex) At 2nd level, a guerrilla learns to use darkness to her advantage. She gains a +5 bonus on Disguise, Sleight of Hand, and Stealth checks while she is in areas of dim light or darkness, and can create mundane disguises in dim light or darkness with a full-round action (instead of the normal 1d3 Ã 10 minutes). Additionally, while in dim light or darkness, if a guerrilla would have concealment, she instead has total concealment. This ability replaces evasion. Secret Messenger (Ex) At 3rd level, a guerrilla gains a +1 bonus on Bluff checks to convey secret messages and on Sense Motive checks to discern secret messages. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of +6 at 18th level). This ability replaces trap sense. Guerrilla Sniping (Ex) At 4th level, when a guerrilla is in an area of dim light or darkness, she takes only a â10 penalty on her Stealth check to maintain her obscured location while sniping. This ability replaces uncanny dodge. Uncanny Dodge (Ex) At 8th level, a guerrilla gains uncanny dodge. This ability replaces improved uncanny dodge. Rogue Talents: The following rogue talents complement the guerrilla archetype: camouflage, fast stealth, powerful sneak, rogue crawl, stand up, and surprise attack. Advanced Rogue Talents: The following advanced rogue talents complement the guerrilla archetype: deadly sneak, master of disguise, stealthy sniper, and opportunist."
+    }
+  }
+}

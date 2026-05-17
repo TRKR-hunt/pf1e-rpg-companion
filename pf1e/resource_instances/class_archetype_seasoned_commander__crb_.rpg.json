@@ -1,0 +1,92 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_seasoned_commander__crb_",
+    "name": {
+      "value": "Seasoned Commander"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_bonus_combat_feat",
+        "fighter_armor_training_1",
+        "fighter_weapon_training_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_tactician",
+            "name": {
+              "value": "Tactician"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Tactician — At 3rd level, a seasoned commander gains the cavalierâs tactician class feature, treating his fighter level as his cavalier level for the purposes of this ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_greater_tactician",
+            "name": {
+              "value": "Greater Tactician"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Greater Tactician — At 11th level, the seasoned commander gains the cavalierâs greater tactician class feature, treating his fighter level as his cavalier level for the purposes of this ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_master_tactician",
+            "name": {
+              "value": "Master Tactician"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Master Tactician — At 17th level, the seasoned commander gains the cavalierâs master tactician class feature, treating his fighter level as his cavalier level for the purposes of this ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Strategic Training (Ex) Tactician (Ex) Inspiring Speech (Ex) Inspire Greatness (Ex) Greater Tactician (Ex) Inspire Heroics (Ex) Master Tactician (Ex) The seasoned commander excels at leading troops through inspiration and the use of unit tactics. Strategic Training (Ex) A seasoned commander gains 4 skill ranks + a number of skill ranks equal to his Intelligence modifier at each level instead of the normal 2 skill ranks + Intelligence modifier at each level. A seasoned commander adds Diplomacy, Knowledge (geography), Knowledge (nobility), Linguistics, and Sense Motive to his list of class skills. This alters the fighterâs skill ranks per level and class skills, and replaces the bonus fighter combat feat gained at 1st level and proficiency with heavy armor and tower shields. Tactician (Ex) At 3rd level, a seasoned commander gains the cavalierâs tactician class feature, treating his fighter level as his cavalier level for the purposes of this ability. This ability replaces armor training 1. Inspiring Speech (Ex) At 5th level, a seasoned commander can give an inspiring speech as a standard action once per day. If he does, all allies who can hear his speech gain the benefits of inspire courage, granting bonuses 1 lower than those granted by a bard of the seasoned commanderâs fighter level, lasting 1 round per fighter level + his Charisma modifier (abilities that affect a bardic performance, such as Lingering Performance, have no effect on this ability). At 7th level, he can perform the speech as a move action, and at 13th level, he can perform the speech as a swift action. This ability replaces weapon training 1 and 3. Inspire Greatness (Ex) At 9th level, a seasoned commander gains an additional daily use of his inspiring speech ability, and he can also choose to use his inspiring speech to grant the effects of inspire greatness to one ally (instead of inspire courage ). For every 2 levels a seasoned commander attains beyond 9th, he can target one additional ally while using this ability (up to a maximum of six at 19th level). This ability functions in all other respects like the seasoned commanderâs inspire courage ability. Whichever inspiring speech he chooses to use, if the seasoned commander uses an inspiring speech before the duration of his previous inspiring speech ends, the new inspiring speech replaces the old speech. This ability replaces weapon training 2. Greater Tactician (Ex) At 11th level, the seasoned commander gains the cavalierâs greater tactician class feature, treating his fighter level as his cavalier level for the purposes of this ability. This ability replaces armor training 3. Inspire Heroics (Ex) At 15th level, a seasoned commander gains an additional daily use of his inspiring speech, and he can also choose to use his inspiring speech to grant the effects of inspire heroics to one ally (instead of inspire courage or inspire greatness). For every 2 levels a seasoned commander attains beyond 15th, he can target one additional ally while using this ability. This ability functions in all other respects like the seasoned commanderâs inspire courage ability. This ability replaces armor training 4. Master Tactician (Ex) At 17th level, the seasoned commander gains the cavalierâs master tactician class feature, treating his fighter level as his cavalier level for the purposes of this ability. This ability replaces weapon training 4."
+    }
+  }
+}

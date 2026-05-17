@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_fey_world_minstrel__crb_",
+    "name": {
+      "value": "Fey World Minstrel"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_bardic_knowledge",
+        "bard_inspire_courage_1",
+        "bard_dirge_of_doom",
+        "bard_well_versed"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_wild_empathy",
+            "name": {
+              "value": "Wild Empathy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wild Empathy — A Fey World minstrel gains the wild empathy druid class feature, using his bard level as his druid level for this ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_lure",
+            "name": {
+              "value": "Lure"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Lure — At 2nd level, a Fey World minstrel gains the resist natureâs lure druid class feature."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Fey Magic Wild Empathy (Ex) Bardic Performance Most cultures tell stories of people stolen away by the fey, only to return years later, forever changed. The Fey World minstrel was changed in such a way by the fey, and his performances channel the mysterious powers of the Fey World. Fey Magic A Fey World minstrel adds summon natureâs ally spells to his spell list instead of the equivalent summon monster spells. This ability alters the Fey World minstrelâs spell list. Wild Empathy (Ex) A Fey World minstrel gains the wild empathy druid class feature, using his bard level as his druid level for this ability. This ability replaces bardic knowledge. Bardic Performance A Fey World minstrel gains the following types of bardic performance. Echoes of the Fey World (Su) A Fey World minstrel infuses himself or a single willing ally within 30 feet with the strange magic of the Fey World, granting the target one of the special abilities from the fey creature template other than change shape for 1 round. For every 3 levels beyond 1st the Fey World minstrel has, he can target one additional ally or add an additional special ability to one of his targets. This is a polymorph effect that relies on audible components. This ability replaces inspire courage. Gremlinâs Luck (Su) A Fey World minstrel of 8th level or higher can use his performance to inflict bad luck on a target within 30 feet for 1 round. Whenever the target rolls an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A target that succeeds at a Will save (DC 10 + half the Fey World minstrelâs level + his Charisma modifier) negates the effect and is immune to this ability for 24 hours. This is a mind-affecting effect that relies on audible components. This ability replaces dirge of doom. Resist Natureâs Lure (Ex) At 2nd level, a Fey World minstrel gains the resist natureâs lure druid class feature. This ability replaces well-versed."
+    }
+  }
+}

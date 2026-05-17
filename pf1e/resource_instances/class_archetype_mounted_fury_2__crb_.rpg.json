@@ -1,0 +1,56 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_mounted_fury_2__crb_",
+    "name": {
+      "value": "Mounted Fury #2"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "barbarian_unchained__crb_"
+    },
+    "parent_class_name": {
+      "value": "Barbarian (Unchained)"
+    },
+    "replaces": {
+      "value": [
+        "barbarian_unchained_fast_movement_10_ft",
+        "barbarian_unchained_uncanny_dodge_rage_power_every_2_levels",
+        "barbarian_unchained_improved_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_unchained_arch_fast_rider",
+            "name": {
+              "value": "Fast Rider"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fast Rider — The speed of any mount the barbarian rides is increased by 10 feet."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Many barbarian tribes are masters of the horse, teaching their members how to ride from a young age. As a result, barbarians from such tribes are even more terrifying when mounted, using their steedsâ speed and strength to great advantage. A mounted fury has the following class features. Fast Rider (Ex) The speed of any mount the barbarian rides is increased by 10 feet. This ability replaces fast movement. Bestial Mount (Ex) At 5th level, the mounted fury gains the service of a feral mount. This ability functions as a druid’s animal companion, using the barbarianâs level â4 as her effective druid level. This companion must be one that she is capable of riding and is suitable as a mount. A Medium barbarian can select a camel or a horse. A Small barbarian can select a pony or a wolf, but can also select a boar or a dog if she is at least 8th level. Whenever a barbarian is raging while mounted on her bestial mount, the mount gains a +2 morale bonus to its Strength. This ability replaces uncanny dodge and improved uncanny dodge. Rage Powers: The following rage powers complement the mounted fury archetype: ferocious mount, ferocious trample, greater ferocious mount, greater ferocious trample, and spirit steed."
+    }
+  }
+}

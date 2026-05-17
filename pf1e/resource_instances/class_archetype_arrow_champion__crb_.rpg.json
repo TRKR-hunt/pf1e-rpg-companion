@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_arrow_champion__crb_",
+    "name": {
+      "value": "Arrow Champion"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "swashbuckler__crb_"
+    },
+    "parent_class_name": {
+      "value": "Swashbuckler"
+    },
+    "replaces": {
+      "value": [
+        "swashbuckler_deeds",
+        "swashbuckler_swashbuckler_weapon_training_1_atk_dmg_1_every_4"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_panache",
+            "name": {
+              "value": "Panache"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Panache — An arrow champion regains panache when she makes a killing blow with a light or one-handed piercing melee weapon or a bow (a longbow, shortbow, composite longbow, or composite shortbow ). This alters panache. Deeds An ar"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_feint",
+            "name": {
+              "value": "Feint"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Feint — At 7th level, when the arrow champion hits a foe within 30 feet with a bow attack, she can forgo the damage and instead attempt a Bluff check to feint against that foe as a swift action. If successful, in addition to the"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Arrow Champion’s Panache (Ex) Deeds Weapon Versatility (Ex) Versatile Weapon Mastery (Ex) While the swashbuckler’s agile style of combat is equally suited to urban settings and wilderness, the bow and arrow is an indispensable asset in open areas and harsh terrain where fancy footwork isn’t enough to close the distance or dodge the enemy’s arrows. Arrow Champion’s Panache (Ex) An arrow champion regains panache when she makes a killing blow with a light or one-handed piercing melee weapon or a bow (a longbow, shortbow, composite longbow, or composite shortbow ). This alters panache. Deeds An arrow champion gains the following deeds, each of which replaces an existing deed. Retaliation (Ex) When a foe hits the arrow champion with an attack, she can spend 1 panache point to make a retaliatory attack of opportunity against that foe. If the triggering attack is a melee attack, she can retaliate with a melee attack using a light or one-handed piercing melee weapon, provided the creature is within her reach. If the triggering attack is a ranged attack, she can retaliate with a ranged attack using a bow, provided that the creature is within 30 feet of her. This deed’s cost cannot be reduced by any ability or effect that reduces the number of panache points a deed costs. This deed replaces opportune parry and riposte. Precise Aim (Ex) At 3rd level, when attacking with a light or one-handed piercing melee weapon, an arrow champion can add her swashbuckler level to the damage she deals, as the swashbuckler’s precise strike deed. She can also add one-quarter of her swashbuckler level to the damage dealt when attacking with a bow, but the target must be within 30 feet of her. As a swift action, an arrow champion can spend 1 panache point to increase the range of the effect to her bow’s first range increment. Unlike a normal swashbuckler, an arrow champion cannot spend panache to double the extra damage. This deed alters precise strike. Swift Switch (Ex) At 3rd level, while the arrow champion has at least 1 panache point, she can sheathe or draw an unhidden light or one-handed piercing melee weapon or a bow as a swift action without provoking attacks of opportunity. If the arrow champion spends 1 panache point, she can perform either action as an immediate action. In addition, if she has the Quick Draw feat and one of her hands is free, she can sheathe a weapon and draw an unhidden weapon as part of the same swift action, provided that one of the weapons is a bow and the other is a light or one-handed piercing melee weapon. If she spends 1 panache point, she can perform the switch as an immediate action. This deed replaces swashbuckler’s initiative. Archer’s Feint (Ex) At 7th level, when the arrow champion hits a foe within 30 feet with a bow attack, she can forgo the damage and instead attempt a Bluff check to feint against that foe as a swift action. If successful, in addition to the normal benefits of feinting, she doubles the extra damage from precise aim on her next melee attack before the end of her next turn. This deed replaces superior feint. Weapon Versatility (Ex) At 5th level, an arrow champion learns to use precision-based tricks just as accurately with her bow as with her melee weapons. Provided that her swashbuckler level is high enough, she can use the bleeding wound, deadly stab, menacing swordplay, perfect thrust, stunning stab, and targeted strike deeds when attacking with a bow, so long as her target is within 30 feet. If she spends a panache point to increase the range of her precise aim ability, the increased range applies to this ability as well. This replaces swashbuckler weapon training. Versatile Weapon Mastery (Ex) At 20th level, an arrow champion gains the benefits of swashbuckler weapon mastery when using a light or one-handed piercing melee weapon or a bow. This alters swashbuckler weapon mastery."
+    }
+  }
+}

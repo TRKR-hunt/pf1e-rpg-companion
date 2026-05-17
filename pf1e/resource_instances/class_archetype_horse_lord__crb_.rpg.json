@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_horse_lord__crb_",
+    "name": {
+      "value": "Horse Lord"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ranger__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ranger"
+    },
+    "replaces": {
+      "value": [
+        "ranger_camouflage",
+        "ranger_hide_in_plain_sight"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_strong_bond",
+            "name": {
+              "value": "Strong Bond"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Strong Bond — At 12th level, the horse lord strengthens his bond with his mount. The Rangerâs effective druid level for his mount is now equal to his Ranger level."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_spiritual_bond",
+            "name": {
+              "value": "Spiritual Bond"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Spiritual Bond — At 17th level, the horse lord can grant his animal companion temporary hit points equal to his Ranger level once per day. While these temporary hit points last, when his mount is within 30 feet of him, he can choose to s"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Combat Style Feat (Ex) Mounted Bond (Ex) Strong Bond (Ex) Spiritual Bond (Su) Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts. Horse lords are unparalleled mounted combatants, the envy of even the most dedicated cavalier. Though called âhorse lordsâ as a generic term, these rangers are not restricted to horses for their animal companionsâany creature the Ranger can ride is included in these abilities. A horse lord has the following class features: Combat Style Feat (Ex) At 2nd level, a horse lord must choose the mounted combat style. Mounted Bond (Ex) At 4th level, the horse lord forms a bond with an animal he can use as a mount, which becomes his animal companion. A Medium Ranger can select a camel or a horse. A small Ranger can select a pony or wolf, but can also select a boar or dog if he is at least 7th level. This ability functions like the druid animal companion ability except that the Rangerâs effective druid level is equal to his Ranger level â 3. The Ranger gains a +2 bonus on Handle Animal and Ride checks with his animal companion mount. This ability replaces hunterâs bond. Strong Bond (Ex) At 12th level, the horse lord strengthens his bond with his mount. The Rangerâs effective druid level for his mount is now equal to his Ranger level. This ability replaces camouflage. Spiritual Bond (Su) At 17th level, the horse lord can grant his animal companion temporary hit points equal to his Ranger level once per day. While these temporary hit points last, when his mount is within 30 feet of him, he can choose to share the damage taken by his mount as if using shield other. This ability replaces hide in plain sight."
+    }
+  }
+}

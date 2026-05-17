@@ -1,0 +1,168 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_green_knight__crb_",
+    "name": {
+      "value": "Green Knight"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "cavalier__crb_"
+    },
+    "parent_class_name": {
+      "value": "Cavalier"
+    },
+    "replaces": {
+      "value": [
+        "cavalier_tactician",
+        "cavalier_mount",
+        "cavalier_cavalier_s_charge",
+        "cavalier_expert_trainer",
+        "cavalier_banner",
+        "cavalier_mighty_charge",
+        "cavalier_supreme_charge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_beast_tongue",
+            "name": {
+              "value": "Beast Tongue"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Beast Tongue — A green knight can use Diplomacy to improve an animal’s attitude. Beast tongue otherwise functions like the druid’s wild empathy ability, using the green knight’s Diplomacy modifier and using her cavalier level as her ef"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_implacable_knight",
+            "name": {
+              "value": "Implacable Knight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Implacable Knight — A green knight gains Endurance and Diehard as bonus feats."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_ferocious",
+            "name": {
+              "value": "Ferocious"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Ferocious — At 3rd level, a green knight is not staggered when below 0 hit points. At 9th level, taking actions when below 0 hit points does not cause her to lose hit points."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_woodland_stride",
+            "name": {
+              "value": "Woodland Stride"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Woodland Stride — At 4th level, a green knight gains the druid’s woodland stride ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_stalwart",
+            "name": {
+              "value": "Stalwart"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Stalwart — At 9th level, whenever a green knight succeeds at a Fortitude or Will save against an effect that has a reduced effect on a successful save, she instead negates the effect."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_oaken_vitality",
+            "name": {
+              "value": "Oaken Vitality"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Oaken Vitality — At 11th level, nature protects a green knight from many afflictions. The green knight becomes immune to disease, infestations, and poison."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_take_their_heads",
+            "name": {
+              "value": "Take Their Heads"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Take Their Heads — A green knight’s blade is blessed by mighty fey powers and unerringly seeks out foes’ necks. At 17th level, any slashing weapon a green knight wields gains the vorpal weapon special ability."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Beast Tongue (Ex) Implacable Knight (Ex) Nature’s Servant (Ex) Ferocious (Ex) Woodland Stride (Ex) Stalwart (Ex) Oaken Vitality (Su) Take Their Heads (Su) Indestructible (Su) Some knights serve nature itself and can be found protecting unspoiled natural places or serving fey beings. Beast Tongue (Ex) A green knight can use Diplomacy to improve an animal’s attitude. Beast tongue otherwise functions like the druid’s wild empathy ability, using the green knight’s Diplomacy modifier and using her cavalier level as her effective druid level, and it counts as that ability for the purpose of other effects (such as feat prerequisites or effects that alter or improve wild empathy ). This replaces tactician. Implacable Knight (Ex) A green knight gains Endurance and Diehard as bonus feats. This replaces mount. Nature’s Servant (Ex) A green knight must select the order of the Green. This alters order. Ferocious (Ex) At 3rd level, a green knight is not staggered when below 0 hit points. At 9th level, taking actions when below 0 hit points does not cause her to lose hit points. This replaces cavalier’s charge. Woodland Stride (Ex) At 4th level, a green knight gains the druid’s woodland stride ability. This replaces expert trainer and banner. Stalwart (Ex) At 9th level, whenever a green knight succeeds at a Fortitude or Will save against an effect that has a reduced effect on a successful save, she instead negates the effect. This replaces greater tactician. Oaken Vitality (Su) At 11th level, nature protects a green knight from many afflictions. The green knight becomes immune to disease, infestations, and poison. This replaces mighty charge and greater banner. Take Their Heads (Su) A green knight’s blade is blessed by mighty fey powers and unerringly seeks out foes’ necks. At 17th level, any slashing weapon a green knight wields gains the vorpal weapon special ability. This replaces master tactician. Indestructible (Su) At 20th level, a green knight is virtually impervious to death. She gains a +6 bonus to her Constitution score. In addition, the green knight becomes immune to death effects and to effects that would kill her without reducing her to 0 hit points, unless the effect involves decapitation. If she is decapitated, the green knight can continue to act normally. Reattachment requires the head and body to be joined and the application of any effect that restores hit points. This replaces supreme charge."
+    }
+  }
+}

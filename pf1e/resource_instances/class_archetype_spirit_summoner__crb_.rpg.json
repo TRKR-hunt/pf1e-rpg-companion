@@ -1,0 +1,39 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_spirit_summoner__crb_",
+    "name": {
+      "value": "Spirit Summoner"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "summoner__crb_"
+    },
+    "parent_class_name": {
+      "value": "Summoner"
+    },
+    "replaces": {
+      "value": [
+        "summoner_life_link_summon_monster_i_sla_scaling_cantrips_",
+        "summoner_aspect",
+        "summoner_maker_s_call",
+        "summoner_merge_forms",
+        "summoner_transposition"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Spirit (Su) Eidolon Hex A spirit summoner is an arcane spellcaster whose eidolon is a manifestation of a shamanic spirit. The bond connecting the summoner and this spirit might be friendly, as a member of a tribe giving flesh to his protector spirit, or hostile, as an outlander or rival compelling service from an unwilling spirit. The summoner can draw upon the divine power of this spirit, but is not constrained by the spirit’s morals or ethics. Spirit (Su) A spirit summoner forms a mystical bond with one spirit from the shaman class. He gains the spirit ability of that spirit and uses his summoner level as his shaman level for determining its effects. The spirit summoner can select spells granted by that spirit as summoner spells known, using the shaman level of the spell as the summoner spell level. The summoner cannot select spirit spells that are above 6th level. At 9th level, the summoner gains the abilities listed in the greater version of his selected spirit. At 17th level, the summoner gains the abilities listed for the true version of his selected spirit. This ability replaces summon monster. Eidolon At 1st level, a spirit summoner begins play with a powerful outsider called an eidolon. The eidolon’s form and abilities must be appropriate to his chosen spirit, at the GM’s discretionâfor example, a summoner with the flame spirit cannot have an eidolon with ice or water abilities, a summoner with a heavens spirit cannot have a fiend-like eidolon, and so on. The summoner can use temporary effects (such as evolution surge ) to alter the eidolon into an inappropriate form, but cannot use permanent effects (such as transmogrify ) to do so. This ability alters the eidolon class feature. Hex At 6th level, a spirit summoner can select a shaman hex that is appropriate to his spirit, chosen from the general list of shaman hexes or the specific hexes allowed by his spirit. This otherwise functions as a shaman’s hex, and uses his summoner level as his shaman level. Like a shaman, a spirit summoner uses his Wisdom modifier to determine hex DCs. At 8th, 10th, and 16th levels, the summoner can select another hex. This ability replaces aspect, maker’s call, merge forms, and transposition."
+    }
+  }
+}

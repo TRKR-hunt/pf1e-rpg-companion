@@ -1,0 +1,90 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_urban_druid__crb_",
+    "name": {
+      "value": "Urban Druid"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_venom_immunity"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_lorekeeper",
+            "name": {
+              "value": "Lorekeeper"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Lorekeeper — At 2nd level, an urban druid adds Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) skills to her list of class skills. She also receives a +2 bonus on these skill checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_resist_temptation",
+            "name": {
+              "value": "Resist Temptation"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Resist Temptation — At 4th level, an urban druid gains a +2 bonus on saves vs. divinations and enchantments."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_mental_strength",
+            "name": {
+              "value": "Mental Strength"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Mental Strength — At 9th level, an urban druid gains immunity to charm and compulsion effects."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "While many druids keep to the wilderness, some make their way within settlements, communing with the animals and vermin who live there and speaking for the nature that runs rampant in civilizationâs very cradle. Spontaneous Casting An urban druid can channel stored spell energy into domain spells that she has not prepared ahead of time. She can âloseâ a prepared spell in order to cast any domain spell of the same level or lower. This ability replaces the ability to spontaneously cast summon natureâs ally spells. Nature Bond (Ex) An urban druid may not select an animal companion. Instead, she must choose from the following domains, rather than those usually available to druids: Charm, Community, Knowledge, Nobility, Protection, Repose, Rune, or Weather. Lorekeeper (Ex) At 2nd level, an urban druid adds Diplomacy, Knowledge (history), Knowledge (local), and Knowledge (nobility) skills to her list of class skills. She also receives a +2 bonus on these skill checks. This ability replaces a druidâs woodland stride and trackless step abilities. Resist Temptation (Ex) At 4th level, an urban druid gains a +2 bonus on saves vs. divinations and enchantments. This ability replaces the resist natureâs lure ability. A Thousand Faces (Su) An urban druid gains this ability at 6th level. Wild Shape (Su) An urban druid gains this ability at 8th level, except that her effective druid level for the ability is equal to her druid level â 4. Mental Strength (Ex) At 9th level, an urban druid gains immunity to charm and compulsion effects. This ability replaces venom immunity."
+    }
+  }
+}

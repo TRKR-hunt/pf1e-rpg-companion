@@ -1,0 +1,182 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_crossbowman__crb_",
+    "name": {
+      "value": "Crossbowman"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_armor_training_1",
+        "fighter_weapon_training_1",
+        "fighter_armor_mastery"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_deadshot",
+            "name": {
+              "value": "Deadshot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Deadshot — At 3rd level, when a crossbowman attacks with a crossbow as a readied action, he may add 1/2 his Dexterity bonus (minimum +1) on his damage roll."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_crossbow_expert",
+            "name": {
+              "value": "Crossbow Expert"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Crossbow Expert — At 5th level, a crossbowman gains a +1 bonus on attack and damage rolls with crossbows. This bonus increases by +1 per four levels after 5th."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_improved_deadshot",
+            "name": {
+              "value": "Improved Deadshot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Improved Deadshot — At 7th level, when a crossbowman attacks with a crossbow as a readied action, his target is denied its Dexterity bonus to its AC."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_quick_sniper",
+            "name": {
+              "value": "Quick Sniper"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Quick Sniper — At 9th level, a crossbowman gains a bonus equal to 1/2 his fighter level on Stealth checks when sniping. When he is hit with a ranged attack, he can shoot his crossbow at his attacker as an immediate action if it is load"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_greater_deadshot",
+            "name": {
+              "value": "Greater Deadshot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Greater Deadshot — At 11th level, when a crossbowman attacks with a crossbow as a readied action, he may add his Dexterity bonus (minimum +1) on his damage roll."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_safe_shot",
+            "name": {
+              "value": "Safe Shot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Safe Shot — At 13th level, a crossbowman does not provoke attacks of opportunity when making ranged attacks with a crossbow."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_pinpoint_targeting",
+            "name": {
+              "value": "Pinpoint Targeting"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Pinpoint Targeting — At 15th level, a crossbowman gains Pinpoint Targeting as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_meteor_shot",
+            "name": {
+              "value": "Meteor Shot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Meteor Shot — At 17th level, as a standard action, a crossbowman can make one attack with a crossbow at a â4 penalty. If the attack hits, it inflicts damage normally and the target is subject to a bull rush or a trip maneuver using "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Deadshot (Ex) Crossbow Expert (Ex) Improved Deadshot (Ex) Quick Sniper (Ex) Greater Deadshot (Ex) Safe Shot (Ex) Pinpoint Targeting (Ex) Meteor Shot (Ex) Penetrating Shot (Ex) Weapon Mastery (Ex) The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon, as a craftsman mastering a lethal tool. Deadshot (Ex) At 3rd level, when a crossbowman attacks with a crossbow as a readied action, he may add 1/2 his Dexterity bonus (minimum +1) on his damage roll. This ability replaces armor training 1. Crossbow Expert (Ex) At 5th level, a crossbowman gains a +1 bonus on attack and damage rolls with crossbows. This bonus increases by +1 per four levels after 5th. This ability replaces weapon training 1. Improved Deadshot (Ex) At 7th level, when a crossbowman attacks with a crossbow as a readied action, his target is denied its Dexterity bonus to its AC. This ability replaces armor training 2. Quick Sniper (Ex) At 9th level, a crossbowman gains a bonus equal to 1/2 his fighter level on Stealth checks when sniping. When he is hit with a ranged attack, he can shoot his crossbow at his attacker as an immediate action if it is loaded. This ability replaces weapon training 2. Greater Deadshot (Ex) At 11th level, when a crossbowman attacks with a crossbow as a readied action, he may add his Dexterity bonus (minimum +1) on his damage roll. This ability replaces This ability replaces armor training 3. Safe Shot (Ex) At 13th level, a crossbowman does not provoke attacks of opportunity when making ranged attacks with a crossbow. This ability replaces weapon training 3. Pinpoint Targeting (Ex) At 15th level, a crossbowman gains Pinpoint Targeting as a bonus feat. This ability replaces armor training 4. Meteor Shot (Ex) At 17th level, as a standard action, a crossbowman can make one attack with a crossbow at a â4 penalty. If the attack hits, it inflicts damage normally and the target is subject to a bull rush or a trip maneuver using the attack roll as the combat maneuver check. The crossbowman must decide which maneuver to attempt before making his attack roll. This ability replaces weapon training 4. Penetrating Shot (Ex) At 19th level, when a crossbowman confirms a critical hit with a crossbow, the bolt pierces the target and can strike another creature in line behind it. The crossbowman must be able to trace a line starting at his space and passing through both targets to make this additional attack. The secondary attack is made at a â4 penalty, in addition to any modifiers for added range. If this attack is also a critical hit, the bolt can continue to hit another target, but the penalties stack. This ability replaces armor mastery. Weapon Mastery (Ex) A crossbowman must choose a type of crossbow for his weapon mastery class feature."
+    }
+  }
+}

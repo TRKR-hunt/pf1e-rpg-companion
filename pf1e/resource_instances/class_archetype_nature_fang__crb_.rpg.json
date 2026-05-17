@@ -1,0 +1,77 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_nature_fang__crb_",
+    "name": {
+      "value": "Nature Fang"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_nature_sense",
+        "druid_wild_empathy",
+        "druid_woodland_stride",
+        "druid_wild_shape_1_day",
+        "druid_resist_nature_s_lure",
+        "druid_venom_immunity"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_studied_target",
+            "name": {
+              "value": "Studied Target"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Studied Target — At 1st level, a nature fang gains the slayer’s studied target class feature. At 5th level and every 5 levels thereafter, the nature fang’s bonus against her studied target increases by 1. Unlike a slayer, a nature fang d"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_sneak_attack",
+            "name": {
+              "value": "Sneak Attack"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Sneak Attack — At 4th level, a nature fang gains sneak attack +1d6. This functions as the rogue sneak attack ability. If the nature fang gets a sneak attack bonus from another source, the bonuses on damage stack."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Studied Target (Ex) Slayer Talent Sneak Attack (Ex) Swift Studied Target A nature fang is a druid who stalks and slays those who despoil nature, kill scarce animals, or introduce diseases to unprotected habitats. She gives up a close empathic connection with the natural world to become its deadly champion and avenger. Studied Target (Ex) At 1st level, a nature fang gains the slayer’s studied target class feature. At 5th level and every 5 levels thereafter, the nature fang’s bonus against her studied target increases by 1. Unlike a slayer, a nature fang does not gain the ability to maintain more than one studied target at the same time. This ability replaces nature sense, wild empathy, and woodland stride. Slayer Talent At 4th level and every 2 levels thereafter, a nature fang selects a slayer talent. Starting at 12th level, she can select an advanced slayer talent in place of a slayer talent. She uses her druid level as her slayer level to determine what talents she can select. This ability replaces wild shape. Sneak Attack (Ex) At 4th level, a nature fang gains sneak attack +1d6. This functions as the rogue sneak attack ability. If the nature fang gets a sneak attack bonus from another source, the bonuses on damage stack. This ability replaces resist nature’s lure. Swift Studied Target At 9th level, a nature fang can study an opponent as a move or swift action. This ability replaces venom immunity. Slayer Talents: The following slayer talents complement the nature fang archetype: foil scrutiny, poison use, ranger combat style. Additionally, the following rogue talents, which are also available to slayers, complement the archetype: bleeding attack, camouflage, fast stealth, finesse rogue, lasting poison, rogue crawl, slow reactions, surprise attack, swift poison, terrain mastery. Advanced Talents: The following advanced talents complement the nature fang archetype: assassinate, slayer camouflage, woodland stride. The rogue advanced talent master of disguise also fits the archetype."
+    }
+  }
+}

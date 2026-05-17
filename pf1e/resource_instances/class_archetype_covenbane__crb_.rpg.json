@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_covenbane__crb_",
+    "name": {
+      "value": "Covenbane"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_track",
+        "slayer_slayer_talent_every_2_levels_rogue_talents_allow",
+        "slayer_stalker",
+        "slayer_swift_tracker"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_disrupt_coven",
+            "name": {
+              "value": "Disrupt Coven"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Disrupt Coven — Anyone the slayer threatens no longer counts as an ally for the purposes of friendly spellcasting or employing teamwork feats and cannot access any special abilities gained from being part of a coven (including coven spe"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_unseen_sense",
+            "name": {
+              "value": "Unseen Sense"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Unseen Sense — At 11th level, the covenbane learns to use his hag sense to help target concealed or invisible opponents in combat. He can use his hag sense to detect invisible opponents as well as magically disguised creatures. He also"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Hag Sense (Su) Studied Coven (Su) Disrupt Coven (Su) Unseen Sense (Su) Covenbane slayers are scarred by arcane magic at a young age, and that resonance gives them supernatural insight into the psychic bonds between others. They are adept at fighting tight-knit groups, exploiting their connections to hunt and wound teams. The churches of Iomedae and Milani in particular dispatch special agents to rescue hexed children from Irrisen, Razmiran, and other lands plagued by abusive arcanists and then raise them in this deadly art. Hag Sense (Su) A covenbane’s magical scars throb in the presence of magic. A covenbane adds half his level (minimum +1) on Perception, Sense Motive, and Survival checks to identify, recognize, or track a hag, arcane spellcaster, or creature with spell-like abilities. He can also use his hag sense to recognize whether someone within 30 feet of him is using magic to hide her true form. To do this, he must succeed at a Perception check against a DC equal to 15 + the target’s CR; success indicates the presence of a magical disguise, but it does not reveal the creature’s true form. This replaces track. Studied Coven (Su) At 2nd level, a covenbane can designate an entire coven as his studied target by studying any single member. He applies his studied target bonus against all members of the studied creature’s coven, and all members of the coven count as one target for the purposes of determining the maximum number of studied targets a slayer can maintain. This bonus remains even if one or more members of the coven die after the covenbane studies them. Beginning at 7th level, the covenbane can designate other magically linked creatures, such as those bound by a hivemind or a telepathic bond spell, as a coven, but he can target only three members of such a link. Studying a coven always requires a move action, even if the slayer could normally study a target with a swift or immediate action. This replaces the slayer talent gained at 2nd level. Disrupt Coven (Su) Anyone the slayer threatens no longer counts as an ally for the purposes of friendly spellcasting or employing teamwork feats and cannot access any special abilities gained from being part of a coven (including coven spellcasting). This replaces stalker. Unseen Sense (Su) At 11th level, the covenbane learns to use his hag sense to help target concealed or invisible opponents in combat. He can use his hag sense to detect invisible opponents as well as magically disguised creatures. He also gains Blind-Fight as a bonus feat but gains its benefits only against spellcasters and creatures with spell-like abilities. This replaces swift tracker."
+    }
+  }
+}

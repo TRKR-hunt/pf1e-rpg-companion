@@ -1,0 +1,76 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_blight_scout__crb_",
+    "name": {
+      "value": "Blight Scout"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "hunter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Hunter"
+    },
+    "replaces": {
+      "value": [
+        "hunter_improved_empathic_link",
+        "hunter_speak_with_master",
+        "hunter_greater_empathic_link",
+        "hunter_animal_companion",
+        "hunter_one_with_the_wild"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_arch_unnatural_stride",
+            "name": {
+              "value": "Unnatural Stride"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Unnatural Stride — At 10th level, the blight scout and her animal companion learn how to move through undergrowth (as woodland stride ) that has been enchanted, corrupted, or magically manipulated."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hunter_arch_end",
+            "name": {
+              "value": "End"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "End — At 17th level, even demons must respect the number of their kindred an blight scout has slain, and lesser demons quake before her. The blight scout and her companion can attempt to demoralize a demon as a swift action, r"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Lore of the Blight (Ex) Unnatural Stride (Ex) Demon’s End (Ex) Blight scouts are an elite band of elves skilled and brave enough to take the offensive against their foes. Blight scouts rely on their close bonds with their animal companions to survive such raids. One blight scout who accompanied an expedition to put his demon-fighting skills to work has retired to teach his techniques to others, so these skills are slowly being passed on to non-elves. Lore of the Blight (Ex) At 6th level, a blight scout and her animal companion gain a +2 bonus on initiative checks and on Knowledge (geography), Perception, Stealth, and Survival skill checks when she’s in the Abyss or Abyss-tainted terrain. When she travels through this terrain, she leaves no trail and can’t be tracked (though she can leave a trail if she so chooses). This bonus increases to +4 at 11th level and +6 at 16th level. This ability replaces improved empathic link, speak with master, and greater empathic link. Unnatural Stride (Ex) At 10th level, the blight scout and her animal companion learn how to move through undergrowth (as woodland stride ) that has been enchanted, corrupted, or magically manipulated. This ability replaces raise animal companion. Demon’s End (Ex) At 17th level, even demons must respect the number of their kindred an blight scout has slain, and lesser demons quake before her. The blight scout and her companion can attempt to demoralize a demon as a swift action, rolling 1d20 and adding the scout’s level and her Charisma modifier to determine the Intimidate check result. This ability replaces one with the wild."
+    }
+  }
+}

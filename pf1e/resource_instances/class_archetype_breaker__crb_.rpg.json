@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_breaker__crb_",
+    "name": {
+      "value": "Breaker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "barbarian__crb_"
+    },
+    "parent_class_name": {
+      "value": "Barbarian"
+    },
+    "replaces": {
+      "value": [
+        "barbarian_fast_movement",
+        "barbarian_trap_sense_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_arch_destructive",
+            "name": {
+              "value": "Destructive"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Destructive — Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a sunder combat maneuver, she adds half her barbarian level (minimum +1) on the damage roll."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_arch_battle_scavenger",
+            "name": {
+              "value": "Battle Scavenger"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Battle Scavenger — At 3rd level, the breaker barbarian suffers no penalty on attack rolls when using an improvised weapon or a weapon with the broken condition. In addition, she gains a +1 bonus on damage rolls with improvised or broken we"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "While most barbarians are skilled at breaking things, some find the need to destroy their surroundings an almost uncontrollable urge when in the middle of a rage. These barbarians are a danger not only to their foes, but also to the very environment around them. A breaker barbarian has the following class features. Destructive (Ex) Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a sunder combat maneuver, she adds half her barbarian level (minimum +1) on the damage roll. This ability replaces fast movement. Battle Scavenger (Ex) At 3rd level, the breaker barbarian suffers no penalty on attack rolls when using an improvised weapon or a weapon with the broken condition. In addition, she gains a +1 bonus on damage rolls with improvised or broken weapons for every three levels beyond 3rd. This ability replaces trap sense. Rage Powers: The following rage powers complement the breaker archetype: ground breaker, smasher, and strength surge*."
+    }
+  }
+}

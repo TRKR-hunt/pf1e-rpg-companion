@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_arsenal_chaplain__crb_",
+    "name": {
+      "value": "Arsenal Chaplain"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "warpriest__crb_"
+    },
+    "parent_class_name": {
+      "value": "Warpriest"
+    },
+    "replaces": {
+      "value": [
+        "warpriest_sacred_armor_1_enhancement_scaling_fervor_to_boo",
+        "warpriest_channel_energy"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "warpriest_arch_weapon_training",
+            "name": {
+              "value": "Weapon Training"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Weapon Training — At 5th level, an arsenal chaplain gains weapon training as per the fighter class feature, but the benefits of this weapon training apply only to the his sacred weapons (weapons with which the warpriest has taken Weapon F"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "War Blessing (Su) Sacred Weapon (Su) Weapon Training (Ex) Arsenal chaplains are warpriests trained in the militant aspects of their gods. War Blessing (Su) An arsenal chaplain must choose War as his blessing, and can do so even if it is a domain not normally granted by his deity. He does not receive a second blessing. At 7th level, an arsenal chaplain gains Quicken Blessing (War) as a bonus feat even if he does not meet the prerequisites, but cannot grant a War blessing to himself as a swift action with Quicken Blessing until he is at least 10th level. At 13th level, an arsenal chaplain can use the War blessing on an ally at a range of up to 30 feet by spending an additional use of the blessing ability. At 16th level, an arsenal chaplain can use the War blessing on a second target with a single use of the blessing ability. At 19th level, an arsenal chaplain can use the War blessing on any number of targets at once with a single use of the blessing ability. This ability alters blessing and replaces sacred armor. Sacred Weapon (Su) The base damage of an arsenal chaplain’s sacred weapon does not increase above 1d6. This ability alters sacred weapon. Weapon Training (Ex) At 5th level, an arsenal chaplain gains weapon training as per the fighter class feature, but the benefits of this weapon training apply only to the his sacred weapons (weapons with which the warpriest has taken Weapon Focus ). This ability replaces channel energy."
+    }
+  }
+}

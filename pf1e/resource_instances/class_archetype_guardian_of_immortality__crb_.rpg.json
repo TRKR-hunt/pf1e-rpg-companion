@@ -1,0 +1,110 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_guardian_of_immortality__crb_",
+    "name": {
+      "value": "Guardian of Immortality"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "investigator__crb_"
+    },
+    "parent_class_name": {
+      "value": "Investigator"
+    },
+    "replaces": {
+      "value": [
+        "investigator_poison_lore",
+        "investigator_investigator_talent_poison_resistance_every_2_le",
+        "investigator_poison_immunity"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_gaze",
+            "name": {
+              "value": "Gaze"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Gaze — At 2nd level, a guardian of immortality adds 1/2 his investigator level as a bonus on Sense Motive checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_familiarity",
+            "name": {
+              "value": "Familiarity"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Familiarity — At 7th level, a guardian of immortality learns decoy and forgery techniques. His inspiration applies automatically without using an action or a use of inspiration on saving throws to disbelieve illusions, Disguise skill "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_drop",
+            "name": {
+              "value": "Drop"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Drop — At 11th level, a guardian of immortality is entrusted with a secret solution designed by alchemists to emulate certain aspects of the sun orchid elixir, granting him a +1 alchemical bonus on all saving throws."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_teleportation_warden",
+            "name": {
+              "value": "Teleportation Warden"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Teleportation Warden — At 13th level, a guardian of immortality is trained to sense the impending arrival or departure of creatures using teleportation. This ability constantly functions like trace teleport. In addition, the guardian of immort"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Guardianâs Gaze (Ex) Desert Survivor (Ex) Liarâs Familiarity (Ex) Orchidâs Drop (Ex) Teleportation Warden (Su) Guardians of immortality are investigators charged with hunting down those who would attempt to steal or learn for themselves the secret to creating the sun orchid elixir. Guardianâs Gaze (Ex) At 2nd level, a guardian of immortality adds 1/2 his investigator level as a bonus on Sense Motive checks. This ability replaces poison lore. Desert Survivor (Ex) At 2nd level, a guardian of immortality is trained by druids to survive the hazards of the desert. He gains Endurance as a bonus feat and does not treat sand as difficult terrain. At 5th level, he gains resist fire 10. At 8th level, he can see twice as far in sandstorms, clouds, and fog, and whenever he gains an advantage in a desert tile during a pursuit, he gains an additional advantage. This ability replaces poison resistance. Liarâs Familiarity (Ex) At 7th level, a guardian of immortality learns decoy and forgery techniques. His inspiration applies automatically without using an action or a use of inspiration on saving throws to disbelieve illusions, Disguise skill checks, Perception checks to see through disguises, and Linguistics checks to create or detect forgeries. This replaces the investigator talent gained at 7th level. Orchidâs Drop (Ex) At 11th level, a guardian of immortality is entrusted with a secret solution designed by alchemists to emulate certain aspects of the sun orchid elixir, granting him a +1 alchemical bonus on all saving throws. This ability replaces immunity to poison. Teleportation Warden (Su) At 13th level, a guardian of immortality is trained to sense the impending arrival or departure of creatures using teleportation. This ability constantly functions like trace teleport. In addition, the guardian of immortality can use conjuration foil once per day as an immediate action. This replaces the investigator talent gained at 13th level. Investigator Talents: The following investigator talents complement the guardian of immortality archetype: alchemist discovery, combat inspiration, greater combat inspiration, inspired alertness, stealing strike, and toppling strike. Get this book AND Support this site!"
+    }
+  }
+}

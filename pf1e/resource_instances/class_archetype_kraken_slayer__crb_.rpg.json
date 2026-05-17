@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_kraken_slayer__crb_",
+    "name": {
+      "value": "Kraken Slayer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "paladin__crb_"
+    },
+    "parent_class_name": {
+      "value": "Paladin"
+    },
+    "replaces": {
+      "value": [
+        "paladin_divine_health",
+        "paladin_aura_of_faith"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_arch_divine_immunity",
+            "name": {
+              "value": "Divine Immunity"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Divine Immunity — At 3rd level, a kraken slayer is immune to poisons and diseases, including supernatural and magical diseases, delivered by the natural attacks of creatures with the aquatic or water subtype."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Smite Deepest Evil (Su) Divine Immunity (Ex) Divine Bond (Sp) Aura of Elusion (Su) Triton kraken slayers oppose all underwater threats, but they especially target the tentacled monstrosities called krakens. Kraken slayers develop specialized tactics to defeat their hated enemies as well as learn to recognize the signs of kraken activity in an area. A kraken slayer’s greatest responsibility is to destroy evil; all other commitments fall by the wayside. Though kraken slayers uphold all promises they make, they must balance their obligations as kraken slayers with their role as knights and defenders of the ocean. Smite Deepest Evil (Su) This functions as the smite evil ability, but the kraken slayer does not get a bonus of 2 points of damage per level on the first successful attack against any creatures other than evil creatures with the aquatic or water subtype. She gains a bonus of 2 points of damage per level on all smite attacks made against evil creatures with the aquatic or water subtype. This ability alters smite evil. Divine Immunity (Ex) At 3rd level, a kraken slayer is immune to poisons and diseases, including supernatural and magical diseases, delivered by the natural attacks of creatures with the aquatic or water subtype. This ability replaces divine health. Divine Bond (Sp) A kraken slayer who chooses a weapon as her divine bond may either increase her weapon’s enhancement bonus or add any of the following properties to her weapon: axiomatic, brilliant energy, defending, grayflame, holy, keen, merciful, seaborne, and speed. A kraken slayer who chooses a mount must select one suitable for an aquatic environment, such as an elasmosaurus, giant seahorse, or orca. This ability alters divine bond. Aura of Elusion (Su) At 14th level, a kraken slayer gains a sacred bonus equal to her kraken slayer level on Escape Artist checks and combat maneuver checks to escape a grapple and to her CMD to avoid being grappled. Each ally within 10 feet of her gains a sacred bonus equal to half her kraken slayer level on Escape Artist checks and combat maneuver checks to escape a grapple and to CMD to avoid being grappled. This ability functions only while the paladin is conscious, not if she is unconscious or dead. This ability replaces aura of faith."
+    }
+  }
+}

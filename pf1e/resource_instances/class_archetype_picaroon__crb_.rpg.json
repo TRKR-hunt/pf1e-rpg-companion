@@ -1,0 +1,109 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_picaroon__crb_",
+    "name": {
+      "value": "Picaroon"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "swashbuckler__crb_"
+    },
+    "parent_class_name": {
+      "value": "Swashbuckler"
+    },
+    "replaces": {
+      "value": [
+        "swashbuckler_deeds",
+        "swashbuckler_swashbuckler_finesse"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_melee_shooter",
+            "name": {
+              "value": "Melee Shooter"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Melee Shooter — : At 1st level, as a swift action when wielding both a light or one-handed piercing melee weapon and a one-handed firearm, the picaroon can spend 1 panache point to avoid provoking attacks of opportunity with the first r"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_quick_clear",
+            "name": {
+              "value": "Quick Clear"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Quick Clear — : At 3rd level, as a standard action the picaroon can spend 1 panache point to remove the broken condition from a single one-handed firearm she is currently wielding, as long as the firearm gained that condition through "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_gun_feint",
+            "name": {
+              "value": "Gun Feint"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Gun Feint — : At 7th level, a picaroon can use the ferocious reputation of firearms to her advantage. A picaroon with at least 1 panache point can feint instead of attacking with her firearm as part of a full attack. She can spend 1"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "swashbuckler_arch_lightning_reload",
+            "name": {
+              "value": "Lightning Reload"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Lightning Reload — : At 11th level, once per round the picaroon can spend 1 panache point to reload a single barrel of a one-handed firearm as a swift action. If she has the Rapid Reload feat or is using an alchemical cartridge, she can in"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "While some swashbucklers take pride in their ability to wear down an opponent with great skill at arms and clever positioning, there are those who use firearms to get in close and hit hard. Weapon and Armor Proficiency A picaroon gains proficiency with all simple weapons and martial weapons, as well as one-handed firearms. This replaces the swashbuckler’s weapon proficiency. Panache Unlike other swashbucklers, a picaroon regains panache when she confirms a critical hit or makes a killing blow with a light or one-handed piercing melee weapon or a one-handed firearm. This ability alters panache. Deeds The picaroon gains the following deeds, each of which replaces an existing deed. Melee Shooter (Ex): At 1st level, as a swift action when wielding both a light or one-handed piercing melee weapon and a one-handed firearm, the picaroon can spend 1 panache point to avoid provoking attacks of opportunity with the first ranged attack made by the one-handed firearm during her turn. This deed replaces opportune parry and riposte. Quick Clear (Ex): At 3rd level, as a standard action the picaroon can spend 1 panache point to remove the broken condition from a single one-handed firearm she is currently wielding, as long as the firearm gained that condition through a misfire. This deed replaces kip-up. Gun Feint (Ex): At 7th level, a picaroon can use the ferocious reputation of firearms to her advantage. A picaroon with at least 1 panache point can feint instead of attacking with her firearm as part of a full attack. She can spend 1 panache point to gain a +5 bonus on this check. This deed replaces superior feint. Lightning Reload (Ex): At 11th level, once per round the picaroon can spend 1 panache point to reload a single barrel of a one-handed firearm as a swift action. If she has the Rapid Reload feat or is using an alchemical cartridge, she can instead reload a single barrel of the weapon as a free action each round. Using this deed doesn’t provoke attacks of opportunity. This deed replaces bleeding wound. Two-Weapon Finesse (Ex) A picaroon gains the benefits of the Weapon Finesse feat with light or one-handed piercing melee weapons. She also gains the effects of the Two-Weapon Fighting feat as long as she is wielding a light or one-handed piercing melee weapon in one hand and one-handed firearm in the other hand. This ability counts as having both the Weapon Finesse and Two-Weapon Fighting feats for the purposes of meeting feat requirements. This ability replaces swashbuckler finesse."
+    }
+  }
+}

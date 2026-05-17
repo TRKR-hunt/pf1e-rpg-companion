@@ -1,0 +1,37 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_faith_hunter__crb_",
+    "name": {
+      "value": "Faith Hunter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "inquisitor__crb_"
+    },
+    "parent_class_name": {
+      "value": "Inquisitor"
+    },
+    "replaces": {
+      "value": [
+        "inquisitor_domain_orisons_monster_lore_stern_gaze_1_2_level",
+        "inquisitor_judgment",
+        "inquisitor_cunning_initiative_add_wis_to_init_detect_alignm"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Sworn Enemy (Sp, Su) Enemy Revealed (Su) Hateful Bane (Su) Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down. Sworn Enemy (Sp, Su) A faith hunter chooses a single alignment (such as chaotic evil, rather than simply chaotic or evil) that directly opposes her own along either the law/chaos axis or the good/evil axis (so a lawful good faith hunter can choose chaotic good, chaotic neutral, chaotic evil, neutral evil, or lawful evil, whereas a neutral good faith hunter can only choose chaotic evil, neutral evil, or lawful evil). Creatures of this alignment are her sworn enemies. She can detect creatures of that specific alignment at will, functioning as detect evil, except this ability works only on creatures and detects the specific alignment. At 6th level, once per day as a swift action, a faith hunter can smite one foe she can see. If the foe is of the faith hunter’s sworn enemy alignment, the faith hunter gains a +4 sacred bonus on attack rolls against that foe and a sacred bonus equal to half her inquisitor level on damage rolls made against the foe. Smites against targets of the faith hunter’s sworn enemy alignment automatically bypass any DR the creature might possess. If the faith hunter targets a creature that is not of her sworn enemy alignment, the smite is wasted with no effect. The smite effect remains until the foe is dead or the next time the faith hunter rests and regains her uses of this ability. At 10th level and every 4 inquisitor levels thereafter, a faith hunter can smite her enemies one additional time per day, to a maximum of four times per day at 18th level. A faith hunter does not gain the justice or destruction judgments. This ability replaces domain and alters judgment. Enemy Revealed (Su) At 2nd level, when a faith hunter uses her sworn enemy ability to identify a creature’s alignment (typically on the third round of concentrating on an area including the creature), she can reveal that creature’s alignment aura, causing it to glow for 1 round per inquisitor level so that even creatures with regular vision can see the aura. This not only allows others to recognize the creature’s alignment, potentially exposing its true nature, it also allows them to track its location easily by the glow. Even if such a creature is invisible, the telltale glow pinpoints the creature’s square or squares. The faith hunter can use this ability a number of times per day equal to her Wisdom modifier (minimum 1), and it doesn’t take any extra action on her part to do so; it is part of the same action as concentrating on her sworn enemy detect ability. This ability replaces detect alignment. Hateful Bane (Su) At 5th level, a faith hunter’s bane ability functions only against creatures that are both the selected creature type and her sworn enemy alignment. This ability alters bane."
+    }
+  }
+}

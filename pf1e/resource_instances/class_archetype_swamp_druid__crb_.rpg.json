@@ -1,0 +1,110 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_swamp_druid__crb_",
+    "name": {
+      "value": "Swamp Druid"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_woodland_stride",
+        "druid_trackless_step",
+        "druid_a_thousand_faces"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_marshwight",
+            "name": {
+              "value": "Marshwight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Marshwight — At 2nd level, a swamp druid gains a bonus on Initiative checks and Knowledge (geography), Perception, Stealth, Swim, and Survival checks equal to 1/2 her druid level in swamp terrain, and she cannot be tracked in such an"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_swamp_strider",
+            "name": {
+              "value": "Swamp Strider"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Swamp Strider — At 3rd level, a swamp druid suffers no penalty to speed or on Acrobatics or Stealth checks in bogs and undergrowth."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_pond_scum",
+            "name": {
+              "value": "Pond Scum"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Pond Scum — At 4th level, a swamp druid gains a +4 bonus on saves against disease and the exceptional, supernatural, and spell-like abilities of monstrous humanoids. A swamp druid also gains DR /â equal to half her druid level aga"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_slippery",
+            "name": {
+              "value": "Slippery"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Slippery — At 13th level, a swamp druid gains continuous freedom of movement."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Some druids eschew pleasant glades and groves and instead seek out dank marshes, misty bogs and heaths, and trackless swamps as the place they call home and watch over with care, finding beauty and life in abundance in places few others would willingly enter. Marshwight (Ex) At 2nd level, a swamp druid gains a bonus on Initiative checks and Knowledge (geography), Perception, Stealth, Swim, and Survival checks equal to 1/2 her druid level in swamp terrain, and she cannot be tracked in such an environment. This ability replaces woodland stride. Swamp Strider (Ex) At 3rd level, a swamp druid suffers no penalty to speed or on Acrobatics or Stealth checks in bogs and undergrowth. This ability replaces trackless step. Pond Scum (Ex) At 4th level, a swamp druid gains a +4 bonus on saves against disease and the exceptional, supernatural, and spell-like abilities of monstrous humanoids. A swamp druid also gains DR /â equal to half her druid level against attacks by swarms. If this damage resistance prevents damage, the druid is unaffected by distraction or other special attacks of the swarm. This ability replaces resist natureâs lure. Wild Shape (Su) A swamp druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level â 2. Slippery (Ex) At 13th level, a swamp druid gains continuous freedom of movement. This ability replaces a thousand faces."
+    }
+  }
+}

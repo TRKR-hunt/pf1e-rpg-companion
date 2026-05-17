@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_winged_marauder_goblin__crb_",
+    "name": {
+      "value": "Winged Marauder (Goblin)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_brew_potion_throw_anything_mutagen",
+        "alchemist_persistent_mutagen"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "alchemist_arch_flying_beast_tamer",
+            "name": {
+              "value": "Flying Beast Tamer"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Flying Beast Tamer — At 1st level, a winged marauder acquires a flying mount as an animal companion. This works as the druid animal companion class feature, except the marauder must select a dire bat or giant vulture. The marauder’s effectiv"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Goblin alchemists have created a mixture of pheromones that they use to manipulate and entice giant vultures or dire bats to do their bidding. These goblins strap harnesses to the chests of these flying animals and hang beneath them, dropping flaming alchemical solutions on the helpless folks below. Class Skills: A winged marauder gains Acrobatics, Handle Animal, and Ride as class skills. These replace Disable Device, Sleight of Hand, and Use Magic Device as class skills. Flying Beast Tamer (Ex) At 1st level, a winged marauder acquires a flying mount as an animal companion. This works as the druid animal companion class feature, except the marauder must select a dire bat or giant vulture. The marauder’s effective druid level is equal to his alchemist level. A marauder and his companion don’t gain the share spells ability. This ability replaces the mutagen and persistent mutagen class features. Discovery A winged marauder can select the following additional discovery. Sipping Pet (Ex) As a standard action, the marauder can administer a dose of a liquid (such as an extract, infusion, potion, or an alchemical liquid like antitoxin ) to his animal companion, even if the companion is unconscious. The alchemist must be adjacent to or riding the companion to use this ability. An alchemist must have the infusion discovery to select this discovery."
+    }
+  }
+}

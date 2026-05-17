@@ -1,0 +1,56 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_arcane_bomber__crb_",
+    "name": {
+      "value": "Arcane Bomber"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "wizard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Wizard"
+    },
+    "replaces": {
+      "value": [
+        "wizard_arcane_bond",
+        "wizard_cantrips",
+        "wizard_arcane_school"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "wizard_arch_spellblast_bombs",
+            "name": {
+              "value": "Spellblast Bombs"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Spellblast Bombs — At 1st level, as a swift action, an arcane bomber can sacrifice one of his spells to empower the next bomb he throws during his turn. When he does, he gains a bonus to hit with the next bomb he throws before the end of h"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power. Bomb (Su) At 1st level, the arcane bomber gains an ability nearly identical to the alchemist’s bomb ability. Unlike the alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with discoveries. This ability stacks with the alchemist bomb ability to determine the level of bomb damage, but an arcane bomber that becomes an alchemist does not gain that classâs bomb ability, nor does an alchemist that becomes an arcane bomber gain this bomb ability. This ability replaces arcane bond. Spellblast Bombs (Su) At 1st level, as a swift action, an arcane bomber can sacrifice one of his spells to empower the next bomb he throws during his turn. When he does, he gains a bonus to hit with the next bomb he throws before the end of his turn equal to the level of the spell he sacrificed, and a bonus to damage equal to twice the level of the spell. This ability replaces cantrips, but the arcana bomber gains the detect magic and read magic cantrips and places them in his spellbook. He can cast either of these as 1st-level spells. School of the Bomb The creation and use of bombs is often so engrossing or intellectually taxing that an arcane bomber forsakes four schools of magic. These opposition schools are chosen at 1st level and cannot be changed later. An arcane bomber who prepares spells from his opposition school must use two spell slots of that level to prepare the spell. In addition, the arcane bomber takes a â4 penalty on any skill checks made when crafting a magic item that has a spell from one of his opposition schools. This ability replaces arcane school."
+    }
+  }
+}

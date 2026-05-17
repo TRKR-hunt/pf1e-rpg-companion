@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_armor_master__crb_",
+    "name": {
+      "value": "Armor Master"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_bravery_1",
+        "fighter_weapon_training_1",
+        "fighter_armor_mastery",
+        "fighter_weapon_mastery"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_deflective_shield",
+            "name": {
+              "value": "Deflective Shield"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Deflective Shield — At 2nd level, an armor master specializes in using his shield to deflect attacks. He gains a +1 bonus to his touch AC, and this bonus increases for every four levels beyond 2nd (to a maximum of +6 at 20th level); however"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "fighter_arch_indestructible",
+            "name": {
+              "value": "Indestructible"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Indestructible — At 20th level, an armor master gains complete immunity to critical hits and sneak attacks while he is wearing armor. In addition, unless his armor has the fragile armor quality, it cannot be sundered while he is wearing "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "All fighters have two main tools of their tradeâweapons and armor. While many fighters hone their weapon skills to a point of inescapable grace and lethality, there are those who live under the maxim that a good offense can be accomplished though an impenetrable defense. To these fighters, proper use of armor and shields ensures that they can fight another day, and that the frustration of enemies who canât seem to crack an armor masterâs superior defenses is just the first symptom of his foesâ eventual defeat. Deflective Shield (Ex) At 2nd level, an armor master specializes in using his shield to deflect attacks. He gains a +1 bonus to his touch AC, and this bonus increases for every four levels beyond 2nd (to a maximum of +6 at 20th level); however, this bonus cannot exceed the sum of the armor and enhancement bonus to AC provided by the shield that the armor master is currently carrying. This ability replaces bravery. Armored Defense (Ex) At 5th level, an armor master gains DR 1/â when wearing light armor, DR 2/â when wearing medium armor, and DR 3/â when wearing heavy armor. At 19th level, this damage reduction increases to DR 4/â when wearing light armor, DR 8/â when wearing medium armor, and DR 12/â when wearing heavy armor. This damage reduction stacks with that provided by adamantine armor, but not with other forms of damage reduction. This damage reduction does not apply if the armor master is stunned, unconscious, or helpless. This ability replaces weapon training 1 and 3, and armor mastery. Fortification (Ex) At 9th level, an armor master can use his armor to shield critical areas from injury. He treats any armor he wears as if it had the light fortification special ability. At 13th level, his armor gains the moderate fortification special ability. This fortification does not stack in any way with armor that has these special abilities. In these cases the armor master takes the better of the two fortifications. This ability replaces weapon training 2 and 4. Indestructible (Ex) At 20th level, an armor master gains complete immunity to critical hits and sneak attacks while he is wearing armor. In addition, unless his armor has the fragile armor quality, it cannot be sundered while he is wearing it. This ability replaces weapon mastery."
+    }
+  }
+}

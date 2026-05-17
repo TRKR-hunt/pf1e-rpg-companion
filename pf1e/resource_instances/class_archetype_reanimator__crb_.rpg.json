@@ -1,0 +1,35 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_reanimator__crb_",
+    "name": {
+      "value": "Reanimator"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "alchemist__crb_"
+    },
+    "parent_class_name": {
+      "value": "Alchemist"
+    },
+    "replaces": {
+      "value": [
+        "alchemist_bomb"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life. Many work in tandem with necromancers to explore the fine border between the worlds of the living and the dead. A reanimator has the following class features. Bomb A reanimatorâs bombs deal damage one die step lower than normal (regular bombs deal d4s, concussive bombs deal 1d3s, and so on). This ability otherwise functions as and replaces the standard alchemist bomb class feature. Simple Reanimation At 7th level, a reanimator adds lesser animate dead to his formula book as a 3rd-level extract. When he uses that extract, rather than drinking it, he injects it into the corpse he intends to animate, which rises as an undead creature under his control 1 hour later. The extract can only create zombies (including variant zombies ). This ability replaces the increase to bomb damage at this level. Create Undead At 13th level, a reanimator adds create undead to his formula book as a 4th-level extract. When he uses that extract, rather than drinking it, he injects it into the corpse he intends to animate, which rises as an uncontrolled undead 1 hour later. The extract can only create corporeal undead. This ability replaces the increase to bomb damage at this level. Create Greater Undead At 15th level, a reanimator adds create greater undead to his formula book as a 5th-level extract. This otherwise acts similarly to a create undead extract. This ability replaces the increase to bomb damage at this level. Discoveries: The following discoveries complement the reanimator archetype: alchemical zombie, elixir of life, eternal potion, mummification, and preserve organs."
+    }
+  }
+}

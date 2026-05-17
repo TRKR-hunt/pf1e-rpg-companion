@@ -1,0 +1,91 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_exorcist__crb_",
+    "name": {
+      "value": "Exorcist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "inquisitor__crb_"
+    },
+    "parent_class_name": {
+      "value": "Inquisitor"
+    },
+    "replaces": {
+      "value": [
+        "inquisitor_judgment",
+        "inquisitor_slayer"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_exile",
+            "name": {
+              "value": "Exile"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Exile — At 16th level, an inquisitor using judgment can unleash the verdict of exile on a creature. When she does, her judgment ends, but the creature subject to that judgment is dazed for 1 round ( Will negates, DC of 10 + 1/2 "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_closed_mind",
+            "name": {
+              "value": "Closed Mind"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Closed Mind — An exorcist inquisitor must close off her mind to deny her enemies even a foothold. At 17th level, the inquisitor becomes immune to compulsion effects and possession attempts (including magic jar )."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_verdict_of_anathema",
+            "name": {
+              "value": "Verdict of Anathema"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Verdict of Anathema — At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of exorcism."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Some inquisitors, as they learn more about the threat of possession and the machinations of the planes, task themselves to expel possessing spirits and conniving outsiders from the world whenever possible. Eventually they learn the secret of the verdicts of exorcism, exile, and anathema. Verdict of Exorcism (Su) At 8th level, an inquisitor using judgment can unleash the verdict of exorcism on a creature. When she does, her judgment ends, but the creature is dazed for 1 round ( Will negates); if the creature is possessed, the possessing entity must succeed at a Will saving throw (DC 10 + 1/2 inquisitor level + inquisitorâs Wisdom bonus), or be exorcised and never again allowed in that same body. This ability replaces second judgment. Verdict of Exile (Su) At 16th level, an inquisitor using judgment can unleash the verdict of exile on a creature. When she does, her judgment ends, but the creature subject to that judgment is dazed for 1 round ( Will negates, DC of 10 + 1/2 inquisitor level + Wisdom bonus). If the creature is possessed or an outsider, the possessing entity or the outsider is affected by dismissal ( Will negates). This ability replaces third judgment. Closed Mind (Su) An exorcist inquisitor must close off her mind to deny her enemies even a foothold. At 17th level, the inquisitor becomes immune to compulsion effects and possession attempts (including magic jar ). This ability replaces slayer. Verdict of Anathema (Su) At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of exorcism. This power replaces true judgment."
+    }
+  }
+}

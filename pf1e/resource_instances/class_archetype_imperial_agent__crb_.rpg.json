@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_imperial_agent__crb_",
+    "name": {
+      "value": "Imperial Agent"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "vigilante__crb_"
+    },
+    "parent_class_name": {
+      "value": "Vigilante"
+    },
+    "replaces": {
+      "value": [
+        "vigilante_social_talent_vigilante_talent_more_with_level",
+        "vigilante_unshakable_level_vs_intimidate"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "vigilante_arch_manipulative",
+            "name": {
+              "value": "Manipulative"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Manipulative — At 3rd level, an imperial agent is a master of blackmail, extortion, and subterfuge. He gains a bonus equal to 1/2 his vigilante level on Bluff checks (except those to feint ) and on Intimidate checks (except those to de"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Slander (Ex) Manipulative (Ex) False Flag (Ex) Imperial agents are often the descendants of nobility and generals. Often forming secret networks with fanciful names, they focus on destabilizing nations with blackmail, slander, and treachery. Slander (Ex) At 1st level, an imperial agent becomes an expert at spreading malicious rumors in order to foment chaos and strife to further his aims. Slandering an individual or organization takes 1d4 days in a settlement smaller than a town, or 1 week in a town or larger settlement. The imperial agent must succeed at either a Bluff or Diplomacy check. If the general populace is indifferent towards the target of the slander, the DC of this check is 20 + the targetâs Charisma modifier. For each step above indifferent the publicâs attitude towards the target is, the DC increases by 5, and for each step below indifferent the publicâs attitude towards the target is, the DC decreases by 5. If the imperial agent is successful, the publicâs attitude toward his target is decreased by 1 step. If the imperial agent fails the check, however, he cannot affect the settlement with this ability for 1 week, and the target of his slander becomes aware that someone is spreading malicious rumors. The GM determines the exact effects of the publicâs shift in attitude. Even if the public is hostile toward the target, they might not act openly against the target, especially if doing so might be dangerous. This replaces the social talent gained at 1st level. Manipulative (Ex) At 3rd level, an imperial agent is a master of blackmail, extortion, and subterfuge. He gains a bonus equal to 1/2 his vigilante level on Bluff checks (except those to feint ) and on Intimidate checks (except those to demoralize an opponent). This replaces unshakable. False Flag (Ex) At 5th level, whenever an imperial agent changes his identity, he has a third option (instead of social or vigilante) he can wear a false flag. This functions identically to the many guises social talent, except that the false flag identity is associated with a particular nation, organization, or other faction. The imperial agent gains a +20 circumstance bonus on Disguise checks to impersonate a member of that faction against creatures who are unaffiliated with that faction, potentially allowing the imperial agent to pin the blame for his actions on the faction he was impersonating. However, the imperial agent receives no bonus and a â10 penalty on Disguise checks against members of the faction he is impersonating. An imperial agent can choose a different faction each time he uses this ability. Factions that lack a flag, uniform, or other symbol of membership may be difficult or impossible to impersonate, at the GMâs discretion. This replaces the social talent gained at 5th level."
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_waylayer__crb_",
+    "name": {
+      "value": "Waylayer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_trapfinding",
+        "rogue_uncanny_dodge",
+        "rogue_rogue_talent"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_staggering_reflexes",
+            "name": {
+              "value": "Staggering Reflexes"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Staggering Reflexes — At 1st level, a waylayer gains a bonus on initiative checks equal to 1/2 her level (minimum +1) if she acts in a surprise round, and is never flat-footed at the start of combat (even if she fails to act during the surpri"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_ambuscading_sneak_attack",
+            "name": {
+              "value": "Ambuscading Sneak Attack"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Ambuscading Sneak Attack — At 4th level, a waylayer becomes especially skilled at attacking unaware foes. When she makes a sneak attack during a surprise round, she uses d8s to roll sneak attack damage instead of d6s."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_danger_awareness",
+            "name": {
+              "value": "Danger Awareness"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Danger Awareness — At 8th level, a waylayer is never considered an unaware combatant and is always able to act in the surprise round."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_exceptional_reflexes",
+            "name": {
+              "value": "Exceptional Reflexes"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Exceptional Reflexes — At 12th level, a waylayer can move up to her speed before taking her action in a surprise round."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_arch_masterful_reflexes",
+            "name": {
+              "value": "Masterful Reflexes"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Masterful Reflexes — At 20th level, a waylayer’s initiative roll is automatically a natural 20."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "A clever rogue knows the easiest battle to win is the one that’s over before your foe knows it has begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard. Staggering Reflexes (Ex) At 1st level, a waylayer gains a bonus on initiative checks equal to 1/2 her level (minimum +1) if she acts in a surprise round, and is never flat-footed at the start of combat (even if she fails to act during the surprise round). This ability replaces trapfinding. Ambuscading Sneak Attack (Ex) At 4th level, a waylayer becomes especially skilled at attacking unaware foes. When she makes a sneak attack during a surprise round, she uses d8s to roll sneak attack damage instead of d6s. This ability replaces uncanny dodge. Danger Awareness (Ex) At 8th level, a waylayer is never considered an unaware combatant and is always able to act in the surprise round. This ability replaces improved uncanny dodge. Exceptional Reflexes (Ex) At 12th level, a waylayer can move up to her speed before taking her action in a surprise round. This ability replaces the rogue talent gained at 12th level. Masterful Reflexes (Ex) At 20th level, a waylayer’s initiative roll is automatically a natural 20. This ability replaces the rogue talent gained at 20th level. Rogue Talents: The following rogue talents complement the waylayer archetype: camouflage, cunning trigger, quick trapsmith, slow reactions, surprise attack, and underhanded. Advanced Talents: The following advanced talents complement the waylayer archetype: entanglement of blades, hide in plain sight, knock-out blow, and weapon snatcher."
+    }
+  }
+}

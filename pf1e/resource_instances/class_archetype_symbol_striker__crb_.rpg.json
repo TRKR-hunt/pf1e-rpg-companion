@@ -1,0 +1,55 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_symbol_striker__crb_",
+    "name": {
+      "value": "Symbol Striker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bloodrager__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bloodrager"
+    },
+    "replaces": {
+      "value": [
+        "bloodrager_fast_movement_10_ft",
+        "bloodrager_bloodline"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bloodrager_arch_rune_training",
+            "name": {
+              "value": "Rune Training"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Rune Training — A symbol striker can cast read magic at will and comprehend languages once per day, but only to decipher written text. A symbol striker also adds arcane mark and erase to his bloodrager spell list as 1st-level spells, th"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Rune Training (Sp) Weapon Rune (Su) Rune Trap (Sp) Symbol strikers are honored warriors wielding strange runic energies becoming a form of runewielding berserker spellcaster. Skills: A symbol striker gains Linguistics as a class skill, but does not gain Handle Animal as a class skill. This alters the bloodragerâs class skills. Rune Training (Sp) A symbol striker can cast read magic at will and comprehend languages once per day, but only to decipher written text. A symbol striker also adds arcane mark and erase to his bloodrager spell list as 1st-level spells, though he must select these as spells known to be able to cast them. This replaces fast movement. Weapon Rune (Su) At 6th level, once per day as a standard action, a symbol striker can imbue any spell he knows that has a range of touch or greater and a defined number of targets (rather than an area or other nontarget-based effect) into a melee weapon he is holding. The spell forms itself into a brightly glowing rune, which is obvious to a casual observer. This ability functions only while the symbol striker wields the weapon. If dropped or taken, the weapon ceases granting this ability until it is returned to the symbol striker. The symbol striker can have only a single weapon rune active at a time; if he casts an additional weapon rune while a previous rune is active, the earlier rune fades. Weapon runes also fade when the symbol striker regains his spell slots for the day. Otherwise, the rune remains until the spell is discharged or dispelled. At 12th level, a symbol striker can use this ability twice per day. At 18th level, he can use this ability three times per day. As a standard action, the symbol striker can make a melee attack with a weapon that has an active weapon rune and, if the attack is successful, deal normal weapon damage and also expend the weapon rune to discharge the stored spell into the target, as if delivering the spell with the magus spellstrike class feature. This replaces the bloodline feats gained at 6th, 12th, and 18th levels. Rune Trap (Sp) At 9th level, as a standard action, the symbol striker can use a melee weapon to place a rune trap in any adjacent square. Any creature entering a square containing a rune trap takes 1d6 points of damage plus 1 additional point of damage for every 2 bloodrager levels the symbol striker has. This rune deals either acid, cold, electricity, or fire damage, which is decided at the runeâs creation. The rune is clearly visible and lasts a number of minutes equal to the symbol strikerâs bloodrager level or until discharged. A symbol striker cannot create a rune trap in a square occupied by another creature. This rune counts as a 1st-level spell for the purpose of dispelling. A creature can disarm the rune by succeeding at a DC 26 Disable Device check. The symbol striker can use this ability a number of times per day equal to 3 plus his Charisma modifier. This replaces the bloodline feat gained at 9th level."
+    }
+  }
+}

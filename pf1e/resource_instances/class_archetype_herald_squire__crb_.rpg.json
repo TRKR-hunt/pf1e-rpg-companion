@@ -1,0 +1,91 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_herald_squire__crb_",
+    "name": {
+      "value": "Herald Squire"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "cavalier__crb_"
+    },
+    "parent_class_name": {
+      "value": "Cavalier"
+    },
+    "replaces": {
+      "value": [
+        "cavalier_tactician",
+        "cavalier_order"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_introduction",
+            "name": {
+              "value": "Introduction"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Introduction — At 1st level, whenever a herald squire tries to influence a creature’s attitude with the Diplomacy skill for the first time, she may roll her Diplomacy check twice and take the best result. In addition, any improvement o"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_fleet_of_foot",
+            "name": {
+              "value": "Fleet of Foot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fleet of Foot — At 2nd level, a herald squire gains fast movement, as the barbarian class feature of the same name. If the herald squire gains fast movement from another class, the bonuses to her speed do not stack. Whenever she makes l"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "cavalier_arch_transcend_language",
+            "name": {
+              "value": "Transcend Language"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Transcend Language — At 3rd level, three times per day, a herald squire can cast tongues on herself, using her herald squire level as her caster level. The effects of this ability last for a number of rounds equal to her herald squire level."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Introduction (Ex) Fleet of Foot (Ex) Transcend Language (Sp) The herald squire is the eyes and ears of a traveling knight, often arriving ahead of her liege to bring word of his arrival, find lodgings, and get the lay of the land. Introduction (Ex) At 1st level, whenever a herald squire tries to influence a creature’s attitude with the Diplomacy skill for the first time, she may roll her Diplomacy check twice and take the best result. In addition, any improvement of a creature’s attitude toward the herald squire also applies to her knight. This ability replaces tactician. Fleet of Foot (Ex) At 2nd level, a herald squire gains fast movement, as the barbarian class feature of the same name. If the herald squire gains fast movement from another class, the bonuses to her speed do not stack. Whenever she makes long overland journeys alone or with only her mount, the distance a herald squire can travel each day increases by 20%. This ability replaces the 2nd-level order ability. Transcend Language (Sp) At 3rd level, three times per day, a herald squire can cast tongues on herself, using her herald squire level as her caster level. The effects of this ability last for a number of rounds equal to her herald squire level. This ability replaces cavalierâs charge."
+    }
+  }
+}

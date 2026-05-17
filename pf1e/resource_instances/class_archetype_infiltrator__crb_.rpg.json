@@ -1,0 +1,110 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_infiltrator__crb_",
+    "name": {
+      "value": "Infiltrator"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "inquisitor__crb_"
+    },
+    "parent_class_name": {
+      "value": "Inquisitor"
+    },
+    "replaces": {
+      "value": [
+        "inquisitor_domain_orisons_monster_lore_stern_gaze_1_2_level",
+        "inquisitor_cunning_initiative_add_wis_to_init_detect_alignm",
+        "inquisitor_discern_lies"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_misdirection",
+            "name": {
+              "value": "Misdirection"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Misdirection — At 1st level, each day when the infiltrator prepares spells, she may choose an alignment. She detects as that alignment as if she had used misdirection on a creature with that alignment (this does not change any divinati"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_guileful_lore",
+            "name": {
+              "value": "Guileful Lore"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Guileful Lore — At 1st level, the infiltratorâs will is bent toward subterfuge and deception. She adds her Wisdom modifier on Bluff and Diplomacy skill checks in addition to the normal ability score modifiers."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_forbidden_lore",
+            "name": {
+              "value": "Forbidden Lore"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Forbidden Lore — While other inquisitors learned to track unbelievers, an infiltrator learns how to cast their spells. An infiltrator can cast spells of an alignment opposed to her or her deity (ignoring the restriction in the Chaotic, E"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_necessary_lies",
+            "name": {
+              "value": "Necessary Lies"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Necessary Lies — An infiltrator adds her class level on saving throws against abilities that detect lies or reveal or force the truth, such as detect lies and zone of truth."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "This inquisitor uses guile and deception to blend in among the enemies of the faith rather than confronting them head-on. Misdirection (Sp) At 1st level, each day when the infiltrator prepares spells, she may choose an alignment. She detects as that alignment as if she had used misdirection on a creature with that alignment (this does not change any divination results about her other than her alignment ). This power replaces stern gaze. Guileful Lore (Ex) At 1st level, the infiltratorâs will is bent toward subterfuge and deception. She adds her Wisdom modifier on Bluff and Diplomacy skill checks in addition to the normal ability score modifiers. This ability replaces monster lore. Forbidden Lore (Ex) While other inquisitors learned to track unbelievers, an infiltrator learns how to cast their spells. An infiltrator can cast spells of an alignment opposed to her or her deity (ignoring the restriction in the Chaotic, Evil, Good, and Lawful Spells class ability). This ability replaces track. Necessary Lies (Su) An infiltrator adds her class level on saving throws against abilities that detect lies or reveal or force the truth, such as detect lies and zone of truth. This power replaces discern lies."
+    }
+  }
+}

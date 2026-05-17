@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_jinyiwei__crb_",
+    "name": {
+      "value": "Jinyiwei"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "investigator__crb_"
+    },
+    "parent_class_name": {
+      "value": "Investigator"
+    },
+    "replaces": {
+      "value": [
+        "investigator_alchemy_inspiration",
+        "investigator_trapfinding",
+        "investigator_trap_sense",
+        "investigator_swift_alchemy"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_suspicious_mind",
+            "name": {
+              "value": "Suspicious Mind"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Suspicious Mind — A jinyiwei adds half her level (minimum 1) to Sense Motive checks, Linguistics checks to detect forgeries, and Perception checks to see through disguises, locate creatures using Stealth, or locate a secret door or compar"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "investigator_arch_celestial_insight",
+            "name": {
+              "value": "Celestial Insight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Celestial Insight — At 3rd level, a jinyiwei learns to see through the types of magic that often lead others astray. She gains a +1 competence bonus on saving throws to resist enchantment and illusion effects. At 6th level and every 3 level"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Divine Inspiration Suspicious Mind (Ex) Celestial Insight (Ex) Imperial Judgment (Su) Jinyiwei seek out and eliminate corruption wherever they find it, claiming they act under the celestial governmentâs mandate. Divine Inspiration A jinyiwei follows a mandate to combat corruption in the mortal world. A jinyiwei adds her Wisdom modifier to her inspiration pool, rather than her Intelligence modifier. Additionally, rather than dabbling in the arcane arts of alchemy, a jinyiwei is empowered by the forces of celestial bureaucracy. She casts spells as an inquisitor of the same level. This alters the inspiration class feature and replaces the alchemy class feature. Suspicious Mind (Ex) A jinyiwei adds half her level (minimum 1) to Sense Motive checks, Linguistics checks to detect forgeries, and Perception checks to see through disguises, locate creatures using Stealth, or locate a secret door or compartment. This replaces trapfinding. Celestial Insight (Ex) At 3rd level, a jinyiwei learns to see through the types of magic that often lead others astray. She gains a +1 competence bonus on saving throws to resist enchantment and illusion effects. At 6th level and every 3 levels thereafter, these bonuses increase by 1 (to a maximum of +6 at 18th level). This replaces trap sense. Imperial Judgment (Su) At 4th level, a jinyiwei can carry out trial and sentence with her own divine authority. She gains the judgment inquisitor class feature as an inquisitor 3 levels lower than her investigator level, and her investigator levels stack with inquisitor levels for the purposes of determining her judgments â abilities and number of judgments per day. At 11th level, she gains the second judgment inquisitor class feature, and at 19th level, she gains the third judgment inquisitor class feature. This replaces swift alchemy."
+    }
+  }
+}

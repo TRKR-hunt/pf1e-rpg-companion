@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_keeper_of_constructs__crb_",
+    "name": {
+      "value": "Keeper of Constructs"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "inquisitor__crb_"
+    },
+    "parent_class_name": {
+      "value": "Inquisitor"
+    },
+    "replaces": {
+      "value": [
+        "inquisitor_domain_orisons_monster_lore_stern_gaze_1_2_level",
+        "inquisitor_exploit_weakness"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_construct_influence",
+            "name": {
+              "value": "Construct Influence"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Construct Influence — A keeper of constructsâ knowledge of constructsâ inner workings allows her to gain an upper hand over constructs. She can use the Intimidate skill to demoralize constructs, and when she attempts to do so, she gains a"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_construct_lore",
+            "name": {
+              "value": "Construct Lore"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Construct Lore — A keeper of constructs adds twice her Wisdom modifier plus her Intelligence modifier as a bonus when attempting Knowledge checks to identify the abilities and weaknesses of constructs."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Penetrating Blows (Ex) Construct Influence (Ex) Construct Lore (Ex) Wrest Control (Sp) Some inquisitors track down malicious construct crafters and fight renegade constructs with unrivaled expertise. Penetrating Blows (Ex) A keeper of constructsâ attacks are divinely guided to pierce the defenses of constructs. The keeper of constructs treats her weapons as adamantine for the purpose of overcoming damage reduction when attacking constructs. At 8th level, she ignores the first 5 points of DR or hardness when attacking constructs. At 16th level, she ignores the first 10 points of DR or hardness when attacking constructs. This replaces the inquisitorâs domain. Construct Influence (Ex) A keeper of constructsâ knowledge of constructsâ inner workings allows her to gain an upper hand over constructs. She can use the Intimidate skill to demoralize constructs, and when she attempts to do so, she gains a bonus on the check equal to half her inquisitor level (minimum 1). This replaces stern gaze. Construct Lore (Ex) A keeper of constructs adds twice her Wisdom modifier plus her Intelligence modifier as a bonus when attempting Knowledge checks to identify the abilities and weaknesses of constructs. This replaces monster lore. Wrest Control (Sp) At 14th level, three times per day, the keeper of constructs can issue a command to a construct as a standard action. This functions as a suggestion spell that is dismissible, affects the construct despite its normal immunity to mind-affecting effects, and has a caster level equal to the keeper of constructsâ inquisitor level. The construct can resist the command with a successful Will saving throw (DC = 10 + half the keeper of constructsâ inquisitor level + her Wisdom modifier). A construct that successfully saves is immune to this ability for the following 24 hours. This effect immediately ends if the construct is attacked while under its influence. If an affected construct was being controlled by a creature, that individual can regain control of the construct with a successful Charisma check (attempting this check requires a standard action ) opposed by the inquisitorâs Charisma check. On a success, the original creature regains full control of the construct and this effect ends. This replaces exploit weakness."
+    }
+  }
+}

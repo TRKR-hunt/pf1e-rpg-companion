@@ -1,0 +1,92 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_groom__crb_",
+    "name": {
+      "value": "Groom"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ranger__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ranger"
+    },
+    "replaces": {
+      "value": [
+        "ranger_track",
+        "ranger_endurance",
+        "ranger_favored_terrain"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_hide_the_horses",
+            "name": {
+              "value": "Hide the Horses"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Hide the Horses — A groom finds the best place to stable and conceal a party’s mounts while the group explores a dungeon. A groom adds half her level (minimum 1) on Stealth skill checks for both herself and the mounts she’s hiding while s"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_horse_whisperer",
+            "name": {
+              "value": "Horse Whisperer"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Horse Whisperer — At 3rd level, a groom can use speak with animals at will, but can use this power only on horses, riding dogs, and other mounts of the animal type."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ranger_arch_scout_the_area",
+            "name": {
+              "value": "Scout the Area"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Scout the Area — At 3rd level, a groom gains a +4 bonus on Knowledge (local) checks. In addition, she always knows where to find the nearest expert or spellcaster who can provide a particular service, such as the nearest source of raise "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Hide the Horses (Ex) Horse Whisperer (Su) Scout the Area (Ex) This archetype can be taken by a character’s torchbearer, as well as other characters that qualify. The groom attends to the needs of the party’s mounts and beasts of burden during their adventures, and guards these animals while the party goes underground. Hide the Horses (Ex) A groom finds the best place to stable and conceal a party’s mounts while the group explores a dungeon. A groom adds half her level (minimum 1) on Stealth skill checks for both herself and the mounts she’s hiding while she is concealing a party’s mounts. This ability replaces track. Horse Whisperer (Su) At 3rd level, a groom can use speak with animals at will, but can use this power only on horses, riding dogs, and other mounts of the animal type. This ability replaces Endurance. Scout the Area (Ex) At 3rd level, a groom gains a +4 bonus on Knowledge (local) checks. In addition, she always knows where to find the nearest expert or spellcaster who can provide a particular service, such as the nearest source of raise dead. This ability replaces the ranger’s 1st favored terrain."
+    }
+  }
+}

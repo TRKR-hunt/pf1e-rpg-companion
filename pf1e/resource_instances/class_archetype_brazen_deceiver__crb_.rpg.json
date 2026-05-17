@@ -1,0 +1,77 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_brazen_deceiver__crb_",
+    "name": {
+      "value": "Brazen Deceiver"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_countersong",
+        "bard_bardic_performance",
+        "bard_bardic_knowledge",
+        "bard_well_versed",
+        "bard_versatile_performance",
+        "bard_lore_master"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_shameless_scoundrel",
+            "name": {
+              "value": "Shameless Scoundrel"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Shameless Scoundrel — A brazen deceiver adds half his level (minimum +1) on Bluff, Disguise, and Stealth checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_tongue",
+            "name": {
+              "value": "Tongue"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Tongue — At 5th level, a brazen deceiver beguiles others with astonishing skill. This functions as the lore master ability, but its effects apply to Bluff checks instead of Knowledge skill checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Deceptive Tale (Su) Shameless Scoundrel (Ex) Blatant Subtlety (Ex) Invoke the Blood (Ex) Devil’s Tongue (Ex) Where other thieves use stealth or intimidation to achieve their goals, the brazen deceiver depends on lies. Thieves guilds often send brazen deceivers to acquire blackmail materials, arrange the release of incarcerated agents, or otherwise manipulate events. Brazen deceivers’ techniques come from a dark source. Deceptive Tale (Su) A brazen deceiver learns the deceptive tale bardic performance, allowing him to weave magic into his lies and imbue the most fantastic claims with the appearance of truth. While the brazen deceiver maintains this performance, he takes half the normal penalty on Bluff checks for unlikely lies (rounding down to -2). At 5th level, this effect also applies to Bluff checks for far-fetched lies, and at 11th level, it applies to Bluff checks for impossible lies. Deceptive tale relies on audible components. This replaces the countersong and distraction bardic performances. Shameless Scoundrel (Ex) A brazen deceiver adds half his level (minimum +1) on Bluff, Disguise, and Stealth checks. This ability replaces bardic knowledge. Blatant Subtlety (Ex) At 2nd level, a brazen deceiver has mastered the art of using magic without being detected. The brazen deceiver gains Spellsong as a bonus feat. Observers do not automatically recognize his bardic performances as anything other than ordinary speech or performance. Those specifically looking for abnormal effects must succeed at a Sense Motive check (DC = 10 + half the brazen deceiver’s bard level + the brazen deceiver’s Charisma modifier) to detect his performances. This ability replaces well-versed. Invoke the Blood (Ex) A brazen deceiver adds the following spells to his bard spells known at the listed class levels. At 2nd level, the brazen deceiver adds bleed and touch of fatigue to his 0-level bard spells known. At 6th level, the brazen deceiver adds darkness and darkvision to his 2nd-level bard spells known. At 10th level, he adds shadow conjuration and shadow step to his 4th-level bard spells known. At 14th level, he adds shadow evocation and shadow walk to his 5th-level bard spells known. At 18th level, he adds greater shadow conjuration and greater shadow evocation to his 6th-level bard spells known. This ability replaces versatile performance. Devil’s Tongue (Ex) At 5th level, a brazen deceiver beguiles others with astonishing skill. This functions as the lore master ability, but its effects apply to Bluff checks instead of Knowledge skill checks. This ability replaces lore master."
+    }
+  }
+}

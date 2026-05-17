@@ -1,0 +1,43 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_faithful_wanderer__crb_",
+    "name": {
+      "value": "Faithful Wanderer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "paladin__crb_"
+    },
+    "parent_class_name": {
+      "value": "Paladin"
+    },
+    "replaces": {
+      "value": [
+        "paladin_detect_evil",
+        "paladin_aura_of_good",
+        "paladin_aura_of_justice",
+        "paladin_aura_of_courage",
+        "paladin_aura_of_resolve",
+        "paladin_aura_of_faith",
+        "paladin_aura_of_righteousness",
+        "paladin_smite_evil_1_day",
+        "paladin_holy_champion"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Wandererâs Lore Hidden Aura (Su) Stalk Evil (Su) Championâs Bond (Su) While most paladins stride brazenly forth to battle evil in gleaming armor, faithful wanderers understand that to accomplish real change in Abyssal environments, a paladin must learn to be self-sufficient and unobtrusive and that she must pick her battles carefully, lest her mission end abruptly in a blaze of glory. Wandererâs Lore A faithful wanderer quickly learns the skills she needs to survive. She gains Knowledge (nature), Knowledge (planes), Perception, Stealth, and Survival as class skills but doesnât gain Diplomacy, Handle Animal, Knowledge (nobility), or Ride as class skills. A faithful wanderer gains a number of skill ranks equal to 4 + her Intelligence modifier at each level (instead of gaining a number of skill ranks equal to 2 + her Intelligence modifier). This alters the paladinâs class skills and replaces detect evil. Hidden Aura (Su) A faithful wanderer doesnât have an aura of good like other paladins do, as this would give her presence away to hostile denizens of the Abyssal wastelands. Her other auras likewise donât reveal her presence. The benefits of her aura of courage, aura of resolve, aura of faith, and aura of righteousness affect only her. At 3rd level, her alignment aura emulates the alignment planar traits of her current location (chaotic evil in the Abyss) for the purposes of alignment -detection effects, though this doesnât change her actual alignment. At 8th level, she takes no penalties from the mildly chaos-aligned and mildly evil-aligned planar traits and treats all opposed strongly aligned planar traits as if they were only mildly aligned. At 11th level, she takes no penalties even in areas with strongly chaos- and evil-aligned planar traits. At 14th level, she leaves no trail in areas with chaos- and evil-aligned planar traits, canât be tracked in such terrain, and can use Stealth to hide in such terrain, even if the terrain doesnât grant cover or concealment. At 17th level, she can use Stealth to hide in areas with these planar traits even while being observed. This replaces aura of good and aura of justice, and it alters aura of courage, aura of resolve, aura of faith, and aura of righteousness. Stalk Evil (Su) A faithful wanderer isnât interested in going out in a blaze of glory after exhausting a limited ability to smite evil. Instead, she has developed techniques to evade, stalk, and punish evil whenever necessary. She gains a +2 bonus on Knowledge, Perception, Sense Motive, Stealth, and Survival checks against evil outsiders, as well as a +2 bonus on weapon attack and damage rolls against them. These bonuses donât stack with favored enemy bonuses. At 5th level and every 5 levels thereafter, these bonuses increase by 2 (to a maximum of +10 at 20th level). At 7th level, the faithful wanderer also gains these bonuses against undead, and at 13th level, she also gains these bonuses against evil dragons. This replaces smite evil. Championâs Bond (Su) At 5th level, a faithful wanderer must choose the weapon option of her divine bond class feature. At 20th level, whenever her divine bond is active, she gains several additional benefits, as follows: Her DR improves to 5/â. Additionally, if she rolls a natural 20 on an attack roll against an evil outsider and confirms the critical hit, the outsider is also subject to banishment, using the faithful wandererâs paladin level as the caster level (her weapon and holy symbol automatically count as objects that the subject hates). Finally, whenever she uses lay on hands to heal herself, she heals the maximum possible amount of hit points. This alters divine bond and replaces holy champion."
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_swarm_monger__crb_",
+    "name": {
+      "value": "Swarm Monger"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_nature_bond",
+        "druid_woodland_stride",
+        "druid_nature_sense",
+        "druid_wild_shape"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_low_friends",
+            "name": {
+              "value": "Low Friends"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Low Friends — At 2nd level, a swarm monger gains Vermin Heart as a bonus feat."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_shadowy_opportunist",
+            "name": {
+              "value": "Shadowy Opportunist"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Shadowy Opportunist — A swarm monger gains a +2 bonus on Knowledge (local) and Stealth checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_pollution",
+            "name": {
+              "value": "Pollution"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Pollution — Starting at 4th level, a swarm monger gains a +4 bonus on saving throws against disease and poisons, and she can eat spoiled or rotting food and drink without ill effect. Once per day for every 4 druid levels she has, a "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_swarm_shape",
+            "name": {
+              "value": "Swarm Shape"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Swarm Shape — At 12th level, a swarm monger can use wild shape to transform into a swarm of vermin, functioning as swarm skin, but not allowing her to split into more than one contiguous swarm. She doesnât leave her gear behind when"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Fecund Familiar (Ex) Low Friends (Ex) Shadowy Opportunist (Ex) Child of Pollution (Su) Swarm Shape (Su) Swarm mongers are unparalleled survivors, thriving on the filthy fringes of society. Whereas other druids commune with nature or even the spirit of a city, swarm mongers find beauty and strength in decay, and they draw their power from fungus, disease, and their own singular will to survive. Fecund Familiar (Ex) A swarm monger bonds with an urban familiar, treating her druid level as her wizard level for the purposes of determining her familiarâs abilities. The swarm monger must select her familiar from the following options: cat, house centipede, rat, raven, or scarlet spider. The fecund familiar gains the benefits of its masterâs child of pollution, shadowy opportunist, and venom immunity class abilities. As a standard action, a swarm monger can cause her familiar to burst forth into a full swarm of identical creatures, filling four contiguous 5-foot squares and gaining temporary hit points equal to half its masterâs maximum hit points. While in swarm form, the familiar loses the improved evasion, share spells, deliver touch attack, and scry on familiar special abilities. It uses its normal AC, saving throws, and skill bonuses, and it gains the swarm subtype and the ability to make swarm attacks (dealing 1d6 points of damage at 1st level and using the swarm mongerâs druid level as the swarmâs Hit Dice to determine damage increases as per the swarm subtype). The swarm monger is immune to her own familiarâs swarm attack. Beginning at 5th level, any creature damaged by a fecund familiarâs swarm attack must succeed at a Fortitude saving throw (DC = 10 + 1/2 the swarm mongerâs druid level + the swarm mongerâs Wisdom modifier) or be sickened for 1d6 rounds. At 12th level, creatures that fail their Fortitude saving throws instead become nauseated. A swarm monger can transform her familiar into a swarm a number of times each day equal to her Wisdom modifier (minimum 1), and the transformation lasts for 1 minute per druid level, or until the swarm monger reverts her familiar back to a singular form as a standard action. A fecund familiar cannot be reduced in size to Diminutive or smaller when in swarm form. This ability replaces nature bond. Low Friends (Ex) At 2nd level, a swarm monger gains Vermin Heart as a bonus feat. This ability replaces woodland stride. Shadowy Opportunist (Ex) A swarm monger gains a +2 bonus on Knowledge (local) and Stealth checks. This ability replaces nature sense. Child of Pollution (Su) Starting at 4th level, a swarm monger gains a +4 bonus on saving throws against disease and poisons, and she can eat spoiled or rotting food and drink without ill effect. Once per day for every 4 druid levels she has, a swarm monger can devour a handful of rotting food as a standard action to gain a number of temporary hit points equal to 1d8 + her druid level that last for 1 hour. This ability replaces resist natureâs lure. Swarm Shape (Su) At 12th level, a swarm monger can use wild shape to transform into a swarm of vermin, functioning as swarm skin, but not allowing her to split into more than one contiguous swarm. She doesnât leave her gear behind when she uses this ability, and she can revert to her mundane form normally. This ability replaces the normal wild shape options gained at 12th level."
+    }
+  }
+}

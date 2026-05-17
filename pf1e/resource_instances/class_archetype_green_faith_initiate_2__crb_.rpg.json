@@ -1,0 +1,111 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_green_faith_initiate_2__crb_",
+    "name": {
+      "value": "Green Faith Initiate #2"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "druid__crb_"
+    },
+    "parent_class_name": {
+      "value": "Druid"
+    },
+    "replaces": {
+      "value": [
+        "druid_trackless_step",
+        "druid_wild_shape",
+        "druid_venom_immunity",
+        "druid_a_thousand_faces"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_ear",
+            "name": {
+              "value": "Ear"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Ear — By 3rd level, a Green Faith initiate is respected for her neutrality and even-handed attitude toward all people as well as other living things. She quickly develops some sense for others’ attitudes, much as she does with"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_zephyr_message",
+            "name": {
+              "value": "Zephyr Message"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Zephyr Message — At 6th level, once per day, the Green Faith initiate can cast whispering wind as a spell-like ability, treating her druid level as her caster level."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_secrets_across_lifetimes",
+            "name": {
+              "value": "Secrets Across Lifetimes"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Secrets Across Lifetimes — At 10th level, the Green Faith initiate can use legend lore once per week as a spell-like ability, drawing upon the knowledge of Green Faith archdruids recorded in secret across the generations in places where magic such"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "druid_arch_thousand_voices",
+            "name": {
+              "value": "Thousand Voices"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Thousand Voices — At 13th level, the Green Faith initiate can communicate with any creature with a language or any stone, as if using tongues and stone tell, for up to 1 minute per druid level per day. These minutes do not need to be cons"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Mediator’s Ear (Ex) Zephyr Message (Sp) Path to Refuge (Sp) Secrets Across Lifetimes (Sp) A Thousand Voices (Su) Druids who are initiated into the magic of nature as strict students of the Green Faith’s traditions sometimes demonstrate abilities unique to their organization. The green faith initiate is an archetype of the druid class. Mediator’s Ear (Ex) By 3rd level, a Green Faith initiate is respected for her neutrality and even-handed attitude toward all people as well as other living things. She quickly develops some sense for others’ attitudes, much as she does with animals. A Green Faith initiate gains a bonus on Diplomacy and Sense Motive checks equal to half her druid level. This ability replaces trackless step. Zephyr Message (Sp) At 6th level, once per day, the Green Faith initiate can cast whispering wind as a spell-like ability, treating her druid level as her caster level. This replaces the druid’s additional daily use of wild shape gained at 6th level. Path to Refuge (Sp) At 9th level, once per day, a Green Faith initiate can travel as if with transport via plants to any major Green Faith druid circle or important holy site. Each of these sites is marked with special standing stones that allow all Green Faith followers within range using transport via plants or tree stride to sense their distance and direction. At 14th level and again at 19th level, she can use this ability one additional time per day. This ability replaces venom immunity. Secrets Across Lifetimes (Sp) At 10th level, the Green Faith initiate can use legend lore once per week as a spell-like ability, drawing upon the knowledge of Green Faith archdruids recorded in secret across the generations in places where magic such as this can retrieve it. This ability does not require material components. This replaces the druid’s additional daily use of wild shape gained at 10th level. A Thousand Voices (Su) At 13th level, the Green Faith initiate can communicate with any creature with a language or any stone, as if using tongues and stone tell, for up to 1 minute per druid level per day. These minutes do not need to be consecutive, but must be spent in 1-minute increments. This ability replaces a thousand faces."
+    }
+  }
+}

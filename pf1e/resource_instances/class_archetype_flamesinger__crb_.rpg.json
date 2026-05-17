@@ -1,0 +1,57 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_flamesinger__crb_",
+    "name": {
+      "value": "Flamesinger"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_bardic_knowledge",
+        "bard_lore_master",
+        "bard_inspire_courage_1",
+        "bard_versatile_performance"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_wildfire",
+            "name": {
+              "value": "Wildfire"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wildfire — Like a raging wildfire, a flamesinger moves with blistering speed. At 2nd level and every 4 levels thereafter, the flamesinger gains a +5-foot enhancement bonus to her base speed (to a maximum of +25 feet at 18th level)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Fire Music Bardic Performance Wildfire (Ex) Flamesingers find inspiration in the mesmerizing beauty of fire. Fire Music A flamesinger gains Fire Music as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds summon monster I and summon monster II to her bard spells known; every 3 levels thereafter she gains the next level of summon monster, until she adds summon monster VI to her spells known at 16th level. The flamesinger must apply the Fire Music feat’s effect when casting these spells. This ability replaces bardic knowledge and lore master. Bardic Performance A flamesinger gains the following bardic performance. Blazing Blades (Su) The flamesinger’s song causes allies’ weapons to burst into flames. To be affected, an ally must be able to hear the bard perform and be within 30 feet. An affected creature’s successful attacks with manufactured or natural weapons deal 1d4 additional points of fire damage. These flames do not harm the weapon or its wielder. This damage stacks with other sources of fire damage, such as the flaming special weapon ability. At 5th level and every 6 bard levels thereafter, this bonus fire damage increases by 1d4 (to a maximum of 4d4 at 17th level). This is a fire effect that relies on audible components. This ability replaces inspire courage. Wildfire (Ex) Like a raging wildfire, a flamesinger moves with blistering speed. At 2nd level and every 4 levels thereafter, the flamesinger gains a +5-foot enhancement bonus to her base speed (to a maximum of +25 feet at 18th level). This ability replaces versatile performance."
+    }
+  }
+}

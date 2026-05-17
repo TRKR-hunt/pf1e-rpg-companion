@@ -1,0 +1,75 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_sensei__crb_",
+    "name": {
+      "value": "Sensei"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "monk__crb_"
+    },
+    "parent_class_name": {
+      "value": "Monk"
+    },
+    "replaces": {
+      "value": [
+        "monk_flurry_of_blows",
+        "monk_fast_movement_10_ft",
+        "monk_evasion",
+        "monk_bonus_feat"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_arch_advice",
+            "name": {
+              "value": "Advice"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Advice — A senseiâs advice is identical to bardic performance (using oratory), allowing him to inspire courage at 1st level, inspire competence at 3rd level, and inspire greatness at 9th level, as a bard of the senseiâs level"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "monk_arch_insightful_strike",
+            "name": {
+              "value": "Insightful Strike"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Insightful Strike — At 2nd level, a sensei may use his Wisdom bonus in lieu of his Strength or Dexterity on attack rolls and combat maneuver checks with unarmed strikes or monk weapons."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along with occasional correction that is subtle and swift. Rather than using wisdom for his own benefit alone, he uses it to better those around him. Skills A sensei gains Diplomacy, Linguistics, and all Knowledge skills as class skills. Advice (Ex) A senseiâs advice is identical to bardic performance (using oratory), allowing him to inspire courage at 1st level, inspire competence at 3rd level, and inspire greatness at 9th level, as a bard of the senseiâs level, usable a total number of rounds per day equal to his level + his Wisdom modifier (minimum 1). This ability replaces flurry of blows, fast movement, and improved evasion. Insightful Strike (Ex) At 2nd level, a sensei may use his Wisdom bonus in lieu of his Strength or Dexterity on attack rolls and combat maneuver checks with unarmed strikes or monk weapons. This ability replaces evasion and the bonus feat gained at 2nd level. Mystic Wisdom (Su) At 6th level, a sensei may use his advice ability when spending points from his ki pool to activate a class ability (using the normal actions required for each) in order to have that ability affect one ally within 30 feet rather than the sensei himself. At 10th level, a sensei may affect all allies within 30 feet rather than himself (spending points from his ki pool only once, not once for each target). At 10th level, a sensei may instead spend 1 point from his ki pool (as a swift action ) while using advice to provide a single ally within 30 feet with evasion, fast movement, high jump, purity of body, or slow fall. At 14th level, a sensei may spend 2 points to grant one of the abilities listed above to all allies within 30 feet, or diamond body, diamond soul, or improved evasion to a single ally within 30 feet. These abilities function at the senseiâs level and last 1 round. This ability replaces the bonus feats gained at 6th, 10th, and 14th level."
+    }
+  }
+}

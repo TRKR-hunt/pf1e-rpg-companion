@@ -1,0 +1,93 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_abolisher__crb_",
+    "name": {
+      "value": "Abolisher"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "inquisitor__crb_"
+    },
+    "parent_class_name": {
+      "value": "Inquisitor"
+    },
+    "replaces": {
+      "value": [
+        "inquisitor_domain_orisons_monster_lore_stern_gaze_1_2_level",
+        "inquisitor_cunning_initiative_add_wis_to_init_detect_alignm",
+        "inquisitor_bane",
+        "inquisitor_discern_lies"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_revealing_gaze",
+            "name": {
+              "value": "Revealing Gaze"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Revealing Gaze — An abolisher receives a morale bonus on opposed Perception checks against other creaturesâ Disguise and Stealth checks equal to half her inquisitor level (minimum +1). She grants this bonus to all adjacent allies."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_expose_aberration",
+            "name": {
+              "value": "Expose Aberration"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Expose Aberration — At 2nd level, an abolisher can use detect aberration at will. When she hits a creature with a weapon attack, she automatically knows if the creature is an aberration or not. At 5th level, she can activate her bane abilit"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "inquisitor_arch_grasp",
+            "name": {
+              "value": "Grasp"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Grasp — At 5th level, an abolisher is divinely protected against the grasping tentacles and paralyzing secretions of aberrations. For a number of rounds per day equal to her inquisitor level, she can ignore impediments to moveme"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Sworn to Purity (Ex) Revealing Gaze (Ex) Expose Aberration (Sp) Escape Corruptionâs Grasp (Sp) Abolishers are incorruptible inquisitors who weed out creatures of alien, unnatural origins, finding and exposing aberrations for what they are. Sworn to Purity (Ex) An abolisher must select one of the following domains: Air, Animal, Earth, Fire, Plant, Water, or Weather. If she ever changes her deity to one that has none of the listed domains, she loses this archetype and becomes a normal inquisitor or ex- inquisitor. This ability alters domains. Revealing Gaze (Ex) An abolisher receives a morale bonus on opposed Perception checks against other creaturesâ Disguise and Stealth checks equal to half her inquisitor level (minimum +1). She grants this bonus to all adjacent allies. This ability replaces stern gaze. Expose Aberration (Sp) At 2nd level, an abolisher can use detect aberration at will. When she hits a creature with a weapon attack, she automatically knows if the creature is an aberration or not. At 5th level, she can activate her bane ability as an immediate action after she hits an aberration but before damage is rolled. This ability replaces detect alignment and alters bane. Escape Corruptionâs Grasp (Sp) At 5th level, an abolisher is divinely protected against the grasping tentacles and paralyzing secretions of aberrations. For a number of rounds per day equal to her inquisitor level, she can ignore impediments to movement, as per freedom of movement. These rounds donât need to be consecutive. Activating this ability is an immediate action. This ability replaces discern lies."
+    }
+  }
+}

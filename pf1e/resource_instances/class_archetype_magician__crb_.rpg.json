@@ -1,0 +1,170 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_magician__crb_",
+    "name": {
+      "value": "Magician"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "bard__crb_"
+    },
+    "parent_class_name": {
+      "value": "Bard"
+    },
+    "replaces": {
+      "value": [
+        "bard_inspire_courage_1",
+        "bard_dirge_of_doom",
+        "bard_frightening_tune",
+        "bard_bardic_knowledge",
+        "bard_countersong",
+        "bard_well_versed",
+        "bard_versatile_performance",
+        "bard_lore_master",
+        "bard_jack_of_all_trades"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_dweomercraft",
+            "name": {
+              "value": "Dweomercraft"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Dweomercraft — : A magician can use performance to manipulate magical energies. Allies of the magician gain a +1 bonus on caster level checks, concentration checks, and attack rolls with spells and spell-like abilities. This bonus incr"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_metamagic_mastery",
+            "name": {
+              "value": "Metamagic Mastery"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Metamagic Mastery — : At 14th level, a magician can use performance to apply a metamagic feat to a spell he is about to cast without increasing the casting time. The bard must still expend a higher-level slot to cast this spell. This causes"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_magical_talent",
+            "name": {
+              "value": "Magical Talent"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Magical Talent — A magician gains a bonus equal to half his level on Knowledge (arcana), Spellcraft, and Use Magic Device checks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_extended_performance",
+            "name": {
+              "value": "Extended Performance"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Extended Performance — At 2nd level, a magician can extend the duration of bardic performance after he stops concentrating by sacrificing a spell slot as a swift action. The performance effect lingers for 1 extra round per level of the spell. "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_expanded_repertoire",
+            "name": {
+              "value": "Expanded Repertoire"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Expanded Repertoire — At 2nd level and every four levels thereafter, a magician can add one spell to his spells known from the spell list of any arcane spellcasting class. The spell must be of a level he can cast."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_arcane_bond",
+            "name": {
+              "value": "Arcane Bond"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Arcane Bond — At 5th level, a magician gains the arcane bond ability as a wizard. He may not choose a familiar or a weapon as a bonded item."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "bard_arch_wand_mastery",
+            "name": {
+              "value": "Wand Mastery"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Wand Mastery — At 10th level, when a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand’s save DC. At 16th level, when using such a wand, he uses his caster level in place of the wand’"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Bardic Performance Magical Talent (Ex) Improved Counterspell Extended Performance (Su) Expanded Repertoire (Ex) Arcane Bond (Ex) Wand Mastery (Ex) A magician dabbles in performance, but sees it as a means to tap into universal energies and channel them. Bardic Performance A magician gains the following types of bardic performance: Dweomercraft (Su): A magician can use performance to manipulate magical energies. Allies of the magician gain a +1 bonus on caster level checks, concentration checks, and attack rolls with spells and spell-like abilities. This bonus increases by +1 at 5th level and every six levels thereafter. This ability relies on visual and audible components. This ability replaces inspire courage. Spell Suppression (Su): A 8th level, a magician can use performance to counter the spells of his foes. Once the bard begins using this performance, he tracks the number of rounds it has been in use. While performing, as an immediate action, he can attempt to counter any spell that he can identify using Spellcraft, so long as that spellâs level is equal or less than the total number of rounds he has been performing spell suppression. The attempt to counter the spell is made as if using dispel magic, using the bardâs level as the caster level. If successful, the bardic performance immediately ends. This ability requires audible components. This performance replaces dirge of doom. Metamagic Mastery (Ex): At 14th level, a magician can use performance to apply a metamagic feat to a spell he is about to cast without increasing the casting time. The bard must still expend a higher-level slot to cast this spell. This causes the performance to immediately end. This ability requires audible components. This performance replaces frightening tune. Magical Talent (Ex) A magician gains a bonus equal to half his level on Knowledge (arcana), Spellcraft, and Use Magic Device checks. This ability replaces bardic knowledge. Improved Counterspell A magician gains Improved Counterspell as a bonus feat. This ability replaces countersong. Extended Performance (Su) At 2nd level, a magician can extend the duration of bardic performance after he stops concentrating by sacrificing a spell slot as a swift action. The performance effect lingers for 1 extra round per level of the spell. Only one spell may be sacrificed per performance, and performance types that take effect after a specific number of rounds cannot be extended. This ability replaces well-versed. Expanded Repertoire (Ex) At 2nd level and every four levels thereafter, a magician can add one spell to his spells known from the spell list of any arcane spellcasting class. The spell must be of a level he can cast. This ability replaces versatile performance. Arcane Bond (Ex) At 5th level, a magician gains the arcane bond ability as a wizard. He may not choose a familiar or a weapon as a bonded item. This ability replaces lore master. Wand Mastery (Ex) At 10th level, when a magician uses a wand containing a spell on his spell list, he uses his Charisma bonus to set the wand’s save DC. At 16th level, when using such a wand, he uses his caster level in place of the wand’s caster level. This ability replaces jack of all trades."
+    }
+  }
+}
