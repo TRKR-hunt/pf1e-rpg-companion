@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_bouncer__crb_",
+    "name": {
+      "value": "Bouncer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "brawler__crb_"
+    },
+    "parent_class_name": {
+      "value": "Brawler"
+    },
+    "replaces": {
+      "value": [
+        "brawler_bonus_combat_feat_every_3_levels"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "brawler_arch_drunk_handler",
+            "name": {
+              "value": "Drunk Handler"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Drunk Handler — At 2nd level, a bouncer gains a +2 circumstance bonus on Intimidate and Sense Motive checks against foes that are tipsy or worse. In addition, when in a bar fight, she ignores damage reduction against nonlethal damage he"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Crowd Control (Ex) Lesser Flexibility (Ex) Drunk Handler (Ex) Drunk Knockout (Ex) Bar Fight Mastery (Ex) Some taverns employ bouncers to keep out undesirables or for when their customers get too rowdy. Crowd Control (Ex) When in a bar fight, a bouncer has her tenacity reduced by the crowd at the end of a round by the minimum possible amount. In addition, when she takes the mix it up action, she reduces the tenacity of the crowd by an additional amount equal to her brawler level. Lesser Flexibility (Ex) A bouncer can use her martial flexibility only a number of times per day equal to 2 + half her brawler level (minimum 3 times per day). This alters martial flexibility. Drunk Handler (Ex) At 2nd level, a bouncer gains a +2 circumstance bonus on Intimidate and Sense Motive checks against foes that are tipsy or worse. In addition, when in a bar fight, she ignores damage reduction against nonlethal damage her targets have from being drunk or worse. This replaces the bonus feat gained at 2nd level. Drunk Knockout (Ex) At 4th level, a bouncer can use one use of her knockout ability to attempt a similar maneuver in a bar fight against a major participant who is drunk or worse. She must declare her intent before attempting her brawling check, and if she hits and reduces the targetâs tenacity, that target must succeed at a Fortitude saving throw (DC = 10 + half the bouncerâs brawler level + the higher of the bouncerâs Strength or Dexterity modifiers) or immediately be reduced to 0 tenacity. Bar Fight Mastery (Ex) At 5th level, in addition to the benefits of close weapon mastery, when a bouncer confirms a critical hit against a major participant in a bar fight, she also reduces the tenacity of the crowd by her normal brawling damage amount (this amount isnât doubled). This alters close weapon mastery."
+    }
+  }
+}

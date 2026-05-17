@@ -1,0 +1,128 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_commando__crb_",
+    "name": {
+      "value": "Commando"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "gunslinger__crb_"
+    },
+    "parent_class_name": {
+      "value": "Gunslinger"
+    },
+    "replaces": {
+      "value": [
+        "gunslinger_deeds",
+        "gunslinger_nimble_1",
+        "gunslinger_bonus_feat"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_arch_sniping_shot",
+            "name": {
+              "value": "Sniping Shot"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Sniping Shot — At 11th level, the commando can spend 1 point of grit as a swift action to negate the â20 penalty on Stealth checks when sniping until the start of her next turn."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_arch_camouflage",
+            "name": {
+              "value": "Camouflage"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Camouflage — At 11th level, as long as the commando has 1 point of grit, she gains the camouflage ranger class feature."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_arch_hide_in_plain_sight",
+            "name": {
+              "value": "Hide in Plain Sight"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Hide in Plain Sight — At 15th level, as long as the commando has 1 point of grit, she gains the hide in plain sight ranger class feature."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_arch_favored_terrain",
+            "name": {
+              "value": "Favored Terrain"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Favored Terrain — At 2nd level, a commando gains the favored terrain ranger class feature. At 6th level and every 4 levels thereafter, the commando can pick an additional favored terrain."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "gunslinger_arch_track",
+            "name": {
+              "value": "Track"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Track — At 4th level, a commando adds half her level on Survival checks to follow tracks."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Deeds Favored Terrain (Ex) Track (Ex) Trapsmith Commandos are those rough and ready gunslingers who excel at hit-and-run tactics and leveraging their expertise in the wild against their enemies. Class Skills: A commando gains Knowledge (geography), Knowledge (nature), and Stealth as class skills instead of Knowledge (engineering), Knowledge (local), and Sleight of Hand. This alters the gunslinger’s class skills. Deeds A commando gains the following deeds; each of these deeds replaces an existing deed. Trap Shot (Ex) At 3rd level, the commando can spend 1 point of grit and target a 5-foot square with her firearm. If she succeeds at an attack against an AC of 10, she triggers a single trap within that 5-foot square, even if she is unaware of the trap. If there are multiple traps within the same 5-foot square, the commando must declare which trap she is triggering; otherwise it is determined randomly. If a creature is occupying the same square as the triggered trap, the trap affects the creature as if it had triggered the trap. This deed replaces utility shot. Sniping Shot (Ex) At 11th level, the commando can spend 1 point of grit as a swift action to negate the â20 penalty on Stealth checks when sniping until the start of her next turn. This deed replaces expert loading. Camouflage (Ex) At 11th level, as long as the commando has 1 point of grit, she gains the camouflage ranger class feature. This deed replaces lightning reload. Hide in Plain Sight (Ex) At 15th level, as long as the commando has 1 point of grit, she gains the hide in plain sight ranger class feature. This deed replaces slinger’s luck. Favored Terrain (Ex) At 2nd level, a commando gains the favored terrain ranger class feature. At 6th level and every 4 levels thereafter, the commando can pick an additional favored terrain. This replaces nimble. Track (Ex) At 4th level, a commando adds half her level on Survival checks to follow tracks. This replaces the bonus feat gained at 4th level. Trapsmith At 5th level, a commando can learn how to create one ranger trap in place of gaining the next level of gun training. A commando can use a known trap a number of times per day equal to her Wisdom bonus (minimum 1). The DC for a commando’s trap is equal to 10 + half her commando level + her Wisdom bonus, and it lasts 1 day per 2 levels she has. A commando can set only extraordinary ranger traps with this ability; as with extraordinary ranger traps, the trap DC for these traps has a â2 penalty. This alters gun training."
+    }
+  }
+}

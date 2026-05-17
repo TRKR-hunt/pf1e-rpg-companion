@@ -1,0 +1,36 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_gunpowder_bombardier__crb_",
+    "name": {
+      "value": "Gunpowder Bombardier"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "ninja__crb_"
+    },
+    "parent_class_name": {
+      "value": "Ninja"
+    },
+    "replaces": {
+      "value": [
+        "ninja_ninja_trick_poison_use_sneak_attack_1d6_1d6_ever",
+        "ninja_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Gunpowder Bomb (Ex) Explosive Impairment (Su) Delayed Explosive (Ex) Ratfolk assassins and other ninjas with an affinity for gunpowder demonstrate masterful control of bombs, using the explosives to inflict major damage or impair their foes. Gunpowder Bomb (Ex) At 2nd level, a gunpowder bombardier can expend 1 ki point to throw a gunpowder bomb at a grid intersection as a ranged attack against AC 5 with a range of 20 feet. The gunpowder bomb deals 1d6 points of bludgeoning damage to all creatures in a 10-foot-radius burst, which can be increased to 20 feet by spending 1 additional ki point. A creature in the bombâs radius can attempt a Reflex save (DC = 10 + half the gunpowder bombardierâs ninja level + her Dexterity modifier) for half damage. At 5th level and every 2 levels thereafter, the bombâs damage increases by 1d6, to a maximum of 9d6 points of bludgeoning damage at 19th level. This alters ki pool and replaces the ninja trick gained at 2nd level. Explosive Impairment (Su) At 4th level, a gunpowder bombardier can imbue her gunpowder bombs with impairing effects. By spending 1 additional ki point when she throws a gunpowder bomb, the gunpowder bombardier can cause her bomb to inflict one of the following conditions, in addition to dealing its normal damage, for a number of rounds equal to half her ninja level: dazzled, deafened, entangled, or shaken. At 8th level, she adds nauseated and stunned to the list of conditions her bombs can inflict. A creature that succeeds at the Reflex save to halve the damage also negates the condition inflicted by the gunpowder bomb. This replaces uncanny dodge. Delayed Explosive (Ex) At 8th level, a gunpowder bombardier can plant a gunpowder bomb and delay its explosion. As a standard action, the gunpowder bombardier can place a gunpowder bombâadding effects as she would if she were throwing the gunpowder bomb, and spending the requisite ki pointsâand specify a number of rounds after which the bomb will detonate, up to a maximum number of rounds equal to the gunpowder bombardierâs ninja level. If the bomb is touched or moved by another creature, it detonates immediately. The gunpowder bombardier can have only one delayed explosive active at a time; planting another gunpowder bomb renders the previous bomb inert. This replaces improved uncanny dodge."
+    }
+  }
+}

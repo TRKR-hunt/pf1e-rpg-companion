@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_velvet_blade__crb_",
+    "name": {
+      "value": "Velvet Blade"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_track",
+        "slayer_swift_tracker"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_courtly_graces",
+            "name": {
+              "value": "Courtly Graces"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Courtly Graces — A velvet blade spends long hours memorizing etiquette and family lineages of royalty and other prominent families. She gains a bonus on Knowledge (nobility checks) equal to half her slayer level (minimum +1)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_silent_dispatch",
+            "name": {
+              "value": "Silent Dispatch"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Silent Dispatch — At 11th level, a velvet blade becomes adept at taking out her targets quietly. She gains the silent dispatch vigilante talent without meeting the talent’s prerequisites."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Class Skills Armor Proficiency Studied Socialite (Ex) Courtly Graces (Ex) Treacherous Blade (Ex) Silent Dispatch (Ex) Velvet blades specialize in infiltrating the upper echelons of society, mingling with nobles and courtiers, and killing them. Velvet blades are often born into the aristocracy, with an intricate understanding of the inner workings of upperclass society. Though a few velvet blades are unhinged maniacs who enjoy preying on their peers, most of these well-heeled slayers assume a professional demeanor and hire themselves out to other nobles or well-connected criminal organizations. Class Skills A velvet blade adds Diplomacy and Knowledge (nobility) to her list of class skills, instead of Knowledge (dungeoneering). This alters the slayer’s class skills. Armor Proficiency A velvet blade is not proficient with medium armor or shields. This alters the slayer’s armor proficiency. Studied Socialite (Ex) A velvet blade focuses her studies on social infiltration rather than brute force, believing it is easier to kill an opponent quietly and unprepared than in a loud battle. She adds her studied target bonus on Bluff, Diplomacy, Disguise, Intimidate, Knowledge, Perception, Sense Motive, Stealth, and Survival checks against studied opponents, as well as to the DCs of slayer class abilities she uses against such opponents. She never gains a bonus on weapon attack and damage rolls from her studied target ability. This ability alters studied target. Courtly Graces (Ex) A velvet blade spends long hours memorizing etiquette and family lineages of royalty and other prominent families. She gains a bonus on Knowledge (nobility checks) equal to half her slayer level (minimum +1). This ability replaces track. Treacherous Blade (Ex) At 7th level, a velvet blade can capitalize on how others underestimate her and allow her close to them, assuming she is harmless. She gains the Betrayer feat as a bonus feat, whether or not she meets the prerequisites. Additionally, when making her first attack against a studied target that believes her to be harmless or to be an ally, the attack counts as a sneak attack, even if the target isn’t flanked or denied its Dexterity bonus to AC, and the velvet blade gains +2d6 sneak attack damage, increasing by 1d6 at 10th level and every 5 levels thereafter. Even if she immediately attacks the target again (such as by continuing a full attack), only the first attack gains these benefits, since the target immediately realizes the velvet blade is something more than she seemed. Silent Dispatch (Ex) At 11th level, a velvet blade becomes adept at taking out her targets quietly. She gains the silent dispatch vigilante talent without meeting the talent’s prerequisites. This ability replaces swift tracker."
+    }
+  }
+}

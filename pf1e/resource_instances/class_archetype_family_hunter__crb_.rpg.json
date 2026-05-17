@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_family_hunter__crb_",
+    "name": {
+      "value": "Family Hunter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_slayer_talent_every_2_levels_rogue_talents_allow"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_disrupt_teamwork",
+            "name": {
+              "value": "Disrupt Teamwork"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Disrupt Teamwork — At 6th level, a family hunterâs studied target never counts as an ally to its allies for the purpose of flanking the family hunter or using teamwork feats or the aid another action against the family hunter."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Find Family (Sp) Kinslayer (Su) Studied Target (Ex) Disrupt Teamwork (Ex) Most slayers focus their efforts on single targets, but family hunters try to root out every branch of a tainted tree of life. Find Family (Sp) At 2nd level, a family hunter chooses a particular family line of mortal creatures to cleanse (she must choose an actual family line like âThe Montrose family,â rather than something generic that would cover all creatures of a given kind like âAll humans descended from the first human created by the godsâ). She can target any creature from that family line with discern next of kin (with a caster level equal to her slayer level) at will as a spell-like ability. The save DC is Charisma -based and is modified by the slayerâs studied target bonus if the creature is also her studied target. A creature that successfully saves against this effect is immune to this ability for 24 hours. If the family hunterâs chosen family line is completely eradicated, she can choose a new one after 1 month of studying. This ability replaces the slayer talent gained at 2nd level. Kinslayer (Su) At 3rd level, a family hunterâs sneak attack deals an additional 1d6 points of damage to any creature with a blood relation to the family line she seeks to cleanse. This ability alters sneak attack. Studied Target (Ex) At 5th level and above, a slayer can maintain more than one studied target at a time only if all targets are closely related to one another (even if they arenât part of the family line she seeks to cleanse). This includes blood relatives; undead spawn; constructs or undead and their creator; summoned creatures and their summoner; creatures that are charmed, dominated, or otherwise under direct magical control and their controller; and cohorts, followers, animal companions, familiars, and similar associates of one master. This ability alters studied target. Disrupt Teamwork (Ex) At 6th level, a family hunterâs studied target never counts as an ally to its allies for the purpose of flanking the family hunter or using teamwork feats or the aid another action against the family hunter. This ability replaces the slayer talent gained at 6th level."
+    }
+  }
+}

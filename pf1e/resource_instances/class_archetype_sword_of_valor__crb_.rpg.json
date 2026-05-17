@@ -1,0 +1,73 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_sword_of_valor__crb_",
+    "name": {
+      "value": "Sword of Valor"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "paladin__crb_"
+    },
+    "parent_class_name": {
+      "value": "Paladin"
+    },
+    "replaces": {
+      "value": [
+        "paladin_divine_grace",
+        "paladin_aura_of_justice"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_arch_first_into_battle",
+            "name": {
+              "value": "First Into Battle"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "First Into Battle — At 2nd level, a sword of valor can spend 1 use of smite evil or lay on hands to act in the surprise round, even if surprised. When making an Initiative check, a sword of valor gains a bonus to the check equal to his Char"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "paladin_arch_prayer_of_the_fourth_act",
+            "name": {
+              "value": "Prayer of the Fourth Act"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Prayer of the Fourth Act — At 6th level, by spending 1 minute praying a sword of valor can spend one use of channel energy to give living creatures in the channel burst temporary hit points equal to the amount that ability normally heals. These te"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Valor, justice, and honor are your lifeblood, and you would sooner cut out your own heart than betray your comrades or your faith. A sword of valor has the following class features. Devout Worshiper A sword of valor must follow a good god or goddess who stresses valor, loyalty or bravery. First Into Battle (Su) At 2nd level, a sword of valor can spend 1 use of smite evil or lay on hands to act in the surprise round, even if surprised. When making an Initiative check, a sword of valor gains a bonus to the check equal to his Charisma bonus. This ability replaces divine grace. Prayer of the Fourth Act (Su) At 6th level, by spending 1 minute praying a sword of valor can spend one use of channel energy to give living creatures in the channel burst temporary hit points equal to the amount that ability normally heals. These temporary hit points last for no more than 1 hour. This replaces the paladinâs mercy gained at 6th level. Worthy Enemy (Su) At 11th level, when a sword of valor critically hits an enemy with a smite, the target must make a Will saving throw (DC = 10 + 1/2 the paladinâs level + the paladinâs Charisma bonus) or be compelled to surrender to the paladin, as if affected by a suggestion spell (CL = the paladinâs level) to lay down arms and give up the fight. An enemy that succumbs to this ability remains docile until it is injured by the paladin or one of his obvious allies, at which point the compulsion to surrender immediately ends and the enemy is free to make his own choices again. If the enemy makes the save, it is not subject to this ability for 24 hours. Worthy enemy is a mind-affecting effect. This ability replaces aura of justice."
+    }
+  }
+}

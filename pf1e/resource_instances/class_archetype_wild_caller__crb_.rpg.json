@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_wild_caller__crb_",
+    "name": {
+      "value": "Wild Caller"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "summoner_unchained__crb_"
+    },
+    "parent_class_name": {
+      "value": "Summoner (Unchained)"
+    },
+    "replaces": {
+      "value": [
+        "summoner_unchained_aspect"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "summoner_unchained_arch_fey_friend",
+            "name": {
+              "value": "Fey Friend"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Fey Friend — At 10th level, the wild caller gains a +4 bonus on Bluff, Diplomacy, and Sense Motive checks against fey."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Plant Eidolon Summon Nature’s Ally (Sp) Fey Friend (Ex) A wild caller summons plant creatures and forges a bond with an eidolon with a plant body. Plant Eidolon When a wild caller summons his eidolon, the eidolon’s body is created from extraplanar plant material and imbued with the intelligence of a being from the First World. Its statistics are changed from a standard eidolon as follows. Type: The eidolon has the plant creature type and extraplanar subtype. Unlike other plant creatures, the eidolon is not immune to mind-affecting or polymorph effects, though it does gain immunity to paralysis, poison, sleep effects, and stunning. Base Form: The wild caller chooses one of the base forms listed below for his plant eidolon. When the eidolon is summoned in an environment matching one of these base forms, the wild caller can choose to change the eidolon’s base form to the matching form by sacrificing one daily use of his summon nature’s ally ability as a free action. Plant eidolon base forms are as follows. Cactus (desert): Size Medium; Speed 30 ft.; AC +2 natural armor; Saves Fort (good), Ref (good), Will (bad); Attacks slam (1d8), sting (1d4); Ability Scores Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11; Free Evolutions limbs (arms), limbs (legs), sting, tail. Conifer (forest, mountain): Size Medium; Speed 30 ft.; AC +2 natural armor; Saves Fort (good), Ref (bad), Will (good); Attacks 2 claws (1d4); Ability Scores Str 14, Dex 12, Con 15, Int 7, Wis 10, Cha 11; Resist cold 10; Free Evolutions claws, limbs (arms), limbs (legs), resistance (cold). Mushroom (swamp, underground): Size Medium; Speed 20 ft.; AC +2 natural armor; Saves Fort (good), Ref (good), Will (bad); Attack bite (1d6) plus poison; Ability Scores Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11; Free Evolutions bite, limbs (arms), limbs (legs), poison. Tree (forest, jungle, swamp): Size Medium; Speed 20 ft.; AC +4 natural armor; Saves Fort (good), Ref (good), Will (bad); Attacks 2 slams (1d8); Ability Scores Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11; Free Evolutions improved natural armor, limbs (arms), limbs (legs), slam Ã2. This ability alters the summoner’s eidolon. Summon Nature’s Ally (Sp) A wild caller can cast summon nature’s ally as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. Summoned creatures serve the summoner for 1 minute per summoner level, after which point they disappear. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the wild caller instead gains the equivalent summon nature’s ally spell; at 19th level, he can use summon nature’s ally IX or gate. When a wild caller gains a summon nature’s ally spell as a spell-like ability, he adds it to his class spell list (though he must still select it as a spell known if he wants to gain the ability to cast it as a normal spell). This ability alters the summon monster ability. Fey Friend (Ex) At 10th level, the wild caller gains a +4 bonus on Bluff, Diplomacy, and Sense Motive checks against fey. This ability replaces aspect, which is instead gained at 18th level in place of greater aspect."
+    }
+  }
+}

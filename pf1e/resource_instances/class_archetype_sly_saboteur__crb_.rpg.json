@@ -1,0 +1,36 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_sly_saboteur__crb_",
+    "name": {
+      "value": "Sly Saboteur"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_trap_sense_1",
+        "rogue_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Scamper (Ex) Catastrophic Failure (Ex) Disable Magic Device (Su) Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks. Though they often face enemies with greater numbers or resources (or both), sly saboteurs have the advantage of knowing the local people and terrain. They might be rebels fighting against a corrupt government, or they might be members of a militia opposing an invading force. Some are environmentalists who sabotage the tools of industry in order to protect unspoiled nature. Class Skills: A sly saboteur adds Survival to her list of class skills instead of Knowledge (dungeoneering). This alters the rogue’s class skills. Scamper (Ex) At 3rd level, a sly saboteur can move through 5 feet of difficult terrain each round as if it were normal terrain. At 6th level and every 3 levels thereafter, this distance increases by 5 feet (to a maximum of 30 feet at 18th level). This ability allows the sly saboteur to take a 5-foot step into difficult terrain. This ability applies only when she is wearing light armor or no armor and carrying no more than a light load, and it stacks with the Acrobatic Steps and Nimble Moves feats. This replaces trap sense. Catastrophic Failure (Ex) At 4th level, when a sly saboteur uses Disable Device to rig a device to fail, she can increase the DC of the check by 5. If she does so and succeeds at the check, when the device fails, users take damage equal to the sly saboteur’s sneak attack, or they take half that amount with a successful Reflex save (DC = 10 + half the sly saboteur’s level + her Dexterity modifier). The type of damage depends on the nature of the device but is typically bludgeoning, fire, piercing, or slashing. This replaces uncanny dodge. Disable Magic Device (Su) At 8th level, a sly saboteur can use Disable Device to rig a magic item to fail as if it were an extremely complex device. If the item’s effect is instantaneous, the effect is countered the next time the item is activated, but the activation still consumes a charge or use. If the item’s effect is continuous or has a duration, the effect fails after 1d4 rounds or minutes of use (sly saboteur’s choice). This ends the duration or suppresses a continuous effect for 1d4 rounds (as the spell dispel magic ). This ability cannot be used on artifacts. If this ability is combined with the catastrophic failure ability, the resulting damage is untyped magic and is not reduced by damage reduction or energy resistance. This replaces improved uncanny dodge. Rogue Talents: The following rogue talents complement the sly saboteur archetype: cunning trigger, fast stealth, getaway artist, quick disable, quick trapsmith, rogue crawl, trap spotter, wall scramble. Advanced Talents: The following advanced rogue talents complement the sly saboteur archetype: frugal trapsmith, hide in plain sight, knock-out blow, rumormonger, skill mastery, stealthy sniper."
+    }
+  }
+}

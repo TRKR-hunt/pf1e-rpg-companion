@@ -1,0 +1,91 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_heister__crb_",
+    "name": {
+      "value": "Heister"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue_unchained__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue (Unchained)"
+    },
+    "replaces": {
+      "value": [
+        "rogue_unchained_evasion_rogue_talent_every_2_levels",
+        "rogue_unchained_improved_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_arch_rum_dubber",
+            "name": {
+              "value": "Rum Dubber"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Rum Dubber — At 2nd level, whenever a heister attempts to open a lock without a set of thieves’ tools, the DC increases by 2, instead of 10."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_arch_grace",
+            "name": {
+              "value": "Grace"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Grace — At 4th level, a heister gains Stealthy as a bonus feat. Additionally, a heister counts as a creature one size category smaller than she actually is when determining whether or not she is squeezing into an enclosed space "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "rogue_unchained_arch_unseen",
+            "name": {
+              "value": "Unseen"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Unseen — At 8th level, a heister masters hiding in underground and urban terrain. She can use the Stealth skill to hide in underground and urban terrain, even while being observed. She also gains the terrain mastery rogue talent "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Notorious for their stealth, imagination, and elaborately planned thefts and capers, heisters specialize in breaking into secure locations, stealing items of value, and escaping undetected. Heisters often work as members of or independent operatives contracted to criminal organizations, crime families, or wealthy individuals inclined to unlawful activity. Rum Dubber (Ex) At 2nd level, whenever a heister attempts to open a lock without a set of thieves’ tools, the DC increases by 2, instead of 10. This ability replaces the rogue talent gained at 2nd level. Ferret’s Grace (Ex) At 4th level, a heister gains Stealthy as a bonus feat. Additionally, a heister counts as a creature one size category smaller than she actually is when determining whether or not she is squeezing into an enclosed space Finally, when a heister uses the Escape Artist skill to move through a tight space where her head fits but her shoulders do not, the DC is 20, instead of 30. This ability replaces uncanny dodge and the rogue talent gained at 4th level. Unseen (Ex) At 8th level, a heister masters hiding in underground and urban terrain. She can use the Stealth skill to hide in underground and urban terrain, even while being observed. She also gains the terrain mastery rogue talent twice, once each for underground and urban terrain. This ability replaces improved uncanny dodge and the rogue talent gained at 8th level. Rogue Talents: The following rogue talents complement the heister archetype: expert leaper, fast getaway, fast picks, fast stealth, getaway artist, ledge walker, and quick disable (as well as certainty for an unchained rogue ). Advanced Talents: The following advanced rogue talents complement the heister archetype: fast tumble, getaway master, hidden mind, and skill mastery (as well as cutting edge for an unchained rogue )."
+    }
+  }
+}

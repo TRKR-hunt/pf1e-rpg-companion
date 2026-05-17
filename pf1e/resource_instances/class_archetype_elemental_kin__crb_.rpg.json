@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_elemental_kin__crb_",
+    "name": {
+      "value": "Elemental Kin"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "barbarian__crb_"
+    },
+    "parent_class_name": {
+      "value": "Barbarian"
+    },
+    "replaces": {
+      "value": [
+        "barbarian_trap_sense_1"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "barbarian_arch_elemental_fury",
+            "name": {
+              "value": "Elemental Fury"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Elemental Fury — At 3rd level, whenever the elemental kin takes an amount of energy damage equal to or greater than her barbarian level while raging, she adds 1 to the total number of rounds that she can rage that day. At 6th level, and "
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Some barbarian tribes have strong ties to the elemental forces of nature. Their shamans anoint the warriors at birth, tying them to the patron element of the tribe and granting them lasting boons against such forces. An elemental kin has the following class feature. Elemental Fury (Ex) At 3rd level, whenever the elemental kin takes an amount of energy damage equal to or greater than her barbarian level while raging, she adds 1 to the total number of rounds that she can rage that day. At 6th level, and every three levels thereafter, the number of extra rounds per energy attack increases by +1, to a maximum of +6 rounds per energy attack at at 18th level. This ability replaces trap sense. Rage Powers: The following rage powers complement the elemental kin archetype: elemental rage, energy absorption, energy eruption, energy resistance, greater elemental rage, greater energy resistance, and lesser elemental rage."
+    }
+  }
+}

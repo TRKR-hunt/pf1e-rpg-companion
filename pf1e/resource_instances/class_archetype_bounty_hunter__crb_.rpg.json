@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_bounty_hunter__crb_",
+    "name": {
+      "value": "Bounty Hunter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_slayer_talent_every_2_levels_rogue_talents_allow"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_hold",
+            "name": {
+              "value": "Hold"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Hold — At 6th level, when a bounty hunter attempts a grapple combat maneuver check to deal damage, he can choose to add his sneak attack damage to the grapple damage for that attack. He takes a â5 penalty on the combat maneuv"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Weapon and Armor Proficiency Dirty Trick (Ex) Submission Hold (Ex) Incapacitate (Ex) Whether tasked with bringing in wanted criminals or paid to drag debtors back to their loan sharks, bounty hunters are valued for their ability to capture targets alive. Weapon and Armor Proficiency A bounty hunter is proficient with all simple and martial weapons plus the aklys, bolas, dan bong, lasso, and net. Bounty hunters are proficient with light armor, light shields, and bucklers, but not heavy shields or tower shields. This ability replaces the slayer’s weapon and armor proficiencies. Dirty Trick (Ex) At 2nd level, anytime a bounty hunter is able to deal sneak attack damage to a studied target, he can instead attempt to hamper the target. The bounty hunter must declare that he’s using this ability before the attack roll is made. If the attack hits, it deals damage normally, but instead of rolling sneak attack damage, the bounty hunter can attempt a dirty trick combat maneuver against the studied target as a free action, adding 1 to the combat maneuver check for each die of the bounty hunter’s sneak attack damage. This combat maneuver does not provoke attacks of opportunity. This ability replaces the slayer talent gained at 2nd level. Submission Hold (Ex) At 6th level, when a bounty hunter attempts a grapple combat maneuver check to deal damage, he can choose to add his sneak attack damage to the grapple damage for that attack. He takes a â5 penalty on the combat maneuver check if he does this. This sneak attack damage is nonlethal damage, unless the bounty hunter is able to deal normal damage with a grapple and chooses to do so. This ability replaces the slayer talent gained at 6th level. Incapacitate (Ex) At 10th level, a bounty hunter can incapacitate a studied target. This functions like the assassinate slayer talent, except instead of killing the target, the bounty hunter’s successful attack knocks the target unconscious for 1d6 rounds unless it succeeds at its saving throw. If the target does succeed at its saving throw, it still takes the sneak attack damage as normal, but the damage is nonlethal, and the target is immune to that slayer’s incapacitate ability for 24 hours. This ability replaces the advanced slayer talent gained at 10th level. Slayer Talents: The following slayer talents (and rogue talents ) complement the bounty hunter archetype: camouflage, fast stealth, hard to fool, slowing strike*, snap shot, surprise attack, and terrain mastery. Advanced Slayer Talents: The following advanced slayer talents (and advanced rogue talents ) complement the bounty hunter archetype: hunter’s surprise, knock-out blow, master of disguise, and woodland stride *."
+    }
+  }
+}

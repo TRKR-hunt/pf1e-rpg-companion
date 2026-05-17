@@ -1,0 +1,91 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_spire_diver__crb_",
+    "name": {
+      "value": "Spire Diver"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_track",
+        "slayer_swift_tracker"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_hold_breath",
+            "name": {
+              "value": "Hold Breath"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Hold Breath — A spire diver increases the number of rounds she can hold her breath before she is required to start attempting Constitution checks to avoid drowning by 2 per slayer level she has."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_swift_swimmer",
+            "name": {
+              "value": "Swift Swimmer"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Swift Swimmer — At 11th level, a spire diver gains a swim speed equal to her base speed."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_advance",
+            "name": {
+              "value": "Advance"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Advance — At 13th level, a spire diver can swim up to twice her swim speed once per day as a move action. She can use Stealth as part of this movement but takes a â10 penalty on her check for doing so. At 17th level, she can use"
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Studied Target (Ex) Hold Breath (Ex) Slayer Talents Swift Swimmer (Ex) Diverâs Advance (Ex) Diverâs Quarry (Ex) Peerless divers, assassins, and scouts, spire divers operate in and out of water using the same weapons and equipment. Studied Target (Ex) A spire diver does not gain the ability to add her studied target bonus on Bluff and Survival checks against an opponent she has studied. At 7th level, she cannot add her studied target bonus on Disguise checks. Instead, when using any bow or crossbow against her studied target underwater, the spire diver ignores the normal penalty for shooting underwater and instead treats the weapon as though its range increment were 10 feet. At 5th, 10th, 15th, and 20th levels, the range increment increases by 10 feet, to a maximum of 50 feet. When using a bow or crossbow that already has an underwater range increment, such as an underwater crossbow (Pathfinder RPG Ultimate Equipment 39â40), the spire diver adds the range increment gained from studied target as a bonus to the weaponâs usual underwater range increment, though the combined range increment cannot exceed the weaponâs normal range increment. This alters studied target and stalker. Hold Breath (Ex) A spire diver increases the number of rounds she can hold her breath before she is required to start attempting Constitution checks to avoid drowning by 2 per slayer level she has. This replaces track. Slayer Talents A spire diver can select the strong stroke rogue talent as a slayer talent. Swift Swimmer (Ex) At 11th level, a spire diver gains a swim speed equal to her base speed. This replaces swift tracker. Diverâs Advance (Ex) At 13th level, a spire diver can swim up to twice her swim speed once per day as a move action. She can use Stealth as part of this movement but takes a â10 penalty on her check for doing so. At 17th level, she can use this ability twice per day. This replaces slayerâs advance. Diverâs Quarry (Ex) A spire diver gains quarry and improved quarry as a normal slayer, but she does not gain the ability to take 10 or take 20 on Survival checks while moving at normal speed without penalty. Instead, at 14th level, a spire diver can take 10 on Knowledge checks to identify a monster she has selected as her quarry. At 19th level, she can take 20 on these checks without spending extra time to do so. The spire diver must be trained in the appropriate Knowledge skill to use this ability. This alters quarry and improved quarry."
+    }
+  }
+}

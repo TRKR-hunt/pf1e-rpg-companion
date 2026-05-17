@@ -1,0 +1,54 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_sniper_2__crb_",
+    "name": {
+      "value": "Sniper #2"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "slayer__crb_"
+    },
+    "parent_class_name": {
+      "value": "Slayer"
+    },
+    "replaces": {
+      "value": [
+        "slayer_track"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "slayer_arch_accuracy",
+            "name": {
+              "value": "Accuracy"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "Accuracy — At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow, crossbow, or firearm."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Accuracy (Ex) Deadly Range (Ex) Whether it’s with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown dagger, the sniper ensures that a single shot disables his targets. Accuracy (Ex) At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow, crossbow, or firearm. This ability replaces track. Deadly Range (Ex) At 2nd level, when the sniper makes an attack against a target who is within his weapon’s first range increment and completely unaware of his presence, that attack ignores the 30 foot range limit on ranged sneak attacks, and if it is a sneak attack, he adds his sniper level as a bonus on his sneak attack damage roll. After this first attack, the target is aware of the sniper’s presence. Slayer Talents: The following slayer talents (and rogue talents ) complement the sniper archetype: camouflage, snap shot, sniper’s eye, and weapon training. Advanced Slayer Talents: The following advanced slayer talents (which are also available to rogues ) complement the sniper archetype: deadly sneak, master of disguise, and stealthy sniper."
+    }
+  }
+}
