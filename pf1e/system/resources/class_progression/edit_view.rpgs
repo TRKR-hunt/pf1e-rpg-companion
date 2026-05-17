@@ -37,6 +37,15 @@ view class_progression_edit() =
             stat = "class",
             resource_id = "class",
             filters = dict(is_lore_only = false),
+            // Phase 2f (gotcha #20): commit the class the instant it is
+            // picked so it lands in the `class` base stat. The sibling
+            // archetype picker's `filters` formula is evaluated in the
+            // resource-query context, which CANNOT see page `$view`
+            // widget values (only the edited resource's committed/calc
+            // stats + $character). Without this, during creation the
+            // class lives only in $view and the archetype filter can
+            // never see it (root cause of the 3 failed filter "fixes").
+            should_save_on_selection = true,
             // B.1.7: prestige classes share the `class` type so they
             // appear in the picker, but PF1e-RAW they are NOT taken at
             // character creation — only via multiclass at level-up.
@@ -65,9 +74,15 @@ view class_progression_edit() =
             id = "class_progression_edit_archetype_select",
             stat = "selected_archetypes",
             resource_id = "class_archetype",
+            // gotcha #20: filters eval context can't see page $view, so
+            // bind to the class_progression calc stat (resource-scoped).
+            // class_effective = $view ?? class; in the filters context
+            // $view is null so it resolves to the now-committed `class`
+            // (class select has should_save_on_selection). In page
+            // contexts $view still wins. This is the actual fix — prior
+            // attempts referenced $view directly, invisible here.
             filters = dict(
-              parent_class_id =
-                $view?.class_progression_edit_class_select?.id ?? "",
+              parent_class_id = class_effective?.id ?? "",
             ),
             should_append = true,
             should_save_on_selection = true,
@@ -86,6 +101,21 @@ view class_progression_edit() =
               ]),
               else -> null,
             },
+          ),
+          // Phase 2f (Issue 3): selected-archetype list WITH removal.
+          // Mirrors the feats/equipment creation pattern — a
+          // resourceSection over the same stat renders each pick with
+          // the framework's standard remove affordance, so a wrong
+          // archetype can be cleared without deleting the class. The
+          // archetype picker should_save_on_selection commits to
+          // `selected_archetypes`, so this reflects picks live.
+          resourceSection(
+            id = "class_progression_edit_archetype_selected_list",
+            resource_stat = "selected_archetypes",
+            resource_id = "class_archetype",
+            margin_top = 4,
+            is_visible = defined(stat = "$character.$is_new")
+              && !isEmpty(selected_archetypes),
           ),
           popUpButton(
             id = "class_progression_edit_see_deity_button",

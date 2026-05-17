@@ -18,6 +18,16 @@ base string bonus_languages_note(name = "Bonus languages note") = "";
 base string[] racial_traits(name = "Racial traits") = [];
 base string[] ability_score_modifiers(name = "Ability score modifiers") = [];
 
+// Phase 2f: structured numeric racial ability modifiers (fixed-mod
+// races only; flexible "+2 to any one" races leave these 0).
+// character_stats `*_race_modifier` reads these off the selected race.
+base integer str_racial_mod(name = "STR racial mod") = 0;
+base integer dex_racial_mod(name = "DEX racial mod") = 0;
+base integer con_racial_mod(name = "CON racial mod") = 0;
+base integer int_racial_mod(name = "INT racial mod") = 0;
+base integer wis_racial_mod(name = "WIS racial mod") = 0;
+base integer cha_racial_mod(name = "CHA racial mod") = 0;
+
 base integer hit_points(name = "Hit points") = 8;
 
 base bool same_hit_points_as_parent(name = "Same hit points as parent") = true;

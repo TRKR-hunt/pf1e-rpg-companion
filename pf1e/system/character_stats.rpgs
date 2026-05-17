@@ -35,6 +35,10 @@ base resource<note>[] notes(name = "Notes") = [];
 // ---------- RACE & CLASSES ----------
 
 base resource<race> race(name = "Race") = null;
+// Phase 2f: live-effective race (creator $view, gotcha #13/#14, with
+// committed fallback) — drives racial ability-score modifiers below.
+calc resource<race> race_effective(name = "Race (effective)") =
+  $view?.edit_character_race_select? ?? race;
 base resource<class_progression>[] classes(name = "Classes") = [];
 
 // B.1.5 Phase 1 — LIVE multiclass preview. All cross-class calcs read
@@ -121,12 +125,22 @@ base integer intelligence_score_base(name = "Intelligence base") = 10;
 base integer wisdom_score_base(name = "Wisdom base") = 10;
 base integer charisma_score_base(name = "Charisma base") = 10;
 
-base integer strength_race_modifier(name = "STR race mod") = 0;
-base integer dexterity_race_modifier(name = "DEX race mod") = 0;
-base integer constitution_race_modifier(name = "CON race mod") = 0;
-base integer intelligence_race_modifier(name = "INT race mod") = 0;
-base integer wisdom_race_modifier(name = "WIS race mod") = 0;
-base integer charisma_race_modifier(name = "CHA race mod") = 0;
+// Phase 2f: racial ability-score modifiers now derive from the
+// selected mechanical race (was dead base-0 slots — nothing ever set
+// them). Flexible "+2 to any one" races (Human/Half-Elf/Half-Orc)
+// carry 0 here; that floating bonus is a separate manual choice.
+calc integer strength_race_modifier(name = "STR race mod") =
+  race_effective?.str_racial_mod ?? 0;
+calc integer dexterity_race_modifier(name = "DEX race mod") =
+  race_effective?.dex_racial_mod ?? 0;
+calc integer constitution_race_modifier(name = "CON race mod") =
+  race_effective?.con_racial_mod ?? 0;
+calc integer intelligence_race_modifier(name = "INT race mod") =
+  race_effective?.int_racial_mod ?? 0;
+calc integer wisdom_race_modifier(name = "WIS race mod") =
+  race_effective?.wis_racial_mod ?? 0;
+calc integer charisma_race_modifier(name = "CHA race mod") =
+  race_effective?.cha_racial_mod ?? 0;
 
 calc integer ability_increase_points(name = "Ability score increases earned (1 per 4 levels)") =
   divide([level, 4], rounding_method = "down");
