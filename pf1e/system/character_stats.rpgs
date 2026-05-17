@@ -37,8 +37,16 @@ base resource<note>[] notes(name = "Notes") = [];
 base resource<race> race(name = "Race") = null;
 base resource<class_progression>[] classes(name = "Classes") = [];
 
+// B.1.5 Phase 1 — LIVE multiclass preview. All cross-class calcs read
+// $c.class_level_effective / $c.class_effective (class_progression's
+// $view-aware calcs: $view?.<picker>? ?? committed). On the creation
+// page these reflect the in-flight class pick live; off it they fall
+// back to the committed class/level — so post-commit and sheet values
+// are unchanged. Eliminates the "(updates on continue)" placeholder
+// (B.1.1.1 spec). Gotchas #13/#14 satisfied by class_progression's
+// already-?-guarded effective calcs.
 calc integer level(name = "Character Level") =
-  add(map(classes, mapper = ($c) => $c.class_level));
+  add(map(classes, mapper = ($c) => $c.class_level_effective));
 
 calc string description(name = "Description") =
   concat([
@@ -48,7 +56,7 @@ calc string description(name = "Description") =
       else concat([
         " ",
         joinToString(
-          map(classes, mapper = ($c) => concat([$c.class.name, " ", $c.class_level])),
+          map(classes, mapper = ($c) => concat([($c.class_effective?.name ?? ""), " ", $c.class_level_effective])),
           separator = " / ",
         ),
       ])),
@@ -306,7 +314,7 @@ calc integer ability_points_remaining(name = "Point-buy points remaining") =
 // generous beats wrongly blocking a legal build).
 calc integer skill_ranks_budget(name = "Skill ranks budget (total)") =
   add(map(classes, mapper = ($c) =>
-    ($c.class_level * max([1, (($c.class?.skill_ranks_per_level ?? 2) + intelligence_modifier)]))))
+    ($c.class_level_effective * max([1, (($c.class_effective?.skill_ranks_per_level ?? 2) + intelligence_modifier)]))))
   + (if (race?.id ?? "") == "human__crb_" then level else 0);
 
 calc integer skill_ranks_spent(name = "Skill ranks spent") =
@@ -362,17 +370,17 @@ base string hp_method(name = "HP method") = "average";
 //   max:     full die.  average: PF1e die/2 + 1 (d8 -> 5).
 //   roll:    average baseline (real rolls come from level-up).
 calc integer hp_method_per_level(name = "HP per level (method)") =
-  add(map(classes, mapper = ($c) => ($c.class_level * (when {
+  add(map(classes, mapper = ($c) => ($c.class_level_effective * (when {
     hp_method == "max" -> (when {
-      $c.class.hit_die == "d4" -> 4, $c.class.hit_die == "d6" -> 6,
-      $c.class.hit_die == "d8" -> 8, $c.class.hit_die == "d10" -> 10,
-      $c.class.hit_die == "d12" -> 12, $c.class.hit_die == "d20" -> 20,
+      ($c.class_effective?.hit_die ?? "d8") == "d4" -> 4, ($c.class_effective?.hit_die ?? "d8") == "d6" -> 6,
+      ($c.class_effective?.hit_die ?? "d8") == "d8" -> 8, ($c.class_effective?.hit_die ?? "d8") == "d10" -> 10,
+      ($c.class_effective?.hit_die ?? "d8") == "d12" -> 12, ($c.class_effective?.hit_die ?? "d8") == "d20" -> 20,
       else -> 8,
     }),
     else -> (when {
-      $c.class.hit_die == "d4" -> 3, $c.class.hit_die == "d6" -> 4,
-      $c.class.hit_die == "d8" -> 5, $c.class.hit_die == "d10" -> 6,
-      $c.class.hit_die == "d12" -> 7, $c.class.hit_die == "d20" -> 11,
+      ($c.class_effective?.hit_die ?? "d8") == "d4" -> 3, ($c.class_effective?.hit_die ?? "d8") == "d6" -> 4,
+      ($c.class_effective?.hit_die ?? "d8") == "d8" -> 5, ($c.class_effective?.hit_die ?? "d8") == "d10" -> 6,
+      ($c.class_effective?.hit_die ?? "d8") == "d12" -> 7, ($c.class_effective?.hit_die ?? "d8") == "d20" -> 11,
       else -> 5,
     }),
   }))));
@@ -380,7 +388,7 @@ calc integer hp_method_per_level(name = "HP per level (method)") =
 // Hit die of the first class taken (the level-1 class).
 calc string hp_first_class_die(name = "First class hit die") =
   findFirst(
-    map(classes, mapper = ($c) => $c.class.hit_die),
+    map(classes, mapper = ($c) => ($c.class_effective?.hit_die ?? "d8")),
     filter = ($findFirstValue) => true,
   ) ?? "d8";
 
@@ -414,11 +422,11 @@ calc integer max_hp(name = "Max HP") =
 
 calc integer base_attack_bonus(name = "Base Attack Bonus", abbreviation = "BAB") =
   add(map(classes, mapper = ($c) => when {
-    $c.class.bab_progression == "full" -> $c.class_level,
-    $c.class.bab_progression == "three_quarters" ->
-      divide([($c.class_level * 3), 4], rounding_method = "down"),
-    $c.class.bab_progression == "half" ->
-      divide([$c.class_level, 2], rounding_method = "down"),
+    ($c.class_effective?.bab_progression ?? "") == "full" -> $c.class_level_effective,
+    ($c.class_effective?.bab_progression ?? "") == "three_quarters" ->
+      divide([($c.class_level_effective * 3), 4], rounding_method = "down"),
+    ($c.class_effective?.bab_progression ?? "") == "half" ->
+      divide([$c.class_level_effective, 2], rounding_method = "down"),
     else -> 0,
   }));
 
@@ -426,28 +434,28 @@ calc integer base_attack_bonus(name = "Base Attack Bonus", abbreviation = "BAB")
 
 calc integer fortitude_base(name = "Fort base (class sum)") =
   add(map(classes, mapper = ($c) => when {
-    $c.class.fortitude_progression == "good" ->
-      2 + divide([$c.class_level, 2], rounding_method = "down"),
-    $c.class.fortitude_progression == "poor" ->
-      divide([$c.class_level, 3], rounding_method = "down"),
+    ($c.class_effective?.fortitude_progression ?? "") == "good" ->
+      2 + divide([$c.class_level_effective, 2], rounding_method = "down"),
+    ($c.class_effective?.fortitude_progression ?? "") == "poor" ->
+      divide([$c.class_level_effective, 3], rounding_method = "down"),
     else -> 0,
   }));
 
 calc integer reflex_base(name = "Ref base (class sum)") =
   add(map(classes, mapper = ($c) => when {
-    $c.class.reflex_progression == "good" ->
-      2 + divide([$c.class_level, 2], rounding_method = "down"),
-    $c.class.reflex_progression == "poor" ->
-      divide([$c.class_level, 3], rounding_method = "down"),
+    ($c.class_effective?.reflex_progression ?? "") == "good" ->
+      2 + divide([$c.class_level_effective, 2], rounding_method = "down"),
+    ($c.class_effective?.reflex_progression ?? "") == "poor" ->
+      divide([$c.class_level_effective, 3], rounding_method = "down"),
     else -> 0,
   }));
 
 calc integer will_base(name = "Will base (class sum)") =
   add(map(classes, mapper = ($c) => when {
-    $c.class.will_progression == "good" ->
-      2 + divide([$c.class_level, 2], rounding_method = "down"),
-    $c.class.will_progression == "poor" ->
-      divide([$c.class_level, 3], rounding_method = "down"),
+    ($c.class_effective?.will_progression ?? "") == "good" ->
+      2 + divide([$c.class_level_effective, 2], rounding_method = "down"),
+    ($c.class_effective?.will_progression ?? "") == "poor" ->
+      divide([$c.class_level_effective, 3], rounding_method = "down"),
     else -> 0,
   }));
 
@@ -846,7 +854,7 @@ calc integer use_magic_device(name = "Use Magic Device") =
 
 // Class skill list: union across all classes
 calc string[] class_skill_list(name = "Class skill list") =
-  flatMap(classes, mapper = ($c) => ($c.class.class_skills ?? []));
+  flatMap(classes, mapper = ($c) => ($c.class_effective?.class_skills ?? []));
 
 // ---------- FEATS / SPELLS / EQUIPMENT ----------
 

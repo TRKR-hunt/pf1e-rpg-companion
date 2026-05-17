@@ -44,18 +44,32 @@ character_creation_page edit_class_title() =
             else -> null,
           },
         ),
-        // B.1.1: the BAB/saves/level numbers are calcs over the `classes`
-        // char stat, which only commits when the page does — on-page they
-        // read as 0. Live multiclass preview is deferred (B.1.5), so rather
-        // than show misleading zeros + an "(updates on continue)" footnote
-        // (reads as broken), the numbers are hidden entirely and replaced
-        // with one clear line. They appear correctly on the character sheet
-        // after this page commits. Upstream does not preview these either.
+        // B.1.5 Phase 1: LIVE preview. level/BAB/saves now read calcs
+        // built on class_level_effective / class_effective (the
+        // class_progression $view-aware calcs), so they update the moment
+        // a class is picked/changed — no commit needed, no placeholder.
         text(
-          id = "edit_character_class_stats_note",
-          text = "Base attack bonus, saving throws, and total level are calculated from your class and shown on your character sheet after you continue.",
-          style = "caption",
+          id = "edit_character_class_level_preview",
+          text = concat(["Total character level: ", level]),
+          style = "text",
+          bold = true,
           margin_top = 12,
+          is_visible = !isEmpty($view.edit_character_class_classes),
+        ),
+        text(
+          id = "edit_character_class_bab_preview",
+          text = concat(["Base Attack Bonus: +", base_attack_bonus]),
+          style = "text",
+          is_visible = !isEmpty($view.edit_character_class_classes),
+        ),
+        text(
+          id = "edit_character_class_saves_preview",
+          text = concat([
+            "Save bases — Fort +", fortitude_base,
+            " / Ref +", reflex_base,
+            " / Will +", will_base,
+          ]),
+          style = "text",
           is_visible = !isEmpty($view.edit_character_class_classes),
         ),
         text(
