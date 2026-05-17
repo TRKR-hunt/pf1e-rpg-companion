@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_agent_of_the_grave__crb_",
+    "name": {
+      "value": "Agent of the Grave"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nAgent of the Grave\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_agent_of_the_grave_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiency Spells per Day/Spells Known Inspired Necromancy (Ex) Lichâs Touch (Su) Unholy Fortitude (Su) Undead Manipulator (Ex) Negative Energy Conduit (Ex) Deathâs Shroud (Su) Negative Energy Affinity (Ex) Secrets of Death (Ex) Undeath Initiate (Ex) Agents of the Grave learn the deepest arcane secrets in their quest for undeath, gaining undead-like traits before their final shift to a state beyond death. Agents of the Grave master the necromantic arts, yet instead of controlling hordes of undead minions, they instead seek ultimate enlightenment, and possess subtle and murderous skills to help them attain it. Hit Die: d8 Requirements To become an Agent of the Grave, a character must fulfill all of the following criteria: Alignment: Any Evil Skills: Knowledge (arcana) 5 ranks, Knowledge (religion) 5 ranks. Spells: Must be able to cast animate dead. Special: Must be a member of an undead-worshipping cult for 1 year. Class Skills The Agent of the Graveâs class skills (and the key abilities for each skill) are Bluff ( Cha ), Heal ( Wis ), Intimidate ( Cha ), Knowledge (arcana) ( Int ), Knowledge (history) ( Int ), Knowledge (religion) ( Int ), Linguistics ( Int ), Spellcraft ( Int ), Use Magic Device ( Cha ). Skill Points at Each Level: 4 + Int modifier. Table: Agent of the Grave Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells 1st +0 +1 +0 +1 Inspired necromancy, lichâs touch, unholy fortitude â 2nd +1 +1 +1 +1 Undead manipulator +1 level of existing class 3rd +1 +2 +1 +2 Negative energy conduit +1 level of existing class 4th +2 +2 +1 +2 Deathâs shroud, negative energy affinity +1 level of existing class 5th +2 +3 +2 +3 Secrets of death, undeath initiate +1 level of existing class FAQ Does Agent of the Grave lose spell progression from its original class? Yes. The chart for Agent of the Grave is correct. While the source material features a Necromancer 8/Agent of the Grave 3 foe with level 6 wizard spells (meaning no progression was lost), a developer has clarified that this was done in error, and that the prestige class does indeed result in delayed spell progression. [ Source ] Class Features All of the following are class features of the Agent of the Grave prestige class. Weapon and Armor Proficiency Agents of the Grave gain no proficiency with any weapons or armor. Spells per Day/Spells Known When a new Agent of the Grave level is gained, the character gains new spells as if he had also gained a level in a spellcasting class he belonged to before adding the prestige class. He does not, however, gain other benefits a character of that class would have gained, except for additional spells per day, spells known (if he is a spontaneous spellcaster), and an increased effective level of spellcasting. If the character has more than one spellcasting class before becoming an Agent of the Grave he must decide which class he adds the new level to for the purpose of determining spells per day. Inspired Necromancy (Ex) When determining the maximum number of Hit Dice of undead he can control with spells like animate dead, a character counts his Agent of the Grave levels twice. This ability does not factor into how many undead he can create with a single casting of a spell. Thus, a cleric 7/Agent of the Grave 3 would be able to control 52 Hit Dice worth of undead with animate dead. Lichâs Touch (Su) At 1st level, the Agent of the Grave becomes a conduit for negative energy and the chill powers of death, allowing him to make a melee touch attack dealing 1d6 points of damage from negative energy per level of the Agent of the Grave class he attains. This ability allows him to heal undead minions, and himself upon attaining the negative energy affinity ability at 4th level. He can use this ability a number of times per day equal to 3 + his Charisma bonus. Unholy Fortitude (Su) At 1st level, the Agent of the Grave can tap into his conviction and bolster his health. Starting with the hit points he rolls for gaining his first Agent of the Grave level and every time he gains a level in any class thereafter, the character may choose to add either his Constitution bonus or his Charisma bonus to the number of new hit points he gains for that level. Undead Manipulator (Ex) At 2nd level, the Agent of the Grave gains great insight into the minds and necromantic forces controlling undead creatures. An Agent of the Graveâs spells and spell-like abilities with mind-affecting effects treat undead creatures as their original type. Thus, an Agent of the Grave can use charm person against a humanoid zombie or confusion against a horde of skeletal champions. Negative Energy Conduit (Ex) At 3rd level, an Agent of the Grave bolsters undead around him. As a standard action, an Agent of the Grave manifests an aura identical to the desecrate spell, except this foul aura has a duration of 10 minutes per level. An Agent of the Grave can use this ability once per day. In addition, any undead the Agent of the Grave creates is treated as having been created within the area of a desecrate spell. Deathâs Shroud (Su) As an Agent of the Grave gains power within the organization, he often must infiltrate other groups to gain further knowledge. At 4th level, he learns how to cloak his true intentions, gaining the ability to use nondetection or undetectable alignment once per day. The caster level for this ability is equal to the Agent of the Graveâs highest caster level. Negative Energy Affinity (Ex) At 4th level, the Agent of the Grave, while still technically alive, is healed by negative energy and harmed by positive energy, as if it were an undead creature. If the Agent of the Grave is already undead, this ability grants no additional benefit. Secrets of Death (Ex) At 5th level, an Agent of the Grave gains new insights into the dark arts of necromancy. At the time he gains this ability, the character may add a number of necromancy spells that are not normally a part of his classâs spell list to his spell list. The number of spells that the character may add is equal to his Intelligence modifier. For example, an Agent of the Grave with levels of wizard might choose to add spells like death watch, inflict critical wounds, and slay living to his spell list, while an Agent of the Grave with levels of cleric might choose to add spells such as enervation, magic jar, and vampiric touch. An Agent of the Grave may choose to add spells he cannot yet castâthis does not allow the Agent of the Grave to cast spells of a higher level than he normally could, but rather merely grants him access to those spells when he reaches the level required to cast them. Undeath Initiate (Ex) At 5th level, an Agent of the Grave has prepared his body and mind for the transition into undeath. He gains a +5 bonus on any ability check, skill check, or saving throw related to the process of transforming into an undead creature. This bonus can be used on any check related to becoming a creature like a lich (the process of which is largely left up to the GMâs discretion). Additionally, if slain by an undead creature with the create spawn ability, the agent of death retains his Intelligence (regardless of the type of undead he is transformed into) and free will (he is never under the control of the creature that killed him). Unless otherwise noted by the undead creatureâs create spawn ability, the newly created undead Agent of the Grave loses all of his class levels. This makes transformation into a lich and vampire among the most appealing options for an Agent of the Grave seeking undeath."
+    }
+  }
+}

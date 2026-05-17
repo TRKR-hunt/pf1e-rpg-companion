@@ -736,3 +736,16 @@ calc bool feat_show_level(name = "Show feat level") =
 // description text from matched compendium_entry records.
 base bool is_lore_only(name = "Lore only") = false;
 base string lore(name = "Lore") = "";
+
+// B.1.7 — prestige class support. is_prestige flags a prestige class
+// (same `class` type; not offered at creation, only at level-up).
+// prerequisites: inline resource<class_prerequisite>[] (gotcha #16).
+// spell_progression_inherits: "", "arcane", "divine", or "both" —
+// "+1 level of an existing <x> spellcasting class" marker (the exact
+// caster-level math is surfaced as text; see character_stats).
+base bool is_prestige(name = "Is prestige class") = false;
+base string spell_progression_inherits(name = "Spell progression inherits") = "";
+base resource<class_prerequisite>[] prerequisites(name = "Prerequisites") = [];
+
+calc string[] prerequisites_display(name = "Prerequisites (display)") =
+  map(prerequisites, mapper = ($p) => $p.display);

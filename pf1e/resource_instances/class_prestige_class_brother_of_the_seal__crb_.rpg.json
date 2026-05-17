@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_brother_of_the_seal__crb_",
+    "name": {
+      "value": "Brother of the Seal"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nBrother of the Seal\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_brother_of_the_seal_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiency Unarmed Combat (Ex) Water Splitting Stone (Ex) Gatekeeper (Sp) Trapfinding (Ex) Runefinding (Ex) Awesome Blow (Ex) Unsealing (Su) Domino Strike (Ex) Hands of Stone (Su) Rapid Slam (Ex) Cascading Strike (Ex) Unraveling (Su) Hit Die: d8. Requirements To qualify to become a Brother of the Seal, a character must fulfill all of the following criteria. Alignment: Any lawful. Feats: Improved Unarmed Strike, Stunning Fist. Skills: Knowledge (arcana) 5 ranks. Special: Flurry of blows class feature. Class Skills The brother of the seal’s class skills (and the key ability for each skill) are Disable Device ( Dex ), Knowledge (engineering) ( Int ), Knowledge (history) ( Int ), Perception ( Wis ), Sense Motive ( Wis ), Spellcraft ( Int ), and Stealth ( Dex ). Skill Ranks at Each Level: 4 + Int modifier. Table: Brother of the Seal Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +0 +1 +1 +1 Unarmed combat, water splitting stone 2nd +1 +1 +1 +1 Gatekeeper, trapfinding 3rd +2 +2 +2 +2 Runefinding 4th +3 +2 +2 +2 Awesome Blow 5th +3 +3 +3 +3 Unsealing 6th +4 +3 +3 +3 Domino strike 7th +5 +4 +4 +4 Hands of stone 8th +6 +4 +4 +4 Rapid slam 9th +6 +5 +5 +5 Cascading strike 10th +7 +5 +5 +5 Unraveling Class Features The following are class features of the Brother of the Seal prestige class. Weapon and Armor Proficiency A Brother of the Seal gains no additional weapon or armor proficiencies. Unarmed Combat ( Ex ) A Brother of the Seal’s class levels stack with any monk levels for the purposes of determining his flurry of blows, stunning fist, and unarmed strike class features (including determining damage dealt by his unarmed strike attacks). Water Splitting Stone ( Ex ) When attacking an object, a Brother of the Seal ignores 1 point of hardness per class level. Gatekeeper (Sp) At 2nd level, a Brother of the Seal may select either hold portal or arcane lock, and he gains the ability to cast the selected spell once per day. Once made, this choice cannot be reversed. At 6th level, and again at 10th level, a Brother of the Seal may cast the selected spell an additional time per day. Trapfinding ( Ex ) At 2nd level, a Brother of the Seal adds 1/2 his class level on Perception and Disable Device checks made to find or disarm traps, and he can use Disable Device to disarm magical traps. Runefinding ( Ex ) At 3rd level, a Brother of the Seal’s trapfinding bonus becomes equal to his level while dealing with magical glyphs, symbols, runes, and writings. In addition, he gains the trap spotter rogue talent, but it applies only to trapped magical writings. Awesome Blow ( Ex ) At 4th level, a Brother of the Seal gains Awesome Blow as a bonus feat, even if he does not meet the prerequisites, adding his Wisdom modifier on awesome blow combat maneuver checks and dealing damage to his target equal to that dealt by his unarmed strike. Hardness ignored by the Brother of the Seal’s water splitting stone ability applies when determining damage dealt to an obstacle while using an awesome blow combat maneuver. A Brother of the Seal can expend 1 ki point or one use of Stunning Fist in conjunction with this ability to affect a creature of his own size with an awesome blow, or 2 ki points or two uses of Stunning Fist to affect a creature one size larger. Using Stunning Fist or ki points in this fashion has no effect other than increasing the size of creature he can affect with his awesome blow. At 8th level, a Brother of the Seal can affect creatures up to his size with his Awesome Blow feat without expending a use of Stunning Fist or a ki point. In addition, he may affect a creature of any size larger than itself by spending 1 ki point or one use of Stunning Fist per size category of difference. Unsealing (Su) At 5th level, a Brother of the Seal can attempt to breach magical wards or protections, including abjurations, glyphs, runes, symbols, and other magical writings. He must touch the warded object, creature, or areaâwhich can be done as part of an unarmed strike for normal damage or as a melee touch attack that deals no damageâand expend one use of Stunning Fist to dispel the effect (as dispel magic, caster level equal to his character level). If the unsealing is successful, the effect is destroyed and the Brother of the Seal suffers no harm from it, even if it normally harms those who touch it. If the unsealing fails, the Brother of the Seal suffers any normal effects for touching the warded area, object, or creature, and it remains intact unless it would normally be destroyed upon being interacted with. Domino Strike ( Ex ) At 6th level, when a Brother of the Seal’s awesome blow combat maneuver succeeds and knocks his target into an obstacle (including another creature), he adds his class level to the normal 1d6 points of damage taken by the target and the obstacle. Hands of Stone (Su) At 7th level, a Brother of the Seal increases his unarmed strike damage as though he were a creature one size larger. Rapid Slam ( Ex ) At 8th level, a Brother of the Seal can use his Awesome Blow feat once per round as part of a flurry of blows. Alternatively, he can make an awesome blow combat maneuver as part of a charge or as part of the same standard action he uses to perform another combat feat that involves an attack (such as Cleave or Vital Strike ). He can still only make an awesome blow maneuver once per round regardless of how many attacks he makes. Cascading Strike ( Ex ) At 9th level, when a Brother of the Seal’s awesome blow maneuver succeeds and knocks the target into another creature of its size or smaller, the Brother of the Seal may attempt an awesome blow combat maneuver at a â2 penalty against this second creature. If successful, the Brother deals his unarmed strike damage to this second target (rather than the normal damage for striking an obstacle) and knocks that target back 10 feet. The Brother of the Seal can make additional awesome blow combat maneuvers each time a target strikes a creature behind it, with a cumulative â2 penalty for each additional target. All targets must be in a straight line. If a target is knocked simultaneously into several smaller creatures, the Brother can choose only one of them to affect with cascading strike. Unraveling (Su) At 10th level, a Brother of the Seal’s unsealing ability can destroy force effects and abjuration, conjuration, and evocation effects that create stationary barriers (such as prismatic sphere, tiny hut, or wall of ice ), even if the effect cannot normally be subjected to dispel magic."
+    }
+  }
+}

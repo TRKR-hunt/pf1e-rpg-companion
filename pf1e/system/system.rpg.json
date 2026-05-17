@@ -201,6 +201,43 @@
         },
         {
          "condition": {
+          "type": "not",
+          "components": {
+           "type": "isEmpty",
+           "components": {
+            "type": "defaultIfNull",
+            "components": {
+             "type": "stat",
+             "stat": "level_up_prestige_unmet_prereqs"
+            },
+            "default_components": {
+             "type": "constant",
+             "value": "",
+             "value_type": "string"
+            }
+           }
+          }
+         },
+         "components": {
+          "type": "concat",
+          "components": {
+           "type": "list",
+           "components": [
+            {
+             "type": "constant",
+             "value": "Prerequisites not met: ",
+             "value_type": "string"
+            },
+            {
+             "type": "stat",
+             "stat": "level_up_prestige_unmet_prereqs"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "condition": {
           "type": "constant",
           "value": true,
           "value_type": "bool"

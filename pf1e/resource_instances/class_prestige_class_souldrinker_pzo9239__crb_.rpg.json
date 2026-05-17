@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_souldrinker_pzo9239__crb_",
+    "name": {
+      "value": "Souldrinker (PZO9239)"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nSouldrinker (PZO9239)\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_souldrinker_pzo9239_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiencies Spells per Day/Spells Known Cacodaemon Familiar (Ex) Daemonic Patron (Ex) Damned (Ex) Energy Drain (Sp) Soul Pool (Su) Summon Cacodaemon (Sp) Lesser Oblivion (Su) Oblivion (Sp) Greater Oblivion (Sp) Editor’s Note This is the 2011 version of souldrinker, the more recent version is here. Pledging their souls to the Horsemen, souldrinkers learn the worst of daemonic magic while gaining the ability to bind and devour souls. With every soul they consume, these casters tithe a fraction to their patrons in Abaddon. They are the proxies of death, serving the architects of the apocalypse until eventually their own souls are drawn into their mastersâ waiting maws. Hit Die: d6. Requirements To qualify to become a souldrinker, a character must fulfill all of the following criteria. Alignment: Neutral evil. Skills: Knowledge (planes) 5 ranks, Spellcraft 5 ranks. Language: Abyssal or Infernal. Special: Must worship one of the Four Horsemen Class Skills The souldrinker’s class skills (and the key ability for each skill) are Bluff ( Cha ), Diplomacy ( Cha ), Intimidate ( Cha ), Knowledge (arcana) ( Int ), Knowledge (planes) ( Int ), Knowledge (religion) ( Int ), Sense Motive ( Wis ), and Spellcraft ( Int ). Skills Ranks at Each Level: 2 + Int modifier. Table: Souldrinker Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells Per Day 1st +0 +0 +0 +1 Cacodaemon familiar, daemonic patron, damned â 2nd +1 +1 +1 +1 Energy drain, soul pool +1 level of existing class 3rd +1 +1 +1 +2 Summon cacodaemon +1 level of existing class 4th +2 +1 +1 +2 Lesser oblivion +1 level of existing class 5th +2 +2 +2 +3 â +1 level of existing class 6th +3 +2 +2 +3 Energy Drain (2 levels) â 7th +3 +2 +2 +4 Oblivion +1 level of existing class 8th +4 +3 +3 +4 Summon ceustodaemon +1 level of existing class 9th +4 +3 +3 +5 â +1 level of existing class 10th +5 +3 +3 +5 Greater oblivion +1 level of existing class Class Features The following are features of this prestige class. Weapon and Armor Proficiencies Souldrinkers gain proficiency with the favored weapon of their daemonic patron, but with no other weapon or armor. Spells per Day/Spells Known At the indicated levels, a souldrinker gains new spells per day as if she had also gained a level in a spellcasting class she belonged to before adding the prestige class. She does not, however, gain other benefits a character of that class would have gained, except for additional spells per day, spells known (if she is a spontaneous spellcaster), and an increased effective level of spellcasting. If a character had more than one spellcasting class before becoming an souldrinker, she must decide to which class she adds the new level for the purposes of determining spells per day. Cacodaemon Familiar (Ex) At 1st level, the souldrinker gains a cacodaemon familiar, as if she had the Improved Familiar feat. If the souldrinker already has a familiar, the cacodaemon devours it (which does not penalize the souldrinker). The souldrinker counts as an evil outsider for the purpose of utilizing cacodaemon soul gems. Daemonic Patron (Ex) At 1st level, a souldrinker must choose one of the Four Horsemen to serve as her patron ( Apollyon, Charon, Szuriel, or Trelmarixian ). Once made, this choice cannot be changed. Damned (Ex) Starting at 1st level, when a souldrinker dies, her patron instantly claims her soul. In time, the soul is consumed for its power or transformed into a daemon appropriate to the patronâs needs and interests. Any character attempting to resurrect a slain souldrinker must succeed at a caster level check equal to 10 + the souldrinkerâs level or the spell fails. That character cannot attempt to resurrect the souldrinker again until the following day, though other characters can attempt to do so if they please. Energy Drain (Sp) At 2nd level, a souldrinker gains the energy drain ability. By making a touch attack as a standard action, she bestows one negative level on the target (two levels on a critical hit). The souldrinker gains 5 t emporary hit points for each negative level she bestows on an opponent. These temporary hit points last for a maximum of 1 hour. The DC to remove this negative level is 10 + the souldrinkerâs class level + her spellcaster ability modifier. At 6th level, this touch attack bestows two negative levels (four on a critical hit). Soul Pool (Su) At 2nd level, a souldrinker gains a pool of soul points, stolen life energy she can use to accomplish unnatural feats. The number of soul points in the pool begins at 0 and only increases when the souldrinker uses her energy drain ability on a suitable target. A souldrinker gains 1 soul point for each negative level bestowed by her energy drain, but only if the targetâs soul qualifies as at least an âanimal spiritâ with Hit Dice equal to or greater than the souldrinkerâs class level, a âbasic soul,â or something more powerful/notable (see The Soul Trade ). The maximum number of soul points a souldrinker can have in her pool is equal to 1/2 her class level plus her spellcasting ability modifier; any points above this are wasted. Note that soul points are fragments of souls and do not prevent a slain creature from being raised. A souldrinker can use soul points for the following: Item Creation: A souldrinker can use soul points as part of crafting magic items, as described in Using Soul. Each counts as a basic soul toward this purpose. Recharge staff: This works like recharging a staff in the normal manner, but instead of spell slots, the souldrinker expends soul points equal to the spell level needed. Recover Spell Slot: As a full-round action, a souldrinker can expend soul points equal to twice the spell level of a cast spell or used spell slot in order to regain that spell or slot as if it had not been cast (similar to using a pearl of power, except it also works for spontaneous casters). Replace Familiar: A souldrinker can replace her slain cacodaemon familiar at any time by spending 1 hour and 10 soul points in a specialized ritual. Summon Cacodaemon (Sp) At 3rd level, once per day, a souldrinker can summon 1d3 cacodaemons, which serve her for 1 minute per souldrinker class level. This ability otherwise counts as greater summon cacodaemon. Lesser Oblivion (Su) At 4th level, a souldrinkerâs patron invests her with a specific ability. Horseman of Pestilence: Immunity to diseases, including supernatural and magical diseases. Horseman of death: Immunity to aging effects and effects that give penalties to Strength and Constitution. Horseman of war: Immunity to bleed effects and effects that give penalties to Strength. Horseman of famine: Immunity to ingested and inhaled poisons, and the subject no longer needs to eat or drink. Oblivion (Sp) At 7th level, the souldrinker is granted more power by her patron, gaining a spell-like ability usable at will, but costing 1 soul point for each use. Horseman of Pestilence: contagion (DC 10 + the souldrinkerâs class level + her spellcasting ability score modifier). Horseman of death: vampiric touch Horseman of war: rage Horseman of famine: bestow curse (DC 10 + the souldrinkerâs class level + her spellcasting ability score modifier). Summon Ceustodaemon (Sp) At 8th level, once per day, a souldrinker can summon 1d2 ceustodaemons, which serve her for 1 minute per souldrinker class level. This ability otherwise counts as summon ceustodaemon. Greater Oblivion (Sp) At 10th level, the souldrinker gains more power from her apocalyptic vow. The spell-like abilities listed here are usable at will but cost 3 soul points per use. Horseman of Pestilence: creeping doom (DC 10 + the souldrinkerâs class level + her spellcasting ability score modifier) Horseman of death: Gain fast healing 10 for 10 rounds. This counts as a 6th-level spell. Horseman of war: Greater magic weapon (+4 enhancement bonus). Like a paladin with a weapon divine bond, the s"
+    }
+  }
+}

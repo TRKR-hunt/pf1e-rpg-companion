@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_dissident_of_dawn__crb_",
+    "name": {
+      "value": "Dissident of Dawn"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nDissident of Dawn\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_dissident_of_dawn_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Table: Dissident of dawn Class Features Weapon and Armor Proficiency Divine Deception (Ex) Eschew Materials Secret Caster (Ex) Schismatic Apostle (Ex) Burning Blade (Su) Shift Blame (Su) Morning Light (Su) Flight of the Phoenix (Su) Hit Die: d8. Requirements To qualify to become a Dissident of dawn, a character must fulfill all of the following criteria. Deity: Must worship good god of brightness, daylight, or the dawn. Feats: Dervish Dance, Weapon Finesse. Skills: Bluff 5 ranks, Disguise 5 ranks, Knowledge (religion) 5 ranks, Sleight of Hand 5 ranks. Spells: Able to cast daylight as a divine spell. Class Skills A Dissident of dawn’s class skills (and the key ability for each skill) are Bluff ( Cha ), Diplomacy ( Cha ), Disguise ( Cha ), Knowledge (history) ( Int ), Knowledge (local) ( Int ), Knowledge (religion) ( Int ), Perception ( Wis ), Perform ( Cha ), Sense Motive ( Wis ), Sleight of Hand ( Dex ), and Stealth ( Dex ). Skill Ranks at Each Level: 2 + Int modifier. Table: Dissident of dawn Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1st +0 +0 +1 +1 Divine deception, Eschew Materials +1 level of spellcasting class 2nd +1 +1 +1 +1 Secret caster +1 level of spellcasting class 3rd +2 +1 +2 +2 Schismatic apostle +1 level of spellcasting class 4th +3 +1 +2 +2 Burning blade (flaming) +1 level of spellcasting class 5th +3 +2 +3 +3 â +1 level of spellcasting class 6th +4 +2 +3 +3 Shift blame +1 level of spellcasting class 7th +5 +2 +4 +4 â +1 level of spellcasting class 8th +6 +3 +4 +4 Burning blade (flaming burst) +1 level of spellcasting class 9th +6 +3 +5 +5 Morning light +1 level of spellcasting class 10th +7 +3 +5 +5 Flight of the phoenix +1 level of spellcasting class Class Features The following are class features of the Dissident of dawn prestige class. Weapon and Armor Proficiency A Dissident of dawn gains no additional weapon or armor proficiencies. Divine Deception ( Ex ) A Dissident of dawn adds a sacred bonus equal to 1/2 his level on Bluff or Sense Motive checks to send, interpret, or intercept coded messages, and increases the DC of Spellcraft checks made to identify his spells by the same amount. He also adds the following spells to his spell list: 1st â illusion of calm 2nd â rope trick 3rd â nondetection 4th â detect scrying 5th â mage’s private sanctum 6th â veil 7th â mage’s magnificent mansion 8th â screen 9th â communal mind blank In addition, the duration of these spells doubles when they target worshipers of the same faith (including the caster). This does not affect the level of the spell or its casting time, and does not stack with feats or effects such as Extend Spell. Eschew Materials A Dissident of dawn gains Eschew Materials as a bonus feat, and he can ignore any divine focus ( holy symbol ) components for his spells. Secret Caster ( Ex ) At 2nd level, a Dissident of dawn can disguise his spellcasting with a Bluff check (for spells with verbal components ), opposed by the observer’s Sense Motive check, and/or a Sleight of Hand check (for spells with somatic components ), opposed by the observer’s Perception check. Depending on the situation, the Dissident of dawn’s Bluff and/or Sleight of Hand check is modified according to the following table. Penalty Condition â0 Spell has a range of personal â5 During combat â5 Spell has a range of touch â10 Spell has a range longer than touch âSpell level Ã2 Spell has a visible, audible, or otherwise observable effect Automatic failure Spell has an observable effect that clearly emanates from the caster Casting a spell in this fashion increases its casting time to a full-round action (if normally a standard action or less), or doubles the casting time of spells with a casting time longer than a full-round action. A spell cast in this way does not provoke attacks of opportunity from observers that fail to recognize it for what it is. For spells with both verbal and somatic components, the spell still provokes attacks of opportunity from observers unless they fail both their Sense Motive and Perception checks. Schismatic Apostle ( Ex ) At 3rd level, a Dissident of dawn adds a +1 bonus to the DC of mind-affecting effects used against followers of the same faith, and an opposing faith. If he is an inquisitor, any bonuses he gains from his judgment increase by 1 when used against followers of the same faith or an opposing faith. Burning Blade (Su) At 4th level, a Dissident of dawn can expend one use of channel energy as a swift action to grant a scimitar he touches the flaming weapon special ability for 1 round per 1d6 points of damage the channeled energy would normally heal. If a worshiper of the same faith wields the scimitar and strikes another worshiper of the same faith, as a free action the wielder may choose to make all damage from the attack nonlethal, as if wielding a weapon with the merciful weapon special ability. An inquisitor may instead choose to expend one use of his judgment ability to imbue the scimitar with the flaming weapon special ability for a number of rounds equal to his caster level, or may use this ability in place of his bane ability. At 8th level, this power grants the touched scimitar the flaming burst weapon special ability instead. Shift Blame (Su) At 6th level, when a Dissident of dawn provokes an attack of opportunity, he can attempt to deceive the creature making the attack of opportunity into believing the provoking action was performed by another creature as long as it is adjacent to the Dissident of dawn and also threatened by the attacker. Doing so requires a Bluff check opposed by the attacker’s Sense Motive check. The attacker gains a bonus equal to its base attack bonus on this Sense Motive check. If the Bluff check is successful, the attack of opportunity instead targets an adjacent creature chosen by the Dissident of dawn, and the attacker must reroll her attack roll to see whether she hits this new target. Morning Light (Su) At 9th level, a Dissident of dawn can spend a full-round action reciting the litany of wisdom while expending two uses of channel energy or one use of his judgment ability. This grants each ally within 15 feet of him a new saving throw against any one ongoing condition or effect that allows a save. This does not affect instantaneous or permanent effects or effects that do not allow a saving throw. Allies that worship the same god (including the Dissident of dawn) can instead attempt a new saving throw against every ongoing condition or effect that allows a save. Flight of the Phoenix (Su) At 10th level, when a Dissident of dawn is killed his body is engulfed in a column of holy fire equivalent to a flame strike at his caster level. At the beginning of his next turn, his spirit returns in the form of a phoenix that fights as he directs for up to 1 minute and then disappears. This phoenix is not considered called or summoned. The Dissident of dawn is reborn (as resurrection ) 1d4 rounds after it disappears in a random location within 1 mile, with his gear intact but with two permanent negative levels. If the phoenix is killed before it disappears, the Dissident of dawn cannot be reborn via this ability, though other methods of raising him still work."
+    }
+  }
+}

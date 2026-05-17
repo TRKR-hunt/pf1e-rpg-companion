@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_veiled_illusionist__crb_",
+    "name": {
+      "value": "Veiled Illusionist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nVeiled Illusionist\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_veiled_illusionist_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiency Veil Pool (Sp) Goddess’s Veils Quick Veil True Veil While skilled in all forms of illusion, veiled illusionists primarily excel at casting glamersâspells that alter or conceal the illusionist’s true form. Most veiled illusionists are uncomfortable with maintaining one disguise for an extended period of time. Instead, they prefer to change their appearance from day to day, or even from hour to hour. This makes it difficult for veiled illusionists to integrate fully into society, so most end up wanderers, taking on a new face with each new town they visit. Hit Die: d6. Requirements To qualify to become a veiled illusionist, a character must fulfill all the following criteria. Feats: Spell Focus ( illusion ). Skills: Bluff 5 ranks, Disguise 5 ranks, Knowledge (arcana) 2 ranks. Spells: Able to cast three different illusion spells, one of which must be of 2nd level or higher. Class Skills The veiled illusionist’s class skills (and the key ability for each skill) are Bluff ( Cha ), Disguise ( Cha ), Knowledge (arcana) ( Int ), Knowledge (religion) ( Int ), Spellcraft ( Int ), and Stealth ( Dex ). Skill Ranks at Each Level: 2 + Int modifier. Table: Veiled Illusionist Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1st +0 +0 +0 +1 Goddess’s veil (human), veil pool +1 level of spellcasting class 2nd +1 +1 +1 +1 Goddess’s veil (halfling) +1 level of spellcasting class 3rd +1 +1 +1 +2 Veil pool (auditory) +1 level of spellcasting class 4th +2 +1 +1 +2 Goddess’s veil (elf) +1 level of spellcasting class 5th +2 +2 +2 +3 Quick veil (move), veil pool (tactile) +1 level of spellcasting class 6th +3 +2 +2 +3 Goddess’s veil (gnome) +1 level of spellcasting class 7th +3 +2 +2 +4 Quick veil (swift) +1 level of spellcasting class 8th +4 +3 +3 +4 Goddess’s veil (cyclops) +1 level of spellcasting class 9th +4 +3 +3 +5 Veil pool (extraordinary senses) +1 level of spellcasting class 10th +5 +3 +3 +5 Goddess’s veil (naga), true veil +1 level of spellcasting class Class Features The following are class features for the veiled illusionist prestige class. Weapon and Armor Proficiency A veiled illusionist gains no additional weapon or armor proficiencies. Veil Pool (Sp) A veiled illusionist draws power from a reserve of magical energy to strengthen her illusions. This veil pool has a number of points equal to her class level + her Wisdom, Intelligence, or Charisma modifier (the character makes this choice at 1st level, after which it cannot be changed). The pool refreshes once per day when the veiled illusionist prepares her spells or regains spell slots. As a standard action, the veiled illusionist can spend 1 point from her veil pool to alter her appearance as per the spell disguise self. This is a glamer effect that lasts a number of hours equal to the veiled illusionist’s class level. The DC to disbelieve the effect is equal to 15 + the number of points remaining in the veiled illusionist’s veil pool. At 3rd level, the veiled illusionist can alter her perceived audible (sound) properties when she assumes her disguise. At 5th level, the veiled illusionist can also alter her perceived tactile (touch) properties, and can imitate any voice with which she is familiar. At 9th level, the veiled illusionist’s veil fools even extraordinary senses, such as scent, blindsight, or tremorsense. Goddess’s Veils A veiled illusionist learns to cloak herself in the forms favored by the goddessâhuman, halfling, elf, gnome, cyclops, and naga. Once the veiled illusionist learns a veil, she can expend 1 point from her veil pool to disguise herself as a member of that veil’s race as though using disguise self, even if doing so would exceed the limitations of disguise self. When disguising herself as one of these races, she gains an additional bonus on her Disguise check equal to her class level. Each veil also grants the illusionist an additional power. Assuming a different veil while still under the effects of her disguise self spell-like ability is a free action, and does not expend any additional points from her veil pool. Human: At 1st level, a veiled illusionist may select an illusion spell from the sorcerer/wizard spell list of a level she can cast and add it to her class spell list at the same level. If the spell is already on her spell list, she adds it to her spellbook, familiar, or list of spells known. Each time the illusionist gains a level, she may select an additional illusion spell. Halfling: At 2nd level, a veiled illusionist can spend 1 point from her veil pool as a free action while casting an illusion spell to disguise her spellcasting. Creatures attempting to identify the spell as it’s being cast must succeed at a Will save (DC 15 + the number of points remaining in the illusionist’s veil pool) or misidentify the spell as a spell of the illusionist’s choice. The illusory spell must be the same level as the true spell, and must be one the illusionist can cast. Elf: At 4th level, a veiled illusionist can spend 1 point from her veil pool as an immediate action to reroll a caster level check made to bypass spell resistance. She must use this ability before the results of the first roll are revealed, and must accept the second roll, even if it’s worse. Gnome: At 6th level, a veiled illusionist can spend 1 point from her veil pool to concentrate on a glamer or figment as a swift action, rather than a standard action. Cyclops: At 8th level, a veiled illusionist can spend 1 point from her veil pool as a free action to gain the benefits of the spell true seeing until the beginning of her next turn. Naga: At 10th level, as a free action while casting an illusion spell, a veiled illusionist can spend 1 point from her veil pool to coil the illusion upon itself. Any creature that disbelieves the illusion sees a second illusion within the translucent outline of the first, as if the illusionist had cast the spell a second time. Effectively, after a creature disbelieves the first illusion, it sees a second illusion in its place, which it must attempt to disbelieve separately. The veiled illusionist must determine the features of the second illusion as she casts the first. If the second illusion is especially similar to the first one, creatures that study or interact with it receive a +4 bonus on the save to disbelieve the effect. Quick Veil At 5th level, a veiled illusionist can assume or alter her disguise with her veil pool ability as a move action. At 7th level, the action is reduced to a swift action. True Veil At 10th level, a veiled illusionist can spend 1 point from her veil pool to imbue her disguise with a measure of reality. The veiled illusionist’s disguise self spell-like ability is treated as a polymorph effect, though it retains the illusion school and gains the shadow descriptor. Other creatures no longer get a Will save to recognize the effect as an illusion, though they can still make Perception checks to realize the veiled illusionist is using a disguise. If disguised as a humanoid using her veil pool ability, the veiled illusionist gains the benefit of alter self. If disguised as a cyclops or naga, she gains a +4 size bonus to Strength, a â2 penalty to Dexterity, a +4 natural armor bonus, and any of the following abilities possessed by the creature whose form she has taken: burrow 30 feet, climb 90 feet, fly 90 feet (good maneuverability), swim 90 feet, darkvision 60 feet, low-light vision, ferocity, guarded thoughts, poison, and spit. The effect lasts for a number of minutes equal to the veiled illusionist’s level if she is disguised as a humanoid, or rounds per level if disguised as a cyclops or naga."
+    }
+  }
+}

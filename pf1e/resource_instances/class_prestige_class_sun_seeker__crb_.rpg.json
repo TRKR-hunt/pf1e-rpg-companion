@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_sun_seeker__crb_",
+    "name": {
+      "value": "Sun Seeker"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nSun Seeker\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_sun_seeker_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiency Ancestral Weapon (Su) Find Citadel (Sp) Rune-Carved Armor (Su) Commune (Sp) Dwarven Armor Training (Ex) Darkvision (Ex) Runes of Resistance (Su) Paths of the Ancients (Ex) Stalwart (Ex) Call to Arms (Sp) Hit Die: d10. Requirements To qualify to become a sun seeker, a character must fulfill all the following criteria. Skills: Knowledge (dungeoneering) 5 ranks, Knowledge (history) 5 ranks. Special: Favored enemy ( giant, goblin, or orc ) class feature. Spellcasting: Able to cast 2nd-level divine spells. Traits: Any dwarf racial trait or the adopted social trait. Class Skills The sun seeker’s class skills (and the key ability for each skill) are Climb ( Str ), Intimidate ( Cha ), Knowledge (dungeoneering) ( Int ), Knowledge (geography) ( Int ), Perception ( Wis ), Stealth ( Dex ), Survival ( Wis ), and Swim ( Str ). Skill Ranks at Each Level: 4 + Int modifier. Table: Sun Seeker Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1st +1 +1 +0 +1 Ancestral weapon +1d6, citadel keeper â 2nd +2 +1 +1 +1 Rune-Carved armor +1 level of divine spellcasting class 3rd +3 +2 +1 +2 Commune 1/week +1 level of divine spellcasting class 4th +4 +2 +1 +2 Ancestral weapon +2d6, dwarven Armor training +1 level of divine spellcasting class 5th +5 +3 +2 +3 Darkvision â 6th +6 +3 +2 +3 Runes of resistance +1 level of divine spellcasting class 7th +7 +4 +2 +4 Ancestral weapon +3d6, darkvision +30 ft. +1 level of divine spellcasting class 8th +8 +4 +3 +4 Paths of the ancients +1 level of divine spellcasting class 9th +9 +5 +3 +5 Stalwart â 10th +10 +5 +3 +5 Ancestral weapon +4d6, call to arms +1 level of divine spellcasting class Class Features The following are class features for the sun seeker prestige class. Weapon and Armor Proficiency A sun seeker is proficient with all simple and martial weapons, light armor, medium armor, and shields (including tower shields). Ancestral Weapon (Su) By inscribing ancient dwarven runes upon his weapon, a sun seeker forges it into a reflection of the legendary weapons his ancestors once bore. When wielded by the sun seeker against a creature with the giant, goblin, or orc subtype, the weapon deals an additional 1d6 points of damage on a successful hit. As a free action, the sun seeker may also identify the weapon by name when making an Intimidate check against such creatures, granting him a competence bonus on his Intimidate check equal to 1/2 his class level (minimum +1). At 4th level and every three levels thereafter, the extra damage dealt by the ancestral weapon increases by 1d6, to a maximum of 4d6 at 10th level. Forging a link between a weapon and the legendary weapons of old requires a 24-hour-long ritual, and only one weapon can be designated as an ancestral weapon at a time. Find Citadel (Sp) A sun seeker has spent so much time studying the known citadels that he has memorized their locations. He can determine the direction to the nearest known citadel at will, as though using the spell know direction. Rune-Carved Armor (Su) At 2nd level, a sun seeker learns how to imbue his armor with a small semblance of the magical resistance his dwarven ancestors were renowned for. Against spells and spell-like abilities, he gains a deflection bonus to touch AC equal to his armor bonus. This bonus can’t exceed his sun seeker level. This ability functions only while the sun seeker wears armor. Commune (Sp) At 3rd level, a sun seeker’s bond with the spirits of his ancestors grows stronger, allowing him to use the spell commune once per week as a spell-like ability ( caster level equal to the sun seeker’s class level). Dwarven Armor Training ( Ex ) By studying the arts of his ancestors, the sun seeker learns the secret techniques of his forebears’ forges and fighting styles. At 4th level, the sun seeker gains heavy armor proficiency, and he still benefits from his ranger combat style (if he has one) while wearing heavy armor. Darkvision ( Ex ) At 5th level, a sun seeker grows more comfortable operating in the lightless depths of the dwarven ancestral homelands. He gains darkvision out to a range of 60 feet. If he already has darkvision, the range increases by 30 feet. At 7th level, the range of the sun seeker’s darkvision increases by an additional 30 feet. Runes of Resistance (Su) At 6th level, a sun seeker can use his armor to shrug off all manner of magical attacks for a short period of time. As a move action, the sun seeker can gain spell resistance equal to 5 + his Hit Dice if wearing light armor or 10 + his Hit Dice if wearing medium or heavy armor. Dismissing this ability is a swift action. A sun seeker can use this ability for a number of rounds per day equal to his class level. These rounds need not be consecutive. Paths of the Ancients ( Ex ) Other labyrinths pale in comparison to the tangled maze of tunnels left behind by the ancient sun-seeking dwarves. At 8th level, a sun seeker gains immunity to the maze spell and cannot become lost while exploring subterranean environments. Stalwart ( Ex ) At 9th level, a sun seeker has honed his mental resiliency to avoid certain attacks. If he succeeds at a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, he instead avoids the effect entirely. This ability can be used only if the sun seeker is wearing light armor, medium armor, or no armor. A helpless sun seeker does not gain the benefit of the stalwart ability. Call to Arms (Sp) At 10th level, a sun seeker grows so attuned with the spirits of his ancestors that he can channel them into the physical world to battle his enemies. Once per day as a full-round action, he can summon up to 1d4+1 ghostly dwarven allies, who must appear within 60 feet of the sun seeker. These dwarves function exactly as an ally produced by the spell spiritual ally ( caster level equal to the sun seeker’s class level), except that they always appear as dwarves wielding warhammers and they share the sun seeker’s favored enemy and favored terrain bonuses (if any). On subsequent turns the sun seeker can direct a single dwarven ally to move as a swift action, or he can direct multiple allies to move simultaneously as a move action."
+    }
+  }
+}

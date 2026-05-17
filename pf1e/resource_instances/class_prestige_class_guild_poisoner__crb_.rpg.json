@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_guild_poisoner__crb_",
+    "name": {
+      "value": "Guild Poisoner"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nGuild Poisoner\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_guild_poisoner_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiency Master Poisoner (Ex) Poison Resistance (Ex) Quick Poisoning (Ex) Toxic Apothecary (Ex and Sp) Toxic Trick Toxic Manufactory (Ex) Trapster (Ex) Sneak Attack (Ex) Treacherous Toxin (Ex) Swift Poisoning (Ex) Instantaneous Toxicology (Ex) Members of the Poisoners’ Guild and aspiring hopefuls experiment with their craft constantly, creating hundreds of potent toxins either to sell or use for their own nefarious purposes. Hit Die: d8. Requirements To qualify to become a Guild poisoner, a character must fulfill all of the following criteria. Skills: Craft (alchemy) 5 ranks, Craft (traps) 5 ranks, Heal 5 ranks, Sleight of Hand 5 ranks. Special: Poison use class ability (such as from poisoner rogue archetype or assassin prestige class ). The character must craft at least 1,000 gp worth of poisons and donate them to the Guild Poisoners’ Guild. Class Skills The Guild poisoner’s class skills (and the key ability for each skill) are Bluff ( Cha ), Disguise ( Cha ), Escape Artist ( Dex ), Heal ( Wis ), Sleight of Hand ( Dex ), and Stealth ( Dex ). Skill Ranks at Each Level: 4 + Int modifier. Table: Guild Poisoner Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +0 +1 +0 +0 Master poisoner, poison resistance +2, quick poisoning 2nd +1 +1 +1 +1 Toxic apothecary, toxic trick 3rd +2 +2 +1 +1 Toxic manufactory, trapster +1 4th +3 +2 +1 +1 Poison resistance +4, toxic trick 5th +3 +3 +2 +2 Sneak attack +1d6, treacherous toxin 6th +4 +3 +2 +2 Swift poisoning, toxic trick, trapster +2 7th +5 +4 +2 +2 Poison resistance +6 8th +6 +4 +3 +3 Instantaneous toxicology, toxic trick 9th +6 +5 +3 +3 Poison immunity, trapster +3 10th +7 +5 +3 +3 Sneak attack +2d6, toxic trick Class Features The following are class features of the Guild poisoner prestige class. Weapon and Armor Proficiency A Guild poisoner gains no additional weapon or armor proficiencies. Master Poisoner ( Ex ) A Guild poisoner adds 1/2 her level on Craft (alchemy) checks dealing with poison. In addition, she can use Craft (alchemy) to change the type of a poison with 1 hour of work and an alchemist’s lab. If the Craft (alchemy) check (DC equals the poison’s save DC) is successful, the poison’s type changes to contact, ingested, inhaled, or injury; on a failed check, the poison is ruined. Poison Resistance ( Ex ) A Guild poisoner gains a +2 bonus on saves against poison, increasing to +4 at 4th level, +6 at 7th level, and total immunity at 9th level. Alchemist levels stack with Guild poisoner levels when determining the effect of this ability. Quick Poisoning ( Ex ) A Guild poisoner can poison a weapon as a move action. She can create poisons with the Craft (alchemy) skill in half the normal amount of time. Toxic Apothecary (Ex and Sp) At 2nd level, a Guild poisoner can use detect poison at will (range 5 feet, caster level equal to the Guild poisoner’s class level) as a swift action. She gains a bonus equal to 1/2 her class level on Heal checks dealing with poison, and on a successful check she adds this bonus to the save bonus she provides her patient against the treated poison. Toxic Trick At 2nd level and every two levels thereafter, a Guild poisoner learns a toxic trick. She can use a number of toxic tricks each day equal to her Intelligence modifier + 1/2 her class level. The save DC of any saving throw called for by a toxic trick is equal to 10 + the Guild poisoner’s class level + her Intelligence modifier. Spell-like abilities have a caster level equal to her class level. Choking Bomb (Su): As the ninja trick, but with a DC as noted above. Combine Poison ( Ex ): A Guild poisoner can combine two different poisons without reducing their efficacy, applying them to the same weapon, object, or trap. A creature exposed to the poisons must save against both. Concentrate Poison (Su): As the alchemist discovery. Launch Trap ( Ex ): As the ranger’s trapper archetype class feature. Poison Bomb ( Ex or Su ): As the ninja trick. A Guild poisoner must possess the smoke bomb toxic trick before selecting this trick. Poison Conversion (Su): As the alchemist discovery. Poison Trap ( Ex or Su ): As the ranger trap. Slow-Acting Poison ( Ex ): When crafting a poison, a Guild poisoner may choose to create it with a delayed onset time. This delay must be at least 1 round but cannot be longer than 1 minute per class level. Smoke Bomb ( Ex or Su ): As the ninja trick, but no ki points are required. Tailored Toxin ( Ex ): Choose one creature type (and subtype, for humanoids or outsiders ). Poisons a Guild poisoner uses are particularly effective against creatures of this type, increasing the save DC by 2. This trick can be taken more than once; each time it applies to a different creature type (or subtype). Toxic Magic (Sp): Choose one of the following spells or alchemical extracts as a spell-like ability: accelerate poison, delay poison, pernicious poison, transmute potion to poison or venomous bolt. This trick can be taken more than once; each time it grants a different spell-like ability. Toxic Manufactory ( Ex ) At 3rd level, when creating poisons or antitoxins a Guild poisoner can create a number of doses equal to her Intelligence modifier at one time (minimum 1). These additional doses do not increase the time required, but do increase the raw material cost accordingly. In addition, she uses the item’s gp value as its sp value when determining progress made with her Craft (alchemy) checks. If the Guild poisoner has the Master Alchemist feat, she may create a number of doses of poison or antitoxin at one time equal to twice her Intelligence modifier and uses the item’s pp value as its sp value when determining progress with her Craft (alchemy) checks. Trapster ( Ex ) At 3rd level, a Guild poisoner adds her class level on Perception skill checks made to locate traps and on Craft and Disable Device checks made with poisonous traps. A Guild poisoner also adds a +1 bonus on attack rolls, save DCs, and Perception and Disable Device DCs for poisoned traps she creates. This bonus increases by +1 at 6th level and again at 9th level. Sneak Attack ( Ex ) This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 at 5th level and again at 10th. If a Guild poisoner gets a sneak attack bonus from another source, the bonuses on damage stack. Treacherous Toxin ( Ex ) At 5th level, when a Guild poisoner makes a sneak attack with a poisoned weapon, she may forgo some of her sneak attack damage to increase the save DC of her poison, increasing the poison’s save DC by 1 for every 1d6 points of sneak attack damage she forgoes. Swift Poisoning ( Ex ) At 6th level, a Guild poisoner can draw a vial of poison from her bag and apply it to a weapon as a swift action. This action does not provoke attacks of opportunity as long as she has at least one hand free. Instantaneous Toxicology ( Ex ) At 8th level, a Guild poisoner can create a poison as a full-round action if she succeeds at the Craft (alchemy) check and has the appropriate resources on hand to pay the creation cost. Poisons crafted in this way last up 10 minutes per class level before losing their potency. In addition, she can instead create an unstable toxin. An unstable toxin costs 1/10 its normal price (rather than 1/3), but is ruined if not used by the end of her next turn."
+    }
+  }
+}

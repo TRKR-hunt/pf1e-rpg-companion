@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_student_of_perfection__crb_",
+    "name": {
+      "value": "Student of Perfection"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nStudent of Perfection\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_student_of_perfection_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon Proficiency AC Bonus (Ex) Ki Pool (Su) Martial Artist (Ex) Ki Powers (Su) Bonus Feat Perfection (Ex) The wisest masters consider themselves always students, as imperfect beings always have more to learn. As a result of their continued training, these masters have developed powers unique to their monasteries. Hit Dice: d10. Requirements To qualify to become a student of perfection, a character must fulfill the following criteria. Alignment: Any lawful. Feats: Improved Unarmed Strike, Perfect Style. Skills: 5 ranks in Acrobatics, Climb, Escape Artist, Stealth, or Swim; 5 ranks in Craft, Knowledge (any), Perception, Perform, or Sense Motive. Special: Must be a member of one of the Houses of Perfection. Class Skills The student of perfection’s class skills (and the key ability for each) are Acrobatics ( Dex ), Climb ( Str ), Craft ( Int ), Escape Artist ( Dex ), Intimidate ( Cha ), Knowledge (history) ( Int ), Knowledge (planes) ( Int ), Knowledge (religion) ( Int ), Perception ( Wis ), Perform ( Cha ), Ride ( Dex ), Sense Motive ( Wis ), Stealth ( Dex ), and Swim ( Str ). Skill Ranks at Each Level: 4 + Int modifier. Table: Student of Perfection Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +1 +1 +1 +0 AC bonus +1, ki pool, martial artist 2nd +2 +1 +1 +1 Ki power 3rd +3 +2 +2 +1 Bonus feat 4th +4 +2 +2 +1 Ki power 5th +5 +3 +3 +2 AC bonus +2 6th +6 +3 +3 +2 Ki power 7th +7 +4 +4 +2 Bonus feat 8th +8 +4 +4 +3 Ki power 9th +9 +5 +5 +3 AC bonus +3 10th +10 +5 +5 +3 Ki power, perfection Class Features The following are class features of the student of perfection prestige class. Weapon Proficiency Students of perfection are proficient with all weapons with the monk special weapon quality. AC Bonus (Ex) At 1st level, when a student of perfection wears light armor or no armor, he gains a +1 dodge bonus to his AC and CMD. This bonus increases by 1 at 5th and 9th levels. He loses these bonuses while immobilized or helpless, wearing medium or heavy armor, or carrying a medium or heavy load. Ki Pool (Su) If a student of perfection has levels in a class that grants a Ki pool, his student of perfection levels stack with his levels of that class to determine his total number of ki points. If the student of perfection has a Ki pool from Perfect Style, he adds his Wisdom modifier to his Ki pool. The student of perfection’s Ki pool also gains ki strike as per the Ki pool of a monk of a level equal to his class level. This stacks with his levels in monk (if any). Martial Artist (Ex) If a student of perfection has brawler’s flurry, fast movement, flurry of blows, stunning fist, or the unarmed strike class features from previous levels, his class levels in this prestige class stack with those levels when determining the effects of these abilities. Otherwise, a student of perfection gains flurry of blows and unarmed strike as a monk of a level equal to his student of perfection level. Levels in student of perfection count as monk levels for the purposes of feats such as Stunning Fist. Ki Powers (Su) At 2nd level and every 2 levels thereafter, a student of perfection can select one ki power chosen from the unchained monk options listed directly below or from the new ki powers detailed afterward. This ki power must be open to all students of perfection or appropriate to his chosen school. If an “unchained” ki power is followed by a level in parentheses, use that as the minimum character level (instead of the level given in the Unchained rules). All other prerequisites must be met. Unless otherwise noted, a student of perfection cannot select an individual ki power more than once. Any student of perfection can choose elemental fury, elemental burst (10th), or genie’s blade (see below). If he belongs to the Monastery of Unblinking Flame, a student of perfection can also choose furious defense, ki hurricane (4th), sudden speed, or any of the powers below for that monastery. If he belongs to the Monastery of Unfolding Wind, the student of perfection can also choose high jump, ki range, wind jump, or any of the powers below for that monastery. If he belongs to the Monastery of Untwisting Iron, a student of perfection can also choose diamond body, diamond resilience (6th), diamond soul (6th), or any of the powers below for that monastery. Genie’s Blade (Su; any): The student of perfection is proficient with the falchion, kukri, and scimitar and treats these weapons as if they had the monk special quality. The student of perfection can spend 1 ki point as a swift action to give a falchion, kukri, or scimitar he wields the ki strike special ability and have it deal damage equal to that of his unarmed strikes (if greater than its base damage). The student of perfection applies his full Strength modifier to his damage rolls for these attacks. These effects last 1 round. Inner Fire (Su; Unblinking Flame): While the student of perfection is under the effects of elemental fury (fire), a creature that successfully grapples him takes 1d6 points of fire damage. The damage increases by 1d6 each round the creature maintains the grapple, to a maximum number of dice equal to the student of perfection’s level. A student of perfection must have the elemental fury ki power before selecting this ki power. Iron Chain Choke (Ex; Untwisting Iron): When the student of perfection uses his iron chain strike ability, any opponent grappled by him must succeed at a Reflex saving throw (DC = 10 + the student of perfection’s class level + the student of perfection’s Strength modifier) or it cannot speak or cast spells with verbal components for 1 round. A student of perfection must have the iron chain strike ki power before selecting this ki power. Iron Chain Strike (Ex; Untwisting Iron): When the student of perfection succeeds at a combat maneuver check, he can spend 1 ki point as a swift action to maintain a grapple to deal damage and can add double his Strength bonus to the damage roll. Ki Missile (Su; Unfolding Wind): The student of perfection can spend 1 ki point as a swift action to give any thrown weapon he wields the benefits of ki strike and have it deal damage equal to that of his unarmed strikes (if greater than its base damage). These effects last 1 round. Master of Riddles (Sp; Unblinking Flame): Bluff is a class skill for the student of perfection. When he makes a successful opposed Bluff check, the student of perfection can spend 1 ki point as a standard action to give the target a suggestion (as per the spell suggestion ). His caster level is equal to his class level, and the save DC is 10 + his class level + his Wisdom modifier. One in Mind and Body (Ex; Unfolding Wind): The student of perfection can spend 1 ki point as a swift action to add his Wisdom modifier as a bonus on a Strength – or Dexterity -based skill check. Punish Mistake (Ex; Unblinking Flame): When the student of perfection makes an attack of opportunity, he can spend 1 ki point as an immediate action to make an additional attack against the target that had provoked the attack. Still Air (Sp; Unfolding Wind): The student of perfection can spend 1 ki point to cast calm emotions. His caster level is equal to his class level, and the save DC is equal to 10 + his class level + his Wisdom modifier. He can spend 3 ki points as an immediate action to use this ability on himself when he is affected by an emotion effect, a confusion effect, or a fear effect. Transmute Metal (Su; Untwisting Iron): The student of perfection can spend 1 ki point and touch a metal weapon (or 50 pieces of metal ammunition), granting it the benefits of his ki strike for a number of minutes equal to his class level. Bonus Feat At 3rd level, a student of perfection gains one of the following feats based on his chosen House of Perfection: Unblinking Flame Feint, Unfolding Wind Strike, or Untwisting Iron Strength. At 7th level, he gains either Unblinking Flame Fist, Unfolding Wind Rush, or Untwist"
+    }
+  }
+}

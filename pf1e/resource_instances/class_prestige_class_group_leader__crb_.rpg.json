@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_group_leader__crb_",
+    "name": {
+      "value": "Group Leader"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nGroup Leader\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_group_leader_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Hit Die: d8. Requirements To qualify to become a Group Leader, a character must fulfill all of the following criteria. Alignment: Chaotic good. Feats: Any two teamwork feats. Skills: Disguise 5 ranks, Knowledge (local) 3 ranks, Stealth 5 ranks, Survival 5 ranks. Special: Sneak attack +2d6. Class Skills The class skills (and the key ability for each skill) for a Group Leader are Acrobatics ( Dex ), Bluff ( Cha ), Diplomacy ( Cha ), Disguise ( Cha ), Escape Artist ( Dex ), Heal ( Wis ), Intimidate ( Cha ), Knowledge (geography) ( Int ), Knowledge (local) ( Int ), Perception ( Wis ), Sense Motive ( Wis ), Sleight of Hand ( Dex ), Stealth ( Dex ), and Survival ( Wis ). Skill Ranks at Each Level: 6 + Int modifier. Table: Group Leader Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +0 +0 +1 +0 Close group, swift traveler +10 ft. 2nd +1 +1 +1 +1 Group guardian, group defense +1, teamwork feat 3rd +2 +1 +2 +1 Sneak attack +1d6 4th +3 +1 +2 +1 Group defense +2 5th +3 +2 +3 +2 1st favored group 6th +4 +2 +3 +2 Group defense +3, sneak attack +2d6, swift traveler +20 ft., teamwork feat 7th +5 +2 +4 +2 2nd favored group 8th +6 +3 +4 +3 Group defense +4 9th +6 +3 +5 +3 3rd favored group, sneak attack +3d6 10th +7 +3 +5 +3 Group defense +5, teamwork feat Class Features The following are class features of the Group Leader prestige class. Weapon and Armor Proficiency A Group Leader gains no additional weapon or armor proficiencies. Close Group ( Ex ) As a standard action, a Group Leader may designate a number of allies up to 3 + her Charisma modifier as part of her group. Members of a group must remain within 30 feet of the Group Leader in order to gain the benefits granted by a Group Leader’s other class abilities, detailed below; if they leave this range, the Group Leader must designate these allies again for them to be included in her group. At 7th level, this range increases to 60 feet. Swift Traveler ( Ex ) A Group Leader’s base land speed is treated as being +10 feet faster when determining her overland travel speed while traveling long distances and while outside of combat. Members of her group may use either the Group Leader’s overland travel speed or their own, whichever is better. At 6th level, the bonus to speed increases to +20 feet. Group Guardian ( Ex ) At 2nd level, a Group Leader is dedicated to ensuring the safety and success of those she leads. Whenever she uses the aid another action for a member of her group, she grants a +3 bonus instead of the normal +2. Group Defense ( Ex ) At 2nd level, a Group Leader receives a +1 morale bonus on attack and damage rolls made against creatures that threaten members of her group. At 4th level and every two levels thereafter, these bonuses increase by +1, to a maximum of +5 at 10th level. Teamwork Feat At 2nd level, a Group Leader gains a bonus feat in addition to those gained from normal advancement. This bonus feat must be selected from those listed as teamwork feats, and the Group Leader must meet the prerequisites of the selected bonus feat. At 6th level and again at 10th, the Group Leader gains an additional bonus teamwork feat. Sneak Attack This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 every two levels (3rd, 6th, and 9th). If a Group Leader gets a sneak attack bonus from another source, the bonuses on damage stack. Favored Community ( Ex ) At 5th level, a Group Leader grows familiar with and develops trusted contacts in a particular community. While inside the limits of this area, she gains a +2 bonus on initiative checks and Knowledge (local), Perception, Stealth, and Survival checks. Any ally designated as part of the group receives a bonus on these skills equal to half the leader’s bonus. A Group Leader traveling through her favored community leaves no trail and cannot be tracked (although she may leave a trail if she so desires). Provided she isn’t in immediate danger (such as fleeing from pursuers right on her heels), a Group Leader can always find a safe place for her and members of her group to rest in her chosen community At such a location, she and her allies are fed, clothed, and provided with basic medical attention (as if attended by a person with a Heal bonus of +10). At 7th level, and again at 9th level, the Group Leader may select an additional community in which to receive these bonuses. Each time she selects a new community, the skill bonus and initiative bonus in any one chosen community (including the one just selected, if so desired) increases by +2. For the purposes of this ability, a community is considered any settlement consisting of 100 or more individuals. The community may be larger than this minimum. Outlying farms, fields, and houses are considered part of a group."
+    }
+  }
+}

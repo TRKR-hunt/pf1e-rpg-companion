@@ -37,9 +37,19 @@ view class_progression_edit() =
             stat = "class",
             resource_id = "class",
             filters = dict(is_lore_only = false),
-            validation_message = if isNull($view.class_progression_edit_class_select)
-            then "You have an unselected class. Select a class or remove it."
-            else null,
+            // B.1.7: prestige classes share the `class` type so they
+            // appear in the picker, but PF1e-RAW they are NOT taken at
+            // character creation — only via multiclass at level-up.
+            // Enforced as a creation-context validation (gotcha #17;
+            // selectResources can't context-differ its filter).
+            validation_message = when {
+              isNull($view.class_progression_edit_class_select) ->
+                "You have an unselected class. Select a class or remove it.",
+              defined(stat = "$character.$is_new")
+                && ($view.class_progression_edit_class_select?.is_prestige ?? false) ->
+                "Prestige classes are entered via multiclass at level-up, not at character creation. Pick a base class.",
+              else -> null,
+            },
           ),
           popUpButton(
             id = "class_progression_edit_see_deity_button",

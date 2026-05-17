@@ -1,0 +1,38 @@
+// B.1.7 — a single, machine-checkable prestige-class entry
+// requirement. Stored INLINE in class.prerequisites
+// (resource<class_prerequisite>[], gotcha #16 — zero new instances).
+//
+// kind:
+//   "bab"          -> base_attack_bonus >= threshold
+//   "ability"      -> <param>_score >= threshold (param e.g. strength)
+//   "class_level"  -> character total level >= threshold
+//   "alignment"    -> character alignment == text_value (enum id)
+//   "skill_rank"   -> <param>_ranks >= threshold
+//   "text"         -> narrative / feature / spellcasting gate the
+//                     engine can't introspect; ALWAYS shown, player-/
+//                     GM-attested (not auto-blocked). The catch-all
+//                     for PF1e's many feature/spell prereqs.
+// `display` is the always-shown human text.
+base string kind(name = "Kind") = "text";
+
+base string param(name = "Parameter (ability/skill id)") = "";
+
+base integer threshold(name = "Threshold") = 0;
+
+base string text_value(name = "Text value (alignment id, etc.)") = "";
+
+base string display(name = "Display text") = "";
+
+// True when this prerequisite is one the engine actually enforces
+// (vs text-attested). Drives the picker's blocking validation.
+// Engine-enforced kinds. skill_rank / feat / spellcasting / narrative
+// are kind "text" (shown, GM/player-attested) — PF1e PrC prereqs are
+// mostly feature/spell-based, and meta-stat skill/feat introspection
+// is the discouraged path (gotcha avoidance). Documented.
+calc bool is_machine_checkable(name = "Machine-checkable") = when {
+  kind == "bab" -> true,
+  kind == "ability" -> true,
+  kind == "class_level" -> true,
+  kind == "alignment" -> true,
+  else -> false,
+};

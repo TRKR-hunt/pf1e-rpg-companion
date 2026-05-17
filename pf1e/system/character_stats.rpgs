@@ -1044,6 +1044,41 @@ calc string level_up_multiclass_alignment_error(name = "Multiclass alignment err
   else -> "",
 };
 
+// B.1.7 — prestige prerequisite evaluator. For the picked level-up
+// new class, collect every machine-checkable prerequisite the
+// character does NOT meet (bab/ability/class_level/alignment), as a
+// "; "-joined list of their display strings. text-kind prereqs
+// (feature/spell/narrative) are shown in the class's Lore/prereq
+// list and player/GM-attested — never auto-blocked (documented).
+calc bool level_up_new_class_is_prestige(name = "Picked new class is prestige") =
+  level_up_new_class_picked?.is_prestige ?? false;
+
+calc string level_up_prestige_unmet_prereqs(name = "Unmet prestige prerequisites") =
+  joinToString(
+    map(
+      filter(
+        (level_up_new_class_picked?.prerequisites ?? []),
+        filter = ($p) => ($p.is_machine_checkable && (when {
+          $p.kind == "bab" -> base_attack_bonus < $p.threshold,
+          $p.kind == "class_level" -> level < $p.threshold,
+          $p.kind == "alignment" -> alignment != $p.text_value,
+          $p.kind == "ability" -> (when {
+            $p.param == "strength" -> strength_score < $p.threshold,
+            $p.param == "dexterity" -> dexterity_score < $p.threshold,
+            $p.param == "constitution" -> constitution_score < $p.threshold,
+            $p.param == "intelligence" -> intelligence_score < $p.threshold,
+            $p.param == "wisdom" -> wisdom_score < $p.threshold,
+            $p.param == "charisma" -> charisma_score < $p.threshold,
+            else -> false,
+          }),
+          else -> false,
+        })),
+      ),
+      mapper = ($p) => $p.display,
+    ),
+    separator = "; ",
+  );
+
 // Resolves the selected class back to its class_progression by matching
 // $view.level_up_select_class? against $character.classes[*].class.id.
 calc resource<class_progression> level_up_selected_class_progression(name = "Selected existing class when levelling up") =

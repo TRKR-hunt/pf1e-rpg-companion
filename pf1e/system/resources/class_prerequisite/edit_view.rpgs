@@ -1,0 +1,14 @@
+view class_prerequisite_edit() =
+  composite(
+    id = "class_prerequisite_edit",
+    row_only = true,
+    subviews = [
+      text(
+        id = "class_prerequisite_edit_display",
+        edit_stat = "display",
+        style = "text",
+        hint = "Requirement",
+        max_length = 120,
+      ),
+    ],
+  );

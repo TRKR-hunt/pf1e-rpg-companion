@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_swordlord__crb_",
+    "name": {
+      "value": "Swordlord"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nSwordlord\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_swordlord_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Deft Strike (Ex) Quick Draw Display Weapon Prowess (Ex) Defensive Parry (Ex) Adaptive Tactics (Ex) Shatter Confidence (Ex) Saving Slash (Ex) Dexterous Duelist (Ex) Greater Saving Slash Confounding Duelist (Ex) The swordlords follow no singular path to dueling mastery-some of those who take up the blade only dabble in its use, while others explore swordplay with the dueling weapon in unconventional ways. But those who seek to most closely emulate these traditions usually do so by taking levels in the swordlord prestige class. When one hears of an swordlord traveling the back roads, confronting bandits and defeating braggarts by challenging them to single combat, that swordlord has very likely pursued this path. Due to this prestige class’s emphasis on mastering numerous feats, swordlords often have levels in the fighter class; many of these are humans with above-average intelligence, which helps them swiftly fulfill the skill requirements, but this is far from the only route available. Ranger, rogues, slayers, and swashbucklers also seek to master this signature sword-fighting art by gaining levels as an swordlord, even though, in most cases, they must wait longer to qualify for the class than fighters. This prestige class also works well in conjunction with the defender archetype, though neither the archetype nor the prestige class require the other. Hit Die: d10. Requirements To qualify to become an swordlord, a character must fulfill the following criteria. Feats: Dazzling Display, Exotic Weapon Proficiency ( dueling sword ), Weapon Finesse, Weapon Focus ( dueling sword ). Skills: Acrobatics 3 ranks, Intimidate 5 ranks, Knowledge (nobility) 3 ranks, Sense Motive 3 ranks. Class Skills The swordlord’s class skills (and the key ability for each skill) are Acrobatics ( Dex ), Bluff ( Cha ), Diplomacy ( Cha ), Intimidate ( Cha ), Knowledge (nobility) ( Int ), Perform ( Cha ), and Sense Motive ( Wis ). Skill Ranks at Each Level: 2 + Int modifier. Table: Swordlord Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +1 +0 +1 +0 Deft strike, quick draw 2nd +2 +1 +1 +1 Display weapon prowess 3rd +3 +1 +2 +1 Defensive parry +1 4th +4 +1 +2 +1 Adaptive tactics 1 5th +5 +2 +3 +2 Shatter confidence 6th +6 +2 +3 +2 Saving slash 7th +7 +2 +4 +2 Defensive parry +2, dexterous duelist 8th +8 +3 +4 +3 Adaptive tactics 2 9th +9 +3 +5 +3 Greater saving slash 10th +10 +3 +5 +3 Confounding duelist Class Features The following are class features of the swordlord prestige class. Unless stated otherwise, the following benefits apply only when a swordlord is wielding a dueling sword and carrying nothing in his other hand. Deft Strike (Ex) An swordlord can add his Dexterity bonus (if any) to damage rolls made with a dueling sword instead of his Strength bonus. This bonus on damage rolls applies whether the swordlord is wielding a dueling sword one-handed or two-handed. An swordlord cannot use this ability if he is wielding a shield or using an off-hand weapon (including armor spikes, unarmed strikes, or natural weapons ). Quick Draw An swordlord gains Quick Draw as a bonus feat. If the character already has this feat, he instead gains Dueling Mastery. If he already has both feats, he instead gains a Combat feat of his choice as a bonus feat. The swordlord must meet all prerequisites of the selected Combat feat. Display Weapon Prowess (Ex) At 2nd level, an swordlord adds a bonus equal to half his class level on Intimidate checks while using Dazzling Display with a dueling sword. He also gains an additional +1 bonus on these Intimidate checks for each of the following feats he has with the dueling sword: Greater Weapon Focus, Greater Weapon Specialization, Improved Critical, Weapon Focus, or Weapon Specialization. The bonuses stack with each other (the total bonus is considered a competence bonus ). When involved in a duel, an swordlord’s mastery of elaborate strikes and stances grants him a bonus equal to half his class level on performance combat checks. These tricks can also be of great help in countering an enemy during a duel, granting him a bonus equal to half his class level on rolls to attempt a dueling parry or to use dueling resolve. Defensive Parry (Ex) At 3rd level, an swordlord gains a +1 dodge bonus to his AC when making a full attack with a dueling sword. This AC bonus increases to +2 at 7th level. If an duelist is also a fighter with the defender fighter archetype, levels in this class stack with his fighter levels when determining the AC bonus from this ability. Adaptive Tactics (Ex) At 4th level, an swordlord learns to adapt his fighting style to counter his enemy’s strengths. An swordlord reduces the attack roll penalty for fighting defensively or using Combat Expertise by 1 at 4th level and by 2 at 8th level. In addition, after an swordlord uses his dueling sword to attack a creature he attacked during the previous round, as a swift action he can attempt a Sense Motive check (DC = 10 + the opponent’s base attack bonus ). If successful, the swordlord gains a +2 circumstance bonus either on attack rolls or to his AC against that creature until the beginning of his next turn. Shatter Confidence (Ex) At 5th level, an swordlord can attempt an Intimidate check to demoralize his target as a swift action after he confirms a critical hit or succeeds at a disarm, reposition, or sunder combat maneuver with a dueling sword. If his target is already shaken, the swordlord can attempt an Intimidate check to demoralize the target as a swift action after any successful melee attack or combat maneuver. If he succeeds at this check, any morale bonuses the target has are suppressed for a number of rounds equal to the swordlord’s class level. Suppressed effects are not dispelled, and they resume after this time elapses if their duration has not expired. Suppressed morale bonuses include those gained from a barbarian’s rage ability; however, this ability doesn’t end rage, nor does it suppress other effects of rage or rage powers that do not provide morale bonuses (thus, it doesn’t cause a barbarian to become fatigued unless the barbarian chooses to end the rage during the suppressed duration, in which case fatigue from rage affects the barbarian normally). Saving Slash (Ex) At 6th level, when wielding a dueling sword, an swordlord can use an immediate action to try deflecting a melee critical hit targeting him, reducing its damage to that of a normal hit, with a 25% chance of success. This does not stack with the fortification special ability of magical armor or similar effects. Dexterous Duelist (Ex) At 7th level, an swordlord with at least one free hand is not denied his Dexterity bonus when attempting Acrobatics or Climb checks, nor does he provoke attacks of opportunity when standing up from prone. Greater Saving Slash At 9th level, an swordlord’s saving slash has a 50% chance of reducing a melee critical hit to a normal hit. In addition, he can attempt a saving slash against ranged critical hits, including those from rays and other ranged touch effects, with a 25% chance of success. Confounding Duelist (Ex) At 10th level, an swordlord who successfully uses shatter confidence also suppresses the target’s competence and insight bonuses."
+    }
+  }
+}

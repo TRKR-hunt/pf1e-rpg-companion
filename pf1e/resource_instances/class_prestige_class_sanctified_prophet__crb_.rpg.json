@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_sanctified_prophet__crb_",
+    "name": {
+      "value": "Sanctified Prophet"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nSanctified Prophet\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_sanctified_prophet_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiency Spells Auspicious Display (Ex) Purchase Spells (Su) Business Acumen (Ex) Mystical Contacts (Ex) Prophet’s Chest (Sp) Planar Contacts (Su) Ex-Prophets Sanctified prophets must abstain from consuming various kinds of meat, sexual activity, and virtually all physical contact with other people. Despite their eccentric ways, none can deny that in many cases the strictures seem to lead their adherents to vast wealth. The intense strength of will needed to follow the prophecies seems to shape the prophets into preternaturally calm and focused individuals who are as ruthless in the market as they are skilled at twisting words and formulating elaborate loopholes in contracts. Hit Die: d8. Requirements To qualify to become a sanctified prophet, a character must fulfill all of the following criteria. Alignment: Lawful neutral. Skills: Knowledge (local) 5 ranks, Profession (merchant) 5 ranks, Sense Motive 2 ranks. Special: Must follow the Golden Prophecies. Class Skills The sanctified prophet’s class skills (and the key ability for each skill) are Appraise ( Int ), Bluff ( Cha ), Diplomacy ( Cha ), Intimidate ( Cha ), Knowledge (local) ( Int ), Knowledge (nobility) ( Int ), Sense Motive ( Wis ), Spellcraft ( Int ), and Use Magic Device ( Cha ). Skill Ranks at Each Level: 4 + Int modifier. Table: Sancitified Prophet Level Base Attack Bonus Fort Save Ref Save Will Save Special Spells per Day 1st 2nd 3rd 4th 1st +0 +0 +0 +1 Auspicious display +1 1 â â â 2nd +1 +1 +1 +1 Purchase spells 2 â â â 3rd +2 +1 +1 +2 â 3 â â â 4th +3 +1 +1 +2 Auspicious display +2, business acumen 3 1 â â 5th +3 +2 +2 +3 â 4 2 â â 6th +4 +2 +2 +3 Mystical contacts 4 3 â â 7th +5 +2 +2 +4 Auspicious display +3 4 3 1 â 8th +6 +3 +3 +4 Prophet’s chest 4 4 2 â 9th +6 +3 +3 +5 Planar contacts 5 4 3 â 10th +7 +3 +3 +5 Auspicious display +4 5 4 3 1 Class Features The following are class features of the sanctified prophet prestige class. Weapon and Armor Proficiency A sanctified prophet gains no additional weapon or armor proficiencies. Spells Table: Sanctified Prophet Spells Known Level 1st 2nd 3rd 4th 1st 2 â â â 2nd 3 â â â 3rd 4 â â â 4th 4 2 â â 5th 4 3 â â 6th 4 4 â â 7th 5 4 2 â 8th 5 4 3 â 9th 5 4 4 â 10th 5 5 4 2 A sanctified prophet casts arcane spells drawn from the sorcerer/wizard spell list, but is limited to divination and enchantment spells. He can cast any spell he knows without preparing it ahead of time. To cast a spell, a sanctified prophet must have a Charisma score of at least 10 + the spell’s level. His bonus spells are based on Charisma, and saving throws against these spells have a DC of 10 + the spell level + the caster’s Charisma modifier (if any). His selection of spells is extremely limitedâat each sanctified prophet level, he gains one or more new spells, as indicated on Table: sanctified prophet Spells Known. At 4th, 6th, 8th, and 10th level, he can choose to learn a new spell in place of one he already knows, provided the new spell is of the same level as the one he is replacing. As he gains levels, a small number of additional spells are added to the sanctified prophet’s spell list. He does not automatically learn these spells when they become availableâthey must be selected as part of his total spells known. He adds the following spells to his spell list at the indicated levels: 2nd â divine favor, floating disk 4th â augury, zone of truth 6th â arcane lock, make whole 8th â glibness, obscure object 10th â discern lies, divination Auspicious Display ( Ex ) A sanctified prophet projects an air of confidence and inviolability by displaying his wealth and status. So long as the prophet wears 1,000 gp worth of purely decorative jewelry, clothing, or other adornments, he gains a +1 dodge bonus to AC and a +1 morale bonus on saving throws. This bonus (and the necessary value of his accoutrements) increases as he gains levels, to +2 for 4,000 gp at 4th level, +3 for 9,000 gp at 7th level, and +4 for 16,000 gp at 10th level. Purchase Spells (Su) Starting at 2nd level, a sanctified prophet can cast spells not normally available to him by expending a certain amount of gold. A sanctified prophet can spontaneously cast any 1st-level spell he knowsâeven if he has expended all of his spells for that dayâby sacrificing 500 gp worth of currency (gp, sp, and so on) or gems. If the spell has a material component cost, it is added to the base cost of this ability. Currency or gems used in this way must be on the prophet’s person, and goods other than standard currency or precious gems cannot be sacrificed to use this ability. Casting a spell in this way does not expend any of the prophet’s uses of spells for that day, and once sacrificed, the currency spent to use this ability cannot be retrieved in any wayâthe money has effectively disappeared forever. At 4th level, the sanctified prophet can cast a 2nd-level spell he knows by sacrificing 1,500 gp. At 7th level, he can cast a 3rd-level spell by sacrificing 3,000 gp. At 10th level, he can cast a 4th-level spell by sacrificing 5,000 gp. Business Acumen ( Ex ) At 4th level, a sanctified prophet can treat settlements as one size category larger when determining their base values and purchase limits. At 7th level, this ability improves so that the prophet can treat settlements as two size categories larger. At 10th level, the prophet can treat settlements as four size categories larger. Mystical Contacts ( Ex ) At 6th level, once per week a sanctified prophet can call in favors from his trading partners to purchase a spellcasting service at half its normal price. The prophet must still find a spellcaster capable of casting the spell he desires (which usually means finding a large enough settlement), and must provide any expensive material components required by the spell at their full price. Prophet’s Chest (Sp) At 8th level, a sanctified prophet can hide a chest on the Ethereal Plane, as per the spell secret chest, except that the prophet does not need an expensive chest or replicaâany chest will do. The prophet can summon the chest back to the Material Plane as a standard action up to three times per day. So long as the prophet accesses the chest once every month, it suffers no chance of being lost on the Ethereal Plane. A sanctified prophet can have only one chest on the Ethereal Plane in this way. Planar Contacts (Su) At 9th level, a sanctified prophet can purchase an outsider’s services for half the normal cost when he casts a planar ally spell or is within 30 feet of an ally who casts a planar ally spell. When negotiating with a creature called by a planar binding spell (either his own or an ally’s), the prophet gains a +4 bonus on any opposed Charisma checks. Ex-Prophets A sanctified prophet who ceases to be lawful neutral, or who violates the dietary and sexual prohibitions set forth in the Golden Prophecies, loses all class features (except weapon, armor, and shield proficiencies), and cannot progress further in levels as a sanctified prophet. He regains his abilities and advancement potential if he atones for his violations (see atonement ), as appropriate."
+    }
+  }
+}

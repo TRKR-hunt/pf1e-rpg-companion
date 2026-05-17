@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_asavir__crb_",
+    "name": {
+      "value": "Asavir"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nAsavir\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_asavir_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Weapon and Armor Proficiency Camaraderie (Ex) Equine Bond (Ex) Shaitan’s Blessing (Su) Thunderous Charge (Su) Aura of Courage (Su) Flank Breaker (Ex) Controlled Charge (Ex) Djinni’s Blessing (Su) Marid’s Blessing (Su) Trampling Gallop (Ex) All Eyes on Me (Su) Efreeti’s Blessing (Su) Inspiring Leader (Su) Janni’s Blessing (Su) An asavir’s bond with her genie-blessed mount is even closer than the partnership most horselords share with their steeds, and her human compatriots fight with extra ferocity, knowing that they have a tireless protector. Asavirs sometimes leave their tribe to become mercenaries or adventurers, and it is from such asavirs that the techniques of this prestige class are usually spread. Asavirs tend toward nonevil alignments. Hit Die: d10. Requirements To qualify to become an asavir, a character must fulfill the following criteria. Base Attack Bonus: +4. Feats: Mounted Combat. Skills: Handle Animal 5 ranks, Ride 5 ranks. Class Skills The asavir’s class skills are Bluff ( Cha ), Craft ( Int ), Handle Animal ( Cha ), Intimidate ( Cha ), Knowledge (nature) ( Int ), Knowledge (religion) ( Int ), Perception ( Wis ), Ride ( Dex ), Sense Motive ( Wis ), and Survival ( Wis ). Skill Ranks at Each Level: 4 + Int modifier. Table: Asavir Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +1 +1 +0 +1 Camaraderie +1, equine bond 2nd +2 +1 +1 +1 Shaitan’s blessing +2, thunderous charge (5 ft.) 3rd +3 +2 +1 +2 Aura of courage, flank breaker 4th +4 +2 +1 +2 Djinni’s blessing (10 ft.), controlled charge 5th +5 +3 +2 +3 Camaraderie +2 6th +6 +3 +2 +3 Marid’s blessing, thunderous charge (10 ft.), trampling gallop 7th +7 +4 +2 +4 All eyes on me 8th +8 +4 +3 +4 Djinni’s blessing (20 ft.), efreeti’s blessing 9th +9 +5 +3 +5 Camaraderie +3, inspiring leader, shaitan’s blessing +4 10th +10 +5 +3 +5 Janni’s blessing, thunderous charge (20 ft.) Class Features The following are class features of the asavir prestige class. Weapon and Armor Proficiency An asavir is proficient with simple weapons, martial weapons, and all forms of armor and shields (except tower shields). Camaraderie (Ex) An asavir is skilled at forging those who battle by her side into a loyal and well-coordinated team and exhorting them to fight bravely. As long as the asavir can speak aloud, the bonus she grants to any allies within 30 feet when she takes the aid another action in combat increases by 1. At 5th level, the bonus instead increases by 2, and at 9th level, it instead increases by 3. These bonuses do not stack with other abilities that enhance the aid another action. Equine Bond (Ex) An asavir gains a horse as a loyal steed. This mount functions as a druid’s animal companion, using the asavir’s level + 2 as her effective druid level (for example, at 3rd level, the asavir’s mount functions as a 5th-level druid’s animal companion ). The companion must be a horse or pony, though the GM might approve other equine animals as suitable mounts (especially in the case of unusually large or small asavirs). If the asavir has a horse companion from another class that grants a similar ability (such as cavalier, druid, or ranger ), her asavir levels stack with levels from one of these other classes (her choice) for the purposes of determining her mount’s statistics and abilities-she does not gain a second companion for having this ability from a different class. Her total effective druid level for determining her mount’s statistics can never exceed her total character level. An asavir doesn’t take an armor check penalty on Ride checks while riding her mount, and her mount is always considered combat trained and begins play with Light Armor Proficiency as a bonus feat. Shaitan’s Blessing (Su) When an asavir reaches 2nd level, her mount receives the blessing of the shaitans. It receives a +2 racial bonus on saving throws against all mind-affecting and fear effects. When the asavir reaches 9th level, this bonus increases to +4. Thunderous Charge (Su) At 2nd level, a number of times per day equal to her asavir level, an asavir and her mount can make a charge that causes the ground to shake. This is a full-round action and works as a normal charge, except the asavir’s mount can move only up to its move speed (not double its move speed, as in a normal charge ). Creatures within a 5-foot radius of the charge’s ending point must succeed at a Reflex save (DC = 10 + the asavir’s class level + the mount’s Strength modifier) or fall prone. For every asavir level above 2nd the character has, she can exclude one creature from the effects of her thunderous charge (one creature at 3rd level, up to a maximum of eight creatures at 10th level). The asavir can resolve her attack at the end of her charge either before or after determining which creatures fall prone. At 6th level, the radius of thunderous charge increases to 10 feet, and at 10th level it increases to 20 feet. Aura of Courage (Su) At 3rd level, an asavir gains an aura of courage like that of a 3rd-level paladin. Flank Breaker (Ex) At 3rd level, if an asavir successfully damages a foe that is flanking an ally, she can attempt a special combat maneuver check against the target’s CMD as a swift action. If she succeeds, that foe is unable to flank with any creature for 1 round. Controlled Charge (Ex) At 4th level, an asavir learns to attack with greater accuracy from the back of a charging mount. She gains a +4 bonus on melee attacks on a charge while mounted (instead of the normal +2) and does not take a penalty to her AC after making a charge attack while mounted. Djinni’s Blessing (Su) When an asavir reaches 4th level, her mount receives the blessing of the djinn, making it swift and tireless. The mount’s speed increases by 10 feet, it doesn’t take movement penalties from wearing barding, and it can carry a second rider without penalties. When the asavir reaches 8th level, her mount’s speed increases by an additional 10 feet. Marid’s Blessing (Su) At 6th level, an asavir’s mount receives the blessing of the marids, making it an agile partner with a flowing pace. Anyone riding the mount does not need to attempt concentration checks normally required because of the mount’s movement. The mount gains a +2 racial bonus on Reflex saves. Trampling Gallop (Ex) At 6th level, an asavir’s mount gains the trample universal monster ability, but only when commanded by the asavir as a full-round action. Damage dealt by the trample is equal to that of the horse’s hoof attack plus 1-1/2 times its Strength modifier. All Eyes on Me (Su) At 7th level, three times per day as a swift action, an asavir can call out a challenge. Each opponent within 30 feet must succeed at a Will save (DC = 10 + the asavir’s character level + the asavir’s Charisma bonus) or be distracted by the display until the beginning of the asavir’s next turn. Any creature that fails is considered to be flat-footed and takes a -2 penalty to AC against attacks from the asavir’s allies. This is a mind-affecting, visual effect. Efreeti’s Blessing (Su) When an asavir reaches 8th level, her mount receives the blessing of the efreet, gaining fire resistance 5. It also deals an additional 1d6 points of fire damage with its hoof attacks. Inspiring Leader (Su) At 9th level, an asavir can call out encouragement to her allies as a move action, bolstering their courage. Allies within 60 feet of the asavir who can hear her receive a morale bonus equal to the asavir’s Charisma bonus on attack and damage rolls with weapons for 1 round. An asavir can use this ability three times per day. This is a mind-affecting, language-dependent effect. Janni’s Blessing (Su) At 10th level, when an asavir rolls a d20 to resolve an attack, saving throw, or skill check, she can roll twice and choose the better result. The asavir can use this ability once per day for herself and once per day for her mount. Both the asavir and her mount gain a +1 luck bonus on all saving throws."
+    }
+  }
+}

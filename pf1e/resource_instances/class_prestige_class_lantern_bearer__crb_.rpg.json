@@ -1,0 +1,118 @@
+{
+  "resource_id": "class",
+  "stats": {
+    "id": "prestige_class_lantern_bearer__crb_",
+    "name": {
+      "value": "Lantern Bearer"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "description": {
+      "value": "### Prestige Class\nLantern Bearer\n\n### Hit Die\nd8.\n\n### Skill Ranks per Level\n2 + Int modifier.\n\nEntered via multiclass at level-up once prerequisites are met. Full requirements and per-level features are in the Lore section."
+    },
+    "hit_die": {
+      "value": "d8"
+    },
+    "class_hp_per_level": {
+      "value": 8
+    },
+    "skill_ranks_per_level": {
+      "value": 2
+    },
+    "skill_ranks_ability": {
+      "value": "intelligence"
+    },
+    "bab_progression": {
+      "value": "three_quarters"
+    },
+    "fortitude_progression": {
+      "value": "poor"
+    },
+    "reflex_progression": {
+      "value": "poor"
+    },
+    "will_progression": {
+      "value": "good"
+    },
+    "class_skills": {
+      "value": []
+    },
+    "starting_wealth": {
+      "value": ""
+    },
+    "alignment_restriction": {
+      "value": "any"
+    },
+    "weapon_proficiencies": {
+      "value": [
+        "simple"
+      ]
+    },
+    "armor_proficiencies": {
+      "value": []
+    },
+    "shield_proficiencies": {
+      "value": []
+    },
+    "class_features": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "prestige_class_lantern_bearer_prestige_features",
+            "name": {
+              "value": "Class Features"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1+: See the folded Lore section for this prestige class's full per-level feature progression (scraped from d20pfsrd)."
+            },
+            "feature_category": {
+              "value": "base"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "is_prestige": {
+      "value": true
+    },
+    "spell_progression_inherits": {
+      "value": ""
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "resource_id": "class_prerequisite",
+          "stats": {
+            "id": "prq",
+            "kind": {
+              "value": "text"
+            },
+            "param": {
+              "value": ""
+            },
+            "threshold": {
+              "value": 0
+            },
+            "text_value": {
+              "value": ""
+            },
+            "display": {
+              "value": "See the Requirements in this class's Lore section (GM/player attested — not auto-checked)."
+            }
+          }
+        }
+      ]
+    },
+    "lore": {
+      "value": "Requirements Class Skills Class Features Lantern Arcana (Sp) Luminous Potency (Su) Bitter Armament (Su) Favored Enemy (Ex) Superior Discernment (Ex) Unbounded Stride (Su) Proven Weapon Familiarity (Ex) Celestial Weaponry (Su) Fade from Sight (Su) Gatewalk (Su) Bringer of Brightness (Sp) Hit Die: d10. Requirements To qualify to become a Lantern Bearer, a character must fulfill the following criteria. Alignment: Any good. Base Attack Bonus: +5. Skills: Knowledge (dungeoneering) 5 ranks, Knowledge (nature) 2 ranks, Survival 5 ranks. Weapon Proficiency: Must be proficient with the longbow (or composite longbow ) and one martial melee weapon. Class Skills The Lantern Bearer’s class skills (and the key ability for each skill) are Heal ( Wis ), Knowledge (dungeoneering) ( Int ), Knowledge (nature) ( Int ), Knowledge (planes) ( Int ), Perception ( Wis ), Stealth ( Dex ), and Survival ( Wis ). Skill Ranks at Each Level: 4 + Int modifier. Table: Lantern Bearer Level Base Attack Bonus Fort Save Ref Save Will Save Special 1st +1 +1 +1 +0 Lantern arcana, luminous potency 2nd +2 +1 +1 +1 1st favored enemy, bitter armament 3rd +3 +2 +2 +1 Lantern arcana, superior discernment 4th +4 +2 +2 +1 Unbounded stride 5th +5 +3 +3 +2 Lantern arcana, proven weapon familiarity 6th +6 +3 +3 +2 Celestial weaponry 7th +7 +4 +4 +2 Fade from sight, lantern arcana 8th +8 +4 +4 +3 2nd favored enemy 9th +9 +5 +5 +3 Gatewalk 10th +10 +5 +5 +3 Bringer of brightness Class Features The following are class features of the Lantern Bearer prestige class. Lantern Arcana (Sp) A Lantern Bearer gains a series of spell-like abilities. The Lantern Bearer’s caster level for these effects is equal to her character level, and the save DC is equal to 10 + the spell’s level + her Intelligence modifier. To use a spell-like ability, she must have an Intelligence score equal to at least 10 + the spell-like ability’s spell level. A Lantern Bearer gains additional abilities as she advances in level. When she initially gains access to a set of spell-like abilities of 1st or higher level, she can use each spell-like ability once per day. For every 2 class levels after she gains a specific set of spell-like abilities, she gains an additional use per day of each ability in that set. (For example, a 3rd-level Lantern Bearer can use darkvision, delay poison, and see invisibility each once per day, and faerie fire, pass without trace, and protection from evil each twice per day.) At Will: Dancing lights, light, and spark. 1st Level: Faerie fire, pass without trace, and protection from evil. 3rd Level: Darkvision (self only), delay poison (self only), and see invisibility. 5th Level: Continual flame (3rd-level spell, lasts up to 10 minutes per level; a Lantern Bearer within 20 feet of a continual flame she created using this ability can extinguish it to cast searing light ), dispel magic, and magic circle against evil (self only). 7th Level: Heightened daylight ( heightened to a 4th-level spell), dimensional anchor, and freedom of movement (self only). Luminous Potency (Su) When casting spells from other classes or using lantern arcana spell-like abilities, a Lantern Bearer gains an additional bonus equal to her Lantern Bearer class level on caster level checks for the purpose of overcoming spell resistance. Bitter Armament (Su) At 2nd level, metal weapons wielded by a Lantern Bearer are treated as cold iron for the purpose of overcoming damage reduction (in addition to the weapons’ other special material properties). These weapons, including fired ammunition, retain this property for 1 round after leaving the Lantern Bearer’s grasp. Favored Enemy (Ex) At 2nd level, a Lantern Bearer selects a creature type from the following: aberration, animal, fey, humanoid ( elf ), outsider (evil), and plant. This ability functions like the ranger class ability of the same name, and Lantern Bearer levels stack with other class levels that grant the favored enemy ability. At 8th level, the Lantern Bearer can select an additional favored enemy from this list. In addition, the bonus against any one favored enemy from this list (including the one just selected, if so desired) increases by 2. Superior Discernment (Ex) At 3rd level, a Lantern Bearer gains one of the following as a bonus feat, even if she does not meet the prerequisites: Eagle Eyes, Elven Accuracy, or Sharp Senses. Unbounded Stride (Su) At 4th level, as a swift action, a Lantern Bearer can make herself immune to effects that would impede her movement, such as overgrown foliage, solid fog, webs, or other magical area effects that impair movement or confer the entangled condition. This ability is similar in effect to a druid’s woodland stride ability, but its benefits extend to magical effects as well. She takes no damage from moving through spiky vegetation, briars, or even a wall of thorns, but harmful gases and other detrimental effects, such as fire damage from an incendiary cloud, still affect her as normal. A Lantern Bearer can use this ability for a number of rounds per day equal to her class level; these rounds need not be consecutive. Proven Weapon Familiarity (Ex) At 5th level, a Lantern Bearer gains a +1 bonus on attack and damage rolls with composite longbows, composite shortbows, longbows, longswords, rapiers, shortbows, short swords, and any weapon with -elven- in its name. Celestial Weaponry (Su) At 6th level, a Lantern Bearer’s attacks are treated as good-aligned for the purpose of overcoming damage reduction. Fade from Sight (Su) At 7th level, a Lantern Bearer can use the Stealth skill without having anything to hide behind, and even while being observed. Activating this ability is a swift action in addition to the action required to hide. A Lantern Bearer can use this ability for a number of rounds per day equal to her class level; these rounds need not be consecutive. Gatewalk (Su) At 9th level, once per day as a full-round action, a Lantern Bearer can teleport herself to an elf gate that she has studied carefully (as per the spell teleport ). This functions as word of recall, but the Lantern Bearer can transport only herself plus 50 pounds of objects. In addition, a Lantern Bearer can magically slip between the spaces in reality twice per day as a swift action, as if using dimension door. This ability has a range of 50 feet, and the Lantern Bearer cannot take other creatures with her. Bringer of Brightness (Sp) At 10th level, once per day a Lantern Bearer can engulf herself in a brilliant radiance. This functions as a holy aura spell targeting only the Lantern Bearer, and uses the same formula for caster level and save DC as her lantern arcana."
+    }
+  }
+}
