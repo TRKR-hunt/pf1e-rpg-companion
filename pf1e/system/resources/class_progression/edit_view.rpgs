@@ -51,18 +51,24 @@ view class_progression_edit() =
               else -> null,
             },
           ),
-          // B.1.5 Phase 2b — archetype selector. Creation-time only
+          // B.1.5 Phase 2b/2e — archetype selector. Creation-time only
           // (PF1e RAW: archetypes are a level-1 decision, not picked
-          // at level-up). Multi-select; selectResources can't
-          // predicate-filter by parent class (gotcha #17), so all
-          // archetypes are listed and the validation blocks any whose
-          // parent_class_id != the picked class, plus any
-          // replaces[]-overlap (PF1e stacking rule). Optional — most
-          // characters take no archetype.
+          // at level-up). Multi-select.
+          // Phase 2e (gotcha #19): selectResources `filters` values are
+          // StatFormulaComponents per dev_tool_schema, so the picker CAN
+          // be dynamically scoped to the live-picked class — supersedes
+          // the Phase 2b/2c/2d premise (gotcha #17/#18) that it could
+          // only list-all + block. Filter parent_class_id to the class
+          // selected in the sibling class picker ($view, gotcha #13/14).
+          // The validation_message stays as a defense-in-depth backstop.
           selectResources(
             id = "class_progression_edit_archetype_select",
             stat = "selected_archetypes",
             resource_id = "class_archetype",
+            filters = dict(
+              parent_class_id =
+                $view?.class_progression_edit_class_select?.id ?? "",
+            ),
             should_append = true,
             should_save_on_selection = true,
             margin_top = 4,
