@@ -1,0 +1,88 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_acrobat__crb_",
+    "name": {
+      "value": "Acrobat"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_trap_sense_1",
+        "rogue_trapfinding"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ac_expert_acrobat",
+            "name": {
+              "value": "Expert Acrobatics"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: no armor-check penalty on Acrobatics/Climb/Fly in light armor."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ac_second_chance",
+            "name": {
+              "value": "Second Chance"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: reroll a failed Acrobatics 1/day (scaling)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ac_acrobatic_master",
+            "name": {
+              "value": "Acrobatic Master"
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: take 10/20 on Acrobatics under threat (scaling)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Agility and daring are both excellent rogue traits, and their confluence can create spectacular feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues. Expert Acrobat ( Ex ) At 1st level, an acrobat does not suffer any armor check penalties on Acrobatics, Climb, Fly, Sleight of Hand, or Stealth skill checks while wearing light armor. When she is not wearing armor, she gains a +2 competency bonus on Acrobatics and Fly skill checks. This ability replaces trapfinding. Second Chance ( Ex ) At 3rd level, an acrobat can reroll any Acrobatics, Climb, or Fly skill check she has just made. This reroll is made at a â5 penalty. She must take the second result, even if it is worse. An acrobat can use this ability only once on any given skill check. She can use this ability once per day at 3rd level, plus one additional time per day for every 3 levels beyond 3rd. This ability replaces trap sense. Rogue Talents: The following rogue talents complement the acrobat archetype: expert leaper, ledge walker*, nimble climber, peerless maneuver, rogue crawl*, and stand up*. Advanced Talents: The following advanced rogue talents complement the acrobat archetype: defensive roll*, fast getaway, fast tumble, and improved evasion*."
+    }
+  }
+}

@@ -12,6 +12,60 @@ calc resource<class> class_effective(name = "Class (effective)") =
 calc integer class_level_effective(name = "Class level (effective)") =
   $view?.class_progression_edit_class_level? ?? class_level;
 
+// B.1.5 Phase 2b — archetypes. selected_archetypes is the committed
+// list; selected_archetypes_effective reads the live creator selector
+// $view (gotcha #13) ?-guarded (gotcha #14) with committed fallback.
+base resource<class_archetype>[] selected_archetypes(name = "Selected archetypes") = [];
+
+calc resource<class_archetype>[] selected_archetypes_effective(name = "Selected archetypes (effective)") =
+  $view?.class_progression_edit_archetype_select? ?? selected_archetypes;
+
+// Union of every parent-feature id the selected archetypes remove.
+calc string[] archetype_replaced_ids(name = "Archetype-replaced feature ids") =
+  flatMap(selected_archetypes_effective, mapper = ($a) => ($a.replaces ?? []));
+
+// Resolved feature list: parent features whose id is NOT replaced,
+// plus every archetype's added features.
+calc resource<class_feature>[] effective_class_features(name = "Effective class features") =
+  flatAppend([
+    filter(
+      (class_effective?.class_features ?? []),
+      filter = ($f) => !contains(haystack = archetype_replaced_ids, needle = $f.id),
+    ),
+    flatMap(selected_archetypes_effective, mapper = ($a) => ($a.adds ?? [])),
+  ]);
+
+calc string archetype_names_display(name = "Archetype names (display)") =
+  joinToString(
+    map(selected_archetypes_effective, mapper = ($a) => $a.name),
+    separator = ", ",
+  );
+
+// PF1e RAW: two archetypes stack only if their replaces[] are
+// disjoint. Non-empty = a feature id replaced by >1 selected archetype.
+calc string archetype_overlap_error(name = "Archetype overlap error") =
+  joinToString(
+    filter(
+      archetype_replaced_ids,
+      filter = ($fid) => (length(filter(archetype_replaced_ids, filter = ($x) => ($x == $fid))) > 1),
+    ),
+    separator = ", ",
+  );
+
+// Parent-class mismatch guard: any selected archetype whose
+// parent_class_id != the picked class id is illegal.
+calc string archetype_parent_mismatch(name = "Archetype parent mismatch") =
+  joinToString(
+    map(
+      filter(
+        selected_archetypes_effective,
+        filter = ($a) => (($a.parent_class_id ?? "") != (class_effective?.id ?? "")),
+      ),
+      mapper = ($a) => $a.name,
+    ),
+    separator = ", ",
+  );
+
 base resource<prepared_spell_choice>[] prepared_spell_choices_rank_0(name = "Prepared cantrips") =
   [];
 

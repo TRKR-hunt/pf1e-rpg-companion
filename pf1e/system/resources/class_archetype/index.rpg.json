@@ -1,0 +1,27 @@
+{
+  "id": "class_archetype",
+  "name": "Archetype",
+  "plural": "Archetypes",
+  "core": true,
+  "color": "#8E24AA",
+  "indexed_stats": [
+    "name",
+    "source",
+    "parent_class_id",
+    "is_lore_only"
+  ],
+  "search_filters": [
+    {
+      "name": "Source",
+      "stat": "source",
+      "options": "source",
+      "options_display_stat": "abbreviation"
+    }
+  ],
+  "sort_options": [
+    {
+      "name": "alphabetically",
+      "stat": "name"
+    }
+  ]
+}

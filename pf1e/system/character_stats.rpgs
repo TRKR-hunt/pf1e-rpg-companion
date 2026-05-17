@@ -56,7 +56,11 @@ calc string description(name = "Description") =
       else concat([
         " ",
         joinToString(
-          map(classes, mapper = ($c) => concat([($c.class_effective?.name ?? ""), " ", $c.class_level_effective])),
+          map(classes, mapper = ($c) => concat([
+            ($c.class_effective?.name ?? ""),
+            (if isEmpty($c.archetype_names_display ?? "") then ""
+             else concat([" (", $c.archetype_names_display, ")"])),
+            " ", $c.class_level_effective])),
           separator = " / ",
         ),
       ])),

@@ -51,6 +51,36 @@ view class_progression_edit() =
               else -> null,
             },
           ),
+          // B.1.5 Phase 2b — archetype selector. Creation-time only
+          // (PF1e RAW: archetypes are a level-1 decision, not picked
+          // at level-up). Multi-select; selectResources can't
+          // predicate-filter by parent class (gotcha #17), so all
+          // archetypes are listed and the validation blocks any whose
+          // parent_class_id != the picked class, plus any
+          // replaces[]-overlap (PF1e stacking rule). Optional — most
+          // characters take no archetype.
+          selectResources(
+            id = "class_progression_edit_archetype_select",
+            stat = "selected_archetypes",
+            resource_id = "class_archetype",
+            should_append = true,
+            should_save_on_selection = true,
+            margin_top = 4,
+            is_visible = defined(stat = "$character.$is_new")
+              && notNull($view?.class_progression_edit_class_select?),
+            validation_message = when {
+              !isEmpty(archetype_parent_mismatch) -> concat([
+                "These archetypes don't belong to the chosen class: ",
+                archetype_parent_mismatch, ". Remove them.",
+              ]),
+              !isEmpty(archetype_overlap_error) -> concat([
+                "Archetype conflict — two selected archetypes both alter: ",
+                archetype_overlap_error,
+                ". PF1e: archetypes can't both replace the same feature. Remove one.",
+              ]),
+              else -> null,
+            },
+          ),
           popUpButton(
             id = "class_progression_edit_see_deity_button",
             text = "SEE DEITY",

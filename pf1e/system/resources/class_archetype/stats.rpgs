@@ -1,0 +1,33 @@
+// B.1.5 Phase 2b — mechanical class archetype. Distinct from the
+// lore-only `archetype` type (which stays browsable prose). A
+// class_archetype REPLACES some of its parent class's structured
+// class_feature ids (Phase 2a) and ADDS new inline class_feature
+// objects (gotcha #16 — inline, zero extra instances).
+
+base string name(name = "Name") = "";
+
+base string source(name = "Source") = "";
+
+// Stable id of the parent base/prestige class (e.g. "fighter__crb_").
+base string parent_class_id(name = "Parent class id") = "";
+
+base string parent_class_name(name = "Parent class name") = "";
+
+// Phase-2a class_feature ids on the parent this archetype removes.
+// MUST reference real ids (verified at generation).
+base string[] replaces(name = "Replaces (feature ids)") = [];
+
+// New features the archetype grants (inline class_feature objects).
+base resource<class_feature>[] adds(name = "Adds (features)") = [];
+
+// Optional entry requirements (reuses B.1.7's class_prerequisite).
+base resource<class_prerequisite>[] prerequisites(name = "Prerequisites") = [];
+
+base bool is_lore_only(name = "Lore only") = false;
+base string lore(name = "Lore") = "";
+
+calc string[] adds_display(name = "Adds (display)") =
+  map(adds, mapper = ($f) => $f.description);
+
+calc string display_subtitle(name = "Display subtitle") =
+  concat([parent_class_name, " archetype"]);

@@ -1,0 +1,29 @@
+view class_archetype_display() =
+  list(
+    id = "class_archetype_display",
+    padding = 16,
+    subviews = [
+      text(id = "class_archetype_display_name", text = name, style = "title", bold = true),
+      text(id = "class_archetype_display_sub", text = display_subtitle, style = "caption", margin_bottom = 8),
+      text(
+        id = "class_archetype_display_replaces",
+        text = concat(["Alters/replaces: ", joinToString(replaces, separator = ", ")]),
+        style = "caption",
+        is_visible = !isEmpty(replaces),
+      ),
+      text(
+        id = "class_archetype_display_adds",
+        text = concat(["Adds: ", joinToString(adds_display, separator = "; ")]),
+        style = "text",
+        margin_top = 4,
+        is_visible = !isEmpty(adds),
+      ),
+      text(
+        id = "class_archetype_display_lore",
+        text = lore,
+        style = "text",
+        margin_top = 8,
+        is_visible = !isEmpty(lore),
+      ),
+    ],
+  );

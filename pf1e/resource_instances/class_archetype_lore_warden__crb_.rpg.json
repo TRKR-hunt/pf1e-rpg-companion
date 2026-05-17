@@ -1,0 +1,118 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_lore_warden__crb_",
+    "name": {
+      "value": "Lore Warden"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_armor_mastery",
+        "fighter_armor_training_1",
+        "fighter_armor_training_2",
+        "fighter_armor_training_3",
+        "fighter_armor_training_4",
+        "fighter_bravery_1",
+        "fighter_bravery_2",
+        "fighter_bravery_3",
+        "fighter_bravery_4",
+        "fighter_bravery_5",
+        "fighter_weapon_training_1",
+        "fighter_weapon_training_2",
+        "fighter_weapon_training_3",
+        "fighter_weapon_training_4"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "lw_scholastic",
+            "name": {
+              "value": "Scholastic"
+            },
+            "level": {
+              "value": 1
+            },
+            "description": {
+              "value": "L1: Scholastic — +2 Knowledge(any 2) & they're class skills; 4+Int skills."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "lw_combat_expertise",
+            "name": {
+              "value": "Combat Expertise (bonus)"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Bonus Combat Expertise + lore of the world."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "lw_maneuver_mastery",
+            "name": {
+              "value": "Maneuver Mastery"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Maneuver Mastery — +1/4 lvl CMB (scaling), bonus maneuver feats."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "lw_know_thy_enemy",
+            "name": {
+              "value": "Know Thy Enemy"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Know Thy Enemy — Knowledge check grants atk/dmg vs a foe type."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": ""
+    }
+  }
+}

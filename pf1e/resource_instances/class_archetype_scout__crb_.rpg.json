@@ -1,0 +1,70 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_scout__crb_",
+    "name": {
+      "value": "Scout"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "rogue__crb_"
+    },
+    "parent_class_name": {
+      "value": "Rogue"
+    },
+    "replaces": {
+      "value": [
+        "rogue_improved_uncanny_dodge",
+        "rogue_uncanny_dodge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sc_scouts_charge",
+            "name": {
+              "value": "Scout's Charge"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: a charge attack deals sneak attack damage."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "sc_skirmisher",
+            "name": {
+              "value": "Skirmisher"
+            },
+            "level": {
+              "value": 8
+            },
+            "description": {
+              "value": "L8: move 10+ ft then a melee attack deals sneak attack damage."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Not all rogues live in the city. Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior. More comfortable with sneaking and hiding outdoors, the scout is still effective in the city and the dungeon. Scoutâs Charge ( Ex ) At 4th level, whenever a scout makes a charge, her attack deals sneak attack damage as if the target were flat-footed. Foes with uncanny dodge are immune to this ability. This ability replaces uncanny dodge. Skirmisher ( Ex ) At 8th level, whenever a scout moves more than 10 feet in a round and makes an attack action, the attack deals sneak attack damage as if the target was flat-footed. If the scout makes more than one attack this turn, this ability only applies to the first attack. Foes with uncanny dodge are immune to this ability. This ability replaces improved uncanny dodge. Rogue Talents: The following rogue talents complement the scout archetype: assault leader, camouflage, cunning trigger, survivalist, and trap spotter*. Advanced Talents: The following advanced rogue talents complement the scout archetype: hunterâs surprise, skill mastery*, and stealthy sniper."
+    }
+  }
+}

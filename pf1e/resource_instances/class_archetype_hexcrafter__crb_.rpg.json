@@ -1,0 +1,69 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_hexcrafter__crb_",
+    "name": {
+      "value": "Hexcrafter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "magus__crb_"
+    },
+    "parent_class_name": {
+      "value": "Magus"
+    },
+    "replaces": {
+      "value": [
+        "magus_magus_arcana_every_3_levels"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hx_hex_magus",
+            "name": {
+              "value": "Hex Magus"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: spend magus arcana picks on witch hexes/major/grand hexes."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "hx_hex_strike",
+            "name": {
+              "value": "Hex Strike"
+            },
+            "level": {
+              "value": 4
+            },
+            "description": {
+              "value": "L4: deliver a touch hex through spellstrike."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "A hexcrafter magus has uncovered the secret of using his arcane pool to recreate witch hexes. These magi can hex friend and foe, curse those they strike, and expand their spell selection to include many curses and harmful spells. Hex Magus (Su) At 4th level, the hexcrafter magus gains access to a small number of witch’s hexes. The hexcrafter magus picks one hex from the witch’s hex class feature. He gains the benefit of or uses that hex as if he were a witch of a level equal to his magus level. This feature replaces spell recall. Hex Arcana A hexcrafter gains access to the following magus arcana, or may select any witch hex in place of a magus arcana. At 12th level, the hexcrafter may select a hex or major hex in place of a magus arcana. At 18th level, a hexcrafter can select a hex, major hex, or grand hex in place of a magus arcana. He cannot select any hex or arcana more than once. Accursed Strike (Sp) A hexcrafter magus who can cast bestow curse, major curse, or any spell with the curse descriptor can deliver these prepared spells using the spellstrike ability, even if the spells are not touch attack spells. Spells A hexcrafter magus adds the following spells to his magus spell list: bestow curse, major curse, and all other spells of 6th level or lower that have the curse descriptor. Magus Arcana The following magus arcana complement the hexcrafter archetype: arcane accuracy, broad study, familiar, and quicken magic."
+    }
+  }
+}

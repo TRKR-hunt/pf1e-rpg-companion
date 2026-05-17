@@ -1,0 +1,79 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_invulnerable_rager__crb_",
+    "name": {
+      "value": "Invulnerable Rager"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "barbarian__crb_"
+    },
+    "parent_class_name": {
+      "value": "Barbarian"
+    },
+    "replaces": {
+      "value": [
+        "barbarian_damage_reduction_1",
+        "barbarian_damage_reduction_2",
+        "barbarian_damage_reduction_3",
+        "barbarian_damage_reduction_4",
+        "barbarian_damage_reduction_5",
+        "barbarian_trap_sense_1",
+        "barbarian_trap_sense_2",
+        "barbarian_trap_sense_3",
+        "barbarian_trap_sense_4",
+        "barbarian_trap_sense_5",
+        "barbarian_trap_sense_6"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ir_invulnerability",
+            "name": {
+              "value": "Invulnerability"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: DR/— equal to 1/2 level (doubled vs nonlethal)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "ir_extreme_endurance",
+            "name": {
+              "value": "Extreme Endurance"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: inured to hot/cold + energy resistance scaling."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Invulnerability (Ex) Extreme Endurance (Ex) Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease. These barbarians invite their enemies to attack them, and use pain to fuel their rage. An invulnerable rager has the following class features. Invulnerability (Ex) At 2nd level, the invulnerable rager gains DR/â equal to half her barbarian level. This damage reduction is doubled against nonlethal damage. This ability replaces uncanny dodge, improved uncanny dodge, and damage reduction. Extreme Endurance (Ex) At 3rd level, the invulnerable rager is inured to either hot or cold climate effects (choose one) as if using endure elements. In addition, the barbarian gains 1 point of fire or cold resistance for every three levels beyond 3rd. This ability replaces trap sense. Rage Powers: The following rage powers complement the invulnerable rager archetype: come and get me, guarded life, increased damage reduction*, inspire ferocity, reckless abandon, and renewed vigor*."
+    }
+  }
+}

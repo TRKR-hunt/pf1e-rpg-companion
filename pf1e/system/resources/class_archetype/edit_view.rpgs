@@ -1,0 +1,14 @@
+view class_archetype_edit() =
+  composite(
+    id = "class_archetype_edit",
+    row_only = true,
+    subviews = [
+      text(
+        id = "class_archetype_edit_name",
+        edit_stat = "name",
+        style = "text",
+        hint = "Archetype",
+        max_length = 80,
+      ),
+    ],
+  );

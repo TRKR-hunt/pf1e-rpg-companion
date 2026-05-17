@@ -1,0 +1,148 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_two_handed_fighter__crb_",
+    "name": {
+      "value": "Two-Handed Fighter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_armor_mastery",
+        "fighter_armor_training_2",
+        "fighter_armor_training_3",
+        "fighter_armor_training_4",
+        "fighter_weapon_training_1",
+        "fighter_weapon_training_2",
+        "fighter_weapon_training_3",
+        "fighter_weapon_training_4"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "tf_shattering_strike",
+            "name": {
+              "value": "Shattering Strike"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: Shattering Strike — +1 CMB/CMD vs sunder & to damage objects (scaling)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "tf_overhand_chop",
+            "name": {
+              "value": "Overhand Chop"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: Overhand Chop — single two-handed attack adds 2x Str."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "tf_backswing",
+            "name": {
+              "value": "Backswing"
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Backswing — on a full attack, extra attacks add 2x Str."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "tf_piledriver",
+            "name": {
+              "value": "Piledriver"
+            },
+            "level": {
+              "value": 11
+            },
+            "description": {
+              "value": "L11: Piledriver — two-handed hit can free bull rush/trip."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "tf_greater_power_attack",
+            "name": {
+              "value": "Greater Power Attack"
+            },
+            "level": {
+              "value": 15
+            },
+            "description": {
+              "value": "L15: Greater Power Attack — Power Attack two-handed damage x1.5."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "tf_devastating_blow",
+            "name": {
+              "value": "Devastating Blow"
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: Devastating Blow — standard action two-handed attack at threat-range x2."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Shattering Strike (Ex) Overhand Chop (Ex) Weapon Training (Ex) Backswing (Ex) Piledriver (Ex) Greater Power Attack (Ex) Devastating Blow (Ex) Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact. These fighting school benefits only apply when using two-handed weapons. Shattering Strike ( Ex ) At 2nd level, a two-handed fighter gains a +1 bonus to CMB and CMD on sunder attempts and on damage rolls made against objects. These bonuses increase by +1 for every four levels beyond 2nd. This ability replaces Bravery. Overhand Chop ( Ex ) At 3rd level, when a two-handed fighter makes a single attack (with the attack action or a charge ) with a two-handed weapon, he adds double his Strength bonus on damage rolls. This ability replaces Armor Training 1. Weapon Training ( Ex ) As the fighter class feature, but the bonuses only apply when wielding two-handed melee weapons. This ability replaces Weapon Training 1, 2, 3 and 4. Backswing ( Ex ) At 7th level, when a two-handed fighter makes a full-attack with a two-handed weapon, he adds double his Strength bonus on damage rolls for all attacks after the first. This ability replaces Armor Training 2. Piledriver ( Ex ) At 11th level, as a standard action, a two-handed fighter can make a single melee attack with a two-handed weapon. If the attack hits, he may make a bull rush or trip combat maneuver against the target of his attack as a free action that does not provoke an attack of opportunity. This ability replaces Armor Training 3. Greater Power Attack ( Ex ) At 15th level, when using Power Attack with a two-handed melee weapon, the bonus damage from Power Attack is doubled (+100%) instead of increased by half (+50%). This ability replaces Armor Training 4. Devastating Blow ( Ex ) At 19th level, as a standard action, a two-handed fighter may make a single melee attack with a two-handed weapon at a â5 penalty. If the attack hits, it is treated as a critical threat. Special weapon abilities that activate only on a critical hit do not activate if this critical hit is confirmed. This ability replaces Armor Mastery."
+    }
+  }
+}

@@ -1,0 +1,2 @@
+view class_archetype_list() =
+  listItem(id = "class_archetype_list", title = name, subtitle = display_subtitle);

@@ -1,0 +1,132 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_mobile_fighter__crb_",
+    "name": {
+      "value": "Mobile Fighter"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "fighter__crb_"
+    },
+    "parent_class_name": {
+      "value": "Fighter"
+    },
+    "replaces": {
+      "value": [
+        "fighter_armor_mastery",
+        "fighter_armor_training_1",
+        "fighter_armor_training_2",
+        "fighter_armor_training_3",
+        "fighter_armor_training_4",
+        "fighter_weapon_mastery",
+        "fighter_weapon_training_1",
+        "fighter_weapon_training_2",
+        "fighter_weapon_training_3",
+        "fighter_weapon_training_4"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mf_fast_movement",
+            "name": {
+              "value": "Fast Movement"
+            },
+            "level": {
+              "value": 2
+            },
+            "description": {
+              "value": "L2: +5 ft speed (scaling)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mf_agility",
+            "name": {
+              "value": "Agility"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: +1/4 lvl vs movement-impairing & Acrobatics."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mf_leaping_attack",
+            "name": {
+              "value": "Leaping Attack"
+            },
+            "level": {
+              "value": 5
+            },
+            "description": {
+              "value": "L5: Leaping Attack — move + attack for +1/4 lvl atk/dmg."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mf_rapid_attack",
+            "name": {
+              "value": "Rapid Attack"
+            },
+            "level": {
+              "value": 7
+            },
+            "description": {
+              "value": "L7: Rapid Attack — move + a single extra full-BAB attack."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "mf_fleet_footed",
+            "name": {
+              "value": "Fleet-Footed"
+            },
+            "level": {
+              "value": 19
+            },
+            "description": {
+              "value": "L19: always act in surprise; Run/Fleet as bonus feats."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Agility (Ex) Leaping Attack (Ex) Rapid Attack (Ex) Fleet Footed (Ex) Whirlwind Blitz (Ex) Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake. Agility (Ex) At 2nd level, a mobile fighter gains a +1 bonus on saving throws made against effects that cause him to become paralyzed, slowed, or entangled. This bonus increases by +1 for every four levels beyond 2nd. This ability replaces bravery. Leaping Attack (Ex) At 5th level, when a mobile fighter moves at least 5 feet prior to attacking, he gains a +1 bonus on attack and damage rolls. This bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1, 2, 3, and 4. Rapid Attack (Ex) At 11th level, a mobile fighter can combine a full-attack action with a single move. He must forgo the attack at his highest bonus but may take the remaining attacks at any point during his movement. This movement provokes attacks of opportunity as normal. This ability replaces armor training 3. Fleet Footed ( Ex ) At 15th level, the mobile fighterâs speed increases by 10 feet. He can take 10 on Acrobatics checks even while distracted or threatened, and can take 20 on an Acrobatics check once per day for every five fighter levels he possesses. This ability replaces armor training 4. Whirlwind Blitz (Ex) At 20th level, a mobile fighter can make a full-attack action as a standard action. He may also use the Whirlwind Attack feat as a standard action. This ability replaces weapon mastery."
+    }
+  }
+}

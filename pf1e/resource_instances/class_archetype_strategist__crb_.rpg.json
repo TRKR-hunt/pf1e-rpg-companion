@@ -1,0 +1,71 @@
+{
+  "resource_id": "class_archetype",
+  "stats": {
+    "id": "arch_strategist__crb_",
+    "name": {
+      "value": "Strategist"
+    },
+    "source": {
+      "value": "crb"
+    },
+    "parent_class_id": {
+      "value": "cavalier__crb_"
+    },
+    "parent_class_name": {
+      "value": "Cavalier"
+    },
+    "replaces": {
+      "value": [
+        "cavalier_cavalier_s_charge",
+        "cavalier_mighty_charge",
+        "cavalier_supreme_charge"
+      ]
+    },
+    "adds": {
+      "value": [
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "st_strategy",
+            "name": {
+              "value": "Strategy"
+            },
+            "level": {
+              "value": 3
+            },
+            "description": {
+              "value": "L3: grant allies a move-action tactical bonus (atk/AC/move)."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        },
+        {
+          "resource_id": "class_feature",
+          "stats": {
+            "id": "st_crl",
+            "name": {
+              "value": "Coordinated Maneuvers"
+            },
+            "level": {
+              "value": 9
+            },
+            "description": {
+              "value": "L9: tactician grants teamwork & coordinated combat maneuvers."
+            },
+            "feature_category": {
+              "value": "archetype"
+            }
+          }
+        }
+      ]
+    },
+    "is_lore_only": {
+      "value": false
+    },
+    "lore": {
+      "value": "Tactician (Ex) Drill Instructor (Ex) Tactical Advantage (Ex) Strategic Supremacy (Ex) Some cavaliers make a lifelong mission out of their exceptional ability to direct troops on the battlefield, combining tactical insight with a preternatural skill at improving the teamwork of their allies in order to win the day. Such strategists are masters at learning the strengths and weaknesses of those they fight alongside, and at employing those observations at the most opportune moments. The best of them are also skilled at determining the strengths and weaknesses of their enemies, as well as at countering some of those strengths with their own formidable abilities. Tactician (Ex) As the cavalier class feature, except that a strategist can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every four levels thereafter (to a maximum of five times per day at 17th level). Drill Instructor (Ex) At 4th level, a strategist learns to train his fellow adventurers in the nuances of squad combat. By spending 10 minutes and expending 1 use of his challenge ability, the strategist can grant the use of a teamwork feat that he knows to up to four of his allies, similar to the tactician ability. As with tactician, allies need not meet the prerequisites of the granted feat, but they retain the use of this feat for 10 minutes plus 1 minute for every two levels the cavalier possesses, as long as the cavalier is visible and can be heard by his allies. If the cavalier falls unconscious or cannot be both seen and heard, his allies lose the benefit of the granted feat until the condition is remedied. This ability replaces expert trainer. Tactical Advantage (Ex) At 14th level, whenever a strategist uses his tactician ability to grant the use of a teamwork feat to his allies, he can move up to his speed as a free action either before or after granting the feat. This movement provokes attacks of opportunity normally. This ability replaces greater banner. Strategic Supremacy (Ex) At 18th level, a strategist gains the ability not only to improve his alliesâ abilities, but also to disrupt the teamwork of his enemies. Whenever the strategist uses the tactician ability, he can choose to cancel out the effects of one teamwork feat employed by any of his opponents within 30 feet instead of granting the use of a teamwork feat to his allies. This ability replaces the cavalier’s 18th-level bonus feat."
+    }
+  }
+}
