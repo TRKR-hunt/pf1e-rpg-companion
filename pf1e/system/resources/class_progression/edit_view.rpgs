@@ -60,40 +60,8 @@ view class_progression_edit() =
               else -> null,
             },
           ),
-          // ===== Phase 2g FORENSIC DEBUG (throwaway — remove next
-          // session). These text widgets render in the PAGE context
-          // (class_progression edit). If they show the class id
-          // correctly but the picker below still lists all 957, that
-          // proves the runtime is NOT applying the formula-valued
-          // `filters` (presence in compiled output != honored). =====
-          text(
-            id = "dbg_archetype_view_class_id",
-            text = concat(["DBG view.class_select.id = \"",
-              ($view?.class_progression_edit_class_select?.id ?? "<null>"),
-              "\""]),
-            style = "text", bold = true, margin_top = 8,
-          ),
-          text(
-            id = "dbg_archetype_class_effective_id",
-            text = concat(["DBG class_effective?.id = \"",
-              (class_effective?.id ?? "<null>"), "\""]),
-            style = "text", bold = true,
-          ),
-          text(
-            id = "dbg_archetype_committed_class_id",
-            text = concat(["DBG committed class?.id = \"",
-              (class?.id ?? "<null>"), "\""]),
-            style = "text", bold = true,
-          ),
-          text(
-            id = "dbg_archetype_filter_value",
-            text = concat(["DBG filter parent_class_id value = \"",
-              (class_effective?.id ?? ""),
-              "\" | selected so far: ",
-              length(selected_archetypes)]),
-            style = "text", bold = true, margin_bottom = 8,
-          ),
-          // ===== end Phase 2g debug =====
+          // (Phase 2g forensic debug widgets removed in Phase 2h —
+          // gotcha #21 captured the finding in the playbook.)
           // B.1.5 Phase 2b/2e — archetype selector. Creation-time only
           // (PF1e RAW: archetypes are a level-1 decision, not picked
           // at level-up). Multi-select.
