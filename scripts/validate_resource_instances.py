@@ -320,6 +320,45 @@ def iter_instance_files(instances_root: Path) -> List[Path]:
     return files
 
 
+def check_emit_filename_collisions(
+    instance_files: List[Path], collisions: List[str], repo_root: Path
+) -> None:
+    """gotcha #6: the builder emits one file per resource keyed by
+    (resource_id, slug(name), slug(source)). Two source instances that
+    normalise to the same key silently overwrite each other in the
+    compiled bundle (one is dropped, no error). Fail loudly here so a
+    collision can never ship silently again."""
+    import re as _re
+
+    def _slug(s: str) -> str:
+        return _re.sub(r"_+", "_", _re.sub(r"[^a-z0-9]+", "_",
+                       (s or "").lower())).strip("_")
+
+    seen: Dict[str, str] = {}
+    for path in instance_files:
+        try:
+            d = read_json(path)
+        except Exception:
+            continue
+        rid = d.get("resource_id")
+        if not isinstance(rid, str):
+            continue
+        st = d.get("stats", {}) or {}
+        nm = (st.get("name", {}) or {}).get("value", "")
+        src = (st.get("source", {}) or {}).get("value", "") or ""
+        nslug = _slug(nm)
+        if not nslug:
+            continue  # types not emitted by name slug (e.g. `source`)
+        key = "%s|%s|%s" % (rid, nslug, _slug(src))
+        if key in seen:
+            collisions.append(
+                "%s <-> %s  ['%s']" % (
+                    display_path(Path(seen[key]), repo_root),
+                    display_path(path, repo_root), key))
+        else:
+            seen[key] = str(path)
+
+
 def infer_system_from_path(path: Path, repo_root: Path) -> Optional[str]:
     try:
         rel = path.resolve().relative_to(repo_root.resolve())
@@ -796,6 +835,10 @@ def main() -> int:
     errors: List[str] = []
     instance_files = [Path(args.file)] if args.file else iter_instance_files(instances_root)
 
+    collisions: List[str] = []
+    if not args.file:
+        check_emit_filename_collisions(instance_files, collisions, repo_root)
+
     for path in instance_files:
         try:
             data = read_json(path)
@@ -835,6 +878,18 @@ def main() -> int:
                 rpgs_search_roots, declared, errors, repo_root
             )
 
+    if collisions:
+        print(
+            f"COLLISION WARNINGS (gotcha #6, NON-BLOCKING): {len(collisions)} "
+            f"emit-filename collision pair(s) — one of each is silently "
+            f"dropped at compile. Deferred to a dedicated dedup session "
+            f"(see SESSION_REPORT_VERIFY_AND_FIXES.md).",
+            file=sys.stderr)
+        for c in collisions[:25]:
+            print(f"  ~ {c}", file=sys.stderr)
+        if len(collisions) > 25:
+            print(f"  … +{len(collisions) - 25} more", file=sys.stderr)
+
     if errors:
         print("Validation errors:", file=sys.stderr)
         for err in errors:
@@ -842,7 +897,9 @@ def main() -> int:
         print(f"{len(errors)} error(s) found in {len(instance_files)} file(s).", file=sys.stderr)
         return 1
 
-    print(f"OK: {len(instance_files)} resource instance file(s) validated.")
+    print(f"OK: {len(instance_files)} resource instance file(s) validated."
+          + (f" ({len(collisions)} non-blocking collision warnings)"
+             if collisions else ""))
     return 0
 
 

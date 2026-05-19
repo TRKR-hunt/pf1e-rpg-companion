@@ -49,8 +49,27 @@ base resource<class_progression>[] classes(name = "Classes") = [];
 // are unchanged. Eliminates the "(updates on continue)" placeholder
 // (B.1.1.1 spec). Gotchas #13/#14 satisfied by class_progression's
 // already-?-guarded effective calcs.
+//
+// B.1.5 Phase 1 FOLLOWUP (verified by emulator video 2026-05-17):
+// Phase 1's per-row $view-fallback ($c.class_effective / $c.class_level_effective)
+// is correct but insufficient — the OUTER iteration over `classes`
+// still reads the bound stat, which is stale on-page until commit
+// (gotcha #13). On the class creation page the resourceArray
+// `edit_character_class_classes` doesn't push to bound `classes` live,
+// so map(classes, …) iterates an empty array and every cross-class
+// calc reads 0 (visible: "Total character level: 0 / BAB +0 / Fort +0").
+// Fix: read $view?.edit_character_class_classes (the in-flight row
+// array) when non-empty; else fall back to bound `classes`. Each
+// per-row $view path resolves on the row's own class_progression view
+// (validation_message in 02_class.rpgs already does this with
+// $class?.$view?.class_progression_edit_class_select).
+calc resource<class_progression>[] effective_classes(name = "Classes (effective)") =
+  if !isEmpty(($view?.edit_character_class_classes? ?? []))
+    then $view?.edit_character_class_classes? ?? []
+    else classes;
+
 calc integer level(name = "Character Level") =
-  add(map(classes, mapper = ($c) => $c.class_level_effective));
+  add(map(effective_classes, mapper = ($c) => $c.class_level_effective));
 
 calc string description(name = "Description") =
   concat([
@@ -207,7 +226,7 @@ base string ability_score_method(name = "Ability score method") = "point_buy_15"
 // -4, >=18 caps at 17).
 //
 // B.0.5 — CRITICAL reactivity fix. These read the stepper widget's LIVE
-// $view value ($view.edit_character_ability_scores_<abbr>), NOT the bound
+// $view value ($view?.edit_character_ability_scores_<abbr>), NOT the bound
 // *_score_base char stat. A stat() stepper behaves like select: it updates
 // $view.<widgetId> live on-page but the bound stat is stale until the
 // page commits. Upstream's live point-buy counter
@@ -215,87 +234,87 @@ base string ability_score_method(name = "Ability score method") = "point_buy_15"
 // reason. Reading the char stat here was why the counter was stale every
 // session through B.0.4. Default 10 = the score default (0 cost).
 calc integer str_point_buy_cost(name = "STR point-buy cost") = when {
-  ($view.edit_character_ability_scores_str? ?? 10) <= 7 -> -4,
-  ($view.edit_character_ability_scores_str? ?? 10) == 8 -> -2,
-  ($view.edit_character_ability_scores_str? ?? 10) == 9 -> -1,
-  ($view.edit_character_ability_scores_str? ?? 10) == 10 -> 0,
-  ($view.edit_character_ability_scores_str? ?? 10) == 11 -> 1,
-  ($view.edit_character_ability_scores_str? ?? 10) == 12 -> 2,
-  ($view.edit_character_ability_scores_str? ?? 10) == 13 -> 3,
-  ($view.edit_character_ability_scores_str? ?? 10) == 14 -> 5,
-  ($view.edit_character_ability_scores_str? ?? 10) == 15 -> 7,
-  ($view.edit_character_ability_scores_str? ?? 10) == 16 -> 10,
-  ($view.edit_character_ability_scores_str? ?? 10) == 17 -> 13,
+  ($view?.edit_character_ability_scores_str? ?? 10) <= 7 -> -4,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 8 -> -2,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 9 -> -1,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 10 -> 0,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 11 -> 1,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 12 -> 2,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 13 -> 3,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 14 -> 5,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 15 -> 7,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 16 -> 10,
+  ($view?.edit_character_ability_scores_str? ?? 10) == 17 -> 13,
   else -> 17,
 };
 calc integer dex_point_buy_cost(name = "DEX point-buy cost") = when {
-  ($view.edit_character_ability_scores_dex? ?? 10) <= 7 -> -4,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 8 -> -2,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 9 -> -1,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 10 -> 0,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 11 -> 1,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 12 -> 2,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 13 -> 3,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 14 -> 5,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 15 -> 7,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 16 -> 10,
-  ($view.edit_character_ability_scores_dex? ?? 10) == 17 -> 13,
+  ($view?.edit_character_ability_scores_dex? ?? 10) <= 7 -> -4,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 8 -> -2,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 9 -> -1,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 10 -> 0,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 11 -> 1,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 12 -> 2,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 13 -> 3,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 14 -> 5,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 15 -> 7,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 16 -> 10,
+  ($view?.edit_character_ability_scores_dex? ?? 10) == 17 -> 13,
   else -> 17,
 };
 calc integer con_point_buy_cost(name = "CON point-buy cost") = when {
-  ($view.edit_character_ability_scores_con? ?? 10) <= 7 -> -4,
-  ($view.edit_character_ability_scores_con? ?? 10) == 8 -> -2,
-  ($view.edit_character_ability_scores_con? ?? 10) == 9 -> -1,
-  ($view.edit_character_ability_scores_con? ?? 10) == 10 -> 0,
-  ($view.edit_character_ability_scores_con? ?? 10) == 11 -> 1,
-  ($view.edit_character_ability_scores_con? ?? 10) == 12 -> 2,
-  ($view.edit_character_ability_scores_con? ?? 10) == 13 -> 3,
-  ($view.edit_character_ability_scores_con? ?? 10) == 14 -> 5,
-  ($view.edit_character_ability_scores_con? ?? 10) == 15 -> 7,
-  ($view.edit_character_ability_scores_con? ?? 10) == 16 -> 10,
-  ($view.edit_character_ability_scores_con? ?? 10) == 17 -> 13,
+  ($view?.edit_character_ability_scores_con? ?? 10) <= 7 -> -4,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 8 -> -2,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 9 -> -1,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 10 -> 0,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 11 -> 1,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 12 -> 2,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 13 -> 3,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 14 -> 5,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 15 -> 7,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 16 -> 10,
+  ($view?.edit_character_ability_scores_con? ?? 10) == 17 -> 13,
   else -> 17,
 };
 calc integer int_point_buy_cost(name = "INT point-buy cost") = when {
-  ($view.edit_character_ability_scores_int? ?? 10) <= 7 -> -4,
-  ($view.edit_character_ability_scores_int? ?? 10) == 8 -> -2,
-  ($view.edit_character_ability_scores_int? ?? 10) == 9 -> -1,
-  ($view.edit_character_ability_scores_int? ?? 10) == 10 -> 0,
-  ($view.edit_character_ability_scores_int? ?? 10) == 11 -> 1,
-  ($view.edit_character_ability_scores_int? ?? 10) == 12 -> 2,
-  ($view.edit_character_ability_scores_int? ?? 10) == 13 -> 3,
-  ($view.edit_character_ability_scores_int? ?? 10) == 14 -> 5,
-  ($view.edit_character_ability_scores_int? ?? 10) == 15 -> 7,
-  ($view.edit_character_ability_scores_int? ?? 10) == 16 -> 10,
-  ($view.edit_character_ability_scores_int? ?? 10) == 17 -> 13,
+  ($view?.edit_character_ability_scores_int? ?? 10) <= 7 -> -4,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 8 -> -2,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 9 -> -1,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 10 -> 0,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 11 -> 1,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 12 -> 2,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 13 -> 3,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 14 -> 5,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 15 -> 7,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 16 -> 10,
+  ($view?.edit_character_ability_scores_int? ?? 10) == 17 -> 13,
   else -> 17,
 };
 calc integer wis_point_buy_cost(name = "WIS point-buy cost") = when {
-  ($view.edit_character_ability_scores_wis? ?? 10) <= 7 -> -4,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 8 -> -2,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 9 -> -1,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 10 -> 0,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 11 -> 1,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 12 -> 2,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 13 -> 3,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 14 -> 5,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 15 -> 7,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 16 -> 10,
-  ($view.edit_character_ability_scores_wis? ?? 10) == 17 -> 13,
+  ($view?.edit_character_ability_scores_wis? ?? 10) <= 7 -> -4,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 8 -> -2,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 9 -> -1,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 10 -> 0,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 11 -> 1,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 12 -> 2,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 13 -> 3,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 14 -> 5,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 15 -> 7,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 16 -> 10,
+  ($view?.edit_character_ability_scores_wis? ?? 10) == 17 -> 13,
   else -> 17,
 };
 calc integer cha_point_buy_cost(name = "CHA point-buy cost") = when {
-  ($view.edit_character_ability_scores_cha? ?? 10) <= 7 -> -4,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 8 -> -2,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 9 -> -1,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 10 -> 0,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 11 -> 1,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 12 -> 2,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 13 -> 3,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 14 -> 5,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 15 -> 7,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 16 -> 10,
-  ($view.edit_character_ability_scores_cha? ?? 10) == 17 -> 13,
+  ($view?.edit_character_ability_scores_cha? ?? 10) <= 7 -> -4,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 8 -> -2,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 9 -> -1,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 10 -> 0,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 11 -> 1,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 12 -> 2,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 13 -> 3,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 14 -> 5,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 15 -> 7,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 16 -> 10,
+  ($view?.edit_character_ability_scores_cha? ?? 10) == 17 -> 13,
   else -> 17,
 };
 
@@ -336,15 +355,15 @@ calc integer skill_ranks_budget(name = "Skill ranks budget (total)") =
   + (if (race?.id ?? "") == "human__crb_" then level else 0);
 
 calc integer skill_ranks_spent(name = "Skill ranks spent") =
-  ($view.edit_skill_row_ranks_acrobatics? ?? 0) + ($view.edit_skill_row_ranks_appraise? ?? 0) + ($view.edit_skill_row_ranks_bluff? ?? 0) + ($view.edit_skill_row_ranks_climb? ?? 0) +
-  ($view.edit_skill_row_ranks_craft? ?? 0) + ($view.edit_skill_row_ranks_diplomacy? ?? 0) + ($view.edit_skill_row_ranks_disable_device? ?? 0) + ($view.edit_skill_row_ranks_disguise? ?? 0) +
-  ($view.edit_skill_row_ranks_escape_artist? ?? 0) + ($view.edit_skill_row_ranks_fly? ?? 0) + ($view.edit_skill_row_ranks_handle_animal? ?? 0) + ($view.edit_skill_row_ranks_heal? ?? 0) +
-  ($view.edit_skill_row_ranks_intimidate? ?? 0) + ($view.edit_skill_row_ranks_knowledge_arcana? ?? 0) + ($view.edit_skill_row_ranks_knowledge_dungeoneering? ?? 0) + ($view.edit_skill_row_ranks_knowledge_engineering? ?? 0) +
-  ($view.edit_skill_row_ranks_knowledge_geography? ?? 0) + ($view.edit_skill_row_ranks_knowledge_history? ?? 0) + ($view.edit_skill_row_ranks_knowledge_local? ?? 0) + ($view.edit_skill_row_ranks_knowledge_nature? ?? 0) +
-  ($view.edit_skill_row_ranks_knowledge_nobility? ?? 0) + ($view.edit_skill_row_ranks_knowledge_planes? ?? 0) + ($view.edit_skill_row_ranks_knowledge_religion? ?? 0) + ($view.edit_skill_row_ranks_linguistics? ?? 0) +
-  ($view.edit_skill_row_ranks_perception? ?? 0) + ($view.edit_skill_row_ranks_perform? ?? 0) + ($view.edit_skill_row_ranks_profession? ?? 0) + ($view.edit_skill_row_ranks_ride? ?? 0) +
-  ($view.edit_skill_row_ranks_sense_motive? ?? 0) + ($view.edit_skill_row_ranks_sleight_of_hand? ?? 0) + ($view.edit_skill_row_ranks_spellcraft? ?? 0) + ($view.edit_skill_row_ranks_stealth? ?? 0) +
-  ($view.edit_skill_row_ranks_survival? ?? 0) + ($view.edit_skill_row_ranks_swim? ?? 0) + ($view.edit_skill_row_ranks_use_magic_device? ?? 0);
+  ($view?.edit_skill_row_ranks_acrobatics? ?? 0) + ($view?.edit_skill_row_ranks_appraise? ?? 0) + ($view?.edit_skill_row_ranks_bluff? ?? 0) + ($view?.edit_skill_row_ranks_climb? ?? 0) +
+  ($view?.edit_skill_row_ranks_craft? ?? 0) + ($view?.edit_skill_row_ranks_diplomacy? ?? 0) + ($view?.edit_skill_row_ranks_disable_device? ?? 0) + ($view?.edit_skill_row_ranks_disguise? ?? 0) +
+  ($view?.edit_skill_row_ranks_escape_artist? ?? 0) + ($view?.edit_skill_row_ranks_fly? ?? 0) + ($view?.edit_skill_row_ranks_handle_animal? ?? 0) + ($view?.edit_skill_row_ranks_heal? ?? 0) +
+  ($view?.edit_skill_row_ranks_intimidate? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_arcana? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_dungeoneering? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_engineering? ?? 0) +
+  ($view?.edit_skill_row_ranks_knowledge_geography? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_history? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_local? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_nature? ?? 0) +
+  ($view?.edit_skill_row_ranks_knowledge_nobility? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_planes? ?? 0) + ($view?.edit_skill_row_ranks_knowledge_religion? ?? 0) + ($view?.edit_skill_row_ranks_linguistics? ?? 0) +
+  ($view?.edit_skill_row_ranks_perception? ?? 0) + ($view?.edit_skill_row_ranks_perform? ?? 0) + ($view?.edit_skill_row_ranks_profession? ?? 0) + ($view?.edit_skill_row_ranks_ride? ?? 0) +
+  ($view?.edit_skill_row_ranks_sense_motive? ?? 0) + ($view?.edit_skill_row_ranks_sleight_of_hand? ?? 0) + ($view?.edit_skill_row_ranks_spellcraft? ?? 0) + ($view?.edit_skill_row_ranks_stealth? ?? 0) +
+  ($view?.edit_skill_row_ranks_survival? ?? 0) + ($view?.edit_skill_row_ranks_swim? ?? 0) + ($view?.edit_skill_row_ranks_use_magic_device? ?? 0);
 
 calc integer skill_ranks_remaining(name = "Skill ranks remaining") =
   skill_ranks_budget - skill_ranks_spent;
@@ -438,8 +457,10 @@ calc integer max_hp(name = "Max HP") =
 
 // ---------- BASE ATTACK BONUS ----------
 
+// Same fix as `level` above: iterate effective_classes (in-flight $view
+// rows on the creation page, committed `classes` everywhere else).
 calc integer base_attack_bonus(name = "Base Attack Bonus", abbreviation = "BAB") =
-  add(map(classes, mapper = ($c) => when {
+  add(map(effective_classes, mapper = ($c) => when {
     ($c.class_effective?.bab_progression ?? "") == "full" -> $c.class_level_effective,
     ($c.class_effective?.bab_progression ?? "") == "three_quarters" ->
       divide([($c.class_level_effective * 3), 4], rounding_method = "down"),
@@ -451,7 +472,7 @@ calc integer base_attack_bonus(name = "Base Attack Bonus", abbreviation = "BAB")
 // ---------- SAVING THROWS ----------
 
 calc integer fortitude_base(name = "Fort base (class sum)") =
-  add(map(classes, mapper = ($c) => when {
+  add(map(effective_classes, mapper = ($c) => when {
     ($c.class_effective?.fortitude_progression ?? "") == "good" ->
       2 + divide([$c.class_level_effective, 2], rounding_method = "down"),
     ($c.class_effective?.fortitude_progression ?? "") == "poor" ->
@@ -460,7 +481,7 @@ calc integer fortitude_base(name = "Fort base (class sum)") =
   }));
 
 calc integer reflex_base(name = "Ref base (class sum)") =
-  add(map(classes, mapper = ($c) => when {
+  add(map(effective_classes, mapper = ($c) => when {
     ($c.class_effective?.reflex_progression ?? "") == "good" ->
       2 + divide([$c.class_level_effective, 2], rounding_method = "down"),
     ($c.class_effective?.reflex_progression ?? "") == "poor" ->
@@ -469,7 +490,7 @@ calc integer reflex_base(name = "Ref base (class sum)") =
   }));
 
 calc integer will_base(name = "Will base (class sum)") =
-  add(map(classes, mapper = ($c) => when {
+  add(map(effective_classes, mapper = ($c) => when {
     ($c.class_effective?.will_progression ?? "") == "good" ->
       2 + divide([$c.class_level_effective, 2], rounding_method = "down"),
     ($c.class_effective?.will_progression ?? "") == "poor" ->
@@ -872,7 +893,52 @@ calc integer use_magic_device(name = "Use Magic Device") =
 
 // Class skill list: union across all classes
 calc string[] class_skill_list(name = "Class skill list") =
-  flatMap(classes, mapper = ($c) => ($c.class_effective?.class_skills ?? []));
+  flatMap(effective_classes, mapper = ($c) => ($c.class_effective?.class_skills ?? []));
+
+// Display-name projection: turn the snake_case ids into the Title Case
+// labels used everywhere else (the 04_skills.rpgs row labels are hand-
+// coded to these). Without this, the "Your class skills: …" caption on
+// the skills page leaks raw ids like "handle_animal,
+// knowledge_dungeoneering" — visible in the emulator video 2026-05-17.
+calc string[] class_skill_list_display(name = "Class skill list (display)") =
+  map(class_skill_list, mapper = ($s) => when {
+    $s == "acrobatics" -> "Acrobatics",
+    $s == "appraise" -> "Appraise",
+    $s == "bluff" -> "Bluff",
+    $s == "climb" -> "Climb",
+    $s == "craft" -> "Craft",
+    $s == "diplomacy" -> "Diplomacy",
+    $s == "disable_device" -> "Disable Device",
+    $s == "disguise" -> "Disguise",
+    $s == "escape_artist" -> "Escape Artist",
+    $s == "fly" -> "Fly",
+    $s == "handle_animal" -> "Handle Animal",
+    $s == "heal" -> "Heal",
+    $s == "intimidate" -> "Intimidate",
+    $s == "knowledge_arcana" -> "Knowledge (Arcana)",
+    $s == "knowledge_dungeoneering" -> "Knowledge (Dungeoneering)",
+    $s == "knowledge_engineering" -> "Knowledge (Engineering)",
+    $s == "knowledge_geography" -> "Knowledge (Geography)",
+    $s == "knowledge_history" -> "Knowledge (History)",
+    $s == "knowledge_local" -> "Knowledge (Local)",
+    $s == "knowledge_nature" -> "Knowledge (Nature)",
+    $s == "knowledge_nobility" -> "Knowledge (Nobility)",
+    $s == "knowledge_planes" -> "Knowledge (Planes)",
+    $s == "knowledge_religion" -> "Knowledge (Religion)",
+    $s == "linguistics" -> "Linguistics",
+    $s == "perception" -> "Perception",
+    $s == "perform" -> "Perform",
+    $s == "profession" -> "Profession",
+    $s == "ride" -> "Ride",
+    $s == "sense_motive" -> "Sense Motive",
+    $s == "sleight_of_hand" -> "Sleight of Hand",
+    $s == "spellcraft" -> "Spellcraft",
+    $s == "stealth" -> "Stealth",
+    $s == "survival" -> "Survival",
+    $s == "swim" -> "Swim",
+    $s == "use_magic_device" -> "Use Magic Device",
+    else -> $s,
+  });
 
 // ---------- FEATS / SPELLS / EQUIPMENT ----------
 
@@ -1098,11 +1164,11 @@ calc string level_up_prestige_unmet_prereqs(name = "Unmet prestige prerequisites
   );
 
 // Resolves the selected class back to its class_progression by matching
-// $view.level_up_select_class? against $character.classes[*].class.id.
+// $view?.level_up_select_class? against $character.classes[*].class.id.
 calc resource<class_progression> level_up_selected_class_progression(name = "Selected existing class when levelling up") =
   findFirst(
     classes,
-    filter = ($findFirstValue) => ($findFirstValue.class?.id == $view.level_up_select_class?),
+    filter = ($findFirstValue) => ($findFirstValue.class?.id == $view?.level_up_select_class?),
   );
 
 // --- B.0 Task 7 — PF1e level-up walkthrough ---
@@ -1151,7 +1217,7 @@ calc integer level_up_class_per_level_hp(name = "HP for this class level (method
 // #13: the bound stat temp_level_up_favored_choice is stale until
 // on_level_up_confirm. B.0.7 (gotcha #14): the widget-id path component
 // MUST carry the trailing `?` conditional-path operator
-// ($view.level_up_favored_select?) — without it, when the favored
+// ($view?.level_up_favored_select?) — without it, when the favored
 // widget hasn't rendered yet (1->2 level-up: no favored class chosen
 // during creation) the bare path throws PathNotFoundException before
 // `?? "hp"` can apply. The `?` makes the missing path resolve to null,
@@ -1159,9 +1225,9 @@ calc integer level_up_class_per_level_hp(name = "HP for this class level (method
 // (level_up_favored_is_hp, level_up_asi_is_*) keep reading the bound
 // stat — by confirm time it is committed (device-verified working).
 calc integer level_up_favored_hp_bonus(name = "Favored class +1 HP") =
-  if ($view.level_up_favored_select? ?? "hp") == "hp" then 1 else 0;
+  if ($view?.level_up_favored_select? ?? "hp") == "hp" then 1 else 0;
 calc integer level_up_favored_skill_bonus(name = "Favored class +1 skill rank") =
-  if ($view.level_up_favored_select? ?? "hp") == "skill" then 1 else 0;
+  if ($view?.level_up_favored_select? ?? "hp") == "skill" then 1 else 0;
 
 calc integer level_up_hp_gain_preview(name = "HP gained this level") =
   level_up_class_per_level_hp + constitution_modifier + level_up_favored_hp_bonus;
@@ -1175,8 +1241,8 @@ calc bool level_up_is_caster(name = "Selected level-up class is a caster") =
 
 // Live ASI target for the preview text (bound stat is stale in the popup).
 calc string level_up_asi_display(name = "Level-up ASI target (preview)") =
-  if isEmpty($view.level_up_asi_select? ?? "") then "(none chosen)"
-  else ($view.level_up_asi_select? ?? "");
+  if isEmpty($view?.level_up_asi_select? ?? "") then "(none chosen)"
+  else ($view?.level_up_asi_select? ?? "");
 
 // --- B.0.6 BAB / save deltas for the preview ---
 // Predicted change from the selected class's NEXT level. L = that class's

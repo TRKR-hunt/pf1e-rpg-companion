@@ -40,13 +40,41 @@ character_creation_page edit_details_title() =
             ),
           ],
         ),
+        // Deity duality fix (audit P4): when any class requires a deity
+        // (Cleric, Paladin, Inquisitor, etc.), the deity is picked on
+        // the Class page via the resource picker — show it READ-ONLY
+        // here and direct edits back to the Class page. Otherwise (no
+        // class requires a deity), keep the free-text field for
+        // roleplay-only deity entry so non-Cleric characters can still
+        // record their patron. This prevents the resource-picker deity
+        // and the free-text deity from displaying different values.
+        text(
+          id = "edit_character_details_deity_locked_display",
+          text = concat([
+            "Deity: ",
+            joinToString(
+              filter(
+                map(classes, mapper = ($c) => ($c.selected_deity?.name ?? "")),
+                filter = ($n) => $n != ""),
+              separator = " / "),
+            "  (set on the Class page)",
+          ]),
+          style = "text",
+          margin_top = 8,
+          is_visible = !isEmpty(filter(
+            map(classes, mapper = ($c) => ($c.selected_deity?.name ?? "")),
+            filter = ($n) => $n != "")),
+        ),
         text(
           id = "edit_character_details_deity",
           edit_stat = "deity",
           style = "text",
           max_length = 60,
           margin_top = 8,
-          label = "Deity",
+          label = "Deity (optional)",
+          is_visible = isEmpty(filter(
+            map(classes, mapper = ($c) => ($c.selected_deity?.name ?? "")),
+            filter = ($n) => $n != "")),
         ),
         text(
           id = "edit_character_details_homeland",

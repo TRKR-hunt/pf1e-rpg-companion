@@ -1,11 +1,34 @@
+// Race picker subtitle — adds at-a-glance Size + Speed + ability
+// modifiers under each race name in the picker list, mirroring the 5e
+// pattern. Lore-only races keep their "(Lore Only)" marker. Audit P5
+// fix from COWORK_CREATOR_UX_DIFF.md (2026-05-17 emulator video).
 view race_search_item() =
   listItem(
     id = "race_search_item",
     title = name,
-    subtitle = if is_lore_only then "(Lore Only)" else "",
+    subtitle = if is_lore_only
+      then "(Lore Only)"
+      else concat([
+        when {
+          size == "fine" -> "Fine",
+          size == "diminutive" -> "Diminutive",
+          size == "tiny" -> "Tiny",
+          size == "small" -> "Small",
+          size == "medium" -> "Medium",
+          size == "large" -> "Large",
+          size == "huge" -> "Huge",
+          size == "gargantuan" -> "Gargantuan",
+          size == "colossal" -> "Colossal",
+          else -> size,
+        },
+        ", Speed ", base_speed, " ft.",
+        if isEmpty(ability_score_modifiers)
+          then ""
+          else concat([" — ", joinToString(ability_score_modifiers, separator = ", ")]),
+      ]),
     chips = [
       createChip(
-        id = "spell_search_item_source_chip",
+        id = "race_search_item_source_chip",
         background_color = "hint",
         style = "compact",
         resource_id = "source",

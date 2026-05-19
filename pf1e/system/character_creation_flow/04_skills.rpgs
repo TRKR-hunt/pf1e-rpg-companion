@@ -25,7 +25,7 @@ character_creation_page edit_skills_title() =
           id = "edit_character_skills_class_skills_summary",
           text = concat([
             "Your class skills: ",
-            joinToString(class_skill_list, separator = ", "),
+            joinToString(class_skill_list_display, separator = ", "),
           ]),
           style = "caption",
           margin_top = 4,
