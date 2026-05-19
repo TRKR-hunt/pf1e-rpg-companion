@@ -59,8 +59,7 @@ character_creation_page edit_race_title() =
         text(
           id = "edit_character_race_preview_name",
           text = concat([($view.edit_character_race_select?.name ?? ""),
-            "  —  Size ", ($view.edit_character_race_select?.size ?? "medium"),
-            ", Speed ", ($view.edit_character_race_select?.base_speed ?? 30), " ft"]),
+            "  —  ", ($view.edit_character_race_select?.race_stat_block ?? "")]),
           style = "text",
           bold = true,
           is_visible = $view.edit_character_race_select? != null,
@@ -68,7 +67,7 @@ character_creation_page edit_race_title() =
         text(
           id = "edit_character_race_preview_ability_mods",
           text = concat(["Ability modifiers: ",
-            joinToString(($view.edit_character_race_select?.ability_score_modifiers ?? []), separator = ", ")]),
+            ($view.edit_character_race_select?.mechanical_ability_mods_display ?? "none")]),
           style = "text",
           is_visible = $view.edit_character_race_select? != null,
         ),

@@ -117,5 +117,127 @@ view race_display() =
         margin_top = 12,
         is_visible = !isEmpty(description),
       ),
+
+      // ---------- B.2 structured mechanical sections ----------
+      text(
+        id = "race_display_statblock",
+        text = race_stat_block,
+        style = "text",
+        bold = true,
+        margin_top = 12,
+        is_visible = !is_lore_only,
+      ),
+      composite(
+        id = "race_display_senses_row",
+        subviews = [
+          text(id = "race_display_senses_label", text = "Senses: ", style = "text", bold = true),
+          text(id = "race_display_senses_value", text = senses_display, style = "text"),
+        ],
+        is_visible = !isEmpty(senses_display) && !is_lore_only,
+      ),
+      text(
+        id = "race_display_rf_standard_h", text = "Standard Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_features_standard),
+      ),
+      text(
+        id = "race_display_rf_standard", text = joinToString(racial_features_standard, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(racial_features_standard),
+      ),
+      text(
+        id = "race_display_rf_defense_h", text = "Defense Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_features_defense),
+      ),
+      text(
+        id = "race_display_rf_defense", text = joinToString(racial_features_defense, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(racial_features_defense),
+      ),
+      text(
+        id = "race_display_rf_offense_h", text = "Offense Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_features_offense),
+      ),
+      text(
+        id = "race_display_rf_offense", text = joinToString(racial_features_offense, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(racial_features_offense),
+      ),
+      text(
+        id = "race_display_rf_senses_h", text = "Senses Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_features_senses),
+      ),
+      text(
+        id = "race_display_rf_senses", text = joinToString(racial_features_senses, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(racial_features_senses),
+      ),
+      text(
+        id = "race_display_rf_skill_h", text = "Feat and Skill Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_features_skill),
+      ),
+      text(
+        id = "race_display_rf_skill", text = joinToString(racial_features_skill, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(racial_features_skill),
+      ),
+      text(
+        id = "race_display_rf_move_h", text = "Movement / Magical Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_features_movement),
+      ),
+      text(
+        id = "race_display_rf_move", text = joinToString(racial_features_movement, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(racial_features_movement),
+      ),
+      text(
+        id = "race_display_rf_other_h", text = "Other Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_features_other),
+      ),
+      text(
+        id = "race_display_rf_other", text = joinToString(racial_features_other, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(racial_features_other),
+      ),
+      text(
+        id = "race_display_alt_h", text = "Alternate Racial Traits",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(alternate_racial_traits_display),
+      ),
+      text(
+        id = "race_display_alt", text = joinToString(alternate_racial_traits_display, separator = "\n\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(alternate_racial_traits_display),
+      ),
+      text(
+        id = "race_display_fcb_h", text = "Favored Class Options",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(favored_class_options_display),
+      ),
+      text(
+        id = "race_display_fcb", text = joinToString(favored_class_options_display, separator = "\n"),
+        style = "text", markdown = true, is_visible = !isEmpty(favored_class_options_display),
+      ),
+      text(
+        id = "race_display_racial_feats_h", text = "Racial Feats",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_feats_names),
+      ),
+      text(
+        id = "race_display_racial_feats", text = joinToString(racial_feats_names, separator = ", "),
+        style = "text", is_visible = !isEmpty(racial_feats_names),
+      ),
+      text(
+        id = "race_display_racial_arch_h", text = "Racial Archetypes",
+        style = "subhead", margin_top = 12, is_visible = !isEmpty(racial_archetypes_names),
+      ),
+      text(
+        id = "race_display_racial_arch", text = joinToString(racial_archetypes_names, separator = ", "),
+        style = "text", is_visible = !isEmpty(racial_archetypes_names),
+      ),
+      text(
+        id = "race_display_age_h", text = "Starting Age",
+        style = "subhead", margin_top = 12, is_visible = has_age_table,
+      ),
+      text(
+        id = "race_display_age", text = age_table_display, style = "text",
+        is_visible = has_age_table,
+      ),
+      text(
+        id = "race_display_hw_h", text = "Height & Weight",
+        style = "subhead", margin_top = 12, is_visible = has_hw_table,
+      ),
+      text(
+        id = "race_display_hw", text = hw_table_display, style = "text",
+        is_visible = has_hw_table,
+      ),
     ],
   );

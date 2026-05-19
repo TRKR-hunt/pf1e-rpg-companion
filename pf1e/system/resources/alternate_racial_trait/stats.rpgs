@@ -1,0 +1,19 @@
+// B.2 — alternate racial trait, stored INLINE in each race's
+// alternate_racial_traits array (gotcha #16). `replaces` holds the
+// racial_feature ids (on the SAME race) this trait swaps out; it is
+// only populated when the generator could confidently resolve the
+// "This racial trait replaces X" prose to a real feature id on this
+// race (zero-bad-data assert — see scripts/build_races_v2.py).
+
+base string name(name = "Name") = "";
+
+base string description(name = "Description") = "";
+
+base string[] replaces(name = "Replaces racial feature ids") = [];
+
+// Advanced Race Guide RP cost when the page states one (e.g.
+// "Behind the Veil (1 RP)"). 0 = not stated on the source page.
+base integer rp_cost(name = "RP cost") = 0;
+
+calc string display_label(name = "Display label") =
+  if isEmpty(name) then description else concat([name, ": ", description]);

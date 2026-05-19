@@ -382,3 +382,183 @@ calc string display_unarmed_strike(name = "Display unarmed strike") =
 // description text from matched compendium_entry records.
 base bool is_lore_only(name = "Lore only") = false;
 base string lore(name = "Lore") = "";
+
+// ====================================================================
+// B.2 — full mechanical race schema extension. Every field below has a
+// safe default so the 75 untouched lore-only instances still load
+// unchanged. The six *_racial_mod fields (str/dex/con/int/wis/cha,
+// declared above ~L24) remain THE mechanical chain character_stats
+// reads (race_effective.<x>_racial_mod ?? 0); B.2's job is to populate
+// them on every mechanical race. Authoritative source for spreadsheet
+// races: reference/PF1e_Data.xlsx. gotcha #16: the resource<T>[] arrays
+// are inline — zero added top-level instances.
+// ====================================================================
+
+// --- Floating ability bonus (Human/Half-Elf/Half-Orc "Any +2") ------
+base integer floating_ability_count(name = "Floating ability picks") = 0;
+base integer floating_ability_amount(name = "Floating ability amount") = 2;
+
+// --- Type & subtype (race_type kept distinct from legacy `type`,
+//     which stores the combined "humanoid (dwarf)" display string) ---
+base string race_type(name = "Creature type (B.2)") = "";
+base string[] race_subtypes(name = "Creature subtypes") = [];
+
+// --- Speeds (canonical B.2 _ft fields; legacy speed/_speed kept) -----
+base integer base_speed_ft(name = "Base speed (ft)") = 30;
+base integer swim_speed_ft(name = "Swim speed (ft)") = 0;
+base integer fly_speed_ft(name = "Fly speed (ft)") = 0;
+base string fly_maneuverability(name = "Fly maneuverability") = "";
+base integer climb_speed_ft(name = "Climb speed (ft)") = 0;
+base integer burrow_speed_ft(name = "Burrow speed (ft)") = 0;
+
+// --- Languages ------------------------------------------------------
+base string[] languages_default(name = "Default languages") = [];
+base string[] languages_bonus_pool(name = "Bonus language pool") = [];
+
+// --- Vision / senses ------------------------------------------------
+base string[] vision_traits(name = "Vision traits") = [];
+base integer darkvision_range_ft(name = "Darkvision range (ft)") = 0;
+base bool low_light_vision(name = "Low-light vision") = false;
+base string[] senses_other(name = "Other senses") = [];
+
+// --- Structured racial features (inline; gotcha #16) ----------------
+base resource<racial_feature>[] racial_features(name = "Racial features") = [];
+base resource<alternate_racial_trait>[] alternate_racial_traits(name = "Alternate racial traits") =
+  [];
+base resource<favored_class_option>[] favored_class_options(name = "Favored class options") =
+  [];
+
+// --- Racial archetype / feat cross-references (names captured this
+//     phase; resource<> resolution + UX deferred — see report) -------
+base string[] racial_archetypes_names(name = "Racial archetype names") = [];
+base string[] racial_feats_names(name = "Racial feat names") = [];
+
+// --- Age & height/weight tables -------------------------------------
+base integer starting_age_adulthood(name = "Adulthood age") = 0;
+base string starting_age_intuitive(name = "Intuitive age modifier") = "";
+base string starting_age_self_taught(name = "Self-taught age modifier") = "";
+base string starting_age_trained(name = "Trained age modifier") = "";
+base string height_male_base(name = "Male base height") = "";
+base string height_male_modifier(name = "Male height modifier") = "";
+base string height_female_base(name = "Female base height") = "";
+base string height_female_modifier(name = "Female height modifier") = "";
+base string weight_male_base(name = "Male base weight") = "";
+base string weight_male_modifier(name = "Male weight modifier") = "";
+base string weight_female_base(name = "Female base weight") = "";
+base string weight_female_modifier(name = "Female weight modifier") = "";
+
+// --- 14-column summary strings (verbatim spreadsheet cells) ---------
+base string defensive_traits_summary(name = "Defensive traits") = "";
+base string offensive_traits_summary(name = "Offensive traits") = "";
+base string skill_bonuses_summary(name = "Skill bonuses") = "";
+base string spell_like_abilities_summary(name = "Spell-like / Su abilities") = "";
+base string bonus_feats_summary(name = "Bonus feats") = "";
+
+// --- Reference-only -------------------------------------------------
+base integer race_points(name = "Race points (RP cost)") = 0;
+
+// ---------- B.2 display calcs (wired by Task 5) ---------------------
+calc string mechanical_ability_mods_display(name = "Ability mods (mechanical)") =
+  if floating_ability_count > 0
+    then concat(["Any +", floating_ability_amount, " (choose ", floating_ability_count, ")"])
+    else joinToString(
+        flatAppend(
+          [
+            (if 0 != str_racial_mod then [concat(["STR ", (if str_racial_mod > 0 then "+" else ""), str_racial_mod])] else []),
+            (if 0 != dex_racial_mod then [concat(["DEX ", (if dex_racial_mod > 0 then "+" else ""), dex_racial_mod])] else []),
+            (if 0 != con_racial_mod then [concat(["CON ", (if con_racial_mod > 0 then "+" else ""), con_racial_mod])] else []),
+            (if 0 != int_racial_mod then [concat(["INT ", (if int_racial_mod > 0 then "+" else ""), int_racial_mod])] else []),
+            (if 0 != wis_racial_mod then [concat(["WIS ", (if wis_racial_mod > 0 then "+" else ""), wis_racial_mod])] else []),
+            (if 0 != cha_racial_mod then [concat(["CHA ", (if cha_racial_mod > 0 then "+" else ""), cha_racial_mod])] else []),
+          ],
+        ),
+        separator = " / ",
+      );
+
+calc string senses_display(name = "Senses (display)") =
+  joinToString(flatAppend([vision_traits, senses_other]), separator = ", ");
+
+calc string race_stat_block(name = "Race stat block") =
+  joinToString(
+    flatAppend(
+      [
+        [size],
+        [concat([base_speed_ft, " ft."])],
+        (if 0 != swim_speed_ft then [concat(["swim ", swim_speed_ft, " ft."])] else []),
+        (if 0 != fly_speed_ft then [concat(["fly ", fly_speed_ft, " ft."])] else []),
+        (if 0 != climb_speed_ft then [concat(["climb ", climb_speed_ft, " ft."])] else []),
+        (if 0 != burrow_speed_ft then [concat(["burrow ", burrow_speed_ft, " ft."])] else []),
+        (if isEmpty(senses_display) then [] else [senses_display]),
+        (if isEmpty(mechanical_ability_mods_display) then [] else [mechanical_ability_mods_display]),
+      ],
+    ),
+    separator = " · ",
+  );
+
+// Per-category racial_feature display lists (Task 5 wiring; rendered
+// as text+joinToString sections in display_view — no inline display
+// views needed). Each entry: "Name — description".
+calc string[] racial_features_standard(name = "RF standard") =
+  map(filter(racial_features, filter = ($f) => ($f.category == "Standard")),
+    mapper = ($f) => concat([$f.name, " — ", $f.description]));
+calc string[] racial_features_defense(name = "RF defense") =
+  map(filter(racial_features, filter = ($f) => ($f.category == "Defense")),
+    mapper = ($f) => concat([$f.name, " — ", $f.description]));
+calc string[] racial_features_offense(name = "RF offense") =
+  map(filter(racial_features, filter = ($f) => ($f.category == "Offense")),
+    mapper = ($f) => concat([$f.name, " — ", $f.description]));
+calc string[] racial_features_senses(name = "RF senses") =
+  map(filter(racial_features, filter = ($f) => ($f.category == "Senses")),
+    mapper = ($f) => concat([$f.name, " — ", $f.description]));
+calc string[] racial_features_skill(name = "RF skill") =
+  map(filter(racial_features, filter = ($f) => ($f.category == "Skill")),
+    mapper = ($f) => concat([$f.name, " — ", $f.description]));
+calc string[] racial_features_movement(name = "RF movement") =
+  map(filter(racial_features, filter = ($f) => ($f.category == "Movement" || $f.category == "Magic")),
+    mapper = ($f) => concat([$f.name, " — ", $f.description]));
+calc string[] racial_features_other(name = "RF other") =
+  map(filter(racial_features, filter = ($f) => ($f.category == "Other")),
+    mapper = ($f) => concat([$f.name, " — ", $f.description]));
+
+calc string[] alternate_racial_traits_display(name = "Alt traits (display)") =
+  map(
+    alternate_racial_traits,
+    mapper = ($a) => concat(
+      [
+        $a.name,
+        (if $a.rp_cost > 0 then concat([" (", $a.rp_cost, " RP)"]) else ""),
+        ": ",
+        $a.description,
+      ],
+    ),
+  );
+
+calc string[] favored_class_options_display(name = "FCB (display)") =
+  map(
+    favored_class_options,
+    mapper = ($f) => concat([$f.class_name, ": ", $f.description]),
+  );
+
+calc bool has_age_table(name = "Has age table") = starting_age_adulthood > 0;
+calc bool has_hw_table(name = "Has height/weight table") =
+  !isEmpty(height_male_base) || !isEmpty(height_female_base);
+
+calc string age_table_display(name = "Age table (display)") =
+  concat(
+    [
+      "Adulthood ", starting_age_adulthood,
+      "  ·  Intuitive ", starting_age_intuitive,
+      "  ·  Self-taught ", starting_age_self_taught,
+      "  ·  Trained ", starting_age_trained,
+    ],
+  );
+
+calc string hw_table_display(name = "Height/weight (display)") =
+  concat(
+    [
+      "Male: ", height_male_base, " ", height_male_modifier,
+      ", ", weight_male_base, " ", weight_male_modifier,
+      "\nFemale: ", height_female_base, " ", height_female_modifier,
+      ", ", weight_female_base, " ", weight_female_modifier,
+    ],
+  );

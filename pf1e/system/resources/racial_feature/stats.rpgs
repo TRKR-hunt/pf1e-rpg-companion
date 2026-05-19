@@ -1,0 +1,19 @@
+// B.2 — structured, ID-addressable racial feature. Stored INLINE in
+// each race instance's racial_features array (resource<racial_feature>[]),
+// so this adds zero new top-level resource instances (gotcha #16).
+// The `id` (standard resource id, set per instance) is the stable
+// handle that alternate_racial_trait.replaces[] references.
+
+base string name(name = "Name") = "";
+
+// Defense / Offense / Senses / Skill / Movement / Standard / Other.
+base string category(name = "Category") = "Other";
+
+base string description(name = "Description") = "";
+
+// Short rules clause when the prose carries an explicit mechanical
+// effect (e.g. "+2 racial bonus on saves vs poison"). Optional.
+base string mechanical_text(name = "Mechanical text") = "";
+
+calc string display_label(name = "Display label") =
+  if isEmpty(name) then description else concat([name, ": ", description]);

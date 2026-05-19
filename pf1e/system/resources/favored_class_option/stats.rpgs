@@ -1,0 +1,15 @@
+// B.2 — favored class option, stored INLINE in each race's
+// favored_class_options array (gotcha #16). `class_id` is the
+// best-effort resolved class/`prestige_class` instance id; it is
+// left "" when the generator could not confidently resolve the
+// class name from the source sheet (zero-bad-data — the option is
+// still kept for display via class_name + description).
+
+base string class_name(name = "Class name") = "";
+
+base string class_id(name = "Class id") = "";
+
+base string description(name = "Description") = "";
+
+calc string display_label(name = "Display label") =
+  concat([class_name, ": ", description]);

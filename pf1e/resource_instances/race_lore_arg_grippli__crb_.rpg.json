@@ -3,10 +3,10 @@
   "stats": {
     "id": "race_lore_arg_grippli__crb_",
     "name": {
-      "value": "Grippli (6 RP)"
+      "value": "Grippli"
     },
     "source": {
-      "value": "arg"
+      "value": "crb"
     },
     "is_lore_only": {
       "value": false
@@ -16,9 +16,9 @@
     },
     "ability_score_modifiers": {
       "value": [
+        "STR -2 (racial)",
         "DEX +2 (racial)",
-        "WIS +2 (racial)",
-        "STR -2 (racial)"
+        "WIS +2 (racial)"
       ]
     },
     "size": {
@@ -63,6 +63,82 @@
     },
     "cha_racial_mod": {
       "value": 0
+    },
+    "floating_ability_count": {
+      "value": 0
+    },
+    "floating_ability_amount": {
+      "value": 2
+    },
+    "race_type": {
+      "value": "humanoid"
+    },
+    "race_subtypes": {
+      "value": [
+        "grippli"
+      ]
+    },
+    "base_speed_ft": {
+      "value": 30
+    },
+    "swim_speed_ft": {
+      "value": 0
+    },
+    "fly_speed_ft": {
+      "value": 0
+    },
+    "fly_maneuverability": {
+      "value": ""
+    },
+    "climb_speed_ft": {
+      "value": 20
+    },
+    "burrow_speed_ft": {
+      "value": 0
+    },
+    "languages_default": {
+      "value": [
+        "common",
+        "grippli"
+      ]
+    },
+    "vision_traits": {
+      "value": [
+        "Darkvision 60 ft."
+      ]
+    },
+    "darkvision_range_ft": {
+      "value": 60
+    },
+    "low_light_vision": {
+      "value": false
+    },
+    "senses_other": {
+      "value": []
+    },
+    "defensive_traits_summary": {
+      "value": "Swamp stride"
+    },
+    "offensive_traits_summary": {
+      "value": "Weapon familiarity"
+    },
+    "skill_bonuses_summary": {
+      "value": "Stealth (+4)"
+    },
+    "spell_like_abilities_summary": {
+      "value": "–"
+    },
+    "bonus_feats_summary": {
+      "value": "–"
+    },
+    "race_points": {
+      "value": 6
+    },
+    "racial_features": {
+      "value": []
+    },
+    "alternate_racial_traits": {
+      "value": []
     }
   }
 }

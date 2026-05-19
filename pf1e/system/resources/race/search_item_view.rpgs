@@ -21,10 +21,11 @@ view race_search_item() =
           size == "colossal" -> "Colossal",
           else -> size,
         },
-        ", Speed ", base_speed, " ft.",
-        if isEmpty(ability_score_modifiers)
+        ", Speed ", base_speed_ft, " ft.",
+        if isEmpty(senses_display) then "" else concat([" · ", senses_display]),
+        if isEmpty(mechanical_ability_mods_display)
           then ""
-          else concat([" — ", joinToString(ability_score_modifiers, separator = ", ")]),
+          else concat([" — ", mechanical_ability_mods_display]),
       ]),
     chips = [
       createChip(
